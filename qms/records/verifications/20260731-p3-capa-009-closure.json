@@ -1,0 +1,17 @@
+{
+  "ver_id": "VER-2026-016",
+  "timestamp": "2026-07-31T16:20:00",
+  "result": "pass",
+  "linked_tasks": [
+    "P3: CAPA-2026-009 closure — payload-persistence prevention rule"
+  ],
+  "linked_specs": [
+    "qms/process-mappings.md — Dispatch Persistence Rule (section 1, traceability table)"
+  ],
+  "evidence_path": [
+    "qms/capa/open/20260731-capa-ora1-payload-persistence.json moved to qms/capa/closed/ (status=closed, closed_date=2026-07-31, closure_evidence populated)",
+    "qms/process-mappings.md created: Dispatch Persistence Rule documented (full payload in task result | permitted disk path | write-capable lane; verify payload capture BEFORE lane close), cross-linked to NCR-2026-014 + CAPA-2026-009, status CLOSED",
+    "Effectiveness evidence: ora-5 delivered 27-drug payload to permitted disk path on instruction; merge 49/49, schema 88/88, spot-check APPROVE (prior VER-2026-014)"
+  ],
+  "reviewer": "orchestrator"
+}
