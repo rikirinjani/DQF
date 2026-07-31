@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Rosiglitazone number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40011379",
+        "text": "The Data Monitoring Experience in Empagliflozin Randomized Clinical Trials Between 2011 and 2024. In November 2007, a black box warning was mandated for rosiglitazone in type 2 diabetes mellitus (T2DM) based on an increased risk of ischemic cardiovascular (CV) events. The Food and Drug Administration (FDA) issued a directive that a CV outcomes trial must be done for any new diabetes drug to demonstrate no CV harm. Therefore, the Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Pa",
+        "score": 0.4994189143180847,
+        "doi": "10.1007/s43441-025-00749-3",
+        "journal": "Therapeutic innovation & regulatory science",
+        "year": "2024",
+        "rerank_score": 1.5553003549575806,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10579151",
+        "text": "Rosiglitazone has no clinically significant effect on nifedipine pharmacokinetics. To examine the effects of repeat oral dosing of rosiglitazone on the pharmacokinetics of nifedipine, a prototype CYP3A4 substrate, a randomized, open-label, crossover study was performed with two treatment phases separated by a washout period of at least 14 days. Twenty-eight healthy male volunteers received either a single 20 mg oral nifedipine dose or rosiglitazone 8 mg orally once daily for 14 days with a single 20 mg oral",
+        "score": 0.4924662411212921,
+        "doi": "",
+        "journal": "Journal of clinical pharmacology",
+        "year": "1999",
+        "rerank_score": 0.7326067686080933,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17713437",
+        "text": "Rosiglitazone attenuates transplant arteriosclerosis after allogeneic aorta transplantation in rats. Transplant arteriosclerosis is a leading cause of chronic transplant dysfunction and is characterized by occlusive neointima formation in intragraft arteries. Development of transplant arteriosclerosis is refractory to conventional immunosuppressive drugs and adequate therapy is not available. In this study, we determined the efficacy of the synthetic peroxisome proliferator-activated receptor (PPAR)-gamma a",
+        "score": 0.4916916489601135,
+        "doi": "10.1097/01.tp.0000276983.91892.99",
+        "journal": "Transplantation",
+        "year": "2007",
+        "rerank_score": -1.4436157941818237,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Trandolapril number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21133854",
+        "text": "Treatments for bipolar disorder: can number needed to treat/harm help inform clinical decisions? To compare bipolar treatment interventions, using number needed to treat (NNT) and number needed to harm (NNH).",
+        "score": 0.46671584248542786,
+        "doi": "10.1111/j.1600-0447.2010.01645.x",
+        "journal": "Acta psychiatrica Scandinavica",
+        "year": "2010",
+        "rerank_score": -0.8116644024848938,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20628590",
+        "text": "Effect of trandolapril on regression of retinopathy in hypertensive patients with type 2 diabetes: a prespecified analysis of the benedict trial. Background. The effect of angiotensin converting enzyme inhibitors (ACEi) on regression of retinopathy in type 2 diabetics is still ill defined. Methods. We compared the incidence of retinopathy regression in 90 hypertensive type 2 diabetics randomized to at least 3-year blinded ACEi with trandolapril (2 mg/day) or non-ACEi therapy who had preproliferative or prol",
+        "score": 0.46717730164527893,
+        "doi": "10.1155/2010/106384",
+        "journal": "Journal of ophthalmology",
+        "year": "2009",
+        "rerank_score": -1.374953269958496,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38718248",
+        "text": "Use of Intravenous Lipid Emulsion Therapy and Insulin in a Case of Tarka Intoxication. Tarka (trandolapril/verapamil hydrohloride extended-release) is a fixed-dose combination antihypertensive drug formed from verapamil hydrochloride and trandolapril. Toxicologic manifestations of Tarka overdose are altered mental status, bradycardia, hypotension, atrioventricular block (first-degree), hyperglycemia, metabolic acidosis, and shock. We report a case of Tarka toxicity in a 2-year-old girl who presented with al",
+        "score": 0.4827936291694641,
+        "doi": "",
+        "journal": "WMJ : official publication of the State Medical Society of Wisconsin",
+        "year": "2024",
+        "rerank_score": -1.8351467847824097,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

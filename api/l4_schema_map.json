@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-07-31",
+  "audit_ref": "ora-7 cross-class L4 schema audit (ses_04889fd0fffesCa4360B73pWf8)",
+  "policy": "DOCUMENT-ONLY mapping. No field renames applied to api/drugs.json in this cycle. Renaming alone does not fix the underlying type mismatches; coordinated rename + consumer update belongs to a future dev cycle.",
+  "common_core": {
+    "indications": {"type": "string[]", "classes": "all", "semantics": "approved/established indications"},
+    "success_rate": {"type": "float 0-1", "classes": "AH, Diabetes, NSAID, Statin", "semantics": "class-specific: AH=BP-control probability, Diabetes=A1c-goal probability, NSAID=pain relief >=50%, Statin=LDL-goal achievement (field name success_rate_ldl_goal)"},
+    "onset": {"type": "{value: number, unit: string}", "classes": "proposed for all", "semantics": "time to clinical onset; replaces type-inconsistent legacy onset_min (AH/NSAID int minutes, Diabetes string days|hours|weeks)"}
+  },
+  "gi_sub_core": {
+    "pregnancy_safety": {"type": "string", "classes": "PPI, H2RA, Antacid, Alginate, Mucosal Protectant", "semantics": "pregnancy category; NOTE schism: AH/Diabetes/NSAID/Statin carry this at top level, GI drugs inside l4_clinical (server.py reads top-level, making l4_clinical copy redundant)"},
+    "ddi_burden": {"type": "string", "classes": "PPI, H2RA, Antacid, Alginate, Mucosal Protectant", "semantics": "drug-drug interaction burden qualitative"}
+  },
+  "classes": {
+    "Antihypertensive": {
+      "fields": {
+        "nnt_bp_control": {"type": "{value: int, ci_95: string, dose: string}", "semantics": "NNT for BP control", "proposed": "bp_efficacy"},
+        "indications": {"type": "string[]"},
+        "success_rate": {"type": "float 0-1", "semantics": "probability of achieving BP control target"},
+        "onset_min": {"type": "int minutes"}
+      }
+    },
+    "Diabetes": {
+      "fields": {
+        "nnt_bp_control": {"type": "{a1c_reduction: float, unit: '%', dose: string}", "semantics": "A1c reduction efficacy — DIFFERENT shape from Antihypertensive (RISK 1 collision)", "proposed": "a1c_efficacy"},
+        "indications": {"type": "string[]"},
+        "success_rate": {"type": "float 0-1", "semantics": "probability of achieving A1c goal"},
+        "onset_min": {"type": "string days|hours|weeks"}
+      }
+    },
+    "NSAID": {
+      "fields": {
+        "nnt_50_pain_relief": {"type": "{value: float, ci_95: string, dose: string}", "proposed": "nnt_pain_relief"},
+        "indications": {"type": "string[]"},
+        "nnh_gi": {"type": "{value: int, ci_95: string}"},
+        "nnh_cv": {"type": "{value: int, ci_95: string}|null"},
+        "success_rate": {"type": "float 0-1", "semantics": "probability of >=50% pain relief"},
+        "onset_min": {"type": "int minutes"},
+        "note": {"type": "string (optional)", "classes": "paracetamol only"}
+      }
+    },
+    "Statin": {
+      "fields": {
+        "nnt_mace_5yr": {"type": "{value: int, ci_95: string, dose: string}", "proposed": "nnt_mace"},
+        "indications": {"type": "string[]"},
+        "ldl_reduction_mean_pct": {"type": "int"},
+        "myopathy_rate_per_1000": {"type": "float"},
+        "rhabdo_rate_per_1000": {"type": "float"},
+        "success_rate_ldl_goal": {"type": "float 0-1", "proposed": "success_rate (common core)"}
+      }
+    },
+    "PPI": {
+      "fields": {
+        "ee_healing_4wk_pct": {"type": "int"},
+        "ee_healing_8wk_pct": {"type": "int"},
+        "severe_ee_healing_8wk_pct": {"type": "int"},
+        "gerd_symptom_nnt": {"type": "int"},
+        "duodenal_ulcer_healing_4wk_pct": {"type": "int", "proposed": "du_healing_4wk_pct (aligns with Mucosal Protectant du_healing_8wk_pct)"},
+        "maintenance_12mo_pct": {"type": "int"},
+        "h_pylori_eradication_pct": {"type": "int"},
+        "indications": {"type": "string[]"},
+        "pregnancy_safety": {"type": "string", "group": "gi_sub_core"},
+        "ddi_burden": {"type": "string", "group": "gi_sub_core"}
+      }
+    },
+    "H2RA": {
+      "fields": {
+        "ee_healing_8wk_pct": {"type": "int"},
+        "gerd_symptom_nnt": {"type": "int"},
+        "duodenal_ulcer_healing_4wk_pct": {"type": "int", "proposed": "du_healing_4wk_pct"},
+        "indications": {"type": "string[]"},
+        "pregnancy_safety": {"type": "string", "group": "gi_sub_core"},
+        "ddi_burden": {"type": "string", "group": "gi_sub_core"}
+      }
+    },
+    "Antacid": {
+      "fields": {
+        "indications": {"type": "string[]"},
+        "pregnancy_safety": {"type": "string", "group": "gi_sub_core"},
+        "ddi_burden": {"type": "string", "group": "gi_sub_core"}
+      }
+    },
+    "Alginate": {
+      "fields": {
+        "indications": {"type": "string[]"},
+        "pregnancy_safety": {"type": "string", "group": "gi_sub_core"},
+        "ddi_burden": {"type": "string", "group": "gi_sub_core"}
+      }
+    },
+    "Mucosal Protectant": {
+      "fields": {
+        "indications": {"type": "string[]"},
+        "du_healing_8wk_pct": {"type": "int"},
+        "gu_healing_8wk_pct": {"type": "int"},
+        "gerd_healing_8wk_pct": {"type": "int"},
+        "pregnancy_safety": {"type": "string", "group": "gi_sub_core"},
+        "ddi_burden": {"type": "string", "group": "gi_sub_core"},
+        "maintenance_capability": {"type": "string"},
+        "smoking_negates": {"type": "bool"}
+      }
+    }
+  },
+  "risks": [
+    {"id": 1, "severity": "HIGH", "title": "nnt_bp_control semantic collision (false-sharing)", "detail": "Antihypertensive {value,ci_95,dose} vs Diabetes {a1c_reduction,unit,dose} share the key; uniform-shape consumers crash on either class. Proposed fix: bp_efficacy / a1c_efficacy."},
+    {"id": 2, "severity": "HIGH", "title": "onset_min type mismatch", "detail": "AH/NSAID int minutes vs Diabetes string; arithmetic consumers crash on Diabetes. Proposed fix: structured onset {value, unit}."},
+    {"id": 3, "severity": "MEDIUM", "title": "success_rate semantic ambiguity", "detail": "Same field name, different endpoint per class; cross-class comparison invalid without class context."},
+    {"id": 4, "severity": "LOW", "title": "pregnancy_safety location schism", "detail": "Top-level for AH/Diabetes/NSAID/Statin; inside l4_clinical for GI drugs; server.py reads top-level so l4_clinical copy is redundant."},
+    {"id": 5, "severity": "LOW", "title": "paracetamol-only note field", "detail": "Optional field; document as optional."},
+    {"id": 6, "severity": "INFO", "title": "consumer breakage surface", "detail": "api/server.py hardcodes 6 L4 field names (nnt_50_pain_relief, nnt_mace_5yr, duodenal_ulcer_healing_4wk_pct, onset_min, ee_healing_8wk_pct, du_healing_8wk_pct); _add_e3_e4_drugs.py uses nnt_bp_control/success_rate/onset_min. Renames must be coordinated with these."}
+  ]
+}

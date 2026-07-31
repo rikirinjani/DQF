@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Furosemide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40360952",
+        "text": "An Adult Population Pharmacokinetic Model to Simulate Subcutaneous Administration of a Fixed Dose of Furosemide in Adolescents with Heart Failure and Volume Overload. Subcutaneous furosemide administered with the On-Body Infusor could be useful in children with heart failure (HF) and congestion due to volume overload, but the appropriate dosing regimen is unknown. This study aimed to develop a population pharmacokinetic (popPK) model to determine the subcutaneous furosemide dosing regimen in children with H",
+        "score": 0.3949688673019409,
+        "doi": "10.1007/s40262-025-01515-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.0448356866836548,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.38578546047210693,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.4865165948867798,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41178491",
+        "text": "Pharmacokinetic and pharmacodynamic evaluation of alternative pomalidomide dosing regimens in the treatment of multiple myeloma. Standard pomalidomide dosing (4 mg/day for 21 of 28 days) achieved the most robust pharmacokinetic (PK) and pharmacodynamic (PD) effects. Daily dosing with pomalidomide 2 mg is a safe alternative for patients at risk of toxicity; alternate-day dosing was less effective.",
+        "score": 0.38784730434417725,
+        "doi": "10.1111/bjh.70239",
+        "journal": "British journal of haematology",
+        "year": "2025",
+        "rerank_score": -2.163825035095215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

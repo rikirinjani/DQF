@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Rosiglitazone comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40745111",
+        "text": "Efficacy and safety of insulin sensitisers for treating type 2 diabetes: a network meta-analysis. Thiazolidinediones (TZDs), including pioglitazone and rosiglitazone, and non-TZD insulin sensitisers (chiglitazar sodium) demonstrate potential; however, their comparative efficacy and safety remain unclear. We aimed to analyse the efficacy and safety of commonly used insulin sensitisers, including chiglitazar sodium, sitagliptin, pioglitazone, and rosiglitazone for treating type 2 diabetes mellitus (T2DM). A c",
+        "score": 0.4205384850502014,
+        "doi": "10.1007/s00228-025-03882-y",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2025",
+        "rerank_score": 4.7023844718933105,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19419339",
+        "text": "A cost-effectiveness analysis of pioglitazone plus metformin compared with rosiglitazone plus metformin from a third-party payer perspective in the US. The long-term cost-effectiveness of using pioglitazone plus metformin (Actoplusmet dagger) compared with rosiglitazone plus metformin (Avandamet double dagger) in treating type 2 diabetes (T2DM) was assessed from a US third-party payer perspective.",
+        "score": 0.3970176875591278,
+        "doi": "10.1185/03007990902870084",
+        "journal": "Current medical research and opinion",
+        "year": "2009",
+        "rerank_score": 3.5468404293060303,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20733306",
+        "text": "Rosiglitazone monotherapy in mild-to-moderate Alzheimer's disease: results from a randomized, double-blind, placebo-controlled phase III study. A phase II study of the peroxisome proliferator-activated receptor-γ agonist rosiglitazone extended release (RSG XR) in mild-to-moderate Alzheimer's disease (AD) detected a treatment benefit to cognition in apolipoprotein E(APOE)-ε4-negative subjects. The current phase III study with prospective stratification by APOE genotype was conducted to confirm the efficacy a",
+        "score": 0.39663228392601013,
+        "doi": "10.1159/000318845",
+        "journal": "Dementia and geriatric cognitive disorders",
+        "year": "2010",
+        "rerank_score": 2.6535756587982178,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

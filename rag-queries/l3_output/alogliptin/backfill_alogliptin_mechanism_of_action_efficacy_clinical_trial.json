@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Alogliptin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39421912",
+        "text": "Efficacy of Alogliptin/Metformin Fixed-Dose Combination Tablets and Vildagliptin/Metformin Fixed-Dose Combination Tablets on Glycemic Control in Real-World Clinical Practice for the Patients with Type 2 Diabetes: A Multicenter, Open-Label, Randomized, Parallel Group, Comparative Trial.",
+        "score": 0.3966640532016754,
+        "doi": "10.1089/met.2024.0127",
+        "journal": "Metabolic syndrome and related disorders",
+        "year": "2024",
+        "rerank_score": 3.2297170162200928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23289982",
+        "text": "The dipeptidyl peptidase-4 inhibitor alogliptin improves glycemic control in type 2 diabetic patients undergoing hemodialysis. The potent and selective dipeptidyl peptidase-4 (DPP-4) inhibitor alogliptin improves glycemic control in patients with type 2 diabetes through incretin hormone-mediated increases in both α- and β-cell responsiveness to glucose. In this study, the efficacy and safety of alogliptin in type 2 diabetic patients undergoing hemodialysis (HD) were evaluated.",
+        "score": 0.3884502649307251,
+        "doi": "10.1517/14656566.2013.761690",
+        "journal": "Expert opinion on pharmacotherapy",
+        "year": "2013",
+        "rerank_score": 2.472180128097534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39434431",
+        "text": "Efficacy and safety of cofrogliptin once every 2 weeks in Chinese patients with type 2 diabetes: A randomized, double-blind, placebo-controlled, phase 3 trial. We conducted a multicentre, randomized phase 3 trial in China to evaluate the efficacy and safety of cofrogliptin (HSK7653), a novel long-acting dipeptidyl peptidase-4 inhibitor, in patients with drug-naïve type 2 diabetes (T2D). Patients with inadequately controlled T2D were randomly assigned (1:1:1) to cofrogliptin 10 mg, cofrogliptin 25 mg or plac",
+        "score": 0.3965805768966675,
+        "doi": "10.1111/dom.16014",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 2.049933433532715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

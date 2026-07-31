@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Exenatide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40212008",
+        "text": "Comparative efficacy and tolerability of currently approved incretin mimetics: A systematic analysis of placebo-controlled clinical trials. This study compares the therapeutic efficacy, gastrointestinal (GI) adverse event (AE) rates and the relationship between the therapeutic efficacy and GI AEs in randomized, placebo-controlled clinical trials (RCTs) of GLP-1 RAs and the dual GLP-1/GIP agonist tirzepatide. A systematic PubMed search identified 38 phase 3 or 4 placebo-controlled RCTs of exenatide (b.i.d. a",
+        "score": 0.4047267735004425,
+        "doi": "10.1111/dom.16398",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 5.596130847930908,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.40102607011795044,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 5.391432285308838,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32109448",
+        "text": "Effectiveness of dulaglutide vs liraglutide and exenatide once-weekly. A real-world study and meta-analysis of observational studies. Real-word data on the head-to-head comparisons among glucagon-like peptide-1 receptor agonists (GLP-1RA) are scant. Therefore, we aimed to compare the effectiveness of dulaglutide versus liraglutide and exenatide once weekly (exeOW) in type 2 diabetic (T2D) patients under routine care.",
+        "score": 0.40245938301086426,
+        "doi": "10.1016/j.metabol.2020.154190",
+        "journal": "Metabolism: clinical and experimental",
+        "year": "2019",
+        "rerank_score": 5.273473739624023,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

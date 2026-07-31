@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Alogliptin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25424968",
+        "text": "A Post Hoc Analysis of HbA1c, Hypoglycemia, and Weight Change Outcomes with Alogliptin vs Glipizide in Older Patients with Type 2 Diabetes. Adverse events and complications limit the long-term use of current antidiabetic treatment options for patients with type 2 diabetes mellitus (T2DM), particularly for older adults who are often receiving therapy for other comorbid conditions. The aim of this study was to evaluate the benefits of the dipeptidyl peptidase-4 inhibitor, alogliptin, versus glipizide, a sulfo",
+        "score": 0.3811585009098053,
+        "doi": "10.1007/s13300-014-0088-5",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2014",
+        "rerank_score": 0.42342448234558105,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39260927",
+        "text": "Effect of Evogliptin on the Progression of Aortic Valvular Calcification. Medical therapy for aortic stenosis (AS) remains an elusive goal. This study sought to establish whether evogliptin, a dipeptidyl peptidase-4 inhibitor, could reduce AS progression. A total of 228 patients (age 67 ± 11 years; 33% women) with AS were randomly assigned to receive placebo (n = 75), evogliptin 5 mg (n = 77), or evogliptin 10 mg (n = 76). The primary endpoint was the 96-week change in aortic valve calcium volume (AVCV) on ",
+        "score": 0.3966572880744934,
+        "doi": "10.1016/j.jacc.2024.06.037",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2024",
+        "rerank_score": -1.2061399221420288,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.38841214776039124,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -1.2212765216827393,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

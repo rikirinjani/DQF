@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Rosiglitazone HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40628043",
+        "text": "PPARγ activation reduces pancreatic beta cell death in type 1 diabetes by decreasing heparanase-dependent insulitis. While the majority of individuals with type 1 diabetes (T1D) receives lifelong exogenous insulin replacement therapy, a clinically significant subset remains refractory to achieving optimal glycemic targets, necessitating the exploration of novel adjunctive medications to enhance T1D treatment strategies. The aim of this study was to explore the efficacy of rosiglitazone (ROZ), a typical thia",
+        "score": 0.35656431317329407,
+        "doi": "10.1016/j.intimp.2025.115183",
+        "journal": "International immunopharmacology",
+        "year": "2025",
+        "rerank_score": 5.7983808517456055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40745111",
+        "text": "Efficacy and safety of insulin sensitisers for treating type 2 diabetes: a network meta-analysis. Thiazolidinediones (TZDs), including pioglitazone and rosiglitazone, and non-TZD insulin sensitisers (chiglitazar sodium) demonstrate potential; however, their comparative efficacy and safety remain unclear. We aimed to analyse the efficacy and safety of commonly used insulin sensitisers, including chiglitazar sodium, sitagliptin, pioglitazone, and rosiglitazone for treating type 2 diabetes mellitus (T2DM). A c",
+        "score": 0.3934786319732666,
+        "doi": "10.1007/s00228-025-03882-y",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2025",
+        "rerank_score": 4.653072834014893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41236870",
+        "text": "Lobeglitazone improves glycaemic control as add-on therapy to empagliflozin plus metformin in patients with type 2 diabetes mellitus: A double-blind, randomised, placebo-controlled trial. This study aimed to evaluate the efficacy and safety of triple therapy with lobeglitazone 0.5 mg as an add-on treatment compared with placebo in patients with type 2 diabetes mellitus (T2DM) inadequately controlled with metformin and empagliflozin. In this Phase 3, multicentre, double-blind, randomised trial, patients with",
+        "score": 0.4226912260055542,
+        "doi": "10.1111/dom.70257",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 4.186022758483887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

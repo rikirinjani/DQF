@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Alogliptin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.38825568556785583,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.0892530679702759,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41116279",
+        "text": "Pharmacokinetics of Trelagliptin in Rats after Exposure to Acute and Chronic High Altitude Hypoxia. <p> Objectives: As a long-acting DPP-4 inhibitor administered orally once a week, trelagliptin can address the issues of frequent medication and poor compliance associated with traditional hypoglycemic drugs. Revealing the pharmacokinetic changes of trelagliptin is particularly important for populations in high-altitude hypoxic environments. </p><p> Methods: The Hypoxia model in rats was constructed at an alt",
+        "score": 0.3721269369125366,
+        "doi": "10.2174/0113892002408318251002114813",
+        "journal": "Current drug metabolism",
+        "year": "2025",
+        "rerank_score": -1.6430391073226929,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39465597",
+        "text": "Population pharmacokinetic and pharmacodynamic model of evogliptin: Severe uremia increases the bioavailability of evogliptin. Uremia, a condition characterized by the retention of uremic toxins due to impaired renal function, may affect drug metabolism mediated by CYP3A4 enzymes. Evogliptin is a dipeptidyl peptidase-4 (DPP-4) inhibitor diabetic drug that is primarily metabolized by CYP3A4. This study aimed to construct a population pharmacokinetic (PK) and pharmacodynamic (PD) model for evogliptin in patie",
+        "score": 0.3681707978248596,
+        "doi": "10.1002/psp4.13263",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": -3.083505153656006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Alogliptin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38782884",
+        "text": "Benefits and Risks of Antihyperlipidemic Medication in Adults with Different Low-Density Lipoprotein Cholesterol Based on the Number Needed to Treat. The objective of this investigation is to examine the benefits and potential risks of these drugs in individuals by varying baseline low-density lipoprotein cholesterol (LDL-C) values, utilizing the concept of the number needed to treat (NNT). We extensively searched electronic databases, such as PubMed, EMBASE, Cochrane, and Web of Science, up to 6 August 202",
+        "score": 0.47280824184417725,
+        "doi": "10.1007/s40256-024-00651-7",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2024",
+        "rerank_score": 1.2917834520339966,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40032809",
+        "text": "A Randomized Phase 3 Study Evaluating the Efficacy and Safety of Alogliptin in Pediatric Participants with Type 2 Diabetes Mellitus. There is an unmet need for pharmacological therapies for children with type 2 diabetes mellitus (T2DM). We assessed the efficacy and safety of an oral dipeptidyl peptidase-4 inhibitor, alogliptin, 25 mg once daily (QD), as a potential treatment for pediatric patients with T2DM. This phase 3, 52-week, multicenter, randomized, double-blind, placebo-controlled trial was conducted",
+        "score": 0.4824860692024231,
+        "doi": "10.1007/s13300-025-01700-3",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2024",
+        "rerank_score": 0.6192575097084045,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21801540",
+        "text": "Therapeutic decisions by number needed to treat and survival gains: a cross-sectional survey of lipid-lowering drug recommendations. Previous studies suggest that lay people have difficulties with evaluating effect size in terms of number needed to treat (NNT), but they are sensitive to effect size in terms of survival gains.",
+        "score": 0.4685337245464325,
+        "doi": "10.3399/bjgp11X588448",
+        "journal": "The British journal of general practice : the journal of the Royal College of Ge",
+        "year": "2011",
+        "rerank_score": 0.11112947762012482,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Pramlintide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25100363",
+        "text": "Effects of pramlintide in patients with type 2 diabetes mellitus: an analysis using daily insulin dose tertiles. The purpose of the analysis was to investigate if the efficacy and tolerability of 6 months of pramlintide therapy in patients with type 2 diabetes mellitus (T2DM) differed with increasing levels of concomitant insulin doses, using data from 3 previously described clinical trials.",
+        "score": 0.34981563687324524,
+        "doi": "10.4158/EP13477.OR",
+        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
+        "year": "2014",
+        "rerank_score": 0.5031121969223022,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38344757",
+        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
+        "score": 0.3725009560585022,
+        "doi": "10.1080/00498254.2024.2317888",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.1695077419281006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39692837",
+        "text": "Population Pharmacokinetics of Trofinetide in a Pediatric Population Aged 2-4 Years with Rett Syndrome. Weight-banded trofinetide dosing improved physician- and caregiver-rated efficacy measures and had acceptable tolerability in patients aged 2‒4 years (DAFFODIL study) and 5‒20 years (LAVENDER study) with Rett syndrome (RTT). Selection of weight-banded dosing regimens for these studies was based on population pharmacokinetic (popPK) modeling and exposure simulations. This study applied an updated popPK mod",
+        "score": 0.38076287508010864,
+        "doi": "10.1007/s12325-024-03058-7",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": -3.196298122406006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

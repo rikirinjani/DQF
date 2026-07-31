@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Vildagliptin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38287760",
+        "text": "Usage of vildagliptin among patients with type 2 diabetes mellitus attending a public primary healthcare clinics in Kuala Selangor District, Selangor. Studies showed that vildagliptin can lower HbA1c levels by 0.8%-1%. However, there is limited data looking at vildagliptin use among suburban populations. The efficacy of vildagliptin use may differ among different populations, especially those with low socio-economic status. Thus, this study aimed to assess the HbA1c reduction after vildagliptin initiation, ",
+        "score": 0.38262632489204407,
+        "doi": "",
+        "journal": "The Medical journal of Malaysia",
+        "year": "2024",
+        "rerank_score": 0.870548665523529,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39186745",
+        "text": "Machine learning assessment of vildagliptin and linagliptin effectiveness in type 2 diabetes: Predictors of glycemic control. Differential effects of linagliptin and vildagliptin may help us personalize treatment for Type 2 Diabetes Mellitus (T2DM). The current study compares the effect of these drugs on glycated hemoglobin (HbA1c) in an artificial neural network (ANN) model. Patients with T2DM who received either vildagliptin or linagliptin, with predefined exclusion criteria, qualified for the study. Two ",
+        "score": 0.3749018907546997,
+        "doi": "10.1371/journal.pone.0309365",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 0.8059507608413696,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.37708601355552673,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -0.1258724480867386,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

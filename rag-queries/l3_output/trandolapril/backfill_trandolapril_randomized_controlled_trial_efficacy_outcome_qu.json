@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Trandolapril randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7607715",
+        "text": "Differing mechanisms of action of angiotensin-converting enzyme inhibition in black and white hypertensive patients. The Trandolapril Multicenter Study Group. The antihypertensive effect of the angiotensin-converting enzyme inhibitor trandolapril administered in doses of 1, 2, and 4 mg/d was compared in 207 white patients and 91 black patients with mild to moderate hypertension following a double-blind, randomized, placebo-controlled, parallel study design. Trandolapril is a prodrug that is rapidly hydrolyz",
+        "score": 0.4062318503856659,
+        "doi": "10.1161/01.hyp.26.1.124",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "1995",
+        "rerank_score": 1.927338719367981,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15528874",
+        "text": "Effects of combination treatment with losartan and trandolapril on office and ambulatory blood pressures in non-diabetic renal disease: a COOPERATE-ABP substudy. In the COOPERATE trial, the combination treatment of the angiotensin-II receptor blocker losartan and the angiotensin-converting-enzyme inhibitor trandolapril significantly retarded progression of non-diabetic kidney disease compared with each monotherapy. The benefit could be greatly attributable to the potent reduction of proteinuria, because the",
+        "score": 0.4060328006744385,
+        "doi": "10.1159/000081953",
+        "journal": "American journal of nephrology",
+        "year": "2004",
+        "rerank_score": -0.7374326586723328,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41088566",
+        "text": "Major Limitations of Randomized Controlled Trials Assessing Antidepressant Efficacy.",
+        "score": 0.42690977454185486,
+        "doi": "10.1097/JCP.0000000000002075",
+        "journal": "Journal of clinical psychopharmacology",
+        "year": "2025",
+        "rerank_score": -1.2910317182540894,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Exenatide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20022310",
+        "text": "Clinical experience with exenatide in a routine secondary care diabetes clinic. Exenatide use in type 2 diabetes is limited in routine clinical practice. We examined a cross-section of 90 patients. Mean weight and HBA(1c) were 114.9+/-20.6 kg, 10.3+/-2.1% at initiation; 108.0+/-15.3 kg (p<0.0001), 9.0+/-2.1% (p<0.001) at 3 months; 109.2+/-18.2 kg (p<0.0001), 9.5+/-2.3% (p=0.08) at 6 months. Exenatide appears effective in reducing HBA(1c) and weight.",
+        "score": 0.3913654685020447,
+        "doi": "10.1016/j.pcd.2009.11.001",
+        "journal": "Primary care diabetes",
+        "year": "2009",
+        "rerank_score": 1.1960961818695068,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40849664",
+        "text": "Impact of changes in conventional risk factors induced by once-weekly GLP-1 receptor agonist exenatide on cardiovascular outcomes: an EXSCEL post hoc analysis. The objective of this study was to examine the degree to which conventional cardiovascular (CV) risk factor changes induced by once-weekly exenatide (EQW) might explain the placebo-controlled differences in CV outcomes observed in the Exenatide Study of Cardiovascular Event Lowering (EXSCEL). We entered participant-level risk factor values over time ",
+        "score": 0.4150952696800232,
+        "doi": "10.1186/s12933-025-02866-7",
+        "journal": "Cardiovascular diabetology",
+        "year": "2025",
+        "rerank_score": -0.5891779661178589,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.40106460452079773,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -0.9771790504455566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Methyldopa effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40516012",
+        "text": "Determining the Optimal Dosing of Methyldopa in Pregnancy-Induced Hypertension Using PBPK-PD Modeling. Pregnancy-induced hypertension is a significant risk factor for adverse maternal and fetal outcomes, with methyldopa being a commonly prescribed antihypertensive for its safety profile. However, the physiological changes during pregnancy may alter the pharmacokinetics (PK) and pharmacodynamics (PD) of methyldopa, complicating the establishment of optimal dosing regimens. This study aims to develop and vali",
+        "score": 0.423667311668396,
+        "doi": "10.1007/s40262-025-01523-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -2.620363235473633,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39801449",
+        "text": "Impact of Daytime and Nighttime Blood Pressure and Nocturnal Blood Pressure Fall on Heart Failure Risk in Treated Hypertension. To evaluate the impact of daytime, nighttime, and nocturnal blood pressures (BPs) fall on heart failure (HF). We analyzed data from five cohorts including 15,526 treated hypertensive patients, experiencing 625 HF events, by study-level meta-analysis. The pooled hazard ratios (HRs) and 95% confidence intervals (CIs) for 1SD increase in BP parameters or per group were calculated. Whe",
+        "score": 0.41222915053367615,
+        "doi": "10.1093/ajh/hpaf008",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": -6.501408100128174,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40249367",
+        "text": "Systolic blood pressure variability: risk of cardiovascular events, chronic kidney disease, dementia, and death. Earlier studies evaluated the association between systolic blood pressure variability (SBPV) measured during a single period and risk of health outcomes. This study expanded upon existing evidence by examining the association between changes in SBPV over time and clinical outcomes in primary care settings. Visit-to-visit SBPV was determined as standard deviation of ≥3 systolic blood pressure valu",
+        "score": 0.42116260528564453,
+        "doi": "10.1093/eurheartj/ehaf256",
+        "journal": "European heart journal",
+        "year": "2024",
+        "rerank_score": -6.7183942794799805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

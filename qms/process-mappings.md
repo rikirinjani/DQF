@@ -28,6 +28,13 @@ mechanism BEFORE the lane is dispatched, choosing one of:
 the returned result) BEFORE declaring the lane reconciled. A lane whose
 deliverable cannot be recovered is not complete.
 
+**Close-time enforcement (added 2026-07-31 after recurrence NCR-2026-015):** the
+Gate is a hard close gate, not guidance. Before marking any read-only lane
+reconciled, confirm the required payload keys are present in the returned task
+result. If the result is status-only (no payload), the lane is NOT complete:
+re-dispatch with the same objective and do not close it. Status-only lane
+results count as process failures (NCR).
+
 **Applicable to:** all specialist lanes (oracle, explorer, librarian, fixer,
 designer, verifier) in this framework's workflows.
 
@@ -35,4 +42,4 @@ designer, verifier) in this framework's workflows.
 
 | Rule | Origin NCR | Origin CAPA | Status |
 |------|-----------|-------------|--------|
-| Dispatch Persistence Rule | NCR-2026-014 | CAPA-2026-009 | CLOSED 2026-07-31 |
+| Dispatch Persistence Rule | NCR-2026-014, NCR-2026-015 (recurrence) | CAPA-2026-009 | OPEN 2026-07-31 (reopened — close-time enforcement gate added) |

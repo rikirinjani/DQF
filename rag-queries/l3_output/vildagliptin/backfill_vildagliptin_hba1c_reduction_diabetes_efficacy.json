@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Vildagliptin HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38936943",
+        "text": "Efficacy and Safety of Vildagliptin for Type 2 Diabetes in Patients With Diabetic Kidney Disease. Vildagliptin is one of the dipeptidyl peptidase-4 (DPP-4) inhibitors that have been shown to improve hyperglycemia in clinical trials among patients with type 2 diabetes. However, few studies have examined the efficacy of vildagliptin in patients with diabetic kidney disease (DKD). Eight patients with DKD received oral vildagliptin 50-100 mg/day. The duration of diabetes was 6.7±5.9 years and observation period",
+        "score": 0.3608161211013794,
+        "doi": "10.21873/invivo.13635",
+        "journal": "In vivo (Athens, Greece)",
+        "year": "2024",
+        "rerank_score": 7.051336288452148,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26620049",
+        "text": "Efficacy and Safety of Vildagliptin as an Add-on to Insulin with or without Metformin in Japanese Patients with Type 2 Diabetes Mellitus: A 12-week, Double-Blind, Randomized Study. To assess the efficacy and safety of vildagliptin as add-on therapy in Japanese patients with type 2 diabetes mellitus (T2DM), inadequately controlled on stable long-acting, intermediate-acting, or pre-mixed insulin, with or without concomitant metformin.",
+        "score": 0.3497905135154724,
+        "doi": "10.1007/s13300-015-0147-6",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2015",
+        "rerank_score": 5.883950233459473,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40901275",
+        "text": "Efficacy and Safety of Vildagliptin Versus Other Dipeptidyl Peptidase 4 (DPP-4) Inhibitors in the Management of Type 2 Diabetes Mellitus: A Systematic Review of Randomized Controlled Trials. Dipeptidyl peptidase 4 inhibitors (DPP-4 inhibitors) are used as second-line drugs in the treatment of type 2 diabetes mellitus (T2DM) patients. They act by preventing the breakdown of incretin hormones, which enhance insulin secretion and reduce glucagon secretion. Vildagliptin and sitagliptin are more commonly used DP",
+        "score": 0.3897450566291809,
+        "doi": "10.7759/cureus.91432",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 5.784308910369873,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

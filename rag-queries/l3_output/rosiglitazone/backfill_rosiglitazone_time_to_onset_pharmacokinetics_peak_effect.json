@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Rosiglitazone time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20969527",
+        "text": "Chronopharmacology of roflumilast: a comparative pharmacokinetic study of morning versus evening administration in healthy adults. The human circadian system is known to affect the pharmacokinetics and pharmacodynamics of several classes of respiratory disease medications. The current study involving 16 healthy adults investigated if the time-of-day of dosing of roflumilast, a novel phosphodiesterase-4 inhibitor, affects its pharmacokinetics. The rate of drug absorption (t(max): 1.50 versus 2.00 h) and peak",
+        "score": 0.35990533232688904,
+        "doi": "10.3109/07420528.2010.520398",
+        "journal": "Chronobiology international",
+        "year": "2010",
+        "rerank_score": 0.20769697427749634,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.3801894783973694,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.5150718688964844,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38942059",
+        "text": "Comparative pharmacokinetics of phenylbutazone in healthy young-adult and geriatric horses. To evaluate the effects of aging on phenylbutazone (PBZ) disposition in older horses (≥ 25 years old) compared to young adults (4 to 10 years old) by characterizing the pharmacokinetic profile of PBZ and its active metabolite, oxyphenbutazone (OPBZ), following a 2.2-mg/kg dose, IV. We hypothesized that the disposition of PBZ will be affected by age. 16 healthy horses (8 young adults aged 4 to 10 years and 8 geriatric",
+        "score": 0.39352142810821533,
+        "doi": "10.2460/ajvr.24.01.0012",
+        "journal": "American journal of veterinary research",
+        "year": "2024",
+        "rerank_score": -1.5498061180114746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

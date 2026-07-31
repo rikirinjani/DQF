@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Pramlintide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39507603",
+        "text": "Real-World HbA1c Changes Among Type 2 Diabetes Mellitus Patients Initiating Treatment With a 1.0 Mg Weekly Dose of Semaglutide for Diabetes.",
+        "score": 0.3965165615081787,
+        "doi": "10.36469/001c.124111",
+        "journal": "Journal of health economics and outcomes research",
+        "year": "2024",
+        "rerank_score": -1.8120886087417603,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38407177",
+        "text": "Model-based simulation of glycaemic effect and body weight loss when switching from semaglutide or dulaglutide to once weekly tirzepatide. To evaluate the efficacy endpoints of HbA1c and body weight loss after switching from the GLP-1 receptor agonists, semaglutide or dulaglutide, to treatment with the GIP/GLP-1 receptor agonist (RA) tirzepatide. Models were developed and validated to describe the HbA1c and weight loss time course for semaglutide (SUSTAIN 1-10), dulaglutide (AWARD-11) and tirzepatide (SURPA",
+        "score": 0.42302972078323364,
+        "doi": "10.1080/03007995.2024.2322072",
+        "journal": "Current medical research and opinion",
+        "year": "2024",
+        "rerank_score": -2.173922061920166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40633089",
+        "text": "Predictors of Initial and Sustained Glycemic and Weight Response to Tirzepatide: A Post Hoc Analysis of SURPASS-4. This post hoc analysis assessed sustainability of lowered glycated hemoglobin (HbA1c) and weight with tirzepatide in people with type 2 diabetes and increased cardiovascular risk. Participants achieving HbA1c ≤48 mmol/mol (6.5%) or weight loss ≥10% at 52 weeks were evaluated for sustained glycemic or weight control and predictors of initial and sustained efficacy. For tirzepatide-treated partic",
+        "score": 0.4228275418281555,
+        "doi": "10.2337/db25-0276",
+        "journal": "Diabetes",
+        "year": "2025",
+        "rerank_score": -2.8257968425750732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

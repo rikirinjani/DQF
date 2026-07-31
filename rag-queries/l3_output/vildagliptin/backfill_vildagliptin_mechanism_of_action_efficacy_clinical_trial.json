@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Vildagliptin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24926379",
+        "text": "Randomized controlled clinical trial of a combination therapy of vildagliptin plus an α-glucosidase inhibitor for patients with type II diabetes mellitus. The aim of this study was to assess the efficacy of a combination therapy of vildagliptin plus an α-glucosidase inhibitor for patients with type II diabetes mellitus. Type II diabetic patients exhibiting poor glycemic control following α-glucosidase inhibitor treatment for at least two months were selected and randomly distributed into vildagliptin and pl",
+        "score": 0.4033195972442627,
+        "doi": "10.3892/etm.2014.1637",
+        "journal": "Experimental and therapeutic medicine",
+        "year": "2013",
+        "rerank_score": 5.643226146697998,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40605903",
+        "text": "Efficacy and Safety of Once-Weekly Trelagliptin As Compared to Twice-Daily Vildagliptin in Indian Patients With Type 2 Diabetes Mellitus: A Randomized, Phase 3, Non-inferiority Clinical Trial. Background Trelagliptin and vildagliptin are oral dipeptidyl peptidase-4 (DPP-4) inhibitors used in the treatment of type 2 diabetes mellitus. The administration of vildagliptin is twice daily, whereas trelagliptin provides the convenience of once-weekly dosing, which may enhance patient adherence. A phase 3 clinical ",
+        "score": 0.402583509683609,
+        "doi": "10.7759/cureus.85219",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 4.15848445892334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40901275",
+        "text": "Efficacy and Safety of Vildagliptin Versus Other Dipeptidyl Peptidase 4 (DPP-4) Inhibitors in the Management of Type 2 Diabetes Mellitus: A Systematic Review of Randomized Controlled Trials. Dipeptidyl peptidase 4 inhibitors (DPP-4 inhibitors) are used as second-line drugs in the treatment of type 2 diabetes mellitus (T2DM) patients. They act by preventing the breakdown of incretin hormones, which enhance insulin secretion and reduce glucagon secretion. Vildagliptin and sitagliptin are more commonly used DP",
+        "score": 0.404244989156723,
+        "doi": "10.7759/cureus.91432",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 3.937480926513672,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

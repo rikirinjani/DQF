@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Trandolapril effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41154686",
+        "text": "Trandolapril Attenuates Pro-Arrhythmic Downregulation of Cx43 and Cx40 in Atria of Volume Overloaded Hypertensive and Normotensive Rats. Pressure overload in non-treated or resistant hypertension (HTN) increases the risk of heart failure (HF) as well as the occurrence of fatal ventricular arrhythmias and stroke-provoking atrial fibrillation (AF), while perturbed connexin-43 (Cx43) and Cx40 might be involved. In addition, kidney dysfunction may facilitate hemodynamic volume overload and congestive HF. We inv",
+        "score": 0.42188793420791626,
+        "doi": "10.3390/biom15101457",
+        "journal": "Biomolecules",
+        "year": "2025",
+        "rerank_score": 1.2841721773147583,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40459695",
+        "text": "Effects of high-dose alacepril on the renin-angiotensin-aldosterone system and autonomic nervous system function in healthy dogs. This study investigated the effects of low-dose and high-dose alacepril on the renin-angiotensin-aldosterone system (RAAS) and autonomic nervous system in healthy dogs. Six Beagle dogs received low-dose (2.0 mg/kg/day) or high-dose (6.0 mg/kg/day) alacepril for 4 weeks. Blood pressure, the urinary aldosterone-to-creatinine ratio (UAld: Cre), echocardiographic variables, and heart",
+        "score": 0.434067964553833,
+        "doi": "10.1007/s11259-025-10782-0",
+        "journal": "Veterinary research communications",
+        "year": "2025",
+        "rerank_score": -4.662905216217041,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40728785",
+        "text": "Hypertension and blood pressure changes with dolutegravir or comparator antiretroviral therapy in randomized trials through 96 weeks. To date, there are limited published data from randomized trials evaluating the effects of integrase strand transfer inhibitor-based regimens, including dolutegravir-based antiretroviral therapy (ART), on blood pressure (BP) in people with HIV-1 (PWH). This analysis evaluated BP changes from baseline and incident hypertension among ART-naive PWH randomized to dolutegravir-bas",
+        "score": 0.4296349883079529,
+        "doi": "10.1093/jac/dkaf212",
+        "journal": "The Journal of antimicrobial chemotherapy",
+        "year": "2024",
+        "rerank_score": -6.623676776885986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

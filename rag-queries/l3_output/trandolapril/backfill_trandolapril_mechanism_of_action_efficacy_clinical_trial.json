@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Trandolapril mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38697615",
+        "text": "Population pharmacokinetic modelling and simulation of tranexamic acid in adult trauma patients. The aim of this study is to describe the disposition of tranexamic acid (TXA) in adult trauma patients and derive a dosing regimen that optimizes exposure based on a predefined exposure target. We performed a population pharmacokinetic (popPK) analysis of participants enrolled in the Tranexamic Acid Mechanisms and Pharmacokinetics in Traumatic Injury (TAMPITI) trial (≥18 years with traumatic injury, given ≥1 blo",
+        "score": 0.4213358163833618,
+        "doi": "10.1111/bcp.16075",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -3.285431385040283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39176240",
+        "text": "Efficacy, safety, and response predictors of Astragalus in patients with mild to moderate Alzheimer's disease: A study protocol of an assessor-blind, statistician-blind open-label randomized controlled trial. This pragmatic clinical trial aims to determine the efficacy and safety of add-on Astragalus membranaceus (AM) for cognition and non-cognition in patients with of mild to moderate Alzheimer's disease complicated with orthostatic hypotension in orthostatic hypotension, elucidate the underlying mechanism",
+        "score": 0.44653987884521484,
+        "doi": "10.1016/j.conctc.2024.101339",
+        "journal": "Contemporary clinical trials communications",
+        "year": "2024",
+        "rerank_score": -4.242694854736328,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39702972",
+        "text": "Optimization of Romiplostim Biosimilar Efficacy Trial Using In Silico Clinical Trial Approach for Patients With Immune Thrombocytopenia. During biosimilar drug development, conducting a clinical trial of biosimilar efficacy in patients may become necessary in the presence of residual uncertainty regarding the biosimilarity of the drugs. In the development of the biosimilar romiplostim GP40141, we aimed to use a model-based in silico clinical trial (ISCT) approach to optimize the planned biosimilar efficacy ",
+        "score": 0.4443855881690979,
+        "doi": "10.1002/cpdd.1494",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -4.372829914093018,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

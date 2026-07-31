@@ -1,0 +1,33 @@
+{
+  "trace_matrix_version": "1.0",
+  "updated": "2026-07-31T16:58:00",
+  "chains": [
+    {
+      "chain_id": "CHAIN-2026-014",
+      "requirement": "L4 l4_clinical block populated for all 88 drugs with class-specific schema (framework-ontology.md L4 section)",
+      "spec": "methodology/framework-ontology.md (L4 Data Schema, lines 60-99)",
+      "tasks": ["TICKET-004 phantom adjudication", "TICKET-005 49-drug quantification", "P4-Task2 schema audit"],
+      "artifacts": ["api/l4_schema_map.json", "api/drugs.json (88/88 l4_clinical)", "rag-queries/l2b_overrides.json"],
+      "tests": ["audit_l3_script.py regression: L4 phantom 0, anchors 19/19", "ora-6 spot-check APPROVE", "ora-7 cross-class audit"],
+      "verifications": ["VER-2026-014", "VER-2026-015", "VER-2026-017"]
+    },
+    {
+      "chain_id": "CHAIN-2026-015",
+      "requirement": "Deliverables produced by read-only lanes must persist (payload in result OR permitted disk path) — Dispatch Persistence Rule",
+      "spec": "qms/process-mappings.md (section 1)",
+      "tasks": ["TICKET-005 ora-1 payload loss", "P4-Task1 ora-9 payload loss (recurrence)"],
+      "artifacts": ["qms/process-mappings.md", "qms/capa/open/20260731-capa-ora1-payload-persistence.json"],
+      "tests": ["ora-5 persistence verification (49/49 merged)", "ora-10 payload-in-result capture"],
+      "verifications": ["VER-2026-016 (first closure)", "NCR-2026-015 + CAPA-2026-009 reopened"]
+    },
+    {
+      "chain_id": "CHAIN-2026-016",
+      "requirement": "RAG evidence back-fill: query PMC from multiple angles, adjudicate L4 values, write RAG-quality notes",
+      "spec": "rag-queries/RAG_QUALITY_NOTES.md",
+      "tasks": ["P4-Task1 backfill (fix-1, 80 queries)", "P4-Task1 adjudication (ora-8 diabetes, ora-9 fail, ora-10 AH/cardio)"],
+      "artifacts": ["rag-queries/backfill_queries.py", "rag-queries/backfill_summary.json", "rag-queries/l3_output/*/backfill_*.json (80)", "rag-queries/RAG_QUALITY_NOTES.md"],
+      "tests": ["schema validation 80/80", "ora-8 + ora-10 independent adjudication: 0 changes"],
+      "verifications": ["VER-2026-017"]
+    }
+  ]
+}

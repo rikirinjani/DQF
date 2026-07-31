@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Furosemide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:37070136",
+        "text": "Association between methotrexate-induced Stevens-Johnson syndrome/toxic epidermal necrolysis and furosemide: a real-world disproportionality analysis. Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN) are rare and life-threatening skin adverse reactions that are usually induced by drugs. This study aimed to assess the association between methotrexate and SJS/TEN when combined with furosemide. Data on suspicious, interactions (PS, SS, I) from the FDA Adverse Event Reporting System database ",
+        "score": 0.4240298867225647,
+        "doi": "",
+        "journal": "",
+        "year": "",
+        "rerank_score": 1.0429410934448242,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39121183",
+        "text": "Safety and Efficacy of Torsemide Versus Furosemide in Patients With Heart Failure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials and Real-World Data.",
+        "score": 0.4293035864830017,
+        "doi": "10.1097/MJT.0000000000001735",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 0.25143957138061523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27784799",
+        "text": "Furosemide Prescription During the Dry State Is a Predictor of Long-Term Survival of Stable, Optimally Medicated Patients With Systolic Heart Failure. Furosemide is associated with poor prognosis in patients with heart failure and reduced ejection fraction (HFrEF).",
+        "score": 0.4138914942741394,
+        "doi": "10.1177/1074248416675613",
+        "journal": "Journal of cardiovascular pharmacology and therapeutics",
+        "year": "2016",
+        "rerank_score": -0.20740604400634766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

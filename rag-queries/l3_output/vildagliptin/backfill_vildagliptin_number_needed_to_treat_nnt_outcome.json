@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Vildagliptin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35272176",
+        "text": "Therapeutic equivalence of vildagliptin 100 mg once daily modified release to 50 mg twice daily immediate release formulation: An open-label, randomized, two-period, single- and multiple-dose, 6-day crossover study. Vildagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor to treat type 2 diabetes mellitus, is available as immediate release (IR) tablets administered at 50 mg twice daily (BID). A 100 mg modified release (MR) formulation was developed for once daily (QD) dosing. This study aimed to compare the",
+        "score": 0.44020092487335205,
+        "doi": "10.1016/j.dsx.2022.102438",
+        "journal": "Diabetes & metabolic syndrome",
+        "year": "2021",
+        "rerank_score": 0.8996358513832092,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39558612",
+        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
+        "score": 0.4434373378753662,
+        "doi": "10.1177/03331024241299377",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 0.6020229458808899,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40901275",
+        "text": "Efficacy and Safety of Vildagliptin Versus Other Dipeptidyl Peptidase 4 (DPP-4) Inhibitors in the Management of Type 2 Diabetes Mellitus: A Systematic Review of Randomized Controlled Trials. Dipeptidyl peptidase 4 inhibitors (DPP-4 inhibitors) are used as second-line drugs in the treatment of type 2 diabetes mellitus (T2DM) patients. They act by preventing the breakdown of incretin hormones, which enhance insulin secretion and reduce glucagon secretion. Vildagliptin and sitagliptin are more commonly used DP",
+        "score": 0.43943071365356445,
+        "doi": "10.7759/cureus.91432",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -0.12443538010120392,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

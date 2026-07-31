@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Terazosin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2872809",
+        "text": "Comparison of the safety and efficacy of once-daily terazosin versus twice-daily prazosin for the treatment of mild to moderate hypertension. In a multicenter, double-blind, placebo-controlled study, the efficacy and safety of terazosin and prazosin were compared in patients with mild to moderate essential hypertension. Patients were randomly assigned to one of three treatment groups: terazosin administered once daily, prazosin administered twice daily, or placebo. After a two-week placebo lead-in period, e",
+        "score": 0.3978463411331177,
+        "doi": "10.1016/0002-9343(86)90854-5",
+        "journal": "The American journal of medicine",
+        "year": "1986",
+        "rerank_score": 5.30062198638916,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40929927",
+        "text": "Effectiveness of cannabinoids on subjective sleep quality in people with and without insomnia or poor sleep: A systematic review and meta-analysis of randomised studies. This systematic review and meta-analysis assessed the efficacy of cannabinoids compared to placebo for improving sleep quality. Searches were conducted in MEDLINE, Embase, and Cochrane databases for randomised controlled trials comparing cannabinoids vs. placebo for improving sleep quality in adults with or without insomnia or poor sleep. T",
+        "score": 0.4152541756629944,
+        "doi": "10.1016/j.smrv.2025.102156",
+        "journal": "Sleep medicine reviews",
+        "year": "2024",
+        "rerank_score": 3.4599268436431885,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1454160",
+        "text": "Use of buspirone in patients with generalized anxiety disorder and coexisting depressive symptoms. A meta-analysis of eight randomized, controlled studies. This report presents the results of a retrospective analysis of pooled efficacy data from eight studies in which buspirone was compared to placebo in 520 patients with generalized anxiety disorder (GAD). In addition to evaluating overall efficacy in the composite patient data base, four criteria were used to identify subsets of patients with GAD who had ",
+        "score": 0.3988291323184967,
+        "doi": "10.1159/000118837",
+        "journal": "Neuropsychobiology",
+        "year": "1992",
+        "rerank_score": 1.1893112659454346,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Methyldopa mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40932731",
+        "text": "Analytical techniques for methyldopa and metabolites: a comprehensive review. Methyldopa, a centrally acting α2-adrenergic agonist, remains a key antihypertensive drug, particularly prescribed for pregnant and renal-impaired patients. Its clinical significance has led to extensive research aimed at developing reliable analytical methods for its accurate, sensitive, and selective determination in pharmaceutical formulations and biological matrices. Relevant literature was retrieved from Scopus, Web of Scienc",
+        "score": 0.39008191227912903,
+        "doi": "10.1080/03602532.2025.2560487",
+        "journal": "Drug metabolism reviews",
+        "year": "2025",
+        "rerank_score": 1.8851549625396729,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39581488",
+        "text": "Methylone regulates fear memory and amygdala activity: A potential treatment for posttraumatic stress disorder? Methylone (3,4-methylenedioxy-N-methylcathinone) is a rapid-acting entactogen that has demonstrated significant benefits for patients with post-traumatic stress disorder (PTSD) and exhibits good tolerability in phase 1 clinical trials. Despite these promising results, its preclinical effects on fear memory regulation and the underlying mechanisms remain largely unexplored. This study aims to inves",
+        "score": 0.4135705828666687,
+        "doi": "10.1016/j.pnpbp.2024.111201",
+        "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+        "year": "2024",
+        "rerank_score": -0.36435195803642273,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40516012",
+        "text": "Determining the Optimal Dosing of Methyldopa in Pregnancy-Induced Hypertension Using PBPK-PD Modeling. Pregnancy-induced hypertension is a significant risk factor for adverse maternal and fetal outcomes, with methyldopa being a commonly prescribed antihypertensive for its safety profile. However, the physiological changes during pregnancy may alter the pharmacokinetics (PK) and pharmacodynamics (PD) of methyldopa, complicating the establishment of optimal dosing regimens. This study aims to develop and vali",
+        "score": 0.398939847946167,
+        "doi": "10.1007/s40262-025-01523-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -2.0594465732574463,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

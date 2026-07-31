@@ -1,0 +1,16 @@
+{
+  "ncr_id": "NCR-2026-015",
+  "timestamp": "2026-07-31T16:50:00",
+  "trigger": "process_violation",
+  "severity": "major",
+  "trace_id": "ora-9-l4-ah-backfill-adjudication",
+  "agent": "oracle",
+  "role": "oracle",
+  "summary": "Lane ora-9 (AH/cardio backfill adjudication, ses_048763c6affeGN4z6NZElhkhTv) returned only a status note ('Adjudication complete') with NO adjudication payload in the task result, violating the Dispatch Persistence Rule (QMS process-mappings.md, CAPA-2026-009): read-only lanes must return the full payload inside the returned task result before lane close.",
+  "root_cause": "5-Why: (1) ora-9 completed its analysis but omitted the JSON payload from its final message; (2) the lane focused on closing (MemPalace unavailable, 'trace is the mandatory artifact') instead of the deliverable; (3) dispatch prompt required the payload but enforcement depended on the lane's compliance; (4) orchestrator had no post-close verification step to detect missing payload at close time (relied on re-dispatch after the fact); (5) CAPA-2026-009 corrective action was documentation-only — it did not add a close-time enforcement gate. Root cause: corrective action insufficient; recurrence of the NCR-2026-014 failure mode.",
+  "impact": "Adjudication had to be re-run via fresh lane ora-10 (~5 min). No data corruption (ora-10 delivered clean payload: 0 changes). Wasted 1 lane. Delay only.",
+  "corrective_action": "CAPA-2026-009 reopened: add orchestrator close-time enforcement — before declaring any read-only lane complete, verify the required payload keys are present in the returned task result; if absent, re-dispatch immediately without marking the lane reconciled. NCR severity major due to recurrence.",
+  "status": "open",
+  "linked_capa": "CAPA-2026-009 (reopened)",
+  "linked_failure": "C:\\Users\\think\\self-harness\\failures\\20260731-process-ora9-payload-loss.json"
+}

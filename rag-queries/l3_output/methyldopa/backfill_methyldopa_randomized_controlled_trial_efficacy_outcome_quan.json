@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Methyldopa randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38814615",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial-Reply.",
+        "score": 0.40696725249290466,
+        "doi": "10.1001/jamaoncol.2024.0140",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.8381848335266113,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39441085",
+        "text": "Rapid Effects of MDMA Administration on Self-Reported Personality Traits and Affect State: A Randomized, Placebo-Controlled Trial in Healthy Adults. 3,4-methylenedioxymethamphetamine (MDMA) assisted therapy has been shown to be a safe and effective treatment for PTSD and emerging research suggests a change in personality traits may be a factor in treatment response. Most prior research on MDMA and personality has focused on cross-sectional comparisons of MDMA users and non-users; as such, well-controlled re",
+        "score": 0.4069499373435974,
+        "doi": "10.1080/02791072.2024.2420044",
+        "journal": "Journal of psychoactive drugs",
+        "year": "2025",
+        "rerank_score": -2.0526859760284424,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39775435",
+        "text": "PRECIS-2 used as an implementation science tool for global environmental health: A cross-sectional evaluation of the Ecolectivos study protocol to reduce burning of household plastic waste in rural Guatemala. Randomized controlled trials (RCTs) that evaluate the efficacy of an intervention remain underutilized in community-based environmental health research. RCTs that use a pragmatic design emphasize the effectiveness of interventions in complex, real world settings. Pragmatic trials may be especially rele",
+        "score": 0.41235625743865967,
+        "doi": "10.1371/journal.pone.0316161",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": -2.584110975265503,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

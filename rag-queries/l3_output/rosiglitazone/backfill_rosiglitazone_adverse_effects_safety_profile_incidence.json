@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Rosiglitazone adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26419903",
+        "text": "Rosiglitazone use and associated adverse event rates in Canada: an updated analysis. We previously reported on the change in the use of rosiglitazone-containing products (RCP) and adverse event reporting rates in Canadian patients between 2004 and 2010. The present study extends this analysis to include the January 2011 to December 2012 time period.",
+        "score": 0.4063373804092407,
+        "doi": "10.1186/s13104-015-1448-6",
+        "journal": "BMC research notes",
+        "year": "2015",
+        "rerank_score": 3.430957555770874,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40256954",
+        "text": "High Throughput Pharmacovigilance Screening for Roflumilast Adverse Effects in Real-World Settings: A Sequence Symmetry Analysis. Roflumilast is an add-on therapy for COPD following exacerbations, but real-world safety data in the United States are limited. This study aimed to identify safety signals associated with roflumilast initiation through a high-throughput signal detection algorithm. Using sequence symmetry analysis (SSA), we analysed Marketscan databases for new roflumilast users (2011-2021). We sc",
+        "score": 0.4212146997451782,
+        "doi": "10.1111/bcpt.70038",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2025",
+        "rerank_score": -0.018011100590229034,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3022584",
+        "text": "Safety profiles of the angiotensin converting enzyme inhibitors captopril and enalapril. The safety profiles of the angiotensin converting enzyme inhibitors, captopril and enalapril, are the focus of this review. Adverse effects are reviewed as those associated with sulfhydryl compounds and as those considered class-specific adverse effects of angiotensin converting enzyme inhibitors. Specifically discussed are the incidences of the adverse effects of rash, taste disturbance, neutropenia, and proteinuria, w",
+        "score": 0.4072788953781128,
+        "doi": "10.1016/0002-9343(86)90945-9",
+        "journal": "The American journal of medicine",
+        "year": "1986",
+        "rerank_score": -0.13815085589885712,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

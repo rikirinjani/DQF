@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Pramlintide postprandial glucose reduction diabetes"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38568467",
+        "text": "Prandial Insulins: A Person-Centered Choice. Postprandial hyperglycemia, or elevated blood glucose after meals, is associated with the development and progression of various diabetes-related complications. Prandial insulins are designed to replicate the natural insulin release after meals and are highly effective in managing post-meal glucose spikes. Currently, different types of prandial insulins are available such as human regular insulin, rapid-acting analogs, ultra-rapid-acting analogs, and inhaled insu",
+        "score": 0.3308204710483551,
+        "doi": "10.1007/s11892-024-01540-8",
+        "journal": "Current diabetes reports",
+        "year": "2024",
+        "rerank_score": 3.167921781539917,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39109464",
+        "text": "ADO09, a co-formulation of pramlintide and insulin A21G, lowers body weight versus insulin lispro in type 1 diabetes. To study safety, efficacy and weight loss with ADO09, a co-formulation of insulin A21G and pramlintide, in type 1 diabetes. A randomized, two-arm ambulatory 16-week study compared ADO09 with insulin lispro in 80 participants with type 1 diabetes. We compared changes of weight, glycated haemoglobin, glycaemic patterns during continuous glucose monitoring, and insulin doses at baseline and at ",
+        "score": 0.3712160289287567,
+        "doi": "10.1111/dom.15827",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 3.0192062854766846,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41022243",
+        "text": "Central pramlintide administration potently suppresses operant responding for sucrose and locomotor activity in male rats. Amylin is a feeding-suppressive hormone which acts centrally in the control of energy balance. Some evidence suggests it reduces motivation for food rewards. Pramlintide is a synthetic amylin analog that is used clinically in the treatment of diabetes, and it also reduces feeding and weight gain. However, the mechanisms behind these pramlintide-induced reductions in feeding are unclear.",
+        "score": 0.3656693696975708,
+        "doi": "10.1016/j.physbeh.2025.115114",
+        "journal": "Physiology & behavior",
+        "year": "2025",
+        "rerank_score": 2.5295252799987793,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

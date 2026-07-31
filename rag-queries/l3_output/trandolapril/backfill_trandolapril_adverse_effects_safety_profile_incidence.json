@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Trandolapril adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38863974",
+        "text": "Safety assessment of tranexamic acid: real-world adverse event analysis from the FAERS database. In recent years, with the continuous expansion of the application scope of Tranexamic acid (TXA), its usage has surged. Despite numerous studies demonstrating its powerful efficacy, concerns regarding its adverse reactions persist, necessitating comprehensive safety assessment. This study analyzed real-world data from the U.S. Food and Drug Administration to investigate TXA-related adverse events, aiming to eluc",
+        "score": 0.46057185530662537,
+        "doi": "10.3389/fphar.2024.1388138",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 1.942244529724121,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11549787",
+        "text": "Latest industry information on the safety profile of levofloxacin in the US. This paper reviews the safety data for levofloxacin utilizing reports from clinical and post-marketing surveillance trials. The side effect incidence rates are 1.3% for nausea, 0.1% for anxiety, 0.3% for insomnia, and 0.1% for headache. No levofloxacin-related adverse events were reported at a rate higher than 1.3%, and most were lower. Four clinical trials were reported. Levofloxacin achieved superior clinical and microbiological ",
+        "score": 0.4315631687641144,
+        "doi": "10.1159/000057842",
+        "journal": "Chemotherapy",
+        "year": "2001",
+        "rerank_score": 1.6832693815231323,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8881468",
+        "text": "[Efficacy and tolerability of trandolapril in overweight hypertensive patients]. An open multicentre study, performed in 340 overweight (body mass index: BMI > or = 25), hypertensive (95 mmHg < or = DBP < 115 mmHg) patients, evaluated the clinical and metabolic safety of trandolapril and confirmed its antihypertensive activity. After a two-week washout period, the patients received trandolapril 2 mg as a single morning dose for 12 weeks. Doubling of the dosage was authorized after the first four weeks when ",
+        "score": 0.4316787123680115,
+        "doi": "",
+        "journal": "Annales de cardiologie et d'angeiologie",
+        "year": "1996",
+        "rerank_score": 1.532517910003662,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

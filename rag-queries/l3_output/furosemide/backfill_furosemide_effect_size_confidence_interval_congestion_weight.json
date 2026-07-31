@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Furosemide effect size confidence interval congestion weight change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39472392",
+        "text": "Relationship between clinical congestion and worsening renal function after intravenous initiation of furosemide in patients with acute heart failure. To investigate if worsening renal function (WRF) appearing in some patients with acute heart failure (AHF) after intravenous furosemide initiation is influenced by severity of congestion. We conducted a retrospective secondary analysis of consecutive patients diagnosed with AHF and prospectively included in 10 Spanish emergency departments (EDs) for whom seru",
+        "score": 0.42491498589515686,
+        "doi": "10.1007/s11739-024-03796-0",
+        "journal": "Internal and emergency medicine",
+        "year": "2024",
+        "rerank_score": -2.797133445739746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40360952",
+        "text": "An Adult Population Pharmacokinetic Model to Simulate Subcutaneous Administration of a Fixed Dose of Furosemide in Adolescents with Heart Failure and Volume Overload. Subcutaneous furosemide administered with the On-Body Infusor could be useful in children with heart failure (HF) and congestion due to volume overload, but the appropriate dosing regimen is unknown. This study aimed to develop a population pharmacokinetic (popPK) model to determine the subcutaneous furosemide dosing regimen in children with H",
+        "score": 0.4466813802719116,
+        "doi": "10.1007/s40262-025-01515-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -3.170494556427002,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40804895",
+        "text": "Furosemide Reduces Radionuclide Activity in the Bladder in",
+        "score": 0.44750773906707764,
+        "doi": "10.3390/diagnostics15151931",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": -3.9344232082366943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

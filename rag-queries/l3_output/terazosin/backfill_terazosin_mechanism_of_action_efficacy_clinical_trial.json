@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Terazosin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38154074",
+        "text": "A non-randomized pilot trial of the use of prazosin in the prevention of transition from acute stress disorder to post-traumatic stress disorder. Following a traumatic event, 40-80% of the patients with acute stress disorder (ASD) will develop post-traumatic stress disorder (PTSD), 67% at 6 months. Alpha1-blockers are effective in treating some symptoms of PTSD but their usefulness in acute stress situations remains unclear. We hypothesized that reducing noradrenergic hyperactivity with an alpha1-blocker du",
+        "score": 0.44885721802711487,
+        "doi": "10.1080/20008066.2023.2251250",
+        "journal": "European journal of psychotraumatology",
+        "year": "2024",
+        "rerank_score": 0.06260016560554504,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38442072",
+        "text": "Use of Terazosin to Treat Trauma-Related Nightmares After a Failed Trial of Prazosin.",
+        "score": 0.44991743564605713,
+        "doi": "10.4088/PCC.23cr03638",
+        "journal": "The primary care companion for CNS disorders",
+        "year": "2024",
+        "rerank_score": -0.8503632545471191,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39044238",
+        "text": "Effect of low-dose terazosin on arterial stiffness improvement: A pilot study. Arterial stiffness, a prominent hallmark of ageing arteries, is a predictor of all-cause mortality. Strategies for promoting healthy vascular ageing are encouraged. Here we conducted a pilot study to evaluate the potential effects of low-dose Terazosin on arterial stiffness. We enrolled patients aged over 40 with elevated arterial stiffness, defined as a brachial-ankle pulse wave velocity (baPWV) ≥1400 cm/s, who were administered",
+        "score": 0.4284737706184387,
+        "doi": "10.1111/jcmm.18547",
+        "journal": "Journal of cellular and molecular medicine",
+        "year": "2024",
+        "rerank_score": -0.9896668791770935,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

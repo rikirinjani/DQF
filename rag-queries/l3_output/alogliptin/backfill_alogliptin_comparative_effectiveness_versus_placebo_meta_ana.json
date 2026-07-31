@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Alogliptin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28275958",
+        "text": "Comparative Effectiveness of Adding Alogliptin to Metformin Plus Sulfonylurea with Other DPP-4 Inhibitors in Type 2 Diabetes: A Systematic Review and Network Meta-Analysis. Alogliptin is an oral antihyperglycemic agent that is a selective inhibitor of the enzyme dipeptidyl peptidase-4 (DPP-4), approved for the treatment of type 2 diabetes mellitus (T2DM). There currently exists no comparative data to support the use of alogliptin in combination with metformin (met) and sulfonylurea (SU). A decision-focused ",
+        "score": 0.3842776119709015,
+        "doi": "10.1007/s13300-017-0245-8",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2017",
+        "rerank_score": 5.521289825439453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28435304",
+        "text": "Comparative effectiveness of glycemic control in patients with type 2 diabetes treated with GLP-1 receptor agonists: a network meta-analysis of placebo-controlled and active-comparator trials. Clinical studies of patients with type 2 diabetes show that GLP-1 receptor agonists (GLP-1 RAs) improve glycemic control and promote weight loss. We conducted a Bayesian network meta-analysis (NMA) of placebo- and active-controlled randomized trials to assess the comparative effectiveness of liraglutide, albiglutide, ",
+        "score": 0.38914841413497925,
+        "doi": "10.2147/DMSO.S116810",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2017",
+        "rerank_score": 4.669543266296387,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36264574",
+        "text": "Comparative Effectiveness of Empagliflozin vs Liraglutide or Sitagliptin in Older Adults With Diverse Patient Characteristics. Limited evidence is available on the comparative effectiveness of empagliflozin vs alternative second-line glucose-lowering agents in patients with type 2 diabetes (T2D) receiving routine care who have a broad spectrum of cardiorenal risk.",
+        "score": 0.38244619965553284,
+        "doi": "10.1001/jamanetworkopen.2022.37606",
+        "journal": "JAMA network open",
+        "year": "2022",
+        "rerank_score": 2.7158234119415283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

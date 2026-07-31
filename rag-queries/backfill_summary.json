@@ -1,0 +1,208 @@
+{
+  "pipeline": "DQF L3 evidence backfill (Task 1)",
+  "generated": "2026-07-31T16:28:21",
+  "rag_endpoint": "https://balade-pubmed-rag-bot.hf.space/search",
+  "drugs": {
+    "alogliptin": {
+      "kind": "diabetes",
+      "files_written": [
+        "backfill_alogliptin_adverse_effects_safety_profile_incidence.json",
+        "backfill_alogliptin_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_alogliptin_effect_size_confidence_interval_hba1c_change.json",
+        "backfill_alogliptin_hba1c_reduction_diabetes_efficacy.json",
+        "backfill_alogliptin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_alogliptin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_alogliptin_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_alogliptin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "trandolapril": {
+      "kind": "ah",
+      "files_written": [
+        "backfill_trandolapril_adverse_effects_safety_profile_incidence.json",
+        "backfill_trandolapril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_trandolapril_comparative_effectiveness_versus_placebo_meta_a.json",
+        "backfill_trandolapril_effect_size_confidence_interval_blood_pressure_.json",
+        "backfill_trandolapril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_trandolapril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_trandolapril_randomized_controlled_trial_efficacy_outcome_qu.json",
+        "backfill_trandolapril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "methyldopa": {
+      "kind": "ah",
+      "files_written": [
+        "backfill_methyldopa_adverse_effects_safety_profile_incidence.json",
+        "backfill_methyldopa_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_methyldopa_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_methyldopa_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_methyldopa_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_methyldopa_number_needed_to_treat_nnt_outcome.json",
+        "backfill_methyldopa_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_methyldopa_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "exenatide": {
+      "kind": "diabetes",
+      "files_written": [
+        "backfill_exenatide_adverse_effects_safety_profile_incidence.json",
+        "backfill_exenatide_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_exenatide_effect_size_confidence_interval_hba1c_change.json",
+        "backfill_exenatide_hba1c_reduction_diabetes_efficacy.json",
+        "backfill_exenatide_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_exenatide_number_needed_to_treat_nnt_outcome.json",
+        "backfill_exenatide_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_exenatide_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "rosiglitazone": {
+      "kind": "diabetes",
+      "files_written": [
+        "backfill_rosiglitazone_adverse_effects_safety_profile_incidence.json",
+        "backfill_rosiglitazone_comparative_effectiveness_versus_placebo_meta_.json",
+        "backfill_rosiglitazone_effect_size_confidence_interval_hba1c_change.json",
+        "backfill_rosiglitazone_hba1c_reduction_diabetes_efficacy.json",
+        "backfill_rosiglitazone_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_rosiglitazone_number_needed_to_treat_nnt_outcome.json",
+        "backfill_rosiglitazone_randomized_controlled_trial_efficacy_outcome_q.json",
+        "backfill_rosiglitazone_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "pramlintide": {
+      "kind": "pramlintide",
+      "files_written": [
+        "backfill_pramlintide_adverse_effects_safety_profile_incidence.json",
+        "backfill_pramlintide_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_pramlintide_effect_size_confidence_interval_hba1c_change.json",
+        "backfill_pramlintide_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_pramlintide_number_needed_to_treat_nnt_outcome.json",
+        "backfill_pramlintide_postprandial_glucose_reduction_diabetes.json",
+        "backfill_pramlintide_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_pramlintide_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "terazosin": {
+      "kind": "ah",
+      "files_written": [
+        "backfill_terazosin_adverse_effects_safety_profile_incidence.json",
+        "backfill_terazosin_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_terazosin_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_terazosin_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_terazosin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_terazosin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_terazosin_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_terazosin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "saxagliptin": {
+      "kind": "diabetes",
+      "files_written": [
+        "backfill_saxagliptin_adverse_effects_safety_profile_incidence.json",
+        "backfill_saxagliptin_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_saxagliptin_effect_size_confidence_interval_hba1c_change.json",
+        "backfill_saxagliptin_hba1c_reduction_diabetes_efficacy.json",
+        "backfill_saxagliptin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_saxagliptin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_saxagliptin_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_saxagliptin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "furosemide": {
+      "kind": "furosemide",
+      "files_written": [
+        "backfill_furosemide_adverse_effects_safety_profile_incidence.json",
+        "backfill_furosemide_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_furosemide_diuresis_heart_failure_edema_efficacy.json",
+        "backfill_furosemide_effect_size_confidence_interval_congestion_weight.json",
+        "backfill_furosemide_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_furosemide_number_needed_to_treat_nnt_outcome.json",
+        "backfill_furosemide_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_furosemide_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    },
+    "vildagliptin": {
+      "kind": "diabetes",
+      "files_written": [
+        "backfill_vildagliptin_adverse_effects_safety_profile_incidence.json",
+        "backfill_vildagliptin_comparative_effectiveness_versus_placebo_meta_a.json",
+        "backfill_vildagliptin_effect_size_confidence_interval_hba1c_change.json",
+        "backfill_vildagliptin_hba1c_reduction_diabetes_efficacy.json",
+        "backfill_vildagliptin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_vildagliptin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_vildagliptin_randomized_controlled_trial_efficacy_outcome_qu.json",
+        "backfill_vildagliptin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null
+    }
+  },
+  "totals": {
+    "rag_queries_issued": 80,
+    "rag_ok": 80,
+    "still_loading_failed": 0,
+    "timeout_failed": 0,
+    "other_errors": 0,
+    "eutils_runs": 0
+  },
+  "endpoint_errors": [],
+  "overwrites": "none: all outputs are new backfill_* files",
+  "note": "Real run: 8 RAG queries x 10 drugs (Angles A+B). Angle C (EUtils) skipped for all drugs because every drug reached 8/8 RAG OK (threshold <6/8). EUtils code path smoke-tested separately on alogliptin and verified working."
+}

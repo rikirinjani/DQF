@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Exenatide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41206637",
+        "text": "M14 substitutions in exanatide modulate alpha-synuclein aggregation. Clinical and epidemiological studies suggest similarities in dysregulation of pathways in type 2 diabetes (T2DM) and Parkinson's disease (PD). Efficacy of several antidiabetic drugs has been tested in PD. Exenatide, a synthetic version of exendin-4, an incretin-mimetic drug, is an agonist of glucagon-like peptide 1 receptor (GLP1R) and is approved for the treatment of T2DM. Exenatide can cross the blood-brain barrier and exerts neuroprotec",
+        "score": 0.41484594345092773,
+        "doi": "10.1111/febs.70321",
+        "journal": "The FEBS journal",
+        "year": "2025",
+        "rerank_score": 4.633697509765625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39381950",
+        "text": "Cardiovascular outcomes with exenatide in type 2 diabetes according to ejection fraction: The EXSCEL trial. Glucagon-like peptide-1 receptor agonists reduce major adverse cardiovascular events (MACE) and cardiovascular mortality in people with type 2 diabetes (T2D). However, previous studies suggest the effects on heart failure outcomes vary according to left ventricular ejection fraction (LVEF). We aimed to evaluate the effects of exenatide on cardiovascular events according to LVEF in people with T2D. Pos",
+        "score": 0.3831736743450165,
+        "doi": "10.1002/ejhf.3478",
+        "journal": "European journal of heart failure",
+        "year": "2024",
+        "rerank_score": 4.3559465408325195,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40265262",
+        "text": "Efficacy of the Glucagon-Like Peptide-1 Agonist Exenatide in Patients Undergoing CABG or Aortic Valve Replacement: A Randomized Double-Blind Clinical Trial. GLP-1 (glucagon-like peptide-1) agonists have been proven beneficial in reducing the risk of and injury associated with several cardiovascular diseases. The efficacy in cardiopulmonary bypass-assisted cardiac surgery is unknown. This trial aimed to investigate the efficacy of an infusion of the GLP-1 agonist exenatide during and after open-heart surgery",
+        "score": 0.4133182764053345,
+        "doi": "10.1161/CIRCINTERVENTIONS.124.014961",
+        "journal": "Circulation. Cardiovascular interventions",
+        "year": "2025",
+        "rerank_score": 4.120308876037598,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

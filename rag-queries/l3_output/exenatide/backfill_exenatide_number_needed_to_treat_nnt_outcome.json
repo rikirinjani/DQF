@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Exenatide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32612869",
+        "text": "Ultra-sensitive bioanalysis of the therapeutic peptide exenatide for accurate pharmacokinetic analyses at effective plasma concentrations utilizing UPLC-MS/MS. Exenatide is the first approved glucagon-like peptide 1 receptor agonist subcutaneously or intramuscularly injected for the treatment of type 2 diabetes mellitus. Typical therapeutic plasma concentrations are in the low pg/mL range, therefore requiring ultra-sensitive quantification. To enable the accurate evaluation of pharmacokinetic studies, we es",
+        "score": 0.4747891128063202,
+        "doi": "10.1016/j.jpha.2020.02.008",
+        "journal": "Journal of pharmaceutical analysis",
+        "year": "2019",
+        "rerank_score": -0.4479578733444214,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41352168",
+        "text": "Prediction of the optimal dose of exenatide in patients with type 2 diabetes mellitus with renal impairment using physiologically based pharmacokinetic modeling. Although exenatide is approved for patients with type 2 diabetes mellitus (T2DM) with mild to moderate renal impairment, specific dosing guidelines for this population remain undefined. To address this gap, we developed a physiologically based pharmacokinetic model using PK-Sim & MoBi software, integrating target-mediated drug disposition to simula",
+        "score": 0.4933280944824219,
+        "doi": "10.1016/j.dmd.2025.100199",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": -1.8339258432388306,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39916458",
+        "text": "Factors Influencing Nerinetide Effect on Clinical Outcome in Patients Without Alteplase Treatment in the ESCAPE-NA1 Trial. In the ESCAPE-NA1 (Efficacy and Safety of Nerinetide for the Treatment of Acute Ischaemic Stroke) trial, treatment with nerinetide was associated with improved outcomes in patients who did not receive intravenous alteplase. We compared the effect of nerinetide on clinical outcomes in patients without concurrent intravenous alteplase treatment within different patient subgroups. ESCAPE-N",
+        "score": 0.4930528402328491,
+        "doi": "10.5853/jos.2024.03139",
+        "journal": "Journal of stroke",
+        "year": "2024",
+        "rerank_score": -2.3218648433685303,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

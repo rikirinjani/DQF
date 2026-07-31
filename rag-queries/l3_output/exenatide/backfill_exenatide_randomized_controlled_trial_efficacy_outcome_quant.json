@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Exenatide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31941795",
+        "text": "Randomized controlled trial of  To investigate the efficacy of",
+        "score": 0.37321680784225464,
+        "doi": "10.1212/WNL.0000000000008872",
+        "journal": "Neurology",
+        "year": "2019",
+        "rerank_score": 0.17086483538150787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41033405",
+        "text": "Theory of clinical therapeutic progress: reconciling equipoise with fat-tailed (skewed) outcomes. Randomized controlled trials (RCTs) embody a paradox: they require equipoise-genuine uncertainty about treatment effects-to ethically protect participants, yet this very requirement can slow therapeutic innovation by discouraging trials of promising new treatments. We sought to determine which statistical distribution best reflects the balance between protecting trial participants and advancing therapeutic disc",
+        "score": 0.36765748262405396,
+        "doi": "10.1016/j.jclinepi.2025.112004",
+        "journal": "Journal of clinical epidemiology",
+        "year": "2025",
+        "rerank_score": -0.3023339807987213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38290143",
+        "text": "Visualizing External Validity: Graphical Displays to Inform the Extension of Treatment Effects from Trials to Clinical Practice. In the presence of effect measure modification, estimates of treatment effects from randomized controlled trials may not be valid in clinical practice settings. The development and application of quantitative approaches for extending treatment effects from trials to clinical practice settings is an active area of research. In this article, we provide researchers with a practical r",
+        "score": 0.3654056191444397,
+        "doi": "10.1097/EDE.0000000000001694",
+        "journal": "Epidemiology (Cambridge, Mass.)",
+        "year": "2024",
+        "rerank_score": -0.3947913944721222,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

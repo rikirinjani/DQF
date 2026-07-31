@@ -94,6 +94,7 @@ Onset captures mechanism: direct antagonists (ramipril 120 min, furosemide 60 mi
 **Conventions:**
 - Quantitative endpoints are sparse in source digests; values are class-anchored pharmacology when direct evidence is absent. Original quantification carried `_evidence_level` / `_evidence_note` flags that are stripped at merge time — the ontology treats the block as evidence-graded at the field level, not the block level.
 - Phantom-field adjudication (keyword hits beyond the 300-char truncation window in L3 extraction) is recorded in `rag-queries/l2b_overrides.json` under `phantom_adjudication.verdicts` (27 verdicts as of 2026-07-31).
+- Cross-class schema consistency is governed by `api/l4_schema_map.json` (locked 2026-07-31, ora-7 audit): machine-readable per-class field inventory, common-core semantics (`indications[]` is the only truly universal field; `success_rate`/`onset` are class-specific), and a risk register. Policy: **document-only** — no field renames applied; the critical `nnt_bp_control` false-sharing (Antihypertensive `{value,ci_95,dose}` vs Diabetes `{a1c_reduction,unit,dose}`) is tracked as Risk 1 and requires coordinated rename + consumer update in a future dev cycle. Known consumer breakage surface: `api/server.py` (6 hardcoded L4 field refs) and `_add_e3_e4_drugs.py`.
 
 ## Causal Relationships Between Levels
 

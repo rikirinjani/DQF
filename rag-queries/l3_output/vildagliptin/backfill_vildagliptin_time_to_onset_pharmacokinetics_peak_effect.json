@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Vildagliptin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25429228",
+        "text": "Changes in body weight after 24 weeks of vildagliptin therapy as a function of fasting glucose levels in patients with type 2 diabetes. In order to test the hypothesis that the degree of weight change with the dipeptidyl peptidase-4 inhibitor vildagliptin is dependent on the level of glycemic control at baseline, the weight changes from pooled monotherapy studies after 24 weeks of therapy with vildagliptin were assessed versus the fasting plasma glucose (FPG) levels at baseline.",
+        "score": 0.3650171756744385,
+        "doi": "10.2147/VHRM.S73608",
+        "journal": "Vascular health and risk management",
+        "year": "2014",
+        "rerank_score": 0.4896233379840851,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26550558",
+        "text": "Long-term efficacy of vildagliptin in patients with type 2 diabetes undergoing hemodialysis. There are few studies evaluating long-term glycemic control using a dipeptidyl peptidase-4 inhibitor in type 2 diabetes patients with end-stage renal disease (ESRD). The aim of this study was to evaluate the safety and efficacy of vildagliptin therapy over 2 years in type 2 diabetes with ESRD.",
+        "score": 0.36522525548934937,
+        "doi": "10.1186/s40200-015-0214-6",
+        "journal": "Journal of diabetes and metabolic disorders",
+        "year": "2015",
+        "rerank_score": -0.5162075757980347,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40620795",
+        "text": "The effects of vildagliptin on glycemic variability in patients with type 2 diabetes on premixed insulin therapy. Patients on premixed insulin therapy usually have poor glycemic control. This study aimed to investigate the effect of vildagliptin in these patients. This real-world study included patients with type 2 diabetes mellitus (T2DM), who were poorly glycemic controlled on premixed insulin therapy and were subsequently added vildagliptin. The control group consisted of patients who only had their insu",
+        "score": 0.3966473639011383,
+        "doi": "10.3389/fendo.2025.1508918",
+        "journal": "Frontiers in endocrinology",
+        "year": "2024",
+        "rerank_score": -0.6611959934234619,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "capa_id": "CAPA-2026-009",
+  "timestamp": "2026-07-31T15:50:00",
+  "reopened_date": "2026-07-31T16:50:00",
+  "linked_ncr": ["NCR-2026-014", "NCR-2026-015"],
+  "linked_failure": [
+    "C:\\Users\\think\\self-harness\\failures\\20260731-process-ora1-payload-loss.json",
+    "C:\\Users\\think\\self-harness\\failures\\20260731-process-ora9-payload-loss.json"
+  ],
+  "root_cause": "Read-only specialist lane (oracle) tasked with producing a deliverable JSON payload that must persist; no persistence plan at dispatch time; orchestrator assumed the payload would survive in the lane's ephemeral response buffer. Recurrence on 2026-07-31 (ora-9) showed the corrective action was documentation-only: it specified the rule but added no close-time enforcement gate, and the lane returned a status-only message with no payload.",
+  "corrective_action": "When dispatching a write-required deliverable to a read-only lane, either (a) require the full payload inside the returned task result text, or (b) have the lane write to a permitted path, or (c) if neither is possible, dispatch a write-capable lane (fixer). Verify payload capture BEFORE lane close.",
+  "verification": "First closure validated on TICKET-005 (ora-5 persisted to %TEMP%\\opencode\\l4_antihypertensive.json; merged 49/49, spot-check APPROVE). REOPENED 2026-07-31 for recurrence (ora-9: no payload in result). New enforcement added: orchestrator close-time gate (process-mappings.md) — before declaring a read-only lane reconciled, confirm the required payload keys are present in the returned task result; if absent, re-dispatch immediately without marking reconciled.",
+  "status": "open",
+  "closed_date": null,
+  "closure_evidence": [],
+  "prevention": "Orchestrator dispatch + close checklist (process-mappings.md, section 1): (1) at dispatch, state the persistence mechanism (disk path OR full payload in result); (2) at close, verify payload presence in the returned result BEFORE marking the lane reconciled; (3) on absence, re-dispatch with the same objective and do not close the lane. Applies to oracle, explorer, librarian, designer, verifier lanes."
+}

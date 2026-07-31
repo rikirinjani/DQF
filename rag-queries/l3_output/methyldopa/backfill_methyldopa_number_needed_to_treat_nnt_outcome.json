@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Methyldopa number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2879011",
+        "text": "The effect of pH and concentration on alpha-methyldopa absorption in man. An open crossover study of the absorption of alpha-methyldopa has been conducted in normal healthy adult male volunteers in whom a triple lumen perfusion tube had been placed. Three volunteers were perfused on separate occasions with 0.1 mM alpha-methyldopa at pH 4.5, 6.0 and 7.4. Three other volunteers were perfused on separate occasions with 0.1, 1.0 and 10 mM alpha-methyldopa at pH 6.0. Two additional subjects were perfused with 0.",
+        "score": 0.46252715587615967,
+        "doi": "10.1111/j.2042-7158.1986.tb04501.x",
+        "journal": "The Journal of pharmacy and pharmacology",
+        "year": "1986",
+        "rerank_score": -4.93303918838501,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21856105",
+        "text": "Simultaneous quantitation of levodopa and 3-O-methyldopa in human plasma by HPLC-ESI-MS/MS: application for a pharmacokinetic study with a levodopa/benserazide formulation. A sensitive and simple method was developed for the quantitation of levodopa and its metabolite 3-O-methyldopa, in human plasma, after oral administration of tablet formulations containing levodopa (200 mg) and benserazide (50 mg). The analytes were extracted by a protein precipitation procedure, using carbidopa as an internal standard. ",
+        "score": 0.46068495512008667,
+        "doi": "10.1016/j.jpba.2011.07.040",
+        "journal": "Journal of pharmaceutical and biomedical analysis",
+        "year": "2011",
+        "rerank_score": -5.367826461791992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41488792",
+        "text": "Development and validation of the NEOS2 score for prediction of long-term outcomes and improvement after first-line immunotherapy in patients with anti-NMDAR encephalitis: an international cohort study. Anti-N-methyl-d-aspartate receptor (anti-NMDAR) encephalitis is a severe disease that primarily affects young people and can improve with adequate treatment. We aimed to refine the anti-NMDAR Encephalitis One-year functional Status (NEOS) score by developing NEOS2, an updated model using readily available da",
+        "score": 0.473736047744751,
+        "doi": "10.1016/j.lanepe.2025.101562",
+        "journal": "The Lancet regional health. Europe",
+        "year": "2025",
+        "rerank_score": -5.960599899291992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

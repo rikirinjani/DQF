@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Rosiglitazone effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20009095",
+        "text": "Effect of Rosiglitazone and Ramipril on {beta}-cell function in people with impaired glucose tolerance or impaired fasting glucose: the DREAM trial. OBJECTIVE The objective of this study was to determine the degree to which ramipril and/or rosiglitazone changed beta-cell function over time among individuals with impaired fasting glucose (IFG) and/or impaired glucose tolerance (IGT) who participated in the Diabetes Reduction Assessment With Ramipril and Rosiglitazone Medication (DREAM) Trial, which evaluated",
+        "score": 0.43382078409194946,
+        "doi": "10.2337/dc09-1579",
+        "journal": "Diabetes care",
+        "year": "2009",
+        "rerank_score": 0.8822215795516968,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:16997664",
+        "text": "Effect of rosiglitazone on the frequency of diabetes in patients with impaired glucose tolerance or impaired fasting glucose: a randomised controlled trial. Rosiglitazone is a thiazolidinedione that reduces insulin resistance and might preserve insulin secretion. The aim of this study was to assess prospectively the drug's ability to prevent type 2 diabetes in individuals at high risk of developing the condition.",
+        "score": 0.4334249198436737,
+        "doi": "10.1016/S0140-6736(06)69420-8",
+        "journal": "Lancet (London, England)",
+        "year": "2006",
+        "rerank_score": 0.24548038840293884,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39628286",
+        "text": "The effect of HbA1c variability on the efficacy of intensive blood pressure control in patients with type 2 diabetes. The efficacy of intensive blood pressure (BP) control remains controversial, and the variability of HbA1c was a risk factor for macrovascular events in patients with type 2 diabetes. We investigated whether the HbA1c variability modifies the efficacy of intensive BP control. Data from the Action to Control Cardiovascular Risk in Diabetes Blood Pressure (ACCORD-BP) trial was utilized. K-means",
+        "score": 0.4348018169403076,
+        "doi": "10.1111/dom.16112",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -2.094846725463867,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Exenatide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39780397",
+        "text": "Exploring Predictors of Treatment Response to GLP-1 Receptor Agonists for Smoking Cessation. Understanding predictors of smoking cessation medication efficacy facilitates the ability to enhance treatment effectiveness. In our pilot trial, exenatide, a glucagon-like peptide-1 receptor agonist, adjunct to nicotine patch improved smoking abstinence compared to nicotine patch alone. This secondary analysis explores potential baseline characteristics associated with differential treatment response to exenatide. ",
+        "score": 0.41147172451019287,
+        "doi": "10.1093/ntr/ntaf005",
+        "journal": "Nicotine & tobacco research : official journal of the Society for Research on Ni",
+        "year": "2024",
+        "rerank_score": 3.9038472175598145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40212008",
+        "text": "Comparative efficacy and tolerability of currently approved incretin mimetics: A systematic analysis of placebo-controlled clinical trials. This study compares the therapeutic efficacy, gastrointestinal (GI) adverse event (AE) rates and the relationship between the therapeutic efficacy and GI AEs in randomized, placebo-controlled clinical trials (RCTs) of GLP-1 RAs and the dual GLP-1/GIP agonist tirzepatide. A systematic PubMed search identified 38 phase 3 or 4 placebo-controlled RCTs of exenatide (b.i.d. a",
+        "score": 0.4129987955093384,
+        "doi": "10.1111/dom.16398",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 3.278226852416992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17872344",
+        "text": "Exenatide therapy in obese patients with type 2 diabetes mellitus treated with insulin. To evaluate the effect of exenatide on clinical parameters in obese patients with type 2 diabetes mellitus whose hyperglycemia is not adequately controlled despite treatment with oral hypoglycemic agents and insulin.",
+        "score": 0.388916552066803,
+        "doi": "10.4158/EP.13.5.444",
+        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
+        "year": "2007",
+        "rerank_score": 0.9590175747871399,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

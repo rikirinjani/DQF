@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Terazosin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:9493258",
+        "text": "Estimating the causal effect of compliance on binary outcome in randomized controlled trials. We examine likelihood based methods aimed at analysing the causal effect of actual exposure to drug treatment on a (repeated) binary outcome in two randomized trials with partial compliance. Starting with the univariate compliance summary 'total treatment dose history', we apply a method for ordinal compliance and monotone dose response, proposed by Goetghebeur and Molenberghs. In a short duration trial of blood pr",
+        "score": 0.38263535499572754,
+        "doi": "10.1002/(sici)1097-0258(19980215)17:3<34",
+        "journal": "Statistics in medicine",
+        "year": "1998",
+        "rerank_score": 0.19262206554412842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38154074",
+        "text": "A non-randomized pilot trial of the use of prazosin in the prevention of transition from acute stress disorder to post-traumatic stress disorder. Following a traumatic event, 40-80% of the patients with acute stress disorder (ASD) will develop post-traumatic stress disorder (PTSD), 67% at 6 months. Alpha1-blockers are effective in treating some symptoms of PTSD but their usefulness in acute stress situations remains unclear. We hypothesized that reducing noradrenergic hyperactivity with an alpha1-blocker du",
+        "score": 0.4062036871910095,
+        "doi": "10.1080/20008066.2023.2251250",
+        "journal": "European journal of psychotraumatology",
+        "year": "2024",
+        "rerank_score": 0.01878340169787407,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40166580",
+        "text": "From 'Negative' Trial to Positive Clinical Impact: Emulating WARCEF While Accounting for Selection Bias in Trial Timing. While randomized controlled trials (RCTs) guide clinical practice, their completion may also influence real-world treatment patterns. We investigated whether the outcomes of trial emulation differ before and after the publication of the WARCEF (Warfarin versus Aspirin in Reduced Cardiac Ejection Fraction) randomized controlled trial. We emulated the WARCEF trial using EHR data from the Ma",
+        "score": 0.4100159704685211,
+        "doi": "10.1101/2025.03.19.25324271",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2025",
+        "rerank_score": -1.3042736053466797,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

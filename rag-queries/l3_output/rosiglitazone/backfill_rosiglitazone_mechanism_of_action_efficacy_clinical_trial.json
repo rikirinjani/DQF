@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Rosiglitazone mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38549500",
+        "text": "Clinical pharmacokinetics of leriglitazone and a translational approach using PBPK modeling to guide the selection of the starting dose in children. Leriglitazone is a unique peroxisome proliferator-activated receptor-gamma (PPARγ) agonist that crosses the blood-brain barrier in humans and clinical trials have shown evidence of efficacy in neurodegenerative diseases. At clinical doses which are well-tolerated, leriglitazone reaches the target central nervous system (CNS) concentrations that are needed for P",
+        "score": 0.3999252915382385,
+        "doi": "10.1002/psp4.13132",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": 3.5408101081848145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40011379",
+        "text": "The Data Monitoring Experience in Empagliflozin Randomized Clinical Trials Between 2011 and 2024. In November 2007, a black box warning was mandated for rosiglitazone in type 2 diabetes mellitus (T2DM) based on an increased risk of ischemic cardiovascular (CV) events. The Food and Drug Administration (FDA) issued a directive that a CV outcomes trial must be done for any new diabetes drug to demonstrate no CV harm. Therefore, the Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Pa",
+        "score": 0.42582419514656067,
+        "doi": "10.1007/s43441-025-00749-3",
+        "journal": "Therapeutic innovation & regulatory science",
+        "year": "2024",
+        "rerank_score": 3.04876446723938,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38294697",
+        "text": "Thiazolidinedione enhances the efficacy of anti-PD-1 monoclonal antibody in murine melanoma. Several clinical studies observed a surprising beneficial effect of obesity on enhancing immunotherapy responsiveness in patients with melanoma, highlighting an as-yet insufficiently understood relationship between metabolism and immunogenicity. Here, we demonstrate that the thiazolidinedione (TZD) rosiglitazone, a drug commonly used to treat diabetes by sequestering fatty acids in metabolically inert subcutaneous a",
+        "score": 0.4105716943740845,
+        "doi": "10.1152/ajpendo.00346.2023",
+        "journal": "American journal of physiology. Endocrinology and metabolism",
+        "year": "2024",
+        "rerank_score": 3.0280630588531494,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Pramlintide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30958347",
+        "text": "Neuroprotective Effects of the Amylin Analog, Pramlintide, on Alzheimer's Disease Are Associated with Oxidative Stress Regulation Mechanisms. Administration of the recombinant analog of the pancreatic amyloid amylin, Pramlintide, has shown therapeutic benefits in aging and Alzheimer's disease (AD) models, both on cognition and amyloid-β (Aβ) pathology. However, the neuroprotective mechanisms underlying the benefits of Pramlintide remain unclear. Given the early and critical role of oxidative stress in AD pa",
+        "score": 0.3956370949745178,
+        "doi": "10.3233/JAD-180421",
+        "journal": "Journal of Alzheimer's disease : JAD",
+        "year": "2019",
+        "rerank_score": 1.0124670267105103,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38493922",
+        "text": "Chronic pramlintide decreases feeding via a reduction in meal size in male rats. Amylin, a pancreatic hormone, is well-established to suppress feeding by enhancing satiation. Pramlintide, an amylin analog that is FDA-approved for the treatment of diabetes, has also been shown to produce hypophagia. However, the behavioral mechanisms underlying the ability of pramlintide to suppress feeding are unresolved. We hypothesized that systemic pramlintide administration in rats would reduce energy intake, specifical",
+        "score": 0.4124809205532074,
+        "doi": "10.1016/j.peptides.2024.171197",
+        "journal": "Peptides",
+        "year": "2024",
+        "rerank_score": -0.10568787157535553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39702972",
+        "text": "Optimization of Romiplostim Biosimilar Efficacy Trial Using In Silico Clinical Trial Approach for Patients With Immune Thrombocytopenia. During biosimilar drug development, conducting a clinical trial of biosimilar efficacy in patients may become necessary in the presence of residual uncertainty regarding the biosimilarity of the drugs. In the development of the biosimilar romiplostim GP40141, we aimed to use a model-based in silico clinical trial (ISCT) approach to optimize the planned biosimilar efficacy ",
+        "score": 0.4066431522369385,
+        "doi": "10.1002/cpdd.1494",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -2.308115005493164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

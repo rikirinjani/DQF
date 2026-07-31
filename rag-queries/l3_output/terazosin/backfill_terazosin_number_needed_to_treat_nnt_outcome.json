@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Terazosin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4756109118461609,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.9769269227981567,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10759664",
+        "text": "A comparative study of terazosin and tamsulosin for symptomatic benign prostatic hyperplasia in Japanese patients. To compare the efficacy and safety of an incremental-dose regimen of terazosin (1-2 mg daily) and a fixed-dose regimen of tamsulosin (0.2 mg daily), on Japanese patients with symptomatic benign prostatic hyperplasia (BPH).",
+        "score": 0.4442611038684845,
+        "doi": "10.1046/j.1464-410x.2000.00608.x",
+        "journal": "BJU international",
+        "year": "2000",
+        "rerank_score": -1.1863324642181396,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41492219",
+        "text": "Combination of oral temozolomide and etoposide as palliative chemotherapy for recurrent or progressive neuroblastoma. We retrospectively analyzed the clinical outcomes of seven patients receiving palliative treatment with oraltemozolomide (TMZ)/etoposide (ETP) for recurrent or progressive neuroblastoma (NB). Patients received a median of three cycles of TMZ/ETP. One patient achieved complete response (CR), three showed stable disease, and three showed progressive disease. The median time to progression in t",
+        "score": 0.4627889394760132,
+        "doi": "10.1080/08880018.2025.2586674",
+        "journal": "Pediatric hematology and oncology",
+        "year": "2026",
+        "rerank_score": -4.479509353637695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

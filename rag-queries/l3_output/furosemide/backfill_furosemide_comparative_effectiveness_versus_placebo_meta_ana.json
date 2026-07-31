@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Furosemide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7338579",
+        "text": "Comparative efficacy and safety of bumetanide and furosemide in long-term treatment of edema due to congestive heart failure. Bumetanide and furosemide were compared for efficacy in reducing edema due to congestive heart failure in 28 patients (21 receiving bumetanide and seven receiving furosemide) in a long-term study for periods from one week to 18 months. In both groups the patients showed decreases in body weight, abdominal girth, edema, hepatomegaly, blood pressure, and heart rate. Commonly observed d",
+        "score": 0.3868761956691742,
+        "doi": "10.1002/j.1552-4604.1981.tb05683.x",
+        "journal": "Journal of clinical pharmacology",
+        "year": "1981",
+        "rerank_score": 4.192477226257324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3285837",
+        "text": "Comparison of efficacy and tolerance of different oral doses of torasemide and furosemide in patients with advanced chronic renal failure. In a double-blind, randomised group comparative study the efficacy of daily oral administration of 100 mg and 200 mg torasemide (1-isopropyl-3-([4-(3-methyl-phenylamino)pyridine]-3-sulfonyl)urea) were compared with that of 250 mg furosemide over 2 weeks in patients with advanced chronic renal failure, who had been pretreated with a maintenance therapy of 500 mg furosemid",
+        "score": 0.38956212997436523,
+        "doi": "",
+        "journal": "Arzneimittel-Forschung",
+        "year": "1988",
+        "rerank_score": 2.7434635162353516,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40984657",
+        "text": "Efficacy and Safety of Lisdexamfetamine Versus Topiramate Versus Naltrexone/Bupropion in Individuals With Binge Eating Disorder: A Network Meta-Analysis. To compare the efficacy and safety of lisdexamfetamine, topiramate, and naltrexone/bupropion for treating binge eating disorder (BED) using network meta-analysis. We systematically searched PubMed, Scopus, ClinicalTrials.gov, and Cochrane Central up to February 2025 for randomized controlled trials evaluating these medications versus placebo in adults with",
+        "score": 0.39395642280578613,
+        "doi": "10.1002/erv.70035",
+        "journal": "European eating disorders review : the journal of the Eating Disorders Associati",
+        "year": "2025",
+        "rerank_score": 2.6936428546905518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Vildagliptin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24820924",
+        "text": "Effectiveness and tolerability of second-line therapy with vildagliptin versus other oral agents in type 2 diabetes (EDGE): post-hoc subanalysis of the Belgian data. To assess the efficacy and safety of vildagliptin versus other oral glucose-lowering drugs added to antidiabetic monotherapy in Belgian patients with type 2 diabetes mellitus, in comparison to the global EDGE study results.",
+        "score": 0.39218735694885254,
+        "doi": "10.1179/2295333714Y.0000000018",
+        "journal": "Acta clinica Belgica",
+        "year": "2014",
+        "rerank_score": 4.179201602935791,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.4000419080257416,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 3.828993558883667,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39354951",
+        "text": "Efficacy and Safety of Ertugliflozin Compared to Placebo in Patients With Type 2 Diabetes: An Updated Systematic Review and Meta-Analysis.",
+        "score": 0.40902847051620483,
+        "doi": "10.1155/2024/5553327",
+        "journal": "Journal of diabetes research",
+        "year": "2024",
+        "rerank_score": 3.636679172515869,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

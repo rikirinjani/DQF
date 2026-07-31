@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Methyldopa comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26648726",
+        "text": "Comparative efficacy, acceptability, and tolerability of dexmethylphenidate versus placebo in child and adolescent ADHD: a meta-analysis of randomized controlled trials. The efficacy of dexmethylphenidate (d-MPH) has been proven in the treatment of children and adolescents with attention-deficit hyperactivity disorder (ADHD).",
+        "score": 0.4117461144924164,
+        "doi": "10.2147/NDT.S91765",
+        "journal": "Neuropsychiatric disease and treatment",
+        "year": "2015",
+        "rerank_score": 5.172395706176758,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22883424",
+        "text": "An indirect comparison of the efficacy and safety of desvenlafaxine and venlafaxine using placebo as the common comparator. This meta-analysis compared the efficacy and safety of desvenlafaxine and venlafaxine at the Australian approved doses.",
+        "score": 0.41071707010269165,
+        "doi": "10.1017/S1092852912000648",
+        "journal": "CNS spectrums",
+        "year": "2012",
+        "rerank_score": 2.3007774353027344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40984657",
+        "text": "Efficacy and Safety of Lisdexamfetamine Versus Topiramate Versus Naltrexone/Bupropion in Individuals With Binge Eating Disorder: A Network Meta-Analysis. To compare the efficacy and safety of lisdexamfetamine, topiramate, and naltrexone/bupropion for treating binge eating disorder (BED) using network meta-analysis. We systematically searched PubMed, Scopus, ClinicalTrials.gov, and Cochrane Central up to February 2025 for randomized controlled trials evaluating these medications versus placebo in adults with",
+        "score": 0.42078065872192383,
+        "doi": "10.1002/erv.70035",
+        "journal": "European eating disorders review : the journal of the Eating Disorders Associati",
+        "year": "2025",
+        "rerank_score": 1.8773927688598633,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

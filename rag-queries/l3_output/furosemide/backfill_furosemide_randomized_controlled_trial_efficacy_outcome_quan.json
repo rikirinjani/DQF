@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Furosemide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39121183",
+        "text": "Safety and Efficacy of Torsemide Versus Furosemide in Patients With Heart Failure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials and Real-World Data.",
+        "score": 0.39459332823753357,
+        "doi": "10.1097/MJT.0000000000001735",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 2.9938223361968994,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.39639294147491455,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.177385926246643,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814593",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.39639294147491455,
+        "doi": "10.1001/jamaoncol.2024.0113",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.177385926246643,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

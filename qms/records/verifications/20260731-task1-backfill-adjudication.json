@@ -1,0 +1,12 @@
+{
+  "ver_id": "VER-2026-017",
+  "timestamp": "2026-07-31T16:55:00",
+  "result": "pass",
+  "verdict": "ADJUDICATED — no L4 changes warranted",
+  "scope": "P4 Task 1 evidence back-fill: 10 priority drugs (alogliptin, trandolapril, methyldopa, exenatide, rosiglitazone, pramlintide, terazosin, saxagliptin, furosemide, vildagliptin). 80 live RAG queries (8/drug) via balade-pubmed-rag-bot.hf.space, 240 snippets adjudicated by 2 independent oracle lanes (ora-8 diabetes 6 drugs, ora-10 AH/cardio 4 drugs; ora-9 failed with no payload and was re-dispatched as ora-10).",
+  "linked_tasks": ["P4-Task1-backfill", "P4-Task2-schema-map"],
+  "linked_specs": ["methodology/framework-ontology.md (L4 section)", "api/l4_schema_map.json"],
+  "evidence_path": "rag-queries/l3_output/*/backfill_*.json (80 files, full-length snippets), rag-queries/backfill_queries.py, rag-queries/backfill_summary.json",
+  "outcome": "All current L4 values retained (0 changes). Universal blocker: endpoint truncates snippet text at ~512 chars, cutting all quantitative values mid-sentence; off-drug rate 40-60% (same-class drugs dominate) despite drug-name-first queries. methyldopa pool worst (confusable-name returns: MDMA/methylphenidate/methylone). Class-anchored values are conservative estimates, not confirmed by this evidence. No data corruption: 0 overwrites, 80 new files, schema-validated.",
+  "blocker_for_fix": "RAG endpoint must return full abstracts (or much larger cap) for quantitative evidence extraction to succeed."
+}

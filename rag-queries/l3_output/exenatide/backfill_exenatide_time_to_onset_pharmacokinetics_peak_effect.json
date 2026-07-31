@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Exenatide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.39731916785240173,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.23412665724754333,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41352168",
+        "text": "Prediction of the optimal dose of exenatide in patients with type 2 diabetes mellitus with renal impairment using physiologically based pharmacokinetic modeling. Although exenatide is approved for patients with type 2 diabetes mellitus (T2DM) with mild to moderate renal impairment, specific dosing guidelines for this population remain undefined. To address this gap, we developed a physiologically based pharmacokinetic model using PK-Sim & MoBi software, integrating target-mediated drug disposition to simula",
+        "score": 0.3634157180786133,
+        "doi": "10.1016/j.dmd.2025.100199",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": -0.4650905132293701,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38963587",
+        "text": "Effect of Hepatic Impairment on Trofinetide Exposures Using an In Silico Physiologically Based Pharmacokinetic Model. Trofinetide is the first drug to be approved for the treatment of Rett syndrome. Hepatic impairment is not expected to affect the pharmacokinetic (PK) profile of trofinetide because of predominant renal excretion. This study was conducted to help understand the potential impact of any hepatic impairment on trofinetide PK. This study used physiologically based PK modeling to estimate trofinet",
+        "score": 0.40839141607284546,
+        "doi": "10.1007/s12325-024-02926-6",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": -3.8071517944335938,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

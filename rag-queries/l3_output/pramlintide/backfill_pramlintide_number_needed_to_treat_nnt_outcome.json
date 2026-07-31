@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Pramlintide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39916458",
+        "text": "Factors Influencing Nerinetide Effect on Clinical Outcome in Patients Without Alteplase Treatment in the ESCAPE-NA1 Trial. In the ESCAPE-NA1 (Efficacy and Safety of Nerinetide for the Treatment of Acute Ischaemic Stroke) trial, treatment with nerinetide was associated with improved outcomes in patients who did not receive intravenous alteplase. We compared the effect of nerinetide on clinical outcomes in patients without concurrent intravenous alteplase treatment within different patient subgroups. ESCAPE-N",
+        "score": 0.47188445925712585,
+        "doi": "10.5853/jos.2024.03139",
+        "journal": "Journal of stroke",
+        "year": "2024",
+        "rerank_score": -3.861459255218506,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39767800",
+        "text": "Predictive Value of N-Terminal Pro B-Type Natriuretic Peptide for Short-Term Outcome of Cardioversion in Patients with First-Diagnosed or Paroxysmal Atrial Fibrillation Presenting to the Emergency Department.",
+        "score": 0.4697631895542145,
+        "doi": "10.3390/biomedicines12122895",
+        "journal": "Biomedicines",
+        "year": "2024",
+        "rerank_score": -5.937323093414307,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24627529",
+        "text": "Validation of N-terminal pro-brain natriuretic peptide cut-off values for risk stratification of pulmonary embolism. The optimal N-terminal pro-brain natriuretic peptide (NT-proBNP) cut-off value for risk stratification of pulmonary embolism remains controversial. In this study we validated and compared different proposed NT-proBNP cut-off values in 688 normotensive patients with pulmonary embolism. During the first 30 days, 28 (4.1%) patients reached the primary outcome (pulmonary embolism-related death or",
+        "score": 0.4589274823665619,
+        "doi": "10.1183/09031936.00211613",
+        "journal": "The European respiratory journal",
+        "year": "2014",
+        "rerank_score": -6.514070510864258,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

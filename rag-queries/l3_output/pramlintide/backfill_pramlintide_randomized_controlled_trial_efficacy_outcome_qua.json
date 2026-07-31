@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Pramlintide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:9493258",
+        "text": "Estimating the causal effect of compliance on binary outcome in randomized controlled trials. We examine likelihood based methods aimed at analysing the causal effect of actual exposure to drug treatment on a (repeated) binary outcome in two randomized trials with partial compliance. Starting with the univariate compliance summary 'total treatment dose history', we apply a method for ordinal compliance and monotone dose response, proposed by Goetghebeur and Molenberghs. In a short duration trial of blood pr",
+        "score": 0.3976459205150604,
+        "doi": "10.1002/(sici)1097-0258(19980215)17:3<34",
+        "journal": "Statistics in medicine",
+        "year": "1998",
+        "rerank_score": 1.8209381103515625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22714785",
+        "text": "Incorporating prognostic factors into causal estimators: a comparison of methods for randomised controlled trials with a time-to-event outcome. In randomised controlled trials, the effect of treatment on those who comply with allocation to active treatment can be estimated by comparing their outcome to those in the comparison group who would have complied with active treatment had they been allocated to it. We compare three estimators of the causal effect of treatment on compliers when this is a parameter i",
+        "score": 0.39632248878479004,
+        "doi": "10.1002/sim.5411",
+        "journal": "Statistics in medicine",
+        "year": "2011",
+        "rerank_score": 0.35101979970932007,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39313076",
+        "text": "A meta-epidemiological analysis of post-hoc comparisons and primary endpoint interpretability among randomized noncomparative trials in clinical medicine. Randomized noncomparative trials (RNCTs) promise reduced accrual requirements vs randomized controlled comparative trials because RNCTs do not enroll a control group and instead compare outcomes to historical controls or prespecified estimates. We hypothesized that RNCTs often suffer from two methodological concerns: (1) lack of interpretability due to gr",
+        "score": 0.4179382026195526,
+        "doi": "10.1016/j.jclinepi.2024.111540",
+        "journal": "Journal of clinical epidemiology",
+        "year": "2024",
+        "rerank_score": -1.8819382190704346,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

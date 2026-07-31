@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Saxagliptin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38320500",
+        "text": "Dapagliflozin or Saxagliptin in Pediatric Type 2 Diabetes. BACKGROUND: Incidence of type 2 diabetes (T2D) in children and adolescents is increasing, but treatment options are limited. METHODS: This was a 26-week, phase 3 trial with a 26-week extension among patients (10 to 17 years of age) with uncontrolled T2D (A1C 6.5 to 10.5%) receiving metformin, insulin, or both. Participants were randomly assigned 1:1:1 to 5 mg of dapagliflozin (N=81), 2.5 mg of saxagliptin (N=88), or placebo (N=76). Patients in activ",
+        "score": 0.4862832725048065,
+        "doi": "10.1056/EVIDoa2300210",
+        "journal": "NEJM evidence",
+        "year": "2024",
+        "rerank_score": 1.0963199138641357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39558612",
+        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
+        "score": 0.48867225646972656,
+        "doi": "10.1177/03331024241299377",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 0.5594082474708557,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21323504",
+        "text": "Efficacy and safety of saxagliptin in older patients with type 2 diabetes mellitus. To assess the safety and efficacy of saxagliptin (5 mg once-daily) in older patients (≥65 years of age) with inadequately controlled type 2 diabetes.",
+        "score": 0.47134917974472046,
+        "doi": "10.1185/03007995.2011.554532",
+        "journal": "Current medical research and opinion",
+        "year": "2011",
+        "rerank_score": 0.3063814640045166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

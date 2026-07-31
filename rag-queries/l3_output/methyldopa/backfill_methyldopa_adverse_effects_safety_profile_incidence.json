@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Methyldopa adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39980035",
+        "text": "Comparison of serious adverse effects of methylphenidate, atomoxetine and amphetamine in the treatment of ADHD: an adverse event analysis based on the FAERS database. Methylphenidate, atomoxetine, and amphetamine are the most commonly prescribed medications for ADHD, approved by the FDA. Despite their widespread use, real-world studies on their serious adverse effects are limited. This study leverages the FAERS database to analyze the safety of these drugs. A retrospective analysis was conducted using FAERS",
+        "score": 0.4422948360443115,
+        "doi": "10.1186/s40360-025-00868-5",
+        "journal": "BMC pharmacology & toxicology",
+        "year": "2024",
+        "rerank_score": -0.06326815485954285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6579477",
+        "text": "Oral drug reaction to methyldopa. Report of a case. This case report presents and follows a rare oral drug reaction linked to the administration of methyldopa (Aldomet). The clinical appearance of oral ulcerations coincides with increased dosage of the drug. Withdrawal of methyldopa leads to gradual healing of these lesions.",
+        "score": 0.4413677155971527,
+        "doi": "10.1016/0030-4220(83)90347-x",
+        "journal": "Oral surgery, oral medicine, and oral pathology",
+        "year": "1983",
+        "rerank_score": -1.2886005640029907,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41175235",
+        "text": "Safety of COMT-inhibitors in parkinson's disease: a phase-IV comparative study on adverse events of Tolcapone, Entacapone and Opicapone. Catechol-O-methyltransferase (COMT) inhibitors-Tolcapone, Entacapone, and Opicapone-are adjunct therapies for advanced Parkinson's disease (PD), improving motor control. Their distinct safety profiles may influence clinical decisions and patient adherence. This study provides a comprehensive descriptive analysis of adverse events (AEs) reported for these drugs and a compar",
+        "score": 0.443389892578125,
+        "doi": "10.1007/s00702-025-03053-4",
+        "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+        "year": "2025",
+        "rerank_score": -1.4071382284164429,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

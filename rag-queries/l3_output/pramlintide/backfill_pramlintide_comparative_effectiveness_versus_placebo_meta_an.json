@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Pramlintide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21199269",
+        "text": "The effect of pramlintide acetate on glycemic control and weight in patients with type 2 diabetes mellitus and in obese patients without diabetes: a systematic review and meta-analysis. the objective of this systematic review and meta-analysis was to assess the effect of pramlintide on glycemic control, weight and incidence of nausea and hypoglycaemia in patients with type 2 diabetes mellitus (T2DM) and in obese patients without diabetes (OBP).",
+        "score": 0.3974928855895996,
+        "doi": "10.1111/j.1463-1326.2010.01337.x",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2011",
+        "rerank_score": 3.0808868408203125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35683387",
+        "text": "Efficacy of Liraglutide in Non-Diabetic Obese Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Objective: We systematically assessed the efficacy of liraglutide in non-diabetic obese adults. Methods: Six databases were searched up to July 2021 for randomized controlled trials (RCTs) assessing liraglutide versus placebo in obese adults. Primary outcomes were body weight and body mass index (BMI). Secondary outcomes were treatment-emergent adverse events (TEAEs), hypoglycemic epi",
+        "score": 0.3981647491455078,
+        "doi": "10.3390/jcm11112998",
+        "journal": "Journal of clinical medicine",
+        "year": "2022",
+        "rerank_score": 2.637397289276123,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36264574",
+        "text": "Comparative Effectiveness of Empagliflozin vs Liraglutide or Sitagliptin in Older Adults With Diverse Patient Characteristics. Limited evidence is available on the comparative effectiveness of empagliflozin vs alternative second-line glucose-lowering agents in patients with type 2 diabetes (T2D) receiving routine care who have a broad spectrum of cardiorenal risk.",
+        "score": 0.4073648452758789,
+        "doi": "10.1001/jamanetworkopen.2022.37606",
+        "journal": "JAMA network open",
+        "year": "2022",
+        "rerank_score": 1.2442463636398315,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}
