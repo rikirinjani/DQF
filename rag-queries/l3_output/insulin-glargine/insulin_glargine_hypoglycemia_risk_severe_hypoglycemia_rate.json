@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Glargine hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39621296",
+        "text": "Safety and Effectiveness of Glargine 300 U/ml After Switching from Basal Insulins in Patients with Type 1 Diabetes: COMET-T Study. Appropriate glycemic control is paramount for people with type 1 diabetes (PwT1D) by the effective delivery of exogenous insulin. However, glycemic variability and the risk of severe hypoglycemia must be reliably controlled. COMET-T is a prospective, multicenter, observational study conducted in Germany, Austria, and Switzerland during 2021-2022 to assess the effectiveness and s",
+        "score": 0.38181695342063904,
+        "doi": "10.1007/s13300-024-01670-y",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2024",
+        "rerank_score": 4.776737689971924,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37671755",
+        "text": "The Effect of Insulin Degludec Versus Insulin Glargine U100 on Glucose Metrics Recorded During Continuous Glucose Monitoring in People With Type 1 Diabetes and Recurrent Nocturnal Severe Hypoglycemia. Comparing continuous glucose monitoring (CGM)-recorded metrics during treatment with insulin degludec (IDeg) versus insulin glargine U100 (IGlar-100) in people with type 1 diabetes (T1D) and recurrent nocturnal severe hypoglycemia. This is a multicenter, two-year, randomized, crossover trial, including 149 adu",
+        "score": 0.37670308351516724,
+        "doi": "10.1177/19322968231197423",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 4.129261016845703,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30305908",
+        "text": "Improved diabetes medication convenience and satisfaction in persons with type 2 diabetes after switching to insulin glargine 300 U/mL: results of the observational OPTIN-D study. Insulin glargine 300 (Gla-300) provides less hypoglycemia risk and more flexibility in injection time. The extent to which these effects translate into improved patient-reported outcomes (PROs) is unknown, and is the subject of this observational study.",
+        "score": 0.33466774225234985,
+        "doi": "10.1136/bmjdrc-2018-000548",
+        "journal": "BMJ open diabetes research & care",
+        "year": "2018",
+        "rerank_score": 4.055995941162109,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

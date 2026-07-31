@@ -1,0 +1,42 @@
+{
+  "hmgcr_inhibition": null,
+  "ldl_reduction_pct": null,
+  "myopathy_risk": 3,
+  "ddi_risk": 2,
+  "pleiotropic_effects": [
+    "Endothelial",
+    "Plaque",
+    "Smooth Muscle",
+    "Vascular"
+  ],
+  "lipophilicity": null,
+  "transport_effects": [],
+  "anti_inflammatory": null,
+  "_evidence": {
+    "pmids": [
+      "11795271",
+      "12960612",
+      "15996638",
+      "17120687",
+      "17596685",
+      "18417069",
+      "21130454",
+      "21342078",
+      "22152281",
+      "24274967",
+      "25678054",
+      "30054755",
+      "30692522",
+      "31509447",
+      "32729746",
+      "35628225",
+      "38588613",
+      "39102854",
+      "40254247",
+      "41757155"
+    ],
+    "source_count": 7,
+    "finding_count": 20
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

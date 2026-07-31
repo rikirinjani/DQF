@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole drug interaction CYP2C19 CYP3A4 clopidogrel",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32558923",
+        "text": "Effect of High-Dose Esomeprazole on CYP1A2, CYP2C19, and CYP3A4 Activities in Humans: Evidence for Substantial and Long-lasting Inhibition of CYP2C19. In vitro, esomeprazole is a time-dependent inhibitor of CYP2C19. Additionally, racemic omeprazole induces CYP1A2 and omeprazole and its metabolites inhibit CYP3A4 in vitro. In this 5-phase study, 10 healthy volunteers ingested 20 mg pantoprazole, 0.5 mg midazolam, and 50 mg caffeine as respective index substrates for CYP2C19, 3A4, and 1A2 before and 1, 25, 49",
+        "score": 0.39166155457496643,
+        "doi": "10.1002/cpt.1949",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2020",
+        "rerank_score": 6.068570137023926,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.47282281517982483,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 5.235402584075928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21392639",
+        "text": "Clopidogrel-drug interactions. Multidrug therapy increases the risk for drug-drug interactions. Clopidogrel, a prodrug, requires hepatic cytochrome P450 (CYP) metabolic activation to produce the active metabolite that inhibits the platelet P2Y₁₂ adenosine diphosphate (ADP) receptor, decreasing platelet activation and aggregation processes. Atorvastatin, omeprazole, and several other drugs have been shown in pharmacodynamic studies to competitively inhibit CYP activation of clopidogrel, reducing clopidogrel ",
+        "score": 0.39200228452682495,
+        "doi": "10.1016/j.jacc.2010.11.024",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2010",
+        "rerank_score": 5.162392616271973,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

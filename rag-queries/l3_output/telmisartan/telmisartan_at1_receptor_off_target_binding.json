@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan AT1 receptor off-target binding",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40810540",
+        "text": "Telmisartan, an anti-hypertensive drug, impedes JEV infection, possibly via the AT1/PPARγ axis. Japanese encephalitis, caused by Japanese encephalitis virus (JEV), is a vector-borne disease with no specific therapeutics available yet. Binding of angiotensin II (Ang II) to angiotensin II type 1 (AT1) receptor induces the release of inflammatory cytokines associated with viral encephalitis. Accordingly, Ang II receptor blockers (ARBs) have been proposed to manage encephalitis. Since telmisartan (TM, antagonis",
+        "score": 0.38754260540008545,
+        "doi": "10.1128/spectrum.03003-24",
+        "journal": "Microbiology spectrum",
+        "year": "2025",
+        "rerank_score": 4.84849739074707,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19136706",
+        "text": "Suppression of experimental autoimmune uveitis by angiotensin II type 1 receptor blocker telmisartan. Angiotensin II type 1 receptor (AT1-R) blockers are used widely for the treatment of patients with hypertension. Recent reports have suggested that AT1-R also plays a key role in various inflammatory conditions. The aim of this study was to examine whether blockade of AT1-R is effective in the suppression of murine experimental autoimmune uveoretinitis (EAU).",
+        "score": 0.3633938133716583,
+        "doi": "10.1167/iovs.08-2649",
+        "journal": "Investigative ophthalmology & visual science",
+        "year": "2009",
+        "rerank_score": 4.30683708190918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11408526",
+        "text": "AT1 receptor antagonist telmisartan administered peripherally inhibits central responses to angiotensin II in conscious rats. The effects of systemic treatment with the AT1 receptor antagonist telmisartan on central effects of angiotensin II (Ang II), namely, increase in blood pressure, vasopressin release into the circulation, and drinking response, were investigated in conscious, normotensive rats. The central responses to i.c.v. Ang II (30 ng/kg) were measured at 0.5, 2, 4, and 24 h following acute i.v. ",
+        "score": 0.3630695343017578,
+        "doi": "",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "year": "2001",
+        "rerank_score": 4.097009181976318,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

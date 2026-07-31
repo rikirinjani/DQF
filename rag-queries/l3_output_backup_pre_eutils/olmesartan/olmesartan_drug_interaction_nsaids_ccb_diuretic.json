@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38792072",
+        "text": "Host-Guest Interaction Study of Olmesartan Medoxomil with β-Cyclodextrin Derivatives. Olmesartan medoxomil (OLM) is a selective angiotensin II receptor antagonist used in the treatment of hypertension. Its therapeutic potential is limited by its poor water solubility, leading to poor bioavailability. Encapsulation of the drug substance by two methylated cyclodextrins, namely randomly methylated β-cyclodextrin (RM-β-CD) and heptakis(2,3,6-tri-O-methyl)-β-cyclodextrin (TM-β-CD), was carried out to overcome th",
+        "score": 0.43345561623573303,
+        "doi": "10.3390/molecules29102209",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": 3.9375662803649902,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40913601",
+        "text": "Olmesartan-Induced Enteropathy: Case Reports and Insights From FDA Adverse Event Reporting System (FAERS). Olmesartan, an angiotensin II receptor blocker (ARB) approved in 2002, is used to treat hypertension, either alone or with other antihypertensive drugs. It has been frequently associated with sprue-like enteropathy, while few cases of colitis have been reported. Differentiating between sprue-like enteropathy and colitis is of clinical concern, since just the first condition is a well-documented adverse",
+        "score": 0.3918754458427429,
+        "doi": "10.1177/08971900251376797",
+        "journal": "Journal of pharmacy practice",
+        "year": "2025",
+        "rerank_score": 1.329593300819397,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41322941",
+        "text": "Stability of Olmesartan Medoxomil Tablets in Unit-Dose Packaging With Metformin Hydrochloride Tablets. The widespread implementation of unit-dose packaging has improved medication adherence, particularly in elderly populations. However, potential physicochemical interactions between co-packaged drugs remain a concern. Therefore, the present study evaluated the stability of metformin hydrochloride (MET) tablets and olmesartan medoxomil (OLMMD) tablets (orally disintegrating tablet: OLMOD/standard tablet: OLM",
+        "score": 0.43090638518333435,
+        "doi": "10.7759/cureus.95626",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 1.1575138568878174,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

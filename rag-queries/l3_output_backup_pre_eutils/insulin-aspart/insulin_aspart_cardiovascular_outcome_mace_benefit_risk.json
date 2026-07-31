@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Aspart cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41368879",
+        "text": "The Prognostic Value of Insulin Resistance Indices for Major Adverse Cardiovascular Events in Young and Middle-Aged Patients With Hypertension. Young and middle-aged adults with hypertension develop the disease earlier and accrue longer exposure to elevated blood pressure, conferring higher lifetime cardiovascular risk. However, reliable markers predicting long-term major adverse cardiovascular events (MACEs) in this group remain unclear. Insulin resistance (IR) is crucial to hypertensive pathophysiology, b",
+        "score": 0.4105551838874817,
+        "doi": "10.1111/jch.70192",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2025",
+        "rerank_score": 3.0318186283111572,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39431844",
+        "text": "Major adverse cardiovascular events' reduction and their association with glucose-lowering medications and glycemic control among patients with type 2 diabetes: A retrospective cohort study using electronic health records. Cardiovascular diseases are a common cause of death among patients with type 2 diabetes (T2DM). Major adverse cardiovascular event (MACE) risks can be significantly reduced under adequate glycemic control (GC). This study aims to identify factors that influence MACE risk among patients wi",
+        "score": 0.40280523896217346,
+        "doi": "10.1111/1753-0407.13604",
+        "journal": "Journal of diabetes",
+        "year": "2024",
+        "rerank_score": 2.059406042098999,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40719229",
+        "text": "Effect of P2Y12 Inhibitors on Major Adverse Cardiovascular Events After Coronary Artery Bypass Graft Surgery: A Population-Based Cohort Study. Patients who undergo coronary artery bypass graft (CABG) surgery remain at high risk for major adverse cardiovascular events (MACE) despite contemporary preventive pharmacotherapy. Although commonly used in practice, it is uncertain whether P2Y12 inhibitors reduce MACE in patients post-CABG surgery. This retrospective, population-based cohort study evaluated the effe",
+        "score": 0.4108569025993347,
+        "doi": "10.1002/phar.70047",
+        "journal": "Pharmacotherapy",
+        "year": "2025",
+        "rerank_score": 1.9017057418823242,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Atenolol BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40175632",
+        "text": "Minimal Physiologically-Based Pharmacokinetic Modeling of Atenolol and Metoprolol Absorption in Malnourished Rats. The pharmacokinetics of drugs can be altered by pathophysiological changes in the body that result from malnutrition. The objective of this study was to evaluate the profiles derived from in vivo studies conducted on non-malnourished (control) and malnourished rats using minimal physiologically based pharmacokinetic (mPBPK) models. Single oral doses of atenolol (ATN) and metoprolol (MET) were a",
+        "score": 0.402146577835083,
+        "doi": "10.1007/s13318-025-00943-6",
+        "journal": "European journal of drug metabolism and pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 2.286207437515259,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39673185",
+        "text": "Pharmacogenetic and microRNA mechanisms of beta blocker use on bone. Motivated by studies showing an association between beta blocker (BB) use and positive bone outcomes, a pilot randomized control trial was performed at the Mayo Clinic which randomized postmenopausal women to placebo, propranolol (40 or 80 mg twice daily), atenolol (50 mg/d), or nebivolol (5 mg/d) to determine changes in bone turnover markers (BTMs) and in BMD over 20 wk. Pharmacogenetic effects and microRNA-mediated mechanisms involving b",
+        "score": 0.43966472148895264,
+        "doi": "10.1093/jbmr/zjae200",
+        "journal": "Journal of bone and mineral research : the official journal of the American Soci",
+        "year": "2024",
+        "rerank_score": 0.962087869644165,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39505564",
+        "text": "The fate of atenolol in wastewater treatment plants of representative densely urban agglomerations in China. Atenolol (ATL) that can decrease heart rate and reduce renin release is extensively used in the treatment of hypertension, angina, and other diseases. ATL's popularity has therefore drawn attention to its environmental behavior and potential impacts. Wastewater treatment plants (WWTPs) are the main collection point for ATL entering the water environment, highlighting the necessity of studying its fat",
+        "score": 0.4528130888938904,
+        "doi": "10.1002/jeq2.20653",
+        "journal": "Journal of environmental quality",
+        "year": "2024",
+        "rerank_score": -1.1984227895736694,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

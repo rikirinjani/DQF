@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nebivolol metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40290025",
+        "text": "The Positive Effect of  Glycolipid metabolism is essential for maintaining metabolic homeostasis. As a new postbiotic, pasteurized  This study aimed to evaluate the effects of P-AKK on glycolipid metabolism in  We discovered that feeding nematodes P-AKK improved their healthy lifespan when fed a high-glucose diet. Furthermore, P-AKK contributes to reducing the accumulation of glucose, advanced glycation end products, and lipids and maintains a better physiological state. In addition, P-AKK improved the comp",
+        "score": 0.48627182841300964,
+        "doi": "10.3390/nu17060976",
+        "journal": "Nutrients",
+        "year": "2025",
+        "rerank_score": 0.3440341353416443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39557274",
+        "text": "Impact of Imperata Cylindrica polysaccharide on liver lipid metabolism disorders caused by hyperuricemia. Elevated uric acid levels are associated with lipid metabolism disorders. The effects of Imperata cylindrica polysaccharide (ICPC-a) were explored using a hyperuricemia mouse model and a uric acid-induced HepG2 hepatocyte model. ICPC-a significantly improved total cholesterol, triglycerides, low-density lipoprotein levels, and hepatic lipid deposition in hyperuricemia mice. The liver/body weight ratio d",
+        "score": 0.4712175130844116,
+        "doi": "10.1016/j.ijbiomac.2024.137592",
+        "journal": "International journal of biological macromolecules",
+        "year": "2024",
+        "rerank_score": -0.9993590116500854,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23331709",
+        "text": "Nebivolol treatment increases splanchnic blood flow and portal pressure in cirrhotic rats via modulation of nitric oxide signalling. We evaluated the effects of nebivolol, a third generation beta-blocker capable of increasing NO-bioavailability on portal pressure, and on splachnic and systemic haemodynamics in a cirrhotic portal hypertensive rat model.",
+        "score": 0.41740167140960693,
+        "doi": "10.1111/liv.12101",
+        "journal": "Liver international : official journal of the International Association for the",
+        "year": "2012",
+        "rerank_score": -1.5985267162322998,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

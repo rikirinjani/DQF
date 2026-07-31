@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41017451",
+        "text": "Tirzepatide and the 10-year predicted risk of cardiovascular disease and type 2 diabetes in adults with obesity and prediabetes: A post hoc analysis from the three-year SURMOUNT-1 trial. We assessed the association between tirzepatide and the 10-year predicted risk of developing cardiovascular disease (CVD) and type 2 diabetes (T2D) among three-year SURMOUNT-1 trial participants. This post hoc analysis applied validated risk engines that predict 10-year CVD (atherosclerotic cardiovascular disease [ASCVD], h",
+        "score": 0.41709569096565247,
+        "doi": "10.1111/dom.70143",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 4.140324592590332,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30882239",
+        "text": "Dapagliflozin and Cardiovascular Outcomes in Patients With Type 2 Diabetes Mellitus and Previous Myocardial Infarction. Sodium glucose transporter-2 inhibitors reduce the risk of major adverse cardiovascular events (MACE) in patients with type 2 diabetes mellitus and a history of atherosclerotic cardiovascular disease. Because of their baseline risk, patients with previous myocardial infarction (MI) may derive even greater benefit from sodium glucose transporter-2 inhibitor therapy.",
+        "score": 0.42457252740859985,
+        "doi": "10.1161/CIRCULATIONAHA.119.039996",
+        "journal": "Circulation",
+        "year": "2019",
+        "rerank_score": 3.6720023155212402,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41448390",
+        "text": "Major adverse cardiovascular and limb events caused by tirzepatide in patients with type 2 diabetes at high cardiovascular risk: A comparison with sitagliptin. To elucidate the overall protective effects of tirzepatide against atherosclerosis-related events, including cardiovascular and lower-extremity events. We conducted a retrospective cohort study using the TriNetX global health research network to identify patients with type 2 diabetes (T2D) who initiated tirzepatide or sitagliptin between January 2022",
+        "score": 0.410313218832016,
+        "doi": "10.1016/j.diabres.2025.113072",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2025",
+        "rerank_score": 3.596785068511963,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

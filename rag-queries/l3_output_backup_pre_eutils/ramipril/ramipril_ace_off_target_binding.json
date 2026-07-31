@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril ACE off-target binding",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23867841",
+        "text": "Effect of ramipril on walking times and quality of life among patients with peripheral artery disease and intermittent claudication: a randomized controlled trial. Journal of the American Medical Association 2013; 309: 453-460. The objective of the trial was to examine whether ramipril, an angiotensin-converting enzyme (ACE), improves walking distance and health-related quality of life in patients with peripheral artery disease (PAD) associated with claudication.",
+        "score": 0.4466966986656189,
+        "doi": "10.1177/1358863X13497529",
+        "journal": "Vascular medicine (London, England)",
+        "year": "2013",
+        "rerank_score": -0.8489750027656555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40824896",
+        "text": "Molecular basis of domain-specific angiotensin I-converting enzyme inhibition by the antihypertensive drugs enalaprilat, ramiprilat, trandolaprilat, quinaprilat and perindoprilat. Angiotensin I-converting enzyme (ACE) is a dipeptidyl carboxypeptidase with two homologous catalytic domains [N- and C-domains (nACE and cACE)] that can cleave a range of substrates. cACE primarily cleaves the inactive decapeptide angiotensin I into the potent vasopressor angiotensin II, whereas nACE preferentially cleaves the ant",
+        "score": 0.47368666529655457,
+        "doi": "10.1111/febs.70232",
+        "journal": "The FEBS journal",
+        "year": "2025",
+        "rerank_score": -0.8699030876159668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21859683",
+        "text": "Prediction of off-target effects on angiotensin-converting enzyme 2. The authors describe a structure-based strategy to identify therapeutically beneficial off-target effects by screening a chemical library of Food and Drug Administration (FDA)-approved small-molecule drugs matching pharmacophores defined for specific target proteins. They applied this strategy to angiotensin-converting enzyme 2 (ACE2), an enzyme that generates vasodilatory peptides and promotes protection from hypertension-associated cardi",
+        "score": 0.4463884234428406,
+        "doi": "10.1177/1087057111413919",
+        "journal": "Journal of biomolecular screening",
+        "year": "2011",
+        "rerank_score": -2.2669217586517334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

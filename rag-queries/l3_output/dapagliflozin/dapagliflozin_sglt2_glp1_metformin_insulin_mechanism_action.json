@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dapagliflozin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39697865",
+        "text": "Effect of dapagliflozin on the serum metabolome in patients with type 2 diabetes mellitus. SGLT-2 inhibitors have been shown to exert cardio- and renoprotective actions. We aimed to investigate the underlying mechanisms using  50 patients with type 2 diabetes mellitus, inadequately controlled on metformin monotherapy (HbA1c > 7%) received dapagliflozin for 3 months and 30 matched patients received insulin degludec for 3 months. Clinical and laboratory values, as well as  Dapagliflozin reduced weight, body m",
+        "score": 0.33385664224624634,
+        "doi": "10.1007/s40200-024-01508-1",
+        "journal": "Journal of diabetes and metabolic disorders",
+        "year": "2024",
+        "rerank_score": 5.827583312988281,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40350800",
+        "text": "Sodium-Glucose Cotransporter-2 Inhibitor Enhances Hepatic Gluconeogenesis and Reduces Lipid Accumulation via AMPK-SIRT1 Activation and Autophagy Induction. Sodium-glucose cotransporter type 2 (SGLT2) inhibitors, such as dapagliflozin, are primarily used to lower glucose in type 2 diabetes. Recent studies suggest broader metabolic effects, particularly in the liver. This study explores the molecular mechanisms by which dapagliflozin influences hepatic glucose and lipid metabolism, hypothesizing that it activ",
+        "score": 0.35454994440078735,
+        "doi": "10.3803/EnM.2024.2223",
+        "journal": "Endocrinology and metabolism (Seoul, Korea)",
+        "year": "2024",
+        "rerank_score": 5.3707451820373535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39043740",
+        "text": "Dapagliflozin improves skeletal muscle insulin sensitivity through SIRT1 activation induced by nutrient deprivation state. Lipid peroxidation and mitochondrial damage impair insulin sensitivity in skeletal muscle. Sirtuin-1 (SIRT1) protects mitochondria and activates under energy restriction. Dapagliflozin (Dapa) is an antihyperglycaemic agent that belongs to the sodium-glucose cotransporter-2 (SGLT2) inhibitors. Evidence shows that Dapa can induce nutrient deprivation effects, providing additional metaboli",
+        "score": 0.344796359539032,
+        "doi": "10.1038/s41598-024-67755-7",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": 5.110930919647217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

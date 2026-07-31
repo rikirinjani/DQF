@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan AT1 receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41417217",
+        "text": "Telmisartan ameliorates reproductive dysfunction, oxidative stress, and mitochondrial damages induced by fipronil in male rats via regulation of Nrf2/HO-1/PGC-1α/MNF2/DRP1. Fipronil (FIP), as a broad-spectrum pesticide, contributes to adverse reproductive effects. Thus, our study aimed to investigate the effect of telmisartan (TEL) as a selective angiotensin 1 receptor (AT1R) blocker on mitochondrial damage induced by FIP intoxication in male rats. Forty healthy male albino rats were allocated into 4 groups",
+        "score": 0.41491401195526123,
+        "doi": "10.1007/s00210-025-04812-6",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": 5.557286262512207,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17122147",
+        "text": "Neuroprotective effects of angiotensin II type 1 receptor (AT1R) blocker, telmisartan, via modulating AT1R and AT2R signaling in retinal inflammation. To investigate the retinal neural damage that occurs during inflammation and the therapeutic effects of the angiotensin II type 1 receptor (AT1R) blocker, telmisartan, using a model of endotoxin-induced uveitis (EIU).",
+        "score": 0.3809463679790497,
+        "doi": "10.1167/iovs.06-0478",
+        "journal": "Investigative ophthalmology & visual science",
+        "year": "2006",
+        "rerank_score": 5.018707275390625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38573089",
+        "text": "Telmisartan-Induced Myotoxicity in Patients with Essential Hypertension. Drug-related muscular adverse effects are relatively common among certain groups of drugs, such as statins and steroids. However, these adverse effects are less well-known for angiotensin receptor blockers (ARBs). It is proposed that telmisartan and irbesartan may cause myotoxicity via increased Peroxisome Proliferator-Activated Receptor gamma (PPAR-gamma) activity. Herein, we present two hypertensive patients in whom telmisartan-induc",
+        "score": 0.3845716714859009,
+        "doi": "10.5543/tkda.2023.22893",
+        "journal": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
+        "year": "2024",
+        "rerank_score": 4.510361194610596,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

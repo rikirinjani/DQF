@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38387480",
+        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
+        "score": 0.3538352847099304,
+        "doi": "10.1055/a-2239-2668",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": 3.2630555629730225,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40937349",
+        "text": "GLP-1 receptor agonists and pancreatic beta cell apoptosis in diabetes mellitus: a systematic review and meta-analysis of preclinical studies. Diabetes mellitus (DM) is a global health challenge characterized by progressive beta cell dysfunction. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have emerged as promising therapies, enhancing insulin secretion while potentially preserving beta cell mass by inhibiting apoptosis. However, concerns persist regarding long-term beta cell adaptation and functio",
+        "score": 0.3968803882598877,
+        "doi": "10.3389/fcdhc.2025.1579961",
+        "journal": "Frontiers in clinical diabetes and healthcare",
+        "year": "2025",
+        "rerank_score": 2.2249860763549805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40659287",
+        "text": "Metformin promotes lipid droplet-mitochondria coupling and improves insulin secretion in pancreatic β-cells exposed to lipotoxicity. Lipotoxicity that is caused by excess lipid accumulation is a major factor that contributes to gradual impairments of β-cell function and the development of type 2 diabetes. Metformin has shown protective effects against lipid-induced damage in β-cells, but its specific mechanisms of action within pancreatic islets remain unclear. The present study comprehensively examined dir",
+        "score": 0.34018367528915405,
+        "doi": "10.1016/j.bbalip.2025.159664",
+        "journal": "Biochimica et biophysica acta. Molecular and cell biology of lipids",
+        "year": "2025",
+        "rerank_score": 2.066370725631714,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

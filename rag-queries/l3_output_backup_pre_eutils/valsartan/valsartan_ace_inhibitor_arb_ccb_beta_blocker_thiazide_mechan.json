@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40389636",
+        "text": "Comparison between sacubitril/valsartan and thiazide diuretics among patients with uncontrolled hypertension in Japan. Although renin-angiotensin system (RAS) inhibitors and calcium channel blockers are widely used to treat hypertension in Japan, <10% of patients use thiazides. This study aimed to evaluate differences in the efficacy and safety of sacubitril/valsartan and thiazide diuretics. Patients with poor blood pressure (BP) control, despite combination treatment with RAS inhibitors and calcium channel",
+        "score": 0.42649194598197937,
+        "doi": "10.1038/s41440-025-02236-6",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2024",
+        "rerank_score": 0.7313249707221985,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39260836",
+        "text": "Comparative effects of sacubitril/valsartan and ACEI/ARB on endothelial function and arterial stiffness in patients with heart failure: a protocol for systematic review and meta-analysis. Heart failure (HF) is a complex syndrome that affects millions of people worldwide and leads to significant morbidity and mortality. Sacubitril/valsartan, a combination drug consisting of a neprilysin inhibitor and an angiotensin receptor blocker (ARB), has shown a greater improvement in the prognosis of HF than ACE inhibi",
+        "score": 0.41998156905174255,
+        "doi": "10.1136/bmjopen-2024-088744",
+        "journal": "BMJ open",
+        "year": "2024",
+        "rerank_score": 0.7158918976783752,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4188087582588196,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.33079707622528076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

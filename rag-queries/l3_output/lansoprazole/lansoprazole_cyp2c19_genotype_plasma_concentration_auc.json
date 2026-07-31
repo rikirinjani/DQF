@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole CYP2C19 genotype plasma concentration AUC",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38747453",
+        "text": "Interaction of age and CYP2C19 genotypes on voriconazole steady-state trough concentration in Chinese patients. Both age and CYP2C19 genotypes affect voriconazole plasma concentration; the interaction of age and CYP2C19 genotypes on voriconazole plasma concentration remains unknown. This study aims to investigate the combined effects of age and CYP2C19 genotypes on voriconazole plasma concentration in Chinese patients. A total of 480 patients who received voriconazole treatment were recruited. CYP2C19*2 (rs",
+        "score": 0.42410579323768616,
+        "doi": "10.1097/FPC.0000000000000536",
+        "journal": "Pharmacogenetics and genomics",
+        "year": "2024",
+        "rerank_score": 3.9938626289367676,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40379961",
+        "text": "Exploring the Influence of Obesity and CYP2 C19 Genotype on Lansoprazole Pharmacokinetics in Pediatric Patients: A Population Modeling Approach. Pediatric pharmacokinetics pose unique challenges, particularly concerning drug dosing in the presence of obesity and genetic variability in drug-metabolizing enzymes such as cytochrome P450 (CYP) 2C19. This study aimed to develop a lansoprazole pediatric population pharmacokinetic (popPK) model considering obesity, obesity-associated changes in inflammatory cytoki",
+        "score": 0.4157876968383789,
+        "doi": "10.1007/s40262-025-01517-0",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 2.156660556793213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38925553",
+        "text": "Combined effect of CYP2C19 and CYP2D6 genotypes on escitalopram serum concentration and its metabolic ratio in a European patient population. The aim of the present study was to investigate the impact of CYP2D6 genotype on exposure and metabolism of escitalopram in patients stratified by CYP2C19 genotype in a large real-world population. Patients were included from a therapeutic drug monitoring service if they had measured serum concentration of escitalopram and the metabolite, N-desmethyl escitalopram, and",
+        "score": 0.4065570831298828,
+        "doi": "10.1111/bcp.16156",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.8512277603149414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

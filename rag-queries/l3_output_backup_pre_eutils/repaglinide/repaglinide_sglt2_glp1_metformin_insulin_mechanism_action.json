@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Repaglinide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.3744843304157257,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 3.9030909538269043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39049802",
+        "text": "The role of glucagon-like peptide 1 in the postprandial effects of metformin in type 2 diabetes: a randomized crossover trial. Although metformin is widely used for treatment of type 2 diabetes (T2D), its glucose-lowering mechanism remains unclear. Using the glucagon-like peptide 1 (GLP-1) receptor (GLP-1R) antagonist exendin(9-39)NH2, we tested the hypothesis that postprandial GLP-1-mediated effects contribute to the glucose-lowering potential of metformin in T2D. In a randomized, placebo-controlled, doubl",
+        "score": 0.34545788168907166,
+        "doi": "10.1093/ejendo/lvae095",
+        "journal": "European journal of endocrinology",
+        "year": "2024",
+        "rerank_score": 3.4017493724823,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39229180",
+        "text": "GPRC6A is a Potential Therapeutic Target for Metformin Regulation of Glucose Homeostasis in Mice. Understanding the mechanism of metformin actions in treating type 2 diabetes is limited by an incomplete knowledge of the specific protein targets mediating its metabolic effects. Metformin has structural similarities to L-Arginine (2-amino-5-guanidinopentanoic acid), which is a ligand for GPRC6A, a Family C G-protein coupled receptor that regulates energy metabolism. Ligand activation of GPRC6A results in lowe",
+        "score": 0.3725654184818268,
+        "doi": "10.1101/2024.08.19.608635",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2024",
+        "rerank_score": 2.81210994720459,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

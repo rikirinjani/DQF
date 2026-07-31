@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35076486",
+        "text": "High-Dose Liraglutide and SGLT2 Inhibitor: A Promising Combination. Sodium-glucose co-transporter-2 (SGLT2) inhibitors and glucagon-like peptide 1 (GLP-1) agonists are important drugs in our armamentarium of treatment for Type 2 diabetes mellitus (DM). In addition to their glucose-lowering effects, they have effects on weight, other metabolic diseases and perhaps most importantly, a cardioprotective and reno-protective effect. Liraglutide is a long-acting GLP-1 agonist which was originally used at 1.8 mg da",
+        "score": 0.33613306283950806,
+        "doi": "10.3390/clinpract12010001",
+        "journal": "Clinics and practice",
+        "year": "2021",
+        "rerank_score": 4.20501184463501,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39799153",
+        "text": "Exploring Liraglutide's mechanism in reducing renal fibrosis: the Fsp1-CoQ10-NAD(P)H pathway. Studies have confirmed that elevated glucose levels could lead to renal fibrosis through the process of ferroptosis. Liraglutide, a human glucagon-like peptide-1 (GLP-1) analogue, is a potential treatment option for diabetes. This study aimed to examine the potential of liraglutide (LIRA) in inhibiting ferroptosis and reducing high glucose-induced renal fibrotic injury in mice, and whether the Fsp1-CoQ10-NAD(P)H si",
+        "score": 0.3528786301612854,
+        "doi": "10.1038/s41598-025-85658-z",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": 4.042325019836426,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41604031",
+        "text": "Liraglutide Modulates Zinc Release and Improves Mitochondrial Function in Insulin-Resistant Senescent Cardiomyocytes. Aging and insulin resistance are intertwined factors in the development of metabolic diseases such as type 2 diabetes and cardiovascular disorders. Liraglutide, a glucagon-like peptide-1 (GLP-1) receptor agonist, has shown promising cardioprotective effects in preclinical and clinical studies of metabolic diseases. Yet, its action on insulin-resistant aged subjects is not clearly defined. Th",
+        "score": 0.3584878444671631,
+        "doi": "10.1007/s12012-026-10095-x",
+        "journal": "Cardiovascular toxicology",
+        "year": "2025",
+        "rerank_score": 3.879546880722046,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

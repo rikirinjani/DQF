@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39494669",
+        "text": "Influence of Electrolyte Saturation on the Performance of Li-O Electrolyte saturation can strongly affect the Li-O",
+        "score": 0.479131817817688,
+        "doi": "10.1021/acsami.4c12168",
+        "journal": "ACS applied materials & interfaces",
+        "year": "2024",
+        "rerank_score": -0.2923332452774048,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39938967",
+        "text": "Profound hypotension following concomitant administration of tizanidine and lisinopril. Tizanidine, a muscle relaxant, exerts its mechanism as a centrally acting alpha-2 adrenergic receptor agonist and binds to imidazoline receptors. Bradycardia and hypotension are adverse effects associated with alpha-2 adrenergic receptor agonists. A man in his 50s with a medical history of hypertension and chronic back pain presented with chest pain and hypertension. Pertinent medication history included metoprolol tartr",
+        "score": 0.48025646805763245,
+        "doi": "10.1136/bcr-2024-262982",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": -2.0282163619995117,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39490411",
+        "text": "Effects of dialysate potassium concentration of 3.0 mmol/l with sodium zirconium cyclosilicate on dialysis-free days versus dialysate potassium concentration of 2.0 mmol/l alone on rates of cardiac arrhythmias in hemodialysis patients with hyperkalemia. The optimal approach towards managing serum potassium (sK",
+        "score": 0.4827185869216919,
+        "doi": "10.1016/j.kint.2024.10.010",
+        "journal": "Kidney international",
+        "year": "2024",
+        "rerank_score": -2.2039761543273926,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

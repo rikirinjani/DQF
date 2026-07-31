@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nifedipine L-type calcium channel adverse effect pathway",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39763275",
+        "text": "L-type calcium channel blockade worsens glucose tolerance and β-cell function in C57BL6/J mice exposed to intermittent hypoxia. Intermittent hypoxemia (IH), a pathophysiologic consequence of obstructive sleep apnea (OSA), adversely affects insulin sensitivity, insulin secretion, and glucose tolerance. Nifedipine, an L-type calcium channel blocker frequently used for the treatment of hypertension, can also impair insulin sensitivity and secretion. However, the cumulative and interactive repercussions of IH a",
+        "score": 0.4482825994491577,
+        "doi": "10.1152/ajpendo.00423.2023",
+        "journal": "American journal of physiology. Endocrinology and metabolism",
+        "year": "2025",
+        "rerank_score": 6.688771724700928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41261676",
+        "text": "A disproportionality analysis of nifedipine in the overall population and in pregnant women using the FDA Adverse Event Reporting System (FAERS) database. Nifedipine, a dihydropyridine calcium channel blocker, is widely used in the management of hypertension and as a tocolytic agent to delay preterm labor, including in pregnant women. However, its safety profile, particularly in pregnant populations, remains insufficiently characterized. This study aimed to evaluate adverse event (AE) signals associated wit",
+        "score": 0.4334130883216858,
+        "doi": "10.1097/MD.0000000000045113",
+        "journal": "Medicine",
+        "year": "2025",
+        "rerank_score": 3.9180715084075928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39083161",
+        "text": "Nimodipine attenuates neuroinflammation and delayed apoptotic neuronal death induced by trimethyltin in the dentate gyrus of mice. L-type voltage-gated calcium channels (L-VGCCs) are thought to be involved in epileptogenesis and acute excitotoxicity. However, little is known about the role of L-VGCCs in neuroinflammation or delayed neuronal death following excitotoxic insult. We examined the effects of repeated treatment with the L-VGCC blocker nimodipine on neuroinflammatory changes and delayed neuronal ap",
+        "score": 0.41950058937072754,
+        "doi": "10.1007/s10735-024-10226-0",
+        "journal": "Journal of molecular histology",
+        "year": "2024",
+        "rerank_score": 3.291125535964966,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "statin DDI CYP3A4 OATP1B1 mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39102854",
+        "text": "Coproporphyrin-I as a Selective OATP1B Biomarker Can Be Used to Delineate the Mechanisms of Complex Drug-Drug Interactions: Cedirogant Case Study.\n\nCedirogant is an inverse agonist of retinoic acid-related orphan receptor gamma thymus developed for the treatment of chronic plaque psoriasis. Cedirogant induces cytochrome P450 (CYP) 3A4 while inhibiting P-glycoprotein (P-gp), breast cancer resistance protein (BCRP), organic anion transporting polypeptide (OATP) 1B1, and OATP1B3 in vitro. Static drug-drug interactions (DDIs) predictions suggested possible clinical induction of CYP3A4, and inhibition of P-gp, BCRP, and OATP1B1, leading to challenges in interpreting DDI studies between cedirogant and substrates of CYP3A, P-gp, BCRP, and OATP1B1/3. Here the effects of cedirogant on the pharmacokinetics of two statin drugs were investigated in healthy participants. Coproporphyrin-I (CP-I), a selective endogenous OATP1B biomarker, was used to assess the impact of cedirogant on OATP1B. Cedirogant (375 mg once daily) increased rosuvastatin maximum plasma concentration (Cmax) and area under the plasma concentration curve (AUCtau) by 141% and 55%, respectively when co-administered, whereas atorvastatin Cmax increased by 40% with no effect on its AUCtau compared with administration of rosuvastatin/atorvastatin alone. Cedirogant did not increase CP-I exposures, indicating no clinical OATP1B inhibition. The increased rosuvastatin exposure and minimal change in atorvastatin exposure with co-administration of cedirogant is attributed to BCRP inhibition and interplay between P-gp/BCRP inhibition and CYP3A induction, respectively. Correlation analysis with data from two investigational drugs (glecaprevir and flubentylosin) demonstrated that OATP1B1 R-value of > 1.5 and [Cmax,u]/[OATP1B1 IC50] of > 0.1 are associated with > 1.25-fold increase in CP-I Cmax ratio. This demonstrates the utility of CP-I in disentangling mechanisms underlying a complex DDI involving multiple transporters and enzymes and proposes refined criteria for static OATP1B inhibition predictions.",
+        "title": "Coproporphyrin-I as a Selective OATP1B Biomarker Can Be Used to Delineate the Mechanisms of Complex Drug-Drug Interactions: Cedirogant Case Study.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "39102854",
+          "journal": "Clinical pharmacology and therapeutics",
+          "authors": [
+            "Kikuchi Ryota",
+            "Qian Yuli",
+            "Badawi Mohamed"
+          ],
+          "pub_date": "2024-Nov",
+          "doi": "10.1002/cpt.3399",
+          "mesh_terms": [
+            "Adult",
+            "Female",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Young Adult",
+            "Area Under Curve",
+            "Atorvastatin",
+            "Biomarkers",
+            "Coproporphyrins",
+            "Cross-Over Studies",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Liver-Specific Organic Anion Transporter 1",
+            "Organic Anion Transporters",
+            "Rosuvastatin Calcium"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Gliclazide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40926360",
+        "text": "Lower risk of cardiovascular events in patients initiated on semaglutide 2.4 mg in the real-world: Results from the SCORE study (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity in the Real World). In this first interim analysis of the SCORE study, we investigated the risk of major adverse cardiovascular events (MACE) among individuals with atherosclerotic cardiovascular disease (ASCVD) and overweight/obesity but without diabetes who initiated semaglutide 2.4 mg in real-wo",
+        "score": 0.4283371567726135,
+        "doi": "10.1111/dom.70080",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 4.116118431091309,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40009360",
+        "text": "Risk of Major Adverse Cardiovascular Events Following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. This study used retrospective electronic health record data of 2 patient cohorts, the Vanderbilt University Medical Center (VUMC) and Million Veteran Program (MVP). The risk ",
+        "score": 0.43273288011550903,
+        "doi": "10.1001/jamadermatol.2025.0001",
+        "journal": "JAMA dermatology",
+        "year": "2026",
+        "rerank_score": 3.6586310863494873,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39381950",
+        "text": "Cardiovascular outcomes with exenatide in type 2 diabetes according to ejection fraction: The EXSCEL trial. Glucagon-like peptide-1 receptor agonists reduce major adverse cardiovascular events (MACE) and cardiovascular mortality in people with type 2 diabetes (T2D). However, previous studies suggest the effects on heart failure outcomes vary according to left ventricular ejection fraction (LVEF). We aimed to evaluate the effects of exenatide on cardiovascular events according to LVEF in people with T2D. Pos",
+        "score": 0.4284840226173401,
+        "doi": "10.1002/ejhf.3478",
+        "journal": "European journal of heart failure",
+        "year": "2024",
+        "rerank_score": 2.430305242538452,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

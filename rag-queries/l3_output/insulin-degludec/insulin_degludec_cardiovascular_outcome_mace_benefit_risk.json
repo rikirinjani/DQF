@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40926360",
+        "text": "Lower risk of cardiovascular events in patients initiated on semaglutide 2.4 mg in the real-world: Results from the SCORE study (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity in the Real World). In this first interim analysis of the SCORE study, we investigated the risk of major adverse cardiovascular events (MACE) among individuals with atherosclerotic cardiovascular disease (ASCVD) and overweight/obesity but without diabetes who initiated semaglutide 2.4 mg in real-wo",
+        "score": 0.39131370186805725,
+        "doi": "10.1111/dom.70080",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 3.828296422958374,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41138739",
+        "text": "Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial. The SELECT trial found semaglutide reduced major adverse cardiovascular events (MACE) in patients with overweight or obesity with cardiovascular disease but without diabetes. We report a prespecified analysis of the SELECT trial on the relationships between baseline adiposity measures, treatment-induced adiposity changes, and subsequent MACE risk. Patients aged at least 45 ",
+        "score": 0.3877881169319153,
+        "doi": "10.1016/S0140-6736(25)01375-3",
+        "journal": "Lancet (London, England)",
+        "year": "2025",
+        "rerank_score": 3.720351219177246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41508706",
+        "text": "Comparison of cardiovascular outcomes between once-weekly semaglutide and dulaglutide in adults with type 2 diabetes and established atherosclerotic cardiovascular disease in the United States. This study aims to compare the risk of major adverse cardiovascular events (MACE) among United States individuals with type 2 diabetes (T2D) and atherosclerotic cardiovascular disease (ASCVD) treated with once-weekly semaglutide vs. dulaglutide. This was a retrospective cohort study using Optum's de-identified Clinfo",
+        "score": 0.38084760308265686,
+        "doi": "10.1111/dom.70440",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 3.377624750137329,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

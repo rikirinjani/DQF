@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin DPP-4 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39435882",
+        "text": "Elucidation of DPP-4 involvement in systemic distribution and renal reabsorption of linagliptin by PBPK modeling with a cluster Gauss-Newton method. The dipeptidyl peptidase-4 (DPP-4) inhibitor linagliptin (LNG) exhibits target-mediated drug disposition (TMDD) in clinical settings, characterized by saturable binding to plasma soluble DPP-4 (sDPP-4) and tissue transmembrane DPP-4 (tDPP-4). Previous studies have indicated that saturable renal reabsorption of LNG contributes to its nonlinear urinary excretion ",
+        "score": 0.3997611999511719,
+        "doi": "10.1111/cts.70047",
+        "journal": "Clinical and translational science",
+        "year": "2024",
+        "rerank_score": 5.506730079650879,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40686358",
+        "text": "Comparison of renal function of the patients receiving linagliptin or vildagliptin in uncontrolled type 2 diabetes mellitus: An observational study in the backdrop of the COVID-19 pandemic. Dipeptidyl peptidase 4 (DPP-4) inhibitors are primarily excreted renally. Linagliptin is an exception with excretion primarily through enterohepatic system and is expected to have a better renal profile, though real-world data are scarce. Comparative studies on the renal safety and glycaemic control with linagliptin vers",
+        "score": 0.3477547764778137,
+        "doi": "10.4103/ijp.ijp_492_24",
+        "journal": "Indian journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 5.430996417999268,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39311002",
+        "text": "Sustained linagliptin administration: superior glycemic control and less pancreatic injury in diabetic rats. While linagliptin is the most potent dipeptidyl peptidase 4 inhibitor, its use is limited due to poor bioavailability and the potential risk of pancreatic injury. Here, we investigated whether the sustained weekly administration of linagliptin could provide better effect compared to frequent daily oral administration. Type 2 diabetes was induced by feeding rats a high fructose/fat/salt diet followed ",
+        "score": 0.3530402183532715,
+        "doi": "10.1080/10837450.2024.2407852",
+        "journal": "Pharmaceutical development and technology",
+        "year": "2024",
+        "rerank_score": 5.396437168121338,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

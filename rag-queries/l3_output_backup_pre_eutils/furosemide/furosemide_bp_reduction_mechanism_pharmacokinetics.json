@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40360952",
+        "text": "An Adult Population Pharmacokinetic Model to Simulate Subcutaneous Administration of a Fixed Dose of Furosemide in Adolescents with Heart Failure and Volume Overload. Subcutaneous furosemide administered with the On-Body Infusor could be useful in children with heart failure (HF) and congestion due to volume overload, but the appropriate dosing regimen is unknown. This study aimed to develop a population pharmacokinetic (popPK) model to determine the subcutaneous furosemide dosing regimen in children with H",
+        "score": 0.38010507822036743,
+        "doi": "10.1007/s40262-025-01515-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 2.0152454376220703,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40804895",
+        "text": "Furosemide Reduces Radionuclide Activity in the Bladder in",
+        "score": 0.40846413373947144,
+        "doi": "10.3390/diagnostics15151931",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": -0.19879552721977234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41097451",
+        "text": "Simultaneous Development and Validation of an HPLC Method for the Determination of Furosemide and Its Degraded Compound in Pediatric Extemporaneous Furosemide Oral Solution. Furosemide (FUR) is a loop diuretic widely used in pediatric care. However, no standardized oral liquid formulation exists due to degradation concerns, particularly the formation of furosemide-related compound B (FUR-B). This study aimed to develop and validate the HPLC method for the simultaneous quantification of FUR, FUR-B, methylpar",
+        "score": 0.37660855054855347,
+        "doi": "10.3390/molecules30194031",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": -2.1197850704193115,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

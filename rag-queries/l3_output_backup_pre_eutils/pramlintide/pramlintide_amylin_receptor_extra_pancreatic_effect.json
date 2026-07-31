@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide amylin receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "amylin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17505051",
+        "text": "Pramlintide treatment reduces 24-h caloric intake and meal sizes and improves control of eating in obese subjects: a 6-wk translational research study. Evidence from rodent studies indicates that the beta-cell-derived neurohormone amylin exerts multiple effects on eating behavior, including reductions in meal size, intake of highly palatable foods, and stress-induced sucrose consumption. To assess the effect of amylin agonism on human eating behavior we conducted a randomized, blinded, placebo-controlled, m",
+        "score": 0.34376972913742065,
+        "doi": "10.1152/ajpendo.00217.2007",
+        "journal": "American journal of physiology. Endocrinology and metabolism",
+        "year": "2007",
+        "rerank_score": 2.2259843349456787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40169506",
+        "text": "Intranasal pramlintide matches intraperitoneal effects on food intake and gastric emptying in mice. Pramlintide is an amylin analog developed as a complementary treatment for diabetes. However, it requires several subcutaneous injections, reducing patients' adherence. Since the intranasal route might be an alternative for drug administration, we evaluated whether intranasal pramlintide treatment exerts comparable actions with intraperitoneal administration. Adult male Swiss mice were submitted to a refeedin",
+        "score": 0.3635241389274597,
+        "doi": "10.1007/s12020-025-04220-z",
+        "journal": "Endocrine",
+        "year": "2024",
+        "rerank_score": 2.1033504009246826,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41022243",
+        "text": "Central pramlintide administration potently suppresses operant responding for sucrose and locomotor activity in male rats. Amylin is a feeding-suppressive hormone which acts centrally in the control of energy balance. Some evidence suggests it reduces motivation for food rewards. Pramlintide is a synthetic amylin analog that is used clinically in the treatment of diabetes, and it also reduces feeding and weight gain. However, the mechanisms behind these pramlintide-induced reductions in feeding are unclear.",
+        "score": 0.3811381459236145,
+        "doi": "10.1016/j.physbeh.2025.115114",
+        "journal": "Physiology & behavior",
+        "year": "2025",
+        "rerank_score": 1.5141955614089966,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

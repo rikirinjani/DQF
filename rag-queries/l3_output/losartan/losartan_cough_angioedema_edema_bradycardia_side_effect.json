@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40013202",
+        "text": "Angioedema Shortly After Adding Empagliflozin to Losartan. Angioedema is the localized swelling of the skin and mucosa caused by inflammatory processes that increase vascular permeability. Release and accumulation of the inflammatory mediators, bradykinin and histamine, result in fluid leakage from the plasma to the interstitium. Certain drugs, such as angiotensin-converting enzyme inhibitors (ACEi), promote bradykinin accumulation. In contrast, other allergens like insect bites, nuts, or non-steroidal anti",
+        "score": 0.39887097477912903,
+        "doi": "10.7759/cureus.78033",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 2.8846232891082764,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40103911",
+        "text": "Effect of 0.8mg/ml Losartan on Corneal Opacities. Losartan, commonly used as an angiotensin receptor II inhibitor for hypertension, has recently revealed additional therapeutic properties. Studies demonstrate its potential in treating liver fibrosis, mitigating heart disease secondary to radiation, reducing skin scar formation, and even reversing renal cortical fibrosis. In a specific case, a female patient suffering from persistent bilateral nummular keratitis and corneal opacities experienced significant ",
+        "score": 0.45476335287094116,
+        "doi": "10.12669/pjms.41.3.11237",
+        "journal": "Pakistan journal of medical sciences",
+        "year": "2024",
+        "rerank_score": 0.2791796922683716,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9160080",
+        "text": "Angioedema associated with angiotensin II receptor antagonist losartan. Angioedema has not been associated with losartan therapy in hemodialysis patients, as it has been with angiotensin converting enzyme (ACE) inhibitors. We report the case of a hemodialysis patient who previously had angioedema after therapy with ACE inhibitors and again had angioedema while taking losartan. We suggest caution in using losartan in patients with known sensitivity to ACE inhibitors manifested by angioedema.",
+        "score": 0.39902013540267944,
+        "doi": "10.1097/00007611-199705000-00020",
+        "journal": "Southern medical journal",
+        "year": "1997",
+        "rerank_score": -0.13609585165977478,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

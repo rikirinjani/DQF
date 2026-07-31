@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41392923",
+        "text": "Understanding variation in metoprolol response: CYP2D6, drug interactions, and phenoconversion. Metoprolol, a β1-selective blocker, is widely used for treating cardiovascular and non-cardiovascular conditions. Its pharmacokinetics (PK) and pharmacodynamics (PD) vary significantly between individuals, in part due to CYP2D6 genetic polymorphisms. Co-administration of CYP2D6 inhibitors can lead to phenotype-genotype discordance, known as phenoconversion, resulting in clinically significant changes in metoprolo",
+        "score": 0.4042435586452484,
+        "doi": "10.1080/14622416.2025.2597182",
+        "journal": "Pharmacogenomics",
+        "year": "2026",
+        "rerank_score": 2.9311699867248535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40175632",
+        "text": "Minimal Physiologically-Based Pharmacokinetic Modeling of Atenolol and Metoprolol Absorption in Malnourished Rats. The pharmacokinetics of drugs can be altered by pathophysiological changes in the body that result from malnutrition. The objective of this study was to evaluate the profiles derived from in vivo studies conducted on non-malnourished (control) and malnourished rats using minimal physiologically based pharmacokinetic (mPBPK) models. Single oral doses of atenolol (ATN) and metoprolol (MET) were a",
+        "score": 0.4148889482021332,
+        "doi": "10.1007/s13318-025-00943-6",
+        "journal": "European journal of drug metabolism and pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 2.211679458618164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41409581",
+        "text": "Enantioselective analysis of metoprolol in plasma of hypertensive patients undergoing long-term therapy: Insights for personalized medicine.  Metoprolol is therapeutically formulated as a racemate with stereoselective pharmacokinetics influenced by CYP2D6 polymorphism. Understanding enantioselective disposition is critical for optimizing therapy in hypertensive patients, particularly during long-term treatment, where metabolic and excretory pathways may interact unpredictably. This study analyzed plasma sam",
+        "score": 0.42251676321029663,
+        "doi": "10.34172/bi.32645",
+        "journal": "BioImpacts : BI",
+        "year": "2025",
+        "rerank_score": 1.3959354162216187,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40151414",
+        "text": "Distribution, lipophilicity and tissue half-life as key factors in sulphonamide clearance from porcine tissues. Sulphonamides are some of the most widely used antimicrobial drugs in the treatment of bacterial diseases in pigs. The study was conducted to compare the total exposure of tissue to a group of active substances in a single formulation and evaluate the impact of the volume of distribution, lipophilicity and tissue half-life of sulfadimethoxine, sulphathiazole, sulphamethazine and sulphacetamide in ",
+        "score": 0.3866116404533386,
+        "doi": "10.2478/jvetres-2025-0002",
+        "journal": "Journal of veterinary research",
+        "year": "2024",
+        "rerank_score": 1.5724464654922485,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41056685",
+        "text": "Pharmacokinetics and tissue distribution of tripchlorolide in rodents using liquid chromatography tandem mass spectrometry. Tripchlorolide is a promising therapeutic compound with potent pharmacological activity and an improved safety profile compared to triptolide. However, its pharmacokinetics and tissue distribution remain poorly characterized. In this study, we developed and validated a rapid and sensitive liquid chromatography-mass spectrometry method for the quantification of tripchlorolide in biologi",
+        "score": 0.41547372937202454,
+        "doi": "10.1016/j.jchromb.2025.124805",
+        "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life",
+        "year": "2025",
+        "rerank_score": 0.28714001178741455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.4244248867034912,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.2220125198364258,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

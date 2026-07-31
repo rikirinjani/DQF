@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4250953495502472,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.8748047351837158,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40159210",
+        "text": "[A case of hyponatremia induced by the thiazide-like diuretic indapamide in an elderly woman]. A 72-year-old woman with a history of hypertension who had already been taking calcium channel blockers and angiotensin II receptor blockers was prescribed additional indapamide (1 mg/day) due to inadequate blood pressure control. Two weeks later, she experienced loss of appetite and fatigue. Seeking medical attention, she was diagnosed with significant hyponatremia with a serum sodium level of 110 mEq/L at a loca",
+        "score": 0.401436984539032,
+        "doi": "10.3143/geriatrics.62.88",
+        "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+        "year": "2025",
+        "rerank_score": -0.47501397132873535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39206783",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats. Diuretics, including thiazides and thiazide-like drugs, are commonly recommended for treating hypertension, though their precise mechanism of action is not fully understood. This study aimed to investigate the pharmacological effects of trichloromethiazide (TCM) in malignant stroke-prone spontaneously hypertensive rats (M-SHRSP). M-SHRSPs w",
+        "score": 0.4108767509460449,
+        "doi": "10.1097/HJH.0000000000003837",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -0.8807676434516907,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

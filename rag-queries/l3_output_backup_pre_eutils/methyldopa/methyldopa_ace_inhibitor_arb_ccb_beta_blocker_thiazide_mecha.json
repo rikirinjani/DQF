@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Methyldopa ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.41578420996665955,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.8056972622871399,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39625002",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats.",
+        "score": 0.3915337324142456,
+        "doi": "10.1097/HJH.0000000000003881",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -1.0677040815353394,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38550147",
+        "text": "Retracted: 1'H-Indole-3'-Carbonyl-Thiazole-4-Carboxylic Acid Methyl Ester Blocked Human Glioma Cell Invasion via Aryl Hydrocarbon Receptor's Regulation of Cytoskeletal Contraction. [This retracts the article DOI: 10.1155/2020/2616930.].",
+        "score": 0.4153621792793274,
+        "doi": "10.1155/2024/9807254",
+        "journal": "BioMed research international",
+        "year": "2024",
+        "rerank_score": -1.9158231019973755,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

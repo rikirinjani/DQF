@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Aspart glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35230749",
+        "text": "Clinical Pharmacology of Insulin Aspart Biosimilar GP40071: Pharmacokinetic/Pharmacodynamic Comparability in Hyperinsulinemic Euglycemic Clamp Procedure. Insulin aspart is a short-acting insulin analogue that is used to control postprandial glycemia levels in diabetic patients. The aim of this clinical trial was to compare the pharmacokinetics and pharmacodynamics of GP40071 (GP-Asp) and NovoRapid Penfill (Novo-Asp) in a hyperinsulinemic euglycemic clamp (HEC). This trial was conducted as a part of a GP4007",
+        "score": 0.3638652563095093,
+        "doi": "10.1002/cpdd.1084",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2021",
+        "rerank_score": 2.973940372467041,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39609927",
+        "text": "Role of the liver in the sustained normalisation of A1c over 2 years following short-term insulin therapy in early type 2 diabetes. When administered in early type 2 diabetes (T2DM), the strategy of 'induction' with short-term intensive insulin therapy (IIT) followed by 'maintenance' with metformin thereafter can yield outstanding glycaemic control, with some patients achieving A1c in the normal range of its assay. We thus sought to identify determinants of sustained normalisation of A1c in response to this",
+        "score": 0.3731067180633545,
+        "doi": "10.1111/dom.16099",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 2.142862558364868,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40258224",
+        "text": "Insulin degludec/insulin aspart (IDegAsp) treatment on glycemic control and weight in patients with insulin experienced uncontrolled type 2 diabetes mellitus: A retrospective observational study.",
+        "score": 0.3956872224807739,
+        "doi": "10.2478/enr-2025-0006",
+        "journal": "Endocrine regulations",
+        "year": "2025",
+        "rerank_score": 1.5737391710281372,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

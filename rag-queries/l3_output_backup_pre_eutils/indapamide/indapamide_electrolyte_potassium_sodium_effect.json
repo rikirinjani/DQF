@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39986714",
+        "text": "Unveiling the antiurolithiatic potentiality of two benzene sulfonamide derivatives against ethylene glycol-induced renal calculi. Oxidative stress and inflammation play crucial roles in the onset of kidney injury and crystal formation caused by hyperoxaluria. Indapamide is a potent medication for treating renal calculi, but it has severe side effects such as hypokalemia, hypercalcemia, and hyperuricemia. Therefore, it is advisable to explore alternative treatments that do not have these side effects. The st",
+        "score": 0.4653065800666809,
+        "doi": "10.1016/j.nefroe.2025.02.003",
+        "journal": "Nefrologia",
+        "year": "2024",
+        "rerank_score": 0.12058579921722412,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40841866",
+        "text": "Free water improves sodium mobilization in furosemide treated pigs after a hyperosmotic sodium load. Hypernatremia, a common electrolyte disorder in critically ill patients, induces a hyperosmotic state linked to increased mortality and metabolic stress. While loop diuretics such as furosemide are used for fluid management, their main effect is water excretion, often worsening hypernatremia. This study aimed to determine whether free water infusion enhances sodium excretion when combined with furosemide aft",
+        "score": 0.45617422461509705,
+        "doi": "10.1186/s40635-025-00800-5",
+        "journal": "Intensive care medicine experimental",
+        "year": "2025",
+        "rerank_score": -0.831890344619751,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40159210",
+        "text": "[A case of hyponatremia induced by the thiazide-like diuretic indapamide in an elderly woman]. A 72-year-old woman with a history of hypertension who had already been taking calcium channel blockers and angiotensin II receptor blockers was prescribed additional indapamide (1 mg/day) due to inadequate blood pressure control. Two weeks later, she experienced loss of appetite and fatigue. Seeking medical attention, she was diagnosed with significant hyponatremia with a serum sodium level of 110 mEq/L at a loca",
+        "score": 0.43836110830307007,
+        "doi": "10.3143/geriatrics.62.88",
+        "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+        "year": "2025",
+        "rerank_score": -0.8395413756370544,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

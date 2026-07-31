@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Felodipine L-type calcium channel adverse effect pathway",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39953207",
+        "text": "Validation of L-type calcium channel blocker amlodipine as a novel ADHD treatment through cross-species analysis, drug-target Mendelian randomization, and clinical evidence from medical records. ADHD is a chronic neurodevelopmental disorder that significantly affects life outcomes, and current treatments often have adverse side effects, high abuse potential, and a 25% non-response rate, highlighting the need for new therapeutics. This study investigates amlodipine, an L-type calcium channel blocker, as a po",
+        "score": 0.41324853897094727,
+        "doi": "10.1038/s41386-025-02062-x",
+        "journal": "Neuropsychopharmacology : official publication of the American College of Neurop",
+        "year": "2024",
+        "rerank_score": 4.289079189300537,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40650434",
+        "text": "L-type calcium channel blockers at therapeutic concentrations are not linked to CRAC channels and heart failure. Amlodipine has been used as a front-line anti-hypertensive therapy for decades by virtue of blocking voltage-operated calcium channels with high affinity and specificity. Recently, the safety of amlodipine has been questioned, as it was reported to activate Ca",
+        "score": 0.40487366914749146,
+        "doi": "10.1080/10641963.2025.2515924",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "2025",
+        "rerank_score": 3.8780248165130615,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39083161",
+        "text": "Nimodipine attenuates neuroinflammation and delayed apoptotic neuronal death induced by trimethyltin in the dentate gyrus of mice. L-type voltage-gated calcium channels (L-VGCCs) are thought to be involved in epileptogenesis and acute excitotoxicity. However, little is known about the role of L-VGCCs in neuroinflammation or delayed neuronal death following excitotoxic insult. We examined the effects of repeated treatment with the L-VGCC blocker nimodipine on neuroinflammatory changes and delayed neuronal ap",
+        "score": 0.42585939168930054,
+        "doi": "10.1007/s10735-024-10226-0",
+        "journal": "Journal of molecular histology",
+        "year": "2024",
+        "rerank_score": 3.5024843215942383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

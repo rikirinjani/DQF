@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Trandolapril ACE adverse effect pathway",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41154686",
+        "text": "Trandolapril Attenuates Pro-Arrhythmic Downregulation of Cx43 and Cx40 in Atria of Volume Overloaded Hypertensive and Normotensive Rats. Pressure overload in non-treated or resistant hypertension (HTN) increases the risk of heart failure (HF) as well as the occurrence of fatal ventricular arrhythmias and stroke-provoking atrial fibrillation (AF), while perturbed connexin-43 (Cx43) and Cx40 might be involved. In addition, kidney dysfunction may facilitate hemodynamic volume overload and congestive HF. We inv",
+        "score": 0.4317155182361603,
+        "doi": "10.3390/biom15101457",
+        "journal": "Biomolecules",
+        "year": "2025",
+        "rerank_score": 1.6004894971847534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38718248",
+        "text": "Use of Intravenous Lipid Emulsion Therapy and Insulin in a Case of Tarka Intoxication. Tarka (trandolapril/verapamil hydrohloride extended-release) is a fixed-dose combination antihypertensive drug formed from verapamil hydrochloride and trandolapril. Toxicologic manifestations of Tarka overdose are altered mental status, bradycardia, hypotension, atrioventricular block (first-degree), hyperglycemia, metabolic acidosis, and shock. We report a case of Tarka toxicity in a 2-year-old girl who presented with al",
+        "score": 0.44738829135894775,
+        "doi": "",
+        "journal": "WMJ : official publication of the State Medical Society of Wisconsin",
+        "year": "2024",
+        "rerank_score": 0.8276929259300232,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40268266",
+        "text": "An adverse outcome pathway for DNA adduct formation leading to kidney failure. An Adverse Outcome Pathway (AOP) is a conceptual framework in toxicology and risk assessment that outlines the series of events from a chemical's molecular interaction to the resulting adverse health effect. This framework offers a structured approach to organizing biological knowledge, making it especially useful for understanding the mechanisms through which chemicals cause harm. Following a comprehensive analysis of the litera",
+        "score": 0.4524928033351898,
+        "doi": "10.1016/j.tox.2025.154162",
+        "journal": "Toxicology",
+        "year": "2025",
+        "rerank_score": 0.2554827928543091,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

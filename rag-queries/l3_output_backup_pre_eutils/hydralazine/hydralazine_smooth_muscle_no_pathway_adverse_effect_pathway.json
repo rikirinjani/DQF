@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine smooth muscle NO pathway adverse effect pathway",
+    "dimension": "off_target",
+    "target": "smooth muscle NO pathway"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40026554",
+        "text": "Diffuse Alveolar Hemorrhage Linked to Hydralazine. Hydralazine, a commonly prescribed vasodilator for hypertension, is associated with adverse effects such as vasculitis, glomerulonephritis, and drug-induced lupus. We present a rare case of hydralazine-induced diffuse alveolar hemorrhage (DAH) in a 74-year-old male with a history of hypertension. The patient was admitted with symptoms including hemoptysis, dyspnea, and dark urine. Initial findings included a biopsy-confirmed leukocytoclastic vasculitis, ele",
+        "score": 0.4626014828681946,
+        "doi": "10.56305/001c.123688",
+        "journal": "Journal of Brown hospital medicine",
+        "year": "2024",
+        "rerank_score": 1.0375102758407593,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39102990",
+        "text": "Citrulline activates adenosine receptors: New insight into metabolic pathways interaction. Citrulline is a non-proteinogenic amino acid that forms as by-product in nitric oxide (NO) synthesis from arginine and may act in concert with NO as an independent signaling molecule that involves in the mechanism of vascular smooth muscle vasodilation. In this study we examined the effects of citrulline on pulmonary artery smooth muscles. Experimental design comprised outward potassium currents measurements in enzyma",
+        "score": 0.4738151729106903,
+        "doi": "10.1016/j.bcp.2024.116462",
+        "journal": "Biochemical pharmacology",
+        "year": "2024",
+        "rerank_score": -1.11509370803833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40777674",
+        "text": "A Delayed Adverse Reaction: Hydralazine-Induced Lupus After Years of Use. Drug-induced lupus (DIL) is a rare autoimmune condition triggered by certain medications, most commonly hydralazine and procainamide. DIL can manifest after a few weeks or even after several years of drug exposure. We present a case of a 61-year-old female with hypertension and type 2 diabetes mellitus who developed progressive polyarthritis, myalgia, and fatigue that developed over a year after three years of hydralazine use. Laborat",
+        "score": 0.4732651114463806,
+        "doi": "10.7759/cureus.87514",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -1.29410719871521,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

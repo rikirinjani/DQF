@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin DPP-4 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30303311",
+        "text": "The impact of sitagliptin, inhibitor of dipeptidyl peptidase-4 (DPP-4), on the ADMA-DDAH-NO pathway in ischemic and reperfused rat livers. A correlation between the level of asymmetric dimethylarginine (ADMA) - the inhibitor of the nitric oxide (NO) synthesis - and the liver function and survival after a liver transplantation has been reported.",
+        "score": 0.3818463683128357,
+        "doi": "10.17219/acem/75499",
+        "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical",
+        "year": "2018",
+        "rerank_score": 5.5408935546875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30515927",
+        "text": "Effects of dipeptidyl peptidase-4 inhibitors on transforming growth factor-β1 signal transduction pathways in the ovarian fibrosis of polycystic ovary syndrome rats. Examine the effects of dipeptidyl peptidase-4 (DPP4) inhibitor Sitagliptin on the transforming growth factor-β1 (TGF-β1) signal transduction pathway in polycystic ovary syndrome (PCOS) rats with ovarian fibrosis.",
+        "score": 0.38118577003479004,
+        "doi": "10.1111/jog.13847",
+        "journal": "The journal of obstetrics and gynaecology research",
+        "year": "2018",
+        "rerank_score": 4.4679646492004395,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18182122",
+        "text": "Sitagliptin, a DPP-4 inhibitor for the treatment of patients with type 2 diabetes: a review of recent clinical trials. Dipeptidyl peptidase-4 (DPP-4) inhibitors are a new class of oral antihyperglycemic agents that enhance the body's ability to regulate blood glucose by increasing the active levels of incretins, glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic peptide (GIP). There are numerous DPP-4 inhibitors in development with sitagliptin as the first approved agent for the treatment ",
+        "score": 0.3813059329986572,
+        "doi": "10.1185/030079908x261069",
+        "journal": "Current medical research and opinion",
+        "year": "2008",
+        "rerank_score": 3.283459424972534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

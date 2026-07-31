@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32998732",
+        "text": "Effects of semaglutide on risk of cardiovascular events across a continuum of cardiovascular risk: combined post hoc analysis of the SUSTAIN and PIONEER trials. Semaglutide is a glucagon-like peptide-1 (GLP-1) analog treatment for type 2 diabetes (T2D) available in subcutaneous (s.c.) and oral formulations. Two cardiovascular (CV) outcomes trials showed that in subjects with T2D at high risk of CV events there were fewer major adverse CV events (MACE; defined as CV death, non-fatal stroke, non-fatal myocard",
+        "score": 0.37720102071762085,
+        "doi": "10.1186/s12933-020-01106-4",
+        "journal": "Cardiovascular diabetology",
+        "year": "2020",
+        "rerank_score": 7.130234241485596,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35263432",
+        "text": "Estimated Life-Years Gained Free of New or Recurrent Major Cardiovascular Events With the Addition of Semaglutide to Standard of Care in People With Type 2 Diabetes and High Cardiovascular Risk. Semaglutide, a glucagon-like peptide 1 receptor agonist, reduced major adverse cardiovascular events (MACE) in people with type 2 diabetes (T2D) at high risk of cardiovascular disease (CVD) in a post hoc analysis of pooled data from Trial to Evaluate Cardiovascular and Other Long-term Outcomes with Semaglutide in Su",
+        "score": 0.3426579236984253,
+        "doi": "10.2337/dc21-1138",
+        "journal": "Diabetes care",
+        "year": "2021",
+        "rerank_score": 6.787083148956299,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33854484",
+        "text": "Cardiovascular Safety and Benefits of Semaglutide in Patients With Type 2 Diabetes: Findings From SUSTAIN 6 and PIONEER 6. To exclude an excess risk of cardiovascular (CV) events, CV outcomes trials (CVOTs) have assessed the effects of new glucose-lowering therapies, including glucagon-like peptide-1 receptor agonists (GLP-1RAs), in patients with type 2 diabetes and established CV disease or CV risk factors. The CV safety of semaglutide vs. placebo, when added to standard care, was evaluated in the SUSTAIN ",
+        "score": 0.37890833616256714,
+        "doi": "10.3389/fendo.2021.645566",
+        "journal": "Frontiers in endocrinology",
+        "year": "2020",
+        "rerank_score": 5.660646915435791,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

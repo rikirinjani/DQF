@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39342203",
+        "text": "Impact of baseline FIB-4 score on efpeglenatide benefits on cardiovascular outcomes in people with type 2 diabetes: a participant-level exploratory analysis of the AMPLITUDE-O trial. To estimate the incidence of major adverse cardiovascular events (MACE), expanded MACE, and MACE or Death across Fibrosis- 4 score (FIB-4) categories in people with type 2 diabetes and to determine whether efpeglenatide's effect varies with increasing FIB-4 severity. AMPLITUDE-O trial data were used to estimate the relationship",
+        "score": 0.410195529460907,
+        "doi": "10.1186/s12933-024-02432-7",
+        "journal": "Cardiovascular diabetology",
+        "year": "2024",
+        "rerank_score": 4.6359944343566895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34873344",
+        "text": "Subcutaneous infusion of exenatide and cardiovascular outcomes in type 2 diabetes: a non-inferiority randomized controlled trial. Glucagon-like peptide 1 receptor agonists (GLP-1RAs) injected periodically have been shown to not increase and, for some members of this class, decrease the risk of cardiovascular events. The cardiovascular safety of delivering a continuous subcutaneous infusion of the GLP-1RA exenatide (ITCA 650) is unknown. Here, we randomly assigned patients with type 2 diabetes with, or at ri",
+        "score": 0.40959903597831726,
+        "doi": "10.1038/s41591-021-01584-3",
+        "journal": "Nature medicine",
+        "year": "2021",
+        "rerank_score": 3.976979970932007,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26338040",
+        "text": "Long-term changes in cardiovascular risk markers during administration of exenatide twice daily or glimepiride: results from the European exenatide study. The risk of cardiovascular morbidity and mortality is significantly increased in patients with diabetes; thus, it is important to determine whether glucose-lowering therapy affects this risk over time. Changes in cardiovascular risk markers were examined in patients with type 2 diabetes treated with exenatide twice daily (a glucagon-like peptide-1 recepto",
+        "score": 0.4094633162021637,
+        "doi": "10.1186/s12933-015-0279-z",
+        "journal": "Cardiovascular diabetology",
+        "year": "2015",
+        "rerank_score": 3.772205114364624,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

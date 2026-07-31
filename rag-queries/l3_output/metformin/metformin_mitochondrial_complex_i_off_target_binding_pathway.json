@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin mitochondrial complex I off-target binding pathway",
+    "dimension": "off_target",
+    "target": "mitochondrial complex I"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41214295",
+        "text": "Hydrophilic metformin and hydrophobic biguanides inhibit mitochondrial complex I by distinct mechanisms. Metformin is the only antihyperglycemic biguanide targeting type 2 diabetes mellitus with proven safety. Although a mechanism of action involving tight inhibition of the respiratory complex I has been proposed for hydrophobic biguanides, it remains elusive for the hydrophilic metformin, whose excellent pharmacological tolerance depends on weak complex I inhibition without competitive nature. Here we solv",
+        "score": 0.4170795977115631,
+        "doi": "10.1038/s41594-025-01710-6",
+        "journal": "Nature structural & molecular biology",
+        "year": "2025",
+        "rerank_score": 3.7099294662475586,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969273",
+        "text": "High-dose metformin treatment to inhibit complex I during early reperfusion protects the aged mouse heart via decreased mitochondrial permeability transition pore opening. Acute, high-dose metformin (MET, 2 mM) results in partial complex I inhibition in ischemia (ISC)-modified mitochondria. Mitochondrial permeability transition pore (MPTP) opening increases cardiac injury during ISC-reperfusion (REP). We evaluated whether MET (2 mM) can decrease MPTP opening in aged hearts during REP. Sestrin2 (Sesn2) regul",
+        "score": 0.41247648000717163,
+        "doi": "10.1016/j.jpet.2024.100529",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "year": "2024",
+        "rerank_score": 2.5402941703796387,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40607627",
+        "text": "Mitochondrial complex I assembles via a distal-pump module (P The L-shape mitochondrial complex I (CI) consists of four modules: nicotinamide-adenine dinucleotide hydrogen-binding module (N) and ubiquinone-binding module (Q) in the matrix arm and proximal-pump module (P",
+        "score": 0.39438173174858093,
+        "doi": "10.1111/jipb.13958",
+        "journal": "Journal of integrative plant biology",
+        "year": "2025",
+        "rerank_score": 1.1653954982757568,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

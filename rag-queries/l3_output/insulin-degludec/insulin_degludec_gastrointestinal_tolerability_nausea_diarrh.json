@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.4260816276073456,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 0.03795570135116577,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40014293",
+        "text": "In-Hospital Management of Hyperglycemia: The Role of Insulin Degludec. Hyperglycemia is a common and challenging condition in hospitalized patients both with and without a history of diabetes. Managing hyperglycemia effectively is critical in reducing complications, mortality, and the length of hospital stays. Insulin degludec (IDeg), an ultralong-acting basal insulin, has a well-established efficacy and safety profile in terms of managing hyperglycemia in outpatients; it has demonstrated benefits in clinic",
+        "score": 0.43746218085289,
+        "doi": "10.1007/s13300-025-01707-w",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2024",
+        "rerank_score": -0.8758774399757385,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40258224",
+        "text": "Insulin degludec/insulin aspart (IDegAsp) treatment on glycemic control and weight in patients with insulin experienced uncontrolled type 2 diabetes mellitus: A retrospective observational study.",
+        "score": 0.43533456325531006,
+        "doi": "10.2478/enr-2025-0006",
+        "journal": "Endocrine regulations",
+        "year": "2025",
+        "rerank_score": -1.2488176822662354,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

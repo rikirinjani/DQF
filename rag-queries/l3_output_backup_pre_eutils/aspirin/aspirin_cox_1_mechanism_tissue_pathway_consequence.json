@@ -1,0 +1,81 @@
+{
+  "query": {
+    "query": "Aspirin COX-1 mechanism tissue pathway consequence",
+    "dimension": "off_target",
+    "target": "COX-1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16218482",
+        "text": "COX-2 and prostaglandins in atherosclerosis.\n\nArachidonic acid metabolism is involved in acute ischemic syndromes affecting the coronary or cerebrovascular territory, as demonstrated by biochemical measurements of eicosanoid biosynthesis and the results of inhibitor trials in these settings. In particular, the efficacy of low-dose aspirin in reducing the complications of acute ischemic syndromes has focused attention on the cyclooxygenase (COX) pathway of arachidonic acid metabolism and its products, collectively termed prostanoids. Two cyclooxygenase (COX)-isozymes have been characterized, COX-1 and COX-2, that differ in terms of regulatory mechanisms of expression, tissue distribution, substrate specificity and preferential coupling to upstream and downstream enzymes. While the role of platelet COX-1 in acute ischemic diseases is firmly established, the role of COX-2 in atherothrombosis is still uncertain. Studies from our group suggest that variable expression of upstream and downstream enzymes in the prostanoid biosynthesis may represent important determinants of the functional consequences of COX-2 expression and inhibition in different clinical settings.",
+        "title": "COX-2 and prostaglandins in atherosclerosis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "16218482",
+          "journal": "Lupus",
+          "authors": [
+            "Cipollone F"
+          ],
+          "pub_date": "2005",
+          "doi": "10.1191/0961203305lu2215oa",
+          "mesh_terms": [
+            "Arachidonic Acid",
+            "Atherosclerosis",
+            "Cyclooxygenase 2",
+            "Humans",
+            "Intramolecular Oxidoreductases",
+            "Isoenzymes",
+            "Lipocalins",
+            "Membrane Proteins",
+            "Prostaglandin-E Synthases",
+            "Prostaglandins",
+            "Receptors, Prostaglandin E"
+          ]
+        }
+      },
+      {
+        "id": "PMID:22707158",
+        "text": "Cardiac-generated prostanoids mediate cardiac myocyte apoptosis after myocardial ischaemia.\n\nThe objective of the present study is to elucidate the pathogenic role of eicosanoids in myocardial infarction (MI). The accumulation of eicosanoid metabolites in ischaemic myocardium has been demonstrated in animal models and patients with MI, and it occurs in parallel with the development of irreversible cardiac damage. However, the key question that remains unanswered is whether cardiac-generated eicosanoids are the cause or the consequence of cardiac cell damage in MI.\nWe used a clinically relevant animal model of MI and metabolic profiling to monitor the eicosanoid profile in ischaemic myocardium. We demonstrate that ischaemia induces the generation of prostanoids mainly through the cyclooxygenase (COX)-1 pathway in the myocardium. Cardiac-generated prostanoids, particularly prostaglandin D(2) (PGD(2)), can directly induce apoptosis in cardiac myocytes. This effect involves the up-regulation of the pro-apoptotic gene, Fas ligand (FasL), in a D-type prostanoid receptor-independent manner. The treatment of the MI mice with low-dose aspirin effectively inhibits the ischaemia-induced prostanoid generation and FasL expression in the myocardium, leading to the reduction in cardiac apoptosis following cardiac ischaemia.\nCardiac ischaemia results in COX-1-mediated generation of prostanoids, which by inducing cardiac myocyte apoptosis, contribute to the cardiac cell loss following MI. The benefits of low-dose aspirin treatment in MI may be attributable, in part, to the inhibition of cardiac prostanoid generation and attenuation of apoptosis. Further understanding of the mechanisms underlying prostanoid-induced cardiac apoptosis may be of significant value in designing new therapeutic strategies to prevent aberrant cell loss following MI and subsequent progression to heart failure.",
+        "title": "Cardiac-generated prostanoids mediate cardiac myocyte apoptosis after myocardial ischaemia.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "22707158",
+          "journal": "Cardiovascular research",
+          "authors": [
+            "Qiu Hong",
+            "Liu Jun-Yan",
+            "Wei Dongguang"
+          ],
+          "pub_date": "2012-Aug-01",
+          "doi": "10.1093/cvr/cvs191",
+          "mesh_terms": [
+            "Animals",
+            "Animals, Newborn",
+            "Apoptosis",
+            "Aspirin",
+            "Cells, Cultured",
+            "Cyclooxygenase 1",
+            "Cyclooxygenase Inhibitors",
+            "Disease Models, Animal",
+            "Fas Ligand Protein",
+            "Male",
+            "Membrane Proteins",
+            "Mice",
+            "Mice, Inbred C57BL",
+            "Myocardial Ischemia",
+            "Myocardium",
+            "Prostaglandin D2",
+            "Prostaglandins",
+            "RNA, Messenger",
+            "Receptors, Immunologic",
+            "Receptors, Prostaglandin",
+            "Time Factors",
+            "Up-Regulation",
+            "Ventricular Function, Left"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin DPP-4 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40745196",
+        "text": "Vildagliptin modulates the microbiota and induces an immunometabolic profile compatible with neuroprotection in type 2 diabetes. Dipeptidyl peptidase 4 (DPP-4) inhibitors (DPP-4i) are widely used to treat Type 2 diabetes (T2D) and are known for their cardiovascular and renal safety profiles. Systematic reviews have also shown that DPP-4i are associated with reduced dementia risk via unknown mechanisms. To examine vildagliptin (DPP-4i) effects on the intestinal microbiota in T2D patients, plasma metabolomics",
+        "score": 0.3515129089355469,
+        "doi": "10.1038/s41598-025-12990-9",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 5.151155471801758,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40686358",
+        "text": "Comparison of renal function of the patients receiving linagliptin or vildagliptin in uncontrolled type 2 diabetes mellitus: An observational study in the backdrop of the COVID-19 pandemic. Dipeptidyl peptidase 4 (DPP-4) inhibitors are primarily excreted renally. Linagliptin is an exception with excretion primarily through enterohepatic system and is expected to have a better renal profile, though real-world data are scarce. Comparative studies on the renal safety and glycaemic control with linagliptin vers",
+        "score": 0.3825657367706299,
+        "doi": "10.4103/ijp.ijp_492_24",
+        "journal": "Indian journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 5.021742820739746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41263457",
+        "text": "Addition of sitagliptin to ongoing metformin improved metabolic profile and pancreatic function via normalizing inflammatory cytokines' levels in patients with type 2 diabetes, a randomized double-blinded clinical trial. DPP-4 inhibitors have anti-diabetic effects in T2DM, but their impact on pancreatic function and underlying mechanisms remain unclear. This study aimed to evaluate the effects of sitagliptin on pancreatic function and glucose regulation, focusing on the roles of IL-18, IL-1, and IL-6 in T2D",
+        "score": 0.3646290898323059,
+        "doi": "10.1080/17446651.2025.2539252",
+        "journal": "Expert review of endocrinology & metabolism",
+        "year": "2025",
+        "rerank_score": 4.54838752746582,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

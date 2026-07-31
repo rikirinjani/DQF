@@ -1,0 +1,113 @@
+{
+  "query": {
+    "query": "PPI Clostridium difficile infection risk mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40524314",
+        "text": "Proton-pump inhibitors increase C. difficile infection risk by altering pH rather than by affecting the gut microbiome based on a bioreactor model.\n\nClostridioides difficile infections often occur after antibiotic use, but they have also been linked to proton-pump inhibitor (PPI) therapy. The underlying mechanism - whether infection risk is due to a direct effect of PPIs on the gut microbiome or changes in gastrointestinal pH - has remained unclear. To disentangle both possibilities, we studied the impact of the proton-pump inhibitor omeprazole and pH changes on key members of the human gut microbiome and stool-derived microbial communities from different donors in vitro. We then developed a custom multiple-bioreactor system to grow a model human microbiome community and a stool-derived community in chemostat mode and tested the effects of omeprazole exposure, pH changes, and their combination on C. difficile growth within these communities. Our findings show that changes in pH significantly affect the gut microbial community's biomass and the abundances of different bacterial taxa, leading to increased C. difficile growth within the community. However, omeprazole treatment alone did not result in such effects. These findings imply that the higher risk of C. difficile infection following proton-pump inhibitor therapy is probably because of alterations in gastrointestinal pH rather than a direct interaction between the drug and the microbiome. This understanding offers a new perspective on infection risks in proton-pump inhibitor therapy.",
+        "title": "Proton-pump inhibitors increase C. difficile infection risk by altering pH rather than by affecting the gut microbiome based on a bioreactor model.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "40524314",
+          "journal": "Gut microbes",
+          "authors": [
+            "Schumacher Julia",
+            "Müller Patrick",
+            "Sulzer Johannes"
+          ],
+          "pub_date": "2025-Dec",
+          "doi": "10.1080/19490976.2025.2519697",
+          "mesh_terms": [
+            "Proton Pump Inhibitors",
+            "Gastrointestinal Microbiome",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Clostridioides difficile",
+            "Omeprazole",
+            "Clostridium Infections",
+            "Bioreactors",
+            "Bacteria",
+            "Feces"
+          ]
+        }
+      },
+      {
+        "id": "PMID:26164495",
+        "text": "Proton Pump Inhibitors Alter Specific Taxa in the Human Gastrointestinal Microbiome: A Crossover Trial.\n\nWe conducted an open-label crossover trial to test whether proton pump inhibitors (PPIs) affect the gastrointestinal microbiome to facilitate Clostridium difficile infection (CDI). Twelve healthy volunteers each donated 2 baseline fecal samples, 4 weeks apart (at weeks 0 and 4). They then took PPIs for 4 weeks (40 mg omeprazole, twice daily) and fecal samples were collected at week 8. Six individuals took the PPIs for an additional 4 weeks (from week 8 to 12) and fecal samples were collected from all subjects at week 12. Samples were analyzed by 16S ribosomal RNA gene sequencing. We found no significant within-individual difference in microbiome diversity when we compared changes during baseline vs changes on PPIs. There were, however, significant changes during PPI use in taxa associated with CDI (increased Enterococcaceae and Streptococcaceae, decreased Clostridiales) and taxa associated with gastrointestinal bacterial overgrowth (increased Micrococcaceae and Staphylococcaceae). In a functional analysis, there were no changes in bile acids on PPIs, but there was an increase in genes involved in bacterial invasion. These alterations could provide a mechanism by which PPIs predispose to CDI. ClinicalTrials.gov ID NCT01901276.",
+        "title": "Proton Pump Inhibitors Alter Specific Taxa in the Human Gastrointestinal Microbiome: A Crossover Trial.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "26164495",
+          "journal": "Gastroenterology",
+          "authors": [
+            "Freedberg Daniel E",
+            "Toussaint Nora C",
+            "Chen Sway P"
+          ],
+          "pub_date": "2015-Oct",
+          "doi": "10.1053/j.gastro.2015.06.043",
+          "mesh_terms": [
+            "Bacteria",
+            "Clostridioides difficile",
+            "Cross-Over Studies",
+            "Drug Administration Schedule",
+            "Enterocolitis, Pseudomembranous",
+            "Feces",
+            "Healthy Volunteers",
+            "Humans",
+            "Intestines",
+            "Microbiota",
+            "Omeprazole",
+            "Proton Pump Inhibitors",
+            "Ribotyping",
+            "Risk Factors",
+            "Time Factors"
+          ]
+        }
+      },
+      {
+        "id": "PMID:18054750",
+        "text": "Use of acid-suppressing drugs and the risk of bacterial gastroenteritis.\n\nGastric acid is a defense mechanism against gastrointestinal infections caused by ingested bacteria. Studies have suggested that the use of acid-suppressing drugs may increase the risk of gastroenteritis (GE).\nPatients aged 20-74 years with an episode of acute bacterial GE (n = 6414) were identified. A control group from the same study population without a diagnosis of GE (n = 50,000) was frequency-matched by age, sex, and calendar year to the case group. Unconditional logistic regression was used to calculate the adjusted relative risk (RR) of GE in patients using proton pump inhibitors (PPIs) or histamine-2 receptor antagonists (H2RAs).\nCurrent use of PPIs was associated with an increased risk of bacterial GE compared with nonuse, regardless of the treatment duration (RR, 2.9; 95% confidence interval [CI], 2.5-3.5), whereas no association was observed with H2RA use (RR, 1.1; 95% CI, 0.9-1.4). Doubling the PPI dose further increased the risk of developing bacterial GE (RR, 5.0; 95% CI, 2.7-9.3). The effect of PPI use did not vary significantly with regard to treatment indication. The increased risk associated with PPI use was similar for both omeprazole (RR, 3.0; 95% CI, 2.5-3.7) and lansoprazole (RR, 2.1; 95% CI, 1.4-3.0), whereas neither cimetidine nor ranitidine showed any increased risk. Campylobacter (n = 4124) and Salmonella (n = 1885) were the 2 species most frequently responsible for GE episodes in the case group. When analyzed separately, both species reproduced the increased risk associated with PPI use and not H2RA use. Clostridium GE cases were rare (n = 31).\nThis study suggests that gastric acid suppression induced by PPIs but not H2RAs is associated with an increased risk of Campylobacter and Salmonella GE.",
+        "title": "Use of acid-suppressing drugs and the risk of bacterial gastroenteritis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "18054750",
+          "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+          "authors": [
+            "García Rodríguez Luis Alberto",
+            "Ruigómez Ana",
+            "Panés Julián"
+          ],
+          "pub_date": "2007-Dec",
+          "doi": "10.1016/j.cgh.2007.09.010",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adult",
+            "Aged",
+            "Bacterial Infections",
+            "Enzyme Inhibitors",
+            "Female",
+            "Follow-Up Studies",
+            "Gastric Acid",
+            "Gastroenteritis",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Incidence",
+            "Lansoprazole",
+            "Male",
+            "Middle Aged",
+            "Omeprazole",
+            "Proton Pump Inhibitors",
+            "Retrospective Studies",
+            "Risk Factors",
+            "United Kingdom"
+          ]
+        }
+      }
+    ]
+  }
+}

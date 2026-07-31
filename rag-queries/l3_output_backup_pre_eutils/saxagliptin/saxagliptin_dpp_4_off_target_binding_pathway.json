@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin DPP-4 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:22162539",
+        "text": "Quantitative model of the relationship between dipeptidyl peptidase-4 (DPP-4) inhibition and response: meta-analysis of alogliptin, saxagliptin, sitagliptin, and vildagliptin efficacy results. Dipeptidyl peptidase-4 (DPP-4) inhibition is a well- characterized treatment for type 2 diabetes mellitus (T2DM). The objective of this model-based meta-analysis was to describe the time course of HbA1c response after dosing with alogliptin (ALOG), saxagliptin (SAXA), sitagliptin (SITA), or vildagliptin (VILD). Public",
+        "score": 0.3964505195617676,
+        "doi": "10.1177/0091270011420153",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2011",
+        "rerank_score": 2.5477280616760254,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26580122",
+        "text": "Exploration of gated ligand binding recognizes an allosteric site for blocking FABP4-protein interaction. Fatty acid binding protein 4 (FABP4), reversibly binding to fatty acids and other lipids with high affinities, is a potential target for treatment of cancers. The binding site of FABP4 is buried in an interior cavity and thereby ligand binding/unbinding is coupled with opening/closing of FABP4. It is a difficult task both experimentally and computationally to illuminate the entry or exit pathway, especi",
+        "score": 0.39391660690307617,
+        "doi": "10.1039/c5cp04784f",
+        "journal": "Physical chemistry chemical physics : PCCP",
+        "year": "2015",
+        "rerank_score": 1.3354527950286865,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39000575",
+        "text": "Ligand-Receptor Interactions and Structure-Function Relationships in Off-Target Binding of the β The β",
+        "score": 0.3982042372226715,
+        "doi": "10.3390/ijms25137468",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": -0.40306663513183594,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

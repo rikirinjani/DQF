@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38922973",
+        "text": "Assessment of drug-drug interaction of dapagliflozin with LCZ696 based on an LC-MS/MS method. The co-administration of dapagliflozin (DPF) and sacubitril/valsartan (LCZ696) has emerged as a promising therapeutic approach for managing heart failure. Given that DPF and LCZ696 are substrates for P-glycoprotein, there is a plausible potential for drug-drug interactions when administered concomitantly. To investigate the pharmacokinetic changes when these drugs are co-administered, we have established and valida",
+        "score": 0.40850311517715454,
+        "doi": "10.1002/bmc.5924",
+        "journal": "Biomedical chromatography : BMC",
+        "year": "2024",
+        "rerank_score": 2.080850839614868,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39164154",
+        "text": "Empagliflozin controls cirrhotic refractory ascites along with improvement of natriuresis and circulatory, cardiac, and renal function: A pilot study.",
+        "score": 0.39957088232040405,
+        "doi": "10.1016/j.ejim.2024.08.012",
+        "journal": "European journal of internal medicine",
+        "year": "2024",
+        "rerank_score": 1.849177598953247,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40855136",
+        "text": "Safety and Short-Term Effects of Empagliflozin in Patients with Heart Failure and End-Stage Renal Disease. Our aim was to evaluate the safety of empagliflozin in escalating doses among patients with end-stage renal disease (ESRD) undergoing maintenance hemodialysis who also have heart failure. This single-arm, open-label, dose-escalation study enrolled patients with ESRD on maintenance hemodialysis with heart failure (reduced or preserved ejection fraction) from June to September 2023. Patients sequentially",
+        "score": 0.41108793020248413,
+        "doi": "10.1007/s40256-025-00760-x",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2025",
+        "rerank_score": 1.4660922288894653,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

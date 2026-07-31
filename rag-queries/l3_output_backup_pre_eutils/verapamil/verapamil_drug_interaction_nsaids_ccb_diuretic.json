@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40908920",
+        "text": "Risk of opioid overdose associated with concurrent use of hydrocodone and CYP3A4-inhibiting calcium channel blockers: a population-based cohort study. Nondihydropyridine calcium channel blockers (CCBs), including diltiazem and verapamil, inhibit cytochrome P450 3A4 (CYP3A4), an enzyme involved in the metabolism of hydrocodone, the most commonly used opioid in the United States. This study evaluated whether concomitant use of hydrocodone with CYP3A4-inhibiting CCBs increases the risk of opioid overdose compa",
+        "score": 0.4481832981109619,
+        "doi": "10.1093/aje/kwaf198",
+        "journal": "American journal of epidemiology",
+        "year": "2025",
+        "rerank_score": 1.7400243282318115,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40250902",
+        "text": "Complete Heart Block Triggered by Nirmatrelvir-Ritonavir and Verapamil. Ritonavir-boosted nirmatrelvir (Paxlovid) is a treatment for COVID-19. However, ritonavir, a cytochrome P450 (CYP) CYP3A4 inhibitor, poses a risk of significant drug-drug interactions. In our case, coprescribed nirmatrelvir-ritonavir and verapamil, with concomitant acute kidney injury, resulted in complete heart block and shock. Following fluid resuscitation, blood pressure support with norepinephrine, and calcium therapy for verapamil ",
+        "score": 0.4119775891304016,
+        "doi": "10.1016/j.jaccas.2025.103238",
+        "journal": "JACC. Case reports",
+        "year": "2024",
+        "rerank_score": 0.3810887038707733,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4350053668022156,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.1734440177679062,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

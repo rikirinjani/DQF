@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Glargine insulin receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:6434794",
+        "text": "Trial of sulfonylurea in combination with insulin in the therapy of diabetes type I and II. Evidence against a primary extrapancreatic receptor effect. Recently in vitro evidence has been presented that sulfonylurea derivatives exert their chronic extrapancreatic effect by increasing the number of cellular insulin receptors. To ascertain if this receptor effect holds in vivo, we performed a randomized double-blind study on 21 type I (0.3 ng/ml residual C-peptide secretory capacity after glucose/glibenclamid",
+        "score": 0.33360713720321655,
+        "doi": "10.1007/BF01721918",
+        "journal": "Klinische Wochenschrift",
+        "year": "1984",
+        "rerank_score": 4.98371696472168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41069310",
+        "text": "Acute effects of GIP and GLP-1 receptor antagonism in totally pancreatectomized individuals: A randomized double-blind, placebo-controlled crossover study. The incretin hormones glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) influence metabolism through strong effects on pancreatic hormone secretion but also in a pancreas-independent manner. Here, we investigated the isolated extrapancreatic effects of endogenous GIP and GLP-1 by applying hormone receptor antagonists ",
+        "score": 0.36803072690963745,
+        "doi": "10.1111/dom.70186",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 4.898474216461182,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40968190",
+        "text": "Using glucagon receptor antagonism to evaluate the physiological effects of extrapancreatic glucagon in totally pancreatectomised individuals: a randomised controlled trial. Previous studies have indicated that 29-amino-acid glucagon (i.e. 'pancreatic' glucagon) circulates in totally pancreatectomised individuals and that a postprandial glucagon response can be detected. Using a glucagon receptor antagonist (GRA), we investigated the possible role of extrapancreatic glucagon on glucose, lipid and amino acid",
+        "score": 0.341793954372406,
+        "doi": "10.1007/s00125-025-06534-z",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 1.932403326034546,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

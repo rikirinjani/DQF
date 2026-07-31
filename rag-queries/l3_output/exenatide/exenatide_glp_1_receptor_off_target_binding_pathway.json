@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide GLP-1 receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36463128",
+        "text": "Exenatide regulates Th17/Treg balance via PI3K/Akt/FoxO1 pathway in db/db mice. The T helper 17 (Th17)/T regulatory (Treg) cell imbalance is involved in the course of obesity and type 2 diabetes mellitus (T2DM). In the current study, the exact role of glucagon-like peptide-1 receptor agonist (GLP-1RA) exenatide on regulating the Th17/Treg balance and the underlying molecular mechanisms are investigated in obese diabetic mice model.",
+        "score": 0.35172951221466064,
+        "doi": "10.1186/s10020-022-00574-6",
+        "journal": "Molecular medicine (Cambridge, Mass.)",
+        "year": "2022",
+        "rerank_score": 4.146588325500488,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23748507",
+        "text": "Efficacy and tolerability of exenatide once weekly versus sitagliptin in patients with type 2 diabetes mellitus: a retrospective analysis of pooled clinical trial data. Therapies for type 2 diabetes mellitus that leverage the glucagon-like peptide-1 (GLP-1) receptor signaling pathway have been shown to reduce rates of hyperglycemia and have beneficial effects on body weight. This post hoc analysis compared the effects of 2 GLP-1 receptor- based therapies, exenatide once weekly (EQW), a GLP-1 receptor agonis",
+        "score": 0.35266441106796265,
+        "doi": "10.3810/pgm.2013.05.2661",
+        "journal": "Postgraduate medicine",
+        "year": "2013",
+        "rerank_score": 4.051401615142822,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36128537",
+        "text": "Synthesis of the extracellular domain of GLP-1R by chemical and biotechnological approaches. The extracellular domain of the glucagon-like peptide-1 receptor, GLP-1R, is responsible for the binding of GLP-1, and a handful of additional agonists (such as exenatide, lixisenatide, and liraglutide) used daily for treating type II diabetes mellitus. Lead discovery and optimization, however, require binding studies, which, in turn, necessitate the total synthesis of GLP-1R, comprising 108 residues. A protein doma",
+        "score": 0.3527042269706726,
+        "doi": "10.1039/d2ra02784d",
+        "journal": "RSC advances",
+        "year": "2022",
+        "rerank_score": 3.80196475982666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

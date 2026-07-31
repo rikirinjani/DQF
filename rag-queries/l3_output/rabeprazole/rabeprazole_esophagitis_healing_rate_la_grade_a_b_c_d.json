@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole esophagitis healing rate LA grade A B C D",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38950390",
+        "text": "In grade C/D erosive esophagitis, vonoprazan ranks highest among PPIs and P-CABs for healing and maintaining remission. Zhuang Q, Chen S, Zhou X, et al.",
+        "score": 0.4273117780685425,
+        "doi": "10.7326/ANNALS-24-00741-JC",
+        "journal": "Annals of internal medicine",
+        "year": "2024",
+        "rerank_score": 1.6060773134231567,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39648266",
+        "text": "Long-term efficacy of on-demand vonoprazan treatment for mild reflux esophagitis: success rates and predictors of treatment failure. Concerns surrounding long-term proton pump inhibitor use have prompted the exploration of alternative treatments for reflux esophagitis (RE). We previously demonstrated that 24 weeks of on-demand treatment with vonoprazan, a potassium-competitive acid blocker, effectively managed mild RE (Los Angeles classification grade A/B) in more than 80% of patients. However, its long-ter",
+        "score": 0.45903855562210083,
+        "doi": "10.1007/s10388-024-01099-z",
+        "journal": "Esophagus : official journal of the Japan Esophageal Society",
+        "year": "2024",
+        "rerank_score": -0.251574844121933,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39587796",
+        "text": "Comparison of Tegoprazan and Lansoprazole in Patients With Erosive Esophagitis up to 4 Weeks: A Multi-Center, Randomized, Double-Blind, Active-Comparator Phase 4 Trial. The aims of this study were to confirm the non-inferiority of tegoprazan to lansoprazole up to week 4 in patients with erosive esophagitis (EE) and to evaluate its effectiveness in rapid mucosal healing and symptom relief at week 2. In this multi-center, randomized, double-blind, active-comparator non-inferiority trial, 218 patients with end",
+        "score": 0.41781026124954224,
+        "doi": "10.1111/nmo.14969",
+        "journal": "Neurogastroenterology and motility",
+        "year": "2024",
+        "rerank_score": -2.1547532081604004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

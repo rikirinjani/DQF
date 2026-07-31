@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DQF — Patient Query Tool</title>
+<style>
+/* ═══════════════════════════════════════════
+   RESET & BASE
+   ═══════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+  background:#0f0f23;
+  color:#d0d0e0;
+  min-height:100vh;
+  overflow-x:hidden;
+  line-height:1.6;
+}
+
+/* ═══════════════════════════════════════════
+   VARIABLES
+   ═══════════════════════════════════════════ */
+:root{
+  --bg-deep:#0a0a1a;
+  --bg-body:#0f0f23;
+  --bg-card:#15153a;
+  --bg-card-alt:#1b1b40;
+  --bg-elevated:#1e1e48;
+  --bg-input:#12122e;
+  --border:#2a2a58;
+  --border-light:#3a3a6a;
+  --border-focus:#4a4a88;
+  --text:#d0d0e0;
+  --text-mid:#9090b8;
+  --text-dim:#606088;
+  --accent-nsaid:#00bcd4;
+  --accent-nsaid-dim:rgba(0,188,212,0.12);
+  --accent-nsaid-glow:rgba(0,188,212,0.25);
+  --accent-statin:#ff6d00;
+  --accent-statin-dim:rgba(255,109,0,0.12);
+  --accent-statin-glow:rgba(255,109,0,0.25);
+  --accent-compare:#b388ff;
+  --accent-primary:#00bcd4;
+  --green:#00e676;
+  --green-dim:rgba(0,230,118,0.15);
+  --yellow:#ffd600;
+  --yellow-dim:rgba(255,214,0,0.15);
+  --orange:#ff9100;
+  --red:#ff1744;
+  --red-dim:rgba(255,23,68,0.12);
+  --gold:#ffd700;
+  --gold-glow:rgba(255,215,0,0.3);
+  --card-radius:14px;
+  --card-radius-sm:10px;
+}
+
+/* ═══════════════════════════════════════════
+   BACKGROUND DECORATION
+   ═══════════════════════════════════════════ */
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background:
+    radial-gradient(ellipse 70% 50% at 5% 15%, rgba(0,188,212,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 70% at 95% 85%, rgba(255,109,0,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(179,136,255,0.03) 0%, transparent 50%);
+  pointer-events:none;
+  z-index:0;
+}
+body::after{
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image:radial-gradient(rgba(255,255,255,0.012) 1px, transparent 1px);
+  background-size:22px 22px;
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ═══════════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════════ */
+.app{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:0 28px 40px}
+
+/* ═══════════════════════════════════════════
+   HEADER
+   ═══════════════════════════════════════════ */
+.app-header{
+  padding:36px 0 28px;
+  text-align:center;
+  animation:fadeDown 0.6s ease both;
+}
+.app-header h1{
+  font-size:2.3rem;
+  font-weight:800;
+  letter-spacing:-0.03em;
+  background:linear-gradient(135deg, #00bcd4 0%, #b388ff 45%, #ff6d00 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  margin-bottom:4px;
+}
+.app-header .subtitle{
+  font-size:0.95rem;
+  color:var(--text-mid);
+  font-weight:400;
+  letter-spacing:0.2px;
+}
+.app-header .framework-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:8px;
+  padding:4px 16px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid var(--border);
+  border-radius:50px;
+  font-size:0.78rem;
+  color:var(--text-dim);
+  letter-spacing:0.5px;
+}
+.framework-badge .dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--accent-compare);
+  box-shadow:0 0 8px var(--accent-compare);
+  animation:pulseDot 2s ease infinite;
+}
+
+/* ═══════════════════════════════════════════
+   MAIN GRID — form left, results right
+   ═══════════════════════════════════════════ */
+.main-grid{
+  display:grid;
+  grid-template-columns:380px 1fr;
+  gap:28px;
+  align-items:start;
+  animation:fadeUp 0.5s 0.2s ease both;
+}
+
+/* ═══════════════════════════════════════════
+   FORM PANEL (glass card)
+   ═══════════════════════════════════════════ */
+.form-panel{
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-radius:var(--card-radius);
+  padding:28px 24px 24px;
+  position:sticky;
+  top:28px;
+}
+.form-panel .panel-title{
+  font-size:1.05rem;
+  font-weight:700;
+  color:var(--text);
+  margin-bottom:4px;
+  letter-spacing:-0.01em;
+}
+.form-panel .panel-sub{
+  font-size:0.78rem;
+  color:var(--text-dim);
+  margin-bottom:22px;
+}
+.form-group{
+  margin-bottom:18px;
+}
+.form-group label{
+  display:block;
+  font-size:0.78rem;
+  font-weight:600;
+  color:var(--text-mid);
+  margin-bottom:5px;
+  letter-spacing:0.3px;
+  text-transform:uppercase;
+}
+.form-group input,
+.form-group select{
+  width:100%;
+  padding:10px 14px;
+  background:var(--bg-input);
+  border:1px solid var(--border);
+  border-radius:8px;
+  color:var(--text);
+  font-size:0.9rem;
+  font-family:inherit;
+  transition:all 0.25s ease;
+  outline:none;
+  cursor:pointer;
+  appearance:none;
+  -webkit-appearance:none;
+}
+.form-group select{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23606088' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 12px center;
+  padding-right:36px;
+}
+.form-group input:focus,
+.form-group select:focus{
+  border-color:var(--accent-primary);
+  box-shadow:0 0 0 3px rgba(0,188,212,0.1);
+}
+.form-group input[type="number"]{
+  appearance:textfield;
+  -moz-appearance:textfield;
+}
+.form-group input[type="number"]::-webkit-inner-spin-button,
+.form-group input[type="number"]::-webkit-outer-spin-button{
+  opacity:1;
+  height:32px;
+}
+.form-group input:hover,
+.form-group select:hover{
+  border-color:var(--border-light);
+}
+.form-group .hint{
+  font-size:0.7rem;
+  color:var(--text-dim);
+  margin-top:4px;
+  font-style:italic;
+}
+
+/* Checkbox group for multi-class selection */
+.checkbox-group{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.checkbox-label{display:flex;align-items:center;gap:6px;background:var(--bg-input);border:1px solid var(--border);border-radius:6px;padding:6px 12px;cursor:pointer;font-size:0.85rem;transition:all .15s}
+.checkbox-label:hover{border-color:var(--accent-primary)}
+.checkbox-label input[type=checkbox]{accent-color:var(--accent-primary);width:16px;height:16px;cursor:pointer}
+.hint{font-size:0.75rem;color:var(--text-dim);font-weight:400}
+
+/* Submit button */
+.submit-btn{
+  width:100%;
+  padding:13px 20px;
+  background:linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+  border:none;
+  border-radius:10px;
+  color:#fff;
+  font-size:0.95rem;
+  font-weight:700;
+  font-family:inherit;
+  letter-spacing:0.3px;
+  cursor:pointer;
+  transition:all 0.3s ease;
+  margin-top:6px;
+  position:relative;
+  overflow:hidden;
+}
+.submit-btn::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+  transform:translateX(-100%);
+  transition:transform 0.6s ease;
+}
+.submit-btn:hover{
+  box-shadow:0 4px 24px rgba(0,188,212,0.35);
+  transform:translateY(-1px);
+}
+.submit-btn:hover::before{transform:translateX(100%)}
+.submit-btn:active{
+  transform:translateY(0);
+  box-shadow:0 2px 12px rgba(0,188,212,0.25);
+}
+.submit-btn:disabled{
+  opacity:0.5;
+  cursor:not-allowed;
+  transform:none;
+  box-shadow:none;
+}
+
+/* Small error underneath form */
+.form-error{
+  margin-top:12px;
+  padding:10px 14px;
+  background:var(--red-dim);
+  border:1px solid rgba(255,23,68,0.2);
+  border-radius:8px;
+  color:#ff8a80;
+  font-size:0.8rem;
+  display:none;
+  align-items:center;
+  gap:8px;
+}
+.form-error.visible{display:flex}
+.form-error .retry-link{
+  color:var(--accent-primary);
+  cursor:pointer;
+  text-decoration:underline;
+  font-weight:600;
+  margin-left:auto;
+  flex-shrink:0;
+}
+
+/* ═══════════════════════════════════════════
+   RESULTS PANEL
+   ═══════════════════════════════════════════ */
+.results-panel{
+  min-height:400px;
+}
+
+/* Empty state */
+.empty-state{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:380px;
+  padding:48px 32px;
+  text-align:center;
+  background:var(--bg-card);
+  border:1px dashed var(--border);
+  border-radius:var(--card-radius);
+}
+.empty-state .empty-icon{
+  font-size:3rem;
+  margin-bottom:16px;
+  opacity:0.4;
+}
+.empty-state .empty-title{
+  font-size:1.1rem;
+  font-weight:600;
+  color:var(--text-mid);
+  margin-bottom:6px;
+}
+.empty-state .empty-desc{
+  font-size:0.85rem;
+  color:var(--text-dim);
+  max-width:340px;
+  line-height:1.5;
+}
+
+/* Loading */
+.loading-overlay{
+  display:none;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:380px;
+  gap:16px;
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-radius:var(--card-radius);
+}
+.loading-overlay.active{display:flex}
+.spinner{
+  width:44px;
+  height:44px;
+  border:3px solid var(--border);
+  border-top-color:var(--accent-primary);
+  border-radius:50%;
+  animation:spin 0.8s linear infinite;
+}
+.loading-text{
+  font-size:0.9rem;
+  color:var(--text-mid);
+  letter-spacing:0.3px;
+}
+
+/* ═══════════════════════════════════════════
+   SUMMARY BOX
+   ═══════════════════════════════════════════ */
+.summary-box{
+  display:none;
+  padding:18px 22px;
+  border-radius:var(--card-radius-sm);
+  margin-bottom:22px;
+  border-left:4px solid var(--accent-primary);
+  background:linear-gradient(135deg, rgba(0,188,212,0.08) 0%, rgba(0,188,212,0.02) 100%);
+  animation:slideIn 0.4s ease both;
+}
+.summary-box.visible{display:block}
+.summary-box .summary-label{
+  font-size:0.7rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.6px;
+  color:var(--accent-nsaid);
+  margin-bottom:4px;
+}
+.summary-box .summary-text{
+  font-size:0.95rem;
+  color:var(--text);
+  line-height:1.5;
+}
+
+/* ═══════════════════════════════════════════
+   CLASS SEPARATOR HEADER
+   ═══════════════════════════════════════════ */
+.class-separator{
+  display:none;
+  align-items:center;
+  gap:10px;
+  padding:8px 0 8px 4px;
+  margin-top:22px;
+  margin-bottom:12px;
+}
+.class-separator.visible{display:flex}
+.class-separator:first-of-type{margin-top:0}
+.class-separator .sep-line{
+  flex:1;
+  height:1px;
+  background:var(--border);
+}
+.class-separator .sep-label{
+  font-size:0.72rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  padding:4px 14px;
+  border-radius:50px;
+  border:1px solid var(--border);
+}
+.class-separator .sep-label.nsaid{
+  color:var(--accent-nsaid);
+  background:var(--accent-nsaid-dim);
+  border-color:rgba(0,188,212,0.2);
+}
+.class-separator .sep-label.statin{
+  color:var(--accent-statin);
+  background:var(--accent-statin-dim);
+  border-color:rgba(255,109,0,0.2);
+}
+.class-separator .sep-count{
+  font-size:0.7rem;
+  color:var(--text-dim);
+  font-weight:400;
+  margin-left:2px;
+}
+
+/* ═══════════════════════════════════════════
+   RESULTS TABLE
+   ═══════════════════════════════════════════ */
+.results-table-wrap{
+  display:none;
+  overflow-x:auto;
+  border-radius:var(--card-radius-sm);
+  border:1px solid var(--border);
+  background:var(--bg-card);
+}
+.results-table-wrap.visible{display:block}
+.results-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:0.82rem;
+}
+.results-table thead th{
+  padding:12px 10px;
+  text-align:left;
+  font-size:0.68rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--text-dim);
+  background:rgba(255,255,255,0.02);
+  border-bottom:1px solid var(--border);
+  white-space:nowrap;
+  position:sticky;
+  top:0;
+  z-index:2;
+}
+.results-table thead th:first-child{padding-left:16px;border-radius:var(--card-radius-sm) 0 0 0}
+.results-table thead th:last-child{border-radius:0 var(--card-radius-sm) 0 0}
+
+.results-table tbody td{
+  padding:10px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.03);
+  vertical-align:middle;
+  transition:background 0.2s ease;
+}
+.results-table tbody td:first-child{padding-left:16px}
+.results-table tbody tr{
+  cursor:pointer;
+  transition:all 0.3s ease;
+  opacity:0;
+  animation:rowFadeIn 0.4s ease forwards;
+}
+.results-table tbody tr:hover{
+  background:rgba(255,255,255,0.03);
+}
+.results-table tbody tr.selected{
+  background:rgba(179,136,255,0.06);
+}
+.results-table tbody tr:last-child td{border-bottom:none}
+.results-table tbody tr:last-child td:first-child{border-radius:0 0 0 var(--card-radius-sm)}
+.results-table tbody tr:last-child td:last-child{border-radius:0 0 var(--card-radius-sm) 0}
+
+/* Rank #1 gold highlight */
+.results-table tbody tr.rank-1{
+  position:relative;
+}
+.results-table tbody tr.rank-1::before{
+  content:'';
+  position:absolute;
+  inset:-1px;
+  border-radius:6px;
+  border:2px solid var(--gold);
+  box-shadow:0 0 14px var(--gold-glow), inset 0 0 14px rgba(255,215,0,0.05);
+  pointer-events:none;
+  z-index:1;
+  animation:goldPulse 3s ease infinite;
+}
+.results-table tbody tr.rank-1 td{
+  background:rgba(255,215,0,0.03);
+}
+
+/* Rank number */
+.rank-cell{
+  font-weight:700;
+  font-size:0.85rem;
+  color:var(--text);
+  min-width:36px;
+}
+.rank-cell .rank-num{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:26px;height:26px;
+  border-radius:6px;
+  background:rgba(255,255,255,0.06);
+  font-size:0.78rem;
+}
+tr.rank-1 .rank-num{
+  background:rgba(255,215,0,0.12);
+  color:var(--gold);
+}
+
+/* Drug name */
+.drug-name-cell{
+  font-weight:600;
+  color:var(--text);
+  white-space:nowrap;
+}
+
+/* Class badge */
+.class-badge{
+  display:inline-block;
+  font-size:0.65rem;
+  font-weight:700;
+  padding:2px 9px;
+  border-radius:50px;
+  text-transform:uppercase;
+  letter-spacing:0.3px;
+}
+.class-badge.nsaid{background:var(--accent-nsaid-dim);color:var(--accent-nsaid)}
+.class-badge.statin{background:var(--accent-statin-dim);color:var(--accent-statin)}
+
+/* Score cells with bars */
+.score-cell{
+  min-width:72px;
+}
+.score-bar-wrap{
+  display:flex;
+  align-items:center;
+  gap:7px;
+}
+.score-bar-track{
+  flex:1;
+  height:7px;
+  background:rgba(255,255,255,0.05);
+  border-radius:20px;
+  overflow:hidden;
+  min-width:40px;
+}
+.score-bar-fill{
+  height:100%;
+  border-radius:20px;
+  width:0;
+  transition:width 0.7s cubic-bezier(0.4,0,0.2,1);
+  position:relative;
+}
+.score-bar-fill::after{
+  content:'';
+  position:absolute;top:0;right:0;bottom:0;
+  width:12px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2));
+  border-radius:0 20px 20px 0;
+}
+.score-bar-fill.high{background:linear-gradient(90deg,var(--green),rgba(0,230,118,0.5))}
+.score-bar-fill.mid{background:linear-gradient(90deg,var(--yellow),rgba(255,214,0,0.5))}
+.score-bar-fill.low{background:linear-gradient(90deg,var(--orange),rgba(255,145,0,0.5))}
+.score-bar-fill.crit{background:linear-gradient(90deg,var(--red),rgba(255,23,68,0.5))}
+.score-num{
+  font-size:0.78rem;
+  font-weight:700;
+  min-width:28px;
+  text-align:right;
+  color:var(--text);
+}
+
+/* Overall score — bold */
+.overall-cell{
+  font-weight:800;
+  font-size:0.88rem;
+  color:var(--text);
+}
+
+/* Badge cells */
+.badges-cell{
+  max-width:140px;
+}
+.badge-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+}
+.badge{
+  display:inline-block;
+  font-size:0.65rem;
+  font-weight:600;
+  padding:2px 8px;
+  border-radius:5px;
+  white-space:nowrap;
+  letter-spacing:0.2px;
+}
+.badge.strength{
+  background:rgba(0,230,118,0.1);
+  color:#69f0ae;
+  border:1px solid rgba(0,230,118,0.2);
+}
+.badge.concern{
+  background:rgba(255,23,68,0.1);
+  color:#ff8a80;
+  border:1px solid rgba(255,23,68,0.18);
+}
+
+/* ═══════════════════════════════════════════
+   COMPARE DETAIL CARD
+   ═══════════════════════════════════════════ */
+.compare-card{
+  display:none;
+  padding:24px;
+  margin-top:20px;
+  background:var(--bg-card-alt);
+  border:1px solid var(--border-light);
+  border-radius:var(--card-radius);
+  animation:slideUp 0.35s ease both;
+  position:relative;
+}
+.compare-card.visible{display:block}
+.compare-card .compare-accent{
+  position:absolute;
+  top:0;left:0;right:0;
+  height:3px;
+  border-radius:var(--card-radius) var(--card-radius) 0 0;
+}
+.compare-card .compare-accent.nsaid{
+  background:linear-gradient(90deg,var(--accent-nsaid),rgba(0,188,212,0.2));
+}
+.compare-card .compare-accent.statin{
+  background:linear-gradient(90deg,var(--accent-statin),rgba(255,109,0,0.2));
+}
+.compare-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:16px;
+  padding-top:4px;
+}
+.compare-drug-name{
+  font-size:1.15rem;
+  font-weight:700;
+  color:var(--text);
+  letter-spacing:-0.01em;
+}
+.compare-close{
+  width:30px;height:30px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:8px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,0.04);
+  color:var(--text-mid);
+  cursor:pointer;
+  font-size:1rem;
+  transition:all 0.2s ease;
+}
+.compare-close:hover{
+  background:rgba(255,255,255,0.08);
+  color:var(--text);
+}
+
+/* L1-L4 detail rows */
+.compare-sections{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.compare-section{
+  padding:16px;
+  background:rgba(255,255,255,0.025);
+  border:1px solid rgba(255,255,255,0.04);
+  border-radius:var(--card-radius-sm);
+}
+.compare-section .cs-label{
+  font-size:0.65rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.6px;
+  color:var(--text-dim);
+  margin-bottom:8px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+.cs-label .cs-level{
+  display:inline-flex;
+  align-items:center;justify-content:center;
+  width:18px;height:18px;
+  border-radius:4px;
+  font-size:0.6rem;
+  font-weight:700;
+  background:rgba(255,255,255,0.06);
+}
+.compare-section .cs-score-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:6px;
+}
+.cs-score-row .cs-score-name{
+  font-size:0.78rem;
+  color:var(--text-mid);
+}
+.cs-score-row .cs-score-val{
+  font-size:0.85rem;
+  font-weight:700;
+  color:var(--text);
+}
+
+/* Compare badges */
+.compare-badges-wrap{
+  margin-top:14px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.compare-badges-wrap .badge-group{
+  flex:1;
+  min-width:180px;
+}
+.compare-badges-wrap .badge-group-title{
+  font-size:0.65rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--text-dim);
+  margin-bottom:6px;
+}
+
+/* Combo insight card */
+.combo-section{margin-top:16px;padding:12px;background:var(--bg-card-alt);border-radius:8px;grid-column:1/-1}
+.combo-heading{font-size:0.9rem;font-weight:600;margin-bottom:10px;color:var(--text)}
+.combo-card{background:var(--bg-input);border:1px solid var(--border);border-radius:6px;padding:10px;margin-bottom:8px}
+.combo-type{font-size:0.85rem;font-weight:500;color:var(--accent-primary);margin-bottom:4px}
+.combo-mechanism{font-size:0.8rem;color:var(--text-mid);margin-bottom:4px;line-height:1.4}
+.combo-stat{font-size:0.8rem;color:var(--green);margin-bottom:4px}
+.combo-note{font-size:0.78rem;color:var(--text-dim);margin-bottom:4px;font-style:italic}
+.combo-evidence{display:inline-block;font-size:0.7rem;padding:2px 8px;border-radius:4px;margin-top:4px}
+.evidence-strong{background:var(--green-dim);color:var(--green)}
+.evidence-moderate{background:var(--yellow-dim);color:var(--yellow)}
+.evidence-limited{background:var(--orange);color:#fff}
+
+/* ═══════════════════════════════════════════
+    ANIMATIONS
+    ═══════════════════════════════════════════ */
+@keyframes fadeDown{
+  from{opacity:0;transform:translateY(-16px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(16px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeIn{
+  from{opacity:0}
+  to{opacity:1}
+}
+@keyframes slideIn{
+  from{opacity:0;transform:translateX(-12px)}
+  to{opacity:1;transform:translateX(0)}
+}
+@keyframes slideUp{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes rowFadeIn{
+  from{opacity:0;transform:translateY(8px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes spin{
+  to{transform:rotate(360deg)}
+}
+@keyframes pulseDot{
+  0%,100%{opacity:1}
+  50%{opacity:0.3}
+}
+@keyframes goldPulse{
+  0%,100%{box-shadow:0 0 14px var(--gold-glow), inset 0 0 14px rgba(255,215,0,0.05)}
+  50%{box-shadow:0 0 22px rgba(255,215,0,0.45), inset 0 0 22px rgba(255,215,0,0.08)}
+}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════ */
+@media(max-width:960px){
+  .main-grid{
+    grid-template-columns:1fr;
+  }
+  .form-panel{
+    position:static;
+    top:auto;
+  }
+  .app-header h1{
+    font-size:1.7rem;
+  }
+  .compare-sections{
+    grid-template-columns:1fr;
+  }
+  .results-table-wrap{
+    font-size:0.76rem;
+  }
+}
+@media(max-width:600px){
+  .app{padding:0 14px 28px}
+  .app-header{padding:24px 0 18px}
+  .app-header h1{font-size:1.45rem}
+  .form-panel{padding:20px 16px}
+  .results-table thead th,
+  .results-table tbody td{
+    padding:8px 6px;
+    font-size:0.7rem;
+  }
+  .badge{font-size:0.6rem;padding:1px 6px}
+  .score-num{font-size:0.7rem;min-width:24px}
+  .score-bar-wrap{gap:4px}
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:rgba(255,255,255,0.02)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--border-light)}
+
+/* Selection style */
+::selection{background:rgba(0,188,212,0.25);color:#fff}
+
+/* ── Legend ── */
+.legend-box{
+  max-width:900px;margin:0 auto 20px;
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:8px;overflow:hidden;
+}
+.legend-summary{
+  padding:12px 20px;cursor:pointer;
+  font-size:0.85rem;color:var(--accent);
+  user-select:none;
+}
+.legend-summary:hover{color:var(--accent-hover)}
+.legend-grid{
+  display:flex;gap:24px;padding:0 20px 16px;
+  flex-wrap:wrap;
+}
+.legend-col{flex:1;min-width:180px}
+.legend-col h4{
+  font-size:0.75rem;text-transform:uppercase;
+  letter-spacing:0.05em;color:var(--text-muted);
+  margin-bottom:8px;border-bottom:1px solid var(--border);
+  padding-bottom:4px;
+}
+.legend-table{width:100%;border-collapse:collapse}
+.legend-table td{
+  padding:3px 6px;font-size:0.78rem;vertical-align:middle;
+  border:none;
+}
+.legend-table td:first-child{white-space:nowrap;width:1%}
+.lg-green{background:#1b5e20;color:#a5d6a7;padding:1px 8px;border-radius:4px;font-weight:600;font-size:0.72rem}
+.lg-teal{background:#004d40;color:#80cbc4;padding:1px 8px;border-radius:4px;font-weight:600;font-size:0.72rem}
+.lg-yellow{background:#3e2723;color:#ffe082;padding:1px 8px;border-radius:4px;font-weight:600;font-size:0.72rem}
+.lg-orange{background:#3e1a00;color:#ffcc80;padding:1px 8px;border-radius:4px;font-weight:600;font-size:0.72rem}
+.lg-red{background:#4a0000;color:#ef9a9a;padding:1px 8px;border-radius:4px;font-weight:600;font-size:0.72rem}
+.tag{
+  display:inline-block;padding:1px 8px;border-radius:4px;
+  font-size:0.72rem;font-weight:600;white-space:nowrap;
+}
+.tag-nsaids{background:#4a148c;color:#ce93d8}
+.tag-statins{background:#1a237e;color:#9fa8da}
+.tag-ppi{background:#003300;color:#a5d6a7}
+.tag-h2ra{background:#1b3a1b;color:#81c784}
+.tag-antacid{background:#3e2723;color:#d7ccc8}
+.tag-alginate{background:#0d3b3b;color:#80cbc4}
+.tag-mucosal{background:#1a1a4e;color:#b39ddb}
+.legend-attribution{
+  margin-top:12px;padding-top:8px;border-top:1px solid var(--border);
+  font-size:0.72rem;color:var(--text-muted);text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Header -->
+  <header class="app-header">
+    <h1>DQF Patient Query Tool</h1>
+    <p class="subtitle">Enter patient parameters — rank NSAIDs, Statins, PPIs, H2RAs, Antacids, Alginates &amp; Mucosal Protectants</p>
+    <div class="framework-badge">
+      <span class="dot"></span> Drug Quantification Framework v1.0
+    </div>
+  </header>
+
+  <!-- Legend -->
+  <details class="legend-box">
+    <summary class="legend-summary">📖 Score &amp; Class Legend</summary>
+    <div class="legend-grid">
+      <div class="legend-col">
+        <h4>Score Scale</h4>
+        <table class="legend-table">
+          <tr><td class="lg-green">9–10</td><td>Best-in-class</td></tr>
+          <tr><td class="lg-teal">7–8</td><td>Strong performer</td></tr>
+          <tr><td class="lg-yellow">5–6</td><td>Adequate</td></tr>
+          <tr><td class="lg-orange">3–4</td><td>Limited</td></tr>
+          <tr><td class="lg-red">1–2</td><td>Poor fit</td></tr>
+        </table>
+      </div>
+      <div class="legend-col">
+        <h4>Drug Classes</h4>
+        <table class="legend-table">
+          <tr><td><span class="tag tag-nsaids">NSAIDs</span></td><td>Pain &amp; inflammation</td></tr>
+          <tr><td><span class="tag tag-statins">Statins</span></td><td>CV prevention</td></tr>
+          <tr><td><span class="tag tag-ppi">PPIs</span></td><td>Acid suppression (best)</td></tr>
+          <tr><td><span class="tag tag-h2ra">H2RAs</span></td><td>Acid suppression (moderate)</td></tr>
+          <tr><td><span class="tag tag-antacid">Antacids</span></td><td>Symptom relief only</td></tr>
+          <tr><td><span class="tag tag-alginate">Alginates</span></td><td>Regurgitation barrier</td></tr>
+          <tr><td><span class="tag tag-mucosal">Mucosal Prot.</span></td><td>Barrier + cytoprotection</td></tr>
+        </table>
+      </div>
+      <div class="legend-col">
+        <h4>Score Components</h4>
+        <table class="legend-table">
+          <tr><td><strong>Efficacy</strong></td><td>Healing rates / NNT for the target indication</td></tr>
+          <tr><td><strong>Safety</strong></td><td>AE profile, drug interactions (DDI), organ toxicity</td></tr>
+          <tr><td><strong>PK</strong></td><td>Dosing convenience — half-life, frequency, clearance, absorption</td></tr>
+          <tr><td><strong>Mechanism</strong></td><td>How precisely the MOA fits the patient's condition</td></tr>
+          <tr><td><strong>Overall</strong></td><td>Weighted composite (default 30/30/20/20)</td></tr>
+        </table>
+        <p class="legend-attribution">Adapted from the Drug Quantification Framework <em>[Manuscript — TB Submitted]</em></p>
+      </div>
+    </div>
+  </details>
+
+  <!-- Main grid: form | results -->
+  <div class="main-grid">
+
+    <!-- ═══════════ FORM PANEL ═══════════ -->
+    <aside class="form-panel" id="formPanel">
+      <div class="panel-title">Patient Parameters</div>
+      <div class="panel-sub">Configure the patient profile to get ranked drug recommendations</div>
+
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18" max="100" value="55" placeholder="18–100">
+        <div class="hint">18 to 100 years</div>
+      </div>
+
+      <div class="form-group">
+        <label for="renalFunction">Renal Function</label>
+        <select id="renalFunction">
+          <option value="normal" selected>Normal</option>
+          <option value="mild">Mild Impairment</option>
+          <option value="moderate">Moderate Impairment</option>
+          <option value="severe">Severe Impairment</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="cvRisk">Cardiovascular Risk</label>
+        <select id="cvRisk">
+          <option value="low">Low</option>
+          <option value="moderate" selected>Moderate</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="giRisk">GI Risk</label>
+        <select id="giRisk">
+          <option value="low" selected>Low</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="painType">Pain Type</label>
+        <select id="painType">
+          <option value="none" selected>Not applicable</option>
+          <option value="acute">Acute</option>
+          <option value="chronic">Chronic</option>
+          <option value="inflammatory">Inflammatory</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Drug Class <span class="hint">(select one or more)</span></label>
+        <div class="checkbox-group" id="drugClassGroup">
+          <label class="checkbox-label"><input type="checkbox" value="any" checked class="drug-class-cb" id="classAny"> All Classes</label>
+          <label class="checkbox-label"><input type="checkbox" value="nsaid" class="drug-class-cb"> NSAIDs</label>
+          <label class="checkbox-label"><input type="checkbox" value="statin" class="drug-class-cb"> Statins</label>
+          <label class="checkbox-label"><input type="checkbox" value="ppi" class="drug-class-cb"> PPIs</label>
+          <label class="checkbox-label"><input type="checkbox" value="h2ra" class="drug-class-cb"> H2RAs</label>
+          <label class="checkbox-label"><input type="checkbox" value="antacid" class="drug-class-cb"> Antacids</label>
+          <label class="checkbox-label"><input type="checkbox" value="alginate" class="drug-class-cb"> Alginates</label>
+          <label class="checkbox-label"><input type="checkbox" value="mucosal" class="drug-class-cb"> Mucosal Protectants</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pregnancyStatus">Pregnancy Status</label>
+        <select id="pregnancyStatus">
+          <option value="not_pregnant" selected>Not pregnant</option>
+          <option value="first_trimester">First trimester</option>
+          <option value="second_trimester">Second trimester</option>
+          <option value="third_trimester">Third trimester</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="lactation">Breastfeeding</label>
+        <select id="lactation">
+          <option value="no" selected>No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="hepaticFunction">Hepatic Function</label>
+        <select id="hepaticFunction">
+          <option value="normal" selected>Normal</option>
+          <option value="mild">Mild Impairment</option>
+          <option value="moderate">Moderate Impairment</option>
+          <option value="severe">Severe Impairment</option>
+        </select>
+        <div class="hint">Affects statin and NSAID recommendations</div>
+      </div>
+
+      <div class="form-group">
+        <label for="prioritize">Prioritization</label>
+        <select id="prioritize">
+          <option value="balanced" selected>Balanced</option>
+          <option value="efficacy">Efficacy</option>
+          <option value="safety">Safety</option>
+        </select>
+      </div>
+
+      <button class="submit-btn" id="submitBtn" onclick="submitQuery()">Rank Drugs</button>
+      <div class="form-error" id="formError">
+        <span class="form-error-msg" id="formErrorMsg"></span>
+        <span class="retry-link" onclick="submitQuery()">Retry</span>
+      </div>
+    </aside>
+
+    <!-- ═══════════ RESULTS PANEL ═══════════ -->
+    <section class="results-panel" id="resultsPanel">
+
+      <!-- Empty state -->
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">&#9670;</div>
+        <div class="empty-title">No query submitted yet</div>
+        <div class="empty-desc">Adjust patient parameters and click <strong>Rank Drugs</strong> to see which drug fits best.</div>
+      </div>
+
+      <!-- Loading -->
+      <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+        <span class="loading-text">Analyzing patient profile&hellip;</span>
+      </div>
+
+      <!-- Summary -->
+      <div class="summary-box" id="summaryBox">
+        <div class="summary-label">Recommendation</div>
+        <div class="summary-text" id="summaryText"></div>
+      </div>
+
+      <!-- Class separator: NSAIDs -->
+      <div class="class-separator" id="sepNsaid">
+        <span class="sep-label nsaid">NSAIDs</span>
+        <span class="sep-count" id="nsaidCount"></span>
+        <span class="sep-line"></span>
+      </div>
+
+      <!-- Results table -->
+      <div class="results-table-wrap" id="tableWrap">
+        <table class="results-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Drug</th>
+              <th>Class</th>
+              <th>Efficacy</th>
+              <th>Safety</th>
+              <th>PK</th>
+              <th>Mechanism</th>
+              <th>Overall</th>
+              <th>Strengths</th>
+              <th>Concerns</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Class separator: Statins -->
+      <div class="class-separator" id="sepStatin">
+        <span class="sep-label statin">Statins</span>
+        <span class="sep-count" id="statinCount"></span>
+        <span class="sep-line"></span>
+      </div>
+
+      <!-- Compare detail card -->
+      <div class="compare-card" id="compareCard">
+        <div class="compare-accent" id="compareAccent"></div>
+        <div class="compare-header">
+          <span class="compare-drug-name" id="compareDrugName"></span>
+          <button class="compare-close" onclick="closeCompare()" title="Close">&times;</button>
+        </div>
+        <div class="compare-sections" id="compareSections"></div>
+        <div class="compare-badges-wrap" id="compareBadges"></div>
+      </div>
+
+    </section>
+  </div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════
+   STATE
+   ═══════════════════════════════════════════ */
+let queryResults = null;
+let selectedDrugId = null;
+
+/* ═══════════════════════════════════════════
+   DOM REFS
+   ═══════════════════════════════════════════ */
+const $ = id => document.getElementById(id);
+const emptyState  = $('emptyState');
+const loadingOv   = $('loadingOverlay');
+const summaryBox  = $('summaryBox');
+const summaryText = $('summaryText');
+const tableWrap   = $('tableWrap');
+const tableBody   = $('tableBody');
+const sepNsaid    = $('sepNsaid');
+const sepStatin   = $('sepStatin');
+const nsaidCount  = $('nsaidCount');
+const statinCount = $('statinCount');
+const compareCard = $('compareCard');
+const compareAccent    = $('compareAccent');
+const compareDrugName  = $('compareDrugName');
+const compareSections  = $('compareSections');
+const compareBadges    = $('compareBadges');
+const formError   = $('formError');
+const formErrorMsg = $('formErrorMsg');
+const submitBtn   = $('submitBtn');
+
+/* ═══════════════════════════════════════════
+   UI STATE HELPERS
+   ═══════════════════════════════════════════ */
+function showEmpty(){emptyState.style.display='flex';loadingOv.classList.remove('active');summaryBox.classList.remove('visible');tableWrap.classList.remove('visible');sepNsaid.classList.remove('visible');sepStatin.classList.remove('visible');compareCard.classList.remove('visible')}
+function showLoading(){emptyState.style.display='none';loadingOv.classList.add('active');summaryBox.classList.remove('visible');tableWrap.classList.remove('visible');sepNsaid.classList.remove('visible');sepStatin.classList.remove('visible');compareCard.classList.remove('visible');formError.classList.remove('visible')}
+function showError(msg){loadingOv.classList.remove('active');formErrorMsg.textContent=msg;formError.classList.add('visible');emptyState.style.display='flex'}
+function showResults(){emptyState.style.display='none';loadingOv.classList.remove('active');tableWrap.classList.add('visible');formError.classList.remove('visible')}
+
+/* ═══════════════════════════════════════════
+   COLLECT FORM DATA
+   ═══════════════════════════════════════════ */
+function collectFormData(){
+  const age = parseInt($('age').value,10)||55;
+  const checkedClasses = document.querySelectorAll('.drug-class-cb:checked');
+  const classValues = Array.from(checkedClasses).map(cb=>cb.value);
+  // If "All Classes" is checked or nothing checked, send "any"
+  let drugClass = classValues.includes('any') || classValues.length === 0 ? 'any' : classValues.join(',');
+  return {
+    age: Math.max(18, Math.min(100, age)),
+    renal_function: $('renalFunction').value,
+    cv_risk: $('cvRisk').value,
+    gi_risk: $('giRisk').value,
+    pain_type: $('painType').value,
+    drug_class: drugClass,
+    pregnancy_status: $('pregnancyStatus').value,
+    lactation: $('lactation').value,
+    hepatic_function: $('hepaticFunction').value,
+    prioritize: $('prioritize').value
+  };
+}
+
+/* ═══════════════════════════════════════════
+   SUBMIT QUERY
+   ═══════════════════════════════════════════ */
+async function submitQuery(){
+  showLoading();
+  submitBtn.disabled = true;
+
+  try {
+    const payload = collectFormData();
+    const base = window.location.protocol === 'file:' ? 'http://localhost:8765' : '';
+    const resp = await fetch(base + '/api/query', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify(payload)
+    });
+
+    if(!resp.ok){
+      throw new Error(`Server returned ${resp.status} ${resp.statusText}`);
+    }
+
+    const data = await resp.json();
+
+    if(!data.results || !Array.isArray(data.results)){
+      throw new Error('Unexpected response format from API');
+    }
+
+    queryResults = data;
+    selectedDrugId = null;
+    renderResults(data);
+
+  } catch(err){
+    console.error('Query failed:', err);
+    if(err.message.includes('Failed to fetch')||err.message.includes('NetworkError')){
+      showError('Cannot reach the DQF API server. Make sure it is running on port 8765.');
+    }else{
+      showError(err.message||'An unexpected error occurred.');
+    }
+  } finally {
+    submitBtn.disabled = false;
+  }
+}
+
+/* ═══════════════════════════════════════════
+   RENDER RESULTS
+   ═══════════════════════════════════════════ */
+function renderResults(data){
+  showResults();
+
+  // Summary
+  if(data.summary){
+    summaryBox.classList.add('visible');
+    summaryText.textContent = data.summary;
+  }else{
+    summaryBox.classList.remove('visible');
+  }
+
+  // Sort by overall descending
+  const sorted = [...data.results].sort((a,b)=>(b.overall||0)-(a.overall||0));
+
+  // Build table rows
+  tableBody.innerHTML = '';
+  sorted.forEach((drug, idx)=>{
+    const rank = idx + 1;
+    const tr = document.createElement('tr');
+    if(rank===1) tr.classList.add('rank-1');
+    tr.style.animationDelay = (idx * 0.08)+'s';
+    tr.setAttribute('data-drug-id', drug.id);
+    tr.addEventListener('click', ()=>toggleCompare(drug));
+
+    const scores = drug.scores || {};
+    const eff = scores.efficacy ?? 0;
+    const saf = scores.safety ?? 0;
+    const pk  = scores.pk ?? 0;
+    const mech = scores.mechanism ?? 0;
+
+    tr.innerHTML = `
+      <td class="rank-cell"><span class="rank-num">${rank}</span></td>
+      <td class="drug-name-cell">${escHtml(drug.name)}</td>
+      <td><span class="class-badge ${drug.class==='NSAID'?'nsaid':'statin'}">${escHtml(drug.class)}</span></td>
+      <td class="score-cell">${scoreBar(eff)}</td>
+      <td class="score-cell">${scoreBar(saf)}</td>
+      <td class="score-cell">${scoreBar(pk)}</td>
+      <td class="score-cell">${scoreBar(mech)}</td>
+      <td class="overall-cell">${(drug.overall||0).toFixed(1)}</td>
+      <td class="badges-cell"><div class="badge-list">${(drug.strengths||[]).map(s=>`<span class="badge strength">${escHtml(s)}</span>`).join('')}</div></td>
+      <td class="badges-cell"><div class="badge-list">${(drug.concerns||[]).map(c=>`<span class="badge concern">${escHtml(c)}</span>`).join('')}</div></td>
+    `;
+    tableBody.appendChild(tr);
+  });
+
+  // Animate score bars after DOM insert
+  requestAnimationFrame(()=>{
+    tableBody.querySelectorAll('.score-bar-fill').forEach(bar=>{
+      const target = parseFloat(bar.getAttribute('data-width')||'0');
+      bar.style.width = target+'%';
+    });
+  });
+
+  // Class separators
+  const nsaids = sorted.filter(d=>d.class==='NSAID');
+  const statins = sorted.filter(d=>d.class==='Statin');
+
+  if(nsaids.length > 0){
+    sepNsaid.classList.add('visible');
+    nsaidCount.textContent = `(${nsaids.length})`;
+  }else{
+    sepNsaid.classList.remove('visible');
+  }
+
+  if(statins.length > 0){
+    sepStatin.classList.add('visible');
+    statinCount.textContent = `(${statins.length})`;
+  }else{
+    sepStatin.classList.remove('visible');
+  }
+
+  // Hide compare card on new results
+  compareCard.classList.remove('visible');
+}
+
+/* Score bar HTML helper */
+function scoreBar(val){
+  const pct = Math.min(100, Math.max(0, val*10));
+  let cls = 'mid';
+  if(pct >= 75) cls = 'high';
+  else if(pct < 40) cls = 'low';
+  else if(pct < 20) cls = 'crit';
+  return `<div class="score-bar-wrap">
+    <div class="score-bar-track">
+      <div class="score-bar-fill ${cls}" data-width="${pct}" style="width:0%"></div>
+    </div>
+    <span class="score-num">${val.toFixed(1)}</span>
+  </div>`;
+}
+
+/* ═══════════════════════════════════════════
+   COMPARE / DETAIL CARD
+   ═══════════════════════════════════════════ */
+function toggleCompare(drug){
+  if(selectedDrugId === drug.id && compareCard.classList.contains('visible')){
+    closeCompare();
+    return;
+  }
+  openCompare(drug);
+}
+
+function openCompare(drug){
+  selectedDrugId = drug.id;
+
+  // Highlight row
+  tableBody.querySelectorAll('tr').forEach(tr=>tr.classList.remove('selected'));
+  const row = tableBody.querySelector(`tr[data-drug-id="${drug.id}"]`);
+  if(row) row.classList.add('selected');
+
+  // Accent
+  compareAccent.className = 'compare-accent '+(drug.class==='NSAID'?'nsaid':'statin');
+  compareDrugName.textContent = drug.name;
+
+  const scores = drug.scores || {};
+  const eff = (scores.efficacy??0).toFixed(1);
+  const saf = (scores.safety??0).toFixed(1);
+  const pk  = (scores.pk??0).toFixed(1);
+  const mech = (scores.mechanism??0).toFixed(1);
+
+  compareSections.innerHTML = `
+    <div class="compare-section">
+      <div class="cs-label"><span class="cs-level">L1</span> Binding (Mechanism)</div>
+      <div class="cs-score-row"><span class="cs-score-name">Mechanism score</span><span class="cs-score-val">${mech}/10</span></div>
+      <p style="font-size:0.73rem;color:var(--text-dim);margin-top:4px">Target engagement and selectivity profile</p>
+    </div>
+    <div class="compare-section">
+      <div class="cs-label"><span class="cs-level">L2</span> Pharmacokinetics</div>
+      <div class="cs-score-row"><span class="cs-score-name">PK score</span><span class="cs-score-val">${pk}/10</span></div>
+      <p style="font-size:0.73rem;color:var(--text-dim);margin-top:4px">Absorption, distribution, metabolism, excretion profile</p>
+    </div>
+    <div class="compare-section">
+      <div class="cs-label"><span class="cs-level">L3</span> Systems Safety</div>
+      <div class="cs-score-row"><span class="cs-score-name">Safety score</span><span class="cs-score-val">${saf}/10</span></div>
+      <p style="font-size:0.73rem;color:var(--text-dim);margin-top:4px">Multi-organ risk assessment — GI, CV, renal, hepatic</p>
+    </div>
+    <div class="compare-section">
+      <div class="cs-label"><span class="cs-level">L4</span> Clinical Efficacy</div>
+      <div class="cs-score-row"><span class="cs-score-name">Efficacy score</span><span class="cs-score-val">${eff}/10</span></div>
+      <p style="font-size:0.73rem;color:var(--text-dim);margin-top:4px">NNT, success rates, and real-world clinical outcomes</p>
+    </div>
+  `;
+
+  let badgesHtml = '';
+  if(drug.strengths && drug.strengths.length){
+    badgesHtml += `<div class="badge-group">
+      <div class="badge-group-title">&#x25B2; Strengths</div>
+      <div class="badge-list">${drug.strengths.map(s=>`<span class="badge strength">${escHtml(s)}</span>`).join('')}</div>
+    </div>`;
+  }
+  if(drug.concerns && drug.concerns.length){
+    badgesHtml += `<div class="badge-group">
+      <div class="badge-group-title">&#x25BC; Concerns</div>
+      <div class="badge-list">${drug.concerns.map(c=>`<span class="badge concern">${escHtml(c)}</span>`).join('')}</div>
+    </div>`;
+  }
+  compareBadges.innerHTML = badgesHtml;
+
+  // ── Combo suggestions ──
+  if(drug.combo_suggestions && drug.combo_suggestions.length > 0){
+    const comboSection = document.createElement('div');
+    comboSection.className = 'combo-section';
+    comboSection.innerHTML = '<h4 class="combo-heading">Regimen Insights</h4>';
+
+    drug.combo_suggestions.forEach(sug => {
+      const card = document.createElement('div');
+      card.className = 'combo-card';
+      let html = `<div class="combo-type">${sug.label}</div>`;
+      if(sug.type === 'mono'){
+        if(sug.healing_rate) html += `<div class="combo-stat">Healing: ${sug.healing_rate}% at 8 wk</div>`;
+      } else {
+        html += `<div class="combo-mechanism">${sug.mechanism}</div>`;
+        if(sug.note) html += `<div class="combo-note">${sug.note}</div>`;
+      }
+      html += `<div class="combo-evidence badge evidence-${(sug.evidence||'limited').toLowerCase()}">${sug.evidence || 'Limited'} evidence</div>`;
+      card.innerHTML = html;
+      comboSection.appendChild(card);
+    });
+    compareSections.appendChild(comboSection);
+  }
+
+  compareCard.classList.add('visible');
+  compareCard.style.animation = 'none';
+  compareCard.offsetHeight;
+  compareCard.style.animation = 'slideUp 0.35s ease both';
+
+  // Scroll into view
+  compareCard.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function closeCompare(){
+  selectedDrugId = null;
+  compareCard.classList.remove('visible');
+  tableBody.querySelectorAll('tr').forEach(tr=>tr.classList.remove('selected'));
+}
+
+/* ═══════════════════════════════════════════
+   UTILITY — HTML escape
+   ═══════════════════════════════════════════ */
+function escHtml(str){
+  const div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
+
+/* ═══════════════════════════════════════════
+   MULTI-CLASS CHECKBOX LOGIC
+   ═══════════════════════════════════════════ */
+document.addEventListener('change', function(e){
+  if(e.target.classList.contains('drug-class-cb')){
+    if(e.target.value === 'any' && e.target.checked){
+      document.querySelectorAll('.drug-class-cb').forEach(cb=>{if(cb.value!=='any')cb.checked=false});
+    } else if(e.target.value !== 'any' && e.target.checked){
+      document.getElementById('classAny').checked = false;
+    }
+    // If all unchecked, re-check "All Classes"
+    const anyChecked = document.querySelectorAll('.drug-class-cb:checked').length > 0;
+    if(!anyChecked) document.getElementById('classAny').checked = true;
+  }
+});
+
+/* ═══════════════════════════════════════════
+   KEYBOARD SHORTCUT — Enter to submit
+   ═══════════════════════════════════════════ */
+document.addEventListener('keydown',function(e){
+  if(e.key==='Enter' && document.activeElement && document.activeElement.closest('#formPanel')){
+    e.preventDefault();
+    submitQuery();
+  }
+});
+</script>
+
+</body>
+</html>

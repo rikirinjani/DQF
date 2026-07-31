@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41405391",
+        "text": "Metabolic benefits of 1,3-diacylglycerol in type 2 diabetes mellitus and its association with gut microbiota-derived SCFAs-GPR41-GLP-1 signaling. 1,3-Diacylglycerol (1,3-DAG) is a dietary lipid with known lipid-lowering effects, yet its role in type 2 diabetes mellitus (T2DM) and gut microbiota regulation remains unclear. This study investigated the effects of 1,3-DAG on glucose-lipid metabolism and gut microbiota- short chain fatty acid (SCFA)-G protein-coupled receptors (GPR41) signaling in T2DM rats. Mal",
+        "score": 0.4557797312736511,
+        "doi": "10.1039/d5fo03164h",
+        "journal": "Food & function",
+        "year": "2026",
+        "rerank_score": 2.526721239089966,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.4503403306007385,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 2.286916732788086,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40664271",
+        "text": "The effect of exogenous addition of metformin hydrochloride on lipid synthesis in Mucor circinelloides WJ11. As a well-established oleaginous model fungus, Mucor circinelloides has been extensively employed in lipid metabolism research due to its high lipid accumulation capacity and genetic tractability. Metformin hydrochloride, a biguanide drug, exerts significant effects on glucose and lipid metabolism in animal model, however, its effect on lipid metabolism in oleaginous microorganism is unclear. This in",
+        "score": 0.442400187253952,
+        "doi": "10.1016/j.fgb.2025.104023",
+        "journal": "Fungal genetics and biology : FG & B",
+        "year": "2025",
+        "rerank_score": 0.9213587641716003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

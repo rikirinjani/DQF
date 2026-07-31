@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Gliclazide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40571872",
+        "text": "The Impact of Drug Properties and Severity of Obesity on Renal Drug Clearance Through Glomerular Filtration and Active Tubular Secretion: A Systematic Analysis Using PBPK Modeling. The influence of obesity on renal drug clearance (CLr) remains difficult to predict. This study quantifies obesity-related alterations in CLr for drugs eliminated via glomerular filtration (GF/CL A physiologically-based pharmacokinetic (PBPK) approach was used to simulate CL CLr through GF and ATS increased with BMI, albeit to di",
+        "score": 0.4479864835739136,
+        "doi": "10.1007/s11095-025-03885-5",
+        "journal": "Pharmaceutical research",
+        "year": "2025",
+        "rerank_score": 0.9065154790878296,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39399744",
+        "text": "Changes of Procalcitonin Kinetics According to Renal Clearance in Critically Ill Patients with Primary Gram-Negative Bloodstream Infections. This study aimed to investigate the relationship between procalcitonin (PCT) kinetic and estimated glomerular filtration rates (eGFR) in critically ill patients who had Gram-negative primary bloodstream infection (GN-BSI) and responded to the antimicrobial therapy. This single-centered study was retrospective and observational. Critically ill GN-BSI patients over 18 ye",
+        "score": 0.4477844834327698,
+        "doi": "10.36519/idcm.2024.363",
+        "journal": "Infectious diseases & clinical microbiology",
+        "year": "2024",
+        "rerank_score": -1.364338755607605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41448918",
+        "text": "Characterization of small molecule drug clearance mechanisms using in vitro and in vivo approaches in drug discovery and development. Drug clearance is a fundamental pharmacokinetic parameter that governs drug elimination and influences half-life, bioavailability, and dose selection. Clearance occurs through multiple pathways, including hepatic metabolism, renal elimination, and biliary excretion. This process is primarily mediated by drug-metabolizing enzymes and drug transporters. Optimizing clearance req",
+        "score": 0.43548327684402466,
+        "doi": "10.1080/17425255.2025.2609852",
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "year": "2026",
+        "rerank_score": -1.522660493850708,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

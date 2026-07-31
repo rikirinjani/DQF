@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.414991170167923,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.778133749961853,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39204148",
+        "text": "Real-World Application of a Quantitative Systems Pharmacology (QSP) Model to Predict Potassium Concentrations from Electronic Health Records: A Pilot Case towards Prescribing Monitoring of Spironolactone. Quantitative systems pharmacology (QSP) models are rarely applied prospectively for decision-making in clinical practice. We therefore aimed to operationalize a QSP model for potas-sium homeostasis to predict potassium trajectories based on spironolactone administrations. For this purpose, we proposed a ge",
+        "score": 0.41797077655792236,
+        "doi": "10.3390/ph17081041",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": -4.165605545043945,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38807480",
+        "text": "Characterization of spironolactone and metabolites derivatized using Girard's reagent P using mass spectrometry and ion mobility spectrometry. Spironolactone is a steroidal drug prescribed for a variety of medical conditions and is extensively metabolized quickly after administration. Measurement of spironolactone and its metabolites remains challenging using mass spectrometry (MS) due to in-source fragmentation and relatively poor ionization using electrospray ionization. Therefore, improved methods of mea",
+        "score": 0.36095327138900757,
+        "doi": "10.1002/rcm.9775",
+        "journal": "Rapid communications in mass spectrometry : RCM",
+        "year": "2024",
+        "rerank_score": -4.280909538269043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

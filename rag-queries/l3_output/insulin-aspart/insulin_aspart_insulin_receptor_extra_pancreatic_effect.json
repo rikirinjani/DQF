@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Aspart insulin receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40049655",
+        "text": "Effect of insulin aspart combined with insulin detemir and metformin on islet function in newly diagnosed type 2 diabetes mellitus. This trial evaluated the effects of insulin aspart (IAsp) and insulin detemir and metformin on islet function in newly diagnosed type 2 diabetes mellitus (T2DM). A total of 96 T2DM patients were randomised into the control group (insulin detemir + metformin treatment) and the study group (insulin detemir + metformin + IAsp treatment), with 48 cases each. The study compared clin",
+        "score": 0.380556583404541,
+        "doi": "10.1080/1061186X.2025.2477074",
+        "journal": "Journal of drug targeting",
+        "year": "2025",
+        "rerank_score": 2.9175517559051514,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40176332",
+        "text": "EXPRESS: Effect of insulin aspart combined with insulin detemir and metformin on islet function in newly diagnosed type 2 diabetes mellitus. This trial evaluated the effects of insulin aspart (IAsp) combined with insulin detemir and metformin on islet function in newly diagnosed type 2 diabetes mellitus (T2DM).Newly diagnosed T2DM patients (n = 96) were randomly divided into the control group and study group, 48 cases in each group, and treated with insulin detemir + metformin or insulin detemir + metformin",
+        "score": 0.386982798576355,
+        "doi": "10.1177/10815589251335049",
+        "journal": "Journal of investigative medicine : the official publication of the American Fed",
+        "year": "2025",
+        "rerank_score": 2.5066914558410645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40086649",
+        "text": "Effect of serotonin 7 receptors and transcript variants on RIN-5F pancreatic beta cell line. The physiological effects of 5-HT7 receptors expressed in pancreatic beta cells have not yet been elucidated. We first aimed to investigate the effect of 5-HT7 receptor agonist (AS19) and antagonist (SB269970) application on insulin secretion in RIN-5F pancreatic beta cells. Subsequently, we aimed to investigate the effects of agonist and antagonist applications on cell damage induced by STZ. Cell damage was caused ",
+        "score": 0.4031692147254944,
+        "doi": "10.1016/j.tiv.2025.106050",
+        "journal": "Toxicology in vitro : an international journal published in association with BIB",
+        "year": "2024",
+        "rerank_score": 2.2641026973724365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

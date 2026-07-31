@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin SGLT2 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36757426",
+        "text": "Canagliflozin ameliorates the development of NAFLD by preventing NLRP3-mediated pyroptosis through FGF21-ERK1/2 pathway. Recent studies have suggested that sodium-glucose co-transporter2 inhibitors go beyond their glycemic advantages to ameliorate the development of NAFLD. However, little research has been done on the underlying mechanisms. Here, we took deep insight into the effect of canagliflozin (CANA), one of the sodium-glucose co-transporter2 inhibitor, on the progression of NAFLD, and explored the mo",
+        "score": 0.41325631737709045,
+        "doi": "10.1097/HC9.0000000000000045",
+        "journal": "Hepatology communications",
+        "year": "2022",
+        "rerank_score": 3.150559425354004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40828585",
+        "text": "Canagliflozin Inhibits Electrogenic Na+ Transport in Mouse Cortical Collecting Duct Cells. Sodium-glucose cotransporter 2 inhibitors (SGLT2i) exhibit cardiorenal protective effects that likely involve mechanisms aside from SGLT2 inhibition. Still, many details surrounding these clinically important pleiotropic effects remain unclear. We previously showed that several SGLT2-independent proximal tubular transport functions are inhibited by canagliflozin, but not empagliflozin. Here, we demonstrate a canaglifl",
+        "score": 0.3981565833091736,
+        "doi": "10.1093/function/zqaf039",
+        "journal": "Function (Oxford, England)",
+        "year": "2025",
+        "rerank_score": 3.1061043739318848,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40926738",
+        "text": "An SGLT2 inhibitor, canagliflozin, reduces blood glucose level in the renal capillaries and protects the capillary network in the diabetic rats. Sodium-glucose cotransporter 2 (SGLT2) inhibitors consistently demonstrate renal protection against progressive kidney disease. We hypothesised that SGLT2 inhibition reduces blood glucose levels in peri-proximal tubular capillaries by limiting reabsorption from the tubular filtrate, thereby safeguarding the renal microvasculature from hyperglycaemic stress. In anae",
+        "score": 0.4024874269962311,
+        "doi": "10.1111/dom.70118",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 2.48020076751709,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

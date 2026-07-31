@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glyburide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39049802",
+        "text": "The role of glucagon-like peptide 1 in the postprandial effects of metformin in type 2 diabetes: a randomized crossover trial. Although metformin is widely used for treatment of type 2 diabetes (T2D), its glucose-lowering mechanism remains unclear. Using the glucagon-like peptide 1 (GLP-1) receptor (GLP-1R) antagonist exendin(9-39)NH2, we tested the hypothesis that postprandial GLP-1-mediated effects contribute to the glucose-lowering potential of metformin in T2D. In a randomized, placebo-controlled, doubl",
+        "score": 0.3548334240913391,
+        "doi": "10.1093/ejendo/lvae095",
+        "journal": "European journal of endocrinology",
+        "year": "2024",
+        "rerank_score": 4.442502498626709,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40637950",
+        "text": "GLP1-RA and SGLT2-i: Implementation and Insulin Deescalation Strategies. This review will summarize the most contemporary trials for glucagon-like peptide 1 receptor agonists (GLP1-RA) and sodium-glucose cotransporter 2 inhibitors (SGLT2-i) and present guidance on management and recommendations on adjunctive tapering of insulin in patients with insulin-dependent diabetes mellitus, which we term \"de-insulinization.\" GLP1-RA and SGLT2-i are the principal classes of diabetes medications evidencing cardiovascul",
+        "score": 0.38567495346069336,
+        "doi": "10.1007/s10557-025-07744-8",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2025",
+        "rerank_score": 3.8696703910827637,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38397103",
+        "text": "TGF-β1 Signaling Impairs Metformin Action on Glycemic Control. Hyperglycemia is a hallmark of type 2 diabetes (T2D). Metformin, the first-line drug used to treat T2D, maintains blood glucose within a normal range by suppressing hepatic glucose production (HGP). However, resistance to metformin treatment is developed in most T2D patients over time. Transforming growth factor beta 1 (TGF-β1) levels are elevated both in the liver and serum of T2D humans and mice. Here, we found that TGF-β1 treatment impairs me",
+        "score": 0.3746592104434967,
+        "doi": "10.3390/ijms25042424",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 3.7071475982666016,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

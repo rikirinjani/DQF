@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide NCC adverse effect pathway",
+    "dimension": "off_target",
+    "target": "NCC"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:846677",
+        "text": "[Antihypertensive effect of indapamide]. 2.5 mg/day indapamide was administered to 16 hypertensive patients for 30 days. These was a gradual, significant reduction in systolic and diastolic pressure values with no significant changes in plasma and urinary electrolytes. The effect of the drug on ARP and renal performance was also examined. There were no alterations of other metabolic parameters. These data point to a safe and lasting hpotensive action on the part of indapamide.",
+        "score": 0.4550113379955292,
+        "doi": "",
+        "journal": "Minerva medica",
+        "year": "1977",
+        "rerank_score": 1.9511994123458862,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39109086",
+        "text": "A developmental neurotoxicity adverse outcome pathway (DNT-AOP) with voltage gate sodium channel (VGSC) inhibition as a molecular initiating event (MiE). The adverse outcome pathway (AOP) framework serves as a practical tool for organising scientific knowledge that can be used to infer cause-effect relationships between stressor events and toxicity outcomes in intact organisms. However, a major challenge in the broader application of the AOP concept within regulatory toxicology is the development of a robus",
+        "score": 0.4568951725959778,
+        "doi": "10.2903/j.efsa.2024.8954",
+        "journal": "EFSA journal. European Food Safety Authority",
+        "year": "2024",
+        "rerank_score": 1.6047675609588623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40359424",
+        "text": "Development and Cross-Validation of a Zebrafish Quantitative Adverse Outcome Pathway Model on Aromatase Inhibition Leading to Reproductive Dysfunction. Adverse outcome pathway (AOP) has become a key component in next-generation risk assessment (NGRA), as AOPs provide mechanistic and causal basis for linking toxicological responses across multiple levels of biological organization, thus allowing utilization of new approach methodologies (NAMs) to support prioritization, classification, and hazard assessment ",
+        "score": 0.46194326877593994,
+        "doi": "10.1021/acs.est.4c12090",
+        "journal": "Environmental science & technology",
+        "year": "2025",
+        "rerank_score": -2.730128526687622,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38654785",
+        "text": "Metformin-Induced Chronic Diarrhea Misdiagnosed as Irritable Bowel Syndrome for Years. Metformin is the most prescribed and recommended drug for type 2 diabetes mellitus because of its better tolerability, pleiotropic benefits, and cost-effectiveness. Metformin inhibits hepatic glucose production and increases muscle glucose uptake. Metformin is also associated with gastrointestinal side effects like abdominal bloating, flatulence, diarrhea, nausea, and vomiting. Metformin-related gastrointestinal side effe",
+        "score": 0.4201393723487854,
+        "doi": "10.7759/cureus.56828",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 0.6319796442985535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39354951",
+        "text": "Efficacy and Safety of Ertugliflozin Compared to Placebo in Patients With Type 2 Diabetes: An Updated Systematic Review and Meta-Analysis.",
+        "score": 0.44314292073249817,
+        "doi": "10.1155/2024/5553327",
+        "journal": "Journal of diabetes research",
+        "year": "2024",
+        "rerank_score": -2.608330726623535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39180294",
+        "text": "Dapagliflozin-induced abnormal uterine bleeding in a patient with dilated cardiomyopathy and chronic heart failure: a case report. Sodium-glucose cotransporter-2 (SGLT2) inhibitors are extensively used in the management of heart failure because of their cardiovascular benefits. Adverse drug reactions associated with dapagliflozin include diabetic ketoacidosis, fungal infections, and increased blood glucose concentrations. However, abnormal uterine bleeding is not a known side effect of dapagliflozin. We rep",
+        "score": 0.443290114402771,
+        "doi": "10.1177/03000605241271750",
+        "journal": "The Journal of international medical research",
+        "year": "2024",
+        "rerank_score": -3.5303690433502197,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

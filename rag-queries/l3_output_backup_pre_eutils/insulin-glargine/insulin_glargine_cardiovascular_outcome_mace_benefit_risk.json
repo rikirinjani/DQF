@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Glargine cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38344820",
+        "text": "Cardiovascular Outcomes in GRADE (Glycemia Reduction Approaches in Type 2 Diabetes: A Comparative Effectiveness Study). Cardiovascular disease is a major cause of morbidity and mortality in patients with type 2 diabetes. The effects of glucose-lowering medications on cardiovascular outcomes in individuals with type 2 diabetes and low cardiovascular risk are unclear. We investigated cardiovascular outcomes by treatment group in participants randomly assigned to insulin glargine, glimepiride, liraglutide, or ",
+        "score": 0.39554935693740845,
+        "doi": "10.1161/CIRCULATIONAHA.123.066604",
+        "journal": "Circulation",
+        "year": "2024",
+        "rerank_score": 2.9416756629943848,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39616304",
+        "text": "Role of Incretin Mimetics in Cardiovascular Outcomes and Other Classical Cardiovascular Risk Factors beyond Obesity and Diabetes Mellitus in Nondiabetic Adults with Obesity: a Meta-analysis of Randomized Controlled Trials. Emerging data on cardiovascular outcomes, specifically major adverse cardiovascular events (MACE), are being reported from various trials involving incretin mimetics, such as glucagon-like peptide-1 receptor agonists (GLP-1 RA) and glucose-dependent insulinotropic polypeptide (GIP), espec",
+        "score": 0.39139384031295776,
+        "doi": "10.1007/s40256-024-00695-9",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2024",
+        "rerank_score": 2.747480630874634,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39371179",
+        "text": "No Increased Risk of Major Adverse Cardiovascular Events following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. Retrospective cohort study of two patient cohorts, Vanderbilt University Medical Center (VUMC) and Military Veteran Program (MVP). The risk of MACE in patients e",
+        "score": 0.4128294587135315,
+        "doi": "10.1101/2024.09.16.24313743",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2024",
+        "rerank_score": 2.198742389678955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

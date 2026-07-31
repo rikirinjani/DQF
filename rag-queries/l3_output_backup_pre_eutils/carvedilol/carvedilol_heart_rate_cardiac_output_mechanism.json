@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40372299",
+        "text": "Carvedilol as Single Therapy for Heart Failure With Improved Ejection Fraction: A Randomized Clinical Trial (CATHEDRAL-HF).",
+        "score": 0.43975377082824707,
+        "doi": "10.1016/j.jchf.2025.02.022",
+        "journal": "JACC. Heart failure",
+        "year": "2024",
+        "rerank_score": 1.0354663133621216,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39988204",
+        "text": "Effects of carvedilol on the prevention of cardiotoxicity induced by anthracyclines: Design and rationale of the CARDIOTOX trial. Patients with cancer undergoing chemotherapy with an anthracycline-based regimen are at increased risk of cardiotoxicity, predisposing to heart failure, arrhythmias and death. Whether carvedilol may confer benefit to prevent anthracycline-induced cardiotoxicity remains to be determined. CARDIOTOX is a double-blind, placebo controlled randomized clinical trial that plan to enroll ",
+        "score": 0.4319002628326416,
+        "doi": "10.1016/j.ahj.2025.02.014",
+        "journal": "American heart journal",
+        "year": "2024",
+        "rerank_score": 0.3599006235599518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39479331",
+        "text": "Carvedilol to Improve Cardiac Remodeling in Anthracycline-Exposed Childhood Cancer Survivors: Subgroup Analysis of COG ALTE1621.",
+        "score": 0.40422260761260986,
+        "doi": "10.1016/j.jaccao.2024.07.015",
+        "journal": "JACC. CardioOncology",
+        "year": "2024",
+        "rerank_score": -0.3518218696117401,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

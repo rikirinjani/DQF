@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rosiglitazone hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.43167340755462646,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 2.7291457653045654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40083398",
+        "text": "Insulinoma Mimic: Tramadol-induced Hypoglycemia. Endogenous hyperinsulinemia hypoglycemia has numerous etiologies. The objective of this report is to describe a patient with severe hyperinsulinemic hypoglycemia with no known history of diabetes or hypoglycemia who presented with acute altered mental status. Blood glucose was noted to be 40 mg/dL (2.22 mmol/L) (reference range 65-125 mg/dL; 3.61-6.94 mmol/L). The patient's sulfonylurea screen was negative. Following 1 mg glucagon injection, the patient's glu",
+        "score": 0.4402012825012207,
+        "doi": "10.1210/jcemcr/luaf034",
+        "journal": "JCEM case reports",
+        "year": "2024",
+        "rerank_score": 0.23074623942375183,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38148342",
+        "text": "Rosiglitazone improves insulin resistance but does not improve exercise capacity in individuals with impaired glucose tolerance: A randomized clinical study. Dysmetabolic states, such as type 2 diabetes (T2D), characterized by insulin resistance (IR), are associated with fatty liver, increased cardiovascular disease (CVD) risk, and decreased functional exercise capacity (FEC). Rosiglitazone (RO) improves exercise capacity and IR in T2D. However, the effects of RO on FEC and other markers of CVD risk in pred",
+        "score": 0.4058193862438202,
+        "doi": "10.1177/10815589231225183",
+        "journal": "Journal of investigative medicine : the official publication of the American Fed",
+        "year": "2024",
+        "rerank_score": 0.1556992083787918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

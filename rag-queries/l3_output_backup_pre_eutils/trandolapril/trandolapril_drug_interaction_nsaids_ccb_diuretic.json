@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Trandolapril drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38718248",
+        "text": "Use of Intravenous Lipid Emulsion Therapy and Insulin in a Case of Tarka Intoxication. Tarka (trandolapril/verapamil hydrohloride extended-release) is a fixed-dose combination antihypertensive drug formed from verapamil hydrochloride and trandolapril. Toxicologic manifestations of Tarka overdose are altered mental status, bradycardia, hypotension, atrioventricular block (first-degree), hyperglycemia, metabolic acidosis, and shock. We report a case of Tarka toxicity in a 2-year-old girl who presented with al",
+        "score": 0.4422135055065155,
+        "doi": "",
+        "journal": "WMJ : official publication of the State Medical Society of Wisconsin",
+        "year": "2024",
+        "rerank_score": 0.684083104133606,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.48670822381973267,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.378597617149353,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41154686",
+        "text": "Trandolapril Attenuates Pro-Arrhythmic Downregulation of Cx43 and Cx40 in Atria of Volume Overloaded Hypertensive and Normotensive Rats. Pressure overload in non-treated or resistant hypertension (HTN) increases the risk of heart failure (HF) as well as the occurrence of fatal ventricular arrhythmias and stroke-provoking atrial fibrillation (AF), while perturbed connexin-43 (Cx43) and Cx40 might be involved. In addition, kidney dysfunction may facilitate hemodynamic volume overload and congestive HF. We inv",
+        "score": 0.45260894298553467,
+        "doi": "10.3390/biom15101457",
+        "journal": "Biomolecules",
+        "year": "2025",
+        "rerank_score": -0.9470393657684326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

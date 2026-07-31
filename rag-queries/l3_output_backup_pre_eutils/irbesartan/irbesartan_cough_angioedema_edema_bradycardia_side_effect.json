@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Irbesartan cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40013202",
+        "text": "Angioedema Shortly After Adding Empagliflozin to Losartan. Angioedema is the localized swelling of the skin and mucosa caused by inflammatory processes that increase vascular permeability. Release and accumulation of the inflammatory mediators, bradykinin and histamine, result in fluid leakage from the plasma to the interstitium. Certain drugs, such as angiotensin-converting enzyme inhibitors (ACEi), promote bradykinin accumulation. In contrast, other allergens like insect bites, nuts, or non-steroidal anti",
+        "score": 0.42279693484306335,
+        "doi": "10.7759/cureus.78033",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 1.3195134401321411,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25817178",
+        "text": "Irbesartan attenuates production of high-mobility group box 1 in response to lipopolysaccharide via downregulation of interferon-β production. High-mobility group box 1 (HMGB1) is suggested to participate in development of local and systemic inflammatory disorders. Irbesartan (IRB), an angiotensin II type1 receptor blocker, is widely used for treatment of hypertension, especially in patients with diabetic nephropathy. The effect of IRB on lipopolysaccharide (LPS)-induced HMGB1 and nitric oxide (NO) producti",
+        "score": 0.4150654673576355,
+        "doi": "10.1016/j.intimp.2015.03.015",
+        "journal": "International immunopharmacology",
+        "year": "2014",
+        "rerank_score": -1.1043163537979126,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25035451",
+        "text": "ACE inhibitors: upper respiratory symptoms. Cough and angioedema are well-known adverse reactions of ACE inhibitors. However, other adverse effects of upper airways such as postnasal drainage, rhinitis and nasal blockage, are less frequently recognised. These might share the same pathophysiological mechanism: bradykinin accumulation. We present two patients with ACE inhibitor-induced upper respiratory symptoms that improved after the discontinuation of ACE-inhibitors and substitution with angiotensin II rec",
+        "score": 0.4145429730415344,
+        "doi": "10.1136/bcr-2014-205462",
+        "journal": "BMJ case reports",
+        "year": "2014",
+        "rerank_score": -1.825340986251831,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

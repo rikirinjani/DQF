@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39049802",
+        "text": "The role of glucagon-like peptide 1 in the postprandial effects of metformin in type 2 diabetes: a randomized crossover trial. Although metformin is widely used for treatment of type 2 diabetes (T2D), its glucose-lowering mechanism remains unclear. Using the glucagon-like peptide 1 (GLP-1) receptor (GLP-1R) antagonist exendin(9-39)NH2, we tested the hypothesis that postprandial GLP-1-mediated effects contribute to the glucose-lowering potential of metformin in T2D. In a randomized, placebo-controlled, doubl",
+        "score": 0.34952300786972046,
+        "doi": "10.1093/ejendo/lvae095",
+        "journal": "European journal of endocrinology",
+        "year": "2024",
+        "rerank_score": 3.794869899749756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39229180",
+        "text": "GPRC6A is a Potential Therapeutic Target for Metformin Regulation of Glucose Homeostasis in Mice. Understanding the mechanism of metformin actions in treating type 2 diabetes is limited by an incomplete knowledge of the specific protein targets mediating its metabolic effects. Metformin has structural similarities to L-Arginine (2-amino-5-guanidinopentanoic acid), which is a ligand for GPRC6A, a Family C G-protein coupled receptor that regulates energy metabolism. Ligand activation of GPRC6A results in lowe",
+        "score": 0.3445594310760498,
+        "doi": "10.1101/2024.08.19.608635",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2024",
+        "rerank_score": 3.2009284496307373,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38397103",
+        "text": "TGF-β1 Signaling Impairs Metformin Action on Glycemic Control. Hyperglycemia is a hallmark of type 2 diabetes (T2D). Metformin, the first-line drug used to treat T2D, maintains blood glucose within a normal range by suppressing hepatic glucose production (HGP). However, resistance to metformin treatment is developed in most T2D patients over time. Transforming growth factor beta 1 (TGF-β1) levels are elevated both in the liver and serum of T2D humans and mice. Here, we found that TGF-β1 treatment impairs me",
+        "score": 0.34135138988494873,
+        "doi": "10.3390/ijms25042424",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 3.1487514972686768,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

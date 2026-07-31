@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39291573",
+        "text": "Torsemide in the Management of Pulmonary Edema. Pulmonary edema, either cardiogenic or noncardiogenic, is caused by fluid accumulation in the alveolar spaces. Cardiogenic pulmonary edema (CPE), one of the causes of congestive heart failure (CHF), is treated with loop diuretics. Torsemide and furosemide were found to be useful in the treatment of CHF-associated pulmonary edema due to their ability to lower pulmonary capillary pressure and left ventricular end-diastolic pressure, respectively. Pharmacological",
+        "score": 0.4370414614677429,
+        "doi": "10.59556/japi.72.0677",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": 0.9432221055030823,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37475474",
+        "text": "Fludarabine-induced bradycardia in allogeneic hematopoietic stem cell transplantation: A retrospective study. Fludarabine, a purine analog, is getting more attention with the increasing use of reduced intensive conditioning regimens in allogeneic hematopoietic stem cell transplantation (allo-HSCT). The side effect of bradycardia was observed in only a few cases reported in the literature. In clinical practice, bradycardia can be asymptomatic or cause syncope and cardiac arrest. This study aimed to evaluate ",
+        "score": 0.45589160919189453,
+        "doi": "10.1177/10781552231189868",
+        "journal": "Journal of oncology pharmacy practice : official publication of the Internationa",
+        "year": "2024",
+        "rerank_score": -0.31480851769447327,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30070198",
+        "text": "Wolff-Parkinson-White syndrome presenting with steroid-induced bradycardia in a patient with acute rheumatic fever. Steroids are used in the treatment of acute rheumatic fever with moderate-to-severe carditis. Corticosteroids have several cardiovascular side affects that are more common in adults than in children. Corticosteroid-related bradycardia is a rarely seen side effect. Children with bradycardia following oral corticosteroid use are rarely reported previously. We present a child who developed bradyc",
+        "score": 0.410297155380249,
+        "doi": "10.1017/S1047951118001336",
+        "journal": "Cardiology in the young",
+        "year": "2018",
+        "rerank_score": -1.6976746320724487,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

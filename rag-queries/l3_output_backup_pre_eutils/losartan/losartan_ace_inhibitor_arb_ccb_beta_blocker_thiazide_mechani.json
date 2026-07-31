@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41549123",
+        "text": "Angiotensin II type 1 receptor signaling promotes bladder cancer progression and its inhibition by Losartan. The renin-angiotensin system (RAS) plays a central role in regulating blood pressure and has recently been implicated in cancer biology. Although angiotensin II (AngII) receptor blockers (ARBs) have shown clinical benefit in bladder cancer, their mechanisms of action remain unclear. Here, we investigated the contribution of AngII type 1 receptor (AGTR1) to bladder cancer progression and assessed the ",
+        "score": 0.42868977785110474,
+        "doi": "10.1038/s41440-025-02535-y",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": 1.9778841733932495,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24281047",
+        "text": "Release from glomerular overload by the addition of low-dose thiazide in patients with angiotensin receptor blocker-resistant hypertension. This multicenter, prospective, observational study assessed the renoprotective effects of losartan/thiazide combination therapy in terms of lowering the estimated glomerular filtration rate (eGFR).",
+        "score": 0.379242479801178,
+        "doi": "10.1159/000355732",
+        "journal": "Kidney & blood pressure research",
+        "year": "2013",
+        "rerank_score": 1.357370376586914,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39851122",
+        "text": "Exploring Drug-Drug Interactions between Losartan and Carbamazepine: A Pharmacokinetic and Pharmacodynamic Study. Hypertension, which affects 1.28 billion people globally aged 30 to 79, is characterized by continuously high blood pressure (140/90 or more) and raises the risk of premature death. Losartan, an angiotensin receptor blocker (ARB), is suggested for patients under the age of 55 who cannot take ACE inhibitors as a first treatment option. Epilepsy, a chronic neurological illness marked by repeated s",
+        "score": 0.4127315282821655,
+        "doi": "10.2174/0113892002358068250119052940",
+        "journal": "Current drug metabolism",
+        "year": "2024",
+        "rerank_score": 0.6753674149513245,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

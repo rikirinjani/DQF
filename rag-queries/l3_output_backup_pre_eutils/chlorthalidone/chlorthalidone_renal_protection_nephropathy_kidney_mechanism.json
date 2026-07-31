@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38511397",
+        "text": "The thiazide-like diuretic chlorthalidone as an alternative evidence-based therapy for resistant hypertension in patients with stage 4 chronic kidney disease.",
+        "score": 0.38440823554992676,
+        "doi": "10.1080/17512433.2024.2333776",
+        "journal": "Expert review of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 2.2509913444519043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33952827",
+        "text": "Renoprotective Effect of Oridonin in a Mouse Model of Acute Kidney Injury via Suppression of Macrophage Involved Inflammation. Ischemia-reperfusion injury (IRI) is the major cause of acute kidney injury (AKI). The previous studies demonstrated that Oridonin can protect kidney against IRI-induced AKI, but the underlying molecular mechanism is unclear. In this study, it showed that Oridonin significantly improved kidney damage, and inhibited the expression of interleukin (IL)-1β, IL-6, tumor necrosis factor (",
+        "score": 0.383915513753891,
+        "doi": "10.1248/bpb.b21-00071",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2021",
+        "rerank_score": 1.2137209177017212,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38779756",
+        "text": "Mechanisms of gelofusine protection in an in vitro model of polymyxin B-associated renal injury. Polymyxins are a last-resort treatment option for multidrug-resistant gram-negative bacterial infections, but they are associated with nephrotoxicity. Gelofusine was previously shown to reduce polymyxin-associated kidney injury in an animal model. However, the mechanism(s) of renal protection has not been fully elucidated. Here, we report the use of a cell culture model to provide insights into the mechanisms of",
+        "score": 0.42453837394714355,
+        "doi": "10.1152/ajprenal.00029.2024",
+        "journal": "American journal of physiology. Renal physiology",
+        "year": "2024",
+        "rerank_score": 0.7888876795768738,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

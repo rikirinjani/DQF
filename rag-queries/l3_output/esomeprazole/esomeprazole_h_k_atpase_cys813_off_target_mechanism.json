@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole H+/K+ ATPase (Cys813) off-target mechanism",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40498833",
+        "text": "ATP13A1 engages SEC61 to facilitate substrate-specific translocation. The accurate targeting of proteins to their designated cellular compartments is essential for maintaining proper cellular architecture and function. However, interpreting and sorting the highly variable targeting sequences in secreted and membrane proteins present a substantial challenge for achieving precise localization within the secretory pathway. In this study, we demonstrate that atypical signal sequences, characterized by high hydr",
+        "score": 0.41972023248672485,
+        "doi": "10.1126/sciadv.adt1346",
+        "journal": "Science advances",
+        "year": "2025",
+        "rerank_score": -2.3778624534606934,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39491524",
+        "text": "ATP-Triggered Fe(CN) [NiFe]-hydrogenases catalyze the reversible activation of H",
+        "score": 0.39681410789489746,
+        "doi": "10.1021/jacs.4c09791",
+        "journal": "Journal of the American Chemical Society",
+        "year": "2024",
+        "rerank_score": -3.5737762451171875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40493957",
+        "text": "Discovery of KDX1381, a Bivalent CK2α Inhibitor for the Treatment of Solid Tumors as a Single Agent or in Combination. Casein kinase 2 (CK2) has emerged as a promising therapeutic target across a broad spectrum of malignancies, including pediatric and orphan cancers. The identification of a ligandable allosteric αD pocket on the CK2α subunit has enabled the development of bivalent inhibitors, which bind simultaneously to both the adenosine triphosphate (ATP) site and the allosteric pocket. Here, we report t",
+        "score": 0.4204504191875458,
+        "doi": "10.1021/acs.jmedchem.5c00695",
+        "journal": "Journal of medicinal chemistry",
+        "year": "2025",
+        "rerank_score": -3.6973695755004883,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

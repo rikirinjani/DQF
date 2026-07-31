@@ -1,0 +1,37 @@
+{
+  "query": {
+    "query": "statin myopathy risk mechanism dose-dependent",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21813193",
+        "text": "Managing the underestimated risk of statin-associated myopathy.\n\nIn clinical practice 5-10% of patients receiving statins develop myopathy, a side effect that had been systematically underestimated in the randomized controlled trials with statins. The most common manifestation of myopathy is muscle pain (usually symmetrical, involving proximal muscles) without creatinine kinase (CK) elevation or less frequently with mild CK elevation. Clinically significant rhabdomyolysis (muscle symptoms with CK elevation >10 times the upper limit of normal and with creatinine elevation) is extremely rare. Myopathy complicates the use of all statins (class effect) and is dose-dependent. The pathophysiologic mechanism of statin-associated myopathy is unknown and probably multifactorial. The risk of statin-associated myopathy can be minimized by identifying vulnerable patients (i.e. patients with impaired renal or liver function, advanced age, hypothyroidism, etc.) and/or by eliminating-avoiding statin interactions with specific drugs (cytochrome P-450 3A4 inhibitors, gemfibrozil, etc.). In symptomatic patients, the severity of symptoms, the magnitude of CK elevation and the risk/benefit ratio of statin continuation should be considered before statin treatment is discontinued. Potential strategies are the use of the same statin at a lower dose and if symptoms recur the initiation of fluvastatin XL 80 mg daily or rosuvastatin intermittently in low dose (5-10mg), combined usually with ezetimibe 10mg daily. Failure of these approaches necessitates the use of non-statin lipid lowering drugs (ezetimibe, colesevelam). In order to provide evidence based recommendations for the appropriate management of statin-intolerant patients we need randomized clinical trials directly comparing the myopathic potential of different lipid-lowering medications at comparable doses.",
+        "title": "Managing the underestimated risk of statin-associated myopathy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "21813193",
+          "journal": "International journal of cardiology",
+          "authors": [
+            "Rallidis Loukianos S",
+            "Fountoulaki Katerina",
+            "Anastasiou-Nana Maria"
+          ],
+          "pub_date": "2012-Sep-06",
+          "doi": "10.1016/j.ijcard.2011.07.048",
+          "mesh_terms": [
+            "Animals",
+            "Disease Management",
+            "Humans",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Muscular Diseases",
+            "Randomized Controlled Trials as Topic",
+            "Risk Factors"
+          ]
+        }
+      }
+    ]
+  }
+}

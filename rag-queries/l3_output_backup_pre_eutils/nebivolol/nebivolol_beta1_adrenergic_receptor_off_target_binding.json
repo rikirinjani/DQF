@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nebivolol beta1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.3998553454875946,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 3.2039177417755127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40092223",
+        "text": "Mechanisms of nebivolol-mediated effects on bFGF-induced vascular smooth muscle cell proliferation and migration. Nebivolol is a β-adrenergic receptor antagonist that has intrinsic activity on β VSMCs isolated from Sprague Dawley rat aortas were pretreated with nebivolol or CL316,243 followed by stimulation with bFGF. Cell proliferation and migration and phosphorylation of ERK and AKT were measured. We found that pretreatment of VSMCs with nebivolol produced biphasic effects on bFGF-induced VSMC proliferati",
+        "score": 0.4092273414134979,
+        "doi": "10.1016/j.crphar.2025.100214",
+        "journal": "Current research in pharmacology and drug discovery",
+        "year": "2024",
+        "rerank_score": 1.6304969787597656,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41372115",
+        "text": "The beta1-adrenergic receptor in the heart. beta1-adrenergic receptor (β",
+        "score": 0.3793983459472656,
+        "doi": "10.1038/s41420-025-02907-w",
+        "journal": "Cell death discovery",
+        "year": "2025",
+        "rerank_score": 1.2975794076919556,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

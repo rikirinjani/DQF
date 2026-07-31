@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Glargine insulin receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18585815",
+        "text": "Characteristics of signalling properties mediated by long-acting insulin analogue glargine and detemir in target cells of insulin. Glargine and detemir are long-acting human insulin analogues with a smooth peakless profile of action. Although their binding affinities to the insulin receptor have been studied, little is known about the subsequent signalling properties activated after the binding. We directly compared intracellular signalling properties of them in various cultured cells. Regarding the metabol",
+        "score": 0.35098975896835327,
+        "doi": "10.1016/j.diabres.2008.05.007",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2007",
+        "rerank_score": 4.822668552398682,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40603733",
+        "text": "Structural mechanism of insulin receptor activation by a dimeric aptamer agonist. Insulin binding to the insulin receptor (IR) triggers signaling pathways that regulate glucose uptake and cell growth. In previous work, we identified a DNA aptamer, A62, which partially activates the IR. During engineering aptamers for improved in vivo stability, we discovered that crosslinking two A62 aptamers with linkers of varying lengths led to full phosphorylation of the IR, although activation remained selective to the",
+        "score": 0.38505467772483826,
+        "doi": "10.1038/s12276-025-01494-1",
+        "journal": "Experimental & molecular medicine",
+        "year": "2024",
+        "rerank_score": 2.573867082595825,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41086805",
+        "text": "Tuning insulin receptor signaling using de novo-designed agonists. Insulin binding induces conformational changes in the insulin receptor (IR) that activate the intracellular kinase domain and the protein kinase B (AKT) and mitogen-activated protein kinase (MAPK) pathways, regulating metabolism and proliferation. We reasoned that designed agonists inducing different IR conformational changes might induce different downstream responses. We used de novo protein design to generate binders for individual IR ext",
+        "score": 0.3643881678581238,
+        "doi": "10.1016/j.molcel.2025.09.020",
+        "journal": "Molecular cell",
+        "year": "2024",
+        "rerank_score": 1.9698902368545532,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

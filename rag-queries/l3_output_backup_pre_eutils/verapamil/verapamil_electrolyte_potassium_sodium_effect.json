@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296914",
+        "text": "Effects of intracoronary administration of small doses of nicorandil and verapamil on blood pressure and heart rate. Nicorandil and verapamil can improve coronary blood flow and coronary microcirculation during percutaneous coronary intervention. However, the effects of intracoronary (IC) administration of nicorandil and verapamil on hemodynamics remain unclear. To clarify the safety and effects of IC administration of nicorandil and verapamil on blood pressure (BP) and heart rate (HR) to provide evidence-b",
+        "score": 0.4621366262435913,
+        "doi": "10.1016/j.ahjo.2024.100461",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "year": "2024",
+        "rerank_score": 1.7607059478759766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41316721",
+        "text": "Magnesium in Aconitine-Induced Electrical Storm-Mechanism Yes, Mandate No. Aconitine poisoning produces lethal ventricular arrhythmias through persistent activation of cardiac sodium channels. We critically comment on a recent case report describing 28 biphasic shocks for aconitine-induced electrical storm, addressing three fundamental questions. First, we demonstrate that verapamil is contraindicated as it worsens hypotension and reflex sympathetic activation without antagonizing sodium channel toxicity. S",
+        "score": 0.4575049877166748,
+        "doi": "10.1111/anec.70133",
+        "journal": "Annals of noninvasive electrocardiology : the official journal of the Internatio",
+        "year": "2025",
+        "rerank_score": 0.3603234887123108,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38447973",
+        "text": "Effect of Concomitant Drugs on Sodium Zirconium Cyclosilicate Hydrate in Artificial Intestinal Juice. To explore drug interactions involving sodium zirconium cyclosilicate hydrate (SZC) and concomitant drugs like calcium antagonists (amlodipine and nifedipine) and β-blockers (carvedilol and bisoprolol), we investigate how these concomitant drugs influenced the administration of SZC in an artificial intestinal juice. Initially, we assessed the potassium ion adsorption capacity, ranking it as follows: calcium",
+        "score": 0.4555203914642334,
+        "doi": "10.1248/cpb.c23-00687",
+        "journal": "Chemical & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": -2.506861925125122,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

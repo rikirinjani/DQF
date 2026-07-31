@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dapagliflozin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40103330",
+        "text": "Discrepancies in Dapagliflozin Response in Terms of Glycemic Control and Body Weight Reduction. Dapagliflozin, a sodium-glucose cotransporter 2 inhibitor, reduces hyperglycemia and obesity by inhibiting renal glucose reabsorption. This post hoc study evaluated clinical factors influencing patient response to dapagliflozin. The analysis focused on patients treated with dapagliflozin (10 mg/day for 52 weeks) within the randomized, double-blind, parallel-group BEYOND trial. Adequate glycemic control (GC) was d",
+        "score": 0.33219754695892334,
+        "doi": "10.3803/EnM.2024.2142",
+        "journal": "Endocrinology and metabolism (Seoul, Korea)",
+        "year": "2024",
+        "rerank_score": 5.34481143951416,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40710584",
+        "text": "LC-MS-Based Untargeted Metabolic Profiling in Plasma Following Dapagliflozin Administration in Healthy Volunteers. Dapagliflozin, a sodium-glucose cotransporter 2 inhibitor, treats type 2 diabetes by blocking renal glucose reabsorption and promoting urinary glucose excretion. This mechanism lowers blood glucose concentrations independently of insulin. The resulting caloric loss also contributes to weight reduction. Although these effects are well documented in patients with diabetes, their magnitude and und",
+        "score": 0.3611721396446228,
+        "doi": "10.3390/metabo15070484",
+        "journal": "Metabolites",
+        "year": "2025",
+        "rerank_score": 3.4266555309295654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37655809",
+        "text": "Dapagliflozin attenuates high glucose-and hypoxia/reoxygenation-induced injury via activating AMPK/mTOR-OPA1-mediated mitochondrial autophagy in H9c2 cardiomyocytes. This study investigated the protective effect of dapagliflozin on H9c2 cardiomyocyte function under high glucose and hypoxia/reoxygenation (HG-H/R) conditions and identified the underlying molecular mechanisms. Dapagliflozin reduced the level of lactate dehydrogenase and reactive oxygen species in cardiomyocytes under HG-H/R conditions and was ",
+        "score": 0.37645891308784485,
+        "doi": "10.1080/13813455.2023.2252200",
+        "journal": "Archives of physiology and biochemistry",
+        "year": "2024",
+        "rerank_score": 2.9975621700286865,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

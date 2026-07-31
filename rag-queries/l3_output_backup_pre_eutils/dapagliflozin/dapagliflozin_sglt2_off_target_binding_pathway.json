@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dapagliflozin SGLT2 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33543924",
+        "text": "Targeting ROS-Dependent AKT/GSK-3β/NF-κB and DJ-1/Nrf2 Pathways by Dapagliflozin Attenuates Neuronal Injury and Motor Dysfunction in Rotenone-Induced Parkinson's Disease Rat Model. Dapagliflozin, a selective sodium-glucose co-transporter 2 (SGLT2) inhibitor, has emerged as a promising neuroprotective agent in murine models of epilepsy and obesity-induced cognitive impairment through its marked antioxidant/antiapoptotic features. However, the impact of dapagliflozin on the pathogenesis of Parkinson's disease",
+        "score": 0.38532087206840515,
+        "doi": "10.1021/acschemneuro.0c00722",
+        "journal": "ACS chemical neuroscience",
+        "year": "2021",
+        "rerank_score": 5.690742492675781,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34224699",
+        "text": "Dapagliflozin attenuates steatosis in livers of high-fat diet-induced mice and oleic acid-treated L02 cells via regulating AMPK/mTOR pathway. Dapagliflozin (DAPA), a kind of sodium-glucose cotransporter 2(SGLT2) inhibitor is used to treat diabetes mellitus by inhibiting urine glucose reuptake. Recent clinical outcomes indicate that SGLT2 inhibitors may exert pharmacological activities against non-alcoholic fatty liver diseases. Nonetheless, the underlying molecular mechanisms are still poorly elucidated. In",
+        "score": 0.387989342212677,
+        "doi": "10.1016/j.ejphar.2021.174304",
+        "journal": "European journal of pharmacology",
+        "year": "2021",
+        "rerank_score": 4.54622220993042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31030051",
+        "text": "Study on the interaction of ertugliflozin with human serum albumin in vitro by multispectroscopic methods, molecular docking, and molecular dynamics simulation. Ertugliflozin is a potent and selective inhibitor of sodium-dependent glucose cotransporters 2 (SGLT2) and used as a monotherapy to improve glycemic control in adult patients with type 2 diabetes. In this study, ertugliflozin binding to human serum albumin (HSA) was investigated by multispectroscopic and computer simulations. The fluorescence spectr",
+        "score": 0.3936392068862915,
+        "doi": "10.1016/j.saa.2019.04.047",
+        "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+        "year": "2019",
+        "rerank_score": 2.190159559249878,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

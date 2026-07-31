@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole drug interaction CYP2C19 CYP3A4 clopidogrel",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39817374",
+        "text": "Delineating CYP2C19-mediated Interactions: Network Pharmacology Investigation of Ilaprazole and Clopidogrel  Clopidogrel, an antiplatelet drug commonly used in cardiovascular disease, is metabolized by the liver mainly through CYP2C19. Concomitant use of Proton pump inhibitors along with clopidogrel may affect the potency of clopidogrel by CYP2C19 inhibition. However, a novel PPI, ilaprazole is known to differ in its pharmacokinetic features, given the potential differences between ilaprazole's interactions",
+        "score": 0.387124240398407,
+        "doi": "10.2174/0115701638334244241224062453",
+        "journal": "Current drug discovery technologies",
+        "year": "2024",
+        "rerank_score": 6.971548080444336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40916919",
+        "text": "Association of Omeprazole-Related Myopathy With Drug-Drug and Drug-Gene Interactions Involving CYP2C19 and CYP3A4: A Nested Case-Control Study. Omeprazole, a widely used proton pump inhibitor, has been associated with rare but serious adverse events such as myopathy. Previous research suggests that concurrent use of omeprazole with fluconazole, a potent cytochrome P450 (CYP) 2C19/3A4 inhibitor, may increase the risk of myopathy. However, the contribution of genetic polymorphisms in CYP enzymes remains uncle",
+        "score": 0.45539170503616333,
+        "doi": "10.1002/phar.70058",
+        "journal": "Pharmacotherapy",
+        "year": "2025",
+        "rerank_score": 4.3683061599731445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38817377",
+        "text": "Computational drug-drug interaction prediction mediated by CYP450 isoforms of Ilaprazole coadministered with clopidogrel. Ilaprazole due to its pharmacokinetic variability does not affect the clopidogrel efficacy during concomitant use.",
+        "score": 0.4457833766937256,
+        "doi": "10.2144/fsoa-2023-0277",
+        "journal": "Future science OA",
+        "year": "2024",
+        "rerank_score": 4.159438133239746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

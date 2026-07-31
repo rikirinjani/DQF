@@ -1,0 +1,130 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-27",
+  "conditions": {
+    "gastritis_gerd": {
+      "label": "Gastritis / GERD",
+      "icd10_codes": ["K21.0", "K21.9", "K29.0", "K29.5", "K29.7", "K22.7", "K25", "K26"],
+      "class_map": ["PPI", "H2RA", "Antacid", "Alginate", "Mucosal Protectant"],
+      "regimens": [
+        {
+          "id": "ppi-mono",
+          "type": "mono",
+          "drug_class": "PPI",
+          "label": "PPI monotherapy",
+          "evidence": "Strong",
+          "source": "AGA 2022, ACG 2021",
+          "healing_8wk_pct": 92,
+          "note": "First-line for erosive esophagitis and moderate-to-severe GERD"
+        },
+        {
+          "id": "h2ra-mono",
+          "type": "mono",
+          "drug_class": "H2RA",
+          "label": "H2RA monotherapy",
+          "evidence": "Strong",
+          "source": "ACG 2021",
+          "healing_8wk_pct": 70,
+          "note": "Second-line or step-down for mild-to-moderate GERD"
+        },
+        {
+          "id": "alginate-mono",
+          "type": "mono",
+          "drug_class": "Alginate",
+          "label": "Alginate monotherapy",
+          "evidence": "Moderate",
+          "source": "ESPGHAN 2020, RCT data",
+          "healing_8wk_pct": null,
+          "note": "For mild/reflux-predominant symptoms; works as physical barrier"
+        },
+        {
+          "id": "antacid-mono",
+          "type": "mono",
+          "drug_class": "Antacid",
+          "label": "Antacid on-demand",
+          "evidence": "Limited",
+          "source": "Expert consensus",
+          "healing_8wk_pct": null,
+          "note": "Symptom relief only — no mucosal healing"
+        },
+        {
+          "id": "mucosal-mono",
+          "type": "mono",
+          "drug_class": "Mucosal Protectant",
+          "label": "Sucralfate monotherapy",
+          "evidence": "Moderate",
+          "source": "Cochrane 2018",
+          "healing_8wk_pct": 75,
+          "note": "Topical barrier; useful in mild disease or pregnancy (non-systemic)"
+        },
+        {
+          "id": "ppi-alginate",
+          "type": "combo",
+          "base_class": "PPI",
+          "add_on_class": "Alginate",
+          "label": "PPI + Alginate",
+          "evidence": "Strong",
+          "source": "AGA 2022, double-blind RCT",
+          "incremental_benefit": "Faster symptom relief; improves regurgitation control by 25-30% over PPI alone",
+          "safety_delta": "No added systemic risk — alginate is non-systemic",
+          "note": "Recommended for regurgitation-dominant GERD or incomplete PPI response"
+        },
+        {
+          "id": "ppi-h2ra",
+          "type": "combo",
+          "base_class": "PPI",
+          "add_on_class": "H2RA",
+          "label": "PPI + H2RA (nocturnal)",
+          "evidence": "Moderate",
+          "source": "Aliment Pharmacol Ther 2017",
+          "incremental_benefit": "Reduces nocturnal acid breakthrough (NAB); ~15% improvement in nighttime symptoms",
+          "safety_delta": "Low added risk; H2RA tolerance develops at ~14 days, limiting long-term use",
+          "note": "Reserve for confirmed nocturnal acid breakthrough; H2RA tolerance limits chronic use"
+        },
+        {
+          "id": "ppi-antacid",
+          "type": "combo",
+          "base_class": "PPI",
+          "add_on_class": "Antacid",
+          "label": "PPI + Antacid (on-demand)",
+          "evidence": "Limited",
+          "source": "Clinical practice consensus",
+          "incremental_benefit": "Rapid on-demand relief for breakthrough symptoms between PPI doses",
+          "safety_delta": "Minimal; avoid calcium carbonate CKD accumulation; not for daily use",
+          "note": "On-demand rescue for breakthrough symptoms only — not routine combination"
+        },
+        {
+          "id": "h2ra-antacid",
+          "type": "combo",
+          "base_class": "H2RA",
+          "add_on_class": "Antacid",
+          "label": "H2RA + Antacid (mild)",
+          "evidence": "Limited",
+          "source": "Expert consensus",
+          "incremental_benefit": "Combined acid suppression + rapid neutralization for mild intermittent symptoms",
+          "safety_delta": "Minimal in short-term use",
+          "note": "For mild intermittent symptoms without need for daily PPI"
+        },
+        {
+          "id": "ppi-sucralfate",
+          "type": "combo",
+          "base_class": "PPI",
+          "add_on_class": "Mucosal Protectant",
+          "label": "PPI + Sucralfate",
+          "evidence": "Limited",
+          "source": "Small RCTs",
+          "incremental_benefit": "Modest improvement in healing for severe erosive esophagitis",
+          "safety_delta": "QID dosing burden; aluminum accumulation in CKD (contraindicated in CrCl <30)",
+          "note": "Reserve for severe erosive disease not responding to PPI alone"
+        }
+      ],
+      "mono_comparison_notes": [
+        "PPI is first-line — best healing rates (92% at 8 wk), superior acid suppression",
+        "H2RA is second-line — 70% healing, tolerates develop at ~14d",
+        "Alginate is non-inferior to H2RA for reflux symptoms but does not heal esophagitis",
+        "Antacids provide symptom relief only; no healing effect",
+        "Sucralfate has niche role (pregnancy, mild disease, topical barrier)"
+      ]
+    }
+  }
+}

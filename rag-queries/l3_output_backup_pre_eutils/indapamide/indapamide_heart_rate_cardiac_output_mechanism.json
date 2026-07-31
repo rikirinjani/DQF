@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41581568",
+        "text": "Impaired atrioventricular time interaction contributes to tachycardia-induced hemodynamic deterioration: In vivo and in silico hybrid approach. Heart rate (HR) is a major determinant of cardiac output (CO). During tachycardia, adequate left ventricular (LV) filling becomes important; however, excessive tachycardia reduces CO by shortening filling time. The impact of HR on hemodynamics differs according to the underlying cardiac pathological conditions, making HR management challenging. The atrioventricular ",
+        "score": 0.46614331007003784,
+        "doi": "10.1016/j.ijcard.2026.134192",
+        "journal": "International journal of cardiology",
+        "year": "2025",
+        "rerank_score": -3.7452170848846436,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38713174",
+        "text": "The therapeutic efficacy exploration of the combined use of indapamide and amlodipine in elderly patients with hypertension and concurrent coronary artery disease.",
+        "score": 0.4584750533103943,
+        "doi": "10.23736/S2724-5691.24.10223-7",
+        "journal": "Minerva surgery",
+        "year": "2024",
+        "rerank_score": -3.867657423019409,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40159210",
+        "text": "[A case of hyponatremia induced by the thiazide-like diuretic indapamide in an elderly woman]. A 72-year-old woman with a history of hypertension who had already been taking calcium channel blockers and angiotensin II receptor blockers was prescribed additional indapamide (1 mg/day) due to inadequate blood pressure control. Two weeks later, she experienced loss of appetite and fatigue. Seeking medical attention, she was diagnosed with significant hyponatremia with a serum sodium level of 110 mEq/L at a loca",
+        "score": 0.46363672614097595,
+        "doi": "10.3143/geriatrics.62.88",
+        "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+        "year": "2025",
+        "rerank_score": -3.9426960945129395,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

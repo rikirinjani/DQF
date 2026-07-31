@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.43103137612342834,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 0.09936404228210449,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38654785",
+        "text": "Metformin-Induced Chronic Diarrhea Misdiagnosed as Irritable Bowel Syndrome for Years. Metformin is the most prescribed and recommended drug for type 2 diabetes mellitus because of its better tolerability, pleiotropic benefits, and cost-effectiveness. Metformin inhibits hepatic glucose production and increases muscle glucose uptake. Metformin is also associated with gastrointestinal side effects like abdominal bloating, flatulence, diarrhea, nausea, and vomiting. Metformin-related gastrointestinal side effe",
+        "score": 0.4420948028564453,
+        "doi": "10.7759/cureus.56828",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -0.9892044067382812,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38408478",
+        "text": "Encyclopaedic Review of Glipizide Pre-clinical and Clinical Status. Glipizide is an oral glucose-lowering medication that is beneficial for the treatment of type 2 diabetes. This study compiles exhaustively all accessible information on glipizide, from preclinical to clinical studies. Glipizide may be used in concert with TRAIL to treat cancer cells; in vitro studies have shown that it suppresses angiogenesis and vasculogenesis while shielding cells from glycation-induced damage. Anticonvulsant effects and ",
+        "score": 0.46948426961898804,
+        "doi": "10.1055/a-2237-8566",
+        "journal": "Drug research",
+        "year": "2024",
+        "rerank_score": -2.75171160697937,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

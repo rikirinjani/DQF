@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide SUR1 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39161610",
+        "text": "Role of age and sex in the incidence of adverse effects among diabetic patients treated with glipizide. Glipizide is an antidiabetic drug that belongs to a class of medication known as sulfonylureas. It is considered one of the highly prescribed antidiabetic drugs for the treatment of type II diabetes in patients following a kidney transplant. It lowers blood glucose levels by causing the release of insulin from β-cells in the pancreas. Its main metabolizing pathway is through the liver. It has several adve",
+        "score": 0.406922847032547,
+        "doi": "10.3892/etm.2024.12680",
+        "journal": "Experimental and therapeutic medicine",
+        "year": "2024",
+        "rerank_score": 0.9653602242469788,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41191986",
+        "text": "Tirzepatide improves extracellular matrix integrity and vascularization in pancreatic islets of a mouse model of obesity, diabetes, and menopause. Tirzepatide, a dual GIP/GLP-1 receptor agonist, appears to protect pancreatic islet structures under metabolic stress. This study examined its effects on extracellular matrix organization in female mice exposed to obesity, diabetes, and menopause, compared to control and untreated groups. Tirzepatide significantly decreased the expression of collagen types I and ",
+        "score": 0.42283380031585693,
+        "doi": "10.1016/j.bbrc.2025.152913",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2025",
+        "rerank_score": -0.14213617146015167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39426134",
+        "text": "Cholic acid activation of GPBAR1 does not induce or exacerbate acute pancreatitis but promotes exocrine pancreatic secretion. Obstruction of bile ducts due to gallstones can lead to biliary acute pancreatitis (BAP). According to Perides et al., G protein-coupled bile acid receptor-1 (GPBAR1) mediates BAP. However, Zi's findings suggest that GPR39, rather than GPBAR1, mediates TLCAS-induced increases in cytosolic calcium and acinar cell necrosis, casting doubt on the role of GPBAR1 in BAP. Numerous G protein",
+        "score": 0.41328588128089905,
+        "doi": "10.1016/j.bbrc.2024.150825",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2024",
+        "rerank_score": -0.37602102756500244,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

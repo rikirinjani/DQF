@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38865587",
+        "text": "Non-Hispanic Black Individuals Have Higher Glucose-Adjusted HbA1c Levels and Risk for Severe Hypoglycemia: Evidence From the Diabetes Control and Complications Trial.",
+        "score": 0.4306902587413788,
+        "doi": "10.2337/dc24-0299",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": 2.5116689205169678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23159733",
+        "text": "A retrospective study on the incidence and risk factors of severe hypoglycemia in primary care. To investigate the incidence and risk factors of severe hypoglycemia (SH) in primary care. SH was defined as hypoglycemia with coma, or the need of glucose or glucagon injection.",
+        "score": 0.3857704699039459,
+        "doi": "10.1093/fampra/cms071",
+        "journal": "Family practice",
+        "year": "2012",
+        "rerank_score": 2.4750654697418213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40924111",
+        "text": "Time below range alone is insufficient to identify severe hypoglycaemia risk in type 1 diabetes-the critical role of hypoglycaemia awareness: results from the SFDT1 study. Severe hypoglycaemia events (SHE) remain frequent in people with type 1 diabetes despite advanced diabetes technologies. We examined whether time below range (TBR) 3.9 mmol/l (70 mg/dl; TBR70) or 3.0 mmol/l (54 mg/dl; TBR54) is associated with future SHE risk and whether impaired awareness of hypoglycaemia (IAH) modifies this relationship",
+        "score": 0.40958908200263977,
+        "doi": "10.1007/s00125-025-06536-x",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 1.8524868488311768,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

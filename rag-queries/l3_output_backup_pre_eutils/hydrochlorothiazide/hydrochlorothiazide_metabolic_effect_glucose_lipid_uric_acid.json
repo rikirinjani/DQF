@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.45270752906799316,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 0.6341415643692017,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40911613",
+        "text": "A potential association between tirzepatide and hypercalcemia in the setting of chronic hydrochlorothiazide use. Hypercalcemia is a prevalent electrolyte disturbance commonly associated with primary hyperparathyroidism, cancer, or medication adverse effects. Thiazide diuretics reduce urinary calcium excretion, increasing calcium reabsorption and hypercalcemia. Tirzepatide, a dual GIP and GLP-1 receptor agonist, is increasingly used for type 2 diabetes and obesity. While GIP/GLP-1 agonists typically have neg",
+        "score": 0.4178372323513031,
+        "doi": "10.1530/EDM-25-0067",
+        "journal": "Endocrinology, diabetes & metabolism case reports",
+        "year": "2025",
+        "rerank_score": 0.2574692964553833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40194294",
+        "text": "Effect of Chlorthalidone and Hydrochlorothiazide on 12-Hour vs 24-Hour Urinary Calcium Excretion. Urine calcium excretion (UCa) is greater after dinner and urine volumes are lower. The result is higher urine calcium concentrations, which may confer greater risk of stone formation, at night. We considered whether nighttime administration-as compared with daytime administration-of thiazides would be more effective for stone prevention. We performed 12-hour urine collections in 7 patients taking 25 mg of chlor",
+        "score": 0.4133691191673279,
+        "doi": "10.1097/JU.0000000000004562",
+        "journal": "The Journal of urology",
+        "year": "2025",
+        "rerank_score": -0.3504127264022827,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

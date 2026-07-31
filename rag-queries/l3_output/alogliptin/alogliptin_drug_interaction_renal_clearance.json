@@ -1,0 +1,53 @@
+{
+  "query": {
+    "query": "Alogliptin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34721294",
+        "text": "Effects of Anti-Diabetic Drugs on Fracture Risk: A Systematic Review and Network Meta-Analysis.\n\nAvailable data on the effects of anti-diabetic drugs on fracture risk are contradictory. Therefore, our study aimed to analyze all available data on the effects of anti-diabetic drugs on fracture risk in type 2 diabetes mellitus (T2DM) patients.\nEmbase, Medline, ClinicalTrials.gov, and Cochrane CENTRAL were searched for relevant trials. All data analyses were performed with STATA (12.0) and R language (3.6.0). Risk ratio (RR) with its 95% confidence interval (CI) was calculated by combining data for the fracture effects of anti-diabetic drugs, including sodium-glucose co-transporter 2 (SGLT2) inhibitors, dipeptidyl peptidase-4 (DPP-4) inhibitors, glucagon-like peptide-1 (GLP-1) receptor agonists, meglitinides, α-glucosidase inhibitors, thiazolidinediones, biguanides, insulin, and sulfonylureas.\nOne hundred seventeen eligible randomized controlled trials (RCTs) with 221,364 participants were included in this study. Compared with placebo, trelagliptin (RR 3.51; 1.58-13.70) increased the risk of fracture, whereas albiglutide (RR 0.29; 0.04-0.93) and voglibose (RR 0.03; 0-0.11) decreased the risk of fracture. Other medications were comparable in terms of their effects on fracture risk, and no statistical significance was observed. In terms of fractures, voglibose (0.01%) may be the safest option, and trelagliptin (13.64%) may be the worst. Sensitivity analysis results were consistent with those of the main analysis. No statistically significant differences were observed in the regression coefficients of age (1.03; 0.32-2.1), follow-up duration (0.79; 0.27-1.64), and sex distribution (0.63; 0.15-1.56).\nWe found varied results on the association between the use of anti-diabetic drugs and fracture risk. Specifically, trelagliptin raised the risk of fracture, whereas voglibose and albiglutide showed benefit with statistical difference. Other drugs were comparable in terms of their effects on fracture risk. Some drugs (omarigliptin, sitagliptin, vildagliptin, saxagliptin, empagliflozin, ertugliflozin, rosiglitazone, pioglitazone, and nateglinide) may increase the risk of fracture, while others (such as dulaglutide, exenatide, liraglutide, semaglutide, lixisenatide, linagliptin, alogliptin, canagliflozin, dapagliflozin, glipizide, gliclazide, glibenclamide, glimepiride, metformin, and insulin) may show benefits. The risk of fracture was independent of age, sex distribution, and the duration of exposure to anti-diabetic drugs. When developing individualized treatment strategies, the clinical efficacy of anti-diabetic drugs must be weighed against their benefits and risks brought about by individual differences of patients.\nThis Systematic Review was prospectively registered on the PROSPERO (https://www.crd.york.ac.uk/PROSPERO/, registration number CRD42020189464).",
+        "title": "Effects of Anti-Diabetic Drugs on Fracture Risk: A Systematic Review and Network Meta-Analysis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "34721294",
+          "journal": "Frontiers in endocrinology",
+          "authors": [
+            "Zhang Yu-Sheng",
+            "Zheng Yan-Dan",
+            "Yuan Yan"
+          ],
+          "pub_date": "2021",
+          "doi": "10.3389/fendo.2021.735824",
+          "mesh_terms": [
+            "Diabetes Mellitus, Type 2",
+            "Fractures, Bone",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Risk Factors"
+          ]
+        }
+      },
+      {
+        "id": "PMID:24421482",
+        "text": "Perampanel.\n\nEach month, subscribers to The Formulary Monograph Service receive 5 to 6 well-documented monographs on drugs that are newly released or are in late phase 3 trials. The monographs are targeted to Pharmacy & Therapeutics Committees. Subscribers also receive monthly 1-page summary monographs on agents that are useful for agendas and pharmacy/nursing in-services. A comprehensive target drug utilization evaluation/medication use evaluation (DUE/MUE) is also provided each month. With a subscription, the monographs are sent in print and are also available on-line. Monographs can be customized to meet the needs of a facility. A drug class review is now published monthly with The Formulary Monograph Service. Through the cooperation of The Formulary, Hospital Pharmacy publishes selected reviews in this column. For more information about The Formulary Monograph Service.Through the cooperation of The Formulary, Hospital Pharmacy publishes selected reviews in this column. For more information about The Formulary Monograph Service, call The Formulary at 800-322-4349. The April 2013 monograph topics are alogliptin, crofelemer, lomitapide, ponatinib, and sumatriptan iontophoretic transdermal. The DUE/MUE is on alogliptin.",
+        "title": "Perampanel.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24421482",
+          "journal": "Hospital pharmacy",
+          "authors": [
+            "Cada Dennis J",
+            "Levien Terri L",
+            "Baker Danial E"
+          ],
+          "pub_date": "2013-Apr",
+          "doi": "10.1310/hpj4804-321",
+          "mesh_terms": []
+        }
+      }
+    ]
+  }
+}

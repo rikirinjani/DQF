@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Captopril cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4197385311126709,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.02865101397037506,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37475474",
+        "text": "Fludarabine-induced bradycardia in allogeneic hematopoietic stem cell transplantation: A retrospective study. Fludarabine, a purine analog, is getting more attention with the increasing use of reduced intensive conditioning regimens in allogeneic hematopoietic stem cell transplantation (allo-HSCT). The side effect of bradycardia was observed in only a few cases reported in the literature. In clinical practice, bradycardia can be asymptomatic or cause syncope and cardiac arrest. This study aimed to evaluate ",
+        "score": 0.4675079584121704,
+        "doi": "10.1177/10781552231189868",
+        "journal": "Journal of oncology pharmacy practice : official publication of the Internationa",
+        "year": "2024",
+        "rerank_score": -0.7929403185844421,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1433168",
+        "text": "Complete spontaneous remission of cough induced by ACE inhibitors during chronic therapy in hypertensive patients. The files of 172 consecutive hypertensive patients who received captopril or enalapril have been reviewed and the patients questioned on the development of chronic dry cough, persisting for at least two months. Forty patients had cough that was attributed to the drugs. Thirteen of them discontinued the drugs because of this adverse effect. In 15 of the 27 patients (55%) who continued receiving ",
+        "score": 0.4050794243812561,
+        "doi": "",
+        "journal": "Journal of human hypertension",
+        "year": "1992",
+        "rerank_score": -2.1492087841033936,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

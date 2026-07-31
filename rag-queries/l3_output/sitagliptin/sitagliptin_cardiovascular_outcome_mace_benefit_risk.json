@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28626088",
+        "text": "Secondary Prevention of Cardiovascular Disease in Patients With Type 2 Diabetes Mellitus: International Insights From the TECOS Trial (Trial Evaluating Cardiovascular Outcomes With Sitagliptin). Intensive risk factor modification significantly improves outcomes for patients with diabetes mellitus and cardiovascular disease. However, the degree to which secondary prevention treatment goals are achieved in international clinical practice is unknown.",
+        "score": 0.39669230580329895,
+        "doi": "10.1161/CIRCULATIONAHA.117.027252",
+        "journal": "Circulation",
+        "year": "2017",
+        "rerank_score": 4.49096155166626,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33957178",
+        "text": "Risk stratification of cardiovascular complications using CHA Background The COMPASS (Cardiovascular Outcomes for People Using Anticoagulation Strategies) trial showed that rivaroxaban plus aspirin reduced major adverse cardiovascular events (MACE) in patients with chronic coronary artery disease (CAD) and/or peripheral artery disease (PAD). We explored whether CHA",
+        "score": 0.39688974618911743,
+        "doi": "10.1016/j.ijcard.2021.04.067",
+        "journal": "International journal of cardiology",
+        "year": "2020",
+        "rerank_score": 3.9646310806274414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40009360",
+        "text": "Risk of Major Adverse Cardiovascular Events Following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. This study used retrospective electronic health record data of 2 patient cohorts, the Vanderbilt University Medical Center (VUMC) and Million Veteran Program (MVP). The risk ",
+        "score": 0.41875627636909485,
+        "doi": "10.1001/jamadermatol.2025.0001",
+        "journal": "JAMA dermatology",
+        "year": "2026",
+        "rerank_score": 3.4528167247772217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28903775",
+        "text": "Nonclinical and clinical pharmacology evidence for cardiovascular safety of saxagliptin. In the Saxagliptin Assessment of Vascular Outcomes Recorded in Patients with Diabetes Mellitus (SAVOR) trial in patients with type 2 diabetes mellitus (T2D) at high risk of cardiovascular (CV) disease, saxagliptin did not increase the risk for major CV adverse events. However, there was an unexpected imbalance in events of hospitalization for heart failure (hHF), one of six components of the secondary CV composite endpo",
+        "score": 0.4104018211364746,
+        "doi": "10.1186/s12933-017-0595-6",
+        "journal": "Cardiovascular diabetology",
+        "year": "2017",
+        "rerank_score": 5.682607173919678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27037787",
+        "text": "Adverse effects of incretin-based therapies on major cardiovascular and arrhythmia events: meta-analysis of randomized trials. Recent cardiovascular outcome trials of incretin-based therapies (IBT) in type 2 diabetes have not demonstrated either benefit or harm in terms of major adverse cardiovascular events (MACE). Earlier meta-analyses showed conflicting results but were limited in methodology. We aimed to perform an updated meta-analysis of all available incretin therapies on the incidence of MACE plus a",
+        "score": 0.41197001934051514,
+        "doi": "10.1002/dmrr.2804",
+        "journal": "Diabetes/metabolism research and reviews",
+        "year": "2015",
+        "rerank_score": 1.8040804862976074,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38678009",
+        "text": "Effects of icosapent ethyl according to baseline residual risk in patients with atherosclerotic cardiovascular disease: results from REDUCE-IT. Icosapent ethyl lowers triglycerides and significantly reduces major adverse cardiovascular events (MACE), though treatment effects may vary between individuals. This study aimed to determine the relative and absolute effects of icosapent ethyl on MACE according to baseline cardiovascular disease (CVD) risk in patients with atherosclerotic cardiovascular disease (AS",
+        "score": 0.41362619400024414,
+        "doi": "10.1093/ehjcvp/pvae030",
+        "journal": "European heart journal. Cardiovascular pharmacotherapy",
+        "year": "2024",
+        "rerank_score": 1.378178358078003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

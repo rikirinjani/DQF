@@ -1,0 +1,60 @@
+{
+  "query": {
+    "query": "Felodipine ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38771738",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38771738",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2024-May-27",
+          "doi": "10.58347/tml.2024.1703a",
+          "mesh_terms": [
+            "Humans",
+            "Hypertension",
+            "Antihypertensive Agents",
+            "Blood Pressure"
+          ]
+        }
+      },
+      {
+        "id": "PMID:11368286",
+        "text": "Levosimendan.\n\nLevosimendan, a pyridazinone-dinitrile derivative, is a calcium sensitiser with additional action on adenosine triphosphate (ATP)-sensitive potassium channels. It is used intravenously (IV) for the treatment of decompensated cardiac failure. At therapeutic doses, levosimendan exhibits enhanced contractility with no increase in oxygen demands. It also produces antistunning effects without increasing myocardial intracellular calcium concentrations or prolonging myocardial relaxation. Levosimendan also causes coronary and systemic vasodilation. In patients with decompensated congestive heart failure (CHF), IV levosimendan significantly reduced the incidence of worsening CHF or death. IV levosimendan significantly increased cardiac output or cardiac index and decreased filling pressure in the acute treatment of stable or decompensated CHF in large, double-blind, randomised trials and after cardiac surgery in smaller trials. Levosimendan is well tolerated, with the most common adverse events (headache, hypotension, nausea) being secondary to vasodilation. It has not been shown to be arrhythmogenic. Levosimendan has shown no clinically important pharmacokinetic interactions with captopril, felodipine, beta-blockers, digoxin, warfarin, isosorbide-5-mononitrate, carvedilol, alcohol (ethanol) or itraconazole.",
+        "title": "Levosimendan.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11368286",
+          "journal": "Drugs",
+          "authors": [
+            "Figgitt D P",
+            "Gillies P S",
+            "Goa K L"
+          ],
+          "pub_date": "2001",
+          "doi": "10.2165/00003495-200161050-00006",
+          "mesh_terms": [
+            "Biological Availability",
+            "Cardiotonic Agents",
+            "Coronary Circulation",
+            "Half-Life",
+            "Heart Failure",
+            "Humans",
+            "Hydrazones",
+            "Protein Binding",
+            "Pyridazines",
+            "Randomized Controlled Trials as Topic",
+            "Simendan"
+          ]
+        }
+      }
+    ]
+  }
+}

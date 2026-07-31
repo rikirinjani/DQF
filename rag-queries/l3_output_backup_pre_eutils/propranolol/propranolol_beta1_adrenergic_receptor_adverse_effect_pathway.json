@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol beta1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38746306",
+        "text": "Genetic Inactivation of the β1 adrenergic receptor prevents Cerebral Cavernous Malformations in zebrafish. Propranolol reduces experimental murine cerebral cavernous malformations (CCMs) and prevents embryonic caudal venous plexus (CVP) lesions in zebrafish that follow mosaic inactivation of",
+        "score": 0.39405909180641174,
+        "doi": "10.1101/2024.05.05.592554",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2024",
+        "rerank_score": 2.738279342651367,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.37482449412345886,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 2.6680805683135986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39991834",
+        "text": "Genetic inactivation of the β1 adrenergic receptor prevents cerebral cavernous malformations in zebrafish. Previously, we showed that propranolol reduces experimental murine cerebral cavernous malformations (CCMs) and prevents embryonic caudal venous plexus (CVP) lesions in zebrafish that follow mosaic inactivation of",
+        "score": 0.43203961849212646,
+        "doi": "10.7554/eLife.99455",
+        "journal": "eLife",
+        "year": "2025",
+        "rerank_score": 2.654365301132202,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

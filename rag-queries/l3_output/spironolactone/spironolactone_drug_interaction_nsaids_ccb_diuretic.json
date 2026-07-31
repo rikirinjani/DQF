@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39291574",
+        "text": "Fixed-dose Combination of Torsemide and Mineralocorticoid Receptor Antagonists. The combination of torsemide and spironolactone presents a promising approach to managing conditions such as edema and hypertension. Torsemide, a loop diuretic, enhances diuresis by inhibiting sodium reabsorption in the kidneys, while spironolactone, a potassium-sparing diuretic and mineralocorticoid receptor antagonist (MRA), complements this effect by preventing potassium loss and offering additional cardiovascular benefits. T",
+        "score": 0.39065122604370117,
+        "doi": "10.59556/japi.72.0678",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": 3.6667940616607666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38535495",
+        "text": "Spironolactone Induces Vasodilation by Endothelium-Dependent Mechanisms Involving NO and by Endothelium-Independent Mechanisms Blocking Ca Spironolactone (SPI) is a diuretic widely used to treat cardiovascular diseases (CVD) and is non-specific for mineralocorticoid receptors (MR) and with an affinity for progesterone (PR) and androgen (AR) receptors. Since 2009, it has been suggested that pharmaceuticals are emerging contaminants (called EDC), and recently, it was reported that most EDC are AR and MR antag",
+        "score": 0.4004455506801605,
+        "doi": "10.3390/jox14010020",
+        "journal": "Journal of xenobiotics",
+        "year": "2024",
+        "rerank_score": 3.387228488922119,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40084260",
+        "text": "Low-dose Spironolactone Combined with ACEIs/ARBs May Reduce Cardiovascular Events in Patients with CKD Stages 3b-5: A Nationwide Population-Based Cohort Study in Taiwan.",
+        "score": 0.42351555824279785,
+        "doi": "10.7150/ijms.103390",
+        "journal": "International journal of medical sciences",
+        "year": "2024",
+        "rerank_score": -1.2648863792419434,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

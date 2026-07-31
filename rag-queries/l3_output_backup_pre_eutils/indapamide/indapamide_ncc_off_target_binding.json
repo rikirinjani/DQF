@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide NCC off-target binding",
+    "dimension": "off_target",
+    "target": "NCC"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40163305",
+        "text": "Click Chemistry for Target Engagement Studies. The expanding number of targeted covalent small molecule inhibitors in clinical development increases the importance of identification and quantitation of on- and off-target engagement for these molecules in order to better understand the level of target binding and inhibition and potential side effects. Here we describe the optimization of a click chemistry-based chemoproteomic approach, to study the target engagement of covalent molecules. Using the BTK inhib",
+        "score": 0.4251558482646942,
+        "doi": "10.1007/978-1-0716-4418-8_11",
+        "journal": "Methods in molecular biology (Clifton, N.J.)",
+        "year": "2025",
+        "rerank_score": -3.0375216007232666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24696502",
+        "text": "Quantitative chemical proteomics identifies novel targets of the anti-cancer multi-kinase inhibitor E-3810. Novel drugs are designed against specific molecular targets, but almost unavoidably they bind non-targets, which can cause additional biological effects that may result in increased activity or, more frequently, undesired toxicity. Chemical proteomics is an ideal approach for the systematic identification of drug targets and off-targets, allowing unbiased screening of candidate interactors in their na",
+        "score": 0.41150131821632385,
+        "doi": "10.1074/mcp.M113.034173",
+        "journal": "Molecular & cellular proteomics : MCP",
+        "year": "2014",
+        "rerank_score": -3.2301573753356934,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38457625",
+        "text": "Measuring Ligand-bound Protein Complexes with Proximity Labeling: A Practical Guide. Identifying the drug-target interactome of small molecule therapeutics is essential for understanding the full pharmacological effects of a compound. These therapies often induce changes within the cellular proteome, leading to unexpected consequences such as changes in the targets complexation state or off-target interactions between the compound and additional proteins. Currently, unbiased target-ID approaches are being u",
+        "score": 0.427350252866745,
+        "doi": "10.1002/cbic.202400073",
+        "journal": "Chembiochem : a European journal of chemical biology",
+        "year": "2024",
+        "rerank_score": -5.473012924194336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

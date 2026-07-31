@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril ACE adverse effect pathway",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40937230",
+        "text": "Angiotensin-Converting Enzyme Inhibitor (ACEI)-Induced Angioedema After Re-exposure to Lisinopril: A Case Report and Clinical Review. Angiotensin-converting enzyme inhibitor (ACEI)-induced angioedema is an uncommon but potentially life-threatening adverse effect that can occur unpredictably, even after prolonged use. Prompt recognition and appropriate management are essential. We present the case of a 54-year-old Caucasian male with a history of ACEI-induced angioedema who developed isolated lingual swellin",
+        "score": 0.4364633560180664,
+        "doi": "10.7759/cureus.89784",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 4.398698806762695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39337588",
+        "text": "The Impact of the Angiotensin-Converting Enzyme Inhibitor Lisinopril on Metabolic Rate in  Evidence suggests that angiotensin-converting enzyme inhibitors (ACEIs) may increase metabolic rate by promoting thermogenesis, potentially through enhanced fat oxidation and improved insulin. More research is, however, needed to understand this intricate process. In this study, we used 22 lines from the",
+        "score": 0.45440053939819336,
+        "doi": "10.3390/ijms251810103",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 2.7929553985595703,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39938967",
+        "text": "Profound hypotension following concomitant administration of tizanidine and lisinopril. Tizanidine, a muscle relaxant, exerts its mechanism as a centrally acting alpha-2 adrenergic receptor agonist and binds to imidazoline receptors. Bradycardia and hypotension are adverse effects associated with alpha-2 adrenergic receptor agonists. A man in his 50s with a medical history of hypertension and chronic back pain presented with chest pain and hypertension. Pertinent medication history included metoprolol tartr",
+        "score": 0.44975391030311584,
+        "doi": "10.1136/bcr-2024-262982",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": 2.4849045276641846,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole drug interaction CYP2C19 CYP3A4 clopidogrel",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21392639",
+        "text": "Clopidogrel-drug interactions. Multidrug therapy increases the risk for drug-drug interactions. Clopidogrel, a prodrug, requires hepatic cytochrome P450 (CYP) metabolic activation to produce the active metabolite that inhibits the platelet P2Y₁₂ adenosine diphosphate (ADP) receptor, decreasing platelet activation and aggregation processes. Atorvastatin, omeprazole, and several other drugs have been shown in pharmacodynamic studies to competitively inhibit CYP activation of clopidogrel, reducing clopidogrel ",
+        "score": 0.3715342581272125,
+        "doi": "10.1016/j.jacc.2010.11.024",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2010",
+        "rerank_score": 6.327901840209961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.40727874636650085,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 6.084763526916504,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38817377",
+        "text": "Computational drug-drug interaction prediction mediated by CYP450 isoforms of Ilaprazole coadministered with clopidogrel. Ilaprazole due to its pharmacokinetic variability does not affect the clopidogrel efficacy during concomitant use.",
+        "score": 0.4323800802230835,
+        "doi": "10.2144/fsoa-2023-0277",
+        "journal": "Future science OA",
+        "year": "2024",
+        "rerank_score": 5.310743808746338,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

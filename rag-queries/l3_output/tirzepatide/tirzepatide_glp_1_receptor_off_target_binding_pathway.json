@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide GLP-1 receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11498540",
+        "text": "A small molecule ligand of the glucagon-like peptide 1 receptor targets its amino-terminal hormone binding domain. The glucagon-like peptide 1 receptor (GLP-1R) belongs to a distinct subgroup of G protein-coupled peptide hormone receptors (class B) that has been difficult to target by small molecule drugs. Here, we report that a non-peptide compound, T-0632, binds with micromolar affinity to the human GLP-1R and blocks GLP-1-induced cAMP production. Furthermore, the observation that T-0632 has almost 100-fo",
+        "score": 0.3659438490867615,
+        "doi": "10.1074/jbc.M106692200",
+        "journal": "The Journal of biological chemistry",
+        "year": "2001",
+        "rerank_score": 4.086364269256592,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36313764",
+        "text": "Clinical perspectives on the use of the GIP/GLP-1 receptor agonist tirzepatide for the treatment of type-2 diabetes and obesity. Incretin-based therapies with glucagon-like peptide-1 receptor agonists (GLP-1RA) are already established in the treatment of type 2 diabetes (T2D). The development of novel dual- or triple-receptor agonists that bind to the receptors not only for GLP-1 but also to the receptors for glucose-dependent insulinotropic polypeptide (GIP) and/or glucagon is intended to address different",
+        "score": 0.35084667801856995,
+        "doi": "10.3389/fendo.2022.1004044",
+        "journal": "Frontiers in endocrinology",
+        "year": "2022",
+        "rerank_score": 3.8851752281188965,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25449603",
+        "text": "Agonist-induced internalisation of the glucagon-like peptide-1 receptor is mediated by the Gαq pathway. The glucagon-like peptide-1 receptor (GLP-1R) is a G-protein-coupled receptor (GPCR) and an important target in the treatment of type 2 diabetes mellitus (T2DM). Upon stimulation with agonist, the GLP-1R signals through both Gαs and Gαq coupled pathways to stimulate insulin secretion. The agonist-induced GLP-1R internalisation has recently been shown to be important for insulin secretion. However, the mol",
+        "score": 0.3645329773426056,
+        "doi": "10.1016/j.bcp.2014.10.015",
+        "journal": "Biochemical pharmacology",
+        "year": "2014",
+        "rerank_score": 3.7939257621765137,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

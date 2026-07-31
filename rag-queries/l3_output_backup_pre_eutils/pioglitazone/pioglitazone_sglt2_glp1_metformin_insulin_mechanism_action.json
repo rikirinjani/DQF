@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pioglitazone SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.38804465532302856,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 3.6099679470062256,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38558280",
+        "text": "Effect of combination pioglitazone with sodium-glucose cotransporter-2 inhibitors or glucagon-like peptide-1 receptor agonists on outcomes in type 2 diabetes: A systematic review, meta-analysis, and real-world study from an international federated database. To evaluate the efficacy and cardiovascular outcomes of combination pioglitazone with either a glucagon-like peptide-1 receptor agonist (GLP-1RA) or a sodium-glucose cotransporter-2 (SGLT2) inhibitor in individuals with type 2 diabetes (T2D) by conductin",
+        "score": 0.3479238450527191,
+        "doi": "10.1111/dom.15576",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 3.3155782222747803,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40620743",
+        "text": "Pioglitazone with SGLT2 inhibitors or GLP-1 receptor agonists in patients with type 2 diabetes and non-alcoholic fatty liver disease: could the combinations of an old friend with new players yield better outcomes? More than 25% of the adult population worldwide and approximately 50-75% of patients with type 2 diabetes are diagnosed with non-alcoholic fatty liver disease. Insulin resistance is one of the most crucial factors underlying its pathogenesis and a significant determinant of its progression to non-",
+        "score": 0.37180182337760925,
+        "doi": "10.5114/amsad/202298",
+        "journal": "Archives of medical sciences. Atherosclerotic diseases",
+        "year": "2024",
+        "rerank_score": 3.098062515258789,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

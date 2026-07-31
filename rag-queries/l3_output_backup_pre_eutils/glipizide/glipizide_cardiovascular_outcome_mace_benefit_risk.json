@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39616304",
+        "text": "Role of Incretin Mimetics in Cardiovascular Outcomes and Other Classical Cardiovascular Risk Factors beyond Obesity and Diabetes Mellitus in Nondiabetic Adults with Obesity: a Meta-analysis of Randomized Controlled Trials. Emerging data on cardiovascular outcomes, specifically major adverse cardiovascular events (MACE), are being reported from various trials involving incretin mimetics, such as glucagon-like peptide-1 receptor agonists (GLP-1 RA) and glucose-dependent insulinotropic polypeptide (GIP), espec",
+        "score": 0.4076833128929138,
+        "doi": "10.1007/s40256-024-00695-9",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2024",
+        "rerank_score": 2.7353758811950684,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41138739",
+        "text": "Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial. The SELECT trial found semaglutide reduced major adverse cardiovascular events (MACE) in patients with overweight or obesity with cardiovascular disease but without diabetes. We report a prespecified analysis of the SELECT trial on the relationships between baseline adiposity measures, treatment-induced adiposity changes, and subsequent MACE risk. Patients aged at least 45 ",
+        "score": 0.4068974256515503,
+        "doi": "10.1016/S0140-6736(25)01375-3",
+        "journal": "Lancet (London, England)",
+        "year": "2025",
+        "rerank_score": 2.7163355350494385,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38840935",
+        "text": "GLP-1 RA for cardiometabolic risk reduction in obesity - How do we best describe benefit and value? How do we assess the overall benefit and value of GLP1-RAs? Current clinical trials often focus narrowly on individual atherosclerotic cardiovascular endpoints like MACE, potentially missing broader GLP-1 RA benefits across multiple comorbidities. Herein, we set out a framework for expanding outcome analyses in large trials that we believe will provide a more holistic understanding of GLP-1 RA benefits across",
+        "score": 0.40771690011024475,
+        "doi": "10.1016/j.ajpc.2024.100682",
+        "journal": "American journal of preventive cardiology",
+        "year": "2024",
+        "rerank_score": 2.7025504112243652,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

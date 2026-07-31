@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38387480",
+        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
+        "score": 0.42800605297088623,
+        "doi": "10.1055/a-2239-2668",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": 2.4199063777923584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39541216",
+        "text": "Neuregulin 4 attenuates pancreatic β-cell apoptosis induced by lipotoxicity via activating mTOR-mediated autophagy. Neuregulin 4 (Nrg4) is a brown fat-enriched endocrine factor that ameliorates lipid metabolism disorders. Autophagy is critical for pancreatic β-cell to counteract lipotoxicity-induced apoptosis. This study aimed at exploring whether Nrg4 attenuates lipotoxicity-induced β-cell apoptosis by regulating autophagy. The mouse pancreatic β-cell line MIN6 was cultured in palmitic acid (PA) with or wi",
+        "score": 0.4300205707550049,
+        "doi": "10.1080/19382014.2024.2429854",
+        "journal": "Islets",
+        "year": "2024",
+        "rerank_score": 0.8671813011169434,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39225043",
+        "text": "Mangiferin prevents glucolipotoxicity-induced pancreatic beta-cell injury through modulation of autophagy  The aim of this study was to investigate the protective effects of Mangiferin (MG) on glucolipotoxicity-induced pancreatic beta-cell injury. In vivo administration of MG significantly reduced the level of blood glucose in high-fat diet (HFD)-fed mice. MG treatment inhibited beta-cell apoptosis in HFD-treated mice.",
+        "score": 0.4361043870449066,
+        "doi": "10.1080/13813455.2024.2387697",
+        "journal": "Archives of physiology and biochemistry",
+        "year": "2025",
+        "rerank_score": 0.762482762336731,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

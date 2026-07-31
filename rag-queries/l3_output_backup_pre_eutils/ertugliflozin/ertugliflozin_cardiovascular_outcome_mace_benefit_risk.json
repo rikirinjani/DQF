@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28526181",
+        "text": "EMPA-REG OUTCOME: The Cardiologist's Point of View. Cardiologists could view empagliflozin as a cardiovascular drug that also has a beneficial effect on reducing hyperglycemia in patients with type 2 diabetes mellitus (T2DM). The effects of empagliflozin in lowering the risk of cardiovascular death and hospitalization for heart failure in T2DM patients with high cardiovascular risk during the recent Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients-Removing Excess Glucose",
+        "score": 0.39534786343574524,
+        "doi": "10.1016/j.amjmed.2017.04.006",
+        "journal": "The American journal of medicine",
+        "year": "2017",
+        "rerank_score": 5.407735824584961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28606345",
+        "text": "EMPA-REG OUTCOME: The Cardiologist's Point of View. Cardiologists could view empagliflozin as a cardiovascular drug that also has a beneficial effect on reducing hyperglycemia in patients with type 2 diabetes mellitus (T2DM). The effects of empagliflozin in lowering the risk of cardiovascular death and hospitalization for heart failure in T2DM patients with high cardiovascular risk during the recent Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients-Removing Excess Glucose",
+        "score": 0.39534786343574524,
+        "doi": "10.1016/j.amjcard.2017.05.011",
+        "journal": "The American journal of cardiology",
+        "year": "2017",
+        "rerank_score": 5.407735824584961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26819227",
+        "text": "Heart failure outcomes with empagliflozin in patients with type 2 diabetes at high cardiovascular risk: results of the EMPA-REG OUTCOME® trial. We previously reported that in the EMPA-REG OUTCOME(®) trial, empagliflozin added to standard of care reduced the risk of 3-point major adverse cardiovascular events, cardiovascular and all-cause death, and hospitalization for heart failure in patients with type 2 diabetes and high cardiovascular risk. We have now further investigated heart failure outcomes in all p",
+        "score": 0.3966338634490967,
+        "doi": "10.1093/eurheartj/ehv728",
+        "journal": "European heart journal",
+        "year": "2015",
+        "rerank_score": 5.396635055541992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

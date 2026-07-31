@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41519257",
+        "text": "Acute liver injury associated with tirzepatide: an unexpected adverse event warranting clinical attention. Tirzepatide is a novel dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist approved for the treatment of type-2 diabetes and for weight management. While generally well-tolerated, common adverse effects include gastrointestinal symptoms such as nausea and vomiting. Hepatotoxicity is not a widely recognized complication of tirzepatide, and reporte",
+        "score": 0.4163041114807129,
+        "doi": "10.1016/j.ando.2026.102485",
+        "journal": "Annales d'endocrinologie",
+        "year": "2025",
+        "rerank_score": 3.1236610412597656,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40621252",
+        "text": "Life-Threatening Ventricular Fibrillation Linked to High-Dose Tirzepatide-Induced Gastrointestinal Side Effects. Tirzepatide is a long-acting agonist of glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptors, used for the treatment of type 2 diabetes and obesity, and recently approved for obstructive sleep apnea. It is known to cause gastrointestinal (GI) side effects; however, these are generally not severe enough to be life-threatening. We present a unique case of a 57-year-old",
+        "score": 0.4258158802986145,
+        "doi": "10.7759/cureus.85366",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 1.1051404476165771,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41179268",
+        "text": "Tirzepatide-Induced Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) Presenting With Seizures. Tirzepatide (Mounjaro), a novel, dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist, is increasingly prescribed for type 2 diabetes and off-label weight loss. While gastrointestinal adverse effects are common, hyponatremia induced by tirzepatide is rarely reported. We report a 63-year-old woman with no significant past medical history who de",
+        "score": 0.4386352300643921,
+        "doi": "10.1210/jcemcr/luaf261",
+        "journal": "JCEM case reports",
+        "year": "2025",
+        "rerank_score": -0.2883248031139374,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

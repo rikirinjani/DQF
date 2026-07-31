@@ -1,0 +1,27 @@
+{
+  "bp_reduction": 3,
+  "renal_protection": 1,
+  "metabolic_effect": 3,
+  "electrolyte_risk": 1,
+  "ddi_risk": 1,
+  "heart_rate_effect": "none",
+  "_evidence": {
+    "pmids": [
+      "10094095",
+      "12519611",
+      "1678920",
+      "1678922",
+      "1678924",
+      "2872801",
+      "2872802",
+      "35244207",
+      "7510622"
+    ],
+    "source_count": 11,
+    "finding_count": 14,
+    "pool_relevance_pct": 35.0,
+    "filtered_off_drug": 26,
+    "relevance_gate": "pass"
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

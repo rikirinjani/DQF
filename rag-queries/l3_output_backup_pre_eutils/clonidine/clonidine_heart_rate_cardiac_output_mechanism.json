@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40339951",
+        "text": "Using Clonidine for neuromodulation in patients with postural orthostatic tachycardia syndrome. Microneurography studies showed that the alpha-2 agonist clonidine suppresses sympathetic nerve activity. However, clonidine's neuromodulation effects in ambulatory patients are unknown. To test the hypothesis that clonidine suppresses skin sympathetic nerve activity (SKNA) and decreases heart rate (HR) in patients with hyperadrenergic postural orthostatic tachycardia syndrome (POTS). This prospective observation",
+        "score": 0.3973047733306885,
+        "doi": "10.1016/j.hrthm.2025.05.003",
+        "journal": "Heart rhythm",
+        "year": "2025",
+        "rerank_score": 0.8257061243057251,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40439887",
+        "text": "Contractile effects of dexmedetomidine in the human heart. Dexmedetomidine is an approved drug that is chemically related to clonidine. Dexmedetomidine is used to induce sedation and anxiolysis. These therapeutic effects of dexmedetomidine are explained by its agonistic action on brain α",
+        "score": 0.4644642472267151,
+        "doi": "10.1007/s00210-025-04192-x",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2024",
+        "rerank_score": -2.30863881111145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.44207563996315,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -3.5832836627960205,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38170502",
+        "text": "Hypoglycemia and Cardiovascular Outcomes in the CARMELINA and CAROLINA Trials of Linagliptin: A Secondary Analysis of Randomized Clinical Trials. Previous studies have reported an association between hypoglycemia and cardiovascular (CV) events in people with type 2 diabetes (T2D), but it is unclear if this association is causal or identifies a high-risk patient phenotype. To evaluate the associations between hypoglycemia and CV outcomes. This secondary analysis was a post hoc assessment of the multinational",
+        "score": 0.43512850999832153,
+        "doi": "10.1001/jamacardio.2023.4602",
+        "journal": "JAMA cardiology",
+        "year": "2024",
+        "rerank_score": 3.574530839920044,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39665898",
+        "text": "In-hospital linagliptin for management simplification and hypoglycemia reduction in very old patients with type 2 diabetes. The role of in-hospital dipeptidyl peptidase-4 inhibitors in very old patients has not been widely described. This work analyzes the simplification of in-hospital antihyperglycemic management (less insulin use) and reductions in hypoglycemia events using linagliptin in patients aged≥80 years with type 2 diabetes. This real-world observational study included hospitalized patients≥80 yea",
+        "score": 0.39803624153137207,
+        "doi": "10.1016/j.medcli.2024.10.021",
+        "journal": "Medicina clinica",
+        "year": "2024",
+        "rerank_score": 1.245329737663269,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40337567",
+        "text": "Renoprotective Action of Linagliptin Among Diabetic Kidney Disease Patients: A Systematic Review and Meta-Analysis. Despite pharmacological and lifestyle changes, hyperglycemia management in type 2 diabetes mellitus patients, combined with a risk for cardio-renal problems, continues to present a significant challenge for doctors. Linagliptin has been found to have a renoprotective effect in diabetic nephropathy patients in recent studies. This systematic review and meta-analysis (SRMA) was conducted to synt",
+        "score": 0.44989752769470215,
+        "doi": "10.7759/cureus.81833",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 0.3000609576702118,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole gastric parietal cell proton pump inhibition mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39979415",
+        "text": "Site-specific activation of the proton pump inhibitor rabeprazole by tetrathiolate zinc centres. Proton pump inhibitors have become top-selling drugs worldwide. Serendipitously discovered as prodrugs that are activated by protonation in acidic environments, proton pump inhibitors inhibit stomach acid secretion by covalently modifying the gastric proton pump. Despite their widespread use, alternative activation mechanisms and potential target proteins in non-acidic environments remain poorly understood. Empl",
+        "score": 0.3547421097755432,
+        "doi": "10.1038/s41557-025-01745-8",
+        "journal": "Nature chemistry",
+        "year": "2024",
+        "rerank_score": 4.534053325653076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9701531",
+        "text": "An ascending single-dose safety and tolerance study of an oral formulation of rabeprazole (E3810). Proton pump inhibitors such as omeprazole produce a long-lasting inhibition of gastric acid secretion associated with significant increases in plasma gastrin. Rabeprazole (E3810) is a new substituted benzimidazole H+,K+ ATPase inhibitor. It acts as an irreversible, non-competitive inhibitor of the H+,K+ ATPase and preliminary studies demonstrate that rabeprazole produces a potent and long-lasting inhibition of",
+        "score": 0.3361169695854187,
+        "doi": "10.1046/j.1365-2036.1998.00356.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "1998",
+        "rerank_score": 4.24940824508667,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40554569",
+        "text": "Computational design and cheminformatics profiling of omeprazole derivatives for enhanced proton pump inhibition of potassium-transporting ATPase alpha chain 1. Proton pump inhibitors are essential for treating moderate-to-severe gastroesophageal reflux, peptic ulcers, esophagitis, and related conditions by increasing gastric pH and inhibiting hydrogen ion discharge into the stomach. However, prolonged use may lead to adverse effects along with reduced efficacy. Our research investigates the strategic modif",
+        "score": 0.38812127709388733,
+        "doi": "10.1371/journal.pone.0326655",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": 3.892066478729248,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan AT1 receptor off-target binding",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39094905",
+        "text": "Valsartan as a prophylactic treatment against breast cancer development and niche activation: What molecular sequels follow chronic AT-1R blockade? Transactivation of insulin-growth-factor-receptor (IGF-1R) by angiotensin-II-type-1-receptor (AT-1R) was only demonstrated in vascular-smooth-muscle cells and has never been tested in breast-cancer (BC). This investigation addressed the impact of chronic AT-1R blockade by valsartan (Val) on possible concurrent AT-1R/IGF-1R signaling inhibition, regressing BC-tum",
+        "score": 0.40211617946624756,
+        "doi": "10.1016/j.lfs.2024.122939",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": 3.2850961685180664,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41563829",
+        "text": "Shifting the PPARγ conformational ensemble toward a transcriptionally repressive state improves covalent inhibitor efficacy. The nuclear receptor peroxisome proliferator-activated receptor gamma (PPARγ) regulates transcription in response to ligand binding at an orthosteric pocket within the ligand-binding domain (LBD). We previously showed that two covalent ligands, T0070907 and GW9662-extensively used as PPARγ inhibitors to assess off-target activity-weaken but do not completely block ligand binding via a",
+        "score": 0.39697620272636414,
+        "doi": "10.7554/eLife.106697",
+        "journal": "eLife",
+        "year": "2026",
+        "rerank_score": -1.4088236093521118,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40093152",
+        "text": "Shifting the PPARγ conformational ensemble towards a transcriptionally repressive state improves covalent inhibitor efficacy. The nuclear receptor peroxisome proliferator-activated receptor gamma (PPARγ) regulates transcription in response to ligand binding at an orthosteric pocket within the ligand-binding domain (LBD). We previously showed that two covalent ligands, T0070907 and GW9662-extensively used as PPARγ inhibitors to assess off-target activity-weaken but do not completely block ligand binding via ",
+        "score": 0.39786460995674133,
+        "doi": "10.1101/2025.03.04.640448",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2025",
+        "rerank_score": -1.431830883026123,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

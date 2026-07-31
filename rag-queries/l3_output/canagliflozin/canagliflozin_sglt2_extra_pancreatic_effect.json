@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin SGLT2 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40223360",
+        "text": "Canagliflozin-induced renal glutathione distribution mapping in non-diabetic male rat kidneys. Canagliflozin, a sodium glucose cotransporter 2 (SGLT2) inhibitor, has direct renoprotective effects beyond lowering blood glucose levels. The inhibition of sodium reabsorption via SGLT2 reduces the overload on proximal tubules, thereby suppressing the generation of reactive oxygen species (ROS) and preventing a decline in renal function. To clarify the pharmacological mechanism of SGLT2 inhibitor, we investigated",
+        "score": 0.34000164270401,
+        "doi": "10.14814/phy2.70320",
+        "journal": "Physiological reports",
+        "year": "2025",
+        "rerank_score": 6.058433532714844,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38188970",
+        "text": "Effects of canagliflozin on myocardial microvascular density, oxidative stress, and proteomic profile Sodium-glucose cotransporter-2 inhibitors (SGLT2i) are cardioprotective, and canagliflozin (CANA), an SGLT2i, has been shown to improve perfusion, AMPK signaling, and oxidative stress in chronically ischemic myocardium. The aim of this study is to determine the effects of CANA in nonischemic myocardium on coronary collateralization, oxidative stress, and other molecular pathways determined by proteomic prof",
+        "score": 0.3433223366737366,
+        "doi": "10.1016/j.jmccpl.2023.100052",
+        "journal": "Journal of molecular and cellular cardiology plus",
+        "year": "2024",
+        "rerank_score": 5.423444747924805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41461812",
+        "text": "Canagliflozin restores electrical properties and suppresses structural damage in isoproterenol-induced myocardial injury models. Canagliflozin (Cana), a sodium-glucose cotransporter 2 (SGLT2) inhibitor with additional affinity for SGLT1, has demonstrated cardioprotective effects. However, its role in modulating ventricular electrophysiology and structural remodeling under stress conditions remains insufficiently characterized. We have previously reported electrical and structural remodeling in a rat model o",
+        "score": 0.34104105830192566,
+        "doi": "10.1038/s41598-025-29126-8",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 5.231778621673584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

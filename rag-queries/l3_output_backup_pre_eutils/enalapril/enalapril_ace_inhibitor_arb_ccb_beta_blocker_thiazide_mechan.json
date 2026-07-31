@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31969300",
+        "text": "Enalapril protect human lymphocytes from genotoxicity of Hydrochlorothiazide. Hydrochlorothiazide (HCTZ) belongs to the thiazide diuretics family that is used for the treatment of hypertension. Enalapril is another drug that is used for the treatment of hypertension. Recently, both drugs were combined in a single medication called vaseretic that showed a strong synergistic effect against hypertension. The aim of this investigation is to examine genotoxicity of HCTZ/enalapril on chromosomal damage by measuri",
+        "score": 0.39612632989883423,
+        "doi": "",
+        "journal": "Pakistan journal of pharmaceutical sciences",
+        "year": "2020",
+        "rerank_score": 0.5553746819496155,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4035433828830719,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.28136101365089417,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2916665",
+        "text": "Reversible downregulation of thiazide diuretic receptors by acute renal ischemia. Receptors for thiazide diuretic drugs in the rat renal cortex have recently been identified through the binding of [3H]metolazone, a potent diuretic with a thiazide-like mechanism of action. The present studies describe the rapid and reversible alterations that occur in thiazide receptors following acute renal ischemia in the rat. The apparent density of thiazide receptors in kidney membranes as measured by the binding of [3H]",
+        "score": 0.3950982093811035,
+        "doi": "10.1152/ajprenal.1989.256.2.F329",
+        "journal": "The American journal of physiology",
+        "year": "1989",
+        "rerank_score": -1.441038727760315,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

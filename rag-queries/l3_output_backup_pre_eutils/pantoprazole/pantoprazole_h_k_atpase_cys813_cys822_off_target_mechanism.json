@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole H+/K+ ATPase (Cys813+Cys822) off-target mechanism",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813+Cys822)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40413744",
+        "text": "Assembly and cooperative mechanism of the hexameric fungal plasma membrane H The fungal plasma membrane H+-ATPase Pma1 hydrolyzes ATP to pump protons out of the cell to maintain the intracellular pH and membrane potential. Pma1 is unique among the P-type ATPases as it functions as a hexamer, although the underlying mechanism has been unclear. Here, we show that the Pma1 hexamer functions cooperatively, and the cooperativity is mediated by the domain-swapped N-terminal extension (NTE). The NTE of one Pma1 su",
+        "score": 0.4118543863296509,
+        "doi": "10.1016/j.celrep.2025.115753",
+        "journal": "Cell reports",
+        "year": "2024",
+        "rerank_score": -1.288343071937561,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39707503",
+        "text": "V-ATPase in cancer: mechanistic insights and therapeutic potentials. Vacuolar-type H+-ATPase (V-ATPase) is a crucial proton pump that plays an essential role in maintaining intracellular pH homeostasis and a variety of physiological processes. This review provides an in-depth exploration of the structural components, functional mechanisms, and regulatory modes of V-ATPase in cancer cells. Comprising two main domains, V",
+        "score": 0.3970290422439575,
+        "doi": "10.1186/s12964-024-01998-9",
+        "journal": "Cell communication and signaling : CCS",
+        "year": "2024",
+        "rerank_score": -2.859650135040283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40498833",
+        "text": "ATP13A1 engages SEC61 to facilitate substrate-specific translocation. The accurate targeting of proteins to their designated cellular compartments is essential for maintaining proper cellular architecture and function. However, interpreting and sorting the highly variable targeting sequences in secreted and membrane proteins present a substantial challenge for achieving precise localization within the secretory pathway. In this study, we demonstrate that atypical signal sequences, characterized by high hydr",
+        "score": 0.3950953483581543,
+        "doi": "10.1126/sciadv.adt1346",
+        "journal": "Science advances",
+        "year": "2025",
+        "rerank_score": -2.9359853267669678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

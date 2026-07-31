@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.40337973833084106,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.8684355020523071,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39369847",
+        "text": "Hypoxanthine ameliorates diet-induced insulin resistance by improving hepatic lipid metabolism and gluconeogenesis via AMPK/mTOR/PPARα pathway. Insulin resistance (IR) is a pivotal metabolic disorder associated with type 2 diabetes and metabolic syndrome. This study investigated the potential of hypoxanthine (Hx), a purine metabolite and uric acid precursor, in ameliorating IR and regulating hepatic glucose and lipid metabolism. We utilized both in vitro IR-HepG2 cells and in vivo diet-induced IR mice to in",
+        "score": 0.3887704610824585,
+        "doi": "10.1016/j.lfs.2024.123096",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": -1.3727389574050903,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41012372",
+        "text": "Evaluation of the Effects of High Uric Acid on Glucolipid Metabolism, Renal Injury and the Gut Microbiota in Diabetic Male Hamsters with Dyslipidemia. The prevalence of hyperuricemia with elevated serum uric acid is increasing worldwide. However, the effects of high uric acid on diabetic patients with dyslipidemia and the mechanisms underlying these effects remain unexplored. This study aimed to develop a novel diabetic model of hyperuricemia and dyslipidemia in male hamsters to evaluate the effects of high",
+        "score": 0.3851562440395355,
+        "doi": "10.3390/toxics13090751",
+        "journal": "Toxics",
+        "year": "2025",
+        "rerank_score": -2.187836170196533,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

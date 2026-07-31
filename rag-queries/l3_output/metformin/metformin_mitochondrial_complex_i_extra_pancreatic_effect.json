@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin mitochondrial complex I extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "mitochondrial complex I"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40344214",
+        "text": "Metformin aggravates pancreatitis by regulating the release of oxidised mitochondrial DNA via the frataxin (FXN)/ninjurin 1 (NINJ1) signalling pathway. Patients with diabetes are at a higher risk of developing acute pancreatitis compared to those without diabetes. Therefore, it is essential to investigate the effects of metformin, a primary treatment for type 2 diabetes, on the progression of pancreatitis. Network pharmacology was employed to investigate the potential effects of metformin on pancreatitis an",
+        "score": 0.40062883496284485,
+        "doi": "10.1111/bph.70065",
+        "journal": "British journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 4.0830793380737305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969273",
+        "text": "High-dose metformin treatment to inhibit complex I during early reperfusion protects the aged mouse heart via decreased mitochondrial permeability transition pore opening. Acute, high-dose metformin (MET, 2 mM) results in partial complex I inhibition in ischemia (ISC)-modified mitochondria. Mitochondrial permeability transition pore (MPTP) opening increases cardiac injury during ISC-reperfusion (REP). We evaluated whether MET (2 mM) can decrease MPTP opening in aged hearts during REP. Sestrin2 (Sesn2) regul",
+        "score": 0.41439926624298096,
+        "doi": "10.1016/j.jpet.2024.100529",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "year": "2024",
+        "rerank_score": 3.9398207664489746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32495867",
+        "text": "Metformin reduces pancreatic cancer cell proliferation and increases apoptosis through MTOR signaling pathway and its dose-effect relationship. To study the influences of metformin on the proliferation and apoptosis of pancreatic cancer cells and its dose-effect relationship and crucial molecular mechanism.",
+        "score": 0.3633507490158081,
+        "doi": "10.26355/eurrev_202005_21316",
+        "journal": "European review for medical and pharmacological sciences",
+        "year": "2020",
+        "rerank_score": 3.319467782974243,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

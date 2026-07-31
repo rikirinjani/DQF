@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Captopril renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38779756",
+        "text": "Mechanisms of gelofusine protection in an in vitro model of polymyxin B-associated renal injury. Polymyxins are a last-resort treatment option for multidrug-resistant gram-negative bacterial infections, but they are associated with nephrotoxicity. Gelofusine was previously shown to reduce polymyxin-associated kidney injury in an animal model. However, the mechanism(s) of renal protection has not been fully elucidated. Here, we report the use of a cell culture model to provide insights into the mechanisms of",
+        "score": 0.4284761846065521,
+        "doi": "10.1152/ajprenal.00029.2024",
+        "journal": "American journal of physiology. Renal physiology",
+        "year": "2024",
+        "rerank_score": 0.6329895853996277,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40017009",
+        "text": "Reno-protective impact of diosmin and perindopril in amikacin-induced nephrotoxicity rat model: modulation of SIRT1/p53/C-FOS, NF-κB-p65, and keap-1/Nrf2/HO-1 signaling pathways. Amikacin (AMC), an aminoglycoside antibiotic known for its rapid and potent bactericidal activity, is also associated with nephrotoxicity. Diosmin and perindopril have been reported to improve renal function and hold promise as therapeutic agents for preventing drug-induced nephrotoxicity. This study aimed to investigate the protec",
+        "score": 0.4027533531188965,
+        "doi": "10.1080/08923973.2025.2469220",
+        "journal": "Immunopharmacology and immunotoxicology",
+        "year": "2025",
+        "rerank_score": -0.5090380311012268,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40857352",
+        "text": "Estrogen-powered kidney protection. Estrogen protects against kidney injury through both genomic and nongenomic mechanisms.",
+        "score": 0.4160858988761902,
+        "doi": "10.1126/scisignal.aeb6175",
+        "journal": "Science signaling",
+        "year": "2025",
+        "rerank_score": -0.8558207154273987,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

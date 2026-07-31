@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Irbesartan ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23563275",
+        "text": "Ability of the new AT1 receptor blocker azilsartan to block angiotensin II-induced AT1 receptor activation after wash-out. The recently approved angiotensin II (Ang II) type 1 (AT1) receptor blocker (ARB) azilsartan strongly reduces blood pressure (BP) in patients with hypertension. We previously reported that azilsartan showed unique binding behavior to the AT1 receptor because of its 5-oxo-1,2,4-oxadiazole moiety. However, the ability of azilsartan to block Ang II-dependent AT1 receptor activation is not ",
+        "score": 0.39187783002853394,
+        "doi": "10.1177/1470320313482170",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2013",
+        "rerank_score": 0.35738345980644226,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41296373",
+        "text": "Adherence, Switches, and Drug Spending After Angiotensin Receptor Blocker Recalls and Shortages. Angiotensin II receptor blockers (ARBs) are common treatments for hypertension, heart failure, and chronic kidney disease. From 2018 to 2019, hundreds of valsartan, losartan, and irbesartan products were recalled due to ingredient impurities. To estimate the impact of the 2018 to 2019 ARB shortages on medication adherence, switches to alternatives, and associated drug spending up to 18 months. This longitudinal ",
+        "score": 0.44058501720428467,
+        "doi": "10.1001/jamahealthforum.2025.4078",
+        "journal": "JAMA health forum",
+        "year": "2025",
+        "rerank_score": 0.26013389229774475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38801809",
+        "text": "Irbesartan mitigates the impact of cyclophosphamide-induced acute neurotoxicity in rats: Shedding highlights on NLRP3 inflammasome/CASP-1 pathway-driven immunomodulation. IIrbesartan (IRB), an angiotensin II type 1 receptor (AT1R) antagonist, has been widely employed in the medical field for its effectiveness in managing hypertension. However, there have been no documented investigations regarding the immunostimulatory properties of IRB. To address this gap, this study has been performed to assess the neuro",
+        "score": 0.4410248398780823,
+        "doi": "10.1016/j.intimp.2024.112336",
+        "journal": "International immunopharmacology",
+        "year": "2024",
+        "rerank_score": 0.17688146233558655,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

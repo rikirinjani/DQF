@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Glargine renal outcome nephropathy kidney protection",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39364792",
+        "text": "Glucagon-like peptide-1 receptor agonists and kidney outcomes. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have gained increasing attention for their potential benefits in people with type 2 diabetes mellitus (T2DM) with chronic kidney disease (CKD). Most supportive evidence of a kidney-protective effect of the GLP-1RA class of medications has been derived from kidney-related outcomes reported from cardiovascular outcome trials (CVOTs). GLP-1RAs have been shown to reduce albuminuria, mitigate cardi",
+        "score": 0.41129031777381897,
+        "doi": "10.1111/1753-0407.13609",
+        "journal": "Journal of diabetes",
+        "year": "2024",
+        "rerank_score": 2.3239386081695557,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41601953",
+        "text": "Insulin restores renal neprilysin (NEP) and attenuates the shedding of urinary NEP and KIM-1 in diabetic Akita mice. Diabetic kidney disease (DKD) is characterized by dysregulation of the renin-angiotensin system (RAS) and renal tubular injury. We investigated whether insulin treatment preserves renal homeostasis by modulating neprilysin (NEP), arginase-2 (Arg-2), and kidney injury molecule-1 (KIM-1) regulation in type 1 diabetic Akita mice. Diabetic Akita mice received three subcutaneous sustained-release ",
+        "score": 0.4087255895137787,
+        "doi": "10.3389/fphar.2025.1679651",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 0.43015798926353455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39167349",
+        "text": "The influence of insulin and incretin-based therapies on renal tubular transport. The tubular function of the kidney is very complex and is finely regulated by many factors. These include a variety of hormonal signaling pathways which are involved in the expression, activation and regulation of renal transporters responsible for the handling of electrolytes. Glucose-lowering drugs such as insulin and incretin-based therapies, exert a well-known renal protective role in diabetic kidney disease, mainly acting",
+        "score": 0.4109262228012085,
+        "doi": "10.1007/s40620-024-02048-w",
+        "journal": "Journal of nephrology",
+        "year": "2024",
+        "rerank_score": 0.2335003763437271,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39814306",
+        "text": "Identification of key antifibrotic targets FPR1, TAS2R5, and LRP2BP of valsartan in diabetic nephropathy: A transcriptomics-driven study integrating machine learning, molecular docking, and dynamics simulations. Diabetic nephropathy (DN) is a major complication of diabetes and a leading cause of renal failure. While valsartan has been shown to alleviate DN clinically, its antifibrotic mechanisms require further investigation. This study used a transcriptomics-driven approach, integrating in vitro, Machine L",
+        "score": 0.3852814733982086,
+        "doi": "10.1016/j.ijbiomac.2025.139842",
+        "journal": "International journal of biological macromolecules",
+        "year": "2024",
+        "rerank_score": 4.000570774078369,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41134841",
+        "text": "Sacubitril/valsartan preserves kidney function in rats with cardiorenal syndrome after myocardial infarction. Renal dysfunction in heart failure increases mortality, limits treatment options and blunts responses to therapy. Angiotensin receptor-blocker and neprilysin inhibitors (ARNI) may preserve renal function by modulating both the renin-angiotensin-aldosterone system and the natriuretic peptide system. We investigated the renal effects of the ARNI Sacubitril/valsartan (Sac/Val) in rats with systolic dys",
+        "score": 0.3686504364013672,
+        "doi": "10.1371/journal.pone.0335214",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": 3.1705167293548584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39361183",
+        "text": "Sacubitril/valsartan reduces proteinuria depending on blood pressure in patients with stage 4-5 chronic kidney disease. Blood pressure (BP) control is an important factor in the management of chronic kidney disease (CKD). Several studies have shown that BP in many patients with CKD remained uncontrolled even with multiple medications. Sacubitril/valsartan, an angiotensin receptor neprilysin inhibitor (ARNI), has been newly approved for treating hypertension in Japan. However, the renoprotective effects rema",
+        "score": 0.39589157700538635,
+        "doi": "10.1007/s10157-024-02561-z",
+        "journal": "Clinical and experimental nephrology",
+        "year": "2024",
+        "rerank_score": 2.2069923877716064,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

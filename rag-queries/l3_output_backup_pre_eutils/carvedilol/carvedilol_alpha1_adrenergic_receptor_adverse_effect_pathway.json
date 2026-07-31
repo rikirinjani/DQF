@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol alpha1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39724907",
+        "text": "CARVEDILOL IN PATIENTS WITH UNCONTROLLED AND RESISTANT ARTERIAL HYPERTENSION. The use of beta-blockers in treating resistant hypertension remains poorly understood. While PATHWAY-2 showed a systolic blood pressure benefit with bisoprolol, further research is needed to evaluate other beta-blockers in terms of the effect of systolic blood pressure, assess diastolic blood pressure effects, and guide management in patients intolerant to CCBs as well. Our study aimed to evaluate the efficacy of Carvedilol (non-s",
+        "score": 0.41807258129119873,
+        "doi": "",
+        "journal": "Georgian medical news",
+        "year": "2024",
+        "rerank_score": 2.686474084854126,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39786370",
+        "text": "Nonselective β-Adrenergic Receptor Inhibitors Impair Hematopoietic Regeneration in Mice and Humans after Hematopoietic Cell Transplants. Peripheral nerves promote mouse bone marrow regeneration by activating β2- and β3-adrenergic receptor signaling, raising the possibility that nonselective β-blockers could inhibit engraftment after hematopoietic cell transplants (HCT). We observed no effect of β-blockers on steady-state mouse hematopoiesis. However, mice treated with a nonselective β-blocker (carvedilol), ",
+        "score": 0.4375747740268707,
+        "doi": "10.1158/2159-8290.CD-24-0719",
+        "journal": "Cancer discovery",
+        "year": "2024",
+        "rerank_score": 2.4046010971069336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40531227",
+        "text": "Carvedilol-loaded self-nanoemulsifying drug delivery system target diabetic nephropathy: preclinical evidence of antioxidant and antifibrotic effects. Diabetic nephropathy (DN) is a significant complication of diabetes, leading to chronic kidney failure and end-stage renal disease. While traditional treatments exist, innovative strategies are being investigated to enhance DN management. This study examines a novel nanosized formulation of carvedilol (CVL), a drug recognized for its β-blocker and α-1-adrenor",
+        "score": 0.4511044919490814,
+        "doi": "10.1007/s00210-025-04356-9",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": 0.9890876412391663,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

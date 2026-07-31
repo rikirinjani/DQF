@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40342327",
+        "text": "The effects of liraglutide on expressions of insulin secretion and beta cell survive associated GPCR genes in pancreatic beta cells. Liraglutide as a long-acting glucagon-like peptide drug has anti-hyperglycemic and antiobesity effects. G protein-coupled receptors (GPCRs) are well-known drug target molecules that conduct critical signaling pathways related with diseases. Research has confirmed the role of many GPCRs genes in the regulation of pancreatic beta cell functions and insulin secretion. Liraglutide",
+        "score": 0.3927692174911499,
+        "doi": "10.55730/1300-0144.5997",
+        "journal": "Turkish journal of medical sciences",
+        "year": "2024",
+        "rerank_score": 3.2603700160980225,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38387480",
+        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
+        "score": 0.38777679204940796,
+        "doi": "10.1055/a-2239-2668",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": 1.8027985095977783,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24535553",
+        "text": "Liraglutide alleviates diabetic cardiomyopathy by blocking CHOP-triggered apoptosis via the inhibition of the IRE-α pathway. Clinically, diabetes mellitus is closely associated with and induces certain cardiovascular diseases. The aim of this study was to investigate endoplasmic reticulum (ER) stress-associated apoptosis of diabetic cardiomyopathy (DCM), and explore the protective mechanism of liraglutide. The DCM model was established with a high-fat diet and streptozotocin (STZ). Cardiac function was dete",
+        "score": 0.364371120929718,
+        "doi": "10.3892/mmr.2014.1956",
+        "journal": "Molecular medicine reports",
+        "year": "2013",
+        "rerank_score": 1.708478569984436,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

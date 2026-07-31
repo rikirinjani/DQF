@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Gliclazide glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.39677858352661133,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 2.169524669647217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40889962",
+        "text": "A comparative analysis of HbA1c, glycated albumin, and fasting plasma glucose for glycemic assessment in people living with HIV. People living with HIV (PLWH) are at increased risk for metabolic disorders, including diabetes and prediabetes. While hemoglobin A1c (HbA1c) is widely used for glycemic assessment, its reliability in PLWH is questioned due to altered red blood cell turnover. Glycated albumin (GA) has been proposed as an alternative, but its diagnostic utility remains unclear in PLWH. This study a",
+        "score": 0.4224110245704651,
+        "doi": "10.1016/j.jmii.2025.08.013",
+        "journal": "Journal of microbiology, immunology, and infection = Wei mian yu gan ran za zhi",
+        "year": "2025",
+        "rerank_score": -2.2939295768737793,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38694251",
+        "text": "A1C: Episode 2.",
+        "score": 0.41062724590301514,
+        "doi": "10.2337/cd24-0009",
+        "journal": "Clinical diabetes : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": -2.6209161281585693,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

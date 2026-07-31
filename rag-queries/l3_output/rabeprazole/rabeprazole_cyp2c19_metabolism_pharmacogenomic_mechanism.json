@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole CYP2C19 metabolism pharmacogenomic mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:37097441",
+        "text": "Effects of CYP2C9 and CYP2C19 genetic polymorphisms on the pharmacokinetics and pharmacodynamics of gliclazide in healthy subjects. Gliclazide metabolism is mediated by genetically polymorphic CYP2C9 and CYP2C19 enzymes. We investigated the effects of CYP2C9 and CYP2C19 genetic polymorphisms on the pharmacokinetics and pharmacodynamics of gliclazide. Twenty-seven Korean healthy volunteers were administered a single oral dose of gliclazide 80 mg. The plasma concentration of gliclazide was quantified for the ",
+        "score": 0.35935723781585693,
+        "doi": "10.1007/s12272-023-01448-z",
+        "journal": "Archives of pharmacal research",
+        "year": "2022",
+        "rerank_score": 3.8121163845062256,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39663234",
+        "text": "The CYP2C19 enzyme is implicated in the metabolism of several clinically used drugs. Its phenotype is usually predicted by genotyping and indicates the expected enzymatic activity for each patient. However, with a few exceptions,",
+        "score": 0.3899909257888794,
+        "doi": "10.1515/dmpt-2024-0093",
+        "journal": "Drug metabolism and personalized therapy",
+        "year": "2024",
+        "rerank_score": 3.5122270584106445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41549095",
+        "text": "Pharmacokinetic recall study of Estonian Biobank participants with novel genetic variants in CYP2C19 and CYP2D6. CYP2C19 and CYP2D6 are involved in the hepatic metabolism of approximately 35-40% of clinically used drugs. We conducted an in vivo phenotyping study encompassing 114 Estonian Biobank participants to evaluate the functional impact of rare or novel single-nucleotide and structural variants in the CYP2C19 and CYP2D6 genes using omeprazole and metoprolol as respective probe drugs. Plasma concentrati",
+        "score": 0.38509228825569153,
+        "doi": "10.1038/s41525-025-00549-6",
+        "journal": "NPJ genomic medicine",
+        "year": "2025",
+        "rerank_score": 3.4775421619415283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

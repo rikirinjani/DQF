@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nifedipine cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:634205",
+        "text": "[The effect of nifedipine on the pulmonary artery pressure in patients with coronary heart disease (author's transl)]. Nifedipine was administered in a dose of 30 mg orally to 14 patients with coronary heart disease and clinical evidence of left heart failure. Measurements of pulmonary artery and pulmonary wedge pressure were performed before and 1, 2 and 4 hours after administration of Nifedipine at rest and under loading conditions. The effects were characterized by a significant decrease in systolic, mea",
+        "score": 0.3981083631515503,
+        "doi": "",
+        "journal": "",
+        "year": "",
+        "rerank_score": 0.2747749388217926,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4306145906448364,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.19663453102111816,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39359755",
+        "text": "Corticosteroid-induced bradycardia following high-dose methylprednisolone administration: a case report. Besides their wide use in the clinical field due to their anti-inflammatory and immune-modulating effect, corticosteroids still have a lot of adverse effects. The most common adverse effects are hyperglycemia, hypertension, osteoporosis, psychosis, immunosuppression, weight gain, and hyperlipidemia. Another important side effect is cardiac arrhythmias. We report a case of a 43-year-old woman with multipl",
+        "score": 0.46942248940467834,
+        "doi": "10.1097/MS9.0000000000002530",
+        "journal": "Annals of medicine and surgery (2012)",
+        "year": "2024",
+        "rerank_score": -1.0844979286193848,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

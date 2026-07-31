@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin DPP-4 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:22162539",
+        "text": "Quantitative model of the relationship between dipeptidyl peptidase-4 (DPP-4) inhibition and response: meta-analysis of alogliptin, saxagliptin, sitagliptin, and vildagliptin efficacy results. Dipeptidyl peptidase-4 (DPP-4) inhibition is a well- characterized treatment for type 2 diabetes mellitus (T2DM). The objective of this model-based meta-analysis was to describe the time course of HbA1c response after dosing with alogliptin (ALOG), saxagliptin (SAXA), sitagliptin (SITA), or vildagliptin (VILD). Public",
+        "score": 0.380062997341156,
+        "doi": "10.1177/0091270011420153",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2011",
+        "rerank_score": 2.3166823387145996,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40901275",
+        "text": "Efficacy and Safety of Vildagliptin Versus Other Dipeptidyl Peptidase 4 (DPP-4) Inhibitors in the Management of Type 2 Diabetes Mellitus: A Systematic Review of Randomized Controlled Trials. Dipeptidyl peptidase 4 inhibitors (DPP-4 inhibitors) are used as second-line drugs in the treatment of type 2 diabetes mellitus (T2DM) patients. They act by preventing the breakdown of incretin hormones, which enhance insulin secretion and reduce glucagon secretion. Vildagliptin and sitagliptin are more commonly used DP",
+        "score": 0.38937339186668396,
+        "doi": "10.7759/cureus.91432",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 2.2023987770080566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31390221",
+        "text": "Identification of a Novel Scaffold for Inhibition of Dipeptidyl Peptidase-4. Dipeptidyl peptidase-4 (DPP-4) is considered a major drug target for type 2 diabetes mellitus (T2DM). In addition to T2DM, a regulatory role of DPP-4 was also found in cardiovascular diseases. Existing DPP-4 inhibitors have been reported to have several adverse effects. In this study, a computer-aided drug design approach and its use to detect a novel class of inhibitor for DPP-4 are reported. Through structure and pharmacophore-ba",
+        "score": 0.3820156753063202,
+        "doi": "10.1089/cmb.2019.0201",
+        "journal": "Journal of computational biology : a journal of computational molecular cell bio",
+        "year": "2019",
+        "rerank_score": 1.0663655996322632,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

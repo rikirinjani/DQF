@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38954870",
+        "text": "The effects of ACE inhibitor Enalapril on Mytilus galloprovincialis: Insights into morphological and functional responses. In the last decades, pharmaceuticals have emerged as a new class of environmental contaminants. Antihypertensives, including angiotensin-converting enzyme (ACE) inhibitors, are of special concern due to their increased consumption over the past years. However, the available data on their putative effects on the health of aquatic animals, as well as the possible interaction with biologic",
+        "score": 0.4615206718444824,
+        "doi": "10.1016/j.aquatox.2024.107014",
+        "journal": "Aquatic toxicology (Amsterdam, Netherlands)",
+        "year": "2024",
+        "rerank_score": 0.1379191279411316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40246397",
+        "text": "Enalapril for Preventing Cardiotoxicity After High-Dose Anthracycline Therapy in Breast Cancer and Lymphoma Patients.",
+        "score": 0.44664573669433594,
+        "doi": "10.1016/j.jaccao.2025.01.014",
+        "journal": "JACC. CardioOncology",
+        "year": "2025",
+        "rerank_score": -1.3367018699645996,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38441185",
+        "text": "Concurrent exercise training potentiates the effects of angiotensin-converting enzyme inhibitor on regulatory systems of blood pressure control in ovariectomized hypertensive rats. Enalapril has shown satisfactory potential in controlling increased and sustained blood pressure (BP). However, multiple dysregulated mechanisms that interact with each other and are involved in the pathophysiology of arterial hypertension may not be affected, contributing to the remaining cardiovascular risk. Using an exercise t",
+        "score": 0.4347596764564514,
+        "doi": "10.1097/HJH.0000000000003670",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -1.6673271656036377,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

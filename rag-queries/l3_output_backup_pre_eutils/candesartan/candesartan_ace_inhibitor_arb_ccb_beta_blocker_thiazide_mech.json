@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Candesartan ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38498345",
+        "text": "Candesartan upregulates angiotensin-converting enzyme 2 in kidneys of male animals by decreased ubiquitination. Candesartan is a common angiotensin-II receptor-1 blocker used for patients with cardiovascular and renal diseases. Angiotensin-converting enzyme 2 (ACE2) is a negative regulator of blood pressure (BP), and also a major receptor for coronaviruses. To determine whether and how candesartan upregulates ACE2, we examined BP and ACE2 in multi-organs from male and female C57BL/6J mice treated with cande",
+        "score": 0.4221096634864807,
+        "doi": "10.1096/fj.202302707R",
+        "journal": "FASEB journal : official publication of the Federation of American Societies for",
+        "year": "2024",
+        "rerank_score": 1.0040183067321777,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.42448484897613525,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.5223187208175659,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40575829",
+        "text": "Transport and thiazide-inhibition mechanisms of the Na-Cl cotransporter: a structural perspective. The structures of the human sodium-chloride cotransporter (hNCC) and its complex with thiazide diuretics have been determined recently. This review summarizes key structural insights into NCC's transport and inhibition mechanisms. Recent studies revealed the structures of hNCC and its complex with thiazide diuretics, in inward-facing and outward-facing conformations, respectively. The structures of hNCC in two",
+        "score": 0.3993064761161804,
+        "doi": "10.1097/MNH.0000000000001099",
+        "journal": "Current opinion in nephrology and hypertension",
+        "year": "2025",
+        "rerank_score": -0.5115489363670349,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

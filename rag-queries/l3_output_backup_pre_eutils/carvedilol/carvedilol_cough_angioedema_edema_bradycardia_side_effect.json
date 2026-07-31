@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39509369",
+        "text": "Hemodynamic effects of carvedilol plus simvastatin in cirrhosis with severe portal hypertension and suboptimal response to β-blockers: A double-blind, placebo-controlled, randomized trial. Carvedilol is a nonselective β-blocker (NSBB) with anti-α1-adrenergic activity, more effective than traditional NSBBs in reducing portal pressure hepatic venous pressure gradient (HVPG). However, 35%-45% of patients still have insufficient HVPG decrease. Statins ameliorate endothelial dysfunction, reduce hepatic vascular ",
+        "score": 0.4587305188179016,
+        "doi": "10.1097/HEP.0000000000001148",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "year": "2024",
+        "rerank_score": -0.3189680278301239,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40178720",
+        "text": "Carvedilol and traditional nonselective beta blockers for the secondary prophylaxis of variceal hemorrhage and portal hypertension related complications among patients with decompensated cirrhosis: a systematic review and network meta-analysis. Carvedilol has limited research on decompensated cirrhosis. This study compared the effects of carvedilol, traditional nonselective beta blockers (NSBBs), including propranolol and nadolol, and other interventions in patients using carvedilol or traditional NSBBs for",
+        "score": 0.4505235552787781,
+        "doi": "10.1007/s12072-025-10812-8",
+        "journal": "Hepatology international",
+        "year": "2024",
+        "rerank_score": -1.8439114093780518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40222620",
+        "text": "Carvedilol is associated with lower risk of hepatic decompensation compared to other non-selective beta-blockers in cirrhosis.",
+        "score": 0.4419148862361908,
+        "doi": "10.1016/j.jhep.2025.04.005",
+        "journal": "Journal of hepatology",
+        "year": "2025",
+        "rerank_score": -2.010286569595337,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

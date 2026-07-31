@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39565162",
+        "text": "R(+) propranolol decreases lipid accumulation in haemangioma-derived stem cells.",
+        "score": 0.430551141500473,
+        "doi": "10.1093/bjd/ljae452",
+        "journal": "The British journal of dermatology",
+        "year": "2024",
+        "rerank_score": 0.9416312575340271,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40327048",
+        "text": "Psychoactive drug propranolol modulates behavioral, acetylcholinesterase, and oxidative stress parameters in freshwater African Sharptooth Catfish Clarias gariepinus. Propranolol is a beta-blocker psychoactive drug used for the management of high blood pressure, tremors, atrial fibrillation, and migraine headaches. This study investigated the effect of propranolol on behavior, acetylcholinesterase, lipid peroxidation, superoxide dismutase, catalase, glutathione peroxidase, and glutathione reductase in the b",
+        "score": 0.45879513025283813,
+        "doi": "10.1093/jahafs/vsaf004",
+        "journal": "Journal of aquatic animal health",
+        "year": "2024",
+        "rerank_score": -0.49469542503356934,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39369847",
+        "text": "Hypoxanthine ameliorates diet-induced insulin resistance by improving hepatic lipid metabolism and gluconeogenesis via AMPK/mTOR/PPARα pathway. Insulin resistance (IR) is a pivotal metabolic disorder associated with type 2 diabetes and metabolic syndrome. This study investigated the potential of hypoxanthine (Hx), a purine metabolite and uric acid precursor, in ameliorating IR and regulating hepatic glucose and lipid metabolism. We utilized both in vitro IR-HepG2 cells and in vivo diet-induced IR mice to in",
+        "score": 0.4374730587005615,
+        "doi": "10.1016/j.lfs.2024.123096",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": -0.6841129064559937,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.43610239028930664,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 3.2812910079956055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40747712",
+        "text": "Exenatide for diagnosing endogenous hyperinsulinemic hypoglycemia: a randomized placebo-controlled, double-blind, cross-over proof-of-principle study. The 72 h fasting test, gold standard for diagnosing endogenous hyperinsulinemic hypoglycemia (EHH), is cumbersome and costly. We evaluated exenatide, a GLP-1 receptor agonist, as a faster, less burdensome alternative diagnostic tool. In this prospective, placebo-controlled, double-blind, randomized cross-over, proof-of-principle study, 10 μg intravenous exena",
+        "score": 0.42015278339385986,
+        "doi": "10.1093/ejendo/lvaf153",
+        "journal": "European journal of endocrinology",
+        "year": "2025",
+        "rerank_score": 2.7892794609069824,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39960254",
+        "text": "The Relationship Between the Percent Coefficient of Variation of Sensor Glucose Levels and the Risk of Severe Hypoglycemia or Non-Severe Hypoglycemia in Patients With Type 1 Diabetes: Post Hoc Analysis of the ISCHIA Study. The relationship between the percent coefficient of variation (%CV) and the risk of severe hypoglycemia (SH) or non-severe hypoglycemia (NSH) in patients with type 1 diabetes (T1D) remains to be elucidated. The Effect of Intermittent-Scanning Continuous Glucose Monitoring to Glycemic Cont",
+        "score": 0.44740214943885803,
+        "doi": "10.1177/19322968251318756",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 2.1797587871551514,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

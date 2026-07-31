@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35216316",
+        "text": "Metformin's Mechanism of Action Is Stimulation of the Biosynthesis of the Natural Cyclic AMP Antagonist Prostaglandylinositol Cyclic Phosphate (Cyclic PIP). Metformin is the leading drug for treating type 2 diabetics, but the mechanism of action of metformin, despite some suggested mechanisms such as the activation of the AMP-kinase, is largely unknown. Among its many positive effects are the reduction of blood glucose levels, the inhibition of cyclic AMP synthesis, gluconeogenesis and an increase in sensit",
+        "score": 0.3601384162902832,
+        "doi": "10.3390/ijms23042200",
+        "journal": "International journal of molecular sciences",
+        "year": "2021",
+        "rerank_score": 4.950196266174316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41097011",
+        "text": "From Diabetes to Degenerative Diseases: The Multifaceted Action of Metformin. Metformin, an oral antihyperglycemic drug, represents the cornerstone of pharmacological treatment for type 2 diabetes mellitus (T2DM). Its primary glucose-lowering effects are well established, predominantly mediated through the activation of AMP-activated protein kinase (AMPK). This activation leads to a reduction in hepatic glucose production (primarily by inhibiting gluconeogenesis and glycogenolysis) and an increase in periph",
+        "score": 0.3852560520172119,
+        "doi": "10.3390/ijms26199748",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 3.420694351196289,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39049802",
+        "text": "The role of glucagon-like peptide 1 in the postprandial effects of metformin in type 2 diabetes: a randomized crossover trial. Although metformin is widely used for treatment of type 2 diabetes (T2D), its glucose-lowering mechanism remains unclear. Using the glucagon-like peptide 1 (GLP-1) receptor (GLP-1R) antagonist exendin(9-39)NH2, we tested the hypothesis that postprandial GLP-1-mediated effects contribute to the glucose-lowering potential of metformin in T2D. In a randomized, placebo-controlled, doubl",
+        "score": 0.38204407691955566,
+        "doi": "10.1093/ejendo/lvae095",
+        "journal": "European journal of endocrinology",
+        "year": "2024",
+        "rerank_score": 3.3168458938598633,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

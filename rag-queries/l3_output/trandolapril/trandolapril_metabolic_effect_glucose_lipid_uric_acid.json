@@ -1,0 +1,106 @@
+{
+  "query": {
+    "query": "Trandolapril metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38771738",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38771738",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2024-May-27",
+          "doi": "10.58347/tml.2024.1703a",
+          "mesh_terms": [
+            "Humans",
+            "Hypertension",
+            "Antihypertensive Agents",
+            "Blood Pressure"
+          ]
+        }
+      },
+      {
+        "id": "PMID:32555118",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "32555118",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2020-May-18",
+          "doi": "",
+          "mesh_terms": [
+            "Antihypertensive Agents",
+            "Blood Pressure",
+            "Humans",
+            "Hypertension"
+          ]
+        }
+      },
+      {
+        "id": "PMID:16939632",
+        "text": "C-reactive protein (CRP)-lowering agents.\n\nC-reactive protein (CRP) plays a role in the pathogenesis of cardiovascular disease. It is a marker and predictor of cardiovascular disease. CRP possesses numerous cardiovascular effects (clotting, generation of oxygen radicals, increase in the expression of adhesion molecules and plasminogen activator inhibitor-1, plaque destabilization) that could result in cardiovascular disease. This review describes the effects of various cardiovascular drugs on the levels of CRP in health and disease. Cyclooxygenase inhibitors (aspirin, rofecoxib, celecoxib), platelet aggregation inhibitors (clopidogrel, abciximab), lipid lowering agents (statins, ezetimibe, fenofibrate, niacin, diets), beta-adrenoreceptor antagonists and antioxidants (vitamin E), as well as angiotensin converting enzyme (ACE) inhibitors (ramipril, captopril, fosinopril), reduce serum levels of CRP; while enalapril and trandolapril have not been shown to have the same effect. Angiotensin receptor blockers (ARBs) (valsartan, irbesartan, olmesartan, telmisartan) markedly reduce serum levels of CRP. The findings with other ARBs (losartan and candesartan) were inconsistent. Antidiabetic agents (rosiglitazone and pioglitazone) reduce CRP levels, while insulin is ineffective. Calcium channel antagonists have variable effects on CRP levels. Hydrochlorothiazide and oral estrogen do not affect CRP. The CRP-lowering effect of statins is more pronounced than their lipid lowering effect and is not dependent on their hypolipemic activity. The effect of atorvastatin on CRP seems to be dose-dependent. CRP-lowering effect of statins is likely to contribute to the favorable outcome of statin therapy. The data suggest that lipid lowering agents, ACE inhibitors, ARBs, antidiabetic agents, antiinflammatory and antiplatelet agents, vitamin E, and beta-adrenoreceptor antagonists lower serum or plasma levels of CRP, while vitamin C, oral estrogen and hydrochlorothiazide do not affect CRP levels.",
+        "title": "C-reactive protein (CRP)-lowering agents.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16939632",
+          "journal": "Cardiovascular drug reviews",
+          "authors": [
+            "Prasad Kailash"
+          ],
+          "pub_date": "2006",
+          "doi": "10.1111/j.1527-3466.2006.00033.x",
+          "mesh_terms": [
+            "Adrenergic beta-Antagonists",
+            "Angiotensin-Converting Enzyme Inhibitors",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Antioxidants",
+            "Atherosclerosis",
+            "C-Reactive Protein",
+            "Calcium Channel Blockers",
+            "Female",
+            "Humans",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Hypoglycemic Agents",
+            "Male",
+            "Middle Aged"
+          ]
+        }
+      },
+      {
+        "id": "PMID:14706664",
+        "text": "Calcium channel blockers: an update.\n\nThis paper reviews the current literature pertaining to calcium channel blockers, including their classification, properties, and therapeutic indications, in light of several recent trials that have addressed their safety. Calcium channel blockers are a structurally and functionally heterogeneous group of medications that are used widely to control blood pressure and manage symptoms of angina. They are classified as dihydropyridines or nondihydropyridines. As a class, they are well tolerated and are associated with few side effects. The question of whether they may precipitate cardiovascular events has been largely settled by recent trials, such as the Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT), the International Verapamil Slow-Release/Trandolapril Study (INVEST), and the Controlled Onset Verapamil Investigation of Cardiovascular Endpoints (CONVINCE) study, in which no such association was found. Even so, the use of these agents has been linked with an increased risk of heart failure. Thus, long-acting calcium channel blockers may be safely used in the management of hypertension and angina. However, as a class, they are not as protective as other antihypertensive agents against heart failure.",
+        "title": "Calcium channel blockers: an update.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "14706664",
+          "journal": "The American journal of medicine",
+          "authors": [
+            "Eisenberg Mark J",
+            "Brox Anya",
+            "Bestawros Alain N"
+          ],
+          "pub_date": "2004-Jan-01",
+          "doi": "10.1016/j.amjmed.2003.08.027",
+          "mesh_terms": [
+            "Angina Pectoris",
+            "Calcium Channel Blockers",
+            "Coronary Disease",
+            "Heart Failure",
+            "Humans",
+            "Hypertension",
+            "Risk Factors",
+            "Treatment Outcome"
+          ]
+        }
+      }
+    ]
+  }
+}

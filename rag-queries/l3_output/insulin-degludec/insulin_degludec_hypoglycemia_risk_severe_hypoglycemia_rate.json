@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:37671755",
+        "text": "The Effect of Insulin Degludec Versus Insulin Glargine U100 on Glucose Metrics Recorded During Continuous Glucose Monitoring in People With Type 1 Diabetes and Recurrent Nocturnal Severe Hypoglycemia. Comparing continuous glucose monitoring (CGM)-recorded metrics during treatment with insulin degludec (IDeg) versus insulin glargine U100 (IGlar-100) in people with type 1 diabetes (T1D) and recurrent nocturnal severe hypoglycemia. This is a multicenter, two-year, randomized, crossover trial, including 149 adu",
+        "score": 0.3619177043437958,
+        "doi": "10.1177/19322968231197423",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 4.568924903869629,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38293765",
+        "text": "Factors and economic burden of non-severe hypoglycemia among insulin-treated type 2 diabetes patients: a cross-sectional study. This cross-sectional survey was performed to assess the prevalence, factors, and economic burden of non-severe hypoglycemia among insulin-treated type 2 diabetes (T2D) patients in northern Thailand. Between April 2021 and August 2022, 600 participants were evaluated  The percentage of non-severe hypoglycemia was 50.3% (302/600). Of all participants, the average age was 61.4 ± 26.0 ",
+        "score": 0.3452242314815521,
+        "doi": "10.1080/03007995.2024.2312160",
+        "journal": "Current medical research and opinion",
+        "year": "2024",
+        "rerank_score": 3.5880563259124756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40083398",
+        "text": "Insulinoma Mimic: Tramadol-induced Hypoglycemia. Endogenous hyperinsulinemia hypoglycemia has numerous etiologies. The objective of this report is to describe a patient with severe hyperinsulinemic hypoglycemia with no known history of diabetes or hypoglycemia who presented with acute altered mental status. Blood glucose was noted to be 40 mg/dL (2.22 mmol/L) (reference range 65-125 mg/dL; 3.61-6.94 mmol/L). The patient's sulfonylurea screen was negative. Following 1 mg glucagon injection, the patient's glu",
+        "score": 0.3785446882247925,
+        "doi": "10.1210/jcemcr/luaf034",
+        "journal": "JCEM case reports",
+        "year": "2024",
+        "rerank_score": 3.486569404602051,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

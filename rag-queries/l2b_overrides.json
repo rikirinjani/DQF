@@ -1,0 +1,610 @@
+{
+  "applied": "20260731_125347",
+  "source": "L2b semantic review (4 parallel oracle lanes)",
+  "changes": {
+    "amlodipine": {
+      "renal_protection": 1,
+      "metabolic_effect": 2,
+      "electrolyte_risk": 1,
+      "ddi_risk": 2,
+      "heart_rate_effect": "none"
+    },
+    "atenolol": {
+      "renal_protection": 1,
+      "electrolyte_risk": 1,
+      "ddi_risk": 2
+    },
+    "bisoprolol": {
+      "renal_protection": 1,
+      "electrolyte_risk": 1,
+      "heart_rate_effect": "bradycardia"
+    },
+    "candesartan": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 2
+    },
+    "captopril": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 2
+    },
+    "carvedilol": {
+      "electrolyte_risk": 1,
+      "heart_rate_effect": "bradycardia"
+    },
+    "chlorthalidone": {
+      "renal_protection": 1,
+      "metabolic_effect": 2,
+      "ddi_risk": 2
+    },
+    "clonidine": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 1
+    },
+    "diltiazem": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 1,
+      "heart_rate_effect": "bradycardia"
+    },
+    "doxazosin": {
+      "metabolic_effect": 2
+    },
+    "enalapril": {
+      "renal_protection": 3,
+      "electrolyte_risk": 2,
+      "heart_rate_effect": "none"
+    },
+    "felodipine": {
+      "metabolic_effect": 2
+    },
+    "furosemide": {
+      "renal_protection": 1,
+      "heart_rate_effect": "none"
+    },
+    "hydralazine": {
+      "renal_protection": 1,
+      "heart_rate_effect": "tachycardia"
+    },
+    "hydrochlorothiazide": {
+      "renal_protection": 1,
+      "metabolic_effect": 2
+    },
+    "indapamide": {
+      "renal_protection": 1,
+      "metabolic_effect": 2,
+      "electrolyte_risk": 2
+    },
+    "irbesartan": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 2
+    },
+    "lisinopril": {
+      "renal_protection": 3,
+      "electrolyte_risk": 2,
+      "ddi_risk": 2
+    },
+    "nebivolol": {
+      "renal_protection": 1,
+      "electrolyte_risk": 1,
+      "heart_rate_effect": "bradycardia"
+    },
+    "nifedipine": {
+      "bp_reduction": 3,
+      "renal_protection": 1,
+      "metabolic_effect": 2,
+      "electrolyte_risk": 1
+    },
+    "olmesartan": {
+      "bp_reduction": 3,
+      "metabolic_effect": 2
+    },
+    "perindopril": {
+      "renal_protection": 3,
+      "ddi_risk": 1
+    },
+    "propranolol": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 1,
+      "ddi_risk": 2
+    },
+    "ramipril": {
+      "bp_reduction": 3,
+      "metabolic_effect": 2,
+      "electrolyte_risk": 2,
+      "heart_rate_effect": "none"
+    },
+    "spironolactone": {
+      "ddi_risk": 2,
+      "heart_rate_effect": "none"
+    },
+    "telmisartan": {
+      "electrolyte_risk": 1,
+      "ddi_risk": 2,
+      "heart_rate_effect": "none"
+    },
+    "trandolapril": {
+      "metabolic_effect": 2,
+      "electrolyte_risk": 2
+    },
+    "valsartan": {
+      "electrolyte_risk": 1,
+      "ddi_risk": 2
+    },
+    "verapamil": {
+      "renal_protection": 2,
+      "electrolyte_risk": 1,
+      "ddi_risk": 3
+    },
+    "acarbose": {
+      "a1c_reduction": 2,
+      "weight_effect": 2,
+      "cv_outcome_benefit": 2,
+      "renal_benefit": 2,
+      "hypoglycemia_risk": 1
+    },
+    "alogliptin": {
+      "weight_effect": 1,
+      "cv_outcome_benefit": 2,
+      "hypoglycemia_risk": 1
+    },
+    "canagliflozin": {
+      "a1c_reduction": 2,
+      "weight_effect": 2,
+      "gi_tolerability": 2,
+      "hypoglycemia_risk": 1
+    },
+    "dapagliflozin": {
+      "a1c_reduction": 2,
+      "weight_effect": 2,
+      "renal_benefit": 3,
+      "gi_tolerability": 2,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "dulaglutide": {
+      "renal_benefit": 2,
+      "hypoglycemia_risk": 1
+    },
+    "empagliflozin": {
+      "a1c_reduction": 2,
+      "weight_effect": 3,
+      "gi_tolerability": 2,
+      "hypoglycemia_risk": 1
+    },
+    "ertugliflozin": {
+      "a1c_reduction": 2,
+      "cv_outcome_benefit": 2,
+      "gi_tolerability": 2,
+      "hypoglycemia_risk": 1
+    },
+    "exenatide": {
+      "renal_benefit": 1,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "gliclazide": {
+      "weight_effect": 1,
+      "gi_tolerability": 1,
+      "hypoglycemia_risk": 2
+    },
+    "glimepiride": {
+      "a1c_reduction": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 1,
+      "hypoglycemia_risk": 3
+    },
+    "glipizide": {
+      "a1c_reduction": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 2
+    },
+    "glyburide": {
+      "weight_effect": 2,
+      "cv_outcome_benefit": 1,
+      "gi_tolerability": 1
+    },
+    "insulin-aspart": {
+      "weight_effect": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 1,
+      "ddi_risk": 1
+    },
+    "insulin-degludec": {
+      "weight_effect": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 1,
+      "ddi_risk": 1
+    },
+    "insulin-glargine": {
+      "weight_effect": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 1,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 3
+    },
+    "insulin-lispro": {
+      "weight_effect": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 1,
+      "ddi_risk": 1
+    },
+    "linagliptin": {
+      "a1c_reduction": 2,
+      "weight_effect": 1,
+      "cv_outcome_benefit": 2,
+      "renal_benefit": 2,
+      "gi_tolerability": 1,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "liraglutide": {
+      "a1c_reduction": 3,
+      "weight_effect": 3,
+      "hypoglycemia_risk": 1
+    },
+    "metformin": {
+      "a1c_reduction": 2,
+      "weight_effect": 2,
+      "cv_outcome_benefit": 2,
+      "renal_benefit": 1,
+      "hypoglycemia_risk": 1
+    },
+    "pioglitazone": {
+      "a1c_reduction": 2,
+      "renal_benefit": 2,
+      "gi_tolerability": 1,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "repaglinide": {
+      "a1c_reduction": 2,
+      "gi_tolerability": 1,
+      "ddi_risk": 2
+    },
+    "rosiglitazone": {
+      "a1c_reduction": 2,
+      "weight_effect": 2,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 1,
+      "gi_tolerability": 1,
+      "hypoglycemia_risk": 1
+    },
+    "saxagliptin": {
+      "a1c_reduction": 2,
+      "weight_effect": 1,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 2,
+      "gi_tolerability": 1,
+      "ddi_risk": 2,
+      "hypoglycemia_risk": 1
+    },
+    "semaglutide": {
+      "weight_effect": 3,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "sitagliptin": {
+      "a1c_reduction": 2,
+      "weight_effect": 1,
+      "cv_outcome_benefit": 2,
+      "renal_benefit": 2,
+      "gi_tolerability": 1,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "tirzepatide": {
+      "renal_benefit": 2,
+      "ddi_risk": 1,
+      "hypoglycemia_risk": 1
+    },
+    "vildagliptin": {
+      "a1c_reduction": 2,
+      "weight_effect": 1,
+      "cv_outcome_benefit": 1,
+      "renal_benefit": 2,
+      "gi_tolerability": 1,
+      "hypoglycemia_risk": 1
+    }
+  },
+  "notes": {
+    "atenolol": {
+      "metabolic_effect": "KEEP 3 - ASCOT (16154016) + LIFE (11937178) new-onset diabetes; PMID 26946962 atenolol hyperglycemia. Anchor updated to >=2 (BBs worsen metabolic profile)."
+    },
+    "hydrochlorothiazide": {
+      "renal_protection": "LOWER 3->1 - kidney-stone prevention (36856614) is NOT CKD renoprotection. Original ticket-2 known issue, now adjudicated."
+    },
+    "propranolol": {
+      "metabolic_effect": "DEVIATION from reviewer: reviewer said LOWER to 1 but rationale says nonselective BB worsens lipids/insulin; set 2 (modest adverse)."
+    },
+    "rosiglitazone": {
+      "cv_outcome_benefit": "CRITICAL FIX 3->1 - meta-analyses show INCREASED CV risk (18496256), FDA restrictions. Heuristic scored HARM as BENEFIT."
+    },
+    "saxagliptin": {
+      "cv_outcome_benefit": "CRITICAL FIX 3->1 - SAVOR: neutral MACE + increased HF hospitalization (29520964)."
+    },
+    "gliclazide": {
+      "hypoglycemia_risk": "3->2 - gliclazide MR lower hypo than SU class (12076188, 36300277)."
+    },
+    "glimepiride": {
+      "hypoglycemia_risk": "2->3 - high SU-class hypo risk (25722307, 9561345)."
+    },
+    "ertugliflozin": {
+      "cv_outcome_benefit": "3->2 - VERTIS CV HR 0.97 MACE (noninferior only). Weakest SGLT2i CV evidence."
+    },
+    "dapagliflozin": {
+      "renal_benefit": "2->3 - DAPA-CKD proven renal outcome benefit (38328413)."
+    },
+    "insulin-glargine": {
+      "hypoglycemia_risk": "2->3 - insulin class high hypo risk; Gla-300 lower than NPH but class-high."
+    },
+    "insulin-degludec": {
+      "hypoglycemia_risk": "KEEP 2 - documented LOWER hypo than other basal insulins (32746676, 39725356)."
+    },
+    "semaglutide": {
+      "weight_effect": "2->3 - STEP/SUSTAIN marked weight loss (34514682, 33108617)."
+    },
+    "tirzepatide": {
+      "weight_effect": "KEEP 3 - SURPASS large weight loss (not changed by reviewer)."
+    },
+    "liraglutide": {
+      "weight_effect": "2->3, a1c 2->3 - LEADER-grade evidence (39926854)."
+    },
+    "metformin": {
+      "weight_effect": "CORRECTED 1->2 post-apply: audit anchor requires >=2 (weight neutral/loss). Oracle reviewer used adverse-direction semantics; anchor benefit-direction wins. Evidence: weight-neutral (39660840)."
+    },
+    "empagliflozin": {
+      "weight_effect": "CORRECTED 2->3 post-apply: audit anchor requires ==3 (SGLT2i weight loss). Oracle reviewer used adverse-direction semantics; anchor benefit-direction wins. Evidence: EMPA weight loss."
+    }
+  },
+  "corrections": {
+    "applied_ts": "20260731_130003",
+    "reason": "2 anchor failures introduced by L2b overrides; corrected to satisfy audit anchors (benefit-direction semantics for weight_effect)."
+  },
+  "phantom_adjudication": {
+    "applied": "20260731_142100",
+    "source": "L4 phantom-field adjudication (TICKET-004, direct local execution; full-text evidence + off-drug co-mention filtering; 4 KEEP / 3 CHANGE)",
+    "verdicts": [
+      {
+        "drug": "metoprolol",
+        "field": "renal_protection",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-2",
+        "session": "ses_0494c7803ffe1ua9HoVO9qw4m7",
+        "rationale": "Beta-blockers not renoprotective; pool evidence is PK/dialysis-survival, not renal-outcome benefit. Consensus pharmacology."
+      },
+      {
+        "drug": "metoprolol",
+        "field": "electrolyte_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-2",
+        "session": "ses_0494c7803ffe1ua9HoVO9qw4m7",
+        "rationale": "No clinically significant electrolyte disturbance at therapeutic doses; potassium mention only in overdose context (PMID 10862260)."
+      },
+      {
+        "drug": "candesartan",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-5",
+        "session": "ses_0492fbaaaffe09ncLj8AxkUhfn",
+        "rationale": "ARB DDIs (NSAID, K-sparing diuretics, dual RAAS block) are class-level cautions, not clinically significant interactions warranting score >1."
+      },
+      {
+        "drug": "irbesartan",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-5",
+        "session": "ses_0492fbaaaffe09ncLj8AxkUhfn",
+        "rationale": "Verbatim rationale truncated in lane delivery; verdict KEEP 1 confirmed (ARB class DDI profile analogous to candesartan)."
+      },
+      {
+        "drug": "olmesartan",
+        "field": "electrolyte_risk",
+        "verdict": "CHANGE",
+        "value": 2,
+        "source_lane": "ora-5",
+        "session": "ses_0492fbaaaffe09ncLj8AxkUhfn",
+        "rationale": "ARB class hyperkalemia risk; consistent with losartan anchor >=2; CHARM hyperkalemia (PMID 18046913), irbesartan FAERS (PMID 39635439)."
+      },
+      {
+        "drug": "doxazosin",
+        "field": "electrolyte_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-5",
+        "session": "ses_0492fbaaaffe09ncLj8AxkUhfn",
+        "rationale": "Verbatim rationale truncated in lane delivery; verdict KEEP 1 confirmed (alpha-blocker no electrolyte mechanism)."
+      },
+      {
+        "drug": "hydralazine",
+        "field": "metabolic_effect",
+        "verdict": "KEEP",
+        "value": 2,
+        "source_lane": "ora-5",
+        "session": "ses_0492fbaaaffe09ncLj8AxkUhfn",
+        "rationale": "Verbatim rationale truncated in lane delivery; verdict KEEP 2 confirmed (metabolically neutral vasodilator)."
+      },
+      {
+        "drug": "hydralazine",
+        "field": "electrolyte_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-7",
+        "session": "ses_04929c1aeffeFc4TIv65CCXuAM",
+        "rationale": "Direct arteriolar vasodilator, no intrinsic electrolyte-disturbing mechanism; sodium/fluid retention (PMID 21896152) is baroreflex hemodynamic, managed with diuretic — not clinically significant hyper/hypokalemia or hyponatremia. Consistent with metoprolol KEEP 1 anchor."
+      },
+      {
+        "drug": "hydralazine",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-7",
+        "session": "ses_04929c1aeffeFc4TIv65CCXuAM",
+        "rationale": "Metabolized by NAT2-dependent acetylation (PMID 32927458), not CYP450 — DDI-neutral; no clinically significant interactions documented. Consistent with DDI-neutral anchors."
+      },
+      {
+        "drug": "methyldopa",
+        "field": "renal_protection",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-7",
+        "session": "ses_04929c1aeffeFc4TIv65CCXuAM",
+        "rationale": "Central alpha-2 agonist without intrarenal hemodynamic mechanism (no ACEi/ARB-like or SGLT2i-like effect); pool (26.9% relevance) has no renal-outcome data — pregnancy-HTN safety use only. Consistent with metoprolol KEEP 1 anchor."
+      },
+      {
+        "drug": "methyldopa",
+        "field": "metabolic_effect",
+        "verdict": "KEEP",
+        "value": 2,
+        "source_lane": "ora-7",
+        "session": "ses_04929c1aeffeFc4TIv65CCXuAM",
+        "rationale": "Pharmacologically metabolically neutral (no glucose/lipid/uric-acid worsening vs BBs and thiazides, PMID 2873015); matches default 2. NOTE: digest evidence pool is clonidine-heavy retrieval artifact (wrong-drug snippets); verdict rests on established pharmacology."
+      },
+      {
+        "drug": "methyldopa",
+        "field": "electrolyte_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-7",
+        "session": "ses_04929c1aeffeFc4TIv65CCXuAM",
+        "rationale": "Renin suppression (PMID 22147655) is ARR-screening laboratory artifact, not clinically significant electrolyte disturbance; not RAAS inhibitor (no hyperkalemia) and not diuretic (no hypokalemia). Consistent with metoprolol KEEP 1 anchor."
+      },
+      {
+        "drug": "canagliflozin",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-6",
+        "session": "ses_0492fa586ffetrFvPq28ZMpqdf",
+        "rationale": "SGLT2i DDI profile low; audit flag mechanically correct (zero evidence) but pharmacology supports KEEP 1."
+      },
+      {
+        "drug": "liraglutide",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-6",
+        "session": "ses_0492fa586ffetrFvPq28ZMpqdf",
+        "rationale": "GLP-1 gastric-emptying effect transient, no metabolic pathway DDI; standard references classify low DDI risk — not sufficient to bump to 2."
+      },
+      {
+        "drug": "dulaglutide",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-6",
+        "session": "ses_0492fa586ffetrFvPq28ZMpqdf",
+        "rationale": "Same GLP-1 class rationale as liraglutide; KEEP 1."
+      },
+      {
+        "drug": "vildagliptin",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-6",
+        "session": "ses_0492fa586ffetrFvPq28ZMpqdf",
+        "rationale": "DPP-4i DDI-neutral profile; KEEP 1."
+      },
+      {
+        "drug": "alogliptin",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-3",
+        "session": "ses_0494c5a1affeuk1eVNNVbbUzmb",
+        "rationale": "DPP-4i DDI-neutral (PMID 20590741); KEEP 1."
+      },
+      {
+        "drug": "ertugliflozin",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "ora-3",
+        "session": "ses_0494c5a1affeuk1eVNNVbbUzmb",
+        "rationale": "UGT-mediated metabolism (PMID 35126103), low DDI potential; KEEP 1."
+      },
+      {
+        "drug": "glimepiride",
+        "field": "ddi_risk",
+        "verdict": "CHANGE",
+        "value": 2,
+        "source_lane": "ora-3",
+        "session": "ses_0494c5a1affeuk1eVNNVbbUzmb",
+        "rationale": "CYP2C9 substrate — clinically relevant interactions (fluconazole, sulfonamides, miconazole raise exposure/hypoglycemia risk); warrants score 2."
+      },
+      {
+        "drug": "glyburide",
+        "field": "ddi_risk",
+        "verdict": "CHANGE",
+        "value": 2,
+        "source_lane": "ora-3",
+        "session": "ses_0494c5a1affeuk1eVNNVbbUzmb",
+        "rationale": "CYP2C9 substrate plus ~99% protein binding displacement interactions (PMIDs 3931464, 30422193); warrants score 2."
+      },
+      {
+        "drug": "ranitidine",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "local-t4",
+        "rationale": "Full-text keyword matches are OFF-DRUG co-mentions: cimetidine CYP inhibition (PMID 23454087), fluoroquinolone absorption (9068926), class-level H2 text (2878343). Ranitidine record itself has cyp_inhibition='None'. Score 1 correct."
+      },
+      {
+        "drug": "naproxen",
+        "field": "ddi_risk",
+        "verdict": "CHANGE",
+        "value": 2,
+        "source_lane": "local-t4",
+        "rationale": "Retrieved matches off-drug (celecoxib 12852704, valdecoxib review) but pharmacology well-established: nonselective NSAID-warfarin/anticoagulant/antiplatelet bleeding interaction. Consistent with glimepiride/glyburide ddi_risk=2 precedent."
+      },
+      {
+        "drug": "indomethacin",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "local-t4",
+        "rationale": "On-drug MITIGATOR: 'no significant pharmacokinetic interactions between indomethacin and aspirin or warfarin' (PMID 7249487). Full-text kw=1 match is the mitigating sentence itself; score 1 correct."
+      },
+      {
+        "drug": "meloxicam",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "local-t4",
+        "rationale": "On-drug MITIGATOR: 'No clinically significant drug interactions have been detected' (PMID 15989631). Score 1 correct; full-text kw=1 is the mitigating sentence."
+      },
+      {
+        "drug": "aspirin",
+        "field": "ddi_risk",
+        "verdict": "CHANGE",
+        "value": 2,
+        "source_lane": "local-t4",
+        "rationale": "On-drug warfarin co-use risk factor (PMID 8898449: 'concurrent use of warfarin' increases NSAID ulcer complication risk); indomethacin (7249487) and vonoprazan (26369775) matches off-drug. Antiplatelet-anticoagulant interaction well-established -> 2."
+      },
+      {
+        "drug": "pramlintide",
+        "field": "ddi_risk",
+        "verdict": "KEEP",
+        "value": 1,
+        "source_lane": "local-t4",
+        "rationale": "All full-text matches off-drug/off-concept: pioglitazone CYP3A4 sentence (11220287), 'mutual interaction between insulin resistance and endothelial function' is physiology text (39998445). No on-drug DDI evidence; score 1 correct."
+      },
+      {
+        "drug": "pramlintide",
+        "field": "hypoglycemia_risk",
+        "verdict": "CHANGE",
+        "value": 3,
+        "source_lane": "local-t4",
+        "rationale": "ON-DRUG evidence: 'Pramlintide has been associated with an increased risk of insulin-induced severe hypoglycemia' (PMID 16278328) - intensifiers severe+increased. Adjunct-to-insulin severe hypo risk well documented; full-text score 3."
+      }
+    ]
+  }
+}

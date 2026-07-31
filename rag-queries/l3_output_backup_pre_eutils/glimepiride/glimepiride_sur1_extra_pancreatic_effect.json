@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glimepiride SUR1 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38767097",
+        "text": "Evaluation of the combination of black rice bran ethanol extract and glimepiride in reducing blood glucose and protecting kidney, liver and pancreatic cells. Long-lasting hyperglycemia can potentially cause damage to organs such as the kidneys, liver and pancreas. Glimepiride (GLIM), as a drug of choice in the treatment of diabetes mellitus (DM), has the risk of decreasing the functioning of organs such as the kidneys, liver and pancreas. Black rice bran ethanol extract (EEBRB) with antioxidant content has ",
+        "score": 0.41504204273223877,
+        "doi": "",
+        "journal": "Pakistan journal of pharmaceutical sciences",
+        "year": "2024",
+        "rerank_score": 1.296210765838623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20045213",
+        "text": "Effects of Glimepiride on metabolic parameters and cardiovascular risk factors in patients with newly diagnosed type 2 diabetes mellitus. To investigate the effects of Glimepiride on blood glucose in patients with newly diagnosed type 2 diabetes mellitus (T2DM) in connection with plasma lipoproteins and plasminogen activity.",
+        "score": 0.3797928988933563,
+        "doi": "10.1016/j.diabres.2009.12.010",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2007",
+        "rerank_score": 0.2954639792442322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39720158",
+        "text": "Pancreatic Safety of Tirzepatide and Its Effects on Islet Cell Function: A Systematic Review and Meta-Analysis. Endogenous glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) regulate islet cell function. GLP-1 receptor agonists (GLP-1RAs) have been associated with an elevated risk of acute pancreatitis. Data on the pancreatic safety of tirzepatide (a dual GLP-1 and GIP agonist) and its effects on islet cell function in randomized controlled trials (RCTs) are scarce. Moreo",
+        "score": 0.41661936044692993,
+        "doi": "10.1002/osp4.70032",
+        "journal": "Obesity science & practice",
+        "year": "2024",
+        "rerank_score": -0.18193601071834564,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

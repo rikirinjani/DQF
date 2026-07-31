@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nebivolol ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23977191",
+        "text": "The β-blocker Nebivolol Is a GRK/β-arrestin biased agonist. Nebivolol, a third generation β-adrenoceptor (β-AR) antagonist (β-blocker), causes vasodilation by inducing nitric oxide (NO) production. The mechanism via which nebivolol induces NO production remains unknown, resulting in the genesis of much of the controversy regarding the pharmacological action of nebivolol. Carvedilol is another β-blocker that induces NO production. A prominent pharmacological mechanism of carvedilol is biased agonism that is ",
+        "score": 0.4031122326850891,
+        "doi": "10.1371/journal.pone.0071980",
+        "journal": "PloS one",
+        "year": "2013",
+        "rerank_score": 2.35605788230896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4366212487220764,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.9634227752685547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40092223",
+        "text": "Mechanisms of nebivolol-mediated effects on bFGF-induced vascular smooth muscle cell proliferation and migration. Nebivolol is a β-adrenergic receptor antagonist that has intrinsic activity on β VSMCs isolated from Sprague Dawley rat aortas were pretreated with nebivolol or CL316,243 followed by stimulation with bFGF. Cell proliferation and migration and phosphorylation of ERK and AKT were measured. We found that pretreatment of VSMCs with nebivolol produced biphasic effects on bFGF-induced VSMC proliferati",
+        "score": 0.40815499424934387,
+        "doi": "10.1016/j.crphar.2025.100214",
+        "journal": "Current research in pharmacology and drug discovery",
+        "year": "2024",
+        "rerank_score": 0.030671246349811554,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

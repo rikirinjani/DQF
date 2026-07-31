@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Aspart insulin receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40402465",
+        "text": "Evaluation of proinsulin(F25D) as a targeting ligand for insulin-binding B cells in autoimmune diabetes. Insulin-binding B cells are implicated in Type 1 Diabetes (T1D) pathology. Antigen-specific immunotherapy (ASIT) holds promise in T1D. However, ASIT-targeted suppression of insulin-binding B cells is hampered by insulin's hormonal activity and the resulting binding and endocytosis of insulin by insulin receptors (INSR). To evaluate ASIT strategies that target insulin-binding B cells in vivo, non-hormonal",
+        "score": 0.3902857303619385,
+        "doi": "10.1007/s13346-025-01869-x",
+        "journal": "Drug delivery and translational research",
+        "year": "2025",
+        "rerank_score": 3.831737756729126,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40603733",
+        "text": "Structural mechanism of insulin receptor activation by a dimeric aptamer agonist. Insulin binding to the insulin receptor (IR) triggers signaling pathways that regulate glucose uptake and cell growth. In previous work, we identified a DNA aptamer, A62, which partially activates the IR. During engineering aptamers for improved in vivo stability, we discovered that crosslinking two A62 aptamers with linkers of varying lengths led to full phosphorylation of the IR, although activation remained selective to the",
+        "score": 0.3583197593688965,
+        "doi": "10.1038/s12276-025-01494-1",
+        "journal": "Experimental & molecular medicine",
+        "year": "2024",
+        "rerank_score": 3.0979723930358887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41086805",
+        "text": "Tuning insulin receptor signaling using de novo-designed agonists. Insulin binding induces conformational changes in the insulin receptor (IR) that activate the intracellular kinase domain and the protein kinase B (AKT) and mitogen-activated protein kinase (MAPK) pathways, regulating metabolism and proliferation. We reasoned that designed agonists inducing different IR conformational changes might induce different downstream responses. We used de novo protein design to generate binders for individual IR ext",
+        "score": 0.3608753979206085,
+        "doi": "10.1016/j.molcel.2025.09.020",
+        "journal": "Molecular cell",
+        "year": "2024",
+        "rerank_score": 3.030217170715332,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

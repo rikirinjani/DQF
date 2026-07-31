@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Empagliflozin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30586757",
+        "text": "Empagliflozin Reduced Mortality and Hospitalization for Heart Failure Across the Spectrum of Cardiovascular Risk in the EMPA-REG OUTCOME Trial. In the EMPA-REG OUTCOME trial (BI 10773 [Empagliflozin] Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients) in patients with type 2 diabetes mellitus and atherosclerotic cardiovascular disease, in comparison with placebo, empagliflozin reduced the risks of 3-point major adverse cardiovascular events (3-point MACE), cardiovascular and all-cause d",
+        "score": 0.3784509301185608,
+        "doi": "10.1161/CIRCULATIONAHA.118.037778",
+        "journal": "Circulation",
+        "year": "2018",
+        "rerank_score": 7.579106330871582,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36716212",
+        "text": "Empagliflozin is associated with lower risk of cardiovascular events and all-cause mortality in routine care in East Asia: Results from the EMPRISE study. The EMPA-REG OUTCOME® trial demonstrated benefits of empagliflozin, a sodium-glucose cotransporter-2 inhibitor (SGLT2i), on cardiovascular, renal outcomes and all-cause mortality in patients with type 2 diabetes and established cardiovascular disease. The EMPRISE study program evaluates how these effects translate in a broad population of patients with ty",
+        "score": 0.37322959303855896,
+        "doi": "10.1111/jdi.13959",
+        "journal": "Journal of diabetes investigation",
+        "year": "2022",
+        "rerank_score": 6.472957611083984,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32915523",
+        "text": "Early benefits of empagliflozin in patients with or without heart failure: findings from EMPA-REG OUTCOME. The EMPA-REG OUTCOME trial demonstrated reductions in cardiovascular (CV) death and heart failure (HF) outcomes with empagliflozin, a sodium-glucose co-transporter 2 inhibitor, in patients with type 2 diabetes and established CV disease over a study period of 3 years. We aimed to investigate the early benefit-risk profile of empagliflozin in patients enrolled in the EMPA-REG OUTCOME trial according to ",
+        "score": 0.37293869256973267,
+        "doi": "10.1002/ehf2.12891",
+        "journal": "ESC heart failure",
+        "year": "2020",
+        "rerank_score": 6.182389736175537,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ver_id": "VER-2026-014",
+  "timestamp": "2026-07-31T15:55:00",
+  "result": "pass",
+  "linked_tasks": [
+    "TICKET-004: L4 phantom-field adjudication (7 fields, manifest 27 verdicts, 3 CHANGEs applied)",
+    "TICKET-005: L4 clinical-outcome quantification for 49 drugs (27 antihypertensive + 22 diabetes), merged into api/drugs.json"
+  ],
+  "linked_specs": [
+    "methodology/framework-ontology.md L4 = Clinical Outcomes (NNT/NNH, effect sizes, AE rates)"
+  ],
+  "evidence_path": [
+    "audit_l3_script.py rerun: L4 phantom fields = 0, anchors 19/19, L3 anchor failures = 0",
+    "schema validation: 88/88 drugs have l4_clinical; 49 new entries all class-schema compliant (AH: value/ci_95/dose + success_rate float + onset_min int; Diabetes: a1c_reduction/unit/dose + success_rate float + onset_min str)",
+    "oracle spot-check (ora-6, ses_048a0988fffe0hRivOQGFV1HjQ): 10 drugs reviewed vs digests — APPROVE, zero contradictions"
+  ],
+  "reviewer": "oracle (ora-6) + orchestrator"
+}

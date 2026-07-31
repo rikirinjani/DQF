@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3828961",
+        "text": "Metabolic efficiency of the liver in patients with breast cancer as determined by pharmacokinetics of phenazone. Phenazone pharmacokinetics was determined in 24 healthy women and in 39 women with breast cancer; in the latter before and after antineoplastic treatment. The mean phenazone half-life time (t0.5) was significantly shorter in patients with breast cancer (8.880 +/- 2.5585 h) than in healthy persons (12.024 +/- 3.8486 h, P less than 0.001). Mean elimination rate constant (K, 0.063 +/- 0.0197 h-1) an",
+        "score": 0.36157169938087463,
+        "doi": "10.1002/1097-0142(19870501)59:9<1607::ai",
+        "journal": "Cancer",
+        "year": "1987",
+        "rerank_score": 2.3853509426116943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.40152621269226074,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -0.8072810173034668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41352168",
+        "text": "Prediction of the optimal dose of exenatide in patients with type 2 diabetes mellitus with renal impairment using physiologically based pharmacokinetic modeling. Although exenatide is approved for patients with type 2 diabetes mellitus (T2DM) with mild to moderate renal impairment, specific dosing guidelines for this population remain undefined. To address this gap, we developed a physiologically based pharmacokinetic model using PK-Sim & MoBi software, integrating target-mediated drug disposition to simula",
+        "score": 0.39610931277275085,
+        "doi": "10.1016/j.dmd.2025.100199",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": -1.2757138013839722,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

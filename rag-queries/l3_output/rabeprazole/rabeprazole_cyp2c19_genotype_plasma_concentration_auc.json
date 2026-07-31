@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole CYP2C19 genotype plasma concentration AUC",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16359346",
+        "text": "CYP2C19 genotype and the PPIs--focus on rabeprazole. Amongst all the proton pump inhibitors (PPI), the hepatic metabolism of rabeprazole is least dependent on the CYP4502C19 system. Rabeprazole is therefore the PPI least affected by CYP4502C19 genetic polymorphism. This unique feature of rabeprazole complements rabeprazole's fast onset of action, and may lead to profound and consistent inhibition of gastric acid secretion in the treatment of acid-related disorders.",
+        "score": 0.40919235348701477,
+        "doi": "10.1111/j.1440-1746.2005.04167.x",
+        "journal": "Journal of gastroenterology and hepatology",
+        "year": "2005",
+        "rerank_score": 4.220302581787109,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40662264",
+        "text": "Influence of CYP2D6 Genotypes and Phenotypes on the Plasma Levels and Clinical Response to Aripiprazole. The antipsychotic aripiprazole is mainly metabolized by the cytochrome P450 (CYP) 2D6. The main objective of this study was to evaluate the influence of CYP2D6 phenotypes on aripiprazole plasma levels and treatment duration. 466 patients treated with aripiprazole for up to 12 months and with at least one aripiprazole plasma level in steady-state condition were selected. CYP2D6 genotypes and phenoconversi",
+        "score": 0.4321516752243042,
+        "doi": "10.1093/schbul/sbaf076",
+        "journal": "Schizophrenia bulletin",
+        "year": "2025",
+        "rerank_score": 2.6781623363494873,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11736724",
+        "text": "Effects of CYP2C19 genotypic differences in the metabolism of omeprazole and rabeprazole on intragastric pH. Omeprazole is mainly metabolized in the liver by CYP2C19, a genetically determined enzyme, whereas rabeprazole is mainly reduced non-enzymatically and partially metabolized by CYP2C19. The therapeutic effects of rabeprazole are therefore assumed to be less affected by an individual's CYP2C19 status.",
+        "score": 0.4098890721797943,
+        "doi": "10.1046/j.1365-2036.2001.01108.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "2001",
+        "rerank_score": 2.218053102493286,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

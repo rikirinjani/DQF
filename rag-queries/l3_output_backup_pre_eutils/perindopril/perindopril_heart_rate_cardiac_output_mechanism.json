@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Perindopril heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39938967",
+        "text": "Profound hypotension following concomitant administration of tizanidine and lisinopril. Tizanidine, a muscle relaxant, exerts its mechanism as a centrally acting alpha-2 adrenergic receptor agonist and binds to imidazoline receptors. Bradycardia and hypotension are adverse effects associated with alpha-2 adrenergic receptor agonists. A man in his 50s with a medical history of hypertension and chronic back pain presented with chest pain and hypertension. Pertinent medication history included metoprolol tartr",
+        "score": 0.4370384216308594,
+        "doi": "10.1136/bcr-2024-262982",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": -4.977958679199219,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38973500",
+        "text": "Acupuncture modulation of the ACE/Ang II/AT1R and ACE2/Ang(1-7)/MasR pathways in the rostral ventrolateral medulla reduces sympathetic output and prevents cardiac injury caused by SHR hypertension. Acupuncture can reduce blood pressure, heart rate (HR), and ameliorate cardiac damage by modulating the excitability of the sympathetic nervous system, but the exact mechanism of this effect remains unclear. This study investigated the potential mechanisms of acupuncture in the treatment of cardiac damage in hype",
+        "score": 0.440282940864563,
+        "doi": "10.1097/WNR.0000000000002073",
+        "journal": "Neuroreport",
+        "year": "2024",
+        "rerank_score": -5.120339870452881,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40694503",
+        "text": "Mechanisms underlying local Ca Changes in heart rate affect Ca",
+        "score": 0.42841261625289917,
+        "doi": "10.1113/JP287884",
+        "journal": "The Journal of physiology",
+        "year": "2024",
+        "rerank_score": -5.546720504760742,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

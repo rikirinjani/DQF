@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glimepiride SUR1 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35545728",
+        "text": "Virtual screening of PEBP1 inhibitors by combining 2D/3D-QSAR analysis, hologram QSAR, homology modeling, molecular docking analysis, and molecular dynamic simulations. Human phosphatidylethanolamine binding protein 1 (hPEBP1) is a novel target affecting many cellular signaling pathways involved in the formation of metastases. It can be used in the treatment of many cases of cancer. For these reasons, pharmaceutical companies use computational approaches, including multi-QSAR (2D, 3D, and hologram QSAR) ana",
+        "score": 0.44146740436553955,
+        "doi": "10.1007/s00894-022-05143-6",
+        "journal": "Journal of molecular modeling",
+        "year": "2021",
+        "rerank_score": -1.0988047122955322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35043526",
+        "text": "Selective Disruption of Survivin's Protein-Protein Interactions: A Supramolecular Approach Based on Guanidiniocarbonylpyrrole. Targeting specific protein binding sites to interfere with protein-protein interactions (PPIs) is crucial for the rational modulation of biologically relevant processes. Survivin, which is highly overexpressed in most cancer cells and considered to be a key player of carcinogenesis, features two functionally relevant binding sites. Here, we demonstrate selective disruption of the Su",
+        "score": 0.4412529766559601,
+        "doi": "10.1002/cbic.202100618",
+        "journal": "Chembiochem : a European journal of chemical biology",
+        "year": "2021",
+        "rerank_score": -2.750253200531006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11069896",
+        "text": "Nrg-1 belongs to the endothelial differentiation gene family of G protein-coupled sphingosine-1-phosphate receptors. The previously cloned rat nerve growth factor-regulated G protein-coupled receptor NRG-1 (Glickman, M., Malek, R. L., Kwitek-Black, A. E., Jacob, H. J., and Lee N. H. (1999) Mol. Cell. Neurosci. 14, 141-52), also known as EDG-8, binds sphingosine-1-phosphate (S1P) with high affinity and specificity. In this paper we examined the signal transduction pathways regulated by the binding of S1P to ",
+        "score": 0.4418067932128906,
+        "doi": "10.1074/jbc.M003964200",
+        "journal": "The Journal of biological chemistry",
+        "year": "2000",
+        "rerank_score": -5.508544445037842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glyburide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41369622",
+        "text": "Obesity-Associated Cardiovascular Risk and Benefit From PCSK9 Inhibition: A Prespecified Analysis From FOURIER. The PCSK9 inhibitor evolocumab decreases the risk of major adverse cardiovascular events (MACE). The relationship between body mass index (BMI) and benefit of evolocumab remains unknown. This study sought to investigate the association between BMI, risk of MACE, and the clinical benefit of evolocumab. The FOURIER (Further Cardiovascular Outcomes Research with PCSK9 Inhibition in Subjects with Elev",
+        "score": 0.42170554399490356,
+        "doi": "10.1016/j.jacc.2025.10.036",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2025",
+        "rerank_score": 4.105642795562744,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40009360",
+        "text": "Risk of Major Adverse Cardiovascular Events Following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. This study used retrospective electronic health record data of 2 patient cohorts, the Vanderbilt University Medical Center (VUMC) and Million Veteran Program (MVP). The risk ",
+        "score": 0.44303619861602783,
+        "doi": "10.1001/jamadermatol.2025.0001",
+        "journal": "JAMA dermatology",
+        "year": "2026",
+        "rerank_score": 3.6152992248535156,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39431844",
+        "text": "Major adverse cardiovascular events' reduction and their association with glucose-lowering medications and glycemic control among patients with type 2 diabetes: A retrospective cohort study using electronic health records. Cardiovascular diseases are a common cause of death among patients with type 2 diabetes (T2DM). Major adverse cardiovascular event (MACE) risks can be significantly reduced under adequate glycemic control (GC). This study aims to identify factors that influence MACE risk among patients wi",
+        "score": 0.4311314821243286,
+        "doi": "10.1111/1753-0407.13604",
+        "journal": "Journal of diabetes",
+        "year": "2024",
+        "rerank_score": 3.3876028060913086,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

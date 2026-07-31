@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38387480",
+        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
+        "score": 0.4190611243247986,
+        "doi": "10.1055/a-2239-2668",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": 2.3935599327087402,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40345426",
+        "text": "Sitagliptin reduces cytokine-induced β-cell apoptosis in prediabetes: A six-month interventional study. Islet inflammation, initiated by macrophage infiltration, which activates nuclear factor-kappa B (NF-κB), plays a crucial role in the early stage of diabetes. The study aimed to assess how initial treatment with sitagliptin affects inflammation-driven β-cell apoptosis by measuring plasma levels of Fas, Fas Ligand (Fas-L), and Interleukin-1β (IL-1β) in prediabetes. This prospective interventional study inc",
+        "score": 0.3721486032009125,
+        "doi": "10.1016/j.ejphar.2025.177708",
+        "journal": "European journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 1.0479745864868164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39085384",
+        "text": "The protective effect of imatinib against pancreatic β-cell apoptosis induced by dexamethasone via increased GSTP1 expression and reduced oxidative stress. Glucocorticoids (GCs) are known to stimulate pancreatic beta (β)-cell apoptosis via several mechanisms, including oxidative stress. Our previous study suggested an increase in dexamethasone-induced pancreatic β-cell apoptosis via a reduction of glutathione S-transferase P1 (GSTP1), which is an antioxidant enzyme. Imatinib, which is a tyrosine kinase inhi",
+        "score": 0.42778345942497253,
+        "doi": "10.1038/s41598-024-68429-0",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": 0.40366971492767334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

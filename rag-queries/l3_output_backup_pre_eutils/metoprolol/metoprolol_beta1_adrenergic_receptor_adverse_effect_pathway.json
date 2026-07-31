@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol beta1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40759985",
+        "text": "Differential effects of β-blockers nebivolol and metoprolol on mitochondrial biogenesis and antioxidant defense in angiotensin II-induced pathology in H9c2 cardiomyoblasts. Mitochondrial dysfunction and oxidative stress induced by overactivation of angiotensin II (Ang II) are major contributors to the progression of cardiovascular diseases (CVD). This study investigates the comparative effects of nebivolol, a third-generation β1-adrenergic blocker, and metoprolol, a second-generation β1-adrenergic blocker, ",
+        "score": 0.42372024059295654,
+        "doi": "10.1186/s40360-025-00970-8",
+        "journal": "BMC pharmacology & toxicology",
+        "year": "2025",
+        "rerank_score": 3.0382094383239746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39291828",
+        "text": "Toxicity Risks Associated With the Beta-Blocker Metoprolol in Marine and Freshwater Organisms: A Review. The detection of pharmaceuticals in aquatic ecosystems has generated concern for wildlife and human health over the past several decades. β-adrenergic blocking agents are a class of drugs designed to treat cardiovascular diseases and high blood pressure. Metoprolol is a second-generation β1-adrenergic receptor inhibitor detected in effluent derived from sewage treatment plants. Our review presents an upd",
+        "score": 0.35929548740386963,
+        "doi": "10.1002/etc.5981",
+        "journal": "Environmental toxicology and chemistry",
+        "year": "2024",
+        "rerank_score": 2.6888437271118164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40287796",
+        "text": "Monitoring Serum Bisoprolol Concentrations in Patients With Heart Failure With Reduced Ejection Fraction: Results of a Pilot Study From Routine Health Care. Bisoprolol is a second-generation, highly selective beta-1 adrenergic receptor antagonist with various beneficial effects in patients with heart failure. Interindividual variability in response to bisoprolol is known, and finding the optimal dose for individual patients with heart failure is still challenging. This pilot study included patients treated ",
+        "score": 0.4541476368904114,
+        "doi": "10.1002/prp2.70089",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2025",
+        "rerank_score": 1.3700823783874512,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

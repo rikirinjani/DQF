@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil L-type calcium channel off-target binding",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8584049",
+        "text": "Extracellular site of action of phenylalkylamines on L-type calcium current in rat ventricular myocytes. The effects of the phenylalkylamines verapamil, gallopamil, and devapamil on L-type calcium currents (ICa) were studied in ventricular myocytes from rat hearts using the whole-cell patch-clamp technique. In particular, the question was addressed, whether the pharmacological binding sites for these drugs were located at the inner and/or at the outer surface of the cell membrane. Therefore, tertiary verapa",
+        "score": 0.3610529899597168,
+        "doi": "10.1007/BF00168564",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "1995",
+        "rerank_score": 4.336918354034424,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38870543",
+        "text": "Identifying Key Binding Interactions Between the Cardiac L-Type Calcium Channel and Calmodulin Using Molecular Dynamics Simulations. Defects in the binding of the calcium sensing protein calmodulin (CaM) to the L-type calcium channel (Ca",
+        "score": 0.3760937750339508,
+        "doi": "10.1021/acs.jpcb.4c02251",
+        "journal": "The journal of physical chemistry. B",
+        "year": "2024",
+        "rerank_score": 2.4788436889648438,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38691022",
+        "text": "Role of the Ca L-type calcium channels are essential for the excitation-contraction coupling in cardiac muscle. The Ca",
+        "score": 0.38342660665512085,
+        "doi": "10.1080/19336950.2024.2338782",
+        "journal": "Channels (Austin, Tex.)",
+        "year": "2024",
+        "rerank_score": 1.2104122638702393,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Irbesartan AT1 receptor off-target binding",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38801809",
+        "text": "Irbesartan mitigates the impact of cyclophosphamide-induced acute neurotoxicity in rats: Shedding highlights on NLRP3 inflammasome/CASP-1 pathway-driven immunomodulation. IIrbesartan (IRB), an angiotensin II type 1 receptor (AT1R) antagonist, has been widely employed in the medical field for its effectiveness in managing hypertension. However, there have been no documented investigations regarding the immunostimulatory properties of IRB. To address this gap, this study has been performed to assess the neuro",
+        "score": 0.3960880637168884,
+        "doi": "10.1016/j.intimp.2024.112336",
+        "journal": "International immunopharmacology",
+        "year": "2024",
+        "rerank_score": 3.384629011154175,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12125280",
+        "text": "[Effect of irbesartan, an antagonist of AT-1 receptors for angiotensin II, on L-arginine metabolism in arterial hypertension]. Effects of an antagonist of AT-1 receptors for angiotensin-II (Ang-II) irbezantane on the NO-synthase and arginase ways of the metabolism of L-arginine were studied in plasma and erythrocytes of the patients with arterial hypertension. The intensity of the non-oxidative arginase way of L-arginine metabolism in plasma and erythrocytes has been shown to be inhanced at hypertension ver",
+        "score": 0.37554702162742615,
+        "doi": "",
+        "journal": "Fiziolohichnyi zhurnal (Kiev, Ukraine : 1994)",
+        "year": "2002",
+        "rerank_score": 2.698611259460449,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21687518",
+        "text": "Selectivity and specificity of sphingosine 1-phosphate receptor ligands: \"off-targets\" or complex pharmacology? A recent perspective published in Frontiers of Pharmacology by Salomone and Waeber (2011) discussed the selectivity and specificity of sphingosine 1-phosphate (S1P) receptor ligands. This perspective surveyed the use of various S1P receptor ligands and attempted to reconcile a number of inconsistencies in the predicted biological outcomes: these were interpreted as \"off-target\" effects. Therefore ",
+        "score": 0.3753969073295593,
+        "doi": "10.3389/fphar.2011.00026",
+        "journal": "Frontiers in pharmacology",
+        "year": "2011",
+        "rerank_score": 1.9940294027328491,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ver_id": "VER-2026-004",
+  "timestamp": "20260727T122139",
+  "result": "pass",
+  "summary": "Multi-class selection + combo insight deployed and verified",
+  "linked_tasks": [
+    "server.py multi-class filter",
+    "query-tool.html multi-class checkboxes",
+    "regimens.json combo data"
+  ],
+  "linked_specs": [
+    "Multi-class drug selection + combo suggestions"
+  ],
+  "evidence_path": "self-harness/traces/multiclass-combo-done.pm1",
+  "verifications": [
+    "Multi-class checkbox group renders in query-tool.html",
+    "Combo-section JS renders Regimen Insights cards",
+    "API returns combo_suggestions in query response",
+    "drug_class=ppi,h2ra returns 8 drugs (combined PPI+H2RA classes)",
+    "All files deployed to pts-mac-mini, server restarted, drugs_count=27"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38654785",
+        "text": "Metformin-Induced Chronic Diarrhea Misdiagnosed as Irritable Bowel Syndrome for Years. Metformin is the most prescribed and recommended drug for type 2 diabetes mellitus because of its better tolerability, pleiotropic benefits, and cost-effectiveness. Metformin inhibits hepatic glucose production and increases muscle glucose uptake. Metformin is also associated with gastrointestinal side effects like abdominal bloating, flatulence, diarrhea, nausea, and vomiting. Metformin-related gastrointestinal side effe",
+        "score": 0.41712167859077454,
+        "doi": "10.7759/cureus.56828",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 0.8184312582015991,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41589626",
+        "text": "Linagliptan-associated delirium in an older patient. A 77-year-old man with type 2 diabetes, presented to the Emergency Department with an acute onset of confusion for 24 hours. He was on Metformin but due to nausea, this was switched to Linagliptan two days prior to his presentation. All vital signs were stable including blood sugar. Clinical examination was normal. Full blood count, renal, liver and C-reactive protein were all normal. CT brain revealed age-related involutional changes, while Chest X-ray a",
+        "score": 0.4388138949871063,
+        "doi": "",
+        "journal": "Irish medical journal",
+        "year": "2026",
+        "rerank_score": 0.2902415692806244,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39311002",
+        "text": "Sustained linagliptin administration: superior glycemic control and less pancreatic injury in diabetic rats. While linagliptin is the most potent dipeptidyl peptidase 4 inhibitor, its use is limited due to poor bioavailability and the potential risk of pancreatic injury. Here, we investigated whether the sustained weekly administration of linagliptin could provide better effect compared to frequent daily oral administration. Type 2 diabetes was induced by feeding rats a high fructose/fat/salt diet followed ",
+        "score": 0.43839430809020996,
+        "doi": "10.1080/10837450.2024.2407852",
+        "journal": "Pharmaceutical development and technology",
+        "year": "2024",
+        "rerank_score": -1.847295880317688,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

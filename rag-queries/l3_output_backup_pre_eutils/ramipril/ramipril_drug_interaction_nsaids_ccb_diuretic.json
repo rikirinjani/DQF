@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4518094062805176,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.4350396692752838,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40849780",
+        "text": "The Antioxidant and Anti-lipidemic Potential of Angiotensin-converting Enzyme Inhibitor (Ramipril) in L-NAME Hypertensive Rats. Hypertension is associated with oxidative disturbances and often coexists with metabolic disorders like hyperlipidemia. Some antihypertensive drugs, particularly angiotensin- converting enzyme (ACE) inhibitors, offer benefits beyond lowering blood pressure by addressing related conditions. This study aimed to investigate the effects of ACE inhibitors on oxidative stress and dyslipi",
+        "score": 0.45553165674209595,
+        "doi": "10.2174/0118715257375839250811064453",
+        "journal": "Cardiovascular & hematological agents in medicinal chemistry",
+        "year": "2025",
+        "rerank_score": -1.2857431173324585,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39943810",
+        "text": "The role of single-pill ACE inhibitor/ccb combination for hypertension: an Algerian view via the nominal group technique. Around one-third of adults in Algeria have hypertension, but > 40% are unaware they have the disease, and of those receiving treatment, only ~ 20-30% have adequate blood pressure (BP) control. Recommended starting treatment is an angiotensin converting enzyme inhibitor (ACEi) or angiotensin receptor blocker plus a calcium channel blocker (CCB) or diuretic. A single-pill combination of pe",
+        "score": 0.4430505931377411,
+        "doi": "10.1080/14796678.2025.2465218",
+        "journal": "Future cardiology",
+        "year": "2025",
+        "rerank_score": -1.9046387672424316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

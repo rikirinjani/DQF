@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38930938",
+        "text": "Supramolecular Interaction of Atenolol and Propranolol with β-Cyclodextrin Spectroscopic Characterization and Analytical Application. Atenolol (ATE) and propranolol (PRO) inclusion complexes with β-cyclodextrin have been investigated in aqueous solution. The aqueous solution was examined and characterized using UV-vis, fluorescence spectroscopy, and",
+        "score": 0.425590842962265,
+        "doi": "10.3390/molecules29122875",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": 0.35028836131095886,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4362126588821411,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": 0.3105723261833191,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38746306",
+        "text": "Genetic Inactivation of the β1 adrenergic receptor prevents Cerebral Cavernous Malformations in zebrafish. Propranolol reduces experimental murine cerebral cavernous malformations (CCMs) and prevents embryonic caudal venous plexus (CVP) lesions in zebrafish that follow mosaic inactivation of",
+        "score": 0.43860089778900146,
+        "doi": "10.1101/2024.05.05.592554",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2024",
+        "rerank_score": -1.6888941526412964,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

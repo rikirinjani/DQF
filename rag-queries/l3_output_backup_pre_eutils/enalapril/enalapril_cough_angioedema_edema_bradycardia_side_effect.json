@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1895531",
+        "text": "[Dry cough in the elderly patients treated with angiotensin converting enzyme inhibitor]. Since dry cough has recently been recognized as a side effect of angiotensin converting enzyme (ACE) inhibitors employed in the treatment of hypertension or congestive heart failure, the incidence of dry cough in elderly patients receiving ACE inhibitors was investigated. There were 237 out-patients on either captopril, enalapril, or delapril, in August and November 1989. Questionnaires concerning dry cough and smoking",
+        "score": 0.38503146171569824,
+        "doi": "10.3143/geriatrics.28.365",
+        "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+        "year": "1991",
+        "rerank_score": 2.5407919883728027,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38373878",
+        "text": "BRASH syndrome with a complete heart block- a case report. BRASH syndrome (Bradycardia, Renal failure, Atrioventricular (AV) nodal blocking agent, Shock and Hyperkalemia) is a recently emerging diagnosis that describes the profound bradycardia seen in patients on AV nodal blockers who present with acute kidney injury (AKI) and hyperkalemia. We present a case of a 68 years old female patient with past history of hypertension taking atenolol and Enalapril presented to emergency department with the complaint o",
+        "score": 0.4369789958000183,
+        "doi": "10.1186/s12872-024-03782-6",
+        "journal": "BMC cardiovascular disorders",
+        "year": "2024",
+        "rerank_score": 0.644572377204895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.38908645510673523,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.19929762184619904,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

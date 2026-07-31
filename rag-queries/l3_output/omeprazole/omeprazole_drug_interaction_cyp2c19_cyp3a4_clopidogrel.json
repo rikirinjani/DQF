@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole drug interaction CYP2C19 CYP3A4 clopidogrel",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30361928",
+        "text": "In Vitro Assessment of Potential for CYP-Inhibition-Based Drug-Drug Interaction Between Vonoprazan and Clopidogrel. It was recently proposed that CYP-mediated drug-drug interactions (DDIs) of vonoprazan with clopidogrel and prasugrel can attenuate the antiplatelet actions of the latter two drugs. Clopidogrel is metabolized to the pharmacologically active metabolite H4 and its isomers by multiple CYPs, including CYP2C19 and CYP3A4. Therefore, to investigate the possibility of CYP-based DDIs, in vitro metabol",
+        "score": 0.3741227984428406,
+        "doi": "10.1007/s13318-018-0521-7",
+        "journal": "European journal of drug metabolism and pharmacokinetics",
+        "year": "2018",
+        "rerank_score": 7.840706825256348,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19081411",
+        "text": "Effects of pantoprazole and esomeprazole on platelet inhibition by clopidogrel. Clopidogrel is activated by CYP2C19, which also metabolizes proton pump inhibitors (PPI). As proton pump inhibitors are metabolized to varying degrees by CYP2C19, we hypothesized that the reported negative omeprazole-clopidogrel drug interaction may not be a class effect.",
+        "score": 0.3754138946533203,
+        "doi": "10.1016/j.ahj.2008.09.017",
+        "journal": "American heart journal",
+        "year": "2008",
+        "rerank_score": 7.797898769378662,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.3909059166908264,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 7.541922569274902,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

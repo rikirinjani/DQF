@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Doxazosin ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39206783",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats. Diuretics, including thiazides and thiazide-like drugs, are commonly recommended for treating hypertension, though their precise mechanism of action is not fully understood. This study aimed to investigate the pharmacological effects of trichloromethiazide (TCM) in malignant stroke-prone spontaneously hypertensive rats (M-SHRSP). M-SHRSPs w",
+        "score": 0.41042399406433105,
+        "doi": "10.1097/HJH.0000000000003837",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -1.130552887916565,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12775963",
+        "text": "Doxazosin as combination therapy for patients with stage 1 and stage 2 hypertension. The purpose of this paper is to review the role of doxazosin, a long-acting alpha(1)-blocker, as a component of combination therapy for patients with stage 1 and stage 2 hypertension and for patients with concomitant hypertension and hyperlipidemia or glucose intolerance. Recent studies that evaluated doxazosin as combination therapy in the treatment of patients with inadequately controlled hypertension and patients with co",
+        "score": 0.40090954303741455,
+        "doi": "10.1097/00005344-200306000-00006",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "2003",
+        "rerank_score": -1.2153040170669556,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39625002",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats.",
+        "score": 0.4030766189098358,
+        "doi": "10.1097/HJH.0000000000003881",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -1.76170015335083,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

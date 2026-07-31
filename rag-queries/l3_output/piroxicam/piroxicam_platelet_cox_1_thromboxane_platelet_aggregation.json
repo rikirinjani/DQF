@@ -1,0 +1,79 @@
+{
+  "query": {
+    "query": "Piroxicam platelet COX-1 thromboxane platelet aggregation",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24075938",
+        "text": "Drug/drug interaction of common NSAIDs with antiplatelet effect of aspirin in human platelets.\n\nNonsteroidal anti-inflammatory drugs (NSAIDs) may interfere with the anti-platelet activity of aspirin at the level of the platelet cyclooxygenase-1 (COX-1) enzyme. In order to examine the interference of common NSAIDs with the anti-platelet activity of aspirin the human platelet rich plasma from voluntary donors was used for arachidonic acid-induced aggregation and determination of thromboxane synthesis. Further, docking studies were used to explain the molecular basis of the NSAID/aspirin interaction. The experimental results showed that celecoxib, dipyrone (active metabolite), ibuprofen, flufenamic acid, naproxen, nimesulide, oxaprozin, and piroxicam significantly interfere with the anti-platelet activity of aspirin, while diclofenac, ketorolac and acetaminophen do not. Docking studies suggested that NSAIDs forming hydrogen bonds with Ser530, Arg120, Tyr385 and other amino acids of the COX-1 hydrophobic channel interfere with antiplatelet activity of aspirin while non interfering NSAIDs do not form relevant hydrogen bond interactions within the aspirin binding site. In conclusion, docking analysis of NSAID interactions at the COX-1 active site appears useful to predict their interference with the anti-platelet activity of aspirin. The results, demonstrate that some NSAIDs do not interfere with the antiplatelet action of aspirin while many others do and provide a basis for understanding the observed differences among individual non-aspirin NSAIDs.",
+        "title": "Drug/drug interaction of common NSAIDs with antiplatelet effect of aspirin in human platelets.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "24075938",
+          "journal": "European journal of pharmacology",
+          "authors": [
+            "Saxena Aaruni",
+            "Balaramnavar Vishal M",
+            "Hohlfeld Thomas"
+          ],
+          "pub_date": "2013-Dec-05",
+          "doi": "10.1016/j.ejphar.2013.09.032",
+          "mesh_terms": [
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Aspirin",
+            "Blood Platelets",
+            "Catalytic Domain",
+            "Cyclooxygenase 1",
+            "Drug Interactions",
+            "Humans",
+            "Molecular Docking Simulation",
+            "Platelet Aggregation Inhibitors",
+            "Platelet Function Tests"
+          ]
+        }
+      },
+      {
+        "id": "PMID:14742249",
+        "text": "Differential expression of thromboxane synthase in prostate carcinoma: role in tumor cell motility.\n\nArachidonic acid metabolism through cyclooxygenase, lipoxygenase, or P-450 epoxygenase pathways can generate a variety of eicosanoids. Thromboxane synthase (TxS) metabolizes the cyclooxygenase product, prostanglandin H(2), into thromboxane A(2) (TXA(2)), which can cause vessel constriction, platelet activation, and aggregation. Here we demonstrate that human prostate cancer (PCa) cells express enzymatically active TxS and that this enzyme is involved in cell motility. In human PCa cell lines, PC-3, PC-3M, and ML-2 cells expressed higher levels of TxS than normal prostate epithelial cells or other established PCa cell lines such as DU145, LNCaP, or PPC-1. We cloned and sequenced the full-length TxS cDNA from PC-3 cells and found two changes in the amino acid residues. Immunohistochemical analysis of tumor specimens revealed that expression of TxS is weak or absent in normal differentiated luminal, or secretory cells, significantly elevated in less differentiated or advanced prostate tumors, and markedly increased in tumors with perineural invasion. TxS expressed in PC-3 cells was enzymatically active and susceptible to carboxyheptal imidazole, an inhibitor of TxS. The biosynthesis of TXA(2) in PC-3 cells was dependent on COX-2, and to a lesser extent, COX-1. Treatment of PC-3 cells with a COX-1 selective inhibitor, piroxicam, reduced TXA(2) synthesis by approximately 40%, while the COX-2 specific inhibitor NS398 reduced TXA(2) production by approximately 80%. Inhibition of TxS activity or blockade of TXA(2) function reduced PC-3 cell migration on fibronectin, while having minimal effects on cell cycle progression or survival. Finally, increased expression of TxS in DU145 cells increased cell motility. Our data suggest that human PCa cells express TxS and that this enzyme may contribute to PCa progression through modulating cell motility.",
+        "title": "Differential expression of thromboxane synthase in prostate carcinoma: role in tumor cell motility.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "14742249",
+          "journal": "The American journal of pathology",
+          "authors": [
+            "Nie Daotai",
+            "Che Mingxin",
+            "Zacharek Alex"
+          ],
+          "pub_date": "2004-Feb",
+          "doi": "10.1016/S0002-9440(10)63133-1",
+          "mesh_terms": [
+            "Amino Acid Sequence",
+            "Base Sequence",
+            "Blotting, Northern",
+            "Cell Line, Tumor",
+            "Cell Movement",
+            "Cyclooxygenase 1",
+            "Cyclooxygenase 2",
+            "DNA, Complementary",
+            "Enzyme Inhibitors",
+            "Humans",
+            "Immunohistochemistry",
+            "Isoenzymes",
+            "Male",
+            "Membrane Proteins",
+            "Molecular Sequence Data",
+            "Neoplasm Invasiveness",
+            "Prostaglandin-Endoperoxide Synthases",
+            "Prostatic Neoplasms",
+            "Reverse Transcriptase Polymerase Chain Reaction",
+            "Thromboxane-A Synthase"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Atenolol metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41058992",
+        "text": "Dietary uridine improves lipid homeostasis in high-fat diet-induced obese mice by regulating liver gene expression and metabolomic profiles. Obesity is caused by excessive storage of adipose tissue and leads to metabolic disorders. Uridine exerts modulatory effects on lipid metabolism, but the regulatory mechanism in obesity needs further research. In this study, the effects of uridine supplementation on lipid metabolism were investigated in high-fat diet-induced obese mice. Mice aged at 8 weeks were random",
+        "score": 0.43803733587265015,
+        "doi": "10.3389/fnut.2025.1651993",
+        "journal": "Frontiers in nutrition",
+        "year": "2025",
+        "rerank_score": -1.7406532764434814,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40677337",
+        "text": "Acute Effect of High Fat Intake on Urinary Acidification Parameters. The prevalence of uric acid nephrolithiasis has increased contemporaneously with obesity. The key pathogenic factor in uric acid nephrolithiasis is acidic urine pH (UpH), which partially results from reduced buffering of H Seven UASFs and 8 Ctrls were equilibrated on a fixed metabolic diet for 4 days. After sampling fasting urine and blood, the subjects received oral fat load over 10 hours, with blood and urine samples collected every 2 ho",
+        "score": 0.46061787009239197,
+        "doi": "10.1016/j.ekir.2025.04.020",
+        "journal": "Kidney international reports",
+        "year": "2025",
+        "rerank_score": -2.3789446353912354,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39617314",
+        "text": "Beta-adrenergic blockade via atenolol negatively affects body and heart mass and renal morphology in the developing chicken (Gallus Gallus Domesticus). Atenolol is a widely prescribed β",
+        "score": 0.4220315217971802,
+        "doi": "10.1016/j.cbpc.2024.110089",
+        "journal": "Comparative biochemistry and physiology. Toxicology & pharmacology : CBP",
+        "year": "2024",
+        "rerank_score": -2.6862761974334717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

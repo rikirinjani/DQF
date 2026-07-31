@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.42065680027008057,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.48048800230026245,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40222620",
+        "text": "Carvedilol is associated with lower risk of hepatic decompensation compared to other non-selective beta-blockers in cirrhosis.",
+        "score": 0.4286479949951172,
+        "doi": "10.1016/j.jhep.2025.04.005",
+        "journal": "Journal of hepatology",
+        "year": "2025",
+        "rerank_score": 0.06390757113695145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40575829",
+        "text": "Transport and thiazide-inhibition mechanisms of the Na-Cl cotransporter: a structural perspective. The structures of the human sodium-chloride cotransporter (hNCC) and its complex with thiazide diuretics have been determined recently. This review summarizes key structural insights into NCC's transport and inhibition mechanisms. Recent studies revealed the structures of hNCC and its complex with thiazide diuretics, in inward-facing and outward-facing conformations, respectively. The structures of hNCC in two",
+        "score": 0.40638867020606995,
+        "doi": "10.1097/MNH.0000000000001099",
+        "journal": "Current opinion in nephrology and hypertension",
+        "year": "2025",
+        "rerank_score": -0.40790674090385437,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

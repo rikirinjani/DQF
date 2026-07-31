@@ -1,0 +1,91 @@
+{
+  "query": {
+    "query": "Piroxicam anti-inflammatory COX-independent mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11809688",
+        "text": "Prostaglandin E(2) protects intestinal tumors from nonsteroidal anti-inflammatory drug-induced regression in Apc(Min/+) mice.\n\nNonsteroidal anti-inflammatory drugs (NSAIDs) are antitumorigenic in humans as well as in animal models of intestinal neoplasia, such as the adenomatous polyposis coli (Min/+) (Apc(Min/+)) mouse. NSAIDs inhibit cyclooxygenase (COX) isozymes, which are responsible for the committed step in prostaglandin biosynthesis, and this has been considered the primary mechanism by which NSAIDs exert their antitumorigenic effects. However, mounting evidence suggests the existence of COX-independent mechanisms. In the present study, we attempted to clarify this issue by treating Apc(Min/+) mice bearing established tumors with NSAIDs (piroxicam and sulindac, 0.5 and 0.6 mg/mouse/day, respectively) for 6 days and concomitantly bypassing COX inhibition by treatment with the E prostaglandin (EP) receptor agonists 16,16-dimethyl-prostaglandin E(2) (PGE(2)) and 17-phenyl-trinor-PGE(2) (10 microg each, three times daily) administered via gavage and/or i.p. routes. Treatment with piroxicam and sulindac resulted in 95% and 52% fewer tumors, respectively, and a higher ratio of apoptosis:mitosis in tumors from sulindac-treated mice as compared with controls. These effects were attenuated by concomitant EP receptor agonist treatment, suggesting PGE(2) is important in the maintenance of tumor integrity. Immunological sequestration of PGE(2) with an anti-PGE(2) monoclonal antibody likewise resulted in 33% fewer tumors in Apc(Min/+) mice relative to untreated controls, additionally substantiating a role for PGE(2) in tumorigenesis. The EP receptor subtype EP1 mediates the effects of PGE(2) by increasing intracellular calcium levels ([Ca(2+)](i)), whereas antagonism of EP1 has been shown to attenuate tumorigenesis in Apc(Min/+) mice. We demonstrate that [Ca(2+)](i) is significantly elevated in tumors of Apc(Min/+) mice relative to the adjacent normal-appearing mucosa. Furthermore, treatment with piroxicam results in significantly lower [Ca(2+)](i) in tumors, and this effect is attenuated by concomitant treatment with the EP1/EP3 receptor agonist 17-phenyl-trinor-PGE(2). Overall, our results suggest that NSAIDs exert their antitumorigenic effects, in part, via interference with PGE(2) biosynthesis, and these effects may be mediated through changes in intracellular calcium levels.",
+        "title": "Prostaglandin E(2) protects intestinal tumors from nonsteroidal anti-inflammatory drug-induced regression in Apc(Min/+) mice.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "11809688",
+          "journal": "Cancer research",
+          "authors": [
+            "Hansen-Petrik Melissa B",
+            "McEntee Michael F",
+            "Jull Brian"
+          ],
+          "pub_date": "2002-Jan-15",
+          "doi": "",
+          "mesh_terms": [
+            "16,16-Dimethylprostaglandin E2",
+            "Adenomatous Polyposis Coli",
+            "Animals",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Antibodies, Monoclonal",
+            "Apoptosis",
+            "Calcium",
+            "Cyclooxygenase Inhibitors",
+            "Dinoprostone",
+            "Disease Models, Animal",
+            "Drug Interactions",
+            "Intestine, Small",
+            "Male",
+            "Mice",
+            "Mice, Inbred C57BL",
+            "Mitosis",
+            "Piroxicam",
+            "Receptors, Prostaglandin E",
+            "Receptors, Prostaglandin E, EP1 Subtype",
+            "Receptors, Prostaglandin E, EP2 Subtype",
+            "Sulindac"
+          ]
+        }
+      },
+      {
+        "id": "PMID:19379728",
+        "text": "Inhibitory effect of nonsteroidal anti-inflammatory drugs on adenosine transport in vascular smooth muscle cells.\n\nIt is generally accepted that the clinical efficacy of nonsteroidal anti-inflammatory drugs (NSAIDs) arises mainly from the inhibition of cyclooxygenase (COX). However, more evidence has suggested that certain pharmacological actions of NSAIDs may be mediated by COX-independent mechanisms. The present study investigated the effects of NSAIDs on adenosine uptake in human aortic smooth muscle cells (HASMCs). Among the NSAIDs tested (all at 100 microM), aspirin, ibuprofen and naproxen had no effect on [(3)H]adenosine uptake. Piroxicam inhibited [(3)H]adenosine uptake by 30%, while etodolac, indomethacin, ketoprofen, mefenamic acid and sulindac inhibited [(3)H]adenosine by 13-18%. Sulindac sulfide, an active metabolite of sulindac, inhibited [(3)H]adenosine uptake and [(3)H]nitrobenzylmercaptopurine ribonucleoside (NBMPR) binding of HASMCs with IC(50) values of 40.67+/-4.82 and 24.19+/-3.76 muM, respectively. Kinetic studies revealed that sulindac sulfide was a competitive inhibitor of adenosine uptake. Using the nucleoside-transporter-deficient PK15NTD cells that stably express equilibrative nucleoside transport (ENT) 1 and ENT2, it was found that the inhibitory effect of sulindac sulfide on ENT1 was greater than that on ENT2. Sulindac sulfide increased the extracellular adenosine level. In addition, it inhibited the proliferation of HASMCs and this anti-proliferative effect could be abolished by adenosine A(2B) receptor antagonist. Our results suggest that sulindac sulfide may exert pharmacological effects through the inhibition of adenosine uptake, which modulates the availability of adenosine in the vicinity of adenosine receptors.",
+        "title": "Inhibitory effect of nonsteroidal anti-inflammatory drugs on adenosine transport in vascular smooth muscle cells.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "19379728",
+          "journal": "European journal of pharmacology",
+          "authors": [
+            "Li Rachel Wai-Sum",
+            "Seto Sai-Wang",
+            "Au Alice Lai-Shan"
+          ],
+          "pub_date": "2009-Jun-10",
+          "doi": "10.1016/j.ejphar.2009.04.017",
+          "mesh_terms": [
+            "Adenosine",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Aorta",
+            "Cell Proliferation",
+            "Cells, Cultured",
+            "Coloring Agents",
+            "Dose-Response Relationship, Drug",
+            "Etodolac",
+            "Humans",
+            "Indomethacin",
+            "Inhibitory Concentration 50",
+            "Ketoprofen",
+            "Kinetics",
+            "Mefenamic Acid",
+            "Muscle, Smooth, Vascular",
+            "Piroxicam",
+            "Sulindac",
+            "Temperature",
+            "Tetrazolium Salts",
+            "Thiazoles",
+            "Thioinosine"
+          ]
+        }
+      }
+    ]
+  }
+}

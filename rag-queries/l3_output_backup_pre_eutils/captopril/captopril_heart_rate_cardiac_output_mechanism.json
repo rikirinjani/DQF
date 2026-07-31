@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Captopril heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.4432205557823181,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -2.5133392810821533,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38973500",
+        "text": "Acupuncture modulation of the ACE/Ang II/AT1R and ACE2/Ang(1-7)/MasR pathways in the rostral ventrolateral medulla reduces sympathetic output and prevents cardiac injury caused by SHR hypertension. Acupuncture can reduce blood pressure, heart rate (HR), and ameliorate cardiac damage by modulating the excitability of the sympathetic nervous system, but the exact mechanism of this effect remains unclear. This study investigated the potential mechanisms of acupuncture in the treatment of cardiac damage in hype",
+        "score": 0.43336328864097595,
+        "doi": "10.1097/WNR.0000000000002073",
+        "journal": "Neuroreport",
+        "year": "2024",
+        "rerank_score": -4.759882926940918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41233035",
+        "text": "Agreement Among Cardiac-Output Measurement Techniques in High Cardiac-Output States.",
+        "score": 0.43154025077819824,
+        "doi": "10.1016/j.cardfail.2025.08.015",
+        "journal": "Journal of cardiac failure",
+        "year": "2025",
+        "rerank_score": -5.390282154083252,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

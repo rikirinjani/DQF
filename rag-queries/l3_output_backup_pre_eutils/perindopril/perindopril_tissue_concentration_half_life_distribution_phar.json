@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Perindopril tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.37456172704696655,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.4160878658294678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39644741",
+        "text": "Enhancing the practicality along with greenness sustainability of a high throughput HPLC-MS/MS bioanalytical method for the simultaneous determination of amlodipine, perindopril, and its active metabolite perindoprilat in human plasma: Application to a pharmacokinetic study. Numerous studies have demonstrated the benefits of amlodipine and perindopril combination therapy in decreasing blood pressure and improving outcomes for high-risk patients. In order to assess the pharmacokinetics of the 2 drugs along w",
+        "score": 0.36952537298202515,
+        "doi": "10.1016/j.chroma.2024.465559",
+        "journal": "Journal of chromatography. A",
+        "year": "2024",
+        "rerank_score": -2.8623032569885254,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40005995",
+        "text": "In Vitro and In Vivo Assessment of Pharmacokinetic Profile of Peramivir in the Context of Inhalation Therapy. The aim was to evaluate the pharmacokinetics and underlying mechanisms of peramivir, a clinically approved antiviral agent for severe influenza, subsequent to airway inhalation in rats, thereby surmounting the constraints associated with the sole currently available intravenous formulation. Pharmacokinetic and tissue distribution investigations of peramivir were carried out in rats following both in",
+        "score": 0.3954758644104004,
+        "doi": "10.3390/ph18020181",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": -3.551345109939575,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

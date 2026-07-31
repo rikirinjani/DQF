@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40810118",
+        "text": "Mathematical modeling of pharmacokinetics and pharmacodynamics of losartan in relation to  Losartan is a selective angiotensin II AT1-receptor antagonist for the treatment of arterial hypertension and heart failure. It is converted to a pharmacologically active metabolite carboxylosartan (E-3174) in the liver mainly by CYP2C9 enzyme, a member of the cytochrome P450 superfamily. The gene encoding this protein is highly polymorphic: numerous single nucleotide polymorphisms that alter the enzyme function have ",
+        "score": 0.3540630340576172,
+        "doi": "10.3389/fsysb.2025.1504077",
+        "journal": "Frontiers in systems biology",
+        "year": "2024",
+        "rerank_score": 4.869388103485107,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41549823",
+        "text": "Pharmacokinetic Interaction Among Amlodipine, Losartan, and Chlorthalidone after a Single Oral Administration in Healthy Male Subjects. Antihypertensive drugs are more potent when administered in combinations of two or three different classes of drugs. The objective of this study was to evaluate the pharmacokinetic interaction among amlodipine, losartan, and chlorthalidone. A randomized, open-label, four-sequence, four-period, four-treatment, single-dose study was conducted in healthy Korean male subjects, ",
+        "score": 0.3584274649620056,
+        "doi": "10.1002/cpdd.70024",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": 2.501919984817505,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38775910",
+        "text": "Pharmacokinetics of a Fixed-Dose Combination Product of Amlodipine, Losartan, Ezetimibe, and Rosuvastatin and Its Comparison with Co-administration of Four Individual Components in Healthy Participants. This study aimed to assess and compare the pharmacokinetics, safety, and tolerability of a fixed-dose combination product (FDCP) comprising four different drugs (two antihypertensive drugs, amlodipine and losartan, and two lipid-lowering agents, ezetimibe and rosuvastatin) with their separate tablets. A tota",
+        "score": 0.39826327562332153,
+        "doi": "10.1007/s40268-024-00460-y",
+        "journal": "Drugs in R&D",
+        "year": "2024",
+        "rerank_score": 2.3501203060150146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

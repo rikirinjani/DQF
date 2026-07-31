@@ -1,0 +1,36 @@
+{
+  "h2_blockade": null,
+  "tolerance": false,
+  "ddi_risk": 1,
+  "cns_penetration": true,
+  "off_targets": [
+    "H1-Receptor",
+    "H2-Histamine",
+    "H2-Receptor",
+    "Histamine",
+    "Proliferator-Activated"
+  ],
+  "_evidence": {
+    "pmids": [
+      "10223377",
+      "11373465",
+      "12175473",
+      "12182252",
+      "1673880",
+      "18054750",
+      "22848080",
+      "23454087",
+      "2878343",
+      "3734773",
+      "4076334",
+      "6312110",
+      "6317325",
+      "6329583",
+      "7809839",
+      "9068926"
+    ],
+    "source_count": 4,
+    "finding_count": 16
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

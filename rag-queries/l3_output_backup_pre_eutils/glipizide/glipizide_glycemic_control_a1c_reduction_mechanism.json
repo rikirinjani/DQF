@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.37613528966903687,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 1.2251341342926025,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38408478",
+        "text": "Encyclopaedic Review of Glipizide Pre-clinical and Clinical Status. Glipizide is an oral glucose-lowering medication that is beneficial for the treatment of type 2 diabetes. This study compiles exhaustively all accessible information on glipizide, from preclinical to clinical studies. Glipizide may be used in concert with TRAIL to treat cancer cells; in vitro studies have shown that it suppresses angiogenesis and vasculogenesis while shielding cells from glycation-induced damage. Anticonvulsant effects and ",
+        "score": 0.3794381022453308,
+        "doi": "10.1055/a-2237-8566",
+        "journal": "Drug research",
+        "year": "2024",
+        "rerank_score": -1.4635223150253296,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39161610",
+        "text": "Role of age and sex in the incidence of adverse effects among diabetic patients treated with glipizide. Glipizide is an antidiabetic drug that belongs to a class of medication known as sulfonylureas. It is considered one of the highly prescribed antidiabetic drugs for the treatment of type II diabetes in patients following a kidney transplant. It lowers blood glucose levels by causing the release of insulin from β-cells in the pancreas. Its main metabolizing pathway is through the liver. It has several adve",
+        "score": 0.37867170572280884,
+        "doi": "10.3892/etm.2024.12680",
+        "journal": "Experimental and therapeutic medicine",
+        "year": "2024",
+        "rerank_score": -2.324218273162842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Candesartan AT1 receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40956543",
+        "text": "Neuroprotective effects of candesartan in 3-nitropropionic acid-induced Huntington's disease: modulation of angiotensin and CREB/BDNF/PGC1-α signaling. Renin-Angiotensin System has been implicated in neurodegenerative diseases such as Huntington's (HD). It is made up of two axes: one is the Angiotensin II Type 1 receptor (AT1R) or Angiotensin II Type 2 receptor (AT2R), while the other is angiotensin-(1-7) [Ang-(1-7)], and Mas receptor; the latter has reported developing a neuroprotective effect; oppositely,",
+        "score": 0.40460312366485596,
+        "doi": "10.1007/s10787-025-01889-6",
+        "journal": "Inflammopharmacology",
+        "year": "2025",
+        "rerank_score": 4.763842582702637,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38801809",
+        "text": "Irbesartan mitigates the impact of cyclophosphamide-induced acute neurotoxicity in rats: Shedding highlights on NLRP3 inflammasome/CASP-1 pathway-driven immunomodulation. IIrbesartan (IRB), an angiotensin II type 1 receptor (AT1R) antagonist, has been widely employed in the medical field for its effectiveness in managing hypertension. However, there have been no documented investigations regarding the immunostimulatory properties of IRB. To address this gap, this study has been performed to assess the neuro",
+        "score": 0.3915773332118988,
+        "doi": "10.1016/j.intimp.2024.112336",
+        "journal": "International immunopharmacology",
+        "year": "2024",
+        "rerank_score": 4.726459503173828,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39092536",
+        "text": "Candesartan restores blood-brain barrier dysfunction, mitigates aberrant gene expression, and extends lifespan in a knockin mouse model of epileptogenesis. Blockade of Angiotensin type 1 receptor (AT1R) has potential therapeutic utility in the treatment of numerous detrimental consequences of epileptogenesis, including oxidative stress, neuroinflammation, and blood-brain barrier (BBB) dysfunction. We have recently shown that many of these pathological processes play a critical role in seizure onset and prop",
+        "score": 0.3815925717353821,
+        "doi": "10.1042/CS20240771",
+        "journal": "Clinical science (London, England : 1979)",
+        "year": "2024",
+        "rerank_score": 4.539895534515381,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

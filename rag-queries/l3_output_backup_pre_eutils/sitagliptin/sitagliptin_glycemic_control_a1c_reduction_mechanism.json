@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25500876",
+        "text": "Sitagliptin protects rat kidneys from acute ischemia-reperfusion injury via upregulation of GLP-1 and GLP-1 receptors. Sitagliptin, an oral glucose-lowering agent, has been found to produce cardiovascular protection possibly via anti-inflammatory and anti-atherosclerotic activities of glucagon-like peptide-1 receptor (GLP-1). The aim of this study was to investigate whether sitagliptin protected the kidney function from acute ischemia-reperfusion (IR) injury in rats.",
+        "score": 0.35269486904144287,
+        "doi": "10.1038/aps.2014.98",
+        "journal": "Acta pharmacologica Sinica",
+        "year": "2014",
+        "rerank_score": 0.6605681777000427,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39609927",
+        "text": "Role of the liver in the sustained normalisation of A1c over 2 years following short-term insulin therapy in early type 2 diabetes. When administered in early type 2 diabetes (T2DM), the strategy of 'induction' with short-term intensive insulin therapy (IIT) followed by 'maintenance' with metformin thereafter can yield outstanding glycaemic control, with some patients achieving A1c in the normal range of its assay. We thus sought to identify determinants of sustained normalisation of A1c in response to this",
+        "score": 0.38983356952667236,
+        "doi": "10.1111/dom.16099",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 0.04840082675218582,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41263457",
+        "text": "Addition of sitagliptin to ongoing metformin improved metabolic profile and pancreatic function via normalizing inflammatory cytokines' levels in patients with type 2 diabetes, a randomized double-blinded clinical trial. DPP-4 inhibitors have anti-diabetic effects in T2DM, but their impact on pancreatic function and underlying mechanisms remain unclear. This study aimed to evaluate the effects of sitagliptin on pancreatic function and glucose regulation, focusing on the roles of IL-18, IL-1, and IL-6 in T2D",
+        "score": 0.38662010431289673,
+        "doi": "10.1080/17446651.2025.2539252",
+        "journal": "Expert review of endocrinology & metabolism",
+        "year": "2025",
+        "rerank_score": -0.7879361510276794,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1389954",
+        "text": "Diffusion of cloxacillin into synovial tissue. After a 30 min i.v. infusion of 1 g cloxacillin, the concentrations of this antibiotic were measured in plasma and synovial tissue samples from 11 patients undergoing total hip replacement. Assuming passive distribution between plasma and tissue the rate constants of distribution were estimated. The mean half-life of distribution was 22 min. The concentration of free drug in synovial tissue was estimated to be 77% of the total tissue concentration. The maximum ",
+        "score": 0.3723836839199066,
+        "doi": "10.1111/j.1365-2125.1992.tb04138.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "1992",
+        "rerank_score": 1.8461244106292725,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3480700",
+        "text": "[Pharmacokinetic study of aclarubicin. The distribution of the preparation and its biologically active metabolites in rat tissues]. Tissue pharmacokinetics of aclarubicin and its active metabolites was studied with high performance liquid chromatography. The drug was administered to rats intravenously in single doses of 5 and 10 mg/kg and orally in a single dose of 10 mg/kg. With both the administration routes the highest concentrations of the drug and its metabolites were attained in the lymph nodes. Then ",
+        "score": 0.3719496428966522,
+        "doi": "",
+        "journal": "Antibiotiki i meditsinskaia biotekhnologiia = Antibiotics and medical biotechnol",
+        "year": "1987",
+        "rerank_score": -1.695527195930481,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39141427",
+        "text": "Multiple-dose pharmacokinetics of cenerimod and the effect of charcoal on its elimination. Cenerimod is a sphingosine-1-phosphate receptor 1 modulator that reduces tissue availability of circulating lymphocytes. The compound is in Phase 3 development for the treatment of systemic lupus erythematosus. Its pharmacokinetic properties are characterized by slow absorption and multiphasic elimination with a long terminal half-life (t",
+        "score": 0.42190617322921753,
+        "doi": "10.1002/jcph.6106",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -3.245802879333496,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

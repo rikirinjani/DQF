@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin AMPK off-target binding pathway",
+    "dimension": "off_target",
+    "target": "AMPK"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38251680",
+        "text": "The Anti-Diabetic Drug Metformin Suppresses Pathological Retinal Angiogenesis via Blocking the mTORC1 Signaling Pathway in Mice (Metformin Suppresses Pathological Angiogenesis). Metformin, a biguanide antihyperglycemic drug, can exert various beneficial effects in addition to its glucose-lowering effect. The effects of metformin are mainly mediated by AMP-activated protein kinase (AMPK)-dependent pathway. AMPK activation interferes with the action of the mammalian target of rapamycin complex 1 (mTORC1), and",
+        "score": 0.391618013381958,
+        "doi": "10.1080/02713683.2024.2302865",
+        "journal": "Current eye research",
+        "year": "2024",
+        "rerank_score": 4.410337448120117,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38466134",
+        "text": "Metformin enhances epithelial cell growth inhibition via the protein kinase-insulin-like growth factor binding protein-1 pathway. Abnormal stromal-epithelial cell communication is a pathogenic mechanism in endometriosis, and metformin can modulate it. Insulin-like growth factor binding protein-1 (IGFBP1) plays a role in endometriosis, but the exact mechanism is unknown. IGFBP1 is reportedly a downstream target of metformin in some diseases. We aimed to investigate the role of IGFBP1 in endometriosis develop",
+        "score": 0.41833415627479553,
+        "doi": "10.1080/01443615.2024.2321651",
+        "journal": "Journal of obstetrics and gynaecology : the journal of the Institute of Obstetri",
+        "year": "2024",
+        "rerank_score": 4.075974941253662,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40277915",
+        "text": "Metformin Inhibits Cell Motility and Proliferation of Triple-Negative Breast Cancer Cells by Blocking HMGB1/RAGE Signaling. High-mobility group box 1 (HMGB1) is a nuclear chromatin protein overexpressed in various cancers and linked to tumor progression. Outside the cell, HMGB1 binds to receptors such as the receptor for advanced glycation end products (RAGE), promoting metastasis. Targeting this signaling pathway may provide a new therapeutic strategy for aggressive cancers. Metformin, a well-established a",
+        "score": 0.42001834511756897,
+        "doi": "10.3390/cells14080590",
+        "journal": "Cells",
+        "year": "2025",
+        "rerank_score": 2.8896191120147705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

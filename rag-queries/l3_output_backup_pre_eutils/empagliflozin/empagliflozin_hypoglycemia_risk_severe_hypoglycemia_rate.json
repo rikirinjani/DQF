@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Empagliflozin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41507062",
+        "text": "Effects of empagliflozin in patients at risk of heart failure: the Empire Prevent Metabolic Trial. Obesity increases the risk of heart failure (HF), partly due to hypervolaemia and excess epicardial adipose tissue (EAT).We aimed to investigate the effect of the sodium glucose co-transporter 2 inhibitor empagliflozin on estimated extracellular volume (eECV) and ventricular EAT mass in non-diabetic patients with overweight or obesity and risk of HF to evaluate the drug's potential for HF prevention. In this r",
+        "score": 0.4064069092273712,
+        "doi": "10.1093/eurjpc/zwag010",
+        "journal": "European journal of preventive cardiology",
+        "year": "2025",
+        "rerank_score": 2.499760389328003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36224542",
+        "text": "Efficacy and safety of combination of empagliflozin and metformin with combination of sitagliptin and metformin during Ramadan: an observational study. Management of diabetes during fasting is a clinical challenge. Sodium glucose co-transporter -2 inhibitors (SGLT2i) are considered safe with a low risk of hypoglycemia. However, studies on SGLT2i are scarce. This study was designed to compare the efficacy, safety, and tolerability of empagliflozin with metformin during Ramadan in comparison with sitagliptin ",
+        "score": 0.3587251603603363,
+        "doi": "10.1186/s12902-022-01168-3",
+        "journal": "BMC endocrine disorders",
+        "year": "2022",
+        "rerank_score": 1.7927666902542114,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39375646",
+        "text": "The effect of empagliflozin (sodium-glucose cotransporter-2 inhibitor) on osteoporosis and glycemic parameters in patients with type 2 diabetes: a quasi-experimental study. Diabetic osteoporosis (DOP) is a metabolic disease that occurs in patients with diabetes due to insufficient insulin secretion. This condition can lead to sensory neuropathy, nephropathy, retinopathy, and hypoglycemic events, which can increase the risk of fractures. This study aimed to assess the effectiveness of Empagliflozin, a sodium",
+        "score": 0.4033486247062683,
+        "doi": "10.1186/s12891-024-07900-5",
+        "journal": "BMC musculoskeletal disorders",
+        "year": "2024",
+        "rerank_score": 1.7018117904663086,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

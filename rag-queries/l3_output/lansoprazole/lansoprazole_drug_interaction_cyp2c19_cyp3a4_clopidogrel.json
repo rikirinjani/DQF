@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole drug interaction CYP2C19 CYP3A4 clopidogrel",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30361928",
+        "text": "In Vitro Assessment of Potential for CYP-Inhibition-Based Drug-Drug Interaction Between Vonoprazan and Clopidogrel. It was recently proposed that CYP-mediated drug-drug interactions (DDIs) of vonoprazan with clopidogrel and prasugrel can attenuate the antiplatelet actions of the latter two drugs. Clopidogrel is metabolized to the pharmacologically active metabolite H4 and its isomers by multiple CYPs, including CYP2C19 and CYP3A4. Therefore, to investigate the possibility of CYP-based DDIs, in vitro metabol",
+        "score": 0.3789937198162079,
+        "doi": "10.1007/s13318-018-0521-7",
+        "journal": "European journal of drug metabolism and pharmacokinetics",
+        "year": "2018",
+        "rerank_score": 7.385499000549316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.4507284462451935,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 5.49446439743042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18445994",
+        "text": "Interaction between tacrolimus and lansoprazole, but not rabeprazole in living-donor liver transplant patients with defects of CYP2C19 and CYP3A5. We report different effects of administration of proton pump inhibitors on tacrolimus blood concentration in two living-donor liver transplant patients. In case 1, a 51-year-old man with liver cirrhosis due to hepatitis C virus underwent living-donor liver transplantation, and tacrolimus was orally administered. Omeprazole (40 mg/day) was introduced intravenously",
+        "score": 0.38005882501602173,
+        "doi": "10.2133/dmpk.23.134",
+        "journal": "Drug metabolism and pharmacokinetics",
+        "year": "2008",
+        "rerank_score": 4.860384941101074,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

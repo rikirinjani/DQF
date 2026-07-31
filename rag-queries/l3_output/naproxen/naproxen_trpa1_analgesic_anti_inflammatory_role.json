@@ -1,0 +1,55 @@
+{
+  "query": {
+    "query": "Naproxen TRPA1 analgesic anti-inflammatory role",
+    "dimension": "off_target",
+    "target": "TRPA1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27899696",
+        "text": "Selective antagonism of TRPA1 produces limited efficacy in models of inflammatory- and neuropathic-induced mechanical hypersensitivity in rats.\n\nThe transient receptor potential ankyrin 1 (TRPA1) channel has been implicated in pathophysiological processes that include asthma, cough, and inflammatory pain. Agonists of TRPA1 such as mustard oil and its key component allyl isothiocyanate (AITC) cause pain and neurogenic inflammation in humans and rodents, and TRPA1 antagonists have been reported to be effective in rodent models of pain. In our pursuit of TRPA1 antagonists as potential therapeutics, we generated AMG0902, a potent (IC90 of 300 nM against rat TRPA1), selective, brain penetrant (brain to plasma ratio of 0.2), and orally bioavailable small molecule TRPA1 antagonist. AMG0902 reduced mechanically evoked C-fiber action potential firing in a skin-nerve preparation from mice previously injected with complete Freund's adjuvant, supporting the role of TRPA1 in inflammatory mechanosensation. In vivo target coverage of TRPA1 by AMG0902 was demonstrated by the prevention of AITC-induced flinching/licking in rats. However, oral administration of AMG0902 to rats resulted in little to no efficacy in models of inflammatory, mechanically evoked hypersensitivity; and no efficacy was observed in a neuropathic pain model. Unbound plasma concentrations achieved in pain models were about 4-fold higher than the IC90 concentration in the AITC target coverage model, suggesting that either greater target coverage is required for efficacy in the pain models studied or TRPA1 may not contribute significantly to the underlying mechanisms.",
+        "title": "Selective antagonism of TRPA1 produces limited efficacy in models of inflammatory- and neuropathic-induced mechanical hypersensitivity in rats.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "27899696",
+          "journal": "Molecular pain",
+          "authors": [
+            "Lehto Sonya G",
+            "Weyer Andy D",
+            "Youngblood Beth D"
+          ],
+          "pub_date": "2016",
+          "doi": "10.1177/1744806916677761",
+          "mesh_terms": [
+            "Action Potentials",
+            "Amines",
+            "Analgesics",
+            "Animals",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "CHO Cells",
+            "Cricetulus",
+            "Cyclohexanecarboxylic Acids",
+            "Exploratory Behavior",
+            "Freund's Adjuvant",
+            "Gabapentin",
+            "Hyperalgesia",
+            "Inflammation",
+            "Male",
+            "Mice, Inbred C57BL",
+            "Mice, Knockout",
+            "Naproxen",
+            "Nerve Fibers, Unmyelinated",
+            "Pain Threshold",
+            "Rats",
+            "Rats, Sprague-Dawley",
+            "Sciatica",
+            "TRPA1 Cation Channel",
+            "TRPC Cation Channels",
+            "gamma-Aminobutyric Acid"
+          ]
+        }
+      }
+    ]
+  }
+}

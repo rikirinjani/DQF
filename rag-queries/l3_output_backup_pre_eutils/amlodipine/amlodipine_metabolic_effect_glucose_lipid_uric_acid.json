@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Amlodipine metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39369847",
+        "text": "Hypoxanthine ameliorates diet-induced insulin resistance by improving hepatic lipid metabolism and gluconeogenesis via AMPK/mTOR/PPARα pathway. Insulin resistance (IR) is a pivotal metabolic disorder associated with type 2 diabetes and metabolic syndrome. This study investigated the potential of hypoxanthine (Hx), a purine metabolite and uric acid precursor, in ameliorating IR and regulating hepatic glucose and lipid metabolism. We utilized both in vitro IR-HepG2 cells and in vivo diet-induced IR mice to in",
+        "score": 0.44639408588409424,
+        "doi": "10.1016/j.lfs.2024.123096",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": 1.2260719537734985,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41006534",
+        "text": "In vitro and in silico studies and a systematic literature review of antiglycation properties of amlodipine. Protein glycation is crucial in the pathogenesis of diabetes and its cardiovascular complications. Little is known about the antiglycation properties of amlodipine, a long-acting calcium channel blocker used to treat high blood pressure. In our study, amlodipine's antiglycoxidant activity was assayed in sugars (glucose, fructose, and ribose), aldehydes (glyoxal), and chloramine T-modified bovine seru",
+        "score": 0.4510759115219116,
+        "doi": "10.1038/s41598-025-18925-8",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": -0.1958763748407364,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39061977",
+        "text": "Olanzapine Modulate Lipid Metabolism and Adipose Tissue Accumulation via Hepatic Muscarinic M3 Receptor-Mediated Alk-Related Signaling. Olanzapine is an atypical antipsychotic drug and a potent muscarinic M3 receptor (M3R) antagonist. Olanzapine has been reported to cause metabolic disorders, including dyslipidemia. Anaplastic lymphoma kinase (",
+        "score": 0.45839178562164307,
+        "doi": "10.3390/biomedicines12071403",
+        "journal": "Biomedicines",
+        "year": "2024",
+        "rerank_score": -0.315243124961853,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

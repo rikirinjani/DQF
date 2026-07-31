@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Bisoprolol beta1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40287796",
+        "text": "Monitoring Serum Bisoprolol Concentrations in Patients With Heart Failure With Reduced Ejection Fraction: Results of a Pilot Study From Routine Health Care. Bisoprolol is a second-generation, highly selective beta-1 adrenergic receptor antagonist with various beneficial effects in patients with heart failure. Interindividual variability in response to bisoprolol is known, and finding the optimal dose for individual patients with heart failure is still challenging. This pilot study included patients treated ",
+        "score": 0.3989303708076477,
+        "doi": "10.1002/prp2.70089",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2025",
+        "rerank_score": 3.275986909866333,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40222952",
+        "text": "β-Adrenergic Blockers Increase cAMP and Stimulate Insulin Secretion Through a PKA/RYR2/TRPM5 Pathway in Pancreatic β-Cells In Vitro. β-adrenergic blockers (β-blockers) are extensively used to inhibit β-adrenoceptor activation and subsequent cAMP production in many cell types. In this study, we characterized the effects of β-blockers on mouse pancreatic β-cells. Unexpectedly, high concentrations (100 μM) of β-blockers (propranolol and bisoprolol) paradoxically increased cAMP levels 5-10 fold, enhanced Ca",
+        "score": 0.39850324392318726,
+        "doi": "10.1002/prp2.70092",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2025",
+        "rerank_score": 2.2409043312072754,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40759985",
+        "text": "Differential effects of β-blockers nebivolol and metoprolol on mitochondrial biogenesis and antioxidant defense in angiotensin II-induced pathology in H9c2 cardiomyoblasts. Mitochondrial dysfunction and oxidative stress induced by overactivation of angiotensin II (Ang II) are major contributors to the progression of cardiovascular diseases (CVD). This study investigates the comparative effects of nebivolol, a third-generation β1-adrenergic blocker, and metoprolol, a second-generation β1-adrenergic blocker, ",
+        "score": 0.4264937937259674,
+        "doi": "10.1186/s40360-025-00970-8",
+        "journal": "BMC pharmacology & toxicology",
+        "year": "2025",
+        "rerank_score": 1.7963175773620605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

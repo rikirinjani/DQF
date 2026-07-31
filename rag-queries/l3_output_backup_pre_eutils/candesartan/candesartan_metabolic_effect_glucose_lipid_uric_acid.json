@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Candesartan metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40571828",
+        "text": "Effect of losartan on uric acid metabolism in children with proteinuric kidney disease: crossover randomized controlled clinical trial. Low uric acid (UA) levels are desirable in kidney disease. Enalapril is the most used reno-protective drug; losartan has a similar antihypertensive and antiproteinuric effect, but also induces hyperuricosuria due to tubular urate transporter 1 inhibition. As this effect has not been demonstrated in paediatrics, we assessed if losartan reduces serum UA in children, owing to ",
+        "score": 0.37750062346458435,
+        "doi": "10.1007/s00467-025-06754-w",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2025",
+        "rerank_score": 3.741983652114868,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39350559",
+        "text": "Comparative Effects of Candesartan Versus Enalapril on Apelin, Visfatin, and Lipid Levels in Non-obese Hypertensive Patients. Apelin and visfatin are adipokines secreted from adipose tissue that play important roles in regulating blood pressure. Therefore, the current study aimed to investigate the effects of candesartan versus enalapril on apelin, visfatin, and lipid profiles in hypertensive patients. In this case-control study, 120 participants were enrolled in four groups; Healthy people, newly diagnosed",
+        "score": 0.4025408625602722,
+        "doi": "10.4274/MMJ.galenos.2024.16098",
+        "journal": "Medeniyet medical journal",
+        "year": "2024",
+        "rerank_score": 1.3962968587875366,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.3925095498561859,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.376529574394226,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

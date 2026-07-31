@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38419057",
+        "text": "Effect of sacubitril/valsartan on lipid metabolism in patients with chronic kidney disease combined with chronic heart failure: a retrospective study. Dyslipidemia is significantly more common in those with concurrent chronic kidney disease (CKD) and chronic heart failure (CHF). Sacubitril/valsartan has showcased its influence on both cardiac and renal functions, extending its influence to the modulation of lipid metabolism pathways. This study aimed to examine how sacubitril/valsartan affects lipid metabol",
+        "score": 0.42280006408691406,
+        "doi": "10.1186/s12944-024-02051-x",
+        "journal": "Lipids in health and disease",
+        "year": "2024",
+        "rerank_score": 5.344250679016113,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40576039",
+        "text": "A Comparison Study of Olmesartan and Valsartan Effects on Myocardial Metabolism in Patients With Dilated Cardiomyopathy: the OVOID Trial. Myocardial metabolism plays an important role in maintaining cardiac function. Patients with dilated cardiomyopathy exhibit alterations in myocardial metabolism characterized by increased myocardial glucose metabolism. This study aimed to evaluate effects on myocardial metabolism of the angiotensin II receptor blockers olmesartan and valsartan in patients with dilated car",
+        "score": 0.4332784414291382,
+        "doi": "10.1161/JAHA.125.041406",
+        "journal": "Journal of the American Heart Association",
+        "year": "2025",
+        "rerank_score": 3.015314817428589,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40820210",
+        "text": "The effect of sacubitril/valsartan on urinary C-peptide excretion and endogenous insulin secretory capacity in a patient with type 2 diabetes: a case report. The evaluation of endogenous insulin secretory capacity is important in the selection of diabetes treatment. C-peptide, which is secreted in equivalent amounts as insulin, is a versatile test for this evaluation. Urinary C-peptide is widely used because it is less invasive. Sacubitril/valsartan, used to treat hypertension and chronic heart failure, has",
+        "score": 0.4487456679344177,
+        "doi": "10.1186/s40780-025-00472-z",
+        "journal": "Journal of pharmaceutical health care and sciences",
+        "year": "2025",
+        "rerank_score": 2.0674848556518555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

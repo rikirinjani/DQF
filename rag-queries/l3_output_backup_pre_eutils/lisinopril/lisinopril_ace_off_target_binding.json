@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril ACE off-target binding",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41108928",
+        "text": "Spectroscopic investigation of the competitive-allosteric-synergistic mechanism in the binding of benazepril/apigenin to bovine serum albumin. Multispectral techniques were used to investigate the synergistic effects between the antihypertensive drug benazepril (BNZ) and the natural active compound apigenin (AP) on bovine serum albumin (BSA). AP exhibits a significantly higher binding affinity (K",
+        "score": 0.4442187547683716,
+        "doi": "10.1016/j.saa.2025.127050",
+        "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+        "year": "2025",
+        "rerank_score": -3.859978437423706,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25709029",
+        "text": "Binding site druggability assessment in fragment-based drug design. Target druggability refers to the propensity that a particular target is amenable to bind high-affinity drug-like molecules. A robust yet accurate computational assessment of target druggability would greatly benefit the fields of chemical genomics and drug discovery. Here, we illustrate a structure-based computational protocol to quantitatively assess the target binding-site druggability via in silico screening a fragment-like compound lib",
+        "score": 0.40815800428390503,
+        "doi": "10.1007/978-1-4939-2486-8_2",
+        "journal": "Methods in molecular biology (Clifton, N.J.)",
+        "year": "2015",
+        "rerank_score": -4.355330944061279,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40774106",
+        "text": "Positional isomers of Indolyl-benzodiazepines display dissimilar binding and recruitment of BET transcriptional regulators to targeted genomic loci. BET proteins contain two tandem bromodomains (BD1 and BD2) that bind histone acetyl-lysine residues that can be targeted with small molecule inhibitors such as IBET-762, which bears a triazolo benzodiazepine core. Here, we report the consequences of substituting the pendant chlorobenzene moiety of IBET-762. Substitution with larger ring structures diminishes br",
+        "score": 0.4460242688655853,
+        "doi": "10.1016/j.bioorg.2025.108813",
+        "journal": "Bioorganic chemistry",
+        "year": "2025",
+        "rerank_score": -4.362667083740234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

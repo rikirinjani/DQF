@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dulaglutide GLP-1 receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41069310",
+        "text": "Acute effects of GIP and GLP-1 receptor antagonism in totally pancreatectomized individuals: A randomized double-blind, placebo-controlled crossover study. The incretin hormones glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) influence metabolism through strong effects on pancreatic hormone secretion but also in a pancreas-independent manner. Here, we investigated the isolated extrapancreatic effects of endogenous GIP and GLP-1 by applying hormone receptor antagonists ",
+        "score": 0.3247622549533844,
+        "doi": "10.1111/dom.70186",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 6.096315860748291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40842022",
+        "text": "A Combined Modeling Approach to Predict the Effect of Gastric Emptying Delay on the Pharmacokinetics of Small Molecules. Dulaglutide, a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist, is approved for improving glycemic control and reducing cardiovascular risks in patients with type 2 diabetes mellitus (T2DM). This research investigates the effect of dulaglutide on gastric emptying and its impact on the pharmacokinetics (PK) of orally administered molecules utilizing a combination of population",
+        "score": 0.31654033064842224,
+        "doi": "10.1002/psp4.70101",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 6.065589427947998,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39805329",
+        "text": "Effect of the glucagon-like peptide-1 receptor agonists dulaglutide on kidney outcomes in db/db mice. Diabetic kidney disease (DKD), a microvascular complication of diabetes mellitus, represents a significant clinical challenge. This study investigated the reno-protective effects of dulaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1 RA) widely used in the management of diabetes, and aimed to elucidate its underlying mechanisms. Mice with db/db and db/m genotypes were allocated into four experime",
+        "score": 0.3389371633529663,
+        "doi": "10.1016/j.cellsig.2025.111603",
+        "journal": "Cellular signalling",
+        "year": "2024",
+        "rerank_score": 5.942959308624268,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

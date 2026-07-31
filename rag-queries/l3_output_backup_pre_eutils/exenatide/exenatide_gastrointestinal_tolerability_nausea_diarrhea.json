@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38654785",
+        "text": "Metformin-Induced Chronic Diarrhea Misdiagnosed as Irritable Bowel Syndrome for Years. Metformin is the most prescribed and recommended drug for type 2 diabetes mellitus because of its better tolerability, pleiotropic benefits, and cost-effectiveness. Metformin inhibits hepatic glucose production and increases muscle glucose uptake. Metformin is also associated with gastrointestinal side effects like abdominal bloating, flatulence, diarrhea, nausea, and vomiting. Metformin-related gastrointestinal side effe",
+        "score": 0.4770619869232178,
+        "doi": "10.7759/cureus.56828",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -0.34761378169059753,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39906694",
+        "text": "Appendicitis After Initiation of Tirzepatide. Tirzepatide is a GLP1/GIP receptor agonist that is used to treat type 2 diabetes and promote weight loss. Common side effects of Tirzepatide include nausea, vomiting, and diarrhea. More severe side effects include pancreatitis, cholelithiasis, thyroid cancer, and cholecystitis. With the increased use of these medications, additional side effects are being discovered. Delayed gastric emptying associated with GLP1/GIP receptor agonists can increase the risk of dev",
+        "score": 0.4635179042816162,
+        "doi": "10.2147/DMSO.S496739",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2024",
+        "rerank_score": -1.522060751914978,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40203970",
+        "text": "A double-blind, placebo-controlled trial of exenatide for the treatment of olanzapine-related weight gain in obese and overweight adults. To assess the safety and efficacy of exenatide in overweight or obese patients treated with olanzapine. Adults with stable major mood or psychotic disorders were randomized to double-blind exenatide or placebo for 16 weeks. Weight and body mass index (BMI) were monitored throughout the study. A secondary objective was to evaluate the tolerability of exenatide and its effe",
+        "score": 0.4523426592350006,
+        "doi": "10.1016/j.jad.2025.04.046",
+        "journal": "Journal of affective disorders",
+        "year": "2024",
+        "rerank_score": -2.6662395000457764,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

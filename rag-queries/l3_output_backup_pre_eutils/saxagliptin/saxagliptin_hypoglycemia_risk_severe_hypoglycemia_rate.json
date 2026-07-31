@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40924111",
+        "text": "Time below range alone is insufficient to identify severe hypoglycaemia risk in type 1 diabetes-the critical role of hypoglycaemia awareness: results from the SFDT1 study. Severe hypoglycaemia events (SHE) remain frequent in people with type 1 diabetes despite advanced diabetes technologies. We examined whether time below range (TBR) 3.9 mmol/l (70 mg/dl; TBR70) or 3.0 mmol/l (54 mg/dl; TBR54) is associated with future SHE risk and whether impaired awareness of hypoglycaemia (IAH) modifies this relationship",
+        "score": 0.41899025440216064,
+        "doi": "10.1007/s00125-025-06536-x",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 1.289310336112976,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41529164",
+        "text": "Assessing Time Below Range as a Predictor of Severe Hypoglycemia: Insights From Six Clinical Trials. To evaluate whether baseline continuous glucose monitoring (CGM)-derived time below range (TBR) metrics-TBR level 1 (TBR1) (<70 mg/dL) and TBR level 2 (TBR2) (<54 mg/dL)-predicts severe hypoglycemia (SH) during follow-up of individuals with type 1 diabetes. Baseline CGM TBR levels and their association with SH adverse events during six clinical trials were analyzed using Wilcoxon rank-sum tests and Spearman ",
+        "score": 0.40721815824508667,
+        "doi": "10.2337/dc25-2353",
+        "journal": "Diabetes care",
+        "year": "2025",
+        "rerank_score": 0.6399222016334534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39890342",
+        "text": "Hypoglycemia in Hospitalized Patients with Diabetes. Approximately 38% of the patient population in community hospitals throughout the United States has diabetes mellitus. Hypoglycemia is defined as less than 70 mg/dL. Patients with hypoglycemia are at more risk for clinically adverse outcomes including death. Critical care nurses must recognize the signs and symptoms of hypoglycemia and initiate prompt intervention to reduce the risk of mortality.",
+        "score": 0.40642470121383667,
+        "doi": "10.1016/j.cnc.2024.09.001",
+        "journal": "Critical care nursing clinics of North America",
+        "year": "2025",
+        "rerank_score": 0.2003527134656906,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

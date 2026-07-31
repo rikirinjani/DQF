@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.3954978287220001,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 2.7609174251556396,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39960254",
+        "text": "The Relationship Between the Percent Coefficient of Variation of Sensor Glucose Levels and the Risk of Severe Hypoglycemia or Non-Severe Hypoglycemia in Patients With Type 1 Diabetes: Post Hoc Analysis of the ISCHIA Study. The relationship between the percent coefficient of variation (%CV) and the risk of severe hypoglycemia (SH) or non-severe hypoglycemia (NSH) in patients with type 1 diabetes (T1D) remains to be elucidated. The Effect of Intermittent-Scanning Continuous Glucose Monitoring to Glycemic Cont",
+        "score": 0.427462637424469,
+        "doi": "10.1177/19322968251318756",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 1.4275532960891724,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40272529",
+        "text": "Severe hypoglycaemia is associated with increased risk of adverse cardiovascular complications in adults with type 1 diabetes: risk mitigation using intermittently scanned continuous glucose monitoring. It has been proposed that severe hypoglycaemia events (SHE) may increase the risk of adverse CVD complications in adults with type 1 diabetes. The aim of this study was to evaluate the risk of CVD complications following SHE in a large cohort of adults with type 1 diabetes, and to compare the risk of post-SH",
+        "score": 0.43286341428756714,
+        "doi": "10.1007/s00125-025-06438-y",
+        "journal": "Diabetologia",
+        "year": "2024",
+        "rerank_score": 0.8821063041687012,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38837864",
+        "text": "Physiologically-based pharmacokinetic modeling of pantoprazole to evaluate the role of CYP2C19 genetic variation and obesity in the pediatric population. Pantoprazole is a proton pump inhibitor indicated for the treatment of gastroesophageal reflux disease, a condition that disproportionately affects children with obesity. Appropriately dosing pantoprazole in children with obesity requires understanding the body size metric that best guides dosing, but pharmacokinetic (PK) trials using traditional technique",
+        "score": 0.39735233783721924,
+        "doi": "10.1002/psp4.13167",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": -0.5764556527137756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39189986",
+        "text": "Evaluation of Obesity-Related Physiological Changes on Pantoprazole Clearance in Children Using a Population Pharmacokinetic Approach. Pediatric obesity is a growing health concern, affecting millions of children worldwide. While pharmacokinetic (PK) changes in numerous commonly prescribed medications have been linked to obesity, the physiological mechanisms driving these alterations and their implications for drug dosing remain poorly understood. The objective of this study was to evaluate previously repor",
+        "score": 0.37172847986221313,
+        "doi": "10.1002/jcph.6122",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -1.6349294185638428,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.3793659210205078,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.7774970531463623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

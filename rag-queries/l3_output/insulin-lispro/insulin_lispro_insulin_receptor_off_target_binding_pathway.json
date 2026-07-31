@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro insulin receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41086805",
+        "text": "Tuning insulin receptor signaling using de novo-designed agonists. Insulin binding induces conformational changes in the insulin receptor (IR) that activate the intracellular kinase domain and the protein kinase B (AKT) and mitogen-activated protein kinase (MAPK) pathways, regulating metabolism and proliferation. We reasoned that designed agonists inducing different IR conformational changes might induce different downstream responses. We used de novo protein design to generate binders for individual IR ext",
+        "score": 0.37373974919319153,
+        "doi": "10.1016/j.molcel.2025.09.020",
+        "journal": "Molecular cell",
+        "year": "2024",
+        "rerank_score": 2.473609209060669,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18991400",
+        "text": "High-affinity insulin binding: insulin interacts with two receptor ligand binding sites. The interaction of insulin with its receptor is complex. Kinetic and equilibrium binding studies suggest coexistence of high- and low-affinity binding sites or negative cooperativity. These phenomena and high-affinity interactions are dependent on the dimeric structure of the receptor. Structure-function studies of insulin analogs suggest insulin has two receptor binding sites, implying a bivalent interaction with the r",
+        "score": 0.35926395654678345,
+        "doi": "10.1021/bi801693h",
+        "journal": "Biochemistry",
+        "year": "2008",
+        "rerank_score": 2.4485769271850586,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38445366",
+        "text": "Combinatorial Libraries of Bipodal Binders of the Insulin Receptor. The binding process of insulin to its transmembrane receptor entails a sophisticated interplay between two proteins, each possessing two binding sites. Given the difficulties associated with the use of insulin in the treatment of diabetes, despite its remarkable efficacy, there is interest in smaller and more stable compounds than the native hormone that would effectively activate the receptor. Our study adopts a strategy focused on synthes",
+        "score": 0.35871249437332153,
+        "doi": "10.1002/cmdc.202400145",
+        "journal": "ChemMedChem",
+        "year": "2024",
+        "rerank_score": 2.265315055847168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

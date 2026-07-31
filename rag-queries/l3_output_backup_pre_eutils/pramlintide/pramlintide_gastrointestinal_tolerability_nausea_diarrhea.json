@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.41002988815307617,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 2.785038709640503,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40953530",
+        "text": "Corrigendum to \"Effect of metoclopramide on gastric volume and nausea and vomiting outcomes in fasted patients undergoing Elective Cesarean delivery: a randomized clinical equivalence trial\". [Int. J. Obstetr. Anesth. 64 (2025) 104754].",
+        "score": 0.41651856899261475,
+        "doi": "10.1016/j.ijoa.2025.104771",
+        "journal": "International journal of obstetric anesthesia",
+        "year": "2025",
+        "rerank_score": -2.512834072113037,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40368130",
+        "text": "Remission of Sequestrant-refractory Bile Acid Diarrhea in Patients on Liraglutide With Pragmatic Dose Escalation: A Case Series.",
+        "score": 0.42614832520484924,
+        "doi": "10.1016/j.cgh.2025.03.016",
+        "journal": "Clinical gastroenterology and hepatology : the official clinical practice journa",
+        "year": "2025",
+        "rerank_score": -2.6091389656066895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

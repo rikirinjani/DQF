@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39092439",
+        "text": "Toward once-monthly insulin therapy  Pharmacokinetic properties and duration of therapeutic action of a pharmaceutical agent can be significantly extended through the combination of two distinct strategies aimed at increasing plasma half-life: fatty acid acylation and Fc-conjugation. Using insulin as a case study, we demonstrate that a doubly protracted insulin analog produces a substantial prolongation of pharmacodynamic effect to lower blood glucose in STZ-treated mice when compared to the Fc-only counter",
+        "score": 0.4017844498157501,
+        "doi": "10.1039/d4cb00078a",
+        "journal": "RSC chemical biology",
+        "year": "2024",
+        "rerank_score": 1.7917566299438477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33151101",
+        "text": "Pharmacokinetics, tissue distribution and excretion of a novel long-acting human insulin analogue - recombinant insulin LysArg in rats. As a novel long-acting recombinant human insulin analogue, it is necessary to carry out the preclinical research for insulin LysArg. The purpose of this study was to characterise the pharmacokinetic, tissue distribution and excretion of insulin LysArg and provide a reference for its development. Three methods were used to measure the content of insulin LysArg in biological ",
+        "score": 0.35987234115600586,
+        "doi": "10.1080/00498254.2020.1847361",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2020",
+        "rerank_score": -0.18672995269298553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39778084",
+        "text": "Pharmacokinetic and Pharmacodynamic Equivalence of Biosimilar and Reference Ultra-Rapid Lispro: A Comparative Clamp Study in Healthy Volunteers. Ultra-rapid insulin lispro is an innovative insulin analogue designed to achieve rapid onset and short duration of action, aimed at optimizing glycemic control in patients with diabetes. This was a double-blind, randomized, 2-period, crossover clamp study to evaluate the pharmacokinetics (PK) and pharmacodynamics (PD), along with safety profiles, of a potential bio",
+        "score": 0.3640061616897583,
+        "doi": "10.1002/cpdd.1497",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -0.46235570311546326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pipeline": "L3 Systems Response Extractor v1.0",
+  "source": "C:\\Users\\think\\Project_v2\\drug-quantification-framework\\api\\drugs.json",
+  "drugs": {
+    "irbesartan": {
+      "pmids": [
+        "11565517",
+        "11683476",
+        "19355995",
+        "19601700",
+        "30361325",
+        "33461698",
+        "37015244",
+        "37143164",
+        "37432701",
+        "37467498",
+        "37921461",
+        "37931634",
+        "39635439",
+        "39745404",
+        "40692723"
+      ],
+      "pmid_count": 15,
+      "source_count": 11,
+      "fields_populated": 6,
+      "note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+    }
+  }
+}

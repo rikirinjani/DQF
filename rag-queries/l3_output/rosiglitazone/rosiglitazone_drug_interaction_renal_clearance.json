@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rosiglitazone drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39088906",
+        "text": "Physiologically based pharmacokinetic modeling of CYP2C8 substrate rosiglitazone and its metabolite to predict metabolic drug-drug interaction. Rosiglitazone is an activator of nuclear peroxisome proliferator-activated (PPAR) receptor gamma used in the treatment of type 2 diabetes mellitus. The elimination of rosiglitazone occurs mainly via metabolism, with major contribution by enzyme cytochrome P450 (CYP) 2C8. Primary routes of rosiglitazone metabolism are N-demethylation and hydroxylation. Modulation of ",
+        "score": 0.4327438771724701,
+        "doi": "10.1016/j.dmpk.2024.101023",
+        "journal": "Drug metabolism and pharmacokinetics",
+        "year": "2024",
+        "rerank_score": 3.070570230484009,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969140",
+        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
+        "score": 0.4387708902359009,
+        "doi": "10.1002/jcph.70007",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 0.28147873282432556,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39623604",
+        "text": "EXPRESSION OF CONCERN: Rosiglitazone and 15-deoxy-Δ",
+        "score": 0.4288618564605713,
+        "doi": "10.1111/bph.17421",
+        "journal": "British journal of pharmacology",
+        "year": "2024",
+        "rerank_score": -0.8980650305747986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

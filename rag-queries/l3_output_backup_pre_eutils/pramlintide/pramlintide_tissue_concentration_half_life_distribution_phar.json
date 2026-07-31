@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.3693416714668274,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.17412269115448,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40513482",
+        "text": "In silico evaluation of pramlintide dosing algorithms in artificial pancreas systems. Pramlintide's capability to delay gastric emptying has motivated its use in artificial pancreas systems, accompanying insulin as a control action. Due to the scarcity of pramlintide simulation models in the literature, in silico testing of insulin-plus-pramlintide strategies is not widely used. This work incorporates a recent pramlintide pharmacokinetics/pharmacodynamics model into the T1DM UVA/Padova simulator to adjust a",
+        "score": 0.3543953597545624,
+        "doi": "10.1016/j.compbiomed.2025.110447",
+        "journal": "Computers in biology and medicine",
+        "year": "2024",
+        "rerank_score": -2.6105926036834717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41236402",
+        "text": "Pharmacokinetic and biodistribution analysis of monoclonal antibodies: a comprehensive study of antibody biodistribution and partitioning coefficients in mice. The efficacy of therapeutic monoclonal antibodies (mAbs) often hinges on biodistribution to their site of action. However, traditional pharmacokinetic (PK) assessments - typically based on measuring plasma or total tissue concentrations - fail to reflect the interstitial concentrations that are most relevant for tissue targets. This study aimed to ad",
+        "score": 0.37291616201400757,
+        "doi": "10.1080/19420862.2025.2587580",
+        "journal": "mAbs",
+        "year": "2025",
+        "rerank_score": -4.532774925231934,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

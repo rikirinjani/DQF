@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Perindopril ACE adverse effect pathway",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41591661",
+        "text": "Role of Perindopril in Mitigating Doxorubicin's Vascular Toxicity in a Rat Model. Doxorubicin (DOX), a widely used anthracycline in cancer therapy, is associated with significant cardiovascular toxicity. While its cardiotoxic effects are well documented, the mechanisms and prevention of DOX-induced vascular toxicity remain insufficiently explored. Angiotensin-converting enzyme inhibitors (ACEIs), such as perindopril (PER), are commonly used in cardiovascular disease management and may offer vascular protect",
+        "score": 0.4458467364311218,
+        "doi": "10.1007/s12012-026-10092-0",
+        "journal": "Cardiovascular toxicology",
+        "year": "2025",
+        "rerank_score": 2.398956298828125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40937230",
+        "text": "Angiotensin-Converting Enzyme Inhibitor (ACEI)-Induced Angioedema After Re-exposure to Lisinopril: A Case Report and Clinical Review. Angiotensin-converting enzyme inhibitor (ACEI)-induced angioedema is an uncommon but potentially life-threatening adverse effect that can occur unpredictably, even after prolonged use. Prompt recognition and appropriate management are essential. We present the case of a 54-year-old Caucasian male with a history of ACEI-induced angioedema who developed isolated lingual swellin",
+        "score": 0.44535234570503235,
+        "doi": "10.7759/cureus.89784",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 2.0308210849761963,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40268266",
+        "text": "An adverse outcome pathway for DNA adduct formation leading to kidney failure. An Adverse Outcome Pathway (AOP) is a conceptual framework in toxicology and risk assessment that outlines the series of events from a chemical's molecular interaction to the resulting adverse health effect. This framework offers a structured approach to organizing biological knowledge, making it especially useful for understanding the mechanisms through which chemicals cause harm. Following a comprehensive analysis of the litera",
+        "score": 0.41888588666915894,
+        "doi": "10.1016/j.tox.2025.154162",
+        "journal": "Toxicology",
+        "year": "2025",
+        "rerank_score": 0.7652444243431091,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

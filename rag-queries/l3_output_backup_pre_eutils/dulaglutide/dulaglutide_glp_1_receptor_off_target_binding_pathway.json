@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dulaglutide GLP-1 receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25449603",
+        "text": "Agonist-induced internalisation of the glucagon-like peptide-1 receptor is mediated by the Gαq pathway. The glucagon-like peptide-1 receptor (GLP-1R) is a G-protein-coupled receptor (GPCR) and an important target in the treatment of type 2 diabetes mellitus (T2DM). Upon stimulation with agonist, the GLP-1R signals through both Gαs and Gαq coupled pathways to stimulate insulin secretion. The agonist-induced GLP-1R internalisation has recently been shown to be important for insulin secretion. However, the mol",
+        "score": 0.36139586567878723,
+        "doi": "10.1016/j.bcp.2014.10.015",
+        "journal": "Biochemical pharmacology",
+        "year": "2014",
+        "rerank_score": 3.9636714458465576,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31302140",
+        "text": "Dulaglutide inhibits high glucose- induced endothelial dysfunction and NLRP3 inflammasome activation. Activation of the NLRP3 inflammasome plays an important role in high glucose- induced endothelial dysfunction in patients with type 2 diabetes mellitus (T2DM). Dulaglutide, a newly developed glucagon-like peptide-1 receptor (GLP-1R) agonist, has been approved for the management of T2DM. In the current study, we aimed to investigate whether dulaglutide possesses a protective effect against high glucose- indu",
+        "score": 0.36028116941452026,
+        "doi": "10.1016/j.abb.2019.07.008",
+        "journal": "Archives of biochemistry and biophysics",
+        "year": "2019",
+        "rerank_score": 3.120622158050537,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24918645",
+        "text": "Dulaglutide for the treatment of type 2 diabetes. Dulaglutide is a novel glucagon-like peptide 1 (GLP-1) receptor agonist with a unique structure that supports once-weekly dosing in patients with type 2 diabetes (T2DM), most of whom have a big pill burden. It appears to be efficacious in reducing hemoglobin A1c (HbA1c) up to 1.59% and promotes modest weight loss up to 3 kg with a low incidence of hypoglycemia and mild to moderate gastrointestinal adverse events. Convenient weekly dosing could improve compli",
+        "score": 0.3595988154411316,
+        "doi": "10.1358/dot.2014.50.4.2132740",
+        "journal": "Drugs of today (Barcelona, Spain : 1998)",
+        "year": "2014",
+        "rerank_score": 3.0391054153442383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

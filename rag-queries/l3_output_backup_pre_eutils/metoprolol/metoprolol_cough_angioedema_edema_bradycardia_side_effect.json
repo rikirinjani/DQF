@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40484338",
+        "text": "Combined effects of gabapentin with verapamil and metoprolol on cardiovascular function of anesthetized male rats. Gabapentin (GBP), at high plasma concentrations, negatively impacts cardiovascular function, causing bradycardia, hypotension, and impaired left ventricular (LV) function in rats. This study examines the combined effects of GBP with Verapamil (Ver) or Metoprolol (Met) on cardiovascular function in anesthetized male rats and its impact on Ca",
+        "score": 0.47188520431518555,
+        "doi": "10.1016/j.ejphar.2025.177828",
+        "journal": "European journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 1.6756017208099365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39938967",
+        "text": "Profound hypotension following concomitant administration of tizanidine and lisinopril. Tizanidine, a muscle relaxant, exerts its mechanism as a centrally acting alpha-2 adrenergic receptor agonist and binds to imidazoline receptors. Bradycardia and hypotension are adverse effects associated with alpha-2 adrenergic receptor agonists. A man in his 50s with a medical history of hypertension and chronic back pain presented with chest pain and hypertension. Pertinent medication history included metoprolol tartr",
+        "score": 0.45705509185791016,
+        "doi": "10.1136/bcr-2024-262982",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": -0.009779686108231544,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4307648539543152,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.31312498450279236,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

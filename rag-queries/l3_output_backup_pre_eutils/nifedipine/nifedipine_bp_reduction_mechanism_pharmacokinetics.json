@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nifedipine BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3997314",
+        "text": "Pharmacokinetics of nifedipine. The pharmacokinetics of a slow-release formulation of nifedipine were studied following oral administration of a single 20 mg tablet in nine young male volunteers. Blood samples were collected and nifedipine concentrations analysed by gas liquid chromatography. Compared to conventional nifedipine, there was a delay in peak concentrations and a much smaller range of peak plasma levels. The smaller interindividual variability of plasma drug levels may be useful in the treatment",
+        "score": 0.3440966308116913,
+        "doi": "",
+        "journal": "International journal of clinical pharmacology research",
+        "year": "1985",
+        "rerank_score": 4.024159908294678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40716236",
+        "text": "Age-dependent pharmacokinetics of nifedipine in spontaneous hypertensive rats are associated with changes in gut microbiota and hepatic CYP3A1 expression. Despite nifedipine's satisfactory efficacy, patients with higher blood pressure often require combination therapy or increased dosages. The reasons for the reduced efficacy of nifedipine in this population remain unclear. Here, this study aimed to explore whether there are differences in nifedipine pharmacokinetics among rats with different blood pressure",
+        "score": 0.36462026834487915,
+        "doi": "10.1016/j.dmd.2025.100116",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": 3.614027500152588,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39017590",
+        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
+        "score": 0.35020875930786133,
+        "doi": "10.1002/prp2.1249",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": 3.202962636947632,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

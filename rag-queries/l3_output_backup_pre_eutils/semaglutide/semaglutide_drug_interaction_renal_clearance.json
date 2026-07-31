@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:19564368",
+        "text": "Competitive inhibition of renal tubular secretion of gemifloxacin by probenecid. Probenecid interacts with transport processes of drugs at several sites in the body. For most quinolones, renal clearance is reduced by concomitant administration of probenecid. The interaction between gemifloxacin and probenecid has not yet been studied. We studied the extent, time course, site(s), and mechanism of this interaction. Seventeen healthy volunteers participated in a randomized, two-way crossover study. Subjects re",
+        "score": 0.3705800771713257,
+        "doi": "10.1128/AAC.01200-08",
+        "journal": "Antimicrobial agents and chemotherapy",
+        "year": "2009",
+        "rerank_score": 3.1207752227783203,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39222509",
+        "text": "In T2DM with CKD, semaglutide reduced major kidney disease events at 3 y. Perkovic V, Tuttle KR, Rossing P, et al; FLOW Trial Committees and Investigators.",
+        "score": 0.3818736970424652,
+        "doi": "10.7326/ANNALS-24-01579-JC",
+        "journal": "Annals of internal medicine",
+        "year": "2024",
+        "rerank_score": 3.040497064590454,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38904969",
+        "text": "Study: Semaglutide Lowered Chronic Kidney Disease-Related Risks.",
+        "score": 0.4109455943107605,
+        "doi": "10.1001/jama.2024.10349",
+        "journal": "JAMA",
+        "year": "2024",
+        "rerank_score": 2.293217420578003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

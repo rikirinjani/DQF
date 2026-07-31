@@ -1,0 +1,46 @@
+{
+  "query": {
+    "query": "PPI CYP2C19 genotype efficacy metabolizer status",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:19166419",
+        "text": "Effect of CYP2C19 genetic polymorphisms on the efficacy of proton pump inhibitor-based triple therapy for Helicobacter pylori eradication: a meta-analysis.\n\nCYP2C19 polymorphisms have been inconsistently reported to associate with the efficacy of proton pump inhibitor (PPI)-based triple therapies for eradicating Helicobacter pylori infection. The aim of this meta-analysis was to determine whether CYP2C19 polymorphism affect H. pylori eradication rates obtained with first-line PPI-based triple therapies.\nA systematic literature search was conducted up to July 2007 using Medline, PubMed, EMBase, Cochrane Central Register of Controlled Trials (CENTRAL), ISI Web of Science, CNKI (Chinese), and Wanfang (Chinese) digital database. MeSH terms and keywords included proton pump inhibitor, omeprazole, lansoprazole, rabeprazole, pantoprazole, or esomeprazole, cytochrome P4502C19 or CYP2C19, and Helicobacter pylori or H. pylori. Twenty articles met the inclusion criteria, and were included in the meta-analysis by using Review Manager 4.2.8.\nEradication rates were significantly different between poor metabolizers (PM) and heterozygous extensive metabolizers (HetEM) (odds ratio (OR) = 1.73, p = .002) and between PM and homozygous extensive metabolizers (HomEM) (OR = 2.79, p < .0001). Moreover, eradication rates were also significant difference between HetEM and HomEM (OR = 2.00, p < .0001). Triple omeprazole and lansoprazole therapies achieved higher H. pylori eradication rates in PM than in HomEM (OR = 4.28, p = .0005 for omeprazole and OR = 3.06, p = .001 for lansoprazole), and higher in HetEM than those in HomEM (OR = 3.22, p < .0001 for omeprazole and OR = 1.95, p = .040 for lansoprazole). Rabeprazole therapies had no significant effect on H. pylori eradication rates (between PM and HomEM, OR = 1.35, p = .610 and between HetEM and HomEM, OR = 1.57, p = .190). No significant difference in H. pylori eradication rates between PM and HetEM was observed in the three individual PPI therapies.\nThe efficacy of omeprazole- and lansoprazole-based first-line triple therapies at the standard doses is dependent on CYP2C19 genotype status, which appears not to affect the efficacy of the regimens including rabeprazole.",
+        "title": "Effect of CYP2C19 genetic polymorphisms on the efficacy of proton pump inhibitor-based triple therapy for Helicobacter pylori eradication: a meta-analysis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "19166419",
+          "journal": "Helicobacter",
+          "authors": [
+            "Zhao Fujun",
+            "Wang Jing",
+            "Yang Yanmei"
+          ],
+          "pub_date": "2008-Dec",
+          "doi": "10.1111/j.1523-5378.2008.00643.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Bacterial Agents",
+            "Aryl Hydrocarbon Hydroxylases",
+            "Controlled Clinical Trials as Topic",
+            "Cytochrome P-450 CYP2C19",
+            "Esomeprazole",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Heterozygote",
+            "Homozygote",
+            "Humans",
+            "Lansoprazole",
+            "Omeprazole",
+            "Polymorphism, Genetic",
+            "Proton Pump Inhibitors",
+            "Rabeprazole"
+          ]
+        }
+      }
+    ]
+  }
+}

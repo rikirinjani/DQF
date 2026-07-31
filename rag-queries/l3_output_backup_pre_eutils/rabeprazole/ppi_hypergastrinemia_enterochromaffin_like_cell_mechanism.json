@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "PPI hypergastrinemia enterochromaffin-like cell mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8601296",
+        "text": "Time course of hypertrophic and ultrastructural responses of rat stomach enterochromaffin-like cells to sustained hypergastrinemia. Previously, we have investigated the effects of short-term (minutes to hours) and long-term (weeks to months) stimulation with gastrin on the histamine-producing enterochromaffin-like (ECL) cells in the oxyntic mucosa of rat stomach. The present study examines the response of the ECL cells of freely fed rats to sustained hypergastrinemia over a time span of a few hours to four ",
+        "score": 0.3780493438243866,
+        "doi": "10.1007/s004410050566",
+        "journal": "Cell and tissue research",
+        "year": "1996",
+        "rerank_score": 4.126280784606934,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22936271",
+        "text": "Differential signal pathway activation and 5-HT function: the role of gut enterochromaffin cells as oxygen sensors. The chemomechanosensory function of the gut enterochromaffin (EC) cell enables it to respond to dietary agents and mechanical stretch. We hypothesized that the EC cell, which also sensed alterations in luminal or mucosal oxygen level, was physiologically sensitive to fluctuations in O(2). Given that low oxygen levels induce 5-HT production and secretion through a hypoxia inducible factor 1α (H",
+        "score": 0.3783072531223297,
+        "doi": "10.1152/ajpgi.00027.2012",
+        "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+        "year": "2012",
+        "rerank_score": -0.7481486797332764,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41603754",
+        "text": "The Neuroepithelial Landscape of Enterochromaffin Cells Varies Across Gastrointestinal Location. Enteroendocrine cells (EECs) lining the gastrointestinal (GI) wall sense chemical and mechanical changes in the gut, secreting an array of hormones and neurotransmitters in response. Enterochromaffin (EC) cells synthesize and secrete serotonin and represent approximately half of all EECs. EEC signals are transmitted to the brain via activation of afferent nerve fibers terminating in the GI tract. EECs grow neuri",
+        "score": 0.41667768359184265,
+        "doi": "10.1111/nmo.70221",
+        "journal": "Neurogastroenterology and motility",
+        "year": "2025",
+        "rerank_score": -0.748523473739624,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "capa_id": "CAPA-2026-009",
+  "timestamp": "2026-07-31T15:50:00",
+  "linked_ncr": "NCR-2026-014",
+  "linked_failure": "C:\\Users\\think\\self-harness\\failures\\20260731-process-ora1-payload-loss.json",
+  "root_cause": "Read-only specialist lane (oracle) tasked with producing a deliverable JSON payload that must persist to disk; no persistence plan at dispatch time; orchestrator assumed the payload would survive in the lane's ephemeral response buffer.",
+  "corrective_action": "When dispatching a write-required deliverable to a read-only lane, either (a) require the full payload inside the returned task result text, or (b) have the lane write to a permitted path, or (c) if neither is possible, dispatch a write-capable lane (fixer). Verify payload capture BEFORE lane close.",
+  "verification": "Validated on TICKET-005 regeneration: ora-5 was instructed to persist JSON to %TEMP%\\opencode\\l4_antihypertensive.json; payload persisted and merged into api/drugs.json (49/49 drugs), schema-validated, spot-check APPROVE.",
+  "status": "open",
+  "prevention": "Add to orchestrator dispatch checklist: 'If the deliverable must survive the lane, specify persistence mechanism (disk path or full payload in result) at dispatch time.'"
+}

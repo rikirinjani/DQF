@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone mineralocorticoid receptor off-target binding",
+    "dimension": "off_target",
+    "target": "mineralocorticoid receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39584253",
+        "text": "Mineralocorticoid Receptor Antagonists in Heart Failure: An Update. Spironolactone, a steroidal mineralocorticoid receptor antagonist (MRA), has been used to treat patients with heart failure (HF) for more than half a century. Spironolactone improved outcomes in patients with severely symptomatic HF with reduced ejection fraction, and later, eplerenone expanded the benefits to patients with mildly symptomatic HF with reduced ejection fraction and myocardial infarction complicated by HF. Spironolactone reduc",
+        "score": 0.386635422706604,
+        "doi": "10.1161/CIRCHEARTFAILURE.124.011629",
+        "journal": "Circulation. Heart failure",
+        "year": "2024",
+        "rerank_score": 3.909250497817993,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38535495",
+        "text": "Spironolactone Induces Vasodilation by Endothelium-Dependent Mechanisms Involving NO and by Endothelium-Independent Mechanisms Blocking Ca Spironolactone (SPI) is a diuretic widely used to treat cardiovascular diseases (CVD) and is non-specific for mineralocorticoid receptors (MR) and with an affinity for progesterone (PR) and androgen (AR) receptors. Since 2009, it has been suggested that pharmaceuticals are emerging contaminants (called EDC), and recently, it was reported that most EDC are AR and MR antag",
+        "score": 0.3885902762413025,
+        "doi": "10.3390/jox14010020",
+        "journal": "Journal of xenobiotics",
+        "year": "2024",
+        "rerank_score": 3.5688841342926025,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39424225",
+        "text": "Mineralocorticoid receptor expression and the effects of the mineralocorticoid receptor antagonist spironolactone in a murine model of graft-versus-host disease. The topical administration of spironolactone, a mineralocorticoid receptor antagonist (MRA) improves dry eye symptoms in patients with ocular graft-versus-host disease (GVHD); however, the detailed mechanism remains unclear. This study aimed to investigate the effects of spironolactone eyedrops on the ocular surface using a chronic GVHD (cGVHD) mou",
+        "score": 0.39271634817123413,
+        "doi": "10.1016/j.jtos.2024.10.004",
+        "journal": "The ocular surface",
+        "year": "2024",
+        "rerank_score": 3.5521161556243896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

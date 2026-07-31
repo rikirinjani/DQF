@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Trandolapril metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40571828",
+        "text": "Effect of losartan on uric acid metabolism in children with proteinuric kidney disease: crossover randomized controlled clinical trial. Low uric acid (UA) levels are desirable in kidney disease. Enalapril is the most used reno-protective drug; losartan has a similar antihypertensive and antiproteinuric effect, but also induces hyperuricosuria due to tubular urate transporter 1 inhibition. As this effect has not been demonstrated in paediatrics, we assessed if losartan reduces serum UA in children, owing to ",
+        "score": 0.4183498024940491,
+        "doi": "10.1007/s00467-025-06754-w",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2025",
+        "rerank_score": 2.604074239730835,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39369847",
+        "text": "Hypoxanthine ameliorates diet-induced insulin resistance by improving hepatic lipid metabolism and gluconeogenesis via AMPK/mTOR/PPARα pathway. Insulin resistance (IR) is a pivotal metabolic disorder associated with type 2 diabetes and metabolic syndrome. This study investigated the potential of hypoxanthine (Hx), a purine metabolite and uric acid precursor, in ameliorating IR and regulating hepatic glucose and lipid metabolism. We utilized both in vitro IR-HepG2 cells and in vivo diet-induced IR mice to in",
+        "score": 0.45841607451438904,
+        "doi": "10.1016/j.lfs.2024.123096",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": -1.3925117254257202,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41058992",
+        "text": "Dietary uridine improves lipid homeostasis in high-fat diet-induced obese mice by regulating liver gene expression and metabolomic profiles. Obesity is caused by excessive storage of adipose tissue and leads to metabolic disorders. Uridine exerts modulatory effects on lipid metabolism, but the regulatory mechanism in obesity needs further research. In this study, the effects of uridine supplementation on lipid metabolism were investigated in high-fat diet-induced obese mice. Mice aged at 8 weeks were random",
+        "score": 0.43971186876296997,
+        "doi": "10.3389/fnut.2025.1651993",
+        "journal": "Frontiers in nutrition",
+        "year": "2025",
+        "rerank_score": -2.930807590484619,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

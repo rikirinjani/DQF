@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Terazosin drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38450431",
+        "text": "Drug interactions of carbonic anhydrase inhibitors and activators. Carbonic anhydrases (CAs, EC 4.2.1.1) have been established drug targets for decades, with their inhibitors and activators possessing relevant pharmacological activity and applications in various fields. At least 11 sulfonamides/sulfamates are clinically used as diuretics, antiglaucoma, antiepileptic, or antiobesity agents and one derivative, SLC-0111, is in clinical trials as antitumor/antimetastatic agent. The activators were less investig",
+        "score": 0.4576464891433716,
+        "doi": "10.1080/17425255.2024.2328152",
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "year": "2024",
+        "rerank_score": -1.113783836364746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40779298",
+        "text": "Evaluation of the drug-drug interaction between low-dose methotrexate and short-term use of non-steroidal anti-inflammatory drugs. There is ongoing debate about the clinical significance of the Drug-Drug Interaction (DDI) between low-dose methotrexate (LD-MTX) and the short-term use of non-steroidal anti-inflammatory drugs (NSAIDs), and clear guidance for DDI management is lacking. This review addresses this gap by providing a comprehensive overview of the current data on the DDI between LD-MTX and NSAIDs, ",
+        "score": 0.4442140460014343,
+        "doi": "10.1080/17425255.2025.2546127",
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "year": "2025",
+        "rerank_score": -1.8533612489700317,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39511288",
+        "text": "Effect of tegoprazan, a novel potassium-competitive acid blocker, on non-steroidal anti-inflammatory drug (NSAID)-induced enteropathy. As the non-steroidal anti-inflammatory drugs (NSAIDs) are typically used in the treatment of chronic conditions, the incidence of NSAID-induced enteropathy is increasing. Given the challenges associated with discontinuing NSAIDs, effective preventive and treatment strategies are crucial. We assessed the effect of tegoprazan on NSAID-induced enteropathy. Human epithelial cell",
+        "score": 0.44168317317962646,
+        "doi": "10.1038/s41598-024-78581-2",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": -2.251389741897583,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

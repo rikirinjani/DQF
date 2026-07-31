@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol beta2-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40007404",
+        "text": "DESIGN, MOLECULAR DOCKING, MOLECULAR DYNAMICS, AND EVALUATION OF NOVEL LIGANDS TARGETING BETA-2 ADRENERGIC RECEPTOR FOR ASTHMA THERAPEUTICS. This study investigates the design and molecular docking of novel ligands targeting the beta-2 adrenergic receptor [β2AR], a critical protein involved in bronchoconstriction and asthma regulation. Utilizing molecular docking simulations, we evaluated the binding affinities of synthesized compounds, including compound 1, compound 5, and the reference drug salbutamol, ag",
+        "score": 0.428785502910614,
+        "doi": "",
+        "journal": "Georgian medical news",
+        "year": "2025",
+        "rerank_score": 4.070679187774658,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39786370",
+        "text": "Nonselective β-Adrenergic Receptor Inhibitors Impair Hematopoietic Regeneration in Mice and Humans after Hematopoietic Cell Transplants. Peripheral nerves promote mouse bone marrow regeneration by activating β2- and β3-adrenergic receptor signaling, raising the possibility that nonselective β-blockers could inhibit engraftment after hematopoietic cell transplants (HCT). We observed no effect of β-blockers on steady-state mouse hematopoiesis. However, mice treated with a nonselective β-blocker (carvedilol), ",
+        "score": 0.40434199571609497,
+        "doi": "10.1158/2159-8290.CD-24-0719",
+        "journal": "Cancer discovery",
+        "year": "2024",
+        "rerank_score": 2.9800431728363037,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41465273",
+        "text": "Therapeutic Potential of the β3-Adrenergic Receptor and Its Ligands in Cardiovascular Diseases. The β3-adrenergic receptor is an exceptional member of the β-adrenergic receptor family. Recent findings suggest that it may play a more significant role in the cardiovascular system than previously recognized, partly through its potential anti-inflammatory actions. For this reason, it has been extensively studied as a potential target in cardiovascular therapy. In this review, we focus on the β3-adrenergic recep",
+        "score": 0.40586161613464355,
+        "doi": "10.3390/ijms262411844",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 0.6982184052467346,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

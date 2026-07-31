@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pioglitazone PPARgamma off-target binding pathway",
+    "dimension": "off_target",
+    "target": "PPARgamma"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:14717706",
+        "text": "Binding analyses between Human PPARgamma-LBD and ligands. The binding characteristics of a series of PPARgamma ligands (GW9662, GI 262570, cis-parinaric acid, 15-deoxy-Delta(12,14)-prostaglandin J(2), LY171883, indomethacin, linoleic acid, palmitic acid and troglitazone) to human PPARgamma ligand binding domain have been investigated for the first time by using surface plasmon resonance biosensor technology, CD spectroscopy and molecular docking simulation. The surface plasmon resonance biosensor determined",
+        "score": 0.3804329037666321,
+        "doi": "10.1046/j.1432-1033.2003.03937.x",
+        "journal": "European journal of biochemistry",
+        "year": "2004",
+        "rerank_score": 1.6360102891921997,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31509504",
+        "text": "PPAR γ agonist, pioglitazone, suppresses melanoma cancer in mice by inhibiting TLR4 signaling. Although previous studies demonstrated an anticancer effect for the ligands of peroxisome proliferator-activated receptor gamma (PPARγ) through activation of its anti-inflammatory responses, nevertheless the anti-tumor mechanism of PPARγ has not been intensively investigated. One of the molecules involved in cancer progression is toll-like receptor 4 (TLR4).",
+        "score": 0.3794343173503876,
+        "doi": "10.18433/jpps30626",
+        "journal": "Journal of pharmacy & pharmaceutical sciences : a publication of the Canadian So",
+        "year": "2019",
+        "rerank_score": 1.194420337677002,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39859448",
+        "text": "Discovery of PPAR Alpha Lipid Pathway Modulators That Do Not Bind Directly to the Receptor as Potential Anti-Cancer Compounds. Peroxisome proliferator-activated receptors (PPARs) are considered good drug targets for breast cancer because of their involvement in fatty acid metabolism that induces cell proliferation. In this study, we used the KAIMRC1 breast cancer cell line. We showed that the PPARE-Luciferase reporter gets highly activated without adding any exogenous ligand when PPAR alpha is co-transfecte",
+        "score": 0.42963048815727234,
+        "doi": "10.3390/ijms26020736",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 0.9933599829673767,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

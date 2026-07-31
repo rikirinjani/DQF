@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin SGLT2 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30025475",
+        "text": "Ertugliflozin for treatment of patients with Type 2 diabetes mellitus. Type 2 diabetes mellitus (T2DM) is a growing and serious global health problem. Inhibition of the sodium--glucosecotransporter-2 (SGLT2) can increase urinary glucose excretion and decrease plasma glucose levels in an insulin-independent manner. Ertugliflozin is a highly selective inhibitor of SGLT2, and was approved in the US for the treatment of adults with T2DM. Areas covered: In this paper, the mechanism of action, pharmacokinetics, c",
+        "score": 0.3257974088191986,
+        "doi": "10.1080/17512433.2018.1503051",
+        "journal": "Expert review of clinical pharmacology",
+        "year": "2018",
+        "rerank_score": 5.41318416595459,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39037688",
+        "text": "Effect of Jardiance on glucose uptake into astrocytomas. SGLT2, the sodium glucose cotransporter two, is expressed in human pancreatic, prostate and brain tumors, and in a mouse cancer model SGLT2 inhibitors reduce tumor glucose uptake and growth. In this study we have measured the effect of a specific SGLT2 inhibitor, Jardiance® (Empagliflozin), on glucose uptake into astrocytomas in patients. We have used a specific SGLT glucose tracer, α-methyl-4-[ In all five patients an oral dose (25 or 100 mg) of Jard",
+        "score": 0.348461389541626,
+        "doi": "10.1007/s11060-024-04746-8",
+        "journal": "Journal of neuro-oncology",
+        "year": "2024",
+        "rerank_score": 5.402050495147705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40335252",
+        "text": "Effect of Empagliflozin on the Mechanisms Driving Erythropoiesis and Iron Mobilization in Patients With Heart Failure: The EMPEROR Program. Sodium-glucose cotransporter 2 (SGLT2) inhibitors stimulate erythropoiesis, but the mechanisms and clinical relevance of the effect of SGLT2 inhibitors on systemic iron metabolism in patients with heart failure is not well understood. The authors sought to characterize a comprehensive suite of iron metabolism biomarkers-particularly the erythroblast signaling molecule, ",
+        "score": 0.3389473259449005,
+        "doi": "10.1016/j.jacc.2025.03.503",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2025",
+        "rerank_score": 5.218629360198975,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

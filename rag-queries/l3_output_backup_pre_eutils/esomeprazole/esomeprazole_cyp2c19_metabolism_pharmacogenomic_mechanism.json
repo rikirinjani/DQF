@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole CYP2C19 metabolism pharmacogenomic mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36897544",
+        "text": "Evaluation of CYP2C19-Mediated Pharmacokinetic Drug Interaction of Tegoprazan, Compared with Vonoprazan or Esomeprazole. CYP2C19-mediated drug interactions of acid-reducing agents are clinically important given the high possibility of concomitant administration with CYP2C19 substrates. This study aimed to evaluate the effect of tegoprazan on the pharmacokinetics (PK) of a CYP2C19 substrate, proguanil, compared with vonoprazan or esomeprazole.",
+        "score": 0.3542401194572449,
+        "doi": "10.1007/s40262-023-01228-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2023",
+        "rerank_score": 4.645047664642334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19033450",
+        "text": "CYP2C19 genotype is a major factor contributing to the highly variable pharmacokinetics of voriconazole. In vitro data on the metabolism of the antifungal voriconazole suggest that its pharmacokinetics might be influenced by the activity of CYP2C19, CYP2C9, and CYP3A. To elucidate the genetic influence of polymorphic enzymes on voriconazole metabolism, the authors pooled the pharmacokinetic data from 2 interaction studies in which 35 participants were enrolled according to their CYP2C19 genotype to receive ",
+        "score": 0.3556622862815857,
+        "doi": "10.1177/0091270008327537",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2008",
+        "rerank_score": 4.286012172698975,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10206083",
+        "text": "CYP2C19 genotypes and omeprazole metabolism after single and repeated dosing when combined with clarithromycin. Omeprazole is metabolized mainly by CYP2C19 which has two major mutations (CYP2C19*2 in exon5 and CYP2C19*3 in exon4) associated with the poor metabolizer (PM) phenotype. The aim of this study was to examine the relationship between genetic polymorphism of CYP2C19 and metabolism of omeprazole administrated as a single dose or as repeated-doses, which were in both cases co-administered with clarith",
+        "score": 0.3551604151725769,
+        "doi": "10.1007/s002280050590",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1999",
+        "rerank_score": 3.613405704498291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

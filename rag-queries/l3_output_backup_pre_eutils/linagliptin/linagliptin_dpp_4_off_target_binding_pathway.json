@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin DPP-4 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40581165",
+        "text": "Targeting the NRF2 pathway with linagliptin to inhibit human hepatocellular carcinoma growth. Linagliptin, a potent dipeptidyl peptidase 4 (DPP4) inhibitor, demonstrates significant potential as a therapeutic agent for hepatocellular carcinoma (HCC). This study evaluated the effects of linagliptin on HCC cell lines, focusing on mechanisms involving reactive oxygen species (ROS) production, nuclear factor erythroid 2-related factor 2 (NRF2) pathway activation, and autophagy. Linagliptin effectively suppresse",
+        "score": 0.40439367294311523,
+        "doi": "10.1016/j.freeradbiomed.2025.06.048",
+        "journal": "Free radical biology & medicine",
+        "year": "2025",
+        "rerank_score": 5.914740562438965,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38354025",
+        "text": "Linagliptin, a DPP-4 inhibitor, activates AMPK/FOXO3a and suppresses NFκB to mitigate the debilitating effects of diethylnitrosamine exposure in rat liver: Novel mechanistic insights. Accumulating evidence suggests that dysregulation of FOXO3a plays a significant role in the progression of various malignancies, including hepatocellular carcinoma (HCC). FOXO3a inactivation, driven by oncogenic stimuli, can lead to abnormal cell growth, suppression of apoptosis, and resistance to anticancer drugs. Therefore, ",
+        "score": 0.39128610491752625,
+        "doi": "10.1096/fj.202302461RR",
+        "journal": "FASEB journal : official publication of the Federation of American Societies for",
+        "year": "2024",
+        "rerank_score": 2.596121311187744,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40070168",
+        "text": "Linagliptin Mitigates DMH-Induced Colorectal Cancer in Rats: Crosstalk Between NFAT and IL-6/JAK2/STAT3/NF-κB Signaling Hubs. Colorectal cancer (CRC) is a multicomponent disease and the second most frequent root of cancer-related deaths globally. Linagliptin is a dipeptidyl peptidase-4 (DPP-4) inhibitor. It has been repurposed in recent experimental studies due to its marked anti-inflammatory activities. This study aimed to evaluate the ameliorative role of linagliptin in 1,2-dimethylhydrazine (DMH)-induced",
+        "score": 0.39665982127189636,
+        "doi": "10.1002/jbt.70206",
+        "journal": "Journal of biochemical and molecular toxicology",
+        "year": "2025",
+        "rerank_score": 2.3754444122314453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

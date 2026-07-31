@@ -1,0 +1,38 @@
+{
+  "cox_inhibition": null,
+  "gi_risk": 2,
+  "cv_risk": 1,
+  "renal_risk": 2,
+  "platelet_effect": null,
+  "off_targets": [
+    "P2X7",
+    "Purinergic",
+    "Trpv1"
+  ],
+  "anti_inflammatory": null,
+  "analgesic": null,
+  "antipyretic": null,
+  "ddi_risk": 1,
+  "_evidence": {
+    "pmids": [
+      "38442578",
+      "38716761",
+      "38876401",
+      "38931423",
+      "39429925",
+      "39512215",
+      "39763427",
+      "40663614",
+      "40716177",
+      "40841348",
+      "40915150",
+      "41046250",
+      "41132706",
+      "41465841",
+      "41556714"
+    ],
+    "source_count": 5,
+    "finding_count": 15
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

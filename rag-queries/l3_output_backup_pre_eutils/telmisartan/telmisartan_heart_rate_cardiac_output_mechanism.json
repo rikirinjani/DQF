@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3066038",
+        "text": "[Bradycardic arrhythmias and changes in the bradycardia-induced hemodynamics by electrical and drug treatment]. Cardiac output depends at first on heart rate and second on contractility. Chronotropic incompetence means inappropriate adaptation of rate to metabolic demands and in this condition increase of cardiac output is only made possible by increase of contractility and stroke volume. The old, insufficient, or ischemic heart cannot control cardiac output appropriately by increasing contractility. This e",
+        "score": 0.35871878266334534,
+        "doi": "",
+        "journal": "Zeitschrift fur Kardiologie",
+        "year": "1988",
+        "rerank_score": -2.8398797512054443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.3820748031139374,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -3.0500733852386475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40837832",
+        "text": "Telmisartan modulates exercise responses in peripheral artery disease: Analyses of skeletal muscle from the TELEX Trial. In people with peripheral artery disease (PAD), the Telmisartan Plus Exercise to Improve Functioning in Peripheral Artery Disease (TELEX) randomized clinical trial tested whether telmisartan (TEL), with or without exercise, significantly improved 6-minute walk distance at 6-month follow-up, compared with placebo (PLA). This study investigated the effects of TEL on exploratory muscle biops",
+        "score": 0.38992205262184143,
+        "doi": "10.1016/j.jvssci.2025.100294",
+        "journal": "JVS-vascular science",
+        "year": "2025",
+        "rerank_score": -3.07369327545166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

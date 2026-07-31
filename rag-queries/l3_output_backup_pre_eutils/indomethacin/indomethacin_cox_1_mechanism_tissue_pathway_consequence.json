@@ -1,0 +1,48 @@
+{
+  "query": {
+    "query": "Indomethacin COX-1 mechanism tissue pathway consequence",
+    "dimension": "off_target",
+    "target": "COX-1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16467309",
+        "text": "Cyclooxygenase-2 induction and prostacyclin release by protease-activated receptors in endothelial cells require cooperation between mitogen-activated protein kinase and NF-kappaB pathways.\n\nThe functional significance of protease-activated receptors (PARs) in endothelial cells is largely undefined, and the intracellular consequences of their activation are poorly understood. Here, we show that the serine protease thrombin, a PAR-1-selective peptide (TFLLRN), and SLIGKV (PAR-2-selective peptide) induce cyclooxygenase-2 (COX-2) protein and mRNA expression in human endothelial cells without modifying COX-1 expression. COX-2 induction was accompanied by sustained production of 6-keto-PGF1alpha, the stable hydrolysis product of prostacyclin, and this was inhibited by indomethacin and the COX-2-selective inhibitor NS398. PAR-1 and PAR-2 stimulation rapidly activated both ERK1/2 and p38MAPK, and pharmacological blockade of MEK with either PD98059 or U0126 or of p38MAPK by SB203580 or SB202190 strongly inhibited thrombin- and SLIGKV-induced COX-2 expression and 6-keto-PGF1alpha formation. Thrombin and peptide agonists of PAR-1 and PAR-2 increased luciferase activity in human umbilical vein endothelial cells infected with an NF-kappaB-dependent luciferase reporter adenovirus, and this, as well as PAR-induced 6-keto-PGF1alpha synthesis, was inhibited by co-infection with adenovirus encoding wild-type or mutated (Y42F) IkappaBalpha. Thrombin- and SLIGKV-induced COX-2 expression and 6-keto-PGF1alpha generation were markedly attenuated by the NF-kappaB inhibitor PG490 and partially inhibited by the proteasome pathway inhibitor MG-132. Activation of PAR-1 or PAR-2 promoted nuclear translocation and phosphorylation of p65-NF-kappaB, and thrombin-induced but not PAR-2-induced p65-NF-kappaB phosphorylation was reduced by inhibition of MEK or p38MAPK. Activation of PAR-4 by AYPGKF increased phosphorylation of ERK1/2 and p38MAPK without modifying NF-kappaB activation or COX-2 induction. Our data show that PAR-1 and PAR-2, but not PAR-4, are coupled with COX-2 expression and sustained endothelial production of vasculoprotective prostacyclin by mechanisms that depend on ERK1/2, p38MAPK, and IkappaBalpha-dependent NF-kappaB activation.",
+        "title": "Cyclooxygenase-2 induction and prostacyclin release by protease-activated receptors in endothelial cells require cooperation between mitogen-activated protein kinase and NF-kappaB pathways.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "16467309",
+          "journal": "The Journal of biological chemistry",
+          "authors": [
+            "Syeda Farisa",
+            "Grosjean Jennifer",
+            "Houliston Rebecca A"
+          ],
+          "pub_date": "2006-Apr-28",
+          "doi": "10.1074/jbc.M509292200",
+          "mesh_terms": [
+            "6-Ketoprostaglandin F1 alpha",
+            "Apoptosis Regulatory Proteins",
+            "Cells, Cultured",
+            "Cyclooxygenase 1",
+            "Cyclooxygenase 2",
+            "Endothelium, Vascular",
+            "Enzyme Inhibitors",
+            "Epoprostenol",
+            "Humans",
+            "I-kappa B Kinase",
+            "Mitogen-Activated Protein Kinases",
+            "NF-kappa B",
+            "Peptide Fragments",
+            "Receptor, PAR-1",
+            "Receptor, PAR-2",
+            "Receptors, Proteinase-Activated",
+            "Signal Transduction",
+            "Umbilical Veins"
+          ]
+        }
+      }
+    ]
+  }
+}

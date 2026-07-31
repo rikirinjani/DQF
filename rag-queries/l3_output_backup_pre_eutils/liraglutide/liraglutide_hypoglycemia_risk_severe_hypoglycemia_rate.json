@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.415856271982193,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 4.2237396240234375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40924111",
+        "text": "Time below range alone is insufficient to identify severe hypoglycaemia risk in type 1 diabetes-the critical role of hypoglycaemia awareness: results from the SFDT1 study. Severe hypoglycaemia events (SHE) remain frequent in people with type 1 diabetes despite advanced diabetes technologies. We examined whether time below range (TBR) 3.9 mmol/l (70 mg/dl; TBR70) or 3.0 mmol/l (54 mg/dl; TBR54) is associated with future SHE risk and whether impaired awareness of hypoglycaemia (IAH) modifies this relationship",
+        "score": 0.4188830852508545,
+        "doi": "10.1007/s00125-025-06536-x",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 0.7337104082107544,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41529164",
+        "text": "Assessing Time Below Range as a Predictor of Severe Hypoglycemia: Insights From Six Clinical Trials. To evaluate whether baseline continuous glucose monitoring (CGM)-derived time below range (TBR) metrics-TBR level 1 (TBR1) (<70 mg/dL) and TBR level 2 (TBR2) (<54 mg/dL)-predicts severe hypoglycemia (SH) during follow-up of individuals with type 1 diabetes. Baseline CGM TBR levels and their association with SH adverse events during six clinical trials were analyzed using Wilcoxon rank-sum tests and Spearman ",
+        "score": 0.4181557595729828,
+        "doi": "10.2337/dc25-2353",
+        "journal": "Diabetes care",
+        "year": "2025",
+        "rerank_score": -0.36134013533592224,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

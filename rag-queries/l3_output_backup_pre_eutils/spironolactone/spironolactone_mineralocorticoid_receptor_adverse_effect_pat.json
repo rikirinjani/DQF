@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone mineralocorticoid receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "mineralocorticoid receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40919025",
+        "text": "Effect of spironolactone on cardiovascular and renal outcomes in patients with chronic kidney disease. Steroidal mineralocorticoid receptor antagonists (MRAs), including spironolactone, effectively treat resistant hypertension, reduce proteinuria and lower mortality in heart failure with reduced ejection fraction. However, their long-term effects in chronic kidney disease (CKD) remain unclear. This study investigated spironolactone's impact on end-stage renal disease (ESRD), major adverse cardiovascular eve",
+        "score": 0.388067364692688,
+        "doi": "10.1093/ckj/sfaf247",
+        "journal": "Clinical kidney journal",
+        "year": "2025",
+        "rerank_score": 6.1553802490234375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23900882",
+        "text": "The mineralocorticoid receptor antagonist spironolactone enhances morphine antinociception. Spironolactone, a commonly used mineralocorticoid receptor antagonist, has been reported to potentiate the effect of morphine in the rat. The aim of this study was to investigate the effects of spironolactone on morphine antinociception and tissue distribution.",
+        "score": 0.3771427869796753,
+        "doi": "10.1002/j.1532-2149.2013.00371.x",
+        "journal": "European journal of pain (London, England)",
+        "year": "2013",
+        "rerank_score": 4.822380065917969,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27057293",
+        "text": "Mineralocorticoid Receptor Antagonists for Treatment of Hypertension and Heart Failure. Spironolactone and eplerenone are both mineralocorticoid-receptor antagonists. These compounds block both the epithelial and nonepithelial actions of aldosterone, with the latter assuming increasing clinical relevance. Spironolactone and eplerenone both affect reductions in blood pressure either as mono- or add-on therapy; moreover, they each afford survival benefits in diverse circumstances of heart failure and the prob",
+        "score": 0.3769240081310272,
+        "doi": "10.14797/mdcj-11-4-235",
+        "journal": "Methodist DeBakey cardiovascular journal",
+        "year": "2016",
+        "rerank_score": 3.9993669986724854,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

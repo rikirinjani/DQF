@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone NCC adverse effect pathway",
+    "dimension": "off_target",
+    "target": "NCC"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27448318",
+        "text": "Mechanistic study of chlordecone-induced endocrine disruption: Based on an adverse outcome pathway network. The adverse outcome pathway (AOP) framework could be helpful for chemical risk assessment and mechanistic research. The aim of the present study was to unravel the mechanism of chlordecone-induced endocrine disruption by illustrating the main molecular initiating event (MIE)/perturbations responsible for the observed effects. In silico simulations were performed to predict the MIE(s), and the results ",
+        "score": 0.44150325655937195,
+        "doi": "10.1016/j.chemosphere.2016.07.034",
+        "journal": "Chemosphere",
+        "year": "2016",
+        "rerank_score": 1.6517117023468018,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39278350",
+        "text": "Probable chlorthalidone-induced hypokalemic rhabdomyolysis. A case of hypokalemic rhabdomyolysis related to chlorthalidone use is reported CASE SUMMARY: A 52-year-old male was admitted to the hospital for acute onset generalized weakness and was found to have severe hypokalemia and rhabdomyolysis. The patient had been on chlorthalidone therapy with a dose increase from 25 mg daily to 50 mg daily 2 months prior to admission. Extensive workup ruled out neurologic, rheumatologic, and endocrinologic causes of h",
+        "score": 0.46686601638793945,
+        "doi": "10.1016/j.japh.2024.102249",
+        "journal": "Journal of the American Pharmacists Association : JAPhA",
+        "year": "2024",
+        "rerank_score": -1.7746390104293823,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38743423",
+        "text": "Chlorthalidone vs Hydrochlorothiazide for Hypertension Treatment After Myocardial Infarction or Stroke: A Secondary Analysis of a Randomized Clinical Trial. Patients with prior myocardial infarction (MI) or stroke have a greater risk of recurrent cardiovascular (CV) events. To evaluate the association of chlorthalidone (CTD) vs hydrochlorothiazide (HCTZ) with CV outcomes and noncancer deaths in participants with and without prior MI or stroke. This was a prespecified secondary analysis of the Diuretic Compa",
+        "score": 0.4645918309688568,
+        "doi": "10.1001/jamanetworkopen.2024.11081",
+        "journal": "JAMA network open",
+        "year": "2024",
+        "rerank_score": -2.1933674812316895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41045026",
+        "text": "Pharmacokinetic and Pharmacodynamic Modeling of Clonidine and Midazolam for Sedation in Pediatric Intensive Care. Clonidine and midazolam are routinely used in the pediatric intensive care unit for pain and sedation management, but target concentration and optimal dose are poorly defined for both drugs. The CloSed study is a multicenter, double-blind, randomized, active-controlled noninferiority trial with a 1:1 randomization between clonidine and midazolam. Data from the prematurely terminated CloSed trial",
+        "score": 0.40901172161102295,
+        "doi": "10.1111/pan.70050",
+        "journal": "Paediatric anaesthesia",
+        "year": "2025",
+        "rerank_score": 0.8222208619117737,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20525919",
+        "text": "Pharmacokinetics of clofarabine in patients with high-risk inherited metabolic disorders undergoing brain-sparing hematopoietic cell transplantation. Clofarabine, a newer purine analog with reduced central nervous system toxicity, may prove advantageous in hematopoietic cell transplantation in patients for whom neurotoxicity is a natural part of disease progression. This study evaluated clofarabine pharmacokinetics in adult and pediatric patients undergoing hematopoietic cell transplantation for the treatme",
+        "score": 0.3591544032096863,
+        "doi": "10.1177/0091270010372519",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2010",
+        "rerank_score": -2.435652494430542,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40772636",
+        "text": "Concurrent Use of Tasipimidine Oral Solution and Clomipramine in Dogs. The study evaluated pharmacokinetics, effects on functional alertness, and cardiovascular parameters of tasipimidine oral solution (Tessie, Orion Corporation) alone and in combination with oral clomipramine in six healthy laboratory dogs. Pharmacokinetics and functional alertness were studied after a single dose (Phase 1) and after 4 days of repeated twice daily dosing of tasipimidine 30 μg/kg and clomipramine at approximately 1 mg/kg, a",
+        "score": 0.376376211643219,
+        "doi": "10.1111/jvp.70017",
+        "journal": "Journal of veterinary pharmacology and therapeutics",
+        "year": "2025",
+        "rerank_score": -3.6752588748931885,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

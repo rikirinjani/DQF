@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39938967",
+        "text": "Profound hypotension following concomitant administration of tizanidine and lisinopril. Tizanidine, a muscle relaxant, exerts its mechanism as a centrally acting alpha-2 adrenergic receptor agonist and binds to imidazoline receptors. Bradycardia and hypotension are adverse effects associated with alpha-2 adrenergic receptor agonists. A man in his 50s with a medical history of hypertension and chronic back pain presented with chest pain and hypertension. Pertinent medication history included metoprolol tartr",
+        "score": 0.4288007616996765,
+        "doi": "10.1136/bcr-2024-262982",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": -0.5063173770904541,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.4540069103240967,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -2.608900308609009,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40268473",
+        "text": "Effects of Sacubitril/Valsartan on Myocardial Tissue in Heart Failure With Left Ventricular Ejection Fraction Below 50. The effects of sacubitril/valsartan (angiotensin receptor-neprilysin inhibitor [ARNI]) on myocardial tissue in heart failure (HF) with left ventricular ejection fraction (LVEF) <50% remain unclear. Sixty-four HF outpatients with LVEF <50% were randomized to ARNI (switching from an angiotensin-converting enzyme inhibitor/angiotensin receptor blocker [ACEi/ARB] to ARNI) or control (continuin",
+        "score": 0.4260731339454651,
+        "doi": "10.1253/circj.CJ-24-0934",
+        "journal": "Circulation journal : official journal of the Japanese Circulation Society",
+        "year": "2025",
+        "rerank_score": -2.8810458183288574,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

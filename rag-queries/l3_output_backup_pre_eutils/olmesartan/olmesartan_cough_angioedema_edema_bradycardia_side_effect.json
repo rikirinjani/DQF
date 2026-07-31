@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38569737",
+        "text": "Acute quadruple extremity compartment syndrome due to angio-oedema after polypharmacy overdose including olmesartan medoxomil, telmisartan and vildagliptin. This case report describes a rare manifestation of acute compartment syndrome (ACS) involving all four extremities, precipitated by angio-oedema in a middle-aged woman who consumed an overdose of multiple medications: nifedipine, azelnidipine, amlodipine besylate, olmesartan medoxomil, telmisartan, esaxerenone and vildagliptin. She presented with haemod",
+        "score": 0.4415111541748047,
+        "doi": "10.1136/bcr-2023-259485",
+        "journal": "BMJ case reports",
+        "year": "2026",
+        "rerank_score": 0.07407844811677933,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4229055941104889,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.5762201547622681,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17532689",
+        "text": "Efficacy and Safety of Olmesartan in the Treatment of Mild-to-Moderate Essential Hypertension in Chinese Patients. Hypertension is very prevalent in the Chinese population in Taiwan. Chinese people frequently experience bothersome cough when receiving angiotensin-converting enzyme (ACE) inhibitors, and angiotensin II (AT(1)) receptor antagonists are thus relatively more frequently used in this context. In this trial we studied the effectiveness of a new AT(1) receptor antagonist, olmesartan, in the treatmen",
+        "score": 0.4056016206741333,
+        "doi": "10.2165/00044011-200525070-00006",
+        "journal": "Clinical drug investigation",
+        "year": "2007",
+        "rerank_score": -0.927216112613678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.37342754006385803,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 4.0805768966674805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25420579",
+        "text": "Very short-term effects of the dipeptidyl peptidase-4 inhibitor sitagliptin on the secretion of insulin, glucagon, and incretin hormones in Japanese patients with type 2 diabetes mellitus: analysis of meal tolerance test data. Sitagliptin inhibits dipeptidyl peptidase-4, which inactivates the incretin hormones glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide. To assess its antidiabetic potency, we used meal tolerance tests (MTTs) to determine the very short-term effects of si",
+        "score": 0.3433738350868225,
+        "doi": "10.1007/s40268-014-0072-6",
+        "journal": "Drugs in R&D",
+        "year": "2014",
+        "rerank_score": 3.6541757583618164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40231506",
+        "text": "Neuroprotective Effect of Sitagliptin beyond the Incretin Effect: A Narrative Review. Sitagliptin is a dipeptidyl peptidase-IV inhibitor approved for treating type 2 diabetes mellitus. It increases the active form of incretin Glucagon-like Peptide-1 (GLP-1). The GLP-1 peptide prevents damage to neurons due to its anti-inflammatory and anti-apoptotic activities. This article summarizes the studies assessing the neuroprotective properties of sitagliptin, especially through the GLP-1 pathway. The outcomes of e",
+        "score": 0.37964963912963867,
+        "doi": "10.2174/0118715273367858250321124131",
+        "journal": "CNS & neurological disorders drug targets",
+        "year": "2024",
+        "rerank_score": 3.609901189804077,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

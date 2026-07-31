@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec insulin receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41086805",
+        "text": "Tuning insulin receptor signaling using de novo-designed agonists. Insulin binding induces conformational changes in the insulin receptor (IR) that activate the intracellular kinase domain and the protein kinase B (AKT) and mitogen-activated protein kinase (MAPK) pathways, regulating metabolism and proliferation. We reasoned that designed agonists inducing different IR conformational changes might induce different downstream responses. We used de novo protein design to generate binders for individual IR ext",
+        "score": 0.36176127195358276,
+        "doi": "10.1016/j.molcel.2025.09.020",
+        "journal": "Molecular cell",
+        "year": "2024",
+        "rerank_score": 2.9063198566436768,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40603733",
+        "text": "Structural mechanism of insulin receptor activation by a dimeric aptamer agonist. Insulin binding to the insulin receptor (IR) triggers signaling pathways that regulate glucose uptake and cell growth. In previous work, we identified a DNA aptamer, A62, which partially activates the IR. During engineering aptamers for improved in vivo stability, we discovered that crosslinking two A62 aptamers with linkers of varying lengths led to full phosphorylation of the IR, although activation remained selective to the",
+        "score": 0.3850714862346649,
+        "doi": "10.1038/s12276-025-01494-1",
+        "journal": "Experimental & molecular medicine",
+        "year": "2024",
+        "rerank_score": 2.308497905731201,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38445366",
+        "text": "Combinatorial Libraries of Bipodal Binders of the Insulin Receptor. The binding process of insulin to its transmembrane receptor entails a sophisticated interplay between two proteins, each possessing two binding sites. Given the difficulties associated with the use of insulin in the treatment of diabetes, despite its remarkable efficacy, there is interest in smaller and more stable compounds than the native hormone that would effectively activate the receptor. Our study adopts a strategy focused on synthes",
+        "score": 0.3718961775302887,
+        "doi": "10.1002/cmdc.202400145",
+        "journal": "ChemMedChem",
+        "year": "2024",
+        "rerank_score": 1.3253521919250488,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

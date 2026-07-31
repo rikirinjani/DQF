@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Felodipine L-type calcium channel off-target binding",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41229954",
+        "text": "Molecular insights into nilvadipine-hemoglobin interactions: conformational dynamics and binding mechanisms. Understanding the molecular basis of drug-protein interactions is essential for predicting pharmacokinetics and potential off-target effects. Here, we employ a combined experimental and computational approach to characterize the binding of Nilvadipine (a dihydropyridine calcium channel blocker) to hemoglobin (Hb). Using Soret band absorption and steady-state fluorescence spectroscopy across 298-310 K",
+        "score": 0.39048558473587036,
+        "doi": "10.1039/d5ra04162g",
+        "journal": "RSC advances",
+        "year": "2025",
+        "rerank_score": 4.1512370109558105,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38870543",
+        "text": "Identifying Key Binding Interactions Between the Cardiac L-Type Calcium Channel and Calmodulin Using Molecular Dynamics Simulations. Defects in the binding of the calcium sensing protein calmodulin (CaM) to the L-type calcium channel (Ca",
+        "score": 0.37037137150764465,
+        "doi": "10.1021/acs.jpcb.4c02251",
+        "journal": "The journal of physical chemistry. B",
+        "year": "2024",
+        "rerank_score": 2.1421117782592773,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38691022",
+        "text": "Role of the Ca L-type calcium channels are essential for the excitation-contraction coupling in cardiac muscle. The Ca",
+        "score": 0.36524873971939087,
+        "doi": "10.1080/19336950.2024.2338782",
+        "journal": "Channels (Austin, Tex.)",
+        "year": "2024",
+        "rerank_score": 0.6613057255744934,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

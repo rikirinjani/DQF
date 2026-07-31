@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine alpha2-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39873977",
+        "text": "β2-Adrenergic Receptor Agonist Clenbuterol Protects Against Acute Ischemia/Reperfusion-Induced Arrhythmia by Regulation of Akt/eNOS/NO/Cx43 Signaling Pathway. Ventricular arrhythmias induced by ischemia/reperfusion injury limits the therapeutic effect of early reperfusion therapy for acute myocardial infarction. This study investigated the protective effects of the β2-adrenergic receptor (β2-AR) agonist clenbuterol against ischemia/reperfusion-induced arrhythmias and the underlying mechanism. Anesthetized r",
+        "score": 0.44935131072998047,
+        "doi": "10.1002/prp2.70070",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": 4.562566757202148,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39119149",
+        "text": "A historical perspective on clonidine as an alpha-2A receptor agonist in the treatment of addictive behaviors: Focus on opioid dependence. Clonidine operates through agonism at the alpha-2A receptor, a specific subtype of the alpha-2-adrenergic receptor located predominantly in the prefrontal cortex. By inhibiting the release of norepinephrine, which is responsible for withdrawal symptoms, clonidine effectively addresses withdrawal-related conditions such as anxiety, hypertension, and tachycardia. The groun",
+        "score": 0.35251519083976746,
+        "doi": "10.36922/itps.1918",
+        "journal": "INNOSC theranostics & pharmacological sciences",
+        "year": "2024",
+        "rerank_score": 4.191383361816406,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40773228",
+        "text": "Discovery and development of an oral analgesic targeting the α2B adrenoceptor. Noradrenaline is a major monoaminergic neurotransmitter involved in pain modulation through an α2A-adrenergic receptor. Hence, α2-adrenergic agonists such as clonidine and dexmedetomidine exhibit analgesic and opioid-sparing effects. However, their use is restricted to hospital settings due to potential risks of acute hypertension/hypotension and bradycardia. Here, we report that (",
+        "score": 0.4258842170238495,
+        "doi": "10.1073/pnas.2500006122",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "year": "2026",
+        "rerank_score": 4.161518096923828,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

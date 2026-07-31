@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41035577",
+        "text": "Angiotensin-Converting Enzyme Inhibitor-Induced Angioedema Following Long-Term Lisinopril Use: Response to C1 Esterase Inhibitor Treatment. Angiotensin-converting enzyme inhibitors (ACEIs) are widely prescribed for cardiovascular and renal conditions, but a rare and potentially life-threatening complication is ACEI-induced angioedema, which results from bradykinin accumulation leading to increased vascular permeability and tissue swelling. This condition may present abruptly, even after years of uneventful ",
+        "score": 0.41938427090644836,
+        "doi": "10.7759/cureus.91346",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 1.1525757312774658,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39624172",
+        "text": "Case Report: Angiotensin converting enzyme inhibitors vs. angiotensin receptor blockers in the management of chronic hypertension: a case of lisinopril-induced rhinorrhea. A 47-year-old woman presents to our clinic with a chief complaint of rhinorrhea; she had chronic hypertension managed with four antihypertensive drugs, including an ACE inhibitor. While dry cough is a well-known side effect associated with ACE inhibitors, this case highlights a common chief complaint yet less recognized side effect of ACE",
+        "score": 0.41847407817840576,
+        "doi": "10.3389/falgy.2024.1480569",
+        "journal": "Frontiers in allergy",
+        "year": "2024",
+        "rerank_score": 0.43616223335266113,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4013633728027344,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.21061033010482788,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

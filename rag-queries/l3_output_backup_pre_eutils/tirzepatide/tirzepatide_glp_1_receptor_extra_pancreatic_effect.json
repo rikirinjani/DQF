@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide GLP-1 receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39344853",
+        "text": "Tirzepatide, a dual glucose-dependent insulinotropic polypeptide/glucagon-like peptide 1 receptor agonist, exhibits favourable effects on pancreatic β-cells and hepatic steatosis in obese type 2 diabetic db/db mice. Tirzepatide, a dual agonist of glucagon-like peptide receptor and glucose-dependent insulinotropic polypeptide receptor, is expected to exhibit high clinical efficacy in obese type 2 diabetic patients. We evaluated the effects of tirzepatide on pancreatic β-cells and the liver, an insulin-target",
+        "score": 0.3154675364494324,
+        "doi": "10.1111/dom.15972",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 6.609196662902832,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35468322",
+        "text": "Effects of subcutaneous tirzepatide versus placebo or semaglutide on pancreatic islet function and insulin sensitivity in adults with type 2 diabetes: a multicentre, randomised, double-blind, parallel-arm, phase 1 clinical trial. Tirzepatide, a dual glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor agonist, shows a remarkable ability to lower blood glucose, enabling many patients with long-standing type 2 diabetes to achieve normoglycaemia. We aimed to understand the physiological mechanisms",
+        "score": 0.31737813353538513,
+        "doi": "10.1016/S2213-8587(22)00085-7",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "year": "2021",
+        "rerank_score": 6.256275177001953,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41519257",
+        "text": "Acute liver injury associated with tirzepatide: an unexpected adverse event warranting clinical attention. Tirzepatide is a novel dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist approved for the treatment of type-2 diabetes and for weight management. While generally well-tolerated, common adverse effects include gastrointestinal symptoms such as nausea and vomiting. Hepatotoxicity is not a widely recognized complication of tirzepatide, and reporte",
+        "score": 0.32094961404800415,
+        "doi": "10.1016/j.ando.2026.102485",
+        "journal": "Annales d'endocrinologie",
+        "year": "2025",
+        "rerank_score": 5.672775745391846,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

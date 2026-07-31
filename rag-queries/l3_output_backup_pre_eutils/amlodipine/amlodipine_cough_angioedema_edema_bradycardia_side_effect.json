@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Amlodipine cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38880037",
+        "text": "Severe amlodipine toxicity: A medical dilemma managed with therapeutic plasma exchange. Amlodipine poisoning is a nightmare for treating clinicians because of the intractable hypotension and bradycardia induced by the drug, which requires a balanced treatment algorithm. We encountered a case of severe Amlodipine toxicity (450 mg) who presented with complaints of nausea, multiple episodes of vomiting, and chest discomfort. On arrival at the EMD, the patient had significant hypotension (80/46 mmHg), bradycard",
+        "score": 0.4151701331138611,
+        "doi": "10.1016/j.transci.2024.103958",
+        "journal": "Transfusion and apheresis science : official journal of the World Apheresis Asso",
+        "year": "2024",
+        "rerank_score": 2.5727622509002686,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41180679",
+        "text": "Severe non-cardiogenic pulmonary edema following low-dose amlodipine ingestion: a case report. Amlodipine, a dihydropyridine calcium channel blocker, is widely used for hypertension. While peripheral edema is common, non-cardiogenic pulmonary edema (NCPE) is rare and typically linked to overdose. This case reports severe NCPE at a low therapeutic dose. A 40-year-old male with newly diagnosed hypertension, treated with amlodipine 5 mg and valsartan 160 mg daily for 4 days, was presented with severe sudden dy",
+        "score": 0.44330552220344543,
+        "doi": "10.1097/MS9.0000000000003891",
+        "journal": "Annals of medicine and surgery (2012)",
+        "year": "2025",
+        "rerank_score": 1.316850185394287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41141045",
+        "text": "Use of Phenylephrine in Amlodipine Overdose With Refractory Hypotension and Noncardiogenic Pulmonary Edema: A Case Report. Amlodipine is a commonly prescribed antihypertensive drug. We present a case of a young woman with a 70 mg amlodipine overdose admitted to our hospital with refractory hypotension and noncardiogenic pulmonary edema. She was initially managed in the intensive care unit (ICU) with intravenous sodium chloride 0.9% fluid boluses, calcium gluconate, and norepinephrine infusion, with poor res",
+        "score": 0.4194594919681549,
+        "doi": "10.7759/cureus.93024",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 0.6118291020393372,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

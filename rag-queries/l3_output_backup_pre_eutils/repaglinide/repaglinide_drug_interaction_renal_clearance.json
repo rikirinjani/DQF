@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Repaglinide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40202156",
+        "text": "Clearance of Amlodipine, Fentanyl, Fluconazole, Methylprednisolone, and Midazolam by Continuous Renal Replacement Circuits. Critically ill pediatric patients on continuous renal replacement therapy (CRRT) have high mortality rates ranging from 30% to 70%, due in part to altered drug exposure from drug-CRRT circuit interactions. Drug loss within CRRT circuits can occur through both clearance by the hemofilter and adsorption to circuit components. Although these interactions are known to exist, their impact o",
+        "score": 0.4366346001625061,
+        "doi": "10.1097/MAT.0000000000002422",
+        "journal": "ASAIO journal (American Society for Artificial Internal Organs : 1992)",
+        "year": "2025",
+        "rerank_score": 2.994690179824829,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969140",
+        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
+        "score": 0.45006701350212097,
+        "doi": "10.1002/jcph.70007",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.9553130865097046,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39530130",
+        "text": "Evaluating the drug-drug interactions of SHR4640 on repaglinide and midazolam in healthy subjects. SHR4640, a highly selective URAT1 inhibitor, was evaluated to investigate its inhibitory effects on CYP2C8 and CYP3A4 in vivo clinical trial. This study assessed the pharmacokinetic (PK) impact of SHR4640 when co-administered with the CYP2C8 probe substrate repaglinide and the CYP3A4 probe substrate midazolam. In this single-center, randomized, double-blind, placebo-controlled study, participants were randomly",
+        "score": 0.4452322721481323,
+        "doi": "10.1080/17425255.2024.2428367",
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "year": "2025",
+        "rerank_score": 1.6237789392471313,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "query": {
+    "query": "Atorvastatin HMGCR non-HMGCR mechanism",
+    "dimension": "off_target",
+    "target": "HMGCR"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30054755",
+        "text": "Statin resistance in Candida glabrata.\n\nReduced efficacy of statins has been observed in people but the mechanism of this resistance is unclear and no statin-resistance mutations in the catalytic domain of HMGCR have been reported. The present study focused on looking for statin-resistance mutations and examining the mechanism of statin resistance using Candida glabrata as a model organism.\nC. glabrata was cultured in media containing lovastatin, simvastatin or atorvastatin to obtain lovastatin-, simvastatin- and atorvastatin-resistant mutants. A single mutant from each was purified for further analysis. In each mutant, gene sequencing showed there were no changes in the catalytic domain of HMGCR. HMGCR was overexpressed in two resistant isolates suggesting that increased production of HMGCR can lead to resistance. In a third mutant, HMGCR activity was unaltered, suggesting a non-HMGCR related mechanism, such as increased drug efflux, could be operating.\nCandida glabrata is a useful model organism for examining resistance to statins. Further studies are warranted to examine the precise molecular mechanisms of statin resistance.",
+        "title": "Statin resistance in Candida glabrata.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "30054755",
+          "journal": "Biotechnology letters",
+          "authors": [
+            "Subhan Mishal",
+            "Faryal Rani",
+            "Macreadie Ian"
+          ],
+          "pub_date": "2018-Oct",
+          "doi": "10.1007/s10529-018-2597-1",
+          "mesh_terms": [
+            "Antifungal Agents",
+            "Candida glabrata",
+            "Catalytic Domain",
+            "Drug Resistance, Fungal",
+            "Fungal Proteins",
+            "Gene Expression Regulation, Fungal",
+            "Hydroxymethylglutaryl CoA Reductases",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Mutation"
+          ]
+        }
+      }
+    ]
+  }
+}

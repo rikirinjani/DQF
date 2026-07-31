@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Trandolapril ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20194569",
+        "text": "Synergistic inhibitory effect of angiotensin II receptor blocker and thiazide diuretic on the tissue renin-angiotensin-aldosterone system. ARBs are conceptually more potent in a high renin state than in a low renin state at blood pressure reduction and cardiovascular protection, whereas the potency of thiazide diuretics in the contrary. However, the additive effect of the agents when used in combination remains unclear. Thus, the goal of the present review was to analyse available data to explain the mechan",
+        "score": 0.40267932415008545,
+        "doi": "10.1177/1470320310361832",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2010",
+        "rerank_score": 1.0156903266906738,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26196407",
+        "text": "Choice of Antihypertensive Combination Therapy Based on Daily Salt Intake. It is unclear whether thiazide diuretics (TZs) or calcium channel blockers (CCBs) are more effective as add-on therapy to angiotensin receptor blockers (ARBs) in controlling hypertension. Because TZs are a rational choice in salt-sensitive hypertension, patients with high salt intake might preferentially benefit from ARB/TZ over ARB/CCB combination therapy.",
+        "score": 0.40241748094558716,
+        "doi": "10.1097/MAJ.0000000000000529",
+        "journal": "The American journal of the medical sciences",
+        "year": "2015",
+        "rerank_score": 0.4881979823112488,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4266778528690338,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.27265119552612305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12766243",
+        "text": "Beta-adrenergic or parasympathetic inhibition, heart rate and cardiac output during normoxic and acute hypoxic exercise in humans. Acute hypoxia increases heart rate (HR) and cardiac output (Qt) at a given oxygen consumption (VO2) during submaximal exercise. It is widely believed that the underlying mechanism involves increased sympathetic activation and circulating catecholamines acting on cardiac beta receptors. Recent evidence indicating a continued role for parasympathetic modulation of HR during modera",
+        "score": 0.38859647512435913,
+        "doi": "10.1113/jphysiol.2003.040568",
+        "journal": "The Journal of physiology",
+        "year": "2003",
+        "rerank_score": -0.26928210258483887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.4416797161102295,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -3.23105788230896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38973500",
+        "text": "Acupuncture modulation of the ACE/Ang II/AT1R and ACE2/Ang(1-7)/MasR pathways in the rostral ventrolateral medulla reduces sympathetic output and prevents cardiac injury caused by SHR hypertension. Acupuncture can reduce blood pressure, heart rate (HR), and ameliorate cardiac damage by modulating the excitability of the sympathetic nervous system, but the exact mechanism of this effect remains unclear. This study investigated the potential mechanisms of acupuncture in the treatment of cardiac damage in hype",
+        "score": 0.4210456907749176,
+        "doi": "10.1097/WNR.0000000000002073",
+        "journal": "Neuroreport",
+        "year": "2024",
+        "rerank_score": -5.132311820983887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

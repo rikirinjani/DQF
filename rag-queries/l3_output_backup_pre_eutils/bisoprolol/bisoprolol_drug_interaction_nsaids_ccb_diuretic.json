@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Bisoprolol drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38447973",
+        "text": "Effect of Concomitant Drugs on Sodium Zirconium Cyclosilicate Hydrate in Artificial Intestinal Juice. To explore drug interactions involving sodium zirconium cyclosilicate hydrate (SZC) and concomitant drugs like calcium antagonists (amlodipine and nifedipine) and β-blockers (carvedilol and bisoprolol), we investigate how these concomitant drugs influenced the administration of SZC in an artificial intestinal juice. Initially, we assessed the potassium ion adsorption capacity, ranking it as follows: calcium",
+        "score": 0.4535122215747833,
+        "doi": "10.1248/cpb.c23-00687",
+        "journal": "Chemical & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 0.15259625017642975,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4625052213668823,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.27097398042678833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39469919",
+        "text": "Innovative Long-Acting Bisoprolol Patch: Synergistic Ion-Pair Skin Adsorption for Drug Delivery Control Coupled with Dynamic Modulation of Penetration Enhancers. This study aims to develop a sustained release patch for bisoprolol (BSP) to address the issue of blood pressure fluctuations caused by traditional dosing methods, ensuring continuous drug release and efficient utilization. Long-chain saturated fatty acids (C",
+        "score": 0.4521298408508301,
+        "doi": "10.1021/acs.molpharmaceut.4c00738",
+        "journal": "Molecular pharmaceutics",
+        "year": "2024",
+        "rerank_score": -0.9000741839408875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38745377",
+        "text": "Elucidating nonlinear pharmacokinetics of telmisartan: Integration of target-mediated drug disposition and OATP1B3-mediated hepatic uptake in a physiologically based model. Telmisartan, a selective inhibitor of angiotensin II receptor type 1 (AT1), demonstrates nonlinear pharmacokinetics (PK) when orally administered in ascending doses to healthy volunteers, but the underlying mechanisms remain unclear. This study presents a physiologically based pharmacokinetic model integrated with target-mediated drug di",
+        "score": 0.3577020466327667,
+        "doi": "10.1002/psp4.13154",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": 1.4237676858901978,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41372511",
+        "text": "Design of Experiments (DoE) Driven Fabrication of Surface Modified Liposomes of Olmesartan Medoxomil for Improved Oral Bioavailability. Olmesartan Medoxomil (OLM) is a prodrug of an angiotensin II receptor antagonist and a P-glycoprotein (P-gp) substrate that is converted into Olmesartan by esterases, resulting in low oral bioavailability (26%). The aim of the present study was to formulate Olmesartan Medoxomil liposomes by thin film hydration method using Vitamin E TPGS (P gp inhibitor). Initial screening ",
+        "score": 0.395771861076355,
+        "doi": "10.1208/s12249-025-03272-8",
+        "journal": "AAPS PharmSciTech",
+        "year": "2025",
+        "rerank_score": 1.265997052192688,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40659924",
+        "text": "Effectiveness of single-pill combination olmesartan/amlodipine/hydrochlorothiazide therapy in patients with apparent resistant hypertension. This pioneering study investigated the real-life effectiveness of single-pill combination (SPC) antihypertensive therapy in patients with uncontrolled blood pressure (BP) and cardiovascular risk factors. After treatment with olmesartan medoxomil/amlodipine besylate/hydrochlorothiazide for 24 weeks, adults with apparent resistant hypertension had significantly reduced s",
+        "score": 0.394944429397583,
+        "doi": "10.1038/s41371-025-01043-3",
+        "journal": "Journal of human hypertension",
+        "year": "2025",
+        "rerank_score": 0.28682470321655273,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

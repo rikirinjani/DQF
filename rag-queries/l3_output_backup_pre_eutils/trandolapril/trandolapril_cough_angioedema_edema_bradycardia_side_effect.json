@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Trandolapril cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38718248",
+        "text": "Use of Intravenous Lipid Emulsion Therapy and Insulin in a Case of Tarka Intoxication. Tarka (trandolapril/verapamil hydrohloride extended-release) is a fixed-dose combination antihypertensive drug formed from verapamil hydrochloride and trandolapril. Toxicologic manifestations of Tarka overdose are altered mental status, bradycardia, hypotension, atrioventricular block (first-degree), hyperglycemia, metabolic acidosis, and shock. We report a case of Tarka toxicity in a 2-year-old girl who presented with al",
+        "score": 0.4522678852081299,
+        "doi": "",
+        "journal": "WMJ : official publication of the State Medical Society of Wisconsin",
+        "year": "2024",
+        "rerank_score": 0.3742242753505707,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4231676161289215,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.5654653906822205,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41466925",
+        "text": "Successful Management of Angiotensin-Converting Enzyme Inhibitor-Induced Angioedema With Tranexamic Acid: A Case Report. Angioedema is a potentially life-threatening emergency that can present with facial swelling and airway compromise. When induced by angiotensin-converting enzyme (ACE) inhibitors (ACEIs), the mechanism is bradykinin-mediated, rendering conventional anaphylaxis therapies largely ineffective. We report a case of a 68-year-old male who presented to the Emergency Department with acute, progre",
+        "score": 0.4197351634502411,
+        "doi": "10.7759/cureus.98001",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -1.3855037689208984,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan AT1 receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24524371",
+        "text": "Limbs' postischemic revascularization is not improved by losartan treatment in diabetic rats. Most physiological actions of angiotensin II (Ang II) on cardiovascular system are mediated by angiotensin type 1 receptor (AT1R). Since peripheral artery disease is one of the most important complications of diabetes, in this study, we aimed to investigate the effect of losartan, an AT1R blocker, on skeletal muscle angiogenesis in diabetic hind limb ischemic rats.",
+        "score": 0.3691205084323883,
+        "doi": "10.4149/endo_2014_01_9",
+        "journal": "Endocrine regulations",
+        "year": "2014",
+        "rerank_score": 4.365549087524414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38801809",
+        "text": "Irbesartan mitigates the impact of cyclophosphamide-induced acute neurotoxicity in rats: Shedding highlights on NLRP3 inflammasome/CASP-1 pathway-driven immunomodulation. IIrbesartan (IRB), an angiotensin II type 1 receptor (AT1R) antagonist, has been widely employed in the medical field for its effectiveness in managing hypertension. However, there have been no documented investigations regarding the immunostimulatory properties of IRB. To address this gap, this study has been performed to assess the neuro",
+        "score": 0.4048413038253784,
+        "doi": "10.1016/j.intimp.2024.112336",
+        "journal": "International immunopharmacology",
+        "year": "2024",
+        "rerank_score": 4.237250804901123,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38815786",
+        "text": "Losartan and metabolite EXP3179 activate endothelial function without lowering blood pressure in AT2 receptor KO mice. We have documented profound release of nitric oxide (NO) and endothelium-derived hyperpolarization factor (EDHF) by angiotensin II (ANGII) receptor 1 (AT1) blocker (ARB) losartan and its unique metabolite EXP3179, a pleiotropic effect that may help rationalize the protective properties of ARBs. Since blood pressure (BP) lowering by ARBs likely require an ANGII-dependent switch from AT1 to A",
+        "score": 0.39043015241622925,
+        "doi": "10.1016/j.ejphar.2024.176663",
+        "journal": "European journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 4.224348068237305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

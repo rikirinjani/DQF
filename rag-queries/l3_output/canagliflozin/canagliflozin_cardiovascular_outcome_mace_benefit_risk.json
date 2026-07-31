@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41190032",
+        "text": "Comparative cardiovascular risks of canagliflozin and selective SGLT2 inhibitors in type 2 diabetes. Dual inhibition of sodium-glucose cotransporter (SGLT) 1 and 2 with canagliflozin may offer additional metabolic effects beyond selective SGLT2 inhibition; however, its comparative cardiovascular associations remain uncertain. This study compared the risks of major adverse cardiovascular events (MACE) and all-cause mortality between canagliflozin and selective SGLT2 inhibitors in routine clinical practice. W",
+        "score": 0.42003077268600464,
+        "doi": "10.3389/fphar.2025.1686851",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 5.617717742919922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31922023",
+        "text": "Cardiovascular outcomes and mortality after initiation of canagliflozin: Analyses from the EASEL Study. In the EASEL study of patients with type 2 diabetes and high cardiovascular risk, initiation of sodium glucose co-transporter 2 inhibitors (SGLT2i) was associated with lower risk of cardiovascular events and mortality and higher risk of below-knee lower extremity (BKLE) amputation versus non-SGLT2i therapies. This analysis further examined risk of cardiovascular events, cardiovascular and noncardiovascula",
+        "score": 0.40522950887680054,
+        "doi": "10.1002/edm2.96",
+        "journal": "Endocrinology, diabetes & metabolism",
+        "year": "2019",
+        "rerank_score": 5.372354984283447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32485734",
+        "text": "Cardiovascular Benefit of Empagliflozin Across the Spectrum of Cardiovascular Risk Factor Control in the EMPA-REG OUTCOME Trial. Control of multiple cardiovascular (CV) risk factors reduces CV events in individuals with type 2 diabetes.",
+        "score": 0.40483155846595764,
+        "doi": "10.1210/clinem/dgaa321",
+        "journal": "The Journal of clinical endocrinology and metabolism",
+        "year": "2020",
+        "rerank_score": 5.274408340454102,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Amlodipine L-type calcium channel adverse effect pathway",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:29441826",
+        "text": "Protective effect of an L-type calcium channel blocker, amlodipine, on paracetamol-induced hepatotoxicity in rats. Paracetamol (P), one of the most popular and commonly used analgesic and antipyretic agents, causes hepatotoxicity in overdoses. Amlodipine (AML), an L-type calcium channel blocker, has been shown to have anti-inflammatory activity by reversing the effect of calcium in the inflammation pathogenesis. In this study, the hepatoprotective activity of AML on P-induced hepatotoxicity was evaluated. T",
+        "score": 0.38280320167541504,
+        "doi": "10.1177/0960327118758382",
+        "journal": "Human & experimental toxicology",
+        "year": "2018",
+        "rerank_score": 5.156205177307129,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39589752",
+        "text": "Comparative Effectiveness of Lercanidipine and Amlodipine on Major Adverse Cardiovascular Events in Hypertensive Patients. Lercanidipine, a newer-generation calcium channel blocker, is recognized for its effective antihypertensive properties and reduced side effects. This study aims to compare the effectiveness of lercanidipine and amlodipine in preventing major adverse cardiovascular events (MACE) in hypertensive patients. A multicenter, retrospective observational study was conducted using the electronic ",
+        "score": 0.40308070182800293,
+        "doi": "10.1093/ajh/hpae147",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": 4.196855068206787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39083161",
+        "text": "Nimodipine attenuates neuroinflammation and delayed apoptotic neuronal death induced by trimethyltin in the dentate gyrus of mice. L-type voltage-gated calcium channels (L-VGCCs) are thought to be involved in epileptogenesis and acute excitotoxicity. However, little is known about the role of L-VGCCs in neuroinflammation or delayed neuronal death following excitotoxic insult. We examined the effects of repeated treatment with the L-VGCC blocker nimodipine on neuroinflammatory changes and delayed neuronal ap",
+        "score": 0.4394707977771759,
+        "doi": "10.1007/s10735-024-10226-0",
+        "journal": "Journal of molecular histology",
+        "year": "2024",
+        "rerank_score": 3.7941102981567383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

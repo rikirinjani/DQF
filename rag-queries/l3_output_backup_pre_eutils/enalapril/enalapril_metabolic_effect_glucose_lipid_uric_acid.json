@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.41958749294281006,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.5374441146850586,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40356784",
+        "text": "Untargeted metabolic analysis in serum samples reveals metabolic signature in children with congenital heart failure on enalapril therapy. Enalapril is an angiotensin-converting enzyme (ACE) inhibitor (ACEi) which is widely used in the management of (paediatric) hypertension and heart failure (HF). There is a significant interindividual variability in the patient's response to enalapril that is not completely understood. Therefore, we aimed to examine the potential of metabolic profiling for stratifying pae",
+        "score": 0.39582014083862305,
+        "doi": "10.3389/fped.2025.1530063",
+        "journal": "Frontiers in pediatrics",
+        "year": "2024",
+        "rerank_score": 1.4496965408325195,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38986387",
+        "text": "Aripiprazole dose associations with metabolic adverse effect: Results from a longitudinal study. Weight gain, blood lipids and/or glucose dysregulation can follow aripiprazole treatment onset. Whether aripiprazole dosage is associated with an increase in these metabolic parameters remains uncertain. The present study investigates aripiprazole dose associations with weight change, blood glucose, lipids, and blood pressure. 422 patients taking aripiprazole for a minimum of three weeks to one year were selecte",
+        "score": 0.406629741191864,
+        "doi": "10.1016/j.schres.2024.07.007",
+        "journal": "Schizophrenia research",
+        "year": "2024",
+        "rerank_score": 1.1825679540634155,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

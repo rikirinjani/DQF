@@ -1,0 +1,33 @@
+{
+  "cox_inhibition": null,
+  "gi_risk": 2,
+  "cv_risk": 1,
+  "renal_risk": 2,
+  "platelet_effect": null,
+  "off_targets": [
+    "Trpv1",
+    "Wasabi"
+  ],
+  "anti_inflammatory": null,
+  "analgesic": null,
+  "antipyretic": null,
+  "ddi_risk": 1,
+  "_evidence": {
+    "pmids": [
+      "25855297",
+      "32760273",
+      "38180091",
+      "38653785",
+      "38931423",
+      "39616105",
+      "39677212",
+      "39882676",
+      "40128115",
+      "40224452",
+      "41197604"
+    ],
+    "source_count": 18,
+    "finding_count": 12
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

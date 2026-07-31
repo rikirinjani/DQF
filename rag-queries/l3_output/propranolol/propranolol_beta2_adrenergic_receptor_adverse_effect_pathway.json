@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol beta2-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "beta2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40222952",
+        "text": "β-Adrenergic Blockers Increase cAMP and Stimulate Insulin Secretion Through a PKA/RYR2/TRPM5 Pathway in Pancreatic β-Cells In Vitro. β-adrenergic blockers (β-blockers) are extensively used to inhibit β-adrenoceptor activation and subsequent cAMP production in many cell types. In this study, we characterized the effects of β-blockers on mouse pancreatic β-cells. Unexpectedly, high concentrations (100 μM) of β-blockers (propranolol and bisoprolol) paradoxically increased cAMP levels 5-10 fold, enhanced Ca",
+        "score": 0.3692336678504944,
+        "doi": "10.1002/prp2.70092",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2025",
+        "rerank_score": 2.941828489303589,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.37769410014152527,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 2.6307365894317627,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38746306",
+        "text": "Genetic Inactivation of the β1 adrenergic receptor prevents Cerebral Cavernous Malformations in zebrafish. Propranolol reduces experimental murine cerebral cavernous malformations (CCMs) and prevents embryonic caudal venous plexus (CVP) lesions in zebrafish that follow mosaic inactivation of",
+        "score": 0.3991960883140564,
+        "doi": "10.1101/2024.05.05.592554",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2024",
+        "rerank_score": 1.8492441177368164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

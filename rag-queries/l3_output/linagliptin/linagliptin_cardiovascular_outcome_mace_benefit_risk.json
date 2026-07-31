@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25780262",
+        "text": "Design and baseline characteristics of the CARdiovascular Outcome Trial of LINAgliptin Versus Glimepiride in Type 2 Diabetes (CAROLINA®). CARdiovascular Outcome Trial of LINAgliptin Versus Glimepiride in Type 2 Diabetes (NCT01243424) is an ongoing, randomized trial in subjects with early type 2 diabetes and increased cardiovascular risk or established complications that will determine the long-term cardiovascular impact of linagliptin versus the sulphonylurea glimepiride. Eligible patients were sulphonylure",
+        "score": 0.4012492001056671,
+        "doi": "10.1177/1479164115570301",
+        "journal": "Diabetes & vascular disease research",
+        "year": "2015",
+        "rerank_score": 4.829540252685547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29773079",
+        "text": "Effects of linagliptin on endothelial function and postprandial lipids in coronary artery disease patients with early diabetes: a randomized, placebo-controlled, double-blind trial. Early glucose lowering intervention in subjects with type 2 diabetes mellitus was demonstrated to be beneficial in terms of micro- and macrovascular risk reduction. However, most of currently ongoing cardiovascular outcome trials are performed in subjects with manifest atherosclerosis and long-standing diabetes. Therefore, the a",
+        "score": 0.39859139919281006,
+        "doi": "10.1186/s12933-018-0716-x",
+        "journal": "Cardiovascular diabetology",
+        "year": "2018",
+        "rerank_score": 4.770569801330566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41369622",
+        "text": "Obesity-Associated Cardiovascular Risk and Benefit From PCSK9 Inhibition: A Prespecified Analysis From FOURIER. The PCSK9 inhibitor evolocumab decreases the risk of major adverse cardiovascular events (MACE). The relationship between body mass index (BMI) and benefit of evolocumab remains unknown. This study sought to investigate the association between BMI, risk of MACE, and the clinical benefit of evolocumab. The FOURIER (Further Cardiovascular Outcomes Research with PCSK9 Inhibition in Subjects with Elev",
+        "score": 0.40309232473373413,
+        "doi": "10.1016/j.jacc.2025.10.036",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2025",
+        "rerank_score": 3.805513858795166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

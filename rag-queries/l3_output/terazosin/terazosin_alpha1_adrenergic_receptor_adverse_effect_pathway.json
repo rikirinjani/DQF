@@ -1,0 +1,61 @@
+{
+  "query": {
+    "query": "Terazosin alpha1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38771738",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38771738",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2024-May-27",
+          "doi": "10.58347/tml.2024.1703a",
+          "mesh_terms": [
+            "Humans",
+            "Hypertension",
+            "Antihypertensive Agents",
+            "Blood Pressure"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35244207",
+        "text": "Inhibiting α1-adrenergic receptor signaling pathway ameliorates AD-type pathologies and behavioral deficits in APPswe/PS1 mouse model.\n\nThe role of α1 adrenergic receptors (α1-ARs) signaling pathway in the pathogenesis of Alzheimer's disease (AD) has rarely been investigated. Clarifying the pathophysiological functions of α1-ARs in the AD brain is helpful for better understanding the pathogenesis and screening novel therapeutic targets of AD. This study included 2 arms of in vivo investigations: 1) 6-month-old female APPswe/PS1 mice were intravenously treated with AAV-PHP.eB-shRNA (α1-ARs)-GFP or AAV-PHP.eB-GFP for 3 months. 2) 3-month-old female APPswe/PS1 mice were daily treated with 0.5 mg/kg terazosin or an equal volume of saline for 6 months. SH-SY5Y cell lines bearing human amyloid precursor protein were treated with terazosin or saline for investigating possible mechanisms. α1-ARs knockdown mice exhibited improved behavioral performances in comparison with control mice. α1-ARs knockdown mice had significantly lower brain amyloid burden, as reflected by soluble Aβ species, compact and total Aβ plaques, than control mice. α1-ARs inhibitor terazosin substantially reduced Aβ deposition, attenuated downstream pathologies including tau hyperphosphorylation, glial activation, neuronal loss, synaptic dysfunction et al., and rescued behavioral deficits in APPswe/PS1 mice. In vitro investigation demonstrated that α1-ARs inhibition down-regulated BACE1 expression, and promoted ser9 phosphorylation of GSK-3β, thus reducing Aβ production. This study indicates that inhibition of α1-ARs signaling pathway might represent a promising therapeutic strategy for AD.",
+        "title": "Inhibiting α1-adrenergic receptor signaling pathway ameliorates AD-type pathologies and behavioral deficits in APPswe/PS1 mouse model.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35244207",
+          "journal": "Journal of neurochemistry",
+          "authors": [
+            "Yu Zhong-Yuan",
+            "Yi Xu",
+            "Wang Ye-Ran"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1111/jnc.15603",
+          "mesh_terms": [
+            "Alzheimer Disease",
+            "Amyloid Precursor Protein Secretases",
+            "Amyloid beta-Peptides",
+            "Animals",
+            "Aspartic Acid Endopeptidases",
+            "Disease Models, Animal",
+            "Female",
+            "Glycogen Synthase Kinase 3 beta",
+            "Mice",
+            "Mice, Transgenic",
+            "Receptors, Adrenergic",
+            "Signal Transduction"
+          ]
+        }
+      }
+    ]
+  }
+}

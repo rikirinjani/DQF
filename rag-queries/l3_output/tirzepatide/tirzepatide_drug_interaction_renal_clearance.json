@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41390457",
+        "text": "The relation between tirzepatide and adverse cardiovascular events or renal adverse events: a meta-analysis based on randomized controlled trials.",
+        "score": 0.43184348940849304,
+        "doi": "10.1186/s13098-025-02064-1",
+        "journal": "Diabetology & metabolic syndrome",
+        "year": "2025",
+        "rerank_score": 1.2151682376861572,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969140",
+        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
+        "score": 0.4486324191093445,
+        "doi": "10.1002/jcph.70007",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.0107649564743042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40145829",
+        "text": "Effect of Augmented Renal Clearance and Febrile Neutropenia on Initial Trough Level and Clearance of Teicoplanin. Augmented renal clearance (ARC) and febrile neutropenia (FN) increase drug clearance primarily through glomerular filtration. In this study, we evaluated the influence of ARC and FN on dose-normalized trough concentration (C/D) and/or clearance of teicoplanin (TEIC) by comparing C/D between patients with ARC and non-ARC, and C/D and clearance between patients with FN and non-FN. This retrospecti",
+        "score": 0.43024763464927673,
+        "doi": "10.1097/FTD.0000000000001320",
+        "journal": "Therapeutic drug monitoring",
+        "year": "2024",
+        "rerank_score": 0.8040241599082947,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

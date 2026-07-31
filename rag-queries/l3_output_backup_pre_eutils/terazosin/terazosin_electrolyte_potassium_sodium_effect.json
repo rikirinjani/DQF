@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Terazosin electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40175698",
+        "text": "Impact of a Terahertz electromagnetic field on the ion permeation of potassium and sodium channels. Ion channels are essential for various physiological processes, and their defects are associated with many diseases. Previous research has revealed that a Terahertz electromagnetic field can alter the channel conductance by affecting the motion of chemical groups of ion channels, and hence regulate the electric signals of neurons. In this study, we conducted molecular dynamics simulations to systematically in",
+        "score": 0.4867319166660309,
+        "doi": "10.1038/s42004-025-01503-4",
+        "journal": "Communications chemistry",
+        "year": "2024",
+        "rerank_score": 1.8225109577178955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38606176",
+        "text": "Inhibitory effect of aloperine on transient outward potassium currents in rat cardiac myocytes. Aloperine (ALO) is an effective quinolizidine alkaloid. Previous research has demonstrated its antiarrhythmic effect by inhibiting voltage-gated sodium currents in rat ventricular myocytes. This study explored its effect on transient outward potassium currents (I The I ALO at concentrations of 3 and 10 μM significantly reduced I ALO may inhibit I",
+        "score": 0.4696424603462219,
+        "doi": "10.3389/fphar.2024.1372973",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -0.8210172057151794,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38447973",
+        "text": "Effect of Concomitant Drugs on Sodium Zirconium Cyclosilicate Hydrate in Artificial Intestinal Juice. To explore drug interactions involving sodium zirconium cyclosilicate hydrate (SZC) and concomitant drugs like calcium antagonists (amlodipine and nifedipine) and β-blockers (carvedilol and bisoprolol), we investigate how these concomitant drugs influenced the administration of SZC in an artificial intestinal juice. Initially, we assessed the potassium ion adsorption capacity, ranking it as follows: calcium",
+        "score": 0.4711131453514099,
+        "doi": "10.1248/cpb.c23-00687",
+        "journal": "Chemical & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": -0.9541422128677368,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

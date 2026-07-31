@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Atenolol drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38930938",
+        "text": "Supramolecular Interaction of Atenolol and Propranolol with β-Cyclodextrin Spectroscopic Characterization and Analytical Application. Atenolol (ATE) and propranolol (PRO) inclusion complexes with β-cyclodextrin have been investigated in aqueous solution. The aqueous solution was examined and characterized using UV-vis, fluorescence spectroscopy, and",
+        "score": 0.401403546333313,
+        "doi": "10.3390/molecules29122875",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": 0.9423739314079285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4537709057331085,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.07636747509241104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39943810",
+        "text": "The role of single-pill ACE inhibitor/ccb combination for hypertension: an Algerian view via the nominal group technique. Around one-third of adults in Algeria have hypertension, but > 40% are unaware they have the disease, and of those receiving treatment, only ~ 20-30% have adequate blood pressure (BP) control. Recommended starting treatment is an angiotensin converting enzyme inhibitor (ACEi) or angiotensin receptor blocker plus a calcium channel blocker (CCB) or diuretic. A single-pill combination of pe",
+        "score": 0.4720070958137512,
+        "doi": "10.1080/14796678.2025.2465218",
+        "journal": "Future cardiology",
+        "year": "2025",
+        "rerank_score": -1.2184984683990479,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

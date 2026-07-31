@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol beta2-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.399142861366272,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 3.046851396560669,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39570058",
+        "text": "A single-center clinical trial evaluating topical propranolol for preventing stress-induced hair loss. There is currently a lack of pathological research on the hair loss caused by stress, and there is no effective treatment available. It has been previously reported that stress can cause sympathetic nerve activation and release of norepinephrine, which binds to beta-2 adrenergic receptors and causes a series of chemical reactions. Propranolol, as a beta-2 adrenergic receptors blocker, competitively antagon",
+        "score": 0.3964712619781494,
+        "doi": "10.1096/fj.202401027R",
+        "journal": "FASEB journal : official publication of the Federation of American Societies for",
+        "year": "2024",
+        "rerank_score": 2.847149610519409,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39191189",
+        "text": "Ligand-independent function of β2-adrenergic receptor affects IgE-mediated Ca Mast cells are key effector cells that elicit immunoglobulin E (IgE)-mediated allergic inflammations. Allergen cross-linking of IgE bound to the high-affinity IgE receptor, FcεRI, on mast cells triggers signaling cascades that activate signal proteins and evoke extracellular Ca Although β2-adrenergic-related reagents are known to influence mast cell functions, the specific intrinsic role of Adrb2 in these cells is not fully unders",
+        "score": 0.4188153147697449,
+        "doi": "10.1016/j.bbrc.2024.150595",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2024",
+        "rerank_score": 2.028857707977295,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41038073",
+        "text": "Neuropharmacological evaluation of hydralazine hydrazone derivatives: Synthesis, In silico, and zebrafish studies. Hydralazine is an old antihypertensive drug that, through drug repurposing strategies, has shown significant potential as a therapeutic agent for other diseases. Additionally, it presents itself as a promising precursor for the synthesis of new compounds. This study evaluates the anxiolytic, anticonvulsant, and memory-retention potential of hydralazine and its hydrazone derivatives (HDZH 2,4OH,",
+        "score": 0.4265584647655487,
+        "doi": "10.1016/j.bbrc.2025.152728",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2025",
+        "rerank_score": -0.8799548745155334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38931392",
+        "text": "Study of the Lipophilicity and ADMET Parameters of New Anticancer Diquinothiazines with Pharmacophore Substituents. Lipophilicity is one of the principal parameters that describe the pharmacokinetic behavior of a drug, including its absorption, distribution, metabolism, elimination, and toxicity. In this study, the lipophilicity and other physicochemical, pharmacokinetic, and toxicity properties that affect the bioavailability of newly synthesized dialkylaminoalkyldiquinothiazine hybrids as potential drug c",
+        "score": 0.42797863483428955,
+        "doi": "10.3390/ph17060725",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": -2.0095713138580322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41330418",
+        "text": "Reducing aztreonam/avibactam waste: insights from Monte Carlo simulations. The fixed-dose combination of aztreonam/avibactam is administered with a loading dose (LD), resulting in systematic drug wastage in patients with preserved renal function. Whether the LD can be reduced remains unclear. To evaluate in silico the pharmacokinetic (PK) and pharmacodynamic (PD) consequences of reducing the current LD in patients with normal renal function, using a population PK model and Monte Carlo simulations. A publish",
+        "score": 0.42895591259002686,
+        "doi": "10.1093/jac/dkaf421",
+        "journal": "The Journal of antimicrobial chemotherapy",
+        "year": "2025",
+        "rerank_score": -4.677845001220703,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

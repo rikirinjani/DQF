@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8318424",
+        "text": "Pharmacokinetic interaction between epirubicin and the multidrug resistance reverting agent D-verapamil. The potential for a pharmacokinetic interaction between epirubicin and the second-generation multidrug resistance modulating agent D-verapamil (DVPM) has been investigated in six patients with advanced colorectal cancer. Our results indicate that a significant interaction takes place. Enhanced distribution of epirubicin from the serum and altered disposition might, in fact, explain the increased level of",
+        "score": 0.3446276783943176,
+        "doi": "10.1038/bjc.1993.277",
+        "journal": "British journal of cancer",
+        "year": "1993",
+        "rerank_score": 2.267324447631836,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40478180",
+        "text": "Predicting drug-drug interactions and optimal dosing of betrixaban with physiologically based pharmacokinetic modeling in patients with renal impairment who were coadministered with P-glycoprotein inhibitors. ObjectiveTo optimize dosing adjustments in patients with renal impairment who were coadministered with P-glycoprotein inhibitors-verapamil or amiodarone-using a physiologically based pharmacokinetic model.MethodsThe developed physiologically based pharmacokinetic model was corroborated using previously",
+        "score": 0.3938095271587372,
+        "doi": "10.1177/03000605251346587",
+        "journal": "The Journal of international medical research",
+        "year": "2025",
+        "rerank_score": -1.1026651859283447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39359139",
+        "text": "Enhancing verapamil trace determination from biological matrices by bar adsorptive microextraction. Verapamil is an L-type calcium channel blocker widely used in the treatment of cardiovascular diseases such as hypertension, angina and arrhythmias, requiring accurate therapeutic monitoring to maintain plasma, urine and saliva concentrations within a safe range. In this context, a novel analytical approach has been proposed to determine verapamil in biological samples, using bar adsorptive microextraction co",
+        "score": 0.3932129740715027,
+        "doi": "10.1039/d4ay01171f",
+        "journal": "Analytical methods : advancing methods and applications",
+        "year": "2024",
+        "rerank_score": -1.5651534795761108,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide NCC adverse effect pathway",
+    "dimension": "off_target",
+    "target": "NCC"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39544450",
+        "text": "A Rare Case of Pulmonary Edema Secondary to Hydrochlorothiazide Use. Noncardiogenic pulmonary edema has been reported as a rare adverse reaction of hydrochlorothiazide. Symptoms can develop acutely after medication ingestion, and patients may present acutely ill. The mechanism by which hydrochlorothiazide causes pulmonary edema remains unknown and is considered idiosyncratic. Prompt supportive care and discontinuation of the medication is necessary to prevent and manage such a complication. This case report",
+        "score": 0.48708996176719666,
+        "doi": "10.1155/2024/9423545",
+        "journal": "Case reports in critical care",
+        "year": "2024",
+        "rerank_score": 3.148228168487549,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39459529",
+        "text": "Hypoxia Modulates Sodium Chloride Co-transporter via CaMKII-β Pathway: An In Vitro Study with mDCT15 Cells. Hypoxia plays a crucial role in regulating various cellular functions, including ion-transport mechanisms in the kidney. The sodium-chloride co-transporter (NCC) is essential for sodium reabsorption in the distal convoluted tubule (DCT). However, the effects of hypoxia on NCC expression and its regulatory pathways remain unclear. We aimed to explore the effects and potential mechanisms of hypoxia on N",
+        "score": 0.46969932317733765,
+        "doi": "10.3390/life14101229",
+        "journal": "Life (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": 1.8186907768249512,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38743423",
+        "text": "Chlorthalidone vs Hydrochlorothiazide for Hypertension Treatment After Myocardial Infarction or Stroke: A Secondary Analysis of a Randomized Clinical Trial. Patients with prior myocardial infarction (MI) or stroke have a greater risk of recurrent cardiovascular (CV) events. To evaluate the association of chlorthalidone (CTD) vs hydrochlorothiazide (HCTZ) with CV outcomes and noncancer deaths in participants with and without prior MI or stroke. This was a prespecified secondary analysis of the Diuretic Compa",
+        "score": 0.4807395339012146,
+        "doi": "10.1001/jamanetworkopen.2024.11081",
+        "journal": "JAMA network open",
+        "year": "2024",
+        "rerank_score": -0.8168615102767944,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

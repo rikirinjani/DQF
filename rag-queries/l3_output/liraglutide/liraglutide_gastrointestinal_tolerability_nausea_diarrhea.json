@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39602188",
+        "text": "Liraglutide and Colesevelam Change Serum and Fecal Bile Acid Levels in a Randomized Trial With Patients With Bile Acid Diarrhea. Both liraglutide and colesevelam improve bile acid diarrhea symptoms. Colesevelam binds excess amounts of diarrhea-causing bile acids in the colon, whereas the mode of action for liraglutide remains elusive. In this article, we examined the impact of colesevelam and liraglutide treatment on the concentrations of bile acids in serum and feces and the fecal microbiota composition to",
+        "score": 0.444443017244339,
+        "doi": "10.14309/ctg.0000000000000772",
+        "journal": "Clinical and translational gastroenterology",
+        "year": "2024",
+        "rerank_score": 2.930370807647705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.39450642466545105,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 2.805591344833374,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40357083",
+        "text": "Euglycemic Diabetic Ketoacidosis in the Setting of Dulaglutide Use. Dulaglutide is a glucagon-like peptide (GLP-1) receptor agonist approved by the Food and Drug Administration in patients with type 2 diabetes mellitus (T2DM) with noted cardiovascular and renal benefits along with weight loss. Dulaglutide's most common adverse effects include fatigue, poor appetite, abdominal pain, nausea, vomiting, and diarrhea. Although typically associated with the use of sodium-glucose cotransporter-2 (SGLT2) inhibitors",
+        "score": 0.42848631739616394,
+        "doi": "10.7759/cureus.82143",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -1.0243819952011108,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

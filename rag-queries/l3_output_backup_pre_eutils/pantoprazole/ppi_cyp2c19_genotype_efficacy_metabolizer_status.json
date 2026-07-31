@@ -1,0 +1,172 @@
+{
+  "query": {
+    "query": "PPI CYP2C19 genotype efficacy metabolizer status",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:19166419",
+        "text": "Effect of CYP2C19 genetic polymorphisms on the efficacy of proton pump inhibitor-based triple therapy for Helicobacter pylori eradication: a meta-analysis.\n\nCYP2C19 polymorphisms have been inconsistently reported to associate with the efficacy of proton pump inhibitor (PPI)-based triple therapies for eradicating Helicobacter pylori infection. The aim of this meta-analysis was to determine whether CYP2C19 polymorphism affect H. pylori eradication rates obtained with first-line PPI-based triple therapies.\nA systematic literature search was conducted up to July 2007 using Medline, PubMed, EMBase, Cochrane Central Register of Controlled Trials (CENTRAL), ISI Web of Science, CNKI (Chinese), and Wanfang (Chinese) digital database. MeSH terms and keywords included proton pump inhibitor, omeprazole, lansoprazole, rabeprazole, pantoprazole, or esomeprazole, cytochrome P4502C19 or CYP2C19, and Helicobacter pylori or H. pylori. Twenty articles met the inclusion criteria, and were included in the meta-analysis by using Review Manager 4.2.8.\nEradication rates were significantly different between poor metabolizers (PM) and heterozygous extensive metabolizers (HetEM) (odds ratio (OR) = 1.73, p = .002) and between PM and homozygous extensive metabolizers (HomEM) (OR = 2.79, p < .0001). Moreover, eradication rates were also significant difference between HetEM and HomEM (OR = 2.00, p < .0001). Triple omeprazole and lansoprazole therapies achieved higher H. pylori eradication rates in PM than in HomEM (OR = 4.28, p = .0005 for omeprazole and OR = 3.06, p = .001 for lansoprazole), and higher in HetEM than those in HomEM (OR = 3.22, p < .0001 for omeprazole and OR = 1.95, p = .040 for lansoprazole). Rabeprazole therapies had no significant effect on H. pylori eradication rates (between PM and HomEM, OR = 1.35, p = .610 and between HetEM and HomEM, OR = 1.57, p = .190). No significant difference in H. pylori eradication rates between PM and HetEM was observed in the three individual PPI therapies.\nThe efficacy of omeprazole- and lansoprazole-based first-line triple therapies at the standard doses is dependent on CYP2C19 genotype status, which appears not to affect the efficacy of the regimens including rabeprazole.",
+        "title": "Effect of CYP2C19 genetic polymorphisms on the efficacy of proton pump inhibitor-based triple therapy for Helicobacter pylori eradication: a meta-analysis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "19166419",
+          "journal": "Helicobacter",
+          "authors": [
+            "Zhao Fujun",
+            "Wang Jing",
+            "Yang Yanmei"
+          ],
+          "pub_date": "2008-Dec",
+          "doi": "10.1111/j.1523-5378.2008.00643.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Bacterial Agents",
+            "Aryl Hydrocarbon Hydroxylases",
+            "Controlled Clinical Trials as Topic",
+            "Cytochrome P-450 CYP2C19",
+            "Esomeprazole",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Heterozygote",
+            "Homozygote",
+            "Humans",
+            "Lansoprazole",
+            "Omeprazole",
+            "Polymorphism, Genetic",
+            "Proton Pump Inhibitors",
+            "Rabeprazole"
+          ]
+        }
+      },
+      {
+        "id": "PMID:19459830",
+        "text": "[13C]-pantoprazole breath test to predict CYP2C19 phenotype and efficacy of a proton pump inhibitor, lansoprazole.\n\n(13)CO(2) is produced on metabolism of (13)C-labelled-pantoprazole ([(13)C]-pantoprazole) by CYP2C19.\nTo investigate whether the [(13)C]-pantoprazole breath test can predict CYP2C19 status and efficacy of proton pump inhibitors (PPIs) in Japanese.\nWe classified 110 healthy volunteers as rapid metabolizers (RM), intermediate metabolizers (IM) or poor metabolizers (PM) of CYP2C19 by genotyping. Breath samples were collected at 10-min intervals for 60 min after dosing with 100 mg [(13)C]-pantoprazole. Changes in the carbon isotope ratios ((13)CO(2)/(12)CO(2)) in carbon dioxide in breath samples were measured and expressed as a delta-over-baseline (DOB) ratio ( per thousand). Of the 110 subjects, twenty-two randomly selected subjects underwent intragastric pH monitoring on day 7 of dosing with 30 mg of lansoprazole.\nThe DOB values of RMs were the highest and those of PMs the lowest of the three groups. Statistically significant differences were observed in the area-under-the-curve (AUC)(20-60 min) of DOB among the three groups. The mean 24-h intragastric pHs attained by lansoprazole 30 mg for 7 days were inversely correlated with the AUC(20-60 min) of DOB.\n[(13)C]-pantoprazole breath test can easily estimate the individual activity of CYP2C19 and predict the efficacy of a PPI (i.e. lansoprazole). This test would be useful for individualized medicine with a PPI.",
+        "title": "[13C]-pantoprazole breath test to predict CYP2C19 phenotype and efficacy of a proton pump inhibitor, lansoprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "19459830",
+          "journal": "Alimentary pharmacology & therapeutics",
+          "authors": [
+            "Furuta T",
+            "Kodaira C",
+            "Nishino M"
+          ],
+          "pub_date": "2009-Aug",
+          "doi": "10.1111/j.1365-2036.2009.04044.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adolescent",
+            "Adult",
+            "Aged",
+            "Aged, 80 and over",
+            "Anti-Ulcer Agents",
+            "Area Under Curve",
+            "Aryl Hydrocarbon Hydroxylases",
+            "Breath Tests",
+            "Cytochrome P-450 CYP2C19",
+            "Enzyme Inhibitors",
+            "Female",
+            "Humans",
+            "Lansoprazole",
+            "Male",
+            "Middle Aged",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Young Adult"
+          ]
+        }
+      },
+      {
+        "id": "PMID:23350044",
+        "text": "Pharmacokinetics and pharmacodynamics of the proton pump inhibitors.\n\nProton pump inhibitor (PPI) is a prodrug which is activated by acid. Activated PPI binds covalently to the gastric H(+), K(+)-ATPase via disulfide bond. Cys813 is the primary site responsible for the inhibition of acid pump enzyme, where PPIs bind. Omeprazole was the first PPI introduced in market, followed by pantoprazole, lansoprazole and rabeprazole. Though these PPIs share the core structures benzimidazole and pyridine, their pharmacokinetics and pharmacodynamics are a little different. Several factors must be considered in understanding the pharmacodynamics of PPIs, including: accumulation of PPI in the parietal cell, the proportion of the pump enzyme located at the canaliculus, de novo synthesis of new pump enzyme, metabolism of PPI, amounts of covalent binding of PPI in the parietal cell, and the stability of PPI binding. PPIs have about 1hour of elimination half-life. Area under the plasmic concentration curve and the intragastric pH profile are very good indicators for evaluating PPI efficacy. Though CYP2C19 and CYP3A4 polymorphism are major components of PPI metabolism, the pharmacokinetics and pharmacodynamics of racemic mixture of PPIs depend on the CYP2C19 genotype status. S-omeprazole is relatively insensitive to CYP2C19, so better control of the intragastric pH is achieved. Similarly, R-lansoprazole was developed in order to increase the drug activity. Delayed-release formulation resulted in a longer duration of effective concentration of R-lansoprazole in blood, in addition to metabolic advantage. Thus, dexlansoprazole showed best control of the intragastric pH among the present PPIs. Overall, PPIs made significant progress in the management of acid-related diseases and improved health-related quality of life.",
+        "title": "Pharmacokinetics and pharmacodynamics of the proton pump inhibitors.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "23350044",
+          "journal": "Journal of neurogastroenterology and motility",
+          "authors": [
+            "Shin Jai Moo",
+            "Kim Nayoung"
+          ],
+          "pub_date": "2013-Jan",
+          "doi": "10.5056/jnm.2013.19.1.25",
+          "mesh_terms": []
+        }
+      },
+      {
+        "id": "PMID:17645482",
+        "text": "Low-dose intravenous pantoprazole for optimal inhibition of gastric acid in Korean patients.\n\nProton-pump inhibitor (PPI) therapy for bleeding ulcers is more efficacious in Asian patients than in non-Asian patients. The aim of this study was to evaluate the efficacy of various doses of pantoprazole on intragastric acidity in Korean patients.\nA prospective randomized study was conducted in 52 patients either with bleeding peptic ulcers after successful endotherapy or who received endoscopic mucosal resection for gastric neoplasms. Patients were randomized into two doses of intravenous pantoprazole: 40 mg q.d. and 40 mg b.i.d. We compared these results with our preliminary study utilizing high-dose pantoprazole (80 mg + 8 mg/h). The potential contribution of CYP2C19 genetic polymorphisms and the presence of Helicobacter pylori were also assessed.\nPantoprazole 40 mg b.i.d. and high-dose pantoprazole demonstrated better inhibition of intragastric acid than pantoprazole q.d. (P < 0.05). The pantoprazole 40 mg q.d. group exhibited significant variations in acid inhibition correlating with CYP2C19 genotype. Median 24 h pH values did not differ significantly between the pantoprazole b.i.d. and high-dose pantoprazole groups, regardless of H. pylori infection status. A median intragastric pH < 6.0 was observed in only three of 28 patients in the 40 mg b.i.d. group; these three patients were extensive metabolizers.\nA 40 mg b.i.d. dose of pantoprazole is sufficient to maintain pH > 6.0 in Korean patients, except for patients with extensive metabolizing CYP2C19 genotypes.",
+        "title": "Low-dose intravenous pantoprazole for optimal inhibition of gastric acid in Korean patients.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "17645482",
+          "journal": "Journal of gastroenterology and hepatology",
+          "authors": [
+            "Oh Jung-Hwan",
+            "Choi Myung-Gyu",
+            "Dong Mi-Sook"
+          ],
+          "pub_date": "2007-Sep",
+          "doi": "10.1111/j.1440-1746.2007.05059.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adult",
+            "Aged",
+            "Anti-Ulcer Agents",
+            "Aryl Hydrocarbon Hydroxylases",
+            "Body Mass Index",
+            "Cytochrome P-450 CYP2C19",
+            "Duodenal Ulcer",
+            "Female",
+            "Gastric Acid",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Injections, Intravenous",
+            "Korea",
+            "Male",
+            "Middle Aged",
+            "Mixed Function Oxygenases",
+            "Pantoprazole",
+            "Polymorphism, Genetic",
+            "Prospective Studies",
+            "Stomach Neoplasms",
+            "Stomach Ulcer"
+          ]
+        }
+      },
+      {
+        "id": "PMID:26031149",
+        "text": "[Detection of cytochrome P4502C19 gene polymorphism to optimize therapy of acid-dependent diseases].\n\nTherapeutic efficacy of proton pump inhibitors (PPI) used in therapy of acid-dependent diseases largely depends on cytochrome CYP2C9 activity. The rate of washout of medications metabolized by this enzyme varies 5-20-fold in different patients and ethnic groups, in the first place due to genetic polymorphism. The natural metabolic status of CYP2C19 can be evaluated by genotyping and non-invasive 13C-pantoprazole breath test. The aim of the study was to assess the frequency of fast, intermediate, and slow types of metabolism in Crimeans suffering gastroesophageal reflux disease by the latter method.\nThe study included 32 patients (21 women, 11 men) aged 18-60 (mean 42.25±3.02) years. They underwent the 13C-pantoprazole breath test prior to the onset of therapy.\nThe patients were divided into 3 groups based on the results of the test. 12 (37.5%) of them had fast-type metabolism (mean delta over base (DOB) 4.725%+-0.3), 14 (43.75%) had intermediate metabolism (mean DOB 2.44±0.162%) and 6 (18,75%) had slow metabolism (mean DOB 0.85±0.22%). The study showed the prevalence of fast and intermediate type metabolism in the inhabitants of Crimea which suggests the necessity of correction of standard PPI doses.",
+        "title": "[Detection of cytochrome P4502C19 gene polymorphism to optimize therapy of acid-dependent diseases].",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "26031149",
+          "journal": "Klinicheskaia meditsina",
+          "authors": [
+            "Klyaritskaya I L",
+            "Rabotyagova Yu S"
+          ],
+          "pub_date": "2015",
+          "doi": "",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adolescent",
+            "Adult",
+            "Cytochrome P-450 Enzyme System",
+            "Female",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Young Adult"
+          ]
+        }
+      }
+    ]
+  }
+}

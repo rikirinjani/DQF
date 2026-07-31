@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole CYP2C19 metabolism pharmacogenomic mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39385496",
+        "text": "Improving CYP2C19 phenotyping using stereoselective omeprazole and 5-hydroxy-omeprazole metabolic ratios. Omeprazole (OME) is a CYP2C19 phenotyping probe, marketed as a racemic (S)/(R) mixture or as an S-enantiomer. Both CYP2C19 and CYP3A4 enzymes mediate (R)-OME hydroxylation to (R)-5-hydroxyomeprazole, while (S)-OME is exclusively hydroxylated via CYP2C19. This study investigates OME and its 5-hydroxymetabolite enantiomers' pharmacokinetics using data from two studies involving healthy volunteers. In Stud",
+        "score": 0.3482699990272522,
+        "doi": "10.1111/bcpt.14095",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2024",
+        "rerank_score": 5.479650497436523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.33332788944244385,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 4.823022365570068,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15245569",
+        "text": "CYP2C19 polymorphism and proton pump inhibitors. Proton pump inhibitors such as omeprazole (esomeprazole), lansoprazole, pantoprazole and rabeprazole are eliminated by the hepatic route and the polymorphic CYP2C19 is mainly involved in their metabolism. In different populations three phenotypes have been identified: extensive metabolizers, poor metabolizers and individuals carrying one wild type and one mutant allele (het extensive metabolizers). Systemic exposure to the proton pump inhibitors as expressed ",
+        "score": 0.33244919776916504,
+        "doi": "10.1111/j.1600-0773.2004.pto950102.x",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2004",
+        "rerank_score": 4.434728145599365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

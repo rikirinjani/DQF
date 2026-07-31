@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Terazosin alpha1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39363270",
+        "text": "Alpha-adrenergic antagonists and iris dynamics: Challenges and solutions in cataract surgery. Alpha-1 adrenergic receptor antagonists (α1-ARAs) are frequently used in treatment of Hypertension and symptomatic benign prostatic hypertrophy (BPH). Numerous studies have demonstrated the association between α1-ARAs like Tamsulosin and increased surgical risks for patients undergoing cataract surgery. This study aims to identify and study the effects of α1-ARAs on iris parameters and the subsequent operative chal",
+        "score": 0.4043487310409546,
+        "doi": "10.1186/s12886-024-03705-1",
+        "journal": "BMC ophthalmology",
+        "year": "2024",
+        "rerank_score": 1.8852200508117676,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39363407",
+        "text": "Association Between Alpha-1 Adrenoreceptor Antagonist Use and Cognitive Impairment: A Systematic Review. Alpha-1 adrenergic receptor (α1-AR) antagonists are commonly used for management of benign prostatic hyperplasia or hypertension. Some studies have shown a potential link between α1-AR antagonist use and cognitive impairment. Given the conflicting data surrounding α1-AR antagonists association with cognitive dysfunction, we aim to systematically review the association of cognitive dysfunction with α1-AR ",
+        "score": 0.42809876799583435,
+        "doi": "10.5213/inj.2448266.133",
+        "journal": "International neurourology journal",
+        "year": "2024",
+        "rerank_score": 1.2328447103500366,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39000575",
+        "text": "Ligand-Receptor Interactions and Structure-Function Relationships in Off-Target Binding of the β The β",
+        "score": 0.39853477478027344,
+        "doi": "10.3390/ijms25137468",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 0.9888500571250916,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

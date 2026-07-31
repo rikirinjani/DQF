@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Candesartan AT1 receptor off-target binding",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21474964",
+        "text": "AT1 receptor antagonist candesartan attenuates genomic damage in peripheral blood lymphocytes of patients on maintenance hemodialysis treatment. Angiotensin II (ANG II) and advanced glycation end products (AGEs) exert genotoxic effects in vitro which were prevented by the ANG II type 1 (AT1) receptor blocker, candesartan. In end-stage renal disease (ESRD) the incidence of genomic damage is increased. A stimulation of the renin-angiotensin system and accumulation of AGEs could be involved.",
+        "score": 0.3341273367404938,
+        "doi": "10.1159/000326805",
+        "journal": "Kidney & blood pressure research",
+        "year": "2010",
+        "rerank_score": 4.911220550537109,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10069670",
+        "text": "Characterization of angiotensin II antagonism displayed by SK-1080, a novel nonpeptide AT1-receptor antagonist. The pharmacologic profile of SK-1080, a nonpeptide AT1-selective angiotensin-receptor antagonist, was investigated by receptor-binding studies, functional in vitro assays with rabbit and rat aorta, and in vivo experiments in pithed rats. SK-1080 inhibited the specific binding of [125I]-[Sar1, Ile8]-angiotensin II to human recombinant AT1 receptor with a 12-fold greater potency than losartan [media",
+        "score": 0.33401909470558167,
+        "doi": "10.1097/00005344-199903000-00004",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1999",
+        "rerank_score": 3.419046640396118,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11967808",
+        "text": "Binding characteristics of [(3)H]-irbesartan to human recombinant angiotensin type 1 receptors. The aim of the present work was to investigate the binding properties of the selective AT(1)-receptor antagonist irbesartan to human AT(1)-receptors by direct radioligand binding. For this purpose the specific binding of [(3)H]-irbesartan to intact Chinese Hamster Ovary (CHO) cells expressing human recombinant AT(1)-receptors was determined. Specific binding of [(3)H]-irbesartan rapidly reached equilibrium and wa",
+        "score": 0.3340645432472229,
+        "doi": "10.3317/jraas.2000.020",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2002",
+        "rerank_score": 2.3867979049682617,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Diltiazem metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.41734594106674194,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 2.1107611656188965,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8500860",
+        "text": "Effect of diltiazem on glomerular heparan sulfate and albuminuria in diabetic rats. Calcium entry blockers, particularly diltiazem, have been shown to lower not only systemic blood pressure but also improve proteinuria in non-insulin-dependent diabetic patients. The presence of proteinuria is attributed to the loss of glomerular heparan sulfate, which confers a negative charge on the basement membrane. In the present study, we evaluated the efficacy of diltiazem in lowering blood pressure and proteinuria in",
+        "score": 0.3913411498069763,
+        "doi": "10.1161/01.hyp.21.6.795",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "1993",
+        "rerank_score": 1.578033208847046,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:4068390",
+        "text": "Beneficial effects of diltiazem on the ischemic derangements of the myocardial metabolism assessed by 31P-NMR in the isolated perfused rat heart. Using the isolated perfused heart preparations of the rat, effects of diltiazem, a calcium antagonist, on the ischemic derangements of the mechanical function and the energy metabolism of the ventricular myocardium were studied. The myocardial tissue levels of creatine phosphate (CP), ATP, inorganic phosphate (Pi) and pH were determined with 31P-NMR. Global ischem",
+        "score": 0.39166438579559326,
+        "doi": "10.1254/jjp.39.51",
+        "journal": "Japanese journal of pharmacology",
+        "year": "1985",
+        "rerank_score": 0.2994748651981354,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

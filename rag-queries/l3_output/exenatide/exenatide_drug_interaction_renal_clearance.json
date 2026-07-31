@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41352168",
+        "text": "Prediction of the optimal dose of exenatide in patients with type 2 diabetes mellitus with renal impairment using physiologically based pharmacokinetic modeling. Although exenatide is approved for patients with type 2 diabetes mellitus (T2DM) with mild to moderate renal impairment, specific dosing guidelines for this population remain undefined. To address this gap, we developed a physiologically based pharmacokinetic model using PK-Sim & MoBi software, integrating target-mediated drug disposition to simula",
+        "score": 0.3880838453769684,
+        "doi": "10.1016/j.dmd.2025.100199",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": 2.3730084896087646,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969140",
+        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
+        "score": 0.4549412131309509,
+        "doi": "10.1002/jcph.70007",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.288074254989624,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39792380",
+        "text": "Exploring Kidney Oxygenation Responses to Dapagliflozin, Exenatide, and Their Combination in Patients With Type 2 Diabetes and Chronic Kidney Disease: Observations From a Prespecified Pilot Study of a Randomized Crossover Trial.",
+        "score": 0.4368022084236145,
+        "doi": "10.2337/dc24-2244",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": 0.8063977956771851,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

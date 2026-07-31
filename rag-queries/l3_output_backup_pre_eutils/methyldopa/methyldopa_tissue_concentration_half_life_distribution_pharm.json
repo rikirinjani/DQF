@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Methyldopa tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.39948770403862,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -2.1553444862365723,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38913540",
+        "text": "Study on pharmacokinetics and tissue distribution of deoxypodophyllotoxin and its metabolites in tumour-bearing mice. To study the pharmacokinetics of deoxypodophyllotoxin and its metabolites in non-small cell lung cancer (NSCLC) bearing mice.Using the established LC-MS/MS method for simultaneous determination of deoxypodophyllotoxin and its three main metabolites (M1, M2 and M7) in biological samples, the concentrations of deoxypodophyllotoxin and its metabolites in plasma, tumour and major tissues of tumo",
+        "score": 0.4190225601196289,
+        "doi": "10.1080/00498254.2024.2370049",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.607189178466797,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40884750",
+        "text": "Pharmacokinetic-pharmacodynamic and tissue distribution studies in physiological and cerebral ischemia-reperfusion injury rats after oral administration of anisodine hydrobromide tablets. We aim to establish a rapid and sensitive UPLC-MS/MS method to analyze the pharmacokinetics of oral anisodine hydrobromide (AH) tablets. Comparison of pharmacokinetic differences between AH (present in vivo as anisodine) and its metabolite NOAT3 in two groups of rats after administration of AH at doses of 5, 10, and 20 mg/",
+        "score": 0.4233815670013428,
+        "doi": "10.1080/17576180.2025.2554567",
+        "journal": "Bioanalysis",
+        "year": "2026",
+        "rerank_score": -4.273405075073242,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Bisoprolol metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40720041",
+        "text": "Effect of Bisoprolol Versus Other Beta-Blockers on Glycemic Control and Metabolic Parameters in Type 2 Diabetes: A Retrospective Cohort Study. β-blockers (BB) are a heterogeneous class of medications guideline-recommended for heart failure (HF) and diabetes mellitus (DM). However, physicians may be reluctant to prescribe BBs due to concerns regarding negative metabolic effects. The primary objective was to assess the short-term change in glucose control in PwT2DM (patients with T2DM) who initiated bisoprolo",
+        "score": 0.45619362592697144,
+        "doi": "10.1007/s10557-025-07753-7",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2025",
+        "rerank_score": 3.083317518234253,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39954763",
+        "text": "Low-dose bisphenol AF exerts slight effects on glycolipid metabolism but causes metabolic disorders under the stress of Western diet in mice. High doses of bisphenol AF (BPAF), a widely used chemical in many products, has been reported to exert adverse effects on lipid or glucose metabolism, but whether low-dose exposure, especially in combination with a high-sugar, high-fat diet (Western diet, WD), has unacceptable effects remains unexplored. Here, we investigated the effects of postnatal exposure to 50 μg",
+        "score": 0.45456770062446594,
+        "doi": "10.1016/j.envpol.2025.125861",
+        "journal": "Environmental pollution (Barking, Essex : 1987)",
+        "year": "2024",
+        "rerank_score": 2.9659268856048584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.4527665972709656,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.9803602695465088,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

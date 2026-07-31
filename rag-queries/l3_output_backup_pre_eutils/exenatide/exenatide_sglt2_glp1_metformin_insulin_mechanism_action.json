@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41604435",
+        "text": "Exenatide induces an Enhanced Endogenous Glucagon-like Peptide-1 Secretory Response in Patients receiving Basal Insulin. Prolonged exposure to hormonal therapy can affect endogenous hormone secretion. In type 2 diabetes (T2DM), glucagon-like peptide-1 (GLP-1) receptor agonists are increasingly being administered in combination with therapies targeting additional hormones (including glucose-dependent insulinotropic polypeptide (GIP), glucagon, and insulin). However, little is known on how they affect endogen",
+        "score": 0.3322095572948456,
+        "doi": "10.1210/clinem/dgag033",
+        "journal": "The Journal of clinical endocrinology and metabolism",
+        "year": "2025",
+        "rerank_score": 4.635378360748291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40627548",
+        "text": "Changes in β-Cell Function and Insulin Sensitivity During Treatment With Dapagliflozin Alone or in Combination With Exenatide in Type 2 Diabetes. To examine the effects of sodium-glucose cotransporter 2 inhibitors (SGLT2is) alone or with glucagon-like peptide 1 receptor agonists (GLP-1RAs) on β-cell function (BCF) in type 2 diabetes. The hypothesis was that an SGLT2i combined with a GLP-1RA provides superior improvement in BCF than either agent alone. Ninety patients underwent a 180-min oral glucose toleran",
+        "score": 0.3427312970161438,
+        "doi": "10.2337/dc25-0490",
+        "journal": "Diabetes care",
+        "year": "2025",
+        "rerank_score": 4.310644149780273,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21902291",
+        "text": "Glucagon-like peptide-1 analogues for Type 2 diabetes mellitus: current and emerging agents. Novel therapeutic options for type 2 diabetes mellitus based on the action of the incretin hormone glucagon-like peptide (GLP)-1 were introduced in 2005. As injectable GLP-1 receptor agonists acting on the GLP-1 receptor, exenatide and liraglutide are available in many countries. In type 2 diabetes treatment, incretin-based therapies are attractive and more commonly used because of their mechanism of action and safe",
+        "score": 0.32051852345466614,
+        "doi": "10.2165/11592810-000000000-00000",
+        "journal": "Drugs",
+        "year": "2011",
+        "rerank_score": 3.705824851989746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

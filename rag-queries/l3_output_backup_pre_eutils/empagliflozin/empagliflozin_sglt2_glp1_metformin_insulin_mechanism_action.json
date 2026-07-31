@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Empagliflozin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40041732",
+        "text": "The effects of empagliflozin in patients with type 1 diabetes: Results of a 12-week, double-blind, randomized, placebo-controlled clinical trial. Sodium-glucose cotransporter-2 (SGLT-2) acts as a key element in the reabsorption of glucose in the kidney. Currently, SGLT-2 inhibitors are FDA-approved for the treatment of type 2 diabetes. It is suggested that the mechanism of action may operate in the treatment of type 1 diabetes mellitus (T1DM), as well. This study aimed to evaluate the application of empagli",
+        "score": 0.3556877374649048,
+        "doi": "10.34172/hpp.42486",
+        "journal": "Health promotion perspectives",
+        "year": "2024",
+        "rerank_score": 5.732160568237305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41366535",
+        "text": "Empagliflozin improves beta cell function independently of relief of glucotoxicity in patients with type 2 diabetes: results from a randomised cross-over study with insulin as comparator. Sodium-glucose co-transporter 2 (SGLT2) inhibitors improve beta cell function in individuals with type 2 diabetes. It has been suggested this is due to relief of glucotoxicity, but the mechanism is unknown. The objective of the present study was to evaluate the effect of the SGLT2 inhibitor empagliflozin, compared with NPH",
+        "score": 0.34926801919937134,
+        "doi": "10.1007/s00125-025-06616-y",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 5.163930892944336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39590331",
+        "text": "Empagliflozin Attenuates High-Glucose-Induced Astrocyte Activation and Inflammation via NF-κB Pathway. Sodium-glucose cotransporter-2 (SGLT2) inhibitors regulate blood glucose levels in patients with type 2 diabetes mellitus and may also exert anti-inflammatory and anti-atherosclerotic effects by promoting M2 macrophage polarization. Although SGLT2 is expressed in brain regions that influence glucose balance and cognitive function, its roles in the central nervous system are unclear. This study investigated",
+        "score": 0.36410263180732727,
+        "doi": "10.3390/cimb46110737",
+        "journal": "Current issues in molecular biology",
+        "year": "2024",
+        "rerank_score": 4.748945713043213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

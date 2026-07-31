@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Repaglinide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40793922",
+        "text": "Risk of Recurrent Hypoglycemia and Long-term Survival after total Pancreatectomy: A Prospective Observational Study. To evaluate risk of severe hypoglycemia after total pancreatectomy (TP). Historically, TP was feared due to loss of insulin and counter-regulatory hormones, as well as the risk of severe hypoglycemic events (SHE). While TP with islet auto-transplant (TPIAT) can preserve endocrine function, past studies reported 41% SHE incidence post-operatively. Advancements in insulin therapies and continuo",
+        "score": 0.4475659430027008,
+        "doi": "10.1097/SLA.0000000000006909",
+        "journal": "Annals of surgery",
+        "year": "2025",
+        "rerank_score": 3.587874412536621,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41448526",
+        "text": "Effect of hypoglycemia on the diameter of cerebral vasculature in vivo and cerebral ischemia-reperfusion injury in mice. Pharmacotherapy for diabetes mellitus (DM) with anti-diabetic agents such as insulin carries the risk of acute hypoglycemia (<70 mg/dl). Recent evidence suggests that patients exposed to hypoglycemia have worsened health outcomes than DM patients who do not experience hypoglycemia. The objective of the study is to determine the impact of hypoglycemia on ischemia-reperfusion injury to brai",
+        "score": 0.4449855089187622,
+        "doi": "10.1016/j.expneurol.2025.115605",
+        "journal": "Experimental neurology",
+        "year": "2025",
+        "rerank_score": 1.2129647731781006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40083398",
+        "text": "Insulinoma Mimic: Tramadol-induced Hypoglycemia. Endogenous hyperinsulinemia hypoglycemia has numerous etiologies. The objective of this report is to describe a patient with severe hyperinsulinemic hypoglycemia with no known history of diabetes or hypoglycemia who presented with acute altered mental status. Blood glucose was noted to be 40 mg/dL (2.22 mmol/L) (reference range 65-125 mg/dL; 3.61-6.94 mmol/L). The patient's sulfonylurea screen was negative. Following 1 mg glucagon injection, the patient's glu",
+        "score": 0.42510247230529785,
+        "doi": "10.1210/jcemcr/luaf034",
+        "journal": "JCEM case reports",
+        "year": "2024",
+        "rerank_score": 1.123787760734558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dapagliflozin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26819227",
+        "text": "Heart failure outcomes with empagliflozin in patients with type 2 diabetes at high cardiovascular risk: results of the EMPA-REG OUTCOME® trial. We previously reported that in the EMPA-REG OUTCOME(®) trial, empagliflozin added to standard of care reduced the risk of 3-point major adverse cardiovascular events, cardiovascular and all-cause death, and hospitalization for heart failure in patients with type 2 diabetes and high cardiovascular risk. We have now further investigated heart failure outcomes in all p",
+        "score": 0.3741380572319031,
+        "doi": "10.1093/eurheartj/ehv728",
+        "journal": "European heart journal",
+        "year": "2015",
+        "rerank_score": 5.5356059074401855,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32915523",
+        "text": "Early benefits of empagliflozin in patients with or without heart failure: findings from EMPA-REG OUTCOME. The EMPA-REG OUTCOME trial demonstrated reductions in cardiovascular (CV) death and heart failure (HF) outcomes with empagliflozin, a sodium-glucose co-transporter 2 inhibitor, in patients with type 2 diabetes and established CV disease over a study period of 3 years. We aimed to investigate the early benefit-risk profile of empagliflozin in patients enrolled in the EMPA-REG OUTCOME trial according to ",
+        "score": 0.3788697123527527,
+        "doi": "10.1002/ehf2.12891",
+        "journal": "ESC heart failure",
+        "year": "2020",
+        "rerank_score": 5.239847660064697,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33595593",
+        "text": "Time to Clinical Benefit of Dapagliflozin and Significance of Prior Heart Failure Hospitalization in Patients With Heart Failure With Reduced Ejection Fraction. Dapagliflozin has been shown to reduce the risk of cardiovascular death or worsening heart failure (HF) in patients with chronic HF and reduced ejection fraction (HFrEF). However, clinical inertia often underlies deferred initiation of effective therapies.",
+        "score": 0.3795510530471802,
+        "doi": "10.1001/jamacardio.2020.7585",
+        "journal": "JAMA cardiology",
+        "year": "2021",
+        "rerank_score": 5.138067245483398,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

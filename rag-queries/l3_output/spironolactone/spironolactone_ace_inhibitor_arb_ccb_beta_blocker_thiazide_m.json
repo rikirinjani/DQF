@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40575829",
+        "text": "Transport and thiazide-inhibition mechanisms of the Na-Cl cotransporter: a structural perspective. The structures of the human sodium-chloride cotransporter (hNCC) and its complex with thiazide diuretics have been determined recently. This review summarizes key structural insights into NCC's transport and inhibition mechanisms. Recent studies revealed the structures of hNCC and its complex with thiazide diuretics, in inward-facing and outward-facing conformations, respectively. The structures of hNCC in two",
+        "score": 0.406629741191864,
+        "doi": "10.1097/MNH.0000000000001099",
+        "journal": "Current opinion in nephrology and hypertension",
+        "year": "2025",
+        "rerank_score": -0.625014066696167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39206783",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats. Diuretics, including thiazides and thiazide-like drugs, are commonly recommended for treating hypertension, though their precise mechanism of action is not fully understood. This study aimed to investigate the pharmacological effects of trichloromethiazide (TCM) in malignant stroke-prone spontaneously hypertensive rats (M-SHRSP). M-SHRSPs w",
+        "score": 0.4035361409187317,
+        "doi": "10.1097/HJH.0000000000003837",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -0.724037230014801,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25967959",
+        "text": "Protective Effect of Spironolactone on Endothelial-to-Mesenchymal Transition in HUVECs via Notch Pathway. Fibrosis results in excessive buildup of extracellular matrix proteins along with abnormalities in structure and is partly derived by a process involving transforming growth factor β (TGF-β) called endothelial-to-mesenchymal transition (EndMT). We investigated whether the aldosterone receptor-blocker spironolactone could abrogate TGF-β-induced fibrosis in EndMT and the underlying mechanism.",
+        "score": 0.38991132378578186,
+        "doi": "10.1159/000374063",
+        "journal": "Cellular physiology and biochemistry : international journal of experimental cel",
+        "year": "2015",
+        "rerank_score": -0.7709811925888062,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

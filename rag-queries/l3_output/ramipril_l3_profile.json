@@ -1,0 +1,34 @@
+{
+  "bp_reduction": 2,
+  "renal_protection": 3,
+  "metabolic_effect": 3,
+  "electrolyte_risk": 3,
+  "ddi_risk": 2,
+  "heart_rate_effect": "tachycardia",
+  "_evidence": {
+    "pmids": [
+      "10639539",
+      "10912316",
+      "11967789",
+      "12639174",
+      "14567716",
+      "18368379",
+      "18378520",
+      "18714845",
+      "20418269",
+      "22552566",
+      "22696760",
+      "34758252",
+      "37428955",
+      "39434906",
+      "8137599",
+      "9081852"
+    ],
+    "source_count": 12,
+    "finding_count": 42,
+    "pool_relevance_pct": 75.0,
+    "filtered_off_drug": 14,
+    "relevance_gate": "pass"
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

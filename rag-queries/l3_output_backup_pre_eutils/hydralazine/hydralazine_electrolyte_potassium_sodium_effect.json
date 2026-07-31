@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39467530",
+        "text": "Eleclazine Suppresses Ventricular Fibrillation in Failing Rabbit Hearts with Ischemia-Reperfusion Injury Undergoing Therapeutic Hypothermia. Eleclazine is a highly selective late sodium current inhibitor, possibly effective in reducing ventricular fibrillation (VF) in heart failure (HF) with ischemia-reperfusion (IR) injury. The electrophysiological effects of eleclazine at therapeutic hypothermia (TH) are unknown. We investigated the effects of eleclazine in suppressing VF in failing rabbit hearts with IR ",
+        "score": 0.4649178981781006,
+        "doi": "10.1159/000542292",
+        "journal": "Pharmacology",
+        "year": "2024",
+        "rerank_score": 1.2063928842544556,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38447973",
+        "text": "Effect of Concomitant Drugs on Sodium Zirconium Cyclosilicate Hydrate in Artificial Intestinal Juice. To explore drug interactions involving sodium zirconium cyclosilicate hydrate (SZC) and concomitant drugs like calcium antagonists (amlodipine and nifedipine) and β-blockers (carvedilol and bisoprolol), we investigate how these concomitant drugs influenced the administration of SZC in an artificial intestinal juice. Initially, we assessed the potassium ion adsorption capacity, ranking it as follows: calcium",
+        "score": 0.4818405508995056,
+        "doi": "10.1248/cpb.c23-00687",
+        "journal": "Chemical & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 0.2272510677576065,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40745850",
+        "text": "Destabilization of water molecules by terahertz electric fields affects sodium ion blockage in the Kv1.2 channel. Potassium channels are essential for various physiological functions, with their high selectivity being a critical foundation. The blockage of sodium ions in potassium channels is a crucial aspect of their selectivity, yet the underlying mechanism remains unclear. In this study, we investigated the mechanisms underlying the sodium ion blockage through molecular dynamics simulations. We found tha",
+        "score": 0.48440831899642944,
+        "doi": "10.1103/PhysRevE.111.064401",
+        "journal": "Physical review. E",
+        "year": "2024",
+        "rerank_score": -0.5659052729606628,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

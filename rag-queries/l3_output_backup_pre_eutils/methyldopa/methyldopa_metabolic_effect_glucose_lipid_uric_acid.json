@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Methyldopa metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.42196571826934814,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.3470131158828735,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40827132",
+        "text": "Effect of 8-Methyl Nonanoic Acid, a Degradation By-Product of Dihydrocapsaicin, on Energy and Glucose Homeostasis in Diet-Induced Obese Mice. Consumption of chili with capsaicinoids, such as dihydrocapsaicin (DHC), offers metabolic benefits to humans. However, their spiciness and rapid degradation prevent it from being used as a treatment for metabolic syndrome (MetS), including obesity, insulin resistance (IR), and hyperglycemia. During the degradation process of capsaicinoids, DHC is metabolized to non-pu",
+        "score": 0.41552793979644775,
+        "doi": "10.2147/JEP.S536185",
+        "journal": "Journal of experimental pharmacology",
+        "year": "2025",
+        "rerank_score": -0.04530449956655502,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40653023",
+        "text": "Maternal exposure to high level of ursodeoxycholic acid during pregnancy promotes hepatic lipid deposition in the offspring by reducing the methylation level of Fasn gene. Ursodeoxycholic acid (UDCA) has been widely used for treatment of biliary diseaseswith high incidence among pregnant women. However, the effect of maternal UDCA exposure on offspring metabolism particularly on hepatic lipid metabolism has not been reported. Seventeen pregnant Sprague-Dawley rats were administered with low-dosageUDCA (L-UD",
+        "score": 0.42578864097595215,
+        "doi": "10.1016/j.bcp.2025.117156",
+        "journal": "Biochemical pharmacology",
+        "year": "2025",
+        "rerank_score": -0.1729530692100525,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

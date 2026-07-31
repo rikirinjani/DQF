@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34514682",
+        "text": "Gastrointestinal tolerability of once-weekly semaglutide 2.4 mg in adults with overweight or obesity, and the relationship between gastrointestinal adverse events and weight loss. We evaluated gastrointestinal (GI) adverse events (AEs) with once-weekly semaglutide 2.4 mg in adults with overweight or obesity and their contribution to weight loss (WL).",
+        "score": 0.3814530670642853,
+        "doi": "10.1111/dom.14551",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2021",
+        "rerank_score": 3.8732962608337402,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38787986",
+        "text": "Gastrointestinal safety evaluation of semaglutide for the treatment of type 2 diabetes mellitus: A meta-analysis. Semaglutide, as an innovative weekly formulation, has attracted much attention. Nevertheless, the predominant occurrence of gastrointestinal adverse events (GIAEs) poses a noteworthy challenge linked to the use of this medication, substantially affecting its clinical applicability and the overall well-being of patients. Therefore, this systematic review aims to comprehensively discuss the GIAEs,",
+        "score": 0.38109779357910156,
+        "doi": "10.1097/MD.0000000000038236",
+        "journal": "Medicine",
+        "year": "2024",
+        "rerank_score": 1.5674536228179932,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34881835",
+        "text": "[Oral semaglutide, first oral GLP-1 receptor agonist (Rybelsus®)]. Oral semaglutide (Rybelsus®) is a co-formulation of semaglutide, a glucagon-like peptide-1 (GLP-1 RA) receptor agonist, with an absorption enhancer, sodium N- (8- [2- hydroxybenzoyl] amino) caprylate (SNAC), which facilitates the absorption of semaglutide across the gastric epithelium in a concentration dependent manner. The safety and efficacy of oral semaglutide were assessed in the PIONEER clinical trial programme, which included 9543 pat",
+        "score": 0.391898512840271,
+        "doi": "",
+        "journal": "Revue medicale de Liege",
+        "year": "2021",
+        "rerank_score": -0.32039639353752136,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

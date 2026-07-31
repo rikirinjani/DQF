@@ -1,0 +1,29 @@
+{
+  "h2_blockade": null,
+  "tolerance": false,
+  "ddi_risk": 2,
+  "cns_penetration": false,
+  "off_targets": [
+    "H2-Receptor",
+    "Histamine",
+    "Histamine-2"
+  ],
+  "_evidence": {
+    "pmids": [
+      "1646056",
+      "16723495",
+      "1675461",
+      "23038658",
+      "23454087",
+      "26176290",
+      "2895455",
+      "35258842",
+      "35348553",
+      "7710303",
+      "9403794"
+    ],
+    "source_count": 3,
+    "finding_count": 11
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

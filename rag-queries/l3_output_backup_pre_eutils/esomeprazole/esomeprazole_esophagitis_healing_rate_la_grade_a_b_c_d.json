@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole esophagitis healing rate LA grade A B C D",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38950390",
+        "text": "In grade C/D erosive esophagitis, vonoprazan ranks highest among PPIs and P-CABs for healing and maintaining remission. Zhuang Q, Chen S, Zhou X, et al.",
+        "score": 0.39874085783958435,
+        "doi": "10.7326/ANNALS-24-00741-JC",
+        "journal": "Annals of internal medicine",
+        "year": "2024",
+        "rerank_score": 2.586082935333252,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39648266",
+        "text": "Long-term efficacy of on-demand vonoprazan treatment for mild reflux esophagitis: success rates and predictors of treatment failure. Concerns surrounding long-term proton pump inhibitor use have prompted the exploration of alternative treatments for reflux esophagitis (RE). We previously demonstrated that 24 weeks of on-demand treatment with vonoprazan, a potassium-competitive acid blocker, effectively managed mild RE (Los Angeles classification grade A/B) in more than 80% of patients. However, its long-ter",
+        "score": 0.42697346210479736,
+        "doi": "10.1007/s10388-024-01099-z",
+        "journal": "Esophagus : official journal of the Japan Esophageal Society",
+        "year": "2024",
+        "rerank_score": 0.19982992112636566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40533234",
+        "text": "Vonoprazan vs. Esomeprazole: Scarring Rate of Post-endoscopic Submucosal Dissection Ulcers in the Postoperative Stomach. Objective Proton pump inhibitors (PPIs) are ineffective in suppressing gastric acid secretion after prolonged exposure to an acidic environment in the stomach. In this study, we compared vonoprazan (VPZ) and PPI esomeprazole (EPZ) according to the rate of ulcer scarring after gastric endoscopic submucosal dissection (ESD) in the postoperative stomach, where food residues are often observe",
+        "score": 0.43572092056274414,
+        "doi": "10.2169/internalmedicine.5432-25",
+        "journal": "Internal medicine (Tokyo, Japan)",
+        "year": "2026",
+        "rerank_score": -1.2342575788497925,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

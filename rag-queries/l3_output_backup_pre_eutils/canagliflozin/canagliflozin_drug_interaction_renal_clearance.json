@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40223360",
+        "text": "Canagliflozin-induced renal glutathione distribution mapping in non-diabetic male rat kidneys. Canagliflozin, a sodium glucose cotransporter 2 (SGLT2) inhibitor, has direct renoprotective effects beyond lowering blood glucose levels. The inhibition of sodium reabsorption via SGLT2 reduces the overload on proximal tubules, thereby suppressing the generation of reactive oxygen species (ROS) and preventing a decline in renal function. To clarify the pharmacological mechanism of SGLT2 inhibitor, we investigated",
+        "score": 0.42965808510780334,
+        "doi": "10.14814/phy2.70320",
+        "journal": "Physiological reports",
+        "year": "2025",
+        "rerank_score": 3.941821336746216,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39753621",
+        "text": "Canagliflozin alleviates acetaminophen-induced renal and hepatic injury in mice by modulating the p-GSK3β/Fyn-kinase/Nrf-2 and p-AMPK-α/STAT-3/SOCS-3 pathways. Despite the fact that canagliflozin (Cana), a sodium-glucose cotransporter 2 inhibitor, is an anti-diabetic medication with additional effects on the kidney, there is limited experimental data to deliberate its hepato-reno-protective potentiality. Acetaminophen (APAP) overdose remains one of the prominent contributors to hepato-renal damage. Our stud",
+        "score": 0.41059064865112305,
+        "doi": "10.1038/s41598-024-82163-7",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": 3.8635613918304443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39160349",
+        "text": "Modeling Metformin and Dapagliflozin Pharmacokinetics in Chronic Kidney Disease. Chronic kidney disease (CKD) is a complication of diabetes that affects circulating drug concentrations and elimination of drugs from the body. Multiple drugs may be prescribed for treatment of diabetes and co-morbidities, and CKD complicates the pharmacotherapy selection and dosing regimen. Characterizing variations in renal drug clearance using models requires large clinical datasets that are costly and time-consuming to coll",
+        "score": 0.41135507822036743,
+        "doi": "10.1208/s12248-024-00962-2",
+        "journal": "The AAPS journal",
+        "year": "2024",
+        "rerank_score": 3.4394023418426514,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4499630928039551,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.4325288236141205,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35152208",
+        "text": "Sinus bradycardia as a potential side effect of favipiravir treatment Összefoglaló. A koronavírus-19-pandémia hatalmas kihívás az egészségügyi ellátórendszerek számára. A hatékony kezelés iránti igény felerősítette a terápiás megoldásokra való törekvéseket. Ennek egyik eleme a favipiravir hatóanyag széles körű ambuláns és intézeti alkalmazása. A gyógyszer biztonsági információi korlátozottan említik a lehetséges cardialis mellékhatásokat: mindösszesen az igen ritka mellékhatások között lelhető fel a \"szívri",
+        "score": 0.4221790134906769,
+        "doi": "10.1556/650.2022.32455",
+        "journal": "Orvosi hetilap",
+        "year": "2021",
+        "rerank_score": -0.5563786029815674,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38910670",
+        "text": "Comparison of the Effects of Hydralazine and Labetalol on Intracranial Pressure When Used for Blood Pressure Control in Patients With Intracranial Hemorrhage: A Retrospective Study. Background Recommendations on optimal agents to manage blood pressure (BP) in patients with an intracranial hemorrhage (ICH) are lacking. A case series suggests that hydralazine can cause intracranial pressure (ICP) elevation in an ICH. The purpose of this study was to compare the effects of intravenous (IV) hydralazine to IV la",
+        "score": 0.4298993647098541,
+        "doi": "10.7759/cureus.60914",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -2.118581771850586,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

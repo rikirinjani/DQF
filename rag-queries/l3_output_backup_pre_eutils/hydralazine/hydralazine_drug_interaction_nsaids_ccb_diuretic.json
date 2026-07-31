@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41091880",
+        "text": "Hydralazine inhibits cysteamine dioxygenase to treat preeclampsia and senesce glioblastoma. Hydralazine (HYZ), a treatment for preeclampsia and hypertensive crisis, is listed by the World Health Organization as an essential medicine. Its mode of action has remained unknown through its seven decades of clinical use. Here, we identify 2-aminoethanethiol dioxygenase (ADO), a key mediator of targeted protein degradation, as a selective HYZ target. The drug chelates ADO's metallocofactor and can alkylate one of ",
+        "score": 0.466815710067749,
+        "doi": "10.1126/sciadv.adx7687",
+        "journal": "Science advances",
+        "year": "2025",
+        "rerank_score": 0.8170148134231567,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41027343",
+        "text": "Design, synthesis, and pharmacological evaluation of hydrazide-imine diclofenac derivatives with dual anti-inflammatory and anticancer potential. Diclofenac, a widely used nonsteroidal anti-inflammatory drug (NSAID), is effective in treating pain and inflammation and has also shown potential as an anticancer agent, primarily through cyclooxygenase-2 (COX-2) inhibition. However, its therapeutic application is often limited by adverse effects, necessitating the development of new derivatives with improved pha",
+        "score": 0.4485836327075958,
+        "doi": "10.1016/j.compbiomed.2025.111123",
+        "journal": "Computers in biology and medicine",
+        "year": "2024",
+        "rerank_score": 0.6013017296791077,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4617662727832794,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.22554370760917664,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

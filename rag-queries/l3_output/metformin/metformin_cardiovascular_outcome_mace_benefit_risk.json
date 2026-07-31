@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:37051071",
+        "text": "Metformin adherence and the risk of cardiovascular disease: a population-based cohort study. Metformin is a potent antiglycemic agent, but its importance has receded owing to the launch of novel antidiabetic medications. The benefit of metformin includes not only blood sugar control but also anti-inflammation, autophagy activation, and neuroprotection. This study investigated the risk of cardiovascular disease (CVD) in people with type II diabetes mellitus (T2DM) who adhered to metformin after adding on a s",
+        "score": 0.38511407375335693,
+        "doi": "10.1177/20406223231163115",
+        "journal": "Therapeutic advances in chronic disease",
+        "year": "2022",
+        "rerank_score": 4.917402744293213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41369622",
+        "text": "Obesity-Associated Cardiovascular Risk and Benefit From PCSK9 Inhibition: A Prespecified Analysis From FOURIER. The PCSK9 inhibitor evolocumab decreases the risk of major adverse cardiovascular events (MACE). The relationship between body mass index (BMI) and benefit of evolocumab remains unknown. This study sought to investigate the association between BMI, risk of MACE, and the clinical benefit of evolocumab. The FOURIER (Further Cardiovascular Outcomes Research with PCSK9 Inhibition in Subjects with Elev",
+        "score": 0.39525139331817627,
+        "doi": "10.1016/j.jacc.2025.10.036",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2025",
+        "rerank_score": 4.573348522186279,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19096023",
+        "text": "Activation of AMP-activated protein kinase by metformin improves left ventricular function and survival in heart failure. Clinical studies have reported that the widely used antihyperglycemic drug metformin significantly reduces cardiac risk factors and improves clinical outcomes in patients with heart failure. The mechanisms by which metformin exerts these cardioprotective effects remain unclear and may be independent of antihyperglycemic effects. We tested the hypothesis that chronic activation of AMP-act",
+        "score": 0.38191795349121094,
+        "doi": "10.1161/CIRCRESAHA.108.190918",
+        "journal": "Circulation research",
+        "year": "2008",
+        "rerank_score": 3.86114501953125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

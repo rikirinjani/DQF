@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.43569108843803406,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.015467912890017033,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40013202",
+        "text": "Angioedema Shortly After Adding Empagliflozin to Losartan. Angioedema is the localized swelling of the skin and mucosa caused by inflammatory processes that increase vascular permeability. Release and accumulation of the inflammatory mediators, bradykinin and histamine, result in fluid leakage from the plasma to the interstitium. Certain drugs, such as angiotensin-converting enzyme inhibitors (ACEi), promote bradykinin accumulation. In contrast, other allergens like insect bites, nuts, or non-steroidal anti",
+        "score": 0.4464699923992157,
+        "doi": "10.7759/cureus.78033",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -2.4279520511627197,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40869540",
+        "text": "Bradykinin-Mediated Angioedema Induced by Drugs. Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin II receptor blockers (ARBs) are among the most widespread drugs for the prevention of cardiovascular mortality and morbidity. Nevertheless, they are known to cause bradykinin (BK)-mediated angioedema (AE), a paroxysmal, localized, self-limiting, and potentially fatal swelling of the subcutaneous and/or submucosal tissue, due to a temporary increase in vascular permeability. Unlike hereditary ang",
+        "score": 0.4681752920150757,
+        "doi": "10.3390/jcm14165712",
+        "journal": "Journal of clinical medicine",
+        "year": "2025",
+        "rerank_score": -2.9510891437530518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

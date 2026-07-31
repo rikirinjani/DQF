@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40686358",
+        "text": "Comparison of renal function of the patients receiving linagliptin or vildagliptin in uncontrolled type 2 diabetes mellitus: An observational study in the backdrop of the COVID-19 pandemic. Dipeptidyl peptidase 4 (DPP-4) inhibitors are primarily excreted renally. Linagliptin is an exception with excretion primarily through enterohepatic system and is expected to have a better renal profile, though real-world data are scarce. Comparative studies on the renal safety and glycaemic control with linagliptin vers",
+        "score": 0.4123837947845459,
+        "doi": "10.4103/ijp.ijp_492_24",
+        "journal": "Indian journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 2.5859291553497314,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38936943",
+        "text": "Efficacy and Safety of Vildagliptin for Type 2 Diabetes in Patients With Diabetic Kidney Disease. Vildagliptin is one of the dipeptidyl peptidase-4 (DPP-4) inhibitors that have been shown to improve hyperglycemia in clinical trials among patients with type 2 diabetes. However, few studies have examined the efficacy of vildagliptin in patients with diabetic kidney disease (DKD). Eight patients with DKD received oral vildagliptin 50-100 mg/day. The duration of diabetes was 6.7±5.9 years and observation period",
+        "score": 0.41673213243484497,
+        "doi": "10.21873/invivo.13635",
+        "journal": "In vivo (Athens, Greece)",
+        "year": "2024",
+        "rerank_score": 2.0937623977661133,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39435882",
+        "text": "Elucidation of DPP-4 involvement in systemic distribution and renal reabsorption of linagliptin by PBPK modeling with a cluster Gauss-Newton method. The dipeptidyl peptidase-4 (DPP-4) inhibitor linagliptin (LNG) exhibits target-mediated drug disposition (TMDD) in clinical settings, characterized by saturable binding to plasma soluble DPP-4 (sDPP-4) and tissue transmembrane DPP-4 (tDPP-4). Previous studies have indicated that saturable renal reabsorption of LNG contributes to its nonlinear urinary excretion ",
+        "score": 0.4004465937614441,
+        "doi": "10.1111/cts.70047",
+        "journal": "Clinical and translational science",
+        "year": "2024",
+        "rerank_score": 1.1194204092025757,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide NKCC2 off-target binding",
+    "dimension": "off_target",
+    "target": "NKCC2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27874871",
+        "text": "Mass spectrometry captures off-target drug binding and provides mechanistic insights into the human metalloprotease ZMPSTE24. Off-target binding of hydrophobic drugs can lead to unwanted side effects, either through specific or non-specific binding to unintended membrane protein targets. However, distinguishing the binding of drugs to membrane proteins from that of detergents, lipids and cofactors is challenging. Here, we use high-resolution mass spectrometry to study the effects of HIV protease inhibitors ",
+        "score": 0.3928375244140625,
+        "doi": "10.1038/nchem.2591",
+        "journal": "Nature chemistry",
+        "year": "2015",
+        "rerank_score": 1.4675812721252441,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41315228",
+        "text": "The nucleobase guanine at the 3'-terminus of oligonucleotide RGLS4326 drives off-target AMPAR inhibition and CNS toxicity. Designing safe and effective oligonucleotide (ON) therapeutics requires thorough understanding of structural-activity relationship (SAR) with the intended on-target(s) as well as the unintended off-target(s). Despite encouraging pharmacodynamic activity in a Phase 1b study, development of the first-generation anti-miR-17 ON RGLS4326 for the treatment of autosomal dominant polycystic kid",
+        "score": 0.40465405583381653,
+        "doi": "10.1038/s41467-025-65799-5",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": -1.9293111562728882,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38358126",
+        "text": "Identification of small-molecule binding sites of a ubiquitin-conjugating enzyme-UBE2T through fragment-based screening. UBE2T is an attractive target for drug development due to its linkage with several types of cancers. However, the druggability of ubiquitin-conjugating E2 (UBE2T) is low because of the lack of a deep and hydrophobic pocket capable of forming strong binding interactions with drug-like small molecules. Here, we performed fragment screening using",
+        "score": 0.4005318284034729,
+        "doi": "10.1002/pro.4904",
+        "journal": "Protein science : a publication of the Protein Society",
+        "year": "2024",
+        "rerank_score": -2.328778028488159,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

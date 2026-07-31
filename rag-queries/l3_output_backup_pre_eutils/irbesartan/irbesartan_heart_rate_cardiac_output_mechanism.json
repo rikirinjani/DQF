@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Irbesartan heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39796054",
+        "text": "Irbesartan May Ameliorate Ventricular Remodeling by Inhibiting CREB-Mediated Cardiac Aldosterone Synthesis in Rats with Myocardial Infarction. Irbesartan improves ventricular remodeling (VR) following myocardial infarction (MI). This study investigates whether irbesartan attenuates VR by reducing aldosterone production in the heart and its underlying mechanisms. MI was induced in male Sprague-Dawley rats through coronary artery ligation. The MI rats were randomly assigned to two groups: one received a vehic",
+        "score": 0.41189461946487427,
+        "doi": "10.3390/ijms26010198",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 2.9634017944335938,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3066038",
+        "text": "[Bradycardic arrhythmias and changes in the bradycardia-induced hemodynamics by electrical and drug treatment]. Cardiac output depends at first on heart rate and second on contractility. Chronotropic incompetence means inappropriate adaptation of rate to metabolic demands and in this condition increase of cardiac output is only made possible by increase of contractility and stroke volume. The old, insufficient, or ischemic heart cannot control cardiac output appropriately by increasing contractility. This e",
+        "score": 0.3780438303947449,
+        "doi": "",
+        "journal": "Zeitschrift fur Kardiologie",
+        "year": "1988",
+        "rerank_score": -1.845782995223999,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.4090419411659241,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -2.3046395778656006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

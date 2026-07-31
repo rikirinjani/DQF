@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.3995552062988281,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -2.4047679901123047,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39274196",
+        "text": "Pharmacokinetics of Efmoroctocog alfa by Two-Compartment Model Highlights Hemophilia A Patients with Biphasic Decay, Long Mean Residence Time, and Beta Half-Life.",
+        "score": 0.40244871377944946,
+        "doi": "10.3390/jcm13174986",
+        "journal": "Journal of clinical medicine",
+        "year": "2024",
+        "rerank_score": -2.4085693359375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38703749",
+        "text": "Development and validation of an UPLC-MS/MS method for the simultaneous determination of fexofenadine and olmesartan in human serum: Application to in vivo pharmacokinetic studies. A sensitive, reproducible, robust, high-throughput ultra-performance liquid chromatography-tandem mass spectrometry (UPLC-MS/MS) method was developed and validated for the simultaneous quantification of fexofenadine and olmesartan in human serum. Samples (50 µL) undergo protein precipitation prior to UPLC-MS/MS analysis. The anal",
+        "score": 0.4024784564971924,
+        "doi": "10.1016/j.jpba.2024.116179",
+        "journal": "Journal of pharmaceutical and biomedical analysis",
+        "year": "2024",
+        "rerank_score": -2.526200771331787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

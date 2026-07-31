@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide GLP-1 receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:29601817",
+        "text": "GLP-1 receptor agonist liraglutide exerts central action to induce β-cell proliferation through medulla to vagal pathway in mice. Endogenous GLP-1 and GLP-1 receptor agonists (GLP-1RAs) regulate glucose metabolism via common and distinct mechanisms. Postprandial release of GLP-1 is modest and it is degraded by DPP-4 within 2 min, and hence it cannot enter the brain in substantial amount. In contrast, DPP-4-resistant GLP-1RAs are administered at 10 times higher concentration than endogenous GLP-1 level, whic",
+        "score": 0.35497117042541504,
+        "doi": "10.1016/j.bbrc.2018.03.199",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2018",
+        "rerank_score": 5.930561065673828,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39492960",
+        "text": "Liraglutide Ameliorates Renal Endothelial Dysfunction in Diabetic Rats Through the Inhibition of the Dll4/Notch2 Pathway. The glucagon-like peptide-1 receptor agonist (GLP-1RA) is a pharmacological agent utilized for the treatment of diabetes, known for its significant reno protective effects. This study aims to investigate the impact of liraglutide, a representative GLP-1RA medication, on early endothelial dysfunction in diabetic rats and elucidate its underlying mechanisms. The present study employed a hi",
+        "score": 0.35837993025779724,
+        "doi": "10.2147/DMSO.S492252",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2024",
+        "rerank_score": 5.835720062255859,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26279440",
+        "text": "The Neuroprotective Effect of Liraglutide is Mediated by Glucagon-Like Peptide 1 Receptor-Mediated Activation of cAMP/PKA/CREB Pathway. Glucagon-like peptide-1 (GLP-1)-based drugs are being used to achieve better glucose control in patients with type 2 diabetes, and GLP-1 mimetics such as liraglutide have shown therapeutic potential in preventing diabetes-related microvascular and macrovascular complications as well as comorbidities such as neurodegenerative disorders. In the present study, we investigated ",
+        "score": 0.35878947377204895,
+        "doi": "10.1159/000430199",
+        "journal": "Cellular physiology and biochemistry : international journal of experimental cel",
+        "year": "2015",
+        "rerank_score": 5.762167930603027,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

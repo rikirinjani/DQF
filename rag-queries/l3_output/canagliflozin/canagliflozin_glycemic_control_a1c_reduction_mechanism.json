@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.3885191082954407,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 1.0732098817825317,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41495449",
+        "text": "Canagliflozin regulates adipocyte lipolysis in vitro via a SGLT2 independent signaling pathway. Adipose lipolysis, a process involving the degradation of triglycerides and the release of fatty acids and glycerol, is an important biological event in lipid metabolism. Canagliflozin (Cana), an oral antidiabetic drug, regulates blood glucose by inhibiting sodium-glucose cotransporter 2 (SGLT2) in renal tubules and has also been shown to improve lipid metabolism in adipocytes. This study aims to determine whethe",
+        "score": 0.3657374382019043,
+        "doi": "10.1038/s41366-025-02009-8",
+        "journal": "International journal of obesity (2005)",
+        "year": "2025",
+        "rerank_score": 0.5735194683074951,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39609927",
+        "text": "Role of the liver in the sustained normalisation of A1c over 2 years following short-term insulin therapy in early type 2 diabetes. When administered in early type 2 diabetes (T2DM), the strategy of 'induction' with short-term intensive insulin therapy (IIT) followed by 'maintenance' with metformin thereafter can yield outstanding glycaemic control, with some patients achieving A1c in the normal range of its assay. We thus sought to identify determinants of sustained normalisation of A1c in response to this",
+        "score": 0.38826876878738403,
+        "doi": "10.1111/dom.16099",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 0.1996571123600006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

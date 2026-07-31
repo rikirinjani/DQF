@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole esophagitis healing rate LA grade A B C D",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40083682",
+        "text": "The Los Angeles-B esophagitis is a conclusive diagnostic evidence for gastroesophageal reflux disease: the validation of Lyon Consensus 2.0. Recently, Lyon Consensus 2.0 recommended Los Angeles (LA)-B esophagitis as conclusive evidence and LA-A esophagitis as borderline evidence for gastroesophageal reflux disease (GERD). This study aimed to investigate the diagnostic value of LA-B and LA-A esophagitis. Patients with typical reflux symptoms who underwent endoscopy examination and received acid-suppressive t",
+        "score": 0.4627889394760132,
+        "doi": "10.1093/gastro/goaf004",
+        "journal": "Gastroenterology report",
+        "year": "2024",
+        "rerank_score": 0.6351441740989685,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39648266",
+        "text": "Long-term efficacy of on-demand vonoprazan treatment for mild reflux esophagitis: success rates and predictors of treatment failure. Concerns surrounding long-term proton pump inhibitor use have prompted the exploration of alternative treatments for reflux esophagitis (RE). We previously demonstrated that 24 weeks of on-demand treatment with vonoprazan, a potassium-competitive acid blocker, effectively managed mild RE (Los Angeles classification grade A/B) in more than 80% of patients. However, its long-ter",
+        "score": 0.4534095525741577,
+        "doi": "10.1007/s10388-024-01099-z",
+        "journal": "Esophagus : official journal of the Japan Esophageal Society",
+        "year": "2024",
+        "rerank_score": 0.1987159252166748,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38777170",
+        "text": "Comparison of Los Angeles Grades of Erosive Esophagitis Scored by Local Investigators vs Central Adjudicators in a Clinical Trial. Approximately 30% of patients with typical gastroesophageal reflux disease (GERD) symptoms have endoscopic evidence of erosive esophagitis (EE).",
+        "score": 0.456429660320282,
+        "doi": "10.1016/j.cgh.2024.05.007",
+        "journal": "Clinical gastroenterology and hepatology : the official clinical practice journa",
+        "year": "2024",
+        "rerank_score": -0.9486624002456665,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41577632",
+        "text": "Preclinical Modeling and Simulation to Explore the Tissue/Plasma Exposure and Pharmacodynamic Effect of Vildagliptin in Diabetes Treatment. Vildagliptin (VDG) is a dipeptidyl-peptidase-4 (DPP-4) inhibitor used for type 2 diabetes (T2DM) treatment. Viewing to improve VDG treatment, a population pharmacokinetic (popPK) model was built to describe drug plasma, free liver and muscle concentrations determined by microdialysis in healthy and diabetic animals following 50 mg/kg i.v. bolus administration. A four-co",
+        "score": 0.4115542471408844,
+        "doi": "10.1002/psp4.70165",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 2.065295934677124,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6407848",
+        "text": "Pharmacokinetics of tocainide in patients with renal dysfunction and during haemodialysis. The disposition of tocainide was studied in 15 patients with renal dysfunction. In 9 with total renal failure, the plasma half-life ranged from 16.6 to 42.7 h and total plasma clearance from 35 to 94 ml/min. The longest half-lives were found in 1 patient with cirrhosis, 3 taking the enzyme inhibitor allopurinol, and 1 on cimetidine. The mean half-life in the remaining patients was 22.3 +/- 4.8 h (+/- SD). During a 4 h",
+        "score": 0.3710018992424011,
+        "doi": "10.1007/BF00609893",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1983",
+        "rerank_score": 0.029021427035331726,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39065773",
+        "text": "A Comprehensive Physiologically Based Pharmacokinetic Model for Predicting Vildagliptin Pharmacokinetics: Insights into Dosing in Renal Impairment. Physiologically based pharmacokinetic (PBPK) modeling is of great importance in the field of medicine. This study aims to construct a PBPK model, which can provide reliable drug pharmacokinetic (PK) predictions in both healthy and chronic kidney disease (CKD) subjects. To do so, firstly a review of the literature was thoroughly conducted and the PK information o",
+        "score": 0.3977624475955963,
+        "doi": "10.3390/ph17070924",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": -1.5828044414520264,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

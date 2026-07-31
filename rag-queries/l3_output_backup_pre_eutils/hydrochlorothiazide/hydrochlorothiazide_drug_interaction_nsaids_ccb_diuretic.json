@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38645830",
+        "text": "Acetazolamide and Hydrochlorothiazide in Patients With Acute Decompensated Heart Failure: Insights From Recent Trials. Acetazolamide and thiazide diuretics have been combined with loop diuretics to overcome diuretic resistance in heart failure patients. However, recent studies have assessed the upfront combination of acetazolamide and hydrochlorothiazide with loop diuretics in hospitalized patients with acute decompensated heart failure without loop diuretic resistance. We reviewed two recent randomized con",
+        "score": 0.44328492879867554,
+        "doi": "10.14740/cr1627",
+        "journal": "Cardiology research",
+        "year": "2024",
+        "rerank_score": 3.0796825885772705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39092405",
+        "text": "Hydrochlorothiazide-Induced Exfoliative Rash and Sepsis. Hydrochlorothiazide is a diuretic agent commonly used to treat hypertension, chronic edema from congestive heart failure or cirrhosis, and nephrogenic diabetes insipidus. Diuretics work by increasing urine output and are classified based on the specific renal segments they act on. As with all medications, they are not without their side effects. The most significant and serious include hypovolemia and electrolyte disturbances. Other more rare adverse ",
+        "score": 0.43520626425743103,
+        "doi": "10.7759/cureus.63655",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 3.0729892253875732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39343595",
+        "text": "Effects of Dapagliflozin in Combination with Hydrochlorothiazide on Cardiac Remodeling in Rats with Heart Failure After Myocardial Infarction. In addition to its antihypertensive and diuretic effects, hydrochlorothiazide also demonstrates additional cardioprotective properties; however, the existence of a synergistic interaction between dapagliflozin and hydrochlorothiazide remains unclear.To establish a rat model of heart failure for investigating the effects and mechanisms of dapagliflozin in combination ",
+        "score": 0.4535493850708008,
+        "doi": "10.1536/ihj.24-069",
+        "journal": "International heart journal",
+        "year": "2024",
+        "rerank_score": 2.3491408824920654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

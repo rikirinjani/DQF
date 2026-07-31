@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39370580",
+        "text": "Carvedilol inhibits neuronal hyperexcitability caused by epilepsy-associated KCNT1 mutations. KCNT1 encodes a sodium-activated potassium channel (Slack channel), and its mutation can cause several forms of epilepsy. Traditional antiepileptic medications have limited efficacy in treating patients with KCNT1 mutations. Here, we describe one heterozygous KCNT1 mutation, M267T, in a patient with EIMFS. The pathological channel properties of this mutation and its effect on neuronal excitability were investigated",
+        "score": 0.45268258452415466,
+        "doi": "10.1111/bph.17360",
+        "journal": "British journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 5.453542232513428,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38895634",
+        "text": "Carvedilol increases seizure resistance in a mouse model of  Patients with mutations that alter the function of the sodium channel",
+        "score": 0.4551011323928833,
+        "doi": "10.3389/fphar.2024.1397225",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 4.333828926086426,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40387434",
+        "text": "Comparison of Carvedilol to Propranolol in Reduction of Hepatic Venous Pressure Gradient in Liver Cirrhosis: A Meta-Analysis. Nonselective beta-blockers, such as propranolol and carvedilol, are used to prevent first decompensation in patients with clinically significant portal hypertension. We performed a systematic literature search of English language articles from inception in PubMed, Medline, and Cochrane databases to compare the effect of carvedilol and propranolol on systemic and splanchnic hemodynami",
+        "score": 0.4542571008205414,
+        "doi": "10.1111/jgh.16999",
+        "journal": "Journal of gastroenterology and hepatology",
+        "year": "2025",
+        "rerank_score": 0.21722999215126038,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Methyldopa alpha2-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41169199",
+        "text": "Beta 2-adrenergic pathway combats Alzheimer's disease: Restoring cognition and synaptic integrity. Alzheimer's disease is typified by amyloid-beta oligomer-mediated synaptic disruption, neuroinflammation, and mitochondrial loss of function, culminating in cognitive decline. Recent evidence points toward the β2- adrenergic receptor as a target through its regulation of synaptic plasticity, neuroinflammation, and epigenetic control. Activation of β2-adrenergic receptor potentiates long-term potentiation, reve",
+        "score": 0.45949825644493103,
+        "doi": "10.4103/NRR.NRR-D-25-00529",
+        "journal": "Neural regeneration research",
+        "year": "2025",
+        "rerank_score": 3.8418397903442383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38813686",
+        "text": "Internalized β2-Adrenergic Receptors Oppose PLC-Dependent Hypertrophic Signaling. Chronically elevated neurohumoral drive, and particularly elevated adrenergic tone leading to β-adrenergic receptor (β-AR) overstimulation in cardiac myocytes, is a key mechanism involved in the progression of heart failure. β1-AR (β1-adrenergic receptor) and β2-ARs (β2-adrenergic receptor) are the 2 major subtypes of β-ARs present in the human heart; however, they elicit different or even opposite effects on cardiac function ",
+        "score": 0.44130635261535645,
+        "doi": "10.1161/CIRCRESAHA.123.323201",
+        "journal": "Circulation research",
+        "year": "2024",
+        "rerank_score": 1.0109100341796875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37837428",
+        "text": "DeepADRA2A: predicting adrenergic α2a inhibitors using deep learning. Adrenergic α2a (ADRA2A) receptors play a crucial role in modulating various physiological actions, thereby influencing the proper functioning of different systems in the body. ADRA2A regulation is associated with a wide range of effects, including alterations in blood pressure, hypertension, heightened heart rate, etc. Inhibition of these receptors results in the release of noradrenaline, leading to heightened physiological activity, impr",
+        "score": 0.4362415075302124,
+        "doi": "10.1080/07391102.2023.2270056",
+        "journal": "Journal of biomolecular structure & dynamics",
+        "year": "2024",
+        "rerank_score": 0.3804085850715637,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rosiglitazone glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.40463846921920776,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 0.7227277159690857,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39088906",
+        "text": "Physiologically based pharmacokinetic modeling of CYP2C8 substrate rosiglitazone and its metabolite to predict metabolic drug-drug interaction. Rosiglitazone is an activator of nuclear peroxisome proliferator-activated (PPAR) receptor gamma used in the treatment of type 2 diabetes mellitus. The elimination of rosiglitazone occurs mainly via metabolism, with major contribution by enzyme cytochrome P450 (CYP) 2C8. Primary routes of rosiglitazone metabolism are N-demethylation and hydroxylation. Modulation of ",
+        "score": 0.36974865198135376,
+        "doi": "10.1016/j.dmpk.2024.101023",
+        "journal": "Drug metabolism and pharmacokinetics",
+        "year": "2024",
+        "rerank_score": 0.5366753935813904,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40628043",
+        "text": "PPARγ activation reduces pancreatic beta cell death in type 1 diabetes by decreasing heparanase-dependent insulitis. While the majority of individuals with type 1 diabetes (T1D) receives lifelong exogenous insulin replacement therapy, a clinically significant subset remains refractory to achieving optimal glycemic targets, necessitating the exploration of novel adjunctive medications to enhance T1D treatment strategies. The aim of this study was to explore the efficacy of rosiglitazone (ROZ), a typical thia",
+        "score": 0.3959590792655945,
+        "doi": "10.1016/j.intimp.2025.115183",
+        "journal": "International immunopharmacology",
+        "year": "2025",
+        "rerank_score": 0.18840254843235016,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

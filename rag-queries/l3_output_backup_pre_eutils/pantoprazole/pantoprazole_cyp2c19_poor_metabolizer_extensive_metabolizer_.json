@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole CYP2C19 poor metabolizer extensive metabolizer pharmacokinetics",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12464799",
+        "text": "Identification and functional characterization of new potentially defective alleles of human CYP2C19. CYP2C19 is a clinically important enzyme responsible for the metabolism of a number of therapeutic drugs, such as mephenytoin, omeprazole, diazepam, proguanil, propranolol and certain antidepressants. Genetic polymorphisms in this enzyme result in poor metabolizers of these drugs. There are racial differences in the incidence of the poor metabolizer trait, which represents 13-23% of Asians but only 3-5% of ",
+        "score": 0.36367177963256836,
+        "doi": "10.1097/00008571-200212000-00004",
+        "journal": "Pharmacogenetics",
+        "year": "2002",
+        "rerank_score": 5.2347211837768555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38797695",
+        "text": "Modeled Hepatic/Plasma Exposures of Omeprazole Prescribed Alone in Cytochrome P450 2C19 Poor Metabolizers Are Likely Associated with Hepatic Toxicity Reported in a Japanese Adverse Event Database. Omeprazole, a gastric acid pump inhibitor, is repeatedly administered and is oxidatively metabolized mainly by polymorphic cytochrome P450 2C19. The prescribed dosage of omeprazole was discontinued or reduced in 47 of the 135 patients who received omeprazole alone in this survey, as recorded in the Japanese Advers",
+        "score": 0.371670663356781,
+        "doi": "10.1248/bpb.b24-00145",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 4.77769136428833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40744734",
+        "text": "Solanidine analysis during therapeutic drug monitoring revealed rare CYP2D6 poor metabolizer genotype: A case report. Cytochrome P450 2D6 (CYP2D6) is involved in the metabolism of 20-25% of commonly used clinical drugs. Between 5 and 10% of Caucasians are homozygous carriers of variant alleles encoding no CYP2D6 enzyme activity, who are classified as poor metabolizers (PMs). Increased risk of supratherapeutic concentrations and adverse effects of CYP2D6 substrates have been reported in PMs during standard r",
+        "score": 0.4277286231517792,
+        "doi": "10.1002/bcp.70184",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2025",
+        "rerank_score": 4.674881935119629,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

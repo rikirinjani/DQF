@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone NCC off-target binding",
+    "dimension": "off_target",
+    "target": "NCC"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39814085",
+        "text": "Disrupted target binding with acryloyl group as potential Bcr-Abl/C-Src dual kinase inhibitor optimization strategies with maintained antitumor activity. Current CML treatments often suffer from undesired side effects. Herein we report the computation-assisted optimization of Bcr-Abl/C-Src dual kinase inhibitor. We surmised the improved toxicity profile was achieved via disrupted ligand-target binding. The development of compound 21b highlighted our strategy with ∼1000-fold weaker Bcr-Abl/C-Src inhibition b",
+        "score": 0.4615018963813782,
+        "doi": "10.1016/j.bmcl.2025.130105",
+        "journal": "Bioorganic & medicinal chemistry letters",
+        "year": "2024",
+        "rerank_score": -1.460271954536438,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40163305",
+        "text": "Click Chemistry for Target Engagement Studies. The expanding number of targeted covalent small molecule inhibitors in clinical development increases the importance of identification and quantitation of on- and off-target engagement for these molecules in order to better understand the level of target binding and inhibition and potential side effects. Here we describe the optimization of a click chemistry-based chemoproteomic approach, to study the target engagement of covalent molecules. Using the BTK inhib",
+        "score": 0.46567127108573914,
+        "doi": "10.1007/978-1-0716-4418-8_11",
+        "journal": "Methods in molecular biology (Clifton, N.J.)",
+        "year": "2025",
+        "rerank_score": -2.3748810291290283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39900984",
+        "text": "Identification of new ClpC1-NTD binders for Mycobacterium tuberculosis drug development. MtbClpC1 is a promising drug target against tuberculosis. Recent studies have shown that several natural product antibiotics targeting the unfoldase N-terminal domain can impair MtbClpC1 function resulting in cell death. While the pharmacological properties of these natural product antibiotics prevent their use in the clinic, similar molecules binding to the same binding pockets can result in new drugs against Mtb. Here",
+        "score": 0.4618037939071655,
+        "doi": "10.1038/s41598-025-87535-1",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": -3.0674643516540527,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

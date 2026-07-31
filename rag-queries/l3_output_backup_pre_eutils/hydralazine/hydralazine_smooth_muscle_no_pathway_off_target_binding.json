@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine smooth muscle NO pathway off-target binding",
+    "dimension": "off_target",
+    "target": "smooth muscle NO pathway"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41091880",
+        "text": "Hydralazine inhibits cysteamine dioxygenase to treat preeclampsia and senesce glioblastoma. Hydralazine (HYZ), a treatment for preeclampsia and hypertensive crisis, is listed by the World Health Organization as an essential medicine. Its mode of action has remained unknown through its seven decades of clinical use. Here, we identify 2-aminoethanethiol dioxygenase (ADO), a key mediator of targeted protein degradation, as a selective HYZ target. The drug chelates ADO's metallocofactor and can alkylate one of ",
+        "score": 0.44892174005508423,
+        "doi": "10.1126/sciadv.adx7687",
+        "journal": "Science advances",
+        "year": "2025",
+        "rerank_score": -1.9860682487487793,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39102990",
+        "text": "Citrulline activates adenosine receptors: New insight into metabolic pathways interaction. Citrulline is a non-proteinogenic amino acid that forms as by-product in nitric oxide (NO) synthesis from arginine and may act in concert with NO as an independent signaling molecule that involves in the mechanism of vascular smooth muscle vasodilation. In this study we examined the effects of citrulline on pulmonary artery smooth muscles. Experimental design comprised outward potassium currents measurements in enzyma",
+        "score": 0.47386080026626587,
+        "doi": "10.1016/j.bcp.2024.116462",
+        "journal": "Biochemical pharmacology",
+        "year": "2024",
+        "rerank_score": -3.065131902694702,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39000575",
+        "text": "Ligand-Receptor Interactions and Structure-Function Relationships in Off-Target Binding of the β The β",
+        "score": 0.44180625677108765,
+        "doi": "10.3390/ijms25137468",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": -3.727428913116455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

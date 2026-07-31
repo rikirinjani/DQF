@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39565129",
+        "text": "Acarbose impairs gut  Acarbose is a type 2 diabetes medicine that prevents dietary starch breakdown into glucose by inhibiting host amylase and glucosidase enzymes. Numerous gut species in the  Acarbose is a type 2 diabetes medication that works primarily by stopping starch breakdown into glucose in the small intestine. This is accomplished by the inhibition of host enzymes, leading to better blood sugar control via reduced ability to derive glucose from dietary starches. The drug and undigested starch trav",
+        "score": 0.38530656695365906,
+        "doi": "10.1128/mbio.01506-24",
+        "journal": "mBio",
+        "year": "2024",
+        "rerank_score": 0.8156548142433167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40940270",
+        "text": "Diabetes status and not preoperative glycemic control is associated with postoperative outcomes in metabolic/bariatric surgery. Elevated hemoglobin A1C (HbA1C) is a surrogate for poor glycemic control, but its association with outcomes in metabolic surgery is not well established with respect to diabetes severity. This study aimed to extend prior evidence and evaluate the influence of preoperative HbA1C on postsurgical outcomes in patients undergoing primary laparoscopic sleeve gastrectomy (SG) or Roux-en-Y",
+        "score": 0.3905882239341736,
+        "doi": "10.1016/j.soard.2025.07.018",
+        "journal": "Surgery for obesity and related diseases : official journal of the American Soci",
+        "year": "2025",
+        "rerank_score": 0.6713347434997559,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35234385",
+        "text": "[Biosynthesis and regulatory mechanism of acarbose and its structural analogs: a review]. Acarbose is widely used as α-glucosidase inhibitor in the treatment of type Ⅱ diabetes.",
+        "score": 0.32876795530319214,
+        "doi": "10.13345/j.cjb.210248",
+        "journal": "Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+        "year": "2022",
+        "rerank_score": 0.3126293122768402,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

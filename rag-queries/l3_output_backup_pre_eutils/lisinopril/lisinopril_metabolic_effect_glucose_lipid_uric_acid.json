@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39337588",
+        "text": "The Impact of the Angiotensin-Converting Enzyme Inhibitor Lisinopril on Metabolic Rate in  Evidence suggests that angiotensin-converting enzyme inhibitors (ACEIs) may increase metabolic rate by promoting thermogenesis, potentially through enhanced fat oxidation and improved insulin. More research is, however, needed to understand this intricate process. In this study, we used 22 lines from the",
+        "score": 0.39533746242523193,
+        "doi": "10.3390/ijms251810103",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 3.1193156242370605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38419057",
+        "text": "Effect of sacubitril/valsartan on lipid metabolism in patients with chronic kidney disease combined with chronic heart failure: a retrospective study. Dyslipidemia is significantly more common in those with concurrent chronic kidney disease (CKD) and chronic heart failure (CHF). Sacubitril/valsartan has showcased its influence on both cardiac and renal functions, extending its influence to the modulation of lipid metabolism pathways. This study aimed to examine how sacubitril/valsartan affects lipid metabol",
+        "score": 0.4292064905166626,
+        "doi": "10.1186/s12944-024-02051-x",
+        "journal": "Lipids in health and disease",
+        "year": "2024",
+        "rerank_score": 0.5566549301147461,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38983399",
+        "text": "Effect of dapagliflozin on uric acid in patients with chronic heart failure and hyperuricemia. Patients with chronic heart failure (CHF) frequently develop hyperuricemia, an elevated serum uric acid level, associated with adverse outcomes. Dapagliflozin, a sodium-glucose cotransporter-2 inhibitor, demonstrates reduction in cardiovascular mortality and hospitalization in patients with CHF and ejection fraction (HFrEF), irrespective of diabetes. However, dapagliflozin's effect on the uric acid levels in patie",
+        "score": 0.4060814678668976,
+        "doi": "10.12998/wjcc.v12.i18.3468",
+        "journal": "World journal of clinical cases",
+        "year": "2024",
+        "rerank_score": 0.44588759541511536,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

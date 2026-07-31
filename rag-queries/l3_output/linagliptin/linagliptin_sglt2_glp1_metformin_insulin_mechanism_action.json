@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.3846789002418518,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 4.04680871963501,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26631506",
+        "text": "Linagliptin attenuates diabetes-induced cerebral pathological neovascularization in a blood glucose-independent manner: Potential role of ET-1. We have shown that glycemic control with metformin or endothelin-1 (ET-1) inhibition with bosentan prevents and restores diabetes-mediated cerebral pathological remodeling and neovascularization. Our recent data suggest that linagliptin, a member of the dipeptidyl peptidase-4 inhibitor class of glucose-lowering agents, prevents cerebrovascular remodeling and dysfunc",
+        "score": 0.36135029792785645,
+        "doi": "10.1016/j.lfs.2015.11.026",
+        "journal": "Life sciences",
+        "year": "2015",
+        "rerank_score": 3.669731378555298,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41522902",
+        "text": "Comparative Effect of SGLT2 Inhibitors and GLP-1 Agonists on Glycemic Control in Type 2 Diabetes Mellitus. The goal of this study was to find out how SGLT2 inhibitors and GLP-1 receptor agonists help persons with Type 2 Diabetes Mellitus (T2DM) keep their blood sugar levels stable. There were 120 people in the trial. They were randomly given either empagliflozin, Canagliflozin, Dapagliflozin, Ertugliflozin, Bexagliflozin, Sotagliflozin (an SGLT2 inhibitor) or liraglutide, Sitagliptin, Saxagliptin, Linaglipt",
+        "score": 0.37666136026382446,
+        "doi": "10.4103/jpbs.jpbs_1334_25",
+        "journal": "Journal of pharmacy & bioallied sciences",
+        "year": "2025",
+        "rerank_score": 3.2430343627929688,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

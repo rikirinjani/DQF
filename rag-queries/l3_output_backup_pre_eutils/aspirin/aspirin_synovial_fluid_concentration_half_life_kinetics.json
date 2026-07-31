@@ -1,0 +1,84 @@
+{
+  "query": {
+    "query": "Aspirin synovial fluid concentration half-life kinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3888490",
+        "text": "Clinical pharmacokinetics of the salicylates.\n\nThe use of salicylates in rheumatic diseases has been established for over 100 years. The more recent recognition of their modification of platelet and endothelial cell function has lead to their use in other areas of medicine. Aspirin (acetylsalicylic acid) is still the most commonly used salicylate. After oral administration as an aqueous solution aspirin is rapidly absorbed at the low pH of the stomach millieu. Less rapid absorption is observed with other formulations due to the rate limiting step of tablet disintegration - this latter factor being maximal in alkaline pH. The rate of aspirin absorption is dependent not only on the formulation but also on the rate of gastric emptying. Aspirin absorption follows first-order kinetics with an absorption half-life ranging from 5 to 16 minutes. Hydrolysis of aspirin to salicylic acid by nonspecific esterases occurs in the liver and, to a lesser extent, the stomach so that only 68% of the dose reaches the systemic circulation as aspirin. Both aspirin and salicylic acid are bound to serum albumin (aspirin being capable of irreversibly acetylating many proteins), and both are distributed in the synovial cavity, central nervous system, and saliva. The serum half-life of aspirin is approximately 20 minutes. The fall in aspirin concentration is associated with a rapid rise in salicylic acid concentration. Salicylic acid is renally excreted in part unchanged and the rate of elimination is influenced by urinary pH, the presence of organic acids, and the urinary flow rate. Metabolism of salicylic acid occurs through glucuronide formation (to produce salicyluric acid), and salicyl phenolic glucoronide), conjugation with glycine (to produce salicyluric acid), and oxidation to gentisic acid. The rate of formation of salicyl phenolic glucuronide and salicyluric acid are easily saturated at low salicylic acid concentrations and their formation is described by Michaelis-Menten kinetics. The other metabolic products follow first-order kinetics. The serum half-life of salicylic acid is dose-dependent; thus, the larger the dose employed, the longer it will take to reach steady-state. There is also evidence that enzyme induction of salicyluric acid formation occurs. No significant differences exist between the pharmacokinetics of the salicylates in the elderly or in children when compared with young adults. Apart from differences in free versus albumin-bound salicylate in various disease states and physiological conditions associated with low serum albumin, pharmacokinetic parameters in patients with rheumatoid arthritis, osteoarthritis, chronic renal failure or liver disease are essentially the same.(ABSTRACT TRUNCATED AT 400 WORDS)",
+        "title": "Clinical pharmacokinetics of the salicylates.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "3888490",
+          "journal": "Clinical pharmacokinetics",
+          "authors": [
+            "Needs C J",
+            "Brooks P M"
+          ],
+          "pub_date": "1985",
+          "doi": "10.2165/00003088-198510020-00004",
+          "mesh_terms": [
+            "Aged",
+            "Aging",
+            "Arthritis, Rheumatoid",
+            "Blood Proteins",
+            "Chemical Phenomena",
+            "Chemistry, Physical",
+            "Child",
+            "Drug Interactions",
+            "Female",
+            "Humans",
+            "Intestinal Absorption",
+            "Kidney Diseases",
+            "Kinetics",
+            "Liver Diseases",
+            "Maternal-Fetal Exchange",
+            "Milk, Human",
+            "Pregnancy",
+            "Protein Binding",
+            "Salicylates",
+            "Saliva",
+            "Synovial Fluid",
+            "Tissue Distribution"
+          ]
+        }
+      },
+      {
+        "id": "PMID:7249487",
+        "text": "Clinical Pharmacokinetics of indomethacin.\n\nIndomethacin (1-(p-chlorobenzoyl)-5-methoxy-2-methylindole-3-acetic acid) is an anit-in-flammatory antipyretic drug commonly used for symptomatic relief of pain and stiffness in rheumatic diseases. Following oral administration the absorption of the drug is rapid and complete, but with important inter-and intraindividual variations. In general, peak plasma concentrations of 2 to 3 microgram/ml are achieved with 1 to 2 hours, but concomitant ingestion of food reduces and delays the peak concentrations without reducing the amount absorbed. Rectal administration is associated with earlier but lower peak plasma concentrations, incomplete absorption form suppositories, and offers no clinical advantages when compared with equivalent oral dosage. In plasma at 90% of indomethacin is bound to albumin at therapeutic plasma concentrations. Indomethacin is distributed into the synovial fluid, is excreted in human breast milk and crosses the placenta in significant amounts. It is metabolised to O-desmethylindomethacin, N-deschlorobenzoylindomethacin and O-desmethy-N-deschlorobenzoylindomethacin, which are devoid of anti-inflammatory activity and are present in significant amount in the plasma. About 60% of an oral dose is excreted in the urine predominantly in glucuronidated form, while about 40% is excreted in the faeces after biliary secretion. A large amount of the dose undergoes biliary recycling. The biotransformation is independent of the route of administration. A 2-compartment open model with correction for biliary recycling can be used to describe the disposition of indomethacin. The drug has a biological half-life of about 5 to 10 hours and a plasma clearance of 1 to 2.5ml/kg/min. In premature infants the half-life of indomethacin is inversely correlated with gestational age and is significantly prolonged as compared with adults. Renal failure does not affect the serum concentrations of indomethacin. Probenecid results in increased plasma concentrations of indomethacin with enhanced pain relief without increasing the incidence of side effects. There seem to be no significant pharmacokinetic interactions between indomethacin and aspirin or warfarin. To date it has not been possible to identify a relationship between the clinical effects and plasma concentration of indomethacin.",
+        "title": "Clinical Pharmacokinetics of indomethacin.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "7249487",
+          "journal": "Clinical pharmacokinetics",
+          "authors": [
+            "Helleberg L"
+          ],
+          "pub_date": "1981",
+          "doi": "10.2165/00003088-198106040-00001",
+          "mesh_terms": [
+            "Acute Kidney Injury",
+            "Aging",
+            "Antacids",
+            "Arthritis, Rheumatoid",
+            "Aspirin",
+            "Biological Availability",
+            "Biotransformation",
+            "Drug Interactions",
+            "Furosemide",
+            "Humans",
+            "Indomethacin",
+            "Kinetics",
+            "Liver Diseases",
+            "Metabolism",
+            "Probenecid",
+            "Warfarin"
+          ]
+        }
+      }
+    ]
+  }
+}

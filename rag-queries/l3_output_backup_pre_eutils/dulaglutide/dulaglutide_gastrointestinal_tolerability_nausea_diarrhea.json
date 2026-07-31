@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dulaglutide gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41183330",
+        "text": "Comparative Gastrointestinal Safety of Dulaglutide, Semaglutide, and Tirzepatide in Adults With Type 2 Diabetes. The comparative gastrointestinal safety across glucagon-like peptide-1 receptor agonists and tirzepatide is still unclear. To compare the risk for severe gastrointestinal adverse events across dulaglutide, subcutaneous semaglutide, and tirzepatide in patients with type 2 diabetes (T2D) in routine clinical practice. New-user, active-comparator cohort study. Population-based study. Adults with T2D ",
+        "score": 0.41655707359313965,
+        "doi": "10.7326/ANNALS-25-01724",
+        "journal": "Annals of internal medicine",
+        "year": "2026",
+        "rerank_score": -0.13115255534648895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40842022",
+        "text": "A Combined Modeling Approach to Predict the Effect of Gastric Emptying Delay on the Pharmacokinetics of Small Molecules. Dulaglutide, a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist, is approved for improving glycemic control and reducing cardiovascular risks in patients with type 2 diabetes mellitus (T2DM). This research investigates the effect of dulaglutide on gastric emptying and its impact on the pharmacokinetics (PK) of orally administered molecules utilizing a combination of population",
+        "score": 0.44097810983657837,
+        "doi": "10.1002/psp4.70101",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": -0.21895208954811096,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41355891",
+        "text": "Acute Pancreatitis After Initiating Dulaglutide in a Patient Previously Treated With a DPP-4 Inhibitor: Case Report From Palestine. Dulaglutide, a glucagon-like peptide-1 (GLP-1) agonist, is utilized for the management of type 2 diabetes and obesity, typically administered subcutaneously at a dosage of 0.75 mg/0.5 mL once weekly, with adjustments made as needed. While typically well tolerated, it may induce infrequent yet severe adverse effects, including acute pancreatitis. In this case report, we present ",
+        "score": 0.4459710717201233,
+        "doi": "10.1155/crgm/9918202",
+        "journal": "Case reports in gastrointestinal medicine",
+        "year": "2025",
+        "rerank_score": -0.42211732268333435,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

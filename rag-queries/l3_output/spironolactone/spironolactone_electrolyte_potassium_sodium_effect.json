@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:6848297",
+        "text": "Dose-response relationships for spironolactone in combination with a potassium-wasting diuretic. The plasma and urine electrolyte responses to repeated doses of spironolactone, 25, 50, and 100 mg, in combination with metolazone, 2.5, 5.0, and 10 mg, were examined in 18 healthy subjects (six at each dose of metolazone). During the period of pharmacologic steady state, there were log linear spironolactone dose-response relationships for plasma potassium, sodium, and bicarbonate (P less than 0.001 in each case",
+        "score": 0.38743913173675537,
+        "doi": "10.1038/clpt.1983.5",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "1983",
+        "rerank_score": 5.5871453285217285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39291574",
+        "text": "Fixed-dose Combination of Torsemide and Mineralocorticoid Receptor Antagonists. The combination of torsemide and spironolactone presents a promising approach to managing conditions such as edema and hypertension. Torsemide, a loop diuretic, enhances diuresis by inhibiting sodium reabsorption in the kidneys, while spironolactone, a potassium-sparing diuretic and mineralocorticoid receptor antagonist (MRA), complements this effect by preventing potassium loss and offering additional cardiovascular benefits. T",
+        "score": 0.41389721632003784,
+        "doi": "10.59556/japi.72.0678",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": 2.743992328643799,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40919025",
+        "text": "Effect of spironolactone on cardiovascular and renal outcomes in patients with chronic kidney disease. Steroidal mineralocorticoid receptor antagonists (MRAs), including spironolactone, effectively treat resistant hypertension, reduce proteinuria and lower mortality in heart failure with reduced ejection fraction. However, their long-term effects in chronic kidney disease (CKD) remain unclear. This study investigated spironolactone's impact on end-stage renal disease (ESRD), major adverse cardiovascular eve",
+        "score": 0.42209023237228394,
+        "doi": "10.1093/ckj/sfaf247",
+        "journal": "Clinical kidney journal",
+        "year": "2025",
+        "rerank_score": 2.6067333221435547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

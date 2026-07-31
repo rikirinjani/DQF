@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.3360985517501831,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 3.0812532901763916,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41022243",
+        "text": "Central pramlintide administration potently suppresses operant responding for sucrose and locomotor activity in male rats. Amylin is a feeding-suppressive hormone which acts centrally in the control of energy balance. Some evidence suggests it reduces motivation for food rewards. Pramlintide is a synthetic amylin analog that is used clinically in the treatment of diabetes, and it also reduces feeding and weight gain. However, the mechanisms behind these pramlintide-induced reductions in feeding are unclear.",
+        "score": 0.37066173553466797,
+        "doi": "10.1016/j.physbeh.2025.115114",
+        "journal": "Physiology & behavior",
+        "year": "2025",
+        "rerank_score": 0.7583975195884705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40513482",
+        "text": "In silico evaluation of pramlintide dosing algorithms in artificial pancreas systems. Pramlintide's capability to delay gastric emptying has motivated its use in artificial pancreas systems, accompanying insulin as a control action. Due to the scarcity of pramlintide simulation models in the literature, in silico testing of insulin-plus-pramlintide strategies is not widely used. This work incorporates a recent pramlintide pharmacokinetics/pharmacodynamics model into the T1DM UVA/Padova simulator to adjust a",
+        "score": 0.38721418380737305,
+        "doi": "10.1016/j.compbiomed.2025.110447",
+        "journal": "Computers in biology and medicine",
+        "year": "2024",
+        "rerank_score": -0.729706346988678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

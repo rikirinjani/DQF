@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39369847",
+        "text": "Hypoxanthine ameliorates diet-induced insulin resistance by improving hepatic lipid metabolism and gluconeogenesis via AMPK/mTOR/PPARα pathway. Insulin resistance (IR) is a pivotal metabolic disorder associated with type 2 diabetes and metabolic syndrome. This study investigated the potential of hypoxanthine (Hx), a purine metabolite and uric acid precursor, in ameliorating IR and regulating hepatic glucose and lipid metabolism. We utilized both in vitro IR-HepG2 cells and in vivo diet-induced IR mice to in",
+        "score": 0.4459034204483032,
+        "doi": "10.1016/j.lfs.2024.123096",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": -1.6876155138015747,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40684489",
+        "text": "Rosmarinic acid attenuates hyperuricemia via restoring hyperuricemia-induced renal and intestinal dysfunctions. The increasing incidence rate of hyperuricemia (HUA), a common chronic metabolic disease, seriously threatens public health. Previous studies have shown that rosmarinic acid (RA) has a good effect in lowering uric acid (UA). However, the exact mechanism of RA in treating HUA is still not fully understood. To validate the therapeutic effect of RA on HUA and its potential pharmacological mechanisms ",
+        "score": 0.44965651631355286,
+        "doi": "10.1016/j.phymed.2025.157084",
+        "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+        "year": "2025",
+        "rerank_score": -3.5822503566741943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41482771",
+        "text": "The relationship between blood uric acid, serum lipoprotein(a) and the severity of neurological damage in patients with acute arteriolar occlusive cerebral infarction combined with type 2 diabetes mellitus and the therapeutic effect of ligustrazine. This study aimed to investigate the relationship between blood uric acid (UA), serum lipoprotein(a) [Lp(a)], and the severity of neurological damage in patients with acute penetrating artery occlusive cerebral infarction combined with type 2 diabetes mellitus (T",
+        "score": 0.4463534355163574,
+        "doi": "10.36721/PJPS.2026.39.1.REG.14895.1",
+        "journal": "Pakistan journal of pharmaceutical sciences",
+        "year": "2026",
+        "rerank_score": -4.039937973022461,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

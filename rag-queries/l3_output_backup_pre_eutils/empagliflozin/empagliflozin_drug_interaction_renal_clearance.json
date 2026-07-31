@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Empagliflozin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26894924",
+        "text": "The effect of dapagliflozin on renal function in patients with type 2 diabetes. Dapagliflozin's antihyperglycemic effects are mediated by inhibition of renal sodium-glucose cotransporter-2; therefore, renal safety of dapagliflozin was assessed.",
+        "score": 0.34190720319747925,
+        "doi": "10.1007/s40620-016-0261-1",
+        "journal": "Journal of nephrology",
+        "year": "2015",
+        "rerank_score": 3.4854769706726074,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39164154",
+        "text": "Empagliflozin controls cirrhotic refractory ascites along with improvement of natriuresis and circulatory, cardiac, and renal function: A pilot study.",
+        "score": 0.3727262318134308,
+        "doi": "10.1016/j.ejim.2024.08.012",
+        "journal": "European journal of internal medicine",
+        "year": "2024",
+        "rerank_score": 3.398313045501709,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32720618",
+        "text": "[Effect of empagliflosin on renal filtration in patients with coronary heart disease undergoing percutaneous coronary intervention]. Aim To evaluate the effect of empagliflozin on glycemia and renal filtration function in patients with stable ischemic heart disease (IHD) and type 2 diabetes mellitus (DM2) who underwent a percutaneous coronary intervention (PCI).Materials and methods This study included 40 patients with stable IHD and DM2 (age, 63 (58; 65) years; DM2 duration, 7 (4; 15) years) who had indica",
+        "score": 0.34190812706947327,
+        "doi": "10.18087/cardio.2020.6.n825",
+        "journal": "Kardiologiia",
+        "year": "2019",
+        "rerank_score": 3.075695276260376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

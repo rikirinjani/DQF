@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Aspart tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39092439",
+        "text": "Toward once-monthly insulin therapy  Pharmacokinetic properties and duration of therapeutic action of a pharmaceutical agent can be significantly extended through the combination of two distinct strategies aimed at increasing plasma half-life: fatty acid acylation and Fc-conjugation. Using insulin as a case study, we demonstrate that a doubly protracted insulin analog produces a substantial prolongation of pharmacodynamic effect to lower blood glucose in STZ-treated mice when compared to the Fc-only counter",
+        "score": 0.4151015281677246,
+        "doi": "10.1039/d4cb00078a",
+        "journal": "RSC chemical biology",
+        "year": "2024",
+        "rerank_score": 1.6110512018203735,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39815718",
+        "text": "Equivalence of Biosimilarity in Pharmacokinetic and Pharmacodynamic Properties of Recombinant Human Insulin Aspart. Insulin aspart, a rapid-acting analog, achieves faster subcutaneous absorption than regular insulin. This study aimed to demonstrate equivalence in the pharmacokinetic (PK) and pharmacodynamic (PD) characteristics of Recombinant Human Insulin Aspart from BioGenomics Limited (as test) and Novo-Nordisk (as reference) in healthy adult males. This was a double-blind, randomized, cross-over study, ",
+        "score": 0.40400397777557373,
+        "doi": "10.1002/cpdd.1510",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": 0.5306738615036011,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40582481",
+        "text": "Assessing biosimilarity of insulin aspart injection and NovoRapid® through pharmacokinetic and pharmacodynamic comparisons in healthy volunteers: A double-blind, randomized, crossover study. This study compares the pharmacokinetic (PK) and pharmacodynamic (PD) profiles of Insulin Aspart Injection IP/BP (Recombinant DNA origin) 100 IU/mL (Wockhardt Limited) and NovoRapid® Penfill® Insulin Aspart 100 IU/mL (Novo Nordisk A/S, Denmark) using a double-blind, randomized, single-center, two-period, crossover desig",
+        "score": 0.3803650736808777,
+        "doi": "10.1016/j.ejphar.2025.177881",
+        "journal": "European journal of pharmacology",
+        "year": "2025",
+        "rerank_score": -0.11474211513996124,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

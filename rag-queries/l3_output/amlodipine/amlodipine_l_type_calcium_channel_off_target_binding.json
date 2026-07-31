@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Amlodipine L-type calcium channel off-target binding",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40650434",
+        "text": "L-type calcium channel blockers at therapeutic concentrations are not linked to CRAC channels and heart failure. Amlodipine has been used as a front-line anti-hypertensive therapy for decades by virtue of blocking voltage-operated calcium channels with high affinity and specificity. Recently, the safety of amlodipine has been questioned, as it was reported to activate Ca",
+        "score": 0.39767804741859436,
+        "doi": "10.1080/10641963.2025.2515924",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "2025",
+        "rerank_score": 5.441389083862305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41229954",
+        "text": "Molecular insights into nilvadipine-hemoglobin interactions: conformational dynamics and binding mechanisms. Understanding the molecular basis of drug-protein interactions is essential for predicting pharmacokinetics and potential off-target effects. Here, we employ a combined experimental and computational approach to characterize the binding of Nilvadipine (a dihydropyridine calcium channel blocker) to hemoglobin (Hb). Using Soret band absorption and steady-state fluorescence spectroscopy across 298-310 K",
+        "score": 0.3815133273601532,
+        "doi": "10.1039/d5ra04162g",
+        "journal": "RSC advances",
+        "year": "2025",
+        "rerank_score": 4.420121669769287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38870543",
+        "text": "Identifying Key Binding Interactions Between the Cardiac L-Type Calcium Channel and Calmodulin Using Molecular Dynamics Simulations. Defects in the binding of the calcium sensing protein calmodulin (CaM) to the L-type calcium channel (Ca",
+        "score": 0.36712682247161865,
+        "doi": "10.1021/acs.jpcb.4c02251",
+        "journal": "The journal of physical chemistry. B",
+        "year": "2024",
+        "rerank_score": 2.1721909046173096,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

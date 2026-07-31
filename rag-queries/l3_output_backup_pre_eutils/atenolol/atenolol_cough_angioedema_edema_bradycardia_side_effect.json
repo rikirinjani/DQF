@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Atenolol cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.43402987718582153,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.31924450397491455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38373878",
+        "text": "BRASH syndrome with a complete heart block- a case report. BRASH syndrome (Bradycardia, Renal failure, Atrioventricular (AV) nodal blocking agent, Shock and Hyperkalemia) is a recently emerging diagnosis that describes the profound bradycardia seen in patients on AV nodal blockers who present with acute kidney injury (AKI) and hyperkalemia. We present a case of a 68 years old female patient with past history of hypertension taking atenolol and Enalapril presented to emergency department with the complaint o",
+        "score": 0.44369611144065857,
+        "doi": "10.1186/s12872-024-03782-6",
+        "journal": "BMC cardiovascular disorders",
+        "year": "2024",
+        "rerank_score": -0.7505664825439453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39947728",
+        "text": "Delayed onset of non-cardiogenic pulmonary oedema following amlodipine overdose. Amlodipine, a widely used antihypertensive medication, can cause serious complications in overdose, including hypotension, bradycardia, non-cardiogenic pulmonary oedema (NCPO) and death. This report describes a young adult woman who ingested 100 mg of amlodipine in a polypharmacy suicide attempt. Although she initially stabilised, she unexpectedly developed delayed NCPO 3 days post ingestion, requiring intubation and intensive ",
+        "score": 0.4421107769012451,
+        "doi": "10.1136/bcr-2024-264112",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": -2.330932140350342,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

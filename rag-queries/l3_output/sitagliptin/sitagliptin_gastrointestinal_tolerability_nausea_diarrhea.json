@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38654785",
+        "text": "Metformin-Induced Chronic Diarrhea Misdiagnosed as Irritable Bowel Syndrome for Years. Metformin is the most prescribed and recommended drug for type 2 diabetes mellitus because of its better tolerability, pleiotropic benefits, and cost-effectiveness. Metformin inhibits hepatic glucose production and increases muscle glucose uptake. Metformin is also associated with gastrointestinal side effects like abdominal bloating, flatulence, diarrhea, nausea, and vomiting. Metformin-related gastrointestinal side effe",
+        "score": 0.4602990448474884,
+        "doi": "10.7759/cureus.56828",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 0.9546612501144409,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39415273",
+        "text": "Metal-organic-framework-based sitagliptin-release platform for multieffective radiation-induced intestinal injury targeting therapy and intestinal flora protective capabilities. In patients with abdominal or pelvic tumors, radiotherapy can result in radiation-induced intestinal injury (RIII), a potentially severe complication for which there are few effective therapeutic options. Sitagliptin (SI) is an oral hypoglycemic drug that exhibits antiapoptotic, antioxidant, and anti-inflammatory activity, but how i",
+        "score": 0.49037542939186096,
+        "doi": "10.1186/s12951-024-02854-1",
+        "journal": "Journal of nanobiotechnology",
+        "year": "2024",
+        "rerank_score": -0.9208093285560608,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39029735",
+        "text": "Targeting SIRT1/AMPK/Nrf2/NF-кB by sitagliptin protects against oxidative stress-mediated ER stress and inflammation during ANIT-induced cholestatic liver injury. Intrahepatic cholestasis is a common clinical form of hepatobiliary injury characterized by the intrahepatic accumulation of toxic bile acids. Besides its antidiabetic activity, the dipeptidyl peptidase IV inhibitor sitagliptin (SG) has been recently assigned diverse pharmacological activities and therapeutic potential against different disorders ",
+        "score": 0.4862173795700073,
+        "doi": "10.1016/j.tox.2024.153889",
+        "journal": "Toxicology",
+        "year": "2024",
+        "rerank_score": -2.031564712524414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

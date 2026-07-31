@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glimepiride hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36866496",
+        "text": "Risk of Severe Hypoglycemia With Newer Second-line Glucose-lowering Medications in Older Adults With Type 2 Diabetes Stratified by Known Indicators of Hypoglycemia Risk. Severe hypoglycemia is associated with adverse clinical outcomes. We evaluated the risk of severe hypoglycemia in older adults initiating newer glucose-lowering medications overall and across strata of known indicators of high hypoglycemia risk.",
+        "score": 0.37988904118537903,
+        "doi": "10.1093/gerona/glad075",
+        "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+        "year": "2022",
+        "rerank_score": 4.060689926147461,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39085948",
+        "text": "Severe hypoglycemia in a diabetic patient with pituitary apoplexy: a case report. Hypoglycemia is a common occurrence in diabetic patients. But unlike non diabetic patients, its causes are frequently related to drugs they are receiving to control blood glucose. But this may not always be the case. Here we report a type 2 diabetic patient with severe hypoglycemia owing to acute hypopituitarism secondary to pituitary apoplexy. A 45 year old male diabetic patient from Ethiopia taking 2 mg of oral glimepiride d",
+        "score": 0.3989253640174866,
+        "doi": "10.1186/s13256-024-04642-9",
+        "journal": "Journal of medical case reports",
+        "year": "2024",
+        "rerank_score": 3.641859769821167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40083398",
+        "text": "Insulinoma Mimic: Tramadol-induced Hypoglycemia. Endogenous hyperinsulinemia hypoglycemia has numerous etiologies. The objective of this report is to describe a patient with severe hyperinsulinemic hypoglycemia with no known history of diabetes or hypoglycemia who presented with acute altered mental status. Blood glucose was noted to be 40 mg/dL (2.22 mmol/L) (reference range 65-125 mg/dL; 3.61-6.94 mmol/L). The patient's sulfonylurea screen was negative. Following 1 mg glucagon injection, the patient's glu",
+        "score": 0.4182084798812866,
+        "doi": "10.1210/jcemcr/luaf034",
+        "journal": "JCEM case reports",
+        "year": "2024",
+        "rerank_score": 1.775364637374878,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole CYP2C19 genotype plasma concentration AUC",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:9014204",
+        "text": "CYP2C19 genotype and phenotype determined by omeprazole in a Korean population. Omeprazole (20 mg orally) was given to 103 healthy Korean subjects and blood was taken 3 h after administration. The plasma concentration ratio of omeprazole and hydroxyomeprazole, used as an index of CYP2C19 activity, was bimodally distributed. Thirteen subjects (12.6%) were identified as poor metabolizers (PMs) with an omeprazole hydroxylation ratio of 6.95 or higher. Among the 206 CYP2C19 alleles, CYP2C19*2 and CYP2C19*3 were",
+        "score": 0.40853631496429443,
+        "doi": "10.1097/00008571-199612000-00008",
+        "journal": "Pharmacogenetics",
+        "year": "1996",
+        "rerank_score": 5.348873615264893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.41530394554138184,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 2.009424924850464,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38925553",
+        "text": "Combined effect of CYP2C19 and CYP2D6 genotypes on escitalopram serum concentration and its metabolic ratio in a European patient population. The aim of the present study was to investigate the impact of CYP2D6 genotype on exposure and metabolism of escitalopram in patients stratified by CYP2C19 genotype in a large real-world population. Patients were included from a therapeutic drug monitoring service if they had measured serum concentration of escitalopram and the metabolite, N-desmethyl escitalopram, and",
+        "score": 0.40904197096824646,
+        "doi": "10.1111/bcp.16156",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.9989652633666992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

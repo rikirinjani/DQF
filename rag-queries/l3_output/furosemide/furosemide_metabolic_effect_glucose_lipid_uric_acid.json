@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33356004",
+        "text": "Effect of furosemide on body composition and urinary proteins that mediate tubular sodium and sodium transport-A randomized controlled trial. Furosemide inhibits the sodium potassium chloride cotransporter (NKCC2) in the thick ascending limb of the loop of Henle and increases urinary water and sodium excretion. This study investigates the effect of furosemide on body composition estimated with multifrequency bioimpedance spectroscopy (BIS) technique and urinary proteins from NKCC2.",
+        "score": 0.3823462128639221,
+        "doi": "",
+        "journal": "",
+        "year": "",
+        "rerank_score": 2.8197381496429443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.4119647145271301,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.6360543966293335,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40677309",
+        "text": "Furosemide and Serum Protein-Bound Uremic Toxin Concentrations in Patients With CKD. Furosemide is commonly prescribed to patients with chronic kidney disease (CKD) but may impair the kidney's excretion of protein-bound uremic toxins (PBUTs) via the organic anion transporters 1 and 3 (OAT1 and OAT3). We evaluated the association between furosemide prescription (status and dose level) and the serum concentrations of free OAT1/3-inhibiting uremic toxins (UTs) in patients with CKD. We included 2342 patients wi",
+        "score": 0.39899152517318726,
+        "doi": "10.1016/j.ekir.2025.04.040",
+        "journal": "Kidney international reports",
+        "year": "2024",
+        "rerank_score": -0.4613063931465149,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32879042",
+        "text": "Hypoglycemia in High-Risk Infants Within the Immediate Postnatal Period. The incidence of hypoglycemia in the immediate postnatal period is rising because of the increasing rate of preterm births, maternal diabetes, and maternal obesity. Severe hypoglycemia has been considered a risk factor for neuronal cell death and adverse neurodevelopmental outcomes. The American Academy of Pediatrics (AAP) suggests a goal of ≥45 mg/dL (≥2.5 mmol/L) for infants who are asymptomatic within the first 48 hours. The Pediatr",
+        "score": 0.39784055948257446,
+        "doi": "10.1891/0730-0832.39.5.263",
+        "journal": "Neonatal network : NN",
+        "year": "2020",
+        "rerank_score": 3.9230635166168213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3042485",
+        "text": "Effect of acarbose on glucose and insulin response to sucrose load in reactive hypoglycemia. The aim of the present study was to evaluate the acute effect of acarbose, an alpha-glycosidase inhibitor, on glycemic and insulin response to an oral sucrose load in sixteen patients suffering from idiopathic reactive hypoglycemia. In each subject, two oral sucrose tolerance tests (45 g/m2 body surface) were performed with either placebo or acarbose in a double-blind random order. Compared with placebo, acarbose dr",
+        "score": 0.39836251735687256,
+        "doi": "",
+        "journal": "Diabete & metabolisme",
+        "year": "1988",
+        "rerank_score": 2.489856243133545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40272529",
+        "text": "Severe hypoglycaemia is associated with increased risk of adverse cardiovascular complications in adults with type 1 diabetes: risk mitigation using intermittently scanned continuous glucose monitoring. It has been proposed that severe hypoglycaemia events (SHE) may increase the risk of adverse CVD complications in adults with type 1 diabetes. The aim of this study was to evaluate the risk of CVD complications following SHE in a large cohort of adults with type 1 diabetes, and to compare the risk of post-SH",
+        "score": 0.4266178607940674,
+        "doi": "10.1007/s00125-025-06438-y",
+        "journal": "Diabetologia",
+        "year": "2024",
+        "rerank_score": 2.0955634117126465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide GIP receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "GIP receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39344853",
+        "text": "Tirzepatide, a dual glucose-dependent insulinotropic polypeptide/glucagon-like peptide 1 receptor agonist, exhibits favourable effects on pancreatic β-cells and hepatic steatosis in obese type 2 diabetic db/db mice. Tirzepatide, a dual agonist of glucagon-like peptide receptor and glucose-dependent insulinotropic polypeptide receptor, is expected to exhibit high clinical efficacy in obese type 2 diabetic patients. We evaluated the effects of tirzepatide on pancreatic β-cells and the liver, an insulin-target",
+        "score": 0.33979010581970215,
+        "doi": "10.1111/dom.15972",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 6.039667129516602,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41409973",
+        "text": "Pancreatitis in Patients Receiving Tirzepatide (Mounjaro): A One-Year Audit in a UK District General Hospital. Tirzepatide (Mounjaro) is a dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist increasingly prescribed for type 2 diabetes and obesity due to its efficacy in weight loss and glycaemic control. In US FDA-reviewed clinical trials, pancreatitis occurred rarely, at rates of approximately 0.32-0.39% across all doses, comparable to placebo groups.",
+        "score": 0.33647146821022034,
+        "doi": "10.7759/cureus.96974",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 4.33870267868042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33778934",
+        "text": "Effects of Renal Impairment on the Pharmacokinetics of the Dual GIP and GLP-1 Receptor Agonist Tirzepatide. The pharmacokinetics (PK) and single-dose tolerability of tirzepatide, a dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist being developed for once-weekly treatment of type 2 diabetes (T2D), weight management, and nonalcoholic steatohepatitis, was evaluated in subjects with renal impairment versus healthy subjects with normal renal function.",
+        "score": 0.34088650345802307,
+        "doi": "10.1007/s40262-021-01012-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2021",
+        "rerank_score": 4.121655464172363,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

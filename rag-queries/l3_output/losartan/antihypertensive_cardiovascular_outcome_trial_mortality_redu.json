@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "antihypertensive cardiovascular outcome trial mortality reduction",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10678283",
+        "text": "Trials of antihypertensive treatment--new agenda for the millennium. In 1968 a group of investigators from the US Veterans Association study reported that, compared to placebo, antihypertensive medication dramatically reduces morbidity and mortality in patients whose diastolic blood pressure was 115 mm Hg or higher. Three years later a reduction of morbidity had also been demonstrated in subjects whose diastolic pressure ranged from 95 to 114 mm Hg. In the following decades these findings were confirmed in ",
+        "score": 0.32218754291534424,
+        "doi": "10.1016/s0895-7061(99)00251-4",
+        "journal": "American journal of hypertension",
+        "year": "2000",
+        "rerank_score": 5.304168224334717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41224908",
+        "text": "Population attributable fraction of all-cause mortality due to non-normal blood pressure: results from the 2013 to 2016 baseline survey of the TMM CommCohort Study. Antihypertensive therapy has reduced cardiovascular mortality; however, challenges remain, including residual risk in treated patients and the population burden associated with borderline hypertension. Previous Japanese estimates of the population attributable fraction (PAF) are derived from older cohorts and often lacked stratification by treat",
+        "score": 0.33132147789001465,
+        "doi": "10.1038/s41440-025-02436-0",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": 5.0626420974731445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2941267",
+        "text": "Further analyses of the hypertension detection and follow-up program. The Hypertension Detection and Follow-up Program was a randomised trial to compare all-cause mortality of patients receiving antihypertensive therapy in special clinics with those referred to the usual sources of care. All-cause mortality was significantly reduced overall, and in the mildest hypertensives, by stepped care. This specificity of the antihypertensive effect was shown by the proportionate lowering of stroke deaths, and the per",
+        "score": 0.32284969091415405,
+        "doi": "10.2165/00003495-198600311-00006",
+        "journal": "Drugs",
+        "year": "1986",
+        "rerank_score": 4.476850986480713,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

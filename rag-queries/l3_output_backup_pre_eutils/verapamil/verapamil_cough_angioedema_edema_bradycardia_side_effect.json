@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.42998239398002625,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.4494706988334656,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37475474",
+        "text": "Fludarabine-induced bradycardia in allogeneic hematopoietic stem cell transplantation: A retrospective study. Fludarabine, a purine analog, is getting more attention with the increasing use of reduced intensive conditioning regimens in allogeneic hematopoietic stem cell transplantation (allo-HSCT). The side effect of bradycardia was observed in only a few cases reported in the literature. In clinical practice, bradycardia can be asymptomatic or cause syncope and cardiac arrest. This study aimed to evaluate ",
+        "score": 0.44387224316596985,
+        "doi": "10.1177/10781552231189868",
+        "journal": "Journal of oncology pharmacy practice : official publication of the Internationa",
+        "year": "2024",
+        "rerank_score": -0.5310144424438477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1817622",
+        "text": "Effect of verapamil on right ventricular pressure and atrial tachyarrhythmia after thoracotomy. We have studied the effect of verapamil on the incidence of ECG changes and right ventricular pressures (RVP) in 25 male patients (aged 62 (SD 9) yr) undergoing thoracotomy in a placebo-controlled double-blind trial. Verapamil 0.01 mg kg-1 h-1 (n = 12) or saline (n = 13) i.v. was started after surgery and continued on the first day after operation with oral verapamil 80 mg or placebo, 8-hourly. Haemodynamic data ",
+        "score": 0.4145887792110443,
+        "doi": "10.1093/bja/66.2.205",
+        "journal": "British journal of anaesthesia",
+        "year": "1991",
+        "rerank_score": -1.2562899589538574,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

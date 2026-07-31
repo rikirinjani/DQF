@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Exenatide GLP-1 receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41069310",
+        "text": "Acute effects of GIP and GLP-1 receptor antagonism in totally pancreatectomized individuals: A randomized double-blind, placebo-controlled crossover study. The incretin hormones glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) influence metabolism through strong effects on pancreatic hormone secretion but also in a pancreas-independent manner. Here, we investigated the isolated extrapancreatic effects of endogenous GIP and GLP-1 by applying hormone receptor antagonists ",
+        "score": 0.32340505719184875,
+        "doi": "10.1111/dom.70186",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 6.392642498016357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32803900",
+        "text": "Effect of once-weekly exenatide on estimated glomerular filtration rate slope depends on baseline renal risk: A post hoc analysis of the EXSCEL trial. The effects of glucagon-like peptide-1 receptor agonists (GLP-1RAs) on renal outcomes in patients with type 2 diabetes at high cardiovascular risk are modest or neutral. However, GLP-1RAs may confer clinical benefits in those at high risk of progressive renal function loss. We examined the effects of once-weekly exenatide (EQW) on estimated glomerular filtrat",
+        "score": 0.3120786249637604,
+        "doi": "10.1111/dom.14175",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2020",
+        "rerank_score": 6.08932638168335,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38556323",
+        "text": "Effects of glucagon-like peptide-1 receptor agonists on spermatogenesis-related gene expression in mouse testis and testis-derived cell lines. Glucagon-like peptide-1 (GLP-1) is an incretin released into the gastrointestinal tract after food ingestion, and stimulates insulin secretion from the beta cells of the pancreatic islets. Incretins have recently been reported to have extrapancreatic actions, and they are anticipated to have potential efficacy for conditions such as male infertility as well as diabet",
+        "score": 0.3412385582923889,
+        "doi": "10.1292/jvms.24-0042",
+        "journal": "The Journal of veterinary medical science",
+        "year": "2024",
+        "rerank_score": 5.951755046844482,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

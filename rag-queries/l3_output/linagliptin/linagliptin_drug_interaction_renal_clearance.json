@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Linagliptin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39435882",
+        "text": "Elucidation of DPP-4 involvement in systemic distribution and renal reabsorption of linagliptin by PBPK modeling with a cluster Gauss-Newton method. The dipeptidyl peptidase-4 (DPP-4) inhibitor linagliptin (LNG) exhibits target-mediated drug disposition (TMDD) in clinical settings, characterized by saturable binding to plasma soluble DPP-4 (sDPP-4) and tissue transmembrane DPP-4 (tDPP-4). Previous studies have indicated that saturable renal reabsorption of LNG contributes to its nonlinear urinary excretion ",
+        "score": 0.3912326395511627,
+        "doi": "10.1111/cts.70047",
+        "journal": "Clinical and translational science",
+        "year": "2024",
+        "rerank_score": 4.460121154785156,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38797693",
+        "text": "Linagliptin Mitigates TGF-β1 Mediated Epithelial-Mesenchymal Transition in Tacrolimus-Induced Renal Interstitial Fibrosis via Smad/ERK/P38 and HIF-1α/LOXL2 Signaling Pathways. The dipeptidyl peptidase-4 (DPP-4) inhibitors, a novel anti-diabetic medication family, are renoprotective in diabetes, but a comparable benefit in chronic non-diabetic kidney diseases is still under investigation. This study aimed to elucidate the molecular mechanisms of linagliptin's (Lina) protective role in a rat model of chronic ",
+        "score": 0.45732420682907104,
+        "doi": "10.1248/bpb.b23-00737",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 2.9370415210723877,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38684131",
+        "text": "Unveiling Pharmacokinetics and Drug Interaction of Linagliptin and Pioglitazone HCl in Rat Plasma Using LC-MS/MS. The linagliptin (LIN) and pioglitazone HCl (PIO) combination, currently undergoing phase III clinical trials for diabetes mellitus treatment, demonstrated significant improvements in glycemic control. However, the absence of an analytical method for simultaneous determination in biological fluids highlights a crucial gap. This underscores the pressing need for sensitive bioanalytical methods, em",
+        "score": 0.4463476240634918,
+        "doi": "10.1021/acs.chemrestox.4c00038",
+        "journal": "Chemical research in toxicology",
+        "year": "2024",
+        "rerank_score": 2.649301767349243,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Diltiazem L-type calcium channel off-target binding",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10554090",
+        "text": "Molecular modeling study of diltiazem mimics at L-type calcium channels. A theoretical study was performed to generate a pharmacophore model for chemically diverse structures that specifically interact with the diltiazem binding site of L-type calcium channels.",
+        "score": 0.3446342349052429,
+        "doi": "10.1023/a:1015037800903",
+        "journal": "Pharmaceutical research",
+        "year": "1999",
+        "rerank_score": 6.041438102722168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:7589180",
+        "text": "The binding interactions of Ro 40-5967 at the L-type Ca2+ channel in cardiac tissue. Ro 40-5967 [(1S,2S)-2-[2[3-(2-benzamidopropyl]- methylamino]ethyl]-6-fluoro-1,2,3,4-tetrahydro-1-isopropyl-2-naphthyl- methoxyacetate] is a new Ca2+ channel antagonist active at L-type channels. Radioligand binding studies in cardiac tissue show that Ro 40-5967 does not inhibit 1,4-dihydropyridine binding, but does inhibit diltiazem, desmethoxyverapamil and SR 33557 binding with IC50 values of 8 x 10(-9), 10(-8) and 5 x 10(",
+        "score": 0.34483036398887634,
+        "doi": "10.1016/0014-2999(95)00194-p",
+        "journal": "European journal of pharmacology",
+        "year": "1995",
+        "rerank_score": 4.025941371917725,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8621376",
+        "text": "Molecular determinants of high affinity dihydropyridine binding in L-type calcium channels. The pore-forming alpha1 subunit of L-type voltage-gated Ca2+ channels is pharmacologically modulated by dihydropyridine (DHP) Ca2+ antagonists and agonists. Site-directed mutation of amino acids within transmembrane segments IIIS6 and IVS6 to those characteristic of DHP-insensitive channels revealed 2 mutations in IIIS6 (I1049F and I1052F) and 4 mutations in IVS6 (Y1365I, M1366F, I1372M, and I1373L) with increased KD",
+        "score": 0.3458906412124634,
+        "doi": "10.1074/jbc.271.10.5293",
+        "journal": "The Journal of biological chemistry",
+        "year": "1996",
+        "rerank_score": 3.761226177215576,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

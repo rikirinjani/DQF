@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39480548",
+        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
+        "score": 0.3914284110069275,
+        "doi": "10.1007/s00204-024-03901-4",
+        "journal": "Archives of toxicology",
+        "year": "2024",
+        "rerank_score": 3.1360561847686768,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4274464249610901,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.7811687588691711,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40965513",
+        "text": "Telmisartan Ameliorates Blood-Brain Barrier Disruption in a High-Salt Diet Mouse Model. The disruption of the blood-brain barrier (BBB) in hypertension is a critical pathophysiological event characterized by an increase in barrier permeability, which can potentially lead to severe neurological complications. Telmisartan, an angiotensin II receptor antagonist (ARB), is widely prescribed for the management of hypertension. However, there is limited literature on the specific effects of Telmisartan on BBB disr",
+        "score": 0.43164724111557007,
+        "doi": "10.1002/jbt.70474",
+        "journal": "Journal of biochemical and molecular toxicology",
+        "year": "2025",
+        "rerank_score": 0.3701573610305786,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

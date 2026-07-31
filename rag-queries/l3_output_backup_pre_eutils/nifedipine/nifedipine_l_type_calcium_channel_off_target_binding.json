@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nifedipine L-type calcium channel off-target binding",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41229954",
+        "text": "Molecular insights into nilvadipine-hemoglobin interactions: conformational dynamics and binding mechanisms. Understanding the molecular basis of drug-protein interactions is essential for predicting pharmacokinetics and potential off-target effects. Here, we employ a combined experimental and computational approach to characterize the binding of Nilvadipine (a dihydropyridine calcium channel blocker) to hemoglobin (Hb). Using Soret band absorption and steady-state fluorescence spectroscopy across 298-310 K",
+        "score": 0.4007529616355896,
+        "doi": "10.1039/d5ra04162g",
+        "journal": "RSC advances",
+        "year": "2025",
+        "rerank_score": 3.497262477874756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38870543",
+        "text": "Identifying Key Binding Interactions Between the Cardiac L-Type Calcium Channel and Calmodulin Using Molecular Dynamics Simulations. Defects in the binding of the calcium sensing protein calmodulin (CaM) to the L-type calcium channel (Ca",
+        "score": 0.39396533370018005,
+        "doi": "10.1021/acs.jpcb.4c02251",
+        "journal": "The journal of physical chemistry. B",
+        "year": "2024",
+        "rerank_score": 2.436638832092285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39083161",
+        "text": "Nimodipine attenuates neuroinflammation and delayed apoptotic neuronal death induced by trimethyltin in the dentate gyrus of mice. L-type voltage-gated calcium channels (L-VGCCs) are thought to be involved in epileptogenesis and acute excitotoxicity. However, little is known about the role of L-VGCCs in neuroinflammation or delayed neuronal death following excitotoxic insult. We examined the effects of repeated treatment with the L-VGCC blocker nimodipine on neuroinflammatory changes and delayed neuronal ap",
+        "score": 0.40953993797302246,
+        "doi": "10.1007/s10735-024-10226-0",
+        "journal": "Journal of molecular histology",
+        "year": "2024",
+        "rerank_score": 1.7329931259155273,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

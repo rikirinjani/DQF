@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Gliclazide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40735958",
+        "text": "Predicting High Excess Risk of Hyponatremia Among Thiazide Users. Hyponatremia is a potential serious adverse drug reaction to treatment with thiazide diuretics. This study aimed to determine whether individuals at high risk of developing thiazide-induced hyponatremia can be identified before treatment initiation. A population-based cohort study was conducted in Denmark among individuals aged ≥40 years from 2014 to 2020. Moderate-to-severe hyponatremia (plasma sodium <130 mmol/L) within 120 days of treatmen",
+        "score": 0.4374883472919464,
+        "doi": "10.1093/eurjpc/zwaf474",
+        "journal": "European journal of preventive cardiology",
+        "year": "2025",
+        "rerank_score": 2.3054661750793457,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39773006",
+        "text": "Glycemia Risk Index is Associated With Risk of Albuminuria Among Individuals With Type 1 Diabetes. The glycemia risk index (GRI) is a novel composite continuous glucose monitoring (CGM) metric composed of hypoglycemia and hyperglycemia components and is weighted toward extremes. This study aimed to investigate the association between GRI and the risk of albuminuria in type 1 diabetes. The 90-day CGM tracings of 330 individuals with type 1 diabetes were included in the analysis. Glycemia risk index was divid",
+        "score": 0.4279366731643677,
+        "doi": "10.1177/19322968241310850",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 1.678939938545227,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40083398",
+        "text": "Insulinoma Mimic: Tramadol-induced Hypoglycemia. Endogenous hyperinsulinemia hypoglycemia has numerous etiologies. The objective of this report is to describe a patient with severe hyperinsulinemic hypoglycemia with no known history of diabetes or hypoglycemia who presented with acute altered mental status. Blood glucose was noted to be 40 mg/dL (2.22 mmol/L) (reference range 65-125 mg/dL; 3.61-6.94 mmol/L). The patient's sulfonylurea screen was negative. Following 1 mg glucagon injection, the patient's glu",
+        "score": 0.4396800994873047,
+        "doi": "10.1210/jcemcr/luaf034",
+        "journal": "JCEM case reports",
+        "year": "2024",
+        "rerank_score": 1.5976521968841553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril ACE adverse effect pathway",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:22395404",
+        "text": "Inhibitory effects of enalaprilat on rat cardiac fibroblast proliferation via ROS/P38MAPK/TGF-β1 signaling pathway. Enalaprilat (Ena.), an angiotensin II (Ang II) converting enzyme inhibitor (ACEI), can produce some therapeutic effects on hypertension, ventricular hypertrophy and myocardial remodeling in clinic, but its precise mechanism, especially its signaling pathways remain elusive. In this study, cardiac fibroblasts (CFb) was isolated by the trypsin digestion method; a BrdU proliferation assay was ado",
+        "score": 0.41490235924720764,
+        "doi": "10.3390/molecules17032738",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2012",
+        "rerank_score": 4.960482120513916,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1638712",
+        "text": "Effects of the angiotensin converting enzyme inhibitor enalapril on the long-term progression of left ventricular dysfunction in patients with heart failure. SOLVD Investigators. In patients with heart failure, activation of the renin-angiotensin system is common and has been postulated to provide a stimulus for further left ventricular (LV) structural and functional derangement. We tested the hypothesis that chronic administration of the angiotensin converting enzyme (ACE) inhibitor enalapril prevents or r",
+        "score": 0.4140555262565613,
+        "doi": "10.1161/01.cir.86.2.431",
+        "journal": "Circulation",
+        "year": "1992",
+        "rerank_score": 4.055544376373291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12154520",
+        "text": "[Effect of enalapril on progression of chronic renal insufficiency caused by diabetes and other etiologies: a 2-year study]. Chronic renal failure (CRF) is almost always associated with high arterial blood pressure. Adequate control of hypertension slows down the progression of the disease, Inhibitors of angiotenzin-converting enzyme (ACE inhibitors) have proved to be very efficacious in decreasing high blood pressure. The aim of this study was to assess the influence of ACE inhibitor enalapril on the progr",
+        "score": 0.4146738648414612,
+        "doi": "10.2298/sarh0204087t",
+        "journal": "Srpski arhiv za celokupno lekarstvo",
+        "year": "2002",
+        "rerank_score": 3.7845239639282227,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

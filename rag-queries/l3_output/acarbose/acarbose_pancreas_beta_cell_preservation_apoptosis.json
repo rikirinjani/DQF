@@ -1,0 +1,138 @@
+{
+  "query": {
+    "query": "Acarbose pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10400405",
+        "text": "Rosiglitazone.\n\nRosiglitazone, a thiazolidinedione antidiabetic agent, improves insulin resistance, a key underlying metabolic abnormality in most patients with type 2 (non-insulin-dependent) diabetes mellitus. In animal models of insulin resistance, rosiglitazone decreased plasma glucose, insulin and triglyceride levels and also attenuated or prevented diabetic nephropathy and pancreatic islet cell degeneration. In contrast with troglitazone, rosiglitazone does not induce cytochrome P4503A4 metabolism. It does not interact significantly with nifedipine, oral contraceptives, metformin, digoxin, ranitidine or acarbose. In clinical trials in patients with type 2 diabetes mellitus, rosiglitazone 2 to 12 mg/day (as a single daily dose or 2 divided daily doses) improved glycaemic control, as shown by decreases in fasting plasma glucose and glycosylated haemoglobin (HbA1c). Addition of rosiglitazone 2 to 8 mg/day to existing sulphonylurea, metformin or insulin therapy achieved further reductions in fasting plasma glucose and HbA1c. Oral combinations improved insulin sensitivity and beta-cell function according to a homeostasis model assessment. Consistent with its mechanism of action, rosiglitazone appears to be associated with a low risk of hypoglycaemia (<2% of patients receiving monotherapy). There is no evidence to date that rosiglitazone shares the hepatotoxicity of troglitazone.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "10400405",
+          "journal": "Drugs",
+          "authors": [
+            "Balfour J A",
+            "Plosker G L"
+          ],
+          "pub_date": "1999-Jun",
+          "doi": "10.2165/00003495-199957060-00007",
+          "mesh_terms": [
+            "Animals",
+            "Blood Glucose",
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Polypharmacy",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:38898276",
+        "text": "An alternative broad-specificity pathway for glycan breakdown in bacteria.\n\nThe vast majority of glycosidases characterized to date follow one of the variations of the 'Koshland' mechanisms1 to hydrolyse glycosidic bonds through substitution reactions. Here we describe a large-scale screen of a human gut microbiome metagenomic library using an assay that selectively identifies non-Koshland glycosidase activities2. Using this, we identify a cluster of enzymes with extremely broad substrate specificities and thoroughly characterize these, mechanistically and structurally. These enzymes not only break glycosidic linkages of both α and β stereochemistry and multiple connectivities, but also cleave substrates that are not hydrolysed by standard glycosidases. These include thioglycosides, such as the glucosinolates from plants, and pseudoglycosidic bonds of pharmaceuticals such as acarbose. This is achieved through a distinct mechanism of hydrolysis that involves oxidation/reduction and elimination/hydration steps, each catalysed by enzyme modules that are in many cases interchangeable between organisms and substrate classes. Homologues of these enzymes occur in both Gram-positive and Gram-negative bacteria associated with the gut microbiome and other body parts, as well as other environments, such as soil and sea. Such alternative step-wise mechanisms appear to constitute largely unrecognized but abundant pathways for glycan degradation as part of the metabolism of carbohydrates in bacteria.",
+        "title": "An alternative broad-specificity pathway for glycan breakdown in bacteria.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38898276",
+          "journal": "Nature",
+          "authors": [
+            "Nasseri Seyed Amirhossein",
+            "Lazarski Aleksander C",
+            "Lemmer Imke L"
+          ],
+          "pub_date": "2024-Jul",
+          "doi": "10.1038/s41586-024-07574-y",
+          "mesh_terms": [
+            "Humans",
+            "Acarbose",
+            "Bacteria",
+            "Biocatalysis",
+            "Gastrointestinal Microbiome",
+            "Glucosinolates",
+            "Glycoside Hydrolases",
+            "Hydrolysis",
+            "Metagenome",
+            "Oxidation-Reduction",
+            "Plants",
+            "Polysaccharides",
+            "Seawater",
+            "Soil Microbiology",
+            "Substrate Specificity",
+            "Male"
+          ]
+        }
+      },
+      {
+        "id": "PMID:39322747",
+        "text": "Acarbose enhances the efficacy of immunotherapy against solid tumours by modulating the gut microbiota.\n\nThe crucial role of gut microbiota in shaping immunotherapy outcomes has prompted investigations into potential modulators. Here we show that oral administration of acarbose significantly increases the anti-tumour response to anti-PD-1 therapy in female tumour-bearing mice. Acarbose modulates the gut microbiota composition and tryptophan metabolism, thereby contributing to changes in chemokine expression and increased T cell infiltration within tumours. We identify CD8+ T cells as pivotal components determining the efficacy of the combined therapy. Further experiments reveal that acarbose promotes CD8+ T cell recruitment through the CXCL10-CXCR3 pathway. Faecal microbiota transplantation and gut microbiota depletion assays indicate that the effects of acarbose are dependent on the gut microbiota. Specifically, acarbose enhances the efficacy of anti-PD-1 therapy via the tryptophan catabolite indoleacetate, which promotes CXCL10 expression and thus facilitates CD8+ T cell recruitment, sensitizing tumours to anti-PD-1 therapy. The bacterial species Bifidobacterium infantis, which is enriched by acarbose, also improves response to anti-PD-1 therapy. Together, our study endorses the potential combination of acarbose and anti-PD-1 for cancer immunotherapy.",
+        "title": "Acarbose enhances the efficacy of immunotherapy against solid tumours by modulating the gut microbiota.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39322747",
+          "journal": "Nature metabolism",
+          "authors": [
+            "Zhang Shi-Long",
+            "Wang Xin",
+            "Cai Qing-Qing"
+          ],
+          "pub_date": "2024-Oct",
+          "doi": "10.1038/s42255-024-01137-1",
+          "mesh_terms": [
+            "Animals",
+            "Gastrointestinal Microbiome",
+            "Mice",
+            "Acarbose",
+            "Immunotherapy",
+            "Female",
+            "CD8-Positive T-Lymphocytes",
+            "Neoplasms",
+            "Mice, Inbred C57BL",
+            "Cell Line, Tumor",
+            "Immune Checkpoint Inhibitors",
+            "Programmed Cell Death 1 Receptor"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35263425",
+        "text": "Enhancement of Impaired Olfactory Neural Activation and Cognitive Capacity by Liraglutide, but Not Dapagliflozin or Acarbose, in Patients With Type 2 Diabetes: A 16-Week Randomized Parallel Comparative Study.\n\nThe comparative neuroprotective effects of different antidiabetes drugs have not been characterized in randomized controlled trials. Here, we investigated the therapeutic effects of liraglutide, dapagliflozin, or acarbose treatment on brain functional alterations and cognitive changes in patients with type 2 diabetes.\nThirty-six patients with type 2 diabetes inadequately controlled with metformin monotherapy were randomized to receive liraglutide, dapagliflozin, or acarbose treatment for 16 weeks. Brain functional MRI (fMRI) scan and a battery of cognitive assessments were evaluated pre- and postintervention in all subjects.\nThe 16-week treatment with liraglutide significantly enhanced the impaired odor-induced left hippocampal activation with Gaussian random field correction and improved cognitive subdomains of delayed memory, attention, and executive function (all P < 0.05), whereas dapagliflozin or acarbose did not. Structural equation modeling analysis demonstrated that such improvements of brain health and cognitive function could be partly ascribed to a direct effect of liraglutide on left hippocampal activation (β = 0.330, P = 0.022) and delayed memory (β = 0.410, P = 0.004) as well as to the metabolic ameliorations of reduced waist circumference, decreased body fat ratio, and elevated fasting insulin (all P < 0.05).\nOur head-to-head study demonstrated that liraglutide enhanced impaired brain activation and restored impaired cognitive domains in patients with type 2 diabetes, whereas dapagliflozin and acarbose did not. The results expand the clinical application of liraglutide and provide a novel treatment strategy for individuals with diabetes and a high risk of cognitive decline.",
+        "title": "Enhancement of Impaired Olfactory Neural Activation and Cognitive Capacity by Liraglutide, but Not Dapagliflozin or Acarbose, in Patients With Type 2 Diabetes: A 16-Week Randomized Parallel Comparative Study.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35263425",
+          "journal": "Diabetes care",
+          "authors": [
+            "Cheng Haiyan",
+            "Zhang Zhou",
+            "Zhang Bing"
+          ],
+          "pub_date": "2022-May-01",
+          "doi": "10.2337/dc21-2064",
+          "mesh_terms": [
+            "Acarbose",
+            "Benzhydryl Compounds",
+            "Blood Glucose",
+            "Cognition",
+            "Diabetes Mellitus, Type 2",
+            "Glucosides",
+            "Glycated Hemoglobin",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Liraglutide",
+            "Metformin"
+          ]
+        }
+      }
+    ]
+  }
+}

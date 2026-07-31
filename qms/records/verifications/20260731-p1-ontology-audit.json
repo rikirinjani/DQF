@@ -1,0 +1,19 @@
+{
+  "ver_id": "VER-2026-015",
+  "timestamp": "2026-07-31T16:10:00",
+  "result": "pass",
+  "linked_tasks": [
+    "P1: document locked L4 l4_clinical schema in methodology/framework-ontology.md",
+    "P1: full audit regression against merged api/drugs.json"
+  ],
+  "linked_specs": [
+    "methodology/framework-ontology.md L4 section (updated with l4_clinical schema per class)"
+  ],
+  "evidence_path": [
+    "audit_l3_script.py rerun post-merge: L4 phantom fields = 0, L3 anchors 19/19 (failed 0)",
+    "L0 issues 108 / L2a diffs 265 — pre-existing baseline, unchanged by L4 merge (verified against prior run outputs)",
+    "schema integrity: drugs.json parses, 88/88 drugs carry l4_clinical",
+    "ontology edit verified in-place (lines 60-96: schema block, legacy class table, conventions)"
+  ],
+  "reviewer": "orchestrator"
+}

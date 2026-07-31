@@ -1,0 +1,15 @@
+{
+  "ncr_id": "NCR-2026-014",
+  "timestamp": "2026-07-31T15:45:00",
+  "trigger": "process_violation",
+  "severity": "minor",
+  "trace_id": "retrace-ora1-ah-l4",
+  "agent": "orchestrator",
+  "role": "orchestrator",
+  "summary": "L4 quantification deliverable (27 antihypertensive l4_clinical values) produced by read-only oracle lane ora-1 was never persisted to disk; payload lived only in the ephemeral session buffer and was lost on lane close.",
+  "root_cause": "5-Why: (1) deliverable produced in oracle lane's response buffer only; (2) oracle lane is read-only, cannot write JSON files itself; (3) orchestrator dispatched a write-required quantification task to a read-only lane without a persistence plan; (4) orchestrator did not verify the full payload was captured inside the returned task result before closing the lane; (5) assumption that long JSON survives in the ephemeral response buffer. Root cause: lane-role persistence mismatch not detected at dispatch time.",
+  "impact": "Required full regeneration via fresh lane ora-5 (~40 min). Final deliverable unaffected (regenerated values merged and spot-check APPROVE). Wasted 1 lane + 2 mis-routed resume attempts (ora-3, ora-4).",
+  "corrective_action": "CAPA-2026-009: read-only specialist lanes must persist deliverables to a permitted path themselves, or the orchestrator must require the full payload inside the returned task result before lane close. Tracked in qms/capa/open/.",
+  "status": "closed",
+  "linked_failure": "C:\\Users\\think\\self-harness\\failures\\20260731-process-ora1-payload-loss.json"
+}

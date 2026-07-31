@@ -1,0 +1,81 @@
+{
+  "query": {
+    "query": "Acarbose drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:37365290",
+        "text": "Acarbose suppresses symptoms of mitochondrial disease in a mouse model of Leigh syndrome.\n\nMitochondrial diseases represent a spectrum of disorders caused by impaired mitochondrial function, ranging in severity from mortality during infancy to progressive adult-onset disease. Mitochondrial dysfunction is also recognized as a molecular hallmark of the biological ageing process. Rapamycin, a drug that increases lifespan and health during normative ageing, also increases survival and reduces neurological symptoms in a mouse model of the severe mitochondrial disease Leigh syndrome. The Ndufs4 knockout (Ndufs4-/-) mouse lacks the complex I subunit NDUFS4 and shows rapid onset and progression of neurodegeneration mimicking patients with Leigh syndrome. Here we show that another drug that extends lifespan and delays normative ageing in mice, acarbose, also suppresses symptoms of disease and improves survival of Ndufs4-/- mice. Unlike rapamycin, acarbose rescues disease phenotypes independently of inhibition of the mechanistic target of rapamycin. Furthermore, rapamycin and acarbose have additive effects in delaying neurological symptoms and increasing maximum lifespan in Ndufs4-/- mice. We find that acarbose remodels the intestinal microbiome and alters the production of short-chain fatty acids. Supplementation with tributyrin, a source of butyric acid, recapitulates some effects of acarbose on lifespan and disease progression, while depletion of the endogenous microbiome in Ndufs4-/- mice appears to fully recapitulate the effects of acarbose on healthspan and lifespan in these animals. To our knowledge, this study provides the first evidence that alteration of the gut microbiome plays a significant role in severe mitochondrial disease and provides further support for the model that biological ageing and severe mitochondrial disorders share underlying common mechanisms.",
+        "title": "Acarbose suppresses symptoms of mitochondrial disease in a mouse model of Leigh syndrome.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "37365290",
+          "journal": "Nature metabolism",
+          "authors": [
+            "Bitto Alessandro",
+            "Grillo Anthony S",
+            "Ito Takashi K"
+          ],
+          "pub_date": "2023-Jun",
+          "doi": "10.1038/s42255-023-00815-w",
+          "mesh_terms": [
+            "Mice",
+            "Animals",
+            "Leigh Disease",
+            "Acarbose",
+            "Mitochondrial Diseases",
+            "Mitochondria",
+            "Sirolimus",
+            "Disease Models, Animal",
+            "Electron Transport Complex I"
+          ]
+        }
+      },
+      {
+        "id": "PMID:8893066",
+        "text": "Acarbose: an alpha-glucosidase inhibitor.\n\nThe chemistry, pharmacology, pharmacokinetics, and clinical efficacy of acarbose, a new antidiabetic agent, are reviewed. Acarbose reversibly inhibits intestinal alpha-glucosidases, enzymes responsible for the metabolism of complex carbohydrates into absorbable monosaccharide units. This action results in a diminished and delayed rise in blood glucose following a meal, resulting in a reduction in post-prandial hyperglycemia, area under the glucose concentration-time curve, and glycosylated hemoglobin. Other effects include a reduction in postprandial insulin and variable changes in plasma lipid concentrations. In placebo-controlled trials, acarbose caused significant improvements in glycemic control indicators, including glycosylated hemoglobin. Acarbose has demonstrated additional glycemic control when added to other antidiabetic therapies, including sulfonylureas and insulin. Efficacy of acarbose appears to be comparable to or slightly less than that of sulfonylureas or metformin, although it has not been compared with maximal dose of these agents. The most commonly reported adverse drug reactions with acarbose are abdominal pain, diarrhea, and flatulence, which tend to lessen with time. Acarbose may affect the bioavailability of metformin and may be less effective when used in conjunction with intestinal adsorbents and digestive enzyme preparations. Concurrent use with hypoglycemic agents (sulfonylureas and insulin) may cause an increased frequency of hypoglycemia. Acarbose should not be used in individuals with certain intestinal disorders, including inflammatory bowel disease. The dosage should start at 25 mg one to three times daily given with the first bite of each main meal and should be adjusted to a maximum of 50 mg three times daily for patients weighing up to 60 kg or 100 mg three times daily for heavier patients. Acarbose may be considered for first-line antidiabetic therapy in certain patients and may be useful as combination therapy in selected instances. Acarbose is efficacious in improving metabolic control in non-insulin-dependent diabetes mellitus. Further evaluation of its effects on the long-term complications of diabetes is needed.",
+        "title": "Acarbose: an alpha-glucosidase inhibitor.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "8893066",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Martin A E",
+            "Montgomery P A"
+          ],
+          "pub_date": "1996-Oct-01",
+          "doi": "10.1093/ajhp/53.19.2277",
+          "mesh_terms": [
+            "Acarbose",
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Glycoside Hydrolase Inhibitors",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Trisaccharides"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35603275",
+        "text": "Unhelpful microbes inactivate diabetes drug.\n\nDrugs can modify the microbiome and, reciprocally, the microbiome can impact drug efficacy. A recent study in Nature identifies a potential mechanism through which oral and gut bacteria selectively inhibit the antidiabetic drug acarbose.",
+        "title": "Unhelpful microbes inactivate diabetes drug.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35603275",
+          "journal": "Communications medicine",
+          "authors": [
+            "Abbott Ben"
+          ],
+          "pub_date": "2022",
+          "doi": "10.1038/s43856-021-00068-2",
+          "mesh_terms": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "query": {
+    "query": "Calcium Carbonate tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1666497",
+        "text": "Temafloxacin pharmacokinetics in subjects with normal and impaired renal function.\n\nThe pharmacokinetics of temafloxacin were investigated following oral administration of single 400-mg doses to 6 normal subjects and 18 subjects with various degrees of impaired renal function. Renal impairment did not significantly affect the peak concentration, time to peak concentration, or the nonrenal clearance of temafloxacin. Both renal clearance (CLR) and total apparent clearance (CLT/F, where F represents the fraction of dose absorbed) of temafloxacin were highly correlated with creatinine clearance (CLCR). The regression equations were as follows: CLR = 0.85.CLCR, with R2 = 0.907, and CLT/F = 56.0 + 0.92.CLCR, with R2 = 0.656. The half-life (mean +/- standard deviation) increased from 10.6 +/- 2.4 h in the normal volunteers to 24.6 +/- 7.3 h in the subjects with a CLCR of less than 10 ml/min; the respective CLT/F decreased from 169 +/- 58 to 70 +/- 27 ml/min. Compared with the CLT/F in the subjects with normal renal function, CLT/F was reduced 60% in subjects with a CLCR of less than 40 ml/min, indicating that the dosage should be reduced by at least one-half for patients with comparable impairment. For the subjects on chronic hemodialysis, most of the variability in the nonrenal clearance and the terminal-phase rate constant of temafloxacin was associated with the quantity of calcium carbonate and related medication taken for the treatment of hyperphosphatemia. Supplemental dosage is not required for patients undergoing hemodialysis, since the distribution of temafloxacin in tissue is extensive and the recoveries from 4-h dialysis sessions accounted for less than 10% of the drug present at the start of the dialysis.",
+        "title": "Temafloxacin pharmacokinetics in subjects with normal and impaired renal function.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "1666497",
+          "journal": "Antimicrobial agents and chemotherapy",
+          "authors": [
+            "Granneman G R",
+            "Braeckman R",
+            "Kraut J"
+          ],
+          "pub_date": "1991-Nov",
+          "doi": "10.1128/AAC.35.11.2345",
+          "mesh_terms": [
+            "Adult",
+            "Aged",
+            "Anti-Infective Agents",
+            "Fluoroquinolones",
+            "Half-Life",
+            "Humans",
+            "Kidney Diseases",
+            "Male",
+            "Middle Aged",
+            "Quinolones",
+            "Renal Dialysis",
+            "Tissue Distribution"
+          ]
+        }
+      }
+    ]
+  }
+}

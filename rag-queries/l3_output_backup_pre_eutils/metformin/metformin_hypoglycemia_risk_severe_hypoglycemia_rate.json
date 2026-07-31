@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40047521",
+        "text": "Severe hypoglycemia and hypothermia in massive metformin overdose. Metformin is a biguanide medication thought to contribute to increased insulin sensitivity. It does not induce insulin release or act via insulin receptors, so it is not considered a common cause of hypoglycemia, even in overdose. However, massive metformin overdoses may be associated with severe hypoglycemia as well as hypothermia. Four patients who had hypoglycemia after metformin overdoses are presented. None had access to other diabetic ",
+        "score": 0.3675069808959961,
+        "doi": "10.1080/15563650.2025.2472948",
+        "journal": "Clinical toxicology (Philadelphia, Pa.)",
+        "year": "2025",
+        "rerank_score": 5.430367469787598,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41501417",
+        "text": "Clozapine impaired the hypoglycemic effect of metformin by inhibiting hepatic organic cation transporter 1 (OCT1). Atypical antipsychotics often cause hyperglycemia, with clozapine showing the highest risk. Metformin is a first-line medication for managing diabetes or prediabetes and is often used to control clozapine-induced hyperglycemia. Clinical studies, however, have reported metformin resistance in some clozapine-treated patients, but the underlying mechanism remains unclear. In this study, we investi",
+        "score": 0.3836074769496918,
+        "doi": "10.1038/s41401-025-01707-3",
+        "journal": "Acta pharmacologica Sinica",
+        "year": "2025",
+        "rerank_score": 3.2285587787628174,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39546502",
+        "text": "Glycemia reduction in type 2 diabetes-Hypoglycemia outcomes: A randomized clinical trial. Hypoglycemia is a major concern in type 2 diabetes (T2DM), but little is known about its likelihood compared across common therapies. We compared the likelihood of hypoglycemia among metformin-treated patients with T2DM randomized to the addition of one of 4 common therapies. Randomized, controlled trial of 5,047 participants with T2DM of <10 years' duration, hemoglobin A1c (HbA1c) 6.8-8.5% (50.8-69.4 mmol/mol). Random",
+        "score": 0.38628172874450684,
+        "doi": "10.1371/journal.pone.0309907",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 3.1755475997924805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

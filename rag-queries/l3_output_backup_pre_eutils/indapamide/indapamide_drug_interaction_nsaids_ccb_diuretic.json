@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39022172",
+        "text": "Prescription Trends of Thiazide Diuretics in a Canadian Primary Care Population From 2015 to 2021. Hypertension Canada 2017 guidelines favoured the use of thiazide (TZ)-like diuretics, such as CLTD (chlorthalidone) and indapamide (IND) over hydrochlorothiazide (HCTZ). Health Canada warned in 2019 that HCTZ may be associated with increased risk of skin cancer. Our study looked at the changes in TZ prescriptions from 2015 to 2021 in Ontario, Canada. A retrospective cohort study was conducted of adults with hy",
+        "score": 0.44968345761299133,
+        "doi": "10.1016/j.cjco.2024.03.001",
+        "journal": "CJC open",
+        "year": "2024",
+        "rerank_score": 0.2715080678462982,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40159210",
+        "text": "[A case of hyponatremia induced by the thiazide-like diuretic indapamide in an elderly woman]. A 72-year-old woman with a history of hypertension who had already been taking calcium channel blockers and angiotensin II receptor blockers was prescribed additional indapamide (1 mg/day) due to inadequate blood pressure control. Two weeks later, she experienced loss of appetite and fatigue. Seeking medical attention, she was diagnosed with significant hyponatremia with a serum sodium level of 110 mEq/L at a loca",
+        "score": 0.40181195735931396,
+        "doi": "10.3143/geriatrics.62.88",
+        "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+        "year": "2025",
+        "rerank_score": -0.3735949695110321,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4609861969947815,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.5261637568473816,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

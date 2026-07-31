@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Captopril ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20194569",
+        "text": "Synergistic inhibitory effect of angiotensin II receptor blocker and thiazide diuretic on the tissue renin-angiotensin-aldosterone system. ARBs are conceptually more potent in a high renin state than in a low renin state at blood pressure reduction and cardiovascular protection, whereas the potency of thiazide diuretics in the contrary. However, the additive effect of the agents when used in combination remains unclear. Thus, the goal of the present review was to analyse available data to explain the mechan",
+        "score": 0.39804011583328247,
+        "doi": "10.1177/1470320310361832",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2010",
+        "rerank_score": 1.2247806787490845,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4238058030605316,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.562227725982666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20104189",
+        "text": "Comparative vascular and renal tubular effects of angiotensin II receptor blockers combined with a thiazide diuretic in humans. The goal of this study was to investigate whether angiotensin II receptor blockers (ARBs) induce a comparable blockade of AT1 receptors in the vasculature and in the kidney when the renin-angiotensin system is activated by a thiazide diuretic.",
+        "score": 0.3990772068500519,
+        "doi": "10.1097/HJH.0b013e3283346be1",
+        "journal": "Journal of hypertension",
+        "year": "2010",
+        "rerank_score": 0.14889129996299744,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

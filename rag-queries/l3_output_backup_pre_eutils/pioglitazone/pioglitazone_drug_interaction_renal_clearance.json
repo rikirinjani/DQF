@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pioglitazone drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38935212",
+        "text": "Protective effects of pioglitazone in renal ischemia-reperfusion injury (RIRI): focus on oxidative stress and inflammation. Renal ischemia-reperfusion injury (RIRI) is a critical phenomenon that compromises renal function and is the most serious health concern related to acute kidney injury (AKI). Pioglitazone (Pio) is a known agonist of peroxisome proliferator-activated receptor-gamma (PPAR-γ). PPAR-γ is a nuclear receptor that regulates genes involved in inflammation, metabolism, and cellular differentiat",
+        "score": 0.44340217113494873,
+        "doi": "10.1007/s10157-024-02525-3",
+        "journal": "Clinical and experimental nephrology",
+        "year": "2024",
+        "rerank_score": 3.5746281147003174,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41037918",
+        "text": "Pioglitazone improves tamoxifen-induced renal injury in rat model through modulating oxidative stress, inflammation, and apoptosis signaling. One prevalent chemotherapeutic medication used to treat breast cancer is tamoxifen (TAM), and several off-label uses. However, when used as an antineoplastic drug in clinical settings, it causes harmful cellular effects such as renal damage. The mechanisms underlying TAM-induced kidney injury primarily involve oxidative stress and inflammatory pathways. Pioglitazone (",
+        "score": 0.4250732660293579,
+        "doi": "10.1016/j.tice.2025.103154",
+        "journal": "Tissue & cell",
+        "year": "2025",
+        "rerank_score": 3.1943092346191406,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38684131",
+        "text": "Unveiling Pharmacokinetics and Drug Interaction of Linagliptin and Pioglitazone HCl in Rat Plasma Using LC-MS/MS. The linagliptin (LIN) and pioglitazone HCl (PIO) combination, currently undergoing phase III clinical trials for diabetes mellitus treatment, demonstrated significant improvements in glycemic control. However, the absence of an analytical method for simultaneous determination in biological fluids highlights a crucial gap. This underscores the pressing need for sensitive bioanalytical methods, em",
+        "score": 0.421275794506073,
+        "doi": "10.1021/acs.chemrestox.4c00038",
+        "journal": "Chemical research in toxicology",
+        "year": "2024",
+        "rerank_score": 2.368194341659546,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

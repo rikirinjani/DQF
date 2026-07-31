@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40571872",
+        "text": "The Impact of Drug Properties and Severity of Obesity on Renal Drug Clearance Through Glomerular Filtration and Active Tubular Secretion: A Systematic Analysis Using PBPK Modeling. The influence of obesity on renal drug clearance (CLr) remains difficult to predict. This study quantifies obesity-related alterations in CLr for drugs eliminated via glomerular filtration (GF/CL A physiologically-based pharmacokinetic (PBPK) approach was used to simulate CL CLr through GF and ATS increased with BMI, albeit to di",
+        "score": 0.411165714263916,
+        "doi": "10.1007/s11095-025-03885-5",
+        "journal": "Pharmaceutical research",
+        "year": "2025",
+        "rerank_score": 1.6831086874008179,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40761345",
+        "text": "Pharmacokinetics Study of Herb-Drug Interaction of  Based on the establishment and validation of a UPLC-MS/MS method for detecting glipizide in beagle plasma, the herb-drug interaction (HDI) between berberine and glipizide was studied. After gradient elution separation of glipizide and internal standard, multiple reaction monitoring was used for detection in positive ion mode. The ion reactions used for quantitative analysis were glipizide m/z 446.0 ⟶ 321.0 and IS m/z 307.1 ⟶ 220.0. Six beagle dogs were tre",
+        "score": 0.44222038984298706,
+        "doi": "10.1155/ianc/7941435",
+        "journal": "International journal of analytical chemistry",
+        "year": "2025",
+        "rerank_score": 1.0975748300552368,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39161610",
+        "text": "Role of age and sex in the incidence of adverse effects among diabetic patients treated with glipizide. Glipizide is an antidiabetic drug that belongs to a class of medication known as sulfonylureas. It is considered one of the highly prescribed antidiabetic drugs for the treatment of type II diabetes in patients following a kidney transplant. It lowers blood glucose levels by causing the release of insulin from β-cells in the pancreas. Its main metabolizing pathway is through the liver. It has several adve",
+        "score": 0.44069430232048035,
+        "doi": "10.3892/etm.2024.12680",
+        "journal": "Experimental and therapeutic medicine",
+        "year": "2024",
+        "rerank_score": 1.0377525091171265,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

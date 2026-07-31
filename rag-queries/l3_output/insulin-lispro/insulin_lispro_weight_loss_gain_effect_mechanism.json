@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro weight loss gain effect mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41401904",
+        "text": "Effects of lithium therapy on blood glucose and insulin levels in individuals with bipolar disorder: A systematic review. Lithium is the gold-standard pharmacotherapy for both acute episodes and long-term management of bipolar disorder (BD). Lithium treatment is associated with metabolic changes including weight gain; however, the exact mechanism for this is poorly understood. This systematic review assesses the effects of lithium on glucose, glucose-tolerance, and insulin in persons with BD. A systematic s",
+        "score": 0.39484086632728577,
+        "doi": "10.1016/j.jad.2025.120891",
+        "journal": "Journal of affective disorders",
+        "year": "2024",
+        "rerank_score": -0.7363216876983643,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40815068",
+        "text": "Fully closed-loop control with ultra-rapid versus standard insulin lispro: A randomised crossover study simulating missed meal boluses. Ultra-rapid insulin lispro (URIL) is associated with faster insulin absorption and earlier offset than standard insulin lispro (IL). This study evaluated whether URIL improves glucose control in a fully closed-loop setting over an 8-h period compared to IL under conditions simulating a missed meal bolus. In this open-label, randomised crossover trial, 18 adults with type 1 ",
+        "score": 0.40179866552352905,
+        "doi": "10.1111/dme.70122",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2025",
+        "rerank_score": -1.507932186126709,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39163283",
+        "text": "Effects of Weight Loss and Weight Maintenance on Lipoprotein Insulin Resistance Scores in Adults with Overweight and Obesity.",
+        "score": 0.38754361867904663,
+        "doi": "10.1089/met.2023.0180",
+        "journal": "Metabolic syndrome and related disorders",
+        "year": "2024",
+        "rerank_score": -1.9169602394104004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38747311",
+        "text": "Integrated metabolomics analysis reveals mechanistic insights into variability in blood pressure response to thiazide diuretics and beta blockers. Hypertensive patients with a higher proportion of genetic West African ancestry (%GWAA) have better blood pressure (BP) response to thiazide diuretics (TDs) and worse response to β-blockers (BBs) than those with lower %GWAA, associated with their lower plasma renin activity (PRA). TDs and BBs are suggested to reduce BP in the long term through vasodilation via in",
+        "score": 0.4468154311180115,
+        "doi": "10.1111/cts.13816",
+        "journal": "Clinical and translational science",
+        "year": "2024",
+        "rerank_score": -0.037302903831005096,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41207564",
+        "text": "Pharmacokinetic-guided dose reduction of emicizumab in congenital hemophilia A: interim analysis of the DosEmi study. Emicizumab provides effective prophylaxis for hemophilia A (HA), but its cost puts a burden on health care systems. Pharmacokinetic (PK)-pharmacodynamic analyses suggest that emicizumab is effective at lower trough concentrations (Ctrough) than the mean 55 μg/mL reported with conventional dosing. To perform an interim analysis comparing bleeding control during 6 months of conventional emiciz",
+        "score": 0.43911293148994446,
+        "doi": "10.1016/j.jtha.2025.10.029",
+        "journal": "Journal of thrombosis and haemostasis : JTH",
+        "year": "2025",
+        "rerank_score": -1.0195919275283813,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40611289",
+        "text": "Green HPLC strategy for quantification of carvedilol and hydrochlorothiazide in cardiac medications with in-vitro dissolution kinetics and impurity profiling. The introduction of new pharmaceutical formulations necessitates the development of a trustworthy analytical approach capable of quantifying active ingredients in various quality control procedures. A fixed dosage combination of carvedilol (CAR) and hydrochlorothiazide (HCT) has been introduced to treat hypertension with potential recommendation for d",
+        "score": 0.4434565305709839,
+        "doi": "10.1186/s13065-025-01559-2",
+        "journal": "BMC chemistry",
+        "year": "2025",
+        "rerank_score": -1.034422755241394,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

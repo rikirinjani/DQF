@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4036793112754822,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.1902257204055786,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39359755",
+        "text": "Corticosteroid-induced bradycardia following high-dose methylprednisolone administration: a case report. Besides their wide use in the clinical field due to their anti-inflammatory and immune-modulating effect, corticosteroids still have a lot of adverse effects. The most common adverse effects are hyperglycemia, hypertension, osteoporosis, psychosis, immunosuppression, weight gain, and hyperlipidemia. Another important side effect is cardiac arrhythmias. We report a case of a 43-year-old woman with multipl",
+        "score": 0.4571542739868164,
+        "doi": "10.1097/MS9.0000000000002530",
+        "journal": "Annals of medicine and surgery (2012)",
+        "year": "2024",
+        "rerank_score": -2.2793047428131104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40786263",
+        "text": "A Rare Case of Idiopathic Angioedema Associated With Amlodipine Use. Angioedema is a self-limited, non-pitting edema of subcutaneous or submucosal tissues often affecting the face, lips, oral cavity, and airway. It may be histamine or bradykinin-mediated and is most commonly triggered by allergic reactions, medications, or systemic conditions. Drug-induced angioedema is frequently associated with angiotensin-converting enzyme (ACE) inhibitors, whereas calcium channel blockers (CCBs) like amlodipine are rare",
+        "score": 0.416334867477417,
+        "doi": "10.7759/cureus.87661",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -2.6242172718048096,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril ACE adverse effect pathway",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41603922",
+        "text": "Repurposing ramipril to mitigate EMT-like transition in endometriosis by PI3K/AKT/S6K1 signalling pathway: a study in endometriosis induced rats. Endometriosis, an atypical benign disorder, may disrupt epithelial-mesenchymal transition (EMT) due to a dysregulated balance between matrix metalloproteinases (MMPs) and their inhibitors. Ramipril, an angiotensin converting enzyme (ACE) inhibitor, is crucial in mediating angiogenesis, inflammation, oxidative stress, and apoptosis. In the current work, we investig",
+        "score": 0.4415367841720581,
+        "doi": "10.1007/s00210-026-05030-4",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": 4.222443580627441,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40849780",
+        "text": "The Antioxidant and Anti-lipidemic Potential of Angiotensin-converting Enzyme Inhibitor (Ramipril) in L-NAME Hypertensive Rats. Hypertension is associated with oxidative disturbances and often coexists with metabolic disorders like hyperlipidemia. Some antihypertensive drugs, particularly angiotensin- converting enzyme (ACE) inhibitors, offer benefits beyond lowering blood pressure by addressing related conditions. This study aimed to investigate the effects of ACE inhibitors on oxidative stress and dyslipi",
+        "score": 0.4321087598800659,
+        "doi": "10.2174/0118715257375839250811064453",
+        "journal": "Cardiovascular & hematological agents in medicinal chemistry",
+        "year": "2025",
+        "rerank_score": 3.1416313648223877,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20180980",
+        "text": "Allergic reaction related to ramipril use: a case report. Angiotensin-converting enzyme (ACE) inhibitors are widely prescribed for patients with diabetes as a nephroprotector drug or to treat hypertension. Generally they are safe for clinical practice, but the relationship between these drugs and angioedema is known. The exact mechanism for ACE inhibitors-induced angioedema is not clear and it is still a matter of discussion.",
+        "score": 0.41718602180480957,
+        "doi": "10.1186/1758-5996-2-4",
+        "journal": "Diabetology & metabolic syndrome",
+        "year": "2009",
+        "rerank_score": 2.5812721252441406,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.39278939366340637,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 1.13596510887146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39387595",
+        "text": "Preoperative Glycosylated Hemoglobin A1C Impacts Long-Term Outcomes Following Curative-Intent Resection of Nonfunctional Gastroenteropancreatic Neuroendocrine Tumors. To investigate the impact of preoperative glycosylated hemoglobin A1C (HbA1c) among patients following curative-intent resection of nonfunctional gastroentropancreatic neuroendocrine tumors (GEP-NETs). Patients who underwent curative-intent resection for GEP-NETs from 2000 to 2020 were identified from the US Neuroendocrine Tumor Study Group (U",
+        "score": 0.39873170852661133,
+        "doi": "10.1002/jso.27951",
+        "journal": "Journal of surgical oncology",
+        "year": "2024",
+        "rerank_score": -0.6563014388084412,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40615134",
+        "text": "Abrupt decrease in haemoglobin A1C as the first hint of autoimmune haemolytic anaemia. Haemolysis shortens erythrocyte life span, thereby reducing the normal accumulation of glycated haemoglobin. We present a case of a patient with diabetes mellitus who, on routine follow-up to the primary care clinic, was found to have a notable decrease in haemoglobin A1C (HbA1C) without changes in medications, diet or exercise habits. A fructosamine assay indicated that the patient's serum glucose was not well-controlled",
+        "score": 0.3915008008480072,
+        "doi": "10.1136/bcr-2025-265575",
+        "journal": "BMJ case reports",
+        "year": "2025",
+        "rerank_score": -0.9961506128311157,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

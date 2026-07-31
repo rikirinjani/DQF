@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40235086",
+        "text": "The Effect of Sacubitril/Valsartan on Supraventricular and Ventricular Arrhythmias in Patients With Heart Failure. Patients with heart failure with reduced ejection fraction (HFrEF) frequently experience electrical disturbances, such as ventricular or atrial fibrillation (AF). Sacubitril/Valsartan (SV) therapy has been linked to lower rates of mortality, ventricular tachycardia (VT), and ventricular fibrillation (VF), with decreased reliance on implantable cardioverter-defibrillator (ICD) therapy. However, ",
+        "score": 0.4326307773590088,
+        "doi": "10.1111/anec.70081",
+        "journal": "Annals of noninvasive electrocardiology : the official journal of the Internatio",
+        "year": "2025",
+        "rerank_score": 2.3343653678894043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40268473",
+        "text": "Effects of Sacubitril/Valsartan on Myocardial Tissue in Heart Failure With Left Ventricular Ejection Fraction Below 50. The effects of sacubitril/valsartan (angiotensin receptor-neprilysin inhibitor [ARNI]) on myocardial tissue in heart failure (HF) with left ventricular ejection fraction (LVEF) <50% remain unclear. Sixty-four HF outpatients with LVEF <50% were randomized to ARNI (switching from an angiotensin-converting enzyme inhibitor/angiotensin receptor blocker [ACEi/ARB] to ARNI) or control (continuin",
+        "score": 0.4572626054286957,
+        "doi": "10.1253/circj.CJ-24-0934",
+        "journal": "Circulation journal : official journal of the Japanese Circulation Society",
+        "year": "2025",
+        "rerank_score": 0.41422557830810547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35470677",
+        "text": "Effect of Sacubitril/Valsartan on the Right Ventricular Function and Pulmonary Hypertension in Patients With Heart Failure With Reduced Ejection Fraction: A Systematic Review and Meta-Analysis of Observational Studies. Background Sacubitril/valsartan (S/V) demonstrated significant effects in improving left ventricular performance and remodeling in patients with heart failure with reduced ejection fraction. However, its effects on the right ventricle remain unclear. This systematic review and meta-analysis a",
+        "score": 0.41324472427368164,
+        "doi": "10.1161/JAHA.121.024449",
+        "journal": "Journal of the American Heart Association",
+        "year": "2022",
+        "rerank_score": -0.08618548512458801,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.4372127950191498,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 3.2246360778808594,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40786993",
+        "text": "Outpatient Treatment of Postbariatric Hypoglycemia With Canagliflozin. The goal of this study was to examine canagliflozin's efficacy in treating postbariatric hypoglycemia (PBH) in a real-world setting. We hypothesized that canagliflozin, a sodium-glucose cotransporter 1/2 inhibitor, would reduce postprandial hyperglycemia and hypoglycemia. Retrospective analysis was performed on continuous glucose monitor data of 4 patients (3 females and 1 male) with PBH from Roux-en-Y gastric bypass who took canaglifloz",
+        "score": 0.40825873613357544,
+        "doi": "10.1016/j.aed.2025.03.008",
+        "journal": "AACE endocrinology and diabetes",
+        "year": "2025",
+        "rerank_score": 1.7323229312896729,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40924111",
+        "text": "Time below range alone is insufficient to identify severe hypoglycaemia risk in type 1 diabetes-the critical role of hypoglycaemia awareness: results from the SFDT1 study. Severe hypoglycaemia events (SHE) remain frequent in people with type 1 diabetes despite advanced diabetes technologies. We examined whether time below range (TBR) 3.9 mmol/l (70 mg/dl; TBR70) or 3.0 mmol/l (54 mg/dl; TBR54) is associated with future SHE risk and whether impaired awareness of hypoglycaemia (IAH) modifies this relationship",
+        "score": 0.4298641085624695,
+        "doi": "10.1007/s00125-025-06536-x",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 1.0072252750396729,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

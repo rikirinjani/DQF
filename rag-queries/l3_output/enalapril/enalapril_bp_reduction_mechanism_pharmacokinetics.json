@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39934586",
+        "text": "Clinical Exploration and Physiologically Based Modelling of the Impact of Hepatic Impairment on Entrectinib Pharmacokinetics. This study investigates the pharmacokinetics (PK) of entrectinib and its metabolite M5 (CYP3A4 substrates) in patients with hepatic impairment (HI) and applies physiologically based pharmacokinetic (PBPK) modelling to understand the observed changes mechanistically. After a single oral administration of entrectinib at 100 mg, measured plasma concentrations for entrectinib and M5 in c",
+        "score": 0.40108126401901245,
+        "doi": "10.1007/s40262-024-01468-y",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": -3.1843690872192383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38853715",
+        "text": "Pharmacokinetics and Bioequivalence of Vardenafil Hydrochloride in Healthy Chinese Volunteers. Vardenafil hydrochloride tablet is an inhibitor of phosphodiesterase type 5, primarily for the treatment of erectile dysfunction. This postprandial study evaluated the pharmacokinetics and bioequivalence of the test and reference formulations of vardenafil hydrochloride tablets in healthy Chinese volunteers. An open, randomized, single-center, single-dose, 2-period, 2-sequence bioequivalence test was conducted on ",
+        "score": 0.4033927619457245,
+        "doi": "10.1002/cpdd.1432",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -3.4152772426605225,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40427240",
+        "text": "Population Pharmacokinetics of Enrofloxacin in  This study aimed to investigate the PPK of EF in largemouth bass after oral and intravenous administration based on a nonlinear mixed effect model. Samples were collected using the sparse sampling method at pre-designed time points determined by high-performance liquid chromatography with a fluorescent detector. The initial PK parameters were estimated by reference search and the calculation of a naïve pooled approach. The covariate model included a variation ",
+        "score": 0.4120602607727051,
+        "doi": "10.3390/ani15101362",
+        "journal": "Animals : an open access journal from MDPI",
+        "year": "2025",
+        "rerank_score": -4.9089250564575195,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

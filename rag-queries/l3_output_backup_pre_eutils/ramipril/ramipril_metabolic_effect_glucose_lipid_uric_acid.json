@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38828542",
+        "text": "MARRIAGE: A Randomized Trial of Moxonidine  Moxonidine, an imidazoline I This study compared the effects of moxonidine and ramipril on blood pressure (BP) and glucose metabolism in overweight patients with mild-to-moderate hypertension and impaired fasting glucose or type 2 diabetes. Treatment-naïve patients for hypertension and dysglycemia were randomized to 12 weeks of double-blind moxonidine 0.4 mg or ramipril 5 mg once-daily treatment. At 12 weeks, for a further 12 weeks non-responders received combinat",
+        "score": 0.4226589798927307,
+        "doi": "10.1177/10742484241258381",
+        "journal": "Journal of cardiovascular pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 1.78482186794281,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.437105655670166,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.6204591989517212,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40849780",
+        "text": "The Antioxidant and Anti-lipidemic Potential of Angiotensin-converting Enzyme Inhibitor (Ramipril) in L-NAME Hypertensive Rats. Hypertension is associated with oxidative disturbances and often coexists with metabolic disorders like hyperlipidemia. Some antihypertensive drugs, particularly angiotensin- converting enzyme (ACE) inhibitors, offer benefits beyond lowering blood pressure by addressing related conditions. This study aimed to investigate the effects of ACE inhibitors on oxidative stress and dyslipi",
+        "score": 0.4334169030189514,
+        "doi": "10.2174/0118715257375839250811064453",
+        "journal": "Cardiovascular & hematological agents in medicinal chemistry",
+        "year": "2025",
+        "rerank_score": 0.3733593821525574,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

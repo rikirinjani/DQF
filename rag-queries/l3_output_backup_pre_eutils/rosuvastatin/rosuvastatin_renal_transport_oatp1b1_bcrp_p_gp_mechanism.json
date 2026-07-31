@@ -1,0 +1,40 @@
+{
+  "query": {
+    "query": "Rosuvastatin renal transport OATP1B1 BCRP P-gp mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26525112",
+        "text": "Transmembrane transport of steviol glucuronide and its potential interaction with selected drugs and natural compounds.\n\nSteviol glucuronide (SVG) is the major metabolite derived from steviol, the aglycone of stevioside and rebaudioside A. After the ingestion of stevioside and rebaudioside A, SVG is formed and excreted into the urine in humans. In the present study, transporter mediated efflux and uptake of SVG was investigated in order to understand molecular mechanisms underlying its renal clearance. Results showed that SVG was not a substrate of efflux transporters BCRP, MRP2, MATE1 or P-gp. In contrast, OAT3 played a predominant role in the uptake of SVG in comparison to OATP1B1, OATP1B3, or OATP2B1. Quercetin, telmisartan, diclofenac, and mulberrin displayed a relatively strong inhibition against OAT3 mediated uptake of SVG with IC50 values of 1.8, 2.9, 8.0, and 10.0 μM, respectively. Because OAT3 is a major uptake transporter in the kidney, inhibition of OAT3 activity may alter SVG's renal clearance by drugs and natural compounds that are used concomitantly with stevia leaf extracts.",
+        "title": "Transmembrane transport of steviol glucuronide and its potential interaction with selected drugs and natural compounds.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "26525112",
+          "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+          "authors": [
+            "Wang Meiyu",
+            "Qi Huixin",
+            "Li Jiajun"
+          ],
+          "pub_date": "2015-Dec",
+          "doi": "10.1016/j.fct.2015.10.011",
+          "mesh_terms": [
+            "Biological Transport",
+            "Carrier Proteins",
+            "Diosgenin",
+            "Diterpenes, Kaurane",
+            "Drug Interactions",
+            "Glucuronides",
+            "HEK293 Cells",
+            "Humans",
+            "Molecular Structure",
+            "Rosuvastatin Calcium"
+          ]
+        }
+      }
+    ]
+  }
+}

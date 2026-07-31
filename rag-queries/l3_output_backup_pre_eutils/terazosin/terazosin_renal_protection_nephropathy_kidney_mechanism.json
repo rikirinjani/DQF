@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Terazosin renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41046974",
+        "text": "Integration of transcriptomics, machine learning, and molecular simulations identifies key microvascular-protective genes VEGFA and BIRC3 mediated by tert-butylhydroquinone in diabetic kidney disease treatment. Diabetic kidney disease (DKD) is a microvascular complication of diabetes that can progress to renal failure. Tert-butylhydroquinone (TBHQ) exhibits renal protective effects in type II diabetes, but its regulatory role on microvascular protection-related genes in DKD requires further elucidation. Thi",
+        "score": 0.40079355239868164,
+        "doi": "10.1016/j.ejphar.2025.178207",
+        "journal": "European journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 0.18896333873271942,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38779756",
+        "text": "Mechanisms of gelofusine protection in an in vitro model of polymyxin B-associated renal injury. Polymyxins are a last-resort treatment option for multidrug-resistant gram-negative bacterial infections, but they are associated with nephrotoxicity. Gelofusine was previously shown to reduce polymyxin-associated kidney injury in an animal model. However, the mechanism(s) of renal protection has not been fully elucidated. Here, we report the use of a cell culture model to provide insights into the mechanisms of",
+        "score": 0.38574251532554626,
+        "doi": "10.1152/ajprenal.00029.2024",
+        "journal": "American journal of physiology. Renal physiology",
+        "year": "2024",
+        "rerank_score": 0.1761784702539444,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40522420",
+        "text": "Network Pharmacology and Experimental Evidence Identify the Mechanism of Astragaloside IV against Henoch-Schönlein Purpura Nephritis. Henoch-Schönlein purpura nephritis (HSPN) is the most common secondary glomerular disease in children, and is considered a major cause of chronic renal failure. Astragaloside IV (AS-IV) has been shown to protect against HSPN. However, the specific effects and mechanisms of AS-IV in HSPN remain unclear. Using network pharmacology, potential targets of AS-IV were screened via t",
+        "score": 0.4078778624534607,
+        "doi": "10.1007/s12013-025-01804-4",
+        "journal": "Cell biochemistry and biophysics",
+        "year": "2025",
+        "rerank_score": -0.9110071063041687,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

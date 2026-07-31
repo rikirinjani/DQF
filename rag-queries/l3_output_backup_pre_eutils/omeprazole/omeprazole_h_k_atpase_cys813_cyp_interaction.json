@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole H+/K+ ATPase (Cys813) CYP interaction",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40819797",
+        "text": "CYP3A mediates drug-drug interactions between atorvastatin and omeprazole: Evidence from in vitro and in vivo studies. The simultaneous use of statins and proton pump inhibitors is common in clinical practice, but the mechanisms behind their potential drug-drug interactions (DDIs) are still not fully understood. This study investigates the cytochrome P450 3A (CYP3A)-mediated interactions between atorvastatin and omeprazole through in vitro microsomal assays and in vivo pharmacokinetic studies in wild-type (",
+        "score": 0.42363283038139343,
+        "doi": "10.1016/j.bcp.2025.117241",
+        "journal": "Biochemical pharmacology",
+        "year": "2025",
+        "rerank_score": 3.1878662109375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6259141",
+        "text": "The interaction of H+ and K+ with the partial reactions of gastric (H+ + K+)-ATPase. The influence of H+ and K+ on the partial reactions and transport of gastric (H+ + K+)-ATPase was studied. Using transient kinetics, the effects and sidedness of effects of H+ and K+ on formation and breakdown of phosphoenzyme were determined in intact and lyophilized reconstituted vesicles in the absence and presence of gramicidin. Whereas increasing H+ concentrations on the ATP-binding face of the vesicles accelerates pho",
+        "score": 0.3930653929710388,
+        "doi": "",
+        "journal": "The Journal of biological chemistry",
+        "year": "1981",
+        "rerank_score": 3.029634714126587,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39385496",
+        "text": "Improving CYP2C19 phenotyping using stereoselective omeprazole and 5-hydroxy-omeprazole metabolic ratios. Omeprazole (OME) is a CYP2C19 phenotyping probe, marketed as a racemic (S)/(R) mixture or as an S-enantiomer. Both CYP2C19 and CYP3A4 enzymes mediate (R)-OME hydroxylation to (R)-5-hydroxyomeprazole, while (S)-OME is exclusively hydroxylated via CYP2C19. This study investigates OME and its 5-hydroxymetabolite enantiomers' pharmacokinetics using data from two studies involving healthy volunteers. In Stud",
+        "score": 0.4363495111465454,
+        "doi": "10.1111/bcpt.14095",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2024",
+        "rerank_score": 2.2613236904144287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

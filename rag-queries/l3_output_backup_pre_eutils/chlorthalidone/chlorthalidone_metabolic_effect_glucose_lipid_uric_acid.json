@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39369847",
+        "text": "Hypoxanthine ameliorates diet-induced insulin resistance by improving hepatic lipid metabolism and gluconeogenesis via AMPK/mTOR/PPARα pathway. Insulin resistance (IR) is a pivotal metabolic disorder associated with type 2 diabetes and metabolic syndrome. This study investigated the potential of hypoxanthine (Hx), a purine metabolite and uric acid precursor, in ameliorating IR and regulating hepatic glucose and lipid metabolism. We utilized both in vitro IR-HepG2 cells and in vivo diet-induced IR mice to in",
+        "score": 0.4349656403064728,
+        "doi": "10.1016/j.lfs.2024.123096",
+        "journal": "Life sciences",
+        "year": "2024",
+        "rerank_score": -1.0225545167922974,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40600014",
+        "text": "Effects of the selective serotonin reuptake inhibitors citalopram and escitalopram on glucolipid metabolism: a systematic review. Type 2 diabetes mellitus (T2DM) and major depressive disorder (MDD) frequently co-occur, highlighting the need to understand the metabolic effects of antidepressants. This systematic review evaluated the impact of citalopram and escitalopram on glucose and lipid metabolism, focusing on glycemic control. A comprehensive search of PubMed, Embase, Web of Science, PsycINFO, the Cochr",
+        "score": 0.43771886825561523,
+        "doi": "10.3389/fendo.2025.1578326",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": -1.4807418584823608,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969542",
+        "text": "Atypical antipsychotic drugs cause abnormal glucose and lipid metabolism independent of weight gain. This study aimed to investigate whether antipsychotic medications can cause metabolic abnormalities independent of weight gain. Six hundred twenty-four patients treated with olanzapine and risperidone were enrolled. Body weight, body mass index (BMI), biochemical indicators of blood glucose and lipids, the proportion of patients who gained > 7% of their baseline weight, dyslipidemia, and dysglycemia were eva",
+        "score": 0.4032655358314514,
+        "doi": "10.1007/s00406-025-01965-6",
+        "journal": "European archives of psychiatry and clinical neuroscience",
+        "year": "2024",
+        "rerank_score": -1.7434252500534058,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

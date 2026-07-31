@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Perindopril cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4091624915599823,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.08601708710193634,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41035577",
+        "text": "Angiotensin-Converting Enzyme Inhibitor-Induced Angioedema Following Long-Term Lisinopril Use: Response to C1 Esterase Inhibitor Treatment. Angiotensin-converting enzyme inhibitors (ACEIs) are widely prescribed for cardiovascular and renal conditions, but a rare and potentially life-threatening complication is ACEI-induced angioedema, which results from bradykinin accumulation leading to increased vascular permeability and tissue swelling. This condition may present abruptly, even after years of uneventful ",
+        "score": 0.4217928647994995,
+        "doi": "10.7759/cureus.91346",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -0.8816356658935547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39359755",
+        "text": "Corticosteroid-induced bradycardia following high-dose methylprednisolone administration: a case report. Besides their wide use in the clinical field due to their anti-inflammatory and immune-modulating effect, corticosteroids still have a lot of adverse effects. The most common adverse effects are hyperglycemia, hypertension, osteoporosis, psychosis, immunosuppression, weight gain, and hyperlipidemia. Another important side effect is cardiac arrhythmias. We report a case of a 43-year-old woman with multipl",
+        "score": 0.4443722665309906,
+        "doi": "10.1097/MS9.0000000000002530",
+        "journal": "Annals of medicine and surgery (2012)",
+        "year": "2024",
+        "rerank_score": -1.4272284507751465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "query": {
+    "query": "Terazosin drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31524631",
+        "text": "Enhancing glycolysis attenuates Parkinson's disease progression in models and clinical databases.\n\nParkinson's disease (PD) is a common neurodegenerative disease that lacks therapies to prevent progressive neurodegeneration. Impaired energy metabolism and reduced ATP levels are common features of PD. Previous studies revealed that terazosin (TZ) enhances the activity of phosphoglycerate kinase 1 (PGK1), thereby stimulating glycolysis and increasing cellular ATP levels. Therefore, we asked whether enhancement of PGK1 activity would change the course of PD. In toxin-induced and genetic PD models in mice, rats, flies, and induced pluripotent stem cells, TZ increased brain ATP levels and slowed or prevented neuron loss. The drug increased dopamine levels and partially restored motor function. Because TZ is prescribed clinically, we also interrogated 2 distinct human databases. We found slower disease progression, decreased PD-related complications, and a reduced frequency of PD diagnoses in individuals taking TZ and related drugs. These findings suggest that enhancing PGK1 activity and increasing glycolysis may slow neurodegeneration in PD.",
+        "title": "Enhancing glycolysis attenuates Parkinson's disease progression in models and clinical databases.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "31524631",
+          "journal": "The Journal of clinical investigation",
+          "authors": [
+            "Cai Rong",
+            "Zhang Yu",
+            "Simmering Jacob E"
+          ],
+          "pub_date": "2019-Oct-01",
+          "doi": "10.1172/JCI129987",
+          "mesh_terms": [
+            "Adenosine Triphosphate",
+            "Aged",
+            "Aged, 80 and over",
+            "Animals",
+            "Brain",
+            "Disease Progression",
+            "Dopamine",
+            "Drosophila melanogaster",
+            "Female",
+            "Glycolysis",
+            "Humans",
+            "Induced Pluripotent Stem Cells",
+            "Male",
+            "Mice",
+            "Mice, Inbred C57BL",
+            "Nerve Degeneration",
+            "Parkinson Disease",
+            "Parkinsonian Disorders",
+            "Phosphoglycerate Kinase",
+            "Prazosin",
+            "Rats"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40641410",
+        "text": "ATF3 Deficiency Exacerbates Ageing-Induced Atherosclerosis and Clinical Intervention Strategy.\n\nVascular smooth muscle cell (VSMC) senescence is a pivotal driver of atherosclerosis (AS), but molecular links to ageing-related dysfunction are unclear. It is aimed to identify regulators of VSMC senescence and develop clinical interventions for ageing-related AS. Using single-cell RNA sequencing of human atherosclerotic carotid arteries and immunofluorescence validation, activating transcription factor 3 (ATF3) is identified as central to VSMC senescence. Mechanistic studies employ SMC-specific ATF3 knockout mice, CUT&Tag-seq, RNA/protein interaction assays, and m6A epitranscriptomic analyses. To bridge discovery to therapy, high-throughput virtual screening is performed for ATF3-targeting compounds and functionally validated hits. ATF3 deficiency in VSMCs accelerates ageing-induced AS by promoting senescence. Multi-omics showed ATF3 activates ATG7, triggering autophagy, while cytoplasmic ATG7 enhances ATF3 nuclear translocation, establishing a positive feedback loop. Ageing increases m6A methylation and decreases the stability of Atf3 mRNA. Terazosin (TZ) diminishes the interaction between YTH N6-methyladenosine RNA binding protein F2 (YTHDF2) and Atf3 mRNA, helping to preserve Atf3 mRNA stability. TZ is a promising therapeutic strategy for delaying VSMC senescence and preventing AS. ATF3 protects against VSMC senescence and AS by orchestrating autophagy via a novel ATF3-ATG7 amplification loop. Repurposing TZ to stabilize ATF3 offers a translatable approach to combat ageing-driven cardiovascular disease.",
+        "title": "ATF3 Deficiency Exacerbates Ageing-Induced Atherosclerosis and Clinical Intervention Strategy.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40641410",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "authors": [
+            "Nie Hao",
+            "Ji Tianyi",
+            "Wan Zixin"
+          ],
+          "pub_date": "2025-Oct",
+          "doi": "10.1002/advs.202502249",
+          "mesh_terms": [
+            "Activating Transcription Factor 3",
+            "Animals",
+            "Atherosclerosis",
+            "Humans",
+            "Mice",
+            "Muscle, Smooth, Vascular",
+            "Aging",
+            "Mice, Knockout",
+            "Cellular Senescence",
+            "Myocytes, Smooth Muscle",
+            "Male"
+          ]
+        }
+      }
+    ]
+  }
+}

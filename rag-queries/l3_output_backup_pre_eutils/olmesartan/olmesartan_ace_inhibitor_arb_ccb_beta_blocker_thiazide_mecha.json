@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38350635",
+        "text": "From Hypertension to Beyond: Unraveling the Diverse Mechanisms of Olmesartan in Disease Modulation. Olmesartan, originally known for its antihypertensive properties, exhibits promising potential in addressing inflammation-mediated diseases. As an angiotensin II receptor blocker (ARB), Olmesartan influences pivotal pathways, including reactive oxygen species, cytokines, NF-κB, TNF-α, and MAPK. This suggests a viable opportunity for repurposing the drug in conditions such as ulcerative colitis, neuropathy, ne",
+        "score": 0.42558708786964417,
+        "doi": "10.1055/a-2244-3136",
+        "journal": "Drug research",
+        "year": "2024",
+        "rerank_score": 3.608898878097534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38736121",
+        "text": "A Review of Olmesartan-based Therapy in Targeting Effective Blood Pressure Control and Achieving Blood Pressure Goals. For >3 decades now, angiotensin receptor blockers (ARB) have been used in the management of hypertension (HTN) and HTN-related cardiovascular (CV) diseases. Olmesartan medoxomil (OLM) is an angiotensin II type 1 (AT1) receptor antagonist (or blocker) that binds tightly to the AT1 receptor with long-lasting efficacy over the 24-hour period and safety demonstrated in several trials. It is wel",
+        "score": 0.4206985831260681,
+        "doi": "10.59556/japi.72.0480",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": 2.469486951828003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22011686",
+        "text": "Adding thiazide to a renin-angiotensin blocker improves left ventricular relaxation and improves heart failure in patients with hypertension. Hypertension is associated with an increased risk of diastolic dysfunction. Angiotensin-converting enzyme inhibitors (ACEi) and angiotensin receptor blockers (ARB) have failed to show improvement in clinical outcomes for patients with diastolic dysfunction. In this study, we investigated the effect of changing an ACEi or ARB to a combination of losartan and hydrochlor",
+        "score": 0.3846341371536255,
+        "doi": "10.1038/hr.2011.169",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2011",
+        "rerank_score": 2.449313163757324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

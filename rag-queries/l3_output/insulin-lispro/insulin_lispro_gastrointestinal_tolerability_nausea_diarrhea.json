@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.41790053248405457,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -0.12145444005727768,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38654785",
+        "text": "Metformin-Induced Chronic Diarrhea Misdiagnosed as Irritable Bowel Syndrome for Years. Metformin is the most prescribed and recommended drug for type 2 diabetes mellitus because of its better tolerability, pleiotropic benefits, and cost-effectiveness. Metformin inhibits hepatic glucose production and increases muscle glucose uptake. Metformin is also associated with gastrointestinal side effects like abdominal bloating, flatulence, diarrhea, nausea, and vomiting. Metformin-related gastrointestinal side effe",
+        "score": 0.4036906957626343,
+        "doi": "10.7759/cureus.56828",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -1.3025870323181152,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40171722",
+        "text": "Reduction of Postprandial Glucose Excursions in Adults, Adolescents, and Children with Type 1 Diabetes Using Ultra-Rapid Lispro Insulin and Control-IQ+ Technology. This study evaluated the effects of ultra-rapid lispro (URLi) insulin versus insulin lispro on postprandial glucose excursions in 176 individuals with type 1 diabetes using Control-IQ+ technology. Postprandial glycemia differed the most between URLi and lispro at 60 min (mean glucose 166 ± 69 mg/dL vs. 178 ± 70 mg/dL; adjusted mean difference [AM",
+        "score": 0.4547525644302368,
+        "doi": "10.1089/dia.2025.0077",
+        "journal": "Diabetes technology & therapeutics",
+        "year": "2025",
+        "rerank_score": -4.1263108253479,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

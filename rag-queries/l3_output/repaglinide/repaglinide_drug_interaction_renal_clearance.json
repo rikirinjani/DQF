@@ -1,0 +1,74 @@
+{
+  "query": {
+    "query": "Repaglinide drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:9739505",
+        "text": "Repaglinide.\n\nRepaglinide is a novel insulin secretagogue being developed for the management of type 2 (non-insulin-dependent) diabetes mellitus. It stimulates release of insulin from the pancreatic beta-cell, but appears to bind to a different receptor site from sulphonylureas. Repaglinide lowers fasting and postprandial blood glucose levels in animals, healthy volunteers and patients with type 2 diabetes mellitus. Repaglinide is rapidly absorbed and eliminated, which may allow a relatively fast onset and offset of action. Excretion occurs almost entirely by non-renal mechanisms. In comparative clinical trials in patients with type 2 diabetes mellitus, repaglinide 0.5 to 4 mg twice or 3 times daily before meals provided similar glycaemic control to glibenclamide (glyburide) 2.5 to 15 mg/day. Addition of repaglinide to existing metformin therapy resulted in improved glycaemic control. In contrast with glibenclamide, use of repaglinide allowed patients to miss a meal without apparently increasing the risk of hypoglycaemia.",
+        "title": "Repaglinide.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "9739505",
+          "journal": "Drugs & aging",
+          "authors": [
+            "Balfour J A",
+            "Faulds D"
+          ],
+          "pub_date": "1998-Aug",
+          "doi": "10.2165/00002512-199813020-00008",
+          "mesh_terms": [
+            "Animals",
+            "Carbamates",
+            "Diabetes Mellitus, Experimental",
+            "Diabetes Mellitus, Type 2",
+            "Glyburide",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Islets of Langerhans",
+            "Piperidines",
+            "Randomized Controlled Trials as Topic",
+            "Stereoisomerism"
+          ]
+        }
+      },
+      {
+        "id": "PMID:25560470",
+        "text": "Pharmacogenomics of glinides.\n\nGlinides, including repaglinide, nateglinide and mitiglinide, are a type of fasting insulin secretagogue that could help to mimic early-phase insulin release, thus providing improved control of the postprandial glucose levels. Glinides stimulate insulin secretion by inhibiting ATP-sensitive potassium channels in the pancreatic β-cell membrane. Although glinides have been widely used clinically and display excellent safety and efficacy, the response to glinides varies among individuals, which is partially due to genetic factors involved in drug absorption, distribution, metabolism and targeting. Several pharmacogenomic studies have demonstrated that variants of genes involved in the pharmacokinetics or pharmacodynamics of glinides are associated with the drug response. Polymorphisms of genes involved in drug metabolism, such as CYP2C9, CYP2C8 and SLCO1B1, may influence the efficacy of glinides and the incidence of adverse effects. In addition, Type 2 diabetes mellitus susceptibility genes, such as KCNQ1, PAX4 and BETA2, also influence the efficacy of glinides. In this article, we review and discuss current pharmacogenomics researches on glinides, and hopefully provide useful data and proof for clinical application.",
+        "title": "Pharmacogenomics of glinides.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "25560470",
+          "journal": "Pharmacogenomics",
+          "authors": [
+            "Chen Miao",
+            "Hu Cheng",
+            "Jia Weiping"
+          ],
+          "pub_date": "2015-Jan",
+          "doi": "10.2217/pgs.14.152",
+          "mesh_terms": [
+            "Carbamates",
+            "Cyclohexanes",
+            "Diabetes Mellitus, Type 2",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Inactivation, Metabolic",
+            "Insulin",
+            "Insulin Secretion",
+            "Insulin-Secreting Cells",
+            "Isoindoles",
+            "KATP Channels",
+            "Nateglinide",
+            "Pharmacogenetics",
+            "Phenylalanine",
+            "Piperidines"
+          ]
+        }
+      }
+    ]
+  }
+}

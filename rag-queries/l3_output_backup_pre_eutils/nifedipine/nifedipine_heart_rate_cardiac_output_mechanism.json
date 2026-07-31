@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nifedipine heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39017590",
+        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
+        "score": 0.4632073640823364,
+        "doi": "10.1002/prp2.1249",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": -0.5056614279747009,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38945776",
+        "text": "A bibliometric and visualisation study of nifedipine in the treatment of coronary heart disease.",
+        "score": 0.45165306329727173,
+        "doi": "10.1016/j.asjsur.2024.06.088",
+        "journal": "Asian journal of surgery",
+        "year": "2024",
+        "rerank_score": -1.2164324522018433,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38500291",
+        "text": "Cardiac output-mediated regulation of cerebral blood flow during exercise: Clinical perspectives on the indirect impact of muscle metaboreflex. The muscle metaboreflex stimulates the elevation of arterial blood pressure, aiming to rectify the oxygen deficit by enhancing oxygen delivery to support muscle activity. Moreover, activating the muscle metaboreflex significantly increases cardiac output (CO) by increasing factors such as heart rate, ventricular contractility, preload, stroke volume and mobilization",
+        "score": 0.4201565384864807,
+        "doi": "10.1113/EP091591",
+        "journal": "Experimental physiology",
+        "year": "2024",
+        "rerank_score": -3.4872212409973145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

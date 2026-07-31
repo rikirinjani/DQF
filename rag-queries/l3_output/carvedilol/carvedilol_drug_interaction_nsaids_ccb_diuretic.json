@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27137712",
+        "text": "Pharmacokinetic drug-drug interaction assessment between LCZ696, an angiotensin receptor neprilysin inhibitor, and hydrochlorothiazide, amlodipine, or carvedilol. LCZ696 is a first-in-class angiotensin receptor neprilysin inhibitor in development for treatments of hypertension and heart failure indications. In 3 separate studies, pharmacokinetic drug-drug interactions (DDIs) potential was assessed when LCZ696 was coadministered with hydrochlorothiazide (HCTZ), amlodipine, or carvedilol. The studies used a o",
+        "score": 0.379045307636261,
+        "doi": "10.1002/cpdd.183",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2014",
+        "rerank_score": 4.583128929138184,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40982231",
+        "text": "Design and optimization of carvedilol-loaded transbilosomes for the control of diabetic high-fat diet-induced atherosclerosis in rats. Carvedilol (CDL) is an oral beta-adrenergic blocker known for enhancing arterial blood flow and reducing hyperglycemia due to its antioxidant properties. However, CDL's short half-life leads to its low efficacy and poor bioavailability. This study aimed to develop a nasal spray of CDL-loaded transbilosomes (CTB) to improve CDL's sustainability, bioavailability, targeting, an",
+        "score": 0.43732285499572754,
+        "doi": "10.1093/jpp/rgaf086",
+        "journal": "The Journal of pharmacy and pharmacology",
+        "year": "2025",
+        "rerank_score": 1.0209563970565796,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40531227",
+        "text": "Carvedilol-loaded self-nanoemulsifying drug delivery system target diabetic nephropathy: preclinical evidence of antioxidant and antifibrotic effects. Diabetic nephropathy (DN) is a significant complication of diabetes, leading to chronic kidney failure and end-stage renal disease. While traditional treatments exist, innovative strategies are being investigated to enhance DN management. This study examines a novel nanosized formulation of carvedilol (CVL), a drug recognized for its β-blocker and α-1-adrenor",
+        "score": 0.4175216853618622,
+        "doi": "10.1007/s00210-025-04356-9",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": 0.11625829339027405,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

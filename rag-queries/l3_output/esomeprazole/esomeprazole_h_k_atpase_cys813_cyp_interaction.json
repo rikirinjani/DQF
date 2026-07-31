@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole H+/K+ ATPase (Cys813) CYP interaction",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39547508",
+        "text": "How ligands modulate the gastric H,K-ATPase activity and its inhibition by tegoprazan. The introduction of potassium-competitive acid blockers (P-CABs) has been a major innovation in gastric H,K-ATPase inhibition and many laboratories are actively engaged in the development of novel molecules within this class. This work investigates the interaction between H,K-ATPase and tegoprazan, a representative of the P-CABs group, in terms of K",
+        "score": 0.4532531797885895,
+        "doi": "10.1016/j.jbc.2024.107986",
+        "journal": "The Journal of biological chemistry",
+        "year": "2024",
+        "rerank_score": 2.3343570232391357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40785690",
+        "text": "Esomeprazole Potentiates the Cytotoxic Effects of Cisplatin in Gastric Carcinoma Cells. Proton pump inhibitors (PPIs), including esomeprazole, impact the acidic tumor microenvironment, potentially influencing cancer cell behavior. By examining the combined effects of esomeprazole and cisplatin on SNU-1 gastric carcinoma cells, this study sought to elucidate the mechanisms through which esomeprazole enhances cisplatin's cytotoxicity, potentially allowing for effective treatment with reduced cisplatin dosages",
+        "score": 0.43416839838027954,
+        "doi": "10.1002/jbt.70441",
+        "journal": "Journal of biochemical and molecular toxicology",
+        "year": "2025",
+        "rerank_score": -0.26622846722602844,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38925922",
+        "text": "Omeprazole Induces CYP3A4 mRNA Expression but Not CYP3A4 Protein Expression in HepaRG Cells. Unknown interactions between drugs remain the limiting factor for clinical application of drugs, and the induction and inhibition of drug-metabolizing CYP enzymes are considered the key to examining the drug-drug interaction (DDI). In this study, using human HepaRG cells as an in vitro model system, we analyzed the potential DDI based on the expression levels of CYP3A4 and CYP1A2. Rifampicin and omeprazole, the pote",
+        "score": 0.4468141496181488,
+        "doi": "10.1248/bpb.b24-00161",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": -0.566015899181366,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

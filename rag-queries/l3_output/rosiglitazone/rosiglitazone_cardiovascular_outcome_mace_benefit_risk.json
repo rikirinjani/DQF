@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rosiglitazone cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21059092",
+        "text": "The effects of rosiglitazone on atherosclerotic progression in patients with Type 2 diabetes at high cardiovascular risk. Cardiovascular mortality remains high despite intensive treatment of people with Type 2 diabetes mellitus. Meta-analyses on rosiglitazone have raised concerns regarding its cardiovascular safety. We studied the effects of rosiglitazone on ultrasonic indices of carotid arterial disease and inflammatory markers in a group of Type 2 diabetic patients at high cardiovascular risk.",
+        "score": 0.40412765741348267,
+        "doi": "10.1111/j.1464-5491.2010.03089.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2010",
+        "rerank_score": 5.467185974121094,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18496256",
+        "text": "A comparison of select cardiovascular outcomes by antidiabetic prescription drug classes used to treat type 2 diabetes among Military Health System beneficiaries, fiscal year 2003-2006. Recent research suggests that there is an increased risk of cardiovascular outcomes among individuals with type 2 diabetes taking rosiglitazone (Avandia).",
+        "score": 0.40719544887542725,
+        "doi": "10.1097/MJT.0b013e31817534d5",
+        "journal": "American journal of therapeutics",
+        "year": "2008",
+        "rerank_score": 4.839291572570801,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38148342",
+        "text": "Rosiglitazone improves insulin resistance but does not improve exercise capacity in individuals with impaired glucose tolerance: A randomized clinical study. Dysmetabolic states, such as type 2 diabetes (T2D), characterized by insulin resistance (IR), are associated with fatty liver, increased cardiovascular disease (CVD) risk, and decreased functional exercise capacity (FEC). Rosiglitazone (RO) improves exercise capacity and IR in T2D. However, the effects of RO on FEC and other markers of CVD risk in pred",
+        "score": 0.40598785877227783,
+        "doi": "10.1177/10815589231225183",
+        "journal": "Journal of investigative medicine : the official publication of the American Fed",
+        "year": "2024",
+        "rerank_score": 3.852915048599243,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

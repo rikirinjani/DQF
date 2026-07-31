@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin DPP-4 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41263457",
+        "text": "Addition of sitagliptin to ongoing metformin improved metabolic profile and pancreatic function via normalizing inflammatory cytokines' levels in patients with type 2 diabetes, a randomized double-blinded clinical trial. DPP-4 inhibitors have anti-diabetic effects in T2DM, but their impact on pancreatic function and underlying mechanisms remain unclear. This study aimed to evaluate the effects of sitagliptin on pancreatic function and glucose regulation, focusing on the roles of IL-18, IL-1, and IL-6 in T2D",
+        "score": 0.3787321448326111,
+        "doi": "10.1080/17446651.2025.2539252",
+        "journal": "Expert review of endocrinology & metabolism",
+        "year": "2025",
+        "rerank_score": 6.371951103210449,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40504582",
+        "text": "Gliptin induced acute pancreatitis: a literature review. The association between dipeptidyl peptidase-4 (DPP-4) inhibitors, known as gliptins, and acute pancreatitis raises growing concern. A systematic search of PubMed, Scopus and Web of Science was conducted for studies published between January 2005 and July 2024. Studies focusing on gliptin-induced pancreatitis were selected based on predefined criteria. While gliptins are effective in managing type 2 diabetes mellitus, several case reports and observat",
+        "score": 0.3826397657394409,
+        "doi": "10.51821/88.1.13722",
+        "journal": "Acta gastro-enterologica Belgica",
+        "year": "2025",
+        "rerank_score": 4.532252311706543,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39271520",
+        "text": "The DPP-4 inhibitor sitagliptin improves glycaemic control and early-stage diabetic nephropathy in adolescents with type 1 diabetes using the MiniMed 780G advanced hybrid closed-loop system: a randomised controlled trial. Dipeptidyl peptidase-4 (DPP-4) inhibition has beneficial effects on various metabolic indicators in diabetes. Stromal cell-derived factor-1 (SDF-1) is expressed in diverse organs including the kidneys and is cleaved and inactivated by DPP-4 enzyme. The aim of this study was to conduct a ra",
+        "score": 0.4185410141944885,
+        "doi": "10.1007/s00125-024-06265-7",
+        "journal": "Diabetologia",
+        "year": "2024",
+        "rerank_score": 4.209672451019287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

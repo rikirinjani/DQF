@@ -1,0 +1,71 @@
+{
+  "query": {
+    "query": "Felodipine metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38771738",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38771738",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2024-May-27",
+          "doi": "10.58347/tml.2024.1703a",
+          "mesh_terms": [
+            "Humans",
+            "Hypertension",
+            "Antihypertensive Agents",
+            "Blood Pressure"
+          ]
+        }
+      },
+      {
+        "id": "PMID:32555118",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "32555118",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2020-May-18",
+          "doi": "",
+          "mesh_terms": [
+            "Antihypertensive Agents",
+            "Blood Pressure",
+            "Humans",
+            "Hypertension"
+          ]
+        }
+      },
+      {
+        "id": "PMID:1693736",
+        "text": "The safety of felodipine.\n\nHypertensive patients, particularly the elderly, may often suffer from other diseases. Therefore, antihypertensive compounds should not negatively affect such disorders. Felodipine is a calcium antagonist that has potentially beneficial effects in angina pectoris and congestive heart failure. Further, it does not adversely affect lung function in asthmatic patients or glucose tolerance in patients with diabetes. Preliminary investigations also indicate that felodipine has no negative influence on plasma lipid levels. Although felodipine seems to be safe in most patients, treatment with felodipine should at present be avoided in pregnant women, since digital anomalies have been observed in rabbit fetuses. The adverse effects seen during treatment with felodipine are usually mild and transient and generally related to the vasodilatory action of the drug, the most common being ankle edema, headache, flushing, dizziness, and palpitations. The only significant drug interactions with felodipine occur with inducers and inhibitors of the cytochrome P-450 system, which is responsible for the metabolism of felodipine.",
+        "title": "The safety of felodipine.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "1693736",
+          "journal": "Journal of cardiovascular pharmacology",
+          "authors": [
+            "Lorimer A R",
+            "Pringle S D"
+          ],
+          "pub_date": "1990",
+          "doi": "10.1097/00005344-199015004-00026",
+          "mesh_terms": [
+            "Animals",
+            "Felodipine",
+            "Humans",
+            "Hypertension"
+          ]
+        }
+      }
+    ]
+  }
+}

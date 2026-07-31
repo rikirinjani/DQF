@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Indapamide renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39986714",
+        "text": "Unveiling the antiurolithiatic potentiality of two benzene sulfonamide derivatives against ethylene glycol-induced renal calculi. Oxidative stress and inflammation play crucial roles in the onset of kidney injury and crystal formation caused by hyperoxaluria. Indapamide is a potent medication for treating renal calculi, but it has severe side effects such as hypokalemia, hypercalcemia, and hyperuricemia. Therefore, it is advisable to explore alternative treatments that do not have these side effects. The st",
+        "score": 0.4134901165962219,
+        "doi": "10.1016/j.nefroe.2025.02.003",
+        "journal": "Nefrologia",
+        "year": "2024",
+        "rerank_score": 3.316286087036133,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40728702",
+        "text": "Probenecid protects against contrast-induced nephropathy through modulation of small Rho GTPases and Pannexin1 channels in Wistar rats. Contrast agents are known to increase the risk of radiocontrast-induced nephropathy (CIN), particularly in elderly, diabetic, or dehydrated patients. However, the exact molecular mechanisms leading to renal injury in CIN remain unclear. Probenecid (PBN), an organic anion transport inhibitor that also inhibits Pannexin1 channels, has been suggested as a potential therapeutic",
+        "score": 0.4193980097770691,
+        "doi": "10.1007/s10157-025-02742-4",
+        "journal": "Clinical and experimental nephrology",
+        "year": "2024",
+        "rerank_score": 0.7390282154083252,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40033940",
+        "text": "Nicotinamide ameliorates podocyte injury and albuminuria in adriamycin-induced nephropathy. Podocytes are key components of the glomerular filtration barrier, and their injury leads to proteinuria, chronic kidney disease (CKD), and nephrotic syndrome. Effective treatments for these conditions are not well established, and prevention of podocyte injury is a crucial challenge. Nicotinamide (NAM), a form of vitamin B3, has been reported to exert beneficial effects in various renal disease models due to its ant",
+        "score": 0.38507914543151855,
+        "doi": "10.1152/ajprenal.00297.2024",
+        "journal": "American journal of physiology. Renal physiology",
+        "year": "2025",
+        "rerank_score": 0.5329149961471558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

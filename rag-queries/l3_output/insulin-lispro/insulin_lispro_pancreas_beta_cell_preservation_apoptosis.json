@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38387480",
+        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
+        "score": 0.3497067093849182,
+        "doi": "10.1055/a-2239-2668",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": 4.7420878410339355,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39219257",
+        "text": "Pancreatic β‑cell apoptosis in type 2 diabetes is related to post‑translational modifications of p53 (Review). Pancreatic β‑cells are the only cells that synthesize insulin to regulate blood glucose levels. Various conditions can affect the mass of pancreatic β‑cells and decrease insulin levels. Diabetes mellitus is a disease characterized by insulin resistance and chronic hyperglycemia, mainly due to the loss of pancreatic β‑cells caused by an increase in the rate of apoptosis. Additionally, hyperglycemia ",
+        "score": 0.3833421468734741,
+        "doi": "10.3892/mmr.2024.13317",
+        "journal": "Molecular medicine reports",
+        "year": "2024",
+        "rerank_score": 3.3051350116729736,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38884322",
+        "text": "Insulin reduces endoplasmic reticulum stress-induced apoptosis by decreasing mitochondrial hyperpolarization and caspase-12 in INS-1 pancreatic β-cells. Pancreatic β-cell mass is a critical determinant of insulin secretion. Severe endoplasmic reticulum (ER) stress causes β-cell apoptosis; however, the mechanisms of progression and suppression are not yet fully understood. Here, we report that the autocrine/paracrine function of insulin reduces ER stress-induced β-cell apoptosis. Insulin reduced the ER-stres",
+        "score": 0.3432925045490265,
+        "doi": "10.14814/phy2.16106",
+        "journal": "Physiological reports",
+        "year": "2024",
+        "rerank_score": 2.9973366260528564,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

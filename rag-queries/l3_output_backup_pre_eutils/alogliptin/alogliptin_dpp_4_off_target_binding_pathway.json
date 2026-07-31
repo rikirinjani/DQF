@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin DPP-4 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33185160",
+        "text": "The Involvement of the Mammalian Target of Rapamycin, Protein Tyrosine Phosphatase 1b and Dipeptidase 4 Signaling Pathways in Cancer and Diabetes: A Narrative Review. The mammalian target of rapamycin (mTOR), protein tyrosine phosphatase 1b (PTP1B) and dipeptidase 4 (DPP4) signaling pathways regulate eukaryotic cell proliferation and metabolism. Previous researches described different transduction mechanisms in the progression of cancer and diabetes.",
+        "score": 0.38327860832214355,
+        "doi": "10.2174/1389557520666201113110406",
+        "journal": "Mini reviews in medicinal chemistry",
+        "year": "2020",
+        "rerank_score": 1.3495471477508545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39526061",
+        "text": "New Insights into the Pleiotropic Actions of Dipeptidyl Peptidase-4 Inhibitors Beyond Glycaemic Control. Dipeptidyl peptidase-4 (DPP-4) is a multifunctional serine ectopeptidase that cleaves and modifies a plethora of substrates, including regulatory peptides, cytokines and chemokines. DPP-4 is implicated in the regulation of immune response, viral entry, cellular adhesion, metastasis and chemotaxis. Regarding its numerous substrates and extensive expression inside the body, multitasking DPP-4 has been assu",
+        "score": 0.3954141139984131,
+        "doi": "10.17925/EE.2024.20.2.5",
+        "journal": "TouchREVIEWS in endocrinology",
+        "year": "2024",
+        "rerank_score": 0.9256356954574585,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39332821",
+        "text": "Cosolvent Molecular Dynamics Applied to DPP4, DPP8 and DPP9: Reproduction of Important Binding Features and Use in Inhibitor Design. We present our efforts in computational drug design against dipeptidyl peptidase 4 (DPP4), DPP8 and DPP9. We applied cosolvent molecular dynamics (MD) simulations to these three protein targets of interest. Our primary motivation is the growing interest in DPP8 and DPP9 as emerging drug targets. Due to the high similarity between DPP4, DPP8 and DPP9, DPP4 was also included in ",
+        "score": 0.3899640440940857,
+        "doi": "10.1021/acs.jcim.4c01167",
+        "journal": "Journal of chemical information and modeling",
+        "year": "2024",
+        "rerank_score": -0.8554908037185669,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

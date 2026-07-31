@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glipizide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38865587",
+        "text": "Non-Hispanic Black Individuals Have Higher Glucose-Adjusted HbA1c Levels and Risk for Severe Hypoglycemia: Evidence From the Diabetes Control and Complications Trial.",
+        "score": 0.4324161112308502,
+        "doi": "10.2337/dc24-0299",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": 2.4341626167297363,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40272529",
+        "text": "Severe hypoglycaemia is associated with increased risk of adverse cardiovascular complications in adults with type 1 diabetes: risk mitigation using intermittently scanned continuous glucose monitoring. It has been proposed that severe hypoglycaemia events (SHE) may increase the risk of adverse CVD complications in adults with type 1 diabetes. The aim of this study was to evaluate the risk of CVD complications following SHE in a large cohort of adults with type 1 diabetes, and to compare the risk of post-SH",
+        "score": 0.42883187532424927,
+        "doi": "10.1007/s00125-025-06438-y",
+        "journal": "Diabetologia",
+        "year": "2024",
+        "rerank_score": 1.7489395141601562,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39773006",
+        "text": "Glycemia Risk Index is Associated With Risk of Albuminuria Among Individuals With Type 1 Diabetes. The glycemia risk index (GRI) is a novel composite continuous glucose monitoring (CGM) metric composed of hypoglycemia and hyperglycemia components and is weighted toward extremes. This study aimed to investigate the association between GRI and the risk of albuminuria in type 1 diabetes. The 90-day CGM tracings of 330 individuals with type 1 diabetes were included in the analysis. Glycemia risk index was divid",
+        "score": 0.4121055006980896,
+        "doi": "10.1177/19322968241310850",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 1.704863429069519,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

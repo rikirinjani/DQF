@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lisinopril drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.46751442551612854,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.07212869822978973,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39943810",
+        "text": "The role of single-pill ACE inhibitor/ccb combination for hypertension: an Algerian view via the nominal group technique. Around one-third of adults in Algeria have hypertension, but > 40% are unaware they have the disease, and of those receiving treatment, only ~ 20-30% have adequate blood pressure (BP) control. Recommended starting treatment is an angiotensin converting enzyme inhibitor (ACEi) or angiotensin receptor blocker plus a calcium channel blocker (CCB) or diuretic. A single-pill combination of pe",
+        "score": 0.4607797861099243,
+        "doi": "10.1080/14796678.2025.2465218",
+        "journal": "Future cardiology",
+        "year": "2025",
+        "rerank_score": -1.8649723529815674,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41045333",
+        "text": "Investigation of the causal effects of hypertension, candesartan, lisinopril, and ramipril on gout. Hypertension frequently coexists with gout, and previous studies have suggested a potential association between these conditions. Angiotensin converting enzyme inhibitors (ACEIs) and angiotensin II receptor blockers (ARBs) are essential treatments for hypertension, though their effects on gout risk remains unclear and contradictory. We employed data from the FDA Adverse Event Reporting System (FAERS) alongsid",
+        "score": 0.4489953815937042,
+        "doi": "10.1007/s00210-025-04641-7",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": -3.100066661834717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

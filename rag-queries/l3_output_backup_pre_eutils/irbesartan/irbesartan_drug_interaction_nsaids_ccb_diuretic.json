@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Irbesartan drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38801809",
+        "text": "Irbesartan mitigates the impact of cyclophosphamide-induced acute neurotoxicity in rats: Shedding highlights on NLRP3 inflammasome/CASP-1 pathway-driven immunomodulation. IIrbesartan (IRB), an angiotensin II type 1 receptor (AT1R) antagonist, has been widely employed in the medical field for its effectiveness in managing hypertension. However, there have been no documented investigations regarding the immunostimulatory properties of IRB. To address this gap, this study has been performed to assess the neuro",
+        "score": 0.4363422989845276,
+        "doi": "10.1016/j.intimp.2024.112336",
+        "journal": "International immunopharmacology",
+        "year": "2024",
+        "rerank_score": 0.7705972790718079,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39851122",
+        "text": "Exploring Drug-Drug Interactions between Losartan and Carbamazepine: A Pharmacokinetic and Pharmacodynamic Study. Hypertension, which affects 1.28 billion people globally aged 30 to 79, is characterized by continuously high blood pressure (140/90 or more) and raises the risk of premature death. Losartan, an angiotensin receptor blocker (ARB), is suggested for patients under the age of 55 who cannot take ACE inhibitors as a first treatment option. Epilepsy, a chronic neurological illness marked by repeated s",
+        "score": 0.4436609447002411,
+        "doi": "10.2174/0113892002358068250119052940",
+        "journal": "Current drug metabolism",
+        "year": "2024",
+        "rerank_score": 0.3900608718395233,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39635439",
+        "text": "A real-world pharmacovigilance analysis of adverse events associated with irbesartan using the FAERS and JADER databases. Hypertension is a leading global risk factor for disability and death. Irbesartan, a potent angiotensin II receptor blocker, requires continuous safety monitoring. We conducted a disproportionality analysis of irbesartan-related adverse drug events (ADEs) using the FDA's FAERS and Japan's JADER databases. We extracted irbesartan-related ADE reports from FAERS (Q1 2004 to Q1 2024) and JAD",
+        "score": 0.44212839007377625,
+        "doi": "10.3389/fphar.2024.1485190",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 0.14340569078922272,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

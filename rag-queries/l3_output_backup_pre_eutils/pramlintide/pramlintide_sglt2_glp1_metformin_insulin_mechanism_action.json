@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.3585623800754547,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 3.8528029918670654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40556828",
+        "text": "Evaluation of three mechanisms of action (SGLT2 inhibitors, GLP-1 receptor agonists, and sulfonylureas) in treating type 2 diabetes with heart failure: a systematic review and network meta-analysis of RCTs. We aimed to evaluate and compare the efficacy and safety of three antidiabetic drug classes-SGLT2 inhibitors, GLP-1 receptor agonists, and sulfonylureas-in patients with type 2 diabetes mellitus (T2DM) complicated by heart failure (HF). We focused on their differential effects on both cardiovascular outc",
+        "score": 0.36580970883369446,
+        "doi": "10.3389/fendo.2025.1562815",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 3.619767427444458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40737402",
+        "text": "Low-dose metformin requires brain Rap1 for its antidiabetic action. Metformin is the most commonly prescribed antidiabetes drug, yet its precise mechanism of action remains controversial. Previous studies have suggested that metformin acts peripherally by reducing hepatic glucose output and altering gut functions. Here, we report a neural mechanism via the small guanosine triphosphatase Ras-related protein 1 (Rap1). Mice with forebrain-specific",
+        "score": 0.35383695363998413,
+        "doi": "10.1126/sciadv.adu3700",
+        "journal": "Science advances",
+        "year": "2025",
+        "rerank_score": 2.9804463386535645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

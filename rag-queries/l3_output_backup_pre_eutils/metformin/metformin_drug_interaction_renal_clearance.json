@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39605472",
+        "text": "Quantitative contributions of hepatic and renal organic cation transporters to the clinical pharmacokinetic cimetidine-metformin interaction. The widely prescribed oral anti-diabetic drug metformin is eliminated unchanged in the urine primarily through active tubular secretion. This process is mediated by organic cation transporter 2 (OCT2), an uptake transporter expressed on the basolateral membrane of renal proximal tubule cells. Metformin uptake into the liver, the site of action, is mediated by OCT1, wh",
+        "score": 0.36849701404571533,
+        "doi": "10.1101/2024.11.19.624371",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2024",
+        "rerank_score": 5.662229537963867,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40098288",
+        "text": "Quantitative Contributions of Hepatic and Renal Organic Cation Transporters to the Clinical Pharmacokinetic Cimetidine-Metformin Interaction. The widely prescribed oral anti-diabetic drug metformin is eliminated unchanged in the urine primarily through active tubular secretion. This process is mediated by organic cation transporter 2 (OCT2), an uptake transporter expressed on the basolateral membrane of renal proximal tubule cells. Metformin uptake into the liver, the site of action, is mediated by organic ",
+        "score": 0.36862024664878845,
+        "doi": "10.1002/cpt.3639",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 5.640594482421875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39160349",
+        "text": "Modeling Metformin and Dapagliflozin Pharmacokinetics in Chronic Kidney Disease. Chronic kidney disease (CKD) is a complication of diabetes that affects circulating drug concentrations and elimination of drugs from the body. Multiple drugs may be prescribed for treatment of diabetes and co-morbidities, and CKD complicates the pharmacotherapy selection and dosing regimen. Characterizing variations in renal drug clearance using models requires large clinical datasets that are costly and time-consuming to coll",
+        "score": 0.3651540279388428,
+        "doi": "10.1208/s12248-024-00962-2",
+        "journal": "The AAPS journal",
+        "year": "2024",
+        "rerank_score": 4.896174430847168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

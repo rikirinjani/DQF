@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin weight loss gain effect mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39725177",
+        "text": "Alogliptin attenuates testicular damage induced by monosodium glutamate in both juvenile and adult male rats by activating autophagy: ROS dependent AMPK/mTOR. Monosodium glutamate (MSG) is one of the most commonly used food additives, known for its adverse health effects. Alogliptin (ALO) is a highly selective dipeptidyl peptidase-4 inhibitor, but its role in male reproductive function remains debated. The study was designed to evaluate and compare the potential of ALO in mitigating MSG-induced testicular t",
+        "score": 0.3931042551994324,
+        "doi": "10.1016/j.reprotox.2024.108826",
+        "journal": "Reproductive toxicology (Elmsford, N.Y.)",
+        "year": "2024",
+        "rerank_score": 0.1370689868927002,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39636221",
+        "text": "Alogliptin is an oral hypoglycemic agent selective inhibitor of the dipeptidyl peptidase-4 (DPP-4) enzyme. Inhibition of DPP-4 increases the levels of the incretin hormones glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) by preventing their degradation. The main goal is to study the predicted and experimental properties of absorption, distribution, metabolism, and elimination (ADME), compare them, examine predicted targets, and understand the use of SwissADME in design",
+        "score": 0.4022290110588074,
+        "doi": "10.1080/03602532.2024.2439102",
+        "journal": "Drug metabolism reviews",
+        "year": "2025",
+        "rerank_score": -0.5091657638549805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40203836",
+        "text": "Tirzepatide did not impact metabolic adaptation in people with obesity, but increased fat oxidation. Tirzepatide, a glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist, promoted significant body weight reduction in the phase 3 clinical trials. We conducted a preclinical study and a phase 1 clinical trial (NCT04081337) to understand potential mechanisms mediating tirzepatide-induced weight loss in mice and people with obesity. In calorie-restricted, obese mice, chronic t",
+        "score": 0.3995460867881775,
+        "doi": "10.1016/j.cmet.2025.03.011",
+        "journal": "Cell metabolism",
+        "year": "2024",
+        "rerank_score": -1.3391382694244385,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

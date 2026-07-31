@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2191584",
+        "text": "Peripheral action of spironolactone: plethysmographic studies. The relation between vasodilation and the blood pressure-reducing action of spironolactone was studied in a randomized, placebo-controlled, double-blind, crossover study using 9 patients with essential hypertension. Vasodilation was studied by measuring blood flow in finger and calf (representative of skin and muscle circulation) by an electrocardiographic-triggered venous-occlusion plethysmograph. Treatment with spironolactone (100 mg twice dai",
+        "score": 0.3864663541316986,
+        "doi": "10.1016/0002-9149(90)91269-c",
+        "journal": "The American journal of cardiology",
+        "year": "1990",
+        "rerank_score": 1.1514674425125122,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39305436",
+        "text": "Atomoxetine and spironolactone combine to reduce obstructive sleep apnea severity and blood pressure in hypertensive patients. Norepinephrine reuptake inhibitors such as atomoxetine (ato) can improve OSA by increasing pharyngeal muscle activity. Mineralocorticoid antagonists such as spironolactone, may potentiate the reduction of OSA severity and reduce blood pressure. We evaluated whether adding spironolactone to atomoxetine (ato-spiro) improved responses in hypertensive OSA patients. Twenty-one patients w",
+        "score": 0.4306849241256714,
+        "doi": "10.1007/s11325-024-03113-1",
+        "journal": "Sleep & breathing = Schlaf & Atmung",
+        "year": "2024",
+        "rerank_score": 1.0750422477722168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40084260",
+        "text": "Low-dose Spironolactone Combined with ACEIs/ARBs May Reduce Cardiovascular Events in Patients with CKD Stages 3b-5: A Nationwide Population-Based Cohort Study in Taiwan.",
+        "score": 0.43464234471321106,
+        "doi": "10.7150/ijms.103390",
+        "journal": "International journal of medical sciences",
+        "year": "2024",
+        "rerank_score": 0.7440413236618042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

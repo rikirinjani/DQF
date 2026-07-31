@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole Clostridium difficile risk odds ratio cohort",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16206099",
+        "text": "Emergence of fluoroquinolones as the predominant risk factor for Clostridium difficile-associated diarrhea: a cohort study during an epidemic in Quebec. Since 2002, an epidemic of Clostridium difficile-associated-diarrhea (CDAD) associated with a high case-fatality rate has involved >30 hospitals in the province of Quebec, Canada. In 2003, a total of 55% of patients with CDAD at our hospital had received fluoroquinolones in the preceding 2 months. It has been suggested that massive use of proton pump inhibi",
+        "score": 0.4106810688972473,
+        "doi": "10.1086/496986",
+        "journal": "Clinical infectious diseases : an official publication of the Infectious Disease",
+        "year": "2005",
+        "rerank_score": 2.2120137214660645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39674371",
+        "text": "Alcohol use as a risk factor for Clostridioides difficile. Clostridioides difficile (C. diff) is a pathogen of concern. Several risk factors are known, but patients without these risk factors continue to develop the disease. Alcohol use disorder (AUD) is known to disrupt the gut similar to antibiotics, which prompted this evaluation of the association between AUD and C. diff infection. A retrospective cohort study was conducted within 5 hospitals in a health system in Colorado. Adults 18 years of age or old",
+        "score": 0.4302912950515747,
+        "doi": "10.1016/j.ajic.2024.12.002",
+        "journal": "American journal of infection control",
+        "year": "2024",
+        "rerank_score": 1.382340431213379,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40168072",
+        "text": "Fidaxomicin for Clostridioides difficile infection in patients with inflammatory bowel disease: a multicenter retrospective cohort study. Inflammatory bowel disease (IBD) patients with Clostridioides difficile infection (CDI) are at increased risk of adverse outcomes. Data on fidaxomicin use in IBD remain scarce. We assessed the effectiveness and safety of fidaxomicin for CDI and its impact on IBD outcomes in a large international cohort. Adult patients with ulcerative colitis (UC) or Crohn's disease (CD) t",
+        "score": 0.42542409896850586,
+        "doi": "10.1093/ecco-jcc/jjaf056",
+        "journal": "Journal of Crohn's & colitis",
+        "year": "2025",
+        "rerank_score": 1.2309576272964478,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

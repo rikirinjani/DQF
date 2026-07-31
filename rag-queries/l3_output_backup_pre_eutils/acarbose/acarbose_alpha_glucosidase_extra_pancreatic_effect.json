@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose alpha-glucosidase extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "alpha-glucosidase"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38842918",
+        "text": "Two weeks of acarbose treatment shows no effect on gut microbiome composition in patients with type 2 diabetes: a randomised, placebo-controlled, double-blind, crossover study. The alpha-glucosidase inhibitor acarbose is approved for the treatment of type 2 diabetes (T2D). It acts in the lumen of the gut by reducing intestinal hydrolysis and absorption of ingested carbohydrates. This reduces postprandial blood glucose concentration and increases the content of carbohydrates in the distal parts of the intest",
+        "score": 0.3753645420074463,
+        "doi": "10.1530/EC-24-0052",
+        "journal": "Endocrine connections",
+        "year": "2024",
+        "rerank_score": 4.977169036865234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40178116",
+        "text": "Comparison of glucose fluctuation between metformin combined with acarbose or sitagliptin in Chinese patients with type 2 diabetes: A multicenter, randomized, active-controlled, open-label, parallel design clinical trial. Alpha-glucosidase inhibitors or dipeptidyl peptidase-4 inhibitors are both hypoglycemia agents that specifically impact on postprandial hyperglycemia. We compared the effects of acarbose and sitagliptin add on to metformin on time in range (TIR) and glycemic variability (GV) in Chinese pat",
+        "score": 0.42424476146698,
+        "doi": "10.1097/CM9.0000000000003477",
+        "journal": "Chinese medical journal",
+        "year": "2024",
+        "rerank_score": 1.011675477027893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39565129",
+        "text": "Acarbose impairs gut  Acarbose is a type 2 diabetes medicine that prevents dietary starch breakdown into glucose by inhibiting host amylase and glucosidase enzymes. Numerous gut species in the  Acarbose is a type 2 diabetes medication that works primarily by stopping starch breakdown into glucose in the small intestine. This is accomplished by the inhibition of host enzymes, leading to better blood sugar control via reduced ability to derive glucose from dietary starches. The drug and undigested starch trav",
+        "score": 0.405553936958313,
+        "doi": "10.1128/mbio.01506-24",
+        "journal": "mBio",
+        "year": "2024",
+        "rerank_score": 0.5465843677520752,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

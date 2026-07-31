@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nebivolol cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.46803346276283264,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": 0.026486827060580254,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12092233",
+        "text": "[Nebivolol treatment in essential arterial hypertension]. Nebivolol is a lipophilic beta 1-blocker. It is devoid of intrinsic sympathomimetic or membrane stabilising activity but appears to have nitric oxide-mediated vasodilatory effects. Nebivolol 5 mg once daily is well tolerated in patients with hypertension. Adverse events are infrequent, transient and mild to moderate. Those reported most often include headache, fatigue, paraesthesias and dizziness. Several studies reported no signs of orthostatic hypo",
+        "score": 0.43841734528541565,
+        "doi": "",
+        "journal": "Revista medico-chirurgicala a Societatii de Medici si Naturalisti din Iasi",
+        "year": "2002",
+        "rerank_score": -0.7278735041618347,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38919766",
+        "text": "From Friend to Foe: A Case of Naloxone-Induced Pulmonary Edema. Naloxone, an opioid receptor antagonist, effectively reverses opioid overdose and opioid-induced respiratory depression. A few side effects were reported after naloxone administration, including arrhythmia and pulmonary edema. Although rare, naloxone-induced pulmonary edema can be a severe and sometimes life-threatening complication requiring mechanical ventilation. This condition is predominantly linked to an upsurge in catecholamines after op",
+        "score": 0.4678301513195038,
+        "doi": "10.1177/00185787241230074",
+        "journal": "Hospital pharmacy",
+        "year": "2024",
+        "rerank_score": -2.6639044284820557,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

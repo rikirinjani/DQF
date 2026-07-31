@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40202156",
+        "text": "Clearance of Amlodipine, Fentanyl, Fluconazole, Methylprednisolone, and Midazolam by Continuous Renal Replacement Circuits. Critically ill pediatric patients on continuous renal replacement therapy (CRRT) have high mortality rates ranging from 30% to 70%, due in part to altered drug exposure from drug-CRRT circuit interactions. Drug loss within CRRT circuits can occur through both clearance by the hemofilter and adsorption to circuit components. Although these interactions are known to exist, their impact o",
+        "score": 0.4423602819442749,
+        "doi": "10.1097/MAT.0000000000002422",
+        "journal": "ASAIO journal (American Society for Artificial Internal Organs : 1992)",
+        "year": "2025",
+        "rerank_score": 2.2804651260375977,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969140",
+        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
+        "score": 0.4181023836135864,
+        "doi": "10.1002/jcph.70007",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 0.8104594945907593,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40571872",
+        "text": "The Impact of Drug Properties and Severity of Obesity on Renal Drug Clearance Through Glomerular Filtration and Active Tubular Secretion: A Systematic Analysis Using PBPK Modeling. The influence of obesity on renal drug clearance (CLr) remains difficult to predict. This study quantifies obesity-related alterations in CLr for drugs eliminated via glomerular filtration (GF/CL A physiologically-based pharmacokinetic (PBPK) approach was used to simulate CL CLr through GF and ATS increased with BMI, albeit to di",
+        "score": 0.429130494594574,
+        "doi": "10.1007/s11095-025-03885-5",
+        "journal": "Pharmaceutical research",
+        "year": "2025",
+        "rerank_score": -0.09643886238336563,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

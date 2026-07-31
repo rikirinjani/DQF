@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.3523225784301758,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 6.103898048400879,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41557997",
+        "text": "Severe Hypoglycemia in Insulin-Treated Type 2 Diabetes: A Call to Revisit Diabetes Education.",
+        "score": 0.37036287784576416,
+        "doi": "10.2337/dci25-0117",
+        "journal": "Diabetes care",
+        "year": "2026",
+        "rerank_score": 2.192511796951294,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38223574",
+        "text": "Risk factors for hypoglycemia in patients with type 2 diabetes mellitus after intensive insulin therapy and blood glucose monitoring strategy. To explore the risk factors for hypoglycemia in patients with type 2 diabetes mellitus (T2DM) after intensive insulin therapy and the blood glucose monitoring strategy. A total of 172 T2DM patients diagnosed from March 2019 to March 2021 were randomly divided into training (n=115) and test sets (n=57), and given intensive insulin therapy. After treatment, the trainin",
+        "score": 0.39251086115837097,
+        "doi": "10.4314/ahs.v23i2.58",
+        "journal": "African health sciences",
+        "year": "2024",
+        "rerank_score": 1.9509198665618896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

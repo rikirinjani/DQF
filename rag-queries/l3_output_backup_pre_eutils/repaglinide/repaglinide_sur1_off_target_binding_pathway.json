@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Repaglinide SUR1 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24431073",
+        "text": "XPO1 (CRM1) inhibition represses STAT3 activation to drive a survivin-dependent oncogenic switch in triple-negative breast cancer. Inhibition of XPO1 (CRM1)-mediated nuclear export of multiple tumor suppressor proteins has been proposed as a novel cancer therapeutic strategy to turn off oncogenic signals and enhance tumor suppression. Survivin is a multifunctional protein with oncogenic properties when expressed in the cytoplasm that requires the XPO1-RanGTP complex for its nuclear export. We investigated t",
+        "score": 0.41558003425598145,
+        "doi": "10.1158/1535-7163.MCT-13-0416",
+        "journal": "Molecular cancer therapeutics",
+        "year": "2014",
+        "rerank_score": -1.8394490480422974,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41543922",
+        "text": "SH2 Drug discovery targeting SH2 domains (key protein-protein interaction modules) has been hampered by a lack of assay systems evaluating synthetic ligand binding selectivity toward SH2 domains to reduce potential off-target effects. In addition, the molecular determinants for the synthetic ligand engagement to SH2 domains across the target class have yet to be defined. Here, we developed SH2",
+        "score": 0.432059109210968,
+        "doi": "10.1021/acs.jmedchem.5c02613",
+        "journal": "Journal of medicinal chemistry",
+        "year": "2026",
+        "rerank_score": -2.7386481761932373,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41563829",
+        "text": "Shifting the PPARγ conformational ensemble toward a transcriptionally repressive state improves covalent inhibitor efficacy. The nuclear receptor peroxisome proliferator-activated receptor gamma (PPARγ) regulates transcription in response to ligand binding at an orthosteric pocket within the ligand-binding domain (LBD). We previously showed that two covalent ligands, T0070907 and GW9662-extensively used as PPARγ inhibitors to assess off-target activity-weaken but do not completely block ligand binding via a",
+        "score": 0.4363093376159668,
+        "doi": "10.7554/eLife.106697",
+        "journal": "eLife",
+        "year": "2026",
+        "rerank_score": -2.7819888591766357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

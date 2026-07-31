@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40140920",
+        "text": "BMI-residualized data uncovers a cluster of people with type 2 diabetes and increased serum ferritin protected from cardiovascular disease. Understanding the relationship between serum ferritin levels and cardiovascular outcomes in type 2 diabetes is crucial for improving risk stratification and guiding therapeutic interventions aimed at preventing major adverse cardiovascular events (MACE). This study aimed to identify distinct clusters of individuals with type 2 diabetes who have varying risks of MACE usi",
+        "score": 0.41507816314697266,
+        "doi": "10.1186/s12933-025-02685-w",
+        "journal": "Cardiovascular diabetology",
+        "year": "2024",
+        "rerank_score": 2.9543850421905518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41138739",
+        "text": "Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial. The SELECT trial found semaglutide reduced major adverse cardiovascular events (MACE) in patients with overweight or obesity with cardiovascular disease but without diabetes. We report a prespecified analysis of the SELECT trial on the relationships between baseline adiposity measures, treatment-induced adiposity changes, and subsequent MACE risk. Patients aged at least 45 ",
+        "score": 0.4204093813896179,
+        "doi": "10.1016/S0140-6736(25)01375-3",
+        "journal": "Lancet (London, England)",
+        "year": "2025",
+        "rerank_score": 2.8612005710601807,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41091469",
+        "text": "Glucose-Lowering Medication Classes and Cardiovascular Outcomes in Patients With Type 2 Diabetes. Major adverse cardiovascular events (MACEs) are primary causes of morbidity and mortality in adults with type 2 diabetes (T2D), yet few head-to-head randomized trials have compared the effects of glucose-lowering medications on MACEs, and most observational analyses are limited by inadequate bias adjustment methods. To compare the effectiveness of sustained exposure to 4 classes of glucose-lowering medications ",
+        "score": 0.39744341373443604,
+        "doi": "10.1001/jamanetworkopen.2025.36100",
+        "journal": "JAMA network open",
+        "year": "2025",
+        "rerank_score": 2.2295920848846436,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

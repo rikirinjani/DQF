@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec weight loss gain effect mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40919664",
+        "text": "Comparable glycemic outcomes with insulin glargine and insulin degludec during exercise in adolescents with type 1 diabetes using a standardized management protocol.",
+        "score": 0.3876877725124359,
+        "doi": "10.1111/dom.70108",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": -0.8574433922767639,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38379106",
+        "text": "Insulin glargine 300 U/ml versus insulin degludec 100 U/ml improves nocturnal glycaemic control and variability in type 1 diabetes under routine clinical practice: A glucodensities-based post hoc analysis of the OneCare study.",
+        "score": 0.3651031255722046,
+        "doi": "10.1111/dom.15496",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -1.0683794021606445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41355800",
+        "text": "Gc inhibition preserves insulin sensitivity and reduces body weight without loss of muscle mass. Obesity and type 2 diabetes (T2D) are metabolic diseases with increasing prevalence worldwide. Obesity often leads to T2D. Insulin resistance and impaired β cell function contribute to the onset of hyperglycemia. Previously, we reported that ablation of Gc, encoding a secreted protein with a primary role in vitamin D transport, improved pancreatic β cell function in models of diet-induced insulin resistance. Her",
+        "score": 0.38838648796081543,
+        "doi": "10.1172/jci.insight.195341",
+        "journal": "JCI insight",
+        "year": "2025",
+        "rerank_score": -1.83538818359375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

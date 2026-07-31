@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide weight loss gain effect mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40203836",
+        "text": "Tirzepatide did not impact metabolic adaptation in people with obesity, but increased fat oxidation. Tirzepatide, a glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist, promoted significant body weight reduction in the phase 3 clinical trials. We conducted a preclinical study and a phase 1 clinical trial (NCT04081337) to understand potential mechanisms mediating tirzepatide-induced weight loss in mice and people with obesity. In calorie-restricted, obese mice, chronic t",
+        "score": 0.3825516700744629,
+        "doi": "10.1016/j.cmet.2025.03.011",
+        "journal": "Cell metabolism",
+        "year": "2024",
+        "rerank_score": 1.8308067321777344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28266779",
+        "text": "Effects of once-weekly semaglutide on appetite, energy intake, control of eating, food preference and body weight in subjects with obesity. The aim of this trial was to investigate the mechanism of action for body weight loss with semaglutide.",
+        "score": 0.3582313656806946,
+        "doi": "10.1111/dom.12932",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2016",
+        "rerank_score": 1.3024256229400635,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40555748",
+        "text": "Tirzepatide on ingestive behavior in adults with overweight or obesity: a randomized 6-week phase 1 trial. Tirzepatide induces weight reduction but the underlying mechanisms are unknown. This 6-week phase 1 study investigated early effects of tirzepatide on energy intake. Male and female adults without diabetes (n = 114) and a body mass index from 27 to 50 kg per m",
+        "score": 0.39924612641334534,
+        "doi": "10.1038/s41591-025-03774-9",
+        "journal": "Nature medicine",
+        "year": "2024",
+        "rerank_score": 1.0817291736602783,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole CYP2C19 metabolism pharmacogenomic mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11380317",
+        "text": "Pharmacodynamic effects and kinetic disposition of rabeprazole in relation to CYP2C19 genotypes. S-mephenytoin 4'-hydroxylase (CYP2C19) catalyses the metabolism of rabeprazole to some extent. Based on the metabolic and pharmacokinetic differences among other proton pump inhibitors such as omeprazole, lansoprazole and pantoprazole, rabeprazole appears to be the least affected proton pump inhibitor by the CYP2C19-related genetic polymorphism.",
+        "score": 0.34175387024879456,
+        "doi": "10.1046/j.1365-2036.2001.00980.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "2001",
+        "rerank_score": 6.097563743591309,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15752376",
+        "text": "Effects of clarithromycin on lansoprazole pharmacokinetics between CYP2C19 genotypes. Lansoprazole is a substrate of CYP2C19 and CYP3A. The aim of this study was to compare the inhibitory effects of clarithromycin, an inhibitor of CYP3A on the metabolism of lansoprazole between CYP2C19 genotypes.",
+        "score": 0.3417966961860657,
+        "doi": "10.1111/j.1365-2125.2004.02329.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2005",
+        "rerank_score": 5.784341335296631,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15245569",
+        "text": "CYP2C19 polymorphism and proton pump inhibitors. Proton pump inhibitors such as omeprazole (esomeprazole), lansoprazole, pantoprazole and rabeprazole are eliminated by the hepatic route and the polymorphic CYP2C19 is mainly involved in their metabolism. In different populations three phenotypes have been identified: extensive metabolizers, poor metabolizers and individuals carrying one wild type and one mutant allele (het extensive metabolizers). Systemic exposure to the proton pump inhibitors as expressed ",
+        "score": 0.3417920470237732,
+        "doi": "10.1111/j.1600-0773.2004.pto950102.x",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2004",
+        "rerank_score": 4.3231072425842285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

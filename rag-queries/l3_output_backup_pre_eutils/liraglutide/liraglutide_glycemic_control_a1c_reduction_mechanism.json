@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39927559",
+        "text": "Preoperative liraglutide modulates control of fat and glucose metabolism during cardiopulmonary bypass surgery. Glucagon-like peptide-1 receptor agonists reduce insulin requirements and improve glucose control when administered before cardiac surgery. An increase in endogenous insulin release is the most likely mechanism, but this has never been studied in the setting of cardiac surgery. We hypothesized that liraglutide increases pancreatic insulin secretion during cardiac surgery with cardiopulmonary bypas",
+        "score": 0.35620030760765076,
+        "doi": "10.1530/EC-24-0427",
+        "journal": "Endocrine connections",
+        "year": "2024",
+        "rerank_score": 3.028606414794922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39926854",
+        "text": "Liraglutide Effect on Weight and A1C in Patients with Type 2 Diabetes Mellitus: Real-World Data from a Single Tertiary Care Center in Saudi Arabia. This retrospective study aimed to determine the effect of liraglutide on weight and HbA1c levels in patients with type 2 diabetes mellitus (T2DM) in Saudi Arabia. The present investigation was carried out at a medical facility located in the Kingdom of Saudi Arabia. A retrospective analysis was conducted on the clinical records of 290 patients who were diagnosed",
+        "score": 0.34178391098976135,
+        "doi": "10.4103/jpbs.jpbs_473_24",
+        "journal": "Journal of pharmacy & bioallied sciences",
+        "year": "2024",
+        "rerank_score": 1.8928968906402588,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40198926",
+        "text": "Liraglutide attenuates high glucose-induced endothelial cell senescence and dysfunction via SIRT1-mediated deacetylation of p53/p65. Endothelial aging is a critical pathogenic factor in various cardiovascular and metabolic disorders. Liraglutide (LIR), a glucagon-like peptide-1 receptor (GLP-1R) agonist used clinically to treat diabetes, controls blood sugar levels, and alleviates vascular stress, thereby protecting blood vessels. However, the mechanism by which it improves vascular aging remains to be eluc",
+        "score": 0.3738090395927429,
+        "doi": "10.1016/j.tice.2025.102882",
+        "journal": "Tissue & cell",
+        "year": "2024",
+        "rerank_score": 1.8556269407272339,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

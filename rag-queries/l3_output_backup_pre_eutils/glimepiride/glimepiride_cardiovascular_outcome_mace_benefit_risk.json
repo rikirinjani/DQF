@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glimepiride cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41369622",
+        "text": "Obesity-Associated Cardiovascular Risk and Benefit From PCSK9 Inhibition: A Prespecified Analysis From FOURIER. The PCSK9 inhibitor evolocumab decreases the risk of major adverse cardiovascular events (MACE). The relationship between body mass index (BMI) and benefit of evolocumab remains unknown. This study sought to investigate the association between BMI, risk of MACE, and the clinical benefit of evolocumab. The FOURIER (Further Cardiovascular Outcomes Research with PCSK9 Inhibition in Subjects with Elev",
+        "score": 0.4543182849884033,
+        "doi": "10.1016/j.jacc.2025.10.036",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2025",
+        "rerank_score": 4.826149940490723,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39181597",
+        "text": "Semaglutide and cardiovascular outcomes in patients with obesity and prevalent heart failure: a prespecified analysis of the SELECT trial. Semaglutide, a GLP-1 receptor agonist, reduces the risk of major adverse cardiovascular events (MACE) in people with overweight or obesity, but the effects of this drug on outcomes in patients with atherosclerotic cardiovascular disease and heart failure are unknown. We report a prespecified analysis of the effect of once-weekly subcutaneous semaglutide 2·4 mg on ischaem",
+        "score": 0.4539942443370819,
+        "doi": "10.1016/S0140-6736(24)01498-3",
+        "journal": "Lancet (London, England)",
+        "year": "2024",
+        "rerank_score": 4.459004878997803,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40926360",
+        "text": "Lower risk of cardiovascular events in patients initiated on semaglutide 2.4 mg in the real-world: Results from the SCORE study (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity in the Real World). In this first interim analysis of the SCORE study, we investigated the risk of major adverse cardiovascular events (MACE) among individuals with atherosclerotic cardiovascular disease (ASCVD) and overweight/obesity but without diabetes who initiated semaglutide 2.4 mg in real-wo",
+        "score": 0.43124452233314514,
+        "doi": "10.1111/dom.70080",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 4.108489513397217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

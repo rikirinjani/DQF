@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39921577",
+        "text": "Plasma and Urine Pharmacokinetics of Long-Acting Injectable Omeprazole Following Intramuscular Administrations to Healthy Thoroughbred Horses. Omeprazole is a gastric acid secretion inhibitor used as an effective anti-ulcer drug. Based on oral administration studies, its International Screening Limit (ISL) was established in plasma and urine at 1 ng/mL with a Detection Time (DT) of 48 h. A novel formulation of injectable omeprazole has since been released, and therefore, a pharmacokinetic study was performe",
+        "score": 0.34696149826049805,
+        "doi": "10.1111/jvp.13494",
+        "journal": "Journal of veterinary pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 0.5992293953895569,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39385496",
+        "text": "Improving CYP2C19 phenotyping using stereoselective omeprazole and 5-hydroxy-omeprazole metabolic ratios. Omeprazole (OME) is a CYP2C19 phenotyping probe, marketed as a racemic (S)/(R) mixture or as an S-enantiomer. Both CYP2C19 and CYP3A4 enzymes mediate (R)-OME hydroxylation to (R)-5-hydroxyomeprazole, while (S)-OME is exclusively hydroxylated via CYP2C19. This study investigates OME and its 5-hydroxymetabolite enantiomers' pharmacokinetics using data from two studies involving healthy volunteers. In Stud",
+        "score": 0.40383094549179077,
+        "doi": "10.1111/bcpt.14095",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2024",
+        "rerank_score": -1.3335206508636475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.3833831548690796,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.7825368642807007,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

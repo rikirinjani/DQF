@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin SGLT2 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34916371",
+        "text": "Canagliflozin, a SGLT-2 inhibitor, relieves ER stress, modulates autophagy and induces apoptosis in irradiated HepG2 cells: Signal transduction between PI3K/AKT/GSK-3β/mTOR and Wnt/β-catenin pathways;  Metabolic shifting from mitochondrial respiration to glycolysis characterizes malignant cells from its normal counterparts and is attributed to overactivation of oncogenic signaling pathways. Hence, this study intended to investigate the influence of canagliflozin (CAN) and/or γ-irradiation (γ-IR) on HepG2 ce",
+        "score": 0.407906174659729,
+        "doi": "10.4103/jcrt.JCRT_963_19",
+        "journal": "Journal of cancer research and therapeutics",
+        "year": "2021",
+        "rerank_score": 2.6611545085906982,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26003086",
+        "text": "In vitro characterization of luseogliflozin, a potent and competitive sodium glucose co-transporter 2 inhibitor: Inhibition kinetics and binding studies. In this study, we evaluated an inhibition model of luseogliflozin on sodium glucose co-transporter 2 (SGLT2). We also analyzed the binding kinetics of the drug to SGLT2 protein using [(3)H]-luseogliflozin. Luseogliflozin competitively inhibited human SGLT2 (hSGLT2)-mediated glucose uptake with a Ki value of 1.10 nM. In the absence of glucose, [(3)H]-luseog",
+        "score": 0.3969349265098572,
+        "doi": "10.1016/j.jphs.2015.04.001",
+        "journal": "Journal of pharmacological sciences",
+        "year": "2015",
+        "rerank_score": 2.2597618103027344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32821334",
+        "text": "Ipragliflozin-induced improvement of liver steatosis in obese mice may involve sirtuin signaling. Sodium glucose cotransporter 2 (SGLT2) inhibitors are newly developed oral antidiabetic drugs. SGLT2 is primarily expressed in the kidneys and reabsorbs approximately 90% of the glucose filtered by the renal glomeruli. SGLT2 inhibitors lower glucose levels independently of insulin action by facilitating urinary glucose excretion. The SGLT2 inhibitor ipragliflozin has reportedly improved liver steatosis in anima",
+        "score": 0.41204363107681274,
+        "doi": "10.4254/wjh.v12.i7.350",
+        "journal": "World journal of hepatology",
+        "year": "2020",
+        "rerank_score": 0.5317144989967346,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

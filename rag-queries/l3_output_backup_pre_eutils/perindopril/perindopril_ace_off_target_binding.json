@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Perindopril ACE off-target binding",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41591661",
+        "text": "Role of Perindopril in Mitigating Doxorubicin's Vascular Toxicity in a Rat Model. Doxorubicin (DOX), a widely used anthracycline in cancer therapy, is associated with significant cardiovascular toxicity. While its cardiotoxic effects are well documented, the mechanisms and prevention of DOX-induced vascular toxicity remain insufficiently explored. Angiotensin-converting enzyme inhibitors (ACEIs), such as perindopril (PER), are commonly used in cardiovascular disease management and may offer vascular protect",
+        "score": 0.42354315519332886,
+        "doi": "10.1007/s12012-026-10092-0",
+        "journal": "Cardiovascular toxicology",
+        "year": "2025",
+        "rerank_score": 0.6262153387069702,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40824896",
+        "text": "Molecular basis of domain-specific angiotensin I-converting enzyme inhibition by the antihypertensive drugs enalaprilat, ramiprilat, trandolaprilat, quinaprilat and perindoprilat. Angiotensin I-converting enzyme (ACE) is a dipeptidyl carboxypeptidase with two homologous catalytic domains [N- and C-domains (nACE and cACE)] that can cleave a range of substrates. cACE primarily cleaves the inactive decapeptide angiotensin I into the potent vasopressor angiotensin II, whereas nACE preferentially cleaves the ant",
+        "score": 0.4391908347606659,
+        "doi": "10.1111/febs.70232",
+        "journal": "The FEBS journal",
+        "year": "2025",
+        "rerank_score": -0.037485554814338684,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39280311",
+        "text": "Perindopril and losartan affect ACE-2 and IL- 6 expression in obese rat model. Obesity has emerged as a worldwide health concern due to its increasing prevalence. Adipocytes have the ability to express angiotensin-converting enzyme 2 receptors (ACE2) and several adipocytokines. These expressions could lead to the activation of a cytokine storm, which in turn promotes the development of cardiovascular diseases. The aim of this study was to investigate the impact of perindopril and losartan exposure on the AC",
+        "score": 0.4114500880241394,
+        "doi": "10.52225/narra.v4i2.681",
+        "journal": "Narra J",
+        "year": "2024",
+        "rerank_score": -0.6311513781547546,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Irbesartan AT1 receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39635439",
+        "text": "A real-world pharmacovigilance analysis of adverse events associated with irbesartan using the FAERS and JADER databases. Hypertension is a leading global risk factor for disability and death. Irbesartan, a potent angiotensin II receptor blocker, requires continuous safety monitoring. We conducted a disproportionality analysis of irbesartan-related adverse drug events (ADEs) using the FDA's FAERS and Japan's JADER databases. We extracted irbesartan-related ADE reports from FAERS (Q1 2004 to Q1 2024) and JAD",
+        "score": 0.41095060110092163,
+        "doi": "10.3389/fphar.2024.1485190",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 4.0864081382751465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39000445",
+        "text": "Age-Related Effects of AT1 Receptor Antagonist Losartan on Cognitive Decline in Spontaneously Hypertensive Rats. Both hypertension and aging are known to increase the vulnerability of the brain to neurovascular damage, resulting in cognitive impairment. The present study investigated the efficacy of the antihypertensive drug losartan on age- and hypertension-associated cognitive decline and the possible mechanism underlying its effect in spontaneously hypertensive rats (SHRs). Losartan was administered (10 ",
+        "score": 0.40833181142807007,
+        "doi": "10.3390/ijms25137340",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 3.9054739475250244,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38573089",
+        "text": "Telmisartan-Induced Myotoxicity in Patients with Essential Hypertension. Drug-related muscular adverse effects are relatively common among certain groups of drugs, such as statins and steroids. However, these adverse effects are less well-known for angiotensin receptor blockers (ARBs). It is proposed that telmisartan and irbesartan may cause myotoxicity via increased Peroxisome Proliferator-Activated Receptor gamma (PPAR-gamma) activity. Herein, we present two hypertensive patients in whom telmisartan-induc",
+        "score": 0.4141494929790497,
+        "doi": "10.5543/tkda.2023.22893",
+        "journal": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
+        "year": "2024",
+        "rerank_score": 3.833245277404785,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

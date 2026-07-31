@@ -1,0 +1,28 @@
+{
+  "cox_inhibition": null,
+  "gi_risk": 2,
+  "cv_risk": 2,
+  "renal_risk": 1,
+  "platelet_effect": null,
+  "off_targets": [
+    "Capsaicin",
+    "Sodium"
+  ],
+  "anti_inflammatory": null,
+  "analgesic": null,
+  "antipyretic": null,
+  "ddi_risk": 1,
+  "_evidence": {
+    "pmids": [
+      "39104725",
+      "40402381",
+      "40967389",
+      "41103087",
+      "41556714",
+      "41588985"
+    ],
+    "source_count": 2,
+    "finding_count": 6
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

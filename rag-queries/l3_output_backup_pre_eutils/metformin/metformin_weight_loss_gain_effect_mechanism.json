@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin weight loss gain effect mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39660840",
+        "text": "The Effects of Metformin on Weight Loss, Cardiovascular Health, and Longevity. Metformin, a biguanide derived from Galega officinalis, was first synthesized by Werner and Bell in 1922. Metformin was approved for the treatment of diabetes by the US Food and Drug Administration in 1994. It has since become the most widely used oral antidiabetic agent. The exact mechanisms by which metformin exerts its clinical effects remain the subject of ongoing research. Metformin interacts with multiple molecular pathways",
+        "score": 0.36174628138542175,
+        "doi": "10.1097/CRD.0000000000000832",
+        "journal": "Cardiology in review",
+        "year": "2024",
+        "rerank_score": 5.969289302825928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38965822",
+        "text": "Growth differentiation factor 15 is not modified after weight loss induced by liraglutide in South Asians and Europids with type 2 diabetes mellitus. Glucagon-like peptide-1 receptor (GLP-1R) agonists induce weight loss in patients with type 2 diabetes mellitus (T2DM), but the underlying mechanism is unclear. Recently, the mechanism by which metformin induces weight loss could be explained by an increase in growth differentiation factor 15 (GDF15), which suppresses appetite. Therefore, we aimed to investiga",
+        "score": 0.3646394610404968,
+        "doi": "10.1113/EP091815",
+        "journal": "Experimental physiology",
+        "year": "2024",
+        "rerank_score": 5.782083034515381,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41389439",
+        "text": "Metformin-mechanisms of its glycemia-reducing effect. Metformin currently serves as the basis of oral treatment for patients with type 2 diabetes. While metformin's effect on glycemia is well established, its mode of action remains unclear. In clinical studies, long-term metformin treatment improved glucose disposal and reduced hepatic gluconeogenesis. The effects on gluconeogenesis have been confirmed in experimental animals and cell preparations, but mostly at higher doses than those used in humans. Propo",
+        "score": 0.33882594108581543,
+        "doi": "10.1016/j.pharmr.2025.100106",
+        "journal": "Pharmacological reviews",
+        "year": "2025",
+        "rerank_score": 4.806899547576904,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rosiglitazone gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.41171973943710327,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 0.5257949829101562,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41452405",
+        "text": "Rosiglitazone Adjunct to Risperidone for Irritability in Autistic Children: A Randomized, Double-Blind, Placebo-Controlled Trial.",
+        "score": 0.46599242091178894,
+        "doi": "10.1007/s10803-025-07183-2",
+        "journal": "Journal of autism and developmental disorders",
+        "year": "2025",
+        "rerank_score": -0.8090717792510986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39623604",
+        "text": "EXPRESSION OF CONCERN: Rosiglitazone and 15-deoxy-Δ",
+        "score": 0.45324820280075073,
+        "doi": "10.1111/bph.17421",
+        "journal": "British journal of pharmacology",
+        "year": "2024",
+        "rerank_score": -1.7306747436523438,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

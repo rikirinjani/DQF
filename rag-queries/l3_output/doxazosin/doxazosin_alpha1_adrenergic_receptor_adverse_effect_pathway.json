@@ -1,0 +1,71 @@
+{
+  "query": {
+    "query": "Doxazosin alpha1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38135468",
+        "text": "Diagnosis and management of resistant hypertension.\n\nResistant hypertension is a condition where blood pressure levels remain elevated above target despite changes in lifestyle and concurrent use of at least three antihypertensive agents, including a long-acting calcium channel blocker (CCB), a blocker of the renin-angiotensin system (ACE inhibitor or angiotensin receptor blocker) and a diuretic. To be diagnosed as resistant hypertension, maintaining adherence to therapy is required along with confirmation of blood pressure levels above target by out-of-office blood pressure measurements and exclusion of secondary causes of hypertension. The key management points of this condition include lifestyle changes such as reduced sodium and alcohol intake, regular physical activity, weight loss and discontinuation of substances that can interfere with blood pressure control. It is also recommended that current treatment be rationalised, including single pill combination treatment where antihypertensive drugs should be provided at the maximum tolerated dose. It is further recommended that current drugs be replaced with a more appropriate and less difficult treatment regimen based on the patient's age, ethnicity, comorbidities and risk of drug-drug interactions. The fourth line of treatment for patients with resistant hypertension should include mineralocorticoid receptor antagonists such as spironolactone, as demonstrated in the PATHWAY-2 trial and meta-analyses. Alternatives to spironolactone include amiloride, doxazosin, eplerenone, clonidine and beta-blockers, as well as any other antihypertensive drugs not already in use. New approaches under research are selective non-steroidal mineralocorticoid receptor antagonists such as finerenone, esaxerenone and ocedurenone, selective aldosterone synthase inhibitors such as baxdrostat, and dual endothelin antagonist aprocitentan.",
+        "title": "Diagnosis and management of resistant hypertension.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38135468",
+          "journal": "Heart (British Cardiac Society)",
+          "authors": [
+            "Camafort Miguel",
+            "Kreutz Reinhold",
+            "Cho Myeong-Chan"
+          ],
+          "pub_date": "2024-Oct-28",
+          "doi": "10.1136/heartjnl-2022-321730",
+          "mesh_terms": [
+            "Humans",
+            "Hypertension",
+            "Antihypertensive Agents",
+            "Drug Resistance",
+            "Blood Pressure",
+            "Drug Therapy, Combination",
+            "Mineralocorticoid Receptor Antagonists"
+          ]
+        }
+      },
+      {
+        "id": "PMID:26414968",
+        "text": "Spironolactone versus placebo, bisoprolol, and doxazosin to determine the optimal treatment for drug-resistant hypertension (PATHWAY-2): a randomised, double-blind, crossover trial.\n\nOptimal drug treatment for patients with resistant hypertension is undefined. We aimed to test the hypotheses that resistant hypertension is most often caused by excessive sodium retention, and that spironolactone would therefore be superior to non-diuretic add-on drugs at lowering blood pressure.\nIn this double-blind, placebo-controlled, crossover trial, we enrolled patients aged 18-79 years with seated clinic systolic blood pressure 140 mm Hg or greater (or ≥135 mm Hg for patients with diabetes) and home systolic blood pressure (18 readings over 4 days) 130 mm Hg or greater, despite treatment for at least 3 months with maximally tolerated doses of three drugs, from 12 secondary and two primary care sites in the UK. Patients rotated, in a preassigned, randomised order, through 12 weeks of once daily treatment with each of spironolactone (25-50 mg), bisoprolol (5-10 mg), doxazosin modified release (4-8 mg), and placebo, in addition to their baseline blood pressure drugs. Random assignment was done via a central computer system. Investigators and patients were masked to the identity of drugs, and to their sequence allocation. The dose was doubled after 6 weeks of each cycle. The hierarchical primary endpoints were the difference in averaged home systolic blood pressure between spironolactone and placebo, followed (if significant) by the difference in home systolic blood pressure between spironolactone and the average of the other two active drugs, followed by the difference in home systolic blood pressure between spironolactone and each of the other two drugs. Analysis was by intention to treat. The trial is registered with EudraCT number 2008-007149-30, and ClinicalTrials.gov number, NCT02369081.\nBetween May 15, 2009, and July 8, 2014, we screened 436 patients, of whom 335 were randomly assigned. After 21 were excluded, 285 patients received spironolactone, 282 doxazosin, 285 bisoprolol, and 274 placebo; 230 patients completed all treatment cycles. The average reduction in home systolic blood pressure by spironolactone was superior to placebo (-8·70 mm Hg [95% CI -9·72 to -7·69]; p<0·0001), superior to the mean of the other two active treatments (doxazosin and bisoprolol; -4·26 [-5·13 to -3·38]; p<0·0001), and superior when compared with the individual treatments; versus doxazosin (-4·03 [-5·04 to -3·02]; p<0·0001) and versus bisoprolol (-4·48 [-5·50 to -3·46]; p<0·0001). Spironolactone was the most effective blood pressure-lowering treatment, throughout the distribution of baseline plasma renin; but its margin of superiority and likelihood of being the best drug for the individual patient were many-fold greater in the lower than higher ends of the distribution. All treatments were well tolerated. In six of the 285 patients who received spironolactone, serum potassium exceeded 6·0 mmol/L on one occasion.\nSpironolactone was the most effective add-on drug for the treatment of resistant hypertension. The superiority of spironolactone supports a primary role of sodium retention in this condition.\nThe British Heart Foundation and National Institute for Health Research.",
+        "title": "Spironolactone versus placebo, bisoprolol, and doxazosin to determine the optimal treatment for drug-resistant hypertension (PATHWAY-2): a randomised, double-blind, crossover trial.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "26414968",
+          "journal": "Lancet (London, England)",
+          "authors": [
+            "Williams Bryan",
+            "MacDonald Thomas M",
+            "Morant Steve"
+          ],
+          "pub_date": "2015-Nov-21",
+          "doi": "10.1016/S0140-6736(15)00257-3",
+          "mesh_terms": [
+            "Adrenergic alpha-1 Receptor Antagonists",
+            "Adrenergic beta-1 Receptor Antagonists",
+            "Aged",
+            "Bisoprolol",
+            "Cross-Over Studies",
+            "Double-Blind Method",
+            "Doxazosin",
+            "Female",
+            "Humans",
+            "Hypertension",
+            "Male",
+            "Middle Aged",
+            "Mineralocorticoid Receptor Antagonists",
+            "Spironolactone",
+            "Treatment Outcome"
+          ]
+        }
+      }
+    ]
+  }
+}

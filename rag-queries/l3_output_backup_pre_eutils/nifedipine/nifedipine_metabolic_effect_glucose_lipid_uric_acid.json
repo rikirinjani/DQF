@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nifedipine metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39240961",
+        "text": "Aqueous extract of Peristrophe bivalvis (L.) Merr. leaf reversed the detrimental effects of nitric oxide synthase inhibitor on blood lipid profile and glucose level. There is evidence that nitric oxide (NO) modulates the metabolism of glucose and lipid, and some antihypertensive medications have been shown to affect glucose and lipid metabolism. Peristrophe bivalvis is a medicinal plant that has been shown to have antihypertensive properties. The study investigated the effect of aqueous extract of Peristrop",
+        "score": 0.4550849199295044,
+        "doi": "10.1371/journal.pone.0308338",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 0.5511367321014404,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40340743",
+        "text": "Combined effect of fasting blood glucose and serum uric acid on nonalcoholic fatty liver disease. This study sought to investigate the independent and synergistic impacts of fasting blood glucose (FBG) and serum uric acid (SUA) levels on non-alcoholic fatty liver disease (NAFLD) in participants with and without type 2 diabetes mellitus (T2DM). A total of 12,430 participants (mean age: 54.34 ± 15.23, 34.34% female) were enrolled through the Health Screening Center of Tianjin Medical University General Hospit",
+        "score": 0.44760987162590027,
+        "doi": "10.1186/s12944-025-02538-1",
+        "journal": "Lipids in health and disease",
+        "year": "2024",
+        "rerank_score": -0.726698100566864,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41058992",
+        "text": "Dietary uridine improves lipid homeostasis in high-fat diet-induced obese mice by regulating liver gene expression and metabolomic profiles. Obesity is caused by excessive storage of adipose tissue and leads to metabolic disorders. Uridine exerts modulatory effects on lipid metabolism, but the regulatory mechanism in obesity needs further research. In this study, the effects of uridine supplementation on lipid metabolism were investigated in high-fat diet-induced obese mice. Mice aged at 8 weeks were random",
+        "score": 0.4077347218990326,
+        "doi": "10.3389/fnut.2025.1651993",
+        "journal": "Frontiers in nutrition",
+        "year": "2025",
+        "rerank_score": -1.1540709733963013,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

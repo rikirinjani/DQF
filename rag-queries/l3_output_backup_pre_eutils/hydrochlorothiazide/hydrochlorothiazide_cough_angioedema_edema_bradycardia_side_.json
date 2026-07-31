@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39092405",
+        "text": "Hydrochlorothiazide-Induced Exfoliative Rash and Sepsis. Hydrochlorothiazide is a diuretic agent commonly used to treat hypertension, chronic edema from congestive heart failure or cirrhosis, and nephrogenic diabetes insipidus. Diuretics work by increasing urine output and are classified based on the specific renal segments they act on. As with all medications, they are not without their side effects. The most significant and serious include hypovolemia and electrolyte disturbances. Other more rare adverse ",
+        "score": 0.44570136070251465,
+        "doi": "10.7759/cureus.63655",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 2.3880391120910645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4553784132003784,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -1.089272379875183,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41488172",
+        "text": "Ritodrine-associated Noncardiogenic Pulmonary Edema Diagnosed by Point-of-care Ultrasound: A Case Report of Twin Gestation. Ritodrine hydrochloride, a beta-adrenergic tocolytic agent, can rarely cause acute noncardiogenic pulmonary edema, particularly in patients with multiple gestations or comorbidities. We report a case of a 28-year-old woman with twin pregnancy, type 1 diabetes, and hyperthyroidism that developed acute respiratory distress following ritodrine infusion. Imaging showed pulmonary edema, and",
+        "score": 0.4507344365119934,
+        "doi": "10.4103/jmu.JMU-D-25-00047",
+        "journal": "Journal of medical ultrasound",
+        "year": "2025",
+        "rerank_score": -1.6098617315292358,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

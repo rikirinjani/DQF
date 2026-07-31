@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole CYP2C19 genotype plasma concentration AUC",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38747453",
+        "text": "Interaction of age and CYP2C19 genotypes on voriconazole steady-state trough concentration in Chinese patients. Both age and CYP2C19 genotypes affect voriconazole plasma concentration; the interaction of age and CYP2C19 genotypes on voriconazole plasma concentration remains unknown. This study aims to investigate the combined effects of age and CYP2C19 genotypes on voriconazole plasma concentration in Chinese patients. A total of 480 patients who received voriconazole treatment were recruited. CYP2C19*2 (rs",
+        "score": 0.4141814112663269,
+        "doi": "10.1097/FPC.0000000000000536",
+        "journal": "Pharmacogenetics and genomics",
+        "year": "2024",
+        "rerank_score": 4.328927993774414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.3987719714641571,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 3.8597726821899414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38797695",
+        "text": "Modeled Hepatic/Plasma Exposures of Omeprazole Prescribed Alone in Cytochrome P450 2C19 Poor Metabolizers Are Likely Associated with Hepatic Toxicity Reported in a Japanese Adverse Event Database. Omeprazole, a gastric acid pump inhibitor, is repeatedly administered and is oxidatively metabolized mainly by polymorphic cytochrome P450 2C19. The prescribed dosage of omeprazole was discontinued or reduced in 47 of the 135 patients who received omeprazole alone in this survey, as recorded in the Japanese Advers",
+        "score": 0.3997417688369751,
+        "doi": "10.1248/bpb.b24-00145",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 2.665422201156616,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

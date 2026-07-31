@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4147675037384033,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 1.8147578239440918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38645830",
+        "text": "Acetazolamide and Hydrochlorothiazide in Patients With Acute Decompensated Heart Failure: Insights From Recent Trials. Acetazolamide and thiazide diuretics have been combined with loop diuretics to overcome diuretic resistance in heart failure patients. However, recent studies have assessed the upfront combination of acetazolamide and hydrochlorothiazide with loop diuretics in hospitalized patients with acute decompensated heart failure without loop diuretic resistance. We reviewed two recent randomized con",
+        "score": 0.40122026205062866,
+        "doi": "10.14740/cr1627",
+        "journal": "Cardiology research",
+        "year": "2024",
+        "rerank_score": 1.0705747604370117,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8207741",
+        "text": "Perindopril plus nifedipine versus perindopril plus hydrochlorothiazide in mild to severe hypertension: a double-blind multicentre study. The Multicentre Study Group on Treatment Association with Perindopril. Thiazide diuretics are considered as the choice drug to combine with ACE inhibitors for the treatment of hypertension. However, there is much evidence showing that the combination of ACE inhibitors with a calcium channel blocker is effective and safe. We compared the safety and efficacy of perindopril ",
+        "score": 0.3872723877429962,
+        "doi": "",
+        "journal": "Journal of human hypertension",
+        "year": "1994",
+        "rerank_score": 0.6379032135009766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

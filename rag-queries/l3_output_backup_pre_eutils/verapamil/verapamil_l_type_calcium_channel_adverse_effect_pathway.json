@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil L-type calcium channel adverse effect pathway",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40111679",
+        "text": "Effect of Verapamil on Blood Glucose in Type 1 and Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis. Verapamil, an L-type calcium channel blocker treating hypertension, arrhythmia, and other cardiovascular diseases, has emerged as a potential drug for lowering blood glucose by regulating cellular calcium homeostasis and affecting expression of apoptosis-related proteins in pancreatic β-cells. However, this promising effect must be weighed against potential risks, including cardiovascular adve",
+        "score": 0.4328828454017639,
+        "doi": "10.1007/s10557-025-07683-4",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2025",
+        "rerank_score": 5.693474292755127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39761823",
+        "text": "L-type calcium channel blockade attenuates the anxiogenic-like effects of cocaine abstinence in female and male rats. Cocaine abstinence and withdrawal are linked to relapse and heightened anxiety. While L-type calcium channels (LTCCs) have been associated with cocaine use disorders in humans and drug-seeking in rodents, their role in mood-related symptoms during cocaine abstinence remains unclear. We addressed this by investigating the ability of LTCC blockade with isradipine to alter the mood-related beha",
+        "score": 0.4610716700553894,
+        "doi": "10.1016/j.neuroscience.2025.01.003",
+        "journal": "Neuroscience",
+        "year": "2024",
+        "rerank_score": 2.1019370555877686,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40565202",
+        "text": "Molecular Mechanisms of L-Type Calcium Channel Dysregulation in Heart Failure. The L-type calcium channels (LTCCs) function as the main entry points that convert myocyte membrane depolarization into calcium transients, which drive every heartbeat. There is increasing evidence to show that maladaptive remodeling of these channels is the cause of heart failure with reduced ejection fraction (HFrEF) and heart failure with preserved ejection fraction (HFpEF). Recent experimental, translational, and clinical stu",
+        "score": 0.418602854013443,
+        "doi": "10.3390/ijms26125738",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 2.006498098373413,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

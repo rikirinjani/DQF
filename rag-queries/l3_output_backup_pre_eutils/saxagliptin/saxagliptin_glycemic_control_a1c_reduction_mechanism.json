@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.4062489867210388,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 0.6450092792510986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38297915",
+        "text": "Saxagliptin/dapagliflozin is non-inferior to insulin glargine in terms of β-cell function in subjects with latent autoimmune diabetes in adults: A 12-month, randomized, comparator-controlled pilot study. To compare the efficacy and safety of saxagliptin/dapagliflozin and insulin glargine in people with latent autoimmune diabetes in adults (LADA). In this phase 2b multicentre, open-label, comparator-controlled, parallel-group, non-inferiority study, we randomly assigned 33 people with LADA who had a fasting ",
+        "score": 0.3970221281051636,
+        "doi": "10.1111/dom.15469",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -1.014363408088684,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38694251",
+        "text": "A1C: Episode 2.",
+        "score": 0.38710978627204895,
+        "doi": "10.2337/cd24-0009",
+        "journal": "Clinical diabetes : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": -3.481675624847412,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

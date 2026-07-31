@@ -1,0 +1,106 @@
+{
+  "query": {
+    "query": "Candesartan metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38771738",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38771738",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2024-May-27",
+          "doi": "10.58347/tml.2024.1703a",
+          "mesh_terms": [
+            "Humans",
+            "Hypertension",
+            "Antihypertensive Agents",
+            "Blood Pressure"
+          ]
+        }
+      },
+      {
+        "id": "PMID:37337119",
+        "text": "Enhanced BCAT1 activity and BCAA metabolism promotes RhoC activity in cancer progression.\n\nIncreased expression of branched-chain amino acid transaminase 1 or 2 (BCAT1 and BCAT2) has been associated with aggressive phenotypes of different cancers. Here we identify a gain of function of BCAT1 glutamic acid to alanine mutation at codon 61 (BCAT1E61A) enriched around 2.8% in clinical gastric cancer samples. We found that BCAT1E61A confers higher enzymatic activity to boost branched-chain amino acid (BCAA) catabolism, accelerate cell growth and motility and contribute to tumor development. BCAT1 directly interacts with RhoC, leading to elevation of RhoC activity. Notably, the BCAA-derived metabolite, branched-chain α-keto acid directly binds to the small GTPase protein RhoC and promotes its activity. BCAT1 knockout-suppressed cell motility could be rescued by expressing BCAT1E61A or adding branched-chain α-keto acid. We also identified that candesartan acts as an inhibitor of BCAT1E61A, thus repressing RhoC activity and cancer cell motility in vitro and preventing peritoneal metastasis in vivo. Our study reveals a link between BCAA metabolism and cell motility and proliferation through regulating RhoC activation, with potential therapeutic implications for cancers.",
+        "title": "Enhanced BCAT1 activity and BCAA metabolism promotes RhoC activity in cancer progression.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37337119",
+          "journal": "Nature metabolism",
+          "authors": [
+            "Qian Lin",
+            "Li Na",
+            "Lu Xiao-Chen"
+          ],
+          "pub_date": "2023-Jul",
+          "doi": "10.1038/s42255-023-00818-7",
+          "mesh_terms": [
+            "Humans",
+            "Neoplasms",
+            "Proteins",
+            "Cell Proliferation",
+            "Keto Acids",
+            "Amino Acids, Branched-Chain",
+            "Transaminases"
+          ]
+        }
+      },
+      {
+        "id": "PMID:39490614",
+        "text": "Small-molecule targeting BCAT1-mediated BCAA metabolism inhibits the activation of SHOC2-RAS-ERK to induce apoptosis of Triple-negative breast cancer cells.\n\nTriple-negative breast cancer (TNBC) is the most malignant subtype of breast cancer with the worst prognosis. Exploring novel carcinogenic factors and therapeutic drugs for TNBC remains a focus to improve prognosis. Branched-chain amino acid transaminase 1 (BCAT1), a crucial enzyme in branched-chain amino acid (BCAA) metabolism, has been linked to various tumor developments, but its carcinogenic function and mechanism in TNBC remain unclear. Eupalinolide B (EB) is a naturally-derived small-molecule with anti-tumor activity, but its role in TNBC remains unknown.\nBy exploring the targets and pharmacological mechanisms of EB in inhibiting TNBC, this study aimed to discover novel therapeutic targets and potential inhibitors for TNBC, and elucidate novel pathogenic mechanisms of TNBC.\nThe inhibitory effect of EB on TNBC was investigated using mouse models and cellular phenotypic experiments. Activity-based protein profiling (ABPP) technology, pull down-WB, CETSA-WB and MST were utilized to discover and validate the targets of EB. The oncogenic role of BCAT1 was determined through clinical data analysis and biochemical experiments. To elucidate the mechanism by which EB inhibited TNBC, many methods, including but not limited to HPLC and proteomic sequencing were used.\nWe found that EB significantly inhibited TNBC progression. We identified BCAT1 as the direct target of EB and confirmed that BCAT1 was critical for TNBC development. EB inhibited BCAT1-involved BCAA metabolism to reduce the synthesis of BCAAs (including Leu, Ile, and Val), thereby inhibiting SHOC2 (a Leu-rich repeat protein) expression and the downstream SHOC2-participating RAS-ERK signaling pathway, ultimately leading to apoptosis of TNBC cells.\nCollectively, this study not only elucidates the oncogenic role of BCAT1 and its downstream SHOC2-RAS-ERK signaling axis in TNBC progression but also opens up avenues for potential therapies targeting BCAT1 or BCAA metabolism (using EB alone or in combination with its inhibitor candesartan) for TNBC treatment.",
+        "title": "Small-molecule targeting BCAT1-mediated BCAA metabolism inhibits the activation of SHOC2-RAS-ERK to induce apoptosis of Triple-negative breast cancer cells.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39490614",
+          "journal": "Journal of advanced research",
+          "authors": [
+            "Huang Ling",
+            "Li Guanjun",
+            "Zhang Ying"
+          ],
+          "pub_date": "2025-Sep",
+          "doi": "10.1016/j.jare.2024.10.021",
+          "mesh_terms": [
+            "Triple Negative Breast Neoplasms",
+            "Humans",
+            "Amino Acids, Branched-Chain",
+            "Apoptosis",
+            "Animals",
+            "Transaminases",
+            "Mice",
+            "Female",
+            "Cell Line, Tumor",
+            "Cell Proliferation",
+            "Xenograft Model Antitumor Assays",
+            "Signal Transduction"
+          ]
+        }
+      },
+      {
+        "id": "PMID:32555118",
+        "text": "Drugs for hypertension.\n\n",
+        "title": "Drugs for hypertension.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "32555118",
+          "journal": "The Medical letter on drugs and therapeutics",
+          "authors": [],
+          "pub_date": "2020-May-18",
+          "doi": "",
+          "mesh_terms": [
+            "Antihypertensive Agents",
+            "Blood Pressure",
+            "Humans",
+            "Hypertension"
+          ]
+        }
+      }
+    ]
+  }
+}

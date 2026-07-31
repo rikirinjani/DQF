@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39817389",
+        "text": "Value of Label-Free Ubiquitin-Proteomic Analysis on Defining the Protective Mechanism of Valsartan against Doxorubicin-Induced Heart Failure. The cardiotoxicity and subsequent Heart Failure (HF) induced by Doxorubicin (DOX) limit the clinical application of DOX. Valsartan (Val) is an angiotensin II receptor blocker that could attenuate the HF induced by DOX. However, the underlying mechanism of Val in this process is not fully understood. In this study, we explored the cardio-protective mechanism of Val aga",
+        "score": 0.44609183073043823,
+        "doi": "10.2174/0115680096341637241231111922",
+        "journal": "Current cancer drug targets",
+        "year": "2024",
+        "rerank_score": 3.057374954223633,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41598659",
+        "text": "Impact of Sacubitril/Valsartan on Cardiac Autonomic Function Assessed Using Physiological Data from Implantable Cardioverter-Defibrillators.",
+        "score": 0.43114396929740906,
+        "doi": "10.3390/jcm15020719",
+        "journal": "Journal of clinical medicine",
+        "year": "2025",
+        "rerank_score": 0.8593880534172058,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40672618",
+        "text": "The effect of sacubitril/valsartan sodium on cardiac function and ventricular remodeling in patients with heart failure after PCI for acute myocardial infarction. To evaluate the effect of sacubitril/valsartan sodium on patients with heart failure following percutaneous coronary intervention (PCI) for acute myocardial infarction (AMI), with a focus on changes in cardiac function and vascular endothelial function. This retrospective study analyzed data from 108 patients diagnosed with AMI and heart failure a",
+        "score": 0.447441428899765,
+        "doi": "10.62347/UKIS9778",
+        "journal": "American journal of translational research",
+        "year": "2025",
+        "rerank_score": 0.3677441477775574,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

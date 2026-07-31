@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Repaglinide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41138739",
+        "text": "Semaglutide and cardiovascular outcomes by baseline and changes in adiposity measurements: a prespecified analysis of the SELECT trial. The SELECT trial found semaglutide reduced major adverse cardiovascular events (MACE) in patients with overweight or obesity with cardiovascular disease but without diabetes. We report a prespecified analysis of the SELECT trial on the relationships between baseline adiposity measures, treatment-induced adiposity changes, and subsequent MACE risk. Patients aged at least 45 ",
+        "score": 0.4359317421913147,
+        "doi": "10.1016/S0140-6736(25)01375-3",
+        "journal": "Lancet (London, England)",
+        "year": "2025",
+        "rerank_score": 4.815006256103516,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40009360",
+        "text": "Risk of Major Adverse Cardiovascular Events Following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. This study used retrospective electronic health record data of 2 patient cohorts, the Vanderbilt University Medical Center (VUMC) and Million Veteran Program (MVP). The risk ",
+        "score": 0.4283890724182129,
+        "doi": "10.1001/jamadermatol.2025.0001",
+        "journal": "JAMA dermatology",
+        "year": "2026",
+        "rerank_score": 3.5478734970092773,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35721733",
+        "text": "Exposure-Response Analysis of Cardiovascular Outcome Trials With Incretin-Based Therapies. Our study aimed to evaluate the exposure-response relationship between incretin-based medications and the risk of major adverse cardiovascular events (MACE) using cardiovascular outcome trials (CVOTs). Eleven CVOTs with incretin-based medications were included. The median follow-up time, percentage of time exposure, and hazard ratio (HR) of MACE were obtained from each CVOT. The pharmacokinetic parameters of glucagon-",
+        "score": 0.41677457094192505,
+        "doi": "10.3389/fendo.2022.893971",
+        "journal": "Frontiers in endocrinology",
+        "year": "2022",
+        "rerank_score": 2.95866060256958,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

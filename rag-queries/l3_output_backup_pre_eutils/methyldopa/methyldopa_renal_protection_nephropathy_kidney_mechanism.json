@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Methyldopa renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41049288",
+        "text": "Methylglyoxal induces oxidative stress and ferroptosis of renal tubular epithelial cells in acute and chronic kidney injury mice. Methylglyoxal (MG), which is a highly reactive dicarbonyl compound, has been increasingly recognized due to its role in the pathogenesis of kidney injury, particularly in diseases such as diabetic nephropathy and hypertensive nephropathy. MG promotes advanced glycation end product (AGE) formation and directly impairs cell function. MG levels are significantly increased in various",
+        "score": 0.39886462688446045,
+        "doi": "10.3389/fcell.2025.1604575",
+        "journal": "Frontiers in cell and developmental biology",
+        "year": "2025",
+        "rerank_score": 2.7660634517669678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40074191",
+        "text": "Inhibition of N6-methyladenosine methylation of ASC by berberine ameliorates pyroptosis of renal tubular epithelial cells in acute kidney injury. Acute kidney injury (AKI) lacks a definitive therapeutic approach beyond supportive care. One significant pathological mechanism involves the regulated death of tubular epithelial cells; however, the regulatory mechanisms underlying this cell death pathway require further investigation. The N6-methyladenosine (m6A) modification, recognized as the most prevalent mo",
+        "score": 0.38449156284332275,
+        "doi": "10.1016/j.cellsig.2025.111732",
+        "journal": "Cellular signalling",
+        "year": "2024",
+        "rerank_score": 2.216867446899414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40946372",
+        "text": "Insights into the renal protective effects of 7-phenylheptanoic acid in chronic kidney disease mice: Modulation of indoxyl sulfate production and gut microbiome homeostasis. 7-Phenylheptanoic acid (7-PH) has been reported to slow the progression of chronic kidney disease (CKD) in mice. Although the mechanism behind this renal protection remains unclear, it is strongly linked to reduced production of indoxyl sulfate (IS), a uremic toxin derived from dietary L-tryptophan through a multistep enzymatic process.",
+        "score": 0.3893059492111206,
+        "doi": "10.1016/j.dmd.2025.100149",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": 1.8835198879241943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

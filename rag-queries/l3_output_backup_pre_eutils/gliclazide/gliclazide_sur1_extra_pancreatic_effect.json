@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Gliclazide SUR1 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41191986",
+        "text": "Tirzepatide improves extracellular matrix integrity and vascularization in pancreatic islets of a mouse model of obesity, diabetes, and menopause. Tirzepatide, a dual GIP/GLP-1 receptor agonist, appears to protect pancreatic islet structures under metabolic stress. This study examined its effects on extracellular matrix organization in female mice exposed to obesity, diabetes, and menopause, compared to control and untreated groups. Tirzepatide significantly decreased the expression of collagen types I and ",
+        "score": 0.4435940980911255,
+        "doi": "10.1016/j.bbrc.2025.152913",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2025",
+        "rerank_score": 2.124410390853882,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39426134",
+        "text": "Cholic acid activation of GPBAR1 does not induce or exacerbate acute pancreatitis but promotes exocrine pancreatic secretion. Obstruction of bile ducts due to gallstones can lead to biliary acute pancreatitis (BAP). According to Perides et al., G protein-coupled bile acid receptor-1 (GPBAR1) mediates BAP. However, Zi's findings suggest that GPR39, rather than GPBAR1, mediates TLCAS-induced increases in cytosolic calcium and acinar cell necrosis, casting doubt on the role of GPBAR1 in BAP. Numerous G protein",
+        "score": 0.4358524978160858,
+        "doi": "10.1016/j.bbrc.2024.150825",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2024",
+        "rerank_score": 0.3198827803134918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40762794",
+        "text": "Therapeutic impact of vildagliptin vs. gliclazide on insulin resistance and advanced glycated end product levels in newly diagnosed Egyptian diabetics: a randomized controlled trial. The present study aimed to investigate the effects of vildagliptin, a dipeptidyl peptidase 4 inhibitor, on insulin resistance and weight reduction through advanced glycation end-product modulation in patients newly diagnosed with type 2 diabetes mellitus. This study was designed as a 12-week, randomized, controlled, parallel tr",
+        "score": 0.42248424887657166,
+        "doi": "10.1007/s00228-025-03894-8",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2025",
+        "rerank_score": -0.3494895100593567,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

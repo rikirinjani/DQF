@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40913391",
+        "text": "A Randomized Trial on the Combined Effect of Ponesimod and Propranolol on Heart Rate, Cardiac Safety, and Pharmacokinetics in Healthy Adults. The objective of this phase 1 study was to evaluate the pharmacokinetics (PK), pharmacodynamics, and cardiac effect following administration of ponesimod (a selective sphingosine-1-phosphate receptor modulator) and propranolol in healthy adults. In treatment period (TP) 1, participants received ponesimod (2 mg). In TP2, if resting heart rate (HR) was ≥ 55 bpm, the pon",
+        "score": 0.4567835330963135,
+        "doi": "10.1111/cts.70341",
+        "journal": "Clinical and translational science",
+        "year": "2025",
+        "rerank_score": 3.4054923057556152,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40710403",
+        "text": "Cardiac Autonomic Measures Predict Clinician-Rated Anxiety and Behavioral Response to Propranolol in Autistic Children and Young Adults. Propranolol, a nonselective beta-adrenergic antagonist, has shown potential for improving anxiety in autistic individuals. Heart rate variability (HRV), a noninvasive cardiac marker of autonomic nervous system functioning, may help identify individuals most likely to benefit from propranolol.",
+        "score": 0.4189378023147583,
+        "doi": "10.3390/jpm15070286",
+        "journal": "Journal of personalized medicine",
+        "year": "2025",
+        "rerank_score": 2.469132423400879,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.44122636318206787,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": -0.3997676372528076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

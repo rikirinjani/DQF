@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Doxazosin BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2975595",
+        "text": "Doxazosin in patients with hypertension. The antihypertensive effects and steady-state pharmacokinetics of doxazosin, as well as the bioequivalence of four dosage forms, were studied in 25 hypertensive patients. For an 8 mg daily dose mean Cmax at steady-state for all patients was 108 ng/ml; the mean tmax was 1.8 h. The mean terminal elimination half-life was 22 h. The four tablets containing 1, 2, 4, or 8 mg of doxazosin were bioequivalent in delivering the 8 mg dose. In patients with mild to moderate hype",
+        "score": 0.3647693395614624,
+        "doi": "10.1007/BF00555502",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1988",
+        "rerank_score": 2.591981887817383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39400714",
+        "text": "Doxepin as OCT2 inhibitor ameliorates inflammatory response and modulates PI3K/Akt signaling associated with cisplatin-induced nephrotoxicity in rats. Organic cationic transporter 2 (OCT2) was identified as the main transporter involved in the accumulation of cisplatin (CP) in the proximal tubular renal cells, resulting in nephrotoxicity. Doxepin (DOX) is a tricyclic agent with an inhibitory effect on OCT2. This study aimed to explore the possible mechanisms of the renoprotective role of DOX toward CP-induc",
+        "score": 0.41585302352905273,
+        "doi": "10.1007/s00210-024-03473-1",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2024",
+        "rerank_score": -2.2620511054992676,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39853633",
+        "text": "Population Pharmacokinetic Modelling of Apixaban in End-Stage Kidney Disease Patients with Atrial Fibrillation Receiving Haemodialysis. Apixaban is increasingly being used for stroke prevention in patients with end-stage kidney disease with atrial fibrillation undergoing haemodialysis, but no pharmacostatistical model is available for dosage adjustment. This study aimed to develop a population pharmacokinetic model of apixaban in these patients to characterise its dialytic clearance and determine optimal do",
+        "score": 0.414564847946167,
+        "doi": "10.1007/s40262-025-01476-6",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": -3.3425331115722656,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

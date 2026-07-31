@@ -1,0 +1,151 @@
+{
+  "query": {
+    "query": "Aspirin NF-kB analgesic anti-inflammatory role",
+    "dimension": "off_target",
+    "target": "NF-kB"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36829052",
+        "text": "Aspirin triggers ferroptosis in hepatocellular carcinoma cells through restricting NF-κB p65-activated SLC7A11 transcription.\n\nA number of studies have shown that aspirin, as commonly prescribed drug, prevents the development of hepatocellular carcinoma (HCC). Ferroptosis as a dynamic tumor suppressor plays a vital role in hepatocarcinogenesis. In this study we investigated whether aspirin affected ferroptosis in liver cancer cells. RNA-seq analysis revealed that aspirin up-regulated 4 ferroptosis-related drivers and down-regulated 5 ferroptosis-related suppressors in aspirin-treated HepG2 cells. Treatment with aspirin (4 mM) induced remarkable ferroptosis in HepG2 and Huh7 cells, which was enhanced by the ferroptosis inducer erastin (10 μM). We demonstrated that NF-κB p65 restricted ferroptosis in HepG2 and Huh7 cells through directly binding to the core region of SLC7A11 promoter and activating the transcription of ferroptosis inhibitor SLC7A11, whereas aspirin induced ferroptosis through inhibiting NF-κB p65-activated SLC7A11 transcription. Overexpression of p65 rescued HepG2 and Huh7 cells from aspirin-induced ferroptosis. HCC patients with high expression levels of SLC7A11 and p65 presented lower survival rate. Functionally, NF-κB p65 blocked the aspirin-induced ferroptosis in vitro and in vivo, which was attenuated by erastin. We conclude that aspirin triggers ferroptosis by restricting NF-κB-activated SLC7A11 transcription to suppress the growth of HCC. These results provide a new insight into the mechanism by which aspirin regulates ferroptosis in hepatocarcinogenesis. A combination of aspirin and ferroptosis inducer may provide a potential strategy for the treatment of HCC in clinic.",
+        "title": "Aspirin triggers ferroptosis in hepatocellular carcinoma cells through restricting NF-κB p65-activated SLC7A11 transcription.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "36829052",
+          "journal": "Acta pharmacologica Sinica",
+          "authors": [
+            "Wang Yu-Fei",
+            "Feng Jin-Yan",
+            "Zhao Li-Na"
+          ],
+          "pub_date": "2023-Aug",
+          "doi": "10.1038/s41401-023-01062-1",
+          "mesh_terms": [
+            "Humans",
+            "Carcinoma, Hepatocellular",
+            "NF-kappa B",
+            "Liver Neoplasms",
+            "Ferroptosis",
+            "Aspirin",
+            "Cell Line, Tumor",
+            "Amino Acid Transport System y+"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40991180",
+        "text": "Aspirin's effect on macrophages beyond its chemopreventive role in inflammation and cancer.\n\nAspirin's antineoplastic activities are primarily executed by irreversibly prohibiting COX-1 in platelets, hindering platelet activation and the subsequent release of compounds that promote tumor development and metastasis. Activated platelets may enhance cancer cells' metastatic potential via direct interaction and/or the release of soluble mediators by inducing COX-2 overexpression. Aspirin's chemopreventive effects may be mediated by COX-independent mechanisms, such as suppressing NF-kB and Wnt/β-catenin signaling. On the other hand, aspirin's effects on macrophages include inflammation resolution, cytokine regulation, and increased phagocytosis. Aspirin has a dual action mechanism, inhibiting macrophage-driven inflammation while simultaneously actively encouraging resolution by increasing phagocytic capacity and anti-inflammatory signaling. These effects occur via both dose-dependent and dose-independent routes and may differ between acute and chronic inflammatory conditions. Key factors, such as macrophage infiltration, immunophenotype, and polarization, are required to appropriately evaluate aspirin's effects and assess its role in the progress of inflammatory disorders and cancer.",
+        "title": "Aspirin's effect on macrophages beyond its chemopreventive role in inflammation and cancer.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40991180",
+          "journal": "Inflammopharmacology",
+          "authors": [
+            "Unver Nese"
+          ],
+          "pub_date": "2025-Oct",
+          "doi": "10.1007/s10787-025-01945-1",
+          "mesh_terms": [
+            "Aspirin",
+            "Humans",
+            "Macrophages",
+            "Inflammation",
+            "Neoplasms",
+            "Animals",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Blood Platelets",
+            "Chemoprevention"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35835856",
+        "text": "Aspirin modulates succinylation of PGAM1K99 to restrict the glycolysis through NF-κB/HAT1/PGAM1 signaling in liver cancer.\n\nAspirin as a chemopreventive agent is able to restrict the tumor growth. Phosphoglycerate mutase 1 (PGAM1) is a key enzyme of glycolysis, playing an important role in the development of cancer. However, the underlying mechanism by which aspirin inhibits the proliferation of cancer cells is poorly understood. This study aims to identify the effects of aspirin on modulating PGAM1 enzymatic activities in liver cancer. Here, we found that aspirin attenuated the PGAM1 succinylation to suppress the PGAM1 enzymatic activities and glycolysis in hepatoma cells. Mechanically, aspirin remarkably reduced the global succinylation levels of hepatoma cells, including the PGAM1 succinylation, which led to the block of conversion from 3-phosphoglycerate (3-PG) to 2-phosphoglycerate (2-PG) in cells. Interestingly, RNA-seq analysis identified that aspirin could significantly decrease the levels of histone acetyltransferase 1 (HAT1), a writer of PGAM1 succinylation, in liver cancer. As a target of aspirin, NF-κB p65 could effectively up-regulate the expression of HAT1 in the system, resulting in the increase of PGAM1 enzymatic activities. Moreover, we observed that the PGAM1-K99R mutant failed to rescue the aspirin-induced inhibition of PGAM1 activities, glycolysis, and proliferation of hepatoma cells relative to PGAM1-WT. Functionally, aspirin down-regulated HAT1 and decreased the PGAM1 succinylation levels in the tumor tissues from mice treated with aspirin in vivo. Thus, we conclude that aspirin modulates PGAM1K99 succinylation to restrict the PGAM1 activities and glycolysis through NF-κB p65/HAT1/PGAM1 signaling in liver cancer. Our finding provides new insights into the mechanism by which aspirin inhibits glycolysis in hepatocellular carcinoma.",
+        "title": "Aspirin modulates succinylation of PGAM1K99 to restrict the glycolysis through NF-κB/HAT1/PGAM1 signaling in liver cancer.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35835856",
+          "journal": "Acta pharmacologica Sinica",
+          "authors": [
+            "Wang Yu-Fei",
+            "Zhao Li-Na",
+            "Geng Yu"
+          ],
+          "pub_date": "2023-Jan",
+          "doi": "10.1038/s41401-022-00945-z",
+          "mesh_terms": [
+            "Animals",
+            "Mice",
+            "Carcinoma, Hepatocellular",
+            "NF-kappa B",
+            "Phosphoglycerate Mutase",
+            "Aspirin",
+            "Liver Neoplasms",
+            "Glycolysis",
+            "Histone Acetyltransferases",
+            "Cell Proliferation"
+          ]
+        }
+      },
+      {
+        "id": "PMID:16773199",
+        "text": "NF-kappaB, inflammation and pancreatic carcinogenesis: NF-kappaB as a chemoprevention target (review).\n\nPancreatic cancer is the most deadly of all gastrointestinal malignancies with near zero five-year survival. This review summarizes our understanding of the potentially important role of inflammation in cancer in general and pancreatic cancer in particular. Nuclear factor kappaB (NF-kappaB), a mediator of inflammatory responses, plays a significant role in carcinogenesis and is now emerging as a link between inflammation and cancer. NF-kappaB is activated in over two thirds of human pancreatic cancers; participates in early events of pancreatic carcinogenesis through its interactions with signaling pathways; and suppression of its activation restores pancreatic cell kinetics, mainly normalizing the suppressed apoptosis of pancreatic cancer. NF-kappaB is an excellent target for chemoprevention and its modulation for pancreatic cancer prevention appears promising. The next few years will likely expand our understanding of NF-kappaB biology; solidify NF-kappaB's role as a major link between chronic inflammation and pancreatic carcinogenesis; and witness the development of NF-kappaB-based approaches to pancreatic cancer prevention.",
+        "title": "NF-kappaB, inflammation and pancreatic carcinogenesis: NF-kappaB as a chemoprevention target (review).",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16773199",
+          "journal": "International journal of oncology",
+          "authors": [
+            "Zhang Zhiquan",
+            "Rigas Basil"
+          ],
+          "pub_date": "2006-Jul",
+          "doi": "",
+          "mesh_terms": [
+            "Animals",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Antineoplastic Agents",
+            "Apoptosis",
+            "Aspirin",
+            "Cell Proliferation",
+            "Cell Transformation, Neoplastic",
+            "Chemoprevention",
+            "Humans",
+            "Inflammation",
+            "NF-kappa B",
+            "Nitrates",
+            "Pancreatic Neoplasms"
+          ]
+        }
+      },
+      {
+        "id": "PMID:22893199",
+        "text": "Mode of action of aspirin as a chemopreventive agent.\n\nAspirin taken for several years at doses of at least 75 mg daily reduced long-term incidence and mortality due to colorectal cancer. The finding of aspirin benefit at low-doses given once daily, used for cardioprevention, locates the antiplatelet effect of aspirin at the center of its antitumor efficacy. In fact, at low-doses, aspirin acts mainly by an irreversible inactivation of platelet cyclooxygenase (COX)-1 in the presystemic circulation, which translates into a long-lasting inhibition of platelet function. Given the short half-life of aspirin in the human circulation(approximately 20 min) and the capacity of nucleated cells to resynthesize the acetylated COX-isozyme(s), it seems unlikely that a nucleated cell could be the target of aspirin chemoprevention. These findings convincingly suggest that colorectal cancer and atherothrombosis may share a common mechanism of disease, i.e. platelet activation in response to epithelial(in tumorigenesis) and endothelial(in tumorigenesis and atherothrombosis) injury. Activated platelets may also enhance the metastatic potential of cancer cells (through a direct interaction and/or the release of soluble mediators or exosomes) at least in part by inducing the overexpression of COX-2. COX-independent mechanisms of aspirin, such as the inhibition of NF-kB signaling and Wnt/β-catenin signaling and the acetylation of extra-COX proteins, have been suggested to play a role in its chemopreventive effects. However, their relevance remains to be demonstrated in vivo at clinical doses.",
+        "title": "Mode of action of aspirin as a chemopreventive agent.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "22893199",
+          "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+          "authors": [
+            "Dovizio Melania",
+            "Bruno Annalisa",
+            "Tacconelli Stefania"
+          ],
+          "pub_date": "2013",
+          "doi": "10.1007/978-3-642-30331-9_3",
+          "mesh_terms": [
+            "Animals",
+            "Anticarcinogenic Agents",
+            "Aspirin",
+            "Blood Platelets",
+            "Colorectal Neoplasms",
+            "Cyclooxygenase Inhibitors",
+            "Humans",
+            "Prostaglandin-Endoperoxide Synthases"
+          ]
+        }
+      }
+    ]
+  }
+}

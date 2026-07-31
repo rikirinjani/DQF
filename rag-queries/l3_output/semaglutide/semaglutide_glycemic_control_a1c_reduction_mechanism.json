@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33108617",
+        "text": "Pharmacokinetics and Clinical Implications of Oral Semaglutide for Type 2 Diabetes Mellitus. Since the approval of subcutaneous glucagon-like peptide-1 receptor agonists, this therapeutic class has become a preferred choice for the management of type 2 diabetes due to A1C reduction, minimal risk of hypoglycemia, weight loss, and cardiovascular benefit. An oral option, with gastrointestinal absorption, would overcome any potential fear of injection among patients. Oral semaglutide has been studied in randomi",
+        "score": 0.331118106842041,
+        "doi": "10.1007/s40262-020-00951-6",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2020",
+        "rerank_score": 5.007204532623291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40538007",
+        "text": "Mechanism of Semaglutide in MASLD Treatment: Where Is the Master Key? Semaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1 RA), is used for weight reduction and metabolic improvement. Semaglutide effectively improves MASH but not confers histological fibrosis resolution. The key question remains whether semaglutide exerts direct, independent effects in ameliorating MASH or if its benefits are merely secondary to improvements in weight, insulin resistance, and glycemic control. The exact mechanisms",
+        "score": 0.34506699442863464,
+        "doi": "10.1111/jgh.17037",
+        "journal": "Journal of gastroenterology and hepatology",
+        "year": "2025",
+        "rerank_score": 4.336688041687012,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39728000",
+        "text": "Spotlight on the Mechanism of Action of Semaglutide. Initially intended to control blood glucose levels in patients with type 2 diabetes, semaglutide, a potent glucagon-like peptide 1 analogue, has been established as an effective weight loss treatment by controlling appetite. Integrating the latest clinical trials, semaglutide in patients with or without diabetes presents significant therapeutic efficacy in ameliorating cardiometabolic risk factors and physical functioning, independent of body weight reduc",
+        "score": 0.34101006388664246,
+        "doi": "10.3390/cimb46120872",
+        "journal": "Current issues in molecular biology",
+        "year": "2024",
+        "rerank_score": 3.869434356689453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

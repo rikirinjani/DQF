@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39817389",
+        "text": "Value of Label-Free Ubiquitin-Proteomic Analysis on Defining the Protective Mechanism of Valsartan against Doxorubicin-Induced Heart Failure. The cardiotoxicity and subsequent Heart Failure (HF) induced by Doxorubicin (DOX) limit the clinical application of DOX. Valsartan (Val) is an angiotensin II receptor blocker that could attenuate the HF induced by DOX. However, the underlying mechanism of Val in this process is not fully understood. In this study, we explored the cardio-protective mechanism of Val aga",
+        "score": 0.41571366786956787,
+        "doi": "10.2174/0115680096341637241231111922",
+        "journal": "Current cancer drug targets",
+        "year": "2024",
+        "rerank_score": 2.4329328536987305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40446875",
+        "text": "Synthesis and evaluation of valsartan co-crystals for enhanced solubility and anti-hypertensive activity. Valsartan (VAL) is an antihypertensive medication belonging to the angiotensin II receptor blockers class, which helps reduce cardiovascular disease risk by controlling high blood pressure, but its therapeutic efficacy is limited due to poor solubility and bioavailability. The study focused on developing valsartan cocrystals using co-formers through the solvent evaporation method to improve the solubili",
+        "score": 0.4163064956665039,
+        "doi": "10.1016/j.ijpharm.2025.125743",
+        "journal": "International journal of pharmaceutics",
+        "year": "2025",
+        "rerank_score": 1.7842118740081787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27128457",
+        "text": "Bioavailability of valsartan oral dosage forms. The oral bioavailability of valsartan from extemporaneous suspension and solution formulations were evaluated relative to tablet formulation in two separate open-label, randomized crossover studies in healthy adults. In both studies, the plasma concentrations of valsartan after oral administration were analyzed using validated liquid chromatography-tandem mass spectrometry (LC-MS/MS) methods, and the corresponding pharmacokinetic parameters were estimated usin",
+        "score": 0.36964350938796997,
+        "doi": "10.1002/cpdd.56",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2013",
+        "rerank_score": 0.7767189145088196,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

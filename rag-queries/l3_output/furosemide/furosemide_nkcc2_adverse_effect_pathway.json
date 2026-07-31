@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide NKCC2 adverse effect pathway",
+    "dimension": "off_target",
+    "target": "NKCC2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40062390",
+        "text": "TNF inhibits NKCC2 phosphorylation by a calcineurin-dependent pathway. We previously demonstrated that tumor necrosis factor-alpha (TNF) inhibits Na",
+        "score": 0.4615785479545593,
+        "doi": "10.1152/ajprenal.00251.2024",
+        "journal": "American journal of physiology. Renal physiology",
+        "year": "2025",
+        "rerank_score": 0.8847546577453613,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39109086",
+        "text": "A developmental neurotoxicity adverse outcome pathway (DNT-AOP) with voltage gate sodium channel (VGSC) inhibition as a molecular initiating event (MiE). The adverse outcome pathway (AOP) framework serves as a practical tool for organising scientific knowledge that can be used to infer cause-effect relationships between stressor events and toxicity outcomes in intact organisms. However, a major challenge in the broader application of the AOP concept within regulatory toxicology is the development of a robus",
+        "score": 0.45757076144218445,
+        "doi": "10.2903/j.efsa.2024.8954",
+        "journal": "EFSA journal. European Food Safety Authority",
+        "year": "2024",
+        "rerank_score": 0.3745163083076477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40649868",
+        "text": "Furosemide Promotes Inflammatory Activation and Myocardial Fibrosis in Swine with Tachycardia-Induced Heart Failure. Loop diuretics like furosemide are commonly used in heart failure (HF) treatment, but their effects on disease progression are still unclear. Furosemide treatment accelerates HF deterioration in a swine model, but the mechanism of acceleration is poorly understood. We hypothesized that furosemide activates inflammatory signaling in the failing left ventricular (LV) myocardium, leading to adve",
+        "score": 0.4653474688529968,
+        "doi": "10.3390/ijms26136088",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 0.18453222513198853,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

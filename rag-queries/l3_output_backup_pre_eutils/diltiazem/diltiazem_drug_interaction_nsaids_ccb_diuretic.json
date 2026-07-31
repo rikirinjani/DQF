@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Diltiazem drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41480715",
+        "text": "Hydrophobic hydration of analgesics and diltiazem complexes explored by electrochemical impedance spectroscopy and diffusion-ordered spectroscopy. In the context of drug-drug interactions, the combination of benzodiazepine (BDZ) or benzothiazepine (BTZ) antidepressant/hypnotics with commonly used analgesics, including over-the-counter nonsteroidal anti-inflammatory drugs (NSAIDs), has been reported to decrease the effectiveness of analgesics. This study aimed to analyze the diffusion behavior of analgesics ",
+        "score": 0.4402773380279541,
+        "doi": "10.1039/d5cp03960f",
+        "journal": "Physical chemistry chemical physics : PCCP",
+        "year": "2026",
+        "rerank_score": 4.503439903259277,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40615224",
+        "text": "Lost Rate Control and Tachycardia-Induced Cardiomyopathy as a Result of an Interaction Between Enzalutamide and Diltiazem. There is a theoretical drug interaction between enzalutamide, a potent cytochrome P 3A4 (CYP 3A4) inducer, and diltiazem, a CYP3A4 substrate. Resources recommend avoiding the combination. The patient was taking diltiazem for rate control of permanent atrial fibrillation. After initiating enzalutamide for prostate cancer, he became persistently tachycardic, developed heart failure, and w",
+        "score": 0.41419345140457153,
+        "doi": "10.1016/j.jaccas.2025.103881",
+        "journal": "JACC. Case reports",
+        "year": "2024",
+        "rerank_score": 3.7026517391204834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39290868",
+        "text": "Drug-drug interaction between diltiazem and tacrolimus in relation to CYP3A5 genotype status in Chinese pediatric patients with nephrotic range proteinuria: a retrospective study. Tacrolimus is widely used to treat pediatric nephrotic range proteinuria (NRP). Diltiazem, a CYP3A4/5 inhibitor, is often administered with tacrolimus, affecting its pharmacokinetic profile. The impact of this combination on tacrolimus exposure, particularly in CYP3A5*3 genetic polymorphism, remains unclear in pediatric NRP patien",
+        "score": 0.42077121138572693,
+        "doi": "10.3389/fphar.2024.1463595",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 3.666304588317871,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

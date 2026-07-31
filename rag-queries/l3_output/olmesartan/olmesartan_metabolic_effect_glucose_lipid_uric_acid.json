@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40571828",
+        "text": "Effect of losartan on uric acid metabolism in children with proteinuric kidney disease: crossover randomized controlled clinical trial. Low uric acid (UA) levels are desirable in kidney disease. Enalapril is the most used reno-protective drug; losartan has a similar antihypertensive and antiproteinuric effect, but also induces hyperuricosuria due to tubular urate transporter 1 inhibition. As this effect has not been demonstrated in paediatrics, we assessed if losartan reduces serum UA in children, owing to ",
+        "score": 0.4004978537559509,
+        "doi": "10.1007/s00467-025-06754-w",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2025",
+        "rerank_score": 3.3543477058410645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40576039",
+        "text": "A Comparison Study of Olmesartan and Valsartan Effects on Myocardial Metabolism in Patients With Dilated Cardiomyopathy: the OVOID Trial. Myocardial metabolism plays an important role in maintaining cardiac function. Patients with dilated cardiomyopathy exhibit alterations in myocardial metabolism characterized by increased myocardial glucose metabolism. This study aimed to evaluate effects on myocardial metabolism of the angiotensin II receptor blockers olmesartan and valsartan in patients with dilated car",
+        "score": 0.39795273542404175,
+        "doi": "10.1161/JAHA.125.041406",
+        "journal": "Journal of the American Heart Association",
+        "year": "2025",
+        "rerank_score": 2.952897548675537,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20434053",
+        "text": "Olmesartan, an angiotensin II receptor blocker, restores cerebral hypoperfusion in elderly patients with hypertension. We evaluated the effects of olmesartan, an angiotensin II receptor blocker (ARB), on cerebral blood flow (CBF) in elderly and hypertensive subjects. Ten subjects with first- or second-degree essential hypertension (mean age, 70.5 years) underwent brain single-photon emission tomography (SPECT) scanning with (99m)Tc-ethyl cysteinate dimer before and after a 24-week course of olmesartan. Mean",
+        "score": 0.3628573417663574,
+        "doi": "10.1016/j.jstrokecerebrovasdis.2009.08.0",
+        "journal": "Journal of stroke and cerebrovascular diseases : the official journal of Nationa",
+        "year": "2009",
+        "rerank_score": -0.9413056969642639,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

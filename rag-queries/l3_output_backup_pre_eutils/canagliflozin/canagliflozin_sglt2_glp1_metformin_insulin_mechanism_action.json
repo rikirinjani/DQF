@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Canagliflozin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24444523",
+        "text": "[Dapagliflozin, the first SGLT-2 inhibitor in the treatment of type 2 diabetes]. Dapagliflozin is the first novel sodium-glucose co-transporter-2 (SGLT2) inhibitor approved by the European Medicines Agency (EMA) for the treatment of type 2 diabetes. By inhibiting SGLT2, dapagliflozin blocks reabsorption of filtered glucose in the kidney, increasing urinary glucose excretion and reducing blood glucose levels. Its mechanism of action is independent of pancreatic β cell function and modulation of insulin sensi",
+        "score": 0.3444100022315979,
+        "doi": "10.1016/S0025-7753(13)70062-9",
+        "journal": "Medicina clinica",
+        "year": "2014",
+        "rerank_score": 5.963834762573242,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40257184",
+        "text": "The SGLT2 inhibitor canagliflozin attenuates mitochondrial oxidative stress and alterations of calcium handling induced by high glucose in human cardiac fibroblasts. Cardiac fibrosis and remodeling are critical contributors to heart failure, particularly in the context of diabetes, where hyperglycemia (HG) exacerbates pathological fibroblast activity. Despite the known cardiovascular benefits of canagliflozin (CANA), its specific effects on human cardiac fibroblasts (HCFs) under HG conditions remain unexplo",
+        "score": 0.36417827010154724,
+        "doi": "10.1080/15384101.2025.2492423",
+        "journal": "Cell cycle (Georgetown, Tex.)",
+        "year": "2026",
+        "rerank_score": 4.369891166687012,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28393583",
+        "text": "Spotlight on Canagliflozin 300: review of its efficacy and an indirect comparison to other SGLT-2 inhibitors and long-acting GLP-1 receptor agonists. Both sodium-glucose co-transporter-2 inhibitors (SGLT-2Is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) have been consistently found to lower blood glucose, body weight and systolic blood pressure (SBP) in patients with type 2 diabetes mellitus (T2DM). While all the SGLT-2Is inhibit glucose reabsorption by blocking SGLT-2 receptor in kidney, dose-d",
+        "score": 0.34432995319366455,
+        "doi": "10.1080/17512433.2017.1318061",
+        "journal": "Expert review of clinical pharmacology",
+        "year": "2017",
+        "rerank_score": 4.083664894104004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

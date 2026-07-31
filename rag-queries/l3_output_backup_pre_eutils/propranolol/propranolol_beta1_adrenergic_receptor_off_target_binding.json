@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol beta1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.39918485283851624,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 3.0888569355010986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39998898",
+        "text": "An endothelial SOX18-mevalonate pathway axis enables repurposing of statins for infantile hemangioma. Infantile hemangioma (IH) is the most common tumor in children and a paradigm for pathological vasculogenesis, angiogenesis, and regression. Propranolol, the mainstay of treatment, inhibits IH vessel formation via a β-adrenergic receptor-independent off-target effect of its R(+) enantiomer on endothelial SOX18 - a member of the SOX (SRY-related HMG-box) family of transcription factors. Transcriptomic profil",
+        "score": 0.420598566532135,
+        "doi": "10.1172/JCI179782",
+        "journal": "The Journal of clinical investigation",
+        "year": "2024",
+        "rerank_score": 2.9975626468658447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.4184560179710388,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 2.845386266708374,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

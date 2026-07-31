@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dapagliflozin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40047763",
+        "text": "Severe Heart Failure and Treatment With Dapagliflozin Across the Ejection Fraction Spectrum: DAPA-HF and DELIVER. Patients with severe heart failure (HF) experience debilitating clinical symptoms and worse cardiovascular (CV) outcomes with an excess mortality risk. The authors aimed to assess the prevalence, CV outcome risk, and treatment response to the sodium-glucose cotransporter 2 inhibitor (SGLT2i) dapagliflozin among patients with severe HF across the spectrum of left ventricular ejection fraction (LV",
+        "score": 0.39322254061698914,
+        "doi": "10.1016/j.jchf.2024.11.023",
+        "journal": "JACC. Heart failure",
+        "year": "2024",
+        "rerank_score": 2.3535618782043457,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38983399",
+        "text": "Effect of dapagliflozin on uric acid in patients with chronic heart failure and hyperuricemia. Patients with chronic heart failure (CHF) frequently develop hyperuricemia, an elevated serum uric acid level, associated with adverse outcomes. Dapagliflozin, a sodium-glucose cotransporter-2 inhibitor, demonstrates reduction in cardiovascular mortality and hospitalization in patients with CHF and ejection fraction (HFrEF), irrespective of diabetes. However, dapagliflozin's effect on the uric acid levels in patie",
+        "score": 0.4083422124385834,
+        "doi": "10.12998/wjcc.v12.i18.3468",
+        "journal": "World journal of clinical cases",
+        "year": "2024",
+        "rerank_score": 1.5230753421783447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40103330",
+        "text": "Discrepancies in Dapagliflozin Response in Terms of Glycemic Control and Body Weight Reduction. Dapagliflozin, a sodium-glucose cotransporter 2 inhibitor, reduces hyperglycemia and obesity by inhibiting renal glucose reabsorption. This post hoc study evaluated clinical factors influencing patient response to dapagliflozin. The analysis focused on patients treated with dapagliflozin (10 mg/day for 52 weeks) within the randomized, double-blind, parallel-group BEYOND trial. Adequate glycemic control (GC) was d",
+        "score": 0.39136838912963867,
+        "doi": "10.3803/EnM.2024.2142",
+        "journal": "Endocrinology and metabolism (Seoul, Korea)",
+        "year": "2024",
+        "rerank_score": 0.7313473224639893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

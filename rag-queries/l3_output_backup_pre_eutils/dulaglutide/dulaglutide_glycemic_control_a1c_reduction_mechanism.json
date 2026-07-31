@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dulaglutide glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.34797346591949463,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 3.398776054382324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39582250",
+        "text": "Metabolic Consequences of Glucagon-Like Peptide-1 Receptor Agonist Shortage: Deterioration of Glycemic Control in Type 2 Diabetes. In the context of a global shortage of glucagon-like peptide-1 (GLP-1) receptor agonists, we assessed the impact of discontinuing dulaglutide on metabolic control in individuals with type 2 diabetes. Our analysis included data from 69 individuals and revealed a significant deterioration in glycemic control following the discontinuation. Specifically, the average hemoglobin A1c l",
+        "score": 0.3871080279350281,
+        "doi": "10.3803/EnM.2024.2150",
+        "journal": "Endocrinology and metabolism (Seoul, Korea)",
+        "year": "2024",
+        "rerank_score": 3.218885660171509,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40842022",
+        "text": "A Combined Modeling Approach to Predict the Effect of Gastric Emptying Delay on the Pharmacokinetics of Small Molecules. Dulaglutide, a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist, is approved for improving glycemic control and reducing cardiovascular risks in patients with type 2 diabetes mellitus (T2DM). This research investigates the effect of dulaglutide on gastric emptying and its impact on the pharmacokinetics (PK) of orally administered molecules utilizing a combination of population",
+        "score": 0.34604009985923767,
+        "doi": "10.1002/psp4.70101",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 2.753732681274414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

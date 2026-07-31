@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.3799818158149719,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 3.555086135864258,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40226468",
+        "text": "Effects of SGLT2 inhibitors and GLP-1 receptor agonists on glycemic variability, islet cell function, and insulin resistance in patients with type 2 diabetes mellitus and renal cell carcinoma. This study evaluated the effects of sodium-glucose co-transporter 2 inhibitors (SGLT2i) and glucagon-like peptide-1 receptor agonists (GLP-1RA) on glycemic control, islet cell function, and insulin resistance in type 2 diabetes mellitus (T2DM) patients with T1-stage renal cell carcinoma (RCC). A retrospective cohort o",
+        "score": 0.3872358798980713,
+        "doi": "10.62347/OLUR1927",
+        "journal": "American journal of cancer research",
+        "year": "2024",
+        "rerank_score": 2.8336830139160156,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31741907",
+        "text": "Role of Metformin, Sodium-Glucose Cotransporter-2 (SGLT2) Inhibitors, Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists, and Orlistat based Multidrug Therapy in Glycemic Control, Weight Loss, and Euglycemia in Diabesity: A Real-World Experience. This study evaluated the real-world weight loss and glycemic outcomes of multidrug therapy (MDT) according to various combinations of metformin, sodium-glucose cotransporter -2 inhibitor (SGLT2i), glucagon-like peptide-1 receptor analogs (GLP1a), and orlistat in dia",
+        "score": 0.3569450378417969,
+        "doi": "10.4103/ijem.IJEM_185_19",
+        "journal": "Indian journal of endocrinology and metabolism",
+        "year": "2019",
+        "rerank_score": 2.240729570388794,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

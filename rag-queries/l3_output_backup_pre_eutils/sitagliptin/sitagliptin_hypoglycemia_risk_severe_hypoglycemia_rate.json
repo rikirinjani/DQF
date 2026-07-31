@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39960254",
+        "text": "The Relationship Between the Percent Coefficient of Variation of Sensor Glucose Levels and the Risk of Severe Hypoglycemia or Non-Severe Hypoglycemia in Patients With Type 1 Diabetes: Post Hoc Analysis of the ISCHIA Study. The relationship between the percent coefficient of variation (%CV) and the risk of severe hypoglycemia (SH) or non-severe hypoglycemia (NSH) in patients with type 1 diabetes (T1D) remains to be elucidated. The Effect of Intermittent-Scanning Continuous Glucose Monitoring to Glycemic Cont",
+        "score": 0.4262474775314331,
+        "doi": "10.1177/19322968251318756",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 1.7021278142929077,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40924111",
+        "text": "Time below range alone is insufficient to identify severe hypoglycaemia risk in type 1 diabetes-the critical role of hypoglycaemia awareness: results from the SFDT1 study. Severe hypoglycaemia events (SHE) remain frequent in people with type 1 diabetes despite advanced diabetes technologies. We examined whether time below range (TBR) 3.9 mmol/l (70 mg/dl; TBR70) or 3.0 mmol/l (54 mg/dl; TBR54) is associated with future SHE risk and whether impaired awareness of hypoglycaemia (IAH) modifies this relationship",
+        "score": 0.3860834836959839,
+        "doi": "10.1007/s00125-025-06536-x",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 1.1741796731948853,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40272529",
+        "text": "Severe hypoglycaemia is associated with increased risk of adverse cardiovascular complications in adults with type 1 diabetes: risk mitigation using intermittently scanned continuous glucose monitoring. It has been proposed that severe hypoglycaemia events (SHE) may increase the risk of adverse CVD complications in adults with type 1 diabetes. The aim of this study was to evaluate the risk of CVD complications following SHE in a large cohort of adults with type 1 diabetes, and to compare the risk of post-SH",
+        "score": 0.41378253698349,
+        "doi": "10.1007/s00125-025-06438-y",
+        "journal": "Diabetologia",
+        "year": "2024",
+        "rerank_score": 0.752591609954834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

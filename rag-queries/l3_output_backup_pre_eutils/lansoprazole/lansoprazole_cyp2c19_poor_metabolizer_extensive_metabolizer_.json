@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole CYP2C19 poor metabolizer extensive metabolizer pharmacokinetics",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38797695",
+        "text": "Modeled Hepatic/Plasma Exposures of Omeprazole Prescribed Alone in Cytochrome P450 2C19 Poor Metabolizers Are Likely Associated with Hepatic Toxicity Reported in a Japanese Adverse Event Database. Omeprazole, a gastric acid pump inhibitor, is repeatedly administered and is oxidatively metabolized mainly by polymorphic cytochrome P450 2C19. The prescribed dosage of omeprazole was discontinued or reduced in 47 of the 135 patients who received omeprazole alone in this survey, as recorded in the Japanese Advers",
+        "score": 0.36574622988700867,
+        "doi": "10.1248/bpb.b24-00145",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 4.199950695037842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38874073",
+        "text": "Cytochrome P450 2C19 (CYP2C19) intermediate and poor metabolizer patients exhibit diminished clopidogrel clinical effectiveness after percutaneous coronary intervention (PCI). However, outcome studies to date have lacked racial diversity. Thus, the impact of  Adults among 5 institutions who self-identified as Black or African American, underwent PCI and clinical  Black patients with CYP2C19 intermediate and poor metabolizer phenotypes who are treated with clopidogrel exhibit increased risk of adverse cardio",
+        "score": 0.3824763894081116,
+        "doi": "10.1161/JAHA.123.033791",
+        "journal": "Journal of the American Heart Association",
+        "year": "2024",
+        "rerank_score": 3.9220356941223145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40379961",
+        "text": "Exploring the Influence of Obesity and CYP2 C19 Genotype on Lansoprazole Pharmacokinetics in Pediatric Patients: A Population Modeling Approach. Pediatric pharmacokinetics pose unique challenges, particularly concerning drug dosing in the presence of obesity and genetic variability in drug-metabolizing enzymes such as cytochrome P450 (CYP) 2C19. This study aimed to develop a lansoprazole pediatric population pharmacokinetic (popPK) model considering obesity, obesity-associated changes in inflammatory cytoki",
+        "score": 0.37048250436782837,
+        "doi": "10.1007/s40262-025-01517-0",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 3.6265594959259033,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

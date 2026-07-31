@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Felodipine drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39995131",
+        "text": "Efficacy and Safety of Dihydropyridine Calcium Channel Blockers for Primary Hypertension: A Bayesian Network Meta-analysis. Dihydropyridine-calcium channel blockers (DHP-CCBs) are effective first-line blood pressure-lowering agents for primary hypertension. However, data comparing the variations in efficacy and safety between different types of DHP-CCBs are scarce. This study aimed to summarize the latest evidence on the benefits and harms of seven DHP-CCBs (amlodipine, levamlodipine, felodipine, lacidipine",
+        "score": 0.4382994771003723,
+        "doi": "10.2174/0115734021357729250214090452",
+        "journal": "Current hypertension reviews",
+        "year": "2024",
+        "rerank_score": 0.4710918068885803,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4361306428909302,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.09296230971813202,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39503210",
+        "text": "Developments in the epidemiology of calcium channel blocker poisoning and implications for management. The aim of this study was to outline recent developments in calcium channel blocker (CCB) poisoning. The dihydropyridine CCB amlodipine is commonly prescribed in the United States, and amlodipine poisoning is increasing in frequency, presenting new challenges for clinicians because current paradigms of CCB poisoning management arose from literature on non-dihydropyridine agents. Amlodipine is now the most ",
+        "score": 0.4392467141151428,
+        "doi": "10.1097/MCC.0000000000001218",
+        "journal": "Current opinion in critical care",
+        "year": "2024",
+        "rerank_score": -0.670064389705658,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

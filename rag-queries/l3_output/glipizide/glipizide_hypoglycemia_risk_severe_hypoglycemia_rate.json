@@ -1,0 +1,110 @@
+{
+  "query": {
+    "query": "Glipizide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39976940",
+        "text": "Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy.\n\nSemaglutide, a glucagonlike peptide-1 receptor agonist (GLP-1RA), has recently been implicated in cases of nonarteritic anterior ischemic optic neuropathy (NAION), raising safety concerns in the treatment of type 2 diabetes (T2D).\nTo investigate the potential association between semaglutide and NAION in the Observational Health Data Sciences and Informatics (OHDSI) network.\nThis was a retrospective study across 14 databases (6 administrative claims and 8 electronic health records). Included were adults with T2D taking semaglutide, other GLP-1RA (dulaglutide, exenatide), or non-GLP-1RA medications (empagliflozin, sitagliptin, glipizide) from December 1, 2017, to December 31, 2023. The incidence proportion and rate of NAION were calculated. Association between semaglutide and NAION was assessed using 2 approaches: an active-comparator cohort design comparing new users of semaglutide with those taking other GLP-1RAs and non-GLP-1RA drugs, and a self-controlled case-series (SCCS) analysis to compare individuals' risks during exposure and nonexposure periods for each drug. The cohort design used propensity score-adjusted Cox proportional hazards models to estimate hazard ratios (HRs). The SCCS used conditional Poisson regression models to estimate incidence rate ratios (IRRs). Network-wide HR and IRR estimates were generated using a random-effects meta-analysis model.\nGLP-1RA and non-GLP-1RAs.\nNAION under 2 alternative definitions based on diagnosis codes: one more inclusive and sensitive, the other more restrictive and specific.\nThe study included 37.1 million individuals with T2D, including 810 390 new semaglutide users. Of the 43 620 new users of semaglutide in the Optum's deidentified Clinformatics Data Mart Database, 24 473 (56%) were aged 50 to 69 years, and 26 699 (61%) were female. The incidence rate of NAION was 14.5 per 100 000 person-years among semaglutide users. The HR for NAION among new users of semaglutide was not different compared with that of the non-GLP-1RAs using the sensitive NAION definition-empagliflozin (HR, 1.44; 95% CI, 0.78-2.68; P = .12), sitagliptin (HR, 1.30; 95% CI, 0.56-3.01; P = .27), and glipizide (HR, 1.23; 95% CI, 0.66-2.28; P = .25). The risk was higher only compared with patients taking empagliflozin (HR, 2.27; 95% CI, 1.16-4.46; P = .02) using the specific definition. SCCS analysis of semaglutide exposure showed an increased risk of NAION (meta-analysis IRR, 1.32; 95% CI, 1.14-1.54; P < .001).\nResults of this study suggest a modest increase in the risk of NAION among individuals with T2D associated with semaglutide use, smaller than that previously reported, and warranting further investigation into the clinical implications of this association.",
+        "title": "Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "39976940",
+          "journal": "JAMA ophthalmology",
+          "authors": [
+            "Cai Cindy X",
+            "Hribar Michelle",
+            "Baxter Sally"
+          ],
+          "pub_date": "2025-Apr-01",
+          "doi": "10.1001/jamaophthalmol.2024.6555",
+          "mesh_terms": [
+            "Adult",
+            "Aged",
+            "Female",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Databases, Factual",
+            "Diabetes Mellitus, Type 2",
+            "Glucagon-Like Peptide-1 Receptor Agonists",
+            "Glucagon-Like Peptides",
+            "Hypoglycemic Agents",
+            "Incidence",
+            "Optic Neuropathy, Ischemic",
+            "Retrospective Studies",
+            "Semaglutide"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15871634",
+        "text": "Ezetimibe: a review of its metabolism, pharmacokinetics and drug interactions.\n\nEzetimibe is the first lipid-lowering drug that inhibits intestinal uptake of dietary and biliary cholesterol without affecting the absorption of fat-soluble nutrients. Following oral administration, ezetimibe is rapidly absorbed and extensively metabolised (>80%) to the pharmacologically active ezetimibe-glucuronide. Total ezetimibe (sum of 'parent' ezetimibe plus ezetimibe-glucuronide) concentrations reach a maximum 1-2 hours post-administration, followed by enterohepatic recycling and slow elimination. The estimated terminal half-life of ezetimibe and ezetimibe-glucuronide is approximately 22 hours. Consistent with the elimination half-life of ezetimibe, an approximate 2-fold accumulation is observed upon repeated once-daily administration. The recommended dose of ezetimibe 10 mg/day can be administered in the morning or evening without regard to food. There are no clinically significant effects of age, sex or race on ezetimibe pharmacokinetics and no dosage adjustment is necessary in patients with mild hepatic impairment or mild-to-severe renal insufficiency. The major metabolic pathway for ezetimibe consists of glucuronidation of the 4-hydroxyphenyl group by uridine 5'-diphosphate-glucuronosyltransferase isoenzymes to form ezetimibe-glucuronide in the intestine and liver. Approximately 78% of the dose is excreted in the faeces predominantly as ezetimibe, with the balance found in the urine mainly as ezetimibe-glucuronide. Overall, ezetimibe has a favourable drug-drug interaction profile, as evidenced by the lack of clinically relevant interactions between ezetimibe and a variety of drugs commonly used in patients with hypercholesterolaemia. Ezetimibe does not have significant effects on plasma levels of HMG-CoA reductase inhibitors commonly known as statins (atorvastatin, fluvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin), fibric acid derivatives (gemfibrozil, fenofibrate), digoxin, glipizide, warfarin and triphasic oral contraceptives (ethinylestradiol and levonorgestrel). Concomitant administration of food, antacids, cimetidine or statins had no significant effect on ezetimibe bioavailability. Although coadministration with gemfibrozil and fenofibrate increased the bioavailability of ezetimibe, the clinical significance is thought to be minor considering the relatively flat dose-response curve of ezetimibe and the lack of dose-related increase in adverse events. In contrast, coadministration with the bile acid binding agent colestyramine significantly decreased ezetimibe oral bioavailability (based on area under the plasma concentration-time curve of total ezetimibe). Hence, ezetimibe and colestyramine should be administered several hours apart to avoid attenuating the efficacy of ezetimibe. Finally, higher ezetimibe exposures were observed in patients receiving concomitant ciclosporin, and ezetimibe caused a small but statistically significant effect on plasma levels of ciclosporin. Because treatment experience in patients receiving ciclosporin is limited, physicians are advised to exercise caution when initiating ezetimibe in the setting of ciclosporin coadministration, and to carefully monitor ciclosporin levels.",
+        "title": "Ezetimibe: a review of its metabolism, pharmacokinetics and drug interactions.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15871634",
+          "journal": "Clinical pharmacokinetics",
+          "authors": [
+            "Kosoglou Teddy",
+            "Statkevich Paul",
+            "Johnson-Levonas Amy O"
+          ],
+          "pub_date": "2005",
+          "doi": "10.2165/00003088-200544050-00002",
+          "mesh_terms": [
+            "Animals",
+            "Anticholesteremic Agents",
+            "Azetidines",
+            "Biological Availability",
+            "Cholestyramine Resin",
+            "Contraceptives, Oral",
+            "Drug Interactions",
+            "Ezetimibe",
+            "Humans",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15979893",
+        "text": "Combination of high-fat diet-fed and low-dose streptozotocin-treated rat: a model for type 2 diabetes and pharmacological screening.\n\nThe objective of the present study was to develop a rat model that replicates the natural history and metabolic characteristics of human type 2 diabetes and is also suitable for pharmacological screening. Male Sprague-Dawley rats (160-180 g) were divided into two groups and fed with commercially available normal pellet diet (NPD) (12% calories as fat) or in-house prepared high-fat diet (HFD) (58% calories as fat), respectively, for a period of 2 weeks. The HFD-fed rats exhibited significant increase in body weight, basal plasma glucose (PGL), insulin (PI), triglycerides (PTG) and total cholesterol (PTC) levels as compared to NPD-fed control rats. Besides, the HFD rats showed significant reduction in glucose disappearance rate (K-value) on intravenous insulin glucose tolerance test (IVIGTT). Hyperinsulinemia together with reduced glucose disappearance rate (K-value) suggested that the feeding of HFD-induced insulin resistance in rats. After 2 weeks of dietary manipulation, a subset of the rats from both groups was injected intraperitoneally with low dose of streptozotocin (STZ) (35 mg kg(-1)). Insulin-resistant HFD-fed rats developed frank hyperglycemia upon STZ injection that, however, caused only mild elevation in PGL in NPD-fed rats. Though there was significant reduction in PI level after STZ injection in HFD rats, the reduction observed was only to a level that was comparable with NPD-fed control rats. In addition, the levels of PTG and PTC were further accentuated after STZ treatment in HFD-fed rats. In contrast, STZ (35 mg kg(-1), i.p.) failed to significantly alter PI, PTG and PTC levels in NPD-fed rats. Thus, these fat-fed/STZ-treated rats simulate natural disease progression and metabolic characteristics typical of individuals at increased risk of developing type 2 diabetes because of insulin resistance and obesity. Further, the fat-fed/STZ-treated rats were found to be sensitive for glucose lowering effects of insulin sensitizing (pioglitazone) as well as insulinotropic (glipizide) agents. Besides, the effect of pioglitazone and glipizide on the plasma lipid parameters (PTG and PTC) was shown in these diabetic rats. The present study represents that the combination of HFD-fed and low-dose STZ-treated rat serves as an alternative animal model for type 2 diabetes simulating the human syndrome that is also suitable for testing anti-diabetic agents for the treatment of type 2 diabetes.",
+        "title": "Combination of high-fat diet-fed and low-dose streptozotocin-treated rat: a model for type 2 diabetes and pharmacological screening.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15979893",
+          "journal": "Pharmacological research",
+          "authors": [
+            "Srinivasan K",
+            "Viswanad B",
+            "Asrat Lydia"
+          ],
+          "pub_date": "2005-Oct",
+          "doi": "10.1016/j.phrs.2005.05.004",
+          "mesh_terms": [
+            "Animals",
+            "Blood Glucose",
+            "Cholesterol",
+            "Diabetes Mellitus, Experimental",
+            "Dietary Fats",
+            "Glipizide",
+            "Glucose Tolerance Test",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Male",
+            "Pioglitazone",
+            "Rats",
+            "Rats, Sprague-Dawley",
+            "Streptozocin",
+            "Thiazolidinediones",
+            "Triglycerides"
+          ]
+        }
+      }
+    ]
+  }
+}

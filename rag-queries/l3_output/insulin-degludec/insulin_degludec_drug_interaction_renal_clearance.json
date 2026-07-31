@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38722461",
+        "text": "The Effect of Various Degrees of Renal or Hepatic Impairment on the Pharmacokinetic Properties of Once-Weekly Insulin Icodec. Icodec is a once-weekly insulin being developed to provide basal insulin coverage in diabetes mellitus. This study evaluated the effects of renal or hepatic impairment on icodec pharmacokinetics. Two open-label, parallel-group, single-dose (1.5 U/kg subcutaneously) trials were conducted. In a renal impairment trial, 58 individuals were allocated to normal renal function (measured glo",
+        "score": 0.4063268303871155,
+        "doi": "10.1007/s40262-024-01375-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": -0.41650068759918213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39160349",
+        "text": "Modeling Metformin and Dapagliflozin Pharmacokinetics in Chronic Kidney Disease. Chronic kidney disease (CKD) is a complication of diabetes that affects circulating drug concentrations and elimination of drugs from the body. Multiple drugs may be prescribed for treatment of diabetes and co-morbidities, and CKD complicates the pharmacotherapy selection and dosing regimen. Characterizing variations in renal drug clearance using models requires large clinical datasets that are costly and time-consuming to coll",
+        "score": 0.3941238522529602,
+        "doi": "10.1208/s12248-024-00962-2",
+        "journal": "The AAPS journal",
+        "year": "2024",
+        "rerank_score": -0.539620041847229,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40571872",
+        "text": "The Impact of Drug Properties and Severity of Obesity on Renal Drug Clearance Through Glomerular Filtration and Active Tubular Secretion: A Systematic Analysis Using PBPK Modeling. The influence of obesity on renal drug clearance (CLr) remains difficult to predict. This study quantifies obesity-related alterations in CLr for drugs eliminated via glomerular filtration (GF/CL A physiologically-based pharmacokinetic (PBPK) approach was used to simulate CL CLr through GF and ATS increased with BMI, albeit to di",
+        "score": 0.4015882611274719,
+        "doi": "10.1007/s11095-025-03885-5",
+        "journal": "Pharmaceutical research",
+        "year": "2025",
+        "rerank_score": -1.0962904691696167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole H+/K+ ATPase (Cys813+Cys321) off-target mechanism",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813+Cys321)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39531492",
+        "text": "Inhibition mechanism of potential antituberculosis compound lansoprazole sulfide. Tuberculosis is one of the most common causes of death worldwide, with a rapid emergence of multi-drug-resistant strains underscoring the need for new antituberculosis drugs. Recent studies indicate that lansoprazole-a known gastric proton pump inhibitor and its intracellular metabolite, lansoprazole sulfide (LPZS)-are potential antituberculosis compounds. Yet, their inhibitory mechanism and site of action still remain unknown",
+        "score": 0.4162658452987671,
+        "doi": "10.1073/pnas.2412780121",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "year": "2024",
+        "rerank_score": 0.7224445343017578,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40553973",
+        "text": "Corrigendum to \"Lansoprazole, a Proton Pump Inhibitor, Mediates Anti-Inflammatory Effect in Gastric Mucosal Cells through the Induction of Heme Oxygenase-1 via Activation of NF-E2-Related Factor 2 and Oxidation of Kelch-Like ECH-Associating Protein 1\" [The Journal of Pharmacology and Experimental Therapeutics 331 (2009) 255-264].",
+        "score": 0.3933035135269165,
+        "doi": "10.1016/j.jpet.2025.103631",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "year": "2025",
+        "rerank_score": -0.12427443265914917,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40413744",
+        "text": "Assembly and cooperative mechanism of the hexameric fungal plasma membrane H The fungal plasma membrane H+-ATPase Pma1 hydrolyzes ATP to pump protons out of the cell to maintain the intracellular pH and membrane potential. Pma1 is unique among the P-type ATPases as it functions as a hexamer, although the underlying mechanism has been unclear. Here, we show that the Pma1 hexamer functions cooperatively, and the cooperativity is mediated by the domain-swapped N-terminal extension (NTE). The NTE of one Pma1 su",
+        "score": 0.4210773706436157,
+        "doi": "10.1016/j.celrep.2025.115753",
+        "journal": "Cell reports",
+        "year": "2024",
+        "rerank_score": -1.6453092098236084,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

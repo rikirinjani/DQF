@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Captopril metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.43571680784225464,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 2.8726184368133545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38419057",
+        "text": "Effect of sacubitril/valsartan on lipid metabolism in patients with chronic kidney disease combined with chronic heart failure: a retrospective study. Dyslipidemia is significantly more common in those with concurrent chronic kidney disease (CKD) and chronic heart failure (CHF). Sacubitril/valsartan has showcased its influence on both cardiac and renal functions, extending its influence to the modulation of lipid metabolism pathways. This study aimed to examine how sacubitril/valsartan affects lipid metabol",
+        "score": 0.4184425175189972,
+        "doi": "10.1186/s12944-024-02051-x",
+        "journal": "Lipids in health and disease",
+        "year": "2024",
+        "rerank_score": 0.569059431552887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39396750",
+        "text": "Captopril inhibits the overproduction of proopiomelanocortin and adrenocorticotropic hormone in the pituitary gland of male diabetic mice in close relationship with an increase in glucocorticoid receptor expression. Prior investigation shows that diabetic patients present hypothalamus-pituitary-adrenal (HPA) axis hyperactivity related to impaired negative feedback. This study investigates the effect of Captopril on the overproduction of adrenocorticotropic hormone (ACTH) and its precursor proopiomelanocorti",
+        "score": 0.4339699447154999,
+        "doi": "10.1016/j.ejphar.2024.177057",
+        "journal": "European journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 0.5519988536834717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

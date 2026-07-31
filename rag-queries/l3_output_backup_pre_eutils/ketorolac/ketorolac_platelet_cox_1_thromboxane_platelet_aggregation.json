@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query": "Ketorolac platelet COX-1 thromboxane platelet aggregation",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31961516",
+        "text": "Platelet Function: Meloxicam Intravenous in Whole Blood Samples From Healthy Volunteers.\n\nNonsteroidal anti-inflammatory drugs (NSAIDs) are effective treatments for pain but may induce bleeding events due to platelet dysfunction associated with inhibition of cyclooxygenase (COX)-1 impairing thromboxane production. An intravenous nanocrystal formulation of meloxicam, a COX-2 preferential nonsteroidal anti-inflammatory drug, is under development for the treatment of moderate to severe pain. This single-center ex vivo study evaluated the effect of meloxicam intravenous and ketorolac on platelet function in whole blood samples from healthy volunteers. Each whole blood sample was aliquoted to allow analysis using a platelet function analyzer under negative control (untreated), positive control (2 therapeutic ketorolac concentrations), and meloxicam intravenous (1 therapeutic, 3 supratherapeutic concentrations) using both collagen with epinephrine and collagen with adenosine diphosphate reagent cartridges. The platelet function analyzer determines closure time by simulating platelet adhesion and aggregation following vascular injury. The final analysis set included data from 8 subjects. The collagen with adenosine diphosphate analysis (sensitive to thrombocytopathies) showed no significant differences in closure time for meloxicam- or ketorolac-treated samples and untreated control. The collagen with epinephrine analysis (sensitive to aspirin-induced platelet abnormalities) produced no significant difference in closure time between any meloxicam concentration and untreated control. Ketorolac was associated with significantly longer closure times vs untreated control at both the 2.5- and 5-µg/mL concentrations (P = .003 and .0257, respectively) and vs meloxicam at several concentrations. Similar results were observed when all analyzed samples were included. Meloxicam intravenous had no significant effect on closure times at therapeutic or supratherapeutic concentrations in this ex vivo study.",
+        "title": "Platelet Function: Meloxicam Intravenous in Whole Blood Samples From Healthy Volunteers.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "31961516",
+          "journal": "Clinical pharmacology in drug development",
+          "authors": [
+            "Jahr Jonathan S",
+            "Searle Shawn",
+            "McCallum Stewart"
+          ],
+          "pub_date": "2020-Oct",
+          "doi": "10.1002/cpdd.772",
+          "mesh_terms": [
+            "Adenosine Diphosphate",
+            "Administration, Intravenous",
+            "Adult",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Blood Specimen Collection",
+            "Collagen",
+            "Cyclooxygenase Inhibitors",
+            "Drug Compounding",
+            "Epinephrine",
+            "Female",
+            "Healthy Volunteers",
+            "Hemorrhage",
+            "Humans",
+            "Ketorolac",
+            "Male",
+            "Meloxicam",
+            "Nanoparticles",
+            "Pain",
+            "Platelet Aggregation",
+            "Platelet Function Tests",
+            "Reagent Kits, Diagnostic"
+          ]
+        }
+      },
+      {
+        "id": "PMID:24075938",
+        "text": "Drug/drug interaction of common NSAIDs with antiplatelet effect of aspirin in human platelets.\n\nNonsteroidal anti-inflammatory drugs (NSAIDs) may interfere with the anti-platelet activity of aspirin at the level of the platelet cyclooxygenase-1 (COX-1) enzyme. In order to examine the interference of common NSAIDs with the anti-platelet activity of aspirin the human platelet rich plasma from voluntary donors was used for arachidonic acid-induced aggregation and determination of thromboxane synthesis. Further, docking studies were used to explain the molecular basis of the NSAID/aspirin interaction. The experimental results showed that celecoxib, dipyrone (active metabolite), ibuprofen, flufenamic acid, naproxen, nimesulide, oxaprozin, and piroxicam significantly interfere with the anti-platelet activity of aspirin, while diclofenac, ketorolac and acetaminophen do not. Docking studies suggested that NSAIDs forming hydrogen bonds with Ser530, Arg120, Tyr385 and other amino acids of the COX-1 hydrophobic channel interfere with antiplatelet activity of aspirin while non interfering NSAIDs do not form relevant hydrogen bond interactions within the aspirin binding site. In conclusion, docking analysis of NSAID interactions at the COX-1 active site appears useful to predict their interference with the anti-platelet activity of aspirin. The results, demonstrate that some NSAIDs do not interfere with the antiplatelet action of aspirin while many others do and provide a basis for understanding the observed differences among individual non-aspirin NSAIDs.",
+        "title": "Drug/drug interaction of common NSAIDs with antiplatelet effect of aspirin in human platelets.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24075938",
+          "journal": "European journal of pharmacology",
+          "authors": [
+            "Saxena Aaruni",
+            "Balaramnavar Vishal M",
+            "Hohlfeld Thomas"
+          ],
+          "pub_date": "2013-Dec-05",
+          "doi": "10.1016/j.ejphar.2013.09.032",
+          "mesh_terms": [
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Aspirin",
+            "Blood Platelets",
+            "Catalytic Domain",
+            "Cyclooxygenase 1",
+            "Drug Interactions",
+            "Humans",
+            "Molecular Docking Simulation",
+            "Platelet Aggregation Inhibitors",
+            "Platelet Function Tests"
+          ]
+        }
+      }
+    ]
+  }
+}

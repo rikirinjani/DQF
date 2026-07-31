@@ -1,0 +1,98 @@
+{
+  "query": {
+    "query": "Terazosin alpha1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40641410",
+        "text": "ATF3 Deficiency Exacerbates Ageing-Induced Atherosclerosis and Clinical Intervention Strategy.\n\nVascular smooth muscle cell (VSMC) senescence is a pivotal driver of atherosclerosis (AS), but molecular links to ageing-related dysfunction are unclear. It is aimed to identify regulators of VSMC senescence and develop clinical interventions for ageing-related AS. Using single-cell RNA sequencing of human atherosclerotic carotid arteries and immunofluorescence validation, activating transcription factor 3 (ATF3) is identified as central to VSMC senescence. Mechanistic studies employ SMC-specific ATF3 knockout mice, CUT&Tag-seq, RNA/protein interaction assays, and m6A epitranscriptomic analyses. To bridge discovery to therapy, high-throughput virtual screening is performed for ATF3-targeting compounds and functionally validated hits. ATF3 deficiency in VSMCs accelerates ageing-induced AS by promoting senescence. Multi-omics showed ATF3 activates ATG7, triggering autophagy, while cytoplasmic ATG7 enhances ATF3 nuclear translocation, establishing a positive feedback loop. Ageing increases m6A methylation and decreases the stability of Atf3 mRNA. Terazosin (TZ) diminishes the interaction between YTH N6-methyladenosine RNA binding protein F2 (YTHDF2) and Atf3 mRNA, helping to preserve Atf3 mRNA stability. TZ is a promising therapeutic strategy for delaying VSMC senescence and preventing AS. ATF3 protects against VSMC senescence and AS by orchestrating autophagy via a novel ATF3-ATG7 amplification loop. Repurposing TZ to stabilize ATF3 offers a translatable approach to combat ageing-driven cardiovascular disease.",
+        "title": "ATF3 Deficiency Exacerbates Ageing-Induced Atherosclerosis and Clinical Intervention Strategy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "40641410",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "authors": [
+            "Nie Hao",
+            "Ji Tianyi",
+            "Wan Zixin"
+          ],
+          "pub_date": "2025-Oct",
+          "doi": "10.1002/advs.202502249",
+          "mesh_terms": [
+            "Activating Transcription Factor 3",
+            "Animals",
+            "Atherosclerosis",
+            "Humans",
+            "Mice",
+            "Muscle, Smooth, Vascular",
+            "Aging",
+            "Mice, Knockout",
+            "Cellular Senescence",
+            "Myocytes, Smooth Muscle",
+            "Male"
+          ]
+        }
+      },
+      {
+        "id": "PMID:11750250",
+        "text": "Tamsulosin: current clinical experience.\n\nDuring the past decade, our understanding of the epidemiology and natural history of benign prostatic hyperplasia (BPH) has improved considerably. Population-based studies confirm that lower urinary tract symptoms (LUTS) are very common among aging men. These studies have confirmed that men with moderate-to-severe symptoms have 4 to 6 times more trouble and interference with activities of daily living and twice the level of worry as those with mild symptoms. The realization by patients and their physicians that most men >50 years of age will develop LUTS, has resulted in increased awareness of pharmacologic agents, principally alpha-adrenergic antagonists, as a first line of therapy for this condition. Alpha blockers were introduced >30 years ago to treat LUTS and today are the mainstay in pharmacologic therapy. Among the alpha blockers, tamsulosin more selectively targets the alpha(1A)-adrenergic receptor subtype and is as effective as conventional alpha(1) blockers in treating LUTS caused by BPH. Its subselectivity and pharmacodynamic properties may provide advantages in safety, tolerability, and administration compared with other alpha blockers, such as terazosin and doxazosin. Unlike other alpha blockers, tamsulosin does not require titration to be efficacious. Because of its rapid onset of action and lack of clinically significant effect on blood pressure in normotensive and hypertensive patients, a therapeutic dose is delivered at the onset of treatment. Studies have documented that tamsulosin produces rapid improvements in LUTS and peak urinary flow rates, and these responses have been found to be durable.",
+        "title": "Tamsulosin: current clinical experience.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11750250",
+          "journal": "Urology",
+          "authors": [
+            "O'Leary M P"
+          ],
+          "pub_date": "2001-Dec",
+          "doi": "10.1016/s0090-4295(01)01346-2",
+          "mesh_terms": [
+            "Adrenergic alpha-1 Receptor Antagonists",
+            "Adrenergic alpha-Antagonists",
+            "Aged",
+            "Ejaculation",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Prostatic Hyperplasia",
+            "Randomized Controlled Trials as Topic",
+            "Sulfonamides",
+            "Tamsulosin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:29971698",
+        "text": "Is Tamsulosin Linked to Dementia in the Elderly?\n\nLower urinary tract symptoms (LUTS) result from age-related changes in detrusor function and prostatic growth that are driven by alterations in the ratio of circulating androgens and estrogens. Alpha-adrenergic receptor blockers are commonly used to treat LUTS because they influence urethral tone and intra-urethral pressure. Molecular cloning studies have identified three α1-adrenergic receptor subtypes (α1A, α1B, and α1D). The α1A subtype is predominant in the human prostate but is also present in many parts of the brain that direct cognitive function. Tamsulosin is the most widely used α1-adrenergic receptor antagonist with 12.6 million prescriptions filled in 2010 alone. When compared to the other common types of α1-adrenergic receptor antagonists (i.e., terazosin, doxazosin, and alfuzosin), tamsulosin is 10- to 38-fold more selective for the α1A versus the α1B subtype.\nDuan et al. have recently shown that men taking tamsulosin have a higher risk of developing dementia when compared to men taking other α-adrenergic antagonists or no α-adrenergic antagonists at all (HR 1.17; 95% CI 1.14-1.21). Based upon this retrospective analysis, we believe that tamsulosin, because of its unique affinity for α1A-adrenergic receptors, may increase the risk of developing dementia when used for an extended period of time. If these findings are confirmed, they carry significant public health implications for an aging society.",
+        "title": "Is Tamsulosin Linked to Dementia in the Elderly?",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "29971698",
+          "journal": "Current urology reports",
+          "authors": [
+            "Frankel Jason K",
+            "Duan Yinghui",
+            "Albertsen Peter C"
+          ],
+          "pub_date": "2018-Jul-03",
+          "doi": "10.1007/s11934-018-0821-0",
+          "mesh_terms": [
+            "Adrenergic alpha-1 Receptor Antagonists",
+            "Aged",
+            "Brain",
+            "Cognition",
+            "Dementia",
+            "Humans",
+            "Lower Urinary Tract Symptoms",
+            "Sulfonamides",
+            "Tamsulosin",
+            "Urological Agents"
+          ]
+        }
+      }
+    ]
+  }
+}

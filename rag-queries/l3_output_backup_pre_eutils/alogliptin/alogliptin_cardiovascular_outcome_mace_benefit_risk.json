@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35378068",
+        "text": "Metabolic risk factors and effect of alirocumab on cardiovascular events after acute coronary syndrome: a post-hoc analysis of the ODYSSEY OUTCOMES randomised controlled trial. Many patients with acute coronary syndrome have concurrent metabolic risk factors that affect risk of major adverse cardiovascular events (MACE). We aimed to assess the effects of the PCSK9 inhibitor alirocumab compared with placebo on MACE according to baseline metabolic risk factors.",
+        "score": 0.40010201930999756,
+        "doi": "10.1016/S2213-8587(22)00043-2",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "year": "2021",
+        "rerank_score": 2.997274160385132,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40854701",
+        "text": "Pitavastatin Reduces Major Atherosclerotic Cardiovascular Events in Adults with HIV. Initiation of pitavastatin in adults aged 40 to 75 living with HIV treated with highly active antiretroviral therapy (HAART) with low-to-moderate 10-year atherosclerotic cardiovascular disease (ASCVD) risk decreases the incidence of major cardiovascular events (MACE).",
+        "score": 0.39709383249282837,
+        "doi": "10.3122/jabfm.2025.250014R0",
+        "journal": "Journal of the American Board of Family Medicine : JABFM",
+        "year": "2025",
+        "rerank_score": 1.9086133241653442,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41508706",
+        "text": "Comparison of cardiovascular outcomes between once-weekly semaglutide and dulaglutide in adults with type 2 diabetes and established atherosclerotic cardiovascular disease in the United States. This study aims to compare the risk of major adverse cardiovascular events (MACE) among United States individuals with type 2 diabetes (T2D) and atherosclerotic cardiovascular disease (ASCVD) treated with once-weekly semaglutide vs. dulaglutide. This was a retrospective cohort study using Optum's de-identified Clinfo",
+        "score": 0.3965795934200287,
+        "doi": "10.1111/dom.70440",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 1.6319822072982788,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole H+/K+ ATPase (Cys813) off-target mechanism",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40916919",
+        "text": "Association of Omeprazole-Related Myopathy With Drug-Drug and Drug-Gene Interactions Involving CYP2C19 and CYP3A4: A Nested Case-Control Study. Omeprazole, a widely used proton pump inhibitor, has been associated with rare but serious adverse events such as myopathy. Previous research suggests that concurrent use of omeprazole with fluconazole, a potent cytochrome P450 (CYP) 2C19/3A4 inhibitor, may increase the risk of myopathy. However, the contribution of genetic polymorphisms in CYP enzymes remains uncle",
+        "score": 0.4355132579803467,
+        "doi": "10.1002/phar.70058",
+        "journal": "Pharmacotherapy",
+        "year": "2025",
+        "rerank_score": -0.12013522535562515,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38925922",
+        "text": "Omeprazole Induces CYP3A4 mRNA Expression but Not CYP3A4 Protein Expression in HepaRG Cells. Unknown interactions between drugs remain the limiting factor for clinical application of drugs, and the induction and inhibition of drug-metabolizing CYP enzymes are considered the key to examining the drug-drug interaction (DDI). In this study, using human HepaRG cells as an in vitro model system, we analyzed the potential DDI based on the expression levels of CYP3A4 and CYP1A2. Rifampicin and omeprazole, the pote",
+        "score": 0.4415735602378845,
+        "doi": "10.1248/bpb.b24-00161",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": -0.9073001742362976,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39616854",
+        "text": "In human CD4+ T-Cells, omeprazole suppresses proliferation, downregulates V-ATPase, and promotes differentiation toward an autoimmunity-favoring phenotype. Proton pump inhibitors (PPIs) represent a commonly prescribed class of medications. Triggered by findings indicating a correlation between PPI usage and susceptibility to infectious or autoimmune diseases, we studied the impact of a pharmacological concentration of omeprazole on human CD4+ T-cells. In mixed lymphocyte reactions (MLRs), we analyzed the pr",
+        "score": 0.43883663415908813,
+        "doi": "10.1016/j.intimp.2024.113728",
+        "journal": "International immunopharmacology",
+        "year": "2024",
+        "rerank_score": -1.1849348545074463,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

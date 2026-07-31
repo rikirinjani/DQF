@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:6135521",
+        "text": "Adrenergic beta-receptor blockers in hypertension of pregnancy. This is a study of the selective beta-blocking agent metoprolol in combination with either thiazide or hydralazine in 184 hypertensive gravidae. The effects on the mother and the fetus are compared with those of 97 hypertensive gravidae treated with a combination of hydralazine and a thiazide. The combination of metoprolol and hydralazine seems to be the most favourable one judged by both maternal well-being, fetal intrauterine growth, ten-minu",
+        "score": 0.4045131206512451,
+        "doi": "",
+        "journal": "Clinical and experimental hypertension. Part B, Hypertension in pregnancy",
+        "year": "1982",
+        "rerank_score": 2.976065158843994,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37937774",
+        "text": "Probing the mechanisms of hydrazide-based HDAC inhibitors binding to HDAC3 using Gaussian accelerated molecular dynamics (GaMD) simulations. Histone deacetylases (HDACs) have emerged as promising targets for anticancer drug development. They regulate gene expression by removing acetyl groups from lysine residues on histone tails, leading to chromatin condensation. A hydrazide-based HDAC inhibitor, N-(4-(2-Propylhydrazine-1-carbonyl)benzyl)-1H-indole-2-carboxamide (11h), has been reported to exhibit signific",
+        "score": 0.4142564833164215,
+        "doi": "10.1080/07391102.2023.2278085",
+        "journal": "Journal of biomolecular structure & dynamics",
+        "year": "2024",
+        "rerank_score": 1.9630992412567139,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39907170",
+        "text": "Discovery of Hydrazine Clubbed Thiazoles as Potential Antidiabetic Agents: Synthesis, Biological Evaluation, and Molecular Docking Studies. In this study, hydrazine clubbed thiazole derivatives (3a-3j) were obtained by Hantzsch thiazole synthesis and characterized by MS,",
+        "score": 0.4296531081199646,
+        "doi": "10.1002/ddr.70060",
+        "journal": "Drug development research",
+        "year": "2025",
+        "rerank_score": -0.5389525890350342,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

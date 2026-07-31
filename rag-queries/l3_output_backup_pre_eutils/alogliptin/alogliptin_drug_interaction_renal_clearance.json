@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39821812",
+        "text": "A physiologically-based quantitative systems pharmacology model for mechanistic understanding of the response to alogliptin and its application in patients with renal impairment. Alogliptin is a highly selective inhibitor of dipeptidyl peptidase-4 and primarily excreted as unchanged drug in the urine, and differences in clinical outcomes in renal impairment patients increase the risk of serious adverse reactions. In this study, we developed a comprehensive physiologically-based quantitative systematic pharm",
+        "score": 0.42184749245643616,
+        "doi": "10.1007/s10928-025-09961-y",
+        "journal": "Journal of pharmacokinetics and pharmacodynamics",
+        "year": "2024",
+        "rerank_score": 3.4445207118988037,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40202156",
+        "text": "Clearance of Amlodipine, Fentanyl, Fluconazole, Methylprednisolone, and Midazolam by Continuous Renal Replacement Circuits. Critically ill pediatric patients on continuous renal replacement therapy (CRRT) have high mortality rates ranging from 30% to 70%, due in part to altered drug exposure from drug-CRRT circuit interactions. Drug loss within CRRT circuits can occur through both clearance by the hemofilter and adsorption to circuit components. Although these interactions are known to exist, their impact o",
+        "score": 0.4581770896911621,
+        "doi": "10.1097/MAT.0000000000002422",
+        "journal": "ASAIO journal (American Society for Artificial Internal Organs : 1992)",
+        "year": "2025",
+        "rerank_score": 2.4762110710144043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40145829",
+        "text": "Effect of Augmented Renal Clearance and Febrile Neutropenia on Initial Trough Level and Clearance of Teicoplanin. Augmented renal clearance (ARC) and febrile neutropenia (FN) increase drug clearance primarily through glomerular filtration. In this study, we evaluated the influence of ARC and FN on dose-normalized trough concentration (C/D) and/or clearance of teicoplanin (TEIC) by comparing C/D between patients with ARC and non-ARC, and C/D and clearance between patients with FN and non-FN. This retrospecti",
+        "score": 0.437602162361145,
+        "doi": "10.1097/FTD.0000000000001320",
+        "journal": "Therapeutic drug monitoring",
+        "year": "2024",
+        "rerank_score": 1.1189250946044922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Empagliflozin SGLT2 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41179718",
+        "text": "Effect of empagliflozin on fractional excretion of sodium in patients with cirrhosis and refractory ascites. Ascites is the most common complication of cirrhosis. Current pharmacological interventions, such as diuretics, often become ineffective in advanced stages due to diuretic resistance. Sodium-glucose co-transporter 2 (SGLT2) inhibitors have demonstrated potential in enhancing urinary sodium excretion and mitigating sodium-fluid retention. This study aims to evaluate the effects of SGLT2 inhibitors on ",
+        "score": 0.3180265426635742,
+        "doi": "10.4254/wjh.v17.i10.110247",
+        "journal": "World journal of hepatology",
+        "year": "2025",
+        "rerank_score": 6.405900001525879,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39036218",
+        "text": "Dapagliflozin-Induced Acute Pancreatitis: A Case Presentation and Review of the Literature. Acute pancreatitis has been considered a rare potential adverse effect of sodium-glucose co-transporter-2 inhibitors (SGLT-2is), a new class of medications recently approved for use as an add-on therapy in patients with poorly controlled type 2 diabetes mellitus as well as in individuals with heart failure (HF) and chronic kidney disease (CKD). SGLT-2i can effectively reduce cardiovascular mortality and the deteriora",
+        "score": 0.31235912442207336,
+        "doi": "10.7759/cureus.62757",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 6.374373912811279,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40668643",
+        "text": "Empagliflozin Enhances Hepatic Glucose Production and Reduces Total-Body Norepinephrine Turnover Rate: A Randomized Trial. Sodium-glucose cotransporter 2 inhibitors (SGLT2i) cause an increase in hepatic glucose production (HGP). We previously showed that SGLT2i cause a rapid (within 4 h) increase in the total-body norepinephrine (NE) turnover rate, which could explain the increase in HGP. Because the increase in HGP caused by SGLT2i is long-lasting, we examined the long-term effect of SGLT2i on the NE turno",
+        "score": 0.32365110516548157,
+        "doi": "10.2337/db25-0210",
+        "journal": "Diabetes",
+        "year": "2025",
+        "rerank_score": 6.333577632904053,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

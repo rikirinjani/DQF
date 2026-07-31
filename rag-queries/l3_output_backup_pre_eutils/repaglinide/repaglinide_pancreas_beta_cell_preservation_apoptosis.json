@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Repaglinide pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39219257",
+        "text": "Pancreatic β‑cell apoptosis in type 2 diabetes is related to post‑translational modifications of p53 (Review). Pancreatic β‑cells are the only cells that synthesize insulin to regulate blood glucose levels. Various conditions can affect the mass of pancreatic β‑cells and decrease insulin levels. Diabetes mellitus is a disease characterized by insulin resistance and chronic hyperglycemia, mainly due to the loss of pancreatic β‑cells caused by an increase in the rate of apoptosis. Additionally, hyperglycemia ",
+        "score": 0.4403834939002991,
+        "doi": "10.3892/mmr.2024.13317",
+        "journal": "Molecular medicine reports",
+        "year": "2024",
+        "rerank_score": 0.9273971915245056,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39365284",
+        "text": "PLAGL1 overexpression induces cytoplasmic DNA accumulation that triggers cGAS/STING activation. Pancreatic β-cell damage mediated by apoptosis is believed to be a main trigger of type 1 diabetes mellitus (T1DM), which is proposed as an organ-specific autoimmune disease mediated by T cells. Nonetheless, the fundamental origins of T1DM remain uncertain. Here, we illustrate that an increase in PLAGL1 expression induces β-cell apoptosis, as evidenced by mitochondrial membrane impairment and nucleolar degradatio",
+        "score": 0.44872817397117615,
+        "doi": "10.1111/jcmm.70130",
+        "journal": "Journal of cellular and molecular medicine",
+        "year": "2024",
+        "rerank_score": 0.6325856447219849,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39541216",
+        "text": "Neuregulin 4 attenuates pancreatic β-cell apoptosis induced by lipotoxicity via activating mTOR-mediated autophagy. Neuregulin 4 (Nrg4) is a brown fat-enriched endocrine factor that ameliorates lipid metabolism disorders. Autophagy is critical for pancreatic β-cell to counteract lipotoxicity-induced apoptosis. This study aimed at exploring whether Nrg4 attenuates lipotoxicity-induced β-cell apoptosis by regulating autophagy. The mouse pancreatic β-cell line MIN6 was cultured in palmitic acid (PA) with or wi",
+        "score": 0.44617223739624023,
+        "doi": "10.1080/19382014.2024.2429854",
+        "journal": "Islets",
+        "year": "2024",
+        "rerank_score": 0.32696235179901123,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40692063",
+        "text": "Understanding the activation mechanism of GLP-1R/GIPR by dual agonist Tirzepatide via molecular dynamics and protein-peptide binding. GLP-1 has become a prime target for medical treatment due to its significant therapeutic efficacy. However, the activation mechanisms of class B1 GPCRs, including glucagon-like peptides (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP), remain poorly understood. This study focuses on understanding the activation mechanisms of the GLP-1 receptor (GLP-1R) by invest",
+        "score": 0.35203301906585693,
+        "doi": "10.1016/j.ijbiomac.2025.146141",
+        "journal": "International journal of biological macromolecules",
+        "year": "2025",
+        "rerank_score": 4.727139472961426,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40931739",
+        "text": "[Tirzepatide (Mounjaro®) : a GIP/GLP-1 receptor dual agonist for the treatment of type 2 diabetes]. Tirzepatide is a unimolecular dual agonist of both glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors, recently commercialized and reimbursed in Belgium for the treatment of type 2 diabetes (T2D). Because of the complementarity of action of the two incretins, tirzepatide showed, in a dose-dependent manner (5, 10 and 15 mg as a once-weekly subcutaneous injection), ",
+        "score": 0.3533504009246826,
+        "doi": "",
+        "journal": "Revue medicale de Liege",
+        "year": "2025",
+        "rerank_score": 4.567997455596924,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40826463",
+        "text": "The dual GLP-1 and GIP receptor agonist tirzapetide provides an unintended interaction with the β-adrenoceptors and plays a role in glucose metabolism in hyperglycemic or senescent cardiac cells. A dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP1) receptor agonist, tirzepatide (TZPD), is a novel cardioprotective agent, particularly in metabolic disturbances-related co-morbidities, however, there is no exact study to emphasize its possible unintended action in cardiac",
+        "score": 0.35010936856269836,
+        "doi": "10.1186/s12933-025-02828-z",
+        "journal": "Cardiovascular diabetology",
+        "year": "2025",
+        "rerank_score": 4.477603435516357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

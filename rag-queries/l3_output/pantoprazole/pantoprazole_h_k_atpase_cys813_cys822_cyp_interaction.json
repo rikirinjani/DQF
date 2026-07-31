@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pantoprazole H+/K+ ATPase (Cys813+Cys822) CYP interaction",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813+Cys822)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38925922",
+        "text": "Omeprazole Induces CYP3A4 mRNA Expression but Not CYP3A4 Protein Expression in HepaRG Cells. Unknown interactions between drugs remain the limiting factor for clinical application of drugs, and the induction and inhibition of drug-metabolizing CYP enzymes are considered the key to examining the drug-drug interaction (DDI). In this study, using human HepaRG cells as an in vitro model system, we analyzed the potential DDI based on the expression levels of CYP3A4 and CYP1A2. Rifampicin and omeprazole, the pote",
+        "score": 0.38573235273361206,
+        "doi": "10.1248/bpb.b24-00161",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 0.2585979700088501,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40916919",
+        "text": "Association of Omeprazole-Related Myopathy With Drug-Drug and Drug-Gene Interactions Involving CYP2C19 and CYP3A4: A Nested Case-Control Study. Omeprazole, a widely used proton pump inhibitor, has been associated with rare but serious adverse events such as myopathy. Previous research suggests that concurrent use of omeprazole with fluconazole, a potent cytochrome P450 (CYP) 2C19/3A4 inhibitor, may increase the risk of myopathy. However, the contribution of genetic polymorphisms in CYP enzymes remains uncle",
+        "score": 0.3863975405693054,
+        "doi": "10.1002/phar.70058",
+        "journal": "Pharmacotherapy",
+        "year": "2025",
+        "rerank_score": 0.24479474127292633,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39445918",
+        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
+        "score": 0.4419127106666565,
+        "doi": "10.1080/00498254.2024.2421513",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": 0.08205784857273102,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

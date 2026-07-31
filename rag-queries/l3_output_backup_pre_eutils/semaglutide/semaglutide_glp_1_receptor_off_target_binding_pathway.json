@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide GLP-1 receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35427802",
+        "text": "The mTORC1/AMPK pathway plays a role in the beneficial effects of semaglutide (GLP-1 receptor agonist) on the liver of obese mice. The liver regulates lipid metabolism. Decreasing mTOR (mechanistic target of rapamycin complex 1) and enhancing AMPK (AMP-activated protein kinase) help degrade hepatic diet-induced accumulated lipids. Therefore, the glucagon-like peptide type 1 receptor agonist (GLP-1) is indicated to treat obesity-related liver metabolic alterations. Then, we investigated the effects of semagl",
+        "score": 0.35909581184387207,
+        "doi": "10.1016/j.clinre.2022.101922",
+        "journal": "Clinics and research in hepatology and gastroenterology",
+        "year": "2022",
+        "rerank_score": 5.67242431640625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40055197",
+        "text": "Semaglutide, a glucagon-like peptide-1 receptor agonist, inhibits oral squamous cell carcinoma growth through P38 MAPK signaling pathway. Researches have shown that diabetes mellitus (DM) can promote the risk and progression of oral squamous cell carcinoma (OSCC). Semaglutide, a glucagon-like peptide-1 receptor agonist, is currently employed to treat type 2 diabetes mellitus (T2DM) and obesity. This study intends to explore the potential effects and mechanism of Semaglutide on OSCC. The expression of GLP-1R",
+        "score": 0.3591967821121216,
+        "doi": "10.1007/s00432-025-06154-5",
+        "journal": "Journal of cancer research and clinical oncology",
+        "year": "2025",
+        "rerank_score": 5.121334075927734,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34260945",
+        "text": "Structure and dynamics of semaglutide- and taspoglutide-bound GLP-1R-Gs complexes. The glucagon-like peptide-1 receptor (GLP-1R) regulates insulin secretion, carbohydrate metabolism, and appetite and is an important target for treatment of type 2 diabetes and obesity. Multiple GLP-1R agonists have entered into clinical trials, with some, such as semaglutide, progressing to approval. Others, including taspoglutide, failed due to the high incidence of side effects or insufficient efficacy. GLP-1R agonists hav",
+        "score": 0.3566325604915619,
+        "doi": "10.1016/j.celrep.2021.109374",
+        "journal": "Cell reports",
+        "year": "2020",
+        "rerank_score": 4.842225551605225,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39441644",
+        "text": "Paricalcitol ameliorates diabetic nephropathy by promoting EETs and M2 macrophage polarization and inhibiting inflammation by regulating VDR/CYP2J2 axis. Previous studies have shown that paricalcitol (PA) has a protective effect on the kidneys. However, the exact molecular mechanism by which PA affects diabetic nephropathy (DN) progression remains uncertain. PBMCs of patients with DN were isolated, and CYP2J2 and VDR levels were detected by qPCR. Pearson correlation analysis was utilized to detect the relat",
+        "score": 0.4247075915336609,
+        "doi": "10.1096/fj.202401489R",
+        "journal": "FASEB journal : official publication of the Federation of American Societies for",
+        "year": "2024",
+        "rerank_score": 2.9574074745178223,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40946372",
+        "text": "Insights into the renal protective effects of 7-phenylheptanoic acid in chronic kidney disease mice: Modulation of indoxyl sulfate production and gut microbiome homeostasis. 7-Phenylheptanoic acid (7-PH) has been reported to slow the progression of chronic kidney disease (CKD) in mice. Although the mechanism behind this renal protection remains unclear, it is strongly linked to reduced production of indoxyl sulfate (IS), a uremic toxin derived from dietary L-tryptophan through a multistep enzymatic process.",
+        "score": 0.42252469062805176,
+        "doi": "10.1016/j.dmd.2025.100149",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": 1.9856265783309937,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39248627",
+        "text": "In Search of the Mechanism of APOL1 Kidney Disease.",
+        "score": 0.4071469306945801,
+        "doi": "10.1681/ASN.0000000000000368",
+        "journal": "Journal of the American Society of Nephrology : JASN",
+        "year": "2024",
+        "rerank_score": 1.1654428243637085,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Diltiazem L-type calcium channel adverse effect pathway",
+    "dimension": "off_target",
+    "target": "L-type calcium channel"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38436598",
+        "text": "Efficacy and Safety of Prehospital Diltiazem. This study assesses the likelihood of clinical improvement and adverse events from EMS-administered diltiazem. Current prehospital protocols direct paramedics to administer diltiazem, a calcium channel blocker, to decrease the heart rate (HR) of symptomatic, hemodynamically stable patients with rapid atrial fibrillation. However, diltiazem can also cause systemic hypotension and bradycardia, which can precipitate end-organ injury. . To assess whether the rate co",
+        "score": 0.4181094169616699,
+        "doi": "10.1080/10903127.2024.2326598",
+        "journal": "Prehospital emergency care",
+        "year": "2024",
+        "rerank_score": 3.6069154739379883,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39575347",
+        "text": "Diltiazem Hydrochloride Protects Against Myocardial Ischemia/Reperfusion Injury in a BNIP3L/NIX-Mediated Mitophagy Manner. Mitochondrial calcium uptake-induced mitophagy may play an essential role in myocardial ischemia/reperfusion (MI/R) injury. Diltiazem hydrochloride (DIL), a traditional calcium channel blocker, can alleviate MI/R injury by blocking calcium overload. However, whether the protective mechanism of DIL involves mitophagy remains elusive. This study aimed to clarify the underlying molecular m",
+        "score": 0.4158932566642761,
+        "doi": "10.2147/JIR.S493037",
+        "journal": "Journal of inflammation research",
+        "year": "2024",
+        "rerank_score": 3.0617482662200928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38702844",
+        "text": "Diltiazem reduces levels of NT-proBNP and improves symptoms compared with metoprolol in patients with permanent atrial fibrillation. Short-term treatment with calcium channel blockers lowers levels of N-terminal pro B-type natriuretic peptide (NT-proBNP) and reduces rhythm-related symptoms compared to treatment with beta-blockers. The aim of this study was to compare the effects of metoprolol and diltiazem for rate control in patients with permanent atrial fibrillation (AF) after 6 months. Men and women wit",
+        "score": 0.4133254587650299,
+        "doi": "10.1093/ehjcvp/pvae032",
+        "journal": "European heart journal. Cardiovascular pharmacotherapy",
+        "year": "2024",
+        "rerank_score": 2.906362295150757,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

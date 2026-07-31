@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide GIP receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "GIP receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41351362",
+        "text": "Tirzepatide alters oncogenic signaling pathways in colorectal cancer cells in vitro. Obesity prevalence is rapidly increasing worldwide, necessitating diverse treatment approaches ranging from pharmacotherapy to surgical interventions. Tirzepatide, a recently approved dual GIP/GLP-1 receptor agonist, has shown therapeutic promise, but its impact on cancer-related pathways remains unclear. This in vitro study investigated the molecular effects of tirzepatide on colorectal cancer SW48 cells by assessing the e",
+        "score": 0.4052279591560364,
+        "doi": "10.14715/cmb/2025.71.11.15",
+        "journal": "Cellular and molecular biology (Noisy-le-Grand, France)",
+        "year": "2025",
+        "rerank_score": 3.459996223449707,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39464637",
+        "text": "Tirzepatide, GIP(1-42) and GIP(1-30) display unique signaling profiles at two common GIP receptor variants, E354 and Q354. Type 2 diabetes (T2D) and obesity are prevalent metabolic disorders affecting millions of individuals worldwide. A new effective therapeutic drug called tirzepatide for the treatment of obesity and T2D is a dual agonist of the GIP receptor and GLP-1 receptor. Tirzepatide is clinically more effective than GLP-1 receptor agonists but the reasons why are not well understood. Tirzepatide re",
+        "score": 0.4108532667160034,
+        "doi": "10.3389/fphar.2024.1463313",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 1.163210153579712,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39681390",
+        "text": "The Effects of Tirzepatide on Lipid Profile: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Tirzepatide is a novel dual glucose-dependent insulinotropic peptide (GIP)-glucagon-like peptide 1 (GLP-1) receptor agonist being evaluated for the treatment of various metabolic disorders. We performed a meta-analysis of randomized data on the effects of tirzepatide on serum lipid levels. We systematically searched the PubMed and ClinicalTrials.gov databases for relevant data from randomized ",
+        "score": 0.4115055799484253,
+        "doi": "10.7570/jomes24008",
+        "journal": "Journal of obesity & metabolic syndrome",
+        "year": "2024",
+        "rerank_score": 0.3663219213485718,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

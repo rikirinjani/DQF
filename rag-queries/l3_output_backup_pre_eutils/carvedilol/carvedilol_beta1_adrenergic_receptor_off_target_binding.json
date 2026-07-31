@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol beta1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39786370",
+        "text": "Nonselective β-Adrenergic Receptor Inhibitors Impair Hematopoietic Regeneration in Mice and Humans after Hematopoietic Cell Transplants. Peripheral nerves promote mouse bone marrow regeneration by activating β2- and β3-adrenergic receptor signaling, raising the possibility that nonselective β-blockers could inhibit engraftment after hematopoietic cell transplants (HCT). We observed no effect of β-blockers on steady-state mouse hematopoiesis. However, mice treated with a nonselective β-blocker (carvedilol), ",
+        "score": 0.40986019372940063,
+        "doi": "10.1158/2159-8290.CD-24-0719",
+        "journal": "Cancer discovery",
+        "year": "2024",
+        "rerank_score": 2.503491163253784,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39509369",
+        "text": "Hemodynamic effects of carvedilol plus simvastatin in cirrhosis with severe portal hypertension and suboptimal response to β-blockers: A double-blind, placebo-controlled, randomized trial. Carvedilol is a nonselective β-blocker (NSBB) with anti-α1-adrenergic activity, more effective than traditional NSBBs in reducing portal pressure hepatic venous pressure gradient (HVPG). However, 35%-45% of patients still have insufficient HVPG decrease. Statins ameliorate endothelial dysfunction, reduce hepatic vascular ",
+        "score": 0.4350491166114807,
+        "doi": "10.1097/HEP.0000000000001148",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "year": "2024",
+        "rerank_score": 2.4579355716705322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.4300617575645447,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 2.1968114376068115,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40046251",
+        "text": "Study of clopidogrel and clonidine interactions for cardiovascular formulations: progress from DFT modeling. The drugs clopidogrel and clonidine are frequently used to treat cardiovascular diseases, which are the leading cause of mortality worldwide. Since these medications are frequently taken in combination, it is crucial to examine their molecular interactions. Therefore, herein, the bandgap energy, chemical potential, chemical hardness and softness parameters were calculated using a density functional t",
+        "score": 0.45584338903427124,
+        "doi": "10.1039/d4na00776j",
+        "journal": "Nanoscale advances",
+        "year": "2024",
+        "rerank_score": 1.5098787546157837,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38597667",
+        "text": "Assessing potential drug-drug interactions between clofazimine and other frequently used agents to treat drug-resistant tuberculosis. Clofazimine is included in drug regimens to treat rifampicin/drug-resistant tuberculosis (DR-TB), but there is little information about its interaction with other drugs in DR-TB regimens. We evaluated the pharmacokinetic interaction between clofazimine and isoniazid, linezolid, levofloxacin, and cycloserine, dosed as terizidone. Newly diagnosed adults with DR-TB at Klerksdorp",
+        "score": 0.4459305703639984,
+        "doi": "10.1128/aac.01583-23",
+        "journal": "Antimicrobial agents and chemotherapy",
+        "year": "2024",
+        "rerank_score": -0.5851196646690369,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41026649",
+        "text": "Location of the Diclofenac Molecule in Model Lipid Membranes from Spin-Label-Enhanced NMR Relaxation. Nonsteroidal anti-inflammatory drugs (NSAIDs) can be used to treat a variety of conditions due to their antipyretic, anti-inflammatory, and analgesic effects. Their interaction with lipid membranes can cause various side effects known for these drugs. In this study, we employ",
+        "score": 0.4613361060619354,
+        "doi": "10.1021/acs.langmuir.5c03328",
+        "journal": "Langmuir : the ACS journal of surfaces and colloids",
+        "year": "2025",
+        "rerank_score": -2.031576156616211,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

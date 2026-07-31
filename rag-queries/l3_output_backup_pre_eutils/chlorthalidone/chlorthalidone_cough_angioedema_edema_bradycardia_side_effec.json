@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41018982",
+        "text": "Hydroxychloroquine-Induced Bradycardia in a Male Patient With Sarcoidosis: A Case Report. Hydroxychloroquine (HCQ) is often used in sarcoidosis as a steroid-sparing agent. Though generally safe, rare cardiac side effects like bradycardia can occur, especially in patients with underlying cardiac vulnerability. A 40-year-old South Asian male with biopsy-proven sarcoidosis, stable on HCQ, azathioprine, and prednisolone, presented with low-grade fever, vomiting, and diarrhea. He was febrile, but hemodynamically",
+        "score": 0.4304753541946411,
+        "doi": "10.1002/ccr3.70986",
+        "journal": "Clinical case reports",
+        "year": "2025",
+        "rerank_score": 2.111290693283081,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19606005",
+        "text": "An unreported side effect of risperidone in children: sinus arrest with long pauses causing syncope. Risperidone has been reported as a well-tolerated antipsychotic in children. The most common side effects of risperidone are anxiety, headaches, insomnia, and agitation, which frequently appear with high doses. Although it is known that risperidone affects the cardiac conduction system, symptomatic bradycardia has not been reported previously in children. We report a child who developed syncope because of si",
+        "score": 0.4115740656852722,
+        "doi": "10.1097/PEC.0b013e3181ab830d",
+        "journal": "Pediatric emergency care",
+        "year": "2009",
+        "rerank_score": 0.3854369521141052,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22032061",
+        "text": "ACE inhibitor-induced angioedema of the small intestine: a case report. Angiotensin-converting enzyme (ACE) inhibitors are standard medication in treating hypertension, heart failure and diabetic nephropathy. The most common side effects are cough and angioneurotic oedema of the upper airways. A less familiar side effect is the ACE inhibition-induced visceral angioedema. We report the case of a young female patient with recent diagnosis of heart failure (dilated cardiomyopathy due to viral myocarditis), who",
+        "score": 0.413726270198822,
+        "doi": "10.1080/ac.66.5.2131092",
+        "journal": "Acta cardiologica",
+        "year": "2011",
+        "rerank_score": -1.0673065185546875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

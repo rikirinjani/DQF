@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DQF — Drug Comparison Dashboard</title>
+<style>
+/* ═══════════════════════════════════════════
+   RESET & BASE
+   ═══════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+  background:#0a0a1a;
+  color:#d0d0e0;
+  min-height:100vh;
+  overflow-x:hidden;
+  line-height:1.6;
+}
+
+/* ═══════════════════════════════════════════
+   VARIABLES
+   ═══════════════════════════════════════════ */
+:root{
+  --bg-deep:#0a0a1a;
+  --bg-body:#0d0d22;
+  --bg-card:#15153a;
+  --bg-card-alt:#1b1b40;
+  --bg-elevated:#1e1e48;
+  --border:#2a2a58;
+  --border-light:#3a3a6a;
+  --text:#d0d0e0;
+  --text-mid:#9090b8;
+  --text-dim:#606088;
+  --accent-nsaid:#00bcd4;
+  --accent-nsaid-dim:rgba(0,188,212,0.12);
+  --accent-statin:#ff6d00;
+  --accent-statin-dim:rgba(255,109,0,0.12);
+  --accent-compare:#b388ff;
+  --green:#00e676;
+  --green-dim:rgba(0,230,118,0.15);
+  --yellow:#ffd600;
+  --yellow-dim:rgba(255,214,0,0.15);
+  --orange:#ff9100;
+  --orange-dim:rgba(255,145,0,0.15);
+  --red:#ff1744;
+  --card-radius:12px;
+  --card-radius-sm:8px;
+}
+
+/* ═══════════════════════════════════════════
+   BACKGROUND DECORATION
+   ═══════════════════════════════════════════ */
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(0,188,212,0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 80% at 90% 80%, rgba(255,109,0,0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 50% at 50% 50%, rgba(179,136,255,0.02) 0%, transparent 60%);
+  pointer-events:none;
+  z-index:0;
+}
+body::after{
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image:radial-gradient(rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size:24px 24px;
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ═══════════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════════ */
+.dashboard{position:relative;z-index:1;max-width:1360px;margin:0 auto;padding:0 24px 48px}
+
+/* ═══════════════════════════════════════════
+   HEADER
+   ═══════════════════════════════════════════ */
+.dashboard-header{
+  padding:40px 0 32px;
+  text-align:center;
+  animation:fadeDown 0.6s ease both;
+}
+.dashboard-header h1{
+  font-size:2.5rem;
+  font-weight:800;
+  letter-spacing:-0.03em;
+  background:linear-gradient(135deg, #00bcd4 0%, #b388ff 50%, #ff6d00 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  margin-bottom:6px;
+}
+.dashboard-header .subtitle{
+  font-size:1rem;
+  color:var(--text-mid);
+  font-weight:400;
+  letter-spacing:0.3px;
+}
+.dashboard-header .subtitle span{
+  color:var(--text-dim);
+}
+.dashboard-header .framework-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:10px;
+  padding:4px 18px 4px 14px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid var(--border);
+  border-radius:50px;
+  font-size:0.8rem;
+  color:var(--text-dim);
+  letter-spacing:0.5px;
+}
+.framework-badge .dot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--accent-compare);
+  box-shadow:0 0 8px var(--accent-compare);
+  animation:pulseDot 2s ease infinite;
+}
+
+/* ═══════════════════════════════════════════
+   TABS
+   ═══════════════════════════════════════════ */
+.tab-bar{
+  display:flex;
+  justify-content:center;
+  gap:4px;
+  padding:6px;
+  background:rgba(255,255,255,0.035);
+  border:1px solid var(--border);
+  border-radius:14px;
+  margin-bottom:36px;
+  animation:fadeUp 0.6s 0.2s ease both;
+}
+.tab-btn{
+  position:relative;
+  padding:10px 32px;
+  border:none;
+  border-radius:10px;
+  background:transparent;
+  color:var(--text-mid);
+  font-size:0.9rem;
+  font-weight:500;
+  cursor:pointer;
+  transition:all 0.3s ease;
+  letter-spacing:0.3px;
+}
+.tab-btn:hover{color:var(--text);background:rgba(255,255,255,0.04)}
+.tab-btn.active{
+  color:#fff;
+  background:rgba(255,255,255,0.08);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.tab-btn[data-view="nsaids"].active{background:var(--accent-nsaid-dim);color:var(--accent-nsaid)}
+.tab-btn[data-view="statins"].active{background:var(--accent-statin-dim);color:var(--accent-statin)}
+.tab-btn[data-view="compare"].active{background:rgba(179,136,255,0.12);color:var(--accent-compare)}
+.tab-btn .count{
+  display:inline-flex;
+  align-items:center;justify-content:center;
+  width:20px;height:20px;
+  border-radius:6px;
+  font-size:0.7rem;
+  font-weight:600;
+  margin-left:6px;
+  background:rgba(255,255,255,0.06);
+  color:var(--text-dim);
+}
+.tab-btn.active .count{background:rgba(255,255,255,0.1);color:inherit}
+
+/* ═══════════════════════════════════════════
+   VIEWS
+   ═══════════════════════════════════════════ */
+.view{display:none;animation:fadeIn 0.4s ease}
+.view.active{display:block}
+
+/* ═══════════════════════════════════════════
+   DRUG CARD
+   ═══════════════════════════════════════════ */
+.drug-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+.drug-card{
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-radius:var(--card-radius);
+  padding:24px;
+  position:relative;
+  overflow:hidden;
+  transition:all 0.35s cubic-bezier(0.4,0,0.2,1);
+  animation:cardIn 0.5s ease both;
+}
+.drug-card:hover{
+  border-color:var(--border-light);
+  box-shadow:0 8px 40px rgba(0,0,0,0.4);
+  transform:translateY(-2px);
+}
+.drug-card .card-accent{
+  position:absolute;
+  top:0;left:0;right:0;
+  height:3px;
+}
+.card-accent.nsaid{background:linear-gradient(90deg,var(--accent-nsaid),rgba(0,188,212,0.2))}
+.card-accent.statin{background:linear-gradient(90deg,var(--accent-statin),rgba(255,109,0,0.2))}
+.drug-card .card-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:18px;
+}
+.drug-card .drug-name{
+  font-size:1.2rem;
+  font-weight:700;
+  color:var(--text);
+  letter-spacing:-0.01em;
+}
+.drug-card .drug-class-badge{
+  font-size:0.7rem;
+  font-weight:600;
+  padding:3px 10px;
+  border-radius:50px;
+  letter-spacing:0.5px;
+  text-transform:uppercase;
+}
+.drug-class-badge.nsaid{background:var(--accent-nsaid-dim);color:var(--accent-nsaid)}
+.drug-class-badge.statin{background:var(--accent-statin-dim);color:var(--accent-statin)}
+
+/* --- Card sections --- */
+.card-section{
+  margin-bottom:18px;
+  padding-bottom:18px;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.card-section:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.section-title{
+  font-size:0.7rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:0.8px;
+  color:var(--text-dim);
+  margin-bottom:10px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+.section-title .level-num{
+  display:inline-flex;
+  align-items:center;justify-content:center;
+  width:18px;height:18px;
+  border-radius:4px;
+  font-size:0.6rem;
+  font-weight:700;
+  background:rgba(255,255,255,0.06);
+}
+
+/* ----- L1: Binding bars ----- */
+.l1-bars{display:flex;flex-direction:column;gap:7px}
+.l1-bar-row{display:flex;align-items:center;gap:10px}
+.l1-bar-label{
+  font-size:0.75rem;
+  color:var(--text-mid);
+  min-width:80px;
+  text-align:right;
+  flex-shrink:0;
+  font-weight:500;
+}
+.l1-bar-track{
+  flex:1;
+  height:10px;
+  background:rgba(255,255,255,0.06);
+  border-radius:20px;
+  overflow:hidden;
+  position:relative;
+}
+.l1-bar-fill{
+  height:100%;
+  border-radius:20px;
+  width:0;
+  transition:width 1s cubic-bezier(0.4,0,0.2,1);
+  position:relative;
+}
+.l1-bar-fill.nsaid-fill{background:linear-gradient(90deg,var(--accent-nsaid),rgba(0,188,212,0.5))}
+.l1-bar-fill.statin-fill{background:linear-gradient(90deg,var(--accent-statin),rgba(255,109,0,0.5))}
+.l1-bar-fill::after{
+  content:'';
+  position:absolute;top:0;right:0;bottom:0;
+  width:20px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2));
+  border-radius:0 20px 20px 0;
+}
+.l1-bar-pct{
+  font-size:0.7rem;
+  font-weight:600;
+  color:var(--text-dim);
+  min-width:30px;
+  text-align:left;
+}
+
+/* ----- L2: PK Badges ----- */
+.l2-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.pk-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:5px 12px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:8px;
+  font-size:0.75rem;
+  color:var(--text-mid);
+  font-weight:500;
+}
+.pk-badge .pk-icon{
+  display:inline-flex;
+  align-items:center;justify-content:center;
+  width:20px;height:20px;
+  border-radius:5px;
+  font-size:0.55rem;
+  font-weight:700;
+  background:rgba(255,255,255,0.06);
+  color:var(--text-dim);
+}
+.pk-badge .pk-val{color:var(--text);font-weight:600}
+.pk-badge .pk-sub{color:var(--text-dim);font-weight:400}
+
+/* ----- L3: Effect tags ----- */
+.l3-tags{display:flex;flex-wrap:wrap;gap:6px}
+.l3-tag{
+  padding:4px 12px;
+  border-radius:6px;
+  font-size:0.73rem;
+  font-weight:500;
+  letter-spacing:0.1px;
+  border:1px solid rgba(255,255,255,0.08);
+  transition:all 0.2s ease;
+}
+.l3-tag:hover{transform:translateY(-1px)}
+.l3-tag.primary{background:rgba(0,230,118,0.08);color:#69f0ae;border-color:rgba(0,230,118,0.15)}
+.l3-tag.mechanism{background:rgba(179,136,255,0.08);color:#b388ff;border-color:rgba(179,136,255,0.15)}
+.l3-tag.safety{background:rgba(255,23,68,0.08);color:#ff8a80;border-color:rgba(255,23,68,0.13)}
+.l3-tag.secondary{background:rgba(255,255,255,0.04);color:var(--text-mid);border-color:rgba(255,255,255,0.06)}
+.l3-tag.distinct{
+  background:rgba(255,109,0,0.08);
+  color:#ffab40;
+  border-color:rgba(255,109,0,0.15);
+}
+.l3-tag.pleiotropic{
+  background:rgba(0,188,212,0.08);
+  color:var(--accent-nsaid);
+  border-color:rgba(0,188,212,0.15);
+}
+
+/* ----- L4: NNT display ----- */
+.l4-display{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+.l4-nnt-circle{
+  position:relative;
+  width:64px;height:64px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+}
+.l4-nnt-circle .nnt-value{
+  font-size:1.5rem;
+  font-weight:800;
+  color:#fff;
+  line-height:1;
+  letter-spacing:-0.02em;
+}
+.l4-nnt-circle .nnt-value.precise{font-size:1.1rem}
+.l4-nnt-circle.green{background:var(--green-dim);border:2px solid var(--green)}
+.l4-nnt-circle.green .nnt-value{color:var(--green)}
+.l4-nnt-circle.yellow{background:var(--yellow-dim);border:2px solid var(--yellow)}
+.l4-nnt-circle.yellow .nnt-value{color:var(--yellow)}
+.l4-nnt-circle.orange{background:var(--orange-dim);border:2px solid var(--orange)}
+.l4-nnt-circle.orange .nnt-value{color:var(--orange)}
+.l4-nnt-circle.red{background:rgba(255,23,68,0.15);border:2px solid var(--red)}
+.l4-nnt-circle.red .nnt-value{color:var(--red)}
+
+.l4-info{}
+.l4-info .l4-label{
+  font-size:0.7rem;
+  text-transform:uppercase;
+  letter-spacing:0.6px;
+  color:var(--text-dim);
+  font-weight:600;
+}
+.l4-info .l4-metric{
+  font-size:0.8rem;
+  color:var(--text-mid);
+  margin-top:2px;
+}
+.l4-info .l4-context{
+  font-size:0.72rem;
+  color:var(--text-dim);
+  margin-top:2px;
+}
+
+/* ═══════════════════════════════════════════
+   COMPARE VIEW
+   ═══════════════════════════════════════════ */
+.compare-header{
+  text-align:center;
+  margin-bottom:28px;
+  animation:fadeUp 0.5s ease both;
+}
+.compare-header h2{
+  font-size:1.6rem;
+  font-weight:800;
+  color:var(--accent-compare);
+  letter-spacing:-0.02em;
+  margin-bottom:4px;
+}
+.compare-header p{
+  color:var(--text-dim);
+  font-size:0.85rem;
+}
+.compare-columns{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.compare-column{}
+.compare-column-heading{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:14px 20px;
+  margin-bottom:16px;
+  border-radius:10px;
+  font-size:1rem;
+  font-weight:700;
+  letter-spacing:0.3px;
+}
+.compare-column-heading.nsaid{
+  background:var(--accent-nsaid-dim);
+  color:var(--accent-nsaid);
+  border:1px solid rgba(0,188,212,0.15);
+}
+.compare-column-heading.statin{
+  background:var(--accent-statin-dim);
+  color:var(--accent-statin);
+  border:1px solid rgba(255,109,0,0.15);
+}
+.compare-column-heading .count-badge{
+  font-size:0.7rem;
+  font-weight:600;
+  padding:1px 8px;
+  border-radius:5px;
+  background:rgba(255,255,255,0.08);
+}
+.compare-column .drug-card{
+  margin-bottom:16px;
+}
+.compare-column .drug-card:last-child{margin-bottom:0}
+
+/* ═══════════════════════════════════════════
+   FOOTER
+   ═══════════════════════════════════════════ */
+.dashboard-footer{
+  margin-top:56px;
+  padding-top:24px;
+  border-top:1px solid var(--border);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:12px;
+  animation:fadeUp 0.6s 0.4s ease both;
+}
+.dashboard-footer .footer-info{
+  font-size:0.75rem;
+  color:var(--text-dim);
+}
+.dashboard-footer .footer-info strong{color:var(--text-mid);font-weight:600}
+.dashboard-footer .footer-legend{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+.footer-legend-item{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:0.7rem;
+  color:var(--text-dim);
+}
+.footer-legend-item .swatch{
+  width:12px;height:12px;
+  border-radius:4px;
+}
+.swatch.sw-nsaid{background:var(--accent-nsaid)}
+.swatch.sw-statin{background:var(--accent-statin)}
+.swatch.sw-nsaiddim{background:var(--accent-nsaid-dim);border:1px solid rgba(0,188,212,0.2)}
+.swatch.sw-statindim{background:var(--accent-statin-dim);border:1px solid rgba(255,109,0,0.2)}
+
+/* ═══════════════════════════════════════════
+   SECTION DIVIDER IN COMPARE
+   ═══════════════════════════════════════════ */
+.compare-section-divider{
+  grid-column:1 / -1;
+  text-align:center;
+  padding:12px 0 8px;
+  position:relative;
+}
+.compare-section-divider::before{
+  content:'';
+  position:absolute;
+  left:0;right:0;top:50%;
+  height:1px;
+  background:var(--border);
+}
+.compare-section-divider span{
+  position:relative;
+  background:var(--bg-body);
+  padding:0 16px;
+  font-size:0.75rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color:var(--text-dim);
+}
+
+/* ═══════════════════════════════════════════
+   ANIMATIONS
+   ═══════════════════════════════════════════ */
+@keyframes fadeDown{
+  from{opacity:0;transform:translateY(-20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(16px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeIn{
+  from{opacity:0}
+  to{opacity:1}
+}
+@keyframes cardIn{
+  from{opacity:0;transform:translateY(24px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes pulseDot{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:0.6;transform:scale(1.15)}
+}
+@keyframes barGrow{
+  from{width:0 !important}
+}
+
+/* stagger delays generated by JS */
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════ */
+@media(max-width:1024px){
+  .drug-grid{grid-template-columns:repeat(2,1fr);gap:16px}
+  .compare-columns{gap:16px}
+  .dashboard-header h1{font-size:2rem}
+}
+@media(max-width:768px){
+  .dashboard{padding:0 16px 32px}
+  .dashboard-header{padding:28px 0 20px}
+  .dashboard-header h1{font-size:1.6rem}
+  .tab-btn{padding:8px 16px;font-size:0.8rem}
+  .drug-grid{grid-template-columns:1fr;gap:14px}
+  .compare-columns{grid-template-columns:1fr;gap:24px}
+  .compare-column .drug-card{margin-bottom:12px}
+  .drug-card{padding:18px}
+  .l1-bar-label{min-width:60px;font-size:0.7rem}
+  .l4-nnt-circle{width:52px;height:52px}
+  .l4-nnt-circle .nnt-value{font-size:1.2rem}
+  .l4-nnt-circle .nnt-value.precise{font-size:0.95rem}
+  .dashboard-footer{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:480px){
+  .tab-bar{flex-direction:column;align-items:stretch;gap:4px}
+  .tab-btn{text-align:center}
+  .dashboard-header h1{font-size:1.3rem}
+}
+</style>
+</head>
+<body>
+
+<div class="dashboard">
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="dashboard-header">
+    <h1>DQF Drug Comparison</h1>
+    <p class="subtitle">Drug Quantification Framework &nbsp;<span>·</span>&nbsp; L1–L4 Profiling</p>
+    <div class="framework-badge">
+      <span class="dot"></span>
+      4-level molecular-to-clinical analysis
+    </div>
+  </header>
+
+  <!-- ═══ TABS ═══ -->
+  <nav class="tab-bar" role="tablist">
+    <button class="tab-btn active" data-view="nsaids" role="tab" aria-selected="true">NSAIDs <span class="count">10</span></button>
+    <button class="tab-btn" data-view="statins" role="tab" aria-selected="false">Statins <span class="count">5</span></button>
+    <button class="tab-btn" data-view="compare" role="tab" aria-selected="false">Compare <span class="count" style="width:auto;padding:0 6px">vs</span></button>
+  </nav>
+
+  <!-- ═══ NSAIDs VIEW ═══ -->
+  <div class="view active" id="view-nsaids" role="tabpanel"></div>
+
+  <!-- ═══ STATINS VIEW ═══ -->
+  <div class="view" id="view-statins" role="tabpanel"></div>
+
+  <!-- ═══ COMPARE VIEW ═══ -->
+  <div class="view" id="view-compare" role="tabpanel"></div>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="dashboard-footer">
+    <div class="footer-info">
+      <strong>DQF v2.0</strong> &nbsp;·&nbsp; Drug Quantification Framework &nbsp;·&nbsp; L1 (Binding) → L2 (PK) → L3 (Systems) → L4 (Clinical)
+    </div>
+    <div class="footer-legend">
+      <span class="footer-legend-item"><span class="swatch sw-nsaid"></span> NSAIDs</span>
+      <span class="footer-legend-item"><span class="swatch sw-statin"></span> Statins</span>
+      <span class="footer-legend-item"><span class="swatch sw-nsaiddim"></span> L1 bar = binding strength</span>
+      <span class="footer-legend-item"><span class="swatch sw-statindim"></span> NNT color = efficacy tier</span>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════
+   DATA — DQF Drug Profiles
+   ═══════════════════════════════════════════════ */
+const D = {
+  nsaids: [
+    {
+      id:'ibuprofen', name:'Ibuprofen',
+      l1:[
+        {target:'COX-1', strength:0.7},
+        {target:'COX-2', strength:0.85},
+        {target:'ASIC1a', strength:0.3}
+      ],
+      l2:[
+        {icon:'t½', val:'2 h', sub:'short-acting'},
+        {icon:'Vd', val:'0.1 L/kg', sub:'low distribution'},
+        {icon:'CYP', val:'CYP2C9', sub:'metabolism'}
+      ],
+      l3:[
+        {label:'Balanced COX inhibition', cls:'primary'},
+        {label:'ASIC1a modulation', cls:'secondary'},
+        {label:'Anti-inflammatory', cls:'distinct'}
+      ],
+      l4:{nnt:2.5, metric:'400 mg (pain)', context:'NNT for acute pain relief', tier:'green'}
+    },
+    {
+      id:'diclofenac', name:'Diclofenac',
+      l1:[
+        {target:'COX-1', strength:0.8},
+        {target:'COX-2', strength:0.95},
+        {target:'P2X3', strength:0.55},
+        {target:'TRPA1', strength:0.5}
+      ],
+      l2:[
+        {icon:'t½', val:'1.2 h', sub:'short-acting'},
+        {icon:'Vd', val:'1.4 L/kg', sub:'large distribution'},
+        {icon:'CYP', val:'CYP2C9', sub:'metabolism'},
+        {icon:'🔄', val:'Enterohepatic', sub:'recirculation'}
+      ],
+      l3:[
+        {label:'Unique P2X3/TRPA1 off-target', cls:'distinct'},
+        {label:'Synovial accumulation', cls:'mechanism'},
+        {label:'Chondroprotective', cls:'secondary'}
+      ],
+      l4:{nnt:2.7, metric:'50 mg (pain)', context:'NNT for acute pain', tier:'green'}
+    },
+    {
+      id:'celecoxib', name:'Celecoxib',
+      l1:[
+        {target:'COX-2', strength:0.98},
+        {target:'COX-1', strength:0.05}
+      ],
+      l2:[
+        {icon:'t½', val:'11 h', sub:'long-acting'},
+        {icon:'Vd', val:'5–6 L/kg', sub:'extensive'},
+        {icon:'CYP', val:'CYP2C9', sub:'metabolism'}
+      ],
+      l3:[
+        {label:'COX-2 selective (300×)', cls:'primary'},
+        {label:'PGI₂ suppression', cls:'mechanism'},
+        {label:'GI sparing', cls:'safety'},
+        {label:'Cardiovascular risk', cls:'safety'}
+      ],
+      l4:{nnt:2.5, metric:'200 mg (pain)', context:'NNT for acute pain', tier:'green'}
+    },
+    {
+      id:'paracetamol', name:'Paracetamol',
+      l1:[
+        {target:'AM404', strength:0.7},
+        {target:'TRPV1', strength:0.5},
+        {target:'Central COX', strength:0.6}
+      ],
+      l2:[
+        {icon:'t½', val:'2.5 h', sub:'moderate'},
+        {icon:'Vd', val:'0.9 L/kg', sub:'moderate'},
+        {icon:'CYP', val:'Multi-pathway', sub:'metabolism'}
+      ],
+      l3:[
+        {label:'No peripheral COX activity', cls:'distinct'},
+        {label:'Central analgesic action', cls:'primary'},
+        {label:'Antipyretic', cls:'secondary'}
+      ],
+      l4:{nnt:3.6, metric:'1000 mg (pain)', context:'NNT for acute pain', tier:'yellow'}
+    },
+    {
+      id:'naproxen', name:'Naproxen',
+      l1:[
+        {target:'COX-1', strength:0.65},
+        {target:'COX-2', strength:0.55},
+        {target:'TRPA1', strength:0.3}
+      ],
+      l2:[
+        {icon:'t\u00bd', val:'15 h', sub:'long-acting'},
+        {icon:'Vd', val:'0.16 L/kg', sub:'moderate'},
+        {icon:'CYP', val:'CYP2C9', sub:'metabolism'}
+      ],
+      l3:[
+        {label:'Slightly COX-1 selective', cls:'primary'},
+        {label:'TRPA1 antagonism', cls:'secondary'},
+        {label:'Long t\u00bd permits BID dosing', cls:'mechanism'}
+      ],
+      l4:{nnt:2.7, metric:'500 mg (pain)', context:'NNT for acute pain', tier:'green'}
+    },
+    {
+      id:'indomethacin', name:'Indomethacin',
+      l1:[
+        {target:'COX-1', strength:0.9},
+        {target:'COX-2', strength:0.7},
+        {target:'PLA\u2082', strength:0.55}
+      ],
+      l2:[
+        {icon:'t\u00bd', val:'4.5 h', sub:'short-acting'},
+        {icon:'Vd', val:'0.34 L/kg', sub:'moderate'},
+        {icon:'CNS', val:'High penetration', sub:'CNS effects'}
+      ],
+      l3:[
+        {label:'Potent COX-1 selective', cls:'primary'},
+        {label:'High CNS penetration', cls:'distinct'},
+        {label:'PDA closure therapeutic', cls:'mechanism'},
+        {label:'Highest GI risk', cls:'safety'}
+      ],
+      l4:{nnt:1.8, metric:'50 mg (pain)', context:'NNT for acute pain', tier:'green'}
+    },
+    {
+      id:'meloxicam', name:'Meloxicam',
+      l1:[
+        {target:'COX-2', strength:0.75},
+        {target:'COX-1', strength:0.55}
+      ],
+      l2:[
+        {icon:'t\u00bd', val:'22 h', sub:'long-acting'},
+        {icon:'Vd', val:'0.15 L/kg', sub:'low'},
+        {icon:'CYP', val:'CYP2C9/3A4', sub:'metabolism'}
+      ],
+      l3:[
+        {label:'COX-2 preferential (10\u00d7)', cls:'primary'},
+        {label:'GI sparing', cls:'safety'},
+        {label:'Once-daily dosing', cls:'mechanism'}
+      ],
+      l4:{nnt:4.0, metric:'15 mg (pain)', context:'NNT for acute pain', tier:'yellow'}
+    },
+    {
+      id:'piroxicam', name:'Piroxicam',
+      l1:[
+        {target:'COX-1', strength:0.75},
+        {target:'COX-2', strength:0.45}
+      ],
+      l2:[
+        {icon:'t\u00bd', val:'50 h', sub:'ultra-long'},
+        {icon:'Vd', val:'0.13 L/kg', sub:'low'},
+        {icon:'CYP', val:'CYP2C9', sub:'metabolism'}
+      ],
+      l3:[
+        {label:'COX-1 selective', cls:'primary'},
+        {label:'Ultra-long t\u00bd', cls:'mechanism'},
+        {label:'Enterohepatic recirculation', cls:'mechanism'},
+        {label:'High GI risk', cls:'safety'}
+      ],
+      l4:{nnt:3.5, metric:'20 mg (pain)', context:'NNT for acute pain', tier:'yellow'}
+    },
+    {
+      id:'ketorolac', name:'Ketorolac',
+      l1:[
+        {target:'COX-1', strength:0.95},
+        {target:'COX-2', strength:0.8}
+      ],
+      l2:[
+        {icon:'t\u00bd', val:'5 h', sub:'short-acting'},
+        {icon:'Vd', val:'0.22 L/kg', sub:'moderate'},
+        {icon:'Route', val:'IM/IV/oral', sub:'parenteral'}
+      ],
+      l3:[
+        {label:'Most potent NSAID', cls:'primary'},
+        {label:'5-day use limit', cls:'safety'},
+        {label:'Post-operative analgesia', cls:'distinct'},
+        {label:'Renal risk', cls:'safety'}
+      ],
+      l4:{nnt:2.2, metric:'30 mg IM (pain)', context:'NNT for acute pain', tier:'green'}
+    },
+    {
+      id:'aspirin', name:'Aspirin',
+      l1:[
+        {target:'COX-1', strength:0.8},
+        {target:'COX-2', strength:0.2},
+        {target:'NF-\u03BAB', strength:0.35}
+      ],
+      l2:[
+        {icon:'t\u00bd', val:'0.3 h', sub:'ultra-short'},
+        {icon:'Vd', val:'0.18 L/kg', sub:'low'},
+        {icon:'CYP', val:'Esterases', sub:'rapid hydrolysis'}
+      ],
+      l3:[
+        {label:'Irreversible COX-1 inhibition', cls:'primary'},
+        {label:'Antiplatelet (low-dose)', cls:'distinct'},
+        {label:'Analgesic (high-dose)', cls:'secondary'},
+        {label:'CNS: tinnitus at toxicity', cls:'safety'}
+      ],
+      l4:{nnt:2.4, metric:'600 mg (pain)', context:'NNT for acute pain', tier:'green'}
+    }
+  ],
+  statins: [
+    {
+      id:'atorvastatin', name:'Atorvastatin',
+      l1:[
+        {target:'HMGCR', strength:0.85},
+        {target:'CYP3A4 substrate', strength:0.6}
+      ],
+      l2:[
+        {icon:'t½', val:'14 h', sub:'long-acting'},
+        {icon:'CYP', val:'CYP3A4', sub:'metabolism'},
+        {icon:'✨', val:'Active metabolites', sub:'prolonged effect'}
+      ],
+      l3:[
+        {label:'LDLR upregulation', cls:'primary'},
+        {label:'Pleiotropic (eNOS ↑)', cls:'pleiotropic'},
+        {label:'Anti-inflammatory', cls:'pleiotropic'},
+        {label:'Plaque stabilization', cls:'mechanism'}
+      ],
+      l4:{nnt:50, metric:'5-yr MACE prevention', context:'NNT for 1 major event prevented', tier:'orange'}
+    },
+    {
+      id:'rosuvastatin', name:'Rosuvastatin',
+      l1:[
+        {target:'HMGCR', strength:0.95},
+        {target:'Minimal CYP', strength:0.2}
+      ],
+      l2:[
+        {icon:'t½', val:'19 h', sub:'longest-acting'},
+        {icon:'💧', val:'Hydrophilic', sub:'hepatoselective'},
+        {icon:'CYP', val:'Minimal CYP', sub:'low DDI risk'}
+      ],
+      l3:[
+        {label:'LDLR upregulation', cls:'primary'},
+        {label:'Strongest LDL reduction (~55%)', cls:'primary'},
+        {label:'Anti-inflammatory', cls:'pleiotropic'}
+      ],
+      l4:{nnt:40, metric:'5-yr MACE prevention', context:'NNT for 1 major event prevented', tier:'orange'}
+    },
+    {
+      id:'simvastatin', name:'Simvastatin',
+      l1:[
+        {target:'HMGCR (prodrug)', strength:0.75},
+        {target:'CYP3A4', strength:0.65}
+      ],
+      l2:[
+        {icon:'t½', val:'3 h', sub:'short-acting'},
+        {icon:'CYP', val:'CYP3A4', sub:'metabolism'},
+        {icon:'💊', val:'Lactone prodrug', sub:'requires activation'}
+      ],
+      l3:[
+        {label:'LDLR upregulation', cls:'primary'},
+        {label:'Myopathy risk at high dose', cls:'safety'},
+        {label:'Lipophilic', cls:'secondary'}
+      ],
+      l4:{nnt:55, metric:'5-yr MACE prevention', context:'NNT for 1 major event prevented', tier:'orange'}
+    },
+    {
+      id:'pravastatin', name:'Pravastatin',
+      l1:[
+        {target:'HMGCR', strength:0.7},
+        {target:'Renal clearance', strength:0.4}
+      ],
+      l2:[
+        {icon:'t½', val:'1.5 h', sub:'short-acting'},
+        {icon:'💧', val:'Hydrophilic', sub:'hepatoselective'},
+        {icon:'CYP', val:'No CYP', sub:'renal clearance'}
+      ],
+      l3:[
+        {label:'LDLR upregulation', cls:'primary'},
+        {label:'Minimal muscle penetration', cls:'safety'},
+        {label:'Hydrophilic profile', cls:'secondary'}
+      ],
+      l4:{nnt:55, metric:'5-yr MACE prevention', context:'NNT for 1 major event prevented', tier:'orange'}
+    },
+    {
+      id:'pitavastatin', name:'Pitavastatin',
+      l1:[
+        {target:'HMGCR', strength:0.8},
+        {target:'OATP1B1/BCRP', strength:0.5}
+      ],
+      l2:[
+        {icon:'t½', val:'12 h', sub:'long-acting'},
+        {icon:'CYP', val:'Minimal CYP', sub:'low DDI risk'},
+        {icon:'🚚', val:'OATP1B1/BCRP', sub:'transport-mediated'}
+      ],
+      l3:[
+        {label:'LDLR upregulation', cls:'primary'},
+        {label:'Minimal DDI risk', cls:'safety'},
+        {label:'Unique safety profile', cls:'distinct'}
+      ],
+      l4:{nnt:50, metric:'5-yr MACE prevention', context:'NNT for 1 major event prevented', tier:'orange'}
+    }
+  ]
+};
+
+/* ═══════════════════════════════════════════════
+   RENDER HELPERS
+   ═══════════════════════════════════════════════ */
+const dc = {
+  nsaid:'nsaid', statin:'statin'
+};
+
+function nntTier(val){
+  if(val < 3) return 'green';
+  if(val <= 5) return 'yellow';
+  if(val <= 20) return 'orange';
+  return 'red';
+}
+
+function isPrecise(val){return val < 10}
+
+function renderCard(drug, cls, index){
+  const tier = drug.l4.tier || nntTier(drug.l4.nnt);
+  return `
+    <div class="drug-card" style="animation-delay:${0.06*index}s">
+      <div class="card-accent ${cls}"></div>
+      <div class="card-header">
+        <span class="drug-name">${drug.name}</span>
+        <span class="drug-class-badge ${cls}">${cls}</span>
+      </div>
+
+      <!-- L1 -->
+      <div class="card-section">
+        <div class="section-title"><span class="level-num">1</span> Molecular Binding</div>
+        <div class="l1-bars">
+          ${drug.l1.map(t => `
+            <div class="l1-bar-row">
+              <span class="l1-bar-label">${t.target}</span>
+              <div class="l1-bar-track">
+                <div class="l1-bar-fill ${cls}-fill" style="width:${Math.round(t.strength*100)}%"></div>
+              </div>
+              <span class="l1-bar-pct">${Math.round(t.strength*100)}%</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- L2 -->
+      <div class="card-section">
+        <div class="section-title"><span class="level-num">2</span> Pharmacokinetics</div>
+        <div class="l2-grid">
+          ${drug.l2.map(p => `
+            <span class="pk-badge">
+              <span class="pk-icon">${p.icon}</span>
+              <span><span class="pk-val">${p.val}</span>${p.sub ? ' <span class="pk-sub">· '+p.sub+'</span>' : ''}</span>
+            </span>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- L3 -->
+      <div class="card-section">
+        <div class="section-title"><span class="level-num">3</span> Systems Response</div>
+        <div class="l3-tags">
+          ${drug.l3.map(e => `<span class="l3-tag ${e.cls}">${e.label}</span>`).join('')}
+        </div>
+      </div>
+
+      <!-- L4 -->
+      <div class="card-section" style="border-bottom:none;margin-bottom:0;padding-bottom:0">
+        <div class="section-title"><span class="level-num">4</span> Clinical Outcome</div>
+        <div class="l4-display">
+          <div class="l4-nnt-circle ${tier}">
+            <span class="nnt-value ${isPrecise(drug.l4.nnt) ? 'precise' : ''}">${drug.l4.nnt}</span>
+          </div>
+          <div class="l4-info">
+            <div class="l4-label">NNT — Number Needed to Treat</div>
+            <div class="l4-metric">${drug.l4.metric}</div>
+            <div class="l4-context">${drug.l4.context}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderView(containerId, drugs, cls){
+  const c = document.getElementById(containerId);
+  c.innerHTML = `<div class="drug-grid">${drugs.map((d,i)=>renderCard(d,cls,i)).join('')}</div>`;
+}
+
+/* ═══════════════════════════════════════════════
+   COMPARE VIEW — side-by-side
+   ═══════════════════════════════════════════════ */
+function renderCompare(){
+  const c = document.getElementById('view-compare');
+  const max = Math.max(D.nsaids.length, D.statins.length);
+  let nsaidsHTML = '', statinsHTML = '';
+  for(let i=0; i<max; i++){
+    if(i < D.nsaids.length) nsaidsHTML += renderCard(D.nsaids[i], dc.nsaid, i);
+    if(i < D.statins.length) statinsHTML += renderCard(D.statins[i], dc.statin, i);
+  }
+  c.innerHTML = `
+    <div class="compare-header">
+      <h2>⚖ NSAIDs vs Statins — Side by Side</h2>
+      <p>Compare molecular-to-clinical profiles across two drug classes</p>
+    </div>
+    <div class="compare-columns">
+      <div class="compare-column">
+        <div class="compare-column-heading nsaid">
+          <span>NSAIDs</span>
+          <span class="count-badge">${D.nsaids.length} drugs</span>
+        </div>
+        ${nsaidsHTML}
+      </div>
+      <div class="compare-column">
+        <div class="compare-column-heading statin">
+          <span>Statins</span>
+          <span class="count-badge">${D.statins.length} drugs</span>
+        </div>
+        ${statinsHTML}
+      </div>
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════
+   TAB SWITCHING
+   ═══════════════════════════════════════════════ */
+function switchView(view){
+  // tabs
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.view === view);
+    b.setAttribute('aria-selected', b.dataset.view === view);
+  });
+  // views
+  document.querySelectorAll('.view').forEach(v => {
+    v.classList.toggle('active', v.id === 'view-'+view);
+  });
+  // kick bar animations after render
+  setTimeout(animateBars, 80);
+}
+
+function animateBars(){
+  document.querySelectorAll('.l1-bar-fill').forEach(bar => {
+    const w = bar.style.width;
+    bar.style.transition = 'none';
+    bar.style.width = '0%';
+    bar.offsetHeight; // force reflow
+    bar.style.transition = 'width 0.9s cubic-bezier(0.4,0,0.2,1)';
+    bar.style.width = w;
+  });
+}
+
+/* ═══════════════════════════════════════════════
+   INIT
+   ═══════════════════════════════════════════════ */
+function init(){
+  renderView('view-nsaids', D.nsaids, dc.nsaid);
+  renderView('view-statins', D.statins, dc.statin);
+  renderCompare();
+
+  // tab clicks
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => switchView(btn.dataset.view));
+  });
+
+  // initial bar animation
+  setTimeout(animateBars, 300);
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+
+</body>
+</html>

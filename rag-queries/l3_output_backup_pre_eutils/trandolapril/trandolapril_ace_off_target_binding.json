@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Trandolapril ACE off-target binding",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40824896",
+        "text": "Molecular basis of domain-specific angiotensin I-converting enzyme inhibition by the antihypertensive drugs enalaprilat, ramiprilat, trandolaprilat, quinaprilat and perindoprilat. Angiotensin I-converting enzyme (ACE) is a dipeptidyl carboxypeptidase with two homologous catalytic domains [N- and C-domains (nACE and cACE)] that can cleave a range of substrates. cACE primarily cleaves the inactive decapeptide angiotensin I into the potent vasopressor angiotensin II, whereas nACE preferentially cleaves the ant",
+        "score": 0.4958495795726776,
+        "doi": "10.1111/febs.70232",
+        "journal": "The FEBS journal",
+        "year": "2025",
+        "rerank_score": -0.8332695364952087,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40093152",
+        "text": "Shifting the PPARγ conformational ensemble towards a transcriptionally repressive state improves covalent inhibitor efficacy. The nuclear receptor peroxisome proliferator-activated receptor gamma (PPARγ) regulates transcription in response to ligand binding at an orthosteric pocket within the ligand-binding domain (LBD). We previously showed that two covalent ligands, T0070907 and GW9662-extensively used as PPARγ inhibitors to assess off-target activity-weaken but do not completely block ligand binding via ",
+        "score": 0.4890423119068146,
+        "doi": "10.1101/2025.03.04.640448",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2025",
+        "rerank_score": -4.610464096069336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41563829",
+        "text": "Shifting the PPARγ conformational ensemble toward a transcriptionally repressive state improves covalent inhibitor efficacy. The nuclear receptor peroxisome proliferator-activated receptor gamma (PPARγ) regulates transcription in response to ligand binding at an orthosteric pocket within the ligand-binding domain (LBD). We previously showed that two covalent ligands, T0070907 and GW9662-extensively used as PPARγ inhibitors to assess off-target activity-weaken but do not completely block ligand binding via a",
+        "score": 0.48238781094551086,
+        "doi": "10.7554/eLife.106697",
+        "journal": "eLife",
+        "year": "2026",
+        "rerank_score": -4.635066032409668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

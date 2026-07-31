@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec insulin receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39725356",
+        "text": "Insulin Degludec in Critically Ill Patients With Type 2 Diabetes Mellitus: A Prospective Interventional Study. Dysglycemia has deleterious outcomes on critically ill patients with diabetes mellitus (DM). Insulin degludec, an ultralong-acting insulin, is associated with lower rates of hypoglycemia and blood glucose (BG) variability in non-critically ill patients. The experience with insulin degludec in the intensive care units is lacking. This study aimed to assess the effect of insulin degludec on glycemic ",
+        "score": 0.3929527997970581,
+        "doi": "10.1016/j.eprac.2024.12.014",
+        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
+        "year": "2024",
+        "rerank_score": 2.99585223197937,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41376852",
+        "text": "Effect of Beta-Cell Function on Glucose Variability When Switching From Insulin Degludec Plus a Dipeptidyl Peptidase-4 Inhibitor to Insulin Degludec/Liraglutide: Preliminary Results From a Pilot Study. For patients with diabetes, achieving stable glucose control with minimal variability is highly significant. Incretin drugs have been shown to improve glycemic variability (GV), and we recently showed that a switch from a combination of a dipeptidyl peptidase (DPP)-4 inhibitor plus basal insulin to insulin de",
+        "score": 0.38567879796028137,
+        "doi": "10.1155/ije/3911323",
+        "journal": "International journal of endocrinology",
+        "year": "2024",
+        "rerank_score": 1.7627612352371216,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41268167",
+        "text": "Switch from premixed insulin analogue to degludec-liraglutide combination: a CGM study. Basal insulin with glucagon-like peptide-1 receptor agonist could be preferred over premixed insulin for intensification in type 2 diabetes due to better glycemic control, lower hypoglycemia risk, and favorable effects on body weight. Comparative data on premixed insulin and the combination of degludec and liraglutide (iDegLira) are limited. We conducted a 24-week single-arm prospective study to evaluate the impact of iD",
+        "score": 0.3973778486251831,
+        "doi": "10.3389/fendo.2025.1715800",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 1.7214140892028809,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

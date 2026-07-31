@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:22368266",
+        "text": "Ramipril and telmisartan exhibit differential effects in cardiac pressure overload-induced hypertrophy without an additional benefit of the combination of both drugs. We aimed to characterize different cellular effects of angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin 1 (AT1) receptor blockers (ARBs) as mono- or combination therapy in cardiac pressure overload.  Methods and",
+        "score": 0.40014174580574036,
+        "doi": "10.1177/1074248411434773",
+        "journal": "Journal of cardiovascular pharmacology and therapeutics",
+        "year": "2012",
+        "rerank_score": 0.6918893456459045,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.42833027243614197,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 0.4421958327293396,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40849780",
+        "text": "The Antioxidant and Anti-lipidemic Potential of Angiotensin-converting Enzyme Inhibitor (Ramipril) in L-NAME Hypertensive Rats. Hypertension is associated with oxidative disturbances and often coexists with metabolic disorders like hyperlipidemia. Some antihypertensive drugs, particularly angiotensin- converting enzyme (ACE) inhibitors, offer benefits beyond lowering blood pressure by addressing related conditions. This study aimed to investigate the effects of ACE inhibitors on oxidative stress and dyslipi",
+        "score": 0.4361690282821655,
+        "doi": "10.2174/0118715257375839250811064453",
+        "journal": "Cardiovascular & hematological agents in medicinal chemistry",
+        "year": "2025",
+        "rerank_score": 0.1250375360250473,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide GLP-1 receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36796719",
+        "text": "Treatment with semaglutide, a GLP-1 receptor agonist, improves extracellular matrix remodeling in the pancreatic islet of diet-induced obese mice. The extracellular matrix (ECM) is fundamental for the normal endocrine functions of pancreatic islet cells and plays key roles in the pathophysiology of type 2 diabetes. Here we investigated the turnover of islet ECM components, including islet amyloid polypeptide (IAPP), in an obese mouse model treated with semaglutide, a glucagon-like peptide type 1 receptor ag",
+        "score": 0.33152908086776733,
+        "doi": "10.1016/j.lfs.2023.121502",
+        "journal": "Life sciences",
+        "year": "2022",
+        "rerank_score": 7.983791828155518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40107718",
+        "text": "Cardioprotective effects of semaglutide on isolated human ventricular myocardium. Semaglutide, a glucagon-like peptide-1 (GLP-1) receptor agonist, has shown promising effects in reducing cardiovascular events in patients with obesity and heart failure (HF) with preserved ejection fraction (HFpEF) irrespective of concomitant diabetes. However, the exact mechanisms underlying its cardioprotective actions remain unclear. Our study investigates the direct effects of semaglutide on human cardiomyocytes, focusing",
+        "score": 0.3248809278011322,
+        "doi": "10.1002/ejhf.3644",
+        "journal": "European journal of heart failure",
+        "year": "2024",
+        "rerank_score": 6.8191914558410645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41069310",
+        "text": "Acute effects of GIP and GLP-1 receptor antagonism in totally pancreatectomized individuals: A randomized double-blind, placebo-controlled crossover study. The incretin hormones glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) influence metabolism through strong effects on pancreatic hormone secretion but also in a pancreas-independent manner. Here, we investigated the isolated extrapancreatic effects of endogenous GIP and GLP-1 by applying hormone receptor antagonists ",
+        "score": 0.32404011487960815,
+        "doi": "10.1111/dom.70186",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 6.208534240722656,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

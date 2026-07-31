@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40044066",
+        "text": "Both carvedilol and cimetidine alleviate cisplatin-induced nephrotoxicity via downregulating OCT2. Cisplatin is a common chemotherapy agent for solid tumors but severe nephrotoxicity limits its application, with no effective pharmacological treatments. Organic cation transporter 2 (OCT2) is involved in cisplatin uptake in kidneys. This study aimed to find drugs with promising clinical applications that could prevent cisplatin-induced acute kidney injury (Cis-AKI) by inhibiting OCT2. The mRNA level of OCT2 w",
+        "score": 0.3940020501613617,
+        "doi": "10.1016/j.bbadis.2025.167754",
+        "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+        "year": "2024",
+        "rerank_score": 2.444749593734741,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38779756",
+        "text": "Mechanisms of gelofusine protection in an in vitro model of polymyxin B-associated renal injury. Polymyxins are a last-resort treatment option for multidrug-resistant gram-negative bacterial infections, but they are associated with nephrotoxicity. Gelofusine was previously shown to reduce polymyxin-associated kidney injury in an animal model. However, the mechanism(s) of renal protection has not been fully elucidated. Here, we report the use of a cell culture model to provide insights into the mechanisms of",
+        "score": 0.40911009907722473,
+        "doi": "10.1152/ajprenal.00029.2024",
+        "journal": "American journal of physiology. Renal physiology",
+        "year": "2024",
+        "rerank_score": 0.6803945302963257,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40946372",
+        "text": "Insights into the renal protective effects of 7-phenylheptanoic acid in chronic kidney disease mice: Modulation of indoxyl sulfate production and gut microbiome homeostasis. 7-Phenylheptanoic acid (7-PH) has been reported to slow the progression of chronic kidney disease (CKD) in mice. Although the mechanism behind this renal protection remains unclear, it is strongly linked to reduced production of indoxyl sulfate (IS), a uremic toxin derived from dietary L-tryptophan through a multistep enzymatic process.",
+        "score": 0.4103819727897644,
+        "doi": "10.1016/j.dmd.2025.100149",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2025",
+        "rerank_score": 0.20452792942523956,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

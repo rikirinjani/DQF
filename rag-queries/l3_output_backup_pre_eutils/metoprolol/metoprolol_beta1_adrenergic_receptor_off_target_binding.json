@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol beta1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39291828",
+        "text": "Toxicity Risks Associated With the Beta-Blocker Metoprolol in Marine and Freshwater Organisms: A Review. The detection of pharmaceuticals in aquatic ecosystems has generated concern for wildlife and human health over the past several decades. β-adrenergic blocking agents are a class of drugs designed to treat cardiovascular diseases and high blood pressure. Metoprolol is a second-generation β1-adrenergic receptor inhibitor detected in effluent derived from sewage treatment plants. Our review presents an upd",
+        "score": 0.3912913203239441,
+        "doi": "10.1002/etc.5981",
+        "journal": "Environmental toxicology and chemistry",
+        "year": "2024",
+        "rerank_score": 4.576607704162598,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.43443313241004944,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 2.9775729179382324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41465273",
+        "text": "Therapeutic Potential of the β3-Adrenergic Receptor and Its Ligands in Cardiovascular Diseases. The β3-adrenergic receptor is an exceptional member of the β-adrenergic receptor family. Recent findings suggest that it may play a more significant role in the cardiovascular system than previously recognized, partly through its potential anti-inflammatory actions. For this reason, it has been extensively studied as a potential target in cardiovascular therapy. In this review, we focus on the β3-adrenergic recep",
+        "score": 0.4304385781288147,
+        "doi": "10.3390/ijms262411844",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 1.7238377332687378,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

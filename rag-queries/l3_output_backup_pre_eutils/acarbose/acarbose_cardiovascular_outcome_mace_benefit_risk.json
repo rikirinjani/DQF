@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40009360",
+        "text": "Risk of Major Adverse Cardiovascular Events Following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. This study used retrospective electronic health record data of 2 patient cohorts, the Vanderbilt University Medical Center (VUMC) and Million Veteran Program (MVP). The risk ",
+        "score": 0.46308016777038574,
+        "doi": "10.1001/jamadermatol.2025.0001",
+        "journal": "JAMA dermatology",
+        "year": "2026",
+        "rerank_score": 3.299717426300049,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41056153",
+        "text": "MACE Risk Prediction in ARVC Patients via CMR: A Three-Tier Spatiotemporal Transformer with Pericardial Adipose Tissue Embedding. Major adverse cardiac events (MACE) pose a high life-threatening risk to patients with arrhythmogenic right ventricular cardiomyopathy (ARVC). Cardiac magnetic resonance (CMR) has been proven to reflect the risk of MACE, but two challenges remain: limited dataset size due to the rarity of ARVC and overlapping image distributions between non-MACE and MACE patients. To address thes",
+        "score": 0.4626561999320984,
+        "doi": "10.1109/TMI.2025.3618711",
+        "journal": "IEEE transactions on medical imaging",
+        "year": "2025",
+        "rerank_score": 3.018639326095581,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39371179",
+        "text": "No Increased Risk of Major Adverse Cardiovascular Events following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. Retrospective cohort study of two patient cohorts, Vanderbilt University Medical Center (VUMC) and Military Veteran Program (MVP). The risk of MACE in patients e",
+        "score": 0.45735546946525574,
+        "doi": "10.1101/2024.09.16.24313743",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2024",
+        "rerank_score": 2.9212229251861572,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Liraglutide GLP-1 receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "GLP-1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41194677",
+        "text": "The Impact of Liraglutide on Patients With Metabolic Dysfunction-Associated Steatotic Liver Disease. Liraglutide, a glucagon-like-peptide-1 (GLP-1) receptor agonist, improves hepatic steatosis and metabolic parameters. We evaluated the impact of liraglutide on liver stiffness (LS) and steatosis by vibration-controlled transient elastography (VCTE) and metabolic parameters in patients with metabolic dysfunction-associated steatotic liver disease (MASLD). This retrospective cohort study included 197 patients ",
+        "score": 0.31965744495391846,
+        "doi": "10.1111/jgh.70134",
+        "journal": "Journal of gastroenterology and hepatology",
+        "year": "2025",
+        "rerank_score": 6.525566101074219,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28124822",
+        "text": "Liraglutide effects on beta-cell, insulin sensitivity and glucose effectiveness in patients with stable coronary artery disease and newly diagnosed type 2 diabetes. The aims of the study were to investigate the effects of the GLP-1 receptor agonist liraglutide as add-on to metformin on insulin sensitivity (Si) and glucose effectiveness (Sg) in addition to its positive effects on beta-cell function in overweight/obese patients with coronary artery disease (CAD) and type 2 diabetes mellitus (T2DM).",
+        "score": 0.31525206565856934,
+        "doi": "10.1111/dom.12891",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2016",
+        "rerank_score": 6.485363483428955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41069310",
+        "text": "Acute effects of GIP and GLP-1 receptor antagonism in totally pancreatectomized individuals: A randomized double-blind, placebo-controlled crossover study. The incretin hormones glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) influence metabolism through strong effects on pancreatic hormone secretion but also in a pancreas-independent manner. Here, we investigated the isolated extrapancreatic effects of endogenous GIP and GLP-1 by applying hormone receptor antagonists ",
+        "score": 0.32670530676841736,
+        "doi": "10.1111/dom.70186",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 6.245321273803711,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

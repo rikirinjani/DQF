@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32746676",
+        "text": "Real-world cost-effectiveness of insulin degludec in type 1 and type 2 diabetes mellitus from a Swedish 1-year and long-term perspective. The ReFLeCT study demonstrated that switching to insulin degludec from other basal insulins was associated with reductions in glycated hemoglobin and hypoglycemic events in type 1 (T1D) and type 2 diabetes (T2D), and reductions in insulin doses in T1D. The aim of the present analysis was to assess the short- and long-term cost-effectiveness of switching to insulin deglude",
+        "score": 0.34909969568252563,
+        "doi": "10.1080/13696998.2020.1805454",
+        "journal": "Journal of medical economics",
+        "year": "2020",
+        "rerank_score": 2.0241286754608154,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39802245",
+        "text": "Insulin Degludec vs Insulin Glargine for Glycemic Control in Critical Illness Hyperglycemia. Hyperglycemia is a serious condition and associated with an increased risk of complications and mortality in both critically ill and non-critically ill people. Improvement in the glycemic level reduces the length of hospital stay, systemic infections and short- and long-term mortality. The aim was to test the effectiveness of insulin degludec vs insulin glargine and regular insulin in controlling blood sugar in pati",
+        "score": 0.38250264525413513,
+        "doi": "10.5005/jp-journals-10071-24842",
+        "journal": "Indian journal of critical care medicine : peer-reviewed, official publication o",
+        "year": "2024",
+        "rerank_score": 1.6255543231964111,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39609927",
+        "text": "Role of the liver in the sustained normalisation of A1c over 2 years following short-term insulin therapy in early type 2 diabetes. When administered in early type 2 diabetes (T2DM), the strategy of 'induction' with short-term intensive insulin therapy (IIT) followed by 'maintenance' with metformin thereafter can yield outstanding glycaemic control, with some patients achieving A1c in the normal range of its assay. We thus sought to identify determinants of sustained normalisation of A1c in response to this",
+        "score": 0.3868972659111023,
+        "doi": "10.1111/dom.16099",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 1.4941397905349731,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39789843",
+        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
+        "score": 0.4317668378353119,
+        "doi": "10.1111/dom.16176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 1.1256047487258911,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41408990",
+        "text": "Investigation of the Effects of Saxagliptin in In Vitro and In Vivo Models of Diabetic Neuropathy. Diabetic neuropathy (DN), one of the most common microvascular complications of diabetes, is a condition involving complex pathophysiological mechanisms such as oxidative stress, inflammation, apoptosis, primarily resulting from chronic hyperglycemia. This study aimed to evaluate potential effects of Saxagliptin (Sax), a DPP-4 enzyme inhibitor, on in vitro and in vivo models of DN. Dorsal root ganglion neurons",
+        "score": 0.4606923460960388,
+        "doi": "10.1002/jbt.70653",
+        "journal": "Journal of biochemical and molecular toxicology",
+        "year": "2025",
+        "rerank_score": -2.470473051071167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38769223",
+        "text": "Formulation of Saxagliptin Oral Films: Optimization, Physicochemical Characterization, In-Vivo Assessment, and In-Vitro Real-Time Release Monitoring via a Novel Polyaniline Nanoparticles-Based Solid-Contact Screen Printed Ion-Selective Electrode. Oral dispersible films have received broad interest due to fast drug absorption and no first-path metabolism, leading to high bioavailability and better patient compliance. Saxagliptin (SXG) is an antidiabetic drug that undergoes first-path metabolism, resulting in",
+        "score": 0.477516770362854,
+        "doi": "10.1208/s12249-024-02828-4",
+        "journal": "AAPS PharmSciTech",
+        "year": "2024",
+        "rerank_score": -3.9105870723724365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Sitagliptin drug interaction renal clearance",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40707719",
+        "text": "Serum Concentration of Apixaban in Relation to Renal Function in Older Hospitalized Patients. Apixaban is the most prescribed direct-acting oral anticoagulant drug. According to its product information, clearance is only partially renal. However, little is known about the impact of renal function on apixaban pharmacokinetics in real-world settings. The aim of this study was therefore to investigate serum concentrations of apixaban in relation to renal function in acutely hospitalised, older patients. The st",
+        "score": 0.3979976773262024,
+        "doi": "10.1007/s40266-025-01232-2",
+        "journal": "Drugs & aging",
+        "year": "2025",
+        "rerank_score": 2.0150322914123535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40202156",
+        "text": "Clearance of Amlodipine, Fentanyl, Fluconazole, Methylprednisolone, and Midazolam by Continuous Renal Replacement Circuits. Critically ill pediatric patients on continuous renal replacement therapy (CRRT) have high mortality rates ranging from 30% to 70%, due in part to altered drug exposure from drug-CRRT circuit interactions. Drug loss within CRRT circuits can occur through both clearance by the hemofilter and adsorption to circuit components. Although these interactions are known to exist, their impact o",
+        "score": 0.44374120235443115,
+        "doi": "10.1097/MAT.0000000000002422",
+        "journal": "ASAIO journal (American Society for Artificial Internal Organs : 1992)",
+        "year": "2025",
+        "rerank_score": 1.965849757194519,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969140",
+        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
+        "score": 0.4252786934375763,
+        "doi": "10.1002/jcph.70007",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.0118577480316162,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

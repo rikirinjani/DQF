@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39480548",
+        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
+        "score": 0.3900851607322693,
+        "doi": "10.1007/s00204-024-03901-4",
+        "journal": "Archives of toxicology",
+        "year": "2024",
+        "rerank_score": 4.405088424682617,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39808372",
+        "text": "Population Pharmacokinetics of Telmisartan in Healthy Subjects and Hypertensive Patients. Telmisartan exhibits significant pharmacokinetic (PK) variability, but it remains unclear whether its PK profile is altered in hypertensive patients. This study aimed to characterize telmisartan PKs by conducting a meta-analysis and developing a pooled population PK model based on data from healthy subjects and hypertensive patients. Relevant literature was identified by a systematic approach. Eighteen studies were sel",
+        "score": 0.3400040864944458,
+        "doi": "10.1007/s40262-024-01471-3",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": 2.8647823333740234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41436901",
+        "text": "Population Pharmacokinetics of Amlodipine and Telmisartan Following Oral Administration of a Single-Pill Fixed-Dose Combination in Healthy Korean Male Subjects. Fixed-dose combinations (FDCs) of amlodipine and telmisartan are widely used for hypertension management owing to their efficacy and improved adherence. This study aimed to characterize the pharmacokinetics (PKs) of both drugs after a single oral dose of a single-pill FDC of amlodipine 5 mg/telmisartan 80 mg in healthy Korean males. A total of 681 a",
+        "score": 0.3477570414543152,
+        "doi": "10.1007/s40261-025-01513-z",
+        "journal": "Clinical drug investigation",
+        "year": "2025",
+        "rerank_score": 2.700483798980713,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

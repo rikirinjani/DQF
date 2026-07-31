@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Enalapril ACE off-target binding",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39498787",
+        "text": "Intrathecal enalapril reduces adhesion formation in experimentally induced digital flexor tendon sheath injuries in horses. The objectives of the study were to describe a standing percutaneous adhesion induction model in the digital flexor tendon sheath (DFTS) of horses and to evaluate the effect of intrathecal administration of the angiotensin-converting enzyme (ACE) inhibitor enalapril on tendon healing and adhesion formation. Randomized, blinded, controlled experimental study. Eight healthy horses. A col",
+        "score": 0.47626346349716187,
+        "doi": "10.1111/vsu.14186",
+        "journal": "Veterinary surgery : VS",
+        "year": "2024",
+        "rerank_score": 2.054211378097534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2442537",
+        "text": "Angiotensin-converting enzyme inhibitors: measurement of relative inhibitory potency and serum drug levels by radioinhibitor binding displacement assay. Radioinhibitor binding displacement, a new method for the measurement of angiotensin-converting enzyme (ACE) competitive inhibitors, has been used to assess the relative potency of nine synthetic ACE inhibitors. MK351A, tyrosyl derivative of enalaprilic acid was iodinated with 125I and used as the radioligand. [125I]MK351A bound to human serum ACE in a conc",
+        "score": 0.44525307416915894,
+        "doi": "",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1987",
+        "rerank_score": 0.33936914801597595,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40246397",
+        "text": "Enalapril for Preventing Cardiotoxicity After High-Dose Anthracycline Therapy in Breast Cancer and Lymphoma Patients.",
+        "score": 0.4880584180355072,
+        "doi": "10.1016/j.jaccao.2025.01.014",
+        "journal": "JACC. CardioOncology",
+        "year": "2025",
+        "rerank_score": -1.22634756565094,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

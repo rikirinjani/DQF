@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30957945",
+        "text": "Navigating the \"MACE\" in Cardiovascular Outcomes Trials and decoding the relevance of Atherosclerotic Cardiovascular Disease benefits versus Heart Failure benefits. The publication of results from recent cardiovascular outcome trials (CVOTs) has transformed the landscape of diabetes treatment. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) and sodium glucose co-transporter-2 (SGLT2) inhibitors have demonstrated CV benefits in large, well-conducted, randomized studies. Today, empagliflozin, canaglifloz",
+        "score": 0.38461732864379883,
+        "doi": "10.1111/dom.13740",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2019",
+        "rerank_score": 2.8383352756500244,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281648",
+        "text": "Factors Affecting Risk of CVD Events in a Global CVD Prevention Cohort of People with HIV. PWH face increased risks of major adverse cardiovascular disease (MACE), partially mitigated by statin therapy. We characterized factors associated with MACE and MACE subcomponents among a global cohort of PWH in REPRIEVE. Our primary outcome measure was time-to-first primary MACE. Secondary outcome measures included time-to-first: a)hard MACE [cardiovascular disease (CVD) death, myocardial infarction (MI), or stroke]",
+        "score": 0.3920407295227051,
+        "doi": "10.1093/cid/ciaf210",
+        "journal": "Clinical infectious diseases : an official publication of the Infectious Disease",
+        "year": "2024",
+        "rerank_score": 2.64571475982666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40926360",
+        "text": "Lower risk of cardiovascular events in patients initiated on semaglutide 2.4 mg in the real-world: Results from the SCORE study (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity in the Real World). In this first interim analysis of the SCORE study, we investigated the risk of major adverse cardiovascular events (MACE) among individuals with atherosclerotic cardiovascular disease (ASCVD) and overweight/obesity but without diabetes who initiated semaglutide 2.4 mg in real-wo",
+        "score": 0.3828727900981903,
+        "doi": "10.1111/dom.70080",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 2.3599932193756104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

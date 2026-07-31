@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Doxazosin alpha1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.3931058645248413,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 0.955314576625824,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39000575",
+        "text": "Ligand-Receptor Interactions and Structure-Function Relationships in Off-Target Binding of the β The β",
+        "score": 0.35355454683303833,
+        "doi": "10.3390/ijms25137468",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 0.5826853513717651,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40563495",
+        "text": "Docking Simulations of G-Protein Coupled Receptors Uncover Crossover Binding Patterns of Diverse Ligands to Angiotensin, Alpha-Adrenergic and Opioid Receptors: Implications for Cardiovascular Disease and Addiction. Recent bioassay studies have unexpectedly supported the high (computationally predicted) binding affinities of angiotensin receptor blockers (ARBs) at α-adrenergic receptors (αARs) in isolated smooth muscle. Computational predictions from ligand docking studies are consistent with very low concen",
+        "score": 0.38280487060546875,
+        "doi": "10.3390/biom15060855",
+        "journal": "Biomolecules",
+        "year": "2025",
+        "rerank_score": -0.08744549006223679,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

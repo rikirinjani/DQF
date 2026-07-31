@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31091949",
+        "text": "A general view of epidemiology of hypoglycemia in type 1 and type 2 diabetes mellitus. Hypoglycemia particularly severe one is important side effect of diabetes therapy with impact on patient´s quality of life and mortality. The highest risk of hypoglycemia is connected with insulin therapy followed by derivates of sulfonylurea (SU) and glinides. The risk of hypoglycemia found in observational studies were 2-3 times higher in patients treated with SU and 3-4 higher when treated with insulin compared with ot",
+        "score": 0.38990360498428345,
+        "doi": "",
+        "journal": "Vnitrni lekarstvi",
+        "year": "2019",
+        "rerank_score": 3.6467437744140625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24898687",
+        "text": "Prevention of inpatient hypoglycemia with a real-time informatics alert. Severe hypoglycemia (SH), defined as a blood glucose (BG) <40 mg/dL, is associated with an increased risk of adverse clinical outcomes in inpatients.",
+        "score": 0.39190930128097534,
+        "doi": "10.1002/jhm.2221",
+        "journal": "Journal of hospital medicine",
+        "year": "2013",
+        "rerank_score": 2.940953016281128,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17717490",
+        "text": "Severe hypoglycemia in critically ill patients: risk factors and outcomes. To determine the risk factors for development of severe hypoglycemia (defined as glucose <40 mg/dL) in critically ill patients and define the outcomes of this complication.",
+        "score": 0.3949124217033386,
+        "doi": "10.1097/01.CCM.0000282073.98414.4B",
+        "journal": "Critical care medicine",
+        "year": "2007",
+        "rerank_score": 2.71950626373291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

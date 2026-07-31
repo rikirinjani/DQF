@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Atenolol beta1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1968985",
+        "text": "Characteristics of 125I-iodocyanopindolol binding to beta-adrenergic and serotonin-1B receptors of rat brain: selectivity of beta-adrenergic agents. The present study was designed to examine the specificity of beta-adrenergic antagonists for beta 1-, beta 2-adrenergic and 5HT1B-serotonergic receptors by the competitive interaction with 125I-iodocyanopindolol (125I-ICYP) as a radioligand. The beta 1-adrenoceptors were preferred by acebutolol, atenolol, betaxolol, practolol, and l-, dl- and d-metoprolol, whil",
+        "score": 0.3253141939640045,
+        "doi": "10.1254/jjp.52.195",
+        "journal": "Japanese journal of pharmacology",
+        "year": "1990",
+        "rerank_score": 5.783166408538818,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39617314",
+        "text": "Beta-adrenergic blockade via atenolol negatively affects body and heart mass and renal morphology in the developing chicken (Gallus Gallus Domesticus). Atenolol is a widely prescribed β",
+        "score": 0.4395788609981537,
+        "doi": "10.1016/j.cbpc.2024.110089",
+        "journal": "Comparative biochemistry and physiology. Toxicology & pharmacology : CBP",
+        "year": "2024",
+        "rerank_score": 3.3464035987854004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.38882535696029663,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 2.8195290565490723,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

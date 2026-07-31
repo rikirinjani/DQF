@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine alpha2-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "alpha2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39119149",
+        "text": "A historical perspective on clonidine as an alpha-2A receptor agonist in the treatment of addictive behaviors: Focus on opioid dependence. Clonidine operates through agonism at the alpha-2A receptor, a specific subtype of the alpha-2-adrenergic receptor located predominantly in the prefrontal cortex. By inhibiting the release of norepinephrine, which is responsible for withdrawal symptoms, clonidine effectively addresses withdrawal-related conditions such as anxiety, hypertension, and tachycardia. The groun",
+        "score": 0.40405142307281494,
+        "doi": "10.36922/itps.1918",
+        "journal": "INNOSC theranostics & pharmacological sciences",
+        "year": "2024",
+        "rerank_score": 4.543428897857666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40773228",
+        "text": "Discovery and development of an oral analgesic targeting the α2B adrenoceptor. Noradrenaline is a major monoaminergic neurotransmitter involved in pain modulation through an α2A-adrenergic receptor. Hence, α2-adrenergic agonists such as clonidine and dexmedetomidine exhibit analgesic and opioid-sparing effects. However, their use is restricted to hospital settings due to potential risks of acute hypertension/hypotension and bradycardia. Here, we report that (",
+        "score": 0.4366930425167084,
+        "doi": "10.1073/pnas.2500006122",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "year": "2026",
+        "rerank_score": 4.25678825378418,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39481745",
+        "text": "Synergistic interaction between clonidine and ACPA on the modulation of anxiety-like behaviors in non-acute restraint stress and acute restraint stress conditions. The present research examined the possible role of α-2 adrenergic receptor drugs (clonidine, selective α-2 adrenergic receptor agonist, and yohimbine, competitive α-2 adrenoreceptor antagonist,) on the effect of arachidonylcyclopropylamide (ACPA), a cannabinoid CB1 receptor agonist, in non-acute restraint stress (NARS) and acute restraint stress ",
+        "score": 0.4063856899738312,
+        "doi": "10.1016/j.brainres.2024.149304",
+        "journal": "Brain research",
+        "year": "2024",
+        "rerank_score": 3.044304847717285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

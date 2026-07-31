@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Candesartan BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40810118",
+        "text": "Mathematical modeling of pharmacokinetics and pharmacodynamics of losartan in relation to  Losartan is a selective angiotensin II AT1-receptor antagonist for the treatment of arterial hypertension and heart failure. It is converted to a pharmacologically active metabolite carboxylosartan (E-3174) in the liver mainly by CYP2C9 enzyme, a member of the cytochrome P450 superfamily. The gene encoding this protein is highly polymorphic: numerous single nucleotide polymorphisms that alter the enzyme function have ",
+        "score": 0.4046393930912018,
+        "doi": "10.3389/fsysb.2025.1504077",
+        "journal": "Frontiers in systems biology",
+        "year": "2024",
+        "rerank_score": 2.425938129425049,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38745377",
+        "text": "Elucidating nonlinear pharmacokinetics of telmisartan: Integration of target-mediated drug disposition and OATP1B3-mediated hepatic uptake in a physiologically based model. Telmisartan, a selective inhibitor of angiotensin II receptor type 1 (AT1), demonstrates nonlinear pharmacokinetics (PK) when orally administered in ascending doses to healthy volunteers, but the underlying mechanisms remain unclear. This study presents a physiologically based pharmacokinetic model integrated with target-mediated drug di",
+        "score": 0.3696756362915039,
+        "doi": "10.1002/psp4.13154",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": 1.639305830001831,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41531356",
+        "text": "The First Russian Fixed Combination of Indapamide Retard and Candesartan: Results of Two Pharmacokinetic and Bioequivalence Studies. Aim    To study the pharmacokinetics and prove the bioequivalence of Hyposart I (indapamide 1.5 mg + candesartan 16 mg) modified-release film-coated tablets (OOO AKRIKHIN, Russia) compared to the concomitant drugs Arifon® retard (indapamide) prolonged-release film-coated tablets, 1.5 mg (Servier Laboratories, France) + Atacand® (candesartan) tablets, 16 mg (AstraZeneca AB, Swe",
+        "score": 0.3665681481361389,
+        "doi": "10.18087/cardio.2025.12.n3093",
+        "journal": "Kardiologiia",
+        "year": "2025",
+        "rerank_score": 1.233510136604309,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole H+/K+ ATPase (Cys813+Cys321) CYP interaction",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813+Cys321)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38296463",
+        "text": "Role of the Cytosolic Domain of the a3 Subunit of V-ATPase in the Interaction with Rab7 and Secretory Lysosome Trafficking in Osteoclasts. We previously reported that the a3 subunit of proton-pumping vacuolar-type ATPase (V-ATPase) interacts with Rab7 and its guanine nucleotide exchange factor, Mon1a-Ccz1, and recruits them to secretory lysosomes in osteoclasts, which is essential for anterograde trafficking of secretory lysosomes. The a3 subunit interacts with Mon1a-Ccz1 through its cytosolic N-terminal do",
+        "score": 0.43038511276245117,
+        "doi": "10.1248/bpb.b23-00833",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 2.1439521312713623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39547508",
+        "text": "How ligands modulate the gastric H,K-ATPase activity and its inhibition by tegoprazan. The introduction of potassium-competitive acid blockers (P-CABs) has been a major innovation in gastric H,K-ATPase inhibition and many laboratories are actively engaged in the development of novel molecules within this class. This work investigates the interaction between H,K-ATPase and tegoprazan, a representative of the P-CABs group, in terms of K",
+        "score": 0.4385588467121124,
+        "doi": "10.1016/j.jbc.2024.107986",
+        "journal": "The Journal of biological chemistry",
+        "year": "2024",
+        "rerank_score": 2.05491042137146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40932544",
+        "text": "Mechanistic insights into the hepatoprotective role of rabeprazole against cyclophosphamide-induced hepatotoxicity via AMPK/SIRT1 activation and suppression of TLR4/NF-κB and MAPK pathways. This study evaluates the ability of Rabeprazole (RAB) in counteracting cyclophosphamide (CP)-induced hepatotoxicity, focusing on its regulatory impact on key molecular signaling pathways, particularly AMPK/SIRT1, PI3K/Akt, TLR4/NF-κB, and MAPK, as well as its influence on NLRP3 inflammasome activation. Rats were assigned",
+        "score": 0.43260887265205383,
+        "doi": "10.1007/s00210-025-04577-y",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": 1.5553312301635742,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glimepiride weight loss gain effect mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40203836",
+        "text": "Tirzepatide did not impact metabolic adaptation in people with obesity, but increased fat oxidation. Tirzepatide, a glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist, promoted significant body weight reduction in the phase 3 clinical trials. We conducted a preclinical study and a phase 1 clinical trial (NCT04081337) to understand potential mechanisms mediating tirzepatide-induced weight loss in mice and people with obesity. In calorie-restricted, obese mice, chronic t",
+        "score": 0.4061194658279419,
+        "doi": "10.1016/j.cmet.2025.03.011",
+        "journal": "Cell metabolism",
+        "year": "2024",
+        "rerank_score": 3.1406099796295166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40389050",
+        "text": "Short-term effects of liraglutide and semaglutide on weight gain and adiposity by rats fed a Western diet. GLP-1 receptor agonists are known to produce weight loss in people with obesity. Whether either drug can prevent weight gain by nonobese individuals has received little research attention. The present studies investigated the ability of liraglutide and semaglutide to prevent weight gain in male and female rats following the initiation of an obesity-promoting Western-style diet (WD). Because these drugs",
+        "score": 0.41855496168136597,
+        "doi": "10.1016/j.physbeh.2025.114955",
+        "journal": "Physiology & behavior",
+        "year": "2025",
+        "rerank_score": 1.803680181503296,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40470713",
+        "text": "Glimepiride for persistent hyperglycemia in extremely low birth weight infants: A case series.",
+        "score": 0.4281037747859955,
+        "doi": "10.1111/ped.70110",
+        "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+        "year": "2025",
+        "rerank_score": -0.055147167295217514,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

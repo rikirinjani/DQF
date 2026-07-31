@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.43025872111320496,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 1.0505276918411255,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41414781",
+        "text": "Innovative Analytical Methodologies for Quantification of Efonidipine HCl and Chlorthalidone: A Critical Review. A new fixed-dose combination of Efonidipine Hydrochloride Ethanolate (EFO) and Chlorthalidone (CHD) was approved by CDSCO in 2022 for the effective treatment of hypertension. While efonidipine is a dual L- and T-type calcium channel blocker, chlorthalidone is a thiazide-like diuretic. Numerous analytical techniques have been developed to enable accurate and dependable quantification in bulk, phar",
+        "score": 0.43406379222869873,
+        "doi": "10.1080/10408347.2025.2593506",
+        "journal": "Critical reviews in analytical chemistry",
+        "year": "2025",
+        "rerank_score": 0.7961786985397339,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2830895",
+        "text": "Enalapril in essential hypertension: the comparative effects of additional placebo, nicardipine and chlorthalidone. The effect of adding placebo, a calcium antagonist, nicardipine and a thiazide diuretic, chlorthalidone, each for 2 weeks, to ongoing treatment with the ACE inhibitor, enalapril was evaluated in seven patients with essential hypertension. Compared with placebo, nicardipine and chlorthalidone both significantly enhanced the antihypertensive effect of enalapril: average blood pressure reductions",
+        "score": 0.39727938175201416,
+        "doi": "10.1111/j.1365-2125.1987.tb03259.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "1987",
+        "rerank_score": -0.007959922775626183,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

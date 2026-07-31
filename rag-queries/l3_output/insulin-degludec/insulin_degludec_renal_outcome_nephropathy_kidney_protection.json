@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec renal outcome nephropathy kidney protection",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41601953",
+        "text": "Insulin restores renal neprilysin (NEP) and attenuates the shedding of urinary NEP and KIM-1 in diabetic Akita mice. Diabetic kidney disease (DKD) is characterized by dysregulation of the renin-angiotensin system (RAS) and renal tubular injury. We investigated whether insulin treatment preserves renal homeostasis by modulating neprilysin (NEP), arginase-2 (Arg-2), and kidney injury molecule-1 (KIM-1) regulation in type 1 diabetic Akita mice. Diabetic Akita mice received three subcutaneous sustained-release ",
+        "score": 0.3836953043937683,
+        "doi": "10.3389/fphar.2025.1679651",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 0.8075289726257324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39114239",
+        "text": "Assessing the Renal Outcomes of Semaglutide in Diabetic Kidney Disease: A Systematic Review. Diabetic kidney disease (DKD) is a prevalent microvascular complication of diabetes, posing a significant health burden. Semaglutide, a glucagon-like peptide-1 receptor agonist, has shown promise in mitigating renal outcomes in DKD. This systematic review aimed to evaluate the renal effects of semaglutide in individuals with DKD. A comprehensive literature search identified six eligible studies, including two case r",
+        "score": 0.3841809630393982,
+        "doi": "10.7759/cureus.64038",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 0.7637761235237122,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40952621",
+        "text": "Disease Progression, Clinical Outcomes and Treatment Challenges in Patients with Chronic Kidney Disease and High-Risk Proteinuria. A urine albumin-creatinine ratio (UACR) > 700 mg/g signifies severe kidney damage, and nephrology referral is recommended for intensified management. The impact of UACR ≥ 700 mg/g on outcomes and the efficacy of kidney protective therapies in patients have not been thoroughly examined. Using claims healthcare data from the USA, we identified prevalent patients with chronic kidne",
+        "score": 0.3766283690929413,
+        "doi": "10.1007/s12325-025-03364-8",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": -0.505366325378418,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

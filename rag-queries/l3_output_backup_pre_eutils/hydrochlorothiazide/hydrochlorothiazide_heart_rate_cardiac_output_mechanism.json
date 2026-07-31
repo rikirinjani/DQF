@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40856000",
+        "text": "Diuretic resistance and the efficacy of hydrochlorothiazide in acute decompensated heart failure: A post-hoc analysis of the CLOROTIC trial. Diuretic resistance (DR) in acute decompensated heart failure (ADHF) is associated with poor outcomes. The CLOROTIC trial demonstrated hydrochlorothiazide (HCTZ) with intravenous furosemide improved weight loss in ADHF. We assessed performance of the BAN-ADHF DR score and association between DR risk and HCTZ treatment response. We included participants from CLOROTIC an",
+        "score": 0.4705655574798584,
+        "doi": "10.1002/ejhf.70002",
+        "journal": "European journal of heart failure",
+        "year": "2025",
+        "rerank_score": 1.317945957183838,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39957722",
+        "text": "Comparison of Cardiovascular Outcomes Between Chlorthalidone and Hydrochlorothiazide in Hypertensive Patients. Chlorthalidone (CLTD) and hydrochlorothiazide (HCTZ) are widely used thiazide diuretics for hypertension management. This study aimed to evaluate and compare the cardiovascular outcomes of patients treated with CLTD versus HCTZ. This multicenter, retrospective cohort study utilized data from the Korea University Medical Center, derived from electronic health records. A total of 14 257 hypertensive ",
+        "score": 0.44270873069763184,
+        "doi": "10.1111/jch.70000",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2025",
+        "rerank_score": 1.1267908811569214,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39094835",
+        "text": "Taking hydroxychloroquine to heart.",
+        "score": 0.42373383045196533,
+        "doi": "10.1016/j.jaad.2024.07.1477",
+        "journal": "Journal of the American Academy of Dermatology",
+        "year": "2024",
+        "rerank_score": -2.151092529296875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

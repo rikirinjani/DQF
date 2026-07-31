@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Olmesartan AT1 receptor off-target binding",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28095235",
+        "text": "Role of basic amino acids of the human angiotensin type 1 receptor in the binding of the non-peptide antagonist candesartan. To explain the insurmountable/long-lasting binding of biphenyltetrazole-containing AT1-receptor antagonists such as candesartan, to the human angiotensin II type 1-receptor, a model is proposed in which the basic amino acids Lys199 and Arg 167 of the receptor interact respectively with the carboxylate and the tetrazole group of the antagonists. To validate this model, we have investig",
+        "score": 0.36029404401779175,
+        "doi": "10.1177/14703203010020010501",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2017",
+        "rerank_score": 3.787193536758423,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30369568",
+        "text": "Blood Pressure-Independent Effect of Olmesartan on Albuminuria in Mice Overexpressing Renin. Enhanced renin-angiotensin activity contributes to hypertension, albuminuria, and glomerular hypertrophy. The angiotensin (Ang)-converting enzyme (ACE) 2/Ang (1-7)/Mas axis pathway acts against Ang II type 1 receptor (AT1R) signaling. We investigated whether olmesartan (Olm), an AT1R blocker, inhibits albuminuria independently of blood pressure and elucidated the potential mechanisms.Three- to 4-month-old male mice ",
+        "score": 0.36011406779289246,
+        "doi": "10.1536/ihj.17-582",
+        "journal": "International heart journal",
+        "year": "2018",
+        "rerank_score": 3.266448497772217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38166589",
+        "text": "Statement of Retraction: Angiotensin II receptor antagonist olmesartan and NF-kappaB inhibitor as cytotoxic and apoptotic agents in MCF-7 human cell line.",
+        "score": 0.39645665884017944,
+        "doi": "10.1080/1120009X.2023.2296759",
+        "journal": "Journal of chemotherapy (Florence, Italy)",
+        "year": "2024",
+        "rerank_score": 1.1413006782531738,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

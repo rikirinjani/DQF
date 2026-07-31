@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "description": "L3 Systems Response — query templates per drug class",
+    "version": "1.0",
+    "rag_endpoint": "https://balade-pubmed-rag-bot.hf.space/search",
+    "rag_top_k": 3,
+    "template_rules": "Each query targets a specific L3 mechanism dimension. {drug} and {target} are populated per drug."
+  },
+  "classes": {
+    "NSAID": {
+      "tissue_sites": ["synovial fluid", "gastric mucosa", "kidney", "platelet"],
+      "tissue_queries": [
+        "{drug} synovial fluid concentration half-life kinetics",
+        "{drug} gastric mucosa COX inhibition topical effect",
+        "{drug} renal prostaglandin synthesis renal blood flow",
+        "{drug} platelet COX-1 thromboxane platelet aggregation"
+      ],
+      "off_target_queries": [
+        "{drug} {target} mechanism tissue pathway consequence",
+        "{drug} {target} analgesic anti-inflammatory role"
+      ],
+      "class_mechanism_queries": [
+        "NSAID {drug} cardiovascular risk mechanism prostacyclin",
+        "NSAID {drug} gastrointestinal mucosal injury mechanism",
+        "NSAID {drug} renal effect prostaglandin synthesis",
+        "{drug} anti-inflammatory COX-independent mechanism"
+      ],
+      "l3_fields": {
+        "cox_inhibition": null,
+        "gi_risk": null,
+        "cv_risk": null,
+        "renal_risk": null,
+        "platelet_effect": null,
+        "off_targets": [],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": null
+      }
+    },
+    "Statin": {
+      "tissue_sites": ["liver", "muscle", "vascular endothelium", "kidney"],
+      "tissue_queries": [
+        "{drug} hepatic HMGCR inhibition LDL clearance mechanism",
+        "{drug} muscle tissue myopathy mechanism risk",
+        "{drug} vascular endothelium pleiotropic effect mechanism",
+        "{drug} renal transport OATP1B1 BCRP P-gp mechanism"
+      ],
+      "off_target_queries": [
+        "{drug} {target} pleiotropic effect pathway",
+        "{drug} {target} non-HMGCR mechanism"
+      ],
+      "class_mechanism_queries": [
+        "statin myopathy risk mechanism dose-dependent",
+        "statin DDI CYP3A4 OATP1B1 mechanism",
+        "statin pleiotropic effect endothelial function",
+        "{drug} lipophilicity muscle penetration myopathy"
+      ],
+      "l3_fields": {
+        "hmgcr_inhibition": null,
+        "ldl_reduction_pct": null,
+        "myopathy_risk": null,
+        "ddi_risk": null,
+        "pleiotropic_effects": [],
+        "lipophilicity": null,
+        "transport_effects": [],
+        "anti_inflammatory": null
+      }
+    },
+    "PPI": {
+      "tissue_sites": ["gastric parietal cell", "liver", "bone", "kidney"],
+      "tissue_queries": [
+        "{drug} gastric parietal cell proton pump inhibition mechanism",
+        "{drug} CYP2C19 metabolism pharmacogenomic mechanism",
+        "{drug} erosive esophagitis healing efficacy randomized controlled trial",
+        "{drug} esophagitis healing rate LA grade A B C D",
+        "{drug} heartburn relief onset of action pH monitoring"
+      ],
+      "off_target_queries": [
+        "{drug} {target} off-target mechanism",
+        "{drug} {target} CYP interaction"
+      ],
+      "class_mechanism_queries": [
+        "{drug} CYP2C19 poor metabolizer extensive metabolizer pharmacokinetics",
+        "{drug} CYP2C19 genotype plasma concentration AUC",
+        "{drug} Clostridium difficile risk odds ratio cohort",
+        "{drug} bone mineral density fracture long term use osteoporosis",
+        "{drug} rebound acid hypersecretion after discontinuation hypergastrinemia",
+        "{drug} drug interaction CYP2C19 CYP3A4 clopidogrel",
+        "PPI hypergastrinemia enterochromaffin-like cell mechanism",
+        "PPI bone fracture osteoporosis acid suppression mechanism"
+      ],
+      "l3_fields": {
+        "healing_ability": null,
+        "cyp2c19_metabolism_pct": null,
+        "ddi_risk": null,
+        "cdi_risk": null,
+        "bone_fracture_risk": null,
+        "acid_rebound": null
+      }
+    },
+    "H2RA": {
+      "tissue_sites": ["gastric parietal cell", "CNS", "liver"],
+      "tissue_queries": [
+        "{drug} histamine H2 receptor antagonism mechanism",
+        "{drug} CNS penetration cognitive effect elderly"
+      ],
+      "off_target_queries": [
+        "{drug} {target} off-target binding mechanism",
+        "{drug} {target} adverse effect"
+      ],
+      "class_mechanism_queries": [
+        "H2RA tolerance tachyphylaxis mechanism",
+        "H2RA gastric acid suppression mechanism histamine",
+        "H2RA CYP inhibition drug interaction mechanism"
+      ],
+      "l3_fields": {
+        "h2_blockade": null,
+        "tolerance": null,
+        "ddi_risk": null,
+        "cns_penetration": null,
+        "off_targets": []
+      }
+    },
+    "Antacid": {
+      "tissue_sites": ["stomach", "kidney"],
+      "tissue_queries": [
+        "{drug} acid neutralization mechanism duration",
+        "{drug} renal accumulation CKD toxicity mechanism"
+      ],
+      "off_target_queries": [],
+      "class_mechanism_queries": [
+        "antacid acid rebound mechanism",
+        "antacid aluminum calcium CKD accumulation"
+      ],
+      "l3_fields": {
+        "neutralization_capacity": null,
+        "acid_rebound": null,
+        "renal_toxicity_risk": null,
+        "duration_min": null
+      }
+    },
+    "Antihypertensive": {
+      "tissue_sites": ["kidney", "heart", "vasculature", "adrenal"],
+      "tissue_queries": [
+        "{drug} BP reduction mechanism pharmacokinetics",
+        "{drug} renal protection nephropathy kidney mechanism",
+        "{drug} electrolyte potassium sodium effect",
+        "{drug} heart rate cardiac output mechanism"
+      ],
+      "off_target_queries": [
+        "{drug} {target} adverse effect pathway",
+        "{drug} {target} off-target binding"
+      ],
+      "class_mechanism_queries": [
+        "antihypertensive cardiovascular outcome trial mortality reduction",
+        "{drug} ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+        "{drug} metabolic effect glucose lipid uric acid",
+        "{drug} drug interaction NSAIDs CCB diuretic",
+        "{drug} cough angioedema edema bradycardia side effect"
+      ],
+      "l3_fields": {
+        "bp_reduction": null,
+        "renal_protection": null,
+        "metabolic_effect": null,
+        "electrolyte_risk": null,
+        "ddi_risk": null,
+        "heart_rate_effect": null
+      }
+    },
+    "Diabetes": {
+      "tissue_sites": ["pancreas", "liver", "kidney", "adipose", "muscle"],
+      "tissue_queries": [
+        "{drug} glycemic control A1c reduction mechanism",
+        "{drug} weight loss gain effect mechanism",
+        "{drug} renal outcome nephropathy kidney protection",
+        "{drug} cardiovascular outcome MACE benefit risk"
+      ],
+      "off_target_queries": [
+        "{drug} {target} off-target binding pathway",
+        "{drug} {target} extra-pancreatic effect"
+      ],
+      "class_mechanism_queries": [
+        "{drug} hypoglycemia risk severe hypoglycemia rate",
+        "{drug} gastrointestinal tolerability nausea diarrhea",
+        "{drug} drug interaction renal clearance",
+        "{drug} pancreas beta cell preservation apoptosis",
+        "{drug} SGLT2 GLP1 metformin insulin mechanism action"
+      ],
+      "l3_fields": {
+        "a1c_reduction": null,
+        "weight_effect": null,
+        "cv_outcome_benefit": null,
+        "renal_benefit": null,
+        "gi_tolerability": null,
+        "ddi_risk": null,
+        "hypoglycemia_risk": null
+      }
+    }
+  }
+}

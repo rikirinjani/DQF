@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17698900",
+        "text": "The dipeptidyl peptidase 4 inhibitor vildagliptin does not accentuate glibenclamide-induced hypoglycemia but reduces glucose-induced glucagon-like peptide 1 and gastric inhibitory polypeptide secretion. Inhibition of dipeptidyl peptidase 4 by vildagliptin enhances the concentrations of the active form of the incretin hormones glucagon-like peptide 1 (GLP-1) and gastric inhibitory polypeptide (GIP). The present study asked whether vildagliptin accentuates glibenclamide-induced hypoglycemia or affects endogen",
+        "score": 0.3599845767021179,
+        "doi": "10.1210/jc.2006-1932",
+        "journal": "The Journal of clinical endocrinology and metabolism",
+        "year": "2007",
+        "rerank_score": 2.3994219303131104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38698651",
+        "text": "Fluoroquinolones and the risk of severe hypoglycaemia among sulphonylurea users: Population-based cohort study. Fluoroquinolone-related hypoglycaemia is rare but may become clinically relevant in individuals at high baseline hypoglycaemic risk, such as patients with diabetes using sulphonylureas. Our population-based cohort study assessed whether fluoroquinolones are associated with an increased risk of severe hypoglycaemia compared with amoxicillin among patients treated with sulphonylureas. Using the UK's",
+        "score": 0.40123775601387024,
+        "doi": "10.1111/dom.15627",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -0.0060684215277433395,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38936943",
+        "text": "Efficacy and Safety of Vildagliptin for Type 2 Diabetes in Patients With Diabetic Kidney Disease. Vildagliptin is one of the dipeptidyl peptidase-4 (DPP-4) inhibitors that have been shown to improve hyperglycemia in clinical trials among patients with type 2 diabetes. However, few studies have examined the efficacy of vildagliptin in patients with diabetic kidney disease (DKD). Eight patients with DKD received oral vildagliptin 50-100 mg/day. The duration of diabetes was 6.7±5.9 years and observation period",
+        "score": 0.4228545129299164,
+        "doi": "10.21873/invivo.13635",
+        "journal": "In vivo (Athens, Greece)",
+        "year": "2024",
+        "rerank_score": -0.1609811931848526,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

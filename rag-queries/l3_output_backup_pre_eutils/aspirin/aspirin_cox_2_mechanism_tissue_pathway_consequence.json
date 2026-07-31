@@ -1,0 +1,39 @@
+{
+  "query": {
+    "query": "Aspirin COX-2 mechanism tissue pathway consequence",
+    "dimension": "off_target",
+    "target": "COX-2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16218482",
+        "text": "COX-2 and prostaglandins in atherosclerosis.\n\nArachidonic acid metabolism is involved in acute ischemic syndromes affecting the coronary or cerebrovascular territory, as demonstrated by biochemical measurements of eicosanoid biosynthesis and the results of inhibitor trials in these settings. In particular, the efficacy of low-dose aspirin in reducing the complications of acute ischemic syndromes has focused attention on the cyclooxygenase (COX) pathway of arachidonic acid metabolism and its products, collectively termed prostanoids. Two cyclooxygenase (COX)-isozymes have been characterized, COX-1 and COX-2, that differ in terms of regulatory mechanisms of expression, tissue distribution, substrate specificity and preferential coupling to upstream and downstream enzymes. While the role of platelet COX-1 in acute ischemic diseases is firmly established, the role of COX-2 in atherothrombosis is still uncertain. Studies from our group suggest that variable expression of upstream and downstream enzymes in the prostanoid biosynthesis may represent important determinants of the functional consequences of COX-2 expression and inhibition in different clinical settings.",
+        "title": "COX-2 and prostaglandins in atherosclerosis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "16218482",
+          "journal": "Lupus",
+          "authors": [
+            "Cipollone F"
+          ],
+          "pub_date": "2005",
+          "doi": "10.1191/0961203305lu2215oa",
+          "mesh_terms": [
+            "Arachidonic Acid",
+            "Atherosclerosis",
+            "Cyclooxygenase 2",
+            "Humans",
+            "Intramolecular Oxidoreductases",
+            "Isoenzymes",
+            "Lipocalins",
+            "Membrane Proteins",
+            "Prostaglandin-E Synthases",
+            "Prostaglandins",
+            "Receptors, Prostaglandin E"
+          ]
+        }
+      }
+    ]
+  }
+}

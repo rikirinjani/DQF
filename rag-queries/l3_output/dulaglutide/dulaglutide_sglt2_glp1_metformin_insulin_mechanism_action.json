@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dulaglutide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38942076",
+        "text": "Cutaneous hypersensitivity reaction to dulaglutide: A case report of an allergic reaction. GLP-1 (glucagon-like peptide-1) receptor agonists are a class of anti-diabetic agents that act by inducing insulin secretion and inhibiting glucagon release in a glucose-dependent manner. They are particularly promising because of their long duration of action, reduced risk of hypoglycaemia and the added benefit of weight loss. Trulicity ® dulaglutide is a GLP-1 receptor agonist approved for type II diabetes and chron",
+        "score": 0.35394471883773804,
+        "doi": "10.1016/j.diabet.2024.101552",
+        "journal": "Diabetes & metabolism",
+        "year": "2024",
+        "rerank_score": 5.137819290161133,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39790030",
+        "text": "Renoprotective effects of dulaglutide, a GLP-1 agonist, involving regulation of epithelial-mesenchymal transition in patients with type 2 diabetes and diabetic kidney disease. To assess the renoprotective effects of dulaglutide and identify mechanisms of action in patients with type 2 diabetes and diabetic kidney disease (DKD). Outpatients/ambulant patients at the Department of Endocrinology, Affiliated Hospital of Xuzhou Medical University between October 2021 and July 2023, with type 2 diabetes and DKD, a",
+        "score": 0.35532355308532715,
+        "doi": "10.5414/CP204632",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2025",
+        "rerank_score": 4.128400802612305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40406484",
+        "text": "Reduced abundance of  The sodium glucose cotransporter 2 inhibitor (SGLT2i) dapagliflozin has been demonstrated cardiovascular benefits in patients with type 2 diabetes mellitus (T2DM). However, the underlying mechanism remains poorly understood. We conducted an 8-week, single-arm clinical trial, which enrolled 12 patients with inadequate glycemic control on metformin monotherapy. These patients were treated with SGLT2i dapagliflozin (10 mg/day). We assessed changes in clinical parameters pertinent to gluco",
+        "score": 0.37464356422424316,
+        "doi": "10.3389/fphar.2025.1600464",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 3.3691351413726807,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

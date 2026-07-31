@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Acarbose alpha-glucosidase off-target binding pathway",
+    "dimension": "off_target",
+    "target": "alpha-glucosidase"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39514938",
+        "text": "Inhibition of coreopsin against α-amylase/α-glucosidase and synergy with acarbose. Coreopsin is a flavonoid from Coreopsis tinctoria. The inhibition of coreopsin and synergy with acarbose against α-amylase (PPA) or α-glucosidase (SCG) were explored. As a result, coreopsin exhibited stronger inhibition on PPA/SCG than that of acarbose. Combination of coreopsin (4.11 μM) with acarbose (132.77 μM) had significant synergistic effect on PPA, while combination of coreopsin (5.76 μM) and acarbose (121.7 μM) had si",
+        "score": 0.411734014749527,
+        "doi": "10.1016/j.foodchem.2024.141610",
+        "journal": "Food chemistry",
+        "year": "2024",
+        "rerank_score": -0.2191832959651947,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1825311",
+        "text": "alpha-Glucosidase II-deficient cells use endo alpha-mannosidase as a bypass route for N-linked oligosaccharide processing. The kinetics of N-linked oligosaccharide processing and the structures of the processing intermediates have been examined in normal parental BW5147 mouse lymphoma cells and the alpha-glucosidase II-deficient PHAR2.7 mutant cells. The mutant cells accumulated glucosylated intermediates but were able to deglucosylate and process about 40% of their oligosaccharides to complex-type. This pr",
+        "score": 0.3807179629802704,
+        "doi": "",
+        "journal": "The Journal of biological chemistry",
+        "year": "1991",
+        "rerank_score": -0.2515033185482025,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40685038",
+        "text": "The synergistic inhibition of isoginkgetin with miglitol and acarbose on α-glucosidase: Dynamics enzyme changes tracking. Isoginkgetin is an edible biflavone from ginkgo biloba leaves with many bioactivities. In this work, the inhibition and synergistic effect of isoginkgetin with miglitol or acarbose on saccharomyces cerevisiae α-glucosidase (α-SCG) were tracked via various spectroscopic techniques and computer simulations. Compared with miglitol or acarbose, isoginkgetin displayed more remarkable inhibiti",
+        "score": 0.4167889356613159,
+        "doi": "10.1016/j.ijbiomac.2025.146103",
+        "journal": "International journal of biological macromolecules",
+        "year": "2025",
+        "rerank_score": -0.9379306435585022,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

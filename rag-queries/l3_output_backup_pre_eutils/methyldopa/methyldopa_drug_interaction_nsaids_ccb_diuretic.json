@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Methyldopa drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40163283",
+        "text": "Impact of prolonged use of NSAID (Diclofenac) on 99mTc-MAG3 and 99mTc-DTPA renography. Non-steroidal anti-inflammatory drugs (NSAIDs), such as diclofenac, are globally recognized as the primary choice for alleviating kidney pain and ureteric colic. This study examines the effects of long-term diclofenac administration on renography using two radiopharmaceuticals: 99mTc-mercaptoacetyltriglycine (99mTc-MAG3), which is excreted almost exclusively by the renal tubules, and 99mTc-diethylenetriamine pentaacetic a",
+        "score": 0.45012739300727844,
+        "doi": "10.1186/s41181-024-00325-4",
+        "journal": "EJNMMI radiopharmacy and chemistry",
+        "year": "2024",
+        "rerank_score": -0.9020483493804932,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40932731",
+        "text": "Analytical techniques for methyldopa and metabolites: a comprehensive review. Methyldopa, a centrally acting α2-adrenergic agonist, remains a key antihypertensive drug, particularly prescribed for pregnant and renal-impaired patients. Its clinical significance has led to extensive research aimed at developing reliable analytical methods for its accurate, sensitive, and selective determination in pharmaceutical formulations and biological matrices. Relevant literature was retrieved from Scopus, Web of Scienc",
+        "score": 0.4211256504058838,
+        "doi": "10.1080/03602532.2025.2560487",
+        "journal": "Drug metabolism reviews",
+        "year": "2025",
+        "rerank_score": -1.6534080505371094,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41026649",
+        "text": "Location of the Diclofenac Molecule in Model Lipid Membranes from Spin-Label-Enhanced NMR Relaxation. Nonsteroidal anti-inflammatory drugs (NSAIDs) can be used to treat a variety of conditions due to their antipyretic, anti-inflammatory, and analgesic effects. Their interaction with lipid membranes can cause various side effects known for these drugs. In this study, we employ",
+        "score": 0.4430690407752991,
+        "doi": "10.1021/acs.langmuir.5c03328",
+        "journal": "Langmuir : the ACS journal of surfaces and colloids",
+        "year": "2025",
+        "rerank_score": -2.0609612464904785,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

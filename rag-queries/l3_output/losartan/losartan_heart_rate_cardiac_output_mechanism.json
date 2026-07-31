@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.40686362981796265,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -3.5086636543273926,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40470124",
+        "text": "Fontan Circulation and High Cardiac Output State: A Forgotten Phenotype.",
+        "score": 0.4020159840583801,
+        "doi": "10.1016/j.cjcpc.2024.10.001",
+        "journal": "CJC pediatric and congenital heart disease",
+        "year": "2024",
+        "rerank_score": -4.7940897941589355,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41143681",
+        "text": "How Cardiac Output May be Described in Fontan Patients: An Approximative Equation.",
+        "score": 0.38820624351501465,
+        "doi": "10.1093/icvts/ivaf259",
+        "journal": "Interdisciplinary cardiovascular and thoracic surgery",
+        "year": "2025",
+        "rerank_score": -5.0582733154296875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

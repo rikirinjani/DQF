@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Glargine glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39569508",
+        "text": "Evaluation of an inpatient automatic dose reduction protocol for concentrated insulin glargine upon therapeutic interchange to insulin detemir on hypoglycemia rates. A previous study at Ascension Seton Hospital Network (ASHN) found a 1:1 dose conversion to insulin detemir 100 units/mL (iDet100) from insulin glargine 300 units/mL (iGlar300) increased the incidence of hypoglycemia as compared to a 1:1 conversion from insulin glargine 100 units/mL. No studies have evaluated an automatic 20% dose reduction for ",
+        "score": 0.38172048330307007,
+        "doi": "10.1093/ajhp/zxae346",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2025",
+        "rerank_score": 2.166139602661133,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39609927",
+        "text": "Role of the liver in the sustained normalisation of A1c over 2 years following short-term insulin therapy in early type 2 diabetes. When administered in early type 2 diabetes (T2DM), the strategy of 'induction' with short-term intensive insulin therapy (IIT) followed by 'maintenance' with metformin thereafter can yield outstanding glycaemic control, with some patients achieving A1c in the normal range of its assay. We thus sought to identify determinants of sustained normalisation of A1c in response to this",
+        "score": 0.39649730920791626,
+        "doi": "10.1111/dom.16099",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 1.681235432624817,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39802245",
+        "text": "Insulin Degludec vs Insulin Glargine for Glycemic Control in Critical Illness Hyperglycemia. Hyperglycemia is a serious condition and associated with an increased risk of complications and mortality in both critically ill and non-critically ill people. Improvement in the glycemic level reduces the length of hospital stay, systemic infections and short- and long-term mortality. The aim was to test the effectiveness of insulin degludec vs insulin glargine and regular insulin in controlling blood sugar in pati",
+        "score": 0.39260154962539673,
+        "doi": "10.5005/jp-journals-10071-24842",
+        "journal": "Indian journal of critical care medicine : peer-reviewed, official publication o",
+        "year": "2024",
+        "rerank_score": 0.9091750979423523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

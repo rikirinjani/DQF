@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Losartan AT1 receptor off-target binding",
+    "dimension": "off_target",
+    "target": "AT1 receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11881039",
+        "text": "Lys(199) mutation of the human angiotensin type 1 receptor differentially affects the binding of surmountable and insurmountable non-peptide antagonists. Many slow dissociating (insurmountable) non-peptide angiotensin type 1 receptor (AT1) antagonists contain,besides the acidic biphenyltetrazole substructure of losartan, a second acidic group to stabilise antagonist-receptor complexes. To investigate the involved basic amino-acids of the human AT1-receptor, wild-type and mutant receptors were transiently tr",
+        "score": 0.3433496952056885,
+        "doi": "10.3317/jraas.2000.044",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2002",
+        "rerank_score": 5.091972351074219,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40810118",
+        "text": "Mathematical modeling of pharmacokinetics and pharmacodynamics of losartan in relation to  Losartan is a selective angiotensin II AT1-receptor antagonist for the treatment of arterial hypertension and heart failure. It is converted to a pharmacologically active metabolite carboxylosartan (E-3174) in the liver mainly by CYP2C9 enzyme, a member of the cytochrome P450 superfamily. The gene encoding this protein is highly polymorphic: numerous single nucleotide polymorphisms that alter the enzyme function have ",
+        "score": 0.3802890181541443,
+        "doi": "10.3389/fsysb.2025.1504077",
+        "journal": "Frontiers in systems biology",
+        "year": "2024",
+        "rerank_score": 4.388940811157227,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40818169",
+        "text": "Modulation of cutaneous wound healing by Losartan: A focus on MCP-1 activity and collagen synthesis. Losartan, a selective angiotensin II type 1 receptor (AT1R) antagonist, has shown anti-inflammatory and anti-fibrotic properties that may accelerate wound healing when applied topically. Impaired wound healing remains a global health concern, leading to chronic wounds, infection, and excessive scarring. This study is the first to evaluate the wound healing potential of topically applied Losartan. Full-thickn",
+        "score": 0.39637747406959534,
+        "doi": "10.1016/j.tice.2025.103079",
+        "journal": "Tissue & cell",
+        "year": "2025",
+        "rerank_score": 3.945936441421509,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Esomeprazole Clostridium difficile risk odds ratio cohort",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17553260",
+        "text": "Antimicrobial drugs and community-acquired Clostridium difficile-associated disease, UK. In a population-based case-control study of community acquired Clostridium difficile-associated disease (CDAD), we matched 1,233 cases to 12,330 controls. CDAD risk increased 3-fold with use of any antimicrobial agent and 6-fold with use of fluoroquinolones. Prior use of antimicrobial agents did not affect risk for CDAD after 6 months.",
+        "score": 0.4367005527019501,
+        "doi": "10.3201/eid1305.061124",
+        "journal": "Emerging infectious diseases",
+        "year": "2007",
+        "rerank_score": 0.9894542694091797,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40779269",
+        "text": "Antibiotic Use and the Risk of Hospital-Onset Clostridioides Difficile Infection. Clostridioides difficile is a leading cause of health care-associated infections. Understanding the association among C difficile carriage, antibiotic use, and infection hazard is essential for infection prevention. To evaluate the hazard of C difficile infection (CDI) among asymptomatic carriers vs noncarriers of C difficile and whether it is associated with antibiotic exposure. This retrospective cohort study conducted betwe",
+        "score": 0.438003808259964,
+        "doi": "10.1001/jamanetworkopen.2025.25252",
+        "journal": "JAMA network open",
+        "year": "2025",
+        "rerank_score": 0.23688670992851257,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40036727",
+        "text": "Emergence and Spread of Clostridioides difficile Isolates With Reduced Fidaxomicin Susceptibility in an Acute Care Hospital. There have been several recent reports of Clostridioides difficile infection (CDI) due to isolates with reduced fidaxomicin susceptibility (minimum inhibitory concentration [MIC] ≥ 2 µg/mL). However, the clinical implications are uncertain because fidaxomicin achieves high concentrations in the intestinal tract. In an acute care hospital, we conducted a 3-year cohort study of patients",
+        "score": 0.4390617609024048,
+        "doi": "10.1093/cid/ciaf028",
+        "journal": "Clinical infectious diseases : an official publication of the Infectious Disease",
+        "year": "2024",
+        "rerank_score": 0.2162451595067978,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

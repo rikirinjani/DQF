@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Furosemide drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40358413",
+        "text": "Curbside Consult Torsemide versus Furosemide: Pharmacological Distinctions and Clinical Implications. Furosemide and torsemide are both loop diuretics that have widespread use to manage fluid excess in heart failure (HF), chronic kidney disease, and secondary conditions. These drugs work through inhibition of the Na+-K+-2Cl- cotransporter in the Henle's loop, thus bringing about diuresis and symptomatic relief. Torsemide is different from furosemide pharmacokinetically and mechanism-wise-with higher oral bi",
+        "score": 0.4484608769416809,
+        "doi": "10.1097/CRD.0000000000000948",
+        "journal": "Cardiology in review",
+        "year": "2025",
+        "rerank_score": 1.7135146856307983,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41097451",
+        "text": "Simultaneous Development and Validation of an HPLC Method for the Determination of Furosemide and Its Degraded Compound in Pediatric Extemporaneous Furosemide Oral Solution. Furosemide (FUR) is a loop diuretic widely used in pediatric care. However, no standardized oral liquid formulation exists due to degradation concerns, particularly the formation of furosemide-related compound B (FUR-B). This study aimed to develop and validate the HPLC method for the simultaneous quantification of FUR, FUR-B, methylpar",
+        "score": 0.4415018558502197,
+        "doi": "10.3390/molecules30194031",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": 0.9665663242340088,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39620306",
+        "text": "Diuretic efficiency of a single dose of subcutaneous versus oral furosemide after heart failure hospitalization across diuretic resistance strata: A pilot randomized controlled trial. Diuretic resistance (DR) in heart failure (HF) is associated with worse outcomes. Furoscix®, a self-administered subcutaneous (sc) furosemide injection administered via on-body infusor, is approved for HF congestion relief. However, its efficacy in patients with DR post-HF hospitalization remains unknown. In this open-label pi",
+        "score": 0.46871644258499146,
+        "doi": "10.1002/ejhf.3537",
+        "journal": "European journal of heart failure",
+        "year": "2024",
+        "rerank_score": 0.9646269679069519,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

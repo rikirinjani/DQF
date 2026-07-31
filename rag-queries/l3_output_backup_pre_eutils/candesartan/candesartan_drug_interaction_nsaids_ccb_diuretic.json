@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Candesartan drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39851122",
+        "text": "Exploring Drug-Drug Interactions between Losartan and Carbamazepine: A Pharmacokinetic and Pharmacodynamic Study. Hypertension, which affects 1.28 billion people globally aged 30 to 79, is characterized by continuously high blood pressure (140/90 or more) and raises the risk of premature death. Losartan, an angiotensin receptor blocker (ARB), is suggested for patients under the age of 55 who cannot take ACE inhibitors as a first treatment option. Epilepsy, a chronic neurological illness marked by repeated s",
+        "score": 0.4261122941970825,
+        "doi": "10.2174/0113892002358068250119052940",
+        "journal": "Current drug metabolism",
+        "year": "2024",
+        "rerank_score": 0.8348585963249207,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39891543",
+        "text": "Innovative buccal film delivery system for hypertension: Combining candesartan and hydrochlorothiazide. This study explores the development of buccal films as an innovative drug delivery system for hypertension management, combining candesartan cilexetil (CC) and hydrochlorothiazide (HCTZ). Utilizing a solvent casting technique, films were prepared with various polymers, including PVA, PVP, and CMC Na, and enhanced with plasticizers to improve solubility and bioavailability. The films were evaluated for phy",
+        "score": 0.43896037340164185,
+        "doi": "10.1177/08853282251317853",
+        "journal": "Journal of biomaterials applications",
+        "year": "2025",
+        "rerank_score": -0.03916177153587341,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40721914",
+        "text": "Development of Candesartan Cilexetil-sodium Carbonate Anhydrate-mesoporous Silica Solid Dispersion in Polymer-free System. Candesartan cilexetil (CDST) is used to treat hypertension; the drug belongs to the Biopharmaceutics Classification System (BCS class II) due to its low solubility in aqueous solutions. The commercial product, Atacand®Tab, contains 16 mg of CDST in a small tablet weighing approximately 130 mg. This study developed a polymer-free system by using a CDST solid dispersion (SD) of sodium car",
+        "score": 0.41764193773269653,
+        "doi": "10.1007/s11095-025-03897-1",
+        "journal": "Pharmaceutical research",
+        "year": "2025",
+        "rerank_score": -0.17987102270126343,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39924769",
+        "text": "Protective Effect of Carvedilol Against Oxidative Stress Induced by Palmitic Acid in Primary Rat Hepatocytes. Hepatocyte lipotoxicity (HL) is an important factor in the pathogenesis of Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD). It is defined as the detrimental effects of exposure to (excessive) amounts of toxic lipid species, leading to increased mitochondrial β-oxidation, oxidative stress (OxS), and organellar dysfunction. Carvedilol (CV) is a β-adrenergic blocker with antioxidant pr",
+        "score": 0.42361021041870117,
+        "doi": "10.1002/cbf.70057",
+        "journal": "Cell biochemistry and function",
+        "year": "2025",
+        "rerank_score": 5.058599472045898,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40321826",
+        "text": "Inhibitory effect of carvedilol on bedaquiline metabolism  Bedaquiline has recently been approved for the treatment of multidrug-resistant tuberculosis. Carvedilol is a cardiovascular medication extensively used in the treatment of heart failure and hypertension. In this study, Sprague-Dawley rats, rat liver microsomes (RLM), human liver microsomes (HLM), and recombinant human CYP3A4 were used to explore the effect of carvedilol on the metabolism of bedaquiline. Ultra-performance liquid chromatography-tande",
+        "score": 0.4250894784927368,
+        "doi": "10.7717/peerj.19313",
+        "journal": "PeerJ",
+        "year": "2024",
+        "rerank_score": 2.5084989070892334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40935111",
+        "text": "Improving the efficacy and targeting of carvedilol for the management of diabetes-accelerated atherosclerosis: An in vitro and in vivo assessment. Atherosclerosis is characterized by the accumulation of lipids and inflammation in large arteries. Diabetes mellitus significantly contributes to the initiation and progression of this condition. Carvedilol, an oral beta-adrenergic antagonist, is recognized for its ability to enhance arterial blood circulation and reduce hyperglycemia. However, its short half-lif",
+        "score": 0.45405587553977966,
+        "doi": "10.1016/j.ejphar.2025.178134",
+        "journal": "European journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 1.9627443552017212,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydrochlorothiazide NCC off-target binding",
+    "dimension": "off_target",
+    "target": "NCC"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40575829",
+        "text": "Transport and thiazide-inhibition mechanisms of the Na-Cl cotransporter: a structural perspective. The structures of the human sodium-chloride cotransporter (hNCC) and its complex with thiazide diuretics have been determined recently. This review summarizes key structural insights into NCC's transport and inhibition mechanisms. Recent studies revealed the structures of hNCC and its complex with thiazide diuretics, in inward-facing and outward-facing conformations, respectively. The structures of hNCC in two",
+        "score": 0.4071270227432251,
+        "doi": "10.1097/MNH.0000000000001099",
+        "journal": "Current opinion in nephrology and hypertension",
+        "year": "2025",
+        "rerank_score": -1.2039332389831543,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41315228",
+        "text": "The nucleobase guanine at the 3'-terminus of oligonucleotide RGLS4326 drives off-target AMPAR inhibition and CNS toxicity. Designing safe and effective oligonucleotide (ON) therapeutics requires thorough understanding of structural-activity relationship (SAR) with the intended on-target(s) as well as the unintended off-target(s). Despite encouraging pharmacodynamic activity in a Phase 1b study, development of the first-generation anti-miR-17 ON RGLS4326 for the treatment of autosomal dominant polycystic kid",
+        "score": 0.41547101736068726,
+        "doi": "10.1038/s41467-025-65799-5",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": -1.2115681171417236,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41229954",
+        "text": "Molecular insights into nilvadipine-hemoglobin interactions: conformational dynamics and binding mechanisms. Understanding the molecular basis of drug-protein interactions is essential for predicting pharmacokinetics and potential off-target effects. Here, we employ a combined experimental and computational approach to characterize the binding of Nilvadipine (a dihydropyridine calcium channel blocker) to hemoglobin (Hb). Using Soret band absorption and steady-state fluorescence spectroscopy across 298-310 K",
+        "score": 0.4295915365219116,
+        "doi": "10.1039/d5ra04162g",
+        "journal": "RSC advances",
+        "year": "2025",
+        "rerank_score": -1.3323192596435547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

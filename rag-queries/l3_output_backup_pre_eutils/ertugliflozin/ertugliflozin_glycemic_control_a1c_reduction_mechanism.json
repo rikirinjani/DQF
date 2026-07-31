@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38756434",
+        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
+        "score": 0.3758555054664612,
+        "doi": "10.2337/ds23-0052",
+        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
+        "year": "2024",
+        "rerank_score": 1.1717420816421509,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40451567",
+        "text": "Ertugliflozin induces vasodilation by inhibiting AMPK-mediated mitochondrial fission in vascular smooth muscle cells. Hypertension is a primary risk factor for cardiovascular disease. Recently, Ertugliflozin (Ertu), a new sodium-glucose cotransporter-2 (SGLT2) inhibitor, though primarily approved by the FDA as an antidiabetic agent, has been reported to lower blood pressure. However, whether Ertu directly regulates the contractility of arteries remains unknown. Here, we examined Ertu's effects on vascular f",
+        "score": 0.37894707918167114,
+        "doi": "10.1016/j.ejphar.2025.177784",
+        "journal": "European journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 0.3919612467288971,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39027339",
+        "text": "Empagliflozin alters lipid metabolism in the myocardium and liver in a prediabetes model with severe dyslipidemia. Recent studies suggest that empagliflozin reduces total and cardiovascular mortality in both diabetic and nondiabetic subjects. Although the exact mechanism is unclear, it is understood to positively affect myocardial energetics, including the metabolism of ketone bodies, lipids, and fatty acids. In this study, we compared empagliflozin effects on lipid metabolism in the heart and liver in a pr",
+        "score": 0.3686590790748596,
+        "doi": "10.3389/fphar.2024.1393946",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -1.6394041776657104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

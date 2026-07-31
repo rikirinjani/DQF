@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pioglitazone cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16466323",
+        "text": "Implications of rosiglitazone and pioglitazone on cardiovascular risk in patients with type 2 diabetes mellitus. Clinical data suggest that thiazolidinediones--specifically, rosiglitazone and pioglitazone--may improve cardiovascular risk factors through multiple mechanisms. Low insulin sensitivity has been described as an independent risk factor for coronary artery disease and cerebrovascular disease. Patients with insulin resistance often have several known risk factors, such as obesity, dyslipidemia, and ",
+        "score": 0.3949822187423706,
+        "doi": "10.1592/phco.26.2.168",
+        "journal": "Pharmacotherapy",
+        "year": "2006",
+        "rerank_score": 5.802857398986816,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39489056",
+        "text": "Pioglitazone increases risk of ischemic heart disease in patients with type 2 diabetes receiving insulin. Studies evaluating the cardiovascular safety of pioglitazone show inconsistent results and ischemic heart disease (IHD) risks associated with different anti-diabetic drugs added to metformin uncontrolled type 2 diabetes mellitus (T2DM) are not assessed. This study aimed to evaluate IHD risk associated with pioglitazone and/or insulin added to patients with metformin uncontrolled T2DM. Data were extracte",
+        "score": 0.4308260679244995,
+        "doi": "10.1016/j.jdiacomp.2024.108898",
+        "journal": "Journal of diabetes and its complications",
+        "year": "2024",
+        "rerank_score": 5.345178127288818,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31058962",
+        "text": "Cardiovascular Effects of Pioglitazone or Sulfonylureas According to Pretreatment Risk: Moving Toward Personalized Care. Hypoglycemic drugs with proven cardiovascular (CV) benefits are recommended for patients with type 2 diabetes and CV disease. Whether the beneficial effects extend to those at lower risk remains unclear.",
+        "score": 0.3947271704673767,
+        "doi": "10.1210/jc.2019-00361",
+        "journal": "The Journal of clinical endocrinology and metabolism",
+        "year": "2019",
+        "rerank_score": 5.061102390289307,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

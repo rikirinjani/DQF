@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Captopril ACE off-target binding",
+    "dimension": "off_target",
+    "target": "ACE"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40771165",
+        "text": "Multicenter Prospective Randomized, Double-Blind, Placebo-Controlled Pharmacodynamic Study of The Additional Antihypertensive Effect of the Drug in Patients With Uncontrolled Arterial Hypertension Against the Background of Taking Renin-Angiotensin-Aldosterone System Blockers. Aim     To evaluate the efficacy and safety of a single sublingual dose of captopril in patients with poor control of arterial hypertension (AH) despite continuous use of long-acting angiotensin-converting enzyme (ACE) inhibitors or an",
+        "score": 0.4727911353111267,
+        "doi": "10.18087/cardio.2025.7.n2984",
+        "journal": "Kardiologiia",
+        "year": "2025",
+        "rerank_score": -0.4768497049808502,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38908639",
+        "text": "The multi-dimensional impact of captopril modification on human serum albumin. Captopril is a thiol drug, widely used for the management of hypertension and cardiovascular diseases. Reactive thiols are found to covalently modify the cysteines of plasma proteins and affect their structure and function. Human serum albumin (HSA) is prone to undergo modification by various low molecular weight compounds, including drugs. Cysteine34 (Cys34) in HSA has a free thiol group with antioxidant properties, considered t",
+        "score": 0.4793620705604553,
+        "doi": "10.1016/j.ijbiomac.2024.133289",
+        "journal": "International journal of biological macromolecules",
+        "year": "2024",
+        "rerank_score": -1.8886784315109253,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12406020",
+        "text": "Captopril and quinapril reduce reactive oxygen species. Angiotensin-converting enzyme inhibitors may affect reactive oxygen species in humans in vitro and in vivo. In the present study we evaluated whether angiotensin-converting enzyme inhibitors may affect NAD(P)H oxidase activity.",
+        "score": 0.4385521709918976,
+        "doi": "10.1046/j.1365-2362.2002.01064.x",
+        "journal": "European journal of clinical investigation",
+        "year": "2002",
+        "rerank_score": -2.7612178325653076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41549823",
+        "text": "Pharmacokinetic Interaction Among Amlodipine, Losartan, and Chlorthalidone after a Single Oral Administration in Healthy Male Subjects. Antihypertensive drugs are more potent when administered in combinations of two or three different classes of drugs. The objective of this study was to evaluate the pharmacokinetic interaction among amlodipine, losartan, and chlorthalidone. A randomized, open-label, four-sequence, four-period, four-treatment, single-dose study was conducted in healthy Korean male subjects, ",
+        "score": 0.4214503765106201,
+        "doi": "10.1002/cpdd.70024",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": 3.148432731628418,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38374541",
+        "text": "Elimination profile of low-dose chlortalidone and its detection in hair for doping analysis-Implication for unintentional non-therapeutic exposure. Chlortalidone (CLT) is a thiazide-type diuretic with high affinity for the erythrocyte carbonic anhydrase. Therapeutically, it is mostly used to treat edema and hypertension due to liver cirrhosis, heart insufficiency, or renal dysfunction. Although diuretics and masking agents are prohibited by the World Anti-Doping Agency (WADA) at all times in sports, substan",
+        "score": 0.4321964979171753,
+        "doi": "10.1002/dta.3661",
+        "journal": "Drug testing and analysis",
+        "year": "2024",
+        "rerank_score": 2.750763416290283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41414781",
+        "text": "Innovative Analytical Methodologies for Quantification of Efonidipine HCl and Chlorthalidone: A Critical Review. A new fixed-dose combination of Efonidipine Hydrochloride Ethanolate (EFO) and Chlorthalidone (CHD) was approved by CDSCO in 2022 for the effective treatment of hypertension. While efonidipine is a dual L- and T-type calcium channel blocker, chlorthalidone is a thiazide-like diuretic. Numerous analytical techniques have been developed to enable accurate and dependable quantification in bulk, phar",
+        "score": 0.42622143030166626,
+        "doi": "10.1080/10408347.2025.2593506",
+        "journal": "Critical reviews in analytical chemistry",
+        "year": "2025",
+        "rerank_score": 1.9259083271026611,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

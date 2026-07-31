@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide amylin receptor off-target binding pathway",
+    "dimension": "off_target",
+    "target": "amylin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21224052",
+        "text": "Actions of β-amyloid protein on human neurons are expressed through the amylin receptor. Disruption of neurotoxic effects of amyloid β protein (Aβ) is one of the major, but as yet elusive, goals in the treatment of Alzheimer's disease (AD). The amylin receptor, activated by a pancreatic polypeptide isolated from diabetic patients, is a putative target for the actions of Aβ in the brain. Here we show that in primary cultures of human fetal neurons (HFNs), AC253, an amylin receptor antagonist, blocks electrop",
+        "score": 0.392919659614563,
+        "doi": "10.1016/j.ajpath.2010.11.022",
+        "journal": "The American journal of pathology",
+        "year": "2010",
+        "rerank_score": -1.4595465660095215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39454962",
+        "text": "Modulation of amylin and calcitonin receptor activation by hybrid peptides. Calcitonin peptide hormone controls calcium homeostasis by activating the calcitonin receptor. When the calcitonin receptor forms a complex with an accessory protein, the complex functions as the receptors for another peptide hormone amylin. The amylin receptors are the drug target for diabetes and obesity treatment. Since human amylin can produce aggregates, rat amylin that does not form aggregates has been commonly used for resear",
+        "score": 0.40051326155662537,
+        "doi": "10.1016/j.peptides.2024.171314",
+        "journal": "Peptides",
+        "year": "2024",
+        "rerank_score": -2.317248582839966,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39747115",
+        "text": "Structural insights into the regulation of monomeric and dimeric apelin receptor. The apelin receptor (APJR) emerges as a promising drug target for cardiovascular health and muscle regeneration. While prior research unveiled the structural versatility of APJR in coupling to Gi proteins as a monomer or dimer, the dynamic regulation within the APJR dimer during activation remains poorly understood. In this study, we present the structures of the APJR dimer and monomer complexed with its endogenous ligand apel",
+        "score": 0.3968031406402588,
+        "doi": "10.1038/s41467-024-55555-6",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": -3.0350842475891113,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

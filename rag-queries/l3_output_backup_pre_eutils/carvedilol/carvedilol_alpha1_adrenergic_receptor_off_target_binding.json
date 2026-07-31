@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol alpha1-adrenergic receptor off-target binding",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39786370",
+        "text": "Nonselective β-Adrenergic Receptor Inhibitors Impair Hematopoietic Regeneration in Mice and Humans after Hematopoietic Cell Transplants. Peripheral nerves promote mouse bone marrow regeneration by activating β2- and β3-adrenergic receptor signaling, raising the possibility that nonselective β-blockers could inhibit engraftment after hematopoietic cell transplants (HCT). We observed no effect of β-blockers on steady-state mouse hematopoiesis. However, mice treated with a nonselective β-blocker (carvedilol), ",
+        "score": 0.43471208214759827,
+        "doi": "10.1158/2159-8290.CD-24-0719",
+        "journal": "Cancer discovery",
+        "year": "2024",
+        "rerank_score": 2.1777021884918213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40720881",
+        "text": "Enhanced Sampling and Tailored Collective Variables Yield Reproducible Free Energy Landscapes of Beta-1 Adrenergic Receptor Activation. The beta-1 adrenergic receptor (ADRB1) is a critical target for cardiovascular drugs, yet our understanding of how it is activated remains incomplete. Capturing the concerted interplay of agonists, solvent, ions, and protein microswitches is a significant challenge for conventional simulation methods and is essential for unraveling this process. Here, we address this challe",
+        "score": 0.4224451780319214,
+        "doi": "10.1021/acs.jctc.5c00600",
+        "journal": "Journal of chemical theory and computation",
+        "year": "2025",
+        "rerank_score": 0.6447594165802002,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39363407",
+        "text": "Association Between Alpha-1 Adrenoreceptor Antagonist Use and Cognitive Impairment: A Systematic Review. Alpha-1 adrenergic receptor (α1-AR) antagonists are commonly used for management of benign prostatic hyperplasia or hypertension. Some studies have shown a potential link between α1-AR antagonist use and cognitive impairment. Given the conflicting data surrounding α1-AR antagonists association with cognitive dysfunction, we aim to systematically review the association of cognitive dysfunction with α1-AR ",
+        "score": 0.40861237049102783,
+        "doi": "10.5213/inj.2448266.133",
+        "journal": "International neurourology journal",
+        "year": "2024",
+        "rerank_score": 0.41915079951286316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

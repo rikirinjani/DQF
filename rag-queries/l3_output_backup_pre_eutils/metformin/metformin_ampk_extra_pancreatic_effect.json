@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin AMPK extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "AMPK"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39700591",
+        "text": "The effect of semaglutide combined with metformin on liver inflammation and pancreatic beta-cell function in patients with type 2 diabetes and non-alcoholic fatty liver disease. Type 2 diabetes mellitus (T2DM) and non-alcoholic fatty liver disease (NAFLD) were often coexistent conditions driven by insulin resistance and systemic inflammation. Effective management strategies that address both metabolic disorders were urgently needed. This study investigates the effect of combining semaglutide, a glucagon-lik",
+        "score": 0.42170587182044983,
+        "doi": "10.1016/j.jdiacomp.2024.108932",
+        "journal": "Journal of diabetes and its complications",
+        "year": "2024",
+        "rerank_score": 3.768310546875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38863255",
+        "text": "Effects of metformin on cancers in experimental and clinical studies: Focusing on autophagy and AMPK/mTOR signaling pathways. Metformin (MET) is a preferred drug for the treatment of type 2 diabetes mellitus. Recent studies show that apart from its blood glucose-lowering effects, it also inhibits the development of various tumours, by inducing autophagy. Various studies have confirmed the inhibitory effects of MET on cancer cell lines' propagation, migration, and invasion. The objective of the study was to ",
+        "score": 0.4205886721611023,
+        "doi": "10.1002/cbf.4071",
+        "journal": "Cell biochemistry and function",
+        "year": "2024",
+        "rerank_score": 3.471456527709961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38251680",
+        "text": "The Anti-Diabetic Drug Metformin Suppresses Pathological Retinal Angiogenesis via Blocking the mTORC1 Signaling Pathway in Mice (Metformin Suppresses Pathological Angiogenesis). Metformin, a biguanide antihyperglycemic drug, can exert various beneficial effects in addition to its glucose-lowering effect. The effects of metformin are mainly mediated by AMP-activated protein kinase (AMPK)-dependent pathway. AMPK activation interferes with the action of the mammalian target of rapamycin complex 1 (mTORC1), and",
+        "score": 0.41214436292648315,
+        "doi": "10.1080/02713683.2024.2302865",
+        "journal": "Current eye research",
+        "year": "2024",
+        "rerank_score": 3.415827989578247,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

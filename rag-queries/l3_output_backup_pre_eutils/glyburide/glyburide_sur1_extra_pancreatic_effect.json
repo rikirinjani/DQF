@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Glyburide SUR1 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40968190",
+        "text": "Using glucagon receptor antagonism to evaluate the physiological effects of extrapancreatic glucagon in totally pancreatectomised individuals: a randomised controlled trial. Previous studies have indicated that 29-amino-acid glucagon (i.e. 'pancreatic' glucagon) circulates in totally pancreatectomised individuals and that a postprandial glucagon response can be detected. Using a glucagon receptor antagonist (GRA), we investigated the possible role of extrapancreatic glucagon on glucose, lipid and amino acid",
+        "score": 0.44287562370300293,
+        "doi": "10.1007/s00125-025-06534-z",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 1.3055639266967773,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39333044",
+        "text": "Loxenatide Alleviates High Glucose-Induced Pancreatic β-Cell Senescence via Regulating the PERK/eIF2α Pathway. Glucagon-like peptide-1 (GLP-1) receptor agonists are effective hypoglycemic agents for type 2 diabetes mellitus (T2DM). It was reported that T2DM was implicated in pancreatic β-cell senescence. Whether loxenatide regulates cellular senescence of pancreatic β-cells is to be investigated. Our results revealed that high glucose (HG)-induced cellular senescence and elevated expression of SASP factors ",
+        "score": 0.4493439197540283,
+        "doi": "10.1055/a-2407-9360",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": -0.5443256497383118,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38782050",
+        "text": "Gluco-metabolic response to exogenous oxytocin in totally pancreatectomized patients and healthy individuals. Oxytocin has been proposed to possess glucose-stabilizing effects through the release of insulin and glucagon from the pancreas. Also, exogenous oxytocin has been shown to stimulate extrapancreatic glucagon secretion in depancreatized dogs. Here, we investigated the effect of exogenous oxytocin on circulating levels of pancreatic and gut-derived glucose-stabilizing hormones (insulin [measured as C-p",
+        "score": 0.4456532895565033,
+        "doi": "10.1016/j.peptides.2024.171242",
+        "journal": "Peptides",
+        "year": "2024",
+        "rerank_score": -1.1867610216140747,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

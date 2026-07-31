@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Gliclazide SUR1 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41524583",
+        "text": "Mechanistic insights into Gwt1-substrate interactions and antifungal drug discovery via molecular dynamics and virtual screening. Gwt1, an essential acyltransferase in the glycosylphosphatidylinositol (GPI) biosynthesis pathway, is a promising target for the development of high-selectivity antifungal agents. In this study, we combined molecular dynamics (MD) simulations and free energy calculations to characterize the binding mechanism of Gwt1 with its native substrate, palmitoyl-CoA. Our simulations identi",
+        "score": 0.44424837827682495,
+        "doi": "10.1080/07391102.2026.2613684",
+        "journal": "Journal of biomolecular structure & dynamics",
+        "year": "2026",
+        "rerank_score": 2.7072863578796387,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38912413",
+        "text": "Docking and molecular dynamic simulations of Mithramycin-A and Tolfenamic acid against Sp1 and survivin. Therapeutic targeting of Sp1 transcription factor and survivin, are studied in various cancers due to their consistent overexpression. These markers result in poorer cancer prognoses and their downregulation has been investigated as an effective treatment approach. Mithramycin-A and Tolfenamic acid are two drugs with innate anti-cancer properties and are suggested to be able to target Sp1 through GC/GT D",
+        "score": 0.4379647672176361,
+        "doi": "10.1016/j.procbio.2023.12.014",
+        "journal": "Process biochemistry (Barking, London, England)",
+        "year": "2024",
+        "rerank_score": -1.6277564764022827,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39000575",
+        "text": "Ligand-Receptor Interactions and Structure-Function Relationships in Off-Target Binding of the β The β",
+        "score": 0.4191998541355133,
+        "doi": "10.3390/ijms25137468",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": -1.7096890211105347,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

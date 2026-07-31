@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Spironolactone heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39242826",
+        "text": "Effects of spironolactone on exercise blood pressure in patients at increased risk of developing heart failure: report from the HOMAGE trial. None of the spironolactone trials in heart failure (HF) assessed the blood pressure (BP) responses to exercise, while conflicting results were reported for exercise capacity. In the HOMAGE trial, 527 patients at increased HF risk were randomized to usual treatment with or without spironolactone (25-50 mg/day). The current substudy included 113 controls and 114 patient",
+        "score": 0.4234550893306732,
+        "doi": "10.1038/s41440-024-01843-z",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2024",
+        "rerank_score": 1.374359130859375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41206480",
+        "text": "Weekly Journal Scan: spironolactone does not ACHIEVE reduction of cardiovascular outcomes in dialysis patients.",
+        "score": 0.4429510831832886,
+        "doi": "10.1093/eurheartj/ehaf797",
+        "journal": "European heart journal",
+        "year": "2025",
+        "rerank_score": -1.7519606351852417,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38419259",
+        "text": "The paradox of spironolactone: A heart failure treatment with potentially harmful effects.",
+        "score": 0.40184977650642395,
+        "doi": "10.47391/JPMA.10270",
+        "journal": "JPMA. The Journal of the Pakistan Medical Association",
+        "year": "2024",
+        "rerank_score": -1.9923330545425415,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

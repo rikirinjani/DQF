@@ -1,0 +1,29 @@
+{
+  "a1c_reduction": 3,
+  "weight_effect": 2,
+  "cv_outcome_benefit": 2,
+  "renal_benefit": 1,
+  "gi_tolerability": 3,
+  "ddi_risk": 1,
+  "hypoglycemia_risk": 3,
+  "_evidence": {
+    "pmids": [
+      "10522841",
+      "11157993",
+      "11190420",
+      "12083976",
+      "15989662",
+      "20406215",
+      "22268393",
+      "33106149",
+      "41267359",
+      "9739505"
+    ],
+    "source_count": 12,
+    "finding_count": 20,
+    "pool_relevance_pct": 40.8,
+    "filtered_off_drug": 29,
+    "relevance_gate": "pass"
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

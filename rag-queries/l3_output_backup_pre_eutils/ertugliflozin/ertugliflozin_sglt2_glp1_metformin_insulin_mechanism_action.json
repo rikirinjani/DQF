@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ertugliflozin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34776344",
+        "text": "[Impact of dapagliflozin on cardiovascular risk factors. Beyond glycemic control]. Sodium-glucose transport protein 2 (SGLT2) inhibitors are a new class of oral hypoglycemic agents that increase urinary glucose excretion independently of insulin secretion, although an apparently simple mechanism, but with multiple metabolic effects. Dapagliflozin was the first SGLT2 inhibitor marketed in Europe in 2012 for the treatment of patients with type 2 diabetes, and consequently, with the greatest clinical experienc",
+        "score": 0.33935511112213135,
+        "doi": "10.1016/j.semerg.2021.09.009",
+        "journal": "Semergen",
+        "year": "2021",
+        "rerank_score": 4.363961696624756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40406484",
+        "text": "Reduced abundance of  The sodium glucose cotransporter 2 inhibitor (SGLT2i) dapagliflozin has been demonstrated cardiovascular benefits in patients with type 2 diabetes mellitus (T2DM). However, the underlying mechanism remains poorly understood. We conducted an 8-week, single-arm clinical trial, which enrolled 12 patients with inadequate glycemic control on metformin monotherapy. These patients were treated with SGLT2i dapagliflozin (10 mg/day). We assessed changes in clinical parameters pertinent to gluco",
+        "score": 0.34578949213027954,
+        "doi": "10.3389/fphar.2025.1600464",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 4.180774211883545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41522902",
+        "text": "Comparative Effect of SGLT2 Inhibitors and GLP-1 Agonists on Glycemic Control in Type 2 Diabetes Mellitus. The goal of this study was to find out how SGLT2 inhibitors and GLP-1 receptor agonists help persons with Type 2 Diabetes Mellitus (T2DM) keep their blood sugar levels stable. There were 120 people in the trial. They were randomly given either empagliflozin, Canagliflozin, Dapagliflozin, Ertugliflozin, Bexagliflozin, Sotagliflozin (an SGLT2 inhibitor) or liraglutide, Sitagliptin, Saxagliptin, Linaglipt",
+        "score": 0.358530730009079,
+        "doi": "10.4103/jpbs.jpbs_1334_25",
+        "journal": "Journal of pharmacy & bioallied sciences",
+        "year": "2025",
+        "rerank_score": 3.677088737487793,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

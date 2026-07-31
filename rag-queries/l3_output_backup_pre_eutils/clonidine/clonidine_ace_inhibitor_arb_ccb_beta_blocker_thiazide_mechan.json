@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine ACE inhibitor ARB CCB beta blocker thiazide mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40830368",
+        "text": "Molecular mechanisms of thiazide-like diuretics-mediated inhibition of the human Na-Cl cotransporter. Thiazide-type and thiazide-like diuretics are structurally distinct first-line antihypertensive drugs that target the sodium-chloride cotransporter (NCC) in the kidney. Thiazide-like diuretics are reported to have better cardioprotective effects than thiazide-type diuretics, but whether this is due to differences in NCC-inhibition mechanisms, if there is any, remains unclear. To understand the molecular mec",
+        "score": 0.4343413710594177,
+        "doi": "10.1038/s41467-025-62714-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 1.470937728881836,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39206783",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats. Diuretics, including thiazides and thiazide-like drugs, are commonly recommended for treating hypertension, though their precise mechanism of action is not fully understood. This study aimed to investigate the pharmacological effects of trichloromethiazide (TCM) in malignant stroke-prone spontaneously hypertensive rats (M-SHRSP). M-SHRSPs w",
+        "score": 0.41968220472335815,
+        "doi": "10.1097/HJH.0000000000003837",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -0.7466207146644592,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39625002",
+        "text": "Mechanisms of thiazide-induced hypertension treatment: insights from gene expression and histological analysis in malignant stroke-prone spontaneously hypertensive rats.",
+        "score": 0.4288516640663147,
+        "doi": "10.1097/HJH.0000000000003881",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": -1.1158256530761719,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

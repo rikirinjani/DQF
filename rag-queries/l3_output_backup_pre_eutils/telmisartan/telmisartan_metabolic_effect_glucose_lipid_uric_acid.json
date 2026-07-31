@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40571828",
+        "text": "Effect of losartan on uric acid metabolism in children with proteinuric kidney disease: crossover randomized controlled clinical trial. Low uric acid (UA) levels are desirable in kidney disease. Enalapril is the most used reno-protective drug; losartan has a similar antihypertensive and antiproteinuric effect, but also induces hyperuricosuria due to tubular urate transporter 1 inhibition. As this effect has not been demonstrated in paediatrics, we assessed if losartan reduces serum UA in children, owing to ",
+        "score": 0.3866361975669861,
+        "doi": "10.1007/s00467-025-06754-w",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2025",
+        "rerank_score": 2.487022638320923,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.40967100858688354,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.8567923307418823,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39480548",
+        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
+        "score": 0.414949506521225,
+        "doi": "10.1007/s00204-024-03901-4",
+        "journal": "Archives of toxicology",
+        "year": "2024",
+        "rerank_score": 0.134525865316391,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

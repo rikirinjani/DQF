@@ -1,0 +1,74 @@
+{
+  "query": {
+    "query": "NSAID Meloxicam gastrointestinal mucosal injury mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11566042",
+        "text": "COX-1 and COX-2 inhibitors.\n\nBy inhibiting prostaglandin synthesis, non-steroidal anti-inflammatory drugs (NSAIDs) cause mucosal damage, ulceration and ulcer complication throughout the gastrointestinal tract. The recognition that there are two cyclo-oxygenase enzymes, one predominating at sites of inflammation (COX-2) and one constitutively expressed in the gastrointestinal tract (COX-1), has led to the important therapeutic development of COX-2 inhibitors. COX-2 is phylogenetically more primitive that COX-1 and, while very similar, has critical differences, particularly the existence of a small pocket half way down the active enzyme site. A number of drugs achieve selectivity by binding to this pocket, including presumptively rofecoxib and celecoxib. Others, such as meloxicam, may inhibit COX-2 by different mechanisms. Truly selective COX-2 inhibitors have been shown to have no effect on gastric mucosal prostaglandin synthesis, to cause no acute injury, and no chronic ulceration compared to placebo. Rofecoxib has, in a prospective systematic evaluation involving 8076 patients, been shown to reduce clinically significant ulcers, ulcer complications and gastrointestinal bleeding significantly compared to naproxen. Outcomes data for celecoxib have also been published although differences from the combined comparator agents (diclofenac and ibuprofen) did not reach statistical significance. Use of aspirin in the class study has shown that the benefits of COX-2 inhibitors may be reduced by aspirin use. The VIGOR study has raised the possibility that some NSAIDs, particularly naproxen, may protect against vascular disease compared to COX-2 inhibitors (or placebo).",
+        "title": "COX-1 and COX-2 inhibitors.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "11566042",
+          "journal": "Best practice & research. Clinical gastroenterology",
+          "authors": [
+            "Hawkey C J"
+          ],
+          "pub_date": "2001-Oct",
+          "doi": "10.1053/bega.2001.0236",
+          "mesh_terms": [
+            "Celecoxib",
+            "Cyclooxygenase 1",
+            "Cyclooxygenase 2",
+            "Cyclooxygenase 2 Inhibitors",
+            "Cyclooxygenase Inhibitors",
+            "Humans",
+            "Isoenzymes",
+            "Lactones",
+            "Membrane Proteins",
+            "Peptic Ulcer",
+            "Prostaglandin-Endoperoxide Synthases",
+            "Pyrazoles",
+            "Sulfonamides",
+            "Sulfones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:10882157",
+        "text": "COX-2 selective nonsteroidal anti-Inflammatory drugs: do they really offer any advantages?\n\nNonsteroidal anti-inflammatory drugs (NSAIDs) are responsible for substantial morbidity and mortality as a result of the complications associated with gastroduodenal ulcers, such as perforation and bleeding. The central mechanism leading to the gastroduodenal toxicity of NSAIDs is their ability to inhibit mucosal prostaglandin synthesis. Recent recognition that there are 2 isoforms of the enzyme cyclooxygenase (COX) responsible for prostaglandin synthesis has enabled the development of drugs capable of sparing the gastric mucosa. The inducible COX-2 enzyme is responsible for some aspects of pain and inflammation in arthritis while the constitutive COX-1 enzyme appears responsible for most of the gastro-protective prostaglandin synthesis in the stomach and duodenum. Drugs selective for COX-2 probably act by binding to a pocket in the enzyme that is present in COX-2 but not in COX-1. As a result, drugs that have little or no COX-1 activity across their therapeutic dosage range have been developed. Two drugs that are claimed to be highly selective or specific in their ability to inhibit COX-2, rofecoxib and celecoxib, are now available on prescription in the US and rofecoxib is available in Europe. Short term volunteer studies of 7 days' duration and patient studies of 6 months' duration have shown these drugs to have a level of gastroduodenal injury that is similar or equivalent to that seen with placebo, whereas high rates of damage and ulceration are seen with nonselective NSAIDs. In addition, there appear to have been fewer perforations, clinical ulcers and bleeds in the phase III clinical trials of these agents, compared with nonselective NSAIDS. However, more experience will be needed before this promise can be confirmed. In addition, COX-2 inhibitors share the adverse effects of NSAIDs outside the gastrointestinal tract that are dependent on COX-2 inhibition.",
+        "title": "COX-2 selective nonsteroidal anti-Inflammatory drugs: do they really offer any advantages?",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10882157",
+          "journal": "Drugs",
+          "authors": [
+            "Jackson L M",
+            "Hawkey C J"
+          ],
+          "pub_date": "2000-Jun",
+          "doi": "10.2165/00003495-200059060-00001",
+          "mesh_terms": [
+            "Animals",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Celecoxib",
+            "Cyclooxygenase Inhibitors",
+            "Enzyme Inhibitors",
+            "Etodolac",
+            "Humans",
+            "Lactones",
+            "Meloxicam",
+            "Pyrazoles",
+            "Sulfonamides",
+            "Sulfones",
+            "Thiazines",
+            "Thiazoles"
+          ]
+        }
+      }
+    ]
+  }
+}

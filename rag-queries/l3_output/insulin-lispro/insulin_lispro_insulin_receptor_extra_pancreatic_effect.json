@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro insulin receptor extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "insulin receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41292908",
+        "text": "Somatostatin Receptors Shape Insulin and Glucagon Output within the Pancreatic Islet through Direct and Paracrine Effects. Pancreatic delta cells secrete somatostatin (SST), which can inhibit both alpha and beta cells of the pancreatic islet. By controlling insulin and glucagon release, delta cells play an important role in maintaining nutrient homeostasis. However, the mechanism by which a single inhibitory hormone inhibits both alpha and beta cells, which are often considered as functional antagonists in ",
+        "score": 0.38777613639831543,
+        "doi": "10.1101/2025.11.13.688371",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2025",
+        "rerank_score": 0.9060683250427246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40894772",
+        "text": "Free fatty acid receptor 4 agonists stimulate insulin secretion via different mechanisms in mouse versus human islets. The free fatty acid receptor FFAR4 is expressed in pancreatic islets, and its activation potentiates insulin and inhibits somatostatin (SST) secretion. We investigated the mechanisms of action of FFAR4 on hormone secretion in mouse and human islets. The effects of the FFAR4 agonist Compound A (Cpd A) on insulin and SST secretion were investigated in islets from mice following ablation of δ ",
+        "score": 0.38797467947006226,
+        "doi": "10.1101/2025.08.15.670586",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2025",
+        "rerank_score": 0.6393944025039673,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39351487",
+        "text": "Loss of insulin receptor isoform B impairs proinsulin processing in pancreatic β cells.",
+        "score": 0.371044397354126,
+        "doi": "10.1016/j.metop.2024.100309",
+        "journal": "Metabolism open",
+        "year": "2024",
+        "rerank_score": -0.05349248647689819,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

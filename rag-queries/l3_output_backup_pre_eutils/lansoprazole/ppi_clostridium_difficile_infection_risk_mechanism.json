@@ -1,0 +1,50 @@
+{
+  "query": {
+    "query": "PPI Clostridium difficile infection risk mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18054750",
+        "text": "Use of acid-suppressing drugs and the risk of bacterial gastroenteritis.\n\nGastric acid is a defense mechanism against gastrointestinal infections caused by ingested bacteria. Studies have suggested that the use of acid-suppressing drugs may increase the risk of gastroenteritis (GE).\nPatients aged 20-74 years with an episode of acute bacterial GE (n = 6414) were identified. A control group from the same study population without a diagnosis of GE (n = 50,000) was frequency-matched by age, sex, and calendar year to the case group. Unconditional logistic regression was used to calculate the adjusted relative risk (RR) of GE in patients using proton pump inhibitors (PPIs) or histamine-2 receptor antagonists (H2RAs).\nCurrent use of PPIs was associated with an increased risk of bacterial GE compared with nonuse, regardless of the treatment duration (RR, 2.9; 95% confidence interval [CI], 2.5-3.5), whereas no association was observed with H2RA use (RR, 1.1; 95% CI, 0.9-1.4). Doubling the PPI dose further increased the risk of developing bacterial GE (RR, 5.0; 95% CI, 2.7-9.3). The effect of PPI use did not vary significantly with regard to treatment indication. The increased risk associated with PPI use was similar for both omeprazole (RR, 3.0; 95% CI, 2.5-3.7) and lansoprazole (RR, 2.1; 95% CI, 1.4-3.0), whereas neither cimetidine nor ranitidine showed any increased risk. Campylobacter (n = 4124) and Salmonella (n = 1885) were the 2 species most frequently responsible for GE episodes in the case group. When analyzed separately, both species reproduced the increased risk associated with PPI use and not H2RA use. Clostridium GE cases were rare (n = 31).\nThis study suggests that gastric acid suppression induced by PPIs but not H2RAs is associated with an increased risk of Campylobacter and Salmonella GE.",
+        "title": "Use of acid-suppressing drugs and the risk of bacterial gastroenteritis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "18054750",
+          "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+          "authors": [
+            "García Rodríguez Luis Alberto",
+            "Ruigómez Ana",
+            "Panés Julián"
+          ],
+          "pub_date": "2007-Dec",
+          "doi": "10.1016/j.cgh.2007.09.010",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adult",
+            "Aged",
+            "Bacterial Infections",
+            "Enzyme Inhibitors",
+            "Female",
+            "Follow-Up Studies",
+            "Gastric Acid",
+            "Gastroenteritis",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Incidence",
+            "Lansoprazole",
+            "Male",
+            "Middle Aged",
+            "Omeprazole",
+            "Proton Pump Inhibitors",
+            "Retrospective Studies",
+            "Risk Factors",
+            "United Kingdom"
+          ]
+        }
+      }
+    ]
+  }
+}

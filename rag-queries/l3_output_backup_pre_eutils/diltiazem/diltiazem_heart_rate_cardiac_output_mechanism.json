@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Diltiazem heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40052260",
+        "text": "Heart Rate Reduction Is Associated With Reverse Left Ventricular Remodeling and Mechanism-Specific Molecular Phenotypes in Dilated Cardiomyopathy. Heart rate (HR) affects heart failure outcomes, via uncertain mechanisms that may include left ventricular remodeling. However, in human ventricular myocardium, HR change has not been associated with a particular remodeling molecular phenotype. Patients with nonischemic dilated cardiomyopathy (N=22) in sinus rhythm and refractory to β-blockade for both HR lowerin",
+        "score": 0.4100790023803711,
+        "doi": "10.1161/CIRCHEARTFAILURE.124.012484",
+        "journal": "Circulation. Heart failure",
+        "year": "2025",
+        "rerank_score": 0.8065003752708435,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281212",
+        "text": "Extracardiac mechanisms of cardiac output affect unexplained dyspnea on exertion.",
+        "score": 0.40514668822288513,
+        "doi": "10.1038/s41440-025-02224-w",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -2.253082275390625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40399146",
+        "text": "Reader Comment Regarding Reducing diltiazem-related hypotension in atrial fibrillation: Role of pretreatment intravenous calcium.",
+        "score": 0.412808895111084,
+        "doi": "10.1016/j.ajem.2025.04.064",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -3.8057518005371094,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

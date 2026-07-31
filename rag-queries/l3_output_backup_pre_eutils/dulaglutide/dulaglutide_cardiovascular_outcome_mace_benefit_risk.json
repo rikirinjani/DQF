@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dulaglutide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35546790",
+        "text": "Effect of expanded dulaglutide weekly doses (3.0 mg and 4.5 mg) on cardiovascular disease risk factors in participants with type 2 diabetes at increased cardiovascular disease risk: a post hoc analysis of the AWARD-11 study. This post hoc analysis investigated the effect of dulaglutide on cardiovascular disease (CVD) risk factors in subgroups of participants at increased CVD risk in the AWARD-11 study.",
+        "score": 0.3836776316165924,
+        "doi": "10.1111/dom.14762",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2022",
+        "rerank_score": 4.634056091308594,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33606902",
+        "text": "Applying REWIND cardiovascular disease criteria to SUSTAIN 6 and PIONEER 6: An exploratory analysis of cardiovascular outcomes with semaglutide. In the REWIND trial, dulaglutide reduced cardiovascular (CV) risk versus placebo in patients with type 2 diabetes in both the \"established CV disease\" (CVD) and \"CV risk factor\" subgroups. The SUSTAIN 6 and PIONEER 6 trials of semaglutide used different criteria for established CVD from those used in REWIND. The present post hoc analysis assessed the effect of sema",
+        "score": 0.37908172607421875,
+        "doi": "10.1111/dom.14360",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2021",
+        "rerank_score": 4.359763145446777,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32366578",
+        "text": "Cardiovascular Risk Reduction With Liraglutide: An Exploratory Mediation Analysis of the LEADER Trial. The Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) trial (ClinicalTrials.gov reg. no. NCT01179048) demonstrated a reduced risk of cardiovascular (CV) events for patients with type 2 diabetes who received the glucagon-like peptide 1 receptor agonist liraglutide versus placebo. The mechanisms behind this CV benefit remain unclear. We aimed to identify potenti",
+        "score": 0.3785950541496277,
+        "doi": "10.2337/dc19-2251",
+        "journal": "Diabetes care",
+        "year": "2019",
+        "rerank_score": 3.646151542663574,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

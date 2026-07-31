@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40692772",
+        "text": "Decoding Drug Interactions: Character and Degree of Pharmacokinetic Interactions Between Telmisartan and Sorafenib or Donafenib in Rats. Sorafenib and lenvatinib play a significant role as small molecule targeted drugs in the treatment of advanced hepatocellular carcinoma. However, both drugs are most commonly associated with hypertension as a side effect, frequently needing antihypertensive treatment. Telmisartan, an antagonist of angiotensin II receptor, can attenuate sorafenib- or donafenib-induced hyper",
+        "score": 0.4272034168243408,
+        "doi": "10.2147/DDDT.S524048",
+        "journal": "Drug design, development and therapy",
+        "year": "2025",
+        "rerank_score": 3.1053354740142822,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39480548",
+        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
+        "score": 0.41170376539230347,
+        "doi": "10.1007/s00204-024-03901-4",
+        "journal": "Archives of toxicology",
+        "year": "2024",
+        "rerank_score": 2.1315088272094727,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38974125",
+        "text": "Pharmacokinetic Interactions Between the Fixed-Dose Combination of Ezetimibe/Rosuvastatin 10/20 Mg and the Fixed-Dose Combination of Telmisartan/Amlodipine 80/5 Mg in Healthy Subjects. Management of hypertension and hyperlipidemia, which are common comorbid risk factors for cardiovascular diseases, require multiple medications. The development of a fixed-dose combination (FDC) containing ezetimibe, rosuvastatin, telmisartan, and amlodipine aims to enhance patient adherence and persistence, but the potential",
+        "score": 0.43007057905197144,
+        "doi": "10.2147/DDDT.S465652",
+        "journal": "Drug design, development and therapy",
+        "year": "2024",
+        "rerank_score": 1.2229083776474,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

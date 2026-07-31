@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.33053478598594666,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 4.385615825653076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40737402",
+        "text": "Low-dose metformin requires brain Rap1 for its antidiabetic action. Metformin is the most commonly prescribed antidiabetes drug, yet its precise mechanism of action remains controversial. Previous studies have suggested that metformin acts peripherally by reducing hepatic glucose output and altering gut functions. Here, we report a neural mechanism via the small guanosine triphosphatase Ras-related protein 1 (Rap1). Mice with forebrain-specific",
+        "score": 0.3474767804145813,
+        "doi": "10.1126/sciadv.adu3700",
+        "journal": "Science advances",
+        "year": "2025",
+        "rerank_score": 1.996445894241333,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39829685",
+        "text": "Metformin Improves Glycemic Control and Postprandial Metabolism and Enhances Postprandial Glucagon-Like Peptide 1 Secretion in Patients With Type 2 Diabetes and Heart Failure: A Randomized, Double-Blind, Placebo-Controlled Trial. This randomized trial tested the effect of metformin on glycemic control and cardiac function in patients with heart failure (HF) and type 2 diabetes while evaluating intestinal effects on selected gut microbiome products reflected by trimethylamine-N-oxide (TMAO) and gut-derived i",
+        "score": 0.36420267820358276,
+        "doi": "10.2337/cd24-0003",
+        "journal": "Clinical diabetes : a publication of the American Diabetes Association",
+        "year": "2025",
+        "rerank_score": 1.7577439546585083,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

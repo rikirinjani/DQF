@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Atenolol beta1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "beta1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39617314",
+        "text": "Beta-adrenergic blockade via atenolol negatively affects body and heart mass and renal morphology in the developing chicken (Gallus Gallus Domesticus). Atenolol is a widely prescribed β",
+        "score": 0.4272513687610626,
+        "doi": "10.1016/j.cbpc.2024.110089",
+        "journal": "Comparative biochemistry and physiology. Toxicology & pharmacology : CBP",
+        "year": "2024",
+        "rerank_score": 3.048475980758667,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40160309",
+        "text": "Association between beta-1-adrenoceptor blockade and risk of Raynaud's phenomenon: Mendelian randomisation study. Raynaud's phenomenon is a common vasospastic disorder associated with reduced health-related quality of life and, occasionally, ischaemic tissue damage depending on aetiology. The effect of beta-1-adrenoceptor blockers (e.g. bisoprolol, atenolol) on Raynaud's phenomenon remains unclear. We aimed to assess the association between genetically mimicked beta-1-adrenoceptor blockade and the risk of R",
+        "score": 0.45022135972976685,
+        "doi": "10.1177/23971983241312543",
+        "journal": "Journal of scleroderma and related disorders",
+        "year": "2024",
+        "rerank_score": 0.9888555407524109,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39539558",
+        "text": "Association between beta-blocker atenolol use and prostate cancer upgrading in active surveillance. The objective of this study is to investigate the association between the use of beta-adrenergic antagonist atenolol and risk of pathologic upgrade in patients on active surveillance, considering growing literature implicating adrenergic innervation with disease progression mediated through beta-adrenergic signalling. Men with low-risk or favourable intermediate-risk prostate cancer who were placed on an acti",
+        "score": 0.3869500160217285,
+        "doi": "10.1002/bco2.441",
+        "journal": "BJUI compass",
+        "year": "2024",
+        "rerank_score": 0.6260571479797363,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

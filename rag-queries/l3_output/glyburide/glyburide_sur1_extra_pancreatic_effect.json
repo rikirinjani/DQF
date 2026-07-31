@@ -1,0 +1,122 @@
+{
+  "query": {
+    "query": "Glyburide SUR1 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SUR1"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34844502",
+        "text": "Emerging therapeutic targets for cerebral edema.\n\nCerebral edema is a key contributor to death and disability in several forms of brain injury. Current treatment options are limited, reactive, and associated with significant morbidity. Targeted therapies are emerging based on a growing understanding of the molecular underpinnings of cerebral edema.\nWe review the pathophysiology and relationships between different cerebral edema subtypes to provide a foundation for emerging therapies. Mechanisms for promising molecular targets are discussed, with an emphasis on those advancing in clinical trials, including ion and water channels (AQP4, SUR1-TRPM4) and other proteins/lipids involved in edema signaling pathways (AVP, COX2, VEGF, and S1P). Research on novel treatment modalities for cerebral edema [including recombinant proteins and gene therapies] is presented and finally, insights on reducing secondary injury and improving clinical outcome are offered.\nTargeted molecular strategies to minimize or prevent cerebral edema are promising. Inhibition of SUR1-TRPM4 (glyburide/glibenclamide) and VEGF (bevacizumab) are currently closest to translation based on advances in clinical trials. However, the latter, tested in glioblastoma multiforme, has not demonstrated survival benefit. Research on recombinant proteins and gene therapies for cerebral edema is in its infancy, but early results are encouraging. These newer modalities may facilitate our understanding of the pathobiology underlying cerebral edema.",
+        "title": "Emerging therapeutic targets for cerebral edema.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "34844502",
+          "journal": "Expert opinion on therapeutic targets",
+          "authors": [
+            "Jha Ruchira M",
+            "Raikwar Sudhanshu P",
+            "Mihaljevic Sandra"
+          ],
+          "pub_date": "2021-Nov",
+          "doi": "10.1080/14728222.2021.2010045",
+          "mesh_terms": [
+            "Brain Edema",
+            "Glyburide",
+            "Humans",
+            "Sulfonylurea Receptors",
+            "TRPM Cation Channels"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40510018",
+        "text": "Sexually Dimorphic Responses Reveal Multifaceted Benefits of Glibenclamide in Traumatic Brain Injury.\n\nSex disparities in traumatic brain injury (TBI) remain poorly understood. Previous data suggest that males are more susceptible to acute secondary injury processes and cell death, whereas females are more vulnerable chronically. Additional sex-based differences have been reported depending on injury model/severity and post-traumatic neurodegeneration. This gap in understanding limits therapy translation. We previously demonstrated sex-based differences in genetic modulation of a key pathway of secondary injury in TBI, sulfonylurea-receptor 1 (SUR1). Glibenclamide (GLI, SUR1-inhibitor) has shown promise in pre-clinical and early clinical studies of TBI and stroke. Here, we evaluated GLI's modulation of multifaceted TBI outcomes across sex for the first time. In total, 120 mice were randomized to controlled cortical impact (CCI) ± GLI or vehicle (dimethyl sulfoxide, DMSO). Either vehicle or GLI treatment was administered post-CCI using an intraperitoneal (IP) loading dose (10 µg/mouse, 10 min post-TBI), followed by a 7-day subcutaneous maintenance infusion at 0.5 µL/h using ALZET mini-osmotic pumps (1007D, Durect Corp.). Mice were tested for cognitive function (Morris water maze, MWM), motor function (rotarod), anxiety (elevated plus maze, EPM), immunofluorescence markers of neurodegeneration (TAU, TDP43), neurogenesis (SOX2, Ki67), angiogenesis (VEGFA), and cerebral blood flow (CBF) to interrogate behavioral, molecular, and physiological effects of TBI and therapy. Different measures within behavioral, immunofluorescence, and CBF outcomes varied across sex, either post-CCI and/or in response to GLI. Motor impairment had baseline differences across sex post-CCI. In both sexes, behavioral deficits were improved by GLI. The effect of GLI on behavior was moderated by sex, with greater benefit in males versus females, including improved MWM latency (ptreatment*sex_interaction < 0.0001) and rotarod latency (ptreatment*sex_interaction = 0.016, revolutions per minute, ptreatment*sex_interaction = 0.03). Males had increased anxiety post-CCI (EPM); GLI was beneficial across sexes. TDP43 and TAU in several brain regions were increased 72 h post-CCI (males>females, all p < 0.0001). These remained markedly elevated only in females by 21 days, whereas TAU in males decreased without treatment. GLI downregulated TDP43 and TAU across sex and brain region (all p < 0.01-0.0001). In females only, DMSO had similar effects as GLI on TDP43 and TAU. SOX2 was increased in the dentate gyrus (DG) only in males post-CCI (p72h < 0.01, p21d < 0.001). GLI increased DG SOX2 in females (p72h < 0.05, p21d < 0.001). GLI increased VEGFA at 72 h across sexes. CCI reduced CBF acutely in both sexes; in males, GLI improved this by 21 days (p = 0.031). In females, both GLI and DMSO-vehicle benefited CBF versus untreated-CCI. We demonstrate novel sex-based differences post-CCI and GLI-response across several metrics. TAU was chronically elevated (and responsive to treatment) in females, not males, potentially providing a sex-specific target. DMSO may have previously unrecognized benefits on certain pathways (TAU, CBF) in females. Although GLI has multifaceted benefits across sexes, effects are more pronounced in males. This may have important implications for clinical trial study design and analysis.",
+        "title": "Sexually Dimorphic Responses Reveal Multifaceted Benefits of Glibenclamide in Traumatic Brain Injury.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40510018",
+          "journal": "Journal of neurotrauma",
+          "authors": [
+            "Rani Anupama",
+            "Raikwar Sudhanshu P",
+            "Yoo Wonsuk"
+          ],
+          "pub_date": "2025-Aug",
+          "doi": "10.1089/neu.2024.0232",
+          "mesh_terms": [
+            "Animals",
+            "Brain Injuries, Traumatic",
+            "Mice",
+            "Male",
+            "Female",
+            "Sex Characteristics",
+            "Glyburide",
+            "Mice, Inbred C57BL",
+            "Neuroprotective Agents"
+          ]
+        }
+      },
+      {
+        "id": "PMID:41239869",
+        "text": "SUR1-TRPM4 is expressed in human epilepsy and promotes neuron hyperactivity and seizures in rodents.\n\nOne-third of epilepsy patients do not achieve sufficient seizure freedom with current standard anti-seizure medications. Better understanding of the pathological mechanisms contributing to epileptogenesis is thus necessary to improve current therapies. SUR1-TRPM4 is a depolarizing ion channel minimally expressed in a healthy brain that is upregulated de novo in neurons and glia after epileptogenic CNS injuries such as traumatic brain injury and stroke. However, its role in epilepsy is not well understood. Here, we demonstrate using immunofluorescent microscopy that SUR1-TRPM4 expression is elevated in neurons within an electrographically sorted human epileptic brain compared with a non-epileptic brain obtained after resection from six drug-resistant temporal lobe epilepsy patients. Additionally, we utilized immunofluorescence and co-immunoprecipitation to observe that SUR1-TRPM4 is upregulated within the hippocampus and temporal cortex in mice after pentylenetetrazol (PTZ) kindling, a chronic model of rodent epilepsy. Pharmacologic inhibition of SUR1-TRPM4 using either the US Food and Drug Administration (FDA)-approved drug glyburide or 9-phenanthrol, as well as either constitutive or neuron-specific knockout of this channel, attenuated chronic seizure development in this model. Exogenous overexpression of SUR1-TRPM4 by plasmid transfection in neurons in vitro increased neuronal hyperexcitability in response to low Mg2+ stimulation, while pharmacologic inhibition of endogenous TRPM4 attenuated neuronal population hyperexcitation. Collectively, our results reveal that elevated SUR1-TRPM4 expression found in human and rodent epileptic neurons promotes chronic seizures by increasing neuronal excitation. These findings directly support clinical investigation of SUR1-TRPM4 inhibitors as potential anti-seizure therapies in epilepsy patients and suggest further investigations into the contribution of SUR1-TRPM4 to seizures induced by specific epileptogenic insults, such as traumatic brain injury (TBI), are warranted.",
+        "title": "SUR1-TRPM4 is expressed in human epilepsy and promotes neuron hyperactivity and seizures in rodents.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "41239869",
+          "journal": "Brain : a journal of neurology",
+          "authors": [
+            "Moyer Mitchell B",
+            "Ivanova Svetlana",
+            "Keledjian Kaspar"
+          ],
+          "pub_date": "2026-Jun-03",
+          "doi": "10.1093/brain/awaf435",
+          "mesh_terms": [
+            "Animals",
+            "Humans",
+            "TRPM Cation Channels",
+            "Neurons",
+            "Mice",
+            "Male",
+            "Seizures",
+            "Female",
+            "Rats",
+            "Mice, Inbred C57BL",
+            "Adult",
+            "Middle Aged",
+            "Epilepsy",
+            "Pentylenetetrazole"
+          ]
+        }
+      },
+      {
+        "id": "PMID:24132564",
+        "text": "Glibenclamide in cerebral ischemia and stroke.\n\nThe sulfonylurea receptor 1 (Sur1)-transient receptor potential 4 (Trpm4) channel is an important molecular element in focal cerebral ischemia. The channel is upregulated in all cells of the neurovascular unit following ischemia, and is linked to microvascular dysfunction that manifests as edema formation and secondary hemorrhage, which cause brain swelling. Activation of the channel is a major molecular mechanism of cytotoxic edema and \"accidental necrotic cell death.\" Blockade of Sur1 using glibenclamide has been studied in different types of rat models of stroke: (i) in conventional non-lethal models (thromboembolic, 1-2 h temporary, or permanent middle cerebral artery occlusion), glibenclamide reduces brain swelling and infarct volume and improves neurological function; (ii) in lethal models of malignant cerebral edema, glibenclamide reduces edema, brain swelling, and mortality; (iii) in models with rtPA, glibenclamide reduces swelling, hemorrhagic transformation, and death. Retrospective studies of diabetic patients who present with stroke have shown that those whose diabetes is managed with a sulfonylurea drug and who are maintained on the sulfonylurea drug during hospitalization for stroke have better outcomes at discharge and are less likely to suffer hemorrhagic transformation. Here, we provide a comprehensive review of the basic science, preclinical experiments, and retrospective clinical studies on glibenclamide in focal cerebral ischemia and stroke. We also compare the preclinical work in stroke models to the updated recommendations of the Stroke Therapy Academic Industry Roundtable (STAIR). The findings reviewed here provide a strong foundation for a translational research program to study glibenclamide in patients with ischemic stroke.",
+        "title": "Glibenclamide in cerebral ischemia and stroke.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24132564",
+          "journal": "Neurocritical care",
+          "authors": [
+            "Simard J Marc",
+            "Sheth Kevin N",
+            "Kimberly W Taylor"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s12028-013-9923-1",
+          "mesh_terms": [
+            "Animals",
+            "Brain Edema",
+            "Brain Ischemia",
+            "Glyburide",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Stroke"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil metabolic effect glucose lipid uric acid",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40111679",
+        "text": "Effect of Verapamil on Blood Glucose in Type 1 and Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis. Verapamil, an L-type calcium channel blocker treating hypertension, arrhythmia, and other cardiovascular diseases, has emerged as a potential drug for lowering blood glucose by regulating cellular calcium homeostasis and affecting expression of apoptosis-related proteins in pancreatic β-cells. However, this promising effect must be weighed against potential risks, including cardiovascular adve",
+        "score": 0.406745970249176,
+        "doi": "10.1007/s10557-025-07683-4",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2025",
+        "rerank_score": 3.771252155303955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296235",
+        "text": "Effect of uric acid on lipid metabolism assessed via restricted cubic splines: A new insight. Hyperuricemia can promote both blood lipids and non-alcoholic fatty liver disease (NAFLD). However, the role of the entire uric acid (UA) span, especially low concentrations below hyperuricemia, on lipid metabolism remains unclear. A cross-sectional study was designed. Data on the age, sex, UA, triglyceride (TG), total cholesterol (TC), high-density lipoprotein (HDL), and low-density lipoprotein (LDL) of 1977 parti",
+        "score": 0.45598846673965454,
+        "doi": "10.1016/j.heliyon.2024.e37408",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 2.4187121391296387,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40847943",
+        "text": "Natural Polyphenol Pentagalloyl Glucose as a Potent Xanthine Oxidase Inhibitor for Hyperuricemia Treatment. Hyperuricemia (HUA) is a metabolic disorder characterized by increased serum uric acid (UA) levels. Here, we showed that pentagalloyl glucose (PGG), a well-known natural polyphenol, significantly decreased UA levels both in potassium oxonate/hypoxanthine-induced HUA mice and adenosine-induced hepatocytes. Mechanistically, the UA-lowering effect of PGG was attributed to the suppression of UA formation ",
+        "score": 0.44501370191574097,
+        "doi": "10.1021/acs.jafc.5c04078",
+        "journal": "Journal of agricultural and food chemistry",
+        "year": "2025",
+        "rerank_score": 0.11025125533342361,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

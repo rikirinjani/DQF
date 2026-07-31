@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide hypoglycemia risk severe hypoglycemia rate",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35619798",
+        "text": "Increased Frequency of Severe Hypoglycemia with the Modified-Release Gliclazide Compared to Glimepiride in Diabetic Older Adults; Propensity Score-Adjusted Analysis. The main aim is to compare the risk of severe hypoglycemia associated with the modified-release (MR) gliclazide against glimepiride in diabetic older adults.",
+        "score": 0.41482919454574585,
+        "doi": "10.2147/DMSO.S339331",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2021",
+        "rerank_score": 3.7459499835968018,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41342185",
+        "text": "Safety and effectiveness of tirzepatide during Ramadan fasting: Real-world evidence from patients with type 2 diabetes in Bangladesh. Ramadan fasting poses challenges for patients with type 2 diabetes mellitus (T2DM) due to increased risks of hypoglycemia and metabolic fluctuations. Tirzepatide, a dual GIP/GLP-1 receptor agonist, has shown marked efficacy in glycemic control and weight reduction. This study aimed to evaluate the safety and effectiveness of tirzepatide among Bangladeshi patients with T2DM du",
+        "score": 0.4182615876197815,
+        "doi": "10.1111/dom.70343",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 2.4606833457946777,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25230877",
+        "text": "Higher Risk of Hypoglycemia with Glimepiride Versus Vildagliptin in Patients with Type 2 Diabetes is not Driven by High Doses of Glimepiride: Divergent Patient Susceptibilities? In a previously published study, vildagliptin showed a reduced risk of hypoglycemia versus glimepiride as add-on therapy to metformin at similar efficacy. Glimepiride was titrated from a starting dose of 2 mg/day to a maximum dose of 6 mg/day. It is usually assumed that the increased hypoglycemia with glimepiride was driven by the 6",
+        "score": 0.41568058729171753,
+        "doi": "10.1007/s13300-014-0082-y",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2014",
+        "rerank_score": 2.3359129428863525,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

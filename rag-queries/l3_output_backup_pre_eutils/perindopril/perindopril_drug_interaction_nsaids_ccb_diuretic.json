@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Perindopril drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.44598710536956787,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.08670946210622787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39943810",
+        "text": "The role of single-pill ACE inhibitor/ccb combination for hypertension: an Algerian view via the nominal group technique. Around one-third of adults in Algeria have hypertension, but > 40% are unaware they have the disease, and of those receiving treatment, only ~ 20-30% have adequate blood pressure (BP) control. Recommended starting treatment is an angiotensin converting enzyme inhibitor (ACEi) or angiotensin receptor blocker plus a calcium channel blocker (CCB) or diuretic. A single-pill combination of pe",
+        "score": 0.43329498171806335,
+        "doi": "10.1080/14796678.2025.2465218",
+        "journal": "Future cardiology",
+        "year": "2025",
+        "rerank_score": -1.7683145999908447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39484163",
+        "text": "Corrigendum: Effectiveness of perindopril/amlodipine fixed-dose combination in the treatment of hypertension: a systematic review. [This corrects the article DOI: 10.3389/fphar.2023.1156655.].",
+        "score": 0.447238951921463,
+        "doi": "10.3389/fphar.2024.1485834",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -2.411313772201538,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

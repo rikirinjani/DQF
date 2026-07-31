@@ -1,0 +1,2566 @@
+{
+  "drugs": [
+    {
+      "id": "ibuprofen",
+      "class": "NSAID",
+      "name": "Ibuprofen",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 6.8,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 7.0,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "ASIC1a",
+            "value": 4.5,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Non-selective COX inhibition + ASIC1a",
+        "selectivity": "COX-1/COX-2 balanced"
+      },
+      "l2_pk": {
+        "bioavailability": 80,
+        "half_life_h": 2.0,
+        "vd_l_per_kg": 0.1,
+        "metabolism": "CYP2C9 + CYP2C8",
+        "renal_excretion_pct": 10,
+        "special": "Short t½ but prolonged synovial residence"
+      },
+      "l3_systems": {
+        "cox_inhibition": "Balanced COX-1/COX-2",
+        "gi_risk": 2,
+        "cv_risk": 1,
+        "renal_risk": 2,
+        "platelet_effect": "Transient (reversible)",
+        "off_targets": [
+          "ASIC1a blockade",
+          "Trpv1",
+          "Wasabi"
+        ],
+        "anti_inflammatory": true,
+        "analgesic": true,
+        "antipyretic": true,
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "25855297",
+            "32760273",
+            "38180091",
+            "38653785",
+            "38931423",
+            "39616105",
+            "39677212",
+            "39882676",
+            "40128115",
+            "40224452",
+            "41197604"
+          ],
+          "source_count": 18,
+          "finding_count": 12
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 2.5,
+          "ci_95": "2.0-3.0",
+          "dose": "400mg"
+        },
+        "indications": [
+          "Acute pain",
+          "Dental pain",
+          "Dysmenorrhea",
+          "OA",
+          "RA"
+        ],
+        "nnh_gi": {
+          "value": 50,
+          "ci_95": "30-100"
+        },
+        "nnh_cv": null,
+        "success_rate": 0.52,
+        "onset_min": 30
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "safe",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "diclofenac",
+      "class": "NSAID",
+      "name": "Diclofenac",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 6.5,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 7.8,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "P2X3",
+            "value": 5.2,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "TRPA1",
+            "value": 4.8,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "COX-2 preferential + P2X3/TRPA1 blockade",
+        "selectivity": "COX-2 > COX-1 (~20x)"
+      },
+      "l2_pk": {
+        "bioavailability": 60,
+        "half_life_h": 1.2,
+        "vd_l_per_kg": 1.4,
+        "metabolism": "CYP2C9 + glucuronidation",
+        "renal_excretion_pct": 65,
+        "special": "Enterohepatic recirculation; synovial t½ 8-12h despite plasma 1.2h"
+      },
+      "l3_systems": {
+        "cox_inhibition": "COX-2 preferential",
+        "gi_risk": 2,
+        "cv_risk": 1,
+        "renal_risk": 2,
+        "platelet_effect": "Minimal (COX-1 sparing at low doses)",
+        "off_targets": [
+          "P2X3 blockade (unique visceral pain)",
+          "TRPA1 inhibition",
+          "P2X7",
+          "Purinergic",
+          "Trpv1"
+        ],
+        "anti_inflammatory": true,
+        "analgesic": true,
+        "antipyretic": true,
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "38442578",
+            "38716761",
+            "38876401",
+            "38931423",
+            "39429925",
+            "39512215",
+            "39763427",
+            "40663614",
+            "40716177",
+            "40841348",
+            "40915150",
+            "41046250",
+            "41132706",
+            "41465841",
+            "41556714"
+          ],
+          "source_count": 5,
+          "finding_count": 15
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 2.7,
+          "ci_95": "2.0-3.5",
+          "dose": "50mg"
+        },
+        "indications": [
+          "Inflammatory pain",
+          "OA",
+          "RA",
+          "Ankylosing spondylitis",
+          "Acute migraine"
+        ],
+        "nnh_gi": {
+          "value": 30,
+          "ci_95": "20-50"
+        },
+        "nnh_cv": {
+          "value": 100,
+          "ci_95": "50-200"
+        },
+        "success_rate": 0.55,
+        "onset_min": 30
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "caution",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "celecoxib",
+      "class": "NSAID",
+      "name": "Celecoxib",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-2",
+            "value": 8.5,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-1",
+            "value": 6.0,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "PGI2 synthase",
+            "value": 4.0,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "COX-2 selective — 300x selectivity over COX-1",
+        "selectivity": "COX-2 >> COX-1 (~300x)"
+      },
+      "l2_pk": {
+        "bioavailability": 80,
+        "half_life_h": 11.0,
+        "vd_l_per_kg": 5.5,
+        "metabolism": "CYP2C9 (major)",
+        "renal_excretion_pct": 27,
+        "special": "Long t½ allows QD dosing; CNS penetration minimal"
+      },
+      "l3_systems": {
+        "cox_inhibition": "COX-2 selective (spares COX-1)",
+        "gi_risk": 2,
+        "cv_risk": 2,
+        "renal_risk": 1,
+        "platelet_effect": "None (COX-1 spared)",
+        "off_targets": [
+          "PGI2 suppression → CV risk paradox"
+        ],
+        "anti_inflammatory": true,
+        "analgesic": true,
+        "antipyretic": true,
+        "note": "GI sparing is the main advantage; CV risk is the main disadvantage — same molecular feature (COX-2 selectivity) drives both",
+        "ddi_risk": 2,
+        "_evidence": {
+          "pmids": [
+            "17412741",
+            "21977278",
+            "27747190",
+            "39660078",
+            "40224452",
+            "40233610",
+            "40819363",
+            "41383482",
+            "41471097"
+          ],
+          "source_count": 3,
+          "finding_count": 9
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 2.5,
+          "ci_95": "2.0-3.2",
+          "dose": "200mg"
+        },
+        "indications": [
+          "OA",
+          "RA",
+          "Acute pain",
+          "Dysmenorrhea",
+          "FAP"
+        ],
+        "nnh_gi": {
+          "value": 150,
+          "ci_95": "100-300"
+        },
+        "nnh_cv": {
+          "value": 80,
+          "ci_95": "40-150"
+        },
+        "success_rate": 0.48,
+        "onset_min": 60
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "caution",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "paracetamol",
+      "class": "NSAID",
+      "name": "Paracetamol",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "AM404 (TRPV1)",
+            "value": 6.0,
+            "unit": "-log10 Ki"
+          },
+          {
+            "name": "COX (peripheral)",
+            "value": 0.0,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "5-HT3",
+            "value": 4.5,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "TRPA1 (brain)",
+            "value": 5.5,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Prodrug → AM404 (TRPV1, cannabinoid); COX-independent",
+        "selectivity": "Not a COX inhibitor in periphery; central COX inhibition debated"
+      },
+      "l2_pk": {
+        "bioavailability": 88,
+        "half_life_h": 2.5,
+        "vd_l_per_kg": 0.9,
+        "metabolism": "UGT1A1/1A6 (major), CYP2E1 (minor → NAPQI)",
+        "renal_excretion_pct": 5,
+        "special": "Hepatotoxic at high doses via NAPQI; no COX-mediated duration amplification"
+      },
+      "l3_systems": {
+        "cox_inhibition": "None in periphery (central COX debated)",
+        "gi_risk": 2,
+        "cv_risk": 2,
+        "renal_risk": 1,
+        "platelet_effect": "None",
+        "off_targets": [
+          "AM404 → TRPV1 desensitization",
+          "Central TRPA1",
+          "5-HT3",
+          "Cannabinoid CB1 indirect",
+          "Capsaicin",
+          "Sodium"
+        ],
+        "anti_inflammatory": false,
+        "analgesic": true,
+        "antipyretic": true,
+        "note": "Zero COX-related adverse effects — safest on GI, CV, renal, and platelet axes. But no anti-inflammatory activity.",
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "39104725",
+            "40402381",
+            "40967389",
+            "41103087",
+            "41556714",
+            "41588985"
+          ],
+          "source_count": 2,
+          "finding_count": 6
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 3.6,
+          "ci_95": "2.9-4.5",
+          "dose": "1000mg"
+        },
+        "indications": [
+          "Mild-moderate pain",
+          "Fever",
+          "OA (pain only)",
+          "Post-op multimodal"
+        ],
+        "nnh_gi": null,
+        "nnh_cv": null,
+        "success_rate": 0.4,
+        "onset_min": 30,
+        "note": "Worst NNT in class, but safest multi-organ profile. Ideal when safety trumps efficacy."
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "atorvastatin",
+      "class": "Statin",
+      "name": "Atorvastatin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "HMGCR",
+            "value": 8.2,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "CYP3A4 (substrate)",
+            "value": 5.0,
+            "unit": "affinity"
+          }
+        ],
+        "mechanism": "Competitive HMGCR inhibition; active metabolites (2x parent)",
+        "selectivity": "Hepatic selective (OATP1B1 uptake)"
+      },
+      "l2_pk": {
+        "bioavailability": 14,
+        "half_life_h": 14.0,
+        "vd_l_per_kg": 5.4,
+        "metabolism": "CYP3A4 → active ortho/para-hydroxy metabolites",
+        "renal_excretion_pct": 2,
+        "special": "Active metabolites extend effective t½ to 20-30h"
+      },
+      "l3_systems": {
+        "ldl_reduction_pct": 42,
+        "pleiotropic_effects": [
+          "eNOS upregulation",
+          "Anti-inflammatory (CRP ↓)",
+          "Plaque stabilization",
+          "Endothelial",
+          "Plaque",
+          "Smooth Muscle",
+          "Vascular"
+        ],
+        "myopathy_risk": 3,
+        "hepatic_risk": 1,
+        "renal_safety": "Safe (minimal renal excretion)",
+        "ddi_risk": 2,
+        "note": "CYP3A4 DDI with many drugs (macrolides, azoles, CCBs)",
+        "renal_risk": 0,
+        "hmgcr_inhibition": null,
+        "lipophilicity": null,
+        "transport_effects": [],
+        "anti_inflammatory": null,
+        "_evidence": {
+          "pmids": [
+            "11795271",
+            "12960612",
+            "15996638",
+            "17120687",
+            "17596685",
+            "18417069",
+            "21130454",
+            "21342078",
+            "22152281",
+            "24274967",
+            "25678054",
+            "30054755",
+            "30692522",
+            "31509447",
+            "32729746",
+            "35628225",
+            "38588613",
+            "39102854",
+            "40254247",
+            "41757155"
+          ],
+          "source_count": 7,
+          "finding_count": 20
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_mace_5yr": {
+          "value": 50,
+          "ci_95": "35-70",
+          "dose": "10-80mg"
+        },
+        "indications": [
+          "Primary + secondary CVD prevention",
+          "Familial hypercholesterolemia"
+        ],
+        "ldl_reduction_mean_pct": 42,
+        "myopathy_rate_per_1000": 0.5,
+        "rhabdo_rate_per_1000": 0.01,
+        "success_rate_ldl_goal": 0.65
+      },
+      "pregnancy_safety": "X",
+      "lactation_safety": "avoid",
+      "hepatic_safety": "contraindicated"
+    },
+    {
+      "id": "rosuvastatin",
+      "class": "Statin",
+      "name": "Rosuvastatin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "HMGCR",
+            "value": 8.8,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Most potent HMGCR inhibitor; minimal metabolism",
+        "selectivity": "Hepatic selective via OATP1B1/1B3; hydrophilic"
+      },
+      "l2_pk": {
+        "bioavailability": 20,
+        "half_life_h": 19.0,
+        "vd_l_per_kg": 1.4,
+        "metabolism": "CYP2C9 (minor), mostly unchanged",
+        "renal_excretion_pct": 10,
+        "special": "Most potent statin (max LDL reduction ~55%); hydrophilic → less muscle penetration"
+      },
+      "l3_systems": {
+        "ldl_reduction_pct": 52,
+        "pleiotropic_effects": [
+          "eNOS upregulation",
+          "Anti-inflammatory",
+          "Plaque stabilization",
+          "Endothelial",
+          "Plaque",
+          "Vascular"
+        ],
+        "myopathy_risk": 3,
+        "hepatic_risk": 1,
+        "renal_safety": "Caution in severe renal impairment",
+        "ddi_risk": 2,
+        "note": "Minimal drug interactions — safest for polypharmacy patients",
+        "renal_risk": 1,
+        "hmgcr_inhibition": null,
+        "lipophilicity": null,
+        "transport_effects": [],
+        "anti_inflammatory": null,
+        "_evidence": {
+          "pmids": [
+            "15901204",
+            "17910518",
+            "21130454",
+            "21342078",
+            "21813193",
+            "22398934",
+            "24452083",
+            "26525112",
+            "30692522",
+            "32729746",
+            "36613689",
+            "38588613",
+            "39102854",
+            "40254247"
+          ],
+          "source_count": 7,
+          "finding_count": 16
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_mace_5yr": {
+          "value": 40,
+          "ci_95": "28-55",
+          "dose": "10-40mg"
+        },
+        "indications": [
+          "Primary + secondary CVD prevention",
+          "FH",
+          "Mixed dyslipidemia"
+        ],
+        "ldl_reduction_mean_pct": 52,
+        "myopathy_rate_per_1000": 0.6,
+        "rhabdo_rate_per_1000": 0.02,
+        "success_rate_ldl_goal": 0.72
+      },
+      "pregnancy_safety": "X",
+      "lactation_safety": "avoid",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "simvastatin",
+      "class": "Statin",
+      "name": "Simvastatin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "HMGCR (prodrug)",
+            "value": 7.5,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Lactone prodrug → active hydroxy acid; CYP3A4 dependent",
+        "selectivity": "Hepatic selective; lipophilic → wider tissue distribution"
+      },
+      "l2_pk": {
+        "bioavailability": 5,
+        "half_life_h": 3.0,
+        "vd_l_per_kg": 3.2,
+        "metabolism": "CYP3A4 (major — prodrug activation + clearance)",
+        "renal_excretion_pct": 13,
+        "special": "Prodrug; highest myopathy risk at high doses (80mg restricted)"
+      },
+      "l3_systems": {
+        "ldl_reduction_pct": 35,
+        "pleiotropic_effects": [
+          "eNOS upregulation",
+          "Anti-inflammatory",
+          "Endothelial",
+          "Smooth Muscle",
+          "Vascular"
+        ],
+        "myopathy_risk": 3,
+        "hepatic_risk": 1,
+        "renal_safety": "Safe",
+        "ddi_risk": 2,
+        "note": "Highest DDI burden of all statins (CYP3A4); 80mg dose restricted by FDA due to myopathy risk",
+        "renal_risk": 0,
+        "hmgcr_inhibition": null,
+        "lipophilicity": null,
+        "transport_effects": [],
+        "anti_inflammatory": null,
+        "_evidence": {
+          "pmids": [
+            "15996638",
+            "17183729",
+            "18612412",
+            "21175435",
+            "24274967",
+            "27091343",
+            "31853708",
+            "32369804",
+            "32729746",
+            "37693816",
+            "38061411",
+            "39509369",
+            "40939734",
+            "41303460",
+            "41392983"
+          ],
+          "source_count": 4,
+          "finding_count": 16
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_mace_5yr": {
+          "value": 55,
+          "ci_95": "38-80",
+          "dose": "20-40mg"
+        },
+        "indications": [
+          "Primary + secondary CVD prevention",
+          "FH"
+        ],
+        "ldl_reduction_mean_pct": 35,
+        "myopathy_rate_per_1000": 1.5,
+        "rhabdo_rate_per_1000": 0.05,
+        "success_rate_ldl_goal": 0.55
+      },
+      "pregnancy_safety": "X",
+      "lactation_safety": "avoid",
+      "hepatic_safety": "contraindicated"
+    },
+    {
+      "id": "pravastatin",
+      "class": "Statin",
+      "name": "Pravastatin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "HMGCR",
+            "value": 7.0,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Direct HMGCR inhibition; hydrophilic, non-CYP",
+        "selectivity": "Hepatic selective; hydrophilic → minimal peripheral penetration"
+      },
+      "l2_pk": {
+        "bioavailability": 18,
+        "half_life_h": 1.5,
+        "vd_l_per_kg": 0.5,
+        "metabolism": "Renal clearance (no significant CYP)",
+        "renal_excretion_pct": 47,
+        "special": "No CYP metabolism — zero DDI burden; shortest t½"
+      },
+      "l3_systems": {
+        "ldl_reduction_pct": 30,
+        "pleiotropic_effects": [
+          "eNOS upregulation",
+          "Anti-inflammatory",
+          "Endothelial",
+          "Smooth Muscle",
+          "Vascular"
+        ],
+        "myopathy_risk": 3,
+        "hepatic_risk": 0,
+        "renal_safety": "Safe",
+        "ddi_risk": 2,
+        "note": "Zero DDI risk; minimal muscle penetration → lowest myopathy risk",
+        "renal_risk": 0,
+        "hmgcr_inhibition": null,
+        "lipophilicity": null,
+        "transport_effects": [],
+        "anti_inflammatory": null,
+        "_evidence": {
+          "pmids": [
+            "15996638",
+            "18417069",
+            "21130454",
+            "22777149",
+            "25678054",
+            "31881229",
+            "32729746",
+            "32946849",
+            "39989985",
+            "40126023"
+          ],
+          "source_count": 3,
+          "finding_count": 11
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_mace_5yr": {
+          "value": 55,
+          "ci_95": "42-75",
+          "dose": "40-80mg"
+        },
+        "indications": [
+          "Primary + secondary CVD prevention",
+          "Post-transplant"
+        ],
+        "ldl_reduction_mean_pct": 30,
+        "myopathy_rate_per_1000": 0.1,
+        "rhabdo_rate_per_1000": 0.0,
+        "success_rate_ldl_goal": 0.5
+      },
+      "pregnancy_safety": "X",
+      "lactation_safety": "avoid",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "pitavastatin",
+      "class": "Statin",
+      "name": "Pitavastatin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "HMGCR",
+            "value": 7.8,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Direct HMGCR inhibition; minimal CYP metabolism",
+        "selectivity": "Hepatic selective; OATP1B1/BCRP transport"
+      },
+      "l2_pk": {
+        "bioavailability": 80,
+        "half_life_h": 12.0,
+        "vd_l_per_kg": 2.0,
+        "metabolism": "UGT1A1/1A3 (glucuronidation); minor CYP2C9",
+        "renal_excretion_pct": 15,
+        "special": "Highest bioavailability among statins; minimal DDI; unique BCRP transport"
+      },
+      "l3_systems": {
+        "ldl_reduction_pct": 38,
+        "pleiotropic_effects": [
+          "eNOS upregulation",
+          "Anti-inflammatory",
+          "Adiponectin ↑",
+          "Endothelial"
+        ],
+        "myopathy_risk": 3,
+        "hepatic_risk": 0,
+        "renal_safety": "Safe (biliary excretion)",
+        "ddi_risk": 2,
+        "note": "No CYP-mediated DDI — good for polypharmacy; glucose neutrality vs other statins",
+        "renal_risk": 0,
+        "hmgcr_inhibition": null,
+        "lipophilicity": null,
+        "transport_effects": [],
+        "anti_inflammatory": null,
+        "_evidence": {
+          "pmids": [
+            "16340217",
+            "32729746"
+          ],
+          "source_count": 2,
+          "finding_count": 2
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_mace_5yr": {
+          "value": 50,
+          "ci_95": "35-70",
+          "dose": "2-4mg"
+        },
+        "indications": [
+          "Primary + secondary CVD prevention",
+          "FH",
+          "DM dyslipidemia"
+        ],
+        "ldl_reduction_mean_pct": 38,
+        "myopathy_rate_per_1000": 0.1,
+        "rhabdo_rate_per_1000": 0.0,
+        "success_rate_ldl_goal": 0.6
+      },
+      "pregnancy_safety": "X",
+      "lactation_safety": "avoid",
+      "hepatic_safety": "contraindicated"
+    },
+    {
+      "id": "omeprazole",
+      "class": "PPI",
+      "name": "Omeprazole",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H+/K+ ATPase (Cys813)",
+            "value": 4.06,
+            "unit": "pKa1"
+          }
+        ],
+        "mechanism": "Irreversible covalent H+/K+ ATPase inhibition; requires acid activation",
+        "selectivity": "Parietal cell selective via pH trapping"
+      },
+      "l2_pk": {
+        "bioavailability": 35,
+        "half_life_h": 0.8,
+        "vd_l_per_kg": 0.24,
+        "metabolism": "CYP2C19 (>80%) + CYP3A4",
+        "renal_excretion_pct": 77,
+        "special": "CYP2C19 auto-inhibition → non-linear PK; 3-10x AUC variation by genotype"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H+/K+ ATPase irreversible inhibition",
+        "ph_above_4_holding_time_h": 11.8,
+        "relative_potency_vs_omeprazole": 1.0,
+        "onset_h": 72,
+        "duration_h": 24,
+        "tolerance": false,
+        "healing_ability": 2,
+        "cyp2c19_inhibition": "Strong (Ki 2-6 µM)",
+        "cyp2c19_metabolism_pct": 70,
+        "ddi_risk": 3,
+        "pump_recovery_t_half_h": 27,
+        "hypergastrinemia": true,
+        "cdi_risk": 3,
+        "pneumonia_risk": 1,
+        "ckd_risk": 1,
+        "fracture_risk": 1,
+        "note": "Gold standard PPI — most studied, but highest CYP2C19 DDI burden",
+        "bone_fracture_risk": 3,
+        "acid_rebound": 3,
+        "_evidence": {
+          "pmids": [
+            "14695703",
+            "15245569",
+            "18054750",
+            "19081411",
+            "19166419",
+            "20716239",
+            "22936271",
+            "23350044",
+            "26164495",
+            "2873085",
+            "30361928",
+            "30991081",
+            "38401078",
+            "38747453",
+            "38782506",
+            "38797695",
+            "38874073",
+            "38884019",
+            "38925922",
+            "38950390",
+            "38976448",
+            "39189924",
+            "39273817",
+            "39326395",
+            "39385496",
+            "39445918",
+            "39474720",
+            "39539895",
+            "39616854",
+            "39648266",
+            "39674371",
+            "39712905",
+            "39817374",
+            "39836012",
+            "39921577",
+            "40350722",
+            "40360512",
+            "40524314",
+            "40553973",
+            "40554569",
+            "40602229",
+            "40742526",
+            "40819797",
+            "40916919",
+            "40927656",
+            "41210571",
+            "41259413",
+            "41315977",
+            "41603754",
+            "6259141",
+            "8601296"
+          ],
+          "source_count": 18,
+          "finding_count": 55
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_4wk_pct": 70,
+        "ee_healing_8wk_pct": 85,
+        "severe_ee_healing_8wk_pct": 75,
+        "gerd_symptom_nnt": 13,
+        "duodenal_ulcer_healing_4wk_pct": 80,
+        "maintenance_12mo_pct": 70,
+        "h_pylori_eradication_pct": 78,
+        "indications": [
+          "GERD",
+          "Erosive esophagitis",
+          "Duodenal ulcer",
+          "Gastric ulcer",
+          "H. pylori eradication",
+          "Zollinger-Ellison"
+        ],
+        "pregnancy_safety": "Category C",
+        "ddi_burden": "High — clopidogrel, warfarin, diazepam, phenytoin"
+      },
+      "pregnancy_safety": "C",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "esomeprazole",
+      "class": "PPI",
+      "name": "Esomeprazole",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H+/K+ ATPase (Cys813)",
+            "value": 4.13,
+            "unit": "pKa1"
+          }
+        ],
+        "mechanism": "Irreversible covalent H+/K+ ATPase inhibition; S-enantiomer of omeprazole",
+        "selectivity": "Parietal cell selective"
+      },
+      "l2_pk": {
+        "bioavailability": 77,
+        "half_life_h": 1.5,
+        "vd_l_per_kg": 0.24,
+        "metabolism": "CYP2C19 (~70%) + CYP3A4",
+        "renal_excretion_pct": 80,
+        "special": "S-enantiomer reduces CYP2C19 metabolism → 67% higher AUC than same-dose omeprazole"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H+/K+ ATPase irreversible inhibition",
+        "ph_above_4_holding_time_h": 14.0,
+        "relative_potency_vs_omeprazole": 1.6,
+        "onset_h": 72,
+        "duration_h": 24,
+        "tolerance": false,
+        "healing_ability": 3,
+        "cyp2c19_inhibition": "Moderate (Ki ~8 µM)",
+        "cyp2c19_metabolism_pct": 60,
+        "ddi_risk": 3,
+        "pump_recovery_t_half_h": 27,
+        "hypergastrinemia": true,
+        "cdi_risk": 3,
+        "pneumonia_risk": 1,
+        "ckd_risk": 1,
+        "fracture_risk": 1,
+        "note": "Most potent acid suppression — best severe EE healing rates",
+        "bone_fracture_risk": 3,
+        "acid_rebound": 3,
+        "_evidence": {
+          "pmids": [
+            "10206083",
+            "17553260",
+            "19033450",
+            "19166419",
+            "19881258",
+            "21392639",
+            "22936271",
+            "28192647",
+            "32558923",
+            "36897544",
+            "38750866",
+            "38874073",
+            "38925922",
+            "38950390",
+            "39189924",
+            "39274196",
+            "39289057",
+            "39445918",
+            "39491524",
+            "39539895",
+            "39547508",
+            "39648266",
+            "39658609",
+            "39712905",
+            "39801038",
+            "39979415",
+            "40017511",
+            "40036727",
+            "40350722",
+            "40360512",
+            "40493957",
+            "40498833",
+            "40533234",
+            "40554569",
+            "40602229",
+            "40662264",
+            "40779269",
+            "40785690",
+            "40887258",
+            "41077753",
+            "41210571",
+            "41259413",
+            "41268291",
+            "41409954",
+            "41553581",
+            "41603754",
+            "42093862",
+            "8601296",
+            "9701531"
+          ],
+          "source_count": 18,
+          "finding_count": 50
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_4wk_pct": 78,
+        "ee_healing_8wk_pct": 90,
+        "severe_ee_healing_8wk_pct": 83,
+        "gerd_symptom_nnt": 13,
+        "duodenal_ulcer_healing_4wk_pct": 82,
+        "maintenance_12mo_pct": 85,
+        "h_pylori_eradication_pct": 82,
+        "indications": [
+          "GERD",
+          "Erosive esophagitis",
+          "Severe (LA C/D) esophagitis",
+          "H. pylori eradication",
+          "Maintenance therapy"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "Moderate — retains CYP2C19 inhibition; avoid with clopidogrel"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "pantoprazole",
+      "class": "PPI",
+      "name": "Pantoprazole",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H+/K+ ATPase (Cys813+Cys822)",
+            "value": 3.83,
+            "unit": "pKa1"
+          }
+        ],
+        "mechanism": "Irreversible H+/K+ ATPase inhibition; slowest activation; Cys822 deep binding",
+        "selectivity": "Parietal cell selective; most specific (lowest pKa2=0.11)"
+      },
+      "l2_pk": {
+        "bioavailability": 77,
+        "half_life_h": 1.4,
+        "vd_l_per_kg": 0.15,
+        "metabolism": "CYP2C19 + sulfate conjugation (unique)",
+        "renal_excretion_pct": 75,
+        "special": "No CYP2C19 inhibition — safest PPI for DDI; linear PK; unique sulfate conjugation"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H+/K+ ATPase irreversible inhibition",
+        "ph_above_4_holding_time_h": 10.1,
+        "relative_potency_vs_omeprazole": 0.23,
+        "onset_h": 72,
+        "duration_h": 24,
+        "tolerance": false,
+        "healing_ability": 1,
+        "cyp2c19_inhibition": "None (Ki 14-69 µM)",
+        "cyp2c19_metabolism_pct": 25,
+        "ddi_risk": 3,
+        "pump_recovery_t_half_h": 46,
+        "hypergastrinemia": true,
+        "cdi_risk": 3,
+        "pneumonia_risk": 1,
+        "ckd_risk": 1,
+        "fracture_risk": 1,
+        "note": "No CYP2C19 inhibition — PPI of choice for polypharmacy / clopidogrel patients",
+        "bone_fracture_risk": 3,
+        "acid_rebound": 3,
+        "_evidence": {
+          "pmids": [
+            "12464799",
+            "15284537",
+            "17645482",
+            "19166419",
+            "19459830",
+            "21392639",
+            "22936271",
+            "23350044",
+            "26031149",
+            "30220616",
+            "38401078",
+            "38775462",
+            "38777170",
+            "38797695",
+            "38817377",
+            "38837864",
+            "38925553",
+            "38925922",
+            "38976448",
+            "39083496",
+            "39189924",
+            "39189986",
+            "39273817",
+            "39326395",
+            "39445918",
+            "39531492",
+            "39539895",
+            "39648266",
+            "39663234",
+            "39674371",
+            "39707503",
+            "39712905",
+            "40025602",
+            "40083682",
+            "40146262",
+            "40168072",
+            "40360512",
+            "40413744",
+            "40498833",
+            "40517283",
+            "40553973",
+            "40602229",
+            "40742526",
+            "40744734",
+            "40916919",
+            "41077753",
+            "41180767",
+            "41603754",
+            "8601296",
+            "9014204"
+          ],
+          "source_count": 17,
+          "finding_count": 53
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_4wk_pct": 71,
+        "ee_healing_8wk_pct": 89,
+        "severe_ee_healing_8wk_pct": 78,
+        "gerd_symptom_nnt": 15,
+        "duodenal_ulcer_healing_4wk_pct": 80,
+        "maintenance_12mo_pct": 82,
+        "h_pylori_eradication_pct": 78,
+        "indications": [
+          "GERD",
+          "Erosive esophagitis",
+          "Duodenal ulcer",
+          "H. pylori eradication"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "Lowest — no CYP2C19 inhibition; safe with clopidogrel"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "lansoprazole",
+      "class": "PPI",
+      "name": "Lansoprazole",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H+/K+ ATPase (Cys813+Cys321)",
+            "value": 3.83,
+            "unit": "pKa1"
+          }
+        ],
+        "mechanism": "Irreversible H+/K+ ATPase inhibition; Cys321 binding (glutathione-reversible)",
+        "selectivity": "Parietal cell selective"
+      },
+      "l2_pk": {
+        "bioavailability": 82,
+        "half_life_h": 1.6,
+        "vd_l_per_kg": 0.4,
+        "metabolism": "CYP2C19 (>80%) + CYP3A4",
+        "renal_excretion_pct": 19,
+        "special": "Highest bioavailability (80-85%); unique biliary excretion; strongest CYP2C19 inhibition in vitro"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H+/K+ ATPase irreversible inhibition",
+        "ph_above_4_holding_time_h": 11.5,
+        "relative_potency_vs_omeprazole": 0.9,
+        "onset_h": 72,
+        "duration_h": 24,
+        "tolerance": false,
+        "healing_ability": 2,
+        "cyp2c19_inhibition": "Strongest in vitro (Ki 0.4-1.5 µM)",
+        "cyp2c19_metabolism_pct": 50,
+        "ddi_risk": 3,
+        "pump_recovery_t_half_h": 13,
+        "hypergastrinemia": true,
+        "cdi_risk": 3,
+        "pneumonia_risk": 1,
+        "ckd_risk": 1,
+        "fracture_risk": 1,
+        "note": "Highest bioavailability; shortest pump recovery (13h); strongest CYP2C19 inhibitor in vitro",
+        "bone_fracture_risk": 3,
+        "acid_rebound": 3,
+        "_evidence": {
+          "pmids": [
+            "11380317",
+            "15245569",
+            "15752376",
+            "15771760",
+            "16206099",
+            "18054750",
+            "18445994",
+            "19166419",
+            "19459830",
+            "20716239",
+            "22936271",
+            "23350044",
+            "30361928",
+            "38401078",
+            "38747453",
+            "38797695",
+            "38874073",
+            "38885537",
+            "38925553",
+            "38925922",
+            "38950390",
+            "39189924",
+            "39273817",
+            "39274196",
+            "39326395",
+            "39445918",
+            "39531492",
+            "39539895",
+            "39674371",
+            "39712905",
+            "39836012",
+            "39921577",
+            "40083682",
+            "40092076",
+            "40168072",
+            "40360512",
+            "40379961",
+            "40413744",
+            "40517283",
+            "40553973",
+            "40602229",
+            "40632378",
+            "40742526",
+            "40927656",
+            "41077753",
+            "41200751",
+            "41603754",
+            "8601296"
+          ],
+          "source_count": 18,
+          "finding_count": 53
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_4wk_pct": 73,
+        "ee_healing_8wk_pct": 86,
+        "severe_ee_healing_8wk_pct": 77,
+        "gerd_symptom_nnt": 14,
+        "duodenal_ulcer_healing_4wk_pct": 80,
+        "maintenance_12mo_pct": 75,
+        "h_pylori_eradication_pct": 79,
+        "indications": [
+          "GERD",
+          "Erosive esophagitis",
+          "Duodenal ulcer",
+          "H. pylori eradication"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "High — strongest CYP2C19 inhibition in vitro"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "rabeprazole",
+      "class": "PPI",
+      "name": "Rabeprazole",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H+/K+ ATPase (Cys813+Cys321)",
+            "value": 4.53,
+            "unit": "pKa1"
+          }
+        ],
+        "mechanism": "Irreversible H+/K+ ATPase inhibition; fastest accumulation (highest pKa1)",
+        "selectivity": "Parietal cell selective"
+      },
+      "l2_pk": {
+        "bioavailability": 52,
+        "half_life_h": 1.5,
+        "vd_l_per_kg": 0.34,
+        "metabolism": "Non-enzymatic reduction (major); CYP2C19 (minor)",
+        "renal_excretion_pct": 33,
+        "special": "CYP2C19-independent clearance — consistent across genotypes; fastest onset"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H+/K+ ATPase irreversible inhibition",
+        "ph_above_4_holding_time_h": 12.1,
+        "relative_potency_vs_omeprazole": 1.82,
+        "onset_h": 36,
+        "duration_h": 24,
+        "tolerance": false,
+        "healing_ability": 2,
+        "cyp2c19_inhibition": "None (Ki 17-21 µM)",
+        "cyp2c19_metabolism_pct": 40,
+        "ddi_risk": 2,
+        "pump_recovery_t_half_h": 24,
+        "hypergastrinemia": true,
+        "cdi_risk": 3,
+        "pneumonia_risk": 1,
+        "ckd_risk": 1,
+        "fracture_risk": 1,
+        "note": "CYP2C19-independent metabolism — best for EM populations; fastest onset",
+        "bone_fracture_risk": 3,
+        "acid_rebound": 3,
+        "_evidence": {
+          "pmids": [
+            "11318537",
+            "11736724",
+            "14695703",
+            "14976565",
+            "16359346",
+            "16773434",
+            "17559380",
+            "19166419",
+            "20716239",
+            "22936271",
+            "23350044",
+            "24802732",
+            "25889357",
+            "29272341",
+            "34979059",
+            "37097441",
+            "38235659",
+            "38296463",
+            "38662915",
+            "38750866",
+            "38817377",
+            "38874073",
+            "38950390",
+            "39189924",
+            "39326395",
+            "39404726",
+            "39491524",
+            "39539895",
+            "39547508",
+            "39587796",
+            "39648266",
+            "39663234",
+            "39711068",
+            "39712905",
+            "39817374",
+            "40094149",
+            "40146262",
+            "40168072",
+            "40350722",
+            "40360512",
+            "40511009",
+            "40602229",
+            "40662264",
+            "40785690",
+            "40916919",
+            "40932544",
+            "41077753",
+            "41260361",
+            "41549095",
+            "41553581",
+            "41603754",
+            "8601296"
+          ],
+          "source_count": 17,
+          "finding_count": 53
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_4wk_pct": 74,
+        "ee_healing_8wk_pct": 84,
+        "severe_ee_healing_8wk_pct": 75,
+        "gerd_symptom_nnt": 14,
+        "duodenal_ulcer_healing_4wk_pct": 80,
+        "maintenance_12mo_pct": 75,
+        "h_pylori_eradication_pct": 81,
+        "indications": [
+          "GERD",
+          "Erosive esophagitis",
+          "Duodenal ulcer",
+          "H. pylori eradication"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "Low — no CYP2C19 inhibition or metabolism"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "caution",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "cimetidine",
+      "class": "H2RA",
+      "name": "Cimetidine",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H2 receptor",
+            "value": 590,
+            "unit": "Ki (nM)"
+          }
+        ],
+        "mechanism": "Competitive H2 receptor antagonism; first-in-class imidazole",
+        "selectivity": "H2-selective; also binds androgen receptor (unique)"
+      },
+      "l2_pk": {
+        "bioavailability": 60,
+        "half_life_h": 2.0,
+        "vd_l_per_kg": 1.0,
+        "metabolism": "Hepatic (minor); auto-inhibition",
+        "renal_excretion_pct": 60,
+        "special": "Broad CYP inhibition (1A2, 2D6, 2C19, 3A4) → highest DDI burden; antiandrogenic effects"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H2 receptor competitive antagonism",
+        "ph_above_4_holding_time_h": 8.5,
+        "onset_min": 45,
+        "duration_h": 7,
+        "tolerance": false,
+        "healing_ability": true,
+        "cyp_inhibition": "Broad (1A2, 2C9, 2C19, 2D6, 3A4)",
+        "antiandrogenic": true,
+        "ddi_risk": 2,
+        "cdi_risk": 0,
+        "pneumonia_risk": 0,
+        "note": "Highest DDI burden among all GI drugs; antiandrogenic effects (gynecomastia, impotence)",
+        "h2_blockade": null,
+        "cns_penetration": false,
+        "off_targets": [
+          "H1-Receptor",
+          "H2-Histamine",
+          "H2-Receptor",
+          "Histamine"
+        ],
+        "_evidence": {
+          "pmids": [
+            "15905600",
+            "16596218",
+            "1675461",
+            "17375980",
+            "18054750",
+            "23038658",
+            "23454087",
+            "2645085",
+            "2878343",
+            "2906559",
+            "3734773",
+            "6237926",
+            "6312110",
+            "6317325",
+            "6418428",
+            "7882634",
+            "9068926"
+          ],
+          "source_count": 4,
+          "finding_count": 17
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_8wk_pct": 50,
+        "gerd_symptom_nnt": 15,
+        "duodenal_ulcer_healing_4wk_pct": 78,
+        "indications": [
+          "Duodenal ulcer",
+          "Gastric ulcer",
+          "GERD",
+          "Zollinger-Ellison"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "Highest — 30+ drug interactions (warfarin, theophylline, phenytoin)"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "ranitidine",
+      "class": "H2RA",
+      "name": "Ranitidine",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H2 receptor",
+            "value": 165,
+            "unit": "Ki (nM)"
+          }
+        ],
+        "mechanism": "Competitive H2 receptor antagonism; furan derivative",
+        "selectivity": "H2-selective; no CYP inhibition; no antiandrogenicity"
+      },
+      "l2_pk": {
+        "bioavailability": 55,
+        "half_life_h": 2.5,
+        "vd_l_per_kg": 1.5,
+        "metabolism": "FMO (minor); predominantly renal unchanged",
+        "renal_excretion_pct": 75,
+        "special": "Most potent H2RA; withdrawn 2020 due to NDMA contamination; highest CNS penetration in class"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H2 receptor competitive antagonism",
+        "ph_above_4_holding_time_h": 9.0,
+        "onset_min": 30,
+        "duration_h": 10,
+        "tolerance": false,
+        "healing_ability": true,
+        "cyp_inhibition": "None",
+        "antiandrogenic": false,
+        "ndma_concern": true,
+        "csf_penetration": "Highest in class",
+        "ddi_risk": 1,
+        "note": "Most potent H2RA; historically most prescribed; withdrawn globally 2020",
+        "h2_blockade": null,
+        "cns_penetration": true,
+        "off_targets": [
+          "H1-Receptor",
+          "H2-Histamine",
+          "H2-Receptor",
+          "Histamine",
+          "Proliferator-Activated"
+        ],
+        "_evidence": {
+          "pmids": [
+            "10223377",
+            "11373465",
+            "12175473",
+            "12182252",
+            "1673880",
+            "18054750",
+            "22848080",
+            "23454087",
+            "2878343",
+            "3734773",
+            "4076334",
+            "6312110",
+            "6317325",
+            "6329583",
+            "7809839",
+            "9068926"
+          ],
+          "source_count": 4,
+          "finding_count": 16
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_8wk_pct": 52,
+        "gerd_symptom_nnt": 14,
+        "duodenal_ulcer_healing_4wk_pct": 80,
+        "indications": [
+          "Duodenal ulcer",
+          "Gastric ulcer",
+          "GERD",
+          "Zollinger-Ellison"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "None clinically significant"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "famotidine",
+      "class": "H2RA",
+      "name": "Famotidine",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "H2 receptor",
+            "value": 14,
+            "unit": "Ki (nM)"
+          }
+        ],
+        "mechanism": "Competitive H2 receptor antagonism; thiazole derivative",
+        "selectivity": "H2-selective; no CYP inhibition; no antiandrogenicity; inverse agonist"
+      },
+      "l2_pk": {
+        "bioavailability": 43,
+        "half_life_h": 3.0,
+        "vd_l_per_kg": 1.2,
+        "metabolism": "Minimal (hepatic ~15%)",
+        "renal_excretion_pct": 68,
+        "special": "Longest H2RA t½ (2.5-3.5h); no CYP DDI; safest H2RA; preferred after ranitidine withdrawal"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "H2 receptor competitive antagonism",
+        "ph_above_4_holding_time_h": 9.5,
+        "onset_min": 30,
+        "duration_h": 12,
+        "tolerance": false,
+        "healing_ability": true,
+        "cyp_inhibition": "None",
+        "antiandrogenic": false,
+        "csf_penetration": "Lowest in class",
+        "ddi_risk": 2,
+        "note": "Safest H2RA — no DDI, no antiandrogenicity, longest t½; now the most-prescribed H2RA",
+        "h2_blockade": null,
+        "cns_penetration": false,
+        "off_targets": [
+          "H2-Receptor",
+          "Histamine",
+          "Histamine-2"
+        ],
+        "_evidence": {
+          "pmids": [
+            "1646056",
+            "16723495",
+            "1675461",
+            "23038658",
+            "23454087",
+            "26176290",
+            "2895455",
+            "35258842",
+            "35348553",
+            "7710303",
+            "9403794"
+          ],
+          "source_count": 3,
+          "finding_count": 11
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "ee_healing_8wk_pct": 50,
+        "gerd_symptom_nnt": 14,
+        "duodenal_ulcer_healing_4wk_pct": 80,
+        "indications": [
+          "Duodenal ulcer",
+          "Gastric ulcer",
+          "GERD",
+          "Nocturnal acid breakthrough"
+        ],
+        "pregnancy_safety": "Category B",
+        "ddi_burden": "None — safest H2RA for polypharmacy"
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "aluminum-magnesium-hydroxide",
+      "class": "Antacid",
+      "name": "Al/Mg Hydroxide",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "Gastric HCl (direct)",
+            "value": 25,
+            "unit": "mEq neutralization capacity"
+          }
+        ],
+        "mechanism": "Direct acid neutralization; combined Al (slow/constipating) + Mg (fast/laxative)",
+        "selectivity": "Non-selective — local action only"
+      },
+      "l2_pk": {
+        "bioavailability": 0,
+        "half_life_h": 0,
+        "vd_l_per_kg": 0,
+        "metabolism": "None (local action)",
+        "renal_excretion_pct": 0,
+        "special": "Non-systemic; Al accumulates in CKD (osteomalacia, encephalopathy); Mg accumulates → hypermagnesemia"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "Direct acid neutralization",
+        "onset_min": 5,
+        "duration_h": 1.5,
+        "tolerance": false,
+        "healing_ability": false,
+        "chelation_ddi": true,
+        "aluminum_accumulation_ckd": true,
+        "ddi_risk": 2,
+        "note": "Fastest onset but no healing effect; bowel-balanced; Al accumulation risk in CKD"
+      },
+      "l4_clinical": {
+        "indications": [
+          "Intermittent heartburn",
+          "Dyspepsia",
+          "GERD (mild/intermittent)"
+        ],
+        "pregnancy_safety": "Category B/C",
+        "ddi_burden": "Chelation: tetracyclines, FQs, iron, thyroid hormone, bisphosphonates"
+      },
+      "pregnancy_safety": "A",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "calcium-carbonate",
+      "class": "Antacid",
+      "name": "Calcium Carbonate",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "Gastric HCl (direct)",
+            "value": 20,
+            "unit": "mEq neutralization per g"
+          }
+        ],
+        "mechanism": "Direct acid neutralization; fastest chemical reaction (CO₂ byproduct)",
+        "selectivity": "Non-selective; produces CO₂ (belching)"
+      },
+      "l2_pk": {
+        "bioavailability": 15,
+        "half_life_h": 0,
+        "vd_l_per_kg": 0,
+        "metabolism": "None",
+        "renal_excretion_pct": 0,
+        "special": "Significant Ca absorption (10-20%); dual role as calcium supplement; milk-alkali syndrome risk"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "Direct acid neutralization",
+        "onset_min": 3,
+        "duration_h": 1.2,
+        "tolerance": false,
+        "healing_ability": false,
+        "acid_rebound": true,
+        "milk_alkali_risk": true,
+        "chelation_ddi": true,
+        "ddi_risk": 2,
+        "note": "Unique among antacids — produces acid rebound (Ca-gastrin mediated) and milk-alkali syndrome risk",
+        "neutralization_capacity": null,
+        "renal_toxicity_risk": null,
+        "duration_min": null,
+        "_evidence": {
+          "pmids": [
+            "12452946",
+            "15628717",
+            "1666497",
+            "42306230",
+            "6755653"
+          ],
+          "source_count": 3,
+          "finding_count": 5
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "indications": [
+          "Intermittent heartburn",
+          "Dyspepsia",
+          "Calcium supplementation"
+        ],
+        "pregnancy_safety": "Category C",
+        "ddi_burden": "Chelation: FQs, tetracyclines, iron, thyroid; thiazide synergy → hypercalcemia"
+      },
+      "pregnancy_safety": "A",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "sodium-alginate",
+      "class": "Alginate",
+      "name": "Sodium Alginate",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "Gastric content (physical)",
+            "value": 0,
+            "unit": "mEq"
+          }
+        ],
+        "mechanism": "Physical raft barrier — alginate + NaHCO₃ → CO₂ gel floats on gastric contents",
+        "selectivity": "Physical barrier, not pharmacological"
+      },
+      "l2_pk": {
+        "bioavailability": 0,
+        "half_life_h": 0,
+        "vd_l_per_kg": 0,
+        "metabolism": "None (non-systemic)",
+        "renal_excretion_pct": 0,
+        "special": "Non-systemic — safest GI drug in pregnancy; high sodium content (~110-140 mg/dose)"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "Physical raft barrier displacing acid pocket",
+        "onset_min": 5,
+        "duration_h": 3.5,
+        "tolerance": false,
+        "healing_ability": false,
+        "regurgitation_targeted": true,
+        "sodium_content_mg_per_dose": 125,
+        "ddi_risk": 0,
+        "note": "Unique mechanism — targets regurgitation by physical barrier; no systemic absorption",
+        "_evidence": {
+          "pmids": [
+            "23020277",
+            "27447444",
+            "30940497",
+            "35621940",
+            "40058440"
+          ],
+          "source_count": 1,
+          "finding_count": 5
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "indications": [
+          "GERD (regurgitation-dominant)",
+          "Pregnancy GERD (first-line)",
+          "Breakthrough reflux on PPI"
+        ],
+        "pregnancy_safety": "Category B (safest in pregnancy)",
+        "ddi_burden": "None — no absorption, no CYP, no chelation"
+      },
+      "pregnancy_safety": "A",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "sucralfate",
+      "class": "Mucosal Protectant",
+      "name": "Sucralfate",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "Ulcer base mucosa",
+            "value": 0,
+            "unit": "mEq"
+          }
+        ],
+        "mechanism": "Polymerizes at pH <4 into sticky gel barrier binding selectively to ulcerated mucosa (6-7x concentration vs normal)",
+        "selectivity": "Topical — binds to positively charged proteins at ulcer base"
+      },
+      "l2_pk": {
+        "bioavailability": 0.03,
+        "half_life_h": 1,
+        "vd_l_per_kg": 0,
+        "metabolism": "None (non-systemic)",
+        "renal_excretion_pct": 100,
+        "special": "Minimal systemic absorption (<5%); requires acidic pH for activation; aluminum content ~200 mg/g"
+      },
+      "l3_systems": {
+        "acid_suppression_mechanism": "None — no acid suppression at any dose",
+        "onset_min": 1,
+        "duration_h": 6,
+        "tolerance": false,
+        "healing_ability": true,
+        "pregnancy_category": "B",
+        "ddi_risk": 166,
+        "renal_toxicity": "high_in_ckd",
+        "note": "Only mucosal protectant in class; barrier + cytoprotection; paradoxical need for acid to activate",
+        "_evidence": {
+          "pmids": [
+            "9068926"
+          ],
+          "source_count": 1,
+          "finding_count": 1
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "indications": [
+          "Duodenal ulcer",
+          "Gastric ulcer",
+          "GERD (mild)",
+          "Stress ulcer prophylaxis (ICU)",
+          "Bile reflux gastropathy"
+        ],
+        "du_healing_8wk_pct": 81,
+        "gu_healing_8wk_pct": 87,
+        "gerd_healing_8wk_pct": 45,
+        "pregnancy_safety": "Category B (minimal systemic absorption — low risk)",
+        "ddi_burden": "High — 166 interactions (binds oral drugs, separate by 2h before/6h after)",
+        "maintenance_capability": "limited",
+        "smoking_negates": true
+      },
+      "pregnancy_safety": "B",
+      "lactation_safety": "safe",
+      "hepatic_safety": "safe"
+    },
+    {
+      "id": "naproxen",
+      "class": "NSAID",
+      "name": "Naproxen",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 5.0,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 4.6,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "TRPA1",
+            "value": 4.0,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Non-selective COX inhibition with slight COX-1 preference; TRPA1 antagonism",
+        "selectivity": "COX-1 > COX-2 (~2.5x)"
+      },
+      "l2_pk": {
+        "bioavailability": 95,
+        "half_life_h": 15,
+        "vd_l_per_kg": 0.16,
+        "metabolism": "CYP2C9 (major), CYP1A2",
+        "renal_excretion_pct": 95,
+        "special": "Long t½ permits twice-daily dosing"
+      },
+      "l3_systems": {
+        "gi_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 2,
+        "cns_penetration": false,
+        "platelet_effect": "Reversible inhibition, duration ~t½",
+        "cox_inhibition": null,
+        "off_targets": [],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "10369403",
+            "10430112",
+            "10749518",
+            "11315375",
+            "11566042",
+            "11665868",
+            "12086293",
+            "12098171",
+            "12852704",
+            "14975457",
+            "15151474",
+            "15684203",
+            "15780832",
+            "15837265",
+            "16859903",
+            "17164136",
+            "17473175",
+            "17652824",
+            "1794842",
+            "18823646",
+            "20000300",
+            "20174466",
+            "21275896",
+            "2203262",
+            "22521764",
+            "22881598",
+            "23091168",
+            "24175972",
+            "25666703",
+            "27899696",
+            "28019014",
+            "28238723",
+            "29560090",
+            "3203059",
+            "3319349",
+            "3393838",
+            "6595999",
+            "8533980",
+            "9013378"
+          ],
+          "source_count": 10,
+          "finding_count": 43
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 2.7,
+          "ci_95": "2.2-3.5",
+          "dose": "500mg"
+        },
+        "indications": [
+          "Acute pain",
+          "OA",
+          "RA",
+          "Dysmenorrhea",
+          "Gout"
+        ],
+        "nnh_gi": {
+          "value": 40,
+          "ci_95": "25-65"
+        },
+        "nnh_cv": null,
+        "success_rate": 0.55,
+        "onset_min": 45
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "safe",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "indomethacin",
+      "class": "NSAID",
+      "name": "Indomethacin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 7.6,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 5.8,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "PLA2",
+            "value": 5.2,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Potent non-selective COX inhibition with strong COX-1 preference; phospholipase A₂ inhibition",
+        "selectivity": "COX-1 >> COX-2 (~60x)"
+      },
+      "l2_pk": {
+        "bioavailability": 100,
+        "half_life_h": 4.5,
+        "vd_l_per_kg": 0.34,
+        "metabolism": "CYP2C9, O-demethylation, conjugation",
+        "renal_excretion_pct": 60,
+        "special": "High CNS penetration; used therapeutically to close PDA in neonates"
+      },
+      "l3_systems": {
+        "gi_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 3,
+        "cns_penetration": true,
+        "platelet_effect": "Reversible inhibition",
+        "cox_inhibition": null,
+        "off_targets": [
+          "Mineralocorticoid",
+          "Protease-Activated",
+          "Toll-Like"
+        ],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "10193997",
+            "10877525",
+            "11219488",
+            "11433185",
+            "11827361",
+            "12055598",
+            "1284561",
+            "12874188",
+            "12972011",
+            "1380156",
+            "14726416",
+            "16024567",
+            "16144976",
+            "16247187",
+            "16247188",
+            "16454737",
+            "16467309",
+            "16487511",
+            "16493584",
+            "17510465",
+            "19122513",
+            "20441531",
+            "20854926",
+            "22122764",
+            "22172524",
+            "23443017",
+            "234676",
+            "23594590",
+            "25065623",
+            "2514664",
+            "25521744",
+            "26438564",
+            "27226186",
+            "32467143",
+            "333946",
+            "33504303",
+            "35429606",
+            "37947039",
+            "38880193",
+            "3987775",
+            "40986262",
+            "444956",
+            "6428794",
+            "7249487",
+            "824936",
+            "8648901",
+            "9351500"
+          ],
+          "source_count": 12,
+          "finding_count": 52
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 1.8,
+          "ci_95": "1.4-2.5",
+          "dose": "50mg"
+        },
+        "indications": [
+          "Ankylosing spondylitis",
+          "Acute gout",
+          "PDA closure",
+          "Pericarditis"
+        ],
+        "nnh_gi": {
+          "value": 15,
+          "ci_95": "8-30"
+        },
+        "nnh_cv": null,
+        "success_rate": 0.65,
+        "onset_min": 30
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "caution",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "meloxicam",
+      "class": "NSAID",
+      "name": "Meloxicam",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 5.2,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 6.3,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "COX-2 preferential inhibition",
+        "selectivity": "COX-2 > COX-1 (~10x)"
+      },
+      "l2_pk": {
+        "bioavailability": 89,
+        "half_life_h": 22,
+        "vd_l_per_kg": 0.15,
+        "metabolism": "CYP2C9 (major), CYP3A4",
+        "renal_excretion_pct": 50,
+        "special": "Long t½ enables once-daily dosing"
+      },
+      "l3_systems": {
+        "gi_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 2,
+        "cns_penetration": false,
+        "platelet_effect": "Minimal at therapeutic doses",
+        "cox_inhibition": null,
+        "off_targets": [],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "10391112",
+            "10628595",
+            "10810234",
+            "10882157",
+            "10892637",
+            "11028250",
+            "11078056",
+            "11566042",
+            "12162470",
+            "14659976",
+            "15199082",
+            "15587760",
+            "15989631",
+            "16254252",
+            "16265533",
+            "17164136",
+            "2401186",
+            "27596333",
+            "31961516",
+            "39598398",
+            "9219313",
+            "9475035"
+          ],
+          "source_count": 8,
+          "finding_count": 28
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 4.0,
+          "ci_95": "3.0-5.5",
+          "dose": "15mg"
+        },
+        "indications": [
+          "OA",
+          "RA",
+          "Juvenile idiopathic arthritis"
+        ],
+        "nnh_gi": {
+          "value": 80,
+          "ci_95": "50-150"
+        },
+        "nnh_cv": null,
+        "success_rate": 0.45,
+        "onset_min": 60
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "caution",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "piroxicam",
+      "class": "NSAID",
+      "name": "Piroxicam",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 6.3,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 4.5,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Non-selective COX inhibition with strong COX-1 preference",
+        "selectivity": "COX-1 >> COX-2 (~60x)"
+      },
+      "l2_pk": {
+        "bioavailability": 100,
+        "half_life_h": 50,
+        "vd_l_per_kg": 0.13,
+        "metabolism": "CYP2C9 (major)",
+        "renal_excretion_pct": 10,
+        "special": "Ultra-long t½ enables once-daily dosing; enterohepatic recirculation"
+      },
+      "l3_systems": {
+        "gi_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 3,
+        "cns_penetration": false,
+        "platelet_effect": "Reversible inhibition",
+        "cox_inhibition": null,
+        "off_targets": [],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": 2,
+        "_evidence": {
+          "pmids": [
+            "11133513",
+            "11320858",
+            "11809688",
+            "11917005",
+            "12086405",
+            "14659976",
+            "14742249",
+            "16485829",
+            "1823383",
+            "19379728",
+            "1958445",
+            "19931610",
+            "2109074",
+            "2183665",
+            "23394552",
+            "24075938",
+            "2518861",
+            "2576330",
+            "26197453",
+            "26604686",
+            "3172091",
+            "3402526",
+            "3622592",
+            "3706353",
+            "3877538",
+            "3879830",
+            "8137596",
+            "8162655",
+            "9226419",
+            "9683035"
+          ],
+          "source_count": 10,
+          "finding_count": 35
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 3.5,
+          "ci_95": "2.5-5.0",
+          "dose": "20mg"
+        },
+        "indications": [
+          "RA",
+          "OA",
+          "Ankylosing spondylitis"
+        ],
+        "nnh_gi": {
+          "value": 20,
+          "ci_95": "10-40"
+        },
+        "nnh_cv": null,
+        "success_rate": 0.5,
+        "onset_min": 60
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "caution",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "ketorolac",
+      "class": "NSAID",
+      "name": "Ketorolac",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 9.0,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 6.9,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Highly potent non-selective COX inhibition",
+        "selectivity": "COX-1 >> COX-2 (~100x)"
+      },
+      "l2_pk": {
+        "bioavailability": 100,
+        "half_life_h": 5.0,
+        "vd_l_per_kg": 0.22,
+        "metabolism": "CYP2C9 (minor), glucuronidation",
+        "renal_excretion_pct": 90,
+        "special": "Most potent NSAID; limited to 5 days use (GI + renal safety)"
+      },
+      "l3_systems": {
+        "gi_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 2,
+        "cns_penetration": false,
+        "platelet_effect": "Reversible, resolves within 24h of cessation",
+        "cox_inhibition": null,
+        "off_targets": [],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": 2,
+        "_evidence": {
+          "pmids": [
+            "10220509",
+            "11060897",
+            "12506103",
+            "1284557",
+            "1284561",
+            "15193428",
+            "16277613",
+            "18326807",
+            "19897019",
+            "21396775",
+            "2292174",
+            "23163547",
+            "24075938",
+            "24218498",
+            "28238723",
+            "29771750",
+            "30739913",
+            "31961516",
+            "37348669",
+            "39795143",
+            "40488576",
+            "9399978"
+          ],
+          "source_count": 8,
+          "finding_count": 26
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 2.2,
+          "ci_95": "1.8-2.8",
+          "dose": "30mg IM"
+        },
+        "indications": [
+          "Moderate-severe acute pain",
+          "Post-operative pain",
+          "Renal colic"
+        ],
+        "nnh_gi": {
+          "value": 12,
+          "ci_95": "5-25"
+        },
+        "nnh_cv": {
+          "value": 100,
+          "ci_95": "50-200"
+        },
+        "success_rate": 0.7,
+        "onset_min": 15
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "caution",
+      "hepatic_safety": "caution"
+    },
+    {
+      "id": "aspirin",
+      "class": "NSAID",
+      "name": "Aspirin",
+      "l1_binding": {
+        "targets": [
+          {
+            "name": "COX-1",
+            "value": 6.5,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "COX-2",
+            "value": 3.6,
+            "unit": "-log10 IC50"
+          },
+          {
+            "name": "NF-kB",
+            "value": 4.0,
+            "unit": "-log10 IC50"
+          }
+        ],
+        "mechanism": "Irreversible COX-1 acetylation at low doses; COX-1 + COX-2 at high doses; NF-kB modulation",
+        "selectivity": "COX-1 >>> COX-2 (~800x at low dose)"
+      },
+      "l2_pk": {
+        "bioavailability": 50,
+        "half_life_h": 0.3,
+        "vd_l_per_kg": 0.18,
+        "metabolism": "Hepatic esterases (rapid hydrolysis to salicylate), CYP2C9",
+        "renal_excretion_pct": 10,
+        "special": "Low-dose antiplatelet vs high-dose analgesic; salicylate t½ extends to 15-30h at high doses"
+      },
+      "l3_systems": {
+        "gi_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 3,
+        "cns_penetration": true,
+        "platelet_effect": "Irreversible COX-1 inhibition, lasts platelet lifespan (~10 days)",
+        "cox_inhibition": null,
+        "off_targets": [
+          "Platelet"
+        ],
+        "anti_inflammatory": null,
+        "analgesic": null,
+        "antipyretic": null,
+        "ddi_risk": 1,
+        "_evidence": {
+          "pmids": [
+            "1107000",
+            "11191738",
+            "11336566",
+            "11566042",
+            "11822005",
+            "12765488",
+            "14529406",
+            "14965265",
+            "14996001",
+            "15001832",
+            "15780832",
+            "16218482",
+            "16227351",
+            "16247188",
+            "16254252",
+            "16454737",
+            "16488805",
+            "16773199",
+            "17380211",
+            "17426365",
+            "19069170",
+            "20000300",
+            "2030640",
+            "21387691",
+            "22707158",
+            "22893199",
+            "24605250",
+            "25023354",
+            "2514664",
+            "25842298",
+            "26369775",
+            "31878290",
+            "32640277",
+            "35780223",
+            "35835856",
+            "36829052",
+            "37236757",
+            "37453623",
+            "38142422",
+            "3888490",
+            "38889377",
+            "38901284",
+            "3933848",
+            "39780702",
+            "40683445",
+            "40991180",
+            "6762610",
+            "6767025",
+            "7008735",
+            "7249487",
+            "7534663",
+            "7736686",
+            "8162655",
+            "8898449",
+            "9737710"
+          ],
+          "source_count": 15,
+          "finding_count": 60
+        },
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+      },
+      "l4_clinical": {
+        "nnt_50_pain_relief": {
+          "value": 2.4,
+          "ci_95": "1.8-3.2",
+          "dose": "600mg"
+        },
+        "indications": [
+          "Acute pain",
+          "Inflammatory arthritis",
+          "Fever",
+          "Kawasaki disease",
+          "Secondary prevention MI/stroke"
+        ],
+        "nnh_gi": {
+          "value": 30,
+          "ci_95": "15-60"
+        },
+        "nnh_cv": null,
+        "success_rate": 0.48,
+        "onset_min": 20
+      },
+      "pregnancy_safety": "C/D",
+      "lactation_safety": "safe",
+      "hepatic_safety": "caution"
+    }
+  ]
+}

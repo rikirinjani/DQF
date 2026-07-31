@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Alogliptin DPP-4 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "DPP-4"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41263457",
+        "text": "Addition of sitagliptin to ongoing metformin improved metabolic profile and pancreatic function via normalizing inflammatory cytokines' levels in patients with type 2 diabetes, a randomized double-blinded clinical trial. DPP-4 inhibitors have anti-diabetic effects in T2DM, but their impact on pancreatic function and underlying mechanisms remain unclear. This study aimed to evaluate the effects of sitagliptin on pancreatic function and glucose regulation, focusing on the roles of IL-18, IL-1, and IL-6 in T2D",
+        "score": 0.3830297589302063,
+        "doi": "10.1080/17446651.2025.2539252",
+        "journal": "Expert review of endocrinology & metabolism",
+        "year": "2025",
+        "rerank_score": 6.431483745574951,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39636221",
+        "text": "Alogliptin is an oral hypoglycemic agent selective inhibitor of the dipeptidyl peptidase-4 (DPP-4) enzyme. Inhibition of DPP-4 increases the levels of the incretin hormones glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) by preventing their degradation. The main goal is to study the predicted and experimental properties of absorption, distribution, metabolism, and elimination (ADME), compare them, examine predicted targets, and understand the use of SwissADME in design",
+        "score": 0.4033525586128235,
+        "doi": "10.1080/03602532.2024.2439102",
+        "journal": "Drug metabolism reviews",
+        "year": "2025",
+        "rerank_score": 5.117380619049072,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40504582",
+        "text": "Gliptin induced acute pancreatitis: a literature review. The association between dipeptidyl peptidase-4 (DPP-4) inhibitors, known as gliptins, and acute pancreatitis raises growing concern. A systematic search of PubMed, Scopus and Web of Science was conducted for studies published between January 2005 and July 2024. Studies focusing on gliptin-induced pancreatitis were selected based on predefined criteria. While gliptins are effective in managing type 2 diabetes mellitus, several case reports and observat",
+        "score": 0.3557639718055725,
+        "doi": "10.51821/88.1.13722",
+        "journal": "Acta gastro-enterologica Belgica",
+        "year": "2025",
+        "rerank_score": 5.007243633270264,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

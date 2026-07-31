@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Lansoprazole H+/K+ ATPase (Cys813+Cys321) CYP interaction",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813+Cys321)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38885537",
+        "text": "Lansoprazole (LPZ) reverses multidrug resistance (MDR) in cancer through impeding ATP-binding cassette (ABC) transporter-mediated chemotherapeutic drug efflux and lysosomal sequestration. Lansoprazole is one of the many proton pump inhibitors (PPIs) that acts more strongly with ABCB1 and ABCG2. The present study is to investigate the potential of lansoprazole on reversal of ABCB1/G2-mediated MDR in cancer, in vitro and in vivo. Reversal studies and combination evaluation were conducted to determine the syne",
+        "score": 0.4435170888900757,
+        "doi": "10.1016/j.drup.2024.101100",
+        "journal": "Drug resistance updates : reviews and commentaries in antimicrobial and anticanc",
+        "year": "2024",
+        "rerank_score": 0.3920239508152008,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40379961",
+        "text": "Exploring the Influence of Obesity and CYP2 C19 Genotype on Lansoprazole Pharmacokinetics in Pediatric Patients: A Population Modeling Approach. Pediatric pharmacokinetics pose unique challenges, particularly concerning drug dosing in the presence of obesity and genetic variability in drug-metabolizing enzymes such as cytochrome P450 (CYP) 2C19. This study aimed to develop a lansoprazole pediatric population pharmacokinetic (popPK) model considering obesity, obesity-associated changes in inflammatory cytoki",
+        "score": 0.446237176656723,
+        "doi": "10.1007/s40262-025-01517-0",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 0.38842514157295227,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38925922",
+        "text": "Omeprazole Induces CYP3A4 mRNA Expression but Not CYP3A4 Protein Expression in HepaRG Cells. Unknown interactions between drugs remain the limiting factor for clinical application of drugs, and the induction and inhibition of drug-metabolizing CYP enzymes are considered the key to examining the drug-drug interaction (DDI). In this study, using human HepaRG cells as an in vitro model system, we analyzed the potential DDI based on the expression levels of CYP3A4 and CYP1A2. Rifampicin and omeprazole, the pote",
+        "score": 0.4138477146625519,
+        "doi": "10.1248/bpb.b24-00161",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2024",
+        "rerank_score": 0.24188005924224854,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

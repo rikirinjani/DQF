@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole Clostridium difficile risk odds ratio cohort",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30991081",
+        "text": "Predictors of mortality and length of stay in patients with hospital-acquired Clostridioides difficile infection: a population-based study in Alberta, Canada. In a population-based, five-year retrospective cohort study of 5304 adult patients with hospital-acquired Clostridioides difficile infection across Alberta (N=101 hospitals), 30-day all-cause and attributable mortality were 12.2% and 4.5%, respectively. Patients >75 years of age had the highest odds of attributable mortality (odds ratio (OR) 9.34, 95%",
+        "score": 0.41128844022750854,
+        "doi": "10.1016/j.jhin.2019.04.007",
+        "journal": "The Journal of hospital infection",
+        "year": "2019",
+        "rerank_score": 4.676656723022461,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39674371",
+        "text": "Alcohol use as a risk factor for Clostridioides difficile. Clostridioides difficile (C. diff) is a pathogen of concern. Several risk factors are known, but patients without these risk factors continue to develop the disease. Alcohol use disorder (AUD) is known to disrupt the gut similar to antibiotics, which prompted this evaluation of the association between AUD and C. diff infection. A retrospective cohort study was conducted within 5 hospitals in a health system in Colorado. Adults 18 years of age or old",
+        "score": 0.41991281509399414,
+        "doi": "10.1016/j.ajic.2024.12.002",
+        "journal": "American journal of infection control",
+        "year": "2024",
+        "rerank_score": 1.665088176727295,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41315977",
+        "text": "Analysis of risk factors for Clostridioides difficile infection in patients with ulcerative colitis and development of a predictive nomogram. This study aimed to identify the risk factors associated with Clostridioides difficile infection (CDI) in patients with ulcerative colitis (UC) and to develop a predictive nomogram. We prospectively enrolled 331 UC patients from April 2022 to October 2024. We randomly assigned them to a training set (n = 232) and a validation set (n = 99) in a 7:3 ratio. In the traini",
+        "score": 0.42409271001815796,
+        "doi": "10.1186/s12876-025-04503-9",
+        "journal": "BMC gastroenterology",
+        "year": "2025",
+        "rerank_score": 1.3674306869506836,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

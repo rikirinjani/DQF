@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin gastrointestinal tolerability nausea diarrhea",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32905164",
+        "text": "A Case Report on Metformin-Associated Lactic Acidosis. Metformin is the first-line therapy for patients with type 2 diabetes, and its most common adverse effects are gastrointestinal. Lactic acidosis associated with metformin use is rare. Here, we report the case of a 77-year-old man with a medical history of diabetes (treated with metformin), hypertension, chronic alcohol abuse, and prostate and bladder cancer, who presented with abdominal pain, nausea, vomiting, and diarrhea for five days. He was admitted",
+        "score": 0.3981042802333832,
+        "doi": "10.7759/cureus.9533",
+        "journal": "Cureus",
+        "year": "2020",
+        "rerank_score": 3.419052839279175,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28116648",
+        "text": "Metformin: New Preparations and Nonglycemic Benefits. Metformin has been widely used for over 5 decades. New preparations have been developed for possible enhancement of efficiency, tolerability, and pleiotropic nonglycemic effects. Extended-release metformin has contributed to adherence and improved gastrointestinal tolerability. Delayed-release metformin acts in the lower gastrointestinal tract and exerts glucose-lowering effects at lower plasma metformin levels, which might suggest use of this biguanide ",
+        "score": 0.3987535238265991,
+        "doi": "10.1007/s11892-017-0829-8",
+        "journal": "Current diabetes reports",
+        "year": "2017",
+        "rerank_score": 2.1345975399017334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6336343",
+        "text": "Diarrhea and metformin in a diabetic clinic. In a questionnaire-based survey of 285 randomly selected diabetic patients, diarrhea was found to occur in 8%; this was found to be similar to that in 150 nondiabetic control patients attending other medical clinics (8%). When the diabetic patients were divided into separate therapeutic groups, metformin-treated (with or without sulfonylureas) patients had a markedly greater prevalence of diarrhea (20%) than those not on this drug (6%). A majority of patients wit",
+        "score": 0.39651525020599365,
+        "doi": "10.2337/diacare.6.5.472",
+        "journal": "Diabetes care",
+        "year": "1983",
+        "rerank_score": 0.8795716166496277,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

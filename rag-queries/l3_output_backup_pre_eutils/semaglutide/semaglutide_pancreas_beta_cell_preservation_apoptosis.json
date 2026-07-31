@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide pancreas beta cell preservation apoptosis",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38387480",
+        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
+        "score": 0.39809420704841614,
+        "doi": "10.1055/a-2239-2668",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2024",
+        "rerank_score": 2.0616745948791504,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39429379",
+        "text": "Semaglutide-Induced Acute Pancreatitis Leading to Death After Four Years of Use. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) are essential in managing type 2 diabetes mellitus, promoting glucose regulation, weight reduction, and cardiovascular protection. Here, we report a unique case of semaglutide-induced pancreatitis complicated by distributive shock and death after four years of use. A 74-year-old male with type 2 diabetes, atrial fibrillation, coronary artery disease, and obesity (BMI 31.7) pr",
+        "score": 0.4052085876464844,
+        "doi": "10.7759/cureus.69704",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -0.2832837402820587,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41235672",
+        "text": "Astragaloside IV promotes the apoptosis of pancreatic cancer cells by activating endoplasmic reticulum stress through the PERK/ATF4/CHOP signaling pathway. Pancreatic cancer is characterized by short survival and poor treatment outcomes. Astragaloside IV (AST‑IV), the primary pharmacological component of",
+        "score": 0.40465933084487915,
+        "doi": "10.3892/mmr.2025.13748",
+        "journal": "Molecular medicine reports",
+        "year": "2025",
+        "rerank_score": -0.3383241891860962,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

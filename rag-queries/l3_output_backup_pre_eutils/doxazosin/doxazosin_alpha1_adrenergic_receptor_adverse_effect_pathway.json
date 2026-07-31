@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Doxazosin alpha1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38494421",
+        "text": "The α-1 Adrenergic Receptor Antagonist Doxazosin Attenuates Liver Fibrosis by Alleviating Sinusoidal Capillarization and Liver Angiogenesis. Liver fibrosis and cirrhosis, which are caused by chronic liver injury, represent common and intractable clinical challenges of global importance. However, effective therapeutics are lacking. Therefore, the study examines the effect of doxazosin on liver fibrosis. Carbon tetrachloride (CCl",
+        "score": 0.4088859558105469,
+        "doi": "10.1002/adbi.202300513",
+        "journal": "Advanced biology",
+        "year": "2024",
+        "rerank_score": 4.656938552856445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38846867",
+        "text": "Risk of Parkinson's disease among users of alpha-adrenergic receptor antagonists: a systematic review and meta-analysis. Recent studies have tried to establish an association between the use of alpha-1-adrenergic receptor antagonists (A1ARAs) used in benign prostatic hyperplasia (BPH) and the risk of PD. The objective of the study is to compare the risk of Parkinson's disease (PD) between terazosin/alfuzosin/doxazosin (TZ/AZ/DZ) users and tamsulosin users. PubMed, Google Scholar, and Embase were systematica",
+        "score": 0.44856882095336914,
+        "doi": "10.1097/MS9.0000000000002117",
+        "journal": "Annals of medicine and surgery (2012)",
+        "year": "2024",
+        "rerank_score": 3.049076795578003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39363270",
+        "text": "Alpha-adrenergic antagonists and iris dynamics: Challenges and solutions in cataract surgery. Alpha-1 adrenergic receptor antagonists (α1-ARAs) are frequently used in treatment of Hypertension and symptomatic benign prostatic hypertrophy (BPH). Numerous studies have demonstrated the association between α1-ARAs like Tamsulosin and increased surgical risks for patients undergoing cataract surgery. This study aims to identify and study the effects of α1-ARAs on iris parameters and the subsequent operative chal",
+        "score": 0.45742329955101013,
+        "doi": "10.1186/s12886-024-03705-1",
+        "journal": "BMC ophthalmology",
+        "year": "2024",
+        "rerank_score": 1.4209245443344116,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

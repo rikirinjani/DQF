@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metformin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.3662022352218628,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 6.406998634338379,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41097011",
+        "text": "From Diabetes to Degenerative Diseases: The Multifaceted Action of Metformin. Metformin, an oral antihyperglycemic drug, represents the cornerstone of pharmacological treatment for type 2 diabetes mellitus (T2DM). Its primary glucose-lowering effects are well established, predominantly mediated through the activation of AMP-activated protein kinase (AMPK). This activation leads to a reduction in hepatic glucose production (primarily by inhibiting gluconeogenesis and glycogenolysis) and an increase in periph",
+        "score": 0.37257567048072815,
+        "doi": "10.3390/ijms26199748",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 5.661592960357666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23141431",
+        "text": "Metformin enhances the action of insulin on porcine granulosa-lutein cells in vitro. Metformin is an oral antidiabetic drug extensively used to treat the polycystic ovary syndrome in women. Metformin increases insulin-stimulated glucose uptake and has direct effects on ovarian steroidogenesis in humans. However, the molecular mechanisms of metformin' action on the ovary are not clear. To investigate the effects of this drug on the insulin-signaling pathway in porcine granulosa cells as an alternative model ",
+        "score": 0.35211628675460815,
+        "doi": "10.1016/j.anireprosci.2012.10.001",
+        "journal": "Animal reproduction science",
+        "year": "2011",
+        "rerank_score": 5.379974842071533,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Saxagliptin tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40959792",
+        "text": "Ceftaroline pharmacokinetics/pharmacodynamics in the hollow-fibre model of  Guideline-based therapy (GBT) of  As an alternative, we tested ceftaroline-avibactam, with a 3-h half-life, in the hollow-fibre model system of MAB-LD (HFS-MAB). Eight ceftaroline-avibactam exposures were administered twice daily based on human intrapulmonary pharmacokinetics. Next, we compared GBT (cefoxitin-clarithromycin-amikacin) to standard-dose and to high-dose ceftaroline-avibactam-tigecycline-moxifloxacin regimens, in the HF",
+        "score": 0.4168727993965149,
+        "doi": "10.5588/ijtldopen.25.0173",
+        "journal": "IJTLD open",
+        "year": "2025",
+        "rerank_score": -1.347280740737915,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38399334",
+        "text": "Physiologically Based Pharmacokinetic (PBPK) Modeling to Predict CYP3A-Mediated Drug Interaction between Saxagliptin and Nicardipine: Bridging Rat-to-Human Extrapolation. The aim of this study was to predict the cytochrome P450 3A (CYP3A)-mediated drug-drug interactions (DDIs) between saxagliptin and nicardipine using a physiologically based pharmacokinetic (PBPK) model. Initially, in silico and in vitro parameters were gathered from experiments or the literature to construct PBPK models for each drug in ra",
+        "score": 0.39016491174697876,
+        "doi": "10.3390/pharmaceutics16020280",
+        "journal": "Pharmaceutics",
+        "year": "2024",
+        "rerank_score": -2.381187677383423,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41587787",
+        "text": "Development and Validation of UHPLC-MS/MS Method for the Determination of SAX and 5-OH-SAX in Human Plasma and Its Application to a Pharmacokinetic Study. A highly sensitive and reliable ultrahigh performance liquid chromatography-tandem mass spectrometry method (UHPLC-MS/MS) has been developed for the quantification of saxagliptin (SAX) and its metabolite, 5-hydroxy saxagliptin (5-OH-SAX), in human plasma. Utilizing an ACE Excel 3 Super C18 column with electrospray ionization multiple reaction monitoring, ",
+        "score": 0.3985747694969177,
+        "doi": "10.1002/bmc.70372",
+        "journal": "Biomedical chromatography : BMC",
+        "year": "2025",
+        "rerank_score": -2.562983512878418,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Vildagliptin SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15886245",
+        "text": "Vildagliptin, a dipeptidyl peptidase-IV inhibitor, improves model-assessed beta-cell function in patients with type 2 diabetes. The dipeptidyl peptidase IV inhibitor, vildagliptin, increases levels of intact glucagon-like peptide-1 (GLP-1) and improves glycemic control in patients with type 2 diabetes. Although GLP-1 is known to stimulate insulin secretion, vildagliptin does not affect plasma insulin levels in diabetic patients, suggesting that more sophisticated measures are necessary to ascertain the infl",
+        "score": 0.3577782213687897,
+        "doi": "10.1210/jc.2004-2460",
+        "journal": "The Journal of clinical endocrinology and metabolism",
+        "year": "2005",
+        "rerank_score": 4.309616565704346,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28807765",
+        "text": "SGLT2-inhibitor and DPP-4 inhibitor improve brain function via attenuating mitochondrial dysfunction, insulin resistance, inflammation, and apoptosis in HFD-induced obese rats. Dipeptidyl peptidase-4 inhibitor (vildagliptin) has been shown to exert beneficial effects on insulin sensitivity and neuroprotection in obese-insulin resistance. Recent studies demonstrated the neuroprotection of the sodium-glucose co-transporter 2 inhibitor (dapagliflozin) in diabetes. However, the comparative effects of both drugs",
+        "score": 0.358081579208374,
+        "doi": "10.1016/j.taap.2017.08.005",
+        "journal": "Toxicology and applied pharmacology",
+        "year": "2017",
+        "rerank_score": 4.23833703994751,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40406484",
+        "text": "Reduced abundance of  The sodium glucose cotransporter 2 inhibitor (SGLT2i) dapagliflozin has been demonstrated cardiovascular benefits in patients with type 2 diabetes mellitus (T2DM). However, the underlying mechanism remains poorly understood. We conducted an 8-week, single-arm clinical trial, which enrolled 12 patients with inadequate glycemic control on metformin monotherapy. These patients were treated with SGLT2i dapagliflozin (10 mg/day). We assessed changes in clinical parameters pertinent to gluco",
+        "score": 0.3663480281829834,
+        "doi": "10.3389/fphar.2025.1600464",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 3.280599355697632,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

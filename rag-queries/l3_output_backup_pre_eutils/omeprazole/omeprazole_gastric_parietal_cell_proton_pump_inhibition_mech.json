@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole gastric parietal cell proton pump inhibition mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40554569",
+        "text": "Computational design and cheminformatics profiling of omeprazole derivatives for enhanced proton pump inhibition of potassium-transporting ATPase alpha chain 1. Proton pump inhibitors are essential for treating moderate-to-severe gastroesophageal reflux, peptic ulcers, esophagitis, and related conditions by increasing gastric pH and inhibiting hydrogen ion discharge into the stomach. However, prolonged use may lead to adverse effects along with reduced efficacy. Our research investigates the strategic modif",
+        "score": 0.3693532347679138,
+        "doi": "10.1371/journal.pone.0326655",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": 5.88797664642334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2873085",
+        "text": "[Effects of gastric proton pump inhibitors on gastric secretion and peptic ulcers]. This is a review article on newly developed antisecretory drugs which are now called proton pump inhibitors. Gastric H+ is secreted from the secretory membrane of parietal cells into the lumen of the stomach, using energy obtained by destructing ATP with H+, K+-ATPase (proton pump). Various substituted benzimidazoles such as timoprazole, picoprazole, omeprazole, or NC-1300 potently inhibits this proton pump at pH 6.0, thereb",
+        "score": 0.33743777871131897,
+        "doi": "10.1254/fpj.87.351",
+        "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+        "year": "1986",
+        "rerank_score": 5.6078667640686035,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40553973",
+        "text": "Corrigendum to \"Lansoprazole, a Proton Pump Inhibitor, Mediates Anti-Inflammatory Effect in Gastric Mucosal Cells through the Induction of Heme Oxygenase-1 via Activation of NF-E2-Related Factor 2 and Oxidation of Kelch-Like ECH-Associating Protein 1\" [The Journal of Pharmacology and Experimental Therapeutics 331 (2009) 255-264].",
+        "score": 0.4049975872039795,
+        "doi": "10.1016/j.jpet.2025.103631",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "year": "2025",
+        "rerank_score": 4.482247352600098,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

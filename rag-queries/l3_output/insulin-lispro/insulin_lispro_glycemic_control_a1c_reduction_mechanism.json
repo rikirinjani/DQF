@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Lispro glycemic control A1c reduction mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:9000704",
+        "text": "Reduction of postprandial hyperglycemia and frequency of hypoglycemia in IDDM patients on insulin-analog treatment. Multicenter Insulin Lispro Study Group. Insulin lispro, an insulin analog recently developed particularly for mealtime therapy, has a fast absorption rate and a short duration of action. We compared insulin lispro and regular human insulin in the mealtime treatment of 1,008 patients with IDDM. The study was a 6-month randomized multinational (17 countries) and multicenter (102 investigators) c",
+        "score": 0.35419729351997375,
+        "doi": "10.2337/diab.46.2.265",
+        "journal": "Diabetes",
+        "year": "1997",
+        "rerank_score": 0.9304640889167786,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39569508",
+        "text": "Evaluation of an inpatient automatic dose reduction protocol for concentrated insulin glargine upon therapeutic interchange to insulin detemir on hypoglycemia rates. A previous study at Ascension Seton Hospital Network (ASHN) found a 1:1 dose conversion to insulin detemir 100 units/mL (iDet100) from insulin glargine 300 units/mL (iGlar300) increased the incidence of hypoglycemia as compared to a 1:1 conversion from insulin glargine 100 units/mL. No studies have evaluated an automatic 20% dose reduction for ",
+        "score": 0.4024215340614319,
+        "doi": "10.1093/ajhp/zxae346",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2025",
+        "rerank_score": -0.6165804266929626,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41467154",
+        "text": "Implementation of a Multihospital Electronic Medical Record-Based Insulin Order Set to Reduce Hypoglycemic Events. Glycemic control in hospitalized patients with diabetes is crucial yet remains challenging. Hypoglycemia poses an increased risk of complications, prolonged stays, and mortality. Strategies such as basal-bolus-correction insulin can help balance glycemic control and reduce hypoglycemic events. This study evaluated the impact of a mandatory electronic medical record-based insulin order set acros",
+        "score": 0.40466153621673584,
+        "doi": "10.1016/j.aed.2025.09.005",
+        "journal": "AACE endocrinology and diabetes",
+        "year": "2025",
+        "rerank_score": -0.7244206070899963,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

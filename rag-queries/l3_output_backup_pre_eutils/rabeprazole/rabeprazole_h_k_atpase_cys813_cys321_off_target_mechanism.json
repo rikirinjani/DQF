@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole H+/K+ ATPase (Cys813+Cys321) off-target mechanism",
+    "dimension": "off_target",
+    "target": "H+/K+ ATPase (Cys813+Cys321)"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38662915",
+        "text": "Tracking Inhibition of Human Small C-Terminal Domain Phosphatase 1 Using 193 nm Ultraviolet Photodissociation Mass Spectrometry. Working in tandem with kinases via a dynamic interplay of phosphorylation and dephosphorylation of proteins, phosphatases regulate many cellular processes and thus represent compelling therapeutic targets. Here we leverage ultraviolet photodissociation to shed light on the binding characteristics of two covalent phosphatase inhibitors, T65 and rabeprazole, and their respective int",
+        "score": 0.3983819782733917,
+        "doi": "10.1021/jasms.4c00098",
+        "journal": "Journal of the American Society for Mass Spectrometry",
+        "year": "2024",
+        "rerank_score": -2.146256446838379,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39491524",
+        "text": "ATP-Triggered Fe(CN) [NiFe]-hydrogenases catalyze the reversible activation of H",
+        "score": 0.3996964395046234,
+        "doi": "10.1021/jacs.4c09791",
+        "journal": "Journal of the American Chemical Society",
+        "year": "2024",
+        "rerank_score": -3.4967360496520996,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38235659",
+        "text": "G45 and V386 in Transmembrane Domains 1 and 8 Are Critical for the Activation of OATP1B3-Mediated E17βG Uptake by Clotrimazole. Organic anion-transporting polypeptides (OATPs) 1B1 and 1B3 are two highly homologous transport proteins. However, OATP1B1- and 1B3-mediated estradiol-17β-glucuronide (E17βG) uptake can be differentially affected by clotrimazole. In this study, by functional characterization on chimeric transporters and single mutants, we find that G45 in transmembrane domain 1 (TM1) and V386 in TM",
+        "score": 0.3935708701610565,
+        "doi": "10.1021/acs.molpharmaceut.3c00934",
+        "journal": "Molecular pharmaceutics",
+        "year": "2024",
+        "rerank_score": -4.753025054931641,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

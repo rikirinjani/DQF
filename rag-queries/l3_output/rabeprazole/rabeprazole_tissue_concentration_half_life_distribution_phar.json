@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rabeprazole tissue concentration half-life distribution pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39326395",
+        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
+        "score": 0.4065118432044983,
+        "doi": "10.1159/000541619",
+        "journal": "Ophthalmic research",
+        "year": "2024",
+        "rerank_score": -1.8173319101333618,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39711068",
+        "text": "A Phase 1, Open-Label, Randomized, Two-Part Study in Healthy Adult Volunteers to Evaluate the Bioavailability of the Maribavir Powder for Oral Suspension, as Well as Food Effect and Impact of Rabeprazole. The relative bioavailability and impact of food and the proton pump inhibitor rabeprazole on the pharmacokinetics of a maribavir powder-for-oral-suspension formulation was investigated in a Phase 1 open-label study in healthy adult volunteers. A single 200-mg maribavir dose was administered as the commerci",
+        "score": 0.3967573046684265,
+        "doi": "10.1002/cpdd.1493",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -2.305614948272705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34979059",
+        "text": "Population Pharmacokinetic Modeling and Exposure-Response Analysis for Aripiprazole Once Monthly in Subjects With Schizophrenia. An intramuscular formulation of aripiprazole monohydrate dosed once monthly (AOM) was developed to address nonadherence with the approved oral tablets. A 3-compartment linear population pharmacokinetic model for oral and AOM doses was developed; relative bioavailability was estimated for AOM relative to oral dosing and body mass index and sex were significant predictors of AOM abs",
+        "score": 0.3757500648498535,
+        "doi": "10.1002/cpdd.1022",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2020",
+        "rerank_score": -3.2237765789031982,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

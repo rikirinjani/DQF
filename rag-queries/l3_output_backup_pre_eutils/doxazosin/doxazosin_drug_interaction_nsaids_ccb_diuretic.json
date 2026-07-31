@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Doxazosin drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41026649",
+        "text": "Location of the Diclofenac Molecule in Model Lipid Membranes from Spin-Label-Enhanced NMR Relaxation. Nonsteroidal anti-inflammatory drugs (NSAIDs) can be used to treat a variety of conditions due to their antipyretic, anti-inflammatory, and analgesic effects. Their interaction with lipid membranes can cause various side effects known for these drugs. In this study, we employ",
+        "score": 0.4230937659740448,
+        "doi": "10.1021/acs.langmuir.5c03328",
+        "journal": "Langmuir : the ACS journal of surfaces and colloids",
+        "year": "2025",
+        "rerank_score": -2.0982346534729004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39865928",
+        "text": "Doxorubicin (DOX) is a potent chemotherapeutic agent for breast cancer, but its effectiveness is often diminished by resistance mechanisms, particularly through p-glycoprotein (P-gp) mediated drug efflux. Clarithromycin (CAM), a macrolide antibiotic, inhibits multiple metabolic pathways including CYP3A and P-gp, potentially countering DOX resistance. This study aimed to evaluate the potentiation of DOX and its effectiveness against the MCF-7 breast cancer cell line by encapsulating both DOX and CAM in PEGyl",
+        "score": 0.4514232277870178,
+        "doi": "10.1177/15330338241312561",
+        "journal": "Technology in cancer research & treatment",
+        "year": "2025",
+        "rerank_score": -2.5111496448516846,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39291574",
+        "text": "Fixed-dose Combination of Torsemide and Mineralocorticoid Receptor Antagonists. The combination of torsemide and spironolactone presents a promising approach to managing conditions such as edema and hypertension. Torsemide, a loop diuretic, enhances diuresis by inhibiting sodium reabsorption in the kidneys, while spironolactone, a potassium-sparing diuretic and mineralocorticoid receptor antagonist (MRA), complements this effect by preventing potassium loss and offering additional cardiovascular benefits. T",
+        "score": 0.4493526220321655,
+        "doi": "10.59556/japi.72.0678",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": -2.7843892574310303,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

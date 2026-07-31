@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Pramlintide cardiovascular outcome MACE benefit risk",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30882239",
+        "text": "Dapagliflozin and Cardiovascular Outcomes in Patients With Type 2 Diabetes Mellitus and Previous Myocardial Infarction. Sodium glucose transporter-2 inhibitors reduce the risk of major adverse cardiovascular events (MACE) in patients with type 2 diabetes mellitus and a history of atherosclerotic cardiovascular disease. Because of their baseline risk, patients with previous myocardial infarction (MI) may derive even greater benefit from sodium glucose transporter-2 inhibitor therapy.",
+        "score": 0.3924766778945923,
+        "doi": "10.1161/CIRCULATIONAHA.119.039996",
+        "journal": "Circulation",
+        "year": "2019",
+        "rerank_score": 4.610752105712891,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39371179",
+        "text": "No Increased Risk of Major Adverse Cardiovascular Events following Nicotinamide Exposure. Nicotinamide metabolites have recently been implicated in increased risk of major cardiovascular events (MACE). Supportive data about clinical risk of MACE for nicotinamide users is lacking. To determine whether nicotinamide use results in an increase of MACE. Retrospective cohort study of two patient cohorts, Vanderbilt University Medical Center (VUMC) and Military Veteran Program (MVP). The risk of MACE in patients e",
+        "score": 0.4010108709335327,
+        "doi": "10.1101/2024.09.16.24313743",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2024",
+        "rerank_score": 3.520023822784424,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26491109",
+        "text": "Ischaemic risk and efficacy of ticagrelor in relation to time from P2Y12 inhibitor withdrawal in patients with prior myocardial infarction: insights from PEGASUS-TIMI 54. Ticagrelor reduced major adverse cardiovascular event (MACE) by 15-16% in patients with prior myocardial infarction (MI) in PEGASUS-TIMI 54. We hypothesized that patients who recently discontinued P2Y12 inhibition, even years after MI, may be at particular risk of MACE and may derive particular benefit from continuation or reinitiation of ",
+        "score": 0.3952431082725525,
+        "doi": "10.1093/eurheartj/ehv531",
+        "journal": "European heart journal",
+        "year": "2015",
+        "rerank_score": 2.999843120574951,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

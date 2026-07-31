@@ -1,0 +1,24 @@
+{
+  "ver_id": "VER-2026-002",
+  "timestamp": "2026-07-30T04:31:00Z",
+  "result": "pass",
+  "linked_tasks": [
+    "E3 Antihypertensives L3 extraction (6 drugs)",
+    "E4 Diabetes L3 extraction (6 drugs)",
+    "Merge into drugs.json"
+  ],
+  "linked_specs": [
+    "L3 extraction pipeline",
+    "merge_l3.py merge script"
+  ],
+  "evidence_path": "C:\\Users\\think\\Project_v2\\drug-quantification-framework\\api\\drugs.json",
+  "summary": "12 new L3 drug profiles extracted and merged (6 Antihypertensive + 6 Diabetes). All 39 drugs in drugs.json have L3 profiles. Each new drug has 29-36 PMIDs extracted.",
+  "verifier": "coordinator",
+  "checked": [
+    "Antihypertensive: 6/6 drugs with L3 profiles",
+    "Diabetes: 6/6 drugs with L3 profiles",
+    "Merge: merge_l3.py reported 38/38 profiles merged successfully",
+    "Backup: l3_output/_backups/drugs_20260730_112907.json created",
+    "Retrace: pass (0 untraced files)"
+  ]
+}

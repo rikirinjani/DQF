@@ -1,0 +1,69 @@
+{
+  "query": {
+    "query": "Rosuvastatin HMGCR pleiotropic effect pathway",
+    "dimension": "off_target",
+    "target": "HMGCR"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38588613",
+        "text": "Overcoming statin resistance in prostate cancer cells by targeting the 3-hydroxy-3-methylglutaryl-CoA-reductase.\n\nProstate cancer is the most prevalent malignancy in men. While diagnostic and therapeutic interventions have substantially improved in recent years, disease relapse, treatment resistance, and metastasis remain significant contributors to prostate cancer-related mortality. Therefore, novel therapeutic approaches are needed. Statins are inhibitors of the 3-hydroxy-3-methylglutaryl-CoA reductase (HMGCR), the rate-limiting enzyme of the mevalonate pathway which plays an essential role in cholesterol homeostasis. Numerous preclinical studies have provided evidence for the pleiotropic antitumor effects of statins. However, results from clinical studies remain controversial and have shown substantial benefits to even no effects on human malignancies including prostate cancer. Potential statin resistance mechanisms of tumor cells may account for such discrepancies. In our study, we treated human prostate cancer cell lines (PC3, C4-2B, DU-145, LNCaP) with simvastatin, atorvastatin, and rosuvastatin. PC3 cells demonstrated high statin sensitivity, resulting in a significant loss of vitality and clonogenic potential (up to - 70%; p < 0.001) along with an activation of caspases (up to 4-fold; p < 0.001). In contrast, C4-2B and DU-145 cells were statin-resistant. Statin treatment induced a restorative feedback in statin-resistant C4-2B and DU-145 cells through upregulation of the HMGCR gene and protein expression (up to 3-folds; p < 0.01) and its transcription factor sterol-regulatory element binding protein 2 (SREBP-2). This feedback was absent in PC3 cells. Blocking the feedback using HMGCR-specific small-interfering (si)RNA, the SREBP-2 activation inhibitor dipyridamole or the HMGCR degrader SR12813 abolished statin resistance in C4-2B and DU-145 and induced significant activation of caspases by statin treatment (up to 10-fold; p < 0.001). Consistently, long-term treatment with sublethal concentrations of simvastatin established a stable statin resistance of a PC3SIM subclone accompanied by a significant upregulation of both baseline as well as post-statin HMGCR protein (gene expression up to 70-fold; p < 0.001). Importantly, the statin-resistant phenotype of PC3SIM cells was reversible by HMGCR-specific siRNA and dipyridamole. Our investigations reveal a key role of a restorative feedback driven by the HMGCR/SREBP-2 axis in statin resistance mechanisms of prostate cancer cells.",
+        "title": "Overcoming statin resistance in prostate cancer cells by targeting the 3-hydroxy-3-methylglutaryl-CoA-reductase.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38588613",
+          "journal": "Biochemical and biophysical research communications",
+          "authors": [
+            "Göbel Andy",
+            "Pählig Sophie",
+            "Motz Anja"
+          ],
+          "pub_date": "2024-May-28",
+          "doi": "10.1016/j.bbrc.2024.149841",
+          "mesh_terms": [
+            "Male",
+            "Humans",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Hydroxymethylglutaryl CoA Reductases",
+            "Sterol Regulatory Element Binding Protein 1",
+            "Simvastatin",
+            "Prostatic Neoplasms",
+            "Caspases",
+            "Dipyridamole",
+            "Acyl Coenzyme A"
+          ]
+        }
+      },
+      {
+        "id": "PMID:30692522",
+        "text": "Induction of 3-hydroxy-3-methylglutaryl-CoA reductase mediates statin resistance in breast cancer cells.\n\nThe mevalonate pathway has emerged as a promising target for several solid tumors. Statins are inhibitors of the 3-hydroxy-3-methylglutaryl-CoA reductase (HMGCR), the rate-limiting enzyme of this pathway, and are commonly used to treat patients with hypercholesterolemia. Pleiotropic antitumor mechanisms of statins have been demonstrated for several human cancer types. However, cancer cells differ in their individual statin sensitivity and some cell lines have shown relative resistance. In this study we demonstrate, that the human breast cancer cell lines MDA-MB-231, MDA-MB-468, MCF-7, and T47D are differentially affected by statins. Whereas the vitality of MDA-MB-231 and MDA-MB-468 cells was reduced by up to 60% using atorvastatin, simvastatin, or rosuvastatin (p < 0.001), only marginal effects were seen in T47D and MCF-7 cells following exposure to statins. Statin treatment led to an upregulation of HMGCR mRNA and protein expression by up to sixfolds in the statin-resistant cells lines (p < 0.001), but no alterations of HMGCR were observed in the statin-sensitive MDA-MB-231 and MDA-MB-468 cells. The knockdown of HMGCR prior to statin treatment sensitized the resistant cell lines, reflected by a 70% reduction in vitality, increased apoptotic DNA fragmentation (sixfold) and by accumulation of the apoptosis marker cleaved poly-ADP ribose polymerase. Statins induced a cleavage of the sterol-regulatory element-binding protein (SREBP)-2, a transcriptional activator of the HMGCR, in T47D and MCF-7 cells. The inhibition of SREBP-2 activation by co-administration of dipyridamole sensitized MCF-7 and T47D cells for statins (loss of vitality by 80%; p < 0.001). Furthermore, assessment of a statin-resistant MDA-MB-231 clone, generated by long-term sublethal statin exposure, revealed a significant induction of HMGCR expression by up to 12-folds (p < 0.001). Knockdown of HMGCR restored statin sensitivity back to levels of the parental cells. In conclusion, these results indicate a resistance of cancer cells against statins, which is in part due to the induction of HMGCR.",
+        "title": "Induction of 3-hydroxy-3-methylglutaryl-CoA reductase mediates statin resistance in breast cancer cells.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30692522",
+          "journal": "Cell death & disease",
+          "authors": [
+            "Göbel Andy",
+            "Breining Dorit",
+            "Rauner Martina"
+          ],
+          "pub_date": "2019-Jan-28",
+          "doi": "10.1038/s41419-019-1322-x",
+          "mesh_terms": [
+            "Breast Neoplasms",
+            "Cell Line, Tumor",
+            "Drug Resistance, Neoplasm",
+            "Enzyme Induction",
+            "Female",
+            "Gene Expression",
+            "Humans",
+            "Hydroxymethylglutaryl CoA Reductases",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "MCF-7 Cells"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Telmisartan electrolyte potassium sodium effect",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39480548",
+        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
+        "score": 0.4441657066345215,
+        "doi": "10.1007/s00204-024-03901-4",
+        "journal": "Archives of toxicology",
+        "year": "2024",
+        "rerank_score": 1.980212926864624,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40613628",
+        "text": "Telmisartan Ameliorates Hypertension-Induced Kidney Damage by Restoring Glomerular Endothelial Barrier Function. Hypertension-induced renal injury arises from endothelial dysfunction and elevated glomerular permeability. Telmisartan, an Angiotensin II (Ang II) receptor blocker (ARB), is commonly used to treat hypertension and is known for its long-lasting effects, as well as its antioxidant and anti-inflammatory properties. However, the effects of Telmisartan on glomerular permeability are less well-documen",
+        "score": 0.4451450705528259,
+        "doi": "10.1002/jbt.70377",
+        "journal": "Journal of biochemical and molecular toxicology",
+        "year": "2025",
+        "rerank_score": 1.175069808959961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38573089",
+        "text": "Telmisartan-Induced Myotoxicity in Patients with Essential Hypertension. Drug-related muscular adverse effects are relatively common among certain groups of drugs, such as statins and steroids. However, these adverse effects are less well-known for angiotensin receptor blockers (ARBs). It is proposed that telmisartan and irbesartan may cause myotoxicity via increased Peroxisome Proliferator-Activated Receptor gamma (PPAR-gamma) activity. Herein, we present two hypertensive patients in whom telmisartan-induc",
+        "score": 0.4386938214302063,
+        "doi": "10.5543/tkda.2023.22893",
+        "journal": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
+        "year": "2024",
+        "rerank_score": 0.7601038813591003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

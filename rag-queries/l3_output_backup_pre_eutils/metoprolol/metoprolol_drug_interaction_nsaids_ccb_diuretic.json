@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41392923",
+        "text": "Understanding variation in metoprolol response: CYP2D6, drug interactions, and phenoconversion. Metoprolol, a β1-selective blocker, is widely used for treating cardiovascular and non-cardiovascular conditions. Its pharmacokinetics (PK) and pharmacodynamics (PD) vary significantly between individuals, in part due to CYP2D6 genetic polymorphisms. Co-administration of CYP2D6 inhibitors can lead to phenotype-genotype discordance, known as phenoconversion, resulting in clinically significant changes in metoprolo",
+        "score": 0.4484429359436035,
+        "doi": "10.1080/14622416.2025.2597182",
+        "journal": "Pharmacogenomics",
+        "year": "2026",
+        "rerank_score": 2.70025634765625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39811939",
+        "text": "Early Evaluation of the Interaction and Gender Differences in Combination of Apatinib and Metoprolol Using Humanized CYP2D6 Model. Apatinib, a commonly used tyrosine kinase inhibitor in cancer treatment, can cause adverse reactions such as hypertension. Hypertension, in turn, can increase the risk of certain cancers. The coexistence of these diseases makes the use of combination drugs more common in clinical practice, but the potential interactions and regulatory mechanisms in these drug combinations are po",
+        "score": 0.462287962436676,
+        "doi": "10.1021/acs.chemrestox.4c00433",
+        "journal": "Chemical research in toxicology",
+        "year": "2025",
+        "rerank_score": 0.10281087458133698,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40311932",
+        "text": "Inappropriate prescription of loop diuretics for calcium channel blocker-related peripheral edema: Lessons from physiology. Calcium Channel Blockers (CCB) are commonly used antihypertensive agents, with peripheral edema being a common side effect, reported in up to 70 % of cases. A common pitfall among physicians is that they consider this fluid overload, with some prescribing loop diuretics. Nonetheless, this might lead to several complications, such as electrolyte abnormalities and acute kidney injury, am",
+        "score": 0.4591037631034851,
+        "doi": "10.1016/j.amjms.2025.04.015",
+        "journal": "The American journal of the medical sciences",
+        "year": "2025",
+        "rerank_score": -0.1743645817041397,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

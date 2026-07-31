@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Tirzepatide renal outcome nephropathy kidney protection",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17969299",
+        "text": "[Use of N-acetylcysteine prior to cardiac catheterization to prevent acute renal injury in patients with stage III chronic kidney disease]. The role of N-acetylcysteine (NAC) to protect against contrast-induced nephropathy (CN) in patients with pre-existing renal insufficiency remains controversial despite several randomized controlled trials and meta-analyses. The potential reasons of inconsistency may be due to differences in definition, type and dose of contrast medium, imaging procedures, and the freque",
+        "score": 0.4094535708427429,
+        "doi": "",
+        "journal": "Harefuah",
+        "year": "2007",
+        "rerank_score": 1.5923223495483398,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39212900",
+        "text": "Comparison of the effects of Liraglutide, Tirzepatide, and Retatrutide on diabetic kidney disease in db/db mice. To assess and compare the therapeutic efficacy of Liraglutide, Tirzepatide, and Retatrutide in treating diabetic kidney disease (DKD) in db/db mice. Db/db mice were administered intraperitoneal injections of Liraglutide (10 nmol/kg), Tirzepatide (10 nmol/kg), and Retatrutide (10 nmol/kg) for 10 weeks. Subsequently, we assessed the effectiveness of these three drugs in controlling blood glucose le",
+        "score": 0.41479840874671936,
+        "doi": "10.1007/s12020-024-03998-8",
+        "journal": "Endocrine",
+        "year": "2024",
+        "rerank_score": 1.0058283805847168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41390457",
+        "text": "The relation between tirzepatide and adverse cardiovascular events or renal adverse events: a meta-analysis based on randomized controlled trials.",
+        "score": 0.4190593361854553,
+        "doi": "10.1186/s13098-025-02064-1",
+        "journal": "Diabetology & metabolic syndrome",
+        "year": "2025",
+        "rerank_score": -0.34238937497138977,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

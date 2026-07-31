@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Metoprolol heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40774921",
+        "text": "The effect of metoprolol on heart rate before coronary CT angiography: Lessons and recommendations from a large cohort.",
+        "score": 0.4037230610847473,
+        "doi": "10.1016/j.jcct.2025.07.007",
+        "journal": "Journal of cardiovascular computed tomography",
+        "year": "2025",
+        "rerank_score": 2.855403423309326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39959198",
+        "text": "Impact of metoprolol combined with spironolactone on cardiac function in patients with coronary heart disease complicated by heart failure. To evaluate the effect of metoprolol combined with spironolactone on cardiac function in patients with coronary heart disease (CHD) complicated by heart failure. The study involved 123 patients with CHD and heart failure treated at Anqing Shihua Hospital of Nanjing Drum Tower Hospital Group between February 2022 and May 2024. After applying the inclusion and exclusion c",
+        "score": 0.43500566482543945,
+        "doi": "10.62347/WWQN9188",
+        "journal": "American journal of translational research",
+        "year": "2024",
+        "rerank_score": 1.843018651008606,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40769832",
+        "text": "Intravenous metoprolol and diltiazem drug combination therapy for heart rate control in coronary CT angiograms.",
+        "score": 0.43245047330856323,
+        "doi": "10.1016/j.jcct.2025.07.009",
+        "journal": "Journal of cardiovascular computed tomography",
+        "year": "2025",
+        "rerank_score": 1.6603590250015259,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

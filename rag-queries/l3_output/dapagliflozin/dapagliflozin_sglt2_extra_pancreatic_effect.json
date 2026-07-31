@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Dapagliflozin SGLT2 extra-pancreatic effect",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40178648",
+        "text": "Dapagliflozin Ameliorate Type-2 Diabetes Associated Neuropathy via Regulation of IGF-1R Signaling. Dapagliflozin, an approved SGLT2 inhibitor, has been shown to have extra-glycemic effects like cardio-reno protection. However, the neuroprotective effects of SGLT2 inhibitors against diabetic neuropathy (DN) have not been explored. The current study aimed to determine the neuroprotective potential of Dapagliflozin against STZ-NAD-induced DN in Wistar rats via IGF-1 signaling. DN was induced by STZ-NAD in male",
+        "score": 0.3259021043777466,
+        "doi": "10.1007/s11481-025-10200-x",
+        "journal": "Journal of neuroimmune pharmacology : the official journal of the Society on Neu",
+        "year": "2024",
+        "rerank_score": 7.229686260223389,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32161237",
+        "text": "Effect of dapagliflozin alone and in combination with insulin in a rat model of type 1 diabetes. Dapagliﬂozin is a selective sodium-glucose cotransporter 2 (SGLT2) inhibitor; it reduces glucose reabsorption via the kidney and increases the glucose excretion in urine. This inhibitor functions through a unique insulin-independent mechanism, and is therefore a potential new approach for the treatment of hyperglycemia in patients with diabetes. In this study, we evaluated the effectiveness of the SGLT2 inhibito",
+        "score": 0.3134828805923462,
+        "doi": "10.1292/jvms.19-0450",
+        "journal": "The Journal of veterinary medical science",
+        "year": "2020",
+        "rerank_score": 7.182175636291504,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38901223",
+        "text": "Dapagliflozin administration to a mouse model of type 2 diabetes induces DNA methylation and gene expression changes in pancreatic islets. Decreased pancreatic β-cell volume is a serious problem in patients with type 2 diabetes mellitus, and there is a need to establish appropriate treatments. Increasingly, sodium/glucose cotransporter 2 (SGLT2) inhibitors, which have a protective effect on pancreatic β-cells, are being prescribed to treat diabetes; however, the underlying mechanism is not well understood. ",
+        "score": 0.31633180379867554,
+        "doi": "10.1016/j.bbrc.2024.150254",
+        "journal": "Biochemical and biophysical research communications",
+        "year": "2024",
+        "rerank_score": 6.173003196716309,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

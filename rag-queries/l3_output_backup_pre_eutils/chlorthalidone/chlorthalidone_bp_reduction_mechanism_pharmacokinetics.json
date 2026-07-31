@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Chlorthalidone BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41015203",
+        "text": "LC-MS/MS-based simultaneous quantification of chlorthalidone and cilnidipine in rat plasma: Pharmacokinetic evaluation, green analytical assessment, and DoE-driven optimization. A highly sensitive and reproducible liquid chromatography-tandem mass spectrometry (LC-MS/MS) method was systematically developed and optimized using a Quality by Design (QbD) framework for the simultaneous quantification of chlorthalidone and cilnidipine in rat plasma. Critical method variables-organic phase composition, flow rate,",
+        "score": 0.40333113074302673,
+        "doi": "10.1016/j.vascn.2025.108400",
+        "journal": "Journal of pharmacological and toxicological methods",
+        "year": "2025",
+        "rerank_score": -0.3804875910282135,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41414781",
+        "text": "Innovative Analytical Methodologies for Quantification of Efonidipine HCl and Chlorthalidone: A Critical Review. A new fixed-dose combination of Efonidipine Hydrochloride Ethanolate (EFO) and Chlorthalidone (CHD) was approved by CDSCO in 2022 for the effective treatment of hypertension. While efonidipine is a dual L- and T-type calcium channel blocker, chlorthalidone is a thiazide-like diuretic. Numerous analytical techniques have been developed to enable accurate and dependable quantification in bulk, phar",
+        "score": 0.41277259588241577,
+        "doi": "10.1080/10408347.2025.2593506",
+        "journal": "Critical reviews in analytical chemistry",
+        "year": "2025",
+        "rerank_score": -2.103472948074341,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3894256",
+        "text": "Influence of the administration time on the antihypertensive and hypokalaemic effects of chlorthalidone in patients with primary hypertension. A double-blind crossover study was designed to compare the antihypertensive and hypokalaemic effects of chlorthalidone administered at 10h00 and 22h00 to sixteen patients with primary hypertension. Blood pressure values during chlorthalidone treatment at 10h00 did not differ significantly from those at 22h00. Significant correlation (r = 0.8987) was seen, however, on",
+        "score": 0.3751310110092163,
+        "doi": "",
+        "journal": "International journal of clinical pharmacology research",
+        "year": "1985",
+        "rerank_score": -2.6108038425445557,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

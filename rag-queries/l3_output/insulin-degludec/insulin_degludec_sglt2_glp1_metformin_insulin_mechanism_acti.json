@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Insulin Degludec SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40637950",
+        "text": "GLP1-RA and SGLT2-i: Implementation and Insulin Deescalation Strategies. This review will summarize the most contemporary trials for glucagon-like peptide 1 receptor agonists (GLP1-RA) and sodium-glucose cotransporter 2 inhibitors (SGLT2-i) and present guidance on management and recommendations on adjunctive tapering of insulin in patients with insulin-dependent diabetes mellitus, which we term \"de-insulinization.\" GLP1-RA and SGLT2-i are the principal classes of diabetes medications evidencing cardiovascul",
+        "score": 0.38844025135040283,
+        "doi": "10.1007/s10557-025-07744-8",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2025",
+        "rerank_score": 4.340497970581055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34370970",
+        "text": "Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. Tirzepatide is a novel dual glucose-dependent insulinotropic polypeptide and GLP-1 receptor agonist under development for the treatment of type 2 diabetes. We aimed to assess the efficacy and safety of tirzepatide versus titrated insulin degludec in people with type 2 diabetes inadequately con",
+        "score": 0.35691994428634644,
+        "doi": "10.1016/S0140-6736(21)01443-4",
+        "journal": "Lancet (London, England)",
+        "year": "2021",
+        "rerank_score": 3.845319986343384,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.3913799524307251,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 3.5568430423736572,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

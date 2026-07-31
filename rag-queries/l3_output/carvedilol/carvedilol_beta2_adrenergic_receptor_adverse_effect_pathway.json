@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Carvedilol beta2-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "beta2-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39724907",
+        "text": "CARVEDILOL IN PATIENTS WITH UNCONTROLLED AND RESISTANT ARTERIAL HYPERTENSION. The use of beta-blockers in treating resistant hypertension remains poorly understood. While PATHWAY-2 showed a systolic blood pressure benefit with bisoprolol, further research is needed to evaluate other beta-blockers in terms of the effect of systolic blood pressure, assess diastolic blood pressure effects, and guide management in patients intolerant to CCBs as well. Our study aimed to evaluate the efficacy of Carvedilol (non-s",
+        "score": 0.38599616289138794,
+        "doi": "",
+        "journal": "Georgian medical news",
+        "year": "2024",
+        "rerank_score": 4.044467926025391,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39786370",
+        "text": "Nonselective β-Adrenergic Receptor Inhibitors Impair Hematopoietic Regeneration in Mice and Humans after Hematopoietic Cell Transplants. Peripheral nerves promote mouse bone marrow regeneration by activating β2- and β3-adrenergic receptor signaling, raising the possibility that nonselective β-blockers could inhibit engraftment after hematopoietic cell transplants (HCT). We observed no effect of β-blockers on steady-state mouse hematopoiesis. However, mice treated with a nonselective β-blocker (carvedilol), ",
+        "score": 0.40310436487197876,
+        "doi": "10.1158/2159-8290.CD-24-0719",
+        "journal": "Cancer discovery",
+        "year": "2024",
+        "rerank_score": 3.23736834526062,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40935111",
+        "text": "Improving the efficacy and targeting of carvedilol for the management of diabetes-accelerated atherosclerosis: An in vitro and in vivo assessment. Atherosclerosis is characterized by the accumulation of lipids and inflammation in large arteries. Diabetes mellitus significantly contributes to the initiation and progression of this condition. Carvedilol, an oral beta-adrenergic antagonist, is recognized for its ability to enhance arterial blood circulation and reduce hyperglycemia. However, its short half-lif",
+        "score": 0.41100403666496277,
+        "doi": "10.1016/j.ejphar.2025.178134",
+        "journal": "European journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 1.361864686012268,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

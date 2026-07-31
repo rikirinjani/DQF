@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Valsartan drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38922973",
+        "text": "Assessment of drug-drug interaction of dapagliflozin with LCZ696 based on an LC-MS/MS method. The co-administration of dapagliflozin (DPF) and sacubitril/valsartan (LCZ696) has emerged as a promising therapeutic approach for managing heart failure. Given that DPF and LCZ696 are substrates for P-glycoprotein, there is a plausible potential for drug-drug interactions when administered concomitantly. To investigate the pharmacokinetic changes when these drugs are co-administered, we have established and valida",
+        "score": 0.42724740505218506,
+        "doi": "10.1002/bmc.5924",
+        "journal": "Biomedical chromatography : BMC",
+        "year": "2024",
+        "rerank_score": 3.9594972133636475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39285448",
+        "text": "Changes in urinary output due to concomitant administration of sacubitril/valsartan and atrial natriuretic peptide in patients with heart failure: a multicenter retrospective cohort study. Sacubitril/valsartan is an angiotensin receptor neprilysin inhibitor (ARNI) that inhibits the degradation of endogenous natriuretic peptides. Therefore, ARNIs may increase the efficacy of human atrial natriuretic peptide (hANP), a drug for acute heart failure, by mediating its pharmacological mechanism. This study was aim",
+        "score": 0.4527800679206848,
+        "doi": "10.1186/s40780-024-00379-1",
+        "journal": "Journal of pharmaceutical health care and sciences",
+        "year": "2024",
+        "rerank_score": 0.5953618288040161,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40921928",
+        "text": "Comparison of renal effects between sacubitril/valsartan and thiazide diuretics among patients with uncontrolled hypertension and chronic kidney disease in Japan. Sacubitril/valsartan is typically prescribed for patients with heart failure and hypertension. We previously reported that sacubitril/valsartan provides comparable blood pressure (BP) reduction and superior tolerability compared to thiazide diuretics. This post hoc study aimed to compare the effects of sacubitril/valsartan and thiazide diuretics i",
+        "score": 0.4309617280960083,
+        "doi": "10.1007/s10157-025-02743-3",
+        "journal": "Clinical and experimental nephrology",
+        "year": "2025",
+        "rerank_score": 0.18907494843006134,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

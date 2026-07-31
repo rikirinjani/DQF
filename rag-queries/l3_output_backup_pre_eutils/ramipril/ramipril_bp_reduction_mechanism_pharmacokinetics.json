@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Ramipril BP reduction mechanism pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39017590",
+        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
+        "score": 0.36491361260414124,
+        "doi": "10.1002/prp2.1249",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": 0.36307740211486816,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3025754",
+        "text": "Pharmacokinetics and pharmacodynamics of captopril in patients undergoing continuous ambulatory peritoneal dialysis. Pharmacokinetics and pharmacodynamics of captopril were studied in 5 continuous ambulatory peritoneal dialysis (CAPD) patients (including 2 hypertensive patients) after single oral administration of 50 mg captopril. The pharmacokinetic parameters for plasma free unchanged captopril were time to maximal concentration 1.1 +/- 0.3 h, maximal plasma concentration 387 +/- 75 ng X ml-1, elimination",
+        "score": 0.3649049997329712,
+        "doi": "10.1159/000184014",
+        "journal": "Nephron",
+        "year": "1986",
+        "rerank_score": -2.0961356163024902,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12891310",
+        "text": "[Ramipril in elderly patients with mild and moderate hypertension. Clinical efficacy, effect on cerebral blood flow and intellectual functioning]. to study different ramipril dosage regimens on cerebral blood flow and cognitive function in elderly patients with mild to moderate hypertension.",
+        "score": 0.3649926781654358,
+        "doi": "",
+        "journal": "Kardiologiia",
+        "year": "2003",
+        "rerank_score": -3.191776990890503,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

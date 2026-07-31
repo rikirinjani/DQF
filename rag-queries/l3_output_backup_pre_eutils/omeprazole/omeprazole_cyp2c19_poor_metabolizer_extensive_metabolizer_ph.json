@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Omeprazole CYP2C19 poor metabolizer extensive metabolizer pharmacokinetics",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38874073",
+        "text": "Cytochrome P450 2C19 (CYP2C19) intermediate and poor metabolizer patients exhibit diminished clopidogrel clinical effectiveness after percutaneous coronary intervention (PCI). However, outcome studies to date have lacked racial diversity. Thus, the impact of  Adults among 5 institutions who self-identified as Black or African American, underwent PCI and clinical  Black patients with CYP2C19 intermediate and poor metabolizer phenotypes who are treated with clopidogrel exhibit increased risk of adverse cardio",
+        "score": 0.36866533756256104,
+        "doi": "10.1161/JAHA.123.033791",
+        "journal": "Journal of the American Heart Association",
+        "year": "2024",
+        "rerank_score": 4.185830593109131,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40350722",
+        "text": "Cytochrome P450 2D6 Poor Metabolizers and Risperidone Treatment Failure: A 1-Year Longitudinal Study. The cytochrome P450 2D6 (CYP2D6) metabolizes around 20% of currently prescribed medications, including the antipsychotic risperidone. Previous studies reported greater odds of switching antipsychotic medication from risperidone among CYP2D6 poor metabolizers (PM) without considering treatment duration up to the switch. Risperidone treatment failure, defined as risperidone treatment duration up to switching ",
+        "score": 0.43687838315963745,
+        "doi": "10.1002/cpt.3691",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 4.13586950302124,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39817374",
+        "text": "Delineating CYP2C19-mediated Interactions: Network Pharmacology Investigation of Ilaprazole and Clopidogrel  Clopidogrel, an antiplatelet drug commonly used in cardiovascular disease, is metabolized by the liver mainly through CYP2C19. Concomitant use of Proton pump inhibitors along with clopidogrel may affect the potency of clopidogrel by CYP2C19 inhibition. However, a novel PPI, ilaprazole is known to differ in its pharmacokinetic features, given the potential differences between ilaprazole's interactions",
+        "score": 0.4351586103439331,
+        "doi": "10.2174/0115701638334244241224062453",
+        "journal": "Current drug discovery technologies",
+        "year": "2024",
+        "rerank_score": 3.822885751724243,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Amlodipine drug interaction NSAIDs CCB diuretic",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41549823",
+        "text": "Pharmacokinetic Interaction Among Amlodipine, Losartan, and Chlorthalidone after a Single Oral Administration in Healthy Male Subjects. Antihypertensive drugs are more potent when administered in combinations of two or three different classes of drugs. The objective of this study was to evaluate the pharmacokinetic interaction among amlodipine, losartan, and chlorthalidone. A randomized, open-label, four-sequence, four-period, four-treatment, single-dose study was conducted in healthy Korean male subjects, ",
+        "score": 0.43150797486305237,
+        "doi": "10.1002/cpdd.70024",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": 2.9558231830596924,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41321879",
+        "text": "Life-Threatening Amlodipine Overdose: A Rare Case of Noncardiogenic Pulmonary Edema and Respiratory Failure Requiring ICU Care. Amlodipine, a dihydropyridine calcium channel blocker (CCB), is commonly prescribed for hypertension and anginal chest pain. An overdose of this medication can result in life-threatening complications such as vasodilatory shock and pulmonary edema. Noncardiogenic pulmonary edema in this setting is rare and not well understood. We report the case of a 57-year-old female with a compl",
+        "score": 0.4247187376022339,
+        "doi": "10.1002/ccr3.71538",
+        "journal": "Clinical case reports",
+        "year": "2025",
+        "rerank_score": 1.7050400972366333,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40486345",
+        "text": "Case Series on Varied Presentations of Amlodipine Toxicity. Calcium channel blockers (CCBs) are among the most widely prescribed drugs for cardiovascular illnesses. Angina pectoris, cardiac arrhythmias, hypertension, and other conditions are treated with calcium channel blockers (CCBs). Both immediate-release and extended-release versions of these drugs are available; the latter are often used in therapeutic settings. While extended-release CCB overdoses can cause delayed start of dysrhythmias, shock, sudde",
+        "score": 0.4348164200782776,
+        "doi": "10.7759/cureus.83697",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 1.5662555694580078,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

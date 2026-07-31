@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Clonidine cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4630555510520935,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.13543486595153809,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37475474",
+        "text": "Fludarabine-induced bradycardia in allogeneic hematopoietic stem cell transplantation: A retrospective study. Fludarabine, a purine analog, is getting more attention with the increasing use of reduced intensive conditioning regimens in allogeneic hematopoietic stem cell transplantation (allo-HSCT). The side effect of bradycardia was observed in only a few cases reported in the literature. In clinical practice, bradycardia can be asymptomatic or cause syncope and cardiac arrest. This study aimed to evaluate ",
+        "score": 0.4603172242641449,
+        "doi": "10.1177/10781552231189868",
+        "journal": "Journal of oncology pharmacy practice : official publication of the Internationa",
+        "year": "2024",
+        "rerank_score": -0.6341807842254639,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26448559",
+        "text": "Ticagrelor and bradycardia: a nested case-control study. Ticagrelor increases serum adenosine concentrations, slowing conduction and possibly leading to bradycardia. Clinical trial data have shown numerically, though not statistically significantly, higher rates of bradyarrhythmias with ticagrelor versus clopidogrel. Additionally, recent case reports have further raised concerns for this adverse effect. We explored the association between ticagrelor and hospitalization for bradycardia in a real-world settin",
+        "score": 0.41903987526893616,
+        "doi": "10.1002/pds.3884",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2015",
+        "rerank_score": -1.7002979516983032,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

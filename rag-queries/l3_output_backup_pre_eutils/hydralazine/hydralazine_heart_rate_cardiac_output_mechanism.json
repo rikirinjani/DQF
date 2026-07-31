@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Hydralazine heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39467530",
+        "text": "Eleclazine Suppresses Ventricular Fibrillation in Failing Rabbit Hearts with Ischemia-Reperfusion Injury Undergoing Therapeutic Hypothermia. Eleclazine is a highly selective late sodium current inhibitor, possibly effective in reducing ventricular fibrillation (VF) in heart failure (HF) with ischemia-reperfusion (IR) injury. The electrophysiological effects of eleclazine at therapeutic hypothermia (TH) are unknown. We investigated the effects of eleclazine in suppressing VF in failing rabbit hearts with IR ",
+        "score": 0.4606775641441345,
+        "doi": "10.1159/000542292",
+        "journal": "Pharmacology",
+        "year": "2024",
+        "rerank_score": -0.8326245546340942,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38659580",
+        "text": "Effects of ranolazine on the arrhythmic substrate in hypertrophic cardiomyopathy.",
+        "score": 0.48544609546661377,
+        "doi": "10.3389/fphar.2024.1379236",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -3.4463651180267334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40064651",
+        "text": "Heart Rate Control with Landiolol Hydrochloride in Infants and Neonates During Cardiac Surgery. Perioperative tachyarrhythmias are common in children undergoing cardiac surgery, contributing to significant mortality and morbidity. Landiolol, an ultrashort-acting beta-blocker, offers selective heart rate (HR) control in pediatric patients with tachycardia during cardiac surgery. The LANDI-cardioPed study assessed landiolol's safety and efficacy in children during cardiac surgery. The retrospective review inc",
+        "score": 0.485156774520874,
+        "doi": "10.1007/s00246-025-03824-6",
+        "journal": "Pediatric cardiology",
+        "year": "2024",
+        "rerank_score": -4.367300510406494,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

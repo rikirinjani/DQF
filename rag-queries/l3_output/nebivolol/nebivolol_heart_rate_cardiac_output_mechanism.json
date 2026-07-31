@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Nebivolol heart rate cardiac output mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40962016",
+        "text": "Nebivolol prevents coronary artery spasm by upregulating voltage-gated potassium channels via protein kinase A. Nebivolol (Neb) relaxes coronary arteries and increases coronary artery blood flow, but the underlying mechanisms need further elucidation. The vascular tension of rat coronary artery (RCA) was recorded with a wire myograph. Transmembrane K",
+        "score": 0.42327773571014404,
+        "doi": "10.1016/j.ejphar.2025.178157",
+        "journal": "European journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 1.4217534065246582,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40625536",
+        "text": "Correction: Posttreatment pulse rate reduction and not baseline pulse rate as an indicator of blood pressure response to nebivolol: a subanalysis from the real-world BENEFIT-KOREA study. [This corrects the article e8 in vol. 31, PMID: 40083595.].",
+        "score": 0.44603657722473145,
+        "doi": "10.5646/ch.2025.31.e24",
+        "journal": "Clinical hypertension",
+        "year": "2025",
+        "rerank_score": 0.3280693590641022,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21626795",
+        "text": "[Comparative analysis of antioxidant activity of nebivolol in patients with chronic heart failure with and without concomitant type 2 diabetes]. Consistent neurohormonal activation of sympatho-adrenal system in patients with chronic heart failure (CHF) and hyperglycemia contributes to development of oxidative stress--one of the most important pathogenetic mechanisms of endothelial dysfunction.",
+        "score": 0.40181493759155273,
+        "doi": "",
+        "journal": "Kardiologiia",
+        "year": "2011",
+        "rerank_score": 0.12554533779621124,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

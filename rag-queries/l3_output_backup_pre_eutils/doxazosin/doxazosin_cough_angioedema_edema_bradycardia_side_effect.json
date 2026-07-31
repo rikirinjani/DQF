@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Doxazosin cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16176202",
+        "text": "Effects of doxazosin on ambulatory blood pressure and sympathetic nervous activity in hypertensive Type 2 diabetic patients with overt nephropathy. Few studies have reported the effect of alpha(1)-adrenergic antagonists on 24-h blood pressure (BP) and sympathetic nervous activity in hypertensive patients with diabetic nephropathy. We assessed the effects of doxazosin on 24-h BP and spectral analysis of heart rate variability in hypertensive Type 2 diabetic patients with macroalbuminuria and compared the res",
+        "score": 0.41353878378868103,
+        "doi": "10.1111/j.1464-5491.2005.01636.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2005",
+        "rerank_score": 0.45214253664016724,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.44368869066238403,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": 0.4519340991973877,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8927264",
+        "text": "[Renal and cardiac effects of chronic doxazosin therapy in patients with essential arterial hypertension]. Aim of the study was to evaluate the effects of a 6 month treatment with doxazosin on blood pressure profile, left ventricular morphology and function and microalbuminuria in non diabetics patients with mild to moderate essential hypertension. We selected 12 patient (7 men and 5 women, mean age 47 + 8) with left ventricular (LV) hypertrophy (men LV mass index > 130g/m2, women LV mass index > 110 g/m2) ",
+        "score": 0.4133531153202057,
+        "doi": "",
+        "journal": "Minerva cardioangiologica",
+        "year": "1996",
+        "rerank_score": -0.9770378470420837,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

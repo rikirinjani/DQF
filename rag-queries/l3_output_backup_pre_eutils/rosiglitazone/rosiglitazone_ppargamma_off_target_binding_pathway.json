@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Rosiglitazone PPARgamma off-target binding pathway",
+    "dimension": "off_target",
+    "target": "PPARgamma"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40019446",
+        "text": "LIBX-A401: A Novel Selective Inhibitor of Acyl-CoA Synthetase Long Chain Family Member 4 (ACSL4) and Its Binding Mode. Acyl-coenzyme A synthetase long-chain family member 4 (ACSL4), a pivotal enzyme in lipid metabolism, has emerged as a therapeutic target for ferroptosis-related conditions and cancer. However, its reference inhibitor, rosiglitazone, has off-target activity on peroxisome proliferator-activated receptor gamma (PPARγ), a key regulator of lipid homeostasis. Here, the discovery of LIBX-A401, a p",
+        "score": 0.3970526158809662,
+        "doi": "10.1002/anie.202500518",
+        "journal": "Angewandte Chemie (International ed. in English)",
+        "year": "2025",
+        "rerank_score": 5.195470809936523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40054722",
+        "text": "The therapeutic potential of Rosiglitazone in modulating scar formation through PPAR-γ pathway. The prevention and treatment of scars has always posed a challenge in the medical field. Researchers have reached the consensus that safe, effective and affordable treatments are needed. Here, by conducting non-targeted metabolomics and RNA sequencing experiments, we revealed that a significant number of metabolites and genes related to glucose and lipid metabolism underwent changes during scar formation, with pe",
+        "score": 0.371724396944046,
+        "doi": "10.1016/j.ejphar.2025.177445",
+        "journal": "European journal of pharmacology",
+        "year": "2024",
+        "rerank_score": 3.612687349319458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21347706",
+        "text": "Identification of the target proteins of rosiglitazone in 3T3-L1 adipocytes through proteomic analysis of cytosolic and secreted proteins. Rosiglitazone, one of the thiazolidinedione (TZD), is an oral antidiabetic drug that activates a gamma isoform of peroxisome proliferator-activated receptor (PPARγ). To identify target proteins induced by rosiglitazone in adipocytes, we first performed simultaneous in-depth proteomic profiling of cytosolic proteins and secreted proteins (secretome) from 3T3-L1 adipocytes",
+        "score": 0.3554510176181793,
+        "doi": "10.1007/s10059-011-0026-6",
+        "journal": "Molecules and cells",
+        "year": "2010",
+        "rerank_score": 2.8831582069396973,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

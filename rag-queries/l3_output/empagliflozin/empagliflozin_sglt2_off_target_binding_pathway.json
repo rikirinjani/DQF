@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Empagliflozin SGLT2 off-target binding pathway",
+    "dimension": "off_target",
+    "target": "SGLT2"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33543924",
+        "text": "Targeting ROS-Dependent AKT/GSK-3β/NF-κB and DJ-1/Nrf2 Pathways by Dapagliflozin Attenuates Neuronal Injury and Motor Dysfunction in Rotenone-Induced Parkinson's Disease Rat Model. Dapagliflozin, a selective sodium-glucose co-transporter 2 (SGLT2) inhibitor, has emerged as a promising neuroprotective agent in murine models of epilepsy and obesity-induced cognitive impairment through its marked antioxidant/antiapoptotic features. However, the impact of dapagliflozin on the pathogenesis of Parkinson's disease",
+        "score": 0.420957088470459,
+        "doi": "10.1021/acschemneuro.0c00722",
+        "journal": "ACS chemical neuroscience",
+        "year": "2021",
+        "rerank_score": 5.064379692077637,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32256445",
+        "text": "Liver Transcriptomic Reveals Novel Pathways of Empagliflozin Associated With Type 2 Diabetic Rats. The hypoglycaemic target of empagliflozin (EMP), as a novel inhibitor of sodium-glucose cotransporter (SGLT2), is clear. However, recent studies have shown that EMP also has an important role in lipid metabolism and cardiovascular diseases. The liver plays an important role in the development of type 2 diabetes (T2D), although whether EMP affects liver glucose metabolism is currently not reported. This study w",
+        "score": 0.3867727220058441,
+        "doi": "10.3389/fendo.2020.00111",
+        "journal": "Frontiers in endocrinology",
+        "year": "2019",
+        "rerank_score": 4.797405242919922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31378154",
+        "text": "Binding properties of sodium glucose co-transporter-2 inhibitor empagliflozin to human serum albumin: spectroscopic methods and computer simulations. Empagliflozin is an oral sodium glucose co-transporter-2 inhibitor for type 2 diabetes mellitus. The interaction between empagliflozin and human serum albumin (HSA) was investigated experimentally and theoretically. Fluorescence quenching and time-resolved fluorescence spectroscopy indicated that the quenching mechanism of empagliflozin and HSA was dynamic and",
+        "score": 0.4209703505039215,
+        "doi": "10.1080/07391102.2019.1652688",
+        "journal": "Journal of biomolecular structure & dynamics",
+        "year": "2019",
+        "rerank_score": 2.979069709777832,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

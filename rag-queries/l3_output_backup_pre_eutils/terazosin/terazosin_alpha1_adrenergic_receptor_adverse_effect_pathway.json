@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Terazosin alpha1-adrenergic receptor adverse effect pathway",
+    "dimension": "off_target",
+    "target": "alpha1-adrenergic receptor"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38896813",
+        "text": "Association of Terazosin, Doxazosin, or Alfuzosin Use and Risk of Dementia With Lewy Bodies in Men. Terazosin, doxazosin, and alfuzosin (Tz/Dz/Az) are α-1 adrenergic receptor antagonists that also bind to and activate a key adenosine triphosphate (ATP)-producing enzyme in glycolysis. It is hypothesized that the increase in energy availability in the brain may slow or prevent neurodegeneration, potentially by reducing the accumulation of alpha-synuclein. Recent work has suggested a potentially neuroprotectiv",
+        "score": 0.4690154790878296,
+        "doi": "10.1212/WNL.0000000000209570",
+        "journal": "Neurology",
+        "year": "2024",
+        "rerank_score": 2.9073243141174316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39363270",
+        "text": "Alpha-adrenergic antagonists and iris dynamics: Challenges and solutions in cataract surgery. Alpha-1 adrenergic receptor antagonists (α1-ARAs) are frequently used in treatment of Hypertension and symptomatic benign prostatic hypertrophy (BPH). Numerous studies have demonstrated the association between α1-ARAs like Tamsulosin and increased surgical risks for patients undergoing cataract surgery. This study aims to identify and study the effects of α1-ARAs on iris parameters and the subsequent operative chal",
+        "score": 0.44187718629837036,
+        "doi": "10.1186/s12886-024-03705-1",
+        "journal": "BMC ophthalmology",
+        "year": "2024",
+        "rerank_score": 2.385070562362671,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39363407",
+        "text": "Association Between Alpha-1 Adrenoreceptor Antagonist Use and Cognitive Impairment: A Systematic Review. Alpha-1 adrenergic receptor (α1-AR) antagonists are commonly used for management of benign prostatic hyperplasia or hypertension. Some studies have shown a potential link between α1-AR antagonist use and cognitive impairment. Given the conflicting data surrounding α1-AR antagonists association with cognitive dysfunction, we aim to systematically review the association of cognitive dysfunction with α1-AR ",
+        "score": 0.4392600655555725,
+        "doi": "10.5213/inj.2448266.133",
+        "journal": "International neurourology journal",
+        "year": "2024",
+        "rerank_score": 1.4684598445892334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

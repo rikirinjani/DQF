@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Propranolol cough angioedema edema bradycardia side effect",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40263024",
+        "text": "Cardiac arrest due to airway obstruction in Angiotensin-converting enzyme inhibitor-induced angioedema. Angiotensin-converting enzyme inhibitor-induced angioedema is a rare but serious side effect of angiotensin-converting enzyme inhibitors (ACEi). It causes bradykinin accumulation, leading to the swelling of various tissus, including upper airway. A significant proportion of affected patients require intubation to secure the airway, and in the most severe cases, a tracheostomy. Here, we present the case of",
+        "score": 0.4423295855522156,
+        "doi": "10.1016/j.ajem.2025.04.022",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": 0.3367899954319,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40786263",
+        "text": "A Rare Case of Idiopathic Angioedema Associated With Amlodipine Use. Angioedema is a self-limited, non-pitting edema of subcutaneous or submucosal tissues often affecting the face, lips, oral cavity, and airway. It may be histamine or bradykinin-mediated and is most commonly triggered by allergic reactions, medications, or systemic conditions. Drug-induced angioedema is frequently associated with angiotensin-converting enzyme (ACE) inhibitors, whereas calcium channel blockers (CCBs) like amlodipine are rare",
+        "score": 0.41071414947509766,
+        "doi": "10.7759/cureus.87661",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -1.7306959629058838,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41517619",
+        "text": "Propranolol Reduces Epistaxis in Hereditary Hemorrhagic Telangiectasia: A Large Retrospective Study.",
+        "score": 0.4554067552089691,
+        "doi": "10.3390/jcm15010372",
+        "journal": "Journal of clinical medicine",
+        "year": "2025",
+        "rerank_score": -2.0688529014587402,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

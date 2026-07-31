@@ -1,0 +1,36 @@
+{
+  "query": {
+    "query": "NSAID Meloxicam cardiovascular risk mechanism prostacyclin",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16254252",
+        "text": "Cardiovascular complications of non-steroidal anti-inflammatory drugs.\n\nCoxibs, such as rofecoxib, celecoxib, and valdecoxib, selectively inhibit cyclooxygenase (COX)-2, the mainly inducible, pro-inflammatory COX isoform. Unlike traditional non-steroidal anti-inflammatory drugs (NSAIDs) most coxibs do not significantly inhibit COX-1 and are therefore less toxic to the gastrointestinal tract. Hence, coxibs widely replaced traditional NSAIDs for treatment of arthritis and other painful inflammatory conditions. In many, but not all, clinical studies, coxibs became associated with higher risks of myocardial infarction (MI) and stroke. Several mechanisms may be involved in the pathogenesis of such complications. First, selective inhibition of COX-1 lowers platelet synthesis of thromboxane (TXA(2)), a thrombogenic and atherogenic eicosanoid. Selective inhibition of COX-2 limits endothelial cell synthesis of prostacyclin (PGI(2)), an arachidonic acid product that opposes the effects of thromboxane. In apoE-/- mice, interruption of TXA(2) signaling by deletion of its receptor (TP) limits atherogenesis, whereas interruption of PGI2 signaling by deletion of its receptor (IP) accelerates atherogenesis. This suggests that selective inhibition of COX-2 can disrupt the physiological balance between thromboxane and prostacyclin and thus increase atherosclerosis, thrombogenesis, and the risk of cardiovascular complications. Second, COX inhibition can raise levels of arachidonic acid, which can inhibit mitochondrial oxidative phosphorylation (OXPHOS) and increase OXPHOS generation of reactive oxygen species. Several NSAIDs, including coxibs and meloxicam, directly uncouple or inhibit OXPHOS. Studies of apoE-/- mice indicate that mitochondrial dysfunction plays an early role in atherogenesis. Third, many NSAIDs exhibit COX-independent properties. For example, in animal models, short-term treatment with celecoxib reduces monocyte chemotaxis by reducing expression of monocyte chemoattractant protein (MCP)-1. However, long-term treatment results in the opposite effect and accelerates atherogenesis. In conclusion, to reduce the risk of cardiovascular complications during long-term coxib therapy, low-dose aspirin supplementation should be considered. An alternative is to use a less COX-2-selective inhibitor such as meloxicam. Genotyping of -765 alleles of the COX-2 gene promoter and examining the polymorphism of other genes involved in eicosanoid metabolism or NSAID degradation may become helpful in predicting patients who are at higher risk of cardiovascular complications during selective COX-2 inhibitor therapy.",
+        "title": "Cardiovascular complications of non-steroidal anti-inflammatory drugs.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "16254252",
+          "journal": "Annals of clinical and laboratory science",
+          "authors": [
+            "Fosslien Egil"
+          ],
+          "pub_date": "2005",
+          "doi": "",
+          "mesh_terms": [
+            "Animals",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Arthritis",
+            "Cardiovascular Diseases",
+            "Cyclooxygenase 2 Inhibitors",
+            "Disease Models, Animal",
+            "Humans",
+            "Myocardial Infarction"
+          ]
+        }
+      }
+    ]
+  }
+}

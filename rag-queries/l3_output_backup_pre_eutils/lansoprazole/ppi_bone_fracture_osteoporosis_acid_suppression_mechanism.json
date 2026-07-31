@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "PPI bone fracture osteoporosis acid suppression mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40602229",
+        "text": "Activation of ERK/MAPK signaling by MAZ through transcriptional repression of PPP3CA to promote osteoclastogenesis and osteoporosis progression: Functions and mechanisms. Osteoporosis (OP) is a systemic skeletal disease that contributes to compromised bone strength and increased fracture risk. This paper investigates the functional role of protein phosphatase 3 catalytic subunit α (PPP3CA) in OP and its mechanisms. Bioinformatics prediction analysis was performed to identify genes associated with OP and its",
+        "score": 0.3719392418861389,
+        "doi": "10.1016/j.tice.2025.103028",
+        "journal": "Tissue & cell",
+        "year": "2025",
+        "rerank_score": 4.976477146148682,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40360512",
+        "text": "FABP4 inhibition suppresses bone resorption and protects against postmenopausal osteoporosis in ovariectomized mice. Postmenopausal osteoporosis (PMOP) is a condition in women caused by estrogen deficiency, characterized by reduced bone mass and increased fracture risk. Fatty acid-binding protein 4 (FABP4), a lipid-binding protein involved in metabolism and inflammation, has emerged as a key regulator in metabolic disorders and bone resorption; however, its direct role in PMOP remains unclear. Here, we show",
+        "score": 0.369259238243103,
+        "doi": "10.1038/s41467-025-59719-w",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 3.489579677581787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39189924",
+        "text": "Caffeic acid derivative MPMCA suppresses osteoclastogenesis and facilitates osteoclast apoptosis: implications for the treatment of bone loss disorders. Osteoclast activity plays a crucial role in the pathological mechanisms of osteoporosis and bone remodeling. The treatment of these disorders involves the use of pharmacological medicines that work by inhibiting the activity of osteoclasts. Nevertheless, the prevalent and infrequent negative consequences of current antiresorptive and bone anabolic treatment",
+        "score": 0.37315833568573,
+        "doi": "10.18632/aging.206067",
+        "journal": "Aging",
+        "year": "2024",
+        "rerank_score": 2.8974826335906982,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

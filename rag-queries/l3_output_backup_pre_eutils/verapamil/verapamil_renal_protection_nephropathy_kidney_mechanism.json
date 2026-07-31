@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Verapamil renal protection nephropathy kidney mechanism",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3677015",
+        "text": "The protective potential of the combination of verapamil and cimetidine on cisplatin-induced nephrotoxicity in man. Nine patients (Group A) with histologically proven, nonseminomatous testicular cancer were treated with cisplatin (CDDP) according to the Einhorn regimen. Renal function studies including the measurement of the effective renal plasma flow (ERPF) and the glomerular filtration rate (GFR) were performed prior to the chemotherapy and then after treatment on days 10 and 21 of the first course. In o",
+        "score": 0.3759261667728424,
+        "doi": "10.1002/1097-0142(19871201)60:11<2823::a",
+        "journal": "Cancer",
+        "year": "1987",
+        "rerank_score": 1.2694593667984009,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39177245",
+        "text": "Verapamil inhibits inflammation and promotes autophagy to alleviate ureteral scar by regulation of CaMK IIδ/STAT3 axis. Ureteral stricture (US) is a pathological stenosis in the urinary tract characterized by increased collagen synthesis and inflammation. Autophagy activation has been shown to ameliorate tissue fibrosis and protect against fibrotic diseases. Verapamil has beneficial therapeutic benefits on fibrotic disorders. The pharmacological effects of verapamil on fibroblast autophagy in US and the und",
+        "score": 0.3922131359577179,
+        "doi": "10.1080/0886022X.2024.2387432",
+        "journal": "Renal failure",
+        "year": "2024",
+        "rerank_score": -0.4374653398990631,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40857352",
+        "text": "Estrogen-powered kidney protection. Estrogen protects against kidney injury through both genomic and nongenomic mechanisms.",
+        "score": 0.3798207640647888,
+        "doi": "10.1126/scisignal.aeb6175",
+        "journal": "Science signaling",
+        "year": "2025",
+        "rerank_score": -0.4572136104106903,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

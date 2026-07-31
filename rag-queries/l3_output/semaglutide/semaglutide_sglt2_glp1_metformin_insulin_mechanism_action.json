@@ -1,0 +1,59 @@
+{
+  "query": {
+    "query": "Semaglutide SGLT2 GLP1 metformin insulin mechanism action",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39728000",
+        "text": "Spotlight on the Mechanism of Action of Semaglutide. Initially intended to control blood glucose levels in patients with type 2 diabetes, semaglutide, a potent glucagon-like peptide 1 analogue, has been established as an effective weight loss treatment by controlling appetite. Integrating the latest clinical trials, semaglutide in patients with or without diabetes presents significant therapeutic efficacy in ameliorating cardiometabolic risk factors and physical functioning, independent of body weight reduc",
+        "score": 0.34080275893211365,
+        "doi": "10.3390/cimb46120872",
+        "journal": "Current issues in molecular biology",
+        "year": "2024",
+        "rerank_score": 5.420159816741943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40055197",
+        "text": "Semaglutide, a glucagon-like peptide-1 receptor agonist, inhibits oral squamous cell carcinoma growth through P38 MAPK signaling pathway. Researches have shown that diabetes mellitus (DM) can promote the risk and progression of oral squamous cell carcinoma (OSCC). Semaglutide, a glucagon-like peptide-1 receptor agonist, is currently employed to treat type 2 diabetes mellitus (T2DM) and obesity. This study intends to explore the potential effects and mechanism of Semaglutide on OSCC. The expression of GLP-1R",
+        "score": 0.34478476643562317,
+        "doi": "10.1007/s00432-025-06154-5",
+        "journal": "Journal of cancer research and clinical oncology",
+        "year": "2025",
+        "rerank_score": 3.793548345565796,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34260945",
+        "text": "Structure and dynamics of semaglutide- and taspoglutide-bound GLP-1R-Gs complexes. The glucagon-like peptide-1 receptor (GLP-1R) regulates insulin secretion, carbohydrate metabolism, and appetite and is an important target for treatment of type 2 diabetes and obesity. Multiple GLP-1R agonists have entered into clinical trials, with some, such as semaglutide, progressing to approval. Others, including taspoglutide, failed due to the high incidence of side effects or insufficient efficacy. GLP-1R agonists hav",
+        "score": 0.3336784243583679,
+        "doi": "10.1016/j.celrep.2021.109374",
+        "journal": "Cell reports",
+        "year": "2020",
+        "rerank_score": 3.699859619140625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}
