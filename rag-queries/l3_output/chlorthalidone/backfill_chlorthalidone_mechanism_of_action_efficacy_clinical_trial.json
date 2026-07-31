@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Chlorthalidone mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41420909",
+        "text": "Efficacy and safety of haloperidol-promethazine combination versus chlorpromazine-promethazine in managing acute behavioral disturbances and violent behavior in psychiatric patients. This study aimed to evaluate the efficacy and safety of pharmacological interventions in managing acute behavioral disturbances and violent behavior among individuals diagnosed with psychiatric disorders. A double-blinded, randomized controlled trial was conducted involving 64 individuals presenting with acute behavioral distur",
+        "score": 0.4273603558540344,
+        "doi": "10.1016/j.psychres.2025.116908",
+        "journal": "Psychiatry research",
+        "year": "2025",
+        "rerank_score": -0.18234047293663025,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41254842",
+        "text": "Effect Size Deflation With Increasing Sample Size in Adjunctive Trials for Negative Symptoms in Schizophrenia: A Meta-Analysis and Meta-Regression Across Mechanisms of Action. Meta-analytic evidence supports the effectiveness of several mechanisms of action adjunctive to antipsychotics for the treatment of negative symptoms in schizophrenia. Nevertheless, the results have not been replicated consistently in multicenter randomized clinical trials. The authors' primary objective in this study was to assess wh",
+        "score": 0.4083453416824341,
+        "doi": "10.1176/appi.ajp.20250034",
+        "journal": "The American journal of psychiatry",
+        "year": "2025",
+        "rerank_score": -1.9146443605422974,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40202273",
+        "text": "Characterization of the Molecular Mechanisms Underlying Lurasidone-Induced Acute Manic Episodes in Bipolar Depression: A Network Pharmacology and Molecular Docking Approach. Lurasidone monotherapy has been approved for the treatment of bipolar depression. However, several case reports have indicated treatment with lurasidone-induced acute mania in people with bipolar depression. The mechanism by which this occurs remains to be elucidated. In this study, we systematically explored the mechanism of action of ",
+        "score": 0.4242997169494629,
+        "doi": "10.1111/cns.70383",
+        "journal": "CNS neuroscience & therapeutics",
+        "year": "2025",
+        "rerank_score": -2.371979236602783,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

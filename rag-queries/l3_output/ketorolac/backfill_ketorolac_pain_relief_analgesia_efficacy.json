@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Ketorolac pain relief analgesia efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39963539",
+        "text": "Effectiveness of Intraoperative Ketorolac in Outpatient Breast Surgery: A Double-blinded Prospective Randomized Controlled Trial. The use of nonnarcotic analgesics, such as ketorolac, has been shown to reduce postoperative pain and opioid consumption. This double-blinded randomized trial is designed to assess the efficacy of intraoperative ketorolac in reducing postoperative narcotic use in outpatient breast reconstruction and reduction procedures. This study is a prospective double-blinded randomized contr",
+        "score": 0.34049591422080994,
+        "doi": "10.1097/GOX.0000000000006540",
+        "journal": "Plastic and reconstructive surgery. Global open",
+        "year": "2024",
+        "rerank_score": 6.742626667022705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40326658",
+        "text": "Ketorolac as an Analgesic in Pediatric Acute Pain Management: A Systematic Review and Meta-analysis. Acute pain is a common complaint in the pediatric emergency department. Ketorolac, a nonsteroidal anti-inflammatory drug, is approved for use in adults but remains underinvestigated in pediatric patients. This meta-analysis aims to evaluate the efficacy and safety of Ketorolac for acute pain management in children. A systematic search was conducted using electronic databases, including PubMed, Web of Science",
+        "score": 0.39581552147865295,
+        "doi": "10.1097/PEC.0000000000003381",
+        "journal": "Pediatric emergency care",
+        "year": "2024",
+        "rerank_score": 6.675278663635254,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40635926",
+        "text": "Comparative Efficacy of Periarticular Fentanyl versus Ketorolac for Postoperative Pain in Total Hip Arthroplasty: A Randomized Controlled Trial. Local infiltration analgesia (LIA) has been reported as a viable option to tackle postoperative pain. Nonsteroidal anti-inflammatory drugs such as ketorolac and opioids such as fentanyl have shown promising results in the past. At the same time, there are other studies which has refuted any benefit of LIA in postoperative pain management. The presence of conflictin",
+        "score": 0.3733035922050476,
+        "doi": "10.13107/jocr.2025.v15.i07.5846",
+        "journal": "Journal of orthopaedic case reports",
+        "year": "2025",
+        "rerank_score": 6.534751892089844,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

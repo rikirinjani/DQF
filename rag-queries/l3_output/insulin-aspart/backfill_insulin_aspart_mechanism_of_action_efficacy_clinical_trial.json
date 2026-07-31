@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Insulin Aspart mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21741089",
+        "text": "Efficacy and tolerability of self-titrated biphasic insulin aspart 70/30 in patients aged >65 years with type 2 diabetes: an exploratory post hoc subanalysis of the INITIATEplus trial. The Initiation of Insulin to reach A1C Target (INITIATEplus) trial studied the effect of self-titrating biphasic insulin aspart 70/30 (BiAsp 30) twice daily during 24 weeks in insulin-naïve patients with type 2 diabetes who were poorly controlled by oral medication, and originally randomized according to frequency of dietary ",
+        "score": 0.3676051199436188,
+        "doi": "10.1016/j.clinthera.2011.05.093",
+        "journal": "Clinical therapeutics",
+        "year": "2011",
+        "rerank_score": 5.31469202041626,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39115159",
+        "text": "A comparison of the safety and effectiveness of insulin aspart with other bolus insulins in women with pre-existing Type 1 diabetes during pregnancy: A post hoc analysis of a prospective cohort study. The safety and efficacy of insulin analogue insulin aspart (IAsp) have been demonstrated in a randomised clinical trial in pregnant women with Type 1 diabetes (T1D), and IAsp is widely used during pregnancy. The aim of this study was to assess glycaemic control and safety of IAsp versus other bolus insulins in",
+        "score": 0.37624502182006836,
+        "doi": "10.1111/dme.15411",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2024",
+        "rerank_score": 4.7218852043151855,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38420944",
+        "text": "Safety and Efficacy of Switching SAR341402 Insulin Aspart and Originator Insulin Aspart vs Continuous Use of Originator Insulin Aspart in Adults With Type 1 Diabetes: The GEMELLI X Trial. SAR341402 insulin aspart (SAR-Asp) is a rapid-acting insulin analog developed as an interchangeable biosimilar to the marketed insulin aspart reference product (NovoLog; NN-Asp). GEMELLI X was a randomized controlled trial to assess outcomes with a biosimilar in line with the US Food and Drug Administration requirements fo",
+        "score": 0.38553786277770996,
+        "doi": "10.1177/19322968241232709",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 4.215401649475098,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

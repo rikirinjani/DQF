@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Omeprazole effect size confidence interval healing rate"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3886340",
+        "text": "[Healing rates following omeprazole and ranitidine treatment of gastric ulcer. Results of a German multicenter study]. The effectiveness of omeprazole (20 mg orally each morning) or ranitidine (150 mg orally twice daily) in the treatment of gastric ulcer was compared in 184 out-patient in a randomized, endoscopically controlled multi-centre double-blind (\"double dummy\") trial. Healing rates with omeprazole after two, four and eight weeks were 43, 81 and 95%, respectively, those with ranitidine were 45, 80 a",
+        "score": 0.40925291180610657,
+        "doi": "10.1055/s-2008-1068876",
+        "journal": "Deutsche medizinische Wochenschrift (1946)",
+        "year": "1985",
+        "rerank_score": 2.8382456302642822,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2690333",
+        "text": "Omeprazole in the acute treatment of gastric ulcer. Antisecretory drugs are known to be valuable in the treatment of gastric ulcer. Recent studies have shown that this also holds true for omeprazole, the most effective antisecretory drugs currently available. At 30-40 mg once daily omeprazole provides cumulative healing rates of up to 100% after 4-8 weeks. In one study, omeprazole, 20 mg, and ranitidine, 150 mg b.d., produced similar healing rates in the acute treatment of gastric ulcer, though there was a ",
+        "score": 0.4101217985153198,
+        "doi": "10.3109/00365528909091246",
+        "journal": "Scandinavian journal of gastroenterology. Supplement",
+        "year": "1989",
+        "rerank_score": 1.7107213735580444,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3041558",
+        "text": "Omeprazole or ranitidine in the treatment of reflux esophagitis. Results of a double-blind, randomized, Scandinavian multicenter study. One hundred and fifty-two patients with endoscopically verified erosive and/or ulcerative esophagitis entered a double-blind, randomized study comparing 20 mg omeprazole given once daily and ranitidine 150 mg twice daily. The efficacy and safety of 4 to 8 weeks' treatment were studied. Macroscopic healing of esophagitis was defined as complete epithelialization of all esoph",
+        "score": 0.4101254343986511,
+        "doi": "10.3109/00365528809093923",
+        "journal": "Scandinavian journal of gastroenterology",
+        "year": "1988",
+        "rerank_score": -1.6264288425445557,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

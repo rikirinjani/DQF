@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Empagliflozin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24795251",
+        "text": "Efficacy and safety of empagliflozin added to existing antidiabetes treatment in patients with type 2 diabetes and chronic kidney disease: a randomised, double-blind, placebo-controlled trial. Diabetes is a leading cause of chronic kidney disease (CKD) worldwide. Optimum glycaemic control in patients with type 2 diabetes is important to minimise the risk of microvascular and macrovascular complications and to slow the progression of CKD. We assessed the efficacy and safety of empagliflozin as an add-on trea",
+        "score": 0.36634206771850586,
+        "doi": "10.1016/S2213-8587(13)70208-0",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "year": "2014",
+        "rerank_score": 4.835124492645264,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31912605",
+        "text": "Randomized, double-blind, placebo-controlled, multicentre pilot study on the effects of empagliflozin on clinical outcomes in patients with acute decompensated heart failure (EMPA-RESPONSE-AHF). Inhibition of sodium-glucose co-transporter 2 (SGLT2) reduces the risk of death and heart failure (HF) admissions in patients with chronic HF. However, safety and clinical efficacy of SGLT2 inhibitors in patients with acute decompensated HF are unknown.",
+        "score": 0.3679219186306,
+        "doi": "10.1002/ejhf.1713",
+        "journal": "European journal of heart failure",
+        "year": "2019",
+        "rerank_score": 4.799619197845459,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27265507",
+        "text": "Efficacy and safety of empagliflozin in patients with type 2 diabetes from Asian countries: pooled data from four phase III trials. We investigated the efficacy and safety of empagliflozin over 24 weeks in Asian patients with type 2 diabetes (T2DM) using pooled data from four phase III trials. In these trials, patients were randomized to receive empagliflozin 10 mg, empagliflozin 25 mg or placebo as monotherapy or add-on to metformin, metformin plus sulphonylurea or pioglitazone ± metformin. In total, 1326 ",
+        "score": 0.3712141513824463,
+        "doi": "10.1111/dom.12699",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2016",
+        "rerank_score": 4.7403244972229,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

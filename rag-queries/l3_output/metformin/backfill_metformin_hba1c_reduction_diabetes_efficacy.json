@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Metformin HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40466424",
+        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
+        "score": 0.40684568881988525,
+        "doi": "10.1016/j.semerg.2025.102530",
+        "journal": "Semergen",
+        "year": "2025",
+        "rerank_score": 7.117034435272217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29966520",
+        "text": "Efficacy of metformin in combination with immune checkpoint inhibitors (anti-PD-1/anti-CTLA-4) in metastatic malignant melanoma. Metformin is one of the biguanides commonly used in patients with type II Diabetes Mellitus. Apart from its hypoglycemic properties, metformin also inhibits the cell cycle by restricting protein synthesis and cell proliferation via regulating the LKB1/AMPL pathway. Furthermore, it also enhances the PD-1 blockade through a reduction of tumor hypoxia. Metformin has shown a significa",
+        "score": 0.3673078119754791,
+        "doi": "10.1186/s40425-018-0375-1",
+        "journal": "Journal for immunotherapy of cancer",
+        "year": "2018",
+        "rerank_score": 6.776648044586182,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41566094",
+        "text": "Comparative Effectiveness of Current Glucose-lowering Medications in Type 2 Diabetes Mellitus: Emulation of a Modified GRADE Trial. The GRADE (Glycemia Reduction Approaches in Diabetes: A Comparative Effectiveness Study) trial assessed the effectiveness of four glucose-lowering medication classes in reducing hemoglobin A1c (HbA1c) in individuals with type 2 diabetes mellitus (T2DM) on metformin monotherapy but did not include sodium-glucose cotransporter-2 inhibitors (SGLT-2is). To replicate and extend GRAD",
+        "score": 0.38132745027542114,
+        "doi": "10.1007/s11606-026-10170-7",
+        "journal": "Journal of general internal medicine",
+        "year": "2025",
+        "rerank_score": 6.330061435699463,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

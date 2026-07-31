@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Empagliflozin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41260692",
+        "text": "Feeding Time-Dependent Changes in the Preventive Effect of Empagliflozin on the Development of Peripheral Neuropathic Pain in Diabetic Model Mice. It is known that the daily feeding cycle affects the dosing time-dependent changes in the pharmacodynamics and pharmacokinetics of many drugs. Our previous study demonstrated that administration of empagliflozin (EMPA), sodium-glucose cotransporter 2 (SGLT2) inhibitor, at the beginning of daily feeding cycle (active phase) effectively prevents the development of ",
+        "score": 0.3723408281803131,
+        "doi": "10.1248/bpb.b25-00524",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2025",
+        "rerank_score": 3.646087408065796,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23859534",
+        "text": "Pharmacokinetics, safety and tolerability of empagliflozin, a sodium glucose cotransporter 2 inhibitor, in patients with hepatic impairment. This open-label, parallel-group study investigated the effect of various degrees of hepatic impairment on the pharmacokinetics, safety and tolerability of the sodium glucose cotransporter 2 inhibitor empagliflozin.",
+        "score": 0.35604363679885864,
+        "doi": "10.1111/dom.12183",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2013",
+        "rerank_score": 1.442267656326294,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27666126",
+        "text": "Acute Pharmacodynamic Effects of Empagliflozin With and Without Diuretic Agents in Patients With Type 2 Diabetes Mellitus. The goal of this study was to investigate the pharmacodynamic effects of co-administration of empagliflozin, a sodium glucose cotransporter 2 inhibitor, with diuretic agents.",
+        "score": 0.35616517066955566,
+        "doi": "10.1016/j.clinthera.2016.08.008",
+        "journal": "Clinical therapeutics",
+        "year": "2016",
+        "rerank_score": 1.33882737159729,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

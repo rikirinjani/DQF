@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Insulin Degludec randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:29423761",
+        "text": "Comparative safety and efficacy of insulin degludec with insulin glargine in type 2 and type 1 diabetes: a meta-analysis of randomized controlled trials. To determine the safety and efficacy of insulin degludec versus glargine in patients with type 1 (T1D) and type 2 (T2D) diabetes mellitus.",
+        "score": 0.333734393119812,
+        "doi": "10.1007/s00592-018-1107-1",
+        "journal": "Acta diabetologica",
+        "year": "2017",
+        "rerank_score": 5.569375991821289,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39270686",
+        "text": "Once-weekly insulin efsitora alfa versus once-daily insulin degludec in adults with type 1 diabetes (QWINT-5): a phase 3 randomised non-inferiority trial. Insulin efsitora alfa (efsitora) is a once-weekly basal insulin. This phase 3 study aimed to assess the efficacy and safety of efsitora compared with insulin degludec (degludec) in adults with type 1 diabetes. This randomised, 52-week, parallel-design, open-label, treat-to-target non-inferiority study conducted at 82 global health-care centres, randomly a",
+        "score": 0.3384093642234802,
+        "doi": "10.1016/S0140-6736(24)01804-X",
+        "journal": "Lancet (London, England)",
+        "year": "2024",
+        "rerank_score": 4.361257553100586,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39157869",
+        "text": "The efficacy and safety of insulin glargine 100 U/mL + lixisenatide versus insulin degludec + insulin aspart in Chinese people with type 2 diabetes suboptimally controlled with oral antidiabetic drugs: The Soli-D randomized controlled trial.",
+        "score": 0.35083645582199097,
+        "doi": "10.1111/dom.15857",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 4.2357497215271,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

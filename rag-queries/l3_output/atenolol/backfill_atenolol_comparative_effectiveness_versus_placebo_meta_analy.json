@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Atenolol comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1986440",
+        "text": "A comparative study of atenolol, nifedipine and their combination in the treatment of hypertension. The antihypertensive effects, as assessed by clinical and ambulatory blood pressure measurement, of nifedipine slow-release (SR), atenolol and the two in combination were evaluated in 28 known hypertensives in a placebo-controlled, double-blind, randomised cross-over trial. Clinical blood pressure was significantly lower on combination therapy (P less than 0.025) than on either agent alone, although all thera",
+        "score": 0.3845839500427246,
+        "doi": "",
+        "journal": "South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde",
+        "year": "1991",
+        "rerank_score": 4.336325645446777,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41363997",
+        "text": "Comparison of Esmolol Versus Landiolol on Mortality in Adult Patients With Sepsis: A Systematic Review and Network Meta-Analysis. The clinical efficacy of short-acting β-blockers in the management of sepsis remains uncertain. In particular, the comparative effects of two commonly used agents-esmolol and landiolol-have not been clearly established. This network meta-analysis aims to systematically evaluate and compare the effects of esmolol, landiolol, and standard of care (SOC) on mortality in patients with",
+        "score": 0.4121270477771759,
+        "doi": "10.1097/CCM.0000000000006966",
+        "journal": "Critical care medicine",
+        "year": "2025",
+        "rerank_score": 2.6262435913085938,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39920066",
+        "text": "Beneficial and harmful effects of duloxetine versus placebo, 'active placebo' or no intervention for adults with major depressive disorder: a systematic review with meta-analysis and trial sequential analysis of randomised clinical trials. To assess the beneficial and harmful effects of duloxetine versus 'active placebo', placebo or no intervention for adults with major depressive disorder. Systematic review with meta-analysis and trial sequential analysis of randomised trials. Cochrane Central Register of ",
+        "score": 0.4239751100540161,
+        "doi": "10.1136/bmjopen-2023-082853",
+        "journal": "BMJ open",
+        "year": "2025",
+        "rerank_score": 2.1554179191589355,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

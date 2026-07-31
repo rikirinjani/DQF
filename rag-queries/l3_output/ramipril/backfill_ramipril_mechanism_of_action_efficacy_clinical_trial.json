@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Ramipril mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39614897",
+        "text": "Potential therapeutic and ameliorative effects of ramipril alone and in combination with methylprednisolone for the cytokine releasing syndrome in mice: An in vivo study. Cytokine-releasing syndrome (CRS) is a special form of systemic inflammatory response syndrome provoked by factors like viral infections and certain immunomodulatory drugs like monoclonal antibodies and adoptive T therapy. To elucidate the potential role of ramipril (RM) and its combination with methylprednisolone (MP) against the developm",
+        "score": 0.4150559902191162,
+        "doi": "10.1007/s00210-024-03659-7",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2024",
+        "rerank_score": -0.14974795281887054,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40849780",
+        "text": "The Antioxidant and Anti-lipidemic Potential of Angiotensin-converting Enzyme Inhibitor (Ramipril) in L-NAME Hypertensive Rats. Hypertension is associated with oxidative disturbances and often coexists with metabolic disorders like hyperlipidemia. Some antihypertensive drugs, particularly angiotensin- converting enzyme (ACE) inhibitors, offer benefits beyond lowering blood pressure by addressing related conditions. This study aimed to investigate the effects of ACE inhibitors on oxidative stress and dyslipi",
+        "score": 0.40116214752197266,
+        "doi": "10.2174/0118715257375839250811064453",
+        "journal": "Cardiovascular & hematological agents in medicinal chemistry",
+        "year": "2025",
+        "rerank_score": -0.3352293074131012,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39665939",
+        "text": "Comparison of the effectiveness of aliskiren and ramipril for the management of hypertension: A systematic review and meta-analysis. Ramipril is an important option in the management of hypertension, while the role of aliskiren is still up for debate. We aim to meta-analyse and compare the effect of aliskiren with ramipril by measuring mean difference in systolic blood pressure (mdSBP) and mean difference in diastolic blood pressure (mdDBP). The search was conducted using the PubMed and Cochrane databases f",
+        "score": 0.41653183102607727,
+        "doi": "10.1016/j.hipert.2024.11.002",
+        "journal": "Hipertension y riesgo vascular",
+        "year": "2024",
+        "rerank_score": -0.3935035467147827,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

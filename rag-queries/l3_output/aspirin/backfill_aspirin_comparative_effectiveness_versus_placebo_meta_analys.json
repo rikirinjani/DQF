@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Aspirin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18323511",
+        "text": "Aspirin plus dipyridamole versus aspirin for prevention of vascular events after stroke or TIA: a meta-analysis. This meta-analysis systematically reviewed randomized controlled trials comparing aspirin plus dipyridamole with aspirin alone in patients with stroke and TIA to determine the efficacy of these agents in preventing recurrent cerebral and systemic vascular events.",
+        "score": 0.34336090087890625,
+        "doi": "10.1161/STROKEAHA.107.496281",
+        "journal": "Stroke",
+        "year": "2008",
+        "rerank_score": 4.9634480476379395,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39211768",
+        "text": "Safety and efficacy of aspirin and indobufen in the treatment of coronary heart disease: a systematic review and meta-analysis. This meta-analysis aimed to compare the safety and efficacy of aspirin and indobufen in patients with coronary heart disease. The primary focus was on the incidence of cardiovascular events, bleeding events, and gastrointestinal reactions. Given the relatively limited research on indobufen, this study utilized aspirin as a control drug and employed meta-analysis to integrate existi",
+        "score": 0.34349167346954346,
+        "doi": "10.3389/fcvm.2024.1412944",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2024",
+        "rerank_score": 4.857995986938477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39870606",
+        "text": "Current Practices and Evidence of Aspirin Usage in Microvascular Surgery: A Systematic Review and Meta-Analysis. Acetylsalicylic acid (ASA) has been used in reconstructive microsurgery since the inception of the field. However, when compared to placebo groups, its efficacy is not confirmed. In our study, we hypothesize that the utility of ASA postoperatively in microvascular surgery is not associated with improved outcomes. A systematic review of the literature was conducted using PubMed, Google Scholar, an",
+        "score": 0.3499486446380615,
+        "doi": "10.1002/micr.70029",
+        "journal": "Microsurgery",
+        "year": "2024",
+        "rerank_score": 4.488503932952881,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

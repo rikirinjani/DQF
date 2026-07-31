@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Propranolol randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41036277",
+        "text": "Blood pressure lowering for prevention of episodic migraine: results of a pilot randomized, placebo-controlled trial of combination blood pressure lowering medication with propranolol. Beta blockers are effective in migraine prevention. Low-dose combination therapy of blood pressure lowering is likely to lower blood pressure more than a beta-blocker, but there are no data on comparative efficacy of these treatments in migraine prophylaxis. A double-blind, randomized, pilot trial in participants with episodi",
+        "score": 0.3873755633831024,
+        "doi": "10.3389/fneur.2025.1630732",
+        "journal": "Frontiers in neurology",
+        "year": "2025",
+        "rerank_score": 4.536812782287598,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40602490",
+        "text": "Letter to the Editor Regarding: \"The Efficacy and Safety of Enalapril and Propranolol on Neurological Recovery of Isolated Severe Traumatic Brain Injury, a Randomized Clinical Trial\".",
+        "score": 0.4029187262058258,
+        "doi": "10.1016/j.wneu.2025.124216",
+        "journal": "World neurosurgery",
+        "year": "2025",
+        "rerank_score": 3.146155595779419,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39549852",
+        "text": "JAAD Game Changers: Atenolol versus propranolol for the treatment of infantile hemangiomas: a randomized controlled study.",
+        "score": 0.3699072599411011,
+        "doi": "10.1016/j.jaad.2024.10.092",
+        "journal": "Journal of the American Academy of Dermatology",
+        "year": "2024",
+        "rerank_score": 0.5745267868041992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

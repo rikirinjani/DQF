@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Pantoprazole adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27104875",
+        "text": "Comparison of Pantoprazole Concentrations in Simultaneous Cerebrospinal Fluid and Serum Samples. Pantoprazole is a proton pump inhibitor drug mainly used for treating peptic diseases. Adverse effects of pantoprazole in the occasional central nervous system (CNS) include headache, vertigo and sleep disturbances. Data in rats suggest that proton pumps are expressed in the inner ear and in the epithelium of the choroid plexus, which would be a potential target to mediate such proton pump inhibitor effects.",
+        "score": 0.41059139370918274,
+        "doi": "10.1159/000445720",
+        "journal": "Pharmacology",
+        "year": "2016",
+        "rerank_score": 5.2857160568237305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8180295",
+        "text": "A review of treatment of duodenal and gastric ulcers--pantoprazole vs. omeprazole. The efficacy and safety of pantoprazole in the treatment of duodenal and gastric ulcers has been compared with that of the first proton pump inhibitor omeprazole in two (previously reported) clinical studies. Pantoprazole (40 mg/day) administered orally was an effective and well-tolerated treatment for both indications. Pantoprazole was as effective as omeprazole (20 mg/day) and had a similar safety profile. For gastric ulcer",
+        "score": 0.4094797670841217,
+        "doi": "10.1111/j.1365-2036.1994.tb00253.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "1994",
+        "rerank_score": 2.4705135822296143,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41416336",
+        "text": "The Effect of Pantoprazole on Midline Closure in Early Chicken Embryos: An Experimental Study. Pantoprazole is a proton pump inhibitor commonly used to treat gastroesophageal reflux disease (GERD) by reducing stomach acid production. Although widely used for gastrointestinal issues, its effects on embryonic development remain underexplored. This study investigated the impact of pantoprazole on neural tube closure using a chick embryo model. Fertilised chicken eggs were divided into groups and treated with v",
+        "score": 0.4313907027244568,
+        "doi": "10.7759/cureus.97084",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 0.8998137712478638,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

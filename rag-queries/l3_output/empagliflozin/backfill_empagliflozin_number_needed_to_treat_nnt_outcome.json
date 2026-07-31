@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Empagliflozin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17395871",
+        "text": "Clinical impact of NXY-059 demonstrated in the SAINT I trial: derivation of number needed to treat for benefit over entire range of functional disability. The SAINT I trial demonstrated that the neuroprotective agent NXY-059 improves the distribution of acute stroke patient outcomes on the modified Rankin Scale (mRS) of global disability. Standard dichotomized number-needed-to-treat (NNT) analyses for the magnitude of treatment benefit range widely, from 22.7 to infinity, and each capture only a portion of ",
+        "score": 0.42279964685440063,
+        "doi": "10.1161/01.STR.0000263135.47779.9e",
+        "journal": "Stroke",
+        "year": "2007",
+        "rerank_score": 3.6023600101470947,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35800000",
+        "text": "Dapagliflozin and Empagliflozin in Heart Failure with Reduced Ejection Fraction: A Retrospective Study. Dapagliflozin 10 mg and empagliflozin 10 mg have been recommended to treat heart failure with reduced ejection fraction (HFrEF), and the purpose of this study was to compare the efficacy and safety of them in HFrEF.",
+        "score": 0.4267413318157196,
+        "doi": "10.2147/IJGM.S366943",
+        "journal": "International journal of general medicine",
+        "year": "2022",
+        "rerank_score": 3.4645566940307617,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30062155",
+        "text": "Empagliflozin Prevents Worsening of Cardiac Function in an Experimental Model of Pressure Overload-Induced Heart Failure. This study sought to determine whether the sodium/glucose cotransporter 2 (SGLT2) inhibitor empagliflozin improved heart failure (HF) outcomes in nondiabetic mice. The EMPA-REG OUTCOME (Empagliflozin, Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients) trial demonstrated that empagliflozin markedly prevented HF and cardiovascular death in subjects with diabetes. Howe",
+        "score": 0.42377209663391113,
+        "doi": "10.1016/j.jacbts.2017.07.003",
+        "journal": "JACC. Basic to translational science",
+        "year": "2017",
+        "rerank_score": 2.8160505294799805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

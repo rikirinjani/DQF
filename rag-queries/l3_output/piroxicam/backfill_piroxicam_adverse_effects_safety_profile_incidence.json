@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Piroxicam adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1460195",
+        "text": "Intolerance to piroxicam in patients with adverse reactions to nonsteroidal antiinflammatory drugs. To evaluate the tolerance to piroxicam in patients with urticaria induced by analgesic and/or nonsteroidal antiinflammatory drugs (NSAIDs), we carried out a 2-year study in an outpatient clinic. All the patients referred to the clinic for study entered a protocol for evaluation of intolerance to one or more drugs. If patients were allergic to at least two different NSAIDs they were allocated to group A, but i",
+        "score": 0.419964075088501,
+        "doi": "10.1016/0091-6749(92)90459-f",
+        "journal": "The Journal of allergy and clinical immunology",
+        "year": "1992",
+        "rerank_score": 1.311526894569397,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39726516",
+        "text": "Rituximab Safety Profile: A Seven-Year Retrospective Analysis From Southern India. This study aimed to analyze the pattern, severity, and outcomes of adverse drug reactions (ADRs) associated with rituximab use reported to a regional pharmacovigilance center in Kerala, India. This retrospective study analyzed rituximab-associated ADRs reported from 2017 to 2023. ADRs were assessed using the WHO-UMC criteria for causality and the Modified Hartwig Siegel Scale for severity. A total of 74 patients reported ADRs",
+        "score": 0.42852547764778137,
+        "doi": "10.7759/cureus.74454",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -0.21777355670928955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40356972",
+        "text": "Post-marketing safety concerns with pirfenidone and nintedanib: an analysis of individual case safety reports from the FDA adverse event reporting system database and the Japanese adverse drug event report databases. To date, only two drugs, pirfenidone and nintedanib, are approved for the treatment of patients with idiopathic pulmonary fibrosis (IPF). In addition, very few studies have reported on the safety profile of either drug in large populations. This study aims to identify and compare adverse drug e",
+        "score": 0.4458320438861847,
+        "doi": "10.3389/fphar.2025.1530697",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -1.0568263530731201,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Tirzepatide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41200927",
+        "text": "The efficacy and safety of dual GIP/GLP1 receptor agonists (tirzepatide) in diabetes and obesity: a systematic review and network meta-analysis. Tirzepatide has shown benefits in weight reduction and glycemic control in type 2 diabetes and obesity, but its relative efficacy and safety across doses remain unclear. We conducted a PROSPERO-registered systematic review and network meta-analysis of randomized controlled trials up to July 2024. Trials comparing tirzepatide (5, 10, or 15 mg weekly) with placebo, i",
+        "score": 0.36546215415000916,
+        "doi": "10.1080/14740338.2025.2586703",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": 7.164216041564941,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36750526",
+        "text": "Efficacy and Safety of Tirzepatide in Type 2 Diabetes and Obesity Management. The combination of glucagon-like peptide-1 (GLP-1) with other gut hormones including the glucose-dependent insulinotropic polypeptide (GIP) has been explored to complement and enhance further the GLP-1 effects on glycemia and weight loss. Tirzepatide is the first dual GLP-1/GIP receptor co-agonist which has been approved for treatment of type 2 diabetes mellitus (T2DM) based on the findings from the SURPASS program. The SURPASS tr",
+        "score": 0.36845389008522034,
+        "doi": "10.7570/jomes22067",
+        "journal": "Journal of obesity & metabolic syndrome",
+        "year": "2022",
+        "rerank_score": 6.0422515869140625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40747302",
+        "text": "Efficacy and safety of tirzepatide for weight loss in patients with obesity or type 2 diabetes: a systematic review and meta-analysis. This meta-analysis aims to evaluate efficacy and safety of tirzepatide for weight loss, including its dose-response relationship and adverse event profile. Studies were retrieved from high-impact journals and included phase 1 to phase 3 trials. Participants received tirzepatide at 5,10, or 15 mg doses or a placebo control. Weighted mean differences (WMD) and odds ratios (OR)",
+        "score": 0.36097049713134766,
+        "doi": "10.3389/fendo.2025.1593134",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 5.788334369659424,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

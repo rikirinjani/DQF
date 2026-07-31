@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Lisinopril adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41366928",
+        "text": "Adverse effects of iodixanol: A retrospective safety study utilizing FAERS database signal analysis. This retrospective study utilized the Food and Drug Administration adverse event (AE) reporting system database (Q1 2004-Q4 2024) to comprehensively evaluate the safety profile of the contrast agent iodixanol. Disproportionality analysis (reporting odds ratio, proportional reporting ratio, information component, empirical Bayes geometric mean) was employed to detect AE signals. Analysis of 2212 iodixanol AE ",
+        "score": 0.42097151279449463,
+        "doi": "10.1097/MD.0000000000044714",
+        "journal": "Medicine",
+        "year": "2025",
+        "rerank_score": -0.622564971446991,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39193332",
+        "text": "A real-world disproportionality analysis of sacubitril/valsartan: data mining of the FDA adverse event reporting system. Sacubitril/valsartan is extensively used in heart failure; however, there are few long-term safety studies of it in a wide range of populations. The aim of this study was to evaluate sacubitril/valsartan-induced adverse events (AEs) through data mining of the U.S. Food and Drug Administration Adverse Event Reporting System (FAERS). Reports in the FAERS from the third quarter of 2015 (FDA ",
+        "score": 0.4054567813873291,
+        "doi": "10.3389/fphar.2024.1392263",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -0.8160737752914429,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39625739",
+        "text": "Comparison of the pharmacovigilance signals of cardiac and renal adverse events associated with sacubitril/valsartan and valsartan alone based on the FAERS database. In clinical practice, cardiovascular and renal safety profiles of sacubitril/valsartan, compared with those of valsartan alone, remain controversial. Therefore, we aimed to compare the pharmacovigilance signals related to cardiovascular and renal adverse events between sacubitril/valsartan and valsartan alone using the Food and Drug Administrat",
+        "score": 0.4069543480873108,
+        "doi": "10.1080/14740338.2024.2436100",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": -0.9309059977531433,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

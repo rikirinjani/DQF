@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Canagliflozin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.46767479181289673,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 3.929180145263672,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28217522",
+        "text": "A review of clinical efficacy and safety of canagliflozin 300 mg in the management of patients with type 2 diabetes mellitus. Currently available antihyperglycemic agents, despite being effective, provide inadequate glycemic control and/or are associated with side effects or nonadherence. Canagliflozin, a widely used orally active inhibitor of sodium-glucose cotransporter 2 (SGLT2), is a new addition to the therapeutic armamentarium of glucose-lowering drugs. This review summarizes findings from different c",
+        "score": 0.45464181900024414,
+        "doi": "10.4103/2230-8210.196016",
+        "journal": "Indian journal of endocrinology and metabolism",
+        "year": "2017",
+        "rerank_score": 1.9779835939407349,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40184701",
+        "text": "Immediate and short-term outcomes of in-hospital canagliflozin initiation in acute heart failure: Results from the CANA-AHF randomized clinical trial. Early initiation of empagliflozin, a sodium-glucose cotransporter 2 inhibitor, in acute heart failure (AHF) patients increases urine output, reduces hospital stays, and enhances quality of life post-hospital discharge. This trial aims to investigate the effectiveness and safety of early canagliflozin initiation compared to empagliflozin in hospitalized AHF pa",
+        "score": 0.4671136736869812,
+        "doi": "10.1016/j.hrtlng.2025.03.007",
+        "journal": "Heart & lung : the journal of critical care",
+        "year": "2024",
+        "rerank_score": 1.1072161197662354,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

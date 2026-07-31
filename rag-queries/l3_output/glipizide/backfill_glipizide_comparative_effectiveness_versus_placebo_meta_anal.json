@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Glipizide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39295934",
+        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
+        "score": 0.38670581579208374,
+        "doi": "10.3389/fphar.2024.1418826",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 3.892073392868042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10746824",
+        "text": "Comparative efficacy and potency of long-term therapy with glipizide or glyburide in patients with type 2 diabetes mellitus. Long-term studies on the comparative efficacy and relative potency of glipizide and glyburide are sparse and controversial.",
+        "score": 0.38829559087753296,
+        "doi": "10.1097/00000441-200003000-00003",
+        "journal": "The American journal of the medical sciences",
+        "year": "2000",
+        "rerank_score": 2.8785016536712646,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39689934",
+        "text": "The efficacy of colchicine compared to placebo for preventing ischemic stroke among individuals with established atherosclerotic cardiovascular diseases: a systematic review and meta-analysis.",
+        "score": 0.39406973123550415,
+        "doi": "10.1080/14017431.2024.2441112",
+        "journal": "Scandinavian cardiovascular journal : SCJ",
+        "year": "2024",
+        "rerank_score": 1.4740360975265503,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Naproxen mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38833590",
+        "text": "Efficacy of naproxen in patients with sciatica: multicenter, randomized, double-blind, placebo-controlled trial. This trial assessed the efficacy of naproxen in patients with sciatica in outpatient clinics across 4 Norwegian hospitals. A total of 123 adults with radiating pain below the knee (≥4 on a 0-10 numeric rating scale) and signs consistent with nerve root involvement were included. Participants were randomized to receive either naproxen 500 mg or a placebo twice daily for 10 days. The primary outcom",
+        "score": 0.4114639163017273,
+        "doi": "10.1097/j.pain.0000000000003280",
+        "journal": "Pain",
+        "year": "2024",
+        "rerank_score": 5.203913688659668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17460158",
+        "text": "Naproxen and celecoxib do not prevent AD in early results from a randomized controlled trial. To evaluate the efficacy and safety of naproxen and celecoxib for the primary prevention of Alzheimer disease (AD).",
+        "score": 0.39993399381637573,
+        "doi": "10.1212/01.wnl.0000260269.93245.d2",
+        "journal": "Neurology",
+        "year": "2007",
+        "rerank_score": 2.483656406402588,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39758385",
+        "text": "Advances in electrochemical sensors for naproxen detection: Mechanisms, performance factors, and emerging challenges. Naproxen (NAP), a nonsteroidal anti-inflammatory, analgesic, and antipyretic drug, has fewer side effects than similar drugs due to its aryl acetic acid structure. For this reason, it is widely prescribed to manage fever, short-term and long-term pain, and musculoskeletal disorders. However, its use has complications such as changes in kidney function, severe gastrointestinal lesions, and in",
+        "score": 0.40734294056892395,
+        "doi": "10.1016/j.heliyon.2024.e40906",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.6914008855819702,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Famotidine acid suppression ulcer healing efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39193965",
+        "text": "Neuroprotective Effect of Famotidine in Mouse Models of Alzheimer's Disease. Famotidine is a competitive histamine H-receptor antagonist that reduces the formation of stomach acid and is used to treat gastrointestinal disorders associated with acid reflux, gastroesophageal reflux disease, duodenal ulcer, gastric ulcer, and pathological hypersecretory disorders. This study is designed to investigate the possible neuroprotective effects of the ranolazine scopolamine-induced Alzheimer's disease-like feature in",
+        "score": 0.41622787714004517,
+        "doi": "10.7754/Clin.Lab.2024.240147",
+        "journal": "Clinical laboratory",
+        "year": "2024",
+        "rerank_score": 3.8628029823303223,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41091941",
+        "text": "The Safety and Efficacy of Topical Sevoflurane on Painful Chronic Ulcers: A Comprehensive Systematic Review and Meta-analysis. BackgroundChronic ulcers cause persistent pain and impaired healing, often showing resistance to standard therapies. Topical sevoflurane has emerged as a potential agent for both pain relief and wound healing; however, current evidence remains limited. This review assesses the safety and efficacy of topical sevoflurane in managing painful chronic ulcers and promoting a reduction in ",
+        "score": 0.422071635723114,
+        "doi": "10.1177/15347346251385355",
+        "journal": "The international journal of lower extremity wounds",
+        "year": "2025",
+        "rerank_score": 1.501783847808838,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39887291",
+        "text": "Effectiveness of a Pharmacist-Led Intervention to Reduce Acid Suppression Therapy for Stress Ulcer Prophylaxis in ICUs in China: A Multicenter, Stepped-Wedge, Cluster-Randomized Controlled Trial. This study aimed to evaluate the effectiveness of a pharmacist-led intervention in decreasing the overuse of stress ulcer prophylaxis (SUP) compared with the usual care for adult patients in Chinese ICUs. Pragmatic, multicenter, stepped-wedge, cluster-randomized controlled trial. Twenty-six ICUs in China from Octob",
+        "score": 0.44295650720596313,
+        "doi": "10.1097/CCM.0000000000006589",
+        "journal": "Critical care medicine",
+        "year": "2025",
+        "rerank_score": 0.6736229062080383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

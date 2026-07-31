@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Ramipril adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8458057",
+        "text": "Double-blind, placebo-controlled study of ramipril in diabetics with mild to moderate hypertension. Although hypertension and diabetes mellitus frequently appear as comorbidities, the pharmacotherapy of hypertension in patients with diabetes mellitus can aggravate underlying carbohydrate and lipid abnormalities. To evaluate the efficacy and safety of the long-acting angiotensin converting enzyme inhibitor ramipril in patients with insulin-dependent or non-insulin-dependent diabetes mellitus, the authors con",
+        "score": 0.40207618474960327,
+        "doi": "",
+        "journal": "Clinical therapeutics",
+        "year": "1993",
+        "rerank_score": 1.3959696292877197,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39625739",
+        "text": "Comparison of the pharmacovigilance signals of cardiac and renal adverse events associated with sacubitril/valsartan and valsartan alone based on the FAERS database. In clinical practice, cardiovascular and renal safety profiles of sacubitril/valsartan, compared with those of valsartan alone, remain controversial. Therefore, we aimed to compare the pharmacovigilance signals related to cardiovascular and renal adverse events between sacubitril/valsartan and valsartan alone using the Food and Drug Administrat",
+        "score": 0.42785921692848206,
+        "doi": "10.1080/14740338.2024.2436100",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": -0.7122108936309814,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12161769",
+        "text": "Tolerability and safety profile of sildenafil citrate (Viagra) in Latin American patient populations. Safety data from 546 men with erectile dysfunction (ED) enrolled in three double-blind, placebo-controlled studies conducted in distinct regions of Latin America were pooled and analyzed. The most commonly reported adverse events of all causalities associated with sildenafil treatment were headache (19%), flushing (14%), dyspepsia (6%), and nasal congestion (4%), reflecting the inhibitory effects of sildena",
+        "score": 0.4018475115299225,
+        "doi": "10.1038/sj.ijir.3900899",
+        "journal": "International journal of impotence research",
+        "year": "2002",
+        "rerank_score": -0.7170820236206055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

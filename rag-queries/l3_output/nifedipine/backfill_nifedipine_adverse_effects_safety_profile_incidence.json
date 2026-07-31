@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Nifedipine adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:6478889",
+        "text": "Safety of nifedipine in subjects with bronchial asthma and COPD. This prospective study was undertaken to evaluate the safety of nifedipine, a calcium channel blocking agent, on 60 subjects with asthma, chronic obstructive pulmonary disease (COPD), angina, and normal subjects. All subjects received nifedipine, 20 mg, sublingually. Spirometry was done pre-drug administration and every 20 minutes after for two hours. Parameters measured were forced vital capacity (FVC), forced expiratory volume in one second ",
+        "score": 0.40534520149230957,
+        "doi": "10.1378/chest.86.4.515",
+        "journal": "Chest",
+        "year": "1984",
+        "rerank_score": 4.328868865966797,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39740899",
+        "text": "Disproportionality Analysis of Hepatotoxic and Gastrointestinal Adverse Events Associated With Nintedanib Using the Japanese Adverse Drug Event Report (JADER) Database. Nintedanib may cause adverse events such as elevated liver enzyme levels, diarrhea, and decreased appetite. These adverse events should be managed appropriately as they affect the quality of life of patients. This study has aimed to analyze patient characteristics and time-to-onset of adverse events caused by nintedanib using the Japanese Ad",
+        "score": 0.43817275762557983,
+        "doi": "10.21873/invivo.13841",
+        "journal": "In vivo (Athens, Greece)",
+        "year": "2024",
+        "rerank_score": 1.7676771879196167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40356972",
+        "text": "Post-marketing safety concerns with pirfenidone and nintedanib: an analysis of individual case safety reports from the FDA adverse event reporting system database and the Japanese adverse drug event report databases. To date, only two drugs, pirfenidone and nintedanib, are approved for the treatment of patients with idiopathic pulmonary fibrosis (IPF). In addition, very few studies have reported on the safety profile of either drug in large populations. This study aims to identify and compare adverse drug e",
+        "score": 0.4470125734806061,
+        "doi": "10.3389/fphar.2025.1530697",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 0.5243321657180786,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

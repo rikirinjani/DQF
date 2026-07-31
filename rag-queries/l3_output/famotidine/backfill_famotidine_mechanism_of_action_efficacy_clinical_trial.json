@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Famotidine mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39733426",
+        "text": "Efficacy of Omitting H2 Antagonists versus Famotidine in Taxane Hypersensitivity Reactions Prophylaxis: A Randomized, Prospective, Open-Label, Controlled Trial. This study aims to evaluate the efficacy of premedication protocols in preventing immediate hypersensitivity reactions (HSRs) to taxane chemotherapy by comparing protocols that omit H2 antagonists with those that include famotidine. This was an open-label, single-center, randomized clinical trial. Randomization was 1:1 to two groups. The experimenta",
+        "score": 0.4326847493648529,
+        "doi": "10.31557/APJCP.2024.25.12.4333",
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "year": "2024",
+        "rerank_score": 4.51779317855835,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39193965",
+        "text": "Neuroprotective Effect of Famotidine in Mouse Models of Alzheimer's Disease. Famotidine is a competitive histamine H-receptor antagonist that reduces the formation of stomach acid and is used to treat gastrointestinal disorders associated with acid reflux, gastroesophageal reflux disease, duodenal ulcer, gastric ulcer, and pathological hypersecretory disorders. This study is designed to investigate the possible neuroprotective effects of the ranolazine scopolamine-induced Alzheimer's disease-like feature in",
+        "score": 0.43966951966285706,
+        "doi": "10.7754/Clin.Lab.2024.240147",
+        "journal": "Clinical laboratory",
+        "year": "2024",
+        "rerank_score": 0.85076504945755,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21929996",
+        "text": "Biochemical and histological investigation of famotidine effect on postischemic reperfusion injury in the rat ovary. In this study, an investigation was performed on the ovarian tissue of rats subjected to ischemia-reperfusion for the effect of famotidine on certain parameters of oxidation-antioxidation, cell DNA damage, and histological appearance.",
+        "score": 0.41416794061660767,
+        "doi": "10.1016/j.jpedsurg.2011.04.092",
+        "journal": "Journal of pediatric surgery",
+        "year": "2011",
+        "rerank_score": -1.4555566310882568,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

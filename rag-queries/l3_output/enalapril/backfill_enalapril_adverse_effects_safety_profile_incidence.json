@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Enalapril adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34224605",
+        "text": "Hospitalization for adverse events under abiraterone or enzalutamide exposure in real-world setting: A French population-based study on prostate cancer patients. Safety profiles of abiraterone and enzalutamide rely mainly on Phase III clinical trials. Our objective was to estimate the incidence rate ratio (IRR) for certain adverse events leading in real life to hospitalization (atrial fibrillation, acute heart failure, ischaemic heart disease, acute kidney injury [AKI], ischaemic stroke, torsade de pointe/Q",
+        "score": 0.39119037985801697,
+        "doi": "10.1111/bcp.14972",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2021",
+        "rerank_score": 4.215137481689453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2846102",
+        "text": "Postmarketing surveillance of enalapril. II: Investigation of the potential role of enalapril in deaths with renal failure. The possibility that enalapril might damage renal function was investigated in 1098 deaths recorded in a prescription-event monitoring study. Case notes for 913 patients were examined. In seventy five there was a rise in the urea or creatinine concentration of 50% or more above pretreatment values. Enalapril appeared to have contributed to a decline in renal function and subsequent dea",
+        "score": 0.391440212726593,
+        "doi": "10.1136/bmj.297.6652.830",
+        "journal": "BMJ (Clinical research ed.)",
+        "year": "1988",
+        "rerank_score": 1.445541262626648,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38739482",
+        "text": "Differences in ocular adverse events associated with phosphodiesterase-5 inhibitors: a real-world pharmacovigilance study. Our study aims to characterize the ocular safety profiles of phosphodiesterase type 5 (PDE5) inhibitors and explore the differences among different PDE5 inhibitors. We analyzed reports on ocular adverse events associated with sildenafil, vardenafil and tadalafil submitted to the FDA Adverse Event Reporting System (FAERS) database from the first quarter of 2004 to the first quarter of 20",
+        "score": 0.3933296799659729,
+        "doi": "10.1080/14740338.2024.2355335",
+        "journal": "Expert opinion on drug safety",
+        "year": "2024",
+        "rerank_score": -0.11112518608570099,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

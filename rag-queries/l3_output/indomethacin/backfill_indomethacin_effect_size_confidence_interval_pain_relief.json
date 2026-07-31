@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Indomethacin effect size confidence interval pain relief"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39616511",
+        "text": "Potential Effects of Indomethacin on Alleviating Osteoarthritis Progression  To elucidate how indomethacin may slow the progression of osteoarthritis (OA). Chondrocytes were treated with IL-1β (10 ng/mL) for 12 hours to create an in vitro model of OA. Following this, 10 μM of indomethacin was added to the IL-1β-treated chondrocytes for an additional 4 hours to evaluate its effects on inflammation, anabolism, catabolism, apoptosis, and autophagy using ELISA, western blot, immunofluorescence and flow cytometr",
+        "score": 0.42381566762924194,
+        "doi": "",
+        "journal": "Journal of musculoskeletal & neuronal interactions",
+        "year": "2024",
+        "rerank_score": -0.9877762794494629,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39923403",
+        "text": "The effect of Neurokinin-1 receptor antagonists on postoperative pain: A meta-analysis of randomized controlled trials. Substance P is a neuropeptide with a pivotal role in pain transmission and modulation. Preclinical studies suggest that targeting substance P and inhibiting its receptor, neurokinin 1 (NK-1), is a potential avenue for pain relief. When translated into clinical settings, these preliminary findings yielded mixed results. This meta-analysis of randomized controlled trials (RCTs) aims to inves",
+        "score": 0.4261884391307831,
+        "doi": "10.1016/j.jclinane.2025.111772",
+        "journal": "Journal of clinical anesthesia",
+        "year": "2024",
+        "rerank_score": -6.602693557739258,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39578009",
+        "text": "Maximizing Pain Relief: Pharmacists' Analysis of the Ceiling Effect in Nonsteroidal Anti-Inflammatory Drug Treatment for Low Back Pain.",
+        "score": 0.4239375591278076,
+        "doi": "10.1016/j.annemergmed.2024.07.012",
+        "journal": "Annals of emergency medicine",
+        "year": "2024",
+        "rerank_score": -7.145756244659424,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

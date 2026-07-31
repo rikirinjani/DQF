@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Insulin Degludec comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.3645414710044861,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 4.456359386444092,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31264138",
+        "text": "Long-term Cost-effectiveness of Insulin Degludec Versus Insulin Glargine U100 in the UK: Evidence from the Basal-bolus Subgroup of the DEVOTE Trial (DEVOTE 16). To evaluate the cost-effectiveness of insulin degludec (degludec) versus insulin glargine 100 units/mL (glargine U100) in basal-bolus regimens for patients with type 2 diabetes (T2D) at high cardiovascular (CV) risk based on the DEVOTE CV outcomes trial.",
+        "score": 0.3401900827884674,
+        "doi": "10.1007/s40258-019-00494-3",
+        "journal": "Applied health economics and health policy",
+        "year": "2019",
+        "rerank_score": 3.9910151958465576,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22150786",
+        "text": "Improved health status with insulin degludec compared with insulin glargine in people with type 1 diabetes. The efficacy and safety of insulin degludec (degludec), a new-generation ultra-long-acting basal insulin, was compared with insulin glargine (glargine) in people with Type 1 diabetes mellitus in a 16-week, open-label, randomized trial. Health status, an important aspect of effective diabetes management, was also assessed.",
+        "score": 0.34048378467559814,
+        "doi": "10.1111/j.1464-5491.2011.03547.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2011",
+        "rerank_score": 3.701455593109131,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

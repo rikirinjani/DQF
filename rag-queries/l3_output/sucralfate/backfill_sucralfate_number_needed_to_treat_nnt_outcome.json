@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Sucralfate number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20950126",
+        "text": "The number needed to treat for second-generation biologics when treating established rheumatoid arthritis: a systematic quantitative review of randomized controlled trials. To evaluate the number needed to treat (NNT) and the number needed to harm (NNH) of the second-generation biologics abatacept, certolizumab, golimumab, rituximab, and tocilizumab in patients with established rheumatoid arthritis (RA) taking concomitant methotrexate (MTX).",
+        "score": 0.4561023712158203,
+        "doi": "10.3109/03009742.2010.491834",
+        "journal": "Scandinavian journal of rheumatology",
+        "year": "2010",
+        "rerank_score": 2.109380006790161,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38826727",
+        "text": "Comparison of  Patients with high-risk neuroblastoma (NB) have a 5-year event-free survival of less than 50 %, and novel and improved treatment options are needed. Radiolabeled somatostatin analogs (SSTAs) could be a treatment option. The aims of this work were to compare the biodistribution and the therapeutic effects of  The biodistribution of  The activity concentration was generally lower in most tissues for",
+        "score": 0.45830678939819336,
+        "doi": "10.1016/j.heliyon.2024.e31409",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": -5.75523042678833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40499812",
+        "text": "Clinician- and Patient-Reported Outcomes of Stereotactic Ablative Radiation Therapy for High-Risk Prostate Cancer. This study evaluated the feasibility and tolerability of SABR in patients with high- and very-high-risk prostate cancer. A prospective study included patients with high-risk and N1 prostate cancer. SABR was delivered as 40 Gy in 8 Gy fractions, with optional elective nodal irradiation (26 Gy in 5.2 Gy fractions) and a 40 Gy nodal boost for N1 disease. The treatment protocol involved 24 to 36 mo",
+        "score": 0.4801252484321594,
+        "doi": "10.1016/j.prro.2025.05.007",
+        "journal": "Practical radiation oncology",
+        "year": "2025",
+        "rerank_score": -6.39798641204834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

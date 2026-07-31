@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Enalapril mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40404011",
+        "text": "Efficacy and Safety of Enalapril and Propranolol on Neurologic Recovery After Isolated Severe Traumatic Brain Injury: A Randomized Clinical Trial. It has been hypothesized that propranolol and enalapril can provide cardiovascular stability without any negative impact on neurologic recovery after severe traumatic brain injury (TBI). Although propranolol and enalapril have been proposed to have beneficial effects as cardiovascular stabilizers in TBI, many neurologic effects remain obscure. We hypothesized whi",
+        "score": 0.4178335964679718,
+        "doi": "10.1016/j.wneu.2025.124078",
+        "journal": "World neurosurgery",
+        "year": "2024",
+        "rerank_score": 5.615859508514404,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40602490",
+        "text": "Letter to the Editor Regarding: \"The Efficacy and Safety of Enalapril and Propranolol on Neurological Recovery of Isolated Severe Traumatic Brain Injury, a Randomized Clinical Trial\".",
+        "score": 0.4122989773750305,
+        "doi": "10.1016/j.wneu.2025.124216",
+        "journal": "World neurosurgery",
+        "year": "2025",
+        "rerank_score": 5.156606197357178,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1790548",
+        "text": "Efficacy and tolerability of enalapril (20 mg)/hydrochlorothiazide (12.5 mg) combination therapy in essential hypertension. The efficacy and tolerability of a preconstituted formulation combining enalapril (20 mg) and hydrochlorothiazide (12.5 mg) were evaluated in patients with essential hypertension unresponsive to enalapril monotherapy (20 mg/day). The duration of this open-lable, multicenter, noncomparative trial was 12 weeks: a two-week washout period followed by ten weeks of active treatment. During t",
+        "score": 0.3823665380477905,
+        "doi": "",
+        "journal": "Clinical therapeutics",
+        "year": "1991",
+        "rerank_score": 4.3342814445495605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

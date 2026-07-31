@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Insulin Lispro effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41589534",
+        "text": "A study of the effects of insulin pump therapy on body mass index and glycaemic control in children with type 1 diabetes. This retrospective study aimed to evaluate changes in body mass index (BMI) and haemoglobin A1c (HbA1c) levels among children and adolescents with type 1 diabetes mellitus (T1DM) transitioning from multiple daily injections (MDI) to insulin pump therapy over one year. Data were collected from chart reviews of 33 T1DM patients. BMI z-scores were calculated using WHO charts, and HbA1c leve",
+        "score": 0.3779360055923462,
+        "doi": "",
+        "journal": "Irish medical journal",
+        "year": "2026",
+        "rerank_score": -1.3456486463546753,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41387317",
+        "text": "Efficacy and hypoglycaemia outcomes of once-weekly insulin icodec versus once-daily basal insulin comparators across baseline HbA1c, BMI and duration of type 2 diabetes subgroups: A post hoc analysis of ONWARDS 1-5. This post hoc analysis assessed efficacy and hypoglycaemia outcomes of once-weekly insulin icodec (icodec) versus once-daily (OD) basal insulin comparators across different baseline glycated haemoglobin (HbA1c), body mass index (BMI) and type 2 diabetes (T2D) duration subgroups using data from f",
+        "score": 0.38756105303764343,
+        "doi": "10.1111/dom.70358",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": -2.8847155570983887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41478508",
+        "text": "Lived experience of fully closed-loop insulin delivery in adolescents with type 1 diabetes and HbA1c above target. The aim of this qualitative study was to explore the impact of using the CamAPS HX fully closed-loop system, which does not require carbohydrate counting, meal announcements or pre-meal bolusing, on the daily lives of adolescents with type 1 diabetes and HbA1c above the recommended target (≥7.5 % [58 mmol/mol]). Twelve adolescents took part in virtual semi-structured interviews. Data was analyz",
+        "score": 0.3830549120903015,
+        "doi": "10.1016/j.diabres.2025.113078",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2025",
+        "rerank_score": -3.087764263153076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

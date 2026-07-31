@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Verapamil comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2475688",
+        "text": "Comparative efficacy, safety, and kinetics of immediate- and slow-release verapamil in hispanic patients with essential hypertension. We assessed the pharmacokinetics and pharmacodynamics of immediate-release (IR) and slow-release (SR) verapamil in Hispanic patients with mild to moderate essential hypertension. Area under the curve and Cmax increased linearly with the dose of IR and SR. Plasma levels showed a more gradual increase and were maintained elevated for longer periods with SR. Both IR and SR reduc",
+        "score": 0.40101712942123413,
+        "doi": "10.1097/00005344-198900134-00015",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1989",
+        "rerank_score": 2.418729305267334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3531845",
+        "text": "A double-blind, placebo-controlled, crossover study of verapamil in exertional muscle pain. Eleven patients, comprising three cases of McArdle's disease and eight with an exertional muscle pain syndrome (EMPS) of unknown cause, entered a double-blind crossover study of verapamil and placebo. None of the patients with McArdle's disease responded to verapamil, but two patients with unclassified EMPS experienced a striking improvement in symptoms and two others showed a partial response. No patient responded t",
+        "score": 0.4006040692329407,
+        "doi": "10.1002/mus.880090710",
+        "journal": "Muscle & nerve",
+        "year": "1986",
+        "rerank_score": 2.177839994430542,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39477199",
+        "text": "Comparative Influences of Beta blockers and Verapamil on Cardiac Outcomes in Hypertrophic Cardiomyopathy. Guidelines recommend β blockers (BBs) as first-line therapy in symptomatic patients with hypertrophic cardiomyopathy (HCM) and nondihydropyridine calcium channel blockers, particularly, verapamil, as the second-line therapy, despite the absence of comparison trials between those 2 drugs. Because deleterious effects of verapamil have been reported in this setting, the present analysis aimed to evaluate t",
+        "score": 0.4152430295944214,
+        "doi": "10.1016/j.amjcard.2024.10.029",
+        "journal": "The American journal of cardiology",
+        "year": "2024",
+        "rerank_score": 1.824668288230896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

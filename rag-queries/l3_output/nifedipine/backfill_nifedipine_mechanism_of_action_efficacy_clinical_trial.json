@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Nifedipine mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40700120",
+        "text": "Efficacy and Safety of Nifedipine Compared to Intravenous Hydralazine for Severe Hypertensive Disorders in Pregnancy: A Systematic Review and Meta-Analysis of Randmomized Controlled Trials.",
+        "score": 0.3775250315666199,
+        "doi": "10.3390/medsci13030091",
+        "journal": "Medical sciences (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": 2.8352901935577393,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39991170",
+        "text": "Meta-analysis of nifedipine and enalapril combination therapy for hypertensive patients with coronary heart disease: A systematic review and meta-analysis. Numerous clinical studies have demonstrated that the therapeutic efficacy of combining nifedipine and enalapril in treating hypertension with coronary heart disease surpasses that of nifedipine as a stand-alone treatment. However, the current evidence is not yet sufficient due to limitations in the sample size, and further validation is needed. To analyz",
+        "score": 0.418968141078949,
+        "doi": "10.5937/jomb0-52387",
+        "journal": "Journal of medical biochemistry",
+        "year": "2024",
+        "rerank_score": 2.763353109359741,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39839565",
+        "text": "Long-acting nifedipine in the management of essential hypertension: a review for cardiologists. Calcium channel antagonists, specifically long-acting nifedipine formulations, play a crucial role in treating hypertension and angina. Originally used for angina, nifedipine has been widely employed as an antihypertensive medication for over 40 years. It offers rapid action and oral bioavailability with minimal maternal or fetal side effects, making it suitable for treating hypertensive crises during pregnancy. ",
+        "score": 0.41659849882125854,
+        "doi": "10.62347/RPMZ6407",
+        "journal": "American journal of cardiovascular disease",
+        "year": "2024",
+        "rerank_score": 1.622948169708252,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

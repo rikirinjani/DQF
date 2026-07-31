@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Sitagliptin HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40867548",
+        "text": "Sitagliptin Mitigates Diabetic Cardiomyopathy Through Oxidative Stress Reduction and Suppression of VEGF and FLT-1 Expression in Rats. Diabetes mellitus (DM) is a global health challenge marked by chronic hyperglycemia, which can result in complications such as diabetic cardiomyopathy. Sitagliptin, an oral anti-hyperglycemic drug, has demonstrated efficacy in alleviating cardiovascular complications associated with DM. This study explored the impact of Sitagliptin's potential as a therapeutic agent, functio",
+        "score": 0.3987760841846466,
+        "doi": "10.3390/biom15081104",
+        "journal": "Biomolecules",
+        "year": "2025",
+        "rerank_score": 6.68732213973999,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40166439",
+        "text": "Long-term efficacy and safety of early sitagliptin initiation in individuals with type 2 diabetes: an extension of the SPIKE study. We previously demonstrated that sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, slowed down the progression of carotid atherosclerosis in type 2 diabetes participants who were treated with insulin and had no history of cardiovascular disease in the Sitagliptin Preventive study of Intima-Media Thickness Evaluation (SPIKE) trial. This was an extension of the SPIKE trial ",
+        "score": 0.36459577083587646,
+        "doi": "10.1007/s13340-024-00786-7",
+        "journal": "Diabetology international",
+        "year": "2024",
+        "rerank_score": 5.804412364959717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40951209",
+        "text": "Effectiveness of Sitagliptin and Empagliflozin Combination Therapy in a Patient With Charcot-Marie-Tooth Disease and Comorbid Diabetes Mellitus: A Case Report. This case report describes a 61-year-old male with Charcot-Marie-Tooth disease type 1A (CMT1A) who developed poorly controlled type 2 diabetes mellitus. The patient, with a history of CMT1A, was admitted for preoperative glycemic management prior to lumbar spinal stenosis surgery, exhibiting an HbA1c of 8.1%. Treatment with metformin had been insuffi",
+        "score": 0.3587688207626343,
+        "doi": "10.7759/cureus.89954",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 5.107110023498535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

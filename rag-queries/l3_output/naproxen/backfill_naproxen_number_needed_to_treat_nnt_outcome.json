@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Naproxen number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.5168992280960083,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 2.2037065029144287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39758385",
+        "text": "Advances in electrochemical sensors for naproxen detection: Mechanisms, performance factors, and emerging challenges. Naproxen (NAP), a nonsteroidal anti-inflammatory, analgesic, and antipyretic drug, has fewer side effects than similar drugs due to its aryl acetic acid structure. For this reason, it is widely prescribed to manage fever, short-term and long-term pain, and musculoskeletal disorders. However, its use has complications such as changes in kidney function, severe gastrointestinal lesions, and in",
+        "score": 0.49923476576805115,
+        "doi": "10.1016/j.heliyon.2024.e40906",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": -0.5342720150947571,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39318200",
+        "text": "Sumatriptan-naproxen sodium in migraine: A review. Varied responses to acute migraine medications have been observed, with over one-third (34.5%) of patients reporting insufficient headache relief. Sumatriptan-naproxen sodium, a single, fixed-dose combination tablet comprising sumatriptan 85 mg and naproxen sodium 500 mg, was developed with the rationale of targeting multiple putative mechanisms involved in the pathogenesis of migraine to optimise acute migraine care. A narrative review of clinical trials i",
+        "score": 0.5060056447982788,
+        "doi": "10.1111/ene.16434",
+        "journal": "European journal of neurology",
+        "year": "2024",
+        "rerank_score": -1.993490219116211,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

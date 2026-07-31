@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Aspirin pain relief analgesia efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39921848",
+        "text": "Acute enhanced liquid aspirin administration improves performance and intestinal function in nursery pigs. Aspirin (acetylsalicylic acid) is a nonsteroidal anti-inflammatory drug which has been a widely used analgesic for pain relief as well as an anti-inflammatory medication. However, it also causes negative effects on the gastrointestinal (GI) tract including GI bleeding, peptic ulcers, and can also impact the small intestine. Enhanced liquid aspirin (ELA) contains a combination of a salicylate compound, ",
+        "score": 0.4513624310493469,
+        "doi": "10.1093/jas/skaf037",
+        "journal": "Journal of animal science",
+        "year": "2024",
+        "rerank_score": 5.538203239440918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39074973",
+        "text": "Aspirin: latest evidence and developments. Aspirin is a foundation drug of the pharmaceutical industry originally derived as an analgesic/anti-inflammatory agent but serendipitously discovered to have use as a prophylactic drug for major adverse cardiovascular events (MACE). Its modern-day utility in this latter role relies on its efficacy/safety balance in a contemporary population where, at least in high-income countries, age-standardised incident rates for MACE are falling, and where there are now compet",
+        "score": 0.4408552646636963,
+        "doi": "10.1136/heartjnl-2024-323948",
+        "journal": "Heart (British Cardiac Society)",
+        "year": "2024",
+        "rerank_score": 3.7233242988586426,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41602326",
+        "text": "The efficacy and safety of lower-dose aspirin for primary and secondary prevention of cardiovascular disease in the elderly: an interim analysis of a multicenter, prospective, observational study. Although low-dose aspirin effectively reduces atherothrombosis occurrence in individuals diagnosed with cardiovascular disease (CVD) or in those with high-risk factors, it is significantly associated with increased bleeding. No evidence has been established for a lower dose of aspirin. The Lower-dose Aspirin for P",
+        "score": 0.4477112889289856,
+        "doi": "10.3389/fcvm.2025.1615074",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2025",
+        "rerank_score": 2.905327320098877,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

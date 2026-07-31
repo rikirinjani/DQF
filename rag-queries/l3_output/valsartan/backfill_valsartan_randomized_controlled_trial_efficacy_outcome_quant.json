@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Valsartan randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38541798",
+        "text": "The Efficacy and Safety of Sacubitril/Valsartan Compared to Valsartan in Patients with Heart Failure and Mildly Reduced and Preserved Ejection Fractions: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+        "score": 0.4023458659648895,
+        "doi": "10.3390/jcm13061572",
+        "journal": "Journal of clinical medicine",
+        "year": "2024",
+        "rerank_score": 4.282344818115234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19351876",
+        "text": "Effectiveness of valsartan for treatment of hypertension: patient profiling and hierarchical modeling of determinants and outcomes (the PREVIEW study). Patient- and clinician-related factors may explain variability in blood pressure (BP) outcomes and the differences between real-world effectiveness and efficacy seen in randomized trials of antihypertensive agents.",
+        "score": 0.38545262813568115,
+        "doi": "10.1345/aph.1L576",
+        "journal": "The Annals of pharmacotherapy",
+        "year": "2009",
+        "rerank_score": 4.0724263191223145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38299259",
+        "text": "Sacubitril/valsartan improves the prognosis of acute myocardial infarction: a meta-analysis. To systematically evaluate the effect of sacubitril/valsartan (SV) on the prognosis of patients with acute myocardial infarction (AMI), and to provide evidence for expanding the clinical application of SV. PubMed, EMbase, Web of Science, and Cochrane Library were searched from inception to October 2023 for randomized controlled trials (RCTs) of SV in patients with AMI. The article was screened and evaluated by the C",
+        "score": 0.38527706265449524,
+        "doi": "10.1097/MCA.0000000000001332",
+        "journal": "Coronary artery disease",
+        "year": "2024",
+        "rerank_score": 3.1157476902008057,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

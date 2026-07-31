@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Gliclazide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.4141640067100525,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -2.036360740661621,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814593",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.4141640067100525,
+        "doi": "10.1001/jamaoncol.2024.0113",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -2.036360740661621,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38294337",
+        "text": "Real-world evidence on the effectiveness and safety of gliclazide MR 60 mg in Bangladeshi patients with Type II diabetes during fasting: a sub-analysis from the global DIA-RAMADAN study.",
+        "score": 0.42340216040611267,
+        "doi": "10.57264/cer-2023-0132",
+        "journal": "Journal of comparative effectiveness research",
+        "year": "2024",
+        "rerank_score": -2.4824509620666504,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

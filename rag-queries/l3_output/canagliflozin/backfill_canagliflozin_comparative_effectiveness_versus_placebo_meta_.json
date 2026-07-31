@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Canagliflozin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38293914",
+        "text": "Comparison of Effectiveness Among Different Sodium-Glucose Cotransoporter-2 Inhibitors According to Underlying Conditions: A Network Meta-Analysis of Randomized Controlled Trials. To investigate the individual profile of each SGLT2 (sodium-glucose cotransoporter-2) inhibitor in patients with different backgrounds. This study included 21 placebo-controlled randomized controlled trials with a total of 96 196 participants, investigating empagliflozin, ertugliflozin, dapagliflozin, canagliflozin, and sotagliflo",
+        "score": 0.38076847791671753,
+        "doi": "10.1161/JAHA.123.031805",
+        "journal": "Journal of the American Heart Association",
+        "year": "2024",
+        "rerank_score": 4.983346462249756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39354951",
+        "text": "Efficacy and Safety of Ertugliflozin Compared to Placebo in Patients With Type 2 Diabetes: An Updated Systematic Review and Meta-Analysis.",
+        "score": 0.3875463008880615,
+        "doi": "10.1155/2024/5553327",
+        "journal": "Journal of diabetes research",
+        "year": "2024",
+        "rerank_score": 4.949283123016357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39206550",
+        "text": "Comparative Cardiovascular Effectiveness of Empagliflozin Versus Dapagliflozin in Adults With Treated Type 2 Diabetes: A Target Trial Emulation. Empagliflozin and dapagliflozin have proven cardiovascular benefits in people with type 2 diabetes at high cardiovascular risk, but their comparative effectiveness is unknown. This study used nationwide, population-based Danish health registries to emulate a hypothetical target trial comparing empagliflozin versus dapagliflozin initiation, in addition to standard c",
+        "score": 0.386668860912323,
+        "doi": "10.1161/CIRCULATIONAHA.124.068613",
+        "journal": "Circulation",
+        "year": "2024",
+        "rerank_score": 4.1514177322387695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

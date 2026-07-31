@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Indapamide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41178491",
+        "text": "Pharmacokinetic and pharmacodynamic evaluation of alternative pomalidomide dosing regimens in the treatment of multiple myeloma. Standard pomalidomide dosing (4 mg/day for 21 of 28 days) achieved the most robust pharmacokinetic (PK) and pharmacodynamic (PD) effects. Daily dosing with pomalidomide 2 mg is a safe alternative for patients at risk of toxicity; alternate-day dosing was less effective.",
+        "score": 0.39262139797210693,
+        "doi": "10.1111/bjh.70239",
+        "journal": "British journal of haematology",
+        "year": "2025",
+        "rerank_score": -2.6916229724884033,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40551877",
+        "text": "Comparative effectiveness and prescribing trends of modified release versus immediate release indapamide in patients with hypertension: cohort study. To investigate the prescribing trends of indapamide, a thiazide-like diuretic, and the long term comparative effectiveness of modified release versus immediate release indapamide. Cohort study. IQVIA Medical Research Data UK database, incorporating data from The Health Improvement Network database, 1 January 2005 to 31 December 2020. Of 1 904 289 patients with",
+        "score": 0.41397130489349365,
+        "doi": "10.1136/bmjmed-2024-000857",
+        "journal": "BMJ medicine",
+        "year": "2024",
+        "rerank_score": -4.700381278991699,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39871139",
+        "text": "Pharmacokinetics and pharmacodynamics of ciprofol after continuous infusion in elderly patients. Ciprofol, a novel intravenous anesthetic, which has primarily been used for the induction and maintenance of general anesthesia in adults, is characterized by rapid onset, short duration of action, and quick and smooth recovery. However, the pharmacokinetic characteristics of continuous infusions and the correlation between the plasma concentration and the bispectral index (BIS) in elderly patients are still unk",
+        "score": 0.4093174636363983,
+        "doi": "10.1186/s12871-025-02907-4",
+        "journal": "BMC anesthesiology",
+        "year": "2024",
+        "rerank_score": -4.843663692474365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

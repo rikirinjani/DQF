@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Dapagliflozin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32453482",
+        "text": "Comparative effectiveness of dapagliflozin vs DPP-4 inhibitors on a composite endpoint of HbA1c, body weight and blood pressure reduction in the real world. Treatment of type 2 diabetes (T2D) should aim at preventing or delaying complications through the control of glycaemia and cardiovascular risk factors. We herein compared the SGLT-2 inhibitor dapagliflozin vs DPP-4 inhibitors (DPP-4i) on a composite endpoint of glycaemic and extraglycaemic effectiveness.",
+        "score": 0.3649333119392395,
+        "doi": "10.1002/dmrr.3353",
+        "journal": "Diabetes/metabolism research and reviews",
+        "year": "2020",
+        "rerank_score": 5.592743873596191,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39836391",
+        "text": "Effectiveness of Empagliflozin vs Dapagliflozin for Kidney Outcomes in Type 2 Diabetes. No large randomized clinical trial has directly compared empagliflozin with dapagliflozin, leaving their comparative effectiveness regarding kidney outcomes unknown. To compare kidney outcomes between initiation of empagliflozin vs dapagliflozin in adults with type 2 diabetes who were receiving antihyperglycemic treatment. This target trial emulation used nationwide, population-based routinely collected Danish health car",
+        "score": 0.3509669899940491,
+        "doi": "10.1001/jamainternmed.2024.7381",
+        "journal": "JAMA internal medicine",
+        "year": "2025",
+        "rerank_score": 5.100907802581787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32791755",
+        "text": "Efficacy and safety of dapagliflozin plus saxagliptin vs monotherapy as added to metformin in patients with type 2 diabetes: A meta-analysis. This study aim at evaluating the efficacy and safety of dapagliflozin plus saxagliptin vs monotherapy as added to metformin in patients with type 2 diabetes mellitus (T2DM).",
+        "score": 0.3589414358139038,
+        "doi": "10.1097/MD.0000000000021409",
+        "journal": "Medicine",
+        "year": "2020",
+        "rerank_score": 5.0009894371032715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

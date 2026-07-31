@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Hydrochlorothiazide effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40274695",
+        "text": "Optimizing Blood Pressure Control: A Randomized Comparative Trial of Losartan/Chlorthalidone vs. Losartan/Hydrochlorothiazide. Cardiovascular diseases are a leading cause of global mortality, with hypertension as a major risk factor. Low control rates are often attributed to monotherapy, while evidence and clinical guidelines support the effectiveness of combination therapies. This study aimed to evaluate blood pressure changes and the achievement of target levels in patients treated with losartan/chlorthal",
+        "score": 0.42038604617118835,
+        "doi": "10.1007/s40119-025-00407-7",
+        "journal": "Cardiology and therapy",
+        "year": "2025",
+        "rerank_score": 0.18304786086082458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41053442",
+        "text": "Antihypertensive treatment effect of two dual therapies according to sodium sensitivity. We investigated the blood pressure (BP) lowering efficacy of two dual antihypertensive therapies, the amlodipine/benazepril and benazepril/hydrochlorothiazide combinations, according to sodium sensitivity risk (SSR) as assessed by ambulatory BP monitoring (ABPM). In a multi-center, randomized, actively-controlled, parallel-group trial, patients with a clinic systolic/diastolic BP of 140 to 179/90 to 109 mmHg while on be",
+        "score": 0.43313613533973694,
+        "doi": "10.1038/s41440-025-02382-x",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": 0.0020431410521268845,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39957722",
+        "text": "Comparison of Cardiovascular Outcomes Between Chlorthalidone and Hydrochlorothiazide in Hypertensive Patients. Chlorthalidone (CLTD) and hydrochlorothiazide (HCTZ) are widely used thiazide diuretics for hypertension management. This study aimed to evaluate and compare the cardiovascular outcomes of patients treated with CLTD versus HCTZ. This multicenter, retrospective cohort study utilized data from the Korea University Medical Center, derived from electronic health records. A total of 14 257 hypertensive ",
+        "score": 0.39705270528793335,
+        "doi": "10.1111/jch.70000",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2025",
+        "rerank_score": -1.4869344234466553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

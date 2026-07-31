@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Diltiazem mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41327270",
+        "text": "Employing intrinsic fluorone-dye fluorescence in a quenching-based (\"on-off\") strategy for diltiazem determination in tablets and capsules. A novel green spectrofluorometric method was developed for the quantification of diltiazem hydrochloride (DLZ), a benzothiazepine-class calcium channel blocker with vasodilatory properties. The assay exploits the rapid fluorescence quenching of Acid Red 87-a fluorone-based dye-upon complexation with DLZ in acidic medium (pH 3.8). This \"on-off\" mechanism enables selectiv",
+        "score": 0.4173232913017273,
+        "doi": "10.1186/s13065-025-01654-4",
+        "journal": "BMC chemistry",
+        "year": "2025",
+        "rerank_score": -1.3753629922866821,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35882726",
+        "text": "Convolution- and Deconvolution-Based Approaches for Prediction of Pharmacokinetic Parameters of Diltiazem Extended-Release Products in Flow-Through Cell Dissolution Tester. The present study evaluated the effect of different configuration setups of the Flow-Through Cell (USP IV) dissolution tester in developing in vitro-in vivo correlation (IVIVC). A Biopharmaceutics Classification System (BCS) Class I Diltiazem (DTZ), formulated in extended-release (ER) gel-matrix system, was employed for this purpose. The",
+        "score": 0.37288057804107666,
+        "doi": "10.1208/s12249-022-02361-2",
+        "journal": "AAPS PharmSciTech",
+        "year": "2022",
+        "rerank_score": -1.6158384084701538,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39290868",
+        "text": "Drug-drug interaction between diltiazem and tacrolimus in relation to CYP3A5 genotype status in Chinese pediatric patients with nephrotic range proteinuria: a retrospective study. Tacrolimus is widely used to treat pediatric nephrotic range proteinuria (NRP). Diltiazem, a CYP3A4/5 inhibitor, is often administered with tacrolimus, affecting its pharmacokinetic profile. The impact of this combination on tacrolimus exposure, particularly in CYP3A5*3 genetic polymorphism, remains unclear in pediatric NRP patien",
+        "score": 0.39712703227996826,
+        "doi": "10.3389/fphar.2024.1463595",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -1.6351274251937866,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

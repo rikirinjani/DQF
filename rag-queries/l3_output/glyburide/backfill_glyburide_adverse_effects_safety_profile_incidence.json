@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Glyburide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40469835",
+        "text": "Safety and Effectiveness of Oral Glyburide Suspension in Neonatal Diabetes Mellitus: French Retrospective Cohort Study. Neonatal diabetes mellitus (NDM) is a rare condition usually related to an identifiable genetic cause. Sulfonylurea therapy can ensure metabolic control, obviating the need for insulin while also improving neurodevelopmental outcomes. An oral glyburide suspension (OGS; AMGLIDIA) designed for pediatric use was introduced recently to eliminate the drawbacks of using crushed tablets. To evalu",
+        "score": 0.460988312959671,
+        "doi": "10.1210/jendso/bvaf083",
+        "journal": "Journal of the Endocrine Society",
+        "year": "2025",
+        "rerank_score": -0.23198767006397247,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40551098",
+        "text": "Adverse events associated with gepants: a pharmacovigilance analysis based on the FDA adverse event reporting system. Gepants have demonstrated notable benefits in migraine therapy, yet their safety profiles are not thoroughly investigated. This study comprehensively analyzed the adverse event (AE) risk signals of the currently approved gepants using the U.S. Food and Drug Administration Adverse Event Reporting System database, aiming to gain better understanding of their post-marketing safety features and ",
+        "score": 0.46094852685928345,
+        "doi": "10.1186/s10194-025-02091-3",
+        "journal": "The journal of headache and pain",
+        "year": "2025",
+        "rerank_score": -0.5133014917373657,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39248222",
+        "text": "Glyburide use is associated with a greater likelihood of mortality or rehospitalization after acute coronary syndrome compared to gliclazide use in adults with type 2 diabetes: A cohort study. To examine the likelihood of mortality or rehospitalization following acute coronary syndrome with glyburide versus gliclazide use in adults with type 2 diabetes undergoing cardiac catheterization. This retrospective cohort study used clinical data linked with administrative health data from Alberta, Canada between Ap",
+        "score": 0.45871835947036743,
+        "doi": "10.1111/dom.15917",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -0.9815027713775635,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

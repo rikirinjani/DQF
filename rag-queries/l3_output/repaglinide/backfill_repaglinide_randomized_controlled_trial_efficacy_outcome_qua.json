@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Repaglinide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40166580",
+        "text": "From 'Negative' Trial to Positive Clinical Impact: Emulating WARCEF While Accounting for Selection Bias in Trial Timing. While randomized controlled trials (RCTs) guide clinical practice, their completion may also influence real-world treatment patterns. We investigated whether the outcomes of trial emulation differ before and after the publication of the WARCEF (Warfarin versus Aspirin in Reduced Cardiac Ejection Fraction) randomized controlled trial. We emulated the WARCEF trial using EHR data from the Ma",
+        "score": 0.41597360372543335,
+        "doi": "10.1101/2025.03.19.25324271",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2025",
+        "rerank_score": -0.24292032420635223,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39811250",
+        "text": "Acupuncture Dosage and Its Correlation with Effectiveness in Patients with Chronic Stable Angina: A Systematic Review and Meta-Analysis of Randomized Controlled Trial. This systematic review aimed to compare the efficacy of various acupuncture dosages for Chronic Stable Angina (CSA) using randomized controlled trials (RCTs), addressing the unclear relationship between dosage and effectiveness despite acupuncture's potential. We searched eight bibliographic databases from inception to October 31, 2024, evalu",
+        "score": 0.4224621653556824,
+        "doi": "10.2147/JPR.S489880",
+        "journal": "Journal of pain research",
+        "year": "2024",
+        "rerank_score": -0.9944982528686523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40745864",
+        "text": "A Hybrid Design Incorporating External Data to Evaluate Dexamethasone Intracameral Drug Delivery Suspension for Post-Cataract Surgery Inflammation. Traditional randomized controlled trials (RCTs) face increasing challenges due to lengthy recruitment and high costs. Regulators have encouraged the use of external data and real-world evidence (RWE) to improve efficiency, yet adoption in confirmatory settings remains limited by concerns over heterogeneity and bias. We conducted a proof-of-concept study to asses",
+        "score": 0.4224364757537842,
+        "doi": "10.1002/cpt.70010",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": -2.282092571258545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

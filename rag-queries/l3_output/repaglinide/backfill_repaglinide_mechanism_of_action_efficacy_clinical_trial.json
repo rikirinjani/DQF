@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Repaglinide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41170666",
+        "text": "LC-MS/MS-based investigation of pharmacokinetic interactions between CYP3A4 substrates enzalutamide and repaglinide in rats. Polypharmacy is a common phenomenon in older patients with comorbidities. Prostate cancer patients often have diabetes complications, making them prone to administering multiple medications. Here, we explored the pharmacokinetic interactions between Enzalutamide (ENZ), prescribed for treating metastatic castration-resistant prostate cancer, and repaglinide (REP), used for type-2 diabe",
+        "score": 0.42728352546691895,
+        "doi": "10.1039/d5ay01451d",
+        "journal": "Analytical methods : advancing methods and applications",
+        "year": "2025",
+        "rerank_score": -2.862959146499634,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18407575",
+        "text": "A note on the conservativeness of the confidence interval approach for the selection of non-inferiority margin in the two-arm active-control trial. Compared with placebo-control clinical trials, the interpretation of efficacy results from active-control trials requires more caution. This is because efficacy results from such trials cannot be reliably interpreted without a thorough understanding of the efficacy evidence that formed the basis for the approval of the active control, especially when such drug e",
+        "score": 0.40547704696655273,
+        "doi": "10.1002/sim.3256",
+        "journal": "Statistics in medicine",
+        "year": "2008",
+        "rerank_score": -3.317821741104126,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19238654",
+        "text": "Effects of gemfibrozil and atorvastatin on the pharmacokinetics of repaglinide in relation to SLCO1B1 polymorphism. In a randomized crossover study, 24 SLCO181-genotyped healthy volunteers were given daily doses of 1,200 mg gemfibrozil, 40 mg atorvastatin, or placebo, followed by 0.25 mg of repaglinide on day 3. The mean increase in the repaglinide area under the plasma concentration-time curve from 0 h to infinity (AUC(0-infinity)) produced by gemfibrozil was larger in individuals with the SLCO1B1 c.521CC ",
+        "score": 0.40465247631073,
+        "doi": "10.1038/clpt.2008.74",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2009",
+        "rerank_score": -3.3994102478027344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

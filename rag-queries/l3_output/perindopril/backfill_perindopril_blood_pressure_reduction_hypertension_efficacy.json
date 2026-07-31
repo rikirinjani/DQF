@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Perindopril blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38660708",
+        "text": "Efficacy and safety of a single-pill versus free combination of perindopril/indapamide/amlodipine: a multicenter, randomized, double-blind study in Chinese patients with hypertension. In China, the prevalence of hypertension is high and the use of combination antihypertensive therapy is low, which contributes to inadequate blood pressure (BP) control. The availability of simplified treatments combining complementary BP-lowering agents may help more patients achieve their goals. This Phase III, multicenter, ",
+        "score": 0.3808492124080658,
+        "doi": "10.1097/HJH.0000000000003741",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": 5.786755084991455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40621831",
+        "text": "Efficacy and safety of sacubitril/valsartan in Afro-descendant patients with resistant hypertension: a randomized controlled trial. Sacubitril/valsartan (Sac-Val) has demonstrated blood pressure (BP)-lowering effects, but its role in resistant hypertension remains unclear. This study evaluated the efficacy and safety of Sac-Val compared to optimized angiotensin II receptor blocker (ARB) or angiotensin-converting enzyme inhibitor (ACEI) therapy in Brazilian patients with resistant hypertension, predominantly",
+        "score": 0.4064244031906128,
+        "doi": "10.1097/HJH.0000000000004075",
+        "journal": "Journal of hypertension",
+        "year": "2025",
+        "rerank_score": 4.5645880699157715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39484163",
+        "text": "Corrigendum: Effectiveness of perindopril/amlodipine fixed-dose combination in the treatment of hypertension: a systematic review. [This corrects the article DOI: 10.3389/fphar.2023.1156655.].",
+        "score": 0.4007209539413452,
+        "doi": "10.3389/fphar.2024.1485834",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 4.326277732849121,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

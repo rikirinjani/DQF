@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Tirzepatide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35914543",
+        "text": "Efficacy and safety of tirzepatide monotherapy compared with dulaglutide in Japanese patients with type 2 diabetes (SURPASS J-mono): a double-blind, multicentre, randomised, phase 3 trial. As the disease progresses, many patients with type 2 diabetes have difficulty in reaching treatment goals. We aimed to assess the efficacy and safety of tirzepatide, a novel GIP and GLP-1 receptor agonist, compared with dulaglutide in Japanese patients with type 2 diabetes.",
+        "score": 0.38979822397232056,
+        "doi": "10.1016/S2213-8587(22)00188-7",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "year": "2022",
+        "rerank_score": 3.985724925994873,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40490415",
+        "text": "Efficacy and safety of once-weekly tirzepatide in Japanese participants with type 2 diabetes who have obesity or overweight: Subpopulation analysis of the SURMOUNT-2 trial. To assess the efficacy and safety of once-weekly tirzepatide in Japanese participants with obesity and type 2 diabetes (T2D). This subpopulation analysis of 41 Japanese participants from three clinical trial sites in the SURMOUNT-2 trial evaluated the efficacy and safety of tirzepatide as an adjunct to lifestyle interventions in adults w",
+        "score": 0.38356834650039673,
+        "doi": "10.1111/dom.16500",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 3.876436233520508,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39037553",
+        "text": "Efficacy and safety of tirzepatide versus placebo in overweight or obese adults without diabetes: a systematic review and meta-analysis of randomized controlled trials. Tirzepatide was approved to treat type 2 diabetes and obesity, but its efficacy and safety in patients without diabetes has not been investigated. This meta-analysis aimed to evaluate the efficacy and safety of tirzepatide compared to placebo in ﻿overweight or obese patients without diabetes. PubMed, Embase and Cochrane were searched on Janu",
+        "score": 0.3831324577331543,
+        "doi": "10.1007/s11096-024-01779-x",
+        "journal": "International journal of clinical pharmacy",
+        "year": "2024",
+        "rerank_score": 3.1662964820861816,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

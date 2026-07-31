@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Simvastatin LDL cholesterol reduction efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38699976",
+        "text": "Degree of serum LDL cholesterol reduction by simvastatin and ezetimibe is dependent on baseline LDL cholesterol concentration but not on baseline values and changes in cholesterol synthesis and absorption parameters. We questioned whether the baseline status of low-density lipoprotein cholesterol (LDL-C), cholesterol synthesis and absorption, and the changes in these parameters determine the change in serum LDL-C under statin or ezetimibe treatment or under combination treatment. 37 mildly hypercholesterole",
+        "score": 0.354651540517807,
+        "doi": "10.5414/CP204536",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 6.073842525482178,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19906471",
+        "text": "Reporting of dietary control frameworks in studies on simvastatin efficacy. HMG-Co reductase inhibitors (e.g. simvastatin) are important coronary heart disease (CHD) risk-reduction agents. Prescription protocols recommend low-fat diets in conjunction with simvastatin prescription. Simvastatin efficacy studies were reviewed to define dietary contexts within which simvastatin is most efficacious.",
+        "score": 0.3381042182445526,
+        "doi": "10.1016/j.clnu.2009.10.005",
+        "journal": "Clinical nutrition (Edinburgh, Scotland)",
+        "year": "2009",
+        "rerank_score": 5.556328773498535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38930515",
+        "text": "Simvastatin, Its Antimicrobial Activity and Its Prevention of Alzheimer's Disease. Simvastatin, a blockbuster drug for treating hypercholesterolemia, has multifactorial benefits as an antimicrobial agent and plays a preventative role in reducing the incidence of Alzheimer's Disease (AD). Although most of the beneficial effects of simvastatin have been attributed to its ability to reduce cholesterol levels, recent scientific studies have suggested that its benefits are largely due to its pleiotropic effects ",
+        "score": 0.3523128032684326,
+        "doi": "10.3390/microorganisms12061133",
+        "journal": "Microorganisms",
+        "year": "2024",
+        "rerank_score": 5.032953262329102,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

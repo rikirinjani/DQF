@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Chlorthalidone number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.472493052482605,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 3.893842935562134,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39957722",
+        "text": "Comparison of Cardiovascular Outcomes Between Chlorthalidone and Hydrochlorothiazide in Hypertensive Patients. Chlorthalidone (CLTD) and hydrochlorothiazide (HCTZ) are widely used thiazide diuretics for hypertension management. This study aimed to evaluate and compare the cardiovascular outcomes of patients treated with CLTD versus HCTZ. This multicenter, retrospective cohort study utilized data from the Korea University Medical Center, derived from electronic health records. A total of 14 257 hypertensive ",
+        "score": 0.4614347219467163,
+        "doi": "10.1111/jch.70000",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2025",
+        "rerank_score": 0.8985324501991272,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38743423",
+        "text": "Chlorthalidone vs Hydrochlorothiazide for Hypertension Treatment After Myocardial Infarction or Stroke: A Secondary Analysis of a Randomized Clinical Trial. Patients with prior myocardial infarction (MI) or stroke have a greater risk of recurrent cardiovascular (CV) events. To evaluate the association of chlorthalidone (CTD) vs hydrochlorothiazide (HCTZ) with CV outcomes and noncancer deaths in participants with and without prior MI or stroke. This was a prespecified secondary analysis of the Diuretic Compa",
+        "score": 0.48092079162597656,
+        "doi": "10.1001/jamanetworkopen.2024.11081",
+        "journal": "JAMA network open",
+        "year": "2024",
+        "rerank_score": -0.7192805409431458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

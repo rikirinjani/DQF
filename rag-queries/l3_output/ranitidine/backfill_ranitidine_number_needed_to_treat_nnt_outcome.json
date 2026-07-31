@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Ranitidine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.4432862401008606,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.198819160461426,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.4397144913673401,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 4.187442779541016,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6090287",
+        "text": "Ranitidine in the maintenance therapy of gastro-duodenal ulcer disease: Polish open multicentre study. Our first stage 3-week trial (6) and second stage up to 6 weeks (7) showed that ranitidine provides the highest healing rate of 97% for duodenal and 95% for gastric ulcer. The study has been now prolonged for one year to assess the efficacy of maintenance therapy. Out of 258 patients who completed the second stage 232 voluntarily entered the open stage 3 in which they were given a single dose R 150 mg noct",
+        "score": 0.4299110174179077,
+        "doi": "",
+        "journal": "Hepato-gastroenterology",
+        "year": "1984",
+        "rerank_score": -0.19788625836372375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

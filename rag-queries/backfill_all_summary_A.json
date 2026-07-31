@@ -1,0 +1,929 @@
+{
+  "pipeline": "DQF L3 evidence backfill all-classes (Lane A)",
+  "generated": "2026-07-31T17:25:38",
+  "rag_endpoint": "https://balade-pubmed-rag-bot.hf.space/search",
+  "classes": [
+    "Antihypertensive",
+    "PPI",
+    "H2RA",
+    "Antacid",
+    "Alginate",
+    "Mucosal Protectant"
+  ],
+  "drugs": {
+    "lisinopril": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_lisinopril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_lisinopril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_lisinopril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_lisinopril_adverse_effects_safety_profile_incidence.json",
+        "backfill_lisinopril_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_lisinopril_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_lisinopril_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_lisinopril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "losartan": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_losartan_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_losartan_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_losartan_number_needed_to_treat_nnt_outcome.json",
+        "backfill_losartan_adverse_effects_safety_profile_incidence.json",
+        "backfill_losartan_randomized_controlled_trial_efficacy_outcome_quanti.json",
+        "backfill_losartan_effect_size_confidence_interval_blood_pressure_chan.json",
+        "backfill_losartan_comparative_effectiveness_versus_placebo_meta_analy.json",
+        "backfill_losartan_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "amlodipine": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_amlodipine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_amlodipine_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_amlodipine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_amlodipine_adverse_effects_safety_profile_incidence.json",
+        "backfill_amlodipine_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_amlodipine_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_amlodipine_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_amlodipine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "metoprolol": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_metoprolol_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_metoprolol_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_metoprolol_number_needed_to_treat_nnt_outcome.json",
+        "backfill_metoprolol_adverse_effects_safety_profile_incidence.json",
+        "backfill_metoprolol_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_metoprolol_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_metoprolol_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_metoprolol_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "hydrochlorothiazide": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_hydrochlorothiazide_mechanism_of_action_efficacy_clinical_tr.json",
+        "backfill_hydrochlorothiazide_blood_pressure_reduction_hypertension_ef.json",
+        "backfill_hydrochlorothiazide_number_needed_to_treat_nnt_outcome.json",
+        "backfill_hydrochlorothiazide_adverse_effects_safety_profile_incidence.json",
+        "backfill_hydrochlorothiazide_randomized_controlled_trial_efficacy_out.json",
+        "backfill_hydrochlorothiazide_effect_size_confidence_interval_blood_pr.json",
+        "backfill_hydrochlorothiazide_comparative_effectiveness_versus_placebo.json",
+        "backfill_hydrochlorothiazide_time_to_onset_pharmacokinetics_peak_effe.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "chlorthalidone": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_chlorthalidone_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_chlorthalidone_blood_pressure_reduction_hypertension_efficac.json",
+        "backfill_chlorthalidone_number_needed_to_treat_nnt_outcome.json",
+        "backfill_chlorthalidone_adverse_effects_safety_profile_incidence.json",
+        "backfill_chlorthalidone_randomized_controlled_trial_efficacy_outcome_.json",
+        "backfill_chlorthalidone_effect_size_confidence_interval_blood_pressur.json",
+        "backfill_chlorthalidone_comparative_effectiveness_versus_placebo_meta.json",
+        "backfill_chlorthalidone_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "enalapril": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_enalapril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_enalapril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_enalapril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_enalapril_adverse_effects_safety_profile_incidence.json",
+        "backfill_enalapril_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_enalapril_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_enalapril_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_enalapril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "ramipril": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_ramipril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_ramipril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_ramipril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_ramipril_adverse_effects_safety_profile_incidence.json",
+        "backfill_ramipril_randomized_controlled_trial_efficacy_outcome_quanti.json",
+        "backfill_ramipril_effect_size_confidence_interval_blood_pressure_chan.json",
+        "backfill_ramipril_comparative_effectiveness_versus_placebo_meta_analy.json",
+        "backfill_ramipril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "perindopril": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_perindopril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_perindopril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_perindopril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_perindopril_adverse_effects_safety_profile_incidence.json",
+        "backfill_perindopril_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_perindopril_effect_size_confidence_interval_blood_pressure_c.json",
+        "backfill_perindopril_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_perindopril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "captopril": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_captopril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_captopril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_captopril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_captopril_adverse_effects_safety_profile_incidence.json",
+        "backfill_captopril_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_captopril_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_captopril_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_captopril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "trandolapril": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_trandolapril_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_trandolapril_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_trandolapril_number_needed_to_treat_nnt_outcome.json",
+        "backfill_trandolapril_adverse_effects_safety_profile_incidence.json",
+        "backfill_trandolapril_randomized_controlled_trial_efficacy_outcome_qu.json",
+        "backfill_trandolapril_effect_size_confidence_interval_blood_pressure_.json",
+        "backfill_trandolapril_comparative_effectiveness_versus_placebo_meta_a.json",
+        "backfill_trandolapril_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "valsartan": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_valsartan_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_valsartan_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_valsartan_number_needed_to_treat_nnt_outcome.json",
+        "backfill_valsartan_adverse_effects_safety_profile_incidence.json",
+        "backfill_valsartan_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_valsartan_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_valsartan_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_valsartan_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "candesartan": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_candesartan_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_candesartan_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_candesartan_number_needed_to_treat_nnt_outcome.json",
+        "backfill_candesartan_adverse_effects_safety_profile_incidence.json",
+        "backfill_candesartan_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_candesartan_effect_size_confidence_interval_blood_pressure_c.json",
+        "backfill_candesartan_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_candesartan_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "irbesartan": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_irbesartan_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_irbesartan_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_irbesartan_number_needed_to_treat_nnt_outcome.json",
+        "backfill_irbesartan_adverse_effects_safety_profile_incidence.json",
+        "backfill_irbesartan_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_irbesartan_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_irbesartan_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_irbesartan_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "olmesartan": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_olmesartan_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_olmesartan_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_olmesartan_number_needed_to_treat_nnt_outcome.json",
+        "backfill_olmesartan_adverse_effects_safety_profile_incidence.json",
+        "backfill_olmesartan_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_olmesartan_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_olmesartan_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_olmesartan_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "telmisartan": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_telmisartan_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_telmisartan_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_telmisartan_number_needed_to_treat_nnt_outcome.json",
+        "backfill_telmisartan_adverse_effects_safety_profile_incidence.json",
+        "backfill_telmisartan_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_telmisartan_effect_size_confidence_interval_blood_pressure_c.json",
+        "backfill_telmisartan_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_telmisartan_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "nifedipine": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_nifedipine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_nifedipine_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_nifedipine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_nifedipine_adverse_effects_safety_profile_incidence.json",
+        "backfill_nifedipine_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_nifedipine_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_nifedipine_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_nifedipine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "felodipine": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_felodipine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_felodipine_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_felodipine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_felodipine_adverse_effects_safety_profile_incidence.json",
+        "backfill_felodipine_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_felodipine_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_felodipine_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_felodipine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "diltiazem": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_diltiazem_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_diltiazem_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_diltiazem_number_needed_to_treat_nnt_outcome.json",
+        "backfill_diltiazem_adverse_effects_safety_profile_incidence.json",
+        "backfill_diltiazem_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_diltiazem_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_diltiazem_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_diltiazem_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "verapamil": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_verapamil_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_verapamil_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_verapamil_number_needed_to_treat_nnt_outcome.json",
+        "backfill_verapamil_adverse_effects_safety_profile_incidence.json",
+        "backfill_verapamil_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_verapamil_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_verapamil_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_verapamil_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "atenolol": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_atenolol_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_atenolol_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_atenolol_number_needed_to_treat_nnt_outcome.json",
+        "backfill_atenolol_adverse_effects_safety_profile_incidence.json",
+        "backfill_atenolol_randomized_controlled_trial_efficacy_outcome_quanti.json",
+        "backfill_atenolol_effect_size_confidence_interval_blood_pressure_chan.json",
+        "backfill_atenolol_comparative_effectiveness_versus_placebo_meta_analy.json",
+        "backfill_atenolol_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "bisoprolol": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_bisoprolol_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_bisoprolol_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_bisoprolol_number_needed_to_treat_nnt_outcome.json",
+        "backfill_bisoprolol_adverse_effects_safety_profile_incidence.json",
+        "backfill_bisoprolol_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_bisoprolol_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_bisoprolol_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_bisoprolol_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "carvedilol": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_carvedilol_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_carvedilol_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_carvedilol_number_needed_to_treat_nnt_outcome.json",
+        "backfill_carvedilol_adverse_effects_safety_profile_incidence.json",
+        "backfill_carvedilol_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_carvedilol_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_carvedilol_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_carvedilol_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "propranolol": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_propranolol_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_propranolol_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_propranolol_number_needed_to_treat_nnt_outcome.json",
+        "backfill_propranolol_adverse_effects_safety_profile_incidence.json",
+        "backfill_propranolol_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_propranolol_effect_size_confidence_interval_blood_pressure_c.json",
+        "backfill_propranolol_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_propranolol_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "nebivolol": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_nebivolol_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_nebivolol_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_nebivolol_number_needed_to_treat_nnt_outcome.json",
+        "backfill_nebivolol_adverse_effects_safety_profile_incidence.json",
+        "backfill_nebivolol_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_nebivolol_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_nebivolol_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_nebivolol_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "furosemide": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_furosemide_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_furosemide_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_furosemide_number_needed_to_treat_nnt_outcome.json",
+        "backfill_furosemide_adverse_effects_safety_profile_incidence.json",
+        "backfill_furosemide_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_furosemide_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_furosemide_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_furosemide_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "spironolactone": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_spironolactone_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_spironolactone_blood_pressure_reduction_hypertension_efficac.json",
+        "backfill_spironolactone_number_needed_to_treat_nnt_outcome.json",
+        "backfill_spironolactone_adverse_effects_safety_profile_incidence.json",
+        "backfill_spironolactone_randomized_controlled_trial_efficacy_outcome_.json",
+        "backfill_spironolactone_effect_size_confidence_interval_blood_pressur.json",
+        "backfill_spironolactone_comparative_effectiveness_versus_placebo_meta.json",
+        "backfill_spironolactone_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "indapamide": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_indapamide_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_indapamide_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_indapamide_number_needed_to_treat_nnt_outcome.json",
+        "backfill_indapamide_adverse_effects_safety_profile_incidence.json",
+        "backfill_indapamide_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_indapamide_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_indapamide_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_indapamide_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "doxazosin": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_doxazosin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_doxazosin_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_doxazosin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_doxazosin_adverse_effects_safety_profile_incidence.json",
+        "backfill_doxazosin_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_doxazosin_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_doxazosin_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_doxazosin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "terazosin": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_terazosin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_terazosin_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_terazosin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_terazosin_adverse_effects_safety_profile_incidence.json",
+        "backfill_terazosin_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_terazosin_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_terazosin_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_terazosin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "clonidine": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_clonidine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_clonidine_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_clonidine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_clonidine_adverse_effects_safety_profile_incidence.json",
+        "backfill_clonidine_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_clonidine_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_clonidine_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_clonidine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "hydralazine": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_hydralazine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_hydralazine_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_hydralazine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_hydralazine_adverse_effects_safety_profile_incidence.json",
+        "backfill_hydralazine_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_hydralazine_effect_size_confidence_interval_blood_pressure_c.json",
+        "backfill_hydralazine_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_hydralazine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "methyldopa": {
+      "class": "Antihypertensive",
+      "files_written": [
+        "backfill_methyldopa_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_methyldopa_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_methyldopa_number_needed_to_treat_nnt_outcome.json",
+        "backfill_methyldopa_adverse_effects_safety_profile_incidence.json",
+        "backfill_methyldopa_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_methyldopa_effect_size_confidence_interval_blood_pressure_ch.json",
+        "backfill_methyldopa_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_methyldopa_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "omeprazole": {
+      "class": "PPI",
+      "files_written": [
+        "backfill_omeprazole_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_omeprazole_acid_suppression_esophagitis_healing_efficacy.json",
+        "backfill_omeprazole_number_needed_to_treat_nnt_outcome.json",
+        "backfill_omeprazole_adverse_effects_safety_profile_incidence.json",
+        "backfill_omeprazole_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_omeprazole_effect_size_confidence_interval_healing_rate.json",
+        "backfill_omeprazole_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_omeprazole_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "esomeprazole": {
+      "class": "PPI",
+      "files_written": [
+        "backfill_esomeprazole_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_esomeprazole_acid_suppression_esophagitis_healing_efficacy.json",
+        "backfill_esomeprazole_number_needed_to_treat_nnt_outcome.json",
+        "backfill_esomeprazole_adverse_effects_safety_profile_incidence.json",
+        "backfill_esomeprazole_randomized_controlled_trial_efficacy_outcome_qu.json",
+        "backfill_esomeprazole_effect_size_confidence_interval_healing_rate.json",
+        "backfill_esomeprazole_comparative_effectiveness_versus_placebo_meta_a.json",
+        "backfill_esomeprazole_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "pantoprazole": {
+      "class": "PPI",
+      "files_written": [
+        "backfill_pantoprazole_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_pantoprazole_acid_suppression_esophagitis_healing_efficacy.json",
+        "backfill_pantoprazole_number_needed_to_treat_nnt_outcome.json",
+        "backfill_pantoprazole_adverse_effects_safety_profile_incidence.json",
+        "backfill_pantoprazole_randomized_controlled_trial_efficacy_outcome_qu.json",
+        "backfill_pantoprazole_effect_size_confidence_interval_healing_rate.json",
+        "backfill_pantoprazole_comparative_effectiveness_versus_placebo_meta_a.json",
+        "backfill_pantoprazole_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "lansoprazole": {
+      "class": "PPI",
+      "files_written": [
+        "backfill_lansoprazole_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_lansoprazole_acid_suppression_esophagitis_healing_efficacy.json",
+        "backfill_lansoprazole_number_needed_to_treat_nnt_outcome.json",
+        "backfill_lansoprazole_adverse_effects_safety_profile_incidence.json",
+        "backfill_lansoprazole_randomized_controlled_trial_efficacy_outcome_qu.json",
+        "backfill_lansoprazole_effect_size_confidence_interval_healing_rate.json",
+        "backfill_lansoprazole_comparative_effectiveness_versus_placebo_meta_a.json",
+        "backfill_lansoprazole_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "rabeprazole": {
+      "class": "PPI",
+      "files_written": [
+        "backfill_rabeprazole_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_rabeprazole_acid_suppression_esophagitis_healing_efficacy.json",
+        "backfill_rabeprazole_number_needed_to_treat_nnt_outcome.json",
+        "backfill_rabeprazole_adverse_effects_safety_profile_incidence.json",
+        "backfill_rabeprazole_randomized_controlled_trial_efficacy_outcome_qua.json",
+        "backfill_rabeprazole_effect_size_confidence_interval_healing_rate.json",
+        "backfill_rabeprazole_comparative_effectiveness_versus_placebo_meta_an.json",
+        "backfill_rabeprazole_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "cimetidine": {
+      "class": "H2RA",
+      "files_written": [
+        "backfill_cimetidine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_cimetidine_acid_suppression_ulcer_healing_efficacy.json",
+        "backfill_cimetidine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_cimetidine_adverse_effects_safety_profile_incidence.json",
+        "backfill_cimetidine_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_cimetidine_effect_size_confidence_interval_healing_rate.json",
+        "backfill_cimetidine_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_cimetidine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "ranitidine": {
+      "class": "H2RA",
+      "files_written": [
+        "backfill_ranitidine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_ranitidine_acid_suppression_ulcer_healing_efficacy.json",
+        "backfill_ranitidine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_ranitidine_adverse_effects_safety_profile_incidence.json",
+        "backfill_ranitidine_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_ranitidine_effect_size_confidence_interval_healing_rate.json",
+        "backfill_ranitidine_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_ranitidine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "famotidine": {
+      "class": "H2RA",
+      "files_written": [
+        "backfill_famotidine_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_famotidine_acid_suppression_ulcer_healing_efficacy.json",
+        "backfill_famotidine_number_needed_to_treat_nnt_outcome.json",
+        "backfill_famotidine_adverse_effects_safety_profile_incidence.json",
+        "backfill_famotidine_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_famotidine_effect_size_confidence_interval_healing_rate.json",
+        "backfill_famotidine_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_famotidine_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "aluminum-magnesium-hydroxide": {
+      "class": "Antacid",
+      "files_written": [
+        "backfill_aluminum_magnesium_hydroxide_mechanism_of_action_efficacy_cl.json",
+        "backfill_aluminum_magnesium_hydroxide_heartburn_relief_efficacy.json",
+        "backfill_aluminum_magnesium_hydroxide_number_needed_to_treat_nnt_outc.json",
+        "backfill_aluminum_magnesium_hydroxide_adverse_effects_safety_profile_.json",
+        "backfill_aluminum_magnesium_hydroxide_randomized_controlled_trial_eff.json",
+        "backfill_aluminum_magnesium_hydroxide_effect_size_confidence_interval.json",
+        "backfill_aluminum_magnesium_hydroxide_comparative_effectiveness_versu.json",
+        "backfill_aluminum_magnesium_hydroxide_time_to_onset_pharmacokinetics_.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "calcium-carbonate": {
+      "class": "Antacid",
+      "files_written": [
+        "backfill_calcium_carbonate_mechanism_of_action_efficacy_clinical_tria.json",
+        "backfill_calcium_carbonate_heartburn_relief_efficacy.json",
+        "backfill_calcium_carbonate_number_needed_to_treat_nnt_outcome.json",
+        "backfill_calcium_carbonate_adverse_effects_safety_profile_incidence.json",
+        "backfill_calcium_carbonate_randomized_controlled_trial_efficacy_outco.json",
+        "backfill_calcium_carbonate_effect_size_confidence_interval_symptom_re.json",
+        "backfill_calcium_carbonate_comparative_effectiveness_versus_placebo_m.json",
+        "backfill_calcium_carbonate_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "sodium-alginate": {
+      "class": "Alginate",
+      "files_written": [
+        "backfill_sodium_alginate_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_sodium_alginate_reflux_symptom_relief_efficacy.json",
+        "backfill_sodium_alginate_number_needed_to_treat_nnt_outcome.json",
+        "backfill_sodium_alginate_adverse_effects_safety_profile_incidence.json",
+        "backfill_sodium_alginate_randomized_controlled_trial_efficacy_outcome.json",
+        "backfill_sodium_alginate_effect_size_confidence_interval_symptom_reli.json",
+        "backfill_sodium_alginate_comparative_effectiveness_versus_placebo_met.json",
+        "backfill_sodium_alginate_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    },
+    "sucralfate": {
+      "class": "Mucosal Protectant",
+      "files_written": [
+        "backfill_sucralfate_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_sucralfate_ulcer_healing_mucosal_protection_efficacy.json",
+        "backfill_sucralfate_number_needed_to_treat_nnt_outcome.json",
+        "backfill_sucralfate_adverse_effects_safety_profile_incidence.json",
+        "backfill_sucralfate_randomized_controlled_trial_efficacy_outcome_quan.json",
+        "backfill_sucralfate_effect_size_confidence_interval_healing_rate.json",
+        "backfill_sucralfate_comparative_effectiveness_versus_placebo_meta_ana.json",
+        "backfill_sucralfate_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "skipped": []
+    }
+  },
+  "totals": {
+    "drugs": 45,
+    "rag_queries_issued": 264,
+    "rag_ok": 360,
+    "still_loading_failed": 0,
+    "timeout_failed": 0,
+    "other_errors": 0,
+    "eutils_runs": 0,
+    "files_written": 264,
+    "skipped_existing": 0
+  },
+  "endpoint_errors": [],
+  "overwrites": "none: all outputs are new backfill_* files",
+  "elapsed_s": 1196.9
+}

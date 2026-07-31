@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Indapamide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.4794682264328003,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 1.2580183744430542,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:7033948",
+        "text": "A multicentre open trial indapamide in general practice. In a multicentre open study, 99 patients were treated with indapamide (2.5 mg daily) by 19 general practitioners. Fourteen patients failed to complete the study and in most cases this was unrelated to active therapy. Fifty patients had not previously received antihypertensive therapy, 25 patients had been on previous antihypertensive therapy with either unsatisfactory blood pressure control of side effects and the remaining 10 patients had indapamide ",
+        "score": 0.4514538049697876,
+        "doi": "",
+        "journal": "Postgraduate medical journal",
+        "year": "1981",
+        "rerank_score": -0.01990390382707119,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41222871",
+        "text": "Low-Dose Triple-Pill of Telmisartan, Amlodipine, and Indapamide for Initial Hypertension Treatment: A GRADE-Assessed Meta-analysis of Randomized Trials. FDA-approved GMRx2, a single-pill combination of telmisartan, amlodipine, and indapamide, has shown potential for improving blood pressure (BP) control. We assessed the efficacy and safety of low-dose GMRx2 compared to placebo, or standard-care (monotherapy or dual therapy) in mild to moderate hypertension. A meta-analysis of randomized controlled trials (R",
+        "score": 0.47600823640823364,
+        "doi": "10.1007/s40292-025-00751-8",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
+        "year": "2025",
+        "rerank_score": -2.173652410507202,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

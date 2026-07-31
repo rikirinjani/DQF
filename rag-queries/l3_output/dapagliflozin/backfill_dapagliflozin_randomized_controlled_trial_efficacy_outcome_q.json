@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Dapagliflozin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36372069",
+        "text": "Efficacy and safety of dapagliflozin in patients with heart failure with mildly reduced or preserved ejection fraction by baseline glycaemic status (DELIVER): a subgroup analysis from an international, multicentre, double-blind, randomised, placebo-controlled trial. Type 2 diabetes and prediabetes are risk factors for heart failure and adverse heart failure outcomes. The Dapagliflozin Evaluation to Improve the Lives of Patients with Preserved Ejection Fraction Heart Failure (DELIVER) trial showed that dapag",
+        "score": 0.3523813486099243,
+        "doi": "10.1016/S2213-8587(22)00308-4",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "year": "2022",
+        "rerank_score": 5.834676742553711,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22776824",
+        "text": "Dapagliflozin monotherapy in drug-naïve patients with diabetes: a randomized-controlled trial of low-dose range. Many patients with type 2 diabetes are suboptimally managed with currently available therapies. Dapagliflozin, a sodium-glucose co-transporter-2 inhibitor, has shown efficacy in reducing diabetic hyperglycaemia. This study assessed efficacy of three lower doses in recently diagnosed patients.",
+        "score": 0.35947486758232117,
+        "doi": "10.1111/j.1463-1326.2012.01659.x",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2012",
+        "rerank_score": 5.5606560707092285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25381876",
+        "text": "Efficacy and safety of dapagliflozin monotherapy in people with Type 2 diabetes: a randomized double-blind placebo-controlled 102-week trial. To assess initial pharmacotherapy of Type 2 diabetes with the sodium-glucose cotransporter-2 inhibitor dapagliflozin.",
+        "score": 0.35806411504745483,
+        "doi": "10.1111/dme.12624",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2014",
+        "rerank_score": 5.215940475463867,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

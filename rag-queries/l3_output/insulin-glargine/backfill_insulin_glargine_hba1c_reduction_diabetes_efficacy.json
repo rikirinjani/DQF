@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Insulin Glargine HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31955491",
+        "text": "Efficacy of exenatide and insulin glargine on nonalcoholic fatty liver disease in patients with type 2 diabetes. The aim of this study was to investigate the efficacy of exenatide and insulin glargine in patients with newly diagnosed type 2 diabetes mellitus (T2DM) and nonalcoholic fatty liver disease (NAFLD).",
+        "score": 0.3497585356235504,
+        "doi": "10.1002/dmrr.3292",
+        "journal": "Diabetes/metabolism research and reviews",
+        "year": "2019",
+        "rerank_score": 5.688748836517334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30520217",
+        "text": "Commencing insulin glargine 100 U/mL therapy in individuals with type 2 diabetes: Determinants of achievement of HbA1c goal less than 7.0. To identify factors associated with achievement of glycated haemoglobin A1c (HbA1c) target at 24 weeks after commencing basal insulin therapy in individuals with type 2 diabetes mellitus (T2DM).",
+        "score": 0.35012948513031006,
+        "doi": "10.1111/dom.13607",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2018",
+        "rerank_score": 5.007104873657227,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40033680",
+        "text": "Marked improvement in HbA1c following introduction of biosimilar insulin to treatment regimen of children and youth with type 1 diabetes in Mali: A randomised controlled trial. Evidence on outcomes of treating type 1 diabetes (T1D) with long-acting basal insulins in low-resourced settings is lacking. This study aimed to evaluate the impact of switching children and youth with T1D in the low-income country of Mali from human insulin via syringe to long-acting biosimilar insulin glargine delivered by reusable",
+        "score": 0.37922483682632446,
+        "doi": "10.1111/dme.70007",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2025",
+        "rerank_score": 4.760673999786377,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Indomethacin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38636712",
+        "text": "Number needed to treat (NNT) for ketamine and esketamine in adults with treatment-resistant depression: A systematic review and meta-analysis. Ketamine has been established as efficacious in adults living with Treatment-resistant Depression (TRD). Toward providing a quantifiable estimate of the clinical meaningfulness of the therapeutic benefit of ketamine, herein, we conduct a systematic review that aims to report the Number Needed to Treat (NNT) and the Number Needed to Harm (NNH). This systematic review ",
+        "score": 0.46155452728271484,
+        "doi": "10.1016/j.jad.2024.04.039",
+        "journal": "Journal of affective disorders",
+        "year": "2024",
+        "rerank_score": 1.6221524477005005,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38679455",
+        "text": "Does perioperative hydrocortisone or indomethacin improve pancreatoduodenectomy outcomes? A triple arm, randomized placebo-controlled trial. This trial evaluated whether anti-inflammatory agents hydrocortisone (H) and indomethacin (I) could reduce major complications after pancreatoduodenectomy (PD). Between June 2018 and June 2020, 105 patients undergoing PD with > 40% of acini on the intraoperative frozen section were randomized into three groups (35 patients per group): 1) intravenous H 100 mg 8 hourly, ",
+        "score": 0.44825708866119385,
+        "doi": "10.14701/ahbps.24-021",
+        "journal": "Annals of hepato-biliary-pancreatic surgery",
+        "year": "2024",
+        "rerank_score": -0.5192012786865234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2644750",
+        "text": "The effect of continuous intravenous indomethacin infusion on bleeding time and postoperative pain in patients undergoing emergency surgery of the lower extremities. Fifty-four orthopaedic patients were given either indomethacin (25-50 mg bolus plus infusion, 5-7.5 mg h-1) or only lactated Ringer solution intravenously over 20 h in a randomized and double-blind fashion. The study was started at the casualty department as soon as possible after the decision to operate was made. The patients were given a spin",
+        "score": 0.42484578490257263,
+        "doi": "10.1111/j.1399-6576.1989.tb02860.x",
+        "journal": "Acta anaesthesiologica Scandinavica",
+        "year": "1989",
+        "rerank_score": -0.9092807173728943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

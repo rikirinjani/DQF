@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Cimetidine mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38592456",
+        "text": "Cimetidine repurposed as a potential immunomodulatory agent against colorectal carcinoma: A systematic review. To determine the survival benefit and immunomodulatory effects of cimetidine pre-, peri- or post-operatively in patients with colorectal cancer (CRC). A systematic review was conducted using PubMed and Cochrane Library to retrieve randomized control trials (RCTs) that investigated the effects of cimetidine on survival and immunomodulation via improvement in tumor infiltrating lymphocytes (TILs) and",
+        "score": 0.4305620491504669,
+        "doi": "10.1177/10781552241247007",
+        "journal": "Journal of oncology pharmacy practice : official publication of the Internationa",
+        "year": "2024",
+        "rerank_score": 1.428809404373169,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39947413",
+        "text": "Using cimetidine to mitigate cisplatin-induced ototoxicity. Given the well-established role of organic cation transporter 2 (OCT2) in cisplatin uptake to the inner ear cells, and the fact that cimetidine is an FDA-approved drug with well-established inhibitory activity against OCT2, we hypothesized that inhibiting OCT2-mediated cisplatin uptake with cimetidine could eliminate or alleviate cisplatin-mediated ototoxicity. Our preliminary data showed that cisplatin can reduce the viability of House Ear Institu",
+        "score": 0.4354785680770874,
+        "doi": "10.1016/j.tiv.2025.106025",
+        "journal": "Toxicology in vitro : an international journal published in association with BIB",
+        "year": "2024",
+        "rerank_score": -0.5680320858955383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40160292",
+        "text": "Pharmacodynamic Modeling of Cinacalcet in Secondary Hyperparathyroidism: Efficacy and Influencing Factors Analysis. Cinacalcet, the first FDA-approved calcimimetic agent for treating secondary hyperparathyroidism (SHPT), has unclear factors influencing its therapeutic efficacy in clinical practice. To establish a pharmacodynamic model for cinacalcet use in SHPT, analyze drug effect distribution and influencing factors, and determine optimal treatment strategy. We searched public databases for randomized tri",
+        "score": 0.4406589865684509,
+        "doi": "10.1210/jendso/bvaf021",
+        "journal": "Journal of the Endocrine Society",
+        "year": "2024",
+        "rerank_score": -0.8804460167884827,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

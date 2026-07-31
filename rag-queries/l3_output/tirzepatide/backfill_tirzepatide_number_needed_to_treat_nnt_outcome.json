@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Tirzepatide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17395871",
+        "text": "Clinical impact of NXY-059 demonstrated in the SAINT I trial: derivation of number needed to treat for benefit over entire range of functional disability. The SAINT I trial demonstrated that the neuroprotective agent NXY-059 improves the distribution of acute stroke patient outcomes on the modified Rankin Scale (mRS) of global disability. Standard dichotomized number-needed-to-treat (NNT) analyses for the magnitude of treatment benefit range widely, from 22.7 to infinity, and each capture only a portion of ",
+        "score": 0.4623769521713257,
+        "doi": "10.1161/01.STR.0000263135.47779.9e",
+        "journal": "Stroke",
+        "year": "2007",
+        "rerank_score": 3.8476405143737793,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.48015084862709045,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 1.709804892539978,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21315526",
+        "text": "A systematic review and Number Needed to Treat analysis to guide the management of the neck in patients with squamous cell carcinoma of the head and neck. To systematically review the literature to identify studies from which it is possible to perform a Number Needed to Treat (NNT) analysis to identify, in a more clinically intuitive manner, neck node levels for which treatment is essential in the N0 and N+ neck with respect to the primary site of tumour.",
+        "score": 0.4620196223258972,
+        "doi": "10.1016/j.anl.2010.12.014",
+        "journal": "Auris, nasus, larynx",
+        "year": "2010",
+        "rerank_score": 1.0603880882263184,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Amlodipine adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10940749",
+        "text": "Amlodipine besylate induced acute interstitial nephritis. Adverse effects of amlodipine besylate, a widely used antihypertensive medication, include peripheral edema, flushing, headache, pruritus, and rash. An adverse renal effect attributable to the medication has hitherto not been reported in the literature. We herein report a case of amlodipine besylate induced acute interstitial nephritis.",
+        "score": 0.39942440390586853,
+        "doi": "10.1159/000045688",
+        "journal": "Nephron",
+        "year": "2000",
+        "rerank_score": 5.0635986328125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40395720",
+        "text": "Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. Amlodipine, a widely prescribed clinical medication, is associated with adverse reactions that can impede the proper execution of treatment regimens. The lack of systematic studies on amlodipine's adverse drug reactions (ADRs) necessitates further investigation to facilitate refined population management and optimize therapeutic outcomes. This study leveraged the FDA Adverse Event Reporting Sys",
+        "score": 0.4011014401912689,
+        "doi": "10.3389/fcvm.2025.1504671",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2024",
+        "rerank_score": 4.6265764236450195,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:14758392",
+        "text": "Amlodipine associated hyperpigmentation. Amlodipine is a potent peripheral and coronary vasodilator with high selectivity for vascular smooth muscle, and is widely used in mild to moderate hypertension, chronic stable angina and vasospastic angina. Its most prevalent side effects are peripheral edema, flushing and headache. Cutaneous adverse reactions associated with amlodipine have been rarely reported. Herein, a male patient is described to develop oral mucosal and cutaneous hyperpigmentation one year aft",
+        "score": 0.40235453844070435,
+        "doi": "",
+        "journal": "Saudi medical journal",
+        "year": "2004",
+        "rerank_score": 4.204089164733887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Diclofenac number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4846298396587372,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 2.3826441764831543,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39763427",
+        "text": "Superior efficacy of intramuscular diclofenac compared to intravenous tramadol for acute renal colic in northern Thai patients: A randomised double-blind, sham-controlled trial. The present study aimed to compare time to effective pain relief between diclofenac 75 mg intramuscular (IM) and tramadol 50 mg intravenous (IV) for ED patients with acute renal colic. A randomised, double-blinded, sham-controlled, superiority trial was conducted. Patients diagnosed with acute renal colic (hydronephrosis and/or ston",
+        "score": 0.4837290048599243,
+        "doi": "10.1111/1742-6723.14550",
+        "journal": "Emergency medicine Australasia : EMA",
+        "year": "2024",
+        "rerank_score": -1.82649564743042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38337581",
+        "text": "Steroids and/or Non-Steroidal Anti-Inflammatory Drugs as Postoperative Treatment after Trabeculectomy-12-Month Results of a Randomized Controlled Trial. This prospective randomized controlled trial aimed to compare the efficacy and safety of topical preservative-free diclofenac (DICLO) to dexamethasone (DEX) eyedrops, and their combination (DEX+DICLO) after trabeculectomy. Sixty-nine patients with medically uncontrolled glaucoma were randomized to receive topical postoperative treatment with DICLO (",
+        "score": 0.47951740026474,
+        "doi": "10.3390/jcm13030887",
+        "journal": "Journal of clinical medicine",
+        "year": "2024",
+        "rerank_score": -2.5895280838012695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Ramipril number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.43685874342918396,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.420126438140869,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26376779",
+        "text": "Number needed to harm in the post-marketing safety evaluation: results for rosiglitazone and pioglitazone. Our aim is to investigate the usefulness of metric indices in post-marketing safety evaluations by estimating number needed to harm (NNH) values for cardiovascular (CV) adverse outcomes for rosiglitazone and pioglitazone.",
+        "score": 0.43089133501052856,
+        "doi": "10.1002/pds.3874",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2015",
+        "rerank_score": -1.927083969116211,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39657776",
+        "text": "A Randomized Controlled Trial on the Efficacy and Safety of a Calcium-Channel Blocker and an Angiotensin-Converting Enzyme Inhibitor in Chinese and European Patients with Hypertension. In a post hoc analysis of a multinational, randomized trial, we investigated whether the efficacy and safety of nifedipine-gastrointestinal therapeutic system (GITS) and ramipril differed between Chinese and European patients with hypertension. Previously treated (after 2-week washout) and untreated patients with clinic blood",
+        "score": 0.464424729347229,
+        "doi": "10.1093/ajh/hpae152",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": -2.935290575027466,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Insulin Lispro time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39778084",
+        "text": "Pharmacokinetic and Pharmacodynamic Equivalence of Biosimilar and Reference Ultra-Rapid Lispro: A Comparative Clamp Study in Healthy Volunteers. Ultra-rapid insulin lispro is an innovative insulin analogue designed to achieve rapid onset and short duration of action, aimed at optimizing glycemic control in patients with diabetes. This was a double-blind, randomized, 2-period, crossover clamp study to evaluate the pharmacokinetics (PK) and pharmacodynamics (PD), along with safety profiles, of a potential bio",
+        "score": 0.3639370799064636,
+        "doi": "10.1002/cpdd.1497",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": 3.4492673873901367,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10660973",
+        "text": "Safety and efficacy of insulin lispro in patients with diabetes mellitus. Lispro is a human insulin analogue with a very rapid onset of action, and a shorter duration of activity than soluble insulin. In order to assess the therapeutical value of lispro, we have had an open-label, non-comparative study, for 12 weeks, involving 19 IDDM patients. The treatment regimen with lispro and Humulin N has been adapted depending on each patient characteristics. Patients attended three visits, and the main metabolic co",
+        "score": 0.3418886959552765,
+        "doi": "",
+        "journal": "Romanian journal of internal medicine = Revue roumaine de medecine interne",
+        "year": "2000",
+        "rerank_score": 1.7569493055343628,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12518253",
+        "text": "Differences in pharmacokinetics and pharmacodynamics of insulin lispro and aspart in healthy volunteers. Pharmacokinetic and pharmacodynamic profiles of the rapid-acting insulin analogues lispro and aspart were compared in a randomized, double-blind crossover study of 20 fasting healthy men following a single subcutaneous injection. Either insulin lispro or aspart, 0.05 U/kg-body-weight, was injected subcutaneously and followed by determination of 5-h profiles of plasma glucose, serum C-peptide and insulin ",
+        "score": 0.3437449634075165,
+        "doi": "10.1055/s-2002-36428",
+        "journal": "Experimental and clinical endocrinology & diabetes : official journal, German So",
+        "year": "2003",
+        "rerank_score": 0.5978549718856812,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

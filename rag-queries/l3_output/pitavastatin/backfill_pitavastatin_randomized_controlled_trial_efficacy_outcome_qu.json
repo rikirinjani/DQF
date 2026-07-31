@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Pitavastatin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40888096",
+        "text": "Win ratio aligns with and enhances interpretation of REPRIEVE's primary findings. We performed a win ratio (WR) analysis of REPRIEVE, a randomized trial of pitavastatin vs placebo for CVD in people with HIV, to assess robustness to event severity. WR aligns with primary findings, and provides insight into pitavastatin protections: persistent advantage over placebo on CV Death, Stroke, and Myocardial Infarction.",
+        "score": 0.40124380588531494,
+        "doi": "10.1093/cid/ciaf477",
+        "journal": "Clinical infectious diseases : an official publication of the Infectious Disease",
+        "year": "2025",
+        "rerank_score": 2.028900384902954,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38320512",
+        "text": "A New Look at P Values for Randomized Clinical Trials. BACKGROUND: We have examined the primary efficacy results of 23,551 randomized clinical trials from the Cochrane Database of Systematic Reviews. METHODS: We estimate that the great majority of trials have much lower statistical power for actual effects than the 80 or 90% for the stated effect sizes. Consequently, “statistically significant” estimates tend to seriously overestimate actual treatment effects, “nonsignificant” results often correspond to im",
+        "score": 0.40641194581985474,
+        "doi": "10.1056/EVIDoa2300003",
+        "journal": "NEJM evidence",
+        "year": "2024",
+        "rerank_score": 1.657929539680481,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40418812",
+        "text": "Statin Therapy as Primary Prevention for Persons With HIV: A Synopsis of Recommendations From the U.S. Department of Health and Human Services Antiretroviral Treatment Guidelines Panel. REPRIEVE (Randomized Trial to Prevent Vascular Events in HIV) showed benefits of pitavastatin as preventive therapy for atherosclerotic cardiovascular disease (ASCVD) in people with HIV (PWH). In February 2024, the U.S. Department of Health and Human Services Panel for the Use of Antiretroviral Agents in Adults and Adolescen",
+        "score": 0.41510629653930664,
+        "doi": "10.7326/ANNALS-24-03564",
+        "journal": "Annals of internal medicine",
+        "year": "2025",
+        "rerank_score": 0.6125215888023376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

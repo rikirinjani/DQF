@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Glipizide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39267225",
+        "text": "Clinical pharmacokinetics of glipizide: a systematic review. Glipizide is an oral antidiabetic drug widely used to treat non-insulin-dependent type II diabetes mellitus (NIDDM). This systematic review extensively examines all reported pharmacokinetic (PK) parameters of glipizide in healthy and diseased populations. A total of 31 articles were retrieved after screening various databases, i.e. Google Scholar, PubMed, Science Direct, and Cochrane, regarding the PK parameters of glipizide in healthy, diseased, ",
+        "score": 0.38128742575645447,
+        "doi": "10.1080/17425255.2024.2402478",
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "year": "2025",
+        "rerank_score": 1.6116714477539062,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:396109",
+        "text": "Plasma levels of glucose and lactate after intravenous glipizide administration in some insulin-dependent diabetics. Therapeutic effects of an associated glipizide-insulin treatment. A study was carried out to evaluate the effectiveness of glipizide in insulin-dependent diabetic patients. An intravenous glipizide (2 mg) test was carried out in 7 patients before and after a period of associated insulin-glipizide treatment (mean daily dose of 80.7 i.v. lente insulin and 14.3 mg glipizide for 9.1 months) to as",
+        "score": 0.3752269148826599,
+        "doi": "10.1185/03007997909109446",
+        "journal": "Current medical research and opinion",
+        "year": "1979",
+        "rerank_score": -0.6133097410202026,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40989883",
+        "text": "Integrated metabolomics and network pharmacology to investigate the anti-hyperlipidemia effect of geniposidic acid on high-fat diet induced mice. Geniposidic acid (GPA) has been reported to possess hypoglycemic, hypolipidemic, and choleretic properties. However, its efficacy against hyperlipidemia and the associated mechanisms remain inadequately defined. A hyperlipidemia model was established in mice using a high-fat diet, followed by a 12-week intervention with GPA or lovastatin (positive control). Serum ",
+        "score": 0.3828989267349243,
+        "doi": "10.3389/fcell.2025.1655114",
+        "journal": "Frontiers in cell and developmental biology",
+        "year": "2025",
+        "rerank_score": -1.896456003189087,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

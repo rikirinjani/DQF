@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Doxazosin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40920198",
+        "text": "A Case Report on the Use of Doxazosin to Improve Outcomes in a Patient With a KCNT1 Genetic Variation. This case report describes the use of doxazosin (Cardura) as a treatment for a patient with an autosomal dominant",
+        "score": 0.4831019937992096,
+        "doi": "10.1177/08830738251371331",
+        "journal": "Journal of child neurology",
+        "year": "2025",
+        "rerank_score": 3.432823896408081,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.47558510303497314,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 1.418760061264038,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12634229",
+        "text": "Number needed to treat (NNT): implication in rheumatology clinical practice. To calculate the number needed to treat (NNT) and number needed to harm (NNH) from the data in rheumatology clinical trials and systematic reviews.",
+        "score": 0.4639348089694977,
+        "doi": "10.1136/ard.62.4.316",
+        "journal": "Annals of the rheumatic diseases",
+        "year": "2003",
+        "rerank_score": 1.0143011808395386,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

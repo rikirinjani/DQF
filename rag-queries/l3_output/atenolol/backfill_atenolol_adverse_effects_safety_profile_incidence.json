@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Atenolol adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39048857",
+        "text": "Waterborne atenolol disrupts neurobehavioral and neurochemical responses in adult zebrafish. Environmental contamination by pharmaceuticals from industrial waste and anthropogenic activities poses adverse health effects on non-target organisms. We evaluated the neurobehavioral and biochemical responses accompanying exposure to ecological relevant concentrations of atenolol (0, 0.1, 1.0, and 10 µg/L) for seven uninterrupted days in adult zebrafish (Danio rerio). Atenolol-exposed fish exhibited anxiety-like b",
+        "score": 0.4762224555015564,
+        "doi": "10.1007/s11356-024-34428-x",
+        "journal": "Environmental science and pollution research international",
+        "year": "2024",
+        "rerank_score": 3.885533571243286,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38973145",
+        "text": "Effective Management of Severe Amlodipine/Atenolol Overdose with Intravenous Calcium, Hyperinsulinemic Euglycemia Therapy, and Continuous Veno-Venous Hemodialysis: A Case Report. BACKGROUND Amlodipine, a calcium channel blocker, and atenolol, a beta blocker, are commonly used as a fixed drug combination (FDC) to treat hypertension. Intentional or non-intentional overdose of amlodipine-atenolol results in hypotension and myocardial depression with a high risk of mortality. This report describes a 64-year-old",
+        "score": 0.4630622863769531,
+        "doi": "10.12659/AJCR.943777",
+        "journal": "The American journal of case reports",
+        "year": "2024",
+        "rerank_score": 0.5075652003288269,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40461358",
+        "text": "Ivabradine and atenolol overdose managed with renal replacement therapy: A case report. Ivabradine, an inhibitor of the sinoatrial pacemaker current, and atenolol, a cardioselective beta-blocker, are both used in the management of chronic systolic heart failure. While beta-blocker toxicity is well-documented, ivabradine poisoning is rare. This case report discusses the clinical course of a patient who presented with profound bradycardia and hypotension after ingesting large doses of ivabradine and atenolol.",
+        "score": 0.466266006231308,
+        "doi": "10.1016/j.ajem.2025.05.050",
+        "journal": "The American journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": -0.9239329695701599,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

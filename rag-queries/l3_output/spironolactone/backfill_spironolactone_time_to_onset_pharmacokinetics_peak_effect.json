@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Spironolactone time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39242826",
+        "text": "Effects of spironolactone on exercise blood pressure in patients at increased risk of developing heart failure: report from the HOMAGE trial. None of the spironolactone trials in heart failure (HF) assessed the blood pressure (BP) responses to exercise, while conflicting results were reported for exercise capacity. In the HOMAGE trial, 527 patients at increased HF risk were randomized to usual treatment with or without spironolactone (25-50 mg/day). The current substudy included 113 controls and 114 patient",
+        "score": 0.38387149572372437,
+        "doi": "10.1038/s41440-024-01843-z",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2024",
+        "rerank_score": -1.6228798627853394,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41334802",
+        "text": "Spironolactone in end stage renal disease: A story of under'ACHIEVE'ment.",
+        "score": 0.4145053029060364,
+        "doi": "10.1590/2175-8239-JBN-2025-0270en",
+        "journal": "Jornal brasileiro de nefrologia",
+        "year": "2025",
+        "rerank_score": -3.55024790763855,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38419259",
+        "text": "The paradox of spironolactone: A heart failure treatment with potentially harmful effects.",
+        "score": 0.38046711683273315,
+        "doi": "10.47391/JPMA.10270",
+        "journal": "JPMA. The Journal of the Pakistan Medical Association",
+        "year": "2024",
+        "rerank_score": -4.7241597175598145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

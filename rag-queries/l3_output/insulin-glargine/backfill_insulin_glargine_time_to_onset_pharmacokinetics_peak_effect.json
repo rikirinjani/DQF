@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Insulin Glargine time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38379002",
+        "text": "Pharmacokinetic and pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes. To investigate the pharmacokinetic/pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes (T1D). In this randomized, open-label, two-period crossover trial, 66 individuals with T1D (age 18-64 years; glycated haemoglobin ≤75 mmol/mol [≤ 9%]) were to receive once-weekly icodec (8 weeks) and once-daily insulin glargine U100 (2 weeks) at individualized fixed equ",
+        "score": 0.349290132522583,
+        "doi": "10.1111/dom.15510",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 2.4582552909851074,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41508735",
+        "text": "Pharmacokinetic properties of insulin GZR4 after subcutaneous administration in the thigh, abdomen, or upper arm in healthy participants. This trial aimed to evaluate the impact of different subcutaneous injection regions on the pharmacokinetics and safety of the once-weekly basal insulin GZR4 in healthy Chinese participants. This randomized, open-label, three-period crossover trial enrolled 24 healthy participants. Each participant received a single subcutaneous injection of GZR4 (3 nmol/kg) in the thigh, ",
+        "score": 0.39690834283828735,
+        "doi": "10.1111/dom.70461",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 0.2519853115081787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38418413",
+        "text": "Bridging dose of U-100 glargine with first dose of insulin degludec improves glycaemia in the 48 h after transition in twice-daily glargine users. To study the effects of a bridging dose of U-100 glargine (U-100G) with the first dose of degludec in type 1 diabetes (T1D) patients transitioning from glargine to degludec, by comparing the glucose metrics 48 h before and after the transition. Patients with T1D on a stable U-100G regimen and with glycated haemoglobin concentration <75 mmol/mol were randomized (d",
+        "score": 0.3757621645927429,
+        "doi": "10.1111/dom.15502",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -0.6970429420471191,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Pioglitazone HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40420634",
+        "text": "Efficacy and Safety of Pioglitazone Add-On in Patients With Type 2 Diabetes Mellitus Inadequately Controlled With Metformin and Dapagliflozin: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Type 2 diabetes mellitus (T2DM) accounts for over 90% of diabetes cases worldwide. Pioglitazone, a thiazolidinedione, enhances insulin sensitivity by activating PPAR-γ. Evidence on its efficacy and safety as an add-on to metformin and SGLT2 inhibitors in inadequately controlled T2DM is limited. Th",
+        "score": 0.3776974678039551,
+        "doi": "10.1002/edm2.70061",
+        "journal": "Endocrinology, diabetes & metabolism",
+        "year": "2025",
+        "rerank_score": 6.209317207336426,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41151541",
+        "text": "Efficacy and Safety of High-Dose Pioglitazone as Add-on Therapy in Patients with Type 2 Diabetes Mellitus Inadequately Controlled with Dapagliflozin and Metformin: Double-Blind, Randomized, Placebo-Controlled Trial. This study investigated the efficacy and safety of pioglitazone 30 mg/day add-on to inadequately controlled type 2 diabetes mellitus (T2DM) patients with treatment of dapagliflozin and metformin. In this multicenter (34 sites), double-blind, randomized, phase 3 study, patients with T2DM with an ",
+        "score": 0.40678465366363525,
+        "doi": "10.4093/dmj.2024.0696",
+        "journal": "Diabetes & metabolism journal",
+        "year": "2024",
+        "rerank_score": 6.04258394241333,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41381685",
+        "text": "Efficacy and safety of pioglitazone versus dapagliflozin as an add-on to metformin and alogliptin combination therapy: the EPIDOTE study. We investigated the efficacy and safety of pioglitazone compared to dapagliflozin when added to metformin plus alogliptin for patients with type 2 diabetes. The patients (n = 133) were randomized to receive pioglitazone (n = 65) or dapagliflozin (n = 68) in addition to metformin and alogliptin therapy for 26 weeks. The primary endpoint was a change in HbA1c. The non-infer",
+        "score": 0.41160696744918823,
+        "doi": "10.1038/s41598-025-30882-w",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 5.830020427703857,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

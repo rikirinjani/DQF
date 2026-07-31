@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Amlodipine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.46477317810058594,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.295166492462158,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40979769",
+        "text": "Understanding number needed to treat (NNT): A practical guide for anaesthesia and critical care clinicians.",
+        "score": 0.4763929843902588,
+        "doi": "10.4103/ija.ija_1000_25",
+        "journal": "Indian journal of anaesthesia",
+        "year": "2025",
+        "rerank_score": 1.1417235136032104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38973145",
+        "text": "Effective Management of Severe Amlodipine/Atenolol Overdose with Intravenous Calcium, Hyperinsulinemic Euglycemia Therapy, and Continuous Veno-Venous Hemodialysis: A Case Report. BACKGROUND Amlodipine, a calcium channel blocker, and atenolol, a beta blocker, are commonly used as a fixed drug combination (FDC) to treat hypertension. Intentional or non-intentional overdose of amlodipine-atenolol results in hypotension and myocardial depression with a high risk of mortality. This report describes a 64-year-old",
+        "score": 0.4640144109725952,
+        "doi": "10.12659/AJCR.943777",
+        "journal": "The American journal of case reports",
+        "year": "2024",
+        "rerank_score": 0.2894132733345032,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

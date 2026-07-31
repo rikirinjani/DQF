@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Olmesartan randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23999037",
+        "text": "Results from a 12 months, randomized, clinical trial comparing an olmesartan/amlodipine single pill combination to olmesartan and amlodipine monotherapies on blood pressure and inflammation. Hypertension affects nearly 1 in 3 adults in the United States, and it is an important modifiable risk factor for coronary artery disease, heart failure, renal failure, and stroke. The aim of this study was to evaluate the effects of a fixed-dose olmesartan/amlodipine combination on blood pressure control, lipid profile",
+        "score": 0.38362592458724976,
+        "doi": "10.1016/j.ejps.2013.08.031",
+        "journal": "European journal of pharmaceutical sciences : official journal of the European F",
+        "year": "2013",
+        "rerank_score": 4.3238983154296875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38579097",
+        "text": "Comparison of sacubitril/valsartan with olmesartan for hypertension: A meta-analysis of randomized controlled trials. The efficacy of sacubitril/valsartan versus olmesartan remains controversial for the control of hypertension. We conduct a systematic review and meta-analysis to explore the influence of sacubitril/valsartan versus olmesartan on the control of hypertension. We have searched PubMed, Embase, Web of science, EBSCO, and Cochrane library databases through July 2023 for randomized controlled trial",
+        "score": 0.4002543091773987,
+        "doi": "10.1097/MD.0000000000037501",
+        "journal": "Medicine",
+        "year": "2024",
+        "rerank_score": 4.3119730949401855,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26491273",
+        "text": "Olmesartan vs ramipril in the treatment of hypertension and associated clinical conditions in the elderly: a reanalysis of two large double-blind, randomized studies at the light of the most recent blood pressure targets recommended by guidelines. In this paper, we present the results of a reanalysis of the data of two large randomized, double-blind, parallel group studies with a similar design, comparing the efficacy of an angiotensin-receptor blocker (olmesartan medoxomil) with that of an angiotensin-conv",
+        "score": 0.3839530646800995,
+        "doi": "10.2147/CIA.S88195",
+        "journal": "Clinical interventions in aging",
+        "year": "2015",
+        "rerank_score": 2.876796245574951,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

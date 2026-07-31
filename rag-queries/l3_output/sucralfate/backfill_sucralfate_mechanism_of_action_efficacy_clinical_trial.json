@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Sucralfate mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39836033",
+        "text": "Clinical Trial: Precise Administration of Sucralfate Powder in Prevention of Delayed Postpolypectomy Bleeding. A Randomized Controlled Trial. Delayed postpolypectomy bleeding occurs in approximately 1%-2% of all patients undergoing colonoscopic polypectomy, and this rate increases to 6% in patients with large (>2 cm) colon polyps. Sucralfate can protect the mucosa and promote its healing. This study was conducted to investigate whether colonoscopic spraying of sucralfate powder on polypectomy wounds can pre",
+        "score": 0.39897865056991577,
+        "doi": "10.14309/ctg.0000000000000818",
+        "journal": "Clinical and translational gastroenterology",
+        "year": "2024",
+        "rerank_score": 4.1789326667785645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9424000",
+        "text": "A phase III double-blind randomised study of rectal sucralfate suspension in the prevention of acute radiation proctitis. A limited number of studies have suggested that oral sucralfate reduces the acute and late gastro-intestinal side-effects of pelvic radiotherapy and sucralfate enemas ameliorate symptoms of chronic proctitis. Sucralfate may act via local bFGF at the mucosal level in promoting angiogenesis and reducing epithelial associated microvascular injury. This multi-institutional study was designed",
+        "score": 0.39839252829551697,
+        "doi": "10.1016/s0167-8140(97)00146-1",
+        "journal": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radi",
+        "year": "1998",
+        "rerank_score": 1.6957427263259888,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40515427",
+        "text": "High Economic Burden Yet Low Clinical Value: Why Is so Much Sucralfate Prescribed? Sucralfate is a commonly prescribed medication in use for decades. Despite the availability of more effective medications for acid-dyspeptic conditions, including proton pump inhibitors and histamine H2-receptor antagonists, sucralfate continues to be utilized for upper gastrointestinal symptoms. We reviewed the limited evidence base supporting the approval and ongoing usage of sucralfate and performed a cost analysis using t",
+        "score": 0.42488425970077515,
+        "doi": "10.1111/bcpt.70070",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2025",
+        "rerank_score": -0.04556749016046524,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "aluminum magnesium hydroxide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31305395",
+        "text": "The effect of magnesium sulfate on surgical field during endoscopic sinus surgery: A meta-analysis of randomized controlled trials. The benefits of magnesium sulfate for surgical field during endoscopic sinus surgery remain controversial. We conduct a systematic review and meta-analysis to explore the influence of magnesium sulfate versus placebo on surgical field during endoscopic sinus surgery.",
+        "score": 0.4352104067802429,
+        "doi": "10.1097/MD.0000000000016115",
+        "journal": "Medicine",
+        "year": "2019",
+        "rerank_score": 0.31213948130607605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6864507",
+        "text": "Convenient method of simultaneously analyzing aluminum and magnesium in pharmaceutical dosage forms using californium-252 thermal neutron activation. A commercial antacid suspension containing aluminum hydroxide and magnesium hydroxide products was used as a model sample to study the use of a californium-252 thermal neutron activation as a method for quantifying aluminum content as well as for the simultaneous assay of aluminum and magnesium. A 3.5-micrograms californium-252 source was used for the activati",
+        "score": 0.43477803468704224,
+        "doi": "10.1002/jps.2600720522",
+        "journal": "Journal of pharmaceutical sciences",
+        "year": "1983",
+        "rerank_score": -0.027544526383280754,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40895997",
+        "text": "Efficacy of Mineral Trioxide Aggregate Versus Biodentine as a Direct Pulp Capping Material in Carious Human Mature Permanent Teeth: A Systematic Review. The present systematic review and meta-analysis aimed to evaluate and compare the clinical efficacy of Mineral Trioxide Aggregate (MTA) and Biodentine (BD) as direct pulp capping materials in cariously exposed mature permanent teeth, focusing on outcomes such as pulp vitality preservation, dentin bridge formation, and complication rates, including tooth dis",
+        "score": 0.460306316614151,
+        "doi": "10.7759/cureus.89154",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -2.575305223464966,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

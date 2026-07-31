@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Captopril time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3034318",
+        "text": "Pharmacokinetics and biological effects of captopril and hydrochlorothiazide after acute and chronic administration either alone or in combination in hypertensive patients. The pharmacokinetics of free unchanged captopril, total captopril and hydrochlorothiazide (HCTZ) were investigated in three groups of patients with moderate essential hypertension and normal renal function on the first and on the 45th days of an oral treatment with either captopril (50 mg once daily, n = 7) or HCTZ (25 mg once daily, n =",
+        "score": 0.34726500511169434,
+        "doi": "10.1111/j.1365-2125.1987.tb03122.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "1987",
+        "rerank_score": 3.574247121810913,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.40381282567977905,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.4778715670108795,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40771165",
+        "text": "Multicenter Prospective Randomized, Double-Blind, Placebo-Controlled Pharmacodynamic Study of The Additional Antihypertensive Effect of the Drug in Patients With Uncontrolled Arterial Hypertension Against the Background of Taking Renin-Angiotensin-Aldosterone System Blockers. Aim     To evaluate the efficacy and safety of a single sublingual dose of captopril in patients with poor control of arterial hypertension (AH) despite continuous use of long-acting angiotensin-converting enzyme (ACE) inhibitors or an",
+        "score": 0.40125513076782227,
+        "doi": "10.18087/cardio.2025.7.n2984",
+        "journal": "Kardiologiia",
+        "year": "2025",
+        "rerank_score": -1.0324790477752686,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

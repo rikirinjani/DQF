@@ -1,0 +1,12 @@
+{
+  "ver_id": "VER-2026-018",
+  "timestamp": "2026-07-31T18:00:00",
+  "result": "pass",
+  "verdict": "VERIFIED — all-88-drug multi-angle RAG backfill complete and schema-valid",
+  "scope": "P4 Task 1 extension: multi-angle RAG queries on ALL 88 drugs (9 classes). Two parallel fixer lanes: Lane A (fix-1, 45 drugs: Antihypertensive 33 + PPI 5 + H2RA 3 + Antacid 2 + Alginate 1 + Mucosal Protectant 1, incl. aluminum-magnesium-hydroxide) and Lane B (fix-2, 43 drugs: Diabetes 28 + NSAID 10 + Statin 5).",
+  "linked_tasks": ["P4-Task1-backfill-all-88", "P4-Task1-backfill", "P4-Task2-schema-map"],
+  "linked_specs": ["methodology/framework-ontology.md (L4 section)", "api/l4_schema_map.json", "rag-queries/RAG_QUALITY_NOTES.md"],
+  "evidence_path": "rag-queries/l3_output/*/backfill_*.json (706 files), rag-queries/backfill_all_queries.py (canonical all-88 runner), rag-queries/backfill_all_summary_A.json, rag-queries/backfill_all_summary_B.json",
+  "outcome": "706 backfill files on disk across 88 drug dirs. Per-drug counts: 87 drugs at exactly 8 files, furosemide at 10 (8 initial-run files + 2 new AH-template angles — benign superset of distinct queries, no duplication). JSON schema validation: 706/706 valid, 0 malformed, 0 empty results arrays. Lane A: 264 queries issued, 0 errors/timeouts/still-loading, EUtils never needed. Lane B: 260 queries issued, 344 files, 0 errors, 6 prior-run diabetes drugs (alogliptin, exenatide, rosiglitazone, pramlintide, saxagliptin, vildagliptin) skipped as already-covered via skip-if-exists. No overwrites of pre-existing files. All 18 running python processes identified as MCP infrastructure (hexstrike/google_workspace/mempalace/pharmacy) — no stray backfill process; the 17:40-17:45 file mtimes were the racing-instance cleanup tail, content verified intact (fix-1: 72/72 valid OK(3); orchestrator: 706/706 valid). Canonical backfill_all_queries.py merged to cover all 9 classes / 88 drugs (fix-1), py_compile PASS, --dry-run confirms 9 classes / 88 drugs / zero missing class mappings.",
+  "blocker_for_fix": "Unchanged from VER-2026-017: RAG endpoint truncates snippet text at ~512 chars, cutting quantitative values mid-sentence. All evidence remains 'insufficient' for L4 value updates until full abstracts are returned. This run expanded coverage (88/88 drugs) but did not change the truncation blocker."
+}

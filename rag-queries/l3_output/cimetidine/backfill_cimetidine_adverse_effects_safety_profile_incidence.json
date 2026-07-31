@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Cimetidine adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7004992",
+        "text": "A consideration of the adverse effects of cimetidine. The value of cimetidine in treatment of duodenal ulcer and the Zollinger-Ellison syndrome appears to be well established. The drug has been enthusiastically embraced and widely used by practicing physicians. As with virtually all drugs used in the practice of medicine, cimetidine is not without its adverse effects. In some instances these effects may result from actions of cimetidine on H2-receptors on many widely distributed and diverse cells other than",
+        "score": 0.3970469534397125,
+        "doi": "",
+        "journal": "Gastroenterology",
+        "year": "1981",
+        "rerank_score": 3.2977147102355957,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41299287",
+        "text": "The safety profile of trimethoprim-sulfamethoxazole regarding concomitant other drugs: a comparative analysis of adverse effects in a tertiary level adult intensive care unit.",
+        "score": 0.42713573575019836,
+        "doi": "10.1186/s12879-025-12085-w",
+        "journal": "BMC infectious diseases",
+        "year": "2025",
+        "rerank_score": 0.1286463588476181,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39829042",
+        "text": "Risk assessment of venetoclax-associated adverse events: a meta-analysis approach. Venetoclax, an oral B-cell lymphoma-2 (BCL-2) inhibitor, shows promise in cancer treatment but has an unclear safety profile. This meta-analysis evaluates the safety of venetoclax, focusing on adverse events. Data from PubMed, Embase, Cochrane databases, and ClinicalTrials.gov were retrieved up to August 2023. Nine studies were included based on specific inclusion and exclusion criteria. A random effects model was used to cal",
+        "score": 0.44800782203674316,
+        "doi": "10.1080/14740338.2025.2449987",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": -1.839983344078064,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

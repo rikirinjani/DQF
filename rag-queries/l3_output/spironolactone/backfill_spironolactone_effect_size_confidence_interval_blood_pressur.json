@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Spironolactone effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27367159",
+        "text": "Effect of spironolactone on patients with resistant hypertension and obstructive sleep apnea. To examine whether spironolactone could reduce the severity of obstructive sleep apnea (OSA) and lower blood pressure in patients with resistant hypertension.",
+        "score": 0.3646228313446045,
+        "doi": "10.3109/10641963.2015.1131290",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "2016",
+        "rerank_score": 0.05123523622751236,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:487270",
+        "text": "The effect of spironolactone on the arterial water, cation, and norepinephrine contents of control and 'one-kidney-one-clip' hypertensive dogs. Spironolactone at 10 mg per kilogram per day was given to control and 'one-kidney-one-clip' hypertensive dogs for 6--7 weeks. Compared with untreated animals the treated animals had a lower arterial water content, a higher arterial, myocardial, and skeletal muscle sodium content, and variable changes in tissue potassium concentrations.",
+        "score": 0.3639621138572693,
+        "doi": "10.1139/y79-096",
+        "journal": "Canadian journal of physiology and pharmacology",
+        "year": "1979",
+        "rerank_score": -0.45967593789100647,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40919025",
+        "text": "Effect of spironolactone on cardiovascular and renal outcomes in patients with chronic kidney disease. Steroidal mineralocorticoid receptor antagonists (MRAs), including spironolactone, effectively treat resistant hypertension, reduce proteinuria and lower mortality in heart failure with reduced ejection fraction. However, their long-term effects in chronic kidney disease (CKD) remain unclear. This study investigated spironolactone's impact on end-stage renal disease (ESRD), major adverse cardiovascular eve",
+        "score": 0.4217117130756378,
+        "doi": "10.1093/ckj/sfaf247",
+        "journal": "Clinical kidney journal",
+        "year": "2025",
+        "rerank_score": -0.727386474609375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Metformin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32979231",
+        "text": "Efficacy and safety of a sodium-glucose co-transporter-2 inhibitor versus placebo as an add-on therapy for people with type 2 diabetes inadequately treated with metformin and a dipeptidyl peptidase-4 inhibitor: a systematic review and meta-analysis of randomised controlled trials. To conduct a systematic review and meta-analysis to assess the efficacy, safety and tolerability of sodium-glucose co-transporter-2 inhibitors vs placebo as add-on therapy after metformin and dipeptidyl peptidase-4 inhibitor dual ",
+        "score": 0.36381828784942627,
+        "doi": "10.1111/dme.14409",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2020",
+        "rerank_score": 5.15656852722168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35247521",
+        "text": "Effect of metformin on microvascular outcomes in patients with type 2 diabetes: A systematic review and meta-analysis. Examine the efficacy of metformin compared to placebo or other glucose-lowering medications on microvascular outcomes in patients with Type 2 Diabetes Mellitus (T2DM).",
+        "score": 0.3639386296272278,
+        "doi": "10.1016/j.diabres.2022.109821",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2021",
+        "rerank_score": 4.997553825378418,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.3856622874736786,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 4.051663875579834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Esomeprazole number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41052642",
+        "text": "Esomeprazole prevents oxaliplatin-induced peripheral neuropathy through inhibiting organic cation transporter 2 in mice. Oxaliplatin (L-OHP) is widely used as a key drug for the treatment of various cancers, including colorectal cancer. However, L-OHP accumulates in the dorsal root ganglion (DRG) via organic cation transporter 2 (OCT2/SLC22A2), causing L-OHP-induced peripheral neuropathy (OIPN), a major clinical problem. Although proton pump inhibitors (PPIs) exhibit off-target OCT2 inhibitory effects, it r",
+        "score": 0.48007267713546753,
+        "doi": "10.1016/j.ejps.2025.107309",
+        "journal": "European journal of pharmaceutical sciences : official journal of the European F",
+        "year": "2025",
+        "rerank_score": 0.73481285572052,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39622191",
+        "text": "Esomeprazole's Antifibrotic Effects on Rats With Epidural Fibrosis. Study DesignRat subjects were randomly assigned to control, local, and systemic esomeprazole groups (n = 4-6 per group).ObjectiveExcessive scar formation after laminectomy can cause nerve entrapment and postoperative pain and discomfort. A rat laminectomy model determined whether topical application and systemic administration of esomeprazole can prevent epidural fibrosis.MethodsLaminectomy alone was performed in the control group. Topical ",
+        "score": 0.4686376452445984,
+        "doi": "10.1177/21925682241306045",
+        "journal": "Global spine journal",
+        "year": "2024",
+        "rerank_score": 0.1762787401676178,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41358629",
+        "text": "Comparative efficacy and safety of different brexpiprazole doses for agitation in Alzheimer's disease: A systematic review and network meta-analysis. BackgroundAgitation in Alzheimer's disease significantly impacts patient outcomes and caregiver burden. Brexpiprazole has emerged as a promising treatment option, but optimal dosing remains unclear.ObjectiveTo evaluate the comparative efficacy and safety of different brexpiprazole doses in treating agitation associated with Alzheimer's disease through a system",
+        "score": 0.4778946042060852,
+        "doi": "10.1177/13872877251404500",
+        "journal": "Journal of Alzheimer's disease : JAD",
+        "year": "2025",
+        "rerank_score": -2.957779884338379,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Meloxicam adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39327649",
+        "text": "Low-Dose Oral Minoxidil and Associated Adverse Events: Analyses of the FDA Adverse Event Reporting System (FAERS) With a Focus on Pericardial Effusions. Low-dose oral minoxidil (LDOM) is used to treat hair loss, but the literature on its safety profile is relatively sparse. Using the FDA Adverse Event Reporting System (FAERS) database, we determined signals for adverse events (AEs) with LDOM use. Four sets of case/noncase study disproportionality analyses were conducted to determine reporting odds ratio (RO",
+        "score": 0.44558626413345337,
+        "doi": "10.1111/jocd.16574",
+        "journal": "Journal of cosmetic dermatology",
+        "year": "2024",
+        "rerank_score": 1.7599414587020874,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32552192",
+        "text": "Repeated dose of meloxicam induces genotoxicity and histopathological changes in cardiac tissue of mice. Meloxicam is the non-steroidal anti-inflammatory drug most used in small animals; however, studies on genotoxicity, oxidative stress, and histopathologic alterations in cardiac tissue are limited, especially at therapeutical doses used in these animals. This study evaluated the toxic effects caused by the treatment involving repeated low at higher doses of meloxicam in mice, by genotoxicity, oxidative st",
+        "score": 0.4228750467300415,
+        "doi": "10.1080/01480545.2020.1778018",
+        "journal": "Drug and chemical toxicology",
+        "year": "2020",
+        "rerank_score": 0.6239774227142334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40228628",
+        "text": "The safety profile of fluoroquinolones. While they are very useful agents, fluoroquinolones (FQs) are associated with a number of serious adverse effects (AEs). The objective of this paper is to describe the characteristics of frequent serious AEs related to FQs along with their risk factors, their safety in specific populations, and the main drug-drug interactions that may occur. Serious AEs commonly associated with FQs include tendon disorders (particularly tendinopathy and tendon rupture), CNS toxicity (",
+        "score": 0.4454267621040344,
+        "doi": "10.1016/j.idnow.2025.105064",
+        "journal": "Infectious diseases now",
+        "year": "2025",
+        "rerank_score": -0.04671798646450043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

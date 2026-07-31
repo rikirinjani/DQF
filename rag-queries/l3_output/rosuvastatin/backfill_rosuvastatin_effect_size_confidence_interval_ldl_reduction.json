@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Rosuvastatin effect size confidence interval LDL reduction"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12486429",
+        "text": "Effects of rosuvastatin and atorvastatin compared over 52 weeks of treatment in patients with hypercholesterolemia. Despite the demonstrated benefits of low-density lipoprotein cholesterol (LDL-C) reduction in reducing the risk of coronary heart disease, many patients receiving lipid-lowering therapy fail to achieve LDL-C goals. We compared the effects of rosuvastatin and atorvastatin in reducing LDL-C and achieving LDL-C goals in patients with primary hypercholesterolemia.",
+        "score": 0.338606595993042,
+        "doi": "10.1067/mhj.2002.128049",
+        "journal": "American heart journal",
+        "year": "2002",
+        "rerank_score": 3.4609358310699463,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26162946",
+        "text": "High-dose statin therapy with rosuvastatin reduces small dense LDL and MDA-LDL: The Standard versus high-dose therApy with Rosuvastatin for lipiD lowering (SARD) trial. Cardiovascular events (CV) continue to occur due to residual risks in high-risk patients in spite of substantial reductions in the low-density lipoprotein cholesterol (LDL) with statins. It has been reported that the small-dense LDL (sd-LDL) components of high atherogenic particles are associated with an increased risk of CV, more than large",
+        "score": 0.33792412281036377,
+        "doi": "10.1016/j.jjcc.2015.05.017",
+        "journal": "Journal of cardiology",
+        "year": "2015",
+        "rerank_score": 2.972485303878784,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15037821",
+        "text": "Randomized dose-response study of rosuvastatin in Japanese patients with hypercholesterolemia. Rosuvastatin is a novel statin that has been shown to produce large dose-dependent reductions in low-density lipoprotein cholesterol (LDL-C) in Western hypercholesterolemic patients. Rosuvastatin dose response was assessed in a randomized, double-blind phase II trial in which 112 Japanese patients with fasting LDL-C > 160 and < 220 mg/dl and triglycerides < 300 mg/dl received placebo or rosuvastatin 1, 2.5, 5, 10,",
+        "score": 0.33910301327705383,
+        "doi": "10.5551/jat.10.329",
+        "journal": "Journal of atherosclerosis and thrombosis",
+        "year": "2004",
+        "rerank_score": 2.6886768341064453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

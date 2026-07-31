@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Liraglutide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39029073",
+        "text": "Retinopathy risk factors in patients with type 2 diabetes on liraglutide. Liraglutide, a glucagon-like peptide 1 receptor agonist, effectively treats type 2 diabetes(T2D) by lowering glucose levels, suppressing glucagon release, and promoting insulin secretion. Liraglutide has been shown to reduce body weight and glycated hemoglobin (HbA1c) levels and improve cardiovascular outcomes. However, evidence regarding the association between liraglutide and diabetic retinopathy in the Middle East is insufficient. ",
+        "score": 0.34784233570098877,
+        "doi": "10.1097/MD.0000000000039026",
+        "journal": "Medicine",
+        "year": "2024",
+        "rerank_score": 7.300403594970703,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35251693",
+        "text": "Prediction scale of response to liraglutide therapy as the method for increase of treatment efficacy in type 2 diabetes. The effects of liraglutide on body weight and hemoglobin A1C (HbA1c) level vary greatly. The cost of this drug negatively affects treatment adherence.",
+        "score": 0.3294210433959961,
+        "doi": "10.2144/fsoa-2021-0070",
+        "journal": "Future science OA",
+        "year": "2021",
+        "rerank_score": 6.890956878662109,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39640418",
+        "text": "Long-Term clinical efficacy of liraglutide for type 2 diabetes: real-world evidence and outcomes from Pakistan. Liraglutide, a glucagon-like peptide-1 (GLP-1) receptor agonist, has demonstrated efficacy in improving glycemic control and promoting weight loss in clinical trials. However, real-world data from diverse populations, particularly from South Asia, are limited. The study aims to evaluate the long-term efficacy and safety of liraglutide in a real-world setting among Pakistani patients with type 2 di",
+        "score": 0.34909582138061523,
+        "doi": "10.1080/20523211.2024.2432462",
+        "journal": "Journal of pharmaceutical policy and practice",
+        "year": "2024",
+        "rerank_score": 6.548969745635986,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

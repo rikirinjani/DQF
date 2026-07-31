@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Diltiazem randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.38250255584716797,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.4502733945846558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814593",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.38250255584716797,
+        "doi": "10.1001/jamaoncol.2024.0113",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.4502733945846558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39584590",
+        "text": "Evaluating multiplicity reporting in analgesic clinical trials: An analytical review. Analgesia trials often demands multiple comparisons to assess various treatment arms, outcomes, or repeated assessments. These multiple comparisons risk inflating the false positive rate. Multiplicity correction in recent analgesic randomized controlled trials (RCTs) remains unclear despite statistical method advancements and regulatory guidelines. Our study aimed to identify reporting inadequacies in multiple analysis adj",
+        "score": 0.4074667692184448,
+        "doi": "10.1002/ejp.4756",
+        "journal": "European journal of pain (London, England)",
+        "year": "2024",
+        "rerank_score": -1.4617341756820679,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

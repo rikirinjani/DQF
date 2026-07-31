@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Aspirin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39340686",
+        "text": "Long-Term Effects of Low-Dose Aspirin on Gastrointestinal Symptoms and Bleeding Complications in Patients with Type 2 Diabetes. Low-dose aspirin for primary prevention is determined by the balance of risks of cardiovascular events and adverse effects. We assessed the long-term gastrointestinal symptoms or bleeding with low-dose aspirin in diabetic patients. The Japanese Primary Prevention of Atherosclerosis with Aspirin for Diabetes (JPAD) trial was a randomized clinical trial to evaluate the efficacy and s",
+        "score": 0.3914330005645752,
+        "doi": "10.1007/s40256-024-00679-9",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2024",
+        "rerank_score": 2.1876721382141113,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38530560",
+        "text": "Inhibition Conversion of Aspirin into Salicylic Acid in Presence of Glycine. Aspirin (AS) is a common drug having anti-pyretic and anti-inflammatory properties which is widely used in diverse medical conditions. The intake of AS may cause adverse effects such as gastrointestinal ulcer, tinnitus and Reye's syndrome. The adverse effects of AS arise due to conversion of AS into salicylic acid (SAL). Glycine (Gly) is a simplest non essential amino acid having anti-oxidative and anti-inflammatory effects. It als",
+        "score": 0.3996928334236145,
+        "doi": "10.1007/s10895-024-03675-z",
+        "journal": "Journal of fluorescence",
+        "year": "2024",
+        "rerank_score": 1.8525365591049194,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39074973",
+        "text": "Aspirin: latest evidence and developments. Aspirin is a foundation drug of the pharmaceutical industry originally derived as an analgesic/anti-inflammatory agent but serendipitously discovered to have use as a prophylactic drug for major adverse cardiovascular events (MACE). Its modern-day utility in this latter role relies on its efficacy/safety balance in a contemporary population where, at least in high-income countries, age-standardised incident rates for MACE are falling, and where there are now compet",
+        "score": 0.3941120505332947,
+        "doi": "10.1136/heartjnl-2024-323948",
+        "journal": "Heart (British Cardiac Society)",
+        "year": "2024",
+        "rerank_score": 1.7245545387268066,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

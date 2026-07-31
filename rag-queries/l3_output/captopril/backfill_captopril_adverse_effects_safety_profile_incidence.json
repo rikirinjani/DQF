@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Captopril adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38823475",
+        "text": "Repeated doses of captopril induce airway hyperresponsiveness by modulating the TRPV1 receptor in rats. Although TRPV1 receptors play an essential role in the adverse effects on the airways following captopril treatment, there is no available evidence of their involvement in treatment regimens involving repeated doses of captopril. Comparing the difference in these two treatment regimens is essential since captopril is a continuous-use medication. Thus, this study explored the role of the transient receptor",
+        "score": 0.4286721348762512,
+        "doi": "10.1016/j.pupt.2024.102302",
+        "journal": "Pulmonary pharmacology & therapeutics",
+        "year": "2024",
+        "rerank_score": 0.81305330991745,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18605972",
+        "text": "Side effects of angiotensin converting enzyme inhibitor (captopril) in newborns and young infants. To analyze the side effects of captopril, an angiotensin converting enzyme inhibitor (ACEI) in newborn and young infants.",
+        "score": 0.40171945095062256,
+        "doi": "10.1515/JPM.2008.064",
+        "journal": "Journal of perinatal medicine",
+        "year": "2008",
+        "rerank_score": 0.12817570567131042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39625739",
+        "text": "Comparison of the pharmacovigilance signals of cardiac and renal adverse events associated with sacubitril/valsartan and valsartan alone based on the FAERS database. In clinical practice, cardiovascular and renal safety profiles of sacubitril/valsartan, compared with those of valsartan alone, remain controversial. Therefore, we aimed to compare the pharmacovigilance signals related to cardiovascular and renal adverse events between sacubitril/valsartan and valsartan alone using the Food and Drug Administrat",
+        "score": 0.41577064990997314,
+        "doi": "10.1080/14740338.2024.2436100",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": -0.5474468469619751,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

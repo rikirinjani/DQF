@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Linagliptin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39462543",
+        "text": "Effect of switching from dulaglutide to tirzepatide on blood glucose and renal function. The case reports a woman in her 70s, with type 2 diabetes and chronic kidney disease in G4 stage. The patient had elevated HbA1c, and she was switched from linagliptin, a dipeptidyl peptidase 4 inhibitor, to dulaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1RA). Thereafter, the HbA1c level decreased; however, since the dulaglutide supply became a problem, the patient was switched to tirzepatide, a glucose-de",
+        "score": 0.3784957528114319,
+        "doi": "10.5582/ddt.2024.01061",
+        "journal": "Drug discoveries & therapeutics",
+        "year": "2024",
+        "rerank_score": 1.127229928970337,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38907684",
+        "text": "Semaglutide and Cardiovascular Outcomes by Baseline HbA1c and Change in HbA1c in People With Overweight or Obesity but Without Diabetes in SELECT. To evaluate the cardiovascular effects of semaglutide by baseline glycated hemoglobin (HbA1c) and change in HbA1c in a prespecified analysis of Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity (SELECT). In SELECT, people with overweight or obesity and atherosclerotic cardiovascular disease without diabetes were randomized to wee",
+        "score": 0.402040958404541,
+        "doi": "10.2337/dc24-0764",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": -1.079386591911316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40297769",
+        "text": "Reduced Weight Gain with Pioglitazone vs Vildagliptin in  This subgroup analysis of a randomised, open-label, two-period crossover trial in Aotearoa New Zealand (February 2019 to March 2020) assessed whether the glucose-lowering effects of vildagliptin, vs pioglitazone varied by the  Adults with type 2 diabetes and HbA1c > 58 mmol/mol (>7.5%) received either pioglitazone (30 mg) or vildagliptin (50 mg) for 16 weeks, then switched medications for another 16 weeks. Differences in HbA1c between treatments (pio",
+        "score": 0.3854628801345825,
+        "doi": "10.2147/DMSO.S500336",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2024",
+        "rerank_score": -1.37539803981781,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

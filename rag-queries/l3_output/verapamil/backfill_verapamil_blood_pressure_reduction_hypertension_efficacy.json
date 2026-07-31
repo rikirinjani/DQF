@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Verapamil blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38070127",
+        "text": "Verapamil modulates NFAT2 to inhibit tumor growth and potentiates PD1ab immune checkpoint inhibitor therapy in cervical cancer treatment. Current evidence suggests a high co-prevalence of hypertension and cervical cancer. Accordingly, blood pressure control is indicated during anti-tumor drug therapy in this patient population. Over the past few years, immunotherapy has made great strides in treating different cancers. However, the role and clinical significance of verapamil as a first-line anti-hypertensiv",
+        "score": 0.4016367495059967,
+        "doi": "10.1080/10799893.2023.2291562",
+        "journal": "Journal of receptor and signal transduction research",
+        "year": "2024",
+        "rerank_score": 5.292942523956299,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39296914",
+        "text": "Effects of intracoronary administration of small doses of nicorandil and verapamil on blood pressure and heart rate. Nicorandil and verapamil can improve coronary blood flow and coronary microcirculation during percutaneous coronary intervention. However, the effects of intracoronary (IC) administration of nicorandil and verapamil on hemodynamics remain unclear. To clarify the safety and effects of IC administration of nicorandil and verapamil on blood pressure (BP) and heart rate (HR) to provide evidence-b",
+        "score": 0.4071525037288666,
+        "doi": "10.1016/j.ahjo.2024.100461",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "year": "2024",
+        "rerank_score": 3.99812912940979,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40083595",
+        "text": "Posttreatment pulse rate reduction and not baseline pulse rate as an indicator of blood pressure response to nebivolol: a subanalysis from the real-world BENEFIT-KOREA study. This subanalysis of BENEFIT-KOREA cohort assessed the impact of baseline pulse rate (PR) and posttreatment PR reduction on the blood pressure (BP)-lowering efficacy of nebivolol in patients with hypertension. South Korean patients with hypertension were enrolled in the BENEFIT-KOREA study; 3,011 patients received nebivolol as monothera",
+        "score": 0.4023604691028595,
+        "doi": "10.5646/ch.2025.31.e8",
+        "journal": "Clinical hypertension",
+        "year": "2024",
+        "rerank_score": 2.7455413341522217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

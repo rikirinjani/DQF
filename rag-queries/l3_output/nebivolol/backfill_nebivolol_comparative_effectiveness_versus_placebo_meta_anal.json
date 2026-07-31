@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Nebivolol comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23008339",
+        "text": "Efficacy and tolerability of nebivolol: does age matter? A retrospective analysis of three randomized, placebo-controlled trials in stage I-II hypertension. This retrospective analysis examined the efficacy and tolerability of nebivolol, a ß(1)-selective, vasodilatory β-blocker, in four different age groups of patients with hypertension.",
+        "score": 0.405996710062027,
+        "doi": "10.1177/1753944712459593",
+        "journal": "Therapeutic advances in cardiovascular disease",
+        "year": "2012",
+        "rerank_score": 3.4007139205932617,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9140802",
+        "text": "A dose-response trial of nebivolol in essential hypertension. A double-blind placebo-controlled dose-response trial of nebivolol, a cardioselective beta-blocking drug which also induces endothelium-dependent dilatation via nitric oxide, has been performed. Nebivolol reduced blood pressure (BP) in a dose dependent way, and was shown to be effective given once daily, without appreciable differences between peak and trough drug levels. There was no postural component to the BP fall. There was no clear inferior",
+        "score": 0.40601015090942383,
+        "doi": "10.1038/sj.jhh.1000392",
+        "journal": "Journal of human hypertension",
+        "year": "1997",
+        "rerank_score": 2.8711295127868652,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39920066",
+        "text": "Beneficial and harmful effects of duloxetine versus placebo, 'active placebo' or no intervention for adults with major depressive disorder: a systematic review with meta-analysis and trial sequential analysis of randomised clinical trials. To assess the beneficial and harmful effects of duloxetine versus 'active placebo', placebo or no intervention for adults with major depressive disorder. Systematic review with meta-analysis and trial sequential analysis of randomised trials. Cochrane Central Register of ",
+        "score": 0.42841631174087524,
+        "doi": "10.1136/bmjopen-2023-082853",
+        "journal": "BMJ open",
+        "year": "2025",
+        "rerank_score": 1.9745279550552368,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

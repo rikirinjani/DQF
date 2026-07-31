@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Diltiazem effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3057851",
+        "text": "Comparison of diltiazem and hydrochlorothiazide for treatment of patients 60 years of age or older with systemic hypertension. This randomized, double-blind, parallel design trial compared the efficacy and safety of monotherapy with either sustained-release diltiazem or hydrochlorothiazide in 61 men greater than or equal to 60 years of age with a diastolic blood pressure (BP) between 94 and 104 mm Hg. BP, heart rate, laboratory blood and urine tests, left ventricular wall thickness and mass index (as estima",
+        "score": 0.35084807872772217,
+        "doi": "10.1016/0002-9149(88)90263-9",
+        "journal": "The American journal of cardiology",
+        "year": "1988",
+        "rerank_score": -0.6727607846260071,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38571388",
+        "text": "Clinical Outcomes Associated With Diltiazem Use in Heart Failure With Reduced Ejection Fraction After Implementation of a Clinical Support System. Despite atrial fibrillation guideline recommendations, many patients with heart failure with reduced ejection fraction (EF) continue to receive IV diltiazem for acute rate control. Our institution recently implemented a clinical decision support system (CDSS)-based tool that recommends against the use of diltiazem in patients with an EF ≤ 40%. The objective of th",
+        "score": 0.40118247270584106,
+        "doi": "10.1177/10600280241243071",
+        "journal": "The Annals of pharmacotherapy",
+        "year": "2024",
+        "rerank_score": -2.237208843231201,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40298137",
+        "text": "Influence of cuff size on the accuracy of supine blood pressure measurement. The discrepancy in blood pressure (BP) measurements while in a supine position using an upper-arm automated sphygmomanometer equipped with cuffs of varying sizes remains unresolved. In this single-center, randomized crossover trial, a total of 223 inpatients from the Affiliated Hospital of Putian University were enrolled between August and September 2023. Three sets of triplicate BP measurements were obtained while the participants",
+        "score": 0.40521693229675293,
+        "doi": "10.1097/MBP.0000000000000752",
+        "journal": "Blood pressure monitoring",
+        "year": "2025",
+        "rerank_score": -7.552207946777344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

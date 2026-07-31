@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Ertugliflozin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33721213",
+        "text": "Efficacy and Safety of Ertugliflozin in Patients with Type 2 Diabetes Inadequately Controlled by Metformin and Sulfonylurea: A Sub-Study of VERTIS CV. VERTIS CV is the cardiovascular outcome trial for the sodium-glucose cotransporter 2 (SGLT2) inhibitor ertugliflozin. A sub-study was conducted to assess the efficacy and safety of ertugliflozin in patients with type 2 diabetes mellitus (T2DM) inadequately glycemic-controlled on metformin and a sulfonylurea (SU).",
+        "score": 0.4473835229873657,
+        "doi": "10.1007/s13300-021-01033-x",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2020",
+        "rerank_score": 1.6512176990509033,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33026243",
+        "text": "Efficacy of Ertugliflozin on Heart Failure-Related Events in Patients With Type 2 Diabetes Mellitus and Established Atherosclerotic Cardiovascular Disease: Results of the VERTIS CV Trial. In patients with type 2 diabetes mellitus, sodium-glucose cotransporter 2 inhibitors reduce the risk of hospitalization for heart failure (HHF). We assessed the effect of ertugliflozin on HHF and related outcomes.",
+        "score": 0.4487631618976593,
+        "doi": "10.1161/CIRCULATIONAHA.120.050255",
+        "journal": "Circulation",
+        "year": "2020",
+        "rerank_score": 1.4672625064849854,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37955156",
+        "text": "Longitudinal efficacy of Ertugliflozin in type 2 diabetes mellitus: a meta-analysis of randomized controlled trials. Ertugliflozin, a sodium-glucose cotransporter-2 inhibitor, seems to improve glycemic control in type 2 diabetes mellitus (T2DM). We aim to evaluate the efficacy of Ertugliflozin across multiple time intervals (18, 26, and 52 weeks) in T2DM patients. A literature search was conducted on electronic databases. Data was extracted from eligible studies at both 5 mg and 15 mg doses in monotherapy a",
+        "score": 0.45883530378341675,
+        "doi": "10.1080/14656566.2023.2279100",
+        "journal": "Expert opinion on pharmacotherapy",
+        "year": "2024",
+        "rerank_score": 0.37102165818214417,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

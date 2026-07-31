@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Candesartan mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39358448",
+        "text": "Phase III randomized clinical trial of efficacy and safety of amlodipine and candesartan cilexetil combination for hypertension treatment. Effective antihypertensive therapy is essential for achieving optimal blood pressure (BP) control and reducing cardiovascular events. This double-blind, multicenter, randomized trial aimed to compare the antihypertensive efficacy and safety of a combination of amlodipine (AML) and candesartan cilexetil (CC) versus AML monotherapy in patients with essential hypertension (",
+        "score": 0.36384594440460205,
+        "doi": "10.1038/s41598-024-74003-5",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": 4.9458465576171875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40975098",
+        "text": "Candesartan versus placebo for migraine prevention in patients with episodic migraine: a randomised, triple-blind, placebo-controlled, phase 2 trial. Effective and well-tolerated preventive treatments for migraine remain few, and the angiotensin receptor blocker candesartan has shown promise in small studies. This study aimed to evaluate the safety, tolerability, and efficacy of candesartan for the preventive treatment of episodic migraine. This randomised, triple-blind, placebo-controlled, parallel-group, ",
+        "score": 0.3596963584423065,
+        "doi": "10.1016/S1474-4422(25)00269-8",
+        "journal": "The Lancet. Neurology",
+        "year": "2025",
+        "rerank_score": 3.799502372741699,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38663908",
+        "text": "CandeSpartan Study: Candesartan Spanish Response-prediction and Tolerability study in migraine. Effectiveness of candesartan in migraine prevention is supported by two randomized controlled trials. We aimed to assess the effectiveness, tolerability, and response predictors of candesartan in the preventive treatment of migraine. Observational, multicenter, prospective cohort study. The 50%, 75% and 30% responder rates, between weeks 8-12 and 20-24, were compared with the baseline. Treatment emergent adverse ",
+        "score": 0.3864399194717407,
+        "doi": "10.1177/03331024241248833",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 3.0386383533477783,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

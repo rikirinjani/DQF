@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Dapagliflozin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:22431673",
+        "text": "Long-term efficacy of dapagliflozin in patients with type 2 diabetes mellitus receiving high doses of insulin: a randomized trial. Dapagliflozin, a selective inhibitor of sodium-glucose cotransporter 2, may improve glycemic control with a lower dose of insulin and attenuate the associated weight gain in patients with inadequate control despite high doses of insulin.",
+        "score": 0.35988813638687134,
+        "doi": "10.7326/0003-4819-156-6-201203200-00003",
+        "journal": "Annals of internal medicine",
+        "year": "2012",
+        "rerank_score": 5.912687301635742,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30026335",
+        "text": "Efficacy and Safety of Dapagliflozin in Patients With Inadequately Controlled Type 1 Diabetes (the DEPICT-2 Study): 24-Week Results From a Randomized Controlled Trial. This 24-week, double-blinded, phase 3 clinical trial (DEPICT-2; ClinicalTrials.gov, NCT02460978) evaluated efficacy and safety of dapagliflozin as adjunct therapy to adjustable insulin in patients with inadequately controlled type 1 diabetes (HbA",
+        "score": 0.3626985549926758,
+        "doi": "10.2337/dc18-0623",
+        "journal": "Diabetes care",
+        "year": "2018",
+        "rerank_score": 5.912038326263428,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31742898",
+        "text": "Efficacy and safety of dapagliflozin in Japanese patients with inadequately controlled type 1 diabetes (DEPICT-5): 52-week results from a randomized, open-label, phase III clinical trial. To investigate the safety and tolerability of 5 and 10 mg dapagliflozin added to insulin therapy over 52 weeks in Japanese patients with inadequately controlled type 1 diabetes mellitus (T1DM).",
+        "score": 0.3635324239730835,
+        "doi": "10.1111/dom.13922",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2019",
+        "rerank_score": 5.489597320556641,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

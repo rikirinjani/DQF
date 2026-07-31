@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Ketorolac number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17395871",
+        "text": "Clinical impact of NXY-059 demonstrated in the SAINT I trial: derivation of number needed to treat for benefit over entire range of functional disability. The SAINT I trial demonstrated that the neuroprotective agent NXY-059 improves the distribution of acute stroke patient outcomes on the modified Rankin Scale (mRS) of global disability. Standard dichotomized number-needed-to-treat (NNT) analyses for the magnitude of treatment benefit range widely, from 22.7 to infinity, and each capture only a portion of ",
+        "score": 0.4641534090042114,
+        "doi": "10.1161/01.STR.0000263135.47779.9e",
+        "journal": "Stroke",
+        "year": "2007",
+        "rerank_score": 3.029644727706909,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40110336",
+        "text": "Efficacy and safety of ketorolac and dexamethasone for preventing renal colic post stent removal: a randomized triple-blind, placebo-controlled clinical trial. Renal colic following stent removal post-ureteroscopy is a significant clinical issue. This study aims to evaluate the efficacy and safety of intramuscular ketorolac and dexamethasone in preventing renal colic after stent removal. A randomized, triple-blind, placebo-controlled clinical trial was conducted with 147 patients. Participants were allocate",
+        "score": 0.4898887872695923,
+        "doi": "10.1097/MS9.0000000000002934",
+        "journal": "Annals of medicine and surgery (2012)",
+        "year": "2024",
+        "rerank_score": -0.5971642136573792,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17414980",
+        "text": "Bleeding risk with ketorolac after lumbar microdiscectomy. There is a need to improve postoperative analgesia to support the trend to shorter hospitalization after minimally invasive spine surgeries. Ketorolac Tromethamine has proven efficacy in decreasing postoperative pain but there is concern with postoperative epidural bleeding after spine procedures. We prospectively assessed the incidence of bleeding complications after microdiscectomy in patients treated with a single 30 mg intraoperative dose of Ket",
+        "score": 0.4636668562889099,
+        "doi": "10.1097/01.bot.0000211163.51605.ae",
+        "journal": "Journal of spinal disorders & techniques",
+        "year": "2007",
+        "rerank_score": -1.9200894832611084,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

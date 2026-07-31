@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Ibuprofen time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41338520",
+        "text": "Effect of ibuprofen on the pharmacokinetics of intravenous flucloxacillin in healthy adults. Ibuprofen is frequently co-administered with antibiotics for its analgesic effect when treating infections. In vitro studies have shown that ibuprofen exhibits concentration-dependent inhibition of organic anion transporters (OAT) 1 and OAT3, and therefore may reduce clearance of β-lactams, including flucloxacillin, in a similar manner to probenecid. We therefore aimed to evaluate the effect of ibuprofen on the phar",
+        "score": 0.3569228947162628,
+        "doi": "10.1016/j.ijantimicag.2025.107684",
+        "journal": "International journal of antimicrobial agents",
+        "year": "2025",
+        "rerank_score": 2.484553813934326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41052574",
+        "text": "Mechanistic embedding of concise physiological absorption models for enhanced prediction in population pharmacokinetic modeling of oral ibuprofen. Ibuprofen, a commonly used non-steroidal anti-inflammatory drug (NSAID), exhibits considerable variability in pharmacokinetics following oral administration, particularly during the absorption phase. This study aimed to enhance the mechanistic understanding of ibuprofen absorption by developing and integrating physiologically-informed models of absorption within ",
+        "score": 0.369086354970932,
+        "doi": "10.1016/j.mbs.2025.109546",
+        "journal": "Mathematical biosciences",
+        "year": "2025",
+        "rerank_score": 1.471321940422058,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38641229",
+        "text": "Bioequivalence risk assessment of oral formulations containing racemic ibuprofen through a chiral physiologically based pharmacokinetic model of ibuprofen enantiomers. The characterization of the time course of ibuprofen enantiomers can be useful in the selection of the most sensitive analyte in bioequivalence studies. Physiologically based pharmacokinetic (PBPK) modelling and simulation represents the most efficient methodology to virtually assess bioequivalence outcomes. In this work, we aim to develop an",
+        "score": 0.3914071321487427,
+        "doi": "10.1016/j.ejpb.2024.114293",
+        "journal": "European journal of pharmaceutics and biopharmaceutics : official journal of Arb",
+        "year": "2024",
+        "rerank_score": -1.2317379713058472,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

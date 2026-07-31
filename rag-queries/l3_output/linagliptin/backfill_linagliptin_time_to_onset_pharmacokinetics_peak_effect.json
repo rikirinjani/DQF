@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Linagliptin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41360102",
+        "text": "Effect of Scutellarin on the Pharmacokinetics and Pharmacodynamics of Warfarin in Rats. The study aims to investigate the pharmacodynamics and pharmacokinetics to elucidate the mechanism of enhanced anticoagulant effect of scutellarin and its preparations on warfarin. Evaluation of pharmacodynamic effects is undertaken by measuring coagulation parameters prothrombin time (PT) and activated partial thromboplastin time (APTT). The UHPLC-ESI-MS/MS method is used to determine the plasma concentrations of R/S-wa",
+        "score": 0.38506364822387695,
+        "doi": "10.1055/a-2748-8868",
+        "journal": "Planta medica",
+        "year": "2025",
+        "rerank_score": -3.26670503616333,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38830622",
+        "text": "A drug-drug interaction study and physiologically based pharmacokinetic modelling to assess the effect of an oral 5-lipoxygenase activating protein inhibitor on the pharmacokinetics of oral midazolam. Early clinical studies have indicated that the pharmacokinetics of Atuliflapon (AZD5718) are time and dose dependent. The reason(s) for these findings is(are) not fully understood, but pre-clinical profiling suggests that time-dependent CYP3A4 inhibition cannot be excluded. In clinical practice, Atuliflapon wi",
+        "score": 0.38924676179885864,
+        "doi": "10.1111/bcp.16131",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -4.577662944793701,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40704545",
+        "text": "Belatacept Pharmacokinetic Analysis of Belatacept Early Steroid Withdrawal Trial (BEST) to Clinical Outcomes and Compared With Reported BENEFIT and BENEFIT-EXT Pharmacokinetic Analysis. Belatacept (BELA) pharmacokinetic (PK) studies informed dosing strategies used in phase 3 studies, where fixed mg/kg dosing compared a less intensive (LI) and more intensive (MI) regimen. The LI regimen was preferred due to a better risk/benefit profile. We compared PK parameters observed in the BELA Early Steroid Withdrawal",
+        "score": 0.38118788599967957,
+        "doi": "10.1111/ctr.70172",
+        "journal": "Clinical transplantation",
+        "year": "2025",
+        "rerank_score": -6.129395961761475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Celecoxib mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40877941",
+        "text": "Whole-gene CRISPR/cas9 library screen revealed targeting STAT6 increased the sensitivity of liver cancer to celecoxib via inhibiting arachidonic acid shunting. Celecoxib, a selective COX-2 inhibitor, has demonstrated anti-liver cancer effects in various preclinical models and clinical traits. However, prolonged use of celecoxib can lead to drug resistance, necessitating higher doses to maintain efficacy, which often results in severe side effects, limiting its clinical application. This study aimed to ident",
+        "score": 0.3783676326274872,
+        "doi": "10.1186/s12964-025-02374-x",
+        "journal": "Cell communication and signaling : CCS",
+        "year": "2025",
+        "rerank_score": 3.7618539333343506,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40314885",
+        "text": "Adverse Reactions Following First-Dose Administration of Co-Crystal of Tramadol-Celecoxib Versus Tramadol Alone for Moderate-To-Severe Acute Pain. Phase 3 clinical trials in moderate-to-severe acute pain have shown that co-crystal of tramadol-celecoxib (CTC) has improved efficacy and comparable tolerability versus immediate-release tramadol 50 mg alone, with a similar tramadol daily dose, over a 48-h treatment period. However, it is not known how first-dose tolerability compares, given that the administered",
+        "score": 0.42990583181381226,
+        "doi": "10.1007/s40122-025-00730-w",
+        "journal": "Pain and therapy",
+        "year": "2024",
+        "rerank_score": 3.3437564373016357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41383482",
+        "text": "Celecoxib in oncology: targeting the COX-2/PGE Celecoxib, a selective cyclooxygenase-2 (COX-2) inhibitor, has emerged as a multifaceted therapeutic agent in oncology due to its dual anti-inflammatory and antitumor properties. This review synthesizes recent advances in understanding the molecular mechanisms and clinical applications of celecoxib in cancer treatment. Celecoxib not only hinders the proliferation and metastasis of tumor cells by inhibiting COX-2 synthesis, but also inhibits the intratumoral inf",
+        "score": 0.38912057876586914,
+        "doi": "10.3389/fphar.2025.1691392",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 3.327782392501831,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

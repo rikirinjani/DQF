@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Perindopril randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8328365",
+        "text": "A new trial of the efficacy, tolerability, and safety of angiotensin-converting enzyme inhibition in mild systemic hypertension with concomitant diseases and therapies. Perindopril Therapeutic Safety Study Group (PUTS). A multicenter, double-blind, randomized, and placebo-controlled trial, the Perindopril Therapeutic Safety Study (PUTS), was designed to assess the interaction between angiotensin-converting enzyme (ACE) inhibition and the diseases and therapies commonly found associated with mild hypertensio",
+        "score": 0.3881227374076843,
+        "doi": "10.1016/0002-9149(93)90950-h",
+        "journal": "The American journal of cardiology",
+        "year": "1993",
+        "rerank_score": 3.7705023288726807,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12605793",
+        "text": "[Utility of perindopril in mild-moderate heart failure in daily clinical practice. METRICA trial]. Angiotensin II converting enzyme inhibitors have an unquestionable utility in heart failure, although these drugs are underused and rarely used at the recommended doses in the clinical practice. The objective of this investigation was to study the simplicity of perindopril use in the treatment of heart failure and to confirm its clinical and radiological efficacy.",
+        "score": 0.38887056708335876,
+        "doi": "10.1157/13042181",
+        "journal": "Revista clinica espanola",
+        "year": "2003",
+        "rerank_score": -0.4344918727874756,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41459242",
+        "text": "Randomized controlled trial to evaluate an app-based multimodal digital intervention for people with type 2 diabetes in comparison to a placebo app. This multi-center, parallel-group randomized controlled trial evaluated the app-based intervention  A total of 153 participants were randomized in a 1:1 ratio to either intervention or control group, with allocation concealment ensured by a minimization procedure. After six months, participants using  These findings indicate that the digital approach can meanin",
+        "score": 0.40115073323249817,
+        "doi": "10.3389/fdgth.2025.1644612",
+        "journal": "Frontiers in digital health",
+        "year": "2025",
+        "rerank_score": -1.115135908126831,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

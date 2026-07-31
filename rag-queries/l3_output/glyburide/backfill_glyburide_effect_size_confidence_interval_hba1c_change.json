@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Glyburide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38907684",
+        "text": "Semaglutide and Cardiovascular Outcomes by Baseline HbA1c and Change in HbA1c in People With Overweight or Obesity but Without Diabetes in SELECT. To evaluate the cardiovascular effects of semaglutide by baseline glycated hemoglobin (HbA1c) and change in HbA1c in a prespecified analysis of Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity (SELECT). In SELECT, people with overweight or obesity and atherosclerotic cardiovascular disease without diabetes were randomized to wee",
+        "score": 0.40588217973709106,
+        "doi": "10.2337/dc24-0764",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": 0.9510777592658997,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.38475501537323,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": 0.40169012546539307,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40396765",
+        "text": "Impact of HbA1c variability and time-in-range fluctuations on large and small nerve fiber dysfunction in well-controlled type 2 diabetes: A prospective cohort observational study. Glycemic variability (GV) is a critical factor in the development of diabetic sensorimotor polyneuropathy (DSPN). This study aimed to evaluate the association of long-term GV, measured by glycated hemoglobin (HbA1c) average real variability (ARV), and short-term GV, assessed by time-in-range (TIR) ARV, with large and small nerve f",
+        "score": 0.3998548984527588,
+        "doi": "10.1111/jdi.70079",
+        "journal": "Journal of diabetes investigation",
+        "year": "2025",
+        "rerank_score": 0.39441701769828796,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

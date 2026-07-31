@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Metformin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40963103",
+        "text": "Effect of high-intensity interval exercise on metformin pharmacokinetics in healthy men, assessed through a population pharmacokinetic model. Metformin and exercise are first-line therapies for prediabetes and type 2 diabetes. However, it is unclear whether the combination of metformin and exercise is synergistic or antagonistic. The aim of this study was to investigate the effect of exercise on metformin pharmacokinetics and help clarify the contradictory outcomes regarding the combination of metformin and",
+        "score": 0.39419907331466675,
+        "doi": "10.1111/bph.70208",
+        "journal": "British journal of pharmacology",
+        "year": "2025",
+        "rerank_score": 2.1904685497283936,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23713537",
+        "text": "Effect of metformin on substrate utilization after exercise training in adults with impaired glucose tolerance. Metformin attenuates the higher insulin sensitivity that occurs with exercise training. Sixteen people with prediabetes trained for 10 weeks while taking metformin (n = 8) or placebo (n = 8). Substrate utilization was assessed using glucose kinetics and indirect calorimetry. After training, exercise whole-body fat oxidation was higher and glycogen use lower (p < 0.05), with no differences between ",
+        "score": 0.3462669551372528,
+        "doi": "10.1139/apnm-2012-0433",
+        "journal": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition",
+        "year": "2013",
+        "rerank_score": 0.6909227967262268,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41599184",
+        "text": "Old Drug, New Science: Metformin and the Future of Pharmaceutics. Metformin, a 60-year-old biguanide and cornerstone of type 2 diabetes therapy, continues to challenge and inspire modern pharmaceutical science. Despite its chemical simplicity, metformin displays highly complex pharmacokinetic and pharmacodynamic behavior driven by transporter dependence, luminal activity, and formulation-sensitive exposure. Originally regarded as limited by low permeability and incomplete absorption, metformin has emerged a",
+        "score": 0.35292378067970276,
+        "doi": "10.3390/pharmaceutics18010077",
+        "journal": "Pharmaceutics",
+        "year": "2025",
+        "rerank_score": 0.42173224687576294,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

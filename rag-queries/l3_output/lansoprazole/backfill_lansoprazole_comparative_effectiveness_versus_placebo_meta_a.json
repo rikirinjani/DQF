@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Lansoprazole comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7639232",
+        "text": "Comparison of once daily doses of lansoprazole (15, 30, and 60 mg) and placebo in patients with gastric ulcer. A multicenter, double-blind study was conducted in 268 patients to compare the safety and efficacy of 15, 30, and 60 mg of lansoprazole and placebo in the treatment of gastric ulcer.",
+        "score": 0.3789566159248352,
+        "doi": "",
+        "journal": "The American journal of gastroenterology",
+        "year": "1995",
+        "rerank_score": 5.011002540588379,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39539895",
+        "text": "Comparative Efficacy of Dexlansoprazole, Pantoprazole, Esomeprazole, and Rabeprazole in Achieving Optimal 24-Hour Intragastric pH Control: A Randomized Crossover Study Using Ambulatory pH Monitoring. Proton pump inhibitors (PPIs) regulate gastric acid reflux. Dexlansoprazole's efficacy in prolonging acid suppression compared to conventional PPIs and placebo requires evaluation. A prospective, randomized, placebo-controlled, five-way crossover pilot study was conducted on healthy volunteers comparing the pot",
+        "score": 0.3799892067909241,
+        "doi": "10.7759/cureus.71418",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 4.797738075256348,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1382017",
+        "text": "Lansoprazole. A review of its pharmacodynamic and pharmacokinetic properties and its therapeutic efficacy in acid-related disorders. Lansoprazole is an effective acid pump inhibitor acting at the final enzymatic step of the acid secretory pathway of the parietal cell, decreasing gastric acid secretion regardless of the primary stimulus. Results of short term (less than 8 weeks) clinical trials have shown lansoprazole to be significantly superior to placebo and ranitidine in the treatment of duodenal ulcer, ",
+        "score": 0.3828722834587097,
+        "doi": "10.2165/00003495-199244020-00007",
+        "journal": "Drugs",
+        "year": "1992",
+        "rerank_score": 3.553312301635742,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

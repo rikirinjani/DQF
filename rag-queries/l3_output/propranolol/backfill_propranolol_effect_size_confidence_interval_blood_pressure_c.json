@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Propranolol effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40052723",
+        "text": "The Impact of Heart Rate Reduction From Individual Baseline With Propranolol for Primary and Secondary Prophylaxis of Variceal Hemorrhage in Cirrhosis. A target heart rate of 55-60 beats per minute is a goal for propranolol in both primary and secondary prophylaxis of variceal hemorrhage (VH). However, dose adjustments are often needed based on baseline heart rates. This study analyzed the effect of heart rate reduction from baseline with propranolol therapy on VH in patients with cirrhosis. A retrospective",
+        "score": 0.411044716835022,
+        "doi": "10.1111/cts.70192",
+        "journal": "Clinical and translational science",
+        "year": "2025",
+        "rerank_score": 0.733020007610321,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41036277",
+        "text": "Blood pressure lowering for prevention of episodic migraine: results of a pilot randomized, placebo-controlled trial of combination blood pressure lowering medication with propranolol. Beta blockers are effective in migraine prevention. Low-dose combination therapy of blood pressure lowering is likely to lower blood pressure more than a beta-blocker, but there are no data on comparative efficacy of these treatments in migraine prophylaxis. A double-blind, randomized, pilot trial in participants with episodi",
+        "score": 0.3748205900192261,
+        "doi": "10.3389/fneur.2025.1630732",
+        "journal": "Frontiers in neurology",
+        "year": "2025",
+        "rerank_score": -2.055257558822632,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.405800461769104,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": -3.125964641571045,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

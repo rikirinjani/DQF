@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Dulaglutide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36337026",
+        "text": "Meta-analysed numbers needed to treat of novel antidiabetic drugs for cardiovascular outcomes. Absolute treatment effects-i.e. numbers needed to treat (NNTs)-of novel antidiabetic drugs for cardiovascular outcomes have not been comprehensively evaluated. We aimed to perform a meta-analysis of digitalized individual patient outcomes to display and compare absolute treatment effects.",
+        "score": 0.45013582706451416,
+        "doi": "10.1002/ehf2.14213",
+        "journal": "ESC heart failure",
+        "year": "2022",
+        "rerank_score": 2.209287405014038,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31517629",
+        "text": "Efficacy and safety of dulaglutide in patients with absolute insulin deficiency. While dulaglutide has been approved inpatients with type 2 diabetes (T2DM) in combination with insulin, it has not been studied in insulin-deficient patients, not whether they have type 1 diabetes (T1DM) or T2DM. The aim of this study is to assess the efficacy and safety of dulaglutide 0.75 mg/once weekly (QW) in patients with absolute insulin deficiency (n=10).",
+        "score": 0.4496135115623474,
+        "doi": "10.2478/enr-2019-0019",
+        "journal": "Endocrine regulations",
+        "year": "2019",
+        "rerank_score": 1.2540481090545654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27488246",
+        "text": "The combination of dulaglutide and biguanide reduced bodyweight in Japanese patients with type 2 diabetes. The efficacy and safety of once-weekly dulaglutide 0.75 mg (dulaglutide) in Japanese patients with type 2 diabetes (T2D) were evaluated according to subgroups defined by concomitant oral hypoglycaemic agents. This exploratory analysis included data from a randomized, open-label, phase III study that compared dulaglutide with insulin glargine (glargine) (n = 361). The three subgroups were dulaglutide or",
+        "score": 0.4479929208755493,
+        "doi": "10.1111/dom.12758",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2016",
+        "rerank_score": 0.36640504002571106,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

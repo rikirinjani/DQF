@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Felodipine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17395871",
+        "text": "Clinical impact of NXY-059 demonstrated in the SAINT I trial: derivation of number needed to treat for benefit over entire range of functional disability. The SAINT I trial demonstrated that the neuroprotective agent NXY-059 improves the distribution of acute stroke patient outcomes on the modified Rankin Scale (mRS) of global disability. Standard dichotomized number-needed-to-treat (NNT) analyses for the magnitude of treatment benefit range widely, from 22.7 to infinity, and each capture only a portion of ",
+        "score": 0.4558749496936798,
+        "doi": "10.1161/01.STR.0000263135.47779.9e",
+        "journal": "Stroke",
+        "year": "2007",
+        "rerank_score": 3.1379799842834473,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40979769",
+        "text": "Understanding number needed to treat (NNT): A practical guide for anaesthesia and critical care clinicians.",
+        "score": 0.4577902853488922,
+        "doi": "10.4103/ija.ija_1000_25",
+        "journal": "Indian journal of anaesthesia",
+        "year": "2025",
+        "rerank_score": 1.038794755935669,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38973145",
+        "text": "Effective Management of Severe Amlodipine/Atenolol Overdose with Intravenous Calcium, Hyperinsulinemic Euglycemia Therapy, and Continuous Veno-Venous Hemodialysis: A Case Report. BACKGROUND Amlodipine, a calcium channel blocker, and atenolol, a beta blocker, are commonly used as a fixed drug combination (FDC) to treat hypertension. Intentional or non-intentional overdose of amlodipine-atenolol results in hypotension and myocardial depression with a high risk of mortality. This report describes a 64-year-old",
+        "score": 0.4901953935623169,
+        "doi": "10.12659/AJCR.943777",
+        "journal": "The American journal of case reports",
+        "year": "2024",
+        "rerank_score": -3.2655563354492188,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

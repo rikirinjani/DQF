@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Tirzepatide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39672540",
+        "text": "Once-Weekly Tirzepatide Versus Once-Daily Basal Insulin in Managing Type 2 Diabetes Inadequately Controlled With Oral anti-Hyperglycemic Drugs: A Systematic Review and Meta-Analysis. No meta-analysis has been published comparing the efficacy and safety of tirzepatide vs once-daily basal insulins in subjects with type 2 diabetes (T2D) inadequately controlled with oral anti-hyperglycemic drugs. This meta-analysis was conducted to address this knowledge gap. Randomized controlled trials involving subjects with",
+        "score": 0.38636913895606995,
+        "doi": "10.1016/j.eprac.2024.12.005",
+        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
+        "year": "2024",
+        "rerank_score": 4.764463901519775,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25162656",
+        "text": "The efficacy of paroxetine and placebo in treating anxiety and depression: a meta-analysis of change on the Hamilton Rating Scales. Previous meta-analyses of published and unpublished trials indicate that antidepressants provide modest benefits compared to placebo in the treatment of depression; some have argued that these benefits are not clinically significant. However, these meta-analyses were based only on trials submitted for the initial FDA approval of the medication and were limited to those aimed at",
+        "score": 0.40412187576293945,
+        "doi": "10.1371/journal.pone.0106337",
+        "journal": "PloS one",
+        "year": "2014",
+        "rerank_score": 2.7525060176849365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22883424",
+        "text": "An indirect comparison of the efficacy and safety of desvenlafaxine and venlafaxine using placebo as the common comparator. This meta-analysis compared the efficacy and safety of desvenlafaxine and venlafaxine at the Australian approved doses.",
+        "score": 0.39851000905036926,
+        "doi": "10.1017/S1092852912000648",
+        "journal": "CNS spectrums",
+        "year": "2012",
+        "rerank_score": 2.659846305847168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

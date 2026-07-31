@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Enalapril number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40246397",
+        "text": "Enalapril for Preventing Cardiotoxicity After High-Dose Anthracycline Therapy in Breast Cancer and Lymphoma Patients.",
+        "score": 0.4664649963378906,
+        "doi": "10.1016/j.jaccao.2025.01.014",
+        "journal": "JACC. CardioOncology",
+        "year": "2025",
+        "rerank_score": -0.6198306083679199,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17324140",
+        "text": "Pharmacokinetics and pharmacodynamics of a nitric oxide-releasing derivative of enalapril in male beagles. 1. Pharmacological compounds that release nitric oxide (NO) have been useful tools in the evaluation of the broad role of NO in physiopathology and therapeutics. The present study compared the pharmacokinetics and pharmacodynamics of enalapril and an NO-releasing enalapril molecule (NCX899) in conscious male beagles. The effects of both enalapril and NCX899 in the arterial hypertension and bradycardia ",
+        "score": 0.4550892412662506,
+        "doi": "10.1111/j.1440-1681.2007.04559.x",
+        "journal": "Clinical and experimental pharmacology & physiology",
+        "year": "2007",
+        "rerank_score": -1.2721487283706665,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39560898",
+        "text": "A Response to: Letter to the Editor Regarding \"Comparing Cardiovascular Outcomes and Costs of Perindopril-, Enalapril- or Losartan-Based Antihypertensive Regimens in South Africa: Real-World Medical Claims Database Analysis\".",
+        "score": 0.48096728324890137,
+        "doi": "10.1007/s12325-024-03045-y",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": -2.1050527095794678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

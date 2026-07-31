@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Insulin Aspart effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.38160407543182373,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -0.3302668035030365,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24667212",
+        "text": "Changes in HbA1c level over a 12-week follow-up in patients with type 2 diabetes following a medication change. Current guidance about the interval needed before retesting HbA1c when monitoring for glycaemic control is based on expert opinion rather than well-powered studies. The aim of our work was to explore how fast HbA1c changes after a change in glucose-lowering medication. This has implications for whether routine HbA1c testing intervals before 12 weeks could inform diabetes medication adjustments.",
+        "score": 0.36922916769981384,
+        "doi": "10.1371/journal.pone.0092458",
+        "journal": "PloS one",
+        "year": "2013",
+        "rerank_score": -1.0817313194274902,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41589534",
+        "text": "A study of the effects of insulin pump therapy on body mass index and glycaemic control in children with type 1 diabetes. This retrospective study aimed to evaluate changes in body mass index (BMI) and haemoglobin A1c (HbA1c) levels among children and adolescents with type 1 diabetes mellitus (T1DM) transitioning from multiple daily injections (MDI) to insulin pump therapy over one year. Data were collected from chart reviews of 33 T1DM patients. BMI z-scores were calculated using WHO charts, and HbA1c leve",
+        "score": 0.38636353611946106,
+        "doi": "",
+        "journal": "Irish medical journal",
+        "year": "2026",
+        "rerank_score": -1.3322285413742065,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

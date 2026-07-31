@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Repaglinide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15199609",
+        "text": "The application of number needed to treat (NNT) to clinical problems in radiotherapy. The goals of this report are: 1) to review the number needed to treat (NNT) concept, which, although well established in many sectors of medicine, is still relatively new to the radiotherapy community; 2) to discuss several clinical radiotherapy examples illustrating the inherent advantages of the NNT approach; and 3) to discuss potential future roles of the NNT concept within radiotherapy.",
+        "score": 0.4603646993637085,
+        "doi": "10.1081/cnv-120030215",
+        "journal": "Cancer investigation",
+        "year": "2004",
+        "rerank_score": 3.50028133392334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.46354469656944275,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 2.2693068981170654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39558612",
+        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
+        "score": 0.4802033007144928,
+        "doi": "10.1177/03331024241299377",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 1.1550053358078003,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

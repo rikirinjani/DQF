@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Atenolol number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38973145",
+        "text": "Effective Management of Severe Amlodipine/Atenolol Overdose with Intravenous Calcium, Hyperinsulinemic Euglycemia Therapy, and Continuous Veno-Venous Hemodialysis: A Case Report. BACKGROUND Amlodipine, a calcium channel blocker, and atenolol, a beta blocker, are commonly used as a fixed drug combination (FDC) to treat hypertension. Intentional or non-intentional overdose of amlodipine-atenolol results in hypotension and myocardial depression with a high risk of mortality. This report describes a 64-year-old",
+        "score": 0.4892328977584839,
+        "doi": "10.12659/AJCR.943777",
+        "journal": "The American journal of case reports",
+        "year": "2024",
+        "rerank_score": 0.21191716194152832,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9200654",
+        "text": "Long-term effect of lisinopril and atenolol on kidney function in hypertensive NIDDM subjects with diabetic nephropathy. The aim of our study was to evaluate whether inhibition of ACE (lisinopril 10-20 mg/day) can reduce the rate of decline in kidney function more than reducing blood pressure with conventional antihypertensive treatment (atenolol 50-100 mg/day), usually in combination with a diuretic. We performed a prospective, randomized, parallel study for 42 months, double blind for the first 12 months ",
+        "score": 0.4694678485393524,
+        "doi": "10.2337/diab.46.7.1182",
+        "journal": "Diabetes",
+        "year": "1997",
+        "rerank_score": -0.46914589405059814,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:7449301",
+        "text": "Effect of atenolol on left ventricular function in hypertensive patients. 1. Atenolol (100 mg/day) was given to 12 hypertensive patients for 8 weeks, and its effects on mean arterial pressure, cardiac index and ejection phase indices of myocardial performance were examined by echocardiography. 2. Echocardiographic studies were made before treatment after 4 weeks on placebo and repeated after 4 and 8 weeks of atenolol therapy. Mean arterial pressure fell by 14 and 21% after 4 and 8 weeks respectively. Cardia",
+        "score": 0.46942949295043945,
+        "doi": "10.1042/cs059473s",
+        "journal": "Clinical science (London, England : 1979)",
+        "year": "1980",
+        "rerank_score": -1.0222216844558716,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Valsartan adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41091778",
+        "text": "A real-world pharmacovigilance analysis of acute renal failure associated with sacubitril/valsartan based on FDA Adverse Event Reporting System (FAERS). The renal safety profile of sacubitril/valsartan remains debated in clinical practice. To address this uncertainty, we conducted a pharmacovigilance analysis of acute renal adverse events associated with sacubitril/valsartan using the FDA Adverse Event Reporting System (FAERS) database. Using data from the FAERS database, we conducted an observational pharm",
+        "score": 0.4533963203430176,
+        "doi": "10.1371/journal.pone.0334402",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": 5.247873306274414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34125356",
+        "text": "Five Years of Sacubitril/Valsartan-a Safety Analysis of Randomized Clinical Trials and Real-World Pharmacovigilance. In PARADIGM-HF, sacubitril/valsartan showed a significant reduction in mortality and hospitalization for patients with heart failure with reduced ejection fraction. Despite proven efficacy, sacubitril/valsartan has moderate uptake in clinical practice. This study explores the safety profile of sacubitril/valsartan by comparing adverse events in RCT and real-world use.",
+        "score": 0.4370395243167877,
+        "doi": "10.1007/s10557-021-07210-1",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2021",
+        "rerank_score": 4.69064998626709,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41017677",
+        "text": "Auditory system adverse events with sacubitril/valsartan: an active-comparator restricted disproportionality analysis using the FDA adverse event reporting system database. Sacubitril/valsartan, an angiotensin receptor-neprilysin inhibitor, is used for heart failure with reduced ejection fraction. Emerging evidence suggests potential ototoxicity, including hearing loss and vestibular disorders, which remain underreported and poorly characterized. Our objective was to compare auditory adverse event (AE) repo",
+        "score": 0.4366914927959442,
+        "doi": "10.1080/14740338.2025.2568242",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": 3.7365379333496094,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

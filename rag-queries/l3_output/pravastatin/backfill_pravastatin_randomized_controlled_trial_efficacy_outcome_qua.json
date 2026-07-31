@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Pravastatin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7932517",
+        "text": "Efficacy and safety of pravastatin in hypertensive hypercholesterolaemic patients on antihypertensive drug therapy. This double-blind, placebo-controlled, six month trial evaluated the efficacy and safety of pravastatin in hypercholesterolaemic, hypertensive patients on antihypertensive treatment, who on a standard lipid-lowering diet maintained a plasma total cholesterol level of at least 250 mg%. Fifty hypertensive patients were randomised to placebo or pravastatin treatment. Once daily dosing consisted o",
+        "score": 0.400584876537323,
+        "doi": "",
+        "journal": "Journal of human hypertension",
+        "year": "1994",
+        "rerank_score": 4.670463562011719,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39861708",
+        "text": "Effect of Staggered vs. Simultaneous Co-Administration of Bempedoic Acid on Pharmacokinetics of Pravastatin: Randomized, Cross-Over Clinical Trial in Healthy Volunteers.",
+        "score": 0.4023992419242859,
+        "doi": "10.3390/pharmaceutics17010060",
+        "journal": "Pharmaceutics",
+        "year": "2024",
+        "rerank_score": 1.6285312175750732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9493258",
+        "text": "Estimating the causal effect of compliance on binary outcome in randomized controlled trials. We examine likelihood based methods aimed at analysing the causal effect of actual exposure to drug treatment on a (repeated) binary outcome in two randomized trials with partial compliance. Starting with the univariate compliance summary 'total treatment dose history', we apply a method for ordinal compliance and monotone dose response, proposed by Goetghebeur and Molenberghs. In a short duration trial of blood pr",
+        "score": 0.4010169506072998,
+        "doi": "10.1002/(sici)1097-0258(19980215)17:3<34",
+        "journal": "Statistics in medicine",
+        "year": "1998",
+        "rerank_score": 1.1020623445510864,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

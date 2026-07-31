@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Valsartan blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40621831",
+        "text": "Efficacy and safety of sacubitril/valsartan in Afro-descendant patients with resistant hypertension: a randomized controlled trial. Sacubitril/valsartan (Sac-Val) has demonstrated blood pressure (BP)-lowering effects, but its role in resistant hypertension remains unclear. This study evaluated the efficacy and safety of Sac-Val compared to optimized angiotensin II receptor blocker (ARB) or angiotensin-converting enzyme inhibitor (ACEI) therapy in Brazilian patients with resistant hypertension, predominantly",
+        "score": 0.36681291460990906,
+        "doi": "10.1097/HJH.0000000000004075",
+        "journal": "Journal of hypertension",
+        "year": "2025",
+        "rerank_score": 8.030823707580566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40255869",
+        "text": "Sacubitril-Valsartan Lowers Blood Pressure in Patients on Dialysis: A Randomized Controlled Multicenter Study. Individuals with end-stage kidney disease frequently grapple with uncontrolled hypertension, which elevates their risk for cardiovascular complications. This randomized, controlled, multicenter study, conducted across 10 hospitals, aimed to compare the effectiveness and safety of sacubitril-valsartan versus irbesartan in managing hypertension among dialysis patients. The primary efficacy variable o",
+        "score": 0.37305954098701477,
+        "doi": "10.1159/000545195",
+        "journal": "Kidney diseases (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": 7.476384162902832,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39826131",
+        "text": "Sacubitril/Valsartan for Blood Pressure Lowering in Non-Dialysis-Dependent Chronic Kidney Disease Stage 3-5 Patients With Hypertension: A Multicenter Clinical Study. To assess the effectiveness and safety of Sacubitril/Valsartan in reducing blood pressure in individuals with non-dialysis-dependent chronic kidney disease (NDD-CKD) Stage 3-5 complicated by hypertension. This study was a multicenter retrospective analysis conducted from March 1, 2022 to March 31, 2024, involving adult patients with NDD-CKD Sta",
+        "score": 0.4198567271232605,
+        "doi": "10.1111/jch.14969",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2024",
+        "rerank_score": 7.104755878448486,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

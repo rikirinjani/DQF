@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Diclofenac comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.4377748370170593,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 4.692266464233398,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38679808",
+        "text": "Comparison of diclofenac with tramadol, tizanidine or placebo in the treatment of acute low back pain and sciatica: multi-center randomized controlled trial. Low back pain (LBP) is a leading cause of disability worldwide and has posed numerous health and socioeconomic challenges. This study compared whether nonsteroidal anti-inflammatory drugs (NSAIDs) in combination with tramadol, tizanidine or placebo would be the best treatment regime to improve the Roland Morris Disability Questionnaire (RMDQ) scores at",
+        "score": 0.435917466878891,
+        "doi": "10.1093/postmj/qgae052",
+        "journal": "Postgraduate medical journal",
+        "year": "2024",
+        "rerank_score": 2.7739782333374023,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39899873",
+        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
+        "score": 0.4258466958999634,
+        "doi": "10.7326/ANNALS-24-00315",
+        "journal": "Annals of internal medicine",
+        "year": "2025",
+        "rerank_score": 2.480670213699341,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

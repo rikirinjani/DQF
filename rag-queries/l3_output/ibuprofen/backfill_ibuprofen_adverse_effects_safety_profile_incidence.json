@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Ibuprofen adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40873910",
+        "text": "Ibuprofen-Induced Toxic Epidermal Necrolysis: Report of a Fatal Case. Ibuprofen is a widely used and easily accessible medication that belongs to the nonsteroidal anti-inflammatory drug class. Its most common adverse effects are gastrointestinal. However, there are a few reported cases of fatal side effects. We report a case of toxic epidermal necrolysis (TEN) potentially affecting more than 80% of the total body surface area, triggered by ibuprofen in a 77-year-old female patient after taking it for the fi",
+        "score": 0.42481130361557007,
+        "doi": "10.7759/cureus.91001",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 4.2041425704956055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40235710",
+        "text": "Self-reporting of adverse drug reactions of nonsteroidal anti-inflammatory drugs in community pharmacies. Ibuprofen and diclofenac are nonsteroidal anti-inflammatory drugs widely used worldwide. Spontaneous reporting often results in an underestimation of the incidence of adverse drug reactions (ADRs), and a few studies have been conducted in community settings, particularly in community pharmacies. This study aimed to determine the frequency and characteristics of short-term ADRs associated with ibuprofen ",
+        "score": 0.43079128861427307,
+        "doi": "10.1080/20523211.2025.2483419",
+        "journal": "Journal of pharmaceutical policy and practice",
+        "year": "2025",
+        "rerank_score": 3.583812713623047,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40115566",
+        "text": "Assessing the safety and adverse effects of paracetamol, ibuprofen, and their combination in paediatric pain and fever management: A prospective observational study. Pain and fever are common paediatric complaints that demand meticulous symptom alleviation to ensure the child's holistic well-being. Paracetamol, ibuprofen, and their synergistic coadministration occupy a crucial position, rendering the management of these symptoms efficacious. This study aims to evaluate the safety and adverse effects of para",
+        "score": 0.45299452543258667,
+        "doi": "10.4103/jfmpc.jfmpc_348_24",
+        "journal": "Journal of family medicine and primary care",
+        "year": "2024",
+        "rerank_score": 3.161198616027832,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

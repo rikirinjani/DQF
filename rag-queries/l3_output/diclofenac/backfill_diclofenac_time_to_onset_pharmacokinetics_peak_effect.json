@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Diclofenac time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7056279",
+        "text": "The pharmacokinetics of diclofenac sodium in patients with active rheumatoid disease. Pharmacokinetic data for diclofenac sodium has been well established in healthy volunteers, whereas in patients with rheumatoid arthritis very little information is available in the literature. A single oral dose of enteric-coated diclofenac sodium was given to 10 patients with active rheumatoid disease, adopting the same procedures used for a group of 10 healthy volunteers in whom pharmacokinetic data was already availabl",
+        "score": 0.3379444181919098,
+        "doi": "10.1007/BF00637622",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1982",
+        "rerank_score": -0.7001926302909851,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40296622",
+        "text": "Impact of Individual and Cassette Administration on Pharmacokinetics of Prednisolone, Diclofenac, and Methotrexate in a Rodent Model of Rheumatoid Arthritis. To find out how arthritic diseases affect the pharmacokinetics of prednisolone, diclofenac, and methotrexate when given individually and as a cassette in male Sprague- Dawley rats, the study's main goal was to look into drug-drug interactions (DDI). For the treatment of moderate to severe arthritis, doctors commonly prescribe all three drugs alone or i",
+        "score": 0.37269991636276245,
+        "doi": "10.2174/0127722708344359250414035502",
+        "journal": "Recent advances in inflammation & allergy drug discovery",
+        "year": "2024",
+        "rerank_score": -0.8492026925086975,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.3642634451389313,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.9508571028709412,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

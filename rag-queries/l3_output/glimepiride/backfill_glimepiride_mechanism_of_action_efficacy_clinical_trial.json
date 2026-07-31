@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Glimepiride mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40670458",
+        "text": "Comparisons of pharmacokinetics of glimepiride in combination with Ojeok-san versus glimepiride alone: an open-label, one-sequence, two-treatment controlled clinical study. Glimepiride remains a cost-effective antidiabetic treatment despite its potential risks. However, its interaction with traditional medicines like Ojeok-san (OJS), a commonly used herbal medication, warrants investigation. This open-label, fixed-sequence, two-period, two-treatment crossover study involved 17 healthy male volunteers. Subje",
+        "score": 0.43527644872665405,
+        "doi": "10.1038/s41598-025-09317-z",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 0.16520845890045166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40031941",
+        "text": "Efficacy and safety of once-weekly tirzepatide in Japanese patients with obesity disease (SURMOUNT-J): a multicentre, randomised, double-blind, placebo-controlled phase 3 trial. Data on tirzepatide in Asian patients with obesity are limited. This study aimed to gain a better understanding of tirzepatide for treatment of Japanese patients with obesity disease (BMI ≥25 kg/m This was a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial of the efficacy and safety of tirzepatide as an adjun",
+        "score": 0.43405598402023315,
+        "doi": "10.1016/S2213-8587(24)00377-2",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "year": "2024",
+        "rerank_score": -2.9111766815185547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40470713",
+        "text": "Glimepiride for persistent hyperglycemia in extremely low birth weight infants: A case series.",
+        "score": 0.45143401622772217,
+        "doi": "10.1111/ped.70110",
+        "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+        "year": "2025",
+        "rerank_score": -3.7877578735351562,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

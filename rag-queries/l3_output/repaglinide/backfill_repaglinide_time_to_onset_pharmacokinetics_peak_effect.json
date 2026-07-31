@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Repaglinide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39530130",
+        "text": "Evaluating the drug-drug interactions of SHR4640 on repaglinide and midazolam in healthy subjects. SHR4640, a highly selective URAT1 inhibitor, was evaluated to investigate its inhibitory effects on CYP2C8 and CYP3A4 in vivo clinical trial. This study assessed the pharmacokinetic (PK) impact of SHR4640 when co-administered with the CYP2C8 probe substrate repaglinide and the CYP3A4 probe substrate midazolam. In this single-center, randomized, double-blind, placebo-controlled study, participants were randomly",
+        "score": 0.39299362897872925,
+        "doi": "10.1080/17425255.2024.2428367",
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "year": "2025",
+        "rerank_score": -2.269865036010742,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41170666",
+        "text": "LC-MS/MS-based investigation of pharmacokinetic interactions between CYP3A4 substrates enzalutamide and repaglinide in rats. Polypharmacy is a common phenomenon in older patients with comorbidities. Prostate cancer patients often have diabetes complications, making them prone to administering multiple medications. Here, we explored the pharmacokinetic interactions between Enzalutamide (ENZ), prescribed for treating metastatic castration-resistant prostate cancer, and repaglinide (REP), used for type-2 diabe",
+        "score": 0.38612666726112366,
+        "doi": "10.1039/d5ay01451d",
+        "journal": "Analytical methods : advancing methods and applications",
+        "year": "2025",
+        "rerank_score": -2.3283884525299072,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41360102",
+        "text": "Effect of Scutellarin on the Pharmacokinetics and Pharmacodynamics of Warfarin in Rats. The study aims to investigate the pharmacodynamics and pharmacokinetics to elucidate the mechanism of enhanced anticoagulant effect of scutellarin and its preparations on warfarin. Evaluation of pharmacodynamic effects is undertaken by measuring coagulation parameters prothrombin time (PT) and activated partial thromboplastin time (APTT). The UHPLC-ESI-MS/MS method is used to determine the plasma concentrations of R/S-wa",
+        "score": 0.3749055564403534,
+        "doi": "10.1055/a-2748-8868",
+        "journal": "Planta medica",
+        "year": "2025",
+        "rerank_score": -4.158472537994385,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Piroxicam mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40050536",
+        "text": "Enhanced Transdermal Delivery of Piroxicam via Nanocarriers, Formulation, Optimization, Characterization, Animal Studies and Randomized Double-Blind Clinical Trial. Piroxicam is a non-steroidal anti-inflammatory drug which is used topically as an adjunctive treatment of knee osteoarthritis and as an option to control joint pain in patients suffering rheumatoid arthritis. In this study, an emulgel containing optimized nano-niosomal piroxicam was formulated and characterized in terms of mean size, polydispers",
+        "score": 0.40427979826927185,
+        "doi": "10.1208/s12249-025-03075-x",
+        "journal": "AAPS PharmSciTech",
+        "year": "2024",
+        "rerank_score": 3.862647294998169,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39161087",
+        "text": "Piroxicam and paracetamol in the prevention of early recurrent pain and emergency department readmission after renal colic: Randomized placebo-controlled trial. Renal colic (RC) is a common urologic emergency often leading to significant pain and recurrent hospital visits. This study aimed to compare the efficacy and safety of piroxicam versus paracetamol in preventing pain recurrence and hospital readmission in patients treated for RC and discharged from the emergency department (ED). A prospective, random",
+        "score": 0.4220171272754669,
+        "doi": "10.1111/acem.14996",
+        "journal": "Academic emergency medicine : official journal of the Society for Academic Emerg",
+        "year": "2024",
+        "rerank_score": 3.255657196044922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38940572",
+        "text": "Does Piroxicam have an Added Benefit on Arthrocentesis in the Management of Internal Derangement in Female Patients?: A Randomized Clinical Trial. Arthrocentesis is an accepted treatment modality for internal derangement. Piroxicam is an NSAID that can be injected into the TMJ. The primary objective of this study was to improve mouth opening, and the secondary objective was to decrease TMD-associated pain. A randomized controlled trial (RCT) was performed on patients suffering from anterior disk displacemen",
+        "score": 0.39028453826904297,
+        "doi": "10.1097/SCS.0000000000010447",
+        "journal": "The Journal of craniofacial surgery",
+        "year": "2024",
+        "rerank_score": 2.487508535385132,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Tirzepatide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40555748",
+        "text": "Tirzepatide on ingestive behavior in adults with overweight or obesity: a randomized 6-week phase 1 trial. Tirzepatide induces weight reduction but the underlying mechanisms are unknown. This 6-week phase 1 study investigated early effects of tirzepatide on energy intake. Male and female adults without diabetes (n = 114) and a body mass index from 27 to 50 kg per m",
+        "score": 0.36678194999694824,
+        "doi": "10.1038/s41591-025-03774-9",
+        "journal": "Nature medicine",
+        "year": "2024",
+        "rerank_score": 1.7085756063461304,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40221292",
+        "text": "The promise of tirzepatide: A narrative review of metabolic benefits. Obesity and type 2 diabetes mellites (T2DM) are intertwined epidemics that continue to pose significant challenges to global public health. We aim to review the available evidence on the metabolic effects of tirzepatide, focusing on weight loss and maintenance of lost weight, body composition alterations, appetite regulation, glycemic control, and lipid profile modulation. Tirzepatide administration for 72 weeks elicited significant weigh",
+        "score": 0.3668712377548218,
+        "doi": "10.1016/j.pcd.2025.03.008",
+        "journal": "Primary care diabetes",
+        "year": "2024",
+        "rerank_score": -0.14742495119571686,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38078870",
+        "text": "Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. The effect of continued treatment with tirzepatide on maintaining initial weight reduction is unknown. To assess the effect of tirzepatide, with diet and physical activity, on the maintenance of weight reduction. This phase 3, randomized withdrawal clinical trial conducted at 70 sites in 4 countries with a 36-week, open-label tirzepatide lead-in period followed by a 52-w",
+        "score": 0.36582469940185547,
+        "doi": "10.1001/jama.2023.24945",
+        "journal": "JAMA",
+        "year": "2024",
+        "rerank_score": -1.0454097986221313,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

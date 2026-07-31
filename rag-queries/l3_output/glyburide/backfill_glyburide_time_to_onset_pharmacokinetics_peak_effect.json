@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Glyburide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.3997488021850586,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.3632830381393433,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40851898",
+        "text": "Pharmacokinetic/pharmacodynamic parameters of teicoplanin for predicting clinical outcome of glycopeptide-susceptible  The objective of this study was to determine the pharmacokinetic/pharmacodynamic parameters of teicoplanin associated with optimal outcomes in glycopeptide-susceptible  We conducted a retrospective review of GSEF bacteraemia cases treated with teicoplanin between 1 April 2009 and 30 May 2023. Total area under the concentration-time curve over 24 h (AUC A total of 76 patients were included. ",
+        "score": 0.3803998827934265,
+        "doi": "10.1093/jacamr/dlaf151",
+        "journal": "JAC-antimicrobial resistance",
+        "year": "2025",
+        "rerank_score": -3.638593912124634,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40960559",
+        "text": "Modeling Whole-Body Dynamic PET Microdosing Data to Predict the Whole-Body Pharmacokinetics of Glyburide in Humans. Whole-body dynamic (WB4D) positron emission tomography (PET) imaging data using radiolabeled analogs of drugs are mostly analyzed using descriptive approaches, with no relationship to traditional pharmacokinetic studies based on blood sampling. Here, we build a pharmacokinetic (PK) model from WB4D PET data obtained using a microdose of radiolabeled glyburide ([ The present work analyzes data a",
+        "score": 0.3759434223175049,
+        "doi": "10.1007/s40262-025-01562-9",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -4.004733085632324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

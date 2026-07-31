@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Repaglinide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24772445",
+        "text": "Comparison of metformin and repaglinide monotherapy in the treatment of new onset type 2 diabetes mellitus in China. This study was designed to compare the effects of metformin and repaglinide on the fasting plasma glucose (FPG) and glycated haemoglobin (HbA1c) in newly diagnosed type 2 diabetes in China.",
+        "score": 0.391628623008728,
+        "doi": "10.1155/2014/294017",
+        "journal": "Journal of diabetes research",
+        "year": "2013",
+        "rerank_score": -0.6877291798591614,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15562384",
+        "text": "Effect of repaglinide and gliclazide on postprandial control of endogenous glucose production. The effect of repaglinide and gliclazide on postmeal suppression of endogenous glucose production (EGP) has been studied using a variable-rate tracer methodology. Groups of age-, sex-, and weight-matched type 2 diabetic subjects randomized to gliclazide or repaglinide were studied after ingesting a standard mixed meal (550 kcal; 67% carbohydrate, 19% fat, 14% protein). Plasma glucose profiles were similar in each ",
+        "score": 0.39161550998687744,
+        "doi": "10.1016/j.metabol.2004.07.014",
+        "journal": "Metabolism: clinical and experimental",
+        "year": "2004",
+        "rerank_score": -1.3425108194351196,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39628286",
+        "text": "The effect of HbA1c variability on the efficacy of intensive blood pressure control in patients with type 2 diabetes. The efficacy of intensive blood pressure (BP) control remains controversial, and the variability of HbA1c was a risk factor for macrovascular events in patients with type 2 diabetes. We investigated whether the HbA1c variability modifies the efficacy of intensive BP control. Data from the Action to Control Cardiovascular Risk in Diabetes Blood Pressure (ACCORD-BP) trial was utilized. K-means",
+        "score": 0.42162373661994934,
+        "doi": "10.1111/dom.16112",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": -1.732158899307251,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

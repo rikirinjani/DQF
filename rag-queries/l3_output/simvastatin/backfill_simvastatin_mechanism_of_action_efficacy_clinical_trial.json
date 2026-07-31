@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Simvastatin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31167519",
+        "text": "Simvastatin Attenuates Cardiac Fibrosis via Regulation of Cardiomyocyte-Derived Exosome Secretion. Exosome-mediated communication within the cardiac microenvironment is associated with cardiac fibrosis. Simvastatin (SIM), a potent statin, protects against cardiac fibrosis, but its mechanism of action is unclear. We investigated the inhibitory effects and underlying mechanism of simvastatin in cardiac fibrosis, by regulating exosome-mediated communication. Male Sprague-Dawley rats were treated with angiotens",
+        "score": 0.3778717517852783,
+        "doi": "10.3390/jcm8060794",
+        "journal": "Journal of clinical medicine",
+        "year": "2019",
+        "rerank_score": 4.448442459106445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20851742",
+        "text": "Simvastatin treatment improves functional recovery after experimental spinal cord injury by upregulating the expression of BDNF and GDNF. The aim of this study was to determine the therapeutic efficacy of simvastatin treatment starting 1 day after spinal cord injury (SCI) in rat and to investigate the underlying mechanism. Spinal cord injury was induced in adult female Sprague-Dawley rats after laminectomy at T9-T10. Then additionally with sham group (laminectomy only) the SCI animals were randomly divided ",
+        "score": 0.37839266657829285,
+        "doi": "10.1016/j.neulet.2010.09.007",
+        "journal": "Neuroscience letters",
+        "year": "2010",
+        "rerank_score": 3.882678508758545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25701710",
+        "text": "Simvastatin increases excitability in the hippocampus via a PI3 kinase-dependent mechanism. Simvastatin is an HMG-CoA reductase inhibitor commonly used in the clinic to treat hypercholesterolemia. In addition, simvastatin has been shown to cross the blood-brain barrier and pleiotropic effects of simvastatin have been reported including anti-inflammatory properties, enhancement of neurite outgrowth, and memory enhancement properties. However, little has been reported on the effects of simvastatin on basal sy",
+        "score": 0.37860018014907837,
+        "doi": "10.1016/j.neuroscience.2015.02.023",
+        "journal": "Neuroscience",
+        "year": "2014",
+        "rerank_score": 3.5675225257873535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

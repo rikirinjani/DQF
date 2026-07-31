@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Glipizide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38907684",
+        "text": "Semaglutide and Cardiovascular Outcomes by Baseline HbA1c and Change in HbA1c in People With Overweight or Obesity but Without Diabetes in SELECT. To evaluate the cardiovascular effects of semaglutide by baseline glycated hemoglobin (HbA1c) and change in HbA1c in a prespecified analysis of Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity (SELECT). In SELECT, people with overweight or obesity and atherosclerotic cardiovascular disease without diabetes were randomized to wee",
+        "score": 0.40459126234054565,
+        "doi": "10.2337/dc24-0764",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": -0.12196914106607437,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.4144856929779053,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -0.41565853357315063,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40547904",
+        "text": "The legacy effect of early HbA1c control on microvascular complications and hospital admissions in type 2 diabetes: findings from a large UK study. There is conflicting evidence regarding optimal glycaemic targets to reflect the legacy effect of hyperglycaemia in people with type 2 diabetes (T2D). We examined the risks of microvascular complications and hospital admission with glycated haemoglobin (HbA1c) levels from the diagnosis of T2D. We identified individuals with incident T2D from 1998 to 2007 from th",
+        "score": 0.4246274530887604,
+        "doi": "10.1177/20420188251350897",
+        "journal": "Therapeutic advances in endocrinology and metabolism",
+        "year": "2024",
+        "rerank_score": -1.1370604038238525,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

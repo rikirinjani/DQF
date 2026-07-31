@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Ranitidine randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8317408",
+        "text": "Ranitidine 300 mg at bedtime is effective for gastric ulcers: a 12-wk, multicenter, randomized, double-blind, placebo-controlled comparison. The Ranitidine 300 mg HS Gastric Ulcer Study Group. Ranitidine 150 mg twice daily is effective for the treatment of gastric ulcers. We proposed that ranitidine 300 mg once daily would also be effective. In a randomized, double-blind, placebo-controlled, multicenter, parallel-group study, adults with an endoscopically verified acute gastric ulcer > or = 5 mm were treate",
+        "score": 0.378409743309021,
+        "doi": "",
+        "journal": "The American journal of gastroenterology",
+        "year": "1993",
+        "rerank_score": 0.797916054725647,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8281874",
+        "text": "Effects of ranitidine 150 mg four times a day on 24-hour intragastric acidity and 24-hour plasma gastrin concentration. Twenty-four-hour integrated intragastric acidity and 24-hr integrated plasma gastrin concentration was measured twice in 23 healthy male volunteers on the seventh day of oral dosing with placebo or ranitidine 150 mg four times a day. The study was a randomized, double-blind, placebo-controlled, two-way crossover investigation. The mean integrated 24-hr intragastric acidity during dosing wi",
+        "score": 0.3772725462913513,
+        "doi": "10.1007/BF02090066",
+        "journal": "Digestive diseases and sciences",
+        "year": "1994",
+        "rerank_score": 0.7230817079544067,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41286656",
+        "text": "Efficacy of 10 days high-dose and double-dose rabeprazole-based concomitant therapy for Helicobacter pylori eradication among Lebanese population: a pilot randomized controlled trial. The aim of this study is to optimize Helicobacter pylori (H. pylori) eradication by increasing the proton pump inhibitor (PPI) dose and reducing the treatment duration of antibiotics without compromising the treatment's safety and efficacy. This pilot randomized controlled trial included 120 patients from Notre Dame des Secour",
+        "score": 0.4114653468132019,
+        "doi": "10.1186/s12876-025-04478-7",
+        "journal": "BMC gastroenterology",
+        "year": "2025",
+        "rerank_score": -0.8375070095062256,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

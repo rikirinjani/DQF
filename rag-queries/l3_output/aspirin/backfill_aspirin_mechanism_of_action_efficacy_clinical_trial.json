@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Aspirin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41592353",
+        "text": "Platelet activation, aspirin, and cancer: From basic science to clinical trials. There is extensive evidence that aspirin prevents cancer, but the mechanism of action is uncertain. Once-daily low-dose aspirin (75-100 mg) completely and permanently inactivates the cyclooxygenase (COX) activity of prostaglandin G/H synthase-1 (COX-1) in platelets, suppressing thromboxane (TX)A",
+        "score": 0.3545445203781128,
+        "doi": "10.1016/j.pharmr.2025.100109",
+        "journal": "Pharmacological reviews",
+        "year": "2025",
+        "rerank_score": 6.61135721206665,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10938881",
+        "text": "Effect of aspirin on platelet desaggregation induced by SR121566, a potent GP-IIb/IIIa antagonist. Since results of recent clinical trial, performed in patients suffering from acute coronary syndromes, suggested that aspirin improved the efficacy of an anti-GP-IIb/IIIa therapy, this work was set to study the mechanism underlying such a mechanism of aspirin. SR121566 (3 mg/kg, i.v.), a new selective antagonist of the GP-IIb/IIIa complex inhibited thrombus formation which occurred following electrical stimula",
+        "score": 0.3528822660446167,
+        "doi": "10.1080/09537100075797",
+        "journal": "Platelets",
+        "year": "2000",
+        "rerank_score": 5.901294231414795,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:16371762",
+        "text": "Aspirin resistance: mechanisms and clinical implications. Acetylsalicylic acid (aspirin) has been shown to irreversibly interfere with platelet function, an effect that is associated with a reduction in morbid and mortal arterial thrombotic events in multiple clinical studies. This clinical benefit appears to be attenuated by resistance to the antiplatelet effects of aspirin in up to 35% of patients. The mechanisms for aspirin resistance are multifactorial and include noncompliance with aspirin therapy, dia",
+        "score": 0.35330820083618164,
+        "doi": "10.1097/01.crd.0000148175.60718.69",
+        "journal": "Cardiology in review",
+        "year": "2005",
+        "rerank_score": 4.517828941345215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

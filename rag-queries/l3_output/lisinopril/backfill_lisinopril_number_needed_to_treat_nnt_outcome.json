@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Lisinopril number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4639050364494324,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.7102017402648926,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2455154",
+        "text": "Comparative efficacy of lisinopril and nifedipine retard in essential hypertension: a double-blind, placebo-controlled trial. Lisinopril, a long-acting angiotensin converting enzyme inhibitor, and the calcium channel blocker nifedipine in its retard formulation, were compared as monotherapy in a group of 45 patients with essential hypertension. Lisinopril in single daily doses (range 20-80 mg, median dose 40 mg) and nifedipine retard in twice daily doses (total daily dose range 40-80 mg, median dose 60 mg) ",
+        "score": 0.4374736547470093,
+        "doi": "",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1987",
+        "rerank_score": -1.654299259185791,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38244149",
+        "text": "Numbers Needed to Treat for Preventing Adverse Cardiovascular Outcomes for Sodium-Glucose Cotransporter 2 Inhibitors vs. Dipeptidyl Peptidase 4 Inhibitors: The Hong Kong Diabetes Study.",
+        "score": 0.47194015979766846,
+        "doi": "10.1007/s10557-024-07550-8",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2024",
+        "rerank_score": -1.9095724821090698,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Indomethacin pain relief analgesia efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38707756",
+        "text": "Evaluating the Efficacy of Methocarbamol and Nefopam in Orthopedic Surgical Pain. Introduction Pain after orthopedic surgeries represents a special concern in patients with fractures. The use of multimodal analgesia significantly reduced the opioid need and reduced the risk of their side effects. Objectives This study compared the effectiveness and safety of methocarbamol and nefopam in the reduction of post-operative pain for patients undergoing orthopedic surgeries. Method This prospective, double-blind, ",
+        "score": 0.41226258873939514,
+        "doi": "10.7759/cureus.59533",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 1.4654061794281006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39256291",
+        "text": "Multimodal Analgesia Approach in Acute Low Back Pain Management: A Phase III Study of a Novel Analgesic Combination of Etoricoxib/Tramadol. Pain and disability management are crucial for a speedy recovery. Combining analgesics with different mechanisms of action provides greater pain relief with lower doses, promoting efficient multimodal analgesia. This study evaluated the efficacy and safety between two fixed-dose combinations (FDC): etoricoxib/tramadol compared to paracetamol/tramadol for the management ",
+        "score": 0.42896875739097595,
+        "doi": "10.1007/s40122-024-00653-y",
+        "journal": "Pain and therapy",
+        "year": "2024",
+        "rerank_score": 0.9965789318084717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39062118",
+        "text": "Licofelone, a Dual COX/LOX Inhibitor, Ameliorates Paclitaxel-Induced Mechanical Allodynia in Rats in a Cannabinoid Receptor-Dependent Manner. The use of paclitaxel as a chemotherapeutic drug is limited by the development of dose-dependent paclitaxel-induced neuropathic pain (PINP). Recently, we observed that the combination of indomethacin plus minocycline (IPM) attenuates PINP in a mouse model in a cannabinoid (CB) receptor-dependent manner. Indomethacin inhibits cyclooxygenase (COX) activity, and minocycl",
+        "score": 0.43778955936431885,
+        "doi": "10.3390/biomedicines12071545",
+        "journal": "Biomedicines",
+        "year": "2024",
+        "rerank_score": 0.8791132569313049,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Diclofenac randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17657439",
+        "text": "Clinical trial on the efficacy and safety of different diclofenac formulations: multiple-unit formulations compared to enteric coated tablets in patients with activated osteoarthritis. This double-blind, randomised, multicentre study investigated the efficacy and safety of two different dosages of a diclofenac sodium dual release capsule (150 mg or 75 mg once daily) in comparison to a standard treatment with enteric coated tablets (50 mg t.i.d.) and placebo in patients with activated osteoarthritis. Pain re",
+        "score": 0.380309522151947,
+        "doi": "10.1007/s10787-999-0030-z",
+        "journal": "Inflammopharmacology",
+        "year": "1999",
+        "rerank_score": 3.2467246055603027,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41549814",
+        "text": "Pharmacokinetics, Bioequivalence, and Safety of Diclofenac Sodium Sustained-Release Tablets in Healthy Chinese Subjects Under Fasting and Fed Conditions. The study aimed to evaluate the pharmacokinetics, bioequivalence, and safety of domestic diclofenac sodium sustained-release tablets (0.1 g) and a reference formulation in healthy Chinese subjects. Two independent trials (fasting and fed conditions) were conducted with a single-center, randomized, open-label, single-dose, two-sequence, four-period, fully r",
+        "score": 0.4144356846809387,
+        "doi": "10.1002/cpdd.70019",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": -0.28731080889701843,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41088566",
+        "text": "Major Limitations of Randomized Controlled Trials Assessing Antidepressant Efficacy.",
+        "score": 0.41566962003707886,
+        "doi": "10.1097/JCP.0000000000002075",
+        "journal": "Journal of clinical psychopharmacology",
+        "year": "2025",
+        "rerank_score": -0.7320952415466309,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Semaglutide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:34697882",
+        "text": "A model-based simulation of glycaemic control and body weight when switching from semaglutide to 3.0- and 4.5-mg doses of once-weekly dulaglutide. To evaluate HbA1c and body weight changes when semaglutide 0.5- or 1.0-mg once-weekly (QW) is switched to dulaglutide 3.0- or 4.5-mg QW via exposure-response modelling.",
+        "score": 0.35242003202438354,
+        "doi": "10.1111/dom.14582",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2021",
+        "rerank_score": 2.9062676429748535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29687620",
+        "text": "Semaglutide as a therapeutic option for elderly patients with type 2 diabetes: Pooled analysis of the SUSTAIN 1-5 trials. The efficacy and safety of semaglutide vs comparators in non-elderly (<65 years) and elderly (≥65 years) patients with type 2 diabetes (T2D) across the SUSTAIN 1-5 trials were evaluated. Patients were randomized to once-weekly subcutaneous semaglutide (0.5 or 1.0 mg) vs placebo, sitagliptin, exenatide or insulin. The primary objective was change in HbA1c and secondary objectives were cha",
+        "score": 0.3659029006958008,
+        "doi": "10.1111/dom.13331",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2018",
+        "rerank_score": 1.3077375888824463,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34622228",
+        "text": "Levels of circulating semaglutide determine reductions in HbA1c and body weight in people with type 2 diabetes. Glucagon-like peptide-1 receptor agonists (GLP-1RA) are used for the treatment of type 2 diabetes. Whether clinically important responses and adverse events (AEs) are dependent on the route of administration has not been determined. We demonstrate that nearly identical exposure-response pharmacodynamic relationships are determined by plasma semaglutide levels achieved through oral versus injectabl",
+        "score": 0.37595731019973755,
+        "doi": "10.1016/j.xcrm.2021.100387",
+        "journal": "Cell reports. Medicine",
+        "year": "2021",
+        "rerank_score": 0.9564574360847473,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

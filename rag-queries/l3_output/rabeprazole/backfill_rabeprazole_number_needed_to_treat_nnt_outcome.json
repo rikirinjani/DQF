@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Rabeprazole number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.47389495372772217,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 1.4811416864395142,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17459036",
+        "text": "Oral R115866 in the treatment of moderate to severe facial acne vulgaris: an exploratory study. R115866 (Rambazole; Barrier Therapeutics NV, Geel, Belgium), a new-generation retinoic acid metabolism-blocking agent, is a nonretinoid compound enhancing intracellularly the endogenous levels of all-trans-retinoic acid by blocking its catabolism. By virtue of this property, and the proven positive effects of retinoids in the treatment of acne, R115866 could potentially be a useful drug for acne.",
+        "score": 0.46714937686920166,
+        "doi": "10.1111/j.1365-2133.2007.07896.x",
+        "journal": "The British journal of dermatology",
+        "year": "2007",
+        "rerank_score": -7.572614669799805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39200070",
+        "text": "Cefiderocol-Based Regimen for Acinetobacter NDM-1 Outbreak. Variable outcomes have been reported with cefiderocol in infections due to carbapenem-resistant",
+        "score": 0.4782896041870117,
+        "doi": "10.3390/antibiotics13080770",
+        "journal": "Antibiotics (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": -7.757417678833008,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

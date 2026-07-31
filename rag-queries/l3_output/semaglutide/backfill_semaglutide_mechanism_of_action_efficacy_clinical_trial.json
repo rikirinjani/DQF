@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Semaglutide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36706368",
+        "text": "Real-world clinical effectiveness of once-weekly semaglutide in patients with type 2 diabetes: a systematic literature review. The efficacy of once-weekly (O.W.) semaglutide for the treatment of type 2 diabetes mellitus (T2DM) has been demonstrated in clinical trials. The aim of this systematic literature review was to summarize real-world evidence for O.W. semaglutide.",
+        "score": 0.3931898772716522,
+        "doi": "10.1080/17512433.2023.2174099",
+        "journal": "Expert review of clinical pharmacology",
+        "year": "2023",
+        "rerank_score": 5.874441623687744,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29246950",
+        "text": "Efficacy and Safety of Once-Weekly Semaglutide Versus Exenatide ER in Subjects With Type 2 Diabetes (SUSTAIN 3): A 56-Week, Open-Label, Randomized Clinical Trial. To compare the efficacy and safety of once-weekly semaglutide 1.0 mg s.c. with exenatide extended release (ER) 2.0 mg s.c. in subjects with type 2 diabetes.",
+        "score": 0.38873517513275146,
+        "doi": "10.2337/dc17-0417",
+        "journal": "Diabetes care",
+        "year": "2017",
+        "rerank_score": 4.678955078125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36216945",
+        "text": "Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial. The STEP 5 trial assessed the efficacy and safety of once-weekly subcutaneous semaglutide 2.4 mg versus placebo (both plus behavioral intervention) for long-term treatment of adults with obesity, or overweight with at least one weight-related comorbidity, without diabetes. The co-primary endpoints were the percentage change in body weight and achievement of weight loss of ≥5% at week 104. Efficacy was assessed among all ",
+        "score": 0.34421345591545105,
+        "doi": "10.1038/s41591-022-02026-4",
+        "journal": "Nature medicine",
+        "year": "2022",
+        "rerank_score": 4.516561508178711,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

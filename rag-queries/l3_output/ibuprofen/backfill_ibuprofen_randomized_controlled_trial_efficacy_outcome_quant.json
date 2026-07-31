@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Ibuprofen randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31718423",
+        "text": "A causal modelling framework for reference-based imputation and tipping point analysis in clinical trials with quantitative outcome. We consider estimation in a randomised placebo-controlled or standard-of-care-controlled drug trial with quantitative outcome, where participants who discontinue an investigational treatment are not followed up thereafter, and the estimand follows a treatment policy strategy for handling treatment discontinuation. Our approach is also useful in situations where participants ta",
+        "score": 0.38221895694732666,
+        "doi": "10.1080/10543406.2019.1684308",
+        "journal": "Journal of biopharmaceutical statistics",
+        "year": "2019",
+        "rerank_score": 2.1140854358673096,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34190850",
+        "text": "Preemptive use of intravenous ibuprofen to reduce postoperative pain after lower third molar surgery: a systematic review of randomized controlled trials. This study aimed to systematically review the literature to assess the effect of preemptive intravenous ibuprofen on pain reduction after lower third molar surgery. Nine databases (PubMed, Scopus, LILACS, SciELO, Embase, Web of Science, Cochrane, Open Gray, and Open Thesis) were used as sources of research, including \"grey literature.\" The protocol was re",
+        "score": 0.3827100396156311,
+        "doi": "10.6061/clinics/2021/e2780",
+        "journal": "Clinics (Sao Paulo, Brazil)",
+        "year": "2021",
+        "rerank_score": 1.922882318496704,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41609414",
+        "text": "A Descriptive Comparison of Phase 3 Results and Head-to-Head Trials in Inflammatory Bowel Diseases. With the increasing number of effective therapies for inflammatory bowel diseases (IBD), determining optimal treatment sequences is challenging. Given the impracticality of conducting randomized head-to-head trials for every comparison, this study assessed whether phase 3 placebo-controlled trials can reliably predict outcomes of published head-to-head studies. Three randomized head-to-head trials without pla",
+        "score": 0.416513592004776,
+        "doi": "10.1093/ecco-jcc/jjag009",
+        "journal": "Journal of Crohn's & colitis",
+        "year": "2026",
+        "rerank_score": 0.31610703468322754,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

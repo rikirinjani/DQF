@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Dulaglutide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40842739",
+        "text": "Efficacy and Safety of Dulaglutide for Weight Reduction Among Diabetic Patients in Saudi Arabia: A Retrospective Cohort Study. Background and objective Obesity commonly affects individuals with type 2 diabetes mellitus (T2DM) and can lead to serious health complications. Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are being explored for their potential role in promoting weight loss and improving glycemic control. However, data on its effectiveness in real-world settings, particularly in Saudi Arab",
+        "score": 0.39111316204071045,
+        "doi": "10.7759/cureus.88424",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 7.150662899017334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41334697",
+        "text": "Cardiovascular Effectiveness of Semaglutide Versus Dulaglutide in Type 2 Diabetes. Randomized clinical trials show that subcutaneous semaglutide is modestly superior to dulaglutide in reducing HbA1c and body weight, but no trial has compared their effectiveness on hard cardiovascular outcomes. This study aimed to examine whether semaglutide and dulaglutide differ in cardiovascular effectiveness. This new-user, active-comparator cohort study used nationwide population-based Danish healthcare data to emulate ",
+        "score": 0.34058693051338196,
+        "doi": "10.1002/pds.70276",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2025",
+        "rerank_score": 6.655845642089844,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40214296",
+        "text": "Efficacy and Safety of Dulaglutide Biosimilar LY05008 Versus the Reference Product Dulaglutide (Trulicity) in Chinese Adults With Type 2 Diabetes Mellitus: A Randomized, Open-Label, Active Comparator Study. Dulaglutide, a glucagon-like peptide-1 (GLP-1) receptor agonist, has been approved for improving glycemic control and reducing the risk of cardiovascular (CV) adverse events. A previous result in healthy Chinese male subjects demonstrated the pharmacokinetic (PK) similarity of LY05008 and the licensed pr",
+        "score": 0.38925623893737793,
+        "doi": "10.1111/1753-0407.70077",
+        "journal": "Journal of diabetes",
+        "year": "2025",
+        "rerank_score": 5.835427284240723,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

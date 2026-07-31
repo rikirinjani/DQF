@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Ibuprofen number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.4683436453342438,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.223074913024902,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40436668",
+        "text": "The Safety and Efficacy of Intravenous Ibuprofen in Older Patients: A Retrospective Subgroup Analysis. Intravenous ibuprofen (IVIB) is safe and effective for the management of pain and fever in children and adults, but requires evaluation in older patients. This retrospective study aimed to evaluate the safety and efficacy of IVIB in older patients (age ≥60 years). A post hoc subgroup analysis was performed with data from four prospective clinical studies in which IVIB was administered for the treatment of ",
+        "score": 0.47835370898246765,
+        "doi": "10.1016/j.clinthera.2025.04.021",
+        "journal": "Clinical therapeutics",
+        "year": "2024",
+        "rerank_score": -4.02183198928833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19588427",
+        "text": "Single dose oral flurbiprofen for acute postoperative pain in adults. Flurbiprofen is a non-selective non-steroidal anti-inflammatory drug (NSAID), related to ibuprofen and naproxen, used to treat acute and chronic painful conditions. There is no systematic review of its use in acute postoperative pain.",
+        "score": 0.4461122751235962,
+        "doi": "10.1002/14651858.CD007358.pub2",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2009",
+        "rerank_score": -4.546016693115234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

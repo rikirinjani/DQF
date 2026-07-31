@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Nifedipine comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3514224",
+        "text": "Randomized placebo-controlled comparative study of nifedipine, verapamil and isosorbide dinitrate in the treatment of angina at rest. Twenty-nine patients with angina at rest took part in a randomized placebo-controlled short-term study to assess the relative effectiveness of different dosages of nifedipine (N), verapamil (V) and isosorbide dinitrate (ISDN) versus placebo and to evaluate the antianginal effects of a sustained-release preparation of ISDN (sr), of N retard form (r) and of V retard form (r). T",
+        "score": 0.37295231223106384,
+        "doi": "10.1093/oxfordjournals.eurheartj.a061960",
+        "journal": "European heart journal",
+        "year": "1986",
+        "rerank_score": 6.854806900024414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6128596",
+        "text": "Controlled trial of nifedipine in the treatment of Raynaud's phenomenon. 17 patients with moderate to severe Raynaud's phenomenon were entered into a 6 week randomised double-blind crossover study to compare the efficacy of nifedipine with that of placebo. Nifedipine significantly reduced the frequency of attacks and also the severity of attacks, which was assessed by the patients on a linear analogue scale. Patients gave nifedipine a significantly higher drug-effectiveness score than placebo. Skin temperat",
+        "score": 0.3716531991958618,
+        "doi": "10.1016/s0140-6736(82)91508-2",
+        "journal": "Lancet (London, England)",
+        "year": "1982",
+        "rerank_score": 5.8842549324035645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3073076",
+        "text": "Comparative effect of captopril and nifedipine in normotensive patients with incipient diabetic nephropathy. In these studies, the effect of a 6-wk treatment by placebo, the calcium-channel blocker nifedipine, or the converting-enzyme inhibitor captopril was assessed in normotensive patients with insulin-dependent diabetes and incipient nephropathy. In response to captopril and nifedipine, arterial pressure decreased slightly and to a similar extent. These drugs resulted in opposite effects on urinary excre",
+        "score": 0.37305137515068054,
+        "doi": "10.2337/diacare.11.10.850",
+        "journal": "Diabetes care",
+        "year": "1988",
+        "rerank_score": 4.6880269050598145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Diltiazem number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15833778",
+        "text": "Predicting postoperative analgesia outcomes: NNT league tables or procedure-specific evidence? Number needed to treat (NNT) values have been recommended and used to assess efficacy of analgesics for acute pain management. However, the data analysed come from a variety of procedures, which may potentially hinder the interpretation of the NNT value for specific procedures. We reanalysed available NNT data with acetaminophen in relation to the magnitude of surgical injury. Acetaminophen was less effective for ",
+        "score": 0.46501803398132324,
+        "doi": "10.1093/bja/aei144",
+        "journal": "British journal of anaesthesia",
+        "year": "2005",
+        "rerank_score": 3.069887638092041,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.48892247676849365,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 2.7785444259643555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38571388",
+        "text": "Clinical Outcomes Associated With Diltiazem Use in Heart Failure With Reduced Ejection Fraction After Implementation of a Clinical Support System. Despite atrial fibrillation guideline recommendations, many patients with heart failure with reduced ejection fraction (EF) continue to receive IV diltiazem for acute rate control. Our institution recently implemented a clinical decision support system (CDSS)-based tool that recommends against the use of diltiazem in patients with an EF ≤ 40%. The objective of th",
+        "score": 0.4651707410812378,
+        "doi": "10.1177/10600280241243071",
+        "journal": "The Annals of pharmacotherapy",
+        "year": "2024",
+        "rerank_score": 1.384456992149353,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

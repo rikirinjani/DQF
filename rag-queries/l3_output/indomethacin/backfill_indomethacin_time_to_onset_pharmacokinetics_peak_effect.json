@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Indomethacin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39623622",
+        "text": "Correction to Developmental pharmacokinetics of indomethacin in preterm neonates: Severely decreased drug clearance in the first week of life.",
+        "score": 0.3592345118522644,
+        "doi": "10.1002/psp4.13289",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": 3.4719889163970947,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1095133",
+        "text": "Indomethacin--aspirin interaction: a clinical appraisal. Plasma profiles of indomethacin after a 50-mg oral dose were constructed in six healthy volunteers before and after a week of aspirin treatment. Aspirin did not interfere with indomethacin plasma levels. To examine the clinical effect of concurrent indomethacin and aspirin treatment 20 patients with seropositive rheumatoid arthritis were given indomethacin 100 mg/day, aspirin soluble 4 g/day, and the two drugs taken together in random order. Analysis ",
+        "score": 0.3230323791503906,
+        "doi": "10.1136/bmj.3.5975.69",
+        "journal": "British medical journal",
+        "year": "1975",
+        "rerank_score": -2.0428335666656494,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39967294",
+        "text": "The Effects of the Early and Late Phases of Septic Shock on the Population Pharmacokinetics of Vancomycin. Pathophysiologic changes in the early and late phases of septic shock affect the pharmacokinetic (PK) parameters, varying dose adjustments may be necessary. This study aimed to create the PK models of vancomycin in the early and late phases of septic shock and to describe the association between the area under the curve from 0 to 24 h (AUC",
+        "score": 0.37801772356033325,
+        "doi": "10.1002/jcph.70009",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -2.5151872634887695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

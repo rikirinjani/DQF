@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Ertugliflozin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30026335",
+        "text": "Efficacy and Safety of Dapagliflozin in Patients With Inadequately Controlled Type 1 Diabetes (the DEPICT-2 Study): 24-Week Results From a Randomized Controlled Trial. This 24-week, double-blinded, phase 3 clinical trial (DEPICT-2; ClinicalTrials.gov, NCT02460978) evaluated efficacy and safety of dapagliflozin as adjunct therapy to adjustable insulin in patients with inadequately controlled type 1 diabetes (HbA",
+        "score": 0.3693244457244873,
+        "doi": "10.2337/dc18-0623",
+        "journal": "Diabetes care",
+        "year": "2018",
+        "rerank_score": 5.481716156005859,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40489293",
+        "text": "Efficacy and safety of empagliflozin for the acute myocardial infarction: a systematic review and meta-analysis of randomized controlled trials. This study aims to evaluate the efficacy and safety of empagliflozin in acute myocardial infarction (AMI) treatment by synthesizing evidence from published randomized controlled trials (RCTs). PubMed, Web of Science, Embase, and Cochrane databases were thoroughly retrieved from inception to November 30, 2024, to identify eligible RCTs comparing empagliflozin with p",
+        "score": 0.3675861358642578,
+        "doi": "10.1080/07853890.2025.2514078",
+        "journal": "Annals of medicine",
+        "year": "2025",
+        "rerank_score": 4.910775661468506,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30412076",
+        "text": "Efficacy and safety of empagliflozin for type 2 diabetes mellitus: Meta-analysis of randomized controlled trials. This study was designed to evaluate the efficiency and tolerability of empagliflozin (EMPA) as monotherapy or add-on to existing therapy in patients with type 2 diabetes mellitus (T2DM).",
+        "score": 0.3697863221168518,
+        "doi": "10.1097/MD.0000000000012843",
+        "journal": "Medicine",
+        "year": "2018",
+        "rerank_score": 4.43914794921875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

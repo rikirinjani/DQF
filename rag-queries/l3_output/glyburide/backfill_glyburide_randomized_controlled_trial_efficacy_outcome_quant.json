@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Glyburide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41459242",
+        "text": "Randomized controlled trial to evaluate an app-based multimodal digital intervention for people with type 2 diabetes in comparison to a placebo app. This multi-center, parallel-group randomized controlled trial evaluated the app-based intervention  A total of 153 participants were randomized in a 1:1 ratio to either intervention or control group, with allocation concealment ensured by a minimization procedure. After six months, participants using  These findings indicate that the digital approach can meanin",
+        "score": 0.3927462100982666,
+        "doi": "10.3389/fdgth.2025.1644612",
+        "journal": "Frontiers in digital health",
+        "year": "2025",
+        "rerank_score": -1.1361089944839478,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40587847",
+        "text": "Improvements in Glycemic Control With a Digital Diabetes Logbook: Secondary Analysis of a Randomized Controlled Trial Enriched by Observational, Real-World Data. The treatment of diabetes requires substantial self-management. Digital tools can help reduce the burden of self-management and may improve glycemic control. This study aims to determine whether the use of a digital diabetes logbook increased the likelihood of achieving optimal glycemic control (glycated hemoglobin [HbA Data from 342 participants w",
+        "score": 0.39872539043426514,
+        "doi": "10.2196/68933",
+        "journal": "Journal of medical Internet research",
+        "year": "2024",
+        "rerank_score": -1.1501476764678955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39601043",
+        "text": "Randomized, Crossover Trial of Control-IQ Technology with a Lower Treatment Range and a Modified Meal Bolus Module in Adults, Adolescents, Children, and Preschoolers with Varying Levels of Baseline Glycemic Control.",
+        "score": 0.39961129426956177,
+        "doi": "10.1089/dia.2024.0501",
+        "journal": "Diabetes technology & therapeutics",
+        "year": "2025",
+        "rerank_score": -1.3760898113250732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

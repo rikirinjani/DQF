@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Hydralazine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12925504",
+        "text": "A closer look at the distribution of number needed to treat (NNT): a Bayesian approach. In this paper, I present a Bayesian approach to estimation of the number needed to treat (NNT). The use of NNT as a measure of clinical benefit is now becoming commonplace. Various methods of estimation have been proposed, but none of them seem to provide entirely good estimates. Very little has been done to understand the statistical properties of NNT. Here, I derive the posterior distribution of NNT and use simulations",
+        "score": 0.47430419921875,
+        "doi": "10.1093/biostatistics/4.3.365",
+        "journal": "Biostatistics (Oxford, England)",
+        "year": "2003",
+        "rerank_score": 1.2936320304870605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23966379",
+        "text": "Use of hydralazine-isosorbide dinitrate combination in African American and other race/ethnic group patients with heart failure and reduced left ventricular ejection fraction. Hydralazine-isosorbide dinitrate (H-ISDN) therapy is recommended for African American patients with moderate to severe heart failure with reduced ejection fraction (<40%) (HFrEF), but use, temporal trends, and clinical characteristics associated with H-ISDN therapy in clinical practice are unknown.",
+        "score": 0.47383636236190796,
+        "doi": "10.1161/JAHA.113.000214",
+        "journal": "Journal of the American Heart Association",
+        "year": "2013",
+        "rerank_score": -1.7307220697402954,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:7438960",
+        "text": "Hydralazine-induced liver injury. A 68-year-old man developed hepatic injury with no hypersensitivity reaction after three years of hydralazine therapy. The liver injury histologically showed centrilobular zonal necrosis. Clinical, biochemical, and histological recovery followed discontinuation of the drug. Challenge tests and serial liver biopsies revealed that this liver injury was induced by hydralazine.",
+        "score": 0.4747870862483978,
+        "doi": "10.1007/BF01338533",
+        "journal": "Digestive diseases and sciences",
+        "year": "1980",
+        "rerank_score": -2.9482476711273193,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

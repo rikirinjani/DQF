@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Carvedilol number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:19478468",
+        "text": "Carvedilol ameliorates the decreases in connexin 43 and ventricular fibrillation threshold in rats with myocardial infarction. Connexin 43 (Cx43) is the most prominent connexin in the mammalian ventricular myocardium and forms gap junctions that are essential for normal conduction of action potential. Carvedilol, a nonselective beta-blocker, is widely used to prevent ventricular arrhythmias after myocardial infarction (MI). Here, we examined the effect of carvedilol on the expression of Cx43 protein and ven",
+        "score": 0.46122515201568604,
+        "doi": "10.1620/tjem.218.121",
+        "journal": "The Tohoku journal of experimental medicine",
+        "year": "2009",
+        "rerank_score": 1.6124451160430908,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10756410",
+        "text": "The value of the number-needed-to-treat method in antiepileptic drug trials. There is controversy between clinicians and statisticians on the appropriateness of the number needed to treat (NNT) as a summary statistic to report the effectiveness of a treatment. We examine the two viewpoints and make proposals concerning the reporting of clinical trial results.",
+        "score": 0.46126532554626465,
+        "doi": "10.1111/j.1528-1157.2000.tb00186.x",
+        "journal": "Epilepsia",
+        "year": "2000",
+        "rerank_score": 1.0968101024627686,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969604",
+        "text": "Comparison of nebivolol, carvedilol, and bisoprolol for adverse clinical outcomes among patients with heart failure-a real-world nationwide investigation. The authors report a retrospective cohort study based on a national dataset that explores the association between the prescription of three beta-blockers (BB) and a diagnosis of heart failure (HF) readmission, cardiovascular (CV) death, and all-cause death. Patients with HF who received nebivolol, carvedilol, and bisoprolol between 2016 and 2020 were iden",
+        "score": 0.48969775438308716,
+        "doi": "10.1007/s00210-025-03855-z",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2024",
+        "rerank_score": 0.6625272035598755,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

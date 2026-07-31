@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Pravastatin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:14749696",
+        "text": "Pharmacokinetics and pharmacodynamics of pravastatin in pediatric and adolescent cardiac transplant recipients on a regimen of triple immunosuppression. In adults, pravastatin reduces the development and progression of transplant vasculopathy, the main long-term risk after cardiac transplantation. The pharmacokinetics of pravastatin is not known in children taking calcineurin inhibitors. Our aim was to determine the single-dose pharmacokinetics and short-term safety of pravastatin in children undergoing reg",
+        "score": 0.35403895378112793,
+        "doi": "10.1016/j.clpt.2003.09.011",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2004",
+        "rerank_score": 0.9896668195724487,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40029062",
+        "text": "Identification of Genetic Variants Associated with Pravastatin and Pitavastatin Pharmacokinetics. A clinical trial was carried out to investigate the pharmacogenetics of single-dose pravastatin and pitavastatin pharmacokinetics in 173 and 164 healthy participants. Additionally, 96 participants were included from previous pharmacogenetic studies with pravastatin. In a genome-wide meta-analysis of pravastatin including all 269 participants, SLCO1B1 c.521T>C (rs4149056) was associated with increased AUC",
+        "score": 0.35776033997535706,
+        "doi": "10.1002/cpt.3623",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 0.3036608397960663,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.37824273109436035,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.296453833580017,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

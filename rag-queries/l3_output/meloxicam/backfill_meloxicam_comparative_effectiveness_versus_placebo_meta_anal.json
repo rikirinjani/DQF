@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Meloxicam comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8630640",
+        "text": "A 4-week, double-blind, parallel-group study to compare the gastrointestinal effects of meloxicam 7.5 mg, meloxicam 15 mg, piroxicam 20 mg and placebo by means of faecal blood loss, endoscopy and symptom evaluation in healthy volunteers. Meloxicam is a new non-steroidal anti-inflammatory drug (NSAID) which preferentially inhibits cyclooxygenase-2 (COX-2) over cyclooxygenase-1 (COX-1). Gastrointestinal (GI) tolerability of meloxicam 7.5 and 15 mg vs piroxicam 20 mg was evaluated in a 4-week, double-blind, pa",
+        "score": 0.40285608172416687,
+        "doi": "10.1093/rheumatology/35.suppl_1.61",
+        "journal": "British journal of rheumatology",
+        "year": "1996",
+        "rerank_score": 3.768097162246704,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29965830",
+        "text": "Estimating relative efficacy in acute postoperative pain: network meta-analysis is consistent with indirect comparison to placebo alone. Network meta-analysis uses direct comparisons of interventions within randomized controlled trials and indirect comparisons across them. Network meta-analysis uses more data than a series of direct comparisons with placebo, and theoretically should produce more reliable results. We used a Cochrane overview review of acute postoperative pain trials and other systematic revi",
+        "score": 0.4007054269313812,
+        "doi": "10.1097/j.pain.0000000000001322",
+        "journal": "Pain",
+        "year": "2018",
+        "rerank_score": 2.9122414588928223,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39920066",
+        "text": "Beneficial and harmful effects of duloxetine versus placebo, 'active placebo' or no intervention for adults with major depressive disorder: a systematic review with meta-analysis and trial sequential analysis of randomised clinical trials. To assess the beneficial and harmful effects of duloxetine versus 'active placebo', placebo or no intervention for adults with major depressive disorder. Systematic review with meta-analysis and trial sequential analysis of randomised trials. Cochrane Central Register of ",
+        "score": 0.40834754705429077,
+        "doi": "10.1136/bmjopen-2023-082853",
+        "journal": "BMJ open",
+        "year": "2025",
+        "rerank_score": 1.5171513557434082,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

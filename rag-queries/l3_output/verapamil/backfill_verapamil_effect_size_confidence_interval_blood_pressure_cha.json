@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Verapamil effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39296914",
+        "text": "Effects of intracoronary administration of small doses of nicorandil and verapamil on blood pressure and heart rate. Nicorandil and verapamil can improve coronary blood flow and coronary microcirculation during percutaneous coronary intervention. However, the effects of intracoronary (IC) administration of nicorandil and verapamil on hemodynamics remain unclear. To clarify the safety and effects of IC administration of nicorandil and verapamil on blood pressure (BP) and heart rate (HR) to provide evidence-b",
+        "score": 0.3906054198741913,
+        "doi": "10.1016/j.ahjo.2024.100461",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "year": "2024",
+        "rerank_score": 2.0391180515289307,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39477199",
+        "text": "Comparative Influences of Beta blockers and Verapamil on Cardiac Outcomes in Hypertrophic Cardiomyopathy. Guidelines recommend β blockers (BBs) as first-line therapy in symptomatic patients with hypertrophic cardiomyopathy (HCM) and nondihydropyridine calcium channel blockers, particularly, verapamil, as the second-line therapy, despite the absence of comparison trials between those 2 drugs. Because deleterious effects of verapamil have been reported in this setting, the present analysis aimed to evaluate t",
+        "score": 0.41432660818099976,
+        "doi": "10.1016/j.amjcard.2024.10.029",
+        "journal": "The American journal of cardiology",
+        "year": "2024",
+        "rerank_score": -3.7993133068084717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40298137",
+        "text": "Influence of cuff size on the accuracy of supine blood pressure measurement. The discrepancy in blood pressure (BP) measurements while in a supine position using an upper-arm automated sphygmomanometer equipped with cuffs of varying sizes remains unresolved. In this single-center, randomized crossover trial, a total of 223 inpatients from the Affiliated Hospital of Putian University were enrolled between August and September 2023. Three sets of triplicate BP measurements were obtained while the participants",
+        "score": 0.4287109971046448,
+        "doi": "10.1097/MBP.0000000000000752",
+        "journal": "Blood pressure monitoring",
+        "year": "2025",
+        "rerank_score": -7.9688005447387695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

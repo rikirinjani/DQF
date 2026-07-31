@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Rabeprazole adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40019211",
+        "text": "Safety assessment of esomeprazole: real-world adverse event signal mining and analysis based on FAERS database. Esomeprazole holds a significant position in the treatment of acid-related diseases. However, as with all drugs, it may also carry some potential risk of adverse effects. This study aims to further evaluate the safety of esomeprazole for clinical use. The data of esomeprazole-related adverse events was extracted from the FAERS database from the first quarter of 2004 to the first quarter of 2024 an",
+        "score": 0.43065014481544495,
+        "doi": "10.1080/14740338.2025.2473636",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": 4.235684871673584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40094149",
+        "text": "Real-world-evidence, prospective-observational study to evaluate safety and effectiveness of rabeprazole dual-delayed-release capsules in patients with gastroesophageal reflux disease. Abnormal gastric acid reflux into the esophagus causes symptoms of gastroesophageal reflux disease (GERD) such as heartburn and regurgitation and also leads to mucosal damage. This damage can further lead to complications such as Barrett's esophagus and esophagitis. Conventional proton pump inhibitors (PPIs) often fail to red",
+        "score": 0.4524953365325928,
+        "doi": "10.4292/wjgpt.v16.i1.103898",
+        "journal": "World journal of gastrointestinal pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 3.454848289489746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38701320",
+        "text": "Amoxicillin, gemifloxacin and rabeprazole, as first-line Helicobacter pylori therapy in clinical practice: A pilot study. Success in eradication of H. pylori is decreasing due to increasing resistant strains. In particular, side-effects due to 4-agent treatment multiple drug use are observed and treatment compliance decreases. The aim of this study was to evaluate the efficacy, reliability, and side-effect profile of the combination of amoxicillin and rabeprazole with gemifloxacin, which is a new generation",
+        "score": 0.4571964144706726,
+        "doi": "10.1097/MD.0000000000038012",
+        "journal": "Medicine",
+        "year": "2024",
+        "rerank_score": 0.866275429725647,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

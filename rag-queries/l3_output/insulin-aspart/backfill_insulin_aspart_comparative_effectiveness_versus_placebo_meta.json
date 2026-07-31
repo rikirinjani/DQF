@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Insulin Aspart comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35431280",
+        "text": "Comparative efficiency and safety of insulin degludec/aspart with insulin glargine in type 2 diabetes: a meta-analysis of randomized controlled trials. Recent studies have found compared with insulin glargine (IGlar), insulin degludec/aspart (IDeg/Asp) may provide adequate glycemic control and prevent hypoglycemia events in type 2 diabetes mellitus (T2DM). Consequently, we performed a meta-analysis to appraise and compare the efficiency and safety of IDeg/Asp and IGlar in the treatment of T2DM. We sought th",
+        "score": 0.3625079393386841,
+        "doi": "10.1507/endocrj.EJ21-0692",
+        "journal": "Endocrine journal",
+        "year": "2022",
+        "rerank_score": 6.04913854598999,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36251282",
+        "text": "Once-weekly semaglutide versus insulin aspart for the treatment of type 2 diabetes in the UK: A long-term cost-effectiveness analysis based on SUSTAIN 11. To evaluate the long-term cost-effectiveness of once-weekly semaglutide 1 mg versus insulin aspart in the UK.",
+        "score": 0.365977942943573,
+        "doi": "10.1111/dom.14892",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2022",
+        "rerank_score": 3.367161989212036,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11131100",
+        "text": "Insulin aspart vs. human insulin in the management of long-term blood glucose control in Type 1 diabetes mellitus: a randomized controlled trial. To compare the efficacy of insulin aspart, a rapid-acting insulin analogue, with that of unmodified human insulin on long-term blood glucose control in Type 1 diabetes mellitus.",
+        "score": 0.3651300072669983,
+        "doi": "10.1046/j.1464-5491.2000.00380.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2000",
+        "rerank_score": 3.3339226245880127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

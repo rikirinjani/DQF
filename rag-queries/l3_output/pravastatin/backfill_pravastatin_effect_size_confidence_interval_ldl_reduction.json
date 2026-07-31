@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Pravastatin effect size confidence interval LDL reduction"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7918306",
+        "text": "Pravastatin effectively lowers LDL cholesterol in familial combined hyperlipidemia without changing LDL subclass pattern. Familial combined hyperlipidemia (FCHL) is the most common genetic lipid disorder among young survivors of myocardial infarction. Elevations of plasma total and low-density lipoprotein (LDL) cholesterol and the prevalence of small, dense LDL particles are both involved in the high coronary risk of FCHL patients. We investigated the ability of pravastatin to favorably correct plasma lipid",
+        "score": 0.34901851415634155,
+        "doi": "10.1161/01.atv.14.10.1569",
+        "journal": "Arteriosclerosis and thrombosis : a journal of vascular biology",
+        "year": "1994",
+        "rerank_score": 2.1217594146728516,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10408004",
+        "text": "[Statins in primary prevention of coronary heart disease]. Lowering of LDL-cholesterol by 25 to 30% with statins resulted in a highly significant reduction of coronary event rates in 2 large primary prevention trials. In the West of Scotland Primary Prevention Study (WOSCOPS) hypercholesterolemic asymptomatic men were treated with either 40 mg of pravastatin or placebo, in the Airforce/Texas Coronary Atherosclerosis Prevention Study (AFCAPS/TexCAPS) 6605 men and women with average levels of LDL-cholesterol ",
+        "score": 0.34528878331184387,
+        "doi": "",
+        "journal": "Wiener medizinische Wochenschrift (1946)",
+        "year": "1999",
+        "rerank_score": 0.4107639789581299,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8041026",
+        "text": "[Effects of pravastatin administration for 12 months on serum lipid levels in aged patients with hypercholesterolemia]. To evaluate long-term efficacy of pravastatin, we administered this HMG-CoA reductase inhibitor at a mean dose of 9.9 mg/day to 208 aged patients with serum levels of total cholesterol (TC) over 220 mg/dl (mean +/- SD aged of 70 +/- 7 years; 62 males and 146 females) for 12 months. The mean serum value of TC significantly decreased from the basal level of 265 mg/dl to 216 mg/dl in the 3rd ",
+        "score": 0.3475404381752014,
+        "doi": "10.3143/geriatrics.31.310",
+        "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+        "year": "1994",
+        "rerank_score": -0.9742472171783447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

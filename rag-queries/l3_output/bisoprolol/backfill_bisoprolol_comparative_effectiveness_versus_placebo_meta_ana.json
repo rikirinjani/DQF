@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Bisoprolol comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39749095",
+        "text": "Cross-Sectional Analyses to Assess the Clinical Safety and Effectiveness of Bisoprolol in Patients With Non-obstructive Coronary Artery Disease Who Underwent Percutaneous Coronary Intervention: A Post-hoc Analysis. Elevated central aortic pressure, cardiac output and peripheral vascular resistance contribute to high morbidity in relation to end organ dysfunction in obstructive and non-obstructive coronary artery disease (NOCAD) cases despite revascularization. Bisoprolol preempts further progression of left",
+        "score": 0.3890068531036377,
+        "doi": "10.7759/cureus.75021",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 2.7795538902282715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30408572",
+        "text": "Long-term effectiveness of bisoprolol in patients with angina: A real-world evidence study. A cohort analysis using UK Clinical Practice Research Datalink (CPRD) was performed to compare the effects of bisoprolol, other β-blockers, and drugs other than β-blockers on the long-term risk of mortality and cardiovascular events in patients with angina. Adult patients first diagnosed with angina from 2000 to 2014, with ≥365 days of registration to first angina diagnosis and initiating monotherapies of bisoprolol,",
+        "score": 0.38952869176864624,
+        "doi": "10.1016/j.phrs.2018.10.031",
+        "journal": "Pharmacological research",
+        "year": "2018",
+        "rerank_score": 2.7266523838043213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40786389",
+        "text": "Carvedilol vs. Metoprolol Effectiveness in Patients With Left Ventricular Assist Devices: A TriNetX Analysis. Beta-blockers are a cornerstone of heart failure management, but comparative effectiveness data for different beta-blockers in patients with mechanical circulatory support remain limited. This study aimed to compare clinical outcomes between carvedilol and metoprolol in patients with left ventricular assist devices (LVADs). We performed a retrospective cohort study using the TriNetX Research Network",
+        "score": 0.4078790247440338,
+        "doi": "10.7759/cureus.87649",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 2.6935672760009766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

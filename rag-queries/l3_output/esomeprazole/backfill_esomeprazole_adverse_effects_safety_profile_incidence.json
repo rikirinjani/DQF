@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Esomeprazole adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18331072",
+        "text": "Clinical efficacy of esomeprazole in the prevention and healing of gastrointestinal toxicity associated with NSAIDs in elderly patients. NSAIDs are widely prescribed for the treatment of pain, inflammation and rheumatic disorders, but their use is associated with adverse gastrointestinal effects, ranging from dyspeptic symptoms and peptic ulcers to more serious complications. Elderly patients are at high risk of experiencing NSAID-induced gastrointestinal tract injury and should be considered candidates for",
+        "score": 0.4173740744590759,
+        "doi": "10.2165/00002512-200825030-00003",
+        "journal": "Drugs & aging",
+        "year": "2008",
+        "rerank_score": 3.4586904048919678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40072652",
+        "text": "Anti-inflammatory effects of Esomeprazole in septic lung injury by mediating endoplasmic reticulum stress. Acute lung injury characterized by overactive pulmonary inflammation is a common and serious complication of sepsis. Esomeprazole (ESO), a potent proton pump inhibitor (PPI), has been demonstrated as a promising anti-inflammatory agent in treating sepsis at high concentrations, the efficacy of which in sepsis-induced lung injury has not been explored. This research aimed to investigate the role of ESO ",
+        "score": 0.4283602833747864,
+        "doi": "10.1007/s10863-025-10055-0",
+        "journal": "Journal of bioenergetics and biomembranes",
+        "year": "2024",
+        "rerank_score": 2.1820268630981445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24955450",
+        "text": "Efficacy and safety of esomeprazole with flupentixol/melitracen in treating gastroesophageal reflux disease patients with emotional disorders. This study was designed to demonstrate the safety and efficacy of esomeprazole combined with flupentixol/melitracen for the treatment of gastroesophageal reflux disease (GERD) patients with emotional disorders. METHODS Two hundred eighty-nine GERD patients with emotional disorders were divided randomly into two groups: group 1 received esomeprazole only (monotherapy)",
+        "score": 0.41568130254745483,
+        "doi": "10.1111/jgh.12552",
+        "journal": "Journal of gastroenterology and hepatology",
+        "year": "2014",
+        "rerank_score": 2.0706117153167725,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

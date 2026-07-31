@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Hydrochlorothiazide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39957722",
+        "text": "Comparison of Cardiovascular Outcomes Between Chlorthalidone and Hydrochlorothiazide in Hypertensive Patients. Chlorthalidone (CLTD) and hydrochlorothiazide (HCTZ) are widely used thiazide diuretics for hypertension management. This study aimed to evaluate and compare the cardiovascular outcomes of patients treated with CLTD versus HCTZ. This multicenter, retrospective cohort study utilized data from the Korea University Medical Center, derived from electronic health records. A total of 14 257 hypertensive ",
+        "score": 0.4764379858970642,
+        "doi": "10.1111/jch.70000",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2025",
+        "rerank_score": 2.250234365463257,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19254206",
+        "text": "Efficacy and safety of losartan 100 mg or losartan 100 mg plus hydrochlorothiazide 25 mg in the treatment of patients with essential arterial hypertension and CV risk factors: observational, prospective study in primary care. Patients with high cardiovascular risk are prevalent in ambulatory care. To achieve adequate blood pressure control, such patients require higher drug doses and/or combination therapy. We aimed to assess the efficacy and safety of losartan 100 mg as monotherapy or in fixed-dose combina",
+        "score": 0.4517006278038025,
+        "doi": "10.1185/03007990902809876",
+        "journal": "Current medical research and opinion",
+        "year": "2009",
+        "rerank_score": 0.6505259871482849,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2678309",
+        "text": "[Evaluation of the efficacy and tolerability of a fixed dose combination of captopril (CPT) 50 mg and hydrochlorothiazide (HCTZ) 15 mg in the elderly]. In this double blind study we have evaluated the efficacy and tolerability of the association Captopril 50 mg + hydrochlorothiazide 15 mg/die vs hydrochlorothiazide 25 mg/die in aged patients with hypertension. Both drugs showed a good antihypertensive efficacy, and a better efficacy on diastolic blood pressure was shown by the association Captopril + hydroc",
+        "score": 0.4499899446964264,
+        "doi": "",
+        "journal": "Rivista europea per le scienze mediche e farmacologiche = European review for me",
+        "year": "1989",
+        "rerank_score": -1.2470327615737915,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Irbesartan adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15462695",
+        "text": "The effect of irbesartan in reducing cardiovascular risk in hypertensive type 2 diabetic patients: an observational study in 16,600 patients in primary care. As arterial hypertension substantially increases the risk of premature death, cardiovascular disease and renal insufficiency in patients with type 2 diabetes, effective and safe antihypertensive therapy is of importance. Therefore, the effect of irbesartan as monotherapy, or in fixed combination with hydrochlorothiazide, on blood pressure, metabolic pa",
+        "score": 0.42153674364089966,
+        "doi": "10.1185/030079904x3861",
+        "journal": "Current medical research and opinion",
+        "year": "2004",
+        "rerank_score": 3.201113700866699,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19886855",
+        "text": "Safety and tolerability of fixed-dose irbesartan/hydrochlorothiazide for rapid control of severe hypertension. This prospective, double-blind, multicenter trial compared the safety and tolerability of irbesartan/hydrochlorothiazide (HCTZ) fixed-dose combination therapy with irbesartan monotherapy in patients with severe hypertension (seated diastolic blood pressure (SeDBP) >or=110 mm Hg, mean BP 172/113 mm Hg at baseline). Patients were randomized 2:1 to 7 weeks' irbesartan/HCTZ 150/12.5 mg to 300/25 mg (n ",
+        "score": 0.4233132600784302,
+        "doi": "10.3109/10641960902929420",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "2009",
+        "rerank_score": 1.9237134456634521,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39708090",
+        "text": "Safety assessment of ezetimibe: real-world adverse event analysis from the FAERS database. Ezetimibe is known for its lipid-lowering safety and tolerability, but its real-world adverse effects have not been fully evaluated. In this study, adverse events associated with ezetimibe were investigated using the FAERS database for the period 2004 to 2023. Adverse events data for ezetimibe, spanning from the first quarter of 2004 to the fourth quarter of 2023, were standardized and analyzed using signal quantifica",
+        "score": 0.43692949414253235,
+        "doi": "10.1080/14740338.2024.2446411",
+        "journal": "Expert opinion on drug safety",
+        "year": "2024",
+        "rerank_score": 1.2909435033798218,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Furosemide blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39077768",
+        "text": "UMOD (uromodulin) has been linked to hypertension through potential activation of Na This prospective, multicenter, genotype-blinded trial evaluated torasemide (torsemide) efficacy on systolic blood pressure (SBP) reduction over 16 weeks in nondiabetic, hypertensive participants uncontrolled on ≥1 nondiuretic antihypertensive for >3 months. The primary end point was the change in 24-hour ambulatory SBP (ABPM SBP) and SBP response trajectories between baseline and 16 weeks by genotype (AA versus AG/GG) due t",
+        "score": 0.42629340291023254,
+        "doi": "10.1161/HYPERTENSIONAHA.124.23122",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2024",
+        "rerank_score": 5.568524360656738,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39884048",
+        "text": "Effect of postpartum oral furosemide use on postpartum readmissions and blood pressure trends. Oral furosemide postpartum improves the time to hypertension resolution in randomized control trials. Further investigation is needed to determine the impact of furosemide in routine clinical practice. Real world study to assess impact of furosemide on rates of postpartum hypertension and readmissions for patients with hypertensive disorders of pregnancy. A prospective cohort study of postpartum patients with hype",
+        "score": 0.3991377055644989,
+        "doi": "10.1016/j.preghy.2025.101199",
+        "journal": "Pregnancy hypertension",
+        "year": "2024",
+        "rerank_score": 4.043366432189941,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41555241",
+        "text": "Assessment of the impact of furosemide use on outcomes in patients with intra-abdominal hypertension: a retrospective cohort study from the MIMIC-IV database.",
+        "score": 0.38124361634254456,
+        "doi": "10.1186/s12876-026-04607-w",
+        "journal": "BMC gastroenterology",
+        "year": "2025",
+        "rerank_score": 3.5345752239227295,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

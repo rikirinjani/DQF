@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Metformin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39350158",
+        "text": "Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: a systematic review and meta-analysis with meta-regression of observational studies. Metformin is the most prescribed medication for type 2 diabetes mellitus (T2DM); there is a well-established link with the elevated incidence of gastrointestinal (GI) adverse events (AE) limiting its administration or intensification. The objective of this systematic review and meta-analysis of observational studies was to eval",
+        "score": 0.40973132848739624,
+        "doi": "10.1186/s12902-024-01727-w",
+        "journal": "BMC endocrine disorders",
+        "year": "2024",
+        "rerank_score": 3.883383274078369,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21241523",
+        "text": "Type 2 diabetes increases and metformin reduces total, colorectal, liver and pancreatic cancer incidences in Taiwanese: a representative population prospective cohort study of 800,000 individuals. Metformin protection against cancer risk in Orientals is uncertain. We examined the possible metformin effect on total, esophageal, gastric, colorectal (CRC), hepatocellular (HCC) and pancreatic cancers in a Taiwanese cohort.",
+        "score": 0.3985670804977417,
+        "doi": "10.1186/1471-2407-11-20",
+        "journal": "BMC cancer",
+        "year": "2010",
+        "rerank_score": 3.610260009765625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39639838",
+        "text": "Short-term efficacy and safety of metformin in individuals with type 2 diabetes and mild hepatic impairment: A propensity score-matched real-world study.",
+        "score": 0.4096006751060486,
+        "doi": "10.1111/dom.16108",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 2.5888001918792725,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

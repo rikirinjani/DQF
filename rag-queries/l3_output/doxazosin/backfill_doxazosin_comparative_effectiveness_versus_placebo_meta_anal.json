@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Doxazosin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41042258",
+        "text": "A double-blind, randomized, placebo-controlled trial of doxazosin for posttraumatic distressing dreams and sleep disturbance in men and women with posttraumatic stress. Distressing dreams and sleep disturbance more broadly are core features of posttraumatic stress disorder. Effective treatments remain elusive. Doxazosin is an alpha-1 adrenergic blocker with demonstrated promise for posttraumatic stress disorder, but there is a dearth of evidence from randomized controlled trials. The current randomized, dou",
+        "score": 0.39386147260665894,
+        "doi": "10.5664/jcsm.11908",
+        "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American",
+        "year": "2026",
+        "rerank_score": 2.435774087905884,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40984657",
+        "text": "Efficacy and Safety of Lisdexamfetamine Versus Topiramate Versus Naltrexone/Bupropion in Individuals With Binge Eating Disorder: A Network Meta-Analysis. To compare the efficacy and safety of lisdexamfetamine, topiramate, and naltrexone/bupropion for treating binge eating disorder (BED) using network meta-analysis. We systematically searched PubMed, Scopus, ClinicalTrials.gov, and Cochrane Central up to February 2025 for randomized controlled trials evaluating these medications versus placebo in adults with",
+        "score": 0.3939448297023773,
+        "doi": "10.1002/erv.70035",
+        "journal": "European eating disorders review : the journal of the Eating Disorders Associati",
+        "year": "2025",
+        "rerank_score": 2.337481737136841,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2884855",
+        "text": "An open one-year comparison of doxazosin and prazosin for mild to moderate essential hypertension. The long-term safety, efficacy and effect on serum lipid profile of doxazosin, a new alpha 1-adrenoceptor inhibitor administered once daily, were compared with those of prazosin, administered twice daily, in 104 patients with essential hypertension treated for 1 year. Doxazosin produced clinically significant decreases in standing and supine blood pressures over a period of 1 year. These decreases were similar",
+        "score": 0.38931238651275635,
+        "doi": "10.1016/0002-9149(87)90160-3",
+        "journal": "The American journal of cardiology",
+        "year": "1987",
+        "rerank_score": 1.8875913619995117,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

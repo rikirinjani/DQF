@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Insulin Glargine mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39927997",
+        "text": "Safety and Efficacy of Biosimilar Insulin Glargine (Basaglar) in Indian Patients with Type 2 Diabetes Mellitus: Results from a Multicenter, Open-Label, Single-Arm, Phase 4 Trial (ABEX). Basaglar This multicenter, open-label, single-arm, phase 4 trial included Indian patients with insulin-naïve T2DM with glycated hemoglobin A1c (HbA1c) ≥7.0 to <11.0% who were receiving ≥2 oral antihyperglycemic drugs and/or a glucagon-like peptide-1-receptor agonist. Patients received Basaglar once daily for 24 weeks, exclud",
+        "score": 0.3918341100215912,
+        "doi": "10.59556/japi.73.0842",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2025",
+        "rerank_score": 4.826416015625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40623843",
+        "text": "Insulin glargine supplementation during early management phase in children with diabetic ketoacidosis: a double-blinded randomised controlled trial. To evaluate the efficacy and safety of early supplementation with insulin glargine (GI) during the acute management of paediatric diabetic ketoacidosis (DKA). Double-blinded randomised controlled trial conducted from July 2022 to June 2023. Emergency department and paediatric intensive care unit of a tertiary care teaching hospital in North India. Children betw",
+        "score": 0.364938884973526,
+        "doi": "10.1136/archdischild-2024-327912",
+        "journal": "Archives of disease in childhood",
+        "year": "2024",
+        "rerank_score": 4.246236801147461,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39157869",
+        "text": "The efficacy and safety of insulin glargine 100 U/mL + lixisenatide versus insulin degludec + insulin aspart in Chinese people with type 2 diabetes suboptimally controlled with oral antidiabetic drugs: The Soli-D randomized controlled trial.",
+        "score": 0.3793109357357025,
+        "doi": "10.1111/dom.15857",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 3.7108757495880127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Aspirin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32920022",
+        "text": "Subgroup analysis of the ASPirin in Reducing Events in the Elderly randomized clinical trial suggests aspirin did not improve outcomes in older adults with chronic kidney disease. The role of aspirin for primary prevention in older adults with chronic kidney disease (CKD) is unclear. Therefore, post hoc analysis of the randomized controlled trial ASPirin in Reducing Events in the Elderly (ASPREE) was undertaken comparing 100 mg of enteric-coated aspirin daily against matching placebo. Participants were comm",
+        "score": 0.36199626326560974,
+        "doi": "10.1016/j.kint.2020.08.011",
+        "journal": "Kidney international",
+        "year": "2020",
+        "rerank_score": 4.032872200012207,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2014943",
+        "text": "Low-dose aspirin therapy for chronic stable angina. A randomized, placebo-controlled clinical trial. To evaluate the efficacy of low-dose aspirin in the primary prevention of myocardial infarction among patients with chronic stable angina.",
+        "score": 0.3586975038051605,
+        "doi": "10.7326/0003-4819-114-10-835",
+        "journal": "Annals of internal medicine",
+        "year": "1991",
+        "rerank_score": 2.817044973373413,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38683596",
+        "text": "Aspirin vs Placebo as Adjuvant Therapy for Breast Cancer: The Alliance A011502 Randomized Trial. Observational studies of survivors of breast cancer and prospective trials of aspirin for cardiovascular disease suggest improved breast cancer survival among aspirin users, but prospective studies of aspirin to prevent breast cancer recurrence are lacking. To determine whether aspirin decreases the risk of invasive cancer events among survivors of breast cancer. A011502, a phase 3, randomized, placebo-controlle",
+        "score": 0.3649667203426361,
+        "doi": "10.1001/jama.2024.4840",
+        "journal": "JAMA",
+        "year": "2024",
+        "rerank_score": 2.7214267253875732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

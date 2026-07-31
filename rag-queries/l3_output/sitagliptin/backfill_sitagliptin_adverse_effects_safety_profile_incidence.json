@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Sitagliptin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38864127",
+        "text": "[Cardiovascular safety of sitagliptin added to metformin in real world patients with type 2 diabetes]. To assess the safety of sitagliptin added to metformin on cardiovascular adverse events in real world patients with type 2 diabetes mellitus (T2DM). Real world data from Yinzhou Regional Health Care Database were used to select T2DM patients with diagnosis and treatment records in the platform from January 1, 2017 to December 31, 2022. According to drug prescription records, the patients were divided into ",
+        "score": 0.4331625699996948,
+        "doi": "",
+        "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health scienc",
+        "year": "2024",
+        "rerank_score": 3.8640193939208984,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41448390",
+        "text": "Major adverse cardiovascular and limb events caused by tirzepatide in patients with type 2 diabetes at high cardiovascular risk: A comparison with sitagliptin. To elucidate the overall protective effects of tirzepatide against atherosclerosis-related events, including cardiovascular and lower-extremity events. We conducted a retrospective cohort study using the TriNetX global health research network to identify patients with type 2 diabetes (T2D) who initiated tirzepatide or sitagliptin between January 2022",
+        "score": 0.4191248118877411,
+        "doi": "10.1016/j.diabres.2025.113072",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2025",
+        "rerank_score": 2.9324452877044678,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25816296",
+        "text": "Efficacy and safety of sitagliptin added to insulin in Japanese patients with type 2 diabetes: the EDIT randomized trial. To clarify the efficacy and safety of adding sitagliptin to insulin therapy in Japanese patients with suboptimally controlled type 2 diabetes (T2DM).",
+        "score": 0.4154719114303589,
+        "doi": "10.1371/journal.pone.0121988",
+        "journal": "PloS one",
+        "year": "2014",
+        "rerank_score": 0.4785324037075043,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

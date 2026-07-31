@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Candesartan time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.3956955671310425,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.5813239812850952,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41531356",
+        "text": "The First Russian Fixed Combination of Indapamide Retard and Candesartan: Results of Two Pharmacokinetic and Bioequivalence Studies. Aim    To study the pharmacokinetics and prove the bioequivalence of Hyposart I (indapamide 1.5 mg + candesartan 16 mg) modified-release film-coated tablets (OOO AKRIKHIN, Russia) compared to the concomitant drugs Arifon® retard (indapamide) prolonged-release film-coated tablets, 1.5 mg (Servier Laboratories, France) + Atacand® (candesartan) tablets, 16 mg (AstraZeneca AB, Swe",
+        "score": 0.3654586374759674,
+        "doi": "10.18087/cardio.2025.12.n3093",
+        "journal": "Kardiologiia",
+        "year": "2025",
+        "rerank_score": -1.0037736892700195,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39486868",
+        "text": "Candesartan Has No Clinically Meaningful Effect on the Plasma Concentrations of Cytochrome P450 2C8 Substrate Repaglinide in Humans. In vitro evidence shows that the acyl-",
+        "score": 0.39536258578300476,
+        "doi": "10.1124/dmd.124.001798",
+        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+        "year": "2024",
+        "rerank_score": -1.1901404857635498,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

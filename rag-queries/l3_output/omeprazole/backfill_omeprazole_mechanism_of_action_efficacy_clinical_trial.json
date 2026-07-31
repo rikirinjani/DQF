@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Omeprazole mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3069285",
+        "text": "Therapeutic evaluation of omeprazole. The pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosage and administration of omeprazole are reviewed. Omeprazole, a substituted benzimidazole, has a unique site and mechanism of action because it inhibits the proton pump--i.e., hydrogen, potassium adenosine triphosphatase (H+,K+-ATPase)--and consequently blocks the final common step in the gastric acid secretory pathway. Omeprazole inhibits basal and histamine-, gastrin- and pentagastrin-stim",
+        "score": 0.39582955837249756,
+        "doi": "",
+        "journal": "Clinical pharmacy",
+        "year": "1988",
+        "rerank_score": 7.2729082107543945,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23667753",
+        "text": "A randomized, double blinded, clinical trial to assess the efficacy and cost effectiveness of omeprazole compared to rabeprazole in the maintenance therapy of patients with gastroesophageal reflux disease. The aim of this study was to evaluate the efficacy and cost efficiency of omeprazole 10 mg and rabeprazole 10 mg once daily for 24 weeks in the maintenance therapy.",
+        "score": 0.3957013487815857,
+        "doi": "10.5056/jnm.2013.19.2.219",
+        "journal": "Journal of neurogastroenterology and motility",
+        "year": "2012",
+        "rerank_score": 4.778780937194824,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1397742",
+        "text": "The potential clinical role of intravenous omeprazole. The efficacy of intravenous omeprazole has been investigated in a number of clinical applications. In critically ill patients with bleeding peptic ulcer, which developed despite prophylactic measures for stress ulcer, bleeding stopped in 16 out of 19 patients treated with omeprazole given as a 40-mg i.v. bolus twice daily for up to 5 days. By contrast, bleeding stopped in only 3 out of 20 such patients given a continuous infusion of ranitidine, 400 mg d",
+        "score": 0.39502736926078796,
+        "doi": "10.1159/000200909",
+        "journal": "Digestion",
+        "year": "1992",
+        "rerank_score": 4.769328594207764,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

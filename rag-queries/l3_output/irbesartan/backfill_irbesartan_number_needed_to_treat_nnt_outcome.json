@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Irbesartan number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39333921",
+        "text": "Safety and efficacy of sparsentan versus irbesartan in focal segmental glomerulosclerosis and IgA nephropathy: a systematic review and meta-analysis of randomized controlled trials. Sparsentan has shown positive effects on managing different subtypes of glomerulonephritis. The recent results of trials require a pooled analysis to validate these results. We aim to assess the safety and efficacy of sparsentan versus irbesartan for patients with IgA nephropathy and focal glomerulosclerosis (FSGS). We conducted",
+        "score": 0.49612659215927124,
+        "doi": "10.1186/s12882-024-03713-9",
+        "journal": "BMC nephrology",
+        "year": "2024",
+        "rerank_score": -1.7582228183746338,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40971534",
+        "text": "Prescriber-Level Responses to the 2018-2019 Valsartan, Irbesartan, and Losartan Recalls and Drug Shortages: A National Study. Global shortages for 3 angiotensin receptor-II blockers (ARBs)-valsartan, losartan, and irbesartan-occurred in 2018-2019 after recalls due to ingredient impurities. Provider-level responses to the ARB shortages in the United States and spillovers to other antihypertensive classes are unknown. To estimate changes in provider-level prescribing for ARBs and non-ARB antihypertensives up ",
+        "score": 0.47597604990005493,
+        "doi": "10.1097/MLR.0000000000002209",
+        "journal": "Medical care",
+        "year": "2024",
+        "rerank_score": -3.320305824279785,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38507767",
+        "text": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis.",
+        "score": 0.4957679510116577,
+        "doi": "10.1056/NEJMc2401126",
+        "journal": "The New England journal of medicine",
+        "year": "2024",
+        "rerank_score": -4.379517555236816,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

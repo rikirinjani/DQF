@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Tirzepatide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41419618",
+        "text": "Efficacy of tirzepatide versus semaglutide in achieving therapeutic targets in type 2 diabetes: a post hoc analysis of the SURPASS-2 Trial. Simultaneous control of HbA We performed a post hoc analysis of the SURPASS-2 trial, a randomised phase 3 study including 1879 adults with type 2 diabetes. Participants were randomised to receive tirzepatide (5, 10 or 15 mg) or semaglutide (1 mg). In this analysis, we compared the effects of tirzepatide vs semaglutide on the attainment of standard (HbA In the SURPASS-2 ",
+        "score": 0.39645272493362427,
+        "doi": "10.1007/s00125-025-06637-7",
+        "journal": "Diabetologia",
+        "year": "2025",
+        "rerank_score": 4.9725565910339355,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40555748",
+        "text": "Tirzepatide on ingestive behavior in adults with overweight or obesity: a randomized 6-week phase 1 trial. Tirzepatide induces weight reduction but the underlying mechanisms are unknown. This 6-week phase 1 study investigated early effects of tirzepatide on energy intake. Male and female adults without diabetes (n = 114) and a body mass index from 27 to 50 kg per m",
+        "score": 0.39436033368110657,
+        "doi": "10.1038/s41591-025-03774-9",
+        "journal": "Nature medicine",
+        "year": "2024",
+        "rerank_score": 3.4062750339508057,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35322520",
+        "text": "A two-stage adaptive clinical trial design with data-driven subgroup identification at interim analysis. In this paper, we consider randomized controlled clinical trials comparing two treatments in efficacy assessment using a time to event outcome. We assume a relatively small number of candidate biomarkers available in the beginning of the trial, which may help define an efficacy subgroup which shows differential treatment effect. The efficacy subgroup is to be defined by one or two biomarkers and cut-offs",
+        "score": 0.39693713188171387,
+        "doi": "10.1002/pst.2208",
+        "journal": "Pharmaceutical statistics",
+        "year": "2022",
+        "rerank_score": 0.9126491546630859,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

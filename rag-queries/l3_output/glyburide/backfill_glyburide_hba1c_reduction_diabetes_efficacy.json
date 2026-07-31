@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Glyburide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40665896",
+        "text": "From In Vitro Efficacy to Long-Term HbA1c Response for GLP-1R/GlucagonR Agonism Using the 4GI-HbA1c Systems Model. For the treatment of Type 2 Diabetes, high efficacy approaches such as Glucagon-like peptide 1 (GLP-1)-based therapies are recommended for glucose control. Prediction of the clinical outcome of these therapies on glucose and hemoglobin A1c (HbA1c), using early available pharmacokinetic and in vitro efficacy information, can be a valuable tool for compound selection and supporting drug developme",
+        "score": 0.3744438588619232,
+        "doi": "10.1002/psp4.70074",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 5.472026348114014,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41490119",
+        "text": "Feasibility of glycated haemoglobin target-setting in adults with diabetes: A mixed-methods study. HbA1c targets guide diabetes management to reduce complications, yet their psychological effects are poorly understood. This feasibility study evaluated the practicality of conducting a definitive trial evaluating the impact of explicit HbA1c target-setting in adults with diabetes. We conducted a randomised mixed-methods feasibility study. Adults with diabetes were allocated 1:1 to receive an explicit HbA1c ta",
+        "score": 0.3683832585811615,
+        "doi": "10.1371/journal.pone.0317162",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 5.336556434631348,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40526184",
+        "text": "Evaluation of Four Semi-Mechanistic Models for Predicting Glycemic Control With a Glucagon Receptor Antagonist in People With Type 2 Diabetes. Glycated hemoglobin (HbA1c) is the gold standard for measuring long-term glycemic efficacy over at least 3 months in Type 2 diabetes (T2D). Being able to predict HbA1c using glucose response from studies of less than 3 months would be useful. Four semi-mechanistic HbA1c models (ADOPT, FFH, FHH, and IGRH) were evaluated for their predictive performance of longer-term ",
+        "score": 0.37082910537719727,
+        "doi": "10.1002/psp4.70058",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 5.26186990737915,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

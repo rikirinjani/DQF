@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Metformin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39462598",
+        "text": "High Frequency of Defecation under Metformin Use May Be a Potential Glucose-lowering Factor Independent of the Dose-dependent Effect of Metformin in Patients with Type 2 Diabetes Mellitus. Objective Our previous study indicated that the efficacy of metformin in lowering glycated hemoglobin (HbA1c) levels may be influenced by the pretreatment frequency of defecation (FD) in patients with type 2 diabetes mellitus (T2DM). This study aimed to further examine how FD and the metformin dose may affect HbA1c change",
+        "score": 0.38105303049087524,
+        "doi": "10.2169/internalmedicine.3982-24",
+        "journal": "Internal medicine (Tokyo, Japan)",
+        "year": "2025",
+        "rerank_score": 2.2439088821411133,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40996853",
+        "text": "GLP1R and OCT1 variants modulate semaglutide and metformin response in type 2 diabetes. Large consortia link variants in SLC22A1 , SLC47A1 , and GLP1R to antidiabetic response, yet few data confirm these effects in small real-world cohorts. We tested whether three common polymorphisms translate into measurable 3-month metabolic changes. Twenty-seven Bulgarian adults with type 2 diabetes [BMI ≥ 25 kg/m²; mean glycated hemoglobin (HbA1c): 8.3 ± 0.9%] received metformin XR 2000 mg ( n  = 17) or oral semaglutid",
+        "score": 0.39162498712539673,
+        "doi": "10.1097/FPC.0000000000000577",
+        "journal": "Pharmacogenetics and genomics",
+        "year": "2025",
+        "rerank_score": 2.1918435096740723,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.3909478485584259,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -0.9016899466514587,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

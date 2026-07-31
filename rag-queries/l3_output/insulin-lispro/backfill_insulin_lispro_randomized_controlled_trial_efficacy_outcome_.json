@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Insulin Lispro randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15228393",
+        "text": "Prospective audit of conversion from regular to lispro insulin during routine clinical care. Randomized controlled trials show that lispro insulin has the potential to improve glycaemic control. Observational, practice-based studies provide information that is complementary to that obtained from randomized controlled trials and results of both types of studies are of relevance when advising patients of likely outcomes during routine clinical care.",
+        "score": 0.36525678634643555,
+        "doi": "10.1111/j.1444-0903.2004.00593.x",
+        "journal": "Internal medicine journal",
+        "year": "2004",
+        "rerank_score": 5.160902976989746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41476918",
+        "text": "Efficacy and safety of insulin efsitora in type 2 diabetes: a meta-analysis of randomized controlled trials. This meta-analysis aimed to evaluate the efficacy and safety profiles of insulin efsitora in the treatment of type 2 diabetes (T2D). We conducted a comprehensive systematic search across PubMed, the Cochrane Library, and Embase from database inception through September 11, 2025. The study included randomized controlled trials (RCTs) that directly compared insulin efsitora with once daily basal insuli",
+        "score": 0.3805232644081116,
+        "doi": "10.3389/fendo.2025.1608458",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 4.6009650230407715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41474029",
+        "text": "A Digital Diabetes Clinic Intervention for Individuals Starting Insulin Therapy: Randomized Controlled Trial. This randomized controlled trial evaluated the effects of a digital diabetes clinic continuous support program on metabolic, psychological, and social outcomes in individuals with type 2 diabetes who were recently initiated on insulin therapy. The study included 67 participants, with 35 in the intervention group and 32 in the control group. Data were collected at baseline, and at the third and sixth",
+        "score": 0.3830011487007141,
+        "doi": "10.1097/CIN.0000000000001439",
+        "journal": "Computers, informatics, nursing : CIN",
+        "year": "2025",
+        "rerank_score": 3.807175397872925,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

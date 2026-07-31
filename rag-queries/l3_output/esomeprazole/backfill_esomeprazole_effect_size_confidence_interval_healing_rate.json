@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Esomeprazole effect size confidence interval healing rate"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40785690",
+        "text": "Esomeprazole Potentiates the Cytotoxic Effects of Cisplatin in Gastric Carcinoma Cells. Proton pump inhibitors (PPIs), including esomeprazole, impact the acidic tumor microenvironment, potentially influencing cancer cell behavior. By examining the combined effects of esomeprazole and cisplatin on SNU-1 gastric carcinoma cells, this study sought to elucidate the mechanisms through which esomeprazole enhances cisplatin's cytotoxicity, potentially allowing for effective treatment with reduced cisplatin dosages",
+        "score": 0.46558877825737,
+        "doi": "10.1002/jbt.70441",
+        "journal": "Journal of biochemical and molecular toxicology",
+        "year": "2025",
+        "rerank_score": -2.551438331604004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39949051",
+        "text": "Evaluation of the Efficacy and Safety of a Dual Delayed-Release Formulation of 10-mg Esomeprazole in Patients with Gastric Erosions: A Multicenter, Randomized, Double-Blind, Active-Control, Phase III Study. Clinical data on the efficacy and safety of the dual delayed-release formulation of 10-mg esomeprazole (HIP2101) are currently limited. Therefore, this study compared the efficacy and safety of HIP2101 and 20-mg famotidine (RLD2101) in patients with gastric erosions. In this multicenter, randomized, doub",
+        "score": 0.4428650736808777,
+        "doi": "10.5009/gnl240390",
+        "journal": "Gut and liver",
+        "year": "2024",
+        "rerank_score": -3.9888384342193604,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39803609",
+        "text": "A Pharmacokinetic/Pharmacodynamic Study of Esomeprazole Comparing a Dual Delayed-Release Formulation (YYD601) to a Conventional Formulation Following Multiple Administrations in Healthy Adult Subjects. YYD601 is a new dual delayed-release formulation of esomeprazole, developed to enhance plasma exposure and prolong the duration of acid suppression. This study aimed to evaluate the safety, pharmacokinetic (PK), and pharmacodynamic (PD) profiles of YYD601 20 mg following single and multiple oral administratio",
+        "score": 0.4446461796760559,
+        "doi": "10.2147/DDDT.S500253",
+        "journal": "Drug design, development and therapy",
+        "year": "2024",
+        "rerank_score": -4.0283708572387695,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

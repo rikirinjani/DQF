@@ -24,10 +24,10 @@
       "chain_id": "CHAIN-2026-016",
       "requirement": "RAG evidence back-fill: query PMC from multiple angles, adjudicate L4 values, write RAG-quality notes",
       "spec": "rag-queries/RAG_QUALITY_NOTES.md",
-      "tasks": ["P4-Task1 backfill (fix-1, 80 queries)", "P4-Task1 adjudication (ora-8 diabetes, ora-9 fail, ora-10 AH/cardio)"],
-      "artifacts": ["rag-queries/backfill_queries.py", "rag-queries/backfill_summary.json", "rag-queries/l3_output/*/backfill_*.json (80)", "rag-queries/RAG_QUALITY_NOTES.md"],
-      "tests": ["schema validation 80/80", "ora-8 + ora-10 independent adjudication: 0 changes"],
-      "verifications": ["VER-2026-017"]
+      "tasks": ["P4-Task1 backfill (fix-1, 80 queries)", "P4-Task1 adjudication (ora-8 diabetes, ora-9 fail, ora-10 AH/cardio)", "P4-Task1 extension all-88 (fix-1 Lane A 45 drugs + fix-2 Lane B 43 drugs)", "backfill_all_queries.py canonical merge (fix-1)"],
+      "artifacts": ["rag-queries/backfill_queries.py", "rag-queries/backfill_summary.json", "rag-queries/backfill_all_queries.py (canonical 88-drug runner)", "rag-queries/backfill_all_summary_A.json", "rag-queries/backfill_all_summary_B.json", "rag-queries/l3_output/*/backfill_*.json (706)", "rag-queries/RAG_QUALITY_NOTES.md"],
+      "tests": ["schema validation 80/80", "ora-8 + ora-10 independent adjudication: 0 changes", "all-88 schema validation 706/706, 0 empty results", "per-drug count: 87 drugs x 8 + furosemide x 10 distinct angles", "canonical runner --dry-run: 9 classes / 88 drugs / 0 missing mappings", "py_compile backfill_all_queries.py PASS"],
+      "verifications": ["VER-2026-017", "VER-2026-018"]
     }
   ]
 }

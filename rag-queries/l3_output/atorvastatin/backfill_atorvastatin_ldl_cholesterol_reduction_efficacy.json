@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Atorvastatin LDL cholesterol reduction efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18635754",
+        "text": "Efficacy of atorvastatin for achieving cholesterol targets after LDL-cholesterol based dose selection in patients with type 2 diabetes. We analyzed the feasibility of an intensive lipid-lowering strategy based on a starting dose of atorvastatin according to baseline and target low-density lipoprotein cholesterol (LDL-C) level (<2.6 mmol/L) in 202 statin-naïve patients with type 2 diabetes within 24 weeks. They were assigned to receive a daily dosage of atorvastatin based on their initial LDL-C levels. The p",
+        "score": 0.33173877000808716,
+        "doi": "10.1177/1074248408321461",
+        "journal": "Journal of cardiovascular pharmacology and therapeutics",
+        "year": "2008",
+        "rerank_score": 8.239483833312988,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:14693301",
+        "text": "A multicenter, randomized, double-blind clinical trial comparing the low-density lipoprotein cholesterol-lowering ability of lovastatin 10, 20, and 40 mg/d with fluvastatin 20 and 40 mg/d. The available statin drugs have similar pharmacodynamic properties but are not equal in low-density lipoprotein cholesterol (LDL-C)-lowering efficacy.",
+        "score": 0.33157873153686523,
+        "doi": "10.1016/s0149-2918(03)80330-2",
+        "journal": "Clinical therapeutics",
+        "year": "2003",
+        "rerank_score": 5.4659833908081055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40349283",
+        "text": "Switching Therapy to the Second Brand of Generic Atorvastatin: A 6-Month Retrospective Cohort, Real-World Study. High levels of low-density lipoprotein-cholesterol (LDL) is a major risk factor for cardiovascular diseases. While treatment with atorvastatin is beneficial, the original atorvastatin may be cost prohibitive to some patients. Currently, a second brand of generic atorvastatin is available on the market. This study aimed to evaluate the effectiveness of the second generic brand of atorvastatin. Thi",
+        "score": 0.3549204468727112,
+        "doi": "10.1007/s40801-025-00491-0",
+        "journal": "Drugs - real world outcomes",
+        "year": "2025",
+        "rerank_score": 4.0655717849731445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

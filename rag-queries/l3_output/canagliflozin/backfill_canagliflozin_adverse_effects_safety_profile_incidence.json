@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Canagliflozin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39022025",
+        "text": "Safety assessment of dapagliflozin: Real-world adverse event analysis based on the FAERS database from 2012 to 2023. Dapagliflozin possesses the capacity to cure a wide range of diseases, however, there are many adverse events (AEs) that have not yet been acknowledged or recorded. Safety assessment of dapagliflozin based on the Food and Drug Administration Adverse Event Reporting System (FAERS) database, to explore differences between the reported AEs to provide a overview of the safety profile of dapaglifl",
+        "score": 0.4233872890472412,
+        "doi": "10.1016/j.heliyon.2024.e33306",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 4.772302627563477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38932575",
+        "text": "Effects of canagliflozin on total heart failure events across the kidney function spectrum: Participant-level pooled analysis from the CANVAS Program and CREDENCE trial. People with type 2 diabetes (T2D) face high risks of heart failure (HF) hospitalizations that are often recurrent, especially as kidney function declines. We examined the effects of canagliflozin on total HF events by baseline kidney function in patients with T2D at high cardiovascular risk and/or with chronic kidney disease. Leveraging poo",
+        "score": 0.43334874510765076,
+        "doi": "10.1002/ejhf.3292",
+        "journal": "European journal of heart failure",
+        "year": "2024",
+        "rerank_score": 3.68227219581604,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33769679",
+        "text": "The effects of canagliflozin on heart failure and cardiovascular death by baseline participant characteristics: Analysis of the CREDENCE trial. Heart failure is prevalent in those with type 2 diabetes and chronic kidney disease, and is associated with significant mortality and morbidity. In the CREDENCE trial, canagliflozin reduced the risk of hospitalization for heart failure (HHF) or cardiovascular (CV) death by 31%. In the current analysis we sought to determine whether the effect of canagliflozin on HHF",
+        "score": 0.417736291885376,
+        "doi": "10.1111/dom.14386",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2021",
+        "rerank_score": 3.5477633476257324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Candesartan number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15184734",
+        "text": "ACE inhibitor intolerance and lessons learned from the candesartan in heart failure: assessment of reduction in mortality and morbidity (CHARM) trials. The Candesartan in Heart Failure: Assessment of Reduction in Mortality and Morbidity (CHARM) trials looked at the effects of candesartan in addition to best possible treatment for heart failure in 7601 patients. CHARM encompassed three studies in discrete populations, including patients with left ventricular dysfunction taking angiotensin-converting enzyme (",
+        "score": 0.4501698315143585,
+        "doi": "10.1111/j.1527-5299.2004.02806.x",
+        "journal": "Congestive heart failure (Greenwich, Conn.)",
+        "year": "2004",
+        "rerank_score": 0.1882520169019699,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38663908",
+        "text": "CandeSpartan Study: Candesartan Spanish Response-prediction and Tolerability study in migraine. Effectiveness of candesartan in migraine prevention is supported by two randomized controlled trials. We aimed to assess the effectiveness, tolerability, and response predictors of candesartan in the preventive treatment of migraine. Observational, multicenter, prospective cohort study. The 50%, 75% and 30% responder rates, between weeks 8-12 and 20-24, were compared with the baseline. Treatment emergent adverse ",
+        "score": 0.4952656030654907,
+        "doi": "10.1177/03331024241248833",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": -0.6933318376541138,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38014703",
+        "text": "Solusomes (novel soluplus Candesartan cilexetil (CAN) is administered for treating hypertension and heart failure. CAN suffers poor oral bioavailability, owing to limited aqueous solubility, and first-pass metabolism. Solusomes (novel Soluplus",
+        "score": 0.48622941970825195,
+        "doi": "10.1080/10837450.2023.2289166",
+        "journal": "Pharmaceutical development and technology",
+        "year": "2024",
+        "rerank_score": -0.7318123579025269,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

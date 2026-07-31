@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Ertugliflozin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39022025",
+        "text": "Safety assessment of dapagliflozin: Real-world adverse event analysis based on the FAERS database from 2012 to 2023. Dapagliflozin possesses the capacity to cure a wide range of diseases, however, there are many adverse events (AEs) that have not yet been acknowledged or recorded. Safety assessment of dapagliflozin based on the Food and Drug Administration Adverse Event Reporting System (FAERS) database, to explore differences between the reported AEs to provide a overview of the safety profile of dapaglifl",
+        "score": 0.4111316502094269,
+        "doi": "10.1016/j.heliyon.2024.e33306",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 5.401187419891357,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32202075",
+        "text": "Efficacy and Safety of Ertugliflozin in Patients with Overweight and Obesity with Type 2 Diabetes Mellitus. This study aimed to evaluate ertugliflozin in patients with overweight and obesity with type 2 diabetes mellitus.",
+        "score": 0.4024965763092041,
+        "doi": "10.1002/oby.22748",
+        "journal": "Obesity (Silver Spring, Md.)",
+        "year": "2019",
+        "rerank_score": 3.7166311740875244,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36763328",
+        "text": "Efficacy and Safety of Ertugliflozin Added to Metformin: A Pooled Population from Asia with Type 2 Diabetes and Overweight or Obesity. The efficacy and safety of ertugliflozin have not been well characterized in Asian populations with type 2 diabetes (T2D) and overweight or obesity as defined by the Chinese Diabetes Society [body mass index (BMI) ≥ 24 kg/m",
+        "score": 0.40135928988456726,
+        "doi": "10.1007/s13300-022-01345-6",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2022",
+        "rerank_score": 3.083753824234009,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

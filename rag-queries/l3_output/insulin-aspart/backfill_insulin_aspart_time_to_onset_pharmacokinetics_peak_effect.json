@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Insulin Aspart time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40236299",
+        "text": "Evaluation of Pharmacokinetics and Safety of the Biosimilar (B01711) and Insulin Degludec/Insulin Aspart (IDegAsp, Ryzodeg) in Healthy Chinese Adults in a Randomized, Open-Label, Single-Dose, Crossover, Phase I Study. B01711 is a biosimilar of insulin degludec/insulin aspart (IDegAsp 70/30). This randomized, open-label, single-dose, crossover, phase I study aimed to evaluate the pharmacokinetics (PK) and safety of B01711 compared to its original product (Ryzodeg) in healthy Chinese volunteers. The study was",
+        "score": 0.3984912633895874,
+        "doi": "10.2147/DDDT.S500347",
+        "journal": "Drug design, development and therapy",
+        "year": "2024",
+        "rerank_score": -0.48574402928352356,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39868600",
+        "text": "Postprandial time in tight range with faster insulin aspart compared with standard insulin aspart in youth with type 1 diabetes using automated insulin delivery. The aim of this study was to assess postprandial glycaemic outcomes using automated insulin delivery with faster acting insulin aspart (FIA) or standard insulin aspart (SIA) over 4 weeks in youth (aged 10-18 years) with type 1 diabetes. We undertook a secondary analysis of postprandial glycaemic outcomes from a double-blind, randomised, crossover s",
+        "score": 0.40046852827072144,
+        "doi": "10.1111/dom.16211",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": -0.9794163107872009,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38722461",
+        "text": "The Effect of Various Degrees of Renal or Hepatic Impairment on the Pharmacokinetic Properties of Once-Weekly Insulin Icodec. Icodec is a once-weekly insulin being developed to provide basal insulin coverage in diabetes mellitus. This study evaluated the effects of renal or hepatic impairment on icodec pharmacokinetics. Two open-label, parallel-group, single-dose (1.5 U/kg subcutaneously) trials were conducted. In a renal impairment trial, 58 individuals were allocated to normal renal function (measured glo",
+        "score": 0.40341585874557495,
+        "doi": "10.1007/s40262-024-01375-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": -1.2091491222381592,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Linagliptin HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38287760",
+        "text": "Usage of vildagliptin among patients with type 2 diabetes mellitus attending a public primary healthcare clinics in Kuala Selangor District, Selangor. Studies showed that vildagliptin can lower HbA1c levels by 0.8%-1%. However, there is limited data looking at vildagliptin use among suburban populations. The efficacy of vildagliptin use may differ among different populations, especially those with low socio-economic status. Thus, this study aimed to assess the HbA1c reduction after vildagliptin initiation, ",
+        "score": 0.3926299810409546,
+        "doi": "",
+        "journal": "The Medical journal of Malaysia",
+        "year": "2024",
+        "rerank_score": 6.092920303344727,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39186745",
+        "text": "Machine learning assessment of vildagliptin and linagliptin effectiveness in type 2 diabetes: Predictors of glycemic control. Differential effects of linagliptin and vildagliptin may help us personalize treatment for Type 2 Diabetes Mellitus (T2DM). The current study compares the effect of these drugs on glycated hemoglobin (HbA1c) in an artificial neural network (ANN) model. Patients with T2DM who received either vildagliptin or linagliptin, with predefined exclusion criteria, qualified for the study. Two ",
+        "score": 0.38071537017822266,
+        "doi": "10.1371/journal.pone.0309365",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 5.7856221199035645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39375869",
+        "text": "Efficacy and safety of a fixed-dose combination of dapagliflozin and linagliptin (AJU-A51) in patients with type 2 diabetes mellitus: A multicentre, randomized, double-blind, parallel-group, placebo-controlled phase III study. To evaluate the efficacy and safety of add-on dapagliflozin in patients with type 2 diabetes mellitus (T2D) who had inadequate glycaemic control with metformin and linagliptin. A total of 235 patients with inadequate response to metformin (≥1000 mg/day) plus linagliptin (5 mg/day) wer",
+        "score": 0.3816995620727539,
+        "doi": "10.1111/dom.15985",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 5.728565692901611,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

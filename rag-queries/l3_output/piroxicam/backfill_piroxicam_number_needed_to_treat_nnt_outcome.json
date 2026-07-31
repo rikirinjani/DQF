@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Piroxicam number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.5022968053817749,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.6436262130737305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8630634",
+        "text": "A double-blind study to compare the efficacy and safety of meloxicam 15 mg with piroxicam 20 mg in patients with osteoarthritis of the hip. Meloxicam 15 mg once daily (n = 128) was compared with piroxicam 20 mg (n = 127) in this 6 week, double-blind, parallel-group, randomized, multicentre study in out-patients with symptomatic osteoarthritis (OA) of the hip. Assessments of pain, global efficacy and global tolerance were made on a 10 cm horizontal visual analogue scale; severity of OA was evaluated by Leque",
+        "score": 0.46011221408843994,
+        "doi": "10.1093/rheumatology/35.suppl_1.35",
+        "journal": "British journal of rheumatology",
+        "year": "1996",
+        "rerank_score": -1.1757726669311523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41140664",
+        "text": "A real-world data analysis of piroxicam in the FDA Adverse Event Reporting System (FAERS) database. Piroxicam is a widely used antipyretic and analgesic. Due to an increasing number of adverse event (AE) reports, effective pharmacovigilance is essential for evaluating its benefit-risk profile. We assessed the safety profile of piroxicam through disproportionality analysis based on all AE reports involving the drug in the FDA Adverse Event Reporting System (FAERS) from 2004 till 2024. Signal detection was pe",
+        "score": 0.48823145031929016,
+        "doi": "10.3389/fmed.2025.1687088",
+        "journal": "Frontiers in medicine",
+        "year": "2025",
+        "rerank_score": -1.2100290060043335,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

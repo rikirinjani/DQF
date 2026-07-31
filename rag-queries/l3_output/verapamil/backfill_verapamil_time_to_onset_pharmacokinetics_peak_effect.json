@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Verapamil time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10233206",
+        "text": "Chronopharmacology of intravenous and oral modified release verapamil. Using a stable isotope technique which allows simultaneous and differential measuring of orally and intravenously administered drugs we compared the pharmacokinetics and pharmacodynamics of unlabelled modified release verapamil p.o. (steady state) and deuterated verapamil i.v. (single dose) following morning and evening administration.",
+        "score": 0.3350796699523926,
+        "doi": "10.1046/j.1365-2125.1999.00910.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "1999",
+        "rerank_score": -0.4804842174053192,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.41656923294067383,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.5893127918243408,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38344757",
+        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
+        "score": 0.41760191321372986,
+        "doi": "10.1080/00498254.2024.2317888",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -4.1141438484191895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Captopril mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40771165",
+        "text": "Multicenter Prospective Randomized, Double-Blind, Placebo-Controlled Pharmacodynamic Study of The Additional Antihypertensive Effect of the Drug in Patients With Uncontrolled Arterial Hypertension Against the Background of Taking Renin-Angiotensin-Aldosterone System Blockers. Aim     To evaluate the efficacy and safety of a single sublingual dose of captopril in patients with poor control of arterial hypertension (AH) despite continuous use of long-acting angiotensin-converting enzyme (ACE) inhibitors or an",
+        "score": 0.4101007580757141,
+        "doi": "10.18087/cardio.2025.7.n2984",
+        "journal": "Kardiologiia",
+        "year": "2025",
+        "rerank_score": 2.1399693489074707,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40806350",
+        "text": "Cardioprotective Role of Captopril: From Basic to Applied Investigations. Captopril, a well-established angiotensin-converting enzyme (ACE) inhibitor, has garnered attention for its cardioprotective effects in preventing heart remodeling and maintaining cardiac function, significantly improving life quality. However, recent studies have revealed that in addition to known hemodynamic alterations, captopril exhibits significant antioxidant, anti-inflammatory, and immunomodulatory effects that may underlie its",
+        "score": 0.405093252658844,
+        "doi": "10.3390/ijms26157215",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": 1.8350902795791626,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38823475",
+        "text": "Repeated doses of captopril induce airway hyperresponsiveness by modulating the TRPV1 receptor in rats. Although TRPV1 receptors play an essential role in the adverse effects on the airways following captopril treatment, there is no available evidence of their involvement in treatment regimens involving repeated doses of captopril. Comparing the difference in these two treatment regimens is essential since captopril is a continuous-use medication. Thus, this study explored the role of the transient receptor",
+        "score": 0.3962317705154419,
+        "doi": "10.1016/j.pupt.2024.102302",
+        "journal": "Pulmonary pharmacology & therapeutics",
+        "year": "2024",
+        "rerank_score": -1.3740278482437134,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

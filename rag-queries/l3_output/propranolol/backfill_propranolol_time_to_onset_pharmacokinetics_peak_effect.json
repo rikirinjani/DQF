@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Propranolol time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40913391",
+        "text": "A Randomized Trial on the Combined Effect of Ponesimod and Propranolol on Heart Rate, Cardiac Safety, and Pharmacokinetics in Healthy Adults. The objective of this phase 1 study was to evaluate the pharmacokinetics (PK), pharmacodynamics, and cardiac effect following administration of ponesimod (a selective sphingosine-1-phosphate receptor modulator) and propranolol in healthy adults. In treatment period (TP) 1, participants received ponesimod (2 mg). In TP2, if resting heart rate (HR) was ≥ 55 bpm, the pon",
+        "score": 0.3967081904411316,
+        "doi": "10.1111/cts.70341",
+        "journal": "Clinical and translational science",
+        "year": "2025",
+        "rerank_score": 2.193535089492798,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38639762",
+        "text": "Effect of propranolol on pharmacokinetics of clozapine in schizophrenic patients: a meta-analysis. Clozapine is the effective therapy for treatment-refractory schizophrenia. However, the use of clozapine is limited by its adverse effects. As propranolol is frequently used for the prevention and treatment of clozapine-induced tachycardia, we performed a meta-analysis to evaluate the effects of propranolol on steady state pharmacokinetics of clozapine in schizophrenic patients. We included 16 retrospective st",
+        "score": 0.3972853422164917,
+        "doi": "10.1007/s00228-024-03690-w",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 1.6338341236114502,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41155370",
+        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
+        "score": 0.4275388717651367,
+        "doi": "10.3390/ijms262010080",
+        "journal": "International journal of molecular sciences",
+        "year": "2025",
+        "rerank_score": -0.8415893316268921,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

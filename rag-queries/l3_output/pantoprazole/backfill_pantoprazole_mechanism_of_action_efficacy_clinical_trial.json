@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Pantoprazole mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10468676",
+        "text": "Safety and efficacy of pantoprazole 40 mg daily as relapse prophylaxis in patients with healed reflux oesophagitis-a 2-year follow-up. Pantoprazole is a benzimidazole derivative which selectively inhibits the proton pump H+, K+-ATPase, necessary for the final step in gastric acid secretion.",
+        "score": 0.3832559585571289,
+        "doi": "10.1046/j.1365-2036.1999.00573.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "1999",
+        "rerank_score": 3.6399128437042236,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:33847502",
+        "text": "Interface-Mediated Mechanism of Action-The Root of the Cytoprotective Effect of Immediate-Release Omeprazole. Omeprazole is usually administered under an enteric coating. However, there is a Food and Drug Administration-approved strategy that enables its release in the stomach. When locally absorbed, omeprazole shows a higher efficacy and a cytoprotective effect, whose mechanism was still unknown. Therefore, we aimed to assess the effect of the absorption route on the gastric mucosa. 2D and 3D models of dip",
+        "score": 0.38497334718704224,
+        "doi": "10.1021/acs.jmedchem.1c00251",
+        "journal": "Journal of medicinal chemistry",
+        "year": "2021",
+        "rerank_score": 3.433659315109253,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17532708",
+        "text": "Pilot study of on-demand therapy with pantoprazole 20mg for long-term treatment in patients with mild gastro-oesophageal reflux disease. Few clinical studies have demonstrated the efficacy of proton pump inhibitors (PPIs) as on-demand therapy for the long-term management of patients with mild gastro-oesophageal reflux disease (GORD). On-demand therapy with pantoprazole 20mg may offer an effective strategy for the management of mild GORD.",
+        "score": 0.38461196422576904,
+        "doi": "10.2165/00044011-200525100-00002",
+        "journal": "Clinical drug investigation",
+        "year": "2007",
+        "rerank_score": 3.139031171798706,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

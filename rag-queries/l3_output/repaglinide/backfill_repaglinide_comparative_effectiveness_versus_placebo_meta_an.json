@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Repaglinide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15161773",
+        "text": "Repaglinide versus nateglinide monotherapy: a randomized, multicenter study. A randomized, parallel-group, open-label, multicenter 16-week clinical trial compared efficacy and safety of repaglinide monotherapy and nateglinide monotherapy in type 2 diabetic patients previously treated with diet and exercise.",
+        "score": 0.4010215997695923,
+        "doi": "10.2337/diacare.27.6.1265",
+        "journal": "Diabetes care",
+        "year": "2004",
+        "rerank_score": 1.476326823234558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39919442",
+        "text": "Efficacy and safety of elinzanetant in vasomotor symptoms associated with menopause: A meta-analysis of randomized controlled trials. To evaluate the efficacy and safety of elinzanetant compared to placebo in patients experiencing vasomotor symptoms (VMS) associated with menopause. A systematic search of PubMed, Embase, and Cochrane databases identified randomized clinical trials (RCTs) comparing elinzanetant and placebo in patients with menopause-related VMS. Statistical analyses pooled mean difference (MD",
+        "score": 0.4092087745666504,
+        "doi": "10.1016/j.ejogrb.2025.01.050",
+        "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+        "year": "2024",
+        "rerank_score": 1.389197587966919,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23734288",
+        "text": "Comparative effectiveness of novel oral anticoagulants for atrial fibrillation: evidence from pair-wise and warfarin-controlled network meta-analyses. Novel oral anticoagulants have been tested against warfarin for atrial fibrillation, yet no direct comparison is available. We thus aimed to perform pair-wise (direct) and warfarin-adjusted network (i.e. indirect) meta-analyses of novel oral anticoagulants for atrial fibrillation.",
+        "score": 0.40391290187835693,
+        "doi": "",
+        "journal": "HSR proceedings in intensive care & cardiovascular anesthesia",
+        "year": "2013",
+        "rerank_score": 1.063856601715088,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

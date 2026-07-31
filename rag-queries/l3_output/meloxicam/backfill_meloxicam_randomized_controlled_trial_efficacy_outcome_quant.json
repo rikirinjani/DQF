@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Meloxicam randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39185080",
+        "text": "Treatment of Melasma with Tranexamic Acid Essence Combined with Iontophoresis: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial. This randomized, double-blind, placebo-controlled trial aimed to evaluate the efficacy of tranexamic acid essence combined with iontophoresis in treating melasma. Thirty participants were recruited and randomly assigned to the experimental (Group A) or control group (Group B). Group A received tranexamic acid essence iontophoresis treatment twice weekly for three mont",
+        "score": 0.40024036169052124,
+        "doi": "10.2147/DDDT.S472922",
+        "journal": "Drug design, development and therapy",
+        "year": "2024",
+        "rerank_score": 1.8293287754058838,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39864417",
+        "text": "A Comparative Randomized Controlled Trial of Homeopathy versus Allopathy in Acute Otitis Media and Its Recurrence in Children. This study evaluates the efficacy of homeopathic treatment for acute otitis media (AOM) in children, comparing outcomes to standard allopathic treatments. Building on promising pilot study results that suggested homeopathy's non-inferiority, this multicenter trial aimed to validate these findings and assess their broader clinical applicability. This open-label, randomized controlled",
+        "score": 0.41286414861679077,
+        "doi": "10.1159/000542800",
+        "journal": "Complementary medicine research",
+        "year": "2024",
+        "rerank_score": 0.8182452321052551,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40160018",
+        "text": "Comparison of the efficacy of patient self-application versus physician application of triamcinolone acetonide econazole cream in the treatment of otomycosis: a randomized open-label controlled trial. To explore methods for accurate diagnosis and effective treatment of otomycosis. Using randomised stratification, eligible patients were split into a patient-applied medication group and a physician-applied medication group in order to compare the efficacy and recurrence rates of two treatment approaches. The ",
+        "score": 0.41111040115356445,
+        "doi": "10.1017/S0022215125000271",
+        "journal": "The Journal of laryngology and otology",
+        "year": "2025",
+        "rerank_score": -1.0939053297042847,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

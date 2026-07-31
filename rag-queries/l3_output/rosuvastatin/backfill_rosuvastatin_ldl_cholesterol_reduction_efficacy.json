@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Rosuvastatin LDL cholesterol reduction efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17996658",
+        "text": "Low-density lipoprotein cholesterol (LDL-C) levels and LDL-C goal attainment among elderly patients treated with rosuvastatin compared with other statins in routine clinical practice. Reducing low-density lipoprotein cholesterol (LDL-C) levels lowers the risk of consequences of cardiovascular disease. Research has confirmed these benefits in elderly patients. The 3-hydroxy-3-methylglutaryl coenzyme A inhibitors (ie, statins) have long-standing proven efficacy in reducing levels of LDL-C and total cholestero",
+        "score": 0.3327382802963257,
+        "doi": "10.1016/j.amjopharm.2007.10.002",
+        "journal": "The American journal of geriatric pharmacotherapy",
+        "year": "2007",
+        "rerank_score": 8.148604393005371,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32230818",
+        "text": "Assessment of the Efficacy of Lowering LDL Cholesterol with Rosuvastatin 10 mg in Four Korean Statin Benefit Groups as per ACC/AHA Guidelines (NewStaR4G). The American College of Cardiology and American Heart Association (ACC/AHA) guidelines identified four statin benefit groups on the basis of atherosclerotic cardiovascular disease risk reduction and proposed statin therapy by evidence-based intensity. Although these guidelines used randomized controlled trials with hard outcomes as exclusive evidence for ",
+        "score": 0.33469653129577637,
+        "doi": "10.3390/jcm9040916",
+        "journal": "Journal of clinical medicine",
+        "year": "2020",
+        "rerank_score": 7.588006019592285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18628276",
+        "text": "Rosuvastatin and cardiovascular disease: did the strongest statin hold the initial promises? Rosuvastatin is the latest and most potent statin currently on the market. It has the greatest efficacy compared with all other available statins on total cholesterol and low-density lipoprotein cholesterol (LDL-C) reduction, and also provides a significant increase in high-density lipoprotein cholesterol (HDL-C) better than atorvastatin. Imaging studies showed a regression of atheroma in secondary prevention patien",
+        "score": 0.33255457878112793,
+        "doi": "10.1177/0003319708321668",
+        "journal": "Angiology",
+        "year": "2008",
+        "rerank_score": 7.133945465087891,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

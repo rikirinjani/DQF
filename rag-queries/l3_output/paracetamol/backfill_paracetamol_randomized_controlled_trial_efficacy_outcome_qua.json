@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Paracetamol randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23692587",
+        "text": "Paracetamol (Acetaminophen) in stroke 2 (PAIS 2): protocol for a randomized, placebo-controlled, double-blind clinical trial to assess the effect of high-dose paracetamol on functional outcome in patients with acute stroke and a body temperature of 36.5 °C or above. In the first hours after stroke onset, subfebrile temperatures and fever have been associated with poor functional outcome. In the first Paracetamol (Acetaminophen) in Stroke trial, a randomized clinical trial of 1400 patients with acute stroke,",
+        "score": 0.3954348564147949,
+        "doi": "10.1111/ijs.12053",
+        "journal": "International journal of stroke : official journal of the International Stroke S",
+        "year": "2012",
+        "rerank_score": 4.654409408569336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41217349",
+        "text": "Effect of Paracetamol on Cerebral Temperature in Febrile Brain-Injured Patients. The NEUROTHERM Study: A Randomized Controlled Pharmacodynamic Trial. Hyperthermia is common in brain-injured patients and is considered a systemic secondary brain injury. Paracetamol is most often administered as first-line treatment, although its efficacy in controlling cerebral temperature (CT) has never been evaluated, which is the aim of this study. Pharmacodynamic prospective randomized double-blind placebo-controlled stud",
+        "score": 0.41090166568756104,
+        "doi": "10.1097/CCM.0000000000006951",
+        "journal": "Critical care medicine",
+        "year": "2026",
+        "rerank_score": 4.211061477661133,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39701142",
+        "text": "Lisdexamfetamine in the treatment of methamphetamine dependence: A randomised, placebo-controlled trial. This study tested the efficacy and safety of a 12-week course of lisdexamfetamine in reducing methamphetamine use, an outcome which is associated with improvements in health and wellbeing, in people dependent on methamphetamine. This study was a randomised double-blind placebo-controlled trial conducted in six specialist outpatient clinics in Adelaide, Melbourne, Newcastle and Sydney, Australia (2018-202",
+        "score": 0.4093850553035736,
+        "doi": "10.1111/add.16730",
+        "journal": "Addiction (Abingdon, England)",
+        "year": "2024",
+        "rerank_score": 2.3972692489624023,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

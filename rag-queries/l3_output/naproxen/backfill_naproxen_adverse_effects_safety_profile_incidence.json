@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Naproxen adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2662065",
+        "text": "A safety profile of controlled release naproxen tablets. This randomised single blind controlled study examines adverse reactions to standard Naprosyn (naproxen) 750 mg daily with controlled release naproxen, Naprosyn CR, 750 mg daily, in a total of 520 patients. Overall there were no major differences between the two preparations. The reporting rate of any adverse clinical event was greater in the group taking the controlled release preparation but withdrawals from medication were similar in the two groups",
+        "score": 0.4207334518432617,
+        "doi": "",
+        "journal": "The New Zealand medical journal",
+        "year": "1989",
+        "rerank_score": 5.883485794067383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29874966",
+        "text": "Gellan gum macrobeads loaded with naproxen: The impact of various naturally derived polymers on pH-dependent behavior. Aims After oral administration, naproxen generates several side-effects related to stomach malfunction. Undoubtedly, the enteric dosage forms with naproxen can be considered as safer. Moreover, since it has been evidenced that development and growth of colorectal cancer is related to the presence of cyclooxygenase, naproxen is investigated in terms of the tumor prevention. The aim of the pr",
+        "score": 0.4220714271068573,
+        "doi": "10.1177/0885328218779705",
+        "journal": "Journal of biomaterials applications",
+        "year": "2018",
+        "rerank_score": 1.5672789812088013,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41366928",
+        "text": "Adverse effects of iodixanol: A retrospective safety study utilizing FAERS database signal analysis. This retrospective study utilized the Food and Drug Administration adverse event (AE) reporting system database (Q1 2004-Q4 2024) to comprehensively evaluate the safety profile of the contrast agent iodixanol. Disproportionality analysis (reporting odds ratio, proportional reporting ratio, information component, empirical Bayes geometric mean) was employed to detect AE signals. Analysis of 2212 iodixanol AE ",
+        "score": 0.41776204109191895,
+        "doi": "10.1097/MD.0000000000044714",
+        "journal": "Medicine",
+        "year": "2025",
+        "rerank_score": 0.03462046757340431,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

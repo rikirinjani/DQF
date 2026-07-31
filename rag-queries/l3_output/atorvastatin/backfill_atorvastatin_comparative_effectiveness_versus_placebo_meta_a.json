@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Atorvastatin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30483816",
+        "text": "Efficacy and safety of rosuvastatin vs. atorvastatin in lowering LDL cholesterol : A meta-analysis of trials with East Asian populations. The VOYAGER meta-analysis reported on the low-density lipoprotein cholesterol (LDL-C)-lowering effect of commonly used statins in Caucasian subjects. As there is limited literature available on the efficacy of statins in Asian populations, the current meta-analysis compared the effects of rosuvastatin and atorvastatin on LDL-C levels in an East Asian population.",
+        "score": 0.34119534492492676,
+        "doi": "10.1007/s00059-018-4767-2",
+        "journal": "Herz",
+        "year": "2018",
+        "rerank_score": 5.189275741577148,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12648031",
+        "text": "An economic analysis of the Atorvastatin Comparative Cholesterol Efficacy and Safety Study (ACCESS). The objective of the Atorvastatin Comparative Cholesterol Efficacy and Safety Study (ACCESS) was to compare the efficacy and safety of the five 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitors in a randomised, controlled, yet large-scale study. ACCESS also produced data that permitted comparative analysis of the cost to achieve National Cholesterol Education Panel (NCEP) II low density li",
+        "score": 0.3477746546268463,
+        "doi": "10.2165/00019053-200321001-00002",
+        "journal": "PharmacoEconomics",
+        "year": "2003",
+        "rerank_score": 5.07970666885376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40132725",
+        "text": "Comparing the effectiveness of Rosuvastatin and Atorvastatin on changes in LDL, TG and HDL: A systematic review and meta-analysis. Elevated levels of LDL and triglycerides, along with low levels of HDL, are key contributors to cardiovascular disease. If the increase of harmful fats is prevented, it will be a great step towards the prevention of diseases. The two drugs atorvastatin and rosuvastatin are the most commonly used drugs to reduce LDL and triglycerides and increase HDL in patients. The present stud",
+        "score": 0.338837206363678,
+        "doi": "10.1016/j.lfs.2025.123576",
+        "journal": "Life sciences",
+        "year": "2025",
+        "rerank_score": 4.914961814880371,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

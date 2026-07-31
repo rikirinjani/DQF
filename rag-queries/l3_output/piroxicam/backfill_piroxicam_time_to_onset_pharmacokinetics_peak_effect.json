@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Piroxicam time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41026701",
+        "text": "Pharmacokinetic profile of oral firocoxib in the koala (Phascolarctos cinereus). The pharmacokinetic profile of firocoxib administered orally at 5 mg/kg as a single dose to three mature koalas of each sex is described. After single dose administration, the harmonic means for maximal plasma concentration (Cmax), time to reach Cmax (Tmax) and elimination half-life (t1/2) were 79.2 ng/mL, 3.69 h, and 5.01 h, respectively. Males exhibited a higher Cmax than females (217.4 vs 48.4 ng/mL), suggesting greater oral",
+        "score": 0.3720276653766632,
+        "doi": "10.1371/journal.pone.0332448",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": -4.46345329284668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41360102",
+        "text": "Effect of Scutellarin on the Pharmacokinetics and Pharmacodynamics of Warfarin in Rats. The study aims to investigate the pharmacodynamics and pharmacokinetics to elucidate the mechanism of enhanced anticoagulant effect of scutellarin and its preparations on warfarin. Evaluation of pharmacodynamic effects is undertaken by measuring coagulation parameters prothrombin time (PT) and activated partial thromboplastin time (APTT). The UHPLC-ESI-MS/MS method is used to determine the plasma concentrations of R/S-wa",
+        "score": 0.36887073516845703,
+        "doi": "10.1055/a-2748-8868",
+        "journal": "Planta medica",
+        "year": "2025",
+        "rerank_score": -5.832230567932129,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38974039",
+        "text": "Exploring the pharmacokinetics and tolerability of cyclooxygenase inhibitor ampiroxicam: a phase I study on single and multiple oral doses.",
+        "score": 0.3535047173500061,
+        "doi": "10.3389/fphar.2024.1429971",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -5.950470447540283,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

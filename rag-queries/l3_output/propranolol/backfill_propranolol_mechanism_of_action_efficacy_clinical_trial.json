@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Propranolol mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40602490",
+        "text": "Letter to the Editor Regarding: \"The Efficacy and Safety of Enalapril and Propranolol on Neurological Recovery of Isolated Severe Traumatic Brain Injury, a Randomized Clinical Trial\".",
+        "score": 0.4252232313156128,
+        "doi": "10.1016/j.wneu.2025.124216",
+        "journal": "World neurosurgery",
+        "year": "2025",
+        "rerank_score": 4.615355968475342,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39570058",
+        "text": "A single-center clinical trial evaluating topical propranolol for preventing stress-induced hair loss. There is currently a lack of pathological research on the hair loss caused by stress, and there is no effective treatment available. It has been previously reported that stress can cause sympathetic nerve activation and release of norepinephrine, which binds to beta-2 adrenergic receptors and causes a series of chemical reactions. Propranolol, as a beta-2 adrenergic receptors blocker, competitively antagon",
+        "score": 0.39374107122421265,
+        "doi": "10.1096/fj.202401027R",
+        "journal": "FASEB journal : official publication of the Federation of American Societies for",
+        "year": "2024",
+        "rerank_score": 3.8137786388397217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40652143",
+        "text": "Does propranolol have a role in cancer treatment? A systematic review of the epidemiological and clinical trial literature on beta-blockers. Beta-blockers, originally developed for cardiovascular conditions, have been explored for their potential role in cancer treatment. Propranolol, a non-selective beta-blocker, has shown promise in inhibiting stress-induced signalling pathways associated with cancer progression. This systematic review aims to assess the evidence for the repurposing of propranolol as a tr",
+        "score": 0.37357601523399353,
+        "doi": "10.1007/s00432-025-06262-2",
+        "journal": "Journal of cancer research and clinical oncology",
+        "year": "2025",
+        "rerank_score": 2.8198087215423584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Ertugliflozin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39438942",
+        "text": "Effect of ertugliflozin on left ventricular function in type 2 diabetes and pre-heart failure: the Ertu-GLS randomized clinical trial. The therapeutic effects of ertugliflozin, a sodium-glucose cotransporter 2 inhibitor, on cardiovascular outcome are not fully understood. This study aimed to evaluate the efficacy and safety of ertugliflozin on cardiac function in people with type 2 diabetes and pre-heart failure. We conducted a 24-week randomized, double-blind, placebo-controlled trial involving individuals",
+        "score": 0.3893224596977234,
+        "doi": "10.1186/s12933-024-02463-0",
+        "journal": "Cardiovascular diabetology",
+        "year": "2024",
+        "rerank_score": 5.896651744842529,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40281528",
+        "text": "The effect of empagliflozin on peripheral microvascular dysfunction in patients with heart failure with preserved ejection fraction. Empagliflozin is an effective treatment for heart failure with preserved ejection fraction (HFpEF), but its definite mechanism of action is unclear. Systemic microvascular dysfunction strongly relates to HFpEF aetiology, and we hypothesised that empagliflozin improves microvascular function in HFpEF. To investigate the effect of the sodium-glucose cotransporter-2 inhibitor emp",
+        "score": 0.3962358832359314,
+        "doi": "10.1186/s12933-025-02679-8",
+        "journal": "Cardiovascular diabetology",
+        "year": "2024",
+        "rerank_score": 3.8812384605407715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32202075",
+        "text": "Efficacy and Safety of Ertugliflozin in Patients with Overweight and Obesity with Type 2 Diabetes Mellitus. This study aimed to evaluate ertugliflozin in patients with overweight and obesity with type 2 diabetes mellitus.",
+        "score": 0.3877241015434265,
+        "doi": "10.1002/oby.22748",
+        "journal": "Obesity (Silver Spring, Md.)",
+        "year": "2019",
+        "rerank_score": 3.6510987281799316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

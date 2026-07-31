@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Celecoxib pain relief analgesia efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38874739",
+        "text": "Efficacy of Co-Crystal of Tramadol-Celecoxib (CTC) in Patients with Acute Moderate-to-Severe Pain: A Pooled Analysis of Data from Two Phase 3 Randomized Clinical Trials. New acute pain medications are needed that provide effective analgesia while minimizing side effects and opioid exposure. Clinical trials of co-crystal of tramadol-celecoxib (CTC) have demonstrated an improved benefit/risk profile versus tramadol or celecoxib alone. We pooled data from two phase 3 clinical trials to evaluate the efficacy of",
+        "score": 0.42029500007629395,
+        "doi": "10.1007/s40268-024-00469-3",
+        "journal": "Drugs in R&D",
+        "year": "2024",
+        "rerank_score": 7.430194854736328,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39316284",
+        "text": "Safety of Co-Crystal of Tramadol-Celecoxib (CTC) in Patients with Acute Moderate-to-Severe Pain: Pooled Analysis of Three Phase 3 Randomized Trials. Multi-modal analgesia is desirable for the management of acute pain since it can provide effective pain relief at lower doses, thereby aiding tolerability. Co-crystal of tramadol-celecoxib (CTC) provides effective analgesia in models of acute pain. Co-crystallization can alter the pharmacokinetics of individual components, potentially improving tolerability. We",
+        "score": 0.42678022384643555,
+        "doi": "10.1007/s40122-024-00655-w",
+        "journal": "Pain and therapy",
+        "year": "2024",
+        "rerank_score": 6.339078903198242,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41519309",
+        "text": "A new drug-drug co-amorphous system of imipramine and celecoxib with improved solubility and synergistic antinociceptive effects. Because the monotherapy of currently available pain killers often shows serious adverse effects or limited efficacy for treating neuropathic pain, multimodal analgesia has been highly recommended to gain improved antinociceptive effects and reduce dose-dependent side effects. Drug-drug co-amorphous systems emerge as a useful strategy for ameliorating the physicochemical propertie",
+        "score": 0.41339176893234253,
+        "doi": "10.1016/j.ejpb.2026.114988",
+        "journal": "European journal of pharmaceutics and biopharmaceutics : official journal of Arb",
+        "year": "2025",
+        "rerank_score": 6.093846797943115,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

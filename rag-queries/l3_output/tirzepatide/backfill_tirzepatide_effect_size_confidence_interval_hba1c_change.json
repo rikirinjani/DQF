@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Tirzepatide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28573708",
+        "text": "Variability in and predictors of glycaemic responses after 24 weeks of treatment with exenatide twice daily and exenatide once weekly. The range of glycated haemoglobin (HbA1c) responses and characteristics associated with above-average response to exenatide twice daily and once weekly were examined. Data were pooled from 8 exenatide-twice-daily and 5 exenatide-once-weekly studies. A baseline HbA1c-corrected measure of change in HbA1c after 24 weeks identified high, average and low responses. Multiple linea",
+        "score": 0.40971511602401733,
+        "doi": "10.1111/dom.13022",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2017",
+        "rerank_score": -1.294445276260376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34681215",
+        "text": "Efficacy and Safety of Tirzepatide in Patients with Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Phase II/III Trials. Tirzepatide is a novel once-a-week dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist, currently under trial to assess glycemic efficacy and safety in people with type 2 diabetes. A systematic review and meta-analysis were conducted to investigate the efficacy of tirzepatide on glycated hemoglobin (HbA1c, %), fastin",
+        "score": 0.4123757481575012,
+        "doi": "10.3390/ph14100991",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "year": "2021",
+        "rerank_score": -1.6482619047164917,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17076987",
+        "text": "Factors associated with the effect-size of thiazolidinedione (TZD) therapy on HbA(1c): a meta-analysis of published randomized clinical trials. To examine factors affecting the size of the HbA(1c) response to thiazolidinedione (TZD) therapy.",
+        "score": 0.40668967366218567,
+        "doi": "10.1185/030079906X148328",
+        "journal": "Current medical research and opinion",
+        "year": "2006",
+        "rerank_score": -2.0344178676605225,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

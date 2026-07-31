@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Ramipril randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39657776",
+        "text": "A Randomized Controlled Trial on the Efficacy and Safety of a Calcium-Channel Blocker and an Angiotensin-Converting Enzyme Inhibitor in Chinese and European Patients with Hypertension. In a post hoc analysis of a multinational, randomized trial, we investigated whether the efficacy and safety of nifedipine-gastrointestinal therapeutic system (GITS) and ramipril differed between Chinese and European patients with hypertension. Previously treated (after 2-week washout) and untreated patients with clinic blood",
+        "score": 0.40043288469314575,
+        "doi": "10.1093/ajh/hpae152",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": 4.900773525238037,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8605634",
+        "text": "The HOPE (Heart Outcomes Prevention Evaluation) Study: the design of a large, simple randomized trial of an angiotensin-converting enzyme inhibitor (ramipril) and vitamin E in patients at high risk of cardiovascular events. The HOPE study investigators. To describe the design of the HOPE (Heart Outcomes Prevention Evaluation) study.",
+        "score": 0.38203462958335876,
+        "doi": "",
+        "journal": "The Canadian journal of cardiology",
+        "year": "1996",
+        "rerank_score": 3.002824068069458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18059501",
+        "text": "The application of quantitative methods for identifying and exploring the presence of bias in systematic reviews: PDE-5 inhibitors for erectile dysfunction. A systematic review of PDE-5 inhibitors for erectile dysfunction was performed to evaluate the utility of quantitative methods for identifying and exploring the influence of bias and study quality on pooled outcomes from meta-analyses. We included 123 randomized controlled trials (RCTs). Methodological quality was poorly reported. All three drugs appear",
+        "score": 0.38194984197616577,
+        "doi": "10.1038/sj.ijir.3901626",
+        "journal": "International journal of impotence research",
+        "year": "2007",
+        "rerank_score": -0.8705794811248779,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Paracetamol effect size confidence interval pain relief"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40753250",
+        "text": "Correction: Comparing the effects of ketorolac and Paracetamol on postoperative pain relief after coronary artery bypass graft surgery. a randomized clinical trial.",
+        "score": 0.4257875680923462,
+        "doi": "10.1186/s13019-025-03524-5",
+        "journal": "Journal of cardiothoracic surgery",
+        "year": "2025",
+        "rerank_score": -0.38972386717796326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38937394",
+        "text": "Paracetamol Combination Therapy for Back Pain and Osteoarthritis: A Systematic Review and Meta-Analyses. Although paracetamol (acetaminophen) combined with other analgesics can reduce pain intensity in some pain conditions, its effectiveness in managing low back pain and osteoarthritis is unclear. This systematic review investigated whether paracetamol combination therapy is more effective and safer than monotherapy or placebo in low back pain and osteoarthritis. Online database searches were conducted for ",
+        "score": 0.40461039543151855,
+        "doi": "10.1007/s40265-024-02065-w",
+        "journal": "Drugs",
+        "year": "2024",
+        "rerank_score": -0.6492131352424622,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38653785",
+        "text": "Correction to: Analgesic effect of oral paracetamol 1000 mg/ibuprofen 400 mg, paracetamol 1000 mg/codeine 60 mg, paracetamol 1000 mg/ibuprofen 400 mg/codeine 60 mg, or placebo on acute postoperative pain: a single‑dose, randomized, and double‑blind study.",
+        "score": 0.4293847680091858,
+        "doi": "10.1007/s00228-024-03688-4",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -1.5130423307418823,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

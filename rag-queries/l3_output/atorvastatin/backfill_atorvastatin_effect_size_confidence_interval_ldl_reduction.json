@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Atorvastatin effect size confidence interval LDL reduction"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17143784",
+        "text": "Alternate-day dosing of atorvastatin: effects in treating type 2 diabetic patients with dyslipidaemia. An analysis is made of the effect of alternateday dosing of atorvastatin and standard once-daily dosing, based on mean low-density lipoprotein (LDL) reduction from baseline in type 2 diabetics. Forty-four type 2 diabetics were enrolled in the study. In compliance with American Diabetes Association (ADA) and National Cholesterol Education Program Expert Panel (NCEP-III) guidelines, LDL-C<100 mg/dl was chose",
+        "score": 0.31769272685050964,
+        "doi": "10.1007/s00592-006-0216-4",
+        "journal": "Acta diabetologica",
+        "year": "2005",
+        "rerank_score": 2.283153533935547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36862920",
+        "text": "Machine-learning-based analysis of the sensitivity and specificity on lipid-lowering effect of one-month-administered statins. Few predictive studies have been reported on the efficacy of atorvastatin in reducing lipoprotein cholesterol to be qualified after 1-month course of treatment in different individuals. A total of 14,180 community-based residents aged ≥ 65 received health checkup, 1013 of whom had low-density lipoprotein (LDL) higher than 2.6mmol/L so that they were put on 1-month course of treatmen",
+        "score": 0.31679749488830566,
+        "doi": "10.1097/MD.0000000000033139",
+        "journal": "Medicine",
+        "year": "2023",
+        "rerank_score": 1.7614730596542358,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39457047",
+        "text": "The Impact of Atorvastatin Treatment on the Distribution of Low-Density Lipoprotein Subfractions and the Level of Vitamin D in Patients After Acute Myocardial Infarction: Preliminary Findings. Clinical trial results indicate that statin therapy aimed at normalising the lipid profile can prevent and reduce the risk of cardiovascular events. Both LDL and HDL consist of several subfractions, with only the smallest and densest subfractions being the most atherogenic. We examine the effect of Atorvastatin treatm",
+        "score": 0.31834888458251953,
+        "doi": "10.3390/ijms252011264",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": 1.099124789237976,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

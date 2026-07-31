@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Tirzepatide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39603650",
+        "text": "A real-world disproportionality analysis of tirzepatide-related adverse events based on the FDA Adverse Event Reporting System (FAERS) database. Tirzepatide is a novel drug for the treatment of type 2 diabetes mellitus and chronic weight management, and there is an urgent need to explore its safety profile. The FDA Adverse Event Reporting System (FAERS) database provides a reliable pathway for adverse event (AE) disproportionality analysis. Data regarding AEs registered in the FAERS between Q2 2022 and Q4 2",
+        "score": 0.44441866874694824,
+        "doi": "10.1507/endocrj.EJ24-0286",
+        "journal": "Endocrine journal",
+        "year": "2025",
+        "rerank_score": 6.018303871154785,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40510020",
+        "text": "Efficacy and Safety of Tirzepatide on Weight Loss in Patients Without Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Tirzepatide has positive effects on weight loss in individuals with overweight or obesity. Considering its broad side-effect profile, its efficacy and safety in individuals without diabetes mellitus (DM) are yet to be fully understood. To address this, we conducted a comprehensive meta-analysis of six randomized trials on individuals with overweight ",
+        "score": 0.44090110063552856,
+        "doi": "10.1111/obr.13961",
+        "journal": "Obesity reviews : an official journal of the International Association for the S",
+        "year": "2025",
+        "rerank_score": 5.108121395111084,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40927296",
+        "text": "Correction: Efficacy and safety of tirzepatide for weight loss in patients with obesity or type 2 diabetes: a systematic review and meta-analysis. [This corrects the article DOI: 10.3389/fendo.2025.1593134.].",
+        "score": 0.43407443165779114,
+        "doi": "10.3389/fendo.2025.1683829",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 2.469193696975708,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

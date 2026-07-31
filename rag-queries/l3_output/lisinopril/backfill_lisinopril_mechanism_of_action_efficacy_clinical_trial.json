@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Lisinopril mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39466390",
+        "text": "Real-world evidence of lisinopril in pediatric hypertension and nephroprotective management: a 10-year cohort study. Over the last 20 years, pediatric hypertension (pHTN) prevalence in Western society has risen from 3.5 to 9% due to childhood overweight, obesity, and secondary kidney and cardiological conditions. Few studies have assessed commonly used antihypertensive medication lisinopril's (ACE-inhibitor) long-term efficacy and the long-term value of renin-angiotensin-aldosterone system (RAAS) biomarkers",
+        "score": 0.4347132742404938,
+        "doi": "10.1007/s00467-024-06531-1",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2024",
+        "rerank_score": 0.5339447855949402,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39632589",
+        "text": "Efficacy and Safety of Sacubitril/Valsartan Versus Amlodipine in Japanese Patients With Essential Hypertension: A Randomized, Multicenter, Open-Label, Noninferiority Study (PARASOL Study). Sacubitril/valsartan, an angiotensin receptor-neprilysin inhibitor, has demonstrated a superior blood pressure-lowering effect compared with renin-angiotensin system inhibitors in several clinical trials. However, there has been no available evidence on the comparison between sacubitril/valsartan and calcium channel block",
+        "score": 0.44274842739105225,
+        "doi": "10.1111/jch.14938",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2024",
+        "rerank_score": -0.5710735321044922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38710058",
+        "text": "The Salutary Effects of Diminazene, Lisinopril or Valsartan on Cisplatin - Induced Acute Kidney Injury in Rats: A Comparative Study. Nephrotoxicity as a cause of acute kidney injury (AKI) induced by cisplatin (CP), limits its usefulness as an anticancer agent. Diminazene, an angiotensin converting enzyme 2 activator, exhibited renoprotective properties on rat models of kidney diseases. This research aims to investigate the salutary effect of diminazene in comparison with lisinopril or valsartan in CP-induce",
+        "score": 0.43646952509880066,
+        "doi": "",
+        "journal": "Physiological research",
+        "year": "2024",
+        "rerank_score": -2.0506227016448975,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Candesartan comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16620350",
+        "text": "A placebo-controlled comparison of the efficacy and tolerability of candesartan cilexetil, 8 mg, and losartan, 50 mg, as monotherapy in patients with essential hypertension, using 36-h ambulatory blood pressure monitoring. This double-blind, randomised, controlled study compared the efficacy of candesartan cilexetil 8 mg (n = 87) and losartan 50 mg (n = 89), once daily for 6 weeks, relative to placebo (n = 80) in patients with mild-to-moderate essential hypertension (diastolic blood pressure (DBP): 95-115 m",
+        "score": 0.3518441319465637,
+        "doi": "10.1111/j.1368-5031.2006.00903.x",
+        "journal": "International journal of clinical practice",
+        "year": "2006",
+        "rerank_score": 4.608371734619141,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38579097",
+        "text": "Comparison of sacubitril/valsartan with olmesartan for hypertension: A meta-analysis of randomized controlled trials. The efficacy of sacubitril/valsartan versus olmesartan remains controversial for the control of hypertension. We conduct a systematic review and meta-analysis to explore the influence of sacubitril/valsartan versus olmesartan on the control of hypertension. We have searched PubMed, Embase, Web of science, EBSCO, and Cochrane library databases through July 2023 for randomized controlled trial",
+        "score": 0.3533592224121094,
+        "doi": "10.1097/MD.0000000000037501",
+        "journal": "Medicine",
+        "year": "2024",
+        "rerank_score": 2.630659341812134,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39295934",
+        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
+        "score": 0.3606454133987427,
+        "doi": "10.3389/fphar.2024.1418826",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 2.5380945205688477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

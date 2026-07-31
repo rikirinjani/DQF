@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Metoprolol effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40774921",
+        "text": "The effect of metoprolol on heart rate before coronary CT angiography: Lessons and recommendations from a large cohort.",
+        "score": 0.37734830379486084,
+        "doi": "10.1016/j.jcct.2025.07.007",
+        "journal": "Journal of cardiovascular computed tomography",
+        "year": "2025",
+        "rerank_score": 0.2298179715871811,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40965515",
+        "text": "Effects of Two Allisartan Isoproxil-Based Antihypertensive Therapies on Sexual Function and Blood Pressure in Male Hypertensive Patients: A Single-Center, Open-Label, and Randomized Controlled Trial. This study evaluated the effects of allisartan isoproxil combined with amlodipine besylate tablets (Group A+C) or metoprolol succinate extended-release tablets (Group A+B) on sexual function and nighttime blood pressure (nBP) in 130 male patients with essential hypertension (EH). Patients were randomized to two",
+        "score": 0.40496015548706055,
+        "doi": "10.1111/jch.70145",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2025",
+        "rerank_score": -1.6059223413467407,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39611070",
+        "text": "Efficacy of Different Beta Blockers in Reducing Mortality in Heart-Failure Patients. This study evaluated the comparative efficacy of different beta blockers bisoprolol, carvedilol, and metoprolol in reducing mortality and hospitalizations among 120 heart-failure (HF) patients. The sample had an equal gender distribution (50% male, 50% female) with a mean age of 69.28 years. Baseline characteristics, such as systolic blood pressure (mean: 134.36 mmHg) and left ventricular ejection fraction (LVEF) (mean: 40.",
+        "score": 0.40298256278038025,
+        "doi": "10.7759/cureus.74171",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -2.0338661670684814,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Liraglutide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35392872",
+        "text": "Efficacy of liraglutide in patients with diabetic nephropathy: a meta-analysis of randomized controlled trials. The efficacy of liraglutide to treat type 2 diabetic nephropathy (T2DN) remains controversial. Thus, we conducted this meta-analysis to systematically evaluate the clinical effect of liraglutide on T2DN patients.",
+        "score": 0.35703927278518677,
+        "doi": "10.1186/s12902-022-01006-6",
+        "journal": "BMC endocrine disorders",
+        "year": "2021",
+        "rerank_score": 5.591585636138916,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40385831",
+        "text": "Efficacy of Liraglutide for Weight Loss in Overweight and Obese Non-diabetic Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Liraglutide is commonly used in the management of type 2 diabetes and obesity and has been part of clinical practice for several years. However, evidence on its efficacy and safety in people without diabetes remains limited. The aim of this review is to analyse the efficacy of liraglutide in non-diabetic obese or overweight adults by systematically revie",
+        "score": 0.3585273027420044,
+        "doi": "10.7759/cureus.82479",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 5.452465057373047,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40463568",
+        "text": "Real-world cardiovascular effects of liraglutide: transportability analysis of the LEADER trial. To evaluate generalizability of the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) randomized clinical trial (RCT) - a cardiovascular outcomes study of the glucagon-like peptide-1 receptor agonist (GLP-1RA) liraglutide - to US Veterans Affairs Healthcare System (VA) patients with diabetes, a population at high cardiovascular disease risk lacking direct RCT eviden",
+        "score": 0.3716958165168762,
+        "doi": "10.1101/2025.05.12.25327466",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2025",
+        "rerank_score": 5.127479076385498,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

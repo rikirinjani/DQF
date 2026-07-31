@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Carvedilol time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38850570",
+        "text": "Effect of carvedilol on pharmacokinetics of sofosbuvir and its metabolite GS-331007: role of P-glycoprotein. Sofosbuvir (SOF) is a P-glycoprotein (P-gp) substrate, and carvedilol (CAR) is an inhibitor of P-gp, suggesting that it may affect the oral pharmacokinetics and safety of SOF. The current study investigated the pharmacokinetic interaction of CAR with SOF and its metabolite, GS-331007, and the possible consequent toxicities in rats. To assess the pharmacokinetics of SOF and GS-331007, rats were divide",
+        "score": 0.4042125344276428,
+        "doi": "10.1093/jpp/rgae070",
+        "journal": "The Journal of pharmacy and pharmacology",
+        "year": "2024",
+        "rerank_score": 2.724074602127075,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39082130",
+        "text": "Understanding time to peak effect of propofol as sole agent on bispectral index in children aged 2-12 years. The pharmacodynamics of propofol in children have previously been described with the proprietary bispectral index (BIS) as an effect-site marker, and it has been suggested that the rate of onset of propofol might be age dependent, that is, a shorter time to peak effect in younger children. However, these analyses were potentially confounded by co-administered drugs, in particular opioids and benzodia",
+        "score": 0.4183703064918518,
+        "doi": "10.1111/pan.14972",
+        "journal": "Paediatric anaesthesia",
+        "year": "2024",
+        "rerank_score": 0.9604301452636719,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38477862",
+        "text": "The influence of carvedilol posology timing on clinically significant portal hypertension: insights from elastography measurements. Carvedilol has emerged as the preferred β-blocker for treating portal hypertension. However, there is still a debate in dosing regimen, with a potential lower bioavailability in once-daily regimens. The aim of this study is to assess the acute effects of carvedilol posology in patients with clinically significant portal hypertension (CSPH), as a surrogate marker of bioavailabil",
+        "score": 0.3578931391239166,
+        "doi": "10.1097/MEG.0000000000002738",
+        "journal": "European journal of gastroenterology & hepatology",
+        "year": "2024",
+        "rerank_score": 0.36287248134613037,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

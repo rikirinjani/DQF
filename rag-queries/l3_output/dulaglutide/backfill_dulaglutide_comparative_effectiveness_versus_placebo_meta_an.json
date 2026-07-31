@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Dulaglutide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38699397",
+        "text": "Comparative efficacy and safety of weekly dulaglutide versus weekly insulin in type 2 diabetes: A network meta-analysis of randomized clinical trials. Advancements in type 2 diabetes mellitus (T2DM) therapy, notably with weekly agents like glucagon-like peptide-1 receptor agonists (GLP-RAs) such as dulaglutide, offer promising outcomes in clinical practice. The emergence of once-weekly insulin adds to this therapeutic arsenal. This research aims to explore and compare the efficacy and safety profiles of the",
+        "score": 0.37122026085853577,
+        "doi": "10.1016/j.metop.2024.100284",
+        "journal": "Metabolism open",
+        "year": "2024",
+        "rerank_score": 6.055574417114258,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26179187",
+        "text": "Once-weekly glucagon-like peptide-1 receptor agonist dulaglutide is non-inferior to once-daily liraglutide and superior to placebo in Japanese patients with type 2 diabetes: a 26-week randomized phase III study. To examine the efficacy and safety of once-weekly dulaglutide monotherapy (0.75 mg) compared with placebo and once-daily liraglutide (0.9 mg) in Japanese patients with type 2 diabetes.",
+        "score": 0.37020039558410645,
+        "doi": "10.1111/dom.12534",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2015",
+        "rerank_score": 3.8212289810180664,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26916354",
+        "text": "Network meta-analysis accurately predicted the outcome of a subsequent randomised trial comparing once weekly dulaglutide 1.5 mg and once daily liraglutide 1.8 mg. Glucagon-like peptide-1 (GLP-1) receptor agonists are an established treatment for people with type 2 diabetes (T2D). We aimed to indirectly compare two GLP-1 receptor agonists, once weekly dulaglutide 1.5 mg and once daily liraglutide 1.8 mg, as a part of clinical trial planning.",
+        "score": 0.3725520670413971,
+        "doi": "10.1111/ijcp.12775",
+        "journal": "International journal of clinical practice",
+        "year": "2016",
+        "rerank_score": 3.6880552768707275,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

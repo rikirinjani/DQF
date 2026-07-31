@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Irbesartan time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12401731",
+        "text": "Irbesartan reduces the albumin excretion rate in microalbuminuric type 2 diabetic patients independently of hypertension: a randomized double-blind placebo-controlled crossover study. ACE inhibitors delay the progression from incipient to overt diabetic nephropathy and reduce albumin excretion rate (AER), independently of blood pressure. Angiotensin II type 1 receptor antagonists produce similar effects on microalbuminuria and mean arterial pressure. The aim of this study was to evaluate the effect of irbes",
+        "score": 0.3539646863937378,
+        "doi": "10.2337/diacare.25.11.1909",
+        "journal": "Diabetes care",
+        "year": "2002",
+        "rerank_score": -1.7074283361434937,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41549823",
+        "text": "Pharmacokinetic Interaction Among Amlodipine, Losartan, and Chlorthalidone after a Single Oral Administration in Healthy Male Subjects. Antihypertensive drugs are more potent when administered in combinations of two or three different classes of drugs. The objective of this study was to evaluate the pharmacokinetic interaction among amlodipine, losartan, and chlorthalidone. A randomized, open-label, four-sequence, four-period, four-treatment, single-dose study was conducted in healthy Korean male subjects, ",
+        "score": 0.3855789303779602,
+        "doi": "10.1002/cpdd.70024",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": -3.3370108604431152,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38745377",
+        "text": "Elucidating nonlinear pharmacokinetics of telmisartan: Integration of target-mediated drug disposition and OATP1B3-mediated hepatic uptake in a physiologically based model. Telmisartan, a selective inhibitor of angiotensin II receptor type 1 (AT1), demonstrates nonlinear pharmacokinetics (PK) when orally administered in ascending doses to healthy volunteers, but the underlying mechanisms remain unclear. This study presents a physiologically based pharmacokinetic model integrated with target-mediated drug di",
+        "score": 0.36184048652648926,
+        "doi": "10.1002/psp4.13154",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": -3.9404051303863525,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

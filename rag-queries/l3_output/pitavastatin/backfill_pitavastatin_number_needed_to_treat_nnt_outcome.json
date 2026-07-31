@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Pitavastatin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4819453954696655,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.4447712898254395,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40854701",
+        "text": "Pitavastatin Reduces Major Atherosclerotic Cardiovascular Events in Adults with HIV. Initiation of pitavastatin in adults aged 40 to 75 living with HIV treated with highly active antiretroviral therapy (HAART) with low-to-moderate 10-year atherosclerotic cardiovascular disease (ASCVD) risk decreases the incidence of major cardiovascular events (MACE).",
+        "score": 0.49155086278915405,
+        "doi": "10.3122/jabfm.2025.250014R0",
+        "journal": "Journal of the American Board of Family Medicine : JABFM",
+        "year": "2025",
+        "rerank_score": 0.08393901586532593,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21801540",
+        "text": "Therapeutic decisions by number needed to treat and survival gains: a cross-sectional survey of lipid-lowering drug recommendations. Previous studies suggest that lay people have difficulties with evaluating effect size in terms of number needed to treat (NNT), but they are sensitive to effect size in terms of survival gains.",
+        "score": 0.4711116552352905,
+        "doi": "10.3399/bjgp11X588448",
+        "journal": "The British journal of general practice : the journal of the Royal College of Ge",
+        "year": "2011",
+        "rerank_score": -0.4282821714878082,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Telmisartan number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36283794",
+        "text": "Novel pictograms to improve pharmacist understanding of the number needed to treat (NNT). Number needed to treat (NNT) is a clinically useful \"yardstick\" used to gauge the efficacy of therapeutic interventions. The objective of this project was to develop and pilot a series of pictograms and assess their impact on pharmacist understanding of the NNT.",
+        "score": 0.4813154339790344,
+        "doi": "10.1016/j.cptl.2022.09.013",
+        "journal": "Currents in pharmacy teaching & learning",
+        "year": "2021",
+        "rerank_score": 3.315279006958008,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35173388",
+        "text": "Clinical data analysis of telmisartan for hypertension management in Indian population. It is of interest to evaluate the clinical characteristics, treatment patterns, clinical effectiveness, and safety of telmisartan as a monotherapy or as part of combination therapy in Indian adults (>18 years old) with hypertension. All patients were receiving telmisartan as monotherapy, or as a combination therapy for hypertension management. Demographics, risk factors, existing comorbidity, and ongoing medical therapie",
+        "score": 0.48095574975013733,
+        "doi": "10.6026/97320630017652",
+        "journal": "Bioinformation",
+        "year": "2021",
+        "rerank_score": -1.3912736177444458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27760486",
+        "text": "Micro RNA-320 as a novel potential biomarker in renal ischemia reperfusion. MicroRNAs (miR) are important diagnostic and treatment targets due to their different tissue expressions and their central position in the regulation of gene expressions. miR studies might pioneer emerging of new diagnostic tools and treatment goals in kidney diseases. Captopril (CAP) and telmisartan (TEL) were shown to be effective in ischemia reperfusion (IR) injury. There is not any study about the effect of TEL and CAP over miR-",
+        "score": 0.4809788465499878,
+        "doi": "10.1080/0886022X.2016.1227915",
+        "journal": "Renal failure",
+        "year": "2016",
+        "rerank_score": -2.0184624195098877,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

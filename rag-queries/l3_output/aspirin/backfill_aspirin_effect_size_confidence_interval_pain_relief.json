@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Aspirin effect size confidence interval pain relief"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38690705",
+        "text": "Self-Administration of Aspirin After Chest Pain for the Prevention of Premature Cardiovascular Mortality in the United States: A Population-Based Analysis. Aspirin, an effective, low-cost pharmaceutical, can significantly reduce mortality if used promptly after acute myocardial infarction (AMI). However, many AMI survivors do not receive aspirin within a few hours of symptom onset. Our aim was to quantify the mortality benefit of self-administering aspirin at chest pain onset, considering the increased risk",
+        "score": 0.4219247102737427,
+        "doi": "10.1161/JAHA.123.032778",
+        "journal": "Journal of the American Heart Association",
+        "year": "2024",
+        "rerank_score": -2.5497148036956787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40361810",
+        "text": "Relationship of Reduced Pain Intensity and Improved Quality-of-Life with Menstrual Migraine with Aspirin, Acetaminophen, and Caffeine Combination.",
+        "score": 0.38352346420288086,
+        "doi": "10.3390/healthcare13091032",
+        "journal": "Healthcare (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": -5.04865837097168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40923122",
+        "text": "Estimating the long-term effects of aspirin for primary prevention.",
+        "score": 0.40075281262397766,
+        "doi": "10.1093/eurheartj/ehaf642",
+        "journal": "European heart journal",
+        "year": "2025",
+        "rerank_score": -5.331296443939209,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

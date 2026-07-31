@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Spironolactone blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40366680",
+        "text": "Spironolactone vs Amiloride for Resistant Hypertension: A Randomized Clinical Trial. Amiloride has been proposed as an alternative to spironolactone for treating resistant hypertension. However, no randomized clinical trials have compared the efficacy of spironolactone and amiloride in patients with resistant hypertension. To determine whether amiloride is noninferior to spironolactone in reducing home-measured systolic blood pressure (SBP) in patients with resistant hypertension. Prospective, open-label, b",
+        "score": 0.3868274986743927,
+        "doi": "10.1001/jama.2025.5129",
+        "journal": "JAMA",
+        "year": "2025",
+        "rerank_score": 6.532406806945801,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34843183",
+        "text": "The mineralocorticoid receptor blocker spironolactone lowers plasma interferon-γ and interleukin-6 in patients with type 2 diabetes and treatment-resistant hypertension. The mineralocorticoid receptor antagonist spironolactone lowers blood pressure in patients with resistant hypertension despite antihypertensive treatment with angiotensin-converting inhibitors (ACEi) and angiotensin-II receptor blockers (ARB). In preclinical studies, spironolactone suppresses pro-hypertensive interleukin 17A (IL-17A).",
+        "score": 0.35341620445251465,
+        "doi": "10.1097/HJH.0000000000002990",
+        "journal": "Journal of hypertension",
+        "year": "2021",
+        "rerank_score": 6.249214172363281,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39968509",
+        "text": "Effects of spironolactone on intradialytic hypertension: a multicentre, double-blind, randomized, crossover study. Intradialytic hypertension (IDH) is associated with an increase in hospitalization and mortality. Several studies have shown that spironolactone reduces pre-dialysis blood pressure. However, none evaluated its effect on IDH. This study aims to evaluate the effects of spironolactone on IDH. A 24-week, two-treatment, four-period, multicentre, double-blind, randomized, crossover study was conducte",
+        "score": 0.4208301901817322,
+        "doi": "10.1093/ckj/sfae415",
+        "journal": "Clinical kidney journal",
+        "year": "2024",
+        "rerank_score": 6.087123870849609,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

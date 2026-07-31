@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Insulin Degludec HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30603326",
+        "text": "Insulin degludec is associated with less frequent and milder hypoglycemia in insulin-deficient patients with type 1 diabetes compared with insulin glargine or detemir. The aim of this study was to determine the efficacy of insulin degludec (IDeg) relative to insulin glargine (IGlar) or insulin detemir (IDet) in glycemic control, as evaluated by continuous glucose monitoring (CGM) in insulin-deficient patients with type 1 diabetes.",
+        "score": 0.34481674432754517,
+        "doi": "10.1007/s13340-017-0303-5",
+        "journal": "Diabetology international",
+        "year": "2016",
+        "rerank_score": 6.060281753540039,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41048193",
+        "text": "Efficacy and safety of once-weekly basal insulin therapy in people with type 1 diabetes: A systematic review and meta-analysis. Once-weekly basal insulins may offer similar or superior HbA1c reduction compared to once-daily analogues in people with type 1 or type 2 diabetes. However, concerns about hypoglycaemia persist in individuals on multiple daily injections. This meta-analysis (PROSPERO CRD42024606874) aimed to evaluate the efficacy and safety of once-weekly basal insulin therapy in type 1 diabetes. A",
+        "score": 0.37201082706451416,
+        "doi": "10.1111/dom.70176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 5.766872406005859,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41269878",
+        "text": "Efficacy and safety of insulin degludec/insulin aspart biosimilar B01711 vs originator insulin degludec/insulin aspart in Chinese patients with type 2 diabetes inadequately controlled on basal or premixed insulin: A multicenter, randomized, open-label, phase 3 study. To compare the efficacy and safety of insulin degludec/insulin aspart biosimilar B01711 (HS-IDegAsp) with originator insulin degludec/insulin aspart-Ryzodeg (NN-IDegAsp) in Chinese patients with type 2 diabetes mellitus (T2DM) who were inadequa",
+        "score": 0.38444983959198,
+        "doi": "10.1111/jdi.70175",
+        "journal": "Journal of diabetes investigation",
+        "year": "2025",
+        "rerank_score": 5.287116527557373,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

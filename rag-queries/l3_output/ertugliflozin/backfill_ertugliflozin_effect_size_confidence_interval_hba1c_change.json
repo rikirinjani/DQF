@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Ertugliflozin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39748045",
+        "text": "Effect of empagliflozin on weight in patients with prediabetes and diabetes. The impact of blood glucose-lowering medications on weight has always been a topic of interest in the treatment of diabetic patients. This study investigates the effect of empagliflozin on weight in patients with prediabetes and type 2 diabetes. This quasi-experimental study was performed on patients with prediabetes or type 2 diabetes with an HbA1c level up to 1% higher than the treatment target, and not using other blood glucose-",
+        "score": 0.39973804354667664,
+        "doi": "10.1038/s41598-024-83820-7",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": -0.4957401156425476,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38907684",
+        "text": "Semaglutide and Cardiovascular Outcomes by Baseline HbA1c and Change in HbA1c in People With Overweight or Obesity but Without Diabetes in SELECT. To evaluate the cardiovascular effects of semaglutide by baseline glycated hemoglobin (HbA1c) and change in HbA1c in a prespecified analysis of Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity (SELECT). In SELECT, people with overweight or obesity and atherosclerotic cardiovascular disease without diabetes were randomized to wee",
+        "score": 0.40264394879341125,
+        "doi": "10.2337/dc24-0764",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": -0.6730030179023743,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41454305",
+        "text": "Effectiveness of empagliflozin in reducing hypoglycemic events as compared to sulfonylurea in type 2 diabetes patients during fasting in Ramadan: a single-center study. This study aimed to compare the reduction in hospital admissions due to hypoglycemia and the decrease in HbA1c levels between empagliflozin and sulfonylurea, alongside the standard care provided to patients with type 2 diabetes during fasting. A single-center prospective observational cohort study was conducted from March to June 2022. Patie",
+        "score": 0.41858816146850586,
+        "doi": "10.1186/s12902-025-02134-5",
+        "journal": "BMC endocrine disorders",
+        "year": "2025",
+        "rerank_score": -1.4238003492355347,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

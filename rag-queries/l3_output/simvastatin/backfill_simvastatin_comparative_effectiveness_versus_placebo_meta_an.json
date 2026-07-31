@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Simvastatin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25848221",
+        "text": "Comparative efficacy of pitavastatin and simvastatin in patients with hypercholesterolemia: a meta-analysis of randomized controlled clinical trials. Simvastatin is a statin used to lower low-density lipoprotein cholesterol, but has limitations in patients on complicated regimens due to concerns about drug-drug interactions. Pitavastatin is a newly developed statin with limited drug-drug interactions. We conducted a meta-analysis to compare the clinical efficacy of simvastatin and pitavastatin in the contro",
+        "score": 0.3711150288581848,
+        "doi": "10.2147/DDDT.S67448",
+        "journal": "Drug design, development and therapy",
+        "year": "2015",
+        "rerank_score": 6.077000141143799,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9514454",
+        "text": "Comparative dose efficacy study of atorvastatin versus simvastatin, pravastatin, lovastatin, and fluvastatin in patients with hypercholesterolemia (the CURVES study) The objective of this multicenter, randomized, open-label, parallel-group, 8-week study was to evaluate the comparative dose efficacy of the 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase inhibitor atorvastatin 10, 20, 40, and 80 mg compared with simvastatin 10, 20, and 40 mg, pravastatin 10, 20, and 40 mg, lovastatin 20, 40, and 80 ",
+        "score": 0.37983912229537964,
+        "doi": "10.1016/s0002-9149(97)00965-x",
+        "journal": "The American journal of cardiology",
+        "year": "1998",
+        "rerank_score": 5.470980644226074,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24292987",
+        "text": "Comparative effectiveness of rosuvastatin versus simvastatin in primary prevention among new users: a cohort study in the French national health insurance database. Using the French claims database (Système National d'Information Inter-Régimes de l'Assurance Maladie) linked to the hospital discharge database (Programme de Médicalisation des Systèmes d'Information), this observational study compared the effectiveness of rosuvastatin and simvastatin prescribed at doses with close LDL-cholesterol-lowering pote",
+        "score": 0.37182503938674927,
+        "doi": "10.1002/pds.3544",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2013",
+        "rerank_score": 5.310018539428711,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

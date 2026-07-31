@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Propranolol number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.4440411925315857,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 4.897407531738281,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.4454081654548645,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.670517444610596,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40979769",
+        "text": "Understanding number needed to treat (NNT): A practical guide for anaesthesia and critical care clinicians.",
+        "score": 0.43294838070869446,
+        "doi": "10.4103/ija.ija_1000_25",
+        "journal": "Indian journal of anaesthesia",
+        "year": "2025",
+        "rerank_score": 1.3597794771194458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

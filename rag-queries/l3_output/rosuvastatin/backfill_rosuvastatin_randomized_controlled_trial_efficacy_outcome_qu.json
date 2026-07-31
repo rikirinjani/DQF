@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Rosuvastatin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39622823",
+        "text": "PET-CT outcomes from a randomised controlled trial of rosuvastatin as an adjunct to standard tuberculosis treatment. Adjunctive rosuvastatin for rifampicin-susceptible pulmonary tuberculosis (rs-PTB) shows no effect on microbiological or radiological outcomes in a phase IIb randomised, controlled trial (NCT04504851). We explore the impact of adjunctive rosuvastatin on 18F-fluorodeoxyglucose (FDG) positron emission tomography-computed tomography (PET-CT) imaging in a sub-study of 24 participants. Changes in ",
+        "score": 0.3606845736503601,
+        "doi": "10.1038/s41467-024-54419-3",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 6.153653621673584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12486428",
+        "text": "Efficacy and safety of rosuvastatin compared with pravastatin and simvastatin in patients with hypercholesterolemia: a randomized, double-blind, 52-week trial. The primary objective of this trial was to compare the efficacy of rosuvastatin with that of pravastatin and simvastatin for lowering low-density lipoprotein cholesterol (LDL-C) levels.",
+        "score": 0.36995700001716614,
+        "doi": "10.1067/mhj.2002.129312",
+        "journal": "American heart journal",
+        "year": "2002",
+        "rerank_score": 5.060777187347412,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32003938",
+        "text": "A randomized, double-blind clinical trial to evaluate the efficacy and safety of a fixed-dose combination of amlodipine/rosuvastatin in patients with dyslipidemia and hypertension. This multicenter, randomized, double-blind, parallel-group phase III clinical trial aimed to investigate the efficacy and safety of a rosuvastatin + amlodipine combination compared with that of rosuvastatin or amlodipine monotherapy in hypertensive patients with dyslipidemia. A total of 106 patients of 15 institutions in Korea we",
+        "score": 0.3691365420818329,
+        "doi": "10.1111/jch.13774",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2019",
+        "rerank_score": 4.527065277099609,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

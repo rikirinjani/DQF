@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Amlodipine comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16296700",
+        "text": "A double-blind comparison of amlodipine and placebo added to open enalapril in patients with moderate to severe essential hypertension. The antihypertensive efficacy and tolerability of amlodipine in combination with enalapril were assessed in this two-center study. Patients with moderate to severe hypertension and with diastolic blood pressure > 95 mm Hg after 4 weeks of treatment with open-label enalapril 5-10 mg daily were randomized to receive amlodipine 10 mg daily or placebo, double-blind for a furthe",
+        "score": 0.3691215515136719,
+        "doi": "10.1097/00005344-199117001-00006",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1991",
+        "rerank_score": 4.3812713623046875,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39295934",
+        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
+        "score": 0.3967519998550415,
+        "doi": "10.3389/fphar.2024.1418826",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 3.785158634185791,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40831815",
+        "text": "Comparative Effectiveness and Safety of Amlodipine, Telmisartan, and Chlorthalidone in Newly Diagnosed Hypertensive Indian Adults. Amlodipine, telmisartan, and chlorthalidone are the most prescribed antihypertensive drugs in the Indian population. In this study, we compared the effectiveness and safety of these drugs in newly diagnosed hypertensive adults. This was an open-label, prospective observational study in which we enrolled 99 newly diagnosed stage I hypertensive patients who were prescribed amlodip",
+        "score": 0.37149789929389954,
+        "doi": "10.7759/cureus.88272",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 3.7446296215057373,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

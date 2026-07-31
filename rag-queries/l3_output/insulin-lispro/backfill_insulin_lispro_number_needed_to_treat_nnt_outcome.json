@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Insulin Lispro number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.45078909397125244,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 4.131707668304443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40727718",
+        "text": "Cost-Effectiveness analysis of insulin therapies for patients with type 2 diabetes in Iran: a long-term analysis using the UKPDS model. This study aims to evaluate the cost-effectiveness of four insulin therapies- neutral protamine Hagedorn (NPH) insulin, insulin glargine-100 (IGlar-100), insulin detemir (IDet), and insulin lispro protamine (ILPS) -used in the management of type 2 diabetes mellitus (T2DM) in Iran. Given the substantial economic burden of diabetes and the varying costs and clinical outcomes ",
+        "score": 0.4407724440097809,
+        "doi": "10.1007/s40200-025-01686-6",
+        "journal": "Journal of diabetes and metabolic disorders",
+        "year": "2025",
+        "rerank_score": -0.4999904930591583,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38934226",
+        "text": "Comparison of the efficacy and safety of rapid-acting insulin analogs, lispro versus aspart, in the treatment of diabetes: a systematic review of randomized controlled trials. We evaluated a potential move from one rapid-acting insulin analog to another, or their biosimilars, to aid better and faster decisions for diabetes management. A systematic literature review was performed according to PRISMA reporting guidelines. The MEDLINE/EMBASE/COCHRANE databases were searched for randomized control trials (RCTs)",
+        "score": 0.43955928087234497,
+        "doi": "10.1080/14712598.2024.2371046",
+        "journal": "Expert opinion on biological therapy",
+        "year": "2024",
+        "rerank_score": -2.5677380561828613,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

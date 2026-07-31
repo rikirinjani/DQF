@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Sucralfate ulcer healing mucosal protection efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39631970",
+        "text": "SUCRALFATE MAY BE AN EFFECTIVE TOPICAL AGENT IN PREVENTING ORAL MUCOSITIS. Coppini M, Caponio VCA, Mauceri R, Bizzoca ME, Laino L, Lorenzo-Pouso AI, Russo D, Troiano G, Silva FFVE, Lo Muzio L, Campisi G. Efficacy of topical agents in oral mucositis prevention: Systematic review and network meta-analysis. Oral Dis. 2024. doi: 10.1111/odi.15046. Epub ahead of print. PMID: 38923624. This research has been partly funded by the Active Pharmacovigilance Project Fund (AIFA project \"ADR in Dentistry in the Digital ",
+        "score": 0.424860417842865,
+        "doi": "10.1016/j.jebdp.2024.102037",
+        "journal": "The journal of evidence-based dental practice",
+        "year": "2024",
+        "rerank_score": 5.637356758117676,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40872708",
+        "text": "Topical Use of Sucralfate in Cutaneous Wound Management: A Narrative Review with a Veterinary Perspective. Wound management is a fundamental skill for veterinarians, requiring a systematic approach to wound care and a deep understanding of the biological principles underlying healing. Sucralfate, widely known as a mucoprotective agent for gastroduodenal ulcers, has recently shown promising topical effects in human skin lesions by binding and protecting growth factors from proteolytic degradation, thereby en",
+        "score": 0.3731400668621063,
+        "doi": "10.3390/vetsci12080756",
+        "journal": "Veterinary sciences",
+        "year": "2025",
+        "rerank_score": 4.305929183959961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39836033",
+        "text": "Clinical Trial: Precise Administration of Sucralfate Powder in Prevention of Delayed Postpolypectomy Bleeding. A Randomized Controlled Trial. Delayed postpolypectomy bleeding occurs in approximately 1%-2% of all patients undergoing colonoscopic polypectomy, and this rate increases to 6% in patients with large (>2 cm) colon polyps. Sucralfate can protect the mucosa and promote its healing. This study was conducted to investigate whether colonoscopic spraying of sucralfate powder on polypectomy wounds can pre",
+        "score": 0.43118733167648315,
+        "doi": "10.14309/ctg.0000000000000818",
+        "journal": "Clinical and translational gastroenterology",
+        "year": "2024",
+        "rerank_score": 3.9451348781585693,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

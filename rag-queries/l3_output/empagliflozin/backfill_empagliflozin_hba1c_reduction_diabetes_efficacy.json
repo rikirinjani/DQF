@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Empagliflozin HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31089504",
+        "text": "Efficacy of Body Weight Reduction on the SGLT2 Inhibitor in People with Type 2 Diabetes Mellitus. Dapagliflozin, a sodium-glucose cotransporter-2 inhibitor, reduces hyperglycemia and body weight by inhibiting renal glucose reabsorption. However, only a few studies have demonstrated efficacy of dapagliflozin for type 2 diabetic patients in Korea. We evaluated the efficacy and safety of dapagliflozin for Korean type 2 diabetes patients.",
+        "score": 0.3548664450645447,
+        "doi": "10.7570/jomes.2017.26.2.107",
+        "journal": "Journal of obesity & metabolic syndrome",
+        "year": "2016",
+        "rerank_score": 7.241537094116211,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39598003",
+        "text": "Glucometabolic Efficacy of the Empagliflozin/Metformin Combination in People with Type 1 Diabetes and Increased Cardiovascular Risk: A Sub-Analysis of a Pilot Randomized Controlled Trial.",
+        "score": 0.3630726635456085,
+        "doi": "10.3390/jcm13226860",
+        "journal": "Journal of clinical medicine",
+        "year": "2024",
+        "rerank_score": 5.745275497436523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41417560",
+        "text": "Efficacy and safety of combining empagliflozin in people with type 2 diabetes mellitus uncontrolled with metformin and sitagliptin: A randomised, double-blind, multicentre, therapeutic confirmatory phase 3 clinical trial. This study evaluated the efficacy and safety of empagliflozin 10 and 25 mg compared to placebo as add-on treatment for people with type 2 diabetes mellitus (T2DM) uncontrolled after ≥8 weeks of treatment with metformin and sitagliptin. A randomised, double-blind, multicentre, therapeutic c",
+        "score": 0.3661423921585083,
+        "doi": "10.1111/dom.70386",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 5.479799747467041,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

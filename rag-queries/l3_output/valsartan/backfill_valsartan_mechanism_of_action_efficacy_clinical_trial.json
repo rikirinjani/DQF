@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Valsartan mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40175938",
+        "text": "Clinical efficacy of sacubitril/valsartan combined with cardiac rehabilitation in patients with heart failure after acute myocardial infarction: a single-center randomized trial. To investigate the effect of sacubitril/valsartan (ARNI) combined with cardiac rehabilitation (CR) in patients with heart failure (HF) after acute myocardial infarction (AMI). A total of 118 patients with HF after AMI were screened and randomly divided into an experimental group and a control group. The control group was given ARNI",
+        "score": 0.3978501558303833,
+        "doi": "10.1186/s12872-025-04682-z",
+        "journal": "BMC cardiovascular disorders",
+        "year": "2024",
+        "rerank_score": 5.962520122528076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39959840",
+        "text": "Efficacy of sacubitril/valsartan on improving clinical symptoms in patients with acute myocardial infarction complicated with heart failure: a retrospective study. Acute myocardial infarction (AMI) significantly contributes to the progression of heart failure (HF). Standard treatment for HF has long been angiotensin-converting enzyme inhibitors (ACEIs), targeting the renin-angiotensin-aldosterone system (RAAS). Recent developments in HF management introduced sacubitril/valsartan (S/V), a novel angiotensin r",
+        "score": 0.3979947566986084,
+        "doi": "10.7717/peerj.18873",
+        "journal": "PeerJ",
+        "year": "2024",
+        "rerank_score": 3.9352476596832275,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39632589",
+        "text": "Efficacy and Safety of Sacubitril/Valsartan Versus Amlodipine in Japanese Patients With Essential Hypertension: A Randomized, Multicenter, Open-Label, Noninferiority Study (PARASOL Study). Sacubitril/valsartan, an angiotensin receptor-neprilysin inhibitor, has demonstrated a superior blood pressure-lowering effect compared with renin-angiotensin system inhibitors in several clinical trials. However, there has been no available evidence on the comparison between sacubitril/valsartan and calcium channel block",
+        "score": 0.40971696376800537,
+        "doi": "10.1111/jch.14938",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2024",
+        "rerank_score": 3.7775185108184814,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Olmesartan time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41549823",
+        "text": "Pharmacokinetic Interaction Among Amlodipine, Losartan, and Chlorthalidone after a Single Oral Administration in Healthy Male Subjects. Antihypertensive drugs are more potent when administered in combinations of two or three different classes of drugs. The objective of this study was to evaluate the pharmacokinetic interaction among amlodipine, losartan, and chlorthalidone. A randomized, open-label, four-sequence, four-period, four-treatment, single-dose study was conducted in healthy Korean male subjects, ",
+        "score": 0.3608028292655945,
+        "doi": "10.1002/cpdd.70024",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": -2.8922677040100098,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38745377",
+        "text": "Elucidating nonlinear pharmacokinetics of telmisartan: Integration of target-mediated drug disposition and OATP1B3-mediated hepatic uptake in a physiologically based model. Telmisartan, a selective inhibitor of angiotensin II receptor type 1 (AT1), demonstrates nonlinear pharmacokinetics (PK) when orally administered in ascending doses to healthy volunteers, but the underlying mechanisms remain unclear. This study presents a physiologically based pharmacokinetic model integrated with target-mediated drug di",
+        "score": 0.37203145027160645,
+        "doi": "10.1002/psp4.13154",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": -3.571276903152466,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39808372",
+        "text": "Population Pharmacokinetics of Telmisartan in Healthy Subjects and Hypertensive Patients. Telmisartan exhibits significant pharmacokinetic (PK) variability, but it remains unclear whether its PK profile is altered in hypertensive patients. This study aimed to characterize telmisartan PKs by conducting a meta-analysis and developing a pooled population PK model based on data from healthy subjects and hypertensive patients. Relevant literature was identified by a systematic approach. Eighteen studies were sel",
+        "score": 0.3868882358074188,
+        "doi": "10.1007/s40262-024-01471-3",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": -3.7175703048706055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

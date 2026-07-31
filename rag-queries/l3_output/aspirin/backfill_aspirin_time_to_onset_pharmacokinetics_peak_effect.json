@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Aspirin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39323360",
+        "text": "Efficacy and speed of effect after the first dose of aspirin in children with congenital heart disease. Many paediatric studies report that patients must be established on aspirin therapy for a minimum of 5 days to achieve adequate response. This is not always practical especially in critical settings. Prospective identification of patients that are unresponsive to aspirin sooner could potentially prevent thrombotic events. The aim of this study was to investigate prospectively if the first dose of aspirin ",
+        "score": 0.36178576946258545,
+        "doi": "10.1017/S1047951124000581",
+        "journal": "Cardiology in the young",
+        "year": "2024",
+        "rerank_score": 0.011408793739974499,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40407865",
+        "text": "Pharmacokinetics, bioequivalence, and food effect assessment of enteric-coated aspirin tablets: a randomized, single-dose, four-period crossover study in Chinese healthy subjects. This study assessed the pharmacokinetics, bioequivalence, and food effect of two enteric-coated aspirin tablets (100 mg) in healthy Chinese subjects. Ninety subjects were enrolled and divided into fasted (n = 42) and fed cohorts (n = 48) in a single-center, randomized, open-label, single-dose, four-period, two-sequence and crossov",
+        "score": 0.36822086572647095,
+        "doi": "10.1007/s00210-025-04282-w",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": -0.4067907929420471,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41295984",
+        "text": "Circulating MRP8/14 drives faster platelet COX-1 recovery via MRP4 impairing the duration of aspirin response. Low-dose aspirin is a cornerstone of cardiovascular prevention in high-risk patients, inhibiting platelet cyclooxygenase (COX-1) and reducing thromboxane (TX) A2 production for 24 hours. However, the duration of this effect varies among individuals, and the role of inflammation and platelet microRNAs in this variability remains unclear. This study identifies a thromboinflammatory mechanism linked t",
+        "score": 0.38767433166503906,
+        "doi": "10.1182/bloodadvances.2025017653",
+        "journal": "Blood advances",
+        "year": "2025",
+        "rerank_score": -1.3481237888336182,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

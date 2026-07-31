@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Liraglutide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39926854",
+        "text": "Liraglutide Effect on Weight and A1C in Patients with Type 2 Diabetes Mellitus: Real-World Data from a Single Tertiary Care Center in Saudi Arabia. This retrospective study aimed to determine the effect of liraglutide on weight and HbA1c levels in patients with type 2 diabetes mellitus (T2DM) in Saudi Arabia. The present investigation was carried out at a medical facility located in the Kingdom of Saudi Arabia. A retrospective analysis was conducted on the clinical records of 290 patients who were diagnosed",
+        "score": 0.37504756450653076,
+        "doi": "10.4103/jpbs.jpbs_473_24",
+        "journal": "Journal of pharmacy & bioallied sciences",
+        "year": "2024",
+        "rerank_score": 2.5382678508758545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39330507",
+        "text": "Metabolomic Effects of Liraglutide Therapy on the Plasma Metabolomic Profile of Patients with Obesity. Liraglutide, a long-acting glucagon-like peptide-1 receptor agonist (GLP1RA), is a well-established anti-diabetic drug, has also been approved for the treatment of obesity at a dose of 3 mg. There are a limited number of studies in the literature that have looked at changes in metabolite levels before and after liraglutide treatment in patients with obesity. To this end, in the present study we aimed to ex",
+        "score": 0.3774006962776184,
+        "doi": "10.3390/metabo14090500",
+        "journal": "Metabolites",
+        "year": "2024",
+        "rerank_score": -0.5758222937583923,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41491619",
+        "text": "Mental health changes after 4 months of weight loss treatment with the glucagon-like peptide-1 analogue liraglutide 3.0 mg. This observational study examined changes in mental health and wellbeing after 4-months liraglutide 3.0 mg treatment in patients with obesity and explored associations with weight loss. We included 98 patients with obesity treated with liraglutide 3.0 mg. The Hospital Anxiety and Depression Scale (HADS: total score 0-42; depression/anxiety subscales 0-21), OBESI-Q psychological wellbei",
+        "score": 0.358381450176239,
+        "doi": "10.1111/dom.70393",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": -1.082870364189148,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

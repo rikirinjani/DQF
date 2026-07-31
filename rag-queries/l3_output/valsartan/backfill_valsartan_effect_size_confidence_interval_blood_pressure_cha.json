@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Valsartan effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40063419",
+        "text": "Switching From ARBs to Sacubitril/Valsartan Safely Improves 24-Hour Ambulatory Blood Pressure in Patients With Advanced Chronic Kidney Disease. We investigated the effects of sacubitril/valsartan, a first-in-class angiotensin receptor neprilysin inhibitor (ARNI), on 24-hour blood pressure (BP) and safety for 12 weeks in Japanese patients with non-dialysis advanced chronic kidney disease (CKD). We conducted a prospective, single-arm exploratory study. Patients with non-dialysis CKD stage G4-5 (estimated glom",
+        "score": 0.39498376846313477,
+        "doi": "10.1093/ajh/hpaf028",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": 0.9870901107788086,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40621831",
+        "text": "Efficacy and safety of sacubitril/valsartan in Afro-descendant patients with resistant hypertension: a randomized controlled trial. Sacubitril/valsartan (Sac-Val) has demonstrated blood pressure (BP)-lowering effects, but its role in resistant hypertension remains unclear. This study evaluated the efficacy and safety of Sac-Val compared to optimized angiotensin II receptor blocker (ARB) or angiotensin-converting enzyme inhibitor (ACEI) therapy in Brazilian patients with resistant hypertension, predominantly",
+        "score": 0.41446712613105774,
+        "doi": "10.1097/HJH.0000000000004075",
+        "journal": "Journal of hypertension",
+        "year": "2025",
+        "rerank_score": 0.41115856170654297,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11021956",
+        "text": "A prospective, randomized, open-label trial comparing telmisartan 80 mg with valsartan 80 mg in patients with mild to moderate hypertension using ambulatory blood pressure monitoring. To compare the antihypertensive efficacy and tolerability of telmisartan 80 mg with valsartan 80 mg throughout a 24 h dosing interval.",
+        "score": 0.34850841760635376,
+        "doi": "",
+        "journal": "The Canadian journal of cardiology",
+        "year": "2000",
+        "rerank_score": 0.29021087288856506,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

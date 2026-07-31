@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Enalapril effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38441185",
+        "text": "Concurrent exercise training potentiates the effects of angiotensin-converting enzyme inhibitor on regulatory systems of blood pressure control in ovariectomized hypertensive rats. Enalapril has shown satisfactory potential in controlling increased and sustained blood pressure (BP). However, multiple dysregulated mechanisms that interact with each other and are involved in the pathophysiology of arterial hypertension may not be affected, contributing to the remaining cardiovascular risk. Using an exercise t",
+        "score": 0.41564708948135376,
+        "doi": "10.1097/HJH.0000000000003670",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": 1.4572960138320923,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41198972",
+        "text": "The Influence of pH and Preservative Agents on Physicochemical and Microbiological Stability of a Flexible Dose/Age-Appropriate Formulation of Enalapril Maleate. A Quality by Design‑Based Optimization. Enalapril (ENA) is indicated for the management of heart failure, hypertension, and asymptomatic left ventricular dysfunction, while pediatric patients also benefit from its use in treating hypertension and congestive heart failure. ENA is commercially available as tablets with doses ranging from 2.5 to 20 mg",
+        "score": 0.39331719279289246,
+        "doi": "10.1208/s12249-025-03262-w",
+        "journal": "AAPS PharmSciTech",
+        "year": "2025",
+        "rerank_score": -1.953145980834961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40404011",
+        "text": "Efficacy and Safety of Enalapril and Propranolol on Neurologic Recovery After Isolated Severe Traumatic Brain Injury: A Randomized Clinical Trial. It has been hypothesized that propranolol and enalapril can provide cardiovascular stability without any negative impact on neurologic recovery after severe traumatic brain injury (TBI). Although propranolol and enalapril have been proposed to have beneficial effects as cardiovascular stabilizers in TBI, many neurologic effects remain obscure. We hypothesized whi",
+        "score": 0.3964277505874634,
+        "doi": "10.1016/j.wneu.2025.124078",
+        "journal": "World neurosurgery",
+        "year": "2024",
+        "rerank_score": -3.0964608192443848,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

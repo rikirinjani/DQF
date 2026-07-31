@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Sodium Alginate mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30667557",
+        "text": "Efficacy and safety of 0.6% sodium alginate solution in endoscopic submucosal dissection for esophageal and gastric neoplastic lesion: A randomized controlled study. Sodium alginate (SA) solution has characteristic viscoelasticity. We aimed to determine efficacy and safety of 0.6% SA for submucosal injection during endoscopic submucosal dissection (ESD) in patients with localized neoplastic lesion in the esophageal and gastric mucosa.",
+        "score": 0.3896932005882263,
+        "doi": "10.1111/den.13352",
+        "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscop",
+        "year": "2018",
+        "rerank_score": 3.917951822280884,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40795549",
+        "text": "Sodium alginate-mediated interfacial structuring in soy protein-quercetin composite emulsions: A synergistic strategy for encapsulation and bioavailability enhancement of lipophilic bioactives. This study explored the mechanisms by which sodium alginate (SA) improved the stability and release efficiency of lutein (Lut) encapsulated in binary complexes of soybean protein isolate (SPI) and quercetin (Que). The addition of SA increased the fluorescence intensity of the interfacial protein, resulting in increas",
+        "score": 0.3969659209251404,
+        "doi": "10.1016/j.foodchem.2025.145812",
+        "journal": "Food chemistry",
+        "year": "2025",
+        "rerank_score": 3.202057361602783,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23484864",
+        "text": "Subcutaneous administration of sodium alginate oligosaccharides prevents salt-induced hypertension in Dahl salt-sensitive rats. We investigated the mechanism of antihypertensive effects of sodium alginate oligosaccharides, which are enzymatic products of high-molecular-weight natural alginate from seaweeds, in Dahl salt-sensitive (Dahl S) rats.",
+        "score": 0.3888874650001526,
+        "doi": "10.3109/10641963.2013.776568",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "2013",
+        "rerank_score": 2.916714668273926,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

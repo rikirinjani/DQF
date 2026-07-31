@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Pitavastatin LDL cholesterol reduction efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12743630",
+        "text": "Pitavastatin (NK-104), a new HMG-CoA reductase inhibitor. Pitavastatin calcium (NK-104) is a new synthetic hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor (statin). Animal studies suggest that, in addition to reducing low-density lipoprotein (LDL) cholesterol, the drug may produce marked reductions in triglyceride-rich particles (very-low-density [VLDL] and intermediate-density lipoproteins [IDL]). It is not metabolized by the common cytochrome P-450 3A4 enzyme, possibly reducing the risk for",
+        "score": 0.3383476138114929,
+        "doi": "10.1358/dot.2001.37.9.844218",
+        "journal": "Drugs of today (Barcelona, Spain : 1998)",
+        "year": "2003",
+        "rerank_score": 5.805493354797363,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29334477",
+        "text": "Improvement of endothelial function by pitavastatin: a meta-analysis. Dyslipidemia is commonly associated with endothelial dysfunction and increased cardiovascular risk. Pitavastatin has been shown to reduce total and low-density lipoprotein cholesterol, to increase high-density lipoprotein (HDL)-cholesterol and improve HDL function. Furthermore, several trials explored its effects on flow-mediated dilation (FMD), as an index of endothelial function. The authors evaluated the effect of pitavastatin therapy ",
+        "score": 0.3384513854980469,
+        "doi": "10.1080/14656566.2018.1428560",
+        "journal": "Expert opinion on pharmacotherapy",
+        "year": "2018",
+        "rerank_score": 5.658211708068848,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15893181",
+        "text": "Relative efficacy of atorvastatin 80 mg and pravastatin 40 mg in achieving the dual goals of low-density lipoprotein cholesterol <70 mg/dl and C-reactive protein <2 mg/l: an analysis of the PROVE-IT TIMI-22 trial. The aim of this research was to compare relative efficacy of different statin regimens in achieving the dual goals of low-density lipoprotein cholesterol (LDL-C) and C-reactive protein (CRP) reduction.",
+        "score": 0.3382788300514221,
+        "doi": "10.1016/j.jacc.2005.02.080",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2005",
+        "rerank_score": 5.486532688140869,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

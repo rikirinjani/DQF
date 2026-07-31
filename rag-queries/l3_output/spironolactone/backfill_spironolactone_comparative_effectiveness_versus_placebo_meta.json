@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Spironolactone comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31364027",
+        "text": "Relative Efficacy of Spironolactone, Eplerenone, and cAnRenone in patients with Chronic Heart failure (RESEARCH): a systematic review and network meta-analysis of randomized controlled trials. This study aims to assess the comparative benefit and risk profile of treatment with mineralocorticoid receptor antagonists (MRAs) with regard to all-cause mortality (primary endpoint), cardiovascular mortality, or heart failure (HF)-related hospitalization (secondary endpoints) and the safety endpoints hyperkalemia, ",
+        "score": 0.40639010071754456,
+        "doi": "10.1007/s10741-019-09832-y",
+        "journal": "Heart failure reviews",
+        "year": "2019",
+        "rerank_score": 4.650975227355957,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30473139",
+        "text": "Safety and cardiovascular efficacy of spironolactone in dialysis-dependent ESRD (SPin-D): a randomized, placebo-controlled, multiple dosage trial. The safety and efficacy of spironolactone is uncertain in end-stage renal disease. We randomized 129 maintenance hemodialysis patients to placebo (n=51) or spironolactone 12.5 mg (n=27), 25 mg (n=26), or 50 mg (n=25) daily for 36 weeks in a double-blind, placebo-controlled, multiple dosage trial to assess safety, tolerability and feasibility and to explore cardio",
+        "score": 0.40723007917404175,
+        "doi": "10.1016/j.kint.2018.08.034",
+        "journal": "Kidney international",
+        "year": "2018",
+        "rerank_score": 3.2450809478759766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38936755",
+        "text": "Design and rationale of the CLEAR SYNERGY (OASIS 9) trial: A 2x2 factorial randomized controlled trial of colchicine versus placebo and spironolactone vs placebo in patients with myocardial infarction. Patients experiencing myocardial infarction (MI) remain at high risk of future major adverse cardiovascular events (MACE). While low-dose colchicine and spironolactone have been shown to decrease post-MI MACE, more data are required to confirm their safety and efficacy in an unselected post-MI population. The",
+        "score": 0.4180023670196533,
+        "doi": "10.1016/j.ahj.2024.06.007",
+        "journal": "American heart journal",
+        "year": "2024",
+        "rerank_score": 3.0512855052948,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

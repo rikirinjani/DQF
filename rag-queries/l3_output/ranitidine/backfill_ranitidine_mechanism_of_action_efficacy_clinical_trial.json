@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Ranitidine mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40693327",
+        "text": "Exploratory analyses of meal-induced heartburn identify distinct clinical phenotypes of gastroesophageal reflux disease. Symptoms in symptomatic GERD patients result from esophageal acid exposure and are treated with agents that inhibit gastric acid secretion. We analyzed data from a clinical trial evaluating the effect of ranitidine plus antacid on heartburn severity in GERD patients. After 26 subjects ingested a standard meal and received either placebo or ranitidine-antacid, heartburn severity (assessed ",
+        "score": 0.41773444414138794,
+        "doi": "10.14814/phy2.70469",
+        "journal": "Physiological reports",
+        "year": "2025",
+        "rerank_score": 0.04650961607694626,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41125746",
+        "text": "Effect of ranitidine hydrochloride on water activity in ternary aqueous solutions containing drug and ionic liquid based on vapor liquid equilibria at 298.15 K. Vapor-liquid equilibrium (VLE) studies were carried out to investigate the influence of ranitidine hydrochloride (Rani-HCl) on the thermodynamic behavior of aqueous solutions containing various pharmaceutical compounds and ionic liquids (ILs). The drugs examined alongside Rani-HCl included diphenhydramine hydrochloride (DPH-HCl), guaifenesin (GFN), ",
+        "score": 0.41892337799072266,
+        "doi": "10.1038/s41598-025-20914-w",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": -0.7302584052085876,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:7614103",
+        "text": "Cisapride compared with ranitidine in the treatment of functional dyspepsia. To compare the efficacy of the prokinetic drug cisapride and the antisecretory agent ranitidine in relieving symptoms of functional dyspepsia, as well as their effect on the recurrence of symptoms after the discontinuation of treatment.",
+        "score": 0.38014209270477295,
+        "doi": "",
+        "journal": "European journal of gastroenterology & hepatology",
+        "year": "1995",
+        "rerank_score": -0.8881077766418457,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

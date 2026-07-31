@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Semaglutide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17395871",
+        "text": "Clinical impact of NXY-059 demonstrated in the SAINT I trial: derivation of number needed to treat for benefit over entire range of functional disability. The SAINT I trial demonstrated that the neuroprotective agent NXY-059 improves the distribution of acute stroke patient outcomes on the modified Rankin Scale (mRS) of global disability. Standard dichotomized number-needed-to-treat (NNT) analyses for the magnitude of treatment benefit range widely, from 22.7 to infinity, and each capture only a portion of ",
+        "score": 0.4143599271774292,
+        "doi": "10.1161/01.STR.0000263135.47779.9e",
+        "journal": "Stroke",
+        "year": "2007",
+        "rerank_score": 3.8031318187713623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22165523",
+        "text": "[The number needed to treat (NNT)]. The number needed to treat (NNT) is a valuable information in treatment decisions. This is the result of a calculation based on published data, collected from an intervention study. NNT is the inverse of the absolute risk reduction (1/ARR) between two treatment options. It is always expressed by a value rounded up to whole numbers, between 1 and infinity, depending on the effectiveness of the new treatment being studied. The NNT is the average number of patients needed to",
+        "score": 0.4190710186958313,
+        "doi": "",
+        "journal": "Revue medicale de Bruxelles",
+        "year": "2011",
+        "rerank_score": 3.3842313289642334,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32176961",
+        "text": "Erratum for PMID: 31689017. In the fourth quarter issue 2020 of the UHM Journal (46-5)\nwe represented the NNT number (number-needed-to-treat)\nas “three (3)” rather than simply “3.”\nThis appeared on Page 727 in the letter from Richard\nClarke, CHT, National Baromedical Services, entitled\n“HBO2 for radiation cystitis.” The corrected section should\nhave read:\n“Although not reported, the ‘Number Needed to Treat’\n(NNT, an epidemiological measure used to communicate\neffectiveness of an intervention, and representi",
+        "score": 0.41666585206985474,
+        "doi": "",
+        "journal": "Undersea & hyperbaric medicine : journal of the Undersea and Hyperbaric Medical",
+        "year": "2020",
+        "rerank_score": 3.0906906127929688,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

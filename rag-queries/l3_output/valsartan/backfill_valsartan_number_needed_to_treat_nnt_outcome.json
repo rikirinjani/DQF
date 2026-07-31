@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Valsartan number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.5034762620925903,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 2.413262367248535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25419989",
+        "text": "A review of the use of the number needed to treat to evaluate the efficacy of analgesics. Standardized measures of efficacy are needed to compare analgesic efficacy across trials. The number needed to treat (NNT) is considered a statistically robust and readily interpretable measure to rank the efficacy of treatments, including analgesics. The NNT has become widely utilized to compare the efficacy of chronic pain treatments, helping physicians make treatment decisions and informing decisions for market acce",
+        "score": 0.4738132357597351,
+        "doi": "10.1016/j.jpain.2014.08.005",
+        "journal": "The journal of pain",
+        "year": "2014",
+        "rerank_score": 2.2589972019195557,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19372447",
+        "text": "Treatment time-specific number needed to treat estimates for tissue plasminogen activator therapy in acute stroke based on shifts over the entire range of the modified Rankin Scale. To make informed treatment decisions, patients and physicians need to be aware of the benefits and risks of a proposed treatment. The number needed to treat (NNT) for benefit and harm are intuitive and statistically valid measures to describe a treatment effect. The aim of this study is to calculate treatment time-specific NNT e",
+        "score": 0.4737650156021118,
+        "doi": "10.1161/STROKEAHA.108.540708",
+        "journal": "Stroke",
+        "year": "2009",
+        "rerank_score": 1.863893747329712,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

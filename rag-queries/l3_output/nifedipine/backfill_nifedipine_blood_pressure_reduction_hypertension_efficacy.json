@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Nifedipine blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39991170",
+        "text": "Meta-analysis of nifedipine and enalapril combination therapy for hypertensive patients with coronary heart disease: A systematic review and meta-analysis. Numerous clinical studies have demonstrated that the therapeutic efficacy of combining nifedipine and enalapril in treating hypertension with coronary heart disease surpasses that of nifedipine as a stand-alone treatment. However, the current evidence is not yet sufficient due to limitations in the sample size, and further validation is needed. To analyz",
+        "score": 0.40365728735923767,
+        "doi": "10.5937/jomb0-52387",
+        "journal": "Journal of medical biochemistry",
+        "year": "2024",
+        "rerank_score": 6.433794975280762,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39153458",
+        "text": "Nifedipine outperforms labetalol: A comparative analysis of hypertension management in black pregnancies. Nifedipine has previously exhibited superior efficacy to labetalol in managing hypertension in the non-pregnant Black population, establishing itself as a first-line treatment option. However, the unique challenges of hypertension during pregnancy, especially prevalent in Black individuals, remain underexplored in terms of effective medication choices. This gap highlights the need for targeted research ",
+        "score": 0.34843650460243225,
+        "doi": "10.1016/j.preghy.2024.101147",
+        "journal": "Pregnancy hypertension",
+        "year": "2024",
+        "rerank_score": 5.938641548156738,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39839565",
+        "text": "Long-acting nifedipine in the management of essential hypertension: a review for cardiologists. Calcium channel antagonists, specifically long-acting nifedipine formulations, play a crucial role in treating hypertension and angina. Originally used for angina, nifedipine has been widely employed as an antihypertensive medication for over 40 years. It offers rapid action and oral bioavailability with minimal maternal or fetal side effects, making it suitable for treating hypertensive crises during pregnancy. ",
+        "score": 0.36884987354278564,
+        "doi": "10.62347/RPMZ6407",
+        "journal": "American journal of cardiovascular disease",
+        "year": "2024",
+        "rerank_score": 4.783135890960693,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

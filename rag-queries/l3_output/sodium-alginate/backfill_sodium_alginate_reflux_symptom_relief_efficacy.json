@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Sodium Alginate reflux symptom relief efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40760009",
+        "text": "Comparable efficacy of generic and original alginate for symptom control in PPI-refractory GERD. Gastroesophageal reflux disease (GERD) is a prevalent global condition, affecting 18.1-27.8% of North Americans and 6.3-18.3% of the Thai population. While proton pump inhibitors (PPIs) are the first-line treatment, only about one-third of patients achieve adequate symptom control. Alginate-based medications in combination with PPIs have shown promise, but the comparative effectiveness of generic versus original",
+        "score": 0.4018799662590027,
+        "doi": "10.1038/s41598-025-13400-w",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 4.693728446960449,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30272584",
+        "text": "Randomized clinical trial: a double-blind, placebo-controlled study to assess the clinical efficacy and safety of alginate-antacid (Gaviscon Double Action) chewable tablets in patients with gastro-oesophageal reflux disease. The alginate-antacid Gaviscon Double Action (Gaviscon DA) has a combined acid-neutralizing and reflux-suppressing action. Response to treatment in a symptomatic gastro-oesophageal reflux disease (GERD) population has not yet been tested in a large-scale clinical study.",
+        "score": 0.40249010920524597,
+        "doi": "10.1097/MEG.0000000000001258",
+        "journal": "European journal of gastroenterology & hepatology",
+        "year": "2018",
+        "rerank_score": 4.252049446105957,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30487493",
+        "text": "Comparative Study of Alginate and Omeprazole in Symptomatic Treatment of Non-erosive Gastroesophageal Reflux Disease. Gastroesophageal reflux disease is widely reported most prevalent disease of the gastrointestinal tract. The burden of gastroesophageal reflux disease (GERD) is increasing in Asia and the majority of patients have non-erosive reflux disease. This prospective, open label, non random (consecutive), experimental study was performed due to compare the therapeutic efficacy of alginate and omepraz",
+        "score": 0.40089738368988037,
+        "doi": "",
+        "journal": "Mymensingh medical journal : MMJ",
+        "year": "2018",
+        "rerank_score": 3.5462536811828613,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

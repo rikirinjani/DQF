@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Metformin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.43658193945884705,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 5.036981582641602,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39277567",
+        "text": "Clinical outcomes in type 2 diabetes patients with chronic heart failure treated with metformin: a meta-analysis. To explore outcomes of metformin (Met) as an antihyperglycemic agent in patients with type 2 diabetes mellitus (T2DM) combined with chronic heart failure (CHF). This article employed a meta-analysis approach to systematically search several databases. Stata 15.1 software was employed for statistical analysis. This meta-analysis encompassed 15 randomized controlled trials, involving 20,595 patien",
+        "score": 0.4660569727420807,
+        "doi": "10.1007/s12020-024-04025-6",
+        "journal": "Endocrine",
+        "year": "2024",
+        "rerank_score": 1.5456708669662476,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41405318",
+        "text": "The Impact of Metformin on Postoperative Opioid Consumption and Patient Reported Outcomes after Lumbar Fusion. Retrospective cohort. To examine metformin use on postoperative outcomes amongst patients with diabetes undergoing lumbar fusion. Several animal studies have demonstrated that metformin, a first-line treatment for type 2 diabetes (T2DM), can attenuate neuropathic pain via decreased activation of microglia and suppression of inflammatory signaling. Adult diabetic patients who underwent a 1-2-level p",
+        "score": 0.45749223232269287,
+        "doi": "10.1097/BRS.0000000000005586",
+        "journal": "Spine",
+        "year": "2025",
+        "rerank_score": 0.7243626117706299,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

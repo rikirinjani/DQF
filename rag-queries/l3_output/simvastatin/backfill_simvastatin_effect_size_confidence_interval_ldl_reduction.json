@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Simvastatin effect size confidence interval LDL reduction"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26282344",
+        "text": "Effect of Low-Density Lipoprotein Cholesterol Lowering by Ezetimibe/Simvastatin on Outcome Incidence: Overview, Meta-Analyses, and Meta-Regression Analyses of Randomized Trials. This analysis investigated the extent of different outcome reductions from low-density lipoprotein cholesterol (LDL-C) lowering following ezetimibe/simvastatin treatment and the proportionality of outcome to LDL-C reductions. The authors searched PubMed between 1997 and mid-June 2015 (any language) and the Cochrane Library to identi",
+        "score": 0.3398972153663635,
+        "doi": "10.1002/clc.22441",
+        "journal": "Clinical cardiology",
+        "year": "2015",
+        "rerank_score": 2.5626907348632812,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10692755",
+        "text": "Comparison of therapy with simvastatin 80 mg and atorvastatin 80 mg in patients with familial hypercholesterolaemia. This study compared the efficacy of simvastatin 80 mg and atorvastatin 80 mg in the treatment of 26 patients with familial hypercholesterolaemia over 12 weeks using an open crossover trial format. Both, similarly, reduced LDL by 47 +/- 13% and 43 +/- 16% and median triglycerides by 22% and 27% respectively. However, atorvastatin reduced HDL by 2 +/- 24% compared with 8 +/- 30% increase with s",
+        "score": 0.34017354249954224,
+        "doi": "",
+        "journal": "International journal of clinical practice",
+        "year": "2000",
+        "rerank_score": 1.1606391668319702,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:14697462",
+        "text": "Comparisons of effects of statins (atorvastatin, fluvastatin, lovastatin, pravastatin, and simvastatin) on fasting and postprandial lipoproteins in patients with coronary heart disease versus control subjects. The effects of atorvastatin at 20, 40, and 80 mg/day on plasma lipoprotein subspecies were examined in a randomized, placebo-controlled fashion over 36 weeks in 97 patients with coronary heart disease (CHD) with low-density lipoprotein (LDL) cholesterol levels of >130 mg/dl and compared directly with ",
+        "score": 0.3419533371925354,
+        "doi": "10.1016/j.amjcard.2003.09.008",
+        "journal": "The American journal of cardiology",
+        "year": "2003",
+        "rerank_score": 0.020015589892864227,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

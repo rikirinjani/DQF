@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Atorvastatin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:17910520",
+        "text": "Atorvastatin efficacy in the prevention of cardiovascular events in patients with diabetes mellitus and/or metabolic syndrome. Several large-scale clinical trials have assessed the efficacy of atorvastatin in the primary and secondary prevention of cardiovascular events in patients with diabetes mellitus and/or metabolic syndrome. In primary prevention, CARDS (Collaborative Atorvastatin Diabetes Study) showed that atorvastatin 10 mg/day (vs placebo) reduced relative risk of the composite primary endpoint (a",
+        "score": 0.36545658111572266,
+        "doi": "10.2165/00003495-200767001-00005",
+        "journal": "Drugs",
+        "year": "2007",
+        "rerank_score": 6.412606716156006,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39865826",
+        "text": "The Efficacy of Oral Atorvastatin for Skin Toxicity in Breast Cancer Patients Undergoing Radiotherapy: A Randomized, Double-blind, Placebo-controlled Trial. Most Breast Cancer (BC) patients undergoing Radiotherapy (RT) are potentially susceptible to skin toxicity and prone to clinical symptom complaints. This study aimed to investigate the effect of oral Atorvastatin (ATV) administration on skin toxicity in BC patients undergoing RT. One hundred BC patients were randomly assigned to oral ATV (40 mg) or plac",
+        "score": 0.3732096254825592,
+        "doi": "10.2174/0113816128343188241225193315",
+        "journal": "Current pharmaceutical design",
+        "year": "2024",
+        "rerank_score": 5.224386692047119,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40947318",
+        "text": "Efficacy and Safety of Fimasartan, Atorvastatin, and Ezetimibe Combination Therapy in Patients With Hypertension and Dyslipidemia: A Randomized, Double-Blind, Multicenter, Therapeutic Confirmatory, Phase III Clinical Trial. Essential hypertension and primary hypercholesterolemia are common and independent cardiovascular risk factors that frequently coexist and warrant integrated management. This study aimed to evaluate the efficacy and safety of triple combination therapy (FMS + ATO/EZE) with Fimasartan (FM",
+        "score": 0.36945950984954834,
+        "doi": "10.1016/j.clinthera.2025.08.012",
+        "journal": "Clinical therapeutics",
+        "year": "2025",
+        "rerank_score": 4.8161139488220215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

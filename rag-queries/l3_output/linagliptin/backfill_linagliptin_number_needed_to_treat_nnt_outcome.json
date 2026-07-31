@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Linagliptin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21680988",
+        "text": "Linagliptin: a new DPP-4 inhibitor for the treatment of type 2 diabetes mellitus. Incretin-based therapies constitute a relatively new pharmacological approach to the treatment of type 2 diabetes mellitus. As reflected in the rapidly growing body of literature and the number of glucagon-like peptide-1 and dipeptidyl peptidase-4 inhibitor (DPP-4) compounds that are either approved or in development, there is considerable interest in treatments that target the incretin axis. Linagliptin is a recently approved",
+        "score": 0.4444517493247986,
+        "doi": "10.3810/pgm.2011.07.2303",
+        "journal": "Postgraduate medicine",
+        "year": "2011",
+        "rerank_score": 1.7563244104385376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.459320604801178,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 1.656693935394287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27180612",
+        "text": "Pharmacokinetic and pharmacodynamic evaluation of linagliptin for the treatment of type 2 diabetes mellitus, with consideration of Asian patient populations. Our aims were to summarize the clinical pharmacokinetics and pharmacodynamics of the dipeptidyl-peptidase-4 inhibitor, linagliptin, and to consider how these characteristics influence its clinical utility. Differences between linagliptin and other dipeptidyl-peptidase-4 inhibitors were also considered, in addition to the influence of Asian race on the ",
+        "score": 0.4451299011707306,
+        "doi": "10.1111/jdi.12528",
+        "journal": "Journal of diabetes investigation",
+        "year": "2016",
+        "rerank_score": 1.0291885137557983,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

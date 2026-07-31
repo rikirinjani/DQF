@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Lisinopril time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.4012317955493927,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.9953972697257996,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38344757",
+        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
+        "score": 0.3963388502597809,
+        "doi": "10.1080/00498254.2024.2317888",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.0601818561553955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39017590",
+        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
+        "score": 0.3682726323604584,
+        "doi": "10.1002/prp2.1249",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": -3.357370138168335,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

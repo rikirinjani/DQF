@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Verapamil adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3134517",
+        "text": "Long-term safety and efficacy comparison of immediate-release and sustained-release oral verapamil in systemic hypertension. The long-term safety and efficacy of twice-daily sustained-release verapamil were assessed compared to thrice-daily immediate-release verapamil in 25 patients with mild to moderate systemic hypertension. Patients were monitored on immediate-release verapamil (480 mg/day) for 6 months and were then placed on twice-daily sustained-release verapamil for an additional 6 months. Immediate-",
+        "score": 0.41606271266937256,
+        "doi": "",
+        "journal": "Journal of clinical hypertension",
+        "year": "1987",
+        "rerank_score": 2.7079482078552246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9359562",
+        "text": "Effect of verapamil on heart rate variability in subjects with normal hearts. Heart rate variability on 24-hour electrocardiographic recording was assessed in 23 patients without structural heart disease before and after 2 months of oral treatment with verapamil prescribed for paroxysmal atrioventricular nodal reentrant tachycardia. Verapamil had no significant effect on overall heart rate variability in the frequency domain, but it increased ultra low frequency power and decreased the low-frequency/high-fr",
+        "score": 0.41646718978881836,
+        "doi": "10.1016/s0002-9149(97)00650-4",
+        "journal": "The American journal of cardiology",
+        "year": "1997",
+        "rerank_score": 1.8457194566726685,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39391518",
+        "text": "Post-marketing safety profile of solriamfetol: A real-world disproportionality analysis using FDA adverse event reporting system (FAERS) database. Solriamfetol is a selective dopamine and noradrenalin reuptake inhibitor applied in adult patients with excessive daytime sleepiness (EDS) associated with narcolepsy or obstructive sleep apnea (OSA). However, the post-marketing safety profile of solriamfetol in large number of people was unrevealed. The purpose of our study is to unravel solriamfetol's adverse ev",
+        "score": 0.45331496000289917,
+        "doi": "10.1016/j.heliyon.2024.e38450",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 1.174402117729187,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

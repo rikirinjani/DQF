@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Furosemide effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40877742",
+        "text": "Blood Pressure Effects and Risk of Hypotension due to Intravenous Furosemide in Acute Decompensated Heart Failure. We quantified the magnitude of systolic blood pressure (SBP) adverse effects associated with intravenous furosemide (IVFu), compared to other factors, during treatment for acute decompensated heart failure (ADHF). Continuous BP monitoring (598.2 person-hours, 91,210 observations) before and after IVFu was performed in a prospective multicenter ADHF cohort (n = 253). Multivariable-adjusted mixed",
+        "score": 0.3856812119483948,
+        "doi": "10.1111/acem.70125",
+        "journal": "Academic emergency medicine : official journal of the Society for Academic Emerg",
+        "year": "2025",
+        "rerank_score": 2.081779718399048,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39884048",
+        "text": "Effect of postpartum oral furosemide use on postpartum readmissions and blood pressure trends. Oral furosemide postpartum improves the time to hypertension resolution in randomized control trials. Further investigation is needed to determine the impact of furosemide in routine clinical practice. Real world study to assess impact of furosemide on rates of postpartum hypertension and readmissions for patients with hypertensive disorders of pregnancy. A prospective cohort study of postpartum patients with hype",
+        "score": 0.38742053508758545,
+        "doi": "10.1016/j.preghy.2025.101199",
+        "journal": "Pregnancy hypertension",
+        "year": "2024",
+        "rerank_score": 0.5606822967529297,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41555241",
+        "text": "Assessment of the impact of furosemide use on outcomes in patients with intra-abdominal hypertension: a retrospective cohort study from the MIMIC-IV database.",
+        "score": 0.37793707847595215,
+        "doi": "10.1186/s12876-026-04607-w",
+        "journal": "BMC gastroenterology",
+        "year": "2025",
+        "rerank_score": -2.162677764892578,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

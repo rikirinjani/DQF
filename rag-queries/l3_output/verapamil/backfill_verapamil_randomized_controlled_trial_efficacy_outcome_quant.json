@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Verapamil randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:6703818",
+        "text": "Double-blind crossover randomized trial of intravenously administered verapamil. Its use for atrial fibrillation and flutter following open heart surgery. Fourteen patients with onset of atrial fibrillation (11) or flutter (three) and ventricular rate over 120 beats per minute following cardiac surgery were treated with intravenous (IV) doses of verapamil hydrochloride or placebo in a double-blind crossover protocol. Patients with poor left ventricular function, hypotension, atrioventricular block, and taki",
+        "score": 0.3919752240180969,
+        "doi": "",
+        "journal": "Archives of internal medicine",
+        "year": "1984",
+        "rerank_score": 2.6657001972198486,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41088566",
+        "text": "Major Limitations of Randomized Controlled Trials Assessing Antidepressant Efficacy.",
+        "score": 0.4109938144683838,
+        "doi": "10.1097/JCP.0000000000002075",
+        "journal": "Journal of clinical psychopharmacology",
+        "year": "2025",
+        "rerank_score": -0.9860488176345825,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39584590",
+        "text": "Evaluating multiplicity reporting in analgesic clinical trials: An analytical review. Analgesia trials often demands multiple comparisons to assess various treatment arms, outcomes, or repeated assessments. These multiple comparisons risk inflating the false positive rate. Multiplicity correction in recent analgesic randomized controlled trials (RCTs) remains unclear despite statistical method advancements and regulatory guidelines. Our study aimed to identify reporting inadequacies in multiple analysis adj",
+        "score": 0.4128764867782593,
+        "doi": "10.1002/ejp.4756",
+        "journal": "European journal of pain (London, England)",
+        "year": "2024",
+        "rerank_score": -1.9957257509231567,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

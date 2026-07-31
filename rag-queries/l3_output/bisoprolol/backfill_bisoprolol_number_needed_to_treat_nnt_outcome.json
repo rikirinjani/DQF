@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Bisoprolol number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.46391239762306213,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 3.082888126373291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39558612",
+        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
+        "score": 0.45864206552505493,
+        "doi": "10.1177/03331024241299377",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 0.7062037587165833,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24340540",
+        "text": "Validation of a spectrophotometric assay method for bisoprolol using picric acid. Bisoprolol is a drug belonging to beta blockers drugs used primarily for the treatment of cardiovascular diseases.",
+        "score": 0.4432883560657501,
+        "doi": "",
+        "journal": "Revista medico-chirurgicala a Societatii de Medici si Naturalisti din Iasi",
+        "year": "2013",
+        "rerank_score": -0.693916916847229,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

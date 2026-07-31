@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Telmisartan effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38180364",
+        "text": "[Telmisartan chronotherapy and its influence on the indicators of the daily profile blood pressure.] Arterial hypertension is one of the most common life-threatening diseases, adequate control of which is largely achieved by antihypertensive drugs, including the use of telmisartan. The aim of the study was to evaluate the effect of telmisartan chronotherapy on the parameters of daily monitoring of blood pressure during the daytime and at night in elderly patients with hypertension. The study is based on a c",
+        "score": 0.3788604140281677,
+        "doi": "",
+        "journal": "Advances in gerontology = Uspekhi gerontologii",
+        "year": "2024",
+        "rerank_score": 0.8891006708145142,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21070920",
+        "text": "Effects of telmisartan added to Angiotensin-converting enzyme inhibitors on mortality and morbidity in hemodialysis patients with chronic heart failure a double-blind, placebo-controlled trial. the aim of this study was to determine whether telmisartan decreases all-cause and cardiovascular mortality and morbidity in hemodialysis patients with chronic heart failure (CHF) and impaired left ventricular ejection fraction (LVEF) when added to standard therapies with angiotensin-converting enzyme inhibitors.",
+        "score": 0.353567898273468,
+        "doi": "10.1016/j.jacc.2010.03.105",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2009",
+        "rerank_score": -1.8042089939117432,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38736055",
+        "text": "Telmisartan Plus Amlodipine as the Preferred Initial Combination in Newly Diagnosed Indian Patients with Hypertension: An Expert Consensus Statements. Hypertension (HTN) remains one of the most important risk factors for cardiovascular (CV) diseases and a leading cause of mortality worldwide. Despite improvement in detection and treatment, poor blood pressure (BP) control rates are observed globally. The situation in India is alarming with only 22.5% of patients maintaining their BP under control. Initiatin",
+        "score": 0.40283119678497314,
+        "doi": "10.59556/japi.71.0407",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": -2.3698348999023438,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

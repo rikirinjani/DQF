@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Bisoprolol adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41579873",
+        "text": "Bisoprolol to prevent adverse cardiac events (PACE) in COPD: a multicentre, double-blind, randomised, controlled, phase 3 trial. Although cardiovascular disease is common in patients with chronic obstructive pulmonary disease (COPD), the efficacy and safety of β blockers in reducing cardiac events and mortality is uncertain. This study was designed to assess whether the cardioselective β blocker, bisoprolol, improves cardiorespiratory outcomes when added to usual COPD care. This double-blind, randomised, co",
+        "score": 0.44660264253616333,
+        "doi": "10.1016/S2213-2600(25)00390-X",
+        "journal": "The Lancet. Respiratory medicine",
+        "year": "2025",
+        "rerank_score": 4.151573657989502,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41072527",
+        "text": "INCIDENCE OF ADVERSE EVENTS RESULTING FROM BETA-BLOCKER TITRATION IN PATIENTS WITH HEART FAILURE. Beta blockers are an essential part of the treatment and management of heart failure. Unfortunately, due to adverse events, it is not possible to titrate the medication to the recommended dose in all patients according to the guidelines. The role of adverse events in the treatment of bisoprolol, carvedilol, and metoprolol in the Georgian population when titration is not possible was studied. A study was conduct",
+        "score": 0.441927969455719,
+        "doi": "",
+        "journal": "Georgian medical news",
+        "year": "2025",
+        "rerank_score": 2.913087844848633,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3022584",
+        "text": "Safety profiles of the angiotensin converting enzyme inhibitors captopril and enalapril. The safety profiles of the angiotensin converting enzyme inhibitors, captopril and enalapril, are the focus of this review. Adverse effects are reviewed as those associated with sulfhydryl compounds and as those considered class-specific adverse effects of angiotensin converting enzyme inhibitors. Specifically discussed are the incidences of the adverse effects of rash, taste disturbance, neutropenia, and proteinuria, w",
+        "score": 0.4288634657859802,
+        "doi": "10.1016/0002-9343(86)90945-9",
+        "journal": "The American journal of medicine",
+        "year": "1986",
+        "rerank_score": 2.752948045730591,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

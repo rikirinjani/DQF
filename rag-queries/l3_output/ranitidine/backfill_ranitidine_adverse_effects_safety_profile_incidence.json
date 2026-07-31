@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Ranitidine adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41402765",
+        "text": "Anaphylactic shock following intravenous ranitidine in rural Nepal: a case report. Ranitidine, a histamine-2 (H2) receptor antagonist, is widely used for acid-peptic disorders. Although generally safe, it is a rare but recognized cause of drug-induced anaphylaxis, with an estimated incidence of 0.2-0.7% for H2 receptor blockers and proton pump inhibitors. We report a near-fatal case of ranitidine-induced anaphylactic shock successfully managed in a rural hospital. A 35-year-old female developed sudden short",
+        "score": 0.40690261125564575,
+        "doi": "10.1186/s12245-025-01101-0",
+        "journal": "International journal of emergency medicine",
+        "year": "2025",
+        "rerank_score": 4.636010646820068,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40794709",
+        "text": "Cancer related adverse events associated with use of proton pump inhibitors and histamine-2 receptor antagonists: A real-world analysis using the FDA adverse event reporting system. Despite widespread use, concerns have emerged regarding the increased risks of digestive system cancers associated with use of proton pump inhibitors (PPIs). Moreover, ranitidine was recalled from the market in some countries due to its potential carcinogenicity, which also has raised concern about cancer risk in association wit",
+        "score": 0.4065406620502472,
+        "doi": "10.1371/journal.pone.0329385",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 2.4557769298553467,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:6329021",
+        "text": "Oral ranitidine in labour. Ranitidine 150 mg orally was given every 6 hours to 909 women in labour, while a control group of 378 women received conventional alkali therapy. No differences in incidences of operative intervention, placental retention or post-partum haemorrhage were observed between groups. Gastric sampling during emergency anaesthesia revealed a pH less than 2.5 in four of 51 women who received ranitidine and in two of 31 women who received magnesium trisilicate. Gastric volumes were slightly",
+        "score": 0.39594247937202454,
+        "doi": "10.1111/j.1365-2044.1984.tb07311.x",
+        "journal": "Anaesthesia",
+        "year": "1984",
+        "rerank_score": 1.6987719535827637,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

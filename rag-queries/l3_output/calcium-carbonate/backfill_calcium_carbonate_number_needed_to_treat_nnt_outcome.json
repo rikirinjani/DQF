@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Calcium Carbonate number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7771488",
+        "text": "Oral calcium carbonate administration ameliorates the progression of renal failure in rats with hypertension. Oral calcium supplementation is reported to have phosphate-binding and antihypertensive effects. Since both phosphate binders and antihypertensive agents are reported to attenuate renal injury, we studied the effect of oral calcium carbonate (CaCO3) administration on the course of renal deterioration using doxorubicin-induced renal failure in rats treated with deoxycorticosterone acetate and salt fo",
+        "score": 0.40962958335876465,
+        "doi": "10.1016/0272-6386(95)90574-x",
+        "journal": "American journal of kidney diseases : the official journal of the National Kidne",
+        "year": "1995",
+        "rerank_score": -1.680501937866211,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41121979",
+        "text": "pH-Corrected Ionised Calcium Predicts Coagulopathy After Major Trauma: A Retrospective Cohort Study. To evaluate the prognostic utility of pH-corrected ionised calcium (ciCa We conducted a retrospective cohort study of trauma patients aged ≥ 16 years with an Injury Severity Score (ISS) ≥ 13 presenting to a New Zealand tertiary trauma centre from January 2021 to June 2022. Patients were excluded if they did not meet New Zealand Trauma Registry criteria, received blood products before ionised calcium (iCa Amo",
+        "score": 0.4652855396270752,
+        "doi": "10.1111/1742-6723.70161",
+        "journal": "Emergency medicine Australasia : EMA",
+        "year": "2025",
+        "rerank_score": -8.376367568969727,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29273480",
+        "text": "High Ionized Calcium Concentration Is Associated With Prolonged Length of Stay in the Intensive Care Unit for Postoperative Pediatric Cardiac Patients. There has been controversy regarding the beneficial effects of calcium on myocardial contractility and the harmful effects on myocardial cells, especially in children. The aim of this study was to investigate an association between ionized calcium concentration (iCa) and outcomes for pediatric patients after cardiac surgery.",
+        "score": 0.4096042513847351,
+        "doi": "10.1053/j.jvca.2017.11.006",
+        "journal": "Journal of cardiothoracic and vascular anesthesia",
+        "year": "2017",
+        "rerank_score": -8.415574073791504,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

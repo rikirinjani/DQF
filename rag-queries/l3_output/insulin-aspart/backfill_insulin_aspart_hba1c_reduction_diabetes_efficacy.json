@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Insulin Aspart HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41048193",
+        "text": "Efficacy and safety of once-weekly basal insulin therapy in people with type 1 diabetes: A systematic review and meta-analysis. Once-weekly basal insulins may offer similar or superior HbA1c reduction compared to once-daily analogues in people with type 1 or type 2 diabetes. However, concerns about hypoglycaemia persist in individuals on multiple daily injections. This meta-analysis (PROSPERO CRD42024606874) aimed to evaluate the efficacy and safety of once-weekly basal insulin therapy in type 1 diabetes. A",
+        "score": 0.39663398265838623,
+        "doi": "10.1111/dom.70176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 6.021643161773682,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12215068",
+        "text": "Insulin aspart: a review of its use in the management of type 1 and 2 diabetes mellitus. Insulin aspart, a rapid-acting human insulin analogue, provides more rapid absorption than regular human insulin after subcutaneous administration. In most randomised, nonblind clinical trials in patients with type 1 diabetes mellitus, insulin aspart administered immediately before meals resulted in significantly lower mean glycosylated haemoglobin A(1c ) (HbA(1c)) levels than regular human insulin (usually administered",
+        "score": 0.3669165372848511,
+        "doi": "10.2165/00003495-200262130-00014",
+        "journal": "Drugs",
+        "year": "2002",
+        "rerank_score": 5.1847028732299805,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30259644",
+        "text": "Fast-acting insulin aspart versus insulin aspart in the setting of insulin degludec-treated type 1 diabetes: Efficacy and safety from a randomized double-blind trial. To evaluate the efficacy and safety of mealtime or post-meal fast-acting insulin aspart (faster aspart) vs mealtime insulin aspart (IAsp), both in combination with insulin degludec, in participants with type 1 diabetes (T1D).",
+        "score": 0.36739012598991394,
+        "doi": "10.1111/dom.13545",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2018",
+        "rerank_score": 5.080216407775879,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

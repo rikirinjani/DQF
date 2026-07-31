@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Perindopril number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4666094183921814,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 3.3383829593658447,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39558612",
+        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
+        "score": 0.47914397716522217,
+        "doi": "10.1177/03331024241299377",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 0.4665158987045288,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39560898",
+        "text": "A Response to: Letter to the Editor Regarding \"Comparing Cardiovascular Outcomes and Costs of Perindopril-, Enalapril- or Losartan-Based Antihypertensive Regimens in South Africa: Real-World Medical Claims Database Analysis\".",
+        "score": 0.4704655110836029,
+        "doi": "10.1007/s12325-024-03045-y",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": -3.0990774631500244,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

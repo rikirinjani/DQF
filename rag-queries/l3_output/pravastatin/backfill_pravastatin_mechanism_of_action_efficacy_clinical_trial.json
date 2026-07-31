@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Pravastatin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38381407",
+        "text": "Effects of Pitavastatin on Coronary Artery Disease and Inflammatory Biomarkers in HIV: Mechanistic Substudy of the REPRIEVE Randomized Clinical Trial. Cardiovascular disease (CVD) is increased in people with HIV (PWH) and is characterized by premature noncalcified coronary plaque. In the Randomized Trial to Prevent Vascular Events in HIV (REPRIEVE), pitavastatin reduced major adverse cardiovascular events (MACE) by 35% over a median of 5.1 years. To investigate the effects of pitavastatin on noncalcified co",
+        "score": 0.4228309392929077,
+        "doi": "10.1001/jamacardio.2023.5661",
+        "journal": "JAMA cardiology",
+        "year": "2024",
+        "rerank_score": 1.2425061464309692,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40229969",
+        "text": "Safety and Effectiveness of Pravastatin in Korean Patients with Dyslipidemia Based on the Cardiovascular Risk Classification: Pooled Analysis of Four Observational Studies. Despite their efficacy, statin-related adverse events (AEs) may interfere with statin treatment and contribute to negative outcomes in patients with cardiovascular diseases. In this study, we evaluated the safety and effectiveness of pravastatin in Korea. Pooled data were collected from four multicenter prospective observational studies ",
+        "score": 0.42654526233673096,
+        "doi": "10.3803/EnM.2024.2200",
+        "journal": "Endocrinology and metabolism (Seoul, Korea)",
+        "year": "2024",
+        "rerank_score": 1.1352357864379883,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19856484",
+        "text": "Pravastatin use and cancer risk: a meta-analysis of individual patient data from long-term prospective controlled trials in Japan. To assess the influence of pravastatin therapy on cancer morbidity and mortality by a meta-analysis of individual patient data (IPD) from three independent Japanese large-scale clinical trials.",
+        "score": 0.396984338760376,
+        "doi": "10.1002/pds.1870",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2009",
+        "rerank_score": 0.5712510943412781,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

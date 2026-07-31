@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Rosuvastatin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.411476731300354,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 4.191036224365234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39622823",
+        "text": "PET-CT outcomes from a randomised controlled trial of rosuvastatin as an adjunct to standard tuberculosis treatment. Adjunctive rosuvastatin for rifampicin-susceptible pulmonary tuberculosis (rs-PTB) shows no effect on microbiological or radiological outcomes in a phase IIb randomised, controlled trial (NCT04504851). We explore the impact of adjunctive rosuvastatin on 18F-fluorodeoxyglucose (FDG) positron emission tomography-computed tomography (PET-CT) imaging in a sub-study of 24 participants. Changes in ",
+        "score": 0.42001235485076904,
+        "doi": "10.1038/s41467-024-54419-3",
+        "journal": "Nature communications",
+        "year": "2024",
+        "rerank_score": 2.3440561294555664,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18797697",
+        "text": "Rosuvastatin and vascular dysfunction markers in pulmonary arterial hypertension: a placebo-controlled study. We investigated whether chronic rosuvastatin administration could improve the abnormalities of the circulating levels of vascular dysfunction markers in pulmonary arterial hypertension (PAH). Sixty patients, aged 13 to 60 years, with idiopathic (N = 14) or congenital heart disease-associated PAH (N = 46) were equally but randomly assigned to rosuvastatin treatment (10 mg a day, orally) or placebo fo",
+        "score": 0.41267651319503784,
+        "doi": "10.1590/s0100-879x2008000800003",
+        "journal": "Brazilian journal of medical and biological research = Revista brasileira de pes",
+        "year": "2008",
+        "rerank_score": 1.9930752515792847,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Canagliflozin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28177187",
+        "text": "Efficacy and safety of canagliflozin as add-on therapy to teneligliptin in Japanese patients with type 2 diabetes mellitus: Results of a 24-week, randomized, double-blind, placebo-controlled trial. To investigate efficacy and safety of the sodium-glucose co-transporter 2 (SGLT2) inhibitor canagliflozin administered as add-on therapy to the dipeptidyl peptidase-4 (DPP-4) inhibitor teneligliptin in patients with type 2 diabetes mellitus (T2DM).",
+        "score": 0.38606518507003784,
+        "doi": "10.1111/dom.12898",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2016",
+        "rerank_score": 6.280527591705322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40184701",
+        "text": "Immediate and short-term outcomes of in-hospital canagliflozin initiation in acute heart failure: Results from the CANA-AHF randomized clinical trial. Early initiation of empagliflozin, a sodium-glucose cotransporter 2 inhibitor, in acute heart failure (AHF) patients increases urine output, reduces hospital stays, and enhances quality of life post-hospital discharge. This trial aims to investigate the effectiveness and safety of early canagliflozin initiation compared to empagliflozin in hospitalized AHF pa",
+        "score": 0.4002164900302887,
+        "doi": "10.1016/j.hrtlng.2025.03.007",
+        "journal": "Heart & lung : the journal of critical care",
+        "year": "2024",
+        "rerank_score": 5.829215049743652,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39216659",
+        "text": "A randomized, open-label, clinical trial examined the effects of canagliflozin on albuminuria and eGFR decline using an individual pre-intervention eGFR slope. Demonstrating drug efficacy in slowing kidney disease progression requires large clinical trials when targeting participants with an early stage of chronic kidney disease (CKD). In this randomized, parallel-group, open-labeled trial (CANPIONE study), we assessed the effect of the sodium-glucose cotransporter 2 (SGLT2) inhibitor canagliflozin using th",
+        "score": 0.4052928686141968,
+        "doi": "10.1016/j.kint.2024.08.019",
+        "journal": "Kidney international",
+        "year": "2024",
+        "rerank_score": 5.0572428703308105,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

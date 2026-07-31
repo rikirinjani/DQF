@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Ketorolac randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39243997",
+        "text": "An Opioid-Sparing Pain Protocol of Intravenous and Oral Ketorolac Reduces Opioid Consumption and Pain Levels After Arthroscopic Meniscus Surgery: A Prospective, Randomized Controlled Trial. To compare ketorolac to oxycodone-acetaminophen with respect to pain and opioid consumption after arthroscopic meniscus surgery. The secondary purpose was to compare short-term functional outcomes between the 2 protocols. A power analysis demonstrated that 43 patients were required. In this randomized control trial, pati",
+        "score": 0.421802282333374,
+        "doi": "10.1016/j.arthro.2024.08.035",
+        "journal": "Arthroscopy : the journal of arthroscopic & related surgery : official publicati",
+        "year": "2024",
+        "rerank_score": 3.5442044734954834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10740547",
+        "text": "Single-dose ketorolac and pethidine in acute postoperative pain: systematic review with meta-analysis. For a systematic review of postoperative analgesic efficacy and adverse effects of single doses, injected or oral, of pethidine and ketorolac compared with placebo, we sought published randomized studies in moderate to severe postoperative pain. Information on summed pain intensity or pain relief outcomes over 4-6 h was extracted and converted to dichotomous information to produce the number of patients wi",
+        "score": 0.40157973766326904,
+        "doi": "10.1093/oxfordjournals.bja.a013381",
+        "journal": "British journal of anaesthesia",
+        "year": "2000",
+        "rerank_score": 1.960180401802063,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41066173",
+        "text": "Comparison of Ketorolac at 3 Doses in Children With Acute Pain: Protocol for A Randomized Controlled Trial. Intravenous ketorolac is a potent nonopioid analgesic commonly used to treat vigorous pain in children and adults. Despite its widespread use in pediatric emergency settings, ketorolac dosing in children remains \"off-label,\" with limited high-quality evidence to guide practice. Pharmacokinetic differences between children and adults suggest that lower ceiling doses adopted from adult practice may lead",
+        "score": 0.4099262058734894,
+        "doi": "10.2196/76554",
+        "journal": "JMIR research protocols",
+        "year": "2025",
+        "rerank_score": 1.6355756521224976,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

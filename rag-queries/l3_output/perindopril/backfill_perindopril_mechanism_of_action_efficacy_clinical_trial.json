@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Perindopril mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40913694",
+        "text": "Correction: Antihypertensive Efficacy of Triple Combination Perindopril/Indapamide Plus Amlodipine in High-Risk Hypertensives: Results of the PIANIST Study (Perindopril-Indapamide plus AmlodipiNe in high rISk hyperTensive patients).",
+        "score": 0.41857701539993286,
+        "doi": "10.1007/s40256-025-00765-6",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2025",
+        "rerank_score": 1.3483598232269287,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40130400",
+        "text": "Preventing Cardiomyopathy in Duchenne Muscular Dystrophy: Long-Term Follow-Up of Patients in the Randomised, Placebo-Controlled Drug-Trial of Perindopril and Bisoprolol. It is uncertain whether using cardiac drugs prophylactically in combinations for DMD is better than ACE-inhibitor alone. Our previous study showed no differences in left ventricular function between perindopril-bisoprolol and matched placebo after 36 months. This study aimed to determine whether heart measures diverged after 60-month total ",
+        "score": 0.41863176226615906,
+        "doi": "10.1111/ene.70097",
+        "journal": "European journal of neurology",
+        "year": "2025",
+        "rerank_score": 0.7229735255241394,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39484163",
+        "text": "Corrigendum: Effectiveness of perindopril/amlodipine fixed-dose combination in the treatment of hypertension: a systematic review. [This corrects the article DOI: 10.3389/fphar.2023.1156655.].",
+        "score": 0.38429704308509827,
+        "doi": "10.3389/fphar.2024.1485834",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -0.7278084754943848,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

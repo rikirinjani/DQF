@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Bisoprolol mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41579873",
+        "text": "Bisoprolol to prevent adverse cardiac events (PACE) in COPD: a multicentre, double-blind, randomised, controlled, phase 3 trial. Although cardiovascular disease is common in patients with chronic obstructive pulmonary disease (COPD), the efficacy and safety of β blockers in reducing cardiac events and mortality is uncertain. This study was designed to assess whether the cardioselective β blocker, bisoprolol, improves cardiorespiratory outcomes when added to usual COPD care. This double-blind, randomised, co",
+        "score": 0.42501312494277954,
+        "doi": "10.1016/S2213-2600(25)00390-X",
+        "journal": "The Lancet. Respiratory medicine",
+        "year": "2025",
+        "rerank_score": 4.73733377456665,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39749095",
+        "text": "Cross-Sectional Analyses to Assess the Clinical Safety and Effectiveness of Bisoprolol in Patients With Non-obstructive Coronary Artery Disease Who Underwent Percutaneous Coronary Intervention: A Post-hoc Analysis. Elevated central aortic pressure, cardiac output and peripheral vascular resistance contribute to high morbidity in relation to end organ dysfunction in obstructive and non-obstructive coronary artery disease (NOCAD) cases despite revascularization. Bisoprolol preempts further progression of left",
+        "score": 0.3978550434112549,
+        "doi": "10.7759/cureus.75021",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 3.163869857788086,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23290307",
+        "text": "Bisoprolol reverses epinephrine-mediated inhibition of cell emigration through increases in the expression of β-arrestin 2 and CCR7 and PI3K phosphorylation, in dendritic cells loaded with cholesterol. The effect of bisoprolol on dendritic cell (DC) migration was investigated, including the analysis of protein expression, cytokine secretion and activation of the PI3K-pathway. The chemotactic cell numbers in cholesterol-loaded DCs treated with epinephrine were significantly decreased by 26.66±6.29% (6h), 35.",
+        "score": 0.3767194151878357,
+        "doi": "10.1016/j.thromres.2012.12.009",
+        "journal": "Thrombosis research",
+        "year": "2012",
+        "rerank_score": 1.7231414318084717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Diclofenac adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8668976",
+        "text": "[Nonsteroidal antirheumatic drugs and acetylsalicylic acid: adverse effects distal to the duodenum]. An increasing number of case reports and controlled trials have drawn attention to NSAID-induced side effects in the lower gastrointestinal tract. In this review we also report 9 cases of colonic ulcers and 7 cases of diaphragm disease of the ascending colon, most of them associated with the long-term intake of slow release diclofenac. NSAIDs not only can exacerbate preexisting conditions such as inflammator",
+        "score": 0.40458181500434875,
+        "doi": "",
+        "journal": "Schweizerische medizinische Wochenschrift",
+        "year": "1996",
+        "rerank_score": 1.9547288417816162,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39264111",
+        "text": "Efficacy and safety profile of doxofylline in asthma: a meta-analysis. This work aims to explore the effectiveness and safety of doxofylline in asthma treatment. Relevant studies published before March 2023 were retrieved from EMBASE, Cochrane Library, PubMed, and Web of Science databases. Risk of Bias tool (RoB 2) was applied to determine the quality of randomized controlled trials (RCTs). Relative risks (RR, 95% confidence intervals [CI]) and weighted mean differences (WMD, 95% CI) were calculated for dic",
+        "score": 0.4267250895500183,
+        "doi": "10.1080/02770903.2024.2404192",
+        "journal": "The Journal of asthma : official journal of the Association for the Care of Asth",
+        "year": "2025",
+        "rerank_score": 0.18938122689723969,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41366928",
+        "text": "Adverse effects of iodixanol: A retrospective safety study utilizing FAERS database signal analysis. This retrospective study utilized the Food and Drug Administration adverse event (AE) reporting system database (Q1 2004-Q4 2024) to comprehensively evaluate the safety profile of the contrast agent iodixanol. Disproportionality analysis (reporting odds ratio, proportional reporting ratio, information component, empirical Bayes geometric mean) was employed to detect AE signals. Analysis of 2212 iodixanol AE ",
+        "score": 0.4087435007095337,
+        "doi": "10.1097/MD.0000000000044714",
+        "journal": "Medicine",
+        "year": "2025",
+        "rerank_score": -0.23935461044311523,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

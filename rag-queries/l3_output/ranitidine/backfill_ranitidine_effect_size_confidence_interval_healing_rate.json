@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Ranitidine effect size confidence interval healing rate"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40394757",
+        "text": "Doping Control of Ranitidine in Horses. Ranitidine is a histamine H",
+        "score": 0.44902104139328003,
+        "doi": "10.1002/dta.3909",
+        "journal": "Drug testing and analysis",
+        "year": "2025",
+        "rerank_score": -7.082357883453369,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39360458",
+        "text": "Exclusion of ranitidine from premedication regimen during paclitaxel treatment: A retrospective single-center analysis. IntroductionTo minimize the risk of hypersensitivity reactions (HSRs) caused by paclitaxel infusion, premedication with corticosteroid, H1-antagonist and H2 antagonist (ranitidine) was standard of care. Discontinuation of ranitidine in 2020 led to adjustments in premedication regimens and a new regimen without ranitidine was implemented in our center. This study aimed to compare the incide",
+        "score": 0.4638012647628784,
+        "doi": "10.1177/10781552241288143",
+        "journal": "Journal of oncology pharmacy practice : official publication of the Internationa",
+        "year": "2025",
+        "rerank_score": -7.128235816955566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39667614",
+        "text": "Four years after the ranitidine withdrawal by FDA: Is it time for India to act?",
+        "score": 0.41803866624832153,
+        "doi": "10.1016/j.drudis.2024.104269",
+        "journal": "Drug discovery today",
+        "year": "2024",
+        "rerank_score": -8.943791389465332,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

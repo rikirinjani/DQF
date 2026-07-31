@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Ramipril time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16950179",
+        "text": "Impact of ramipril on the circadian periodicity of acute myocardial infarction. Onset of acute myocardial infarction (AMI) follows a diurnal periodicity, with a peak incidence between 6:00 a.m. and noon. Beta blockers and aspirin decrease the rate of AMI and blunt the peak incidence, but such an effect has not been evaluated for angiotensin-converting enzyme inhibitors. The effect of ramipril on onset of symptomatic AMI was evaluated in 4-hour periods over a 24-hour cycle in men and women who were > or =55 ",
+        "score": 0.34629231691360474,
+        "doi": "10.1016/j.amjcard.2006.03.061",
+        "journal": "The American journal of cardiology",
+        "year": "2006",
+        "rerank_score": 6.48567008972168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39017590",
+        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
+        "score": 0.35137224197387695,
+        "doi": "10.1002/prp2.1249",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": -2.6567800045013428,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21644282",
+        "text": "[Ten years after publishing results from The Heart Outcomes Prevention Evaluation Study--HOPE: implications on treatment with angiotensin converting enzyme inhibitors in clinical practice]. Ten years ago results from The Heart Outcomes Prevention Evaluation Study were published. Those results had a great impact on position of ACE inhibitors in clinical practice. In the study, comparison of ramipril in daily dosage up to 10 mg and placebo in 9541 patients with high cardiovascular risk during 4.5 years of fol",
+        "score": 0.3462328016757965,
+        "doi": "",
+        "journal": "Lijecnicki vjesnik",
+        "year": "2011",
+        "rerank_score": -3.6585919857025146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

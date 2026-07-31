@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Hydralazine effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41238241",
+        "text": "Reducing the Nonindicated Use of IV Hydralazine in the Inpatient Setting. Elevated blood pressure (BP) affects up to 72% of hospitalized patients. Intravenous (IV) antihypertensives are indicated for hypertensive emergencies, but they are often given for asymptomatic BP elevations, leading to hypotension, acute kidney injury, and intensive care unit transfers without improving outcomes. At UConn John Dempsey Hospital, 69% of IV hydralazine use between June 2023 and January 2024 lacked appropriate indication",
+        "score": 0.3928360641002655,
+        "doi": "10.1016/j.jaccas.2025.105712",
+        "journal": "JACC. Case reports",
+        "year": "2025",
+        "rerank_score": -0.25171008706092834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39801449",
+        "text": "Impact of Daytime and Nighttime Blood Pressure and Nocturnal Blood Pressure Fall on Heart Failure Risk in Treated Hypertension. To evaluate the impact of daytime, nighttime, and nocturnal blood pressures (BPs) fall on heart failure (HF). We analyzed data from five cohorts including 15,526 treated hypertensive patients, experiencing 625 HF events, by study-level meta-analysis. The pooled hazard ratios (HRs) and 95% confidence intervals (CIs) for 1SD increase in BP parameters or per group were calculated. Whe",
+        "score": 0.44743311405181885,
+        "doi": "10.1093/ajh/hpaf008",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": -5.966312408447266,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40033143",
+        "text": "The significance of ambulatory blood pressure monitoring for evaluating circadian blood pressure variations affected by alcohol consumption. Possible diurnal blood pressure variation change due to alcohol consumption. • Normally, blood pressure declines by around 10-20% at night compared to daytime (nocturnal decline, orange line). • In the acute phase of alcohol consumption, blood pressure declines from the original blue line due to vasodilation caused by alcohol and then increases (orange arrow, and brown",
+        "score": 0.4524903893470764,
+        "doi": "10.1038/s41440-025-02167-2",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2025",
+        "rerank_score": -7.1373491287231445,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

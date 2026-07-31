@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Pitavastatin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41482181",
+        "text": "Impact of Pitavastatin on Carotid Plaque Regression in Patients with Hypercholesterolemia. Pitavastatin is a novel 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor with pleiotropic anti-atherosclerotic effects, but there is little evidence on the effects of pitavastatin treatment in inducing carotid atherosclerosis regression in patients with hypercholesterolemia (HC). A self-controlled multicenter clinical trial of with HC was conducted between October 2018 to November 2020, to assess wh",
+        "score": 0.41889506578445435,
+        "doi": "10.1016/j.avsg.2025.12.019",
+        "journal": "Annals of vascular surgery",
+        "year": "2025",
+        "rerank_score": 3.411431074142456,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36081339",
+        "text": "Pitavastatin-loaded bilosomes for oral treatment of hepatocellular carcinoma: a repurposing approach. Albeit its established efficacy as an anti-hyperlipidemic agent, pitavastatin (PIT) has been shown to have other various therapeutic effects. One of these effects is the anti-cancer activity against hepatocellular carcinoma (HCC). This effect has been evaluated in this study for the first time",
+        "score": 0.40392929315567017,
+        "doi": "10.1080/10717544.2022.2120925",
+        "journal": "Drug delivery",
+        "year": "2022",
+        "rerank_score": 2.64968204498291,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40029062",
+        "text": "Identification of Genetic Variants Associated with Pravastatin and Pitavastatin Pharmacokinetics. A clinical trial was carried out to investigate the pharmacogenetics of single-dose pravastatin and pitavastatin pharmacokinetics in 173 and 164 healthy participants. Additionally, 96 participants were included from previous pharmacogenetic studies with pravastatin. In a genome-wide meta-analysis of pravastatin including all 269 participants, SLCO1B1 c.521T>C (rs4149056) was associated with increased AUC",
+        "score": 0.4062124192714691,
+        "doi": "10.1002/cpt.3623",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 2.00496506690979,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

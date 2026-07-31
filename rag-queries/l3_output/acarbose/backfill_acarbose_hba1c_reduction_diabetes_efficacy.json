@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Acarbose HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38842918",
+        "text": "Two weeks of acarbose treatment shows no effect on gut microbiome composition in patients with type 2 diabetes: a randomised, placebo-controlled, double-blind, crossover study. The alpha-glucosidase inhibitor acarbose is approved for the treatment of type 2 diabetes (T2D). It acts in the lumen of the gut by reducing intestinal hydrolysis and absorption of ingested carbohydrates. This reduces postprandial blood glucose concentration and increases the content of carbohydrates in the distal parts of the intest",
+        "score": 0.38249966502189636,
+        "doi": "10.1530/EC-24-0052",
+        "journal": "Endocrine connections",
+        "year": "2024",
+        "rerank_score": 4.764400005340576,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39565129",
+        "text": "Acarbose impairs gut  Acarbose is a type 2 diabetes medicine that prevents dietary starch breakdown into glucose by inhibiting host amylase and glucosidase enzymes. Numerous gut species in the  Acarbose is a type 2 diabetes medication that works primarily by stopping starch breakdown into glucose in the small intestine. This is accomplished by the inhibition of host enzymes, leading to better blood sugar control via reduced ability to derive glucose from dietary starches. The drug and undigested starch trav",
+        "score": 0.42571040987968445,
+        "doi": "10.1128/mbio.01506-24",
+        "journal": "mBio",
+        "year": "2024",
+        "rerank_score": 4.132852554321289,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39559515",
+        "text": "Assessing the Effects of HbA1c Reduction on Alleviating Chronic Nonspecific Low Back Pain in Prediabetic Non-obese Patients: A Non-Randomized Controlled Trial. Pre-diabetes, characterized by elevated glycemic indices, poses a high risk of diabetes development, and is increasingly linked to non-specific low back pain. While mechanisms remain incompletely understood, metabolic, inflammatory, and neurological factors are implicated. Dietary interventions, including low-glycemic and anti-inflammatory diets, alo",
+        "score": 0.4234427213668823,
+        "doi": "10.1177/11795514241300995",
+        "journal": "Clinical medicine insights. Endocrinology and diabetes",
+        "year": "2024",
+        "rerank_score": 3.677150249481201,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

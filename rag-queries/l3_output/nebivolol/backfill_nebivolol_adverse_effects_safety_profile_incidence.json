@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Nebivolol adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16635049",
+        "text": "Effect of treatment with nebivolol on parameters of oxidative stress in type 2 diabetics with mild to moderate hypertension. The aim of this study was to examine the effect of the cadioselective B(1)-adrenoceptor blocker nebivolol on glycaemic control, lipid profile and markers of oxidative stress in patients with type 2 diabetes over a 6-month period.",
+        "score": 0.44620954990386963,
+        "doi": "10.1111/j.1365-2710.2006.00718.x",
+        "journal": "Journal of clinical pharmacy and therapeutics",
+        "year": "2006",
+        "rerank_score": 1.4805446863174438,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969604",
+        "text": "Comparison of nebivolol, carvedilol, and bisoprolol for adverse clinical outcomes among patients with heart failure-a real-world nationwide investigation. The authors report a retrospective cohort study based on a national dataset that explores the association between the prescription of three beta-blockers (BB) and a diagnosis of heart failure (HF) readmission, cardiovascular (CV) death, and all-cause death. Patients with HF who received nebivolol, carvedilol, and bisoprolol between 2016 and 2020 were iden",
+        "score": 0.4673915505409241,
+        "doi": "10.1007/s00210-025-03855-z",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2024",
+        "rerank_score": 1.2705247402191162,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20411618",
+        "text": "Cardiovascular protective effects of nebivolol in Zucker diabetic fatty rats. Although effective in reducing blood pressure, therapy with a first-generation [beta]-blocker is currently controversial in metabolic syndrome due to its negative impact on carbohydrate and lipid metabolism.",
+        "score": 0.4445151686668396,
+        "doi": "10.1097/hjh.0b013e328337598c",
+        "journal": "Journal of hypertension",
+        "year": "2010",
+        "rerank_score": 0.9335341453552246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

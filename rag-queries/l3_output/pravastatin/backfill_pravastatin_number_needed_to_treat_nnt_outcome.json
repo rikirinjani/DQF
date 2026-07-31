@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Pravastatin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.47366225719451904,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 2.0246732234954834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34264500",
+        "text": "Benefit-Risk Assessment of Galcanezumab Versus Placebo for the Treatment of Episodic and Chronic Migraine Using the Metrics of Number Needed to Treat and Number Needed to Harm. Subcutaneous galcanezumab was an effective, well-tolerated preventive treatment for adults with episodic (EM) or chronic migraine (CM) in 4 phase 3 randomized controlled trials: EVOLVE-1, EVOLVE-2, REGAIN, and CONQUER. Number needed to treat (NNT) and to harm (NNH) are metrics of effect size used to evaluate benefit-risk profiles. Th",
+        "score": 0.4652906656265259,
+        "doi": "10.1007/s12325-021-01848-x",
+        "journal": "Advances in therapy",
+        "year": "2021",
+        "rerank_score": 0.5405154228210449,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19713652",
+        "text": "The impact of pravastatin therapy on long-term outcome in patients with metabolic syndrome undergoing complete coronary revascularization. Few studies dealing with the efficacy of statin therapy among patients with metabolic syndrome (MS) and coronary artery disease (CAD) have been conducted. In particular, there have been no studies of the efficacy of statins among Asian MS patients with treated CAD.",
+        "score": 0.46482765674591064,
+        "doi": "10.1253/circj.cj-09-0122",
+        "journal": "Circulation journal : official journal of the Japanese Circulation Society",
+        "year": "2009",
+        "rerank_score": 0.28759944438934326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

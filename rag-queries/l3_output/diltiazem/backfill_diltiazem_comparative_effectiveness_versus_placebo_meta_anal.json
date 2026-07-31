@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Diltiazem comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7036710",
+        "text": "Efficacy of diltiazem in angina on effort: a multicenter trial. During a multicenter study 57 patients with exercise-induced angina were evaluated with serial exercise testing to assess the efficacy of diltiazem, a calcium slow channel blocking agent, compared with a placebo. The study consisted of a 1 week single-blind placebo stabilization period followed by a double-blind triple crossover between diltiazem and placebo. Three dose levels were tested (120, 180 and 240 mg/day) in each patient. For the three",
+        "score": 0.37736719846725464,
+        "doi": "10.1016/s0002-9149(82)80013-1",
+        "journal": "The American journal of cardiology",
+        "year": "1982",
+        "rerank_score": 5.074490070343018,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1907056",
+        "text": "[Ineffectiveness of diltiazem in Duchenne muscular dystrophy: a placebo-controlled double-blind study]. In a randomized double-blind study the clinical efficacy of the calcium channel blocker, diltiazem was compared to that of a placebo on the clinical course of Duchenne's dystrophy (DMD) over a 12-month period. Altogether 30 patients, mostly in an advanced state of the disease, were evaluated. The 17 patients in the diltiazem group received 90-360 mg diltiazem per day according to their body weight; the 13",
+        "score": 0.37799346446990967,
+        "doi": "",
+        "journal": "Wiener klinische Wochenschrift",
+        "year": "1991",
+        "rerank_score": 4.60598087310791,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:9551874",
+        "text": "A placebo-controlled comparison of diltiazem and amlodipine monotherapy in essential hypertension using 24-h ambulatory monitoring. Thirty patients (17 females, median age 55 years) with mild/moderate hypertension (sitting diastolic blood pressure 95-110 mmHg over 2 consecutive weeks) participated in a study of the efficacy and tolerability of once-daily diltiazem \"controlled delivery\" 180 mg-360 mg and amlodipine 5-10 mg compared with placebo (using clinic and 24-h ambulatory blood pressure measurement (Ac",
+        "score": 0.37661466002464294,
+        "doi": "10.1080/080370598437538",
+        "journal": "Blood pressure",
+        "year": "1998",
+        "rerank_score": 4.292367935180664,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

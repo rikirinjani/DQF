@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Lisinopril effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39466390",
+        "text": "Real-world evidence of lisinopril in pediatric hypertension and nephroprotective management: a 10-year cohort study. Over the last 20 years, pediatric hypertension (pHTN) prevalence in Western society has risen from 3.5 to 9% due to childhood overweight, obesity, and secondary kidney and cardiological conditions. Few studies have assessed commonly used antihypertensive medication lisinopril's (ACE-inhibitor) long-term efficacy and the long-term value of renin-angiotensin-aldosterone system (RAAS) biomarkers",
+        "score": 0.41260337829589844,
+        "doi": "10.1007/s00467-024-06531-1",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2024",
+        "rerank_score": -3.2082319259643555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40063419",
+        "text": "Switching From ARBs to Sacubitril/Valsartan Safely Improves 24-Hour Ambulatory Blood Pressure in Patients With Advanced Chronic Kidney Disease. We investigated the effects of sacubitril/valsartan, a first-in-class angiotensin receptor neprilysin inhibitor (ARNI), on 24-hour blood pressure (BP) and safety for 12 weeks in Japanese patients with non-dialysis advanced chronic kidney disease (CKD). We conducted a prospective, single-arm exploratory study. Patients with non-dialysis CKD stage G4-5 (estimated glom",
+        "score": 0.4106130599975586,
+        "doi": "10.1093/ajh/hpaf028",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": -3.583921432495117,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39114702",
+        "text": "Empagliflozin combined with sacubitril/valsartan in hypertensive patients with heart failure: a retrospective study of efficacy and effect on blood pressure variability and cardiac function. To evaluate the efficacy of empagliflozin combined with sacubitril/valsartan in treating hypertensive patients with heart failure (HF), focusing on its effects on blood pressure variability (BPV) and cardiac function. This retrospective study included 101 patients with hypertension and heart failure with reduced ejectio",
+        "score": 0.41762155294418335,
+        "doi": "10.62347/LXJB8350",
+        "journal": "American journal of translational research",
+        "year": "2024",
+        "rerank_score": -4.204849720001221,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

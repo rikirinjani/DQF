@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Meloxicam number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11853278",
+        "text": "Safety and efficacy of meloxicam 7.5 mg in the treatment of osteoarthritis in Thai patients. A prospective, open trial to evaluate the safety and efficacy of oral meloxicam 7.5 mg once daily over a period of 28 days in Thai patients with osteoarthritis was conducted in 3 major hospitals in Bangkok, Thailand. A total of 137 patients were enrolled and completed the study protocol. The mean age of the patients was 57.6 years and 88 per cent were female. Pain on movement and pain at rest evaluated after treatme",
+        "score": 0.47379493713378906,
+        "doi": "",
+        "journal": "Journal of the Medical Association of Thailand = Chotmaihet thangphaet",
+        "year": "2002",
+        "rerank_score": -1.1941819190979004,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17063980",
+        "text": "Meloxicam determination in human plasma by high-performance liquid chromatography coupled with tandem mass spectrometry (LC-MS-MS) in Brazilian bioequivalence studies. In this study, the bioavailability of 2 meloxicam 15 mg tablet formulations was compared. A single dose of each formulation was administered to 24 healthy volunteers (12 males and 12 females).",
+        "score": 0.4743565320968628,
+        "doi": "10.5414/cpp44489",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2006",
+        "rerank_score": -4.681347846984863,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39606887",
+        "text": "Oral azacitidine maintenance after intensive chemotherapy versus venetoclax and azacitidine: real world outcomes in newly diagnosed acute myeloid leukemia. Oral azacitidine (Oral-AZA) is recommended as maintenance therapy for patients with newly diagnosed acute myeloid leukemia (ND AML) achieving remission with intensive chemotherapy (IC) but not transplant candidates; venetoclax plus injectable azacitidine (VEN-AZA) is recommended for patients ineligible for IC. Some patients may be considered candidates f",
+        "score": 0.4785904288291931,
+        "doi": "10.1080/10428194.2024.2425792",
+        "journal": "Leukemia & lymphoma",
+        "year": "2025",
+        "rerank_score": -6.900482654571533,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

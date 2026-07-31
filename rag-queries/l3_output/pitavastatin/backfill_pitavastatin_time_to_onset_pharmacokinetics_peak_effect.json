@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Pitavastatin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8335426",
+        "text": "Effect of food on pravastatin pharmacokinetics and pharmacodynamics. The pharmacokinetics and pharmacodynamics of pravastatin 20 mg administered twice daily when taken with or one hour before meals were evaluated in 24 hypercholesterolemic men in an 8-week, open-label, randomized, two-way crossover study. The bioavailability of pravastatin was reduced significantly (p < or = 0.001) when it was taken with meals (AUC dropped 31% and Cmax dropped 49%), and mean Tmax increased 50% (p < or = 0.01). The mean elim",
+        "score": 0.35334455966949463,
+        "doi": "",
+        "journal": "International journal of clinical pharmacology, therapy, and toxicology",
+        "year": "1993",
+        "rerank_score": 1.267069697380066,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.3850635886192322,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.5290011167526245,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19842935",
+        "text": "Different effects of the ABCG2 c.421C>A SNP on the pharmacokinetics of fluvastatin, pravastatin and simvastatin. This study aimed to investigate possible effects of the ABCG2 c.421C>A (p.Gln141Lys; rs2231142) genotype on fluvastatin, pravastatin and simvastatin pharmacokinetics.",
+        "score": 0.3534705936908722,
+        "doi": "10.2217/pgs.09.85",
+        "journal": "Pharmacogenomics",
+        "year": "2009",
+        "rerank_score": -3.0343010425567627,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

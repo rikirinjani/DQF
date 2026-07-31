@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Liraglutide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28435304",
+        "text": "Comparative effectiveness of glycemic control in patients with type 2 diabetes treated with GLP-1 receptor agonists: a network meta-analysis of placebo-controlled and active-comparator trials. Clinical studies of patients with type 2 diabetes show that GLP-1 receptor agonists (GLP-1 RAs) improve glycemic control and promote weight loss. We conducted a Bayesian network meta-analysis (NMA) of placebo- and active-controlled randomized trials to assess the comparative effectiveness of liraglutide, albiglutide, ",
+        "score": 0.3763431906700134,
+        "doi": "10.2147/DMSO.S116810",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2017",
+        "rerank_score": 7.179748058319092,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30578607",
+        "text": "Comparative effectiveness of exenatide once-weekly versus liraglutide in routine clinical practice: A retrospective multicentre study and meta-analysis of observational studies. In this study, we retrospectively compared the effectiveness of exenatide once-weekly (ExeOW) versus liraglutide in non-insulin treated patients with type 2 diabetes followed under routine care. We also present a meta-analysis of similar observational studies available in the literature. In our multicentre retrospective study, patie",
+        "score": 0.37374332547187805,
+        "doi": "10.1111/dom.13623",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2018",
+        "rerank_score": 7.042623519897461,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28635331",
+        "text": "Network meta-analysis of liraglutide versus dipeptidyl peptidase-4 inhibitors for the treatment of type 2 diabetes in Japanese patients. To determine the comparative efficacy and safety of liraglutide and dipeptidyl peptidase-4 (DPP-4) inhibitors as antidiabetics for Japanese patients with uncontrolled type 2 diabetes (T2DM).",
+        "score": 0.367464542388916,
+        "doi": "10.1080/03007995.2017.1345730",
+        "journal": "Current medical research and opinion",
+        "year": "2017",
+        "rerank_score": 6.298794269561768,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

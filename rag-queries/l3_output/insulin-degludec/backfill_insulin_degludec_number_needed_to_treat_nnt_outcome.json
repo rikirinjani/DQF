@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Insulin Degludec number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.4174480438232422,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 5.0124030113220215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39725356",
+        "text": "Insulin Degludec in Critically Ill Patients With Type 2 Diabetes Mellitus: A Prospective Interventional Study. Dysglycemia has deleterious outcomes on critically ill patients with diabetes mellitus (DM). Insulin degludec, an ultralong-acting insulin, is associated with lower rates of hypoglycemia and blood glucose (BG) variability in non-critically ill patients. The experience with insulin degludec in the intensive care units is lacking. This study aimed to assess the effect of insulin degludec on glycemic ",
+        "score": 0.4114345908164978,
+        "doi": "10.1016/j.eprac.2024.12.014",
+        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
+        "year": "2024",
+        "rerank_score": 1.4939281940460205,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39254740",
+        "text": "Insulin Efsitora versus Degludec in Type 2 Diabetes without Previous Insulin Treatment. Insulin efsitora alfa (efsitora) is a new basal insulin designed for once-weekly administration. Data on safety and efficacy have been limited to small, phase 1 or phase 2 trials. We conducted a 52-week, phase 3, parallel-design, open-label, treat-to-target trial involving adults with type 2 diabetes who had not previously received insulin. Participants were randomly assigned in a 1:1 ratio to receive efsitora or deglude",
+        "score": 0.42735767364501953,
+        "doi": "10.1056/NEJMoa2403953",
+        "journal": "The New England journal of medicine",
+        "year": "2024",
+        "rerank_score": 0.6724411845207214,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Cimetidine randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39520228",
+        "text": "Pragmatic monitoring of emerging efficacy data in randomized controlled trials. Monitoring the conduct of phase III randomized controlled trials is driven by ethical reasons to protect the study integrity and the safety of trial participants. We propose a group sequential, pragmatic approach for monitoring the accumulating efficacy information in randomized controlled trials. The \"Population Health Research Institute boundary\" is simple to implement and sensible, as it considers the reduction in uncertainty",
+        "score": 0.4256477952003479,
+        "doi": "10.1177/17407745241290729",
+        "journal": "Clinical trials (London, England)",
+        "year": "2025",
+        "rerank_score": -0.5949407815933228,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39584590",
+        "text": "Evaluating multiplicity reporting in analgesic clinical trials: An analytical review. Analgesia trials often demands multiple comparisons to assess various treatment arms, outcomes, or repeated assessments. These multiple comparisons risk inflating the false positive rate. Multiplicity correction in recent analgesic randomized controlled trials (RCTs) remains unclear despite statistical method advancements and regulatory guidelines. Our study aimed to identify reporting inadequacies in multiple analysis adj",
+        "score": 0.4171907305717468,
+        "doi": "10.1002/ejp.4756",
+        "journal": "European journal of pain (London, England)",
+        "year": "2024",
+        "rerank_score": -2.6099188327789307,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814615",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial-Reply.",
+        "score": 0.39441829919815063,
+        "doi": "10.1001/jamaoncol.2024.0140",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -2.6811485290527344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

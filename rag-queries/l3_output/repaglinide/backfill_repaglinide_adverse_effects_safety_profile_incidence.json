@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Repaglinide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10668848",
+        "text": "Pharmacokinetics of repaglinide in subjects with renal impairment. To evaluate the effect of renal impairment and renal failure on the pharmacokinetics and safety of repaglinide.",
+        "score": 0.42447060346603394,
+        "doi": "10.1067/mcp.2000.103973",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2000",
+        "rerank_score": 1.6407653093338013,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24623479",
+        "text": "Reduced physiologically-based pharmacokinetic model of repaglinide: impact of OATP1B1 and CYP2C8 genotype and source of in vitro data on the prediction of drug-drug interaction risk. To investigate the effect of OATP1B1 genotype as a covariate on repaglinide pharmacokinetics and drug-drug interaction (DDIs) risk using a reduced physiologically-based pharmacokinetic (PBPK) model.",
+        "score": 0.4254261255264282,
+        "doi": "10.1007/s11095-014-1333-3",
+        "journal": "Pharmaceutical research",
+        "year": "2013",
+        "rerank_score": 0.029354874044656754,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20600729",
+        "text": "In vitro characterization and invivo toxicity study of repaglinide loaded poly (methyl methacrylate) nanoparticles. With the objective to achieve prolonged drug release, especially for the treatment of diabetes mellitus, and thereby to reduce the side effects of administration of conventional dosage form, repaglinide loaded PMMA nanoparticles have been formulated. These nanoparticles have been developed by solvent evaporation method and were subjected to various studies for characterization including photon",
+        "score": 0.4254675507545471,
+        "doi": "10.1016/j.ijpharm.2010.06.023",
+        "journal": "International journal of pharmaceutics",
+        "year": "2010",
+        "rerank_score": -0.6124764084815979,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

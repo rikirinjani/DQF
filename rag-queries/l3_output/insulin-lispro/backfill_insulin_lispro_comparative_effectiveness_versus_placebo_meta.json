@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Insulin Lispro comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.3776349723339081,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 4.70508337020874,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17112621",
+        "text": "A review of human and analogue insulin trials. A recent meta-analysis evaluated trials of the rapid-acting analogues insulin lispro and insulin aspart, performed before the introduction of the basal analogues, insulin glargine and insulin detemir. This article reviews the effect of rapid-acting and basal insulin analogues separately and in combination, relative to human insulin. Outcomes evaluated include HbA(1c), hypoglycaemia, postprandial glucose (PPG), and weight changes. Results from trials that matche",
+        "score": 0.35022905468940735,
+        "doi": "10.1016/j.diabres.2006.10.015",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2006",
+        "rerank_score": 3.0469846725463867,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38774225",
+        "text": "Ultra rapid lispro improves postprandial glucose control versus lispro in combination with basal insulin: a study based on CGM in type 2 diabetes in China. To evaluate the efficacy and safety of URLi (ultra rapid lispro insulin) compared to insulin lispro as bolus insulin with basal insulin using CGM in the individuals with type 2 diabetes(T2D) in China. This was a double-blind, randomized, parallel, prospective, phase 3 study. Subjects with uncontrolled T2D were recruited and randomized 1:2 into the insuli",
+        "score": 0.3726770579814911,
+        "doi": "10.3389/fendo.2024.1364585",
+        "journal": "Frontiers in endocrinology",
+        "year": "2024",
+        "rerank_score": 2.0536553859710693,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

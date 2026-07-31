@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Empagliflozin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38771475",
+        "text": "Safety of Empagliflozin: An Individual Participant-Level Data Meta-Analysis from Four Large Trials. Empagliflozin is a sodium-glucose co-transporter-2 inhibitor used to treat type 2 diabetes (T2D) to improve glycemic control, reduce risk of cardiovascular death in patients with T2D, and treat patients with symptomatic chronic heart failure (HF) and chronic kidney disease (CKD). The safety profile of empagliflozin is well documented, although adverse events (AEs) remain of interest to clinicians. This study ",
+        "score": 0.39126402139663696,
+        "doi": "10.1007/s12325-024-02879-w",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 6.097786903381348,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39022025",
+        "text": "Safety assessment of dapagliflozin: Real-world adverse event analysis based on the FAERS database from 2012 to 2023. Dapagliflozin possesses the capacity to cure a wide range of diseases, however, there are many adverse events (AEs) that have not yet been acknowledged or recorded. Safety assessment of dapagliflozin based on the Food and Drug Administration Adverse Event Reporting System (FAERS) database, to explore differences between the reported AEs to provide a overview of the safety profile of dapaglifl",
+        "score": 0.406887024641037,
+        "doi": "10.1016/j.heliyon.2024.e33306",
+        "journal": "Heliyon",
+        "year": "2024",
+        "rerank_score": 5.8442158699035645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40855136",
+        "text": "Safety and Short-Term Effects of Empagliflozin in Patients with Heart Failure and End-Stage Renal Disease. Our aim was to evaluate the safety of empagliflozin in escalating doses among patients with end-stage renal disease (ESRD) undergoing maintenance hemodialysis who also have heart failure. This single-arm, open-label, dose-escalation study enrolled patients with ESRD on maintenance hemodialysis with heart failure (reduced or preserved ejection fraction) from June to September 2023. Patients sequentially",
+        "score": 0.39765089750289917,
+        "doi": "10.1007/s40256-025-00760-x",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2025",
+        "rerank_score": 5.355254173278809,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

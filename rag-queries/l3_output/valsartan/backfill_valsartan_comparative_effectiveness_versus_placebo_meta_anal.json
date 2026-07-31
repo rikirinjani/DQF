@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Valsartan comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38427969",
+        "text": "Comparative effectiveness of sacubitril/valsartan versus angiotensin receptor blockers in patients with heart failure with preserved ejection fraction: A real-world study. Sacubitril/valsartan (SAC/VAL) or angiotensin receptor blockers (ARBs) are recommended therapy for heart failure with preserved ejection fraction (HFpEF), but little is known about their real-world comparative effectiveness among patients with HFpEF. The objective of this study was to determine the comparative effectiveness of SAC/VAL vs ",
+        "score": 0.4000791907310486,
+        "doi": "10.1093/ajhp/zxae053",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2024",
+        "rerank_score": 5.69571590423584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23713686",
+        "text": "Meta-analysis of three observational studies of amlodipine/valsartan in hypertensive patients with additional risk factors. In this study, the effectiveness of amlodipine/valsartan single-pill combination was assessed in hypertensive patients with diabetes, metabolic risk or overweight.",
+        "score": 0.3946536183357239,
+        "doi": "10.3109/08037051.2013.793891",
+        "journal": "Blood pressure",
+        "year": "2013",
+        "rerank_score": 5.477514266967773,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17268215",
+        "text": "Evaluation of the dose response with valsartan and valsartan/hydrochlorothiazide in patients with essential hypertension. This patient data meta-analysis included 9 randomized, double-blind, placebo-controlled trials (N=4278) of once-daily valsartan 80, 160, or 320 mg or valsartan/hydrochlorothiazide 80/12.5, 160/12.5, 160/25, 320/12.5, or 320/25 mg given for 4 to 8 weeks. Efficacy variables included: (1) mean change in systolic blood pressure (BP) and diastolic BP; and (2) proportion of patients reaching B",
+        "score": 0.3921426832675934,
+        "doi": "10.1111/j.1524-6175.2007.06415.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2007",
+        "rerank_score": 4.645392894744873,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

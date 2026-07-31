@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Calcium Carbonate effect size confidence interval symptom relief"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41070738",
+        "text": "The ratio of confidence interval above the minimal clinically important difference.",
+        "score": 0.4412277936935425,
+        "doi": "10.1111/anae.70028",
+        "journal": "Anaesthesia",
+        "year": "2025",
+        "rerank_score": -8.587778091430664,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40778734",
+        "text": "Confidence Intervals for Adaptive Trial Designs I: A Methodological Review. Regulatory guidance notes the need for caution in the interpretation of confidence intervals (CIs) constructed during and after an adaptive clinical trial. Conventional CIs of the treatment effects are prone to undercoverage (as well as other undesirable properties) in many adaptive designs (ADs) because they do not take into account the potential and realized trial adaptations. This paper is the first in a two-part series that expl",
+        "score": 0.46855536103248596,
+        "doi": "10.1002/sim.70174",
+        "journal": "Statistics in medicine",
+        "year": "2025",
+        "rerank_score": -8.730340003967285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39227189",
+        "text": "The Hemodynamic Effects of Bolus Dose Calcium in Patients Undergoing Pulmonary Artery Reconstruction and Unifocalization Surgery: A Pilot Study. To determine if bolus administration of calcium increases pulmonary artery pressures after unifocalization procedures or pulmonary artery reconstruction surgery. Retrospective cohort study using Stanford University's data warehouse. A large pediatric heart center within an academic quaternary care facility. All patients undergoing pulmonary artery reconstruction or",
+        "score": 0.44478875398635864,
+        "doi": "10.1053/j.jvca.2024.08.008",
+        "journal": "Journal of cardiothoracic and vascular anesthesia",
+        "year": "2024",
+        "rerank_score": -8.764734268188477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Insulin Degludec effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:37671755",
+        "text": "The Effect of Insulin Degludec Versus Insulin Glargine U100 on Glucose Metrics Recorded During Continuous Glucose Monitoring in People With Type 1 Diabetes and Recurrent Nocturnal Severe Hypoglycemia. Comparing continuous glucose monitoring (CGM)-recorded metrics during treatment with insulin degludec (IDeg) versus insulin glargine U100 (IGlar-100) in people with type 1 diabetes (T1D) and recurrent nocturnal severe hypoglycemia. This is a multicenter, two-year, randomized, crossover trial, including 149 adu",
+        "score": 0.35350924730300903,
+        "doi": "10.1177/19322968231197423",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 1.9021782875061035,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38682470",
+        "text": "Effect of hemoglobin A1c change on 24-month clinical outcomes in patients with diabetes after acute myocardial infarction. The average glycated hemoglobin (HbA1c) may not accurately reflect glycemic control status during the mid-term after acute myocardial infarction (AMI). We aimed to evaluate changes in HbA1c and their effect on mid-term clinical outcomes in patients with diabetes and AMI. We enrolled patients with diabetes ( n  = 967) who underwent HbA1c measurement in the Korean nationwide registry. The",
+        "score": 0.3664007782936096,
+        "doi": "10.1097/MCA.0000000000001369",
+        "journal": "Coronary artery disease",
+        "year": "2024",
+        "rerank_score": 1.5290119647979736,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32744395",
+        "text": "Effects of insulin degludec and insulin glargine U300 on glycaemic stability in individuals with type 1 diabetes: A multicentre, randomized controlled crossover study. To compare the effects of insulin degludec (IDeg) and insulin glargine U300 (IGlarU300) on glycaemic stability in subjects with type 1 diabetes.",
+        "score": 0.34542930126190186,
+        "doi": "10.1111/dom.14161",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2020",
+        "rerank_score": 0.4459170401096344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

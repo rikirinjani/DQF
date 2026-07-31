@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Lansoprazole number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40527038",
+        "text": "Lansoprazole identified as a prophylactic agent for oxaliplatin-induced peripheral neuropathy using integrated in silico, in vitro, and in vivo analyses. Oxaliplatin (L-OHP) is a platinum-based anticancer drug used to treat various malignant tumors. However, L-OHP-induced peripheral neuropathy (OIPN) is a major clinical problem that often limits treatment. As OIPN occurs when L-OHP accumulates in the dorsal root ganglion (DRG) via organic cation transporter 2 (OCT2/SLC22A2), drugs with OCT2 inhibitory prope",
+        "score": 0.4876440167427063,
+        "doi": "10.1016/j.biopha.2025.118272",
+        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+        "year": "2025",
+        "rerank_score": 0.10493826866149902,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39836012",
+        "text": "A Randomized, Comparative Trial of a Potassium-Competitive Acid Blocker (X842) and Lansoprazole for the Treatment of Patients With Erosive Esophagitis. X842 is a new type of gastric acid-suppressing agent with a rapid onset of action and a long duration of effect. We aim to investigate the efficacy and safety of different doses of X842 vs lansoprazole in the treatment of patients with erosive esophagitis (EE). This phase 2 study included 90 patients with EE (Los Angeles grades A-D) who were randomized (1:1:",
+        "score": 0.48798924684524536,
+        "doi": "10.14309/ctg.0000000000000803",
+        "journal": "Clinical and translational gastroenterology",
+        "year": "2024",
+        "rerank_score": -0.22377492487430573,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12614304",
+        "text": "Esomeprazole 20 mg and lansoprazole 15 mg in maintaining healed reflux oesophagitis: Metropole study results. Esomeprazole, the first proton pump inhibitor to be developed as an optical isomer, has demonstrated more effective healing vs. omeprazole and lansoprazole in patients with reflux oesophagitis (RO). However, RO recurs in a high proportion (approximately 80%) of these patients within 12 months of initial therapy, highlighting the importance of maintenance treatment. Previous studies have shown esomep",
+        "score": 0.448677122592926,
+        "doi": "",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "2003",
+        "rerank_score": -1.0605814456939697,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

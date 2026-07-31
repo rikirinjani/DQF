@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Canagliflozin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39216659",
+        "text": "A randomized, open-label, clinical trial examined the effects of canagliflozin on albuminuria and eGFR decline using an individual pre-intervention eGFR slope. Demonstrating drug efficacy in slowing kidney disease progression requires large clinical trials when targeting participants with an early stage of chronic kidney disease (CKD). In this randomized, parallel-group, open-labeled trial (CANPIONE study), we assessed the effect of the sodium-glucose cotransporter 2 (SGLT2) inhibitor canagliflozin using th",
+        "score": 0.39531221985816956,
+        "doi": "10.1016/j.kint.2024.08.019",
+        "journal": "Kidney international",
+        "year": "2024",
+        "rerank_score": 5.873692512512207,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38127437",
+        "text": "Clinical efficacy and safety of canagliflozin combined with valsartan in the treatment of early and mid-stage diabetic nephropathy.",
+        "score": 0.4011664092540741,
+        "doi": "10.23736/S2724-5691.23.10172-9",
+        "journal": "Minerva surgery",
+        "year": "2024",
+        "rerank_score": 4.22606897354126,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39036974",
+        "text": "An overview of the CANVAS Program and CREDENCE trial: The primary outcomes and key clinical implications for those managing patients with type 2 diabetes. To provide an overview of the primary outcomes and key clinical implications of the CANVAS Program and CREDENCE trial, which were event-driven, double-blind randomized controlled trials that established the efficacy and safety of canagliflozin in those with type 2 diabetes (T2D) and high cardiovascular risk (CV) or albuminuric chronic kidney disease (CKD)",
+        "score": 0.4154212474822998,
+        "doi": "10.1111/dom.15751",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2024",
+        "rerank_score": 3.6790614128112793,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

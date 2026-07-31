@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Lisinopril blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40509774",
+        "text": "Blood pressure-lowering efficacy of Sacubitril/Allisartan versus Olmesartan in Chinese hypertensive patients with a nondipping blood pressure pattern. Abnormal nocturnal blood pressure dipping profile is an important cardiovascular risk factor in patients with hypertension. This analysis aimed to investigate the effects of Sacubitril/Allisartan on blood pressure in Chinese patients with mild to moderate hypertension and a nighttime nondipping pattern. We performed analysis of data from a randomized clinical",
+        "score": 0.4038147032260895,
+        "doi": "10.1097/HJH.0000000000004065",
+        "journal": "Journal of hypertension",
+        "year": "2024",
+        "rerank_score": 6.393562316894531,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40621831",
+        "text": "Efficacy and safety of sacubitril/valsartan in Afro-descendant patients with resistant hypertension: a randomized controlled trial. Sacubitril/valsartan (Sac-Val) has demonstrated blood pressure (BP)-lowering effects, but its role in resistant hypertension remains unclear. This study evaluated the efficacy and safety of Sac-Val compared to optimized angiotensin II receptor blocker (ARB) or angiotensin-converting enzyme inhibitor (ACEI) therapy in Brazilian patients with resistant hypertension, predominantly",
+        "score": 0.4108806252479553,
+        "doi": "10.1097/HJH.0000000000004075",
+        "journal": "Journal of hypertension",
+        "year": "2025",
+        "rerank_score": 5.758267879486084,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39026999",
+        "text": "Efficacy and safety of azilsartan medoxomil in the treatment of hypertension: a systematic review and meta-analysis. Angiotensin II receptor blockers (ARBs) are utilized for the management of hypertension and diabetes. Previous meta-analyses suggested that azilsartan medoxomil (AZL-M) improved blood pressure (BP) reduction, but there were no safety findings or suggestions for patients with hypertension or diabetes. We performed an efficacy and safety meta-analysis of randomized controlled trials (RCTs) eval",
+        "score": 0.42617082595825195,
+        "doi": "10.3389/fcvm.2024.1383217",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2024",
+        "rerank_score": 5.117946624755859,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

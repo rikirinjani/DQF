@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Ketorolac time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38629225",
+        "text": "The use of ketorolac may reduce opioid exposure in infants less than 6 months of age undergoing congenital heart surgery. Pain management for infants undergoing cardiothoracic surgery primarily utilises opioid analgesics. There is a paucity of data available for the use of non-steroidal anti-inflammatory medications such as ketorolac in this patient population. This retrospective study evaluated patients between 30 days and 6 months undergoing cardiothoracic surgery. The primary endpoint evaluates ketorolac",
+        "score": 0.3871519863605499,
+        "doi": "10.1017/S104795112400091X",
+        "journal": "Cardiology in the young",
+        "year": "2024",
+        "rerank_score": -1.3200078010559082,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.4117037355899811,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.42371666431427,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38633134",
+        "text": "Ketorolac Dosing and Outcomes in Neonates Following Congenital Heart Surgery: A Retrospective Analysis. Pain management is essential for postoperative surgery. Given the association of opioids with adverse outcomes, interest in the use of nonopioid analgesics, such as ketorolac, has increased. Published data on use in neonates are limited. To describe ketorolac dosing and safety and efficacy outcomes in the first 48 hours postcardiac surgery in neonates. We performed a single-center retrospective cohort stu",
+        "score": 0.40973278880119324,
+        "doi": "10.1097/CCE.0000000000001078",
+        "journal": "Critical care explorations",
+        "year": "2024",
+        "rerank_score": -1.6772921085357666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

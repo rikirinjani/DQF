@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Pioglitazone effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40297769",
+        "text": "Reduced Weight Gain with Pioglitazone vs Vildagliptin in  This subgroup analysis of a randomised, open-label, two-period crossover trial in Aotearoa New Zealand (February 2019 to March 2020) assessed whether the glucose-lowering effects of vildagliptin, vs pioglitazone varied by the  Adults with type 2 diabetes and HbA1c > 58 mmol/mol (>7.5%) received either pioglitazone (30 mg) or vildagliptin (50 mg) for 16 weeks, then switched medications for another 16 weeks. Differences in HbA1c between treatments (pio",
+        "score": 0.4055629372596741,
+        "doi": "10.2147/DMSO.S500336",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "year": "2024",
+        "rerank_score": 1.0257982015609741,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41381685",
+        "text": "Efficacy and safety of pioglitazone versus dapagliflozin as an add-on to metformin and alogliptin combination therapy: the EPIDOTE study. We investigated the efficacy and safety of pioglitazone compared to dapagliflozin when added to metformin plus alogliptin for patients with type 2 diabetes. The patients (n = 133) were randomized to receive pioglitazone (n = 65) or dapagliflozin (n = 68) in addition to metformin and alogliptin therapy for 26 weeks. The primary endpoint was a change in HbA1c. The non-infer",
+        "score": 0.451302707195282,
+        "doi": "10.1038/s41598-025-30882-w",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 0.659504771232605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40738164",
+        "text": "Pioglitazone does not adequately control hyperinsulinemia but does increase serum adiponectin concentrations in equids with severe insulin dysregulation. To characterize the effects of pioglitazone (2 mg/kg, PO, either q 24 h [PIO-SID] or q 12 h [PIO-BID]) in equids with severe hyperinsulinemia. 17 client-owned equids with severe resting hyperinsulinemia (> 100 µIU/mL) were assigned to PIO-SID or PIO-BID in a prospective cohort study with rolling enrollment over an 11-month study period (December 13, 2022, ",
+        "score": 0.42221155762672424,
+        "doi": "10.2460/javma.25.04.0269",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2024",
+        "rerank_score": -0.5327417254447937,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Acarbose adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41235387",
+        "text": "When Acarbose Overdose Turns Severe: Managing Hypoglycemia in an Uncommon Scenario. Acarbose is usually safe, but overdose can trigger severe, life-threatening hypoglycemia. In cases of unexplained low blood sugar-particularly in patients with psychiatric illness or access to hypoglycemic drugs-acarbose toxicity should be considered. Rapid intravenous glucose, careful monitoring, and patient education are vital for optimal outcomes.",
+        "score": 0.43763482570648193,
+        "doi": "10.1002/ccr3.71448",
+        "journal": "Clinical case reports",
+        "year": "2025",
+        "rerank_score": 2.169090986251831,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40228628",
+        "text": "The safety profile of fluoroquinolones. While they are very useful agents, fluoroquinolones (FQs) are associated with a number of serious adverse effects (AEs). The objective of this paper is to describe the characteristics of frequent serious AEs related to FQs along with their risk factors, their safety in specific populations, and the main drug-drug interactions that may occur. Serious AEs commonly associated with FQs include tendon disorders (particularly tendinopathy and tendon rupture), CNS toxicity (",
+        "score": 0.44727447628974915,
+        "doi": "10.1016/j.idnow.2025.105064",
+        "journal": "Infectious diseases now",
+        "year": "2025",
+        "rerank_score": -0.9631267189979553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39918872",
+        "text": "Adverse drug event profile of pharmacotherapies for alcohol use disorder: a retrospective pharmacovigilance disproportionality analysis study. Alcohol Use Disorder (AUD) significantly affects global health, leading to physical deterioration and impacting personal and social relationships. This study aims to evaluate the adverse event profiles (AEP) of three USFDA-approved medications for AUD, acamprosate, disulfiram, and naltrexone, using data from the USFDA Adverse Event Reporting System (AERS). Reports re",
+        "score": 0.4377378225326538,
+        "doi": "10.1080/14740338.2025.2464896",
+        "journal": "Expert opinion on drug safety",
+        "year": "2025",
+        "rerank_score": -0.9904031753540039,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

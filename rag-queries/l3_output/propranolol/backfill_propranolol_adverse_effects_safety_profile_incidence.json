@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Propranolol adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40624053",
+        "text": "Cardiovascular safety of propranolol oral solution in infantile hemangiomas: a disproportionality analysis based on the FAERS database. This study aims to explore the potential association between propranolol and cardiovascular adverse events (AEs) through real-world evidence. Reports from the FDA Adverse Event Reporting System (FAERS) database spanning from January 2014 to September 2024, identifying propranolol oral solution as the primary suspected (PS) drug, were analyzed. Disproportionality analysis em",
+        "score": 0.39781656861305237,
+        "doi": "10.1038/s41598-025-07577-3",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 4.036404132843018,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39655516",
+        "text": "A prospective study of acute propranolol overdose defining dose thresholds of severe toxicity (ATOM - 9). Propranolol is a beta-adrenoceptor blocking drug with sodium channel-blocking properties that can cause life-threatening toxicity in overdose. Limited research defines dose thresholds of toxicity. We aimed to investigate propranolol overdose and dose thresholds for severe toxicity. This is a prospective series of patients with acute propranolol overdose ≥360 mg from August 2014 to December 2023 enrolled",
+        "score": 0.3863871991634369,
+        "doi": "10.1080/15563650.2024.2435397",
+        "journal": "Clinical toxicology (Philadelphia, Pa.)",
+        "year": "2025",
+        "rerank_score": 2.090681552886963,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39853384",
+        "text": "Effects of early propranolol administration on mortality from severe, traumatic brain injury: a retrospective propensity score-matched registry study. The role of beta-blockers in severe, traumatic brain injury (TBI) management is debated. Severe TBI may elicit a surge of catecholamines, which has been associated with increased morbidity and mortality. We hypothesize administering propranolol, a non-selective beta-blocker, within 48 h of TBI will reduce patient mortality within 30 days of injury. The TriNet",
+        "score": 0.42160266637802124,
+        "doi": "10.1007/s00068-024-02699-1",
+        "journal": "European journal of trauma and emergency surgery : official publication of the E",
+        "year": "2024",
+        "rerank_score": 1.9608491659164429,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Rosuvastatin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:26271127",
+        "text": "Meta-Analysis Comparing Rosuvastatin and Atorvastatin in Reducing Concentration of C-Reactive Protein in Patients With Hyperlipidemia. We conducted a meta-analysis of 13 randomized trials comparing the efficacy of rosuvastatin versus atorvastatin in reducing concentrations of C-reactive protein (CRP). We searched PubMed, Ovid, and Elsevier databases until June 2014. Search terms included C-reactive protein or CRP, rosuvastatin, atorvastatin, randomized, randomly, and randomization; 13 trials (3798 patients)",
+        "score": 0.36620116233825684,
+        "doi": "10.1177/0003319715599863",
+        "journal": "Angiology",
+        "year": "2015",
+        "rerank_score": 6.016477584838867,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:16143705",
+        "text": "A comparative study with rosuvastatin in subjects with metabolic syndrome: results of the COMETS study. The efficacy and safety of rosuvastatin, atorvastatin, and placebo were compared in patients with the metabolic syndrome.",
+        "score": 0.36409828066825867,
+        "doi": "10.1093/eurheartj/ehi482",
+        "journal": "European heart journal",
+        "year": "2005",
+        "rerank_score": 5.816223621368408,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26780905",
+        "text": "Lipophilic Statin Versus Rosuvastatin (Hydrophilic) Treatment for Heart Failure: a Meta-Analysis and Adjusted Indirect Comparison of Randomised Trials. This study aims to compare lipophilic and hydrophilic statin therapy on clinical outcomes of heart failure (HF) using a systematic review and an adjusted indirect comparison meta-analysis. Outcomes were all-cause mortality, cardiovascular mortality, cardiovascular hospitalization and hospitalization for worsening HF.",
+        "score": 0.36613568663597107,
+        "doi": "10.1007/s10557-015-6636-z",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2016",
+        "rerank_score": 5.385523796081543,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

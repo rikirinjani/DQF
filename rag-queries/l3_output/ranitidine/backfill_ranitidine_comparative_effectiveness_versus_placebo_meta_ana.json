@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Ranitidine comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2202705",
+        "text": "Randomised double blind placebo controlled clinical trial of sucralfate and ranitidine in chronic duodenal ulcer. A double blind, randomised, placebo controlled clinical trial was carried out in endoscopically proved chronic duodenal ulcer patients to compare the efficacy of sucralfate and ranitidine. Sucralfate 1 g four times daily and ranitidine 150 mg twice daily were found to be equally effective in inducing ulcer healing (73.1% and 82.1% respectively) during the 6-week treatment period. The rate of rec",
+        "score": 0.37534579634666443,
+        "doi": "",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "1990",
+        "rerank_score": 4.465563774108887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8175117",
+        "text": "Ranitidine multicenter study on slow-response duodenal ulcer patients. Twenty-six Italian Centers participated in the present study, the aim of which was to compare, in a double blind manner, the effectiveness of ranitidine 150 mg b.i.d. and ranitidine 300 mg b.i.d. in duodenal ulcer patients, who were considered likely to be slow-responders on the basis of clinical and anamnestic criteria. The results of this study show no statistically significant differences in healing rates between the two groups of pat",
+        "score": 0.3752785325050354,
+        "doi": "",
+        "journal": "Hepato-gastroenterology",
+        "year": "1994",
+        "rerank_score": 2.8906490802764893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:7861219",
+        "text": "Prospective double-blind placebo-controlled randomized trial on the use of ranitidine in preventing postoperative gastroduodenal complications in high-risk neurosurgical patients. To determine the efficacy of ranitidine in preventing clinically acute overt gastroduodenal (GD) complications (bleeding and/or perforation) after neurosurgery, 101 patients with nontraumatic cerebral disease considered at high risk of developing postoperative GD complications were randomized in a standard double-blind manner to r",
+        "score": 0.3753412961959839,
+        "doi": "10.3171/jns.1995.82.3.0413",
+        "journal": "Journal of neurosurgery",
+        "year": "1995",
+        "rerank_score": 2.05865216255188,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

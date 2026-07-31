@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Indomethacin randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40345955",
+        "text": "Efficacy of a Digitally Supported Intervention for Children and Adolescents With Difficult-to-control Asthma (INSPIRINGKIDS): Results From a Multicentre Randomized Controlled Trial.",
+        "score": 0.40800464153289795,
+        "doi": "10.1016/j.arbres.2025.04.004",
+        "journal": "Archivos de bronconeumologia",
+        "year": "2024",
+        "rerank_score": -0.4391706585884094,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39702534",
+        "text": "Effectiveness of a multimodal therapy protocol for the management of allergic rhinitis: a randomized controlled trial. This study endeavors to comprehensively assess the efficacy of a multimodal therapy protocol in the management and treatment of allergic rhinitis. This study employed a randomized controlled trial design, enrolling a total of 100 patients, who were randomly assigned to either the experimental group (receiving multimodal therapy) or the control group (receiving standard treatment), with 50 p",
+        "score": 0.4056701064109802,
+        "doi": "10.1186/s40001-024-02210-x",
+        "journal": "European journal of medical research",
+        "year": "2024",
+        "rerank_score": -0.9118622541427612,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39520228",
+        "text": "Pragmatic monitoring of emerging efficacy data in randomized controlled trials. Monitoring the conduct of phase III randomized controlled trials is driven by ethical reasons to protect the study integrity and the safety of trial participants. We propose a group sequential, pragmatic approach for monitoring the accumulating efficacy information in randomized controlled trials. The \"Population Health Research Institute boundary\" is simple to implement and sensible, as it considers the reduction in uncertainty",
+        "score": 0.4035511612892151,
+        "doi": "10.1177/17407745241290729",
+        "journal": "Clinical trials (London, England)",
+        "year": "2025",
+        "rerank_score": -1.1272052526474,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

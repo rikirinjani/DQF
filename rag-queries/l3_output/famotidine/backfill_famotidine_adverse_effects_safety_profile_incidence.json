@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Famotidine adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:1782306",
+        "text": "Famotidine (20 mg) b.d. relieves gastrooesophageal reflux symptoms in patients without erosive oesophagitis. Famotidine/GERD Investigation Group. Previous clinical trials have evaluated a large number of symptomatic individuals with heartburn. Most studies have documented the need for multiple daily dosing with H2-antagonists to achieve clinical and statistical efficacy for symptom relief. The purpose of this study was to compare the safety profile and efficacy of famotidine oral dosing regimens, 40 mg noct",
+        "score": 0.4399555027484894,
+        "doi": "10.1111/j.1365-2036.1991.tb00531.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "1991",
+        "rerank_score": 1.6621235609054565,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18947477",
+        "text": "[Efficacy and safety of famotidine for the treatment of stress ulcers in neonates]. To investigate the efficacy and safety of famotidine treatment for stress ulcers in neonates.",
+        "score": 0.440754771232605,
+        "doi": "",
+        "journal": "Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics",
+        "year": "2008",
+        "rerank_score": 0.3824926018714905,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39327649",
+        "text": "Low-Dose Oral Minoxidil and Associated Adverse Events: Analyses of the FDA Adverse Event Reporting System (FAERS) With a Focus on Pericardial Effusions. Low-dose oral minoxidil (LDOM) is used to treat hair loss, but the literature on its safety profile is relatively sparse. Using the FDA Adverse Event Reporting System (FAERS) database, we determined signals for adverse events (AEs) with LDOM use. Four sets of case/noncase study disproportionality analyses were conducted to determine reporting odds ratio (RO",
+        "score": 0.4535382091999054,
+        "doi": "10.1111/jocd.16574",
+        "journal": "Journal of cosmetic dermatology",
+        "year": "2024",
+        "rerank_score": 0.16067732870578766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

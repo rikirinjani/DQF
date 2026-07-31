@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Glyburide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.5064898729324341,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.419257164001465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38306147",
+        "text": "Benefit of Topical Combination Therapy for Acne: Analyzing Effect Size Using Number Needed to Treat. Topical acne trials often are confounded by high vehicle response rates and differing outcome measures, making it difficult to compare treatments. Number needed to treat (NNT) can be a simple, clinically meaningful way to indirectly compare treatment options without head-to-head data. NNT is the number of patients who need to be treated with an intervention to observe one additional patient successfully achi",
+        "score": 0.5029593110084534,
+        "doi": "10.36849/JDD.7927",
+        "journal": "Journal of drugs in dermatology : JDD",
+        "year": "2024",
+        "rerank_score": 1.9580738544464111,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40687377",
+        "text": "Preclinical pharmacology and safety studies to support an AAV9 NGLY1 gene therapy clinical trial for the treatment of NGLY1 deficiency. GS-100 is an AAV9 gene replacement therapy for the treatment of N-glycanase 1 (NGLY1) deficiency, an ultra-rare, recessive disorder characterized by developmental delay, intellectual disability, hyperkinetic movement disorder, elevated liver enzymes, (hypo)alacrima, and peripheral neuropathy. In pharmacology studies using",
+        "score": 0.5212796330451965,
+        "doi": "10.1016/j.omtm.2025.101524",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2025",
+        "rerank_score": -3.4472014904022217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

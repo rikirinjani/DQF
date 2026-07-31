@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Sitagliptin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24843562",
+        "text": "Estimation of HbA1c response to sitagliptin by change in glycated albumin level for 2 weeks. Aims/Introduction:  Since glycated albumin (GA) reflects shorter-term (about 2 weeks) control of plasma glucose levels compared with HbA1c, GA is thought to be a useful glycemic control indicator for the early period following commencement of the treatment of diabetes. In this study, we attempted to estimate HbA1c using the change in GA level before and after the first 2 weeks (ΔGA2w) of administration of sitaglipti",
+        "score": 0.37883374094963074,
+        "doi": "10.1111/j.2040-1124.2011.00167.x",
+        "journal": "Journal of diabetes investigation",
+        "year": "2014",
+        "rerank_score": 3.322010040283203,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29072800",
+        "text": "Effect of sitagliptin on glucose control in type 2 diabetes mellitus after Roux-en-Y gastric bypass surgery. The present study was a 4-week randomized trial to assess the efficacy and safety of sitagliptin, a dipeptidyl-peptidase-4 inhibitor, in persistent or recurring type 2 diabetes after Roux-en-Y gastric bypass surgery (RYGB). Participants (n = 32) completed a mixed meal test (MMT) and self-monitoring of plasma glucose (SMPG) before and 4 weeks after randomization to either sitagliptin 100 mg daily or p",
+        "score": 0.37889134883880615,
+        "doi": "10.1111/dom.13139",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2017",
+        "rerank_score": -0.26935964822769165,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.4045169949531555,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -1.276484489440918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

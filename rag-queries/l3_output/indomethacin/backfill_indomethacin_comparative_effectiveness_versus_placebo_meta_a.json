@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Indomethacin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:24300220",
+        "text": "A phase 2 study of lower-dose, indomethacin submicron particle capsules demonstrates early onset of acute pain relief. Nonsteroidal anti-inflammatory drugs are efficacious for the treatment of acute and chronic pain; however, they have the potential for serious adverse events (AEs). The objective of this study was to evaluate the efficacy and safety of investigational, lower-dose, indomethacin submicron particle capsules compared with placebo in a study of patients with postsurgical pain.",
+        "score": 0.3741527497768402,
+        "doi": "10.1097/AJP.0000000000000053",
+        "journal": "The Clinical journal of pain",
+        "year": "2013",
+        "rerank_score": 3.98712158203125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41499021",
+        "text": "Rectal Diclofenac Versus Indomethacin in Preventing Post-ERCP Pancreatitis: A Systematic Review and Meta-Analysis. Post-endoscopic retrograde cholangiopancreatography (ERCP) pancreatitis (PEP) affects up to 9% of average-risk and 40% of high-risk patients. Rectal NSAIDs are guideline-recommended for PEP prophylaxis, yet direct evidence comparing different NSAIDs remains scarce. This study systematically evaluates head-to-head evidence to compare the efficacy of rectal diclofenac versus indomethacin in the p",
+        "score": 0.40959203243255615,
+        "doi": "10.1007/s10620-025-09618-3",
+        "journal": "Digestive diseases and sciences",
+        "year": "2025",
+        "rerank_score": 3.7978203296661377,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41057269",
+        "text": "Tramadol versus placebo for chronic pain: a systematic review with meta-analysis and trial sequential analysis. The objective of our study was to assess the benefits and harms of tramadol vs placebo in adults with chronic pain. The research method was a systematic review of randomised clinical trials with meta-analysis. The review followed the Trial Sequential Analysis and the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach. The Cochrane Library, MEDLINE, Embase, Science C",
+        "score": 0.4094812870025635,
+        "doi": "10.1136/bmjebm-2025-114101",
+        "journal": "BMJ evidence-based medicine",
+        "year": "2025",
+        "rerank_score": 1.815714716911316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

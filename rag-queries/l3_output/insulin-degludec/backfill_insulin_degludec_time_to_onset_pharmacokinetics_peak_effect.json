@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Insulin Degludec time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38722461",
+        "text": "The Effect of Various Degrees of Renal or Hepatic Impairment on the Pharmacokinetic Properties of Once-Weekly Insulin Icodec. Icodec is a once-weekly insulin being developed to provide basal insulin coverage in diabetes mellitus. This study evaluated the effects of renal or hepatic impairment on icodec pharmacokinetics. Two open-label, parallel-group, single-dose (1.5 U/kg subcutaneously) trials were conducted. In a renal impairment trial, 58 individuals were allocated to normal renal function (measured glo",
+        "score": 0.3688918948173523,
+        "doi": "10.1007/s40262-024-01375-2",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": -0.0028302185237407684,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39725356",
+        "text": "Insulin Degludec in Critically Ill Patients With Type 2 Diabetes Mellitus: A Prospective Interventional Study. Dysglycemia has deleterious outcomes on critically ill patients with diabetes mellitus (DM). Insulin degludec, an ultralong-acting insulin, is associated with lower rates of hypoglycemia and blood glucose (BG) variability in non-critically ill patients. The experience with insulin degludec in the intensive care units is lacking. This study aimed to assess the effect of insulin degludec on glycemic ",
+        "score": 0.3740774393081665,
+        "doi": "10.1016/j.eprac.2024.12.014",
+        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
+        "year": "2024",
+        "rerank_score": -0.10008206963539124,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37671755",
+        "text": "The Effect of Insulin Degludec Versus Insulin Glargine U100 on Glucose Metrics Recorded During Continuous Glucose Monitoring in People With Type 1 Diabetes and Recurrent Nocturnal Severe Hypoglycemia. Comparing continuous glucose monitoring (CGM)-recorded metrics during treatment with insulin degludec (IDeg) versus insulin glargine U100 (IGlar-100) in people with type 1 diabetes (T1D) and recurrent nocturnal severe hypoglycemia. This is a multicenter, two-year, randomized, crossover trial, including 149 adu",
+        "score": 0.3967226445674896,
+        "doi": "10.1177/19322968231197423",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": -0.44897890090942383,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

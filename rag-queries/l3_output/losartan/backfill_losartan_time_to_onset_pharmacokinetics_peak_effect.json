@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Losartan time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39851122",
+        "text": "Exploring Drug-Drug Interactions between Losartan and Carbamazepine: A Pharmacokinetic and Pharmacodynamic Study. Hypertension, which affects 1.28 billion people globally aged 30 to 79, is characterized by continuously high blood pressure (140/90 or more) and raises the risk of premature death. Losartan, an angiotensin receptor blocker (ARB), is suggested for patients under the age of 55 who cannot take ACE inhibitors as a first treatment option. Epilepsy, a chronic neurological illness marked by repeated s",
+        "score": 0.38362717628479004,
+        "doi": "10.2174/0113892002358068250119052940",
+        "journal": "Current drug metabolism",
+        "year": "2024",
+        "rerank_score": 1.4824515581130981,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38775910",
+        "text": "Pharmacokinetics of a Fixed-Dose Combination Product of Amlodipine, Losartan, Ezetimibe, and Rosuvastatin and Its Comparison with Co-administration of Four Individual Components in Healthy Participants. This study aimed to assess and compare the pharmacokinetics, safety, and tolerability of a fixed-dose combination product (FDCP) comprising four different drugs (two antihypertensive drugs, amlodipine and losartan, and two lipid-lowering agents, ezetimibe and rosuvastatin) with their separate tablets. A tota",
+        "score": 0.3988557755947113,
+        "doi": "10.1007/s40268-024-00460-y",
+        "journal": "Drugs in R&D",
+        "year": "2024",
+        "rerank_score": -1.5199021100997925,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26885213",
+        "text": "Application of back-propagation artificial neural network and curve estimation in pharmacokinetics of losartan in rabbit. In order to develop pharmacokinetic model, a well-known multilayer feed-forward algorithm back-propagation artificial neural networks (BP-ANN) was applied to the pharmacokinetics of losartan in rabbit. The plasma concentrations of losartan in twelve rabbits, which were divided into two groups and given losartan 2 mg/kg by intravenous (Iv) and intragastrical (Ig) administration, were dete",
+        "score": 0.3482130765914917,
+        "doi": "",
+        "journal": "International journal of clinical and experimental medicine",
+        "year": "2015",
+        "rerank_score": -1.5282227993011475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

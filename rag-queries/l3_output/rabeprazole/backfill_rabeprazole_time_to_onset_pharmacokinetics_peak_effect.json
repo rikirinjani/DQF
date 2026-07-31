@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Rabeprazole time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16990197",
+        "text": "Effect of rabeprazole and omeprazole on the onset of gastro-oesophageal reflux disease symptom relief during the first seven days of treatment. Gastro-oesophageal reflux disease (GORD) symptoms have a significant impact on patients' well-being. Onset of symptom relief is therefore an important consideration in GORD treatment. The primary objective was to compare the efficacy of rabeprazole (20 mg) and omeprazole (20 mg) regarding onset of heartburn control during the first 7 days of treatment in patients wi",
+        "score": 0.37275052070617676,
+        "doi": "10.1080/00365520600615781",
+        "journal": "Scandinavian journal of gastroenterology",
+        "year": "2006",
+        "rerank_score": 2.394617795944214,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40077903",
+        "text": "Assessment of Food Effect and pH-Dependent Drug-Drug Interactions of Fruquintinib in Healthy Subjects. This two-sequence, three-period study (NCT04645940) was designed to evaluate the effect of food and concomitant rabeprazole, a proton pump inhibitor, on the pharmacokinetics (PK) and safety of fruquintinib and its metabolite M11 after a single oral dose of fruquintinib 5 mg in healthy subjects. In the food effect treatment periods, 14 subjects were randomized in a 1:1 ratio utilizing a two-sequence (fed/fa",
+        "score": 0.39659687876701355,
+        "doi": "10.1111/cts.70168",
+        "journal": "Clinical and translational science",
+        "year": "2025",
+        "rerank_score": 0.8385143876075745,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39711068",
+        "text": "A Phase 1, Open-Label, Randomized, Two-Part Study in Healthy Adult Volunteers to Evaluate the Bioavailability of the Maribavir Powder for Oral Suspension, as Well as Food Effect and Impact of Rabeprazole. The relative bioavailability and impact of food and the proton pump inhibitor rabeprazole on the pharmacokinetics of a maribavir powder-for-oral-suspension formulation was investigated in a Phase 1 open-label study in healthy adult volunteers. A single 200-mg maribavir dose was administered as the commerci",
+        "score": 0.3830268979072571,
+        "doi": "10.1002/cpdd.1493",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -0.5131568908691406,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

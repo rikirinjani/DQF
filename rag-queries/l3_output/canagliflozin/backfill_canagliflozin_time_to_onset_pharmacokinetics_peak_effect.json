@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Canagliflozin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:27140803",
+        "text": "Effect of canagliflozin on the pharmacokinetics of glyburide, metformin, and simvastatin in healthy participants. Drug-drug interactions between canagliflozin, a sodium glucose co-transporter 2 inhibitor, and glyburide, metformin, and simvastatin were evaluated in three phase-1 studies in healthy participants. In these open-label, fixed sequence studies, participants received: Study 1-glyburide 1.25 mg/day (Day 1), canagliflozin 200 mg/day (Days 4-8), canagliflozin with glyburide (Day 9); Study 2-metformin ",
+        "score": 0.35820502042770386,
+        "doi": "10.1002/cpdd.166",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2014",
+        "rerank_score": 3.394949436187744,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39113254",
+        "text": "Pharmacokinetics and Alterations in Glucose and Insulin Levels After a Single Dose of Canagliflozin in Healthy Icelandic Horses. Canagliflozin (CFZ) is a sodium-glucose cotransporter-2 inhibitor that has shown promising results as a drug for the treatment of insulin dysregulation in horses. Even though CFZ is used clinically, no pharmacokinetic data has previously been published. In this study, the pharmacokinetics of CFZ after administration of a single oral dose of 1.8 mg/kg in eight healthy Icelandic hor",
+        "score": 0.3870081305503845,
+        "doi": "10.1111/jvp.13476",
+        "journal": "Journal of veterinary pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": 1.195368766784668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41313266",
+        "text": "Clinical pharmacokinetics on canagliflozin: a systematic review of  Canagliflozin (CFZ), is a commonly used sodium-glucose cotransporter-2 inhibitor drug for the management of type 2 diabetes mellitus (T2DM). This review comprehensively compiles existing research studies regarding the clinical pharmacokinetic (PK) behavior of canagliflozin, primarily focusing on exploring effects of different disease conditions, potential drug interactions, and genetic polymorphism. A comprehensive review of scholarly liter",
+        "score": 0.3727204203605652,
+        "doi": "10.1080/17512433.2025.2597512",
+        "journal": "Expert review of clinical pharmacology",
+        "year": "2026",
+        "rerank_score": 0.8766149282455444,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

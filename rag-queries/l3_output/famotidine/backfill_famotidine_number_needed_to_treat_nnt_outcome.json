@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Famotidine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12925504",
+        "text": "A closer look at the distribution of number needed to treat (NNT): a Bayesian approach. In this paper, I present a Bayesian approach to estimation of the number needed to treat (NNT). The use of NNT as a measure of clinical benefit is now becoming commonplace. Various methods of estimation have been proposed, but none of them seem to provide entirely good estimates. Very little has been done to understand the statistical properties of NNT. Here, I derive the posterior distribution of NNT and use simulations",
+        "score": 0.4677838087081909,
+        "doi": "10.1093/biostatistics/4.3.365",
+        "journal": "Biostatistics (Oxford, England)",
+        "year": "2003",
+        "rerank_score": 2.025583505630493,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25419989",
+        "text": "A review of the use of the number needed to treat to evaluate the efficacy of analgesics. Standardized measures of efficacy are needed to compare analgesic efficacy across trials. The number needed to treat (NNT) is considered a statistically robust and readily interpretable measure to rank the efficacy of treatments, including analgesics. The NNT has become widely utilized to compare the efficacy of chronic pain treatments, helping physicians make treatment decisions and informing decisions for market acce",
+        "score": 0.46764233708381653,
+        "doi": "10.1016/j.jpain.2014.08.005",
+        "journal": "The journal of pain",
+        "year": "2014",
+        "rerank_score": 2.0250885486602783,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4988640546798706,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.8940529823303223,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

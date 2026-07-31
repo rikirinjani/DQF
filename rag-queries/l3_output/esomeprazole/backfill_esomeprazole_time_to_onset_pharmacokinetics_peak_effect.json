@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Esomeprazole time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39289057",
+        "text": "Pharmacokinetics and Pharmacodynamics of a Fixed-Dose Combination of Esomeprazole and Magnesium Hydroxide Compared to the Enteric-Coated Esomeprazole. A fixed-dose combination (FDC) of proton pump inhibitors (PPIs) and antacid salts enables rapid acid suppression through the neutralizing effect of the antacid salt and the rapid absorption of PPIs. This study aimed to compare the pharmacokinetics (PKs) and pharmacodynamics (PDs) of a recently formulated FDC of esomeprazole and magnesium hydroxide to the ente",
+        "score": 0.4066042900085449,
+        "doi": "10.1016/j.clinthera.2024.08.006",
+        "journal": "Clinical therapeutics",
+        "year": "2024",
+        "rerank_score": -0.17368239164352417,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39703773",
+        "text": "Physiologically based pharmacokinetic modeling to predict the effect of risperidone on aripiprazole pharmacokinetics in subjects with different CYP2D6 genotypes and individuals with hepatic impairment. Aripiprazole and risperidone, widely used atypical antipsychotics, are commonly adjunctively prescribed in clinical practice. When aripiprazole was combined with risperidone, the genotype of drug-metabolizing enzymes and liver impairment may lead to complex pharmacokinetic changes. The Physiologically Based P",
+        "score": 0.4186910390853882,
+        "doi": "10.1177/20420986241303432",
+        "journal": "Therapeutic advances in drug safety",
+        "year": "2024",
+        "rerank_score": -1.4407234191894531,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38488344",
+        "text": "Pediatric Extrapolation Approach for U.S. Food and Drug Administration Approval of Brexpiprazole in Patients Aged 13 to 17 Years with Schizophrenia. A pharmacokinetic (PK) bridging approach was successfully employed to support the dosing regimen and approval of brexpiprazole in pediatric patients aged 13-17 years with schizophrenia. Brexpiprazole was approved in 2015 for the treatment of schizophrenia and the adjunctive treatment of major depressive disorder in adults based on efficacy and safety data from ",
+        "score": 0.4003763794898987,
+        "doi": "10.1002/jcph.2429",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -2.273946762084961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

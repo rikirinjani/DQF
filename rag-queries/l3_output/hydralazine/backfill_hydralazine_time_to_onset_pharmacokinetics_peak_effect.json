@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Hydralazine time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.40817520022392273,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.8733775615692139,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38563808",
+        "text": "Pharmacokinetics and multi-peak phenomenon analysis of novel anti-Parkinson's drug FLZ after multi-dose in cynomolgus monkeys. The novel anti-Parkinson disease drug, FLZ, had a complicated drug absorption and metabolise process reported in single-dose studies. A multi-peak absorption peak phenomenon was found.This study focused on the multi-dose pharmacokinetics (PK) characteristics of FLZ, T1, and T2 in cynomolgus monkeys and raised discussion on its multi-peak absorption situation. Different doses of FLZ ",
+        "score": 0.4111999273300171,
+        "doi": "10.1080/00498254.2024.2326475",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.8014113903045654,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38830622",
+        "text": "A drug-drug interaction study and physiologically based pharmacokinetic modelling to assess the effect of an oral 5-lipoxygenase activating protein inhibitor on the pharmacokinetics of oral midazolam. Early clinical studies have indicated that the pharmacokinetics of Atuliflapon (AZD5718) are time and dose dependent. The reason(s) for these findings is(are) not fully understood, but pre-clinical profiling suggests that time-dependent CYP3A4 inhibition cannot be excluded. In clinical practice, Atuliflapon wi",
+        "score": 0.4191281795501709,
+        "doi": "10.1111/bcp.16131",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -4.499383449554443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

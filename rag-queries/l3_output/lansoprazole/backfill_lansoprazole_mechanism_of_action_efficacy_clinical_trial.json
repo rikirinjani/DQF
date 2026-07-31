@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Lansoprazole mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39836012",
+        "text": "A Randomized, Comparative Trial of a Potassium-Competitive Acid Blocker (X842) and Lansoprazole for the Treatment of Patients With Erosive Esophagitis. X842 is a new type of gastric acid-suppressing agent with a rapid onset of action and a long duration of effect. We aim to investigate the efficacy and safety of different doses of X842 vs lansoprazole in the treatment of patients with erosive esophagitis (EE). This phase 2 study included 90 patients with EE (Los Angeles grades A-D) who were randomized (1:1:",
+        "score": 0.4127267897129059,
+        "doi": "10.14309/ctg.0000000000000803",
+        "journal": "Clinical and translational gastroenterology",
+        "year": "2024",
+        "rerank_score": 4.8609113693237305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19267194",
+        "text": "Long-term efficacy of lansoprazole in preventing relapse of erosive reflux esophagitis. In a phase III study of lansoprazole treatment, patients with healed or unhealed erosive esophagitis entered a titrated open-label treatment period and received lansoprazole for <or=6 years to assess long-term maintenance therapy. Doses were adjusted depending on symptom response. Endoscopy was performed yearly. One hundred ninety-five subjects received lansoprazole for <1 to 72 months; most received daily doses of <or=3",
+        "score": 0.37655723094940186,
+        "doi": "10.1007/s10620-009-0769-5",
+        "journal": "Digestive diseases and sciences",
+        "year": "2008",
+        "rerank_score": 3.3209404945373535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39671131",
+        "text": "Association Between Clinical Use of Lansoprazole and the Risk of Coronary Heart Disease: A Nationwide Pharmacoepidemiological Cohort Study. Proton pump inhibitors (PPIs) are widely prescribed for gastrointestinal disorders. Lansoprazole, a PPI, has been recognized for its potential effects of improving insulin resistance, reduction of oxidative stress, and improvement in atherosclerosis through peroxisome proliferator-activated receptor gamma (PPARγ) induction. This study aims to investigate whether lansopr",
+        "score": 0.40725862979888916,
+        "doi": "10.1007/s10557-024-07643-4",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2024",
+        "rerank_score": 3.176281213760376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

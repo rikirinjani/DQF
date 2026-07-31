@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Verapamil number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40979769",
+        "text": "Understanding number needed to treat (NNT): A practical guide for anaesthesia and critical care clinicians.",
+        "score": 0.4589582085609436,
+        "doi": "10.4103/ija.ija_1000_25",
+        "journal": "Indian journal of anaesthesia",
+        "year": "2025",
+        "rerank_score": 1.5339875221252441,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38860154",
+        "text": "Safety and prescribing recommendations for verapamil in newly diagnosed pediatric type 1 diabetes (T1D): The CLVer experience. To report the safety and side effects associated with taking verapamil for beta-cell preservation in children with newly-diagnosed T1D. Eighty-eight participants aged 8.5 to 17.9 years weighing ≥ 30 kg were randomly assigned to verapamil (N = 47) or placebo (N = 41) within 31 days of T1D diagnosis and followed for 12 months from diagnosis, main CLVer study. Drug dosing was weight-ba",
+        "score": 0.4895597994327545,
+        "doi": "10.1016/j.jcte.2024.100352",
+        "journal": "Journal of clinical & translational endocrinology",
+        "year": "2024",
+        "rerank_score": 1.343098521232605,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39558612",
+        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
+        "score": 0.4922395646572113,
+        "doi": "10.1177/03331024241299377",
+        "journal": "Cephalalgia : an international journal of headache",
+        "year": "2024",
+        "rerank_score": 0.6303809881210327,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

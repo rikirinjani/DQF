@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Calcium Carbonate adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41012451",
+        "text": "Neurotoxicological Evaluation of Intrathecal Citrate Excipients: Calcium Homeostasis Disruption and Safety Implications in CNS Drug Delivery.",
+        "score": 0.4720628261566162,
+        "doi": "10.3390/pharmaceutics17091112",
+        "journal": "Pharmaceutics",
+        "year": "2025",
+        "rerank_score": -3.296300172805786,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39259400",
+        "text": "Calcium chloride poisoning: an autopsy case report and histologic features. Calcium chloride, which is commonly used in de-icing agents and desiccants, is known for the potential harm it can cause through skin contact, oral ingestion, or intravenous administration. The current paper reports on an autopsy case of a 68-year-old woman who died after ingesting an unknown substance. Histopathological examination revealed coagulative necrosis in the esophagus and ionized blood calcium levels that were significant",
+        "score": 0.45215651392936707,
+        "doi": "10.1007/s12024-024-00891-8",
+        "journal": "Forensic science, medicine, and pathology",
+        "year": "2024",
+        "rerank_score": -3.554292917251587,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40206927",
+        "text": "Successful Use of Calcium Chloride in Acute Calcium Channel Blocker Overdose With Shock: A Case Report. Calcium channel blockers (CCBs) are widely used to treat hypertension and tachyarrhythmias. However, an overdose can lead to severe toxicity, resulting in bradycardia, hypotension, and shock. Standard treatments, including calcium gluconate and catecholamines, may be ineffective in severe cases. This study reports a 60-year-old female with hypotensive shock following an intentional overdose of amlodipine.",
+        "score": 0.47057244181632996,
+        "doi": "10.7759/cureus.80320",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -3.619152545928955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

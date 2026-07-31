@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Simvastatin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.4158557057380676,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.1631622314453125,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26542887",
+        "text": "Intravenous Administration of Simvastatin Improves Cognitive Outcome following Severe Traumatic Brain Injury in Rats. Simvastatin is a 3-hydroxy-3-methylglutaryl coenzyme A reductase inhibitor commonly used to reduce serum cholesterol. The beneficial effects of oral simvastatin have been reported in pre-clinical models of traumatic brain injury (TBI). The current study was designed to evaluate the potential beneficial effects of simvastatin in a model of severe penetrating TBI using an intravenous (IV) rout",
+        "score": 0.40772613883018494,
+        "doi": "10.1089/neu.2015.4139",
+        "journal": "Journal of neurotrauma",
+        "year": "2015",
+        "rerank_score": 1.2459344863891602,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:14759379",
+        "text": "Safety and tolerability of simvastatin plus niacin in patients with coronary artery disease and low high-density lipoprotein cholesterol (The HDL Atherosclerosis Treatment Study). The high-density lipoprotein (HDL)-Atherosclerosis Treatment Study showed that simvastatin plus niacin (mean daily dose 13 mg and 2.4 g, respectively) halt angiographic atherosclerosis progression and reduce major clinical events by 60% in patients with coronary artery disease (CAD) who have low HDL, in comparison with placebos, o",
+        "score": 0.40737032890319824,
+        "doi": "10.1016/j.amjcard.2003.10.009",
+        "journal": "The American journal of cardiology",
+        "year": "2003",
+        "rerank_score": 0.8426195979118347,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

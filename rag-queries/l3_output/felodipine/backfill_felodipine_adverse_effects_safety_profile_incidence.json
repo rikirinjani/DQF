@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Felodipine adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40395720",
+        "text": "Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. Amlodipine, a widely prescribed clinical medication, is associated with adverse reactions that can impede the proper execution of treatment regimens. The lack of systematic studies on amlodipine's adverse drug reactions (ADRs) necessitates further investigation to facilitate refined population management and optimize therapeutic outcomes. This study leveraged the FDA Adverse Event Reporting Sys",
+        "score": 0.45634832978248596,
+        "doi": "10.3389/fcvm.2025.1504671",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2024",
+        "rerank_score": 2.078368663787842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40656772",
+        "text": "Correction: Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. [This corrects the article DOI: 10.3389/fcvm.2025.1504671.].",
+        "score": 0.4415363669395447,
+        "doi": "10.3389/fcvm.2025.1636315",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2025",
+        "rerank_score": 0.7685774564743042,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2285628",
+        "text": "Twenty-four hour profile of the hypotensive action of felodipine in essential hypertension. Felodipine, 10 mg twice daily, and placebo were administered for 5 weeks to ten untreated essential hypertensives in a double-blind, random-order, crossover study. At the end of each phase patients were assessed by 36 hours of continuous intraarterial blood pressure recordings, both during normal activities and specified activities. Patients were also assessed by 36-hour Holter analysis, maximal exercise testing, rad",
+        "score": 0.43530988693237305,
+        "doi": "10.1007/BF01857751",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "1990",
+        "rerank_score": 0.5214611291885376,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

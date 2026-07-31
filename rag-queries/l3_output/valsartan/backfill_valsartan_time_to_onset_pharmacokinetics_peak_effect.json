@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Valsartan time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:6766956",
+        "text": "Bioavailability of valproic acid under fasting/nonfasting regimens. Valporic acid absorption was faster from a syrup than from a capsule form. Peak serum levels occurred with an hour with the syrup formulation. The drug was absorbed more rapidly when administered fasting and immediately before meal compared with immediately after meal. The extent of absorption from each formulation and for each meal regimen was similar. Pharmacokinetic evaluation of the data indicate a serum half-life of 12 hours.",
+        "score": 0.3602284789085388,
+        "doi": "10.1002/j.1552-4604.1980.tb01663.x",
+        "journal": "Journal of clinical pharmacology",
+        "year": "1980",
+        "rerank_score": 1.2189006805419922,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41390557",
+        "text": "Pharmacokinetic and bioequivalence of two formulations of Valsartan/Amlodipine Tablet(I) in healthy Chinese volunteers: A randomized, three-period, partially replicated crossover study. Valsartan/amlodipine combination tablets can exert synergistic antihypertensive effects through different mechanisms, significantly lowering blood pressure while also addressing multiple risk factors and comorbidities in patients. This study designed a single-center, randomized, open-label, two-formulations, single-dose, thr",
+        "score": 0.3600766658782959,
+        "doi": "10.1038/s41598-025-32576-9",
+        "journal": "Scientific reports",
+        "year": "2025",
+        "rerank_score": 1.0621271133422852,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41294064",
+        "text": "Results of Two Studies of Pharmacokinetics, Safety, and Bioequivalence of Russian Generic Valsartan / Sacubitril Compared to the Original Valsartan / Sacubitril in Healthy Volunteers. Aim    To study the pharmacokinetics and safety and to prove the bioequivalence of Akrivario* (valsartan + sacubitril) film-coated tablets, at two dosages, 200 mg and 100 mg, compared to Uperio** (valsartan + sacubitril) film-coated tablets, at similar dosages, 200 mg and 100 mg (Studies 1 and 2, respectively), after oral admi",
+        "score": 0.40184852480888367,
+        "doi": "10.18087/cardio.2025.10.n3032",
+        "journal": "Kardiologiia",
+        "year": "2025",
+        "rerank_score": -1.4570090770721436,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

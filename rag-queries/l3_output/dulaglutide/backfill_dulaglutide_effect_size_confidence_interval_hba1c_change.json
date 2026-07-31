@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Dulaglutide effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39179734",
+        "text": "The effect of dulaglutide on glycated hemoglobin is associated with PNPLA3 Ι148Μ gene polymorphism in patients with type 2 diabetes mellitus. The evaluation of the effect of dulaglutide on glycated hemoglobin (HbA1c) and non-invasive indices of hepatic steatosis among different genotypes of the PNPLA3 I148M (rs738409) and CETP Taq1B (rs708272) polymorphisms in patients with type 2 diabetes mellitus (T2DM) and non-alcoholic fatty liver disease (NAFLD). Relevant data from patients with inadequately controlled",
+        "score": 0.38905441761016846,
+        "doi": "10.1007/s12020-024-04007-8",
+        "journal": "Endocrine",
+        "year": "2024",
+        "rerank_score": 2.8276865482330322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39462543",
+        "text": "Effect of switching from dulaglutide to tirzepatide on blood glucose and renal function. The case reports a woman in her 70s, with type 2 diabetes and chronic kidney disease in G4 stage. The patient had elevated HbA1c, and she was switched from linagliptin, a dipeptidyl peptidase 4 inhibitor, to dulaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1RA). Thereafter, the HbA1c level decreased; however, since the dulaglutide supply became a problem, the patient was switched to tirzepatide, a glucose-de",
+        "score": 0.40026259422302246,
+        "doi": "10.5582/ddt.2024.01061",
+        "journal": "Drug discoveries & therapeutics",
+        "year": "2024",
+        "rerank_score": 2.0791053771972656,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38407177",
+        "text": "Model-based simulation of glycaemic effect and body weight loss when switching from semaglutide or dulaglutide to once weekly tirzepatide. To evaluate the efficacy endpoints of HbA1c and body weight loss after switching from the GLP-1 receptor agonists, semaglutide or dulaglutide, to treatment with the GIP/GLP-1 receptor agonist (RA) tirzepatide. Models were developed and validated to describe the HbA1c and weight loss time course for semaglutide (SUSTAIN 1-10), dulaglutide (AWARD-11) and tirzepatide (SURPA",
+        "score": 0.3678096532821655,
+        "doi": "10.1080/03007995.2024.2322072",
+        "journal": "Current medical research and opinion",
+        "year": "2024",
+        "rerank_score": 1.1818665266036987,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

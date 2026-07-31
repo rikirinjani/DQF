@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Losartan mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40542713",
+        "text": "Efficacy of losartan plus modified FOLFIRINOX versus modified FOLFIRINOX in advanced pancreatic cancers: A randomized clinical trial (AFPAC Study). The addition of angiotensin receptor blockers like losartan (L) has been shown to improve outcomes in small prospective studies of pancreatic ductal adenocarcinomas (PDAC). Patients diagnosed with treatment-naive locally advanced/metastatic PDAC with Eastern Cooperative Oncology Group performance status 0-1 and adequate end- organ function were randomly assigned",
+        "score": 0.3726035952568054,
+        "doi": "10.1002/cncr.35945",
+        "journal": "Cancer",
+        "year": "2025",
+        "rerank_score": 5.115889072418213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40644464",
+        "text": "Losartan as a mechanotherapeutic adjuvant: Remodeling the breast tumor microenvironment to improve treatment efficacy. Tumor stiffness is a critical factor influencing cancer progression, therapeutic resistance, and drug delivery. This study investigates the role of mechanical normalization in breast cancer therapy through the anti-fibrotic action of losartan, an angiotensin II type 1 receptor blocker. We developed a comprehensive multiphysics model integrating tumor cell proliferation, oxygen transport, in",
+        "score": 0.34729278087615967,
+        "doi": "10.1371/journal.pone.0328196",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": 4.1797990798950195,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39826357",
+        "text": "Insights from animal studies exploring the efficacy and safety of topical losartan, in prophylaxis and treatment of corneal scarring fibrosis. Several studies in rabbits demonstrated the efficacy and safety of topical losartan, an angiotensin II receptor blockers (ARB) that modulates the TGF-β intracellular signaling pathways by inhibiting the activation of Extracellular Signal-regulated Kinase (ERK), in preventing or treating stromal fibrosis after a range of injuries such as Descemetorhexis, alkali burns,",
+        "score": 0.38211458921432495,
+        "doi": "10.1016/j.biopha.2025.117857",
+        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+        "year": "2024",
+        "rerank_score": 3.7186694145202637,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

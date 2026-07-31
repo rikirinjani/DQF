@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Repaglinide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41048193",
+        "text": "Efficacy and safety of once-weekly basal insulin therapy in people with type 1 diabetes: A systematic review and meta-analysis. Once-weekly basal insulins may offer similar or superior HbA1c reduction compared to once-daily analogues in people with type 1 or type 2 diabetes. However, concerns about hypoglycaemia persist in individuals on multiple daily injections. This meta-analysis (PROSPERO CRD42024606874) aimed to evaluate the efficacy and safety of once-weekly basal insulin therapy in type 1 diabetes. A",
+        "score": 0.4270108938217163,
+        "doi": "10.1111/dom.70176",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 4.428592205047607,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40665896",
+        "text": "From In Vitro Efficacy to Long-Term HbA1c Response for GLP-1R/GlucagonR Agonism Using the 4GI-HbA1c Systems Model. For the treatment of Type 2 Diabetes, high efficacy approaches such as Glucagon-like peptide 1 (GLP-1)-based therapies are recommended for glucose control. Prediction of the clinical outcome of these therapies on glucose and hemoglobin A1c (HbA1c), using early available pharmacokinetic and in vitro efficacy information, can be a valuable tool for compound selection and supporting drug developme",
+        "score": 0.38853585720062256,
+        "doi": "10.1002/psp4.70074",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 3.845864772796631,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41566094",
+        "text": "Comparative Effectiveness of Current Glucose-lowering Medications in Type 2 Diabetes Mellitus: Emulation of a Modified GRADE Trial. The GRADE (Glycemia Reduction Approaches in Diabetes: A Comparative Effectiveness Study) trial assessed the effectiveness of four glucose-lowering medication classes in reducing hemoglobin A1c (HbA1c) in individuals with type 2 diabetes mellitus (T2DM) on metformin monotherapy but did not include sodium-glucose cotransporter-2 inhibitors (SGLT-2is). To replicate and extend GRAD",
+        "score": 0.4215954840183258,
+        "doi": "10.1007/s11606-026-10170-7",
+        "journal": "Journal of general internal medicine",
+        "year": "2025",
+        "rerank_score": 3.212665319442749,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

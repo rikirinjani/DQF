@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Diclofenac mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39788129",
+        "text": "Diclofenac Enhances the Response of BRAF Inhibitor to Melanoma Through ROS/p38/p53 Signaling. BRAF inhibitors (BRAFi) represent a cornerstone in melanoma therapy due to their high efficacy. However, the emergence of resistance causes a significant challenge to their clinical utility. This study aims to investigate the potential of diclofenac as a sensitizer for BRAFi therapy in melanoma and to elucidate its underlying mechanism. BRAFi-acquired resistant melanoma cell lines SK-MEL-5R and A375R were establish",
+        "score": 0.4309960603713989,
+        "doi": "10.1111/1440-1681.70022",
+        "journal": "Clinical and experimental pharmacology & physiology",
+        "year": "2024",
+        "rerank_score": 4.013171672821045,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39606177",
+        "text": "Combination Low-Dose Pilocarpine/Diclofenac Sodium and Pilocarpine Alone for Presbyopia: Results of a Randomized Phase 2b Clinical Trial. To evaluate the efficacy of 0.2% and 0.4% pilocarpine HCl (CSF-1) for the treatment of presbyopia and to determine the contributions of pilocarpine HCl and diclofenac sodium on the efficacy of fixed-dose combination (FDC) formulations. This was a Phase 2b, multicenter, randomized, double-masked, parallel-group clinical trial. Adults (45-64 years) with presbyopia were rand",
+        "score": 0.4231494069099426,
+        "doi": "10.2147/OPTH.S476658",
+        "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+        "year": "2024",
+        "rerank_score": 3.7794148921966553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41464730",
+        "text": "A Double-Blind Randomized Active-Controlled Trial Evaluating the Short-Term Efficacy of a Single Intramuscular Injection of a Fixed-Dose Combination Product Containing Diclofenac and Thiocolchicoside in Patients with Acute Moderate to Severe Low Back Pain.",
+        "score": 0.43031930923461914,
+        "doi": "10.3390/jcm14248827",
+        "journal": "Journal of clinical medicine",
+        "year": "2025",
+        "rerank_score": 3.738471031188965,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

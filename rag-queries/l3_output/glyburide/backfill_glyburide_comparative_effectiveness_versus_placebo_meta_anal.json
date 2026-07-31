@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Glyburide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.4035097360610962,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 4.103625774383545,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3152586",
+        "text": "Multicenter comparison of glyburide and glipizide in the treatment of non-insulin-dependent diabetes mellitus. A multicenter, randomized, open-label comparison of glyburide and glipizide was made in 109 patients with non-insulin-dependent diabetes mellitus whose fasting plasma glucose levels had been maintained at less than or equal to 140 mg/dl by tolbutamide, chlorpropamide, or glyburide. After an initial evaluation, patients entered a dose-adjustment phase to establish the optimal daily dose of the assig",
+        "score": 0.38640713691711426,
+        "doi": "",
+        "journal": "Clinical therapeutics",
+        "year": "1988",
+        "rerank_score": 0.8915233016014099,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35864262",
+        "text": "Comparative effectiveness and safety of glargine 300 U/mL versus degludec 100 U/mL in insulin-naïve patients with type 2 diabetes. A multicenter retrospective real-world study (RESTORE-2 NAIVE STUDY). This study assessed comparative effectiveness of glargine 300 U/mL (Gla-300) versus degludec 100 U/mL (Deg-100) in insulin-naïve patients with T2D.",
+        "score": 0.3853895366191864,
+        "doi": "10.1007/s00592-022-01925-9",
+        "journal": "Acta diabetologica",
+        "year": "2022",
+        "rerank_score": 0.8273928165435791,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

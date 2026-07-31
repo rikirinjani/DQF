@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Clonidine mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39258554",
+        "text": "Efficacy of Clonidine Adhesive Patch for Patients With Tourette Syndrome: A Randomized, Double-blind, Placebo-Controlled, Multicenter Clinical Trial. This study aimed to explore the efficacy of the clonidine adhesive patch for participants with Tourette syndrome (TS). This randomized, double-blind, placebo-controlled, multicenter phase IV clinical trial included participants with TS at 20 centers between May 2012 and March 2015. Treatment efficacy at week 8 was the primary outcome. The Clinical Global Impre",
+        "score": 0.4364721179008484,
+        "doi": "10.1097/WNF.0000000000000605",
+        "journal": "Clinical neuropharmacology",
+        "year": "2024",
+        "rerank_score": 5.198786735534668,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40376793",
+        "text": "Exploring the potential benefits of clonidine for anxiety disorders. Anxiety disorders, characterized by excessive fear and behavioral disturbances, are among the most prevalent psychiatric conditions, yet treatment options remain suboptimal for many patients. Clonidine, an alpha-2 adrenergic receptor agonist, has shown potential anxiolytic effects and may address treatment-resistant cases. This review explores the efficacy, safety, and mechanism of clonidine as a pharmacological option for anxiety disorder",
+        "score": 0.42244213819503784,
+        "doi": "10.1017/S1092852925100266",
+        "journal": "CNS spectrums",
+        "year": "2025",
+        "rerank_score": 1.8706367015838623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40331364",
+        "text": "Intraoperative Clonidine in Spine Surgery: A Randomised Controlled Trial. Patients undergoing spine surgery often experience post-operative pain. In this context, clonidine, an alpha-2 agonist, may be relevant due to its analgesic properties. We conducted a randomised, double-blinded, placebo-controlled trial to evaluate the effect of a single dose of intraoperative intravenous clonidine on post-operative opioid consumption, pain intensity and side effects. Patients undergoing spine surgery at Aarhus Univer",
+        "score": 0.41167402267456055,
+        "doi": "10.1111/aas.70048",
+        "journal": "Acta anaesthesiologica Scandinavica",
+        "year": "2025",
+        "rerank_score": 1.508315086364746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

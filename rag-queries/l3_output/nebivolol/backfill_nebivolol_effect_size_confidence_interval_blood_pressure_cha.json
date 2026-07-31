@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Nebivolol effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39467996",
+        "text": "Effect of nebivolol monotherapy or combination therapy on blood pressure levels in patients with hypertension: an updated systematic review and multilevel meta-analysis of 91 randomized controlled trials. To systematically appraise and summarize the available evidence from published randomized controlled trials considering the effect of nebivolol on blood pressure in patients with hypertension. Literature search was performed through Medline (via PubMed), Cochrane Library and Scopus until December 15, 2023.",
+        "score": 0.3610152304172516,
+        "doi": "10.1007/s40292-024-00687-5",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
+        "year": "2024",
+        "rerank_score": 1.184482216835022,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30063644",
+        "text": "The effects of nebivolol and irbesartan on postdialysis and ambulatory blood pressure in patients with intradialytic hypertension: a randomized cross-over study. Intradialytic hypertension is estimated at 5-15% of hemodialysis patients and is associated with poor prognosis. Studies on therapeutic interventions for this entity are extremely few. We aimed to evaluate the effects of nebivolol and irbesartan on peridialytic, intradialytic, and ambulatory BP in patients with intradialytic hypertension.",
+        "score": 0.3527384400367737,
+        "doi": "10.1097/HJH.0000000000001891",
+        "journal": "Journal of hypertension",
+        "year": "2018",
+        "rerank_score": 0.6363936066627502,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40490940",
+        "text": "Differential Effects of Antihypertensive Drugs on Central Blood Pressure: A Randomized Comparison between Nebivolol and Telmisartan. Central blood pressure (CBP) is a better predictor of cardiovascular outcomes than peripheral blood pressure. First- and second-generation beta-blockers have poor CBP-lowering effects. However, nebivolol, a third-generation beta-blocker with vasodilatory effects, may be beneficial in lowering CBP. This study compared the CBP-lowering efficacies of nebivolol and telmisartan ove",
+        "score": 0.42119696736335754,
+        "doi": "10.1093/ajh/hpaf098",
+        "journal": "American journal of hypertension",
+        "year": "2024",
+        "rerank_score": -0.010945001617074013,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

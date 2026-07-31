@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Metoprolol randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18429761",
+        "text": "[Controlled release metoprolol succinate in MERIT-HF. Analysis of patients subgroups]. Results of the investigation of metoprolol CR/XL which was conducted in large randomized controlled study MERIT-HF in patients with chronic heart failure (CHF) are presented. In the whole trial this beta1-selective blocker lowered mortality of patients with CHF. Analysis of results in subgroups shows that metoprolol CR/XL was equally effective in middle aged and old patients, in men and women.",
+        "score": 0.40133675932884216,
+        "doi": "",
+        "journal": "Kardiologiia",
+        "year": "2008",
+        "rerank_score": 5.135060787200928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12914886",
+        "text": "Metoprolol CR/XL in black patients with heart failure (from the Metoprolol CR/XL randomized intervention trial in chronic heart failure). A subgroup analysis was performed in black patients who participated in the Metoprolol CR/XL Randomized Intervention trial in Congestive Heart Failure trial. Results suggest a beneficial effect of beta blockade and support the use of beta blockers in black patients with clinically stable heart failure and left ventricular dysfunction.",
+        "score": 0.4041389524936676,
+        "doi": "10.1016/s0002-9149(03)00674-x",
+        "journal": "The American journal of cardiology",
+        "year": "2003",
+        "rerank_score": 3.2795021533966064,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8877080",
+        "text": "Quality of life on treatment with metoprolol in dilated cardiomyopathy: results from the MDC trial. Metoprolol in Dilated Cardiomyopathy trial. Quality of life in heart failure patients is receiving increased attention as a reflection of a treatment's potential secondary benefit of general well-being and daily functioning. The Metoprolol in Dilated Cardiomyopathy (MDC) trial was conducted as a large, multicenter trial to establish the effects of metoprolol on mortality and need for heart transplantation in ",
+        "score": 0.4015468955039978,
+        "doi": "10.1007/BF02627961",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "1996",
+        "rerank_score": 1.7721335887908936,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

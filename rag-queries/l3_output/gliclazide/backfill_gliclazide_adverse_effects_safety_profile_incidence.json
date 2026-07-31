@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Gliclazide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39650163",
+        "text": "Adverse event profile of lorazepam: a real-world pharmacovigilance study using the FDA adverse event reporting system database. Anxiety diagnoses have surged recently during and after the COVID-19 pandemic. Lorazepam is widely recognized for its efficacy in treatment of anxiety, as well as insomnia, etc. However, the long-term safety profile of lorazepam in extensive patient populations has not been thoroughly established. This study aims to evaluate the potential lorazepam-associated adverse events (AEs) u",
+        "score": 0.42920732498168945,
+        "doi": "10.3389/fphar.2024.1465245",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -0.5339739918708801,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41531800",
+        "text": "Adverse Events Associated with Tirzepatide: Updated Pharmacovigilance Analysis Using FAERS (2022 Q1-2025 Q1) with an Adapted Time-to-Onset Method. Tirzepatide, the first dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist with rapidly expanding clinical use, requires detailed post-marketing pharmacovigilance to monitor emerging safety signals. This study aims to identify and characterize specific adverse events (AEs) associated with tirzepatide utiliz",
+        "score": 0.42496347427368164,
+        "doi": "10.2147/DHPS.S556918",
+        "journal": "Drug, healthcare and patient safety",
+        "year": "2025",
+        "rerank_score": -1.1292545795440674,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39504320",
+        "text": "Serious adverse events reported with benzimidazole derivatives: A disproportionality analysis from the World Health Organization's pharmacovigilance database. Benzimidazole derivatives are widely used anthelmintic drugs, particularly in mass campaigns for intestinal parasitosis treatment. Despite their generally good safety profile, serious adverse reactions have been reported. This study aims to identify potential pharmacovigilance signals for benzimidazole derivatives using disproportionality analysis in ",
+        "score": 0.4266541004180908,
+        "doi": "10.1371/journal.pntd.0012634",
+        "journal": "PLoS neglected tropical diseases",
+        "year": "2024",
+        "rerank_score": -1.3298293352127075,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

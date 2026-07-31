@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Ketorolac mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2292174",
+        "text": "Ketorolac, an injectable nonnarcotic analgesic. Clinical studies of the injectable nonsteroidal anti-inflammatory agent (NSAIA) ketorolac tromethamine are reviewed, and the chemistry, pharmacology, pharmacokinetics, drug interactions, and adverse effects of ketorolac are described. Ketorolac exhibits anti-inflammatory, analgesic, and antipyretic activity. Although the exact mechanisms of action have not been determined, its effects appear to be associated principally with the inhibition of prostaglandin syn",
+        "score": 0.3931519687175751,
+        "doi": "",
+        "journal": "Clinical pharmacy",
+        "year": "1990",
+        "rerank_score": 4.769367694854736,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39963539",
+        "text": "Effectiveness of Intraoperative Ketorolac in Outpatient Breast Surgery: A Double-blinded Prospective Randomized Controlled Trial. The use of nonnarcotic analgesics, such as ketorolac, has been shown to reduce postoperative pain and opioid consumption. This double-blinded randomized trial is designed to assess the efficacy of intraoperative ketorolac in reducing postoperative narcotic use in outpatient breast reconstruction and reduction procedures. This study is a prospective double-blinded randomized contr",
+        "score": 0.3980739712715149,
+        "doi": "10.1097/GOX.0000000000006540",
+        "journal": "Plastic and reconstructive surgery. Global open",
+        "year": "2024",
+        "rerank_score": 4.68922233581543,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40255229",
+        "text": "Effect of a Single Preventive Intravenous Dose of Ketorolac and Paracetamol on Reducing Postoperative Pain in Septorhinoplasty Patients: Double-Blind Randomized Clinical Trial. Effective pain management is crucial in septorhinoplasty and remains a significant challenge. This study investigated the effect of ketorolac and paracetamol on pain control in septorhinoplasty patients and assessed their efficacy in reducing the need for rescue analgesics. This double-blind randomized clinical trial was conducted at",
+        "score": 0.4006161093711853,
+        "doi": "10.30476/ijms.2024.102131.3488",
+        "journal": "Iranian journal of medical sciences",
+        "year": "2024",
+        "rerank_score": 4.201925754547119,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

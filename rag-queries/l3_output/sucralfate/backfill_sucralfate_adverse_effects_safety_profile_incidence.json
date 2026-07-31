@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Sucralfate adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38880003",
+        "text": "A pharmacovigilance study of FDA adverse events for sugammadex. Sugammadex, a selective steroidal neuromuscular blocking agent reversal agent, is increasingly employed for the rapid restoration of neuromuscular function. This study aimed to conduct a comprehensive evaluation of sugammadex's safety profile. Adverse events (AEs) related to sugammadex reported in the FDA Adverse Event Reporting System (FAERS) database from January 2009 to September 2023 were extracted. Disproportionality analysis with four mea",
+        "score": 0.46764427423477173,
+        "doi": "10.1016/j.jclinane.2024.111509",
+        "journal": "Journal of clinical anesthesia",
+        "year": "2024",
+        "rerank_score": 1.9171751737594604,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2360833",
+        "text": "Sucralfate significantly reduces ciprofloxacin concentrations in serum. The effect of sucralfate on the bioavailability of ciprofloxacin was evaluated in eight healthy subjects utilizing a randomized, crossover design. The area under the concentration-time curve from 0 to 12 h was reduced from 8.8 to 1.1 micrograms.h/ml by sucralfate (P less than 0.005). Similarly, the maximum concentration of ciprofloxacin in serum was reduced from 2.0 to 0.2 micrograms/ml (P less than 0.005). We conclude that concurrent i",
+        "score": 0.43720388412475586,
+        "doi": "10.1128/AAC.34.5.931",
+        "journal": "Antimicrobial agents and chemotherapy",
+        "year": "1990",
+        "rerank_score": 1.393464207649231,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39921836",
+        "text": "Insights into adverse events and safety profile of upadacitinib in the management of inflammatory bowel diseases - A meta-analysis of randomized controlled trials. This systematic review and meta-analysis evaluated the incidence of serious adverse events (SAEs) in patients with Crohn's disease (CD) and ulcerative colitis (UC) treated with upadacitinib and examined secondary adverse events. A comprehensive search of PubMed, Embase and Cochrane Library was conducted to identify randomized controlled trials (R",
+        "score": 0.4603617191314697,
+        "doi": "10.1007/s12664-024-01720-0",
+        "journal": "Indian journal of gastroenterology : official journal of the Indian Society of G",
+        "year": "2024",
+        "rerank_score": 0.3398084342479706,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

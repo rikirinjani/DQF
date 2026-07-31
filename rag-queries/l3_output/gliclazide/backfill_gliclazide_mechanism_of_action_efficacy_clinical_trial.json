@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Gliclazide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3552537",
+        "text": "Lack of effect of gliclazide on early diabetic nephropathy and retinopathy: a two-year controlled study. This study has attempted to document a specific haemovascular action of gliclazide on the reversal of early diabetic microangiopathy. A prospective double-blind controlled study was performed over 2 years, comparing gliclazide versus placebo in insulin-treated and gliclazide versus glibenclamide in non-insulin-treated diabetic subjects, after a 1-year run-in period. Glycaemic control was not significantl",
+        "score": 0.40195292234420776,
+        "doi": "10.1016/s0168-8227(87)80010-4",
+        "journal": "Diabetes research and clinical practice",
+        "year": "1987",
+        "rerank_score": 2.30883526802063,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38294337",
+        "text": "Real-world evidence on the effectiveness and safety of gliclazide MR 60 mg in Bangladeshi patients with Type II diabetes during fasting: a sub-analysis from the global DIA-RAMADAN study.",
+        "score": 0.4349703788757324,
+        "doi": "10.57264/cer-2023-0132",
+        "journal": "Journal of comparative effectiveness research",
+        "year": "2024",
+        "rerank_score": -0.14873236417770386,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39702972",
+        "text": "Optimization of Romiplostim Biosimilar Efficacy Trial Using In Silico Clinical Trial Approach for Patients With Immune Thrombocytopenia. During biosimilar drug development, conducting a clinical trial of biosimilar efficacy in patients may become necessary in the presence of residual uncertainty regarding the biosimilarity of the drugs. In the development of the biosimilar romiplostim GP40141, we aimed to use a model-based in silico clinical trial (ISCT) approach to optimize the planned biosimilar efficacy ",
+        "score": 0.432014524936676,
+        "doi": "10.1002/cpdd.1494",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -1.3365927934646606,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

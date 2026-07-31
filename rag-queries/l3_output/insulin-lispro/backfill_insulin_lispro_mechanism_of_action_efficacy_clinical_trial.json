@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Insulin Lispro mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38934226",
+        "text": "Comparison of the efficacy and safety of rapid-acting insulin analogs, lispro versus aspart, in the treatment of diabetes: a systematic review of randomized controlled trials. We evaluated a potential move from one rapid-acting insulin analog to another, or their biosimilars, to aid better and faster decisions for diabetes management. A systematic literature review was performed according to PRISMA reporting guidelines. The MEDLINE/EMBASE/COCHRANE databases were searched for randomized control trials (RCTs)",
+        "score": 0.3767029047012329,
+        "doi": "10.1080/14712598.2024.2371046",
+        "journal": "Expert opinion on biological therapy",
+        "year": "2024",
+        "rerank_score": 3.559162139892578,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39778084",
+        "text": "Pharmacokinetic and Pharmacodynamic Equivalence of Biosimilar and Reference Ultra-Rapid Lispro: A Comparative Clamp Study in Healthy Volunteers. Ultra-rapid insulin lispro is an innovative insulin analogue designed to achieve rapid onset and short duration of action, aimed at optimizing glycemic control in patients with diabetes. This was a double-blind, randomized, 2-period, crossover clamp study to evaluate the pharmacokinetics (PK) and pharmacodynamics (PD), along with safety profiles, of a potential bio",
+        "score": 0.3920896053314209,
+        "doi": "10.1002/cpdd.1497",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": 2.81535005569458,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39115159",
+        "text": "A comparison of the safety and effectiveness of insulin aspart with other bolus insulins in women with pre-existing Type 1 diabetes during pregnancy: A post hoc analysis of a prospective cohort study. The safety and efficacy of insulin analogue insulin aspart (IAsp) have been demonstrated in a randomised clinical trial in pregnant women with Type 1 diabetes (T1D), and IAsp is widely used during pregnancy. The aim of this study was to assess glycaemic control and safety of IAsp versus other bolus insulins in",
+        "score": 0.41484153270721436,
+        "doi": "10.1111/dme.15411",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2024",
+        "rerank_score": 1.1760939359664917,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

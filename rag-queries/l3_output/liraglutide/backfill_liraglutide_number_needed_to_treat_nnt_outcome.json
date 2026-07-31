@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Liraglutide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20950126",
+        "text": "The number needed to treat for second-generation biologics when treating established rheumatoid arthritis: a systematic quantitative review of randomized controlled trials. To evaluate the number needed to treat (NNT) and the number needed to harm (NNH) of the second-generation biologics abatacept, certolizumab, golimumab, rituximab, and tocilizumab in patients with established rheumatoid arthritis (RA) taking concomitant methotrexate (MTX).",
+        "score": 0.4421048164367676,
+        "doi": "10.3109/03009742.2010.491834",
+        "journal": "Scandinavian journal of rheumatology",
+        "year": "2010",
+        "rerank_score": 2.4589955806732178,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29903847",
+        "text": "Hypoglycemia, Cardiovascular Outcomes, and Death: The LEADER Experience. In the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) cardiovascular (CV) outcomes trial (NCT01179048), liraglutide significantly reduced the risk of CV events (by 13%) and hypoglycemia versus placebo. This post hoc analysis examines the associations between hypoglycemia and CV outcomes and death.",
+        "score": 0.44134193658828735,
+        "doi": "10.2337/dc17-2677",
+        "journal": "Diabetes care",
+        "year": "2017",
+        "rerank_score": 1.6074708700180054,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:28387138",
+        "text": "Cardiovascular safety of liraglutide for the treatment of type 2 diabetes. Liraglutide is a GLP-1 RA that is an option for treatment of T2DM. Typical of all new glucose-lowering agents, its CV safety profile is of great interest. Areas covered: This article outlines the efficacy of the GLP-1 RA liraglutide from RCTs, moving through the pivotal phase 3 LEAD trials, and subsequent meta-analyses to assess CV safety. This review describes evolution of regulatory requirements to obtain safety information through",
+        "score": 0.4432089626789093,
+        "doi": "10.1080/14740338.2017.1313225",
+        "journal": "Expert opinion on drug safety",
+        "year": "2017",
+        "rerank_score": 0.5976218581199646,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

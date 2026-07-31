@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Perindopril adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10513830",
+        "text": "Efficacy and safety of an oral fixed low-dose perindopril 2 MG/indapamide 0.625 MG combination: a randomized, double-blind, placebo-controlled study in elderly patients with mild to moderate hypertension. The efficacy and safety of 12 weeks treatment with an oral fixed low-dose perindopril 2 mg + indapamide 0.625 mg (Per/Ind) combination in elderly and very elderly patients (65-85 years) with mild to moderate systolic and diastolic hypertension (SDH) or isolated systolic hypertension (ISH) were investigated",
+        "score": 0.3960740566253662,
+        "doi": "10.3109/10641969909052191",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "1999",
+        "rerank_score": 1.3353259563446045,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41366928",
+        "text": "Adverse effects of iodixanol: A retrospective safety study utilizing FAERS database signal analysis. This retrospective study utilized the Food and Drug Administration adverse event (AE) reporting system database (Q1 2004-Q4 2024) to comprehensively evaluate the safety profile of the contrast agent iodixanol. Disproportionality analysis (reporting odds ratio, proportional reporting ratio, information component, empirical Bayes geometric mean) was employed to detect AE signals. Analysis of 2212 iodixanol AE ",
+        "score": 0.41897451877593994,
+        "doi": "10.1097/MD.0000000000044714",
+        "journal": "Medicine",
+        "year": "2025",
+        "rerank_score": -0.8678951263427734,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39193332",
+        "text": "A real-world disproportionality analysis of sacubitril/valsartan: data mining of the FDA adverse event reporting system. Sacubitril/valsartan is extensively used in heart failure; however, there are few long-term safety studies of it in a wide range of populations. The aim of this study was to evaluate sacubitril/valsartan-induced adverse events (AEs) through data mining of the U.S. Food and Drug Administration Adverse Event Reporting System (FAERS). Reports in the FAERS from the third quarter of 2015 (FDA ",
+        "score": 0.39837905764579773,
+        "doi": "10.3389/fphar.2024.1392263",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -1.098123550415039,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

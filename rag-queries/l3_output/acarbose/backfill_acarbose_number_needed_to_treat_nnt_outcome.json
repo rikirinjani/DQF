@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Acarbose number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28778255",
+        "text": "Guideline-Adherent Antithrombotic Treatment Improves Outcomes in Patients With Atrial Fibrillation: Insights From the Community-Based Darlington Atrial Fibrillation Registry. To assess the influence of guideline-adherent vs nonadherent antithrombotic treatment (ATT) on stroke and mortality rates in an atrial fibrillation (AF) primary care population.",
+        "score": 0.48922234773635864,
+        "doi": "10.1016/j.mayocp.2017.05.023",
+        "journal": "Mayo Clinic proceedings",
+        "year": "2016",
+        "rerank_score": -9.259016036987305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38427273",
+        "text": "Constructing and Validating a Nomogram Model for Short-Term Prognosis of Patients with AChR-Ab+ GMG. This study aimed to establish and validate a nomogram prognostic model for predicting short-term efficacy of acetylcholine receptor antibody-positive (AChR-Ab+) generalized myasthenia gravis (GMG). A retrospective observational study was conducted at the First Hospital of Shanxi Medical University, enrolling patients diagnosed with AChR-Ab+ GMG from May 2020 to September 2022. The primary outcome was the cha",
+        "score": 0.5100791454315186,
+        "doi": "10.1007/s40120-024-00590-0",
+        "journal": "Neurology and therapy",
+        "year": "2024",
+        "rerank_score": -9.396806716918945,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38437689",
+        "text": "In adults aged ≥80 y with NSTE-ACS, an invasive vs. conservative strategy improved outcomes at a median 5.3 y. Berg ES, Tegn NK, Abdelnoor M, et al; After Eighty Study Investigators.",
+        "score": 0.49748384952545166,
+        "doi": "10.7326/J24-0007",
+        "journal": "Annals of internal medicine",
+        "year": "2024",
+        "rerank_score": -9.409265518188477,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Metoprolol adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41044440",
+        "text": "Real-world safety profile of bisoprolol: signal detection and demographic stratification using the FAERS database. Bisoprolol, a selective β₁-blocker, is widely prescribed for cardiovascular disease. Real-world pharmacovigilance can clarify adverse drug reactions (ADRs) across demographic strata and identify signals not fully characterized in trials. We analyzed bisoprolol-associated reports in the FDA Adverse Event Reporting System. Disproportionality was assessed using complementary algorithms-reporting o",
+        "score": 0.4268124997615814,
+        "doi": "10.1007/s00210-025-04650-6",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2025",
+        "rerank_score": 4.0507307052612305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39900827",
+        "text": "Effect of metoprolol exposure following myocardial infarction on future cardiovascular events: a Mendelian randomization study. The clinical benefit of up-titration of metoprolol to a guideline-recommended target dose after myocardial infarction (MI) is unknown. Our aim was to investigate whether variation in metoprolol exposure determined by cytochrome p450 enzyme 2D6 (CYP2D6) influences the occurrence of major adverse cardiovascular events (MACE) and cardiovascular death (CV death) among patients treated ",
+        "score": 0.4289703965187073,
+        "doi": "10.1007/s00228-025-03806-w",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 3.3833682537078857,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41072527",
+        "text": "INCIDENCE OF ADVERSE EVENTS RESULTING FROM BETA-BLOCKER TITRATION IN PATIENTS WITH HEART FAILURE. Beta blockers are an essential part of the treatment and management of heart failure. Unfortunately, due to adverse events, it is not possible to titrate the medication to the recommended dose in all patients according to the guidelines. The role of adverse events in the treatment of bisoprolol, carvedilol, and metoprolol in the Georgian population when titration is not possible was studied. A study was conduct",
+        "score": 0.4388895034790039,
+        "doi": "",
+        "journal": "Georgian medical news",
+        "year": "2025",
+        "rerank_score": 2.616413116455078,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

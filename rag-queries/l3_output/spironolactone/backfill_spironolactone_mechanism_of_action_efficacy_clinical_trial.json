@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Spironolactone mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40470466",
+        "text": "The Aldosterone Blockade for Health Improvement Evaluation in End-Stage Renal Disease (ACHIEVE) Trial: Rationale and Clinical Research Protocol. The mineralocorticoid aldosterone may contribute to the risk of cardiovascular morbidity and mortality in patients receiving maintenance dialysis. Whether spironolactone, a mineralocorticoid receptor antagonist, improves outcomes for patients receiving maintenance dialysis is unclear. To assess the efficacy and safety of spironolactone in patients receiving mainten",
+        "score": 0.3975830078125,
+        "doi": "10.1177/20543581251348187",
+        "journal": "Canadian journal of kidney health and disease",
+        "year": "2025",
+        "rerank_score": 3.8154096603393555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39569611",
+        "text": "Efficacy and safety of colchicine and spironolactone after myocardial infarction: the CLEAR-SYNERGY trial in perspective.",
+        "score": 0.40464258193969727,
+        "doi": "10.1093/ehjacc/zuae135",
+        "journal": "European heart journal. Acute cardiovascular care",
+        "year": "2024",
+        "rerank_score": 3.552264451980591,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38957411",
+        "text": "Efficacy of spironolactone in treating hidradenitis suppurativa in women of childbearing age: a single-center retrospective analysis. Hidradenitis suppurativa (HS) is a chronic skin disease characterized by recurrent nodules that affect areas with a high density of apocrine sweat glands, such as the axillae and groin. Androgens are implicated in the pathophysiology of HS. Therefore, spironolactone, an antiandrogen therapy, is recommended. However, data on its use in women of childbearing age are limited, es",
+        "score": 0.41082245111465454,
+        "doi": "10.1097/JW9.0000000000000159",
+        "journal": "International journal of women's dermatology",
+        "year": "2024",
+        "rerank_score": 2.454160451889038,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

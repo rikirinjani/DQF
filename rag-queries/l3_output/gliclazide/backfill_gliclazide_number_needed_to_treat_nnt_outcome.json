@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Gliclazide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.4927408993244171,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 2.0903496742248535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27666900",
+        "text": "Treatment of Type 2 Diabetes with a Breakable Extended Release Gliclazide Formulation in Primary Care: The Xrise Study. This study examines whether a new, scored and breakable once daily gliclazide tablet formulation, gliclazide XR 60 mg, that enables a simple 2-steps titration, can improve glycemic control rates in the community.",
+        "score": 0.4632871448993683,
+        "doi": "",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2016",
+        "rerank_score": -0.005465306341648102,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40426928",
+        "text": "Add-On Treatment with Gliclazide for Cancer Patients with Type 2 Diabetes Undergoing Cyclic Glucocorticoid-Containing Chemotherapy.",
+        "score": 0.46599113941192627,
+        "doi": "10.3390/biomedicines13051101",
+        "journal": "Biomedicines",
+        "year": "2025",
+        "rerank_score": -2.189833164215088,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

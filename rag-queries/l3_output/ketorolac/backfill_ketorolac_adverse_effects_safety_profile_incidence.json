@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Ketorolac adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39839198",
+        "text": "Real-world evaluation of select adverse drug reactions and healthcare utilization associated with parenteral Ibuprofen and ketorolac in adult and pediatric patients. Intravenous non-steroidal anti-inflammatory drugs (NSAIDs) are commonly used in healthcare settings, but their comparative safety and resource utilization impacts remain understudied. This study aimed to compare adverse drug reactions (ADRs) and healthcare resource utilization (HCRU) between patients receiving IV-ibuprofen versus IV/IM ketorola",
+        "score": 0.4400327801704407,
+        "doi": "10.3389/fpain.2024.1484948",
+        "journal": "Frontiers in pain research (Lausanne, Switzerland)",
+        "year": "2024",
+        "rerank_score": 3.10441517829895,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:16778734",
+        "text": "Report of an anaphylactoid and an anaphylactic reaction to ketorolac in two pediatric surgical patients. Ketorolac is a potent analgesic drug that has been restricted in dosage and use because of its potential adverse effects. The diagnostic and ethical challenges of 2 children who had unpredictable adverse drug reactions to ketorolac are reported. Case 1: A 3-year-old boy received ketorolac 1 mg/kg for prevention of postoperative pain at the end of an orthopedic surgical procedure. Ten minutes later, he ha",
+        "score": 0.4405525326728821,
+        "doi": "10.1097/01.ftd.0000196661.97607.d4",
+        "journal": "Therapeutic drug monitoring",
+        "year": "2006",
+        "rerank_score": 2.9768474102020264,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24441450",
+        "text": "Ketorolac as an analgesic agent for infants and children after cardiac surgery: safety profile and appropriate patient selection. Ketorolac has been used safely as an analgesic agent for children following cardiac surgery in selected populations. Controversy exists among institutions about the risks involved with this medication in this patient group. This article reviews the current literature regarding the safety of ketorolac for postoperative pain management in children after cardiac surgery. Specificall",
+        "score": 0.43220895528793335,
+        "doi": "10.1097/NCI.0000000000000002",
+        "journal": "AACN advanced critical care",
+        "year": "2014",
+        "rerank_score": 2.7549796104431152,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

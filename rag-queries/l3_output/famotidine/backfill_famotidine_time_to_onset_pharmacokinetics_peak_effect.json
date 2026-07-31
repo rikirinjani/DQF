@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Famotidine time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.41464963555336,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.4075504541397095,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8573949",
+        "text": "Evaluation of the pharmacokinetic interaction between cimetidine or famotidine and cyclosporine in healthy men. To investigate the potential interaction between cimetidine or famotidine and cyclosporine in healthy men.",
+        "score": 0.3502604067325592,
+        "doi": "10.1177/106002809502901102",
+        "journal": "The Annals of pharmacotherapy",
+        "year": "1995",
+        "rerank_score": -2.5293121337890625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38193900",
+        "text": "Prediction of combination effect of quinidine on the pharmacokinetics of tipepidine using a physiologically based pharmacokinetic model. Tipepidine, an antitussive drug, has been reported to have central pharmacological effects and can be expected to be safely repositioned as treatment for psychiatric disorders. Since tipepidine requires three doses per day, development of a once-daily medication would be highly beneficial. Previously, we reported that combination use with quinidine, a CYP2D6 inhibitor, pro",
+        "score": 0.38447070121765137,
+        "doi": "10.1080/00498254.2024.2304129",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.0779433250427246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

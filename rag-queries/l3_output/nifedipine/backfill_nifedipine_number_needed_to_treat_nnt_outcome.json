@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Nifedipine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.4572882056236267,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.9779744148254395,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38945776",
+        "text": "A bibliometric and visualisation study of nifedipine in the treatment of coronary heart disease.",
+        "score": 0.4799612760543823,
+        "doi": "10.1016/j.asjsur.2024.06.088",
+        "journal": "Asian journal of surgery",
+        "year": "2024",
+        "rerank_score": -1.754600167274475,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40396237",
+        "text": "Daily Versus BID Nifedipine GITS in Severe Preeclampsia: Randomized Controlled Trial. Optimal dosing of nifedipine gastrointestinal therapeutic system (GITS) in pregnancies complicated by preeclampsia with severe features is unknown. We assessed whether nifedipine GITS 30 mg BID improved blood pressure control when compared with nifedipine GITS 60 mg daily. Unblinded, randomized controlled trial, at a single academic hospital from December 2021 to December 2023. Individuals between 22 The percentage of subo",
+        "score": 0.4504525661468506,
+        "doi": "10.1161/HYPERTENSIONAHA.124.24532",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2025",
+        "rerank_score": -2.3047397136688232,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

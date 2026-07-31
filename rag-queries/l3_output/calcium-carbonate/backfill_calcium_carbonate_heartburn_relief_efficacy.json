@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Calcium Carbonate heartburn relief efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39603923",
+        "text": "Comparison of calcium citrate and calcium carbonate absorption in patients with a Roux-en-Y gastric bypass, sleeve gastrectomy, and one-anastomosis gastric bypass: a double-blind, randomized cross-over trial. This study compared the efficacy of calcium (Ca) citrate and Ca carbonate supplementation on Ca absorption following Roux-en-Y gastric bypass (RYGB), laparoscopic sleeve gastrectomy (LSG), and one-anastomosis gastric bypass (OAGB) surgeries. A single specialized bariatric center. A randomized, double-b",
+        "score": 0.4702985882759094,
+        "doi": "10.1016/j.soard.2024.10.034",
+        "journal": "Surgery for obesity and related diseases : official journal of the American Soci",
+        "year": "2024",
+        "rerank_score": 1.6730142831802368,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:37921685",
+        "text": "Sodium Bicarbonate and Calcium Chloride for the Treatment of Hyperkalemia-Induced Cardiac Arrest: A Randomized, Blinded, Placebo-Controlled Animal Study. Current international guidelines recommend administrating calcium chloride and sodium bicarbonate to patients with hyperkalemia-induced cardiac arrest, despite limited evidence. The aim of this study was to evaluate the efficacy of calcium chloride and sodium bicarbonate on return of spontaneous circulation (ROSC) in a pig model of hyperkalemia-induced car",
+        "score": 0.47775185108184814,
+        "doi": "10.1097/CCM.0000000000006089",
+        "journal": "Critical care medicine",
+        "year": "2024",
+        "rerank_score": 1.6382756233215332,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39333650",
+        "text": "A combination of carbonates and Opuntia ficus-indica extract protects esophageal cells against simulated acidic and non-acidic reflux in vitro. Buffering of stomach acid by antacids is a well-established symptomatic therapy for heartburn. In addition, preparations from prickly pear (Opuntia ficus-indica) have been shown to reduce tissue damage in experimental gastritis models and to attenuate gastrointestinal discomfort in patients. Both active principles have been included in a fixed-combination product fo",
+        "score": 0.44045519828796387,
+        "doi": "10.1038/s41598-024-74047-7",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "rerank_score": -0.13503487408161163,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

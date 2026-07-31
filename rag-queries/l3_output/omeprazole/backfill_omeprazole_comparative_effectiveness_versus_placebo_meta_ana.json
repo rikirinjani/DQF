@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Omeprazole comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25893507",
+        "text": "Meta-analysis of the effectiveness of esomeprazole in gastroesophageal reflux disease and Helicobacter pylori infection. Proton pump inhibitors (PPIs) are one of the most widely used classes of drugs. However, the quantum clinical benefit of newer and more expensive PPIs over the older generation PPIs remains uncertain. This meta-analysis sought to assess the clinical and safety profiles of esomeprazole versus omeprazole at pharmacologically equivalent doses in healing gastroesophageal reflux disease (GERD)",
+        "score": 0.3894351124763489,
+        "doi": "10.1111/jcpt.12277",
+        "journal": "Journal of clinical pharmacy and therapeutics",
+        "year": "2014",
+        "rerank_score": 5.080820560455322,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2403908",
+        "text": "Omeprazole versus placebo in duodenal ulcer healing. The United States experience. The study objective was to study the ulcer healing effects and safety of the proton pump inhibitor, omeprazole, given in a dose of 20 mg once daily before breakfast. The study design was a randomized, double-blind, multicenter comparison of omeprazole and placebo using endoscopy to assess ulcer healing after two or four weeks of therapy. One hundred fifty-three patients with endoscopically documented active duodenal ulcer wer",
+        "score": 0.39166855812072754,
+        "doi": "10.1007/BF01537225",
+        "journal": "Digestive diseases and sciences",
+        "year": "1990",
+        "rerank_score": 5.020773887634277,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2032518",
+        "text": "U.S. experience with omeprazole in duodenal ulcer. Multicenter double-blind comparative study with ranitidine. The Omeprazole DU Comparative Study Group. To assess the comparative efficacy of omeprazole 20 mg, a proton pump inhibitor, versus ranitidine 150 mg twice a day, an H2-receptor antagonist, in healing duodenal ulcers we performed a randomized, double-blind, multicenter trial in 309 patients with endoscopically diagnosed ulcers. Patients were treated for up to four weeks and were seen at week 2 and a",
+        "score": 0.40059149265289307,
+        "doi": "10.1007/BF01311234",
+        "journal": "Digestive diseases and sciences",
+        "year": "1991",
+        "rerank_score": 4.174766540527344,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

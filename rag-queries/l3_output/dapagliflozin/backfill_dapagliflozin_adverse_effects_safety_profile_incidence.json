@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Dapagliflozin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39576784",
+        "text": "Comparison of safety profiles for dapagliflozin based on EMA and FDA safety issues: Challenges and future of post-marketing surveillance in Korea. Europe, the United States (U.S), and Korea each maintain post-marketing surveillance (PMS) systems to monitor rare or unexpected adverse events. Korea's PMS mainly involves a re-examination system to identify new adverse events not seen in pre-market trials during the early stages of post-marketing drug use, along with the risk management plan (RMP), a comprehens",
+        "score": 0.40523460507392883,
+        "doi": "10.1371/journal.pone.0314363",
+        "journal": "PloS one",
+        "year": "2024",
+        "rerank_score": 4.553745269775391,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32239659",
+        "text": "Safety of dapagliflozin in a broad population of patients with type 2 diabetes: Analyses from the DECLARE-TIMI 58 study. To evaluate comprehensively the safety of dapagliflozin in patients with type 2 diabetes (T2DM), with emphasis placed on potential safety concerns related to the sodium-glucose co-transporter-2 inhibitor class.",
+        "score": 0.4002264142036438,
+        "doi": "10.1111/dom.14041",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2020",
+        "rerank_score": 4.153026580810547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36528670",
+        "text": "Post-Authorization Safety Study of Hospitalization for Acute Kidney Injury in Patients with Type 2 Diabetes Exposed to Dapagliflozin in a Real-World Setting. Dapagliflozin is a sodium-glucose cotransporter 2 inhibitor approved to treat type 2 diabetes mellitus (T2DM), among other conditions. When dapagliflozin was approved in Europe for treating T2DM (2012), potential safety concerns regarding its effect on kidney function resulted in this post-authorization safety study to assess hospitalization for acute ",
+        "score": 0.3945390582084656,
+        "doi": "10.1007/s40264-022-01263-3",
+        "journal": "Drug safety",
+        "year": "2022",
+        "rerank_score": 4.124172687530518,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

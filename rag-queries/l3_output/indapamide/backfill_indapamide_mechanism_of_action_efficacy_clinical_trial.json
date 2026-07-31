@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Indapamide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39426836",
+        "text": "Efficacy and safety of a novel low-dose triple single-pill combination of telmisartan, amlodipine and indapamide, compared with dual combinations for treatment of hypertension: a randomised, double-blind, active-controlled, international clinical trial. Single-pill combinations (SPCs) of three low-dose antihypertensive drugs can improve hypertension control but are not widely available. A key issue for any combination product is the contribution of each component to efficacy and tolerability. This trial com",
+        "score": 0.4239155650138855,
+        "doi": "10.1016/S0140-6736(24)01744-6",
+        "journal": "Lancet (London, England)",
+        "year": "2024",
+        "rerank_score": 2.498183250427246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41222871",
+        "text": "Low-Dose Triple-Pill of Telmisartan, Amlodipine, and Indapamide for Initial Hypertension Treatment: A GRADE-Assessed Meta-analysis of Randomized Trials. FDA-approved GMRx2, a single-pill combination of telmisartan, amlodipine, and indapamide, has shown potential for improving blood pressure (BP) control. We assessed the efficacy and safety of low-dose GMRx2 compared to placebo, or standard-care (monotherapy or dual therapy) in mild to moderate hypertension. A meta-analysis of randomized controlled trials (R",
+        "score": 0.415813148021698,
+        "doi": "10.1007/s40292-025-00751-8",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
+        "year": "2025",
+        "rerank_score": 1.121050477027893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41122611",
+        "text": "Real-World Evaluation of the Efficacy and Tolerability of a Fixed-Dose Combination of Amlodipine and Indapamide in Patients Over 55 Years. Isolated systolic hypertension (ISH) is a major cardiovascular risk factor in older adults, yet blood pressure (BP) control remains suboptimal. This study assessed the real-world effectiveness and tolerability of a FDC of indapamide and amlodipine in Bangladeshi patients aged 55 years and older. The COMBINE (COMBination of Indapamide and amlodipiNE) study was an open-lab",
+        "score": 0.407465398311615,
+        "doi": "10.7759/cureus.92756",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 0.8717236518859863,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Enalapril time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.4061351418495178,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.8648028373718262,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38344757",
+        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
+        "score": 0.39820972084999084,
+        "doi": "10.1080/00498254.2024.2317888",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.5928690433502197,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40459695",
+        "text": "Effects of high-dose alacepril on the renin-angiotensin-aldosterone system and autonomic nervous system function in healthy dogs. This study investigated the effects of low-dose and high-dose alacepril on the renin-angiotensin-aldosterone system (RAAS) and autonomic nervous system in healthy dogs. Six Beagle dogs received low-dose (2.0 mg/kg/day) or high-dose (6.0 mg/kg/day) alacepril for 4 weeks. Blood pressure, the urinary aldosterone-to-creatinine ratio (UAld: Cre), echocardiographic variables, and heart",
+        "score": 0.40749841928482056,
+        "doi": "10.1007/s11259-025-10782-0",
+        "journal": "Veterinary research communications",
+        "year": "2025",
+        "rerank_score": -4.824669361114502,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

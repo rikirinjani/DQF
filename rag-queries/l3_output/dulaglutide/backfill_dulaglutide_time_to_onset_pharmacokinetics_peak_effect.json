@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Dulaglutide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40842022",
+        "text": "A Combined Modeling Approach to Predict the Effect of Gastric Emptying Delay on the Pharmacokinetics of Small Molecules. Dulaglutide, a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist, is approved for improving glycemic control and reducing cardiovascular risks in patients with type 2 diabetes mellitus (T2DM). This research investigates the effect of dulaglutide on gastric emptying and its impact on the pharmacokinetics (PK) of orally administered molecules utilizing a combination of population",
+        "score": 0.38509297370910645,
+        "doi": "10.1002/psp4.70101",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 2.7177789211273193,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.3764132261276245,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -1.1838196516036987,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38173379",
+        "text": "Commentary on \"Effects of once-weekly dulaglutide on juvenile type 2 diabetes mellitus and obesity in Korea: a pilot study\".",
+        "score": 0.3922695815563202,
+        "doi": "10.6065/apem.2322098edi010",
+        "journal": "Annals of pediatric endocrinology & metabolism",
+        "year": "2024",
+        "rerank_score": -2.1236515045166016,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

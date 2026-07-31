@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Insulin Lispro adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39570544",
+        "text": "Investigation of Severe Hypoglycemia Risk Among Patients with Diabetes Treated with Ultra-Rapid Lispro in Japan. There is no information on the incidence of severe hypoglycemia in real-world patients with diabetes receiving ultra-rapid lispro (URLi). This post-marketing, observational, safety study assessed the incidence proportion and incidence rate of the first severe hypoglycemia event requiring a hospital visit in URLi-treated patients. It also compared the risk of severe hypoglycemia between patients t",
+        "score": 0.41124945878982544,
+        "doi": "10.1007/s12325-024-03050-1",
+        "journal": "Advances in therapy",
+        "year": "2024",
+        "rerank_score": 2.939957857131958,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40997126",
+        "text": "A disproportionality analysis of insulin glargine in the overall population and in pregnant women using the FDA adverse event reporting system (FAERS) database. Insulin glargine (IG) is a commonly prescribed medication for diabetes management in clinical practice, however, there has yet to be a comprehensive systematic study examining its associated adverse events (AEs). In particular, due to the inherent limitations of clinical trials conducted during pregnancy, the safety profile of medications utilized i",
+        "score": 0.4242796301841736,
+        "doi": "10.1371/journal.pone.0331489",
+        "journal": "PloS one",
+        "year": "2025",
+        "rerank_score": 2.1076042652130127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40356973",
+        "text": "Adverse drug events associated with insulin glargine: a real-world pharmacovigilance study based on the FAERS database. Insulin glargine is a long-acting drug and the first synthetic insulin to mimic human metabolism. The safety of insulin glargine in the real world remains to be further investigated. This study aims to analyze insulin glargine-related adverse events (ADEs) to guide its safe clinical use. This study collected ADE reports from the FDA Adverse Event Reporting System (FAERS) between the first ",
+        "score": 0.4385167956352234,
+        "doi": "10.3389/fphar.2025.1563238",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 1.8198505640029907,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

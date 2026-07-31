@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Celecoxib adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:12810929",
+        "text": "Comparison of the incidence rates of selected gastrointestinal events reported for patients prescribed celecoxib and meloxicam in general practice in England using prescription-event monitoring (PEM) data. Celecoxib and meloxicam are classified as cyclo-oxygenase (COX)-2 selective inhibitors, and were developed to minimize the risk of gastrointestinal (GI) toxicity commonly associated with non-steroidal anti-inflammatory drugs (NSAIDs). The Drug Safety Research Unit (DSRU) monitored the safety of these drug",
+        "score": 0.4105704426765442,
+        "doi": "10.1093/rheumatology/keg376",
+        "journal": "Rheumatology (Oxford, England)",
+        "year": "2003",
+        "rerank_score": 4.660358428955078,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29266879",
+        "text": "Differences in Safety of Nonsteroidal Antiinflammatory Drugs in Patients With Osteoarthritis and Patients With Rheumatoid Arthritis: A Randomized Clinical Trial. To determine the relative risks of cardiovascular (CV), gastrointestinal (GI), and renal adverse events during long-term treatment with celecoxib, compared with ibuprofen and naproxen, in patients with osteoarthritis (OA) and patients with rheumatoid arthritis (RA).",
+        "score": 0.40959763526916504,
+        "doi": "10.1002/art.40400",
+        "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+        "year": "2017",
+        "rerank_score": 3.052295684814453,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:14724542",
+        "text": "[Severe cutaneous drug reactions to celecoxib (Celebrex)]. Celecoxib (Celebrex) is a Cox 2 selective non steroidal anti-inflammatory agent. Adverse reactions reported are usually benign, such as maculopapular exanthema. However, recently severe toxiderma have started to appear. We report two patients who developed a sever celecoxib drug skin reaction.",
+        "score": 0.40903225541114807,
+        "doi": "",
+        "journal": "Annales de dermatologie et de venereologie",
+        "year": "2004",
+        "rerank_score": 3.0080065727233887,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

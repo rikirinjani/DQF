@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Ertugliflozin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38293914",
+        "text": "Comparison of Effectiveness Among Different Sodium-Glucose Cotransoporter-2 Inhibitors According to Underlying Conditions: A Network Meta-Analysis of Randomized Controlled Trials. To investigate the individual profile of each SGLT2 (sodium-glucose cotransoporter-2) inhibitor in patients with different backgrounds. This study included 21 placebo-controlled randomized controlled trials with a total of 96 196 participants, investigating empagliflozin, ertugliflozin, dapagliflozin, canagliflozin, and sotagliflo",
+        "score": 0.3748542070388794,
+        "doi": "10.1161/JAHA.123.031805",
+        "journal": "Journal of the American Heart Association",
+        "year": "2024",
+        "rerank_score": 4.989046096801758,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39836391",
+        "text": "Effectiveness of Empagliflozin vs Dapagliflozin for Kidney Outcomes in Type 2 Diabetes. No large randomized clinical trial has directly compared empagliflozin with dapagliflozin, leaving their comparative effectiveness regarding kidney outcomes unknown. To compare kidney outcomes between initiation of empagliflozin vs dapagliflozin in adults with type 2 diabetes who were receiving antihyperglycemic treatment. This target trial emulation used nationwide, population-based routinely collected Danish health car",
+        "score": 0.3813907206058502,
+        "doi": "10.1001/jamainternmed.2024.7381",
+        "journal": "JAMA internal medicine",
+        "year": "2025",
+        "rerank_score": 4.017086505889893,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29282633",
+        "text": "Ertugliflozin Compared with Glimepiride in Patients with Type 2 Diabetes Mellitus Inadequately Controlled on Metformin: The VERTIS SU Randomized Study. This study assessed the safety and efficacy of ertugliflozin (an oral sodium-glucose cotransporter 2 inhibitor) vs. glimepiride in patients with type 2 diabetes mellitus (T2DM) inadequately controlled on metformin.",
+        "score": 0.3830813765525818,
+        "doi": "10.1007/s13300-017-0354-4",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2017",
+        "rerank_score": 3.3815839290618896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

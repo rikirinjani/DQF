@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Verapamil mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39588680",
+        "text": "Efficacy of Nortriptyline-Topiramate and Verapamil-Paroxetine in Tinnitus Management: A Randomized Placebo-Controlled Trial. To evaluate the efficacy of 2 drug combinations on tinnitus severity and associated stress, depression, sleep, and anxiety. A randomized, double-blind, placebo-controlled clinical trial conducted between 2019 and 2023 for an 8-week duration. Single institution tertiary care center. The study recruited adult patients with moderate to severe tinnitus for 6 months or more. In total, 81 p",
+        "score": 0.44084370136260986,
+        "doi": "10.1002/ohn.1063",
+        "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of",
+        "year": "2024",
+        "rerank_score": 3.681013345718384,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1925453",
+        "text": "[The therapeutic effects of the calcium blocker verapamil in chronic diarrhea. Preliminary communication]. The results of an open clinical trial carried out between 1985 and 1989, studying the effect of calcium antagonists, particularly verapamil, on chronic diarrhea of different etiologies, are presented. 44 patients out of 46 (95.65%) experienced total remission of symptoms. 3 cases of colitis improved from stage III to stage I (Bockus), thus avoiding already planned surgery. The usefulness of verapamil i",
+        "score": 0.37508174777030945,
+        "doi": "",
+        "journal": "Schweizerische medizinische Wochenschrift",
+        "year": "1991",
+        "rerank_score": 2.812750816345215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39405898",
+        "text": "Verapamil attenuates myocardial ischemia/reperfusion injury by inhibiting apoptosis via activating the JAK2/STAT3 signaling pathway. Apoptosis is a crucial pathological process in myocardial ischemia/reperfusion injury (MIRI). Verapamil (Ver), normally used to treat hypertension or heart rhythm disorders, also attenuates MIRI. The potential of Ver to inhibit apoptosis and thereby attenuate MIRI remains unclear, as does the mechanism. We established an in vivo mouse ischemia/reperfusion (I/R) model by occlus",
+        "score": 0.4385744333267212,
+        "doi": "10.1016/j.biopha.2024.117568",
+        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+        "year": "2024",
+        "rerank_score": 2.3409247398376465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

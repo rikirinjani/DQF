@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Lisinopril randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:11071803",
+        "text": "Efficacy and safety of high-dose lisinopril in chronic heart failure patients at high cardiovascular risk, including those with diabetes mellitus. Results from the ATLAS trial. An analysis was designed to determine whether chronic heart failure patients at high cardiovascular risk benefited to the same extent from high-dose lisinopril as the whole ATLAS population.",
+        "score": 0.38876813650131226,
+        "doi": "10.1053/euhj.2000.2311",
+        "journal": "European heart journal",
+        "year": "2000",
+        "rerank_score": 2.9166109561920166,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38565328",
+        "text": "Confidence intervals for odds ratio from multistage randomized phase II trials. A multi-stage randomized trial design can significantly improve efficiency by allowing early termination of the trial when the experimental arm exhibits either low or high efficacy compared to the control arm during the study. However, proper inference methods are necessary because the underlying distribution of the target statistic changes due to the multi-stage structure. This article focuses on multi-stage randomized phase II",
+        "score": 0.4020390212535858,
+        "doi": "10.1002/sim.10073",
+        "journal": "Statistics in medicine",
+        "year": "2024",
+        "rerank_score": -0.9479278922080994,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40166580",
+        "text": "From 'Negative' Trial to Positive Clinical Impact: Emulating WARCEF While Accounting for Selection Bias in Trial Timing. While randomized controlled trials (RCTs) guide clinical practice, their completion may also influence real-world treatment patterns. We investigated whether the outcomes of trial emulation differ before and after the publication of the WARCEF (Warfarin versus Aspirin in Reduced Cardiac Ejection Fraction) randomized controlled trial. We emulated the WARCEF trial using EHR data from the Ma",
+        "score": 0.3936389982700348,
+        "doi": "10.1101/2025.03.19.25324271",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2025",
+        "rerank_score": -1.005472183227539,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

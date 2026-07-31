@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Famotidine effect size confidence interval healing rate"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38720597",
+        "text": "Pharmacokinetics of famotidine in goats after intravenous administration. There is currently limited pharmacokinetic data for the use of famotidine in goats for treatment and prevention of abomasal ulceration. The objective of this study was to determine the pharmacokinetic parameters after a single intravenous administration of famotidine (0.6 mg/kg). Famotidine was administered to six healthy goats and plasma samples were collected over a 24-h period. The famotidine concentration was measured using revers",
+        "score": 0.4567200541496277,
+        "doi": "10.1111/jvp.13449",
+        "journal": "Journal of veterinary pharmacology and therapeutics",
+        "year": "2024",
+        "rerank_score": -3.812047004699707,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41087788",
+        "text": "Fabrication of Gastroretentive and Extended-Release Famotidine Floating Tablets via Fused Deposition Modeling. Famotidine suffers from low oral bioavailability due to poor aqueous solubility, short half-life, and limited gastric retention. This study aimed to develop gastro-retentive floating tablets of famotidine using hot-melt extrusion (HME) and fused deposition modeling (FDM) 3D printing approach to enhance its solubility, prolong gastric residence, and achieve extended drug release. Famotidine was inco",
+        "score": 0.464866578578949,
+        "doi": "10.1208/s12249-025-03237-x",
+        "journal": "AAPS PharmSciTech",
+        "year": "2025",
+        "rerank_score": -4.1363205909729,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39794880",
+        "text": "Physiologically based Pharmacokinetic/Pharmacodynamic Modeling (PBPK/PD) of Famotidine in Pregnancy. Famotidine, a H",
+        "score": 0.4675922095775604,
+        "doi": "10.1002/jcph.6185",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -5.946943759918213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

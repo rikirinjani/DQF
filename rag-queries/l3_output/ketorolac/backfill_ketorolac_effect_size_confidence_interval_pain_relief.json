@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Ketorolac effect size confidence interval pain relief"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40255229",
+        "text": "Effect of a Single Preventive Intravenous Dose of Ketorolac and Paracetamol on Reducing Postoperative Pain in Septorhinoplasty Patients: Double-Blind Randomized Clinical Trial. Effective pain management is crucial in septorhinoplasty and remains a significant challenge. This study investigated the effect of ketorolac and paracetamol on pain control in septorhinoplasty patients and assessed their efficacy in reducing the need for rescue analgesics. This double-blind randomized clinical trial was conducted at",
+        "score": 0.404796838760376,
+        "doi": "10.30476/ijms.2024.102131.3488",
+        "journal": "Iranian journal of medical sciences",
+        "year": "2024",
+        "rerank_score": 0.6894444823265076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40957602",
+        "text": "Efficacy and adverse effects of lower doses of ketorolac; a systematic review and meta-analysis. Ketorolac, a non-steroidal anti-inflammatory drug, is proposed to have a ceiling effect. We studied if ketorolac at lower doses was as effective and safe as the standard doses. Randomized trials on different doses of ketorolac were searched in MEDLINE, Embase, Scopus, and Web of Science from the inception date to 12 December 2024. The extent of change in pain, pain relief, need for rescue analgesia, reduction in",
+        "score": 0.3998746871948242,
+        "doi": "10.1080/17581869.2025.2560293",
+        "journal": "Pain management",
+        "year": "2026",
+        "rerank_score": 0.15244916081428528,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40753250",
+        "text": "Correction: Comparing the effects of ketorolac and Paracetamol on postoperative pain relief after coronary artery bypass graft surgery. a randomized clinical trial.",
+        "score": 0.37272077798843384,
+        "doi": "10.1186/s13019-025-03524-5",
+        "journal": "Journal of cardiothoracic surgery",
+        "year": "2025",
+        "rerank_score": -0.04765456169843674,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

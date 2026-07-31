@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Pioglitazone adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39489056",
+        "text": "Pioglitazone increases risk of ischemic heart disease in patients with type 2 diabetes receiving insulin. Studies evaluating the cardiovascular safety of pioglitazone show inconsistent results and ischemic heart disease (IHD) risks associated with different anti-diabetic drugs added to metformin uncontrolled type 2 diabetes mellitus (T2DM) are not assessed. This study aimed to evaluate IHD risk associated with pioglitazone and/or insulin added to patients with metformin uncontrolled T2DM. Data were extracte",
+        "score": 0.42519301176071167,
+        "doi": "10.1016/j.jdiacomp.2024.108898",
+        "journal": "Journal of diabetes and its complications",
+        "year": "2024",
+        "rerank_score": 4.658546447753906,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39068060",
+        "text": "Efficacy and Safety of Pioglitazone Add-on in Patients with Type 2 Diabetes Mellitus Inadequately Controlled with Metformin and Dapagliflozin: A Multicenter, Randomized, Double-blind, and Placebo-controlled Study. The purpose of this study was to determine the efficacy and safety profile of pioglitazone compared with placebo (PBO) in patients with type 2 diabetes (T2D) inadequately controlled with metformin and dapagliflozin. In this prospective, multicenter, randomized, double-blind, PBO-controlled trial, ",
+        "score": 0.4287679195404053,
+        "doi": "10.1016/j.clinthera.2024.06.023",
+        "journal": "Clinical therapeutics",
+        "year": "2024",
+        "rerank_score": 3.678046226501465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40420634",
+        "text": "Efficacy and Safety of Pioglitazone Add-On in Patients With Type 2 Diabetes Mellitus Inadequately Controlled With Metformin and Dapagliflozin: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Type 2 diabetes mellitus (T2DM) accounts for over 90% of diabetes cases worldwide. Pioglitazone, a thiazolidinedione, enhances insulin sensitivity by activating PPAR-γ. Evidence on its efficacy and safety as an add-on to metformin and SGLT2 inhibitors in inadequately controlled T2DM is limited. Th",
+        "score": 0.4393196702003479,
+        "doi": "10.1002/edm2.70061",
+        "journal": "Endocrinology, diabetes & metabolism",
+        "year": "2025",
+        "rerank_score": 2.8996100425720215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

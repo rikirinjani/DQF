@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Hydralazine randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.4178159832954407,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.9947736263275146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814593",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.4178159832954407,
+        "doi": "10.1001/jamaoncol.2024.0113",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.9947736263275146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814615",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial-Reply.",
+        "score": 0.40116485953330994,
+        "doi": "10.1001/jamaoncol.2024.0140",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -2.6180732250213623,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

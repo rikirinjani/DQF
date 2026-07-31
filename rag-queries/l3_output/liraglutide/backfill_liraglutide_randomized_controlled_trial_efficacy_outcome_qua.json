@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Liraglutide randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33545972",
+        "text": "A randomized controlled trial protocol of the cardiovascular safety and efficacy of liraglutide in the treatment of type 2 diabetes. Recently, many clinical experiments have evaluated the influences of liraglutide in the treatment of type 2 diabetes. However, the outcomes of these studies are inconsistent, and the number of high-quality prospective trials that conducted to assess the cardiovascular safety is limited. Hence, for this research, it was implemented for the assessment of the cardiovascular effec",
+        "score": 0.34784698486328125,
+        "doi": "10.1097/MD.0000000000023948",
+        "journal": "Medicine",
+        "year": "2020",
+        "rerank_score": 5.932035446166992,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24664620",
+        "text": "Efficacy of liraglutide in a real-life cohort. In the Liraglutide Effect and Action in Diabetes (LEAD) randomized clinical trials (RCTs) assessing liraglutide in type 2 diabetes mellitus (T2DM), glycated hemoglobin (A1c) was reduced by 7-16 mmol/mol and weight by up to 3.4 kg. As real-life efficacy data on liraglutide is limited, the authors assessed clinical effects in a real-life cohort.",
+        "score": 0.356689453125,
+        "doi": "10.1007/s13300-014-0062-2",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2014",
+        "rerank_score": 5.471993923187256,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26744025",
+        "text": "Efficacy and safety of liraglutide 3.0 mg for weight management are similar across races: subgroup analysis across the SCALE and phase II randomized trials. The efficacy and safety of liraglutide 3.0 mg versus placebo, as adjunct to diet and exercise, was evaluated in racial subgroups. This post hoc analysis of pooled data from five double-blind randomized, placebo-controlled trials was conducted in 5325 adults with either a body mass index (BMI) ≥27 kg/m(2) plus ≥1 comorbidity or a BMI ≥30 kg/m(2). Statist",
+        "score": 0.34738266468048096,
+        "doi": "10.1111/dom.12632",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2015",
+        "rerank_score": 5.100223541259766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

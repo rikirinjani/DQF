@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Losartan adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39851122",
+        "text": "Exploring Drug-Drug Interactions between Losartan and Carbamazepine: A Pharmacokinetic and Pharmacodynamic Study. Hypertension, which affects 1.28 billion people globally aged 30 to 79, is characterized by continuously high blood pressure (140/90 or more) and raises the risk of premature death. Losartan, an angiotensin receptor blocker (ARB), is suggested for patients under the age of 55 who cannot take ACE inhibitors as a first treatment option. Epilepsy, a chronic neurological illness marked by repeated s",
+        "score": 0.46230506896972656,
+        "doi": "10.2174/0113892002358068250119052940",
+        "journal": "Current drug metabolism",
+        "year": "2024",
+        "rerank_score": 0.8980224132537842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40228628",
+        "text": "The safety profile of fluoroquinolones. While they are very useful agents, fluoroquinolones (FQs) are associated with a number of serious adverse effects (AEs). The objective of this paper is to describe the characteristics of frequent serious AEs related to FQs along with their risk factors, their safety in specific populations, and the main drug-drug interactions that may occur. Serious AEs commonly associated with FQs include tendon disorders (particularly tendinopathy and tendon rupture), CNS toxicity (",
+        "score": 0.4552760720252991,
+        "doi": "10.1016/j.idnow.2025.105064",
+        "journal": "Infectious diseases now",
+        "year": "2025",
+        "rerank_score": -1.45405912399292,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40274695",
+        "text": "Optimizing Blood Pressure Control: A Randomized Comparative Trial of Losartan/Chlorthalidone vs. Losartan/Hydrochlorothiazide. Cardiovascular diseases are a leading cause of global mortality, with hypertension as a major risk factor. Low control rates are often attributed to monotherapy, while evidence and clinical guidelines support the effectiveness of combination therapies. This study aimed to evaluate blood pressure changes and the achievement of target levels in patients treated with losartan/chlorthal",
+        "score": 0.4561103582382202,
+        "doi": "10.1007/s40119-025-00407-7",
+        "journal": "Cardiology and therapy",
+        "year": "2025",
+        "rerank_score": -1.4939714670181274,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Telmisartan comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39899873",
+        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
+        "score": 0.396825909614563,
+        "doi": "10.7326/ANNALS-24-00315",
+        "journal": "Annals of internal medicine",
+        "year": "2025",
+        "rerank_score": 2.5810253620147705,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12147926",
+        "text": "Comparison of telmisartan vs. valsartan in the treatment of mild to moderate hypertension using ambulatory blood pressure monitoring. A prospective, randomized, open-label, blinded end-point trial compared telmisartan and valsartan for treating mild to moderate hypertension. Efficacy for 24-hour control of blood pressure was assessed using ambulatory blood pressure monitoring. Mean changes in diastolic blood pressure for the last 6 hours before dosing and the nighttime period were significantly greater with",
+        "score": 0.39393654465675354,
+        "doi": "10.1111/j.1524-6175.2002.01586.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2002",
+        "rerank_score": 1.8612923622131348,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:21070920",
+        "text": "Effects of telmisartan added to Angiotensin-converting enzyme inhibitors on mortality and morbidity in hemodialysis patients with chronic heart failure a double-blind, placebo-controlled trial. the aim of this study was to determine whether telmisartan decreases all-cause and cardiovascular mortality and morbidity in hemodialysis patients with chronic heart failure (CHF) and impaired left ventricular ejection fraction (LVEF) when added to standard therapies with angiotensin-converting enzyme inhibitors.",
+        "score": 0.3888196349143982,
+        "doi": "10.1016/j.jacc.2010.03.105",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2009",
+        "rerank_score": 1.7634397745132446,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

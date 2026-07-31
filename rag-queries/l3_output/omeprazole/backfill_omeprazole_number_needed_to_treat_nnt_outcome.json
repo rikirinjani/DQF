@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Omeprazole number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:8174980",
+        "text": "Effect of omeprazole on intragastric bacterial counts, nitrates, nitrites, and N-nitroso compounds. Previous studies have suggested that profound inhibition of gastric acid secretion may increase exposure to potentially carcinogenic N-nitroso compounds. The aim of this study was to find out if the proton pump inhibitor omeprazole (20 mg daily) is associated with increased concentrations of potentially carcinogenic N-nitroso compounds in gastric juice. The volume of gastric contents, number of bacteria, and ",
+        "score": 0.45847392082214355,
+        "doi": "10.1136/gut.35.4.455",
+        "journal": "Gut",
+        "year": "1994",
+        "rerank_score": 1.0501399040222168,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40719247",
+        "text": "Evaluation of toxicological profile of omeprazole degradation impurities in an intravenous drug product: omeprazole-sulfone and omeprazole-N-oxide. Omeprazole (OMZ) is a widely used proton pump inhibitor for the treatment of acid-related gastrointestinal disorders. Degradation during the manufacture and storage of the drug substance or drug product may lead to the formation of impurities. When these impurities exceed the qualification threshold defined by ICH Q3B(R2), toxicological evaluation becomes essent",
+        "score": 0.4809889793395996,
+        "doi": "10.1080/01480545.2025.2537262",
+        "journal": "Drug and chemical toxicology",
+        "year": "2025",
+        "rerank_score": 0.2817523777484894,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38879949",
+        "text": "Analytical quality by design-based development of a capillary electrophoresis method for Omeprazole impurity profiling. Omeprazole (OME) is a proton pump inhibitor used to treat gastroesophageal reflux disease associated conditions. The current study presents an Analytical Quality by Design-based approach for the development of a CE method for OME impurity profiling. The scouting experiments suggested the selection of solvent modified Micellar ElectroKinetic Chromatography operative mode using a pseudostati",
+        "score": 0.4791961908340454,
+        "doi": "10.1016/j.jpba.2024.116295",
+        "journal": "Journal of pharmaceutical and biomedical analysis",
+        "year": "2024",
+        "rerank_score": 0.26357945799827576,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

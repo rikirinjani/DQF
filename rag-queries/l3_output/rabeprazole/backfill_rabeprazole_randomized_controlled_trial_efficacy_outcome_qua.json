@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Rabeprazole randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41286656",
+        "text": "Efficacy of 10 days high-dose and double-dose rabeprazole-based concomitant therapy for Helicobacter pylori eradication among Lebanese population: a pilot randomized controlled trial. The aim of this study is to optimize Helicobacter pylori (H. pylori) eradication by increasing the proton pump inhibitor (PPI) dose and reducing the treatment duration of antibiotics without compromising the treatment's safety and efficacy. This pilot randomized controlled trial included 120 patients from Notre Dame des Secour",
+        "score": 0.41688838601112366,
+        "doi": "10.1186/s12876-025-04478-7",
+        "journal": "BMC gastroenterology",
+        "year": "2025",
+        "rerank_score": 5.166687488555908,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38763935",
+        "text": "Efficacy and safety of brexpiprazole for the treatment of agitation in Alzheimer's disease: a meta-analysis of randomized controlled trials. Recent randomized controlled trials (RCTs) have shown a benefit of brexpiprazole in managing agitation in patients with Alzheimer's disease (AD). However, its efficacy and safety remain unclear. We systematically searched PubMed, Embase, and Cochrane Library for RCTs comparing brexpiprazole with placebo in patients with agitation and AD. Three studies comprising 1,048 ",
+        "score": 0.44034403562545776,
+        "doi": "10.1007/s10072-024-07576-8",
+        "journal": "Neurological sciences : official journal of the Italian Neurological Society and",
+        "year": "2024",
+        "rerank_score": 3.4299678802490234,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40209740",
+        "text": "Efficacy and safety of brexpiprazole in adolescents with schizophrenia: a multicountry, randomised, double-blind, placebo-controlled, phase 3 trial with an active reference. New treatment options are needed for adolescent schizophrenia, partly due to an unfavourable risk-benefit profile of current options. This trial aimed to evaluate the short-term efficacy and safety of brexpiprazole in adolescents with schizophrenia. This multicountry, randomised, double-blind, parallel-arm, placebo-controlled, phase 3 t",
+        "score": 0.4182450473308563,
+        "doi": "10.1016/S2215-0366(25)00043-4",
+        "journal": "The lancet. Psychiatry",
+        "year": "2024",
+        "rerank_score": 2.4821178913116455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

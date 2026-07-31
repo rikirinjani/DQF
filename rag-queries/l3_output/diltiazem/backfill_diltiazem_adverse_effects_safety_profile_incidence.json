@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Diltiazem adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39317559",
+        "text": "Safety and efficacy of a hybrid intravenous and oral diltiazem protocol for acute rate control in the emergency department.",
+        "score": 0.41149789094924927,
+        "doi": "10.1016/j.ajem.2024.09.047",
+        "journal": "The American journal of emergency medicine",
+        "year": "2024",
+        "rerank_score": -0.268072247505188,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39645457",
+        "text": "Reader comment regarding: Comparative safety and efficacy of a hybrid intravenous and oral diltiazem protocol for acute rate control in the emergency department.",
+        "score": 0.4175456166267395,
+        "doi": "10.1016/j.ajem.2024.11.095",
+        "journal": "The American journal of emergency medicine",
+        "year": "2024",
+        "rerank_score": -0.6601269841194153,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38925331",
+        "text": "Diltiazem, direct oral anticoagulants, and risk of major bleeding in patients with atrial fibrillation.",
+        "score": 0.40310466289520264,
+        "doi": "10.1016/j.hrthm.2024.06.040",
+        "journal": "Heart rhythm",
+        "year": "2024",
+        "rerank_score": -0.7565261125564575,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

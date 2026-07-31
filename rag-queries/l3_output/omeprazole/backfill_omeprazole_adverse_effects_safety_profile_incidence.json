@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Omeprazole adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:23745048",
+        "text": "Pharmacokinetic drug interaction profile of omeprazole with adverse consequences and clinical risk management. Omeprazole, a proton pump inhibitor (PPI), is widely used for the treatment of dyspepsia, peptic ulcer, gastroesophageal reflux disease, and functional dyspepsia. Polypharmacy is common in patients receiving omeprazole. Drug toxicity and treatment failure resulting from inappropriate combination therapy with omeprazole have been reported sporadically. Systematic review has not been available to add",
+        "score": 0.40234267711639404,
+        "doi": "10.2147/TCRM.S43151",
+        "journal": "Therapeutics and clinical risk management",
+        "year": "2013",
+        "rerank_score": 5.491204738616943,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2691313",
+        "text": "Omeprazole: long-term safety. Based on the experience from more than 10,000 individuals omeprazole has been found to be safe and is well tolerated. Side effects are few and do not differ from those observed during H2-blocker treatment. Effects on endocrine cells observed in animals during toxicological studies include increase of antral G cells, decrease of antral D cells and increase of fundic ECL cells. The increase of G cells and the decrease of D cells is the consequence of achlorhydria achieved by very",
+        "score": 0.4097658693790436,
+        "doi": "10.1159/000200107",
+        "journal": "Digestion",
+        "year": "1989",
+        "rerank_score": 4.921420097351074,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3460168",
+        "text": "Safety aspects of omeprazole. Omeprazole has been given to more than 2500 subjects, mostly in short-term studies for 2-4 weeks, but also to some patients for more than 2 years. An analysis of side-effects has so far not shown a specific pattern that could be attributed to the drug.",
+        "score": 0.404715895652771,
+        "doi": "10.3109/00365528609090915",
+        "journal": "Scandinavian journal of gastroenterology. Supplement",
+        "year": "1986",
+        "rerank_score": 3.949455738067627,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

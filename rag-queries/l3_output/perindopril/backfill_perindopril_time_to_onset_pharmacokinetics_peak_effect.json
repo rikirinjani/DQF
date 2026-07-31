@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Perindopril time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2076713",
+        "text": "The effect of perindopril and hydrochlorothiazide alone and in combination on blood pressure and on the renin-angiotensin system in hypertensive subjects. The pharmacodynamic effects and acceptability of perindopril (4 mg daily) and hydrochlorothiazide (25 mg daily) given alone or in combination for 1 month were investigated in a double-blind, placebo controlled, parallel group study. The pharmacokinetics of perindopril and its active metabolite perindoprilat and the time course of angiotensin converting en",
+        "score": 0.3595290184020996,
+        "doi": "10.1007/BF00315404",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1990",
+        "rerank_score": 1.9293354749679565,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40802044",
+        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
+        "score": 0.41075795888900757,
+        "doi": "10.1007/s40262-025-01559-4",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2025",
+        "rerank_score": -0.25446388125419617,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39017590",
+        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
+        "score": 0.36595994234085083,
+        "doi": "10.1002/prp2.1249",
+        "journal": "Pharmacology research & perspectives",
+        "year": "2024",
+        "rerank_score": -3.435129404067993,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

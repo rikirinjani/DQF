@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Indomethacin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39064929",
+        "text": "LDH-Indomethacin Nanoparticles Antitumoral Action: A Possible Coadjuvant Drug for Cancer Therapy. Indomethacin (INDO) has a mechanism of action based on inhibiting fatty acids cyclooxygenase activity within the inflammation process. The action mechanism could be correlated with possible anticancer activity, but its high toxicity in normal tissues has made therapy difficult. By the coprecipitation method, the drug carried in a layered double hydroxides (LDH) hybrid matrix would reduce its undesired effects b",
+        "score": 0.4153591990470886,
+        "doi": "10.3390/molecules29143353",
+        "journal": "Molecules (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": 5.582687854766846,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39619057",
+        "text": "Multifunctional Indomethacin Conjugates for the Development of Nanosystems Targeting Cancer Treatment. It is well known that the nonsteroidal anti-inflammatory drug (NSAID) indomethacin (IND) exhibits significant anticancer potential reported not only by in vitro and in vivo studies, but also in clinical trials. Despite promising results, IND is not widely used as an adjunctive agent in cancer therapy due to the occurrence of several gastrointestinal side effects, primarily after oral administration. Theref",
+        "score": 0.42124801874160767,
+        "doi": "10.2147/IJN.S477512",
+        "journal": "International journal of nanomedicine",
+        "year": "2024",
+        "rerank_score": 3.2469000816345215,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41542639",
+        "text": "Indomethacin exerts both cyclooxygenase inhibition-dependent and independent mechanisms to enhance chemo-immunotherapy in mice. Nonsteroidal anti-inflammatory drugs (NSAIDs) primarily act by inhibiting cyclooxygenases (COX1 and COX2), thereby reducing production of the proinflammatory mediator prostaglandin E₂ (PGE₂). Because PGE₂ is a critical driver of cancer progression and tumor immune evasion, this has motivated interest in combining NSAIDs with chemotherapy or immunotherapy for cancer treatment. Howev",
+        "score": 0.4200130105018616,
+        "doi": "10.64898/2026.01.07.698231",
+        "journal": "bioRxiv : the preprint server for biology",
+        "year": "2026",
+        "rerank_score": 2.5043208599090576,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

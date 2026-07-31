@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Liraglutide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41365837",
+        "text": "Comment on \"Effects of liraglutide treatment for 18 days on metabolic parameters, regional body composition and the myostatin-activin-follistatin-IGF-1 axis\".",
+        "score": 0.3596676290035248,
+        "doi": "10.1111/dom.70366",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 1.864115834236145,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39707524",
+        "text": "Effects of liraglutide on abdominal fat distribution and glucose metabolism in Chinese subjects with obesity. To observe the effects of liraglutide on abdominal fat distribution in Chinese subjects with obesity in 12 weeks, and further to explore the correlation between abdominal fat content and glucose metabolism after monotherapy. This study recruited 71 obese subjects. All the subjects have received liraglutide monotherapy (0.6 mg-1.8 mg/d) for 12 weeks. Clinical assessment, laboratory assays and magneti",
+        "score": 0.37454545497894287,
+        "doi": "10.1186/s13098-024-01540-4",
+        "journal": "Diabetology & metabolic syndrome",
+        "year": "2024",
+        "rerank_score": 1.359739065170288,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39512012",
+        "text": "[The GLP-1 analogue battle: effects of semaglutide 0,5 mg/weekly versus liraglutide 3 mg/daily on anthropometric parameters after 3 months in a real world-scenario]. Background: the prevalence of obesity is reaching a pandemic status. The SCALE trials showed that liraglutide 3 mg among people with obesity (PwO) was effective to reduce bodyweight and related complications. The fact that almost two-thirds of patients did not achieve the desired weight loss with the maximum dose of liraglutide made almost mand",
+        "score": 0.36482009291648865,
+        "doi": "10.20960/nh.05244",
+        "journal": "Nutricion hospitalaria",
+        "year": "2024",
+        "rerank_score": -1.6984753608703613,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

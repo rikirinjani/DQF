@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Hydrochlorothiazide blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38853071",
+        "text": "Diuretics use in the management of hypertension. Diuretics have been used for decades in the treatment of hypertension. Its efficacy has been demonstrated in numerous clinical trials. It is well known that the reduction in cardiovascular risk is a consequence of the reduction in blood pressure levels regardless of the drug used, but thiazide diuretics continue to be first-line drugs, especially in low doses and combined with other drugs. The debate on the advantages of using chlorthalidone or hydrochlorothi",
+        "score": 0.3956034779548645,
+        "doi": "10.1016/j.hipert.2024.03.004",
+        "journal": "Hipertension y riesgo vascular",
+        "year": "2024",
+        "rerank_score": 6.537675857543945,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39124839",
+        "text": "Efficacy and Safety of Low-Dose Bisoprolol/Hydrochlorothiazide Combination for the Treatment of Hypertension: A Systematic Review and Meta-Analysis.",
+        "score": 0.41713038086891174,
+        "doi": "10.3390/jcm13154572",
+        "journal": "Journal of clinical medicine",
+        "year": "2024",
+        "rerank_score": 6.208403587341309,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40659924",
+        "text": "Effectiveness of single-pill combination olmesartan/amlodipine/hydrochlorothiazide therapy in patients with apparent resistant hypertension. This pioneering study investigated the real-life effectiveness of single-pill combination (SPC) antihypertensive therapy in patients with uncontrolled blood pressure (BP) and cardiovascular risk factors. After treatment with olmesartan medoxomil/amlodipine besylate/hydrochlorothiazide for 24 weeks, adults with apparent resistant hypertension had significantly reduced s",
+        "score": 0.43613994121551514,
+        "doi": "10.1038/s41371-025-01043-3",
+        "journal": "Journal of human hypertension",
+        "year": "2025",
+        "rerank_score": 6.184376239776611,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

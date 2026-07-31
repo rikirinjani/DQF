@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Telmisartan blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39480548",
+        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
+        "score": 0.38191574811935425,
+        "doi": "10.1007/s00204-024-03901-4",
+        "journal": "Archives of toxicology",
+        "year": "2024",
+        "rerank_score": 6.963498115539551,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41222871",
+        "text": "Low-Dose Triple-Pill of Telmisartan, Amlodipine, and Indapamide for Initial Hypertension Treatment: A GRADE-Assessed Meta-analysis of Randomized Trials. FDA-approved GMRx2, a single-pill combination of telmisartan, amlodipine, and indapamide, has shown potential for improving blood pressure (BP) control. We assessed the efficacy and safety of low-dose GMRx2 compared to placebo, or standard-care (monotherapy or dual therapy) in mild to moderate hypertension. A meta-analysis of randomized controlled trials (R",
+        "score": 0.4117029309272766,
+        "doi": "10.1007/s40292-025-00751-8",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
+        "year": "2025",
+        "rerank_score": 6.459823131561279,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41489682",
+        "text": "Evaluation of Effectiveness and Safety of Telmisartan and Amlodipine Fixed-Dose Combination in Indian Patients with Hypertension: TACT-India Study. Hypertension is a major global health burden associated with significant cardiovascular morbidity and mortality. Fixed-dose combinations (FDC) may improve blood pressure (BP) control and prevent associated complications. This study aimed to evaluate the effectiveness and safety of telmisartan and amlodipine FDC in Indian patients with hypertension. This prospect",
+        "score": 0.3681528568267822,
+        "doi": "10.1007/s40801-025-00534-6",
+        "journal": "Drugs - real world outcomes",
+        "year": "2025",
+        "rerank_score": 6.014139652252197,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

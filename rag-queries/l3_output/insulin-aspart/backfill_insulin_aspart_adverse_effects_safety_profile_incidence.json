@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Insulin Aspart adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41293743",
+        "text": "Efficacy and safety of insulin degludec/aspart in patients with type 2 and type 1 diabetes mellitus: real-world evidence from Indonesia. Real-world studies on insulin degludec/aspart (IDegAsp) have been conducted in some Southeast Asian populations; however, data specific to Indonesia remain limited. The aim of this study was to evaluate the efficacy, safety profiles, and real-world clinical experience of IDegAsp after five years of implementation in diabetes care in Indonesia. This five-year, single-center",
+        "score": 0.3778005540370941,
+        "doi": "10.3389/fendo.2025.1690169",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 3.3546063899993896,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40356973",
+        "text": "Adverse drug events associated with insulin glargine: a real-world pharmacovigilance study based on the FAERS database. Insulin glargine is a long-acting drug and the first synthetic insulin to mimic human metabolism. The safety of insulin glargine in the real world remains to be further investigated. This study aims to analyze insulin glargine-related adverse events (ADEs) to guide its safe clinical use. This study collected ADE reports from the FDA Adverse Event Reporting System (FAERS) between the first ",
+        "score": 0.40974363684654236,
+        "doi": "10.3389/fphar.2025.1563238",
+        "journal": "Frontiers in pharmacology",
+        "year": "2025",
+        "rerank_score": 1.6641076803207397,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:24404468",
+        "text": "Clinical experience with insulin detemir, biphasic insulin aspart and insulin aspart in people with type 2 diabetes: Results from the Marrakech cohort of the A1chieve study. The A1chieve, a multicentric (28 countries), 24-week, non-interventional study evaluated the safety and effectiveness of insulin detemir, biphasic insulin aspart and insulin aspart in people with T2DM (n = 66,726) in routine clinical care across four continents.",
+        "score": 0.3739352226257324,
+        "doi": "10.4103/2230-8210.122041",
+        "journal": "Indian journal of endocrinology and metabolism",
+        "year": "2014",
+        "rerank_score": 1.5363749265670776,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

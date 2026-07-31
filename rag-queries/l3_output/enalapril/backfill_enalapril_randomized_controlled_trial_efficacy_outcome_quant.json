@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Enalapril randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40404011",
+        "text": "Efficacy and Safety of Enalapril and Propranolol on Neurologic Recovery After Isolated Severe Traumatic Brain Injury: A Randomized Clinical Trial. It has been hypothesized that propranolol and enalapril can provide cardiovascular stability without any negative impact on neurologic recovery after severe traumatic brain injury (TBI). Although propranolol and enalapril have been proposed to have beneficial effects as cardiovascular stabilizers in TBI, many neurologic effects remain obscure. We hypothesized whi",
+        "score": 0.4042862057685852,
+        "doi": "10.1016/j.wneu.2025.124078",
+        "journal": "World neurosurgery",
+        "year": "2024",
+        "rerank_score": 4.4316277503967285,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15617456",
+        "text": "Comparison of the efficacy and tolerability of telmisartan 40 mg vs. enalapril 10 mg in the treatment of mild-to-moderate hypertension: a multicentre, double-blind study in Taiwanese patients. The purpose of this randomised, double-blind, double-dummy, parallel-group study was to evaluate the efficacy and tolerability of telmisartan 40 mg once daily vs. enalapril 10 mg once daily in 147 Taiwanese patients with mild-to-moderate essential hypertension (diastolic blood pressure [DBP] 90-109 mmHg). After 6 week",
+        "score": 0.3758584260940552,
+        "doi": "10.1111/j.1742-1241.2004.00407.x",
+        "journal": "International journal of clinical practice. Supplement",
+        "year": "2004",
+        "rerank_score": 1.5041536092758179,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2558622",
+        "text": "[Evaluation of the effectiveness of a cicletanine-enalapril combination in hypertensive patients]. In this multicentre controlled single blind trial the effectiveness and safety of cicletanine (100 mg/day) were compared with those of enalapril (20 mg/day) and of the combination of both drugs in the same doses in 72 patients (41 men, 31 women, mean age 64.1 +/- 8.3 years) with permanent moderate essential hypertension without severe cardiovascular complications. In the course of the trial, one patient in eac",
+        "score": 0.3759249448776245,
+        "doi": "",
+        "journal": "Archives des maladies du coeur et des vaisseaux",
+        "year": "1989",
+        "rerank_score": 1.0461723804473877,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

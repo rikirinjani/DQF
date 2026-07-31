@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Dulaglutide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28817231",
+        "text": "Effect of once-weekly dulaglutide on glycated haemoglobin (HbA1c) and fasting blood glucose in patient subpopulations by gender, duration of diabetes and baseline HbA1c. To evaluate the efficacy and safety of dulaglutide 1.5 and 0.75 mg in patients with type 2 diabetes by subgroups of gender, duration of diabetes and baseline glycated haemoglobin (HbA1c) in the dulaglutide clinical development programme (AWARD-1 to -6 and -8 clinical trials).",
+        "score": 0.40586161613464355,
+        "doi": "10.1111/dom.13086",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2017",
+        "rerank_score": 3.614771604537964,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35546279",
+        "text": "Efficacy and safety outcomes of dulaglutide by baseline HbA1c: A post hoc analysis of the REWIND trial. To assess cardiovascular, glycaemic, weight and safety outcomes of long-term treatment with dulaglutide 1.5 mg compared with placebo in patients with a baseline HbA1c of less than 7% versus 7% or higher.",
+        "score": 0.40352320671081543,
+        "doi": "10.1111/dom.14760",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2022",
+        "rerank_score": 3.3359150886535645,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:32277401",
+        "text": "Efficacy and Safety of Dulaglutide by Baseline HbA1c in Chinese Patients with Type 2 Diabetes: A Post Hoc Analysis. To evaluate the efficacy and safety of dulaglutide 0.75 and 1.5 mg in patients with type 2 diabetes mellitus (T2DM) by baseline glycated hemoglobin (HbA1c) < 8.5% or ≥ 8.5% after 26 weeks of treatment.",
+        "score": 0.40537768602371216,
+        "doi": "10.1007/s13300-020-00804-2",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2019",
+        "rerank_score": 2.894622325897217,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

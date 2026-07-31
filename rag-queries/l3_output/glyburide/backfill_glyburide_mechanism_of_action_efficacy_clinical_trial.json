@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Glyburide mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:32167222",
+        "text": "Glyburide attenuates ozone-induced pulmonary inflammation and injury by blocking the NLRP3 inflammasome. Glyburide is a classic antidiabetic drug that is dominant in inflammation regulation, but its specific role in ozone-induced lung inflammation and injury remains unclear. In order to investigate whether glyburide prevents ozone-induced pulmonary inflammation and its mechanism, C57BL/6 mice were intratracheally pre-instilled with glyburide or the vehicle 1 hour before ozone (1 ppm, 3 hours) or filtered ai",
+        "score": 0.3790924549102783,
+        "doi": "10.1002/tox.22919",
+        "journal": "Environmental toxicology",
+        "year": "2019",
+        "rerank_score": 0.789669930934906,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38977270",
+        "text": "A pharmacokinetic-pharmacodynamic analysis of l-glutamine for the treatment of sickle cell disease: Implications for understanding the mechanism of action and evaluating response to therapy. The mechanisms of action of l-glutamine for the treatment of sickle cell disease (SCD) are not well understood and there are no validated clinical biomarkers to assess response. We conducted a three-week, dose-ascending trial of glutamine and measured the pharmacokinetic (PK) exposure parameters, peak concentration (C",
+        "score": 0.40916916728019714,
+        "doi": "10.1111/bjh.19632",
+        "journal": "British journal of haematology",
+        "year": "2024",
+        "rerank_score": 0.4677277207374573,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41103057",
+        "text": "The Analytical Evolution of Glibenclamide (Glyburide) Antidiabetic Agents: Analytical Tools, Challenges, and Future Trends. Glyburide (glibenclamide), a second-generation sulfonylurea, remains a cornerstone in the management of type 2 diabetes mellitus. However, its narrow therapeutic index and typically low plasma concentrations demand highly sensitive and reliable quantification methods for applications spanning pharmacokinetics, therapeutic drug monitoring, clinical diagnostics, pharmaceutical quality co",
+        "score": 0.41811418533325195,
+        "doi": "10.1080/10408347.2025.2573125",
+        "journal": "Critical reviews in analytical chemistry",
+        "year": "2025",
+        "rerank_score": 0.33830007910728455,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

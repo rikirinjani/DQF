@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Metoprolol blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39611070",
+        "text": "Efficacy of Different Beta Blockers in Reducing Mortality in Heart-Failure Patients. This study evaluated the comparative efficacy of different beta blockers bisoprolol, carvedilol, and metoprolol in reducing mortality and hospitalizations among 120 heart-failure (HF) patients. The sample had an equal gender distribution (50% male, 50% female) with a mean age of 69.28 years. Baseline characteristics, such as systolic blood pressure (mean: 134.36 mmHg) and left ventricular ejection fraction (LVEF) (mean: 40.",
+        "score": 0.37280166149139404,
+        "doi": "10.7759/cureus.74171",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 5.679294109344482,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39124839",
+        "text": "Efficacy and Safety of Low-Dose Bisoprolol/Hydrochlorothiazide Combination for the Treatment of Hypertension: A Systematic Review and Meta-Analysis.",
+        "score": 0.3880784809589386,
+        "doi": "10.3390/jcm13154572",
+        "journal": "Journal of clinical medicine",
+        "year": "2024",
+        "rerank_score": 4.329174518585205,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38941270",
+        "text": "Clinical outcome in hypertensive patients treated with amlodipine plus bisoprolol or plus valsartan. Several guidelines do not recommend beta-blocker as the first-line treatment for hypertension because of its inferior efficacy in stroke prevention. Combination therapy with beta-blocker is commonly used for blood pressure control. We compared the clinical outcomes in patients treated with amlodipine plus bisoprolol (A + B), a ß1-selective beta-blocker and amlodipine plus valsartan (A + V). A population-base",
+        "score": 0.4202156066894531,
+        "doi": "10.1080/03007995.2024.2374514",
+        "journal": "Current medical research and opinion",
+        "year": "2024",
+        "rerank_score": 3.9691622257232666,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

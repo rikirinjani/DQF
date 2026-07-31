@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Linagliptin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35103456",
+        "text": "The effectiveness and safety of linagliptin within elderly type 2 diabetes mellitus: a meta-analysis and systematic review. Linagliptin is a convenient and effective drug approved for glycemic management in type 2 diabetes mellitus (T2DM). However, the effectiveness and safety evidence of linagliptin remains unclear with the increasing prevalence of T2DM in elderly patients.",
+        "score": 0.3895638585090637,
+        "doi": "10.23736/S2724-6507.22.03661-2",
+        "journal": "Minerva endocrinology",
+        "year": "2025",
+        "rerank_score": 4.3219170570373535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39295934",
+        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
+        "score": 0.40688109397888184,
+        "doi": "10.3389/fphar.2024.1418826",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 3.968855381011963,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38976545",
+        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
+        "score": 0.4065929651260376,
+        "doi": "10.1097/MJT.0000000000001743",
+        "journal": "American journal of therapeutics",
+        "year": "2024",
+        "rerank_score": 3.601142168045044,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

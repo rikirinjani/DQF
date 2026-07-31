@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Bisoprolol time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38886107",
+        "text": "Impact of CYP2D6*2A, CYP2D6*4 and CYP3A5*3 genetic polymorphisms on Bisoprolol peak concentration and clinical response in acute coronary syndrome patients. Acute coronary syndrome (ACS) represents a major cause of death. Bisoprolol is commonly used in the management of ACS. This study aims to investigate the impact of CYP2D6*2A, CYP2D6*4 and CYP3A5*3 genetic polymorphisms on pharmacokinetics and clinical response of bisoprolol in ACS patients. This is an open-label cohort study that included 127 ACS patien",
+        "score": 0.41116461157798767,
+        "doi": "10.1111/bcp.16134",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 2.9460766315460205,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40145551",
+        "text": "Bioequivalence of China- and Germany-manufactured bisoprolol (Concor The bioequivalence of Concor This single-center, open-label, randomized, two-period, two-sequence, crossover trial (28 February 2023-19 May 2023) compared the pharmacokinetics and safety of bisoprolol 5-mg tablets manufactured in China (test product) with those of bisoprolol 5-mg tablets manufactured in Germany (reference product) in healthy Chinese adults under fasted and fed conditions. Primary endpoints were C The mean (coefficient of v",
+        "score": 0.3926989436149597,
+        "doi": "10.3389/fphar.2025.1527623",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": -1.642458200454712,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39871139",
+        "text": "Pharmacokinetics and pharmacodynamics of ciprofol after continuous infusion in elderly patients. Ciprofol, a novel intravenous anesthetic, which has primarily been used for the induction and maintenance of general anesthesia in adults, is characterized by rapid onset, short duration of action, and quick and smooth recovery. However, the pharmacokinetic characteristics of continuous infusions and the correlation between the plasma concentration and the bispectral index (BIS) in elderly patients are still unk",
+        "score": 0.40112584829330444,
+        "doi": "10.1186/s12871-025-02907-4",
+        "journal": "BMC anesthesiology",
+        "year": "2024",
+        "rerank_score": -1.9219392538070679,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Metoprolol time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39398601",
+        "text": "Effect of Ginkgo tablets on the pharmacokinetics of metoprolol in rats: liquid chromatography-tandem mass spectrometry-based study. This study aimed to assess the interaction between metoprolol and Ginkgo tablets during their co-administration to provide a reference for clinical prescribing. The co-administration of metoprolol (20 mg/kg) and Ginkgo tablets (2.4 mg/kg) was conducted in adult Sprague Dawley (SD) rats (n = 8). An optimized liquid chromatography-tandem mass spectrometry (LC-MS/MS) method was de",
+        "score": 0.38893502950668335,
+        "doi": "10.62347/WUSG1450",
+        "journal": "American journal of translational research",
+        "year": "2024",
+        "rerank_score": 0.02581869065761566,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39425043",
+        "text": "A higher peak heart rate during head-up tilt test predicts the therapeutic efficacy of metoprolol in vasovagal syncope. Although beta blockers, such as metoprolol, have been widely used in the management of vasovagal syncope (VVS), their efficacy remains debated, with larger studies showing limited benefit. Identifying patient-specific characteristics that predict a positive response to metoprolol could optimize its use. This study aims to investigate the key factors that may determine which VVS patients ar",
+        "score": 0.41303855180740356,
+        "doi": "10.1186/s12872-024-04249-4",
+        "journal": "BMC cardiovascular disorders",
+        "year": "2024",
+        "rerank_score": -0.3282421827316284,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41392923",
+        "text": "Understanding variation in metoprolol response: CYP2D6, drug interactions, and phenoconversion. Metoprolol, a β1-selective blocker, is widely used for treating cardiovascular and non-cardiovascular conditions. Its pharmacokinetics (PK) and pharmacodynamics (PD) vary significantly between individuals, in part due to CYP2D6 genetic polymorphisms. Co-administration of CYP2D6 inhibitors can lead to phenotype-genotype discordance, known as phenoconversion, resulting in clinically significant changes in metoprolo",
+        "score": 0.42397478222846985,
+        "doi": "10.1080/14622416.2025.2597182",
+        "journal": "Pharmacogenomics",
+        "year": "2026",
+        "rerank_score": -0.49754002690315247,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

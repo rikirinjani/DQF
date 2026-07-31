@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Doxazosin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15705083",
+        "text": "The clinical efficacy and tolerability of doxazosin standard and gastrointestinal therapeutic system for benign prostatic hyperplasia. The therapeutic goal of treating benign prostatic hyperplasia (BPH) through early detection and effective therapy is to relieve the symptoms, improve patients' quality of life, decrease postvoid residual urine volume, and prevent the associated morbidity when the condition remains untreated. Alpha1-adrenoreceptor antagonists, e.g. doxazosin, terazosin, tamsulosin and alfuzos",
+        "score": 0.3904012441635132,
+        "doi": "10.1111/j.1464-410X.2005.05342.x",
+        "journal": "BJU international",
+        "year": "2005",
+        "rerank_score": 4.537810802459717,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41042258",
+        "text": "A double-blind, randomized, placebo-controlled trial of doxazosin for posttraumatic distressing dreams and sleep disturbance in men and women with posttraumatic stress. Distressing dreams and sleep disturbance more broadly are core features of posttraumatic stress disorder. Effective treatments remain elusive. Doxazosin is an alpha-1 adrenergic blocker with demonstrated promise for posttraumatic stress disorder, but there is a dearth of evidence from randomized controlled trials. The current randomized, dou",
+        "score": 0.4071408212184906,
+        "doi": "10.5664/jcsm.11908",
+        "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American",
+        "year": "2026",
+        "rerank_score": 3.173866033554077,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40276655",
+        "text": "Metabolomic profiling and biomarker identification for early detection and therapeutic targeting of doxorubicin-induced cardiotoxicity. Doxorubicin (DOX) is a widely used chemotherapeutic agent known for its efficacy against various cancers, but its clinical application is often limited by its cardiotoxic effects. The exact mechanisms of DOX-induced cardiotoxicity remain unclear, requiring further investigation. Early diagnosis is essential to enhance the quality of life and prognosis for patients with mali",
+        "score": 0.4075203835964203,
+        "doi": "10.3389/fcell.2025.1543636",
+        "journal": "Frontiers in cell and developmental biology",
+        "year": "2024",
+        "rerank_score": 2.076650619506836,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

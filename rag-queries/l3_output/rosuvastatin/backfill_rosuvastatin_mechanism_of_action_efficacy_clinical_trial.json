@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Rosuvastatin mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41073206",
+        "text": "Efficacy and Safety of Rosuvastatin/Amlodipine FDC in Patients With Hypertension and Dyslipidemia: A Multicenter, Prospective, Observational Study. A fixed-dose combination of rosuvastatin and amlodipine (Ros/Aml) offers a simplified approach to simultaneously address hypertension and dyslipidemia. While pivotal trials have demonstrated the efficacy and safety of this regimen, real-world evidence on its clinical outcomes related to major adverse cardiovascular and cerebrovascular events (MACCE) had been lim",
+        "score": 0.37637972831726074,
+        "doi": "10.1016/j.clinthera.2025.09.012",
+        "journal": "Clinical therapeutics",
+        "year": "2025",
+        "rerank_score": 4.911227226257324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17582281",
+        "text": "[The efficacy and safety of rosuvastatin on treating patients with hypercholesterolemia in Chinese: a randomized, double-blind, multi-center clinical trial]. This study was designed to evaluate the efficacy and safety of rosuvastatin on treating Chinese patients with hypercholesterolemia.",
+        "score": 0.37813133001327515,
+        "doi": "",
+        "journal": "Zhonghua xin xue guan bing za zhi",
+        "year": "2007",
+        "rerank_score": 4.679166316986084,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17338663",
+        "text": "The GALAXY Program: an update on studies investigating efficacy and tolerability of rosuvastatin for reducing cardiovascular risk. The GALAXY Program is a series of clinical studies investigating the efficacy and tolerability of rosuvastatin in line with the hypothesis that the statin with the greatest efficacy for improving the atherogenic lipid profile and beneficially modifying inflammatory markers will also slow progression of atherosclerosis and improve cardiovascular outcomes. Completed studies report",
+        "score": 0.3738434314727783,
+        "doi": "10.1586/14779072.5.2.177",
+        "journal": "Expert review of cardiovascular therapy",
+        "year": "2007",
+        "rerank_score": 4.168500900268555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

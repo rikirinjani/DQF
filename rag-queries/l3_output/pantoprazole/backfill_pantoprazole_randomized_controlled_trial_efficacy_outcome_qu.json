@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Pantoprazole randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38875111",
+        "text": "Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation. Whether proton-pump inhibitors are beneficial or harmful for stress ulcer prophylaxis in critically ill patients undergoing invasive ventilation is unclear. In this international, randomized trial, we assigned critically ill adults who were undergoing invasive ventilation to receive intravenous pantoprazole (at a dose of 40 mg daily) or matching placebo. The primary efficacy outcome was clinically important upper gastrointestinal bleeding in t",
+        "score": 0.39959508180618286,
+        "doi": "10.1056/NEJMoa2404245",
+        "journal": "The New England journal of medicine",
+        "year": "2024",
+        "rerank_score": 4.0156049728393555,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39539895",
+        "text": "Comparative Efficacy of Dexlansoprazole, Pantoprazole, Esomeprazole, and Rabeprazole in Achieving Optimal 24-Hour Intragastric pH Control: A Randomized Crossover Study Using Ambulatory pH Monitoring. Proton pump inhibitors (PPIs) regulate gastric acid reflux. Dexlansoprazole's efficacy in prolonging acid suppression compared to conventional PPIs and placebo requires evaluation. A prospective, randomized, placebo-controlled, five-way crossover pilot study was conducted on healthy volunteers comparing the pot",
+        "score": 0.39541172981262207,
+        "doi": "10.7759/cureus.71418",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 3.8629062175750732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40984972",
+        "text": "Comparative efficacy and safety of vonoprazan versus esomeprazole-based high-dose dual therapies for first-line  Effective  To compare the efficacy of 14-day vonoprazan-based (VA) and esomeprazole-based (EA) HDDT for  Randomized controlled trial (RCT). A total of 121 patients with confirmed  Baseline demographic and clinical characteristics were comparable between the VA and EA groups. In the intention-to-treat analysis, eradication rates were 86.9% (95% confidence interval (CI): 78.4%-95.4%) in the VA grou",
+        "score": 0.4003593623638153,
+        "doi": "10.1177/17562848251378066",
+        "journal": "Therapeutic advances in gastroenterology",
+        "year": "2025",
+        "rerank_score": 2.2348639965057373,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

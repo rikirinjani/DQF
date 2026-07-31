@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Carvedilol randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15144935",
+        "text": "Carvedilol prospective randomized cumulative survival (COPERNICUS) trial: carvedilol in severe heart failure. The impact of carvedilol on the survival of patients with severe heart failure was examined in the Carvedilol Prospective Randomized Cumulative Survival (COPERNICUS) trial. The trial recruited 2,289 patients with symptoms at rest or on minimal exertion despite therapy with angiotensin-converting enzyme inhibitors and a left ventricular ejection fraction of < or = 0.25. After an average follow-up per",
+        "score": 0.38998937606811523,
+        "doi": "10.1016/j.amjcard.2004.01.004",
+        "journal": "The American journal of cardiology",
+        "year": "2004",
+        "rerank_score": 4.587741851806641,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40172740",
+        "text": "Risk-guided cardioprotection with carvedilol in patients with breast cancer (CCT guide): a phase 1 randomized clinical trial. Breast cancer treatment results in increased cardiotoxicity risk; a risk-guided approach to cardioprotection has not been fully tested. This single-center, randomized Phase I trial enrolled patients with Stage I-III breast cancer who planned to receive anthracycline and/or trastuzumab therapy. An internally validated cardiotoxicity risk score classified participants as low or elevate",
+        "score": 0.40045225620269775,
+        "doi": "10.1007/s10549-025-07636-3",
+        "journal": "Breast cancer research and treatment",
+        "year": "2024",
+        "rerank_score": 4.248311996459961,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:12228773",
+        "text": "The Pediatric Randomized Carvedilol Trial in Children with Heart Failure: rationale and design. Carvedilol is a medication with both beta-receptor and alpha-receptor blocking properties that has been approved for the treatment of heart failure in adults. Little is known about its safety, efficacy, pharmacokinetics, and dosing profile in children.",
+        "score": 0.38835465908050537,
+        "doi": "10.1067/mhj.2002.124402",
+        "journal": "American heart journal",
+        "year": "2002",
+        "rerank_score": 3.846496820449829,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

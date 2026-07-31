@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Insulin Degludec mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:29423761",
+        "text": "Comparative safety and efficacy of insulin degludec with insulin glargine in type 2 and type 1 diabetes: a meta-analysis of randomized controlled trials. To determine the safety and efficacy of insulin degludec versus glargine in patients with type 1 (T1D) and type 2 (T2D) diabetes mellitus.",
+        "score": 0.35035210847854614,
+        "doi": "10.1007/s00592-018-1107-1",
+        "journal": "Acta diabetologica",
+        "year": "2017",
+        "rerank_score": 4.499560356140137,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39254740",
+        "text": "Insulin Efsitora versus Degludec in Type 2 Diabetes without Previous Insulin Treatment. Insulin efsitora alfa (efsitora) is a new basal insulin designed for once-weekly administration. Data on safety and efficacy have been limited to small, phase 1 or phase 2 trials. We conducted a 52-week, phase 3, parallel-design, open-label, treat-to-target trial involving adults with type 2 diabetes who had not previously received insulin. Participants were randomly assigned in a 1:1 ratio to receive efsitora or deglude",
+        "score": 0.37910008430480957,
+        "doi": "10.1056/NEJMoa2403953",
+        "journal": "The New England journal of medicine",
+        "year": "2024",
+        "rerank_score": 4.007816791534424,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41293743",
+        "text": "Efficacy and safety of insulin degludec/aspart in patients with type 2 and type 1 diabetes mellitus: real-world evidence from Indonesia. Real-world studies on insulin degludec/aspart (IDegAsp) have been conducted in some Southeast Asian populations; however, data specific to Indonesia remain limited. The aim of this study was to evaluate the efficacy, safety profiles, and real-world clinical experience of IDegAsp after five years of implementation in diabetes care in Indonesia. This five-year, single-center",
+        "score": 0.3834908902645111,
+        "doi": "10.3389/fendo.2025.1690169",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": 3.974311113357544,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

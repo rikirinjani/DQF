@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Atenolol randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39831760",
+        "text": "Effect of a calcium-channel blocker and β-blocker combination on reading-to-reading blood pressure variability: a randomized crossover trial. The objective of this study was to investigate the efficacy of the nitrendipine/atenolol combination in comparison with standard-dose nitrendipine or atenolol monotherapy in reducing blood pressure (BP) and blood pressure variability (BPV) as assessed by ambulatory BP monitoring. In a randomized, crossover trial, 32 patients (30-65 years) with grade 1 hypertension and",
+        "score": 0.4140762984752655,
+        "doi": "10.1097/MBP.0000000000000736",
+        "journal": "Blood pressure monitoring",
+        "year": "2025",
+        "rerank_score": 4.170874118804932,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40345955",
+        "text": "Efficacy of a Digitally Supported Intervention for Children and Adolescents With Difficult-to-control Asthma (INSPIRINGKIDS): Results From a Multicentre Randomized Controlled Trial.",
+        "score": 0.424560010433197,
+        "doi": "10.1016/j.arbres.2025.04.004",
+        "journal": "Archivos de bronconeumologia",
+        "year": "2024",
+        "rerank_score": -0.23713740706443787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.4023529887199402,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -2.044945478439331,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

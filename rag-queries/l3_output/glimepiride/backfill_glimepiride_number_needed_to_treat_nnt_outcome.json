@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Glimepiride number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:20950126",
+        "text": "The number needed to treat for second-generation biologics when treating established rheumatoid arthritis: a systematic quantitative review of randomized controlled trials. To evaluate the number needed to treat (NNT) and the number needed to harm (NNH) of the second-generation biologics abatacept, certolizumab, golimumab, rituximab, and tocilizumab in patients with established rheumatoid arthritis (RA) taking concomitant methotrexate (MTX).",
+        "score": 0.46655505895614624,
+        "doi": "10.3109/03009742.2010.491834",
+        "journal": "Scandinavian journal of rheumatology",
+        "year": "2010",
+        "rerank_score": 3.3377671241760254,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.5036982893943787,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.929603099822998,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19372447",
+        "text": "Treatment time-specific number needed to treat estimates for tissue plasminogen activator therapy in acute stroke based on shifts over the entire range of the modified Rankin Scale. To make informed treatment decisions, patients and physicians need to be aware of the benefits and risks of a proposed treatment. The number needed to treat (NNT) for benefit and harm are intuitive and statistically valid measures to describe a treatment effect. The aim of this study is to calculate treatment time-specific NNT e",
+        "score": 0.4684572219848633,
+        "doi": "10.1161/STROKEAHA.108.540708",
+        "journal": "Stroke",
+        "year": "2009",
+        "rerank_score": 1.5958627462387085,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

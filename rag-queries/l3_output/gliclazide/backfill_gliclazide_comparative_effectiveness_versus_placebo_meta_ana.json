@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Gliclazide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39899873",
+        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
+        "score": 0.43448406457901,
+        "doi": "10.7326/ANNALS-24-00315",
+        "journal": "Annals of internal medicine",
+        "year": "2025",
+        "rerank_score": 1.598791480064392,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39920066",
+        "text": "Beneficial and harmful effects of duloxetine versus placebo, 'active placebo' or no intervention for adults with major depressive disorder: a systematic review with meta-analysis and trial sequential analysis of randomised clinical trials. To assess the beneficial and harmful effects of duloxetine versus 'active placebo', placebo or no intervention for adults with major depressive disorder. Systematic review with meta-analysis and trial sequential analysis of randomised trials. Cochrane Central Register of ",
+        "score": 0.4405946433544159,
+        "doi": "10.1136/bmjopen-2023-082853",
+        "journal": "BMJ open",
+        "year": "2025",
+        "rerank_score": 1.1353802680969238,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38294337",
+        "text": "Real-world evidence on the effectiveness and safety of gliclazide MR 60 mg in Bangladeshi patients with Type II diabetes during fasting: a sub-analysis from the global DIA-RAMADAN study.",
+        "score": 0.4324273467063904,
+        "doi": "10.57264/cer-2023-0132",
+        "journal": "Journal of comparative effectiveness research",
+        "year": "2024",
+        "rerank_score": 0.7463982105255127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

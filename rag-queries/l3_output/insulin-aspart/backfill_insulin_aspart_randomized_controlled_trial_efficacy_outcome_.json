@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Insulin Aspart randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:25535536",
+        "text": "A Randomized Clinical Trial of Insulin Glargine and Aspart, Compared to NPH and Regular Insulin in Children with Type 1 Diabetes Mellitus. Appropriate treatment of patients with Type 1 diabetes mellitus (T1DM) is necessary to avoid further complications. This study was performed to compare the efficacy of insulin Glargine and Aspart with NPH insulin and regular insulin regimen in a group of children with T1DM.",
+        "score": 0.36467245221138,
+        "doi": "",
+        "journal": "Iranian journal of pediatrics",
+        "year": "2013",
+        "rerank_score": 4.042117595672607,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41269878",
+        "text": "Efficacy and safety of insulin degludec/insulin aspart biosimilar B01711 vs originator insulin degludec/insulin aspart in Chinese patients with type 2 diabetes inadequately controlled on basal or premixed insulin: A multicenter, randomized, open-label, phase 3 study. To compare the efficacy and safety of insulin degludec/insulin aspart biosimilar B01711 (HS-IDegAsp) with originator insulin degludec/insulin aspart-Ryzodeg (NN-IDegAsp) in Chinese patients with type 2 diabetes mellitus (T2DM) who were inadequa",
+        "score": 0.37784141302108765,
+        "doi": "10.1111/jdi.70175",
+        "journal": "Journal of diabetes investigation",
+        "year": "2025",
+        "rerank_score": 3.73353910446167,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41474029",
+        "text": "A Digital Diabetes Clinic Intervention for Individuals Starting Insulin Therapy: Randomized Controlled Trial. This randomized controlled trial evaluated the effects of a digital diabetes clinic continuous support program on metabolic, psychological, and social outcomes in individuals with type 2 diabetes who were recently initiated on insulin therapy. The study included 67 participants, with 35 in the intervention group and 32 in the control group. Data were collected at baseline, and at the third and sixth",
+        "score": 0.37725505232810974,
+        "doi": "10.1097/CIN.0000000000001439",
+        "journal": "Computers, informatics, nursing : CIN",
+        "year": "2025",
+        "rerank_score": 3.6389262676239014,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Naproxen effect size confidence interval pain relief"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39726018",
+        "text": "Is perioperative use of a combination of pregabalin and naproxen superior to naproxen only in reducing pain in ankle fractures? A prospective, randomized, multicenter study. To compare the analgesic efficacy, adverse effects, and long-term functional outcomes of perioperative naproxen alone versus naproxen with pregabalin for treating pain in ankle fractures. This study included 70 patients who underwent operative fixation of rotatory ankle fractures. Group A received naproxen 500 mg only, and Group B recei",
+        "score": 0.4052692651748657,
+        "doi": "10.1186/s13018-024-05321-7",
+        "journal": "Journal of orthopaedic surgery and research",
+        "year": "2024",
+        "rerank_score": -1.9589403867721558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41242528",
+        "text": "Pain rating variability and response to treatment in osteoarthritis clinical trials. Despite recognition that osteoarthritis (OA) pain is dynamic, most clinical trials rely on static, single-point assessments. This study examined whether daily pre-treatment pain variability predicts treatment response in OA. We retrospectively analyzed data from 345 knee OA patients enrolled in two randomized, double-blind trials comparing naproxen (500 mg BID; n=190) to placebo (n=155). Participants reported daily pain (0-",
+        "score": 0.41991522908210754,
+        "doi": "10.1016/j.jpain.2025.105601",
+        "journal": "The journal of pain",
+        "year": "2025",
+        "rerank_score": -1.9825724363327026,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17710005",
+        "text": "Nimesulide in the treatment of postoperative pain: a double-blind, comparative study in patients undergoing arthroscopic knee surgery. To evaluate the efficacy and tolerability of nimesulide in the relief of postoperative pain after orthopedic surgery compared with naproxen and placebo.",
+        "score": 0.35696426033973694,
+        "doi": "10.1097/AJP.0b013e3180e00dff",
+        "journal": "The Clinical journal of pain",
+        "year": "2007",
+        "rerank_score": -3.5027239322662354,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

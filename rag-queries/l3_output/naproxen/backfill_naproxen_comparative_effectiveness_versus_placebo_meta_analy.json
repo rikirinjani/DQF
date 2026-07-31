@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Naproxen comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:3895810",
+        "text": "Piroxicam in the treatment of primary dysmenorrhea. In double-blind, crossover studies, piroxicam was compared with naproxen sodium and with placebo. The different parameters studied were pain intensity, patient's opinion of the drugs tested, complementary pharmacological treatment, ability to work, overall effect, treatment preference, and side effects. It was concluded that piroxicam was comparable to naproxen sodium and that piroxicam was significantly better than placebo, as regards these parameters. It",
+        "score": 0.3944716155529022,
+        "doi": "10.3109/00016348509155138",
+        "journal": "Acta obstetricia et gynecologica Scandinavica",
+        "year": "1985",
+        "rerank_score": 4.165225028991699,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:3301458",
+        "text": "The comparative efficacy of naproxen sodium and pirprofen in the treatment of post-operative pain. A randomized, single-blind, parallel study involving 100 adults was performed to compare the efficacy and safety of naproxen sodium with that of pirprofen in the treatment of moderate to severe pain after orthopaedic surgery. Fifty patients received 550 mg of naproxen sodium initially and 275 mg every 6 h thereafter, and 50 received 400 mg of pirprofen every 8 h until either their pain was completely relieved ",
+        "score": 0.3970792591571808,
+        "doi": "10.1177/030006058701500309",
+        "journal": "The Journal of international medical research",
+        "year": "1987",
+        "rerank_score": 3.5283730030059814,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38833590",
+        "text": "Efficacy of naproxen in patients with sciatica: multicenter, randomized, double-blind, placebo-controlled trial. This trial assessed the efficacy of naproxen in patients with sciatica in outpatient clinics across 4 Norwegian hospitals. A total of 123 adults with radiating pain below the knee (≥4 on a 0-10 numeric rating scale) and signs consistent with nerve root involvement were included. Participants were randomized to receive either naproxen 500 mg or a placebo twice daily for 10 days. The primary outcom",
+        "score": 0.4085257649421692,
+        "doi": "10.1097/j.pain.0000000000003280",
+        "journal": "Pain",
+        "year": "2024",
+        "rerank_score": 3.1594417095184326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

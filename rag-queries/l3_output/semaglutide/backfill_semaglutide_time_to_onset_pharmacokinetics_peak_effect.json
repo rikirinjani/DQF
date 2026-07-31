@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Semaglutide time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30788808",
+        "text": "Population Pharmacokinetics of Semaglutide for Type 2 Diabetes. The aim of the present analysis was to characterise the absorption, distribution and elimination of semaglutide by means of population pharmacokinetic (PK) models using data from nine clinical pharmacology trials conducted in both healthy subjects and those with type 2 diabetes.",
+        "score": 0.3489067554473877,
+        "doi": "10.1007/s13300-019-0581-y",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2019",
+        "rerank_score": 1.147142767906189,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39549228",
+        "text": "Time-Efficacy Relationship of Semaglutide in the Treatment of Type 2 Diabetes Mellitus: A Model-Based Meta-Analysis. Our objective was to quantify the efficacy of subcutaneous once-weekly semaglutide in treating type 2 diabetes mellitus (T2DM) over time. Based on a literature search of the PubMed, Embase, Cochrane, and Web of Science databases, a modified maximum effect (E E The efficacy of semaglutide in glucose control was investigated using the model-based meta-analysis method, which yields new insights ",
+        "score": 0.3558498024940491,
+        "doi": "10.1007/s40262-024-01449-1",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2024",
+        "rerank_score": 0.6348593831062317,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39488821",
+        "text": "Pharmacokinetic Properties of a Once-Weekly Fixed-Ratio Combination of Insulin Icodec and Semaglutide Compared with Separate Administration of Each Component in Individuals with Type 2 Diabetes Mellitus. IcoSema is being developed as a subcutaneous once-weekly fixed-ratio combination of the once-weekly basal insulin icodec and the once-weekly glucagon-like peptide-1 receptor agonist semaglutide. This study investigated the pharmacokinetics of icodec and semaglutide in IcoSema versus separate administration ",
+        "score": 0.35447919368743896,
+        "doi": "10.1007/s40261-024-01405-8",
+        "journal": "Clinical drug investigation",
+        "year": "2024",
+        "rerank_score": 0.18331196904182434,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

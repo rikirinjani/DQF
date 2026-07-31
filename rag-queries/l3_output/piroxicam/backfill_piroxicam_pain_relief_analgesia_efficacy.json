@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Piroxicam pain relief analgesia efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40554258",
+        "text": "Enhanced anti-inflammatory efficacy of a new piroxicam analogue through the MEK/ERK/NF-κB pathway in vitro and in vivo. Piroxicam (PX) is potent and widely used for the treatment of inflammatory conditions. To develop active PX analogues with improved anti-inflammatory activity and minimized adverse effects, a series of PX analogues were designed and synthesized for enhancing anti-inflammatory activity. Among these derivatives, compound 12 exhibited superior NO-inhibitory ability with minimal cytotoxic effe",
+        "score": 0.3947693109512329,
+        "doi": "10.1016/j.intimp.2025.115100",
+        "journal": "International immunopharmacology",
+        "year": "2025",
+        "rerank_score": 4.507284164428711,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40050536",
+        "text": "Enhanced Transdermal Delivery of Piroxicam via Nanocarriers, Formulation, Optimization, Characterization, Animal Studies and Randomized Double-Blind Clinical Trial. Piroxicam is a non-steroidal anti-inflammatory drug which is used topically as an adjunctive treatment of knee osteoarthritis and as an option to control joint pain in patients suffering rheumatoid arthritis. In this study, an emulgel containing optimized nano-niosomal piroxicam was formulated and characterized in terms of mean size, polydispers",
+        "score": 0.4349762797355652,
+        "doi": "10.1208/s12249-025-03075-x",
+        "journal": "AAPS PharmSciTech",
+        "year": "2024",
+        "rerank_score": 3.794236421585083,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38940572",
+        "text": "Does Piroxicam have an Added Benefit on Arthrocentesis in the Management of Internal Derangement in Female Patients?: A Randomized Clinical Trial. Arthrocentesis is an accepted treatment modality for internal derangement. Piroxicam is an NSAID that can be injected into the TMJ. The primary objective of this study was to improve mouth opening, and the secondary objective was to decrease TMD-associated pain. A randomized controlled trial (RCT) was performed on patients suffering from anterior disk displacemen",
+        "score": 0.3850265145301819,
+        "doi": "10.1097/SCS.0000000000010447",
+        "journal": "The Journal of craniofacial surgery",
+        "year": "2024",
+        "rerank_score": 2.662642002105713,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

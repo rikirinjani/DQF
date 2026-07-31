@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Lansoprazole adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40092076",
+        "text": "Effect of proton pump inhibitor (lansoprazole) on adverse drug reactions and rational drug use in elderly patients with chronic heart failure. To evaluate the efficacy and rationale of proton pump inhibitors (PPIs) for adverse drug reactions in elderly patients with heart failure (HF). From February 2019 to September 2021, 120 elderly patients with chronic heart failure (CHF) treated at Jintan First People's Hospital were enrolled as subjects. The patients were classified into a control group (n=60) and a r",
+        "score": 0.4230763018131256,
+        "doi": "10.62347/BZED8420",
+        "journal": "American journal of translational research",
+        "year": "2024",
+        "rerank_score": 3.5627214908599854,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11926700",
+        "text": "An overview of the pharmacology, efficacy, safety and cost-effectiveness of lansoprazole. Lansoprazole is a proton pump inhibitor that reduces gastric acid secretion in a dose-dependent manner via inhibition of H+/K+-adenosine triphosphatase in gastric parietal cells. It also exhibits antibacterial activity against Helicobacter pylori in vitro. During almost 10 years of clinical use, lansoprazole has proved effective and well tolerated in a wide range of acid-related disorders, including gastro-oesophageal ",
+        "score": 0.41962382197380066,
+        "doi": "",
+        "journal": "International journal of clinical practice",
+        "year": "2002",
+        "rerank_score": 3.3421969413757324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39731662",
+        "text": "The Relationship Between Lansoprazole and Coronary Heart Disease Risk: Controversial Protective Effects and Cardiovascular Adverse Events.",
+        "score": 0.43404078483581543,
+        "doi": "10.1007/s10557-024-07668-9",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2024",
+        "rerank_score": 2.3919577598571777,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Atorvastatin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28892923",
+        "text": "Atorvastatin Induced Adverse Drug Reactions among South Indian Tamils. Atorvastatin is the most widely used statin world-over. Although atorvastatin is beneficial in reducing cardiovascular morbidity and mortality, they are associated with Adverse Drug Reactions (ADRs) which are under-recognized as well as under-reported. There is no data on safety of atorvastatin in ethnic populations like South Indian Tamils and hence the need for this study.",
+        "score": 0.3804643750190735,
+        "doi": "10.7860/JCDR/2017/27223.10175",
+        "journal": "Journal of clinical and diagnostic research : JCDR",
+        "year": "2017",
+        "rerank_score": 5.084738731384277,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30569848",
+        "text": "Association of SLCO1B1 Polymorphisms and Atorvastatin Safety and Efficacy: A Meta-analysis. Atorvastatin is the best-selling statin in the market. However, some patients have to reduce drug doses or discontinue atorvastatin therapy mainly due to adverse drug reactions (ADRs). Genetic factors play an important role in the occurrence of ADRs.",
+        "score": 0.38342827558517456,
+        "doi": "10.2174/1381612825666181219163534",
+        "journal": "Current pharmaceutical design",
+        "year": "2018",
+        "rerank_score": 3.620798349380493,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:16733834",
+        "text": "Rosuvastatin safety: a comprehensive, international pharmacoepidemiology programme. Results from clinical trials and clinical practice have shown statins to be generally well tolerated with a low frequency of clinically relevant side effects. Nevertheless, there are rare occasions when adverse events (AEs), sometimes serious, may occur. Rosuvastatin is the newest statin to be approved in the USA and many other countries. As part of the continued assessment of the benefit-risk profile of rosuvastatin, AstraZ",
+        "score": 0.38019007444381714,
+        "doi": "10.1002/pds.1260",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2006",
+        "rerank_score": 3.615225315093994,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

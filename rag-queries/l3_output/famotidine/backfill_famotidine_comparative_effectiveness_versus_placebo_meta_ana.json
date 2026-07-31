@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Famotidine comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2877570",
+        "text": "A multicenter, randomized, double-blind study comparing famotidine with ranitidine in the treatment of active duodenal ulcer disease. Famotidine, a new long-acting histamine (H2)-receptor antagonist, has recently been shown to be more effective than placebo in healing active duodenal ulcer. In the current study, the efficacy and tolerability of famotidine were further investigated and compared with those of ranitidine in a multicenter, double-blind, randomized international study. Sixty-eight investigators ",
+        "score": 0.4219455122947693,
+        "doi": "10.1016/0002-9343(86)90596-6",
+        "journal": "The American journal of medicine",
+        "year": "1986",
+        "rerank_score": 5.38616418838501,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39919442",
+        "text": "Efficacy and safety of elinzanetant in vasomotor symptoms associated with menopause: A meta-analysis of randomized controlled trials. To evaluate the efficacy and safety of elinzanetant compared to placebo in patients experiencing vasomotor symptoms (VMS) associated with menopause. A systematic search of PubMed, Embase, and Cochrane databases identified randomized clinical trials (RCTs) comparing elinzanetant and placebo in patients with menopause-related VMS. Statistical analyses pooled mean difference (MD",
+        "score": 0.4302827715873718,
+        "doi": "10.1016/j.ejogrb.2025.01.050",
+        "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+        "year": "2024",
+        "rerank_score": 1.148024559020996,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:30126675",
+        "text": "Efficacy of duloxetine by prior NSAID use in the treatment of chronic osteoarthritis knee pain: A post hoc subgroup analysis of a randomized, placebo-controlled, phase 3 study in Japan. A previously conducted placebo-controlled, randomized, phase 3 study of 353 Japanese patients with knee osteoarthritis (OA) showed significant improvements for duloxetine vs placebo in pain and health-related quality of life (HRQoL) (ClinicalTrials.gov Identifier: NCT02248480). Reported here are post hoc subgroup analyses ev",
+        "score": 0.4211568534374237,
+        "doi": "10.1016/j.jos.2018.07.008",
+        "journal": "Journal of orthopaedic science : official journal of the Japanese Orthopaedic As",
+        "year": "2018",
+        "rerank_score": -0.0993335023522377,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

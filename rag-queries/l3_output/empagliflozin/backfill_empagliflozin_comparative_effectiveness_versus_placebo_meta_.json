@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Empagliflozin comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31295358",
+        "text": "Cost-effectiveness analysis of empagliflozin treatment in people with Type 2 diabetes and established cardiovascular disease in the EMPA-REG OUTCOME trial. In the EMPA-REG OUTCOME trial, empagliflozin therapy reduced cardiovascular death by 38% compared with placebo when added to standard of care. Using the trial results, we created a discrete-event simulation model to assess lifetime health economic outcomes in people with Type 2 diabetes and established cardiovascular disease.",
+        "score": 0.36153993010520935,
+        "doi": "10.1111/dme.14076",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2019",
+        "rerank_score": 6.7433929443359375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:34394274",
+        "text": "The efficacy of dapagliflozin for type 1 diabetes: a meta-analysis of randomized controlled studies. The efficacy of dapagliflozin for type 1 diabetes remains controversial. We conduct a systematic review and meta-analysis to explore the treatment efficacy of dapagliflozin versus placebo in patients with type 1 diabetes.",
+        "score": 0.3601948618888855,
+        "doi": "10.4314/ahs.v21i1.2",
+        "journal": "African health sciences",
+        "year": "2021",
+        "rerank_score": 6.158700942993164,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40656174",
+        "text": "The effect of empagliflozin on cardiac function and structure in patients with heart failure with reduced ejection fraction: a systematic review and meta-analysis. Empagliflozin was shown to improve the clinical outcomes of cardiovascular diseases; however, its effects on cardiac structure and cardiac remodeling in patients with heart failure remain controversial to some extent. We conducted this meta-analysis to compare the effect of empagliflozin with placebo on cardiac structure and function among patien",
+        "score": 0.3617754280567169,
+        "doi": "10.5114/aic.2025.151600",
+        "journal": "Postepy w kardiologii interwencyjnej = Advances in interventional cardiology",
+        "year": "2024",
+        "rerank_score": 5.613686561584473,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

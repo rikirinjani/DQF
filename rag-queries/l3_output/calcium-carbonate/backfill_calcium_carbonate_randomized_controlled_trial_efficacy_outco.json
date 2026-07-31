@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Calcium Carbonate randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38320512",
+        "text": "A New Look at P Values for Randomized Clinical Trials. BACKGROUND: We have examined the primary efficacy results of 23,551 randomized clinical trials from the Cochrane Database of Systematic Reviews. METHODS: We estimate that the great majority of trials have much lower statistical power for actual effects than the 80 or 90% for the stated effect sizes. Consequently, “statistically significant” estimates tend to seriously overestimate actual treatment effects, “nonsignificant” results often correspond to im",
+        "score": 0.40088093280792236,
+        "doi": "10.1056/EVIDoa2300003",
+        "journal": "NEJM evidence",
+        "year": "2024",
+        "rerank_score": -0.1884094774723053,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39407365",
+        "text": "Effectiveness of mechanical vs. chemomechanical methods in removing intracanal calcium hydroxide medication: a randomised trial. To compare the mechanical and chemomechanical methods for removing calcium hydroxide medication from the root canal system. The triple-blind, randomised clinical trial was conducted at the Department of Operative Dentistry and Endodontics, School of Dentistry, Shaheed Zulfiqar Ali Bhutto Medical University, Islamabad, Pakistan, from December 16, 2022, to June 15, 2023, and compris",
+        "score": 0.40689903497695923,
+        "doi": "10.47391/JPMA.10990",
+        "journal": "JPMA. The Journal of the Pakistan Medical Association",
+        "year": "2024",
+        "rerank_score": -0.5213046669960022,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814615",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial-Reply.",
+        "score": 0.4001394510269165,
+        "doi": "10.1001/jamaoncol.2024.0140",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -3.4226152896881104,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

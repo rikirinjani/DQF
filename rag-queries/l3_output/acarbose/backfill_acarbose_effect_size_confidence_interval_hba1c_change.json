@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Acarbose effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18248270",
+        "text": "Acarbose: oral anti-diabetes drug with additional cardiovascular benefits. Acarbose is an alpha-glucosidase inhibitor acting specifically at the level of postprandial glucose excursion. This compound lowers HbA(1c) by 0.5-1% in patients with Type 2 diabetes, either drug naive or in combination with other antidiabetic drugs. In those with impaired glucose tolerance (IGT), it reduces the incidence of newly diagnosed diabetes by 36.4%. Furthermore, it has beneficial effects on overweight, reduces blood pressur",
+        "score": 0.41026386618614197,
+        "doi": "10.1586/14779072.6.2.153",
+        "journal": "Expert review of cardiovascular therapy",
+        "year": "2008",
+        "rerank_score": -0.6389053463935852,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8508620",
+        "text": "The effect of acarbose on blood glucose profiles of type 2 diabetic patients receiving insulin therapy. Nine patients with Type 2 diabetes receiving insulin therapy were treated with acarbose 100 mg thrice daily for 1 week to investigate the effect of acarbose on blood glucose control. Daily blood glucose profiles contained fewer excursions during acarbose administration and low levels were maintained. The M-value, an indicator of blood glucose fluctuation, decreased significantly from a run-in period value",
+        "score": 0.40965360403060913,
+        "doi": "10.1111/j.1464-5491.1993.tb00079.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "1993",
+        "rerank_score": -1.2636533975601196,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:8458189",
+        "text": "Long-term effect of acarbose on glycaemic control in non-insulin-dependent diabetes mellitus: a placebo-controlled double-blind study. The efficacy and safety of acarbose therapy (100 mg tds for 24 weeks) was investigated in a placebo-controlled double-blind study in patients with non-insulin dependent diabetes mellitus who could not achieve satisfactory glycaemic control by diet alone. In the acarbose group, the 2 h postprandial blood glucose and haemoglobin A1 levels decreased significantly from 14.0 mmol",
+        "score": 0.41003671288490295,
+        "doi": "10.1111/j.1464-5491.1993.tb00030.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "1993",
+        "rerank_score": -1.3103482723236084,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

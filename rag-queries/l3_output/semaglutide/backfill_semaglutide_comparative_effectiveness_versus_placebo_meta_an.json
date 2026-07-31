@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Semaglutide comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35715543",
+        "text": "Efficacy of subcutaneous semaglutide compared to placebo for weight loss in obese, non-diabetic adults: a systematic review & meta-analysis. Research on semaglutide's effect on weight loss has been largely focused on Type 2 Diabetics. No meta-analyses of semaglutide's efficacy in non-diabetic individuals have been conducted to date. Expanding the knowledge of semaglutide's outcome in non-diabetics may provide impactful changes at the clinical level.",
+        "score": 0.3874827027320862,
+        "doi": "10.1007/s11096-022-01428-1",
+        "journal": "International journal of clinical pharmacy",
+        "year": "2021",
+        "rerank_score": 6.840918064117432,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:31340953",
+        "text": "Comparative efficacy of once-weekly semaglutide versus SGLT-2 inhibitors in patients inadequately controlled with one to two oral antidiabetic drugs: a systematic literature review and network meta-analysis. To determine the comparative efficacy of once-weekly semaglutide relative to sodium-glucose cotransporter 2 inhibitors (SGLT-2is) licensed in Europe and North America among patients with type 2 diabetes (T2D) inadequately controlled with 1-2 oral antidiabetics (OADs), using a network meta-analysis (NMA)",
+        "score": 0.3788459300994873,
+        "doi": "10.1136/bmjopen-2018-023458",
+        "journal": "BMJ open",
+        "year": "2019",
+        "rerank_score": 6.81751823425293,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35623229",
+        "text": "Semaglutide for the treatment of type 2 Diabetes Mellitus: A systematic review and network meta-analysis of safety and efficacy outcomes. To assess the safety and efficacy of semaglutide compared with placebo and other anti-hyperglycaemic agents in type 2 diabetes (T2DM).",
+        "score": 0.39148032665252686,
+        "doi": "10.1016/j.dsx.2022.102511",
+        "journal": "Diabetes & metabolic syndrome",
+        "year": "2021",
+        "rerank_score": 6.234164714813232,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

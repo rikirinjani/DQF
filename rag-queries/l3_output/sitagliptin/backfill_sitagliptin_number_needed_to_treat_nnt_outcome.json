@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Sitagliptin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:21801540",
+        "text": "Therapeutic decisions by number needed to treat and survival gains: a cross-sectional survey of lipid-lowering drug recommendations. Previous studies suggest that lay people have difficulties with evaluating effect size in terms of number needed to treat (NNT), but they are sensitive to effect size in terms of survival gains.",
+        "score": 0.47459372878074646,
+        "doi": "10.3399/bjgp11X588448",
+        "journal": "The British journal of general practice : the journal of the Royal College of Ge",
+        "year": "2011",
+        "rerank_score": 0.07410205900669098,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:22788747",
+        "text": "Dipeptidyl peptidase-4 inhibitor improves neovascularization by increasing circulating endothelial progenitor cells. Current methods used to treat critical limb ischaemia (CLI) are hampered by a lack of effective strategies, therefore, therapeutic vasculogenesis may open up a new field for the treatment of CLI. In this study we investigated the ability of the DPP-4 inhibitor, sitagliptin, originally used as a hypoglycaemic agent, to induce vasculogenesis in vivo.",
+        "score": 0.47410720586776733,
+        "doi": "10.1111/j.1476-5381.2012.02102.x",
+        "journal": "British journal of pharmacology",
+        "year": "2012",
+        "rerank_score": -1.5291452407836914,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40951209",
+        "text": "Effectiveness of Sitagliptin and Empagliflozin Combination Therapy in a Patient With Charcot-Marie-Tooth Disease and Comorbid Diabetes Mellitus: A Case Report. This case report describes a 61-year-old male with Charcot-Marie-Tooth disease type 1A (CMT1A) who developed poorly controlled type 2 diabetes mellitus. The patient, with a history of CMT1A, was admitted for preoperative glycemic management prior to lumbar spinal stenosis surgery, exhibiting an HbA1c of 8.1%. Treatment with metformin had been insuffi",
+        "score": 0.4938042461872101,
+        "doi": "10.7759/cureus.89954",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -1.8946855068206787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Cimetidine time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38193900",
+        "text": "Prediction of combination effect of quinidine on the pharmacokinetics of tipepidine using a physiologically based pharmacokinetic model. Tipepidine, an antitussive drug, has been reported to have central pharmacological effects and can be expected to be safely repositioned as treatment for psychiatric disorders. Since tipepidine requires three doses per day, development of a once-daily medication would be highly beneficial. Previously, we reported that combination use with quinidine, a CYP2D6 inhibitor, pro",
+        "score": 0.35220867395401,
+        "doi": "10.1080/00498254.2024.2304129",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -2.9163079261779785,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40466402",
+        "text": "Betamethasone dosing intervals: The Overlooked Impact of pharmacokinetic variability.",
+        "score": 0.3695475459098816,
+        "doi": "10.1016/j.ejogrb.2025.114078",
+        "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+        "year": "2025",
+        "rerank_score": -3.55615496635437,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38344757",
+        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
+        "score": 0.39723286032676697,
+        "doi": "10.1080/00498254.2024.2317888",
+        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "year": "2024",
+        "rerank_score": -3.7000319957733154,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

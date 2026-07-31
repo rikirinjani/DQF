@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Dapagliflozin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40386055",
+        "text": "Population Pharmacokinetic-pharmacodynamic Model Analysis of Dapagliflozin for HbA1c-lowering Effects in Japanese Patients with Type 2 Diabetes Mellitus using Long-term Real-world Data.",
+        "score": 0.3598442077636719,
+        "doi": "10.7150/ijms.111519",
+        "journal": "International journal of medical sciences",
+        "year": "2025",
+        "rerank_score": 1.363341212272644,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39087862",
+        "text": "Influence of Dapagliflozin Dosing on Low-Density Lipoprotein Cholesterol in Type 2 Diabetes Mellitus: A Systematic Literature Review and Meta-Analysis. A systematic literature review and meta-analysis was performed to evaluate the effects of dapagliflozin on low-density lipoprotein (LDL) cholesterol in type 2 diabetes mellitus. Data on changes in LDL cholesterol, adverse cardiac events (ACEs), glycated hemoglobin (HbA1c), and fasting blood glucose (FBG) were pooled in a meta-analysis. Data from dose compari",
+        "score": 0.3718261420726776,
+        "doi": "10.1002/jcph.6105",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": 0.9567213654518127,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40051671",
+        "text": "Effect of Dapagliflozin on Ventricular Arrhythmic Events in Heart Failure Patients With an Implantable Cardioverter Defibrillator. The aim of our study was to evaluate the effects of dapagliflozin on the ventricular arrhythmia burden (VAb) in patients with heart failure with reduced ejection fraction (HFrEF) and an implantable cardioverter defibrillator (ICD), correlating the possible reduction in arrhythmic events and ICD therapies with the basal functional capacity, as well as the remodeling parameters in",
+        "score": 0.40318840742111206,
+        "doi": "10.14740/cr2018",
+        "journal": "Cardiology research",
+        "year": "2024",
+        "rerank_score": 0.3370920419692993,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

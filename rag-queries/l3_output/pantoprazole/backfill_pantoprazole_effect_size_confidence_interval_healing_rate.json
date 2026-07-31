@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Pantoprazole effect size confidence interval healing rate"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:2691308",
+        "text": "Efficacy of the H+/K+-adenosine triphosphatase inhibitor omeprazole in peptic ulcer. In duodenal ulcer studies comprising more than 2,000 patients the efficacy of omeprazole in doses of 20-40 mg once daily has been compared with the recommended doses of the H2-receptor antagonists cimetidine and ranitidine. At 2 weeks the differences in healing rates in favour of omeprazole were 12-33%; while they were somewhat lower at 4 weeks, ranging from 4 to 20%. In most studies the difference in healing rate was stati",
+        "score": 0.41130775213241577,
+        "doi": "10.1159/000200101",
+        "journal": "Digestion",
+        "year": "1989",
+        "rerank_score": -2.6714484691619873,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38837864",
+        "text": "Physiologically-based pharmacokinetic modeling of pantoprazole to evaluate the role of CYP2C19 genetic variation and obesity in the pediatric population. Pantoprazole is a proton pump inhibitor indicated for the treatment of gastroesophageal reflux disease, a condition that disproportionately affects children with obesity. Appropriately dosing pantoprazole in children with obesity requires understanding the body size metric that best guides dosing, but pharmacokinetic (PK) trials using traditional technique",
+        "score": 0.4484747052192688,
+        "doi": "10.1002/psp4.13167",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2024",
+        "rerank_score": -3.0994277000427246,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40025602",
+        "text": "A green three-ratio manipulating spectrophotometric approaches for the determination of a binary mixture of pantoprazole and domperidone. Pantoprazole (PAN) is a proton pump inhibitor used to treat GERD and hyperacidity by suppressing gastric acid secretion, effectively relieving symptoms such as heartburn, acid regurgitation, and indigestion. Domperidone (DOM) is a prokinetic agent that enhances gastrointestinal motility, helping to alleviate nausea, vomiting, and bloating caused by motility disorders. The",
+        "score": 0.4425482153892517,
+        "doi": "10.1186/s13065-025-01414-4",
+        "journal": "BMC chemistry",
+        "year": "2024",
+        "rerank_score": -4.040794849395752,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

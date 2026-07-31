@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Olmesartan mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15291377",
+        "text": "Clinical efficacy and tolerability of olmesartan. Olmesartan medoxomil is an angiotensin II receptor antagonist that selectively and competitively inhibits the angiotensin II type 1 receptor.",
+        "score": 0.36426711082458496,
+        "doi": "10.1016/s0149-2918(04)90143-9",
+        "journal": "Clinical therapeutics",
+        "year": "2004",
+        "rerank_score": 5.344425201416016,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18498909",
+        "text": "The combination of olmesartan medoxomil and amlodipine besylate in controlling high blood pressure: COACH, a randomized, double-blind, placebo-controlled, 8-week factorial efficacy and safety study. Hypertension guidelines recommend the use of 2 agents having complementary mechanisms of action when >1 agent is needed to achieve blood pressure (BP) goals.",
+        "score": 0.36450499296188354,
+        "doi": "10.1016/j.clinthera.2008.04.002",
+        "journal": "Clinical therapeutics",
+        "year": "2008",
+        "rerank_score": 4.539289474487305,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:19120719",
+        "text": "Early antihypertensive efficacy of olmesartan medoxomil. The authors assessed the early antihypertensive efficacy of olmesartan medoxomil (OM) in a 12-week prospective observational study. Of 2221 patients with untreated hypertension who received OM (mainly 10 or 20 mg), 331 patients whose blood pressure (BP) was measured at 1 week after initiation of treatment were defined as the \"early BP determination group,'' whereas the remaining 1890 patients were defined as the ;;standard BP determination group.'' Ba",
+        "score": 0.3638935685157776,
+        "doi": "10.1111/j.1751-7176.2008.00050.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2009",
+        "rerank_score": 3.342818260192871,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

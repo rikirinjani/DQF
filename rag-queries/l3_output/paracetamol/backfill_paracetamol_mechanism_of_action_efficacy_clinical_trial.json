@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Paracetamol mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41492720",
+        "text": "Pharmacological and toxicological effects of paracetamol: current knowledge and a review. Paracetamol, commonly referred to as acetaminophen, is a widely used pain reliever and fever reducer. It is effective in treating mild to moderate pain and fever. The drug's mechanism of action involves inhibition of prostaglandin synthesis in the central nervous system, which reduces pain and fever. Paracetamol is generally well-tolerated at therapeutic doses, with minimal gastrointestinal side effects compared to non",
+        "score": 0.39985090494155884,
+        "doi": "10.1080/01480545.2025.2604674",
+        "journal": "Drug and chemical toxicology",
+        "year": "2026",
+        "rerank_score": 3.913163661956787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27792836",
+        "text": "Randomized, controlled, multicentre clinical trial of the antipyretic effect of intravenous paracetamol in patients admitted to hospital with infection. No randomized study has been conducted to investigate the use of intravenous paracetamol (acetaminophen, APAP) for the management of fever due to infection. The present study evaluated a new ready-made infusion of paracetamol.",
+        "score": 0.39553844928741455,
+        "doi": "10.1111/bcp.13173",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2016",
+        "rerank_score": 3.611361265182495,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:26518691",
+        "text": "Recent Advances in Pediatric Use of Oral Paracetamol in Fever and Pain Management. Paracetamol is a common analgesic and antipyretic drug for management of fever and mild-to-moderate pain in infants and children, and it is considered as first-line therapy for the treatment of both according to international guidelines and recommendations. The mechanism of action of paracetamol is complex and multifactorial, and several aspects of the pharmacology impact its clinical use, especially in the selection of the c",
+        "score": 0.3957061469554901,
+        "doi": "10.1007/s40122-015-0040-z",
+        "journal": "Pain and therapy",
+        "year": "2015",
+        "rerank_score": 3.3702619075775146,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

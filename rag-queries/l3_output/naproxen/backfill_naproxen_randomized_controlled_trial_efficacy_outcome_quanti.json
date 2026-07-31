@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Naproxen randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38833590",
+        "text": "Efficacy of naproxen in patients with sciatica: multicenter, randomized, double-blind, placebo-controlled trial. This trial assessed the efficacy of naproxen in patients with sciatica in outpatient clinics across 4 Norwegian hospitals. A total of 123 adults with radiating pain below the knee (≥4 on a 0-10 numeric rating scale) and signs consistent with nerve root involvement were included. Participants were randomized to receive either naproxen 500 mg or a placebo twice daily for 10 days. The primary outcom",
+        "score": 0.3915296792984009,
+        "doi": "10.1097/j.pain.0000000000003280",
+        "journal": "Pain",
+        "year": "2024",
+        "rerank_score": 5.693318843841553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40166580",
+        "text": "From 'Negative' Trial to Positive Clinical Impact: Emulating WARCEF While Accounting for Selection Bias in Trial Timing. While randomized controlled trials (RCTs) guide clinical practice, their completion may also influence real-world treatment patterns. We investigated whether the outcomes of trial emulation differ before and after the publication of the WARCEF (Warfarin versus Aspirin in Reduced Cardiac Ejection Fraction) randomized controlled trial. We emulated the WARCEF trial using EHR data from the Ma",
+        "score": 0.4077832102775574,
+        "doi": "10.1101/2025.03.19.25324271",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2025",
+        "rerank_score": -1.0943114757537842,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.40498489141464233,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.801722764968872,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

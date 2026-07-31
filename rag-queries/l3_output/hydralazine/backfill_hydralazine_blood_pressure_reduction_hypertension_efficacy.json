@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Hydralazine blood pressure reduction hypertension efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41238241",
+        "text": "Reducing the Nonindicated Use of IV Hydralazine in the Inpatient Setting. Elevated blood pressure (BP) affects up to 72% of hospitalized patients. Intravenous (IV) antihypertensives are indicated for hypertensive emergencies, but they are often given for asymptomatic BP elevations, leading to hypotension, acute kidney injury, and intensive care unit transfers without improving outcomes. At UConn John Dempsey Hospital, 69% of IV hydralazine use between June 2023 and January 2024 lacked appropriate indication",
+        "score": 0.4097198247909546,
+        "doi": "10.1016/j.jaccas.2025.105712",
+        "journal": "JACC. Case reports",
+        "year": "2025",
+        "rerank_score": 4.727985382080078,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39026999",
+        "text": "Efficacy and safety of azilsartan medoxomil in the treatment of hypertension: a systematic review and meta-analysis. Angiotensin II receptor blockers (ARBs) are utilized for the management of hypertension and diabetes. Previous meta-analyses suggested that azilsartan medoxomil (AZL-M) improved blood pressure (BP) reduction, but there were no safety findings or suggestions for patients with hypertension or diabetes. We performed an efficacy and safety meta-analysis of randomized controlled trials (RCTs) eval",
+        "score": 0.4679683744907379,
+        "doi": "10.3389/fcvm.2024.1383217",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2024",
+        "rerank_score": 4.373718738555908,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40700120",
+        "text": "Efficacy and Safety of Nifedipine Compared to Intravenous Hydralazine for Severe Hypertensive Disorders in Pregnancy: A Systematic Review and Meta-Analysis of Randmomized Controlled Trials.",
+        "score": 0.45787161588668823,
+        "doi": "10.3390/medsci13030091",
+        "journal": "Medical sciences (Basel, Switzerland)",
+        "year": "2025",
+        "rerank_score": 2.679513692855835,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

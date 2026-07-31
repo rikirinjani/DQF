@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Glipizide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40665896",
+        "text": "From In Vitro Efficacy to Long-Term HbA1c Response for GLP-1R/GlucagonR Agonism Using the 4GI-HbA1c Systems Model. For the treatment of Type 2 Diabetes, high efficacy approaches such as Glucagon-like peptide 1 (GLP-1)-based therapies are recommended for glucose control. Prediction of the clinical outcome of these therapies on glucose and hemoglobin A1c (HbA1c), using early available pharmacokinetic and in vitro efficacy information, can be a valuable tool for compound selection and supporting drug developme",
+        "score": 0.37019243836402893,
+        "doi": "10.1002/psp4.70074",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "year": "2025",
+        "rerank_score": 4.903732776641846,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39531161",
+        "text": "Post Hoc Analysis of SURPASS-1 to -5: Efficacy and Safety of Tirzepatide in Adults with Type 2 Diabetes are Independent of Baseline Characteristics. Newer incretin-based therapies for type 2 diabetes (T2D) have the potential to substantially reduce glycated hemoglobin (HbA1c) and weight with a low associated risk of hypoglycemia. This study aimed to assess the percentage of participants randomized to tirzepatide or comparator who achieved the composite endpoint of HbA1c ≤ 6.5% and weight reduction ≥ 10% wit",
+        "score": 0.40787193179130554,
+        "doi": "10.1007/s13300-024-01660-0",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2024",
+        "rerank_score": 4.624240875244141,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41566094",
+        "text": "Comparative Effectiveness of Current Glucose-lowering Medications in Type 2 Diabetes Mellitus: Emulation of a Modified GRADE Trial. The GRADE (Glycemia Reduction Approaches in Diabetes: A Comparative Effectiveness Study) trial assessed the effectiveness of four glucose-lowering medication classes in reducing hemoglobin A1c (HbA1c) in individuals with type 2 diabetes mellitus (T2DM) on metformin monotherapy but did not include sodium-glucose cotransporter-2 inhibitors (SGLT-2is). To replicate and extend GRAD",
+        "score": 0.38800060749053955,
+        "doi": "10.1007/s11606-026-10170-7",
+        "journal": "Journal of general internal medicine",
+        "year": "2025",
+        "rerank_score": 4.102425575256348,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Irbesartan effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38704294",
+        "text": "The Efficacy and Tolerability of Irbesartan/Amlodipine Combination Therapy in Patients With Essential Hypertension Whose Blood Pressure Were not Controlled by Irbesartan Monotherapy. This study aimed to evaluate the efficacy and tolerability of irbesartan (IRB) and amlodipine (AML) combination therapy in patients with essential hypertension whose blood pressure (BP) was not controlled by IRB monotherapy. Two multicenter, randomized, double-blind, placebo-controlled, phase III studies were conducted in Korea",
+        "score": 0.4010685086250305,
+        "doi": "10.1016/j.clinthera.2024.04.004",
+        "journal": "Clinical therapeutics",
+        "year": "2024",
+        "rerank_score": -0.9794942140579224,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40255869",
+        "text": "Sacubitril-Valsartan Lowers Blood Pressure in Patients on Dialysis: A Randomized Controlled Multicenter Study. Individuals with end-stage kidney disease frequently grapple with uncontrolled hypertension, which elevates their risk for cardiovascular complications. This randomized, controlled, multicenter study, conducted across 10 hospitals, aimed to compare the effectiveness and safety of sacubitril-valsartan versus irbesartan in managing hypertension among dialysis patients. The primary efficacy variable o",
+        "score": 0.38761594891548157,
+        "doi": "10.1159/000545195",
+        "journal": "Kidney diseases (Basel, Switzerland)",
+        "year": "2024",
+        "rerank_score": -1.6194628477096558,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39796054",
+        "text": "Irbesartan May Ameliorate Ventricular Remodeling by Inhibiting CREB-Mediated Cardiac Aldosterone Synthesis in Rats with Myocardial Infarction. Irbesartan improves ventricular remodeling (VR) following myocardial infarction (MI). This study investigates whether irbesartan attenuates VR by reducing aldosterone production in the heart and its underlying mechanisms. MI was induced in male Sprague-Dawley rats through coronary artery ligation. The MI rats were randomly assigned to two groups: one received a vehic",
+        "score": 0.40399977564811707,
+        "doi": "10.3390/ijms26010198",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": -2.901611089706421,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

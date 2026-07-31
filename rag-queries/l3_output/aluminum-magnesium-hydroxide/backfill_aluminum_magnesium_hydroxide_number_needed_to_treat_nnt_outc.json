@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "aluminum magnesium hydroxide number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.5217940807342529,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 1.2436772584915161,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40384244",
+        "text": "Magnesium (Mg) alloy has long been projected as a degradable biomaterial with a special focus on its corrosion behaviour, mechanical properties and biocompatibility. In this study, we developed an Mg-5Zn-0.5Zr-0.9Y alloy and studied the effects of Mg",
+        "score": 0.5309190154075623,
+        "doi": "10.1039/d5tb00488h",
+        "journal": "Journal of materials chemistry. B",
+        "year": "2025",
+        "rerank_score": -8.085622787475586,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39656877",
+        "text": "Hydrogen-Generating Magnesium Alloy Seed Strand Sensitizes Solid Tumors to Iodine-125 Brachytherapy. Radioactive iodine-125 (",
+        "score": 0.522800862789154,
+        "doi": "10.1002/advs.202412263",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "year": "2024",
+        "rerank_score": -8.657954216003418,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

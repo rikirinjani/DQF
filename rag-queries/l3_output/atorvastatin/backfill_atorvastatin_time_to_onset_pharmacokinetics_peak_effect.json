@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Atorvastatin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41123847",
+        "text": "Assessment of Pharmacokinetic Drug Interaction of Asciminib with Atorvastatin in Healthy Participants. Asciminib is the first BCR::ABL1 inhibitor that Specifically Targets the ABL Myristoyl Pocket (STAMP) in patients with chronic myeloid leukemia. This phase 1, two-treatment-period, drug-drug interaction study evaluated the effect of steady-state asciminib on the pharmacokinetics of atorvastatin. A single dose of atorvastatin (20 mg) was administered on day 1 (period 1: days 1-4). On days 5-11 (period 2: da",
+        "score": 0.34643685817718506,
+        "doi": "10.1002/cpdd.1611",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": 2.2991626262664795,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39956861",
+        "text": "Effect of Gastric pH on the Pharmacokinetics of Atorvastatin and its Metabolites in Healthy Participants. Atorvastatin is dosed in its active acid form although it exists in equilibrium with its inactive lactone form in vivo. Although in vitro atorvastatin acid displays pH-dependent conversion to the lactone metabolite, pharmacokinetic (PK) data on the effect of elevated gastric pH on atorvastatin and major atorvastatin-related species are not currently available. In this dedicated study, we investigated th",
+        "score": 0.35181182622909546,
+        "doi": "10.1007/s13318-025-00937-4",
+        "journal": "European journal of drug metabolism and pharmacokinetics",
+        "year": "2025",
+        "rerank_score": 2.0800952911376953,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39404135",
+        "text": "Population Pharmacokinetic and Pharmacodynamic of Atorvastatin in Chinese Lung Transplant Recipients. Atorvastatin is a widely prescribed cholesterol-lowering drug that inhibits 3-hydroxy-3-methylglutaryl coenzyme A reductase to reduce lipid levels. This study aimed to establish a population pharmacokinetic and pharmacodynamic model for atorvastatin in Chinese lung transplant recipients (LTRs), particularly those using voriconazole (VOR) and with different genotypes. It evaluated precise dosing regimens and",
+        "score": 0.3875858783721924,
+        "doi": "10.1002/jcph.6146",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2024",
+        "rerank_score": -0.10816917568445206,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

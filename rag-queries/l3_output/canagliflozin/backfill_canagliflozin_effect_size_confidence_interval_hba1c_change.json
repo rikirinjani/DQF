@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Canagliflozin effect size confidence interval HbA1c change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38907684",
+        "text": "Semaglutide and Cardiovascular Outcomes by Baseline HbA1c and Change in HbA1c in People With Overweight or Obesity but Without Diabetes in SELECT. To evaluate the cardiovascular effects of semaglutide by baseline glycated hemoglobin (HbA1c) and change in HbA1c in a prespecified analysis of Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity (SELECT). In SELECT, people with overweight or obesity and atherosclerotic cardiovascular disease without diabetes were randomized to wee",
+        "score": 0.4186095595359802,
+        "doi": "10.2337/dc24-0764",
+        "journal": "Diabetes care",
+        "year": "2024",
+        "rerank_score": -0.85592120885849,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38881077",
+        "text": "Fixed-Dose Combination of Canagliflozin and Metformin as an Adjunct to Diet and Exercise in Indian Adults with Type 2 Diabetes Mellitus: Results from a Multicentric, Open-Label, Single-Arm, Phase IV Study. Canagliflozin and metformin fixed-dose combination (CANA/MET FDC), an approved treatment for type 2 diabetes mellitus (T2DM) in India, effectively lowers glycated hemoglobin (HbA1c), promotes weight loss, and improves patient adherence. As a regulatory requirement, we aimed to evaluate the safety and effi",
+        "score": 0.39658457040786743,
+        "doi": "10.59556/japi.72.0488",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2024",
+        "rerank_score": -1.2349380254745483,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40817763",
+        "text": "Long-Term Effect of Periodontal Therapy on HbA1c Changes in Type 2 Diabetes. Although prior studies have assessed the effect of nonsurgical periodontal therapy (NSPT) on glycemic management, most are short term and do not account for changes in diabetes medication. This longitudinal cohort study assessed the effect of NSPT on HbA1c levels and clinical periodontal measures of type 2 diabetes (T2D) patients with periodontitis. Medication changes up to 1 y prior to and 1 y after commencing NSPT were considered",
+        "score": 0.4155268669128418,
+        "doi": "10.1177/00220345251357875",
+        "journal": "Journal of dental research",
+        "year": "2025",
+        "rerank_score": -1.3756698369979858,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

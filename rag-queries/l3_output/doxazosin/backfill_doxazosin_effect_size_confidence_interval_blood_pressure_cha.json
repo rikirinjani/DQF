@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Doxazosin effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39657237",
+        "text": "Blood pressure changes during methotrexate treatment: results from a randomized placebo-controlled trial among patients with cardiovascular risk. Low-dose MTX (LD-MTX) has been associated with a reduced risk of cardiovascular disease (CVD) among patients with systemic rheumatic diseases but not among the general population. Prior reports suggest that LD-MTX may reduce blood pressure (BP). We studied the effect of LD-MTX on BP. We examined data that compared LD-MTX to placebo in a randomized double-blind con",
+        "score": 0.4058586359024048,
+        "doi": "10.1093/rheumatology/keae604",
+        "journal": "Rheumatology (Oxford, England)",
+        "year": "2024",
+        "rerank_score": -3.3130061626434326,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38673809",
+        "text": "Vasorelaxant and Blood Pressure-Lowering Effects of",
+        "score": 0.3938065767288208,
+        "doi": "10.3390/ijms25084223",
+        "journal": "International journal of molecular sciences",
+        "year": "2024",
+        "rerank_score": -4.688153266906738,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41573200",
+        "text": "Prolonged alpha-blockade and doxazosin are associated with hypertensive crisis in pheochromocytoma surgery. Hypertensive crisis represents a significant intraoperative challenge in pheochromocytoma surgery, often necessitating immediate pharmacologic intervention. To reduce this risk, preoperative α-adrenergic blockade is routinely implemented. Although prior studies have addressed the choice of α-blockade, the impact of its type, treatment duration, and final titrated dose on hypertensive crisis has not ye",
+        "score": 0.39925214648246765,
+        "doi": "10.3389/fendo.2025.1682912",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025",
+        "rerank_score": -5.52829122543335,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

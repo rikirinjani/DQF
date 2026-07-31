@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Captopril comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7614505",
+        "text": "Comparison of the effects of cilazapril and captopril versus placebo on exercise testing in chronic heart failure patients: a double-blind, randomized, multicenter trial. The Cilazapril-Captopril Multicenter Group. In order to compare directly the efficacy of two different angiotensin-converting enzyme (ACE) inhibitors in terms of clinical status and exercise capacity, 443 patients with chronic heart failure (New York Heart Association classes II-IV) were randomized into a 24-week double-blind study to rece",
+        "score": 0.3831063508987427,
+        "doi": "10.1159/000176944",
+        "journal": "Cardiology",
+        "year": "1995",
+        "rerank_score": 5.149038314819336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:1993795",
+        "text": "Effect of captopril, an angiotensin-converting enzyme inhibitor, in patients with angina pectoris and heart failure. The effects of captopril and placebo were compared in 18 patients with chronic heart failure and angina pectoris with use of a double-blind crossover trial design. Symptoms were assessed by patient treatment preference, visual analogue scores and nitroglycerin consumption. Exercise performance was assessed using two different treadmill protocols of different work intensity with simultaneous m",
+        "score": 0.38036343455314636,
+        "doi": "10.1016/s0735-1097(10)80192-5",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "1991",
+        "rerank_score": 3.4034206867218018,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:2510660",
+        "text": "[Essential arterial hypertension and quality of life. Comparative crossed double-blind study of labetalol and captopril]. The purpose of this multicenter randomised, double-blind and cross-over study was to compare the antihypertensive effects of labetalol (L) and captopril (C) in 42 moderate hypertensive patients (mean age: 52 years). The drugs were given during two 4-weeks periods at the end of which the systolic (SBP) and diastolic blood pressures (DBP) were measured at rest in supine and standing positi",
+        "score": 0.38123834133148193,
+        "doi": "",
+        "journal": "Archives des maladies du coeur et des vaisseaux",
+        "year": "1989",
+        "rerank_score": 2.044445514678955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

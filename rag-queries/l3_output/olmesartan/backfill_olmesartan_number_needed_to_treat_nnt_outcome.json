@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Olmesartan number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4777902364730835,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 1.8313552141189575,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40851507",
+        "text": "Spectrofluorimetric Method for the Assay of Fixed-Dose Combinations Containing Olmesartan: Sustainability Assessment via Novel Relative Ranking NQS Index, GSST, and Whiteness R The Need, Quality, and Sustainability (NQS) index was very recently developed. It evaluates the compromise of analytical techniques between social needs, analytical performance, and global sustainability. Regarding ARBs, Olmesartan (OLM) has become one of the worldwide first-line antihypertensive therapies. Its fixed-dose combination",
+        "score": 0.4789958894252777,
+        "doi": "10.1002/bio.70292",
+        "journal": "Luminescence : the journal of biological and chemical luminescence",
+        "year": "2025",
+        "rerank_score": -0.13974228501319885,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40013678",
+        "text": "[Medical treatment can become more efficient]. A substantial part of our expenditure on medical treatment aims to cure the patient from the disease. The effectiveness of these treatments has been proven by Evidence Based Medicine and is assessed by comparing groups of patients. However, not all individual patients benefit from the treatment. In trials this effect is measured by calculating the number needed to treat (NNT). The NNT can be seen as a proxy for the inefficiency of a medical intervention. Usuall",
+        "score": 0.5009918212890625,
+        "doi": "",
+        "journal": "Nederlands tijdschrift voor geneeskunde",
+        "year": "2025",
+        "rerank_score": -2.6190507411956787,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

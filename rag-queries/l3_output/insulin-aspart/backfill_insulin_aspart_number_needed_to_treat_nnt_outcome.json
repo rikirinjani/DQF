@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Insulin Aspart number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.4445897936820984,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 4.318292140960693,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38420944",
+        "text": "Safety and Efficacy of Switching SAR341402 Insulin Aspart and Originator Insulin Aspart vs Continuous Use of Originator Insulin Aspart in Adults With Type 1 Diabetes: The GEMELLI X Trial. SAR341402 insulin aspart (SAR-Asp) is a rapid-acting insulin analog developed as an interchangeable biosimilar to the marketed insulin aspart reference product (NovoLog; NN-Asp). GEMELLI X was a randomized controlled trial to assess outcomes with a biosimilar in line with the US Food and Drug Administration requirements fo",
+        "score": 0.4336755871772766,
+        "doi": "10.1177/19322968241232709",
+        "journal": "Journal of diabetes science and technology",
+        "year": "2025",
+        "rerank_score": 1.1121145486831665,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39130949",
+        "text": "The Effects of Subcutaneous Rapid-Acting Insulin Aspart in the Treatment of Mild and Moderate Diabetic Ketoacidosis in Children: A Prospective Study. Background and objectives The traditional treatment approach to diabetic ketoacidosis (DKA) involves the replacement of fluid and electrolyte deficits and a continuous intravenous infusion of regular insulin. Several clinical trials supported the administration of subcutaneous rapid-acting insulin analogs in the management of uncomplicated DKA. This study aime",
+        "score": 0.43682199716567993,
+        "doi": "10.7759/cureus.64241",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": -0.565549373626709,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

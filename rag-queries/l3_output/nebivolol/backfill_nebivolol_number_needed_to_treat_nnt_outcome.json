@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Nebivolol number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41049496",
+        "text": "Minoxidil and nebivolol restore aortic elastic fiber homeostasis in diabetic mice via potassium channel activation. Diabetic patients experience a significant reduction in life expectancy, primarily due to early cardiovascular complications. A key feature is the premature degradation of elastic fibers (EFs), contributing to vascular stiffness. This study evaluates the capacity of two antihypertensive agents, minoxidil (a KATP channel opener) and nebivolol (a β-blocker with KATP activity), to restore EF home",
+        "score": 0.4931209683418274,
+        "doi": "10.3389/fphys.2025.1648727",
+        "journal": "Frontiers in physiology",
+        "year": "2025",
+        "rerank_score": -3.750473737716675,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:23248094",
+        "text": "Role of N-terminal pro B-type natriuretic peptide in identifying patients at high risk for adverse outcome after emergent non-cardiac surgery. Patients undergoing emergency surgery continue to be at very high risk, but accurate risk identification for the individual patient remains difficult. This study tested the usefulness of perioperative N-terminal pro B-type natriuretic peptide (NT-proBNP) for in-hospital and long-term risk stratification.",
+        "score": 0.4865846633911133,
+        "doi": "10.1093/bja/aes454",
+        "journal": "British journal of anaesthesia",
+        "year": "2012",
+        "rerank_score": -5.518271446228027,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18980121",
+        "text": "Determination of nebivolol hydrochloride and hydrochlorothiazide in tablets by first-order derivative spectrophotometry and liquid chromatography. Two simple and accurate methods for analysis of nebivolol hydrochloride (NEB) and hydrochlorothiazide (HCTZ) in their combined dosage forms were developed using first-order derivative spectrophotometry and reversed-phase liquid chromatography (LC). NEB and HCTZ in their combined dosage forms (tablets) were quantified using first-derivative responses at 294.6 and ",
+        "score": 0.4858061969280243,
+        "doi": "",
+        "journal": "Journal of AOAC International",
+        "year": "2008",
+        "rerank_score": -5.611983776092529,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

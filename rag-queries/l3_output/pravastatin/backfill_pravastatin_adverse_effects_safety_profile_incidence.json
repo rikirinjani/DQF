@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Pravastatin adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38381407",
+        "text": "Effects of Pitavastatin on Coronary Artery Disease and Inflammatory Biomarkers in HIV: Mechanistic Substudy of the REPRIEVE Randomized Clinical Trial. Cardiovascular disease (CVD) is increased in people with HIV (PWH) and is characterized by premature noncalcified coronary plaque. In the Randomized Trial to Prevent Vascular Events in HIV (REPRIEVE), pitavastatin reduced major adverse cardiovascular events (MACE) by 35% over a median of 5.1 years. To investigate the effects of pitavastatin on noncalcified co",
+        "score": 0.42440587282180786,
+        "doi": "10.1001/jamacardio.2023.5661",
+        "journal": "JAMA cardiology",
+        "year": "2024",
+        "rerank_score": 1.4878093004226685,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40350318",
+        "text": "Comparative Effectiveness and Safety of Moderate-Intensity Pravastatin Versus Atorvastatin in Patients with Dyslipidemia: A Retrospective Cohort Study Using a Common Data Model of Multicenter Electronic Health Records in South Korea. To compare the effectiveness and safety of moderate-intensity pravastatin 40 mg/day and atorvastatin 10 mg/day in patients with dyslipidemia. We conducted a retrospective cohort study using electronic health records of 19 million patients across 14 secondary/tertiary hospitals,",
+        "score": 0.4390406012535095,
+        "doi": "10.5551/jat.65345",
+        "journal": "Journal of atherosclerosis and thrombosis",
+        "year": "2025",
+        "rerank_score": 0.8154407143592834,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39492463",
+        "text": "A European, Observational, 3-Year Cohort Comparative Study on the Safety of the Fixed Dose Combination Pravastatin 40 mg/Fenofibrate 160 mg vs. Statin Alone in Real Clinical Practice: The POSE Study. The aim of the study was to provide valuable real-world long-term safety data of the fixed pravastatin 40 mg/fenofibrate 160 mg combination in comparison of monotherapy with statins of moderate intensity. POSE study was an observational, comparative study conducted in three European countries. Patients treated ",
+        "score": 0.4359854757785797,
+        "doi": "10.1002/pds.70047",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2024",
+        "rerank_score": 0.11386118829250336,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

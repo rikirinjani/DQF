@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Metoprolol comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:28882337",
+        "text": "Meta-Analysis Comparing Metoprolol and Carvedilol on Mortality Benefits in Patients With Acute Myocardial Infarction. Although carvedilol, a nonselective beta-blocker with alpha-adrenergic blocking and multiple ancillary activities, has been demonstrated to be superior to metoprolol in chronic heart failure, it remains unclear whether the superiority of carvedilol still exists in myocardial infarction (MI). Therefore, we performed a network meta-analysis of randomized controlled trials (RCTs) to compare the",
+        "score": 0.3926984965801239,
+        "doi": "10.1016/j.amjcard.2017.07.036",
+        "journal": "The American journal of cardiology",
+        "year": "2017",
+        "rerank_score": 3.8139824867248535,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39295934",
+        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
+        "score": 0.417744904756546,
+        "doi": "10.3389/fphar.2024.1418826",
+        "journal": "Frontiers in pharmacology",
+        "year": "2024",
+        "rerank_score": 3.3492584228515625,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:17542346",
+        "text": "Comparative clinical study of the efficacy and safety of a S-metoprolol ER tablet versus a racemate metoprolol ER tablet in patients with chronic stable angina. To compare the efficacy and safety of a S-metoprolol extended release (ER) tablet (50 mg) versus a racemate metoprolol ER tablet (100 mg) in the management of angina.",
+        "score": 0.39291390776634216,
+        "doi": "10.5414/cpp45253",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2007",
+        "rerank_score": 3.0152223110198975,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

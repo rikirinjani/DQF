@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Calcium Carbonate mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40786390",
+        "text": "Absorption, Scintigraphy, Efficacy and Tolerability of Short-Term Calcium Carbonate Supplementation in Healthy Subjects. Orally administered calcium carbonate tablets are commonly prescribed as a calcium supplement, and their short-term use is popular among the healthy population. However, being a nutritional supplement, the in vitro properties and clinical efficacy of calcium carbonate supplements are sometimes compromised. The present study aimed to assess the absorption, in vivo dispersion, efficacy and ",
+        "score": 0.41883909702301025,
+        "doi": "10.7759/cureus.87642",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": 2.5299201011657715,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39342637",
+        "text": "Potentiated Calcium Carbonate with Enhanced Calcium Overload Induction and Acid Neutralization Capabilities to Boost Chemoimmunotherapy against Liver Cancer. Unfavorable phenotypes characterized by low immunogenicity and acidity within the tumor microenvironment (TME) contribute to immunosuppression and therapeutic resistance. Herein, we rationally synthesized a multifunctional nanoregulator by encapsulating DOX and erianin into calcium carbonate (CaCO",
+        "score": 0.4438319206237793,
+        "doi": "10.1021/acsnano.4c08690",
+        "journal": "ACS nano",
+        "year": "2024",
+        "rerank_score": -0.9423769116401672,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40840530",
+        "text": "Could oral calcium carbonate mitigate tartaric acid toxicity in dogs? A novel hypothesis. Grape and raisin ingestion causes acute renal failure in dogs, recently attributed to tartaric acid toxicity. Standard treatments lack specific antidotes, creating a need for novel therapeutic strategies. Calcium carbonate (CaCO3 could theoretically neutralize tartaric acid in the gastrointestinal tract by forming insoluble calcium tartrate, potentially reducing systemic absorption. Although not yet clinically validate",
+        "score": 0.42732641100883484,
+        "doi": "10.2460/javma.25.03.0160",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2025",
+        "rerank_score": -1.895821213722229,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

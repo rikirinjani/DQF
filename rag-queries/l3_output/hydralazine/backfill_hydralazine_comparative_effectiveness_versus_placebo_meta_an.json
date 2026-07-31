@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Hydralazine comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30040321",
+        "text": "[Believe in what you practice]. A recent meta-analysis showed that antidepressants are more effective than placebo. In placebo-controlled trials, the placebo effect is subtracted from the verum effect to find the specific effect of each antidepressant. In clinical practice, however, the situation is the other way around: non-specific ('placebo') effects are added to the specific effect of the antidepressant and together these effects determine the outcome. The non-specific aspects comprise strength of the t",
+        "score": 0.40750381350517273,
+        "doi": "",
+        "journal": "Nederlands tijdschrift voor geneeskunde",
+        "year": "2018",
+        "rerank_score": 1.6722103357315063,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39919442",
+        "text": "Efficacy and safety of elinzanetant in vasomotor symptoms associated with menopause: A meta-analysis of randomized controlled trials. To evaluate the efficacy and safety of elinzanetant compared to placebo in patients experiencing vasomotor symptoms (VMS) associated with menopause. A systematic search of PubMed, Embase, and Cochrane databases identified randomized clinical trials (RCTs) comparing elinzanetant and placebo in patients with menopause-related VMS. Statistical analyses pooled mean difference (MD",
+        "score": 0.430730402469635,
+        "doi": "10.1016/j.ejogrb.2025.01.050",
+        "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+        "year": "2024",
+        "rerank_score": 0.9246727228164673,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40527546",
+        "text": "Comparative effectiveness of interventions to facilitate deprescription of benzodiazepines and other sedative hypnotics: systematic review and meta-analysis. To review evidence from randomised trials assessing the effectiveness of strategies to deprescribe benzodiazepines and closely related sedative hypnotics (BSH). Systematic review and meta-analysis of randomised controlled trials. MEDLINE, Embase, CINAHL, PsycInfo, and CENTRAL, searched from inception to August 2024, and reference lists of included stud",
+        "score": 0.43265965580940247,
+        "doi": "10.1136/bmj-2024-081336",
+        "journal": "BMJ (Clinical research ed.)",
+        "year": "2025",
+        "rerank_score": -0.5732209086418152,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

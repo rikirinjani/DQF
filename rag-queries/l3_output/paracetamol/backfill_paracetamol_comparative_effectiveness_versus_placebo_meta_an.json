@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Paracetamol comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:22883424",
+        "text": "An indirect comparison of the efficacy and safety of desvenlafaxine and venlafaxine using placebo as the common comparator. This meta-analysis compared the efficacy and safety of desvenlafaxine and venlafaxine at the Australian approved doses.",
+        "score": 0.38191744685173035,
+        "doi": "10.1017/S1092852912000648",
+        "journal": "CNS spectrums",
+        "year": "2012",
+        "rerank_score": 4.087197303771973,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:27403409",
+        "text": "Comparison between paracetamol, piroxicam, their combination, and placebo in postoperative pain management of upper limb orthopedic surgery (a randomized double blind clinical trial). Therapeutic superiority of a combination of Paracetamol and nonsteroidal anti-inflammatory drugs (NSAIDs) over either drug alone remains controversial. We evaluated the efficiency of a combination of Paracetamol and Piroxicam versus each drug alone and also placebo in the management of postoperative pain, in patients who had u",
+        "score": 0.3834954798221588,
+        "doi": "10.4103/2277-9175.184310",
+        "journal": "Advanced biomedical research",
+        "year": "2013",
+        "rerank_score": 3.5712850093841553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39899873",
+        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
+        "score": 0.4023820161819458,
+        "doi": "10.7326/ANNALS-24-00315",
+        "journal": "Annals of internal medicine",
+        "year": "2025",
+        "rerank_score": 2.5637545585632324,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

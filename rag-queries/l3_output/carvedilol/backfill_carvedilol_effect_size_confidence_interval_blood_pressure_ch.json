@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Carvedilol effect size confidence interval blood pressure change"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39509369",
+        "text": "Hemodynamic effects of carvedilol plus simvastatin in cirrhosis with severe portal hypertension and suboptimal response to β-blockers: A double-blind, placebo-controlled, randomized trial. Carvedilol is a nonselective β-blocker (NSBB) with anti-α1-adrenergic activity, more effective than traditional NSBBs in reducing portal pressure hepatic venous pressure gradient (HVPG). However, 35%-45% of patients still have insufficient HVPG decrease. Statins ameliorate endothelial dysfunction, reduce hepatic vascular ",
+        "score": 0.406326562166214,
+        "doi": "10.1097/HEP.0000000000001148",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "year": "2024",
+        "rerank_score": 1.1176834106445312,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39724907",
+        "text": "CARVEDILOL IN PATIENTS WITH UNCONTROLLED AND RESISTANT ARTERIAL HYPERTENSION. The use of beta-blockers in treating resistant hypertension remains poorly understood. While PATHWAY-2 showed a systolic blood pressure benefit with bisoprolol, further research is needed to evaluate other beta-blockers in terms of the effect of systolic blood pressure, assess diastolic blood pressure effects, and guide management in patients intolerant to CCBs as well. Our study aimed to evaluate the efficacy of Carvedilol (non-s",
+        "score": 0.39319419860839844,
+        "doi": "",
+        "journal": "Georgian medical news",
+        "year": "2024",
+        "rerank_score": 0.856698215007782,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38477862",
+        "text": "The influence of carvedilol posology timing on clinically significant portal hypertension: insights from elastography measurements. Carvedilol has emerged as the preferred β-blocker for treating portal hypertension. However, there is still a debate in dosing regimen, with a potential lower bioavailability in once-daily regimens. The aim of this study is to assess the acute effects of carvedilol posology in patients with clinically significant portal hypertension (CSPH), as a surrogate marker of bioavailabil",
+        "score": 0.3916167616844177,
+        "doi": "10.1097/MEG.0000000000002738",
+        "journal": "European journal of gastroenterology & hepatology",
+        "year": "2024",
+        "rerank_score": 0.5362803339958191,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

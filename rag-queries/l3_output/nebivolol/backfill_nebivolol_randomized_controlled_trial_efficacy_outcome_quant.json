@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Nebivolol randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39713902",
+        "text": "Effect of nebivolol on erectile function: a systematic review and meta-analysis of randomized controlled trials. Historically, β-blockers have been associated with erectile dysfunction (ED). Nebivolol, a third-generation β-blocker, may have had no negative effect on erectile function because of its vasodilating properties. However, the evidence level was considered either as low or very low. A systematic review and meta-analysis of randomized controlled trials (RCTs) was conducted to determine the effect of",
+        "score": 0.43196094036102295,
+        "doi": "10.1093/jsxmed/qdae189",
+        "journal": "The journal of sexual medicine",
+        "year": "2024",
+        "rerank_score": 3.264014720916748,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814579",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.423075795173645,
+        "doi": "10.1001/jamaoncol.2024.1869",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.5311535596847534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38814593",
+        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
+        "score": 0.423075795173645,
+        "doi": "10.1001/jamaoncol.2024.0113",
+        "journal": "JAMA oncology",
+        "year": "2024",
+        "rerank_score": -1.5311535596847534,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

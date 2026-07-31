@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Semaglutide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31608552",
+        "text": "Impact of baseline characteristics and beta-cell function on the efficacy and safety of subcutaneous once-weekly semaglutide: A patient-level, pooled analysis of the SUSTAIN 1-5 trials. To evaluate the impact of relevant patient-level characteristics on the efficacy and safety of subcutaneous, once-weekly semaglutide in subjects with type 2 diabetes.",
+        "score": 0.430031955242157,
+        "doi": "10.1111/dom.13896",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2019",
+        "rerank_score": 2.5186779499053955,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:29246950",
+        "text": "Efficacy and Safety of Once-Weekly Semaglutide Versus Exenatide ER in Subjects With Type 2 Diabetes (SUSTAIN 3): A 56-Week, Open-Label, Randomized Clinical Trial. To compare the efficacy and safety of once-weekly semaglutide 1.0 mg s.c. with exenatide extended release (ER) 2.0 mg s.c. in subjects with type 2 diabetes.",
+        "score": 0.40857821702957153,
+        "doi": "10.2337/dc17-0417",
+        "journal": "Diabetes care",
+        "year": "2017",
+        "rerank_score": 2.0379302501678467,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39971183",
+        "text": "Semaglutide 2.4 mg in French people living with Class 3 obesity and comorbidities: Baseline characteristics and real-world safety data. - To describe baseline characteristics and safety data of real-world use of semaglutide 2.4 mg. - Patients with a body mass index (BMI) ≥40 kg/m - Overall, 5,797 (62.8%) treatment requests were sent by sites specialized in obesity management. In total, 478 and 8,568 patients were treated within TUA and EAP cohorts respectively, with mean follow-up durations of 1.2 and 4.5 m",
+        "score": 0.383535236120224,
+        "doi": "10.1016/j.diabet.2025.101625",
+        "journal": "Diabetes & metabolism",
+        "year": "2024",
+        "rerank_score": 1.9542961120605469,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

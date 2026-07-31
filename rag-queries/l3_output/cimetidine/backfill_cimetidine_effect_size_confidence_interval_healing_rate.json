@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B2",
+    "dimension": "backfill_effect_size",
+    "query": "Cimetidine effect size confidence interval healing rate"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39866059",
+        "text": "Evaluation of the Effect of Loperamide on the Cardiac Repolarization Interval Using Exposure-Response Analysis. This analysis assessed the relationship between the plasma concentrations of loperamide and its N-desmethyl loperamide meta- bolite (M1) and the potential QT interval prolongation at therapeutic and supratherapeutic doses. The exposure-response analysis was performed using the data from healthy adults participating in a randomized, double-blind, single-dose, four-way (placebo; loperamide 8 mg [the",
+        "score": 0.45732825994491577,
+        "doi": "10.1111/cts.70114",
+        "journal": "Clinical and translational science",
+        "year": "2024",
+        "rerank_score": -7.666443824768066,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40466402",
+        "text": "Betamethasone dosing intervals: The Overlooked Impact of pharmacokinetic variability.",
+        "score": 0.47968506813049316,
+        "doi": "10.1016/j.ejogrb.2025.114078",
+        "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+        "year": "2025",
+        "rerank_score": -9.17892837524414,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39844679",
+        "text": "Evaluation of the Effect of Momelotinib on Cardiac Repolarization: A Thorough QT Study. A randomized, partially blinded, placebo-controlled, crossover study in 48 healthy adults assessed the effect of momelotinib on the heart rate-corrected QT interval (QTc) using the Fridericia formula (QTcF). QTc was evaluated for momelotinib 200 mg (therapeutic dose), momelotinib 800 mg (supratherapeutic dose), moxifloxacin 400 mg (positive control), and placebo. Pharmacokinetic profiles of momelotinib and its active met",
+        "score": 0.4791317284107208,
+        "doi": "10.1002/cpdd.1509",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2024",
+        "rerank_score": -9.279043197631836,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

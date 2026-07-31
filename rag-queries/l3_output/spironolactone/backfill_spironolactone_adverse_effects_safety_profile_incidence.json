@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Spironolactone adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39907871",
+        "text": "Safety Analysis of Spironolactone Use in Patients Undergoing Percutaneous Coronary Intervention with High Bleeding Risk: A Propensity Score-Matched Study. Spironolactone has been reported to increase the risk of upper gastrointestinal bleeding in patients. We aimed to validate this perspective in a population of patients undergoing percutaneous coronary intervention with high bleeding risk (PCI-HBR). We prospectively included a total of 1616 PCI-HBR patients who were treated at West China Hospital of Sichua",
+        "score": 0.42799219489097595,
+        "doi": "10.1007/s10557-025-07676-3",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2025",
+        "rerank_score": 4.149481773376465,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:14551366",
+        "text": "Safety of low-dose spironolactone administration in chronic haemodialysis patients. Prevention of cardiovascular diseases is essential in chronic haemodialysis patients. Recently, low-dose spironolactone has been shown to decrease cardiovascular mortality in patients with severe heart failure. However, since haemodialysis patients are prone to hyperkalaemia, a known side effect of spironolactone, this treatment is not used in this population. We performed a study to assess whether low-dose spironolactone (3",
+        "score": 0.42259925603866577,
+        "doi": "10.1093/ndt/gfg388",
+        "journal": "Nephrology, dialysis, transplantation : official publication of the European Dia",
+        "year": "2003",
+        "rerank_score": 3.567730188369751,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39242826",
+        "text": "Effects of spironolactone on exercise blood pressure in patients at increased risk of developing heart failure: report from the HOMAGE trial. None of the spironolactone trials in heart failure (HF) assessed the blood pressure (BP) responses to exercise, while conflicting results were reported for exercise capacity. In the HOMAGE trial, 527 patients at increased HF risk were randomized to usual treatment with or without spironolactone (25-50 mg/day). The current substudy included 113 controls and 114 patient",
+        "score": 0.4300527274608612,
+        "doi": "10.1038/s41440-024-01843-z",
+        "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+        "year": "2024",
+        "rerank_score": 2.7895352840423584,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

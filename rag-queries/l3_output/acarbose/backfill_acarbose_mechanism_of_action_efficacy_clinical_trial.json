@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Acarbose mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:14703948",
+        "text": "Review of acarbose therapeutic strategies in the long-term treatment and in the prevention of type 2 diabetes. Acarbose--the most extensively investigated and widely prescribed alpha-glucosidase inhibitor--reduces postprandial plasma glucose excursions by delaying the absorption of carbohydrate from the small intestine. Acarbose is an effective first-line therapy for patients with newly diagnosed type 2 diabetes, and induces a further improvement in glycemic control when used in combination with other antid",
+        "score": 0.4101284444332123,
+        "doi": "10.5414/cpp41421",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2004",
+        "rerank_score": 1.4837241172790527,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40084832",
+        "text": "Quantification of glucose in the plasma of healthy Chinese volunteers and a bioequivalence study using a surrogate matrix approach combined with UHPLC-MS/MS. Acarbose works by competitively inhibiting α-glucosidase, delaying the breakdown of starch into glucose. Thus, it plays an important role in treating type 2 diabetes. Acarbose exhibits unique pharmacokinetic characteristics, and the United States of America (USA) Food and Drug Administration (FDA) has focused on pharmacodynamic parameters rather than p",
+        "score": 0.4367946982383728,
+        "doi": "10.1039/d4ay02120g",
+        "journal": "Analytical methods : advancing methods and applications",
+        "year": "2025",
+        "rerank_score": 0.5671932697296143,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:20066964",
+        "text": "Influence of acarbose on blood glucose and breath hydrogen after carbohydrate load with sucrose or starch. A monocentric, open, randomised, single-dose, six-period crossover trial was carried out in healthy volunteers under fasting conditions to establish the most appropriate study design for a pivotal bioequivalence trial with acarbose (CAS 56180-94-0) regarding a) dosage of the drug, b) type of carbohydrate load, c) type of primary endpoint, and d) sample size. 50 g sucrose or 50 g starch were used as car",
+        "score": 0.4100304841995239,
+        "doi": "10.1055/s-0031-1296444",
+        "journal": "Arzneimittel-Forschung",
+        "year": "2010",
+        "rerank_score": 0.48148632049560547,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

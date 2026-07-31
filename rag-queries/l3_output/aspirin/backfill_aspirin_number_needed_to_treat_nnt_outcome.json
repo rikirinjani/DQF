@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Aspirin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
+        "score": 0.4169130325317383,
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "rerank_score": 4.404656887054443,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41107892",
+        "text": "Long-term aspirin use and perioperative outcomes in lumbar interbody fusion: a population-based study using US national inpatient sample database. To evaluate the impact of long-term aspirin use (L-AU) on perioperative outcomes in Lumbar interbody fusion (LIF) using the US National Inpatient Sample (NIS) database. Data from 485,224 LIF patients (2010-2019) were extracted from the NIS. A 1:1 propensity score matching (PSM) was performed to balance baseline characteristics between L-AU and non-L-AU groups. Mu",
+        "score": 0.4101068675518036,
+        "doi": "10.1186/s13018-025-06261-6",
+        "journal": "Journal of orthopaedic surgery and research",
+        "year": "2025",
+        "rerank_score": -1.601108431816101,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40550264",
+        "text": "Outcomes of aspirin allergy evaluation in cardiac patients presenting with non-ST-elevation myocardial infarction.",
+        "score": 0.42908966541290283,
+        "doi": "10.1016/j.anai.2025.06.023",
+        "journal": "Annals of allergy, asthma & immunology : official publication of the American Co",
+        "year": "2025",
+        "rerank_score": -1.7189069986343384,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

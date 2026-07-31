@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B1",
+    "dimension": "backfill_rct",
+    "query": "Acarbose randomized controlled trial efficacy outcome quantitative result"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40166580",
+        "text": "From 'Negative' Trial to Positive Clinical Impact: Emulating WARCEF While Accounting for Selection Bias in Trial Timing. While randomized controlled trials (RCTs) guide clinical practice, their completion may also influence real-world treatment patterns. We investigated whether the outcomes of trial emulation differ before and after the publication of the WARCEF (Warfarin versus Aspirin in Reduced Cardiac Ejection Fraction) randomized controlled trial. We emulated the WARCEF trial using EHR data from the Ma",
+        "score": 0.40942201018333435,
+        "doi": "10.1101/2025.03.19.25324271",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "year": "2025",
+        "rerank_score": -0.6343768835067749,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:18407575",
+        "text": "A note on the conservativeness of the confidence interval approach for the selection of non-inferiority margin in the two-arm active-control trial. Compared with placebo-control clinical trials, the interpretation of efficacy results from active-control trials requires more caution. This is because efficacy results from such trials cannot be reliably interpreted without a thorough understanding of the efficacy evidence that formed the basis for the approval of the active control, especially when such drug e",
+        "score": 0.4038689434528351,
+        "doi": "10.1002/sim.3256",
+        "journal": "Statistics in medicine",
+        "year": "2008",
+        "rerank_score": -1.2352374792099,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40908119",
+        "text": "Target trial emulation to replicate randomised clinical trials using registry data in multiple sclerosis. BackgroundTarget trial emulation (TTE) offers a formal framework for causal inference using observational data, but its validity must be evaluated in each research domain by replicating randomised clinical trials (RCTs). We aimed to replicate eight RCTs evaluating the efficacy of disease-modifying therapies (DMTs) in multiple sclerosis (MS) using French registry data. This multicentre, retrospective, ob",
+        "score": 0.4047357738018036,
+        "doi": "10.1136/jnnp-2025-336762",
+        "journal": "Journal of neurology, neurosurgery, and psychiatry",
+        "year": "2025",
+        "rerank_score": -1.775207281112671,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

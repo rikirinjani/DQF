@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Hydrochlorothiazide adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39544450",
+        "text": "A Rare Case of Pulmonary Edema Secondary to Hydrochlorothiazide Use. Noncardiogenic pulmonary edema has been reported as a rare adverse reaction of hydrochlorothiazide. Symptoms can develop acutely after medication ingestion, and patients may present acutely ill. The mechanism by which hydrochlorothiazide causes pulmonary edema remains unknown and is considered idiosyncratic. Prompt supportive care and discontinuation of the medication is necessary to prevent and manage such a complication. This case report",
+        "score": 0.42419707775115967,
+        "doi": "10.1155/2024/9423545",
+        "journal": "Case reports in critical care",
+        "year": "2024",
+        "rerank_score": 4.201905250549316,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39092405",
+        "text": "Hydrochlorothiazide-Induced Exfoliative Rash and Sepsis. Hydrochlorothiazide is a diuretic agent commonly used to treat hypertension, chronic edema from congestive heart failure or cirrhosis, and nephrogenic diabetes insipidus. Diuretics work by increasing urine output and are classified based on the specific renal segments they act on. As with all medications, they are not without their side effects. The most significant and serious include hypovolemia and electrolyte disturbances. Other more rare adverse ",
+        "score": 0.4324326515197754,
+        "doi": "10.7759/cureus.63655",
+        "journal": "Cureus",
+        "year": "2024",
+        "rerank_score": 3.6943883895874023,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:25496048",
+        "text": "Comparing clinical effectiveness and drug toxicity with hydrochlorothiazide and chlorthalidone using two potency ratios in a managed care population. This study compared the clinical effectiveness and drug toxicity of chlorthalidone and hydrochlorothiazide. Electronic health records and claims data were used to identify patients initially prescribed chlorthalidone or hydrochlorothiazide. A total of 214 patients prescribed chlorthalidone 25 mg were matched with 428 patients prescribed hydrochlorothiazide 25 ",
+        "score": 0.40535110235214233,
+        "doi": "10.1111/jch.12453",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2014",
+        "rerank_score": 0.10258316248655319,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Atorvastatin number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.4134860932826996,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 4.425703525543213,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40139683",
+        "text": "Long-term benefits of atorvastatin on the incidence of cardiovascular events: the ASCOT-Legacy 20-year follow-up. Cardiovascular (CV) deaths were reduced by atorvastatin during a 16-year follow-up of participants in the Anglo-Scandinavian Cardiac Outcomes Trial-lipid-lowering arm. We now extend these observations over 20 years and report both non-fatal and fatal CV outcomes. A cohort of 4605 UK hypertensive participants with total cholesterol <6.5 mmol/L (2317 atorvastatin vs 2288 placebo) was followed for ",
+        "score": 0.4175448417663574,
+        "doi": "10.1136/heartjnl-2024-325104",
+        "journal": "Heart (British Cardiac Society)",
+        "year": "2024",
+        "rerank_score": 0.5065962672233582,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40561994",
+        "text": "Randomized Controlled Trial of Atorvastatin in Acute Influenza in the Emergency Department. We sought to determine whether atorvastatin administration attenuates the inflammatory response and improves clinical outcomes in acute influenza. We conducted a randomized double-blind trial administering atorvastatin 40 milligrams or placebo to adults with confirmed influenza for five days between December 2013-May 2018. Patients were primarily enrolled in the emergency department (ED) at an urban, tertiary-care ce",
+        "score": 0.4165342450141907,
+        "doi": "10.5811/westjem.33580",
+        "journal": "The western journal of emergency medicine",
+        "year": "2024",
+        "rerank_score": 0.4631032347679138,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

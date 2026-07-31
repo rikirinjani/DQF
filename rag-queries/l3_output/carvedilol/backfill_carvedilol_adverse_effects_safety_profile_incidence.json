@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A4",
+    "dimension": "backfill_safety",
+    "query": "Carvedilol adverse effects safety profile incidence"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39988204",
+        "text": "Effects of carvedilol on the prevention of cardiotoxicity induced by anthracyclines: Design and rationale of the CARDIOTOX trial. Patients with cancer undergoing chemotherapy with an anthracycline-based regimen are at increased risk of cardiotoxicity, predisposing to heart failure, arrhythmias and death. Whether carvedilol may confer benefit to prevent anthracycline-induced cardiotoxicity remains to be determined. CARDIOTOX is a double-blind, placebo controlled randomized clinical trial that plan to enroll ",
+        "score": 0.43813326954841614,
+        "doi": "10.1016/j.ahj.2025.02.014",
+        "journal": "American heart journal",
+        "year": "2024",
+        "rerank_score": 3.3821828365325928,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39969604",
+        "text": "Comparison of nebivolol, carvedilol, and bisoprolol for adverse clinical outcomes among patients with heart failure-a real-world nationwide investigation. The authors report a retrospective cohort study based on a national dataset that explores the association between the prescription of three beta-blockers (BB) and a diagnosis of heart failure (HF) readmission, cardiovascular (CV) death, and all-cause death. Patients with HF who received nebivolol, carvedilol, and bisoprolol between 2016 and 2020 were iden",
+        "score": 0.4422732889652252,
+        "doi": "10.1007/s00210-025-03855-z",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "year": "2024",
+        "rerank_score": 2.2016758918762207,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:15379781",
+        "text": "Effect of carvedilol on Ca2+ movement and cytotoxicity in human MG63 osteosarcoma cells. Carvedilol is a useful cardiovascular drug for treating heart failure, however, the in vitro effect on many cell types is unclear. In human MG63 osteosarcoma cells, the effect of carvedilol on intracellular Ca2+ concentrations ([Ca2+]i) and cytotoxicity was explored by using fura-2 and tetrazolium, respectively. Carvedilol at concentrations greater than 1 microM caused a rapid rise in [Ca2+]i in a concentration-dependen",
+        "score": 0.4258519411087036,
+        "doi": "10.1111/j.1742-7843.2004.950203.x",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2004",
+        "rerank_score": 2.062150001525879,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Calcium Carbonate comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39689934",
+        "text": "The efficacy of colchicine compared to placebo for preventing ischemic stroke among individuals with established atherosclerotic cardiovascular diseases: a systematic review and meta-analysis.",
+        "score": 0.42243242263793945,
+        "doi": "10.1080/14017431.2024.2441112",
+        "journal": "Scandinavian cardiovascular journal : SCJ",
+        "year": "2024",
+        "rerank_score": -0.685947060585022,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40786390",
+        "text": "Absorption, Scintigraphy, Efficacy and Tolerability of Short-Term Calcium Carbonate Supplementation in Healthy Subjects. Orally administered calcium carbonate tablets are commonly prescribed as a calcium supplement, and their short-term use is popular among the healthy population. However, being a nutritional supplement, the in vitro properties and clinical efficacy of calcium carbonate supplements are sometimes compromised. The present study aimed to assess the absorption, in vivo dispersion, efficacy and ",
+        "score": 0.4096530079841614,
+        "doi": "10.7759/cureus.87642",
+        "journal": "Cureus",
+        "year": "2025",
+        "rerank_score": -1.229178547859192,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38809560",
+        "text": "Differential Outcomes of Placebo Treatment Across 9 Psychiatric Disorders: A Systematic Review and Meta-Analysis. Placebo is the only substance systematically evaluated across common psychiatric diagnoses, but comprehensive cross-diagnostic comparisons are lacking. To compare changes in placebo groups in recent high-quality randomized clinical trials (RCTs) across a broad spectrum of psychiatric disorders in adult patients. MEDLINE and the Cochrane Database of Systematic Reviews were systematically searched",
+        "score": 0.41298577189445496,
+        "doi": "10.1001/jamapsychiatry.2024.0994",
+        "journal": "JAMA psychiatry",
+        "year": "2024",
+        "rerank_score": -1.37299382686615,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

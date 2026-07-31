@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Pantoprazole number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:41562647",
+        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
+        "score": 0.4930781424045563,
+        "doi": "10.1080/13696998.2026.2615606",
+        "journal": "Journal of medical economics",
+        "year": "2026",
+        "rerank_score": 0.6520369648933411,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40025602",
+        "text": "A green three-ratio manipulating spectrophotometric approaches for the determination of a binary mixture of pantoprazole and domperidone. Pantoprazole (PAN) is a proton pump inhibitor used to treat GERD and hyperacidity by suppressing gastric acid secretion, effectively relieving symptoms such as heartburn, acid regurgitation, and indigestion. Domperidone (DOM) is a prokinetic agent that enhances gastrointestinal motility, helping to alleviate nausea, vomiting, and bloating caused by motility disorders. The",
+        "score": 0.4861057996749878,
+        "doi": "10.1186/s13065-025-01414-4",
+        "journal": "BMC chemistry",
+        "year": "2024",
+        "rerank_score": 0.2882251739501953,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40214942",
+        "text": "Role of Proton Pump Inhibitor as Stress Ulcer Prophylaxis in Sick Children: A Randomized Controlled Trial. To evaluate the efficacy of intravenous pantoprazole as a stress ulcer prophylaxis in sick children to prevent gastrointestinal (GI) bleeding. A randomized controlled trial included children aged one-month to 18 years requiring intensive care. Participants were randomly assigned to receive intravenous pantoprazole or a placebo (normal saline) daily. The primary outcome was the incidence of GI bleeding ",
+        "score": 0.49435797333717346,
+        "doi": "10.1007/s13312-025-00035-3",
+        "journal": "Indian pediatrics",
+        "year": "2024",
+        "rerank_score": -2.2162911891937256,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

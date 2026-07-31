@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B3",
+    "dimension": "backfill_comparative",
+    "query": "Lisinopril comparative effectiveness versus placebo meta-analysis"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39665939",
+        "text": "Comparison of the effectiveness of aliskiren and ramipril for the management of hypertension: A systematic review and meta-analysis. Ramipril is an important option in the management of hypertension, while the role of aliskiren is still up for debate. We aim to meta-analyse and compare the effect of aliskiren with ramipril by measuring mean difference in systolic blood pressure (mdSBP) and mean difference in diastolic blood pressure (mdDBP). The search was conducted using the PubMed and Cochrane databases f",
+        "score": 0.3931712806224823,
+        "doi": "10.1016/j.hipert.2024.11.002",
+        "journal": "Hipertension y riesgo vascular",
+        "year": "2024",
+        "rerank_score": 3.014648675918579,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11113723",
+        "text": "Low doses vs. high doses of the angiotensin converting-enzyme inhibitor lisinopril in chronic heart failure: a cost-effectiveness analysis based on the Assessment of Treatment with Lisinopril and Survival (ATLAS) study. The ATLAS Study Group. A cost-effectiveness analysis of high and low doses of the angiotensin-converting enzyme (ACE) inhibitor lisinopril in the treatment of chronic heart failure.",
+        "score": 0.387532114982605,
+        "doi": "10.1016/s1388-9842(00)00122-7",
+        "journal": "European journal of heart failure",
+        "year": "2000",
+        "rerank_score": 2.770137310028076,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39899873",
+        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
+        "score": 0.3954104483127594,
+        "doi": "10.7326/ANNALS-24-00315",
+        "journal": "Annals of internal medicine",
+        "year": "2025",
+        "rerank_score": 2.188378095626831,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

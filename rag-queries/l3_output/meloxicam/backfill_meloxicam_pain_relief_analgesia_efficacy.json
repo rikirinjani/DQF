@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Meloxicam pain relief analgesia efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39397127",
+        "text": "Efficacy and safety of 4-hydroxy-2-methyl-N-(5-methyl-2-thiazolyl)-2H-1, 2-benzothiazin-3-carboxamide 1,1-dioxide, a rapid-acting meloxicam formulation, for analgesia after orthopaedic surgery under general anaesthesia: a randomized controlled trial. Postoperative pain management is one of the most challenging treatments after orthopaedic surgery, and improved medical treatment options are urgently needed. This study aimed to evaluate the efficacy and safety of 4-hydroxy-2-methyl-N-(5-methyl-2-thiazolyl)-2H",
+        "score": 0.3859030604362488,
+        "doi": "10.1007/s10787-024-01575-z",
+        "journal": "Inflammopharmacology",
+        "year": "2024",
+        "rerank_score": 6.185037612915039,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38608134",
+        "text": "Long-Acting Drug Delivery Technologies for Meloxicam as a Pain Medicine. Meloxicam, a selective COX-2 inhibitor, has demonstrated clinical effectiveness in managing inflammation and acute pain. Although available in oral and parenteral formulations such as capsule, tablet, suspension, and solution, frequent administration is necessary to maintain therapeutic efficacy, which can increase adverse effects and patient non-compliance. To address these issues, several sustained drug delivery strategies such as or",
+        "score": 0.42066875100135803,
+        "doi": "10.1615/CritRevTherDrugCarrierSyst.20240",
+        "journal": "Critical reviews in therapeutic drug carrier systems",
+        "year": "2024",
+        "rerank_score": 5.910417079925537,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41086273",
+        "text": "Analgesic efficacy of meloxicam vs ibuprofen on pain after third molar surgery in adult patients. A randomized controlled clinical trial. This randomized clinical trial was designed to evaluate the postoperative analgesic efficacy of ibuprofen compared to meloxicam in patients undergoing third molar extraction. Sixty-eight patients who had been indicated for the extraction of both a maxillary (semi-erupted or fully erupted crown) and mandibular third molar (Class I, Position A, and Class I, Position B, acco",
+        "score": 0.3803552985191345,
+        "doi": "10.4317/medoral.27543",
+        "journal": "Medicina oral, patologia oral y cirugia bucal",
+        "year": "2025",
+        "rerank_score": 5.538109302520752,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A1",
+    "dimension": "backfill_mechanism",
+    "query": "Atenolol mechanism of action efficacy clinical trial"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39831760",
+        "text": "Effect of a calcium-channel blocker and β-blocker combination on reading-to-reading blood pressure variability: a randomized crossover trial. The objective of this study was to investigate the efficacy of the nitrendipine/atenolol combination in comparison with standard-dose nitrendipine or atenolol monotherapy in reducing blood pressure (BP) and blood pressure variability (BPV) as assessed by ambulatory BP monitoring. In a randomized, crossover trial, 32 patients (30-65 years) with grade 1 hypertension and",
+        "score": 0.42629551887512207,
+        "doi": "10.1097/MBP.0000000000000736",
+        "journal": "Blood pressure monitoring",
+        "year": "2025",
+        "rerank_score": 2.453256368637085,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:39673185",
+        "text": "Pharmacogenetic and microRNA mechanisms of beta blocker use on bone. Motivated by studies showing an association between beta blocker (BB) use and positive bone outcomes, a pilot randomized control trial was performed at the Mayo Clinic which randomized postmenopausal women to placebo, propranolol (40 or 80 mg twice daily), atenolol (50 mg/d), or nebivolol (5 mg/d) to determine changes in bone turnover markers (BTMs) and in BMD over 20 wk. Pharmacogenetic effects and microRNA-mediated mechanisms involving b",
+        "score": 0.4339755177497864,
+        "doi": "10.1093/jbmr/zjae200",
+        "journal": "Journal of bone and mineral research : the official journal of the American Soci",
+        "year": "2024",
+        "rerank_score": 1.661738395690918,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40516629",
+        "text": "Exploring the relationship between atenolol use and depression: A network pharmacology approach using NHANES data. Atenolol, a β-blocker, offers significant cardiovascular benefits, but its potential association with depression remains unclear. The goal of this study is to investigate the relationship between atenolol use and depression, exploring underlying mechanisms through network pharmacology. Data from 11,057 adult participants in the NHANES database (2005-2018) were analyzed. Participants were catego",
+        "score": 0.4406878352165222,
+        "doi": "10.1016/j.jad.2025.119675",
+        "journal": "Journal of affective disorders",
+        "year": "2025",
+        "rerank_score": -0.4377974271774292,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

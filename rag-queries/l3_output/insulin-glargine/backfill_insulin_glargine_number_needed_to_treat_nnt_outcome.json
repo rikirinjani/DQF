@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Insulin Glargine number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
+        "score": 0.4386466145515442,
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "rerank_score": 3.5322446823120117,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41178705",
+        "text": "Importance of targeting post-prandial hyperglycaemia to achieve HbA1c goals in insulin glargine-treated subphenotypes of type 2 diabetes. To explore outcome parameters related to achieving HbA1c goal (<7.0%) in subphenotypes of type 2 diabetes (T2D), either on basal insulin (BI) glargine 300 U/mL or 100 U/mL or switched to these BIs (≥42 U/day) alone or with pre-prandial insulin. Participants from three EDITION T2D trials (n = 2,435) were clustered into T2D subphenotypes, with ≥97% having either Severe Insu",
+        "score": 0.43063151836395264,
+        "doi": "10.1111/dom.70231",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 2.5986239910125732,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:38879736",
+        "text": "Responses to Basal Insulin Glargine (300 U/mL and 100 U/mL) with or Without Pre-prandial Insulin in Pre-treated Subphenotypes of Type 2 Diabetes: Insights from a Post Hoc Analysis. This study aimed to evaluate glycemic outcomes in subphenotypes of type 2 diabetes (T2D) with HbA1c > 7.0%, previously on basal insulin (pre-BI) alone (≥ 42 U/day) or on basal-bolus therapy (pre-BB), and who were switched to either basal insulin glargine 300 U/mL (IGlar-300) or 100 U/mL (IGlar-100), with or without pre-prandial i",
+        "score": 0.4228633940219879,
+        "doi": "10.1007/s13300-024-01608-4",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2024",
+        "rerank_score": 2.080104112625122,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

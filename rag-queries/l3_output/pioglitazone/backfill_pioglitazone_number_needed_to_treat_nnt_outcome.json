@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Pioglitazone number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40078077",
+        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
+        "score": 0.47810888290405273,
+        "doi": "10.1080/13696998.2025.2466365",
+        "journal": "Journal of medical economics",
+        "year": "2025",
+        "rerank_score": 1.3371596336364746,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40735972",
+        "text": "Effects of pioglitazone with and without exercise training on cardiorespiratory fitness and oxygen uptake kinetics in type 2 diabetes. Exercise tolerance is often impaired in type 2 diabetes (T2D), and barriers to regular exercise are common. This study evaluated whether 12 weeks of pioglitazone (PIO) therapy could enhance peak oxygen uptake (V̇O Male participants with T2D were assigned to one of the following groups: (1) non-exercising control (CON, n = 12), (2) PIO (15 mg/day) alone (PIO, n = 6), (3) exer",
+        "score": 0.4769314229488373,
+        "doi": "10.1111/dom.16648",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "rerank_score": 0.6700069904327393,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:16523797",
+        "text": "[Trial of pioglitazone for the secondary prevention of cardiovascular events in patients with diabetes mellitus type 2: insufficient evidence]. The PROactive study was a multicentre, multinational, double-blind, placebo-controlled randomised trial that was intended to show a benefit of pioglitazone in the secondary prevention of cardiovascular disease in patients with diabetes. However, the result for the primary composite endpoint was not significant. The most important secondary endpoint (time to death, m",
+        "score": 0.4594902992248535,
+        "doi": "",
+        "journal": "Nederlands tijdschrift voor geneeskunde",
+        "year": "2006",
+        "rerank_score": 0.2532927095890045,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A3",
+    "dimension": "backfill_nnt",
+    "query": "Losartan number needed to treat NNT outcome"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10756410",
+        "text": "The value of the number-needed-to-treat method in antiepileptic drug trials. There is controversy between clinicians and statisticians on the appropriateness of the number needed to treat (NNT) as a summary statistic to report the effectiveness of a treatment. We examine the two viewpoints and make proposals concerning the reporting of clinical trial results.",
+        "score": 0.4829798936843872,
+        "doi": "10.1111/j.1528-1157.2000.tb00186.x",
+        "journal": "Epilepsia",
+        "year": "2000",
+        "rerank_score": 1.8017537593841553,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:10547079",
+        "text": "The angiotensin II-receptor antagonist losartan does not prevent hemodynamic or vascular tolerance to nitroglycerin. Tolerance may involve increased production of angiotensin II. We tested the hypothesis that losartan would prevent the development of tolerance to continuous transdermal nitroglycerin (GTN). Twenty volunteers received losartan, 75 mg/day, or placebo in a randomized, double-blind, parallel fashion. After 1 week, continuous transdermal GTN, 0.6 mg/h, was given, in addition to losartan or placeb",
+        "score": 0.4832618236541748,
+        "doi": "10.1097/00005344-199911000-00004",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1999",
+        "rerank_score": 0.19729949533939362,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:11813934",
+        "text": "Four-Year persistence patterns among patients initiating therapy with the angiotensin II receptor antagonist losartan versus other artihypertensive drug classes. It has been reported that a statistically greater percentage of patients initially treated with losartan, an angiotensin II receptor antagonist (AIIA), stayed on therapy at 1 year compared with patients treated with antihypertensive drugs from other classes.",
+        "score": 0.48343992233276367,
+        "doi": "10.1016/s0149-2918(01)80152-1",
+        "journal": "Clinical therapeutics",
+        "year": "2002",
+        "rerank_score": -1.5227775573730469,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

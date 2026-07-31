@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Semaglutide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:33660198",
+        "text": "Oral Semaglutide Reduces HbA The efficacy and safety of oral semaglutide, the first oral glucagon-like peptide-1 receptor agonist, were investigated in patients with type 2 diabetes (T2D) in the Peptide InnOvatioN for Early diabEtes tReatment (PIONEER) programme. The current post-hoc exploratory subgroup analyses evaluated outcomes by background medication and insulin regimen subgroups.",
+        "score": 0.32822293043136597,
+        "doi": "10.1007/s13300-020-00994-9",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
+        "year": "2020",
+        "rerank_score": 7.96484375,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:36531884",
+        "text": "Hemoglobin A1c Reduction With the GLP-1 Receptor Agonist Semaglutide Is Independent of Baseline eGFR:  Glucagon-like peptide-1 receptor agonists (GLP-1RAs) are effective treatments for reducing hemoglobin A1c (HbA1c) in people with type 2 diabetes (T2D), including those with reduced kidney function.",
+        "score": 0.33193010091781616,
+        "doi": "10.1016/j.ekir.2022.07.167",
+        "journal": "Kidney international reports",
+        "year": "2022",
+        "rerank_score": 7.2981367111206055,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:35812819",
+        "text": "The efficacy and safety of oral semaglutide for glycaemic management in adults with type 2 diabetes compared to subcutaneous semaglutide, placebo, and other GLP-1 RA comparators: A systematic review and network meta-analysis. Semaglutide is a long-acting glucagon-like peptide-1 receptor agonist (GLP-1 RA) indicated for glycaemic management in adults with type 2 diabetes (T2D). Oral semaglutide administration can help decrease glycated haemoglobin (HbA1c) and body weight in people with uncontrolled T2D. We e",
+        "score": 0.33717042207717896,
+        "doi": "10.1016/j.conctc.2022.100944",
+        "journal": "Contemporary clinical trials communications",
+        "year": "2021",
+        "rerank_score": 7.245731353759766,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}

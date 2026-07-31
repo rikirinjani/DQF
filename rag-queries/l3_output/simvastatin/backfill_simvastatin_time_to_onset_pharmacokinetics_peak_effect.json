@@ -1,0 +1,59 @@
+{
+  "query": {
+    "angle": "B4",
+    "dimension": "backfill_pk",
+    "query": "Simvastatin time to onset pharmacokinetics peak effect"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:40774408",
+        "text": "Relationship between simvastatin pharmacokinetics and muscle toxicity in male mice. Statins are highly effective in reducing plasma LDL-cholesterol but may be myotoxic. Since the relationship between statin exposure and myotoxicity is not clearly established, the current study aimed to compare blood and skeletal muscle concentrations with myotoxicity in male mice treated orally with 5, 10 and 25 mg/kg/day simvastatin for 3 weeks. After the first dose, simvastatin blood pharmacokinetics was dose-dependent, w",
+        "score": 0.35784637928009033,
+        "doi": "10.1016/j.fct.2025.115688",
+        "journal": "Food and chemical toxicology : an international journal published for the Britis",
+        "year": "2025",
+        "rerank_score": 1.724835991859436,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:40297930",
+        "text": "Impacts of Pharmacokinetic Gene Polymorphisms on Steady-State Plasma Concentrations of Simvastatin in Thai Population. Simvastatin, an HMG-CoA reductase inhibitor, is widely used for hypercholesterolemia but may cause myotoxicity linked to its plasma concentration. Pharmacokinetic gene polymorphisms influence inter-individual variability in simvastatin exposure. This study investigated the effects of pharmacokinetic gene polymorphisms on steady-state simvastatin plasma levels in Thai patients. Eighty-nine T",
+        "score": 0.39084577560424805,
+        "doi": "10.1111/cts.70225",
+        "journal": "Clinical and translational science",
+        "year": "2025",
+        "rerank_score": 0.9152126312255859,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      },
+      {
+        "id": "PMID:41123847",
+        "text": "Assessment of Pharmacokinetic Drug Interaction of Asciminib with Atorvastatin in Healthy Participants. Asciminib is the first BCR::ABL1 inhibitor that Specifically Targets the ABL Myristoyl Pocket (STAMP) in patients with chronic myeloid leukemia. This phase 1, two-treatment-period, drug-drug interaction study evaluated the effect of steady-state asciminib on the pharmacokinetics of atorvastatin. A single dose of atorvastatin (20 mg) was administered on day 1 (period 1: days 1-4). On days 5-11 (period 2: da",
+        "score": 0.3823867440223694,
+        "doi": "10.1002/cpdd.1611",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2025",
+        "rerank_score": -0.36760595440864563,
+        "evidence": {
+          "level": "2b",
+          "grade": "MODERATE",
+          "weight": 0.6,
+          "journal_factor": 1.0,
+          "final_weight": 0.6
+        }
+      }
+    ]
+  }
+}
