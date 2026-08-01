@@ -55,12 +55,21 @@ Hard rules honored:
     hardcoded.
 
 Usage:
-    python backfill_all_queries.py                  # all 88 drugs
+    python backfill_all_queries.py                  # all 88 drugs (skip-if-exists)
+    python backfill_all_queries.py --refresh        # refetch + overwrite all 88 (post re-index)
     python backfill_all_queries.py --dry-run        # enumerate + validate, no HTTP
     python backfill_all_queries.py --class Diabetes
     python backfill_all_queries.py --drug metformin
     python backfill_all_queries.py --eutils-only metformin
     python backfill_all_queries.py --rag-only
+
+Refresh mode (--refresh):
+    Re-fetches every RAG query even when a backfill_*.json already exists and
+    OVERWRITES the canonical file in place (no _N uniquify). Intended for
+    re-running after the RAG endpoint re-indexes with a raised text cap, so
+    truncated snippets are replaced by full abstracts. The 6 ALREADY_COVERED
+    diabetes drugs are also refetched in refresh mode. EUtils files are
+    overwritten too. Counts files_refreshed in the summary.
 """
 
 import json
@@ -416,16 +425,22 @@ def run_eutils(client: EUtils, term: str) -> dict:
 # ---------------------------------------------------------------------------
 # Save
 # ---------------------------------------------------------------------------
-def save_raw(drug_id: str, query_spec: dict, result: dict) -> Path:
-    """Save raw response. Never overwrites: uniquifies on collision."""
+def save_raw(drug_id: str, query_spec: dict, result: dict,
+             overwrite: bool = False) -> Path:
+    """Save raw response. Never overwrites unless overwrite=True (refresh
+    mode): uniquifies on collision by default, or writes the canonical
+    backfill_<slug>.json in place when overwriting."""
     drug_out = OUT_BASE / drug_id
     drug_out.mkdir(parents=True, exist_ok=True)
     base = f"backfill_{slugify(query_spec['query'])}"
-    path = drug_out / f"{base}.json"
-    n = 1
-    while path.exists():
-        path = drug_out / f"{base}_{n}.json"
-        n += 1
+    if overwrite:
+        path = drug_out / f"{base}.json"
+    else:
+        path = drug_out / f"{base}.json"
+        n = 1
+        while path.exists():
+            path = drug_out / f"{base}_{n}.json"
+            n += 1
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"query": query_spec, "result": result}, f,
                   indent=2, ensure_ascii=False)
@@ -498,6 +513,9 @@ def main() -> int:
         description="DQF L3 evidence backfill (ALL 88 drugs, 9 classes)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Enumerate drugs per class and validate the class map; no HTTP")
+    parser.add_argument("--refresh", action="store_true",
+                        help="Refetch all queries and OVERWRITE existing backfill files "
+                             "(use after the RAG endpoint re-indexes with a raised cap)")
     parser.add_argument("--class", dest="cls",
                         help=f"Run a single class: {'|'.join(ALL_CLASSES)}")
     parser.add_argument("--drug", help="Run a single drug id only")
@@ -536,8 +554,8 @@ def main() -> int:
     }
     totals = {"drugs_total": len(drugs), "rag_queries_issued": 0, "rag_ok": 0,
               "still_loading_failed": 0, "timeout_failed": 0, "other_errors": 0,
-              "eutils_runs": 0, "files_written": 0, "files_skipped_existing": 0,
-              "drugs_already_covered": 0}
+              "eutils_runs": 0, "files_written": 0, "files_refreshed": 0,
+              "files_skipped_existing": 0, "drugs_already_covered": 0}
     endpoint_errors: list[str] = []
     eutils = EUtils()
 
@@ -557,7 +575,8 @@ def main() -> int:
         # Pre-existing backfill files -> mark already-covered (resume path).
         # The 6 ALREADY_COVERED drugs from the earlier 10-drug run are never
         # refetched, even if a slug differs (e.g. pramlintide A2 wording).
-        if not args.eutils_only:
+        # In refresh mode both skip paths are disabled: everything refetches.
+        if not args.eutils_only and not args.refresh:
             if drug_id in ALREADY_COVERED:
                 ds["skipped_already_covered"] = True
                 totals["drugs_already_covered"] += 1
@@ -576,7 +595,7 @@ def main() -> int:
             for spec in specs:
                 fname = f"backfill_{slugify(spec['query'])}.json"
                 existing = OUT_BASE / drug_id / fname
-                if existing.exists():
+                if existing.exists() and not args.refresh:
                     # Resume path: existing backfill file counts if usable
                     try:
                         with open(existing, encoding="utf-8") as f:
@@ -591,10 +610,12 @@ def main() -> int:
                     continue
 
                 data, outcome = fetch_rag(spec["query"])
-                path = save_raw(drug_id, spec, data)
+                path = save_raw(drug_id, spec, data, overwrite=args.refresh)
                 ds["files_written"].append(path.name)
                 totals["files_written"] += 1
                 totals["rag_queries_issued"] += 1
+                if args.refresh and existing.exists():
+                    totals["files_refreshed"] += 1
 
                 nres = 0
                 if isinstance(data, dict) and isinstance(data.get("results"), list):
@@ -652,10 +673,11 @@ def main() -> int:
             drug_out = OUT_BASE / drug_id
             drug_out.mkdir(parents=True, exist_ok=True)
             efile = drug_out / f"backfill_eutils_{drug_id}.json"
-            n = 1
-            while efile.exists():
-                efile = drug_out / f"backfill_eutils_{drug_id}_{n}.json"
-                n += 1
+            if not args.refresh:
+                n = 1
+                while efile.exists():
+                    efile = drug_out / f"backfill_eutils_{drug_id}_{n}.json"
+                    n += 1
             with open(efile, "w", encoding="utf-8") as f:
                 json.dump({"query": {"query": term, "angle": "C",
                                      "dimension": "backfill_eutils", "target": None},
@@ -673,7 +695,8 @@ def main() -> int:
     # Write summary file
     summary["totals"] = totals
     summary["endpoint_errors"] = endpoint_errors
-    summary["overwrites"] = "none: all outputs are new backfill_* files"
+    summary["overwrites"] = ("refresh mode: existing backfill_* files overwritten in place"
+                             if args.refresh else "none: all outputs are new backfill_* files")
     with open(SUMMARY_PATH, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
@@ -694,6 +717,7 @@ def main() -> int:
           f"OK: {totals['rag_ok']} | still-loading: {totals['still_loading_failed']} | "
           f"timeouts: {totals['timeout_failed']} | other: {totals['other_errors']} | "
           f"EUtils runs: {totals['eutils_runs']} | files written: {totals['files_written']} | "
+          f"files refreshed: {totals['files_refreshed']} | "
           f"files skipped (existing): {totals['files_skipped_existing']} | "
           f"drugs already covered: {totals['drugs_already_covered']}")
     if endpoint_errors:
