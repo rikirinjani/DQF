@@ -27,6 +27,38 @@ FIELD_SCHEMA = {
 }
 HEART_KW = ["heart rate","bradycardia","tachycardia","heart rate effect"]
 
+# Fix E: tokens whose content the endpoint confuses with similarly-prefixed
+# drug queries (e.g. methyldopa queries returning methylphenidate/methylone/
+# MDMA). A snippet is relevant only if it does NOT contain any of these
+# UNLESS it also contains the drug's own name variant.
+CONFUSABLE_TOKENS = {"methylphenidate", "methylone", "mdma", "methyl-dopa"}
+
+# Fix C: lazily-built set of every drug name in drugs.json (lowercased).
+# Used by the co-mention relevance rule -- a head-to-head comparison trial
+# mentions the subject drug once alongside a comparator, and the comparator
+# is (almost always) another drug from the framework's own list.
+_OTHER_DRUG_NAMES = None  # module-level lazy cache
+
+def _other_drug_names(current_name=""):
+    """All drug names from drugs.json minus the current drug's own name.
+
+    Same rule as extract_l3.py. Built lazily on first use and cached
+    module-wide. Class words and other non-drug words never enter the set
+    (it is derived from drug names only), and callers only count mentions
+    of length >= 4 to avoid noise.
+    """
+    global _OTHER_DRUG_NAMES
+    if _OTHER_DRUG_NAMES is None:
+        try:
+            d = json.load(open(DRUGS, encoding="utf-8"))
+            _OTHER_DRUG_NAMES = {
+                str(x.get("name", "")).lower() for x in d.get("drugs", []) if x.get("name")
+            }
+        except Exception:
+            _OTHER_DRUG_NAMES = set()
+    own = (current_name or "").lower()
+    return {n for n in _OTHER_DRUG_NAMES if n and n != own}
+
 def _name_variants(drug_id, name):
     """Drug-name variants to search for (mirrors extract_l3.py relevance gate)."""
     base = (name or drug_id).lower()
@@ -39,12 +71,15 @@ def _name_variants(drug_id, name):
 def load_pool(drug_id, drug_name=""):
     """Load the retrieval pool, applying the drug-relevance gate.
 
-    Same rule as extract_l3.py: keep a snippet iff a drug-name variant
-    appears in its title, OR >=2 mentions across title+text. This drops
-    off-drug papers (passing mentions) while preserving legitimate
-    co-mention comparison trials (e.g. methyldopa-vs-nifedipine RCTs,
-    which mention both drugs in title+abstract). Returns
-    (kept_snippets, total_snippets, kept_count).
+    Same rule as extract_l3.py (_snippet_relevant): keep a snippet iff
+      * a drug-name variant appears in its title, OR
+      * >=2 mentions across title+text, OR
+      * a single mention alongside another drug name from the framework's
+        drug list (co-mention head-to-head comparison trial, e.g.
+        methyldopa-vs-nifedipine RCTs which mention both drugs once).
+    Confusable content (Fix E: methylphenidate/methylone/mdma/methyl-dopa)
+    is relevant only if the drug's own name variant is also present.
+    Returns (kept_snippets, total_snippets, kept_count).
     """
     d = os.path.join(OUT, drug_id)
     snips = []
@@ -67,13 +102,25 @@ def load_pool(drug_id, drug_name=""):
                 title = r.get("title") or ""
                 title_lower = title.lower()
                 # Title match is authoritative; otherwise require >=2 mentions
-                # across title+text (text embeds the title in both RAG and
-                # EUtils sources, so counting in text covers title mentions).
-                if title and any(v in title_lower for v in variants):
-                    pass  # keep
-                else:
-                    count = sum(text_lower.count(v) for v in variants)
-                    if count < 2:
+                # OR a single mention co-occurring with another drug name
+                # (text embeds the title in both RAG and EUtils sources, so
+                # counting in text covers title mentions).
+                title_match = title and any(v in title_lower for v in variants)
+                count = sum(text_lower.count(v) for v in variants)
+                has_confusable = any(tok in f"{title_lower}\n{text_lower}" for tok in CONFUSABLE_TOKENS)
+                if has_confusable:
+                    # Fix E: confusable content is relevant iff the drug's own
+                    # name variant is also present ("mentioning both -> keep";
+                    # "confusable only -> drop").
+                    if not (title_match or count >= 1):
+                        continue
+                elif not title_match:
+                    # Fix C: >=2 mentions, OR a single mention co-occurring
+                    # with another drug name (co-mention comparison trial)
+                    if count < 2 and not (
+                            count >= 1 and any(
+                                len(o) >= 4 and (o in title_lower or o in text_lower)
+                                for o in _other_drug_names(drug_name))):
                         continue
                 snips.append({"pmid": pid, "text": t, "title": title, "score": r.get("rerank_score", 0)})
     return snips, total, len(snips)

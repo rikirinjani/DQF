@@ -31,6 +31,11 @@ Usage:
 
 Output:
     l3_output/{drug_id}/  -- raw RAG JSONs + structured L3 profile
+
+Response schema (live endpoint):
+    results[] = {id, text, score, doi, journal, year, rerank_score, evidence};
+    title is the first line of text; text is hard-capped at 512 chars
+    server-side (index-baked), so prefer EUtils path for full abstracts.
 """
 
 import json, os, sys, time, re, xml.etree.ElementTree as ET
@@ -52,6 +57,12 @@ DEFAULT_OUT_DIR = SCRIPT_DIR / "l3_output"
 RAG_ENDPOINT = "https://balade-pubmed-rag-bot.hf.space/search"
 RAG_TOP_K = 3
 RAG_DELAY_S = 1.5  # polite delay between queries
+
+# Tokens whose content the endpoint confuses with similarly-prefixed drug
+# queries (e.g. methyldopa queries returning methylphenidate/methylone/MDMA).
+# A snippet is relevant only if it does NOT contain any of these UNLESS it
+# also contains the drug's own name variant (Fix E).
+CONFUSABLE_TOKENS = {"methylphenidate", "methylone", "mdma", "methyl-dopa"}
 
 # NCBI EUtils constants
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
@@ -356,23 +367,47 @@ def build_l3_queries(drug: dict, templates: dict) -> list[dict]:
 # ---------------------------------------------------------------------------
 # RAG fetch
 # ---------------------------------------------------------------------------
-def fetch_rag(query: str, top_k: int = RAG_TOP_K) -> Optional[dict]:
-    """Call the PubMed RAG endpoint. Returns parsed JSON or None."""
-    try:
-        resp = requests.get(
-            RAG_ENDPOINT,
-            params={"q": query, "k": top_k},
-            timeout=30
-        )
-        resp.raise_for_status()
-        return resp.json()
-    except requests.RequestException as e:
-        print(f"  [WARN] RAG fetch failed for '{query[:60]}': {e}", file=sys.stderr)
-        return None
+def fetch_rag(query: str, top_k: int = RAG_TOP_K,
+              retries: int = 2, backoff_s: float = 5.0) -> Optional[dict]:
+    """Call the PubMed RAG endpoint. Returns parsed JSON or None.
+
+    The endpoint answers HTTP 200 with {"error": "Still loading"} while a
+    cold model spins up. Retry up to `retries` more times with `backoff_s`
+    seconds between attempts; if the error persists, return None (callers
+    already fall back to NCBI EUtils).
+    """
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(
+                RAG_ENDPOINT,
+                params={"q": query, "k": top_k},
+                timeout=30
+            )
+            resp.raise_for_status()
+            parsed = resp.json()
+        except requests.RequestException as e:
+            print(f"  [WARN] RAG fetch failed for '{query[:60]}': {e}", file=sys.stderr)
+            return None
+        # HTTP 200 but the backend is still warming up -> retry with backoff
+        if isinstance(parsed, dict) and isinstance(parsed.get("error"), str) \
+                and "loading" in parsed["error"].lower():
+            print(f"  [WARN] RAG still loading for '{query[:60]}' "
+                  f"(attempt {attempt + 1}/{retries + 1}, backoff {backoff_s}s): "
+                  f"{parsed['error']}", file=sys.stderr)
+            if attempt < retries:
+                time.sleep(backoff_s)
+                continue
+            return None
+        return parsed
+    return None
 
 
-def save_raw(drug_id: str, query_spec: dict, result: dict, out_dir: Path):
-    """Save raw RAG JSON response to disk."""
+def save_raw(drug_id: str, query_spec: dict, result: dict, out_dir: Path, source: str = "rag"):
+    """Save raw RAG JSON response to disk.
+
+    `source` records provenance per record ("rag" or "eutils") so evidence
+    pools can be audited unambiguously (canonical-store minimal step).
+    """
     slug = re.sub(r'[^a-z0-9]+', '_', query_spec["query"].lower())[:60]
     drug_out = out_dir / drug_id
     drug_out.mkdir(parents=True, exist_ok=True)
@@ -380,6 +415,7 @@ def save_raw(drug_id: str, query_spec: dict, result: dict, out_dir: Path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump({
             "query": query_spec,
+            "source": source,
             "result": result
         }, f, indent=2, ensure_ascii=False)
     return path
@@ -388,6 +424,94 @@ def save_raw(drug_id: str, query_spec: dict, result: dict, out_dir: Path):
 # ---------------------------------------------------------------------------
 # Extraction -- RAG results -> structured L3 data
 # ---------------------------------------------------------------------------
+# Lazily-built set of every drug name in drugs.json (lowercased). Used by the
+# co-mention relevance rule: a head-to-head comparison trial mentions the
+# subject drug once alongside a comparator, and the comparator is (almost
+# always) another drug from the framework's own list.
+_OTHER_DRUG_NAMES = None  # module-level lazy cache (Fix C)
+
+
+def _get_other_drug_names(current_drug_name: str) -> set:
+    """All drug names from load_drugs(), minus the current drug's own name.
+
+    Built lazily on first use and cached module-wide. Class words and other
+    non-drug words never enter the set (it is derived from drug names only),
+    and callers only count mentions of length >= 4 to avoid noise.
+    """
+    global _OTHER_DRUG_NAMES
+    if _OTHER_DRUG_NAMES is None:
+        try:
+            data = load_drugs()
+            _OTHER_DRUG_NAMES = {
+                str(d.get("name", "")).lower()
+                for d in data.get("drugs", []) if d.get("name")
+            }
+        except Exception:
+            _OTHER_DRUG_NAMES = set()
+    own = (current_drug_name or "").lower()
+    return {n for n in _OTHER_DRUG_NAMES if n and n != own}
+
+
+def _snippet_relevant(drug: dict, text: str, title: str = "") -> bool:
+    """Relevance gate: is this snippet really about the drug? (Fix C + Fix E)
+
+    Keep iff:
+      1. a drug-name variant appears in the TITLE (authoritative), OR
+      2. a drug-name variant appears >=1 in title+text AND at least one
+         OTHER drug name (len >= 4, from the full drug list) co-occurs in
+         title+text -- a head-to-head comparison trial, OR
+      3. a drug-name variant appears >=2 across title+text (current rule).
+    Otherwise drop.
+
+    Confusable-token filter (Fix E): a snippet is relevant only if it does
+    NOT contain any CONFUSABLE_TOKENS (methylphenidate/methylone/mdma/
+    methyl-dopa) UNLESS it also contains the drug's own name variant --
+    e.g. a methyldopa query returning methylphenidate content is dropped
+    unless methyldopa itself is also mentioned.
+    """
+    text_lower = text.lower()
+    title_lower = (title or "").lower()
+    drug_name_lower = (drug.get("name") or "").lower()
+    drug_id_lower = (drug.get("id") or "").lower()
+    drug_name_tokens = drug_name_lower.split()
+    first_token = drug_name_tokens[0] if drug_name_tokens else ""
+    # Accept the first token of the name (e.g. "hydrochlorothiazide") when
+    # the name has multiple tokens.
+    accept_first_token = len(drug_name_tokens) > 1
+
+    def _variant_count(hay_lower: str) -> int:
+        c = 0
+        if drug_name_lower:
+            c += hay_lower.count(drug_name_lower)
+        if drug_id_lower and drug_id_lower != drug_name_lower:
+            c += hay_lower.count(drug_id_lower)
+        if accept_first_token and first_token and first_token != drug_name_lower:
+            c += hay_lower.count(first_token)
+        return c
+
+    title_count = _variant_count(title_lower)
+    total_count = title_count + _variant_count(text_lower)
+
+    # Fix E: confusable content decides relevance on its own -- a snippet
+    # containing a confusable token (methylphenidate/methylone/mdma/
+    # methyl-dopa) is relevant iff the drug's own name variant is also
+    # present: "methyldopa snippet mentioning methylphenidate but NOT
+    # methyldopa -> drop; mentioning both -> keep".
+    combined = f"{title_lower}\n{text_lower}"
+    if any(tok in combined for tok in CONFUSABLE_TOKENS):
+        return total_count >= 1
+
+    # Fix C: keep iff drug variant in TITLE, OR (>=1 mention AND another
+    # drug name co-occurs -- head-to-head comparison trial), OR >=2 mentions.
+    if title_count >= 1:
+        return True
+    if total_count >= 1:
+        for other in _get_other_drug_names(drug_name_lower):
+            if len(other) >= 4 and (other in title_lower or other in text_lower):
+                return True
+    return total_count >= 2
+
+
 def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> dict:
     """
     Parse all raw RAG results for a drug and build a structured L3 profile.
@@ -406,13 +530,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
     # scoring. Track pool relevance for evidence + threshold fallback.
     total_snippets = 0
     relevant_snippets = 0
-    drug_name_lower = (drug.get("name") or "").lower()
-    drug_id_lower = (drug.get("id") or "").lower()
-    drug_name_tokens = drug_name_lower.split()
-    first_token = drug_name_tokens[0] if drug_name_tokens else ""
-    # Accept the first token of the name (e.g. "hydrochlorothiazide") when
-    # the name has multiple tokens.
-    accept_first_token = len(drug_name_tokens) > 1
+    dup_pmids_skipped = 0  # Fix B: PMIDs re-returned across query files
 
     for rf in raw_files:
         try:
@@ -444,30 +562,24 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             text = r.get("text", "")
             if pmid:
                 total_snippets += 1
-                # Relevance gate: keep a snippet only if the drug is clearly
-                # the SUBJECT, not a passing mention. A single substring hit
-                # is not enough -- off-drug papers often mention the drug once
-                # in a methods clause ("rats treated with HCTZ and exposed
-                # to EG/AC"). Relevant iff: the drug variant appears in the
-                # title field, OR the variant occurs >=2 times across
-                # title+text (title + abstract mentions = genuinely about it).
-                text_lower = text.lower()
-                title_lower = (r.get("title") or "").lower()
-                count = 0
-                if drug_name_lower:
-                    count += text_lower.count(drug_name_lower) + title_lower.count(drug_name_lower)
-                if drug_id_lower and drug_id_lower != drug_name_lower:
-                    count += text_lower.count(drug_id_lower) + title_lower.count(drug_id_lower)
-                if accept_first_token and first_token and first_token != drug_name_lower:
-                    count += text_lower.count(first_token) + title_lower.count(first_token)
-                is_relevant = count >= 2
-                if not is_relevant:
+                # Relevance gate (shared _snippet_relevant): keep a snippet
+                # only if the drug is clearly the SUBJECT, not a passing
+                # mention -- title match, OR single mention alongside a
+                # comparator drug (co-mention comparison trial), OR >=2
+                # mentions. Confusable content (Fix E) is filtered inside.
+                if not _snippet_relevant(drug, text, r.get("title") or ""):
                     continue
                 relevant_snippets += 1
+                if pmid in all_pmids:
+                    # Fix B: the endpoint re-returns the same paper across
+                    # query angles -- count it toward stats but do NOT append
+                    # a duplicate finding (evidence payload must stay unique).
+                    dup_pmids_skipped += 1
+                    continue
                 all_pmids.add(pmid)
                 findings.append({
                     "pmid": pmid,
-                    "text": text[:300],
+                    "text": text,  # Fix A: full text, no [:300] truncation
                     "dimension": dimension,
                     "score": r.get("rerank_score", 0)
                 })
@@ -587,6 +699,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
         "pmids": sorted(all_pmids),
         "source_count": len(raw_files),
         "finding_count": len(findings),
+        "dup_pmids_skipped": dup_pmids_skipped,
         "pool_relevance_pct": pool_relevance_pct,
         "filtered_off_drug": total_snippets - relevant_snippets,
         "relevance_gate": "pass" if pool_relevance_pct >= 30 else "flag",
@@ -966,12 +1079,14 @@ def run_pipeline(drug: dict, templates: dict, out_dir: Path,
         for i, qs in enumerate(queries):
             print(f"    [{i+1}/{len(queries)}] {qs['query'][:70]}...", end=" ", flush=True)
             result = None
+            result_source = "rag"
             if not pubmed_only:
                 result = fetch_rag(qs["query"])
             if result is None and pubmed_client is not None:
                 # Fallback to NCBI EUtils
                 result = pubmed_fallback(qs["query"], drug_name, pubmed_client)
                 if result:
+                    result_source = "eutils"
                     print(f"PubMed OK ({len(result.get('results',[]))} res)")
                 else:
                     print("PUBMED-FAIL")
@@ -982,7 +1097,7 @@ def run_pipeline(drug: dict, templates: dict, out_dir: Path,
                 print("FAIL")
 
             if result:
-                path = save_raw(drug_id, qs, result, out_dir)
+                path = save_raw(drug_id, qs, result, out_dir, source=result_source)
                 raw_files.append(path)
             if i < len(queries) - 1:
                 time.sleep(RAG_DELAY_S)
@@ -1004,7 +1119,7 @@ def run_pipeline(drug: dict, templates: dict, out_dir: Path,
                 for i, qs in enumerate(queries):
                     result = pubmed_fallback(qs["query"], drug_name, pubmed_client)
                     if result:
-                        path = save_raw(drug_id, qs, result, out_dir)
+                        path = save_raw(drug_id, qs, result, out_dir, source="eutils")
                         eutils_files.append(path)
                     if i < len(queries) - 1:
                         time.sleep(RAG_DELAY_S)
@@ -1035,7 +1150,16 @@ def main():
     parser.add_argument("--pubmed-only", action="store_true",
                         help="Use NCBI EUtils only (skip RAG endpoint entirely). "
                              "Set NCBI_API_KEY and NCBI_EMAIL env vars for best rate limits.")
+    parser.add_argument("--eutils-first", action="store_true",
+                        help="First-class EUtils mode (drug-anchored, full abstracts). "
+                             "Alias for --pubmed-only.")
     args = parser.parse_args()
+
+    # --eutils-first is an alias for --pubmed-only: skip the RAG endpoint
+    # entirely per-query and go straight to the NCBI EUtils fallback. Alias at
+    # the args level so the pipeline logic is not duplicated.
+    if args.eutils_first:
+        args.pubmed_only = True
 
     templates = load_templates()
     args.out_dir.mkdir(parents=True, exist_ok=True)
