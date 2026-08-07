@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40913694",
-        "text": "Correction: Antihypertensive Efficacy of Triple Combination Perindopril/Indapamide Plus Amlodipine in High-Risk Hypertensives: Results of the PIANIST Study (Perindopril-Indapamide plus AmlodipiNe in high rISk hyperTensive patients).",
-        "score": 0.41857701539993286,
-        "doi": "10.1007/s40256-025-00765-6",
-        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
-        "year": "2025",
-        "rerank_score": 1.3483598232269287,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12022252",
+        "text": "The PROGRESS trial: questions about the effectiveness of angiotensin converting enzyme inhibitors. Perindopril pROtection aGainst REcurrent Stroke Study.",
+        "doi": "10.1016/s0895-7061(02)02928-x",
+        "journal": "American journal of hypertension",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.38123080134391785,
+        "score": 0.38123080134391785,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40130400",
-        "text": "Preventing Cardiomyopathy in Duchenne Muscular Dystrophy: Long-Term Follow-Up of Patients in the Randomised, Placebo-Controlled Drug-Trial of Perindopril and Bisoprolol. It is uncertain whether using cardiac drugs prophylactically in combinations for DMD is better than ACE-inhibitor alone. Our previous study showed no differences in left ventricular function between perindopril-bisoprolol and matched placebo after 36 months. This study aimed to determine whether heart measures diverged after 60-month total ",
-        "score": 0.41863176226615906,
-        "doi": "10.1111/ene.70097",
-        "journal": "European journal of neurology",
-        "year": "2025",
-        "rerank_score": 0.7229735255241394,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15982858",
+        "text": "The pharmacokinetics of perindoprilat in normal volunteers and patients: influence of age and disease state. The purpose of the present report was to develop a pharmacokinetic model for perindoprilat based on three phase I studies including administration of oral and intravenous perindopril and administration of intravenous perindoprilat. The model was further refined using additional data collected from four phase II clinical trials including elderly volunteers and patients with hypertension, renal failure and heart failure. A two compartment pharmacokinetic model based on unbound concentration, in which perindoprilat bound to a single saturable binding site was used to analyze the intravenous data, whereas a one compartment model, also with saturable binding, was used for the oral data. The kinetics of perindoprilat were dose dependent with the apparent volume of distribution (V/F) varying from 920 L at a dose of 3.1 mg of perindoprilat to 470 L at a dose of 12.3 mg, in normal volunteers. Apparent unbound clearance (CLu/F) ranged from 59 to 110 L h(-1), showing no systematic trend with dose or from single to multiple dosing. Unbound clearance was strongly related to creatinine clearance in the patient studies and there was also a weak relationship between volume of distribution and creatinine clearance. Unbound clearance was also found to decrease with age. The binding parameters of the model were consistent with a single binding site to a protein having the characteristics of angiotensin converting enzyme (ACE).",
+        "doi": "10.1016/j.ejps.2005.05.006",
+        "journal": "European journal of pharmaceutical sciences : official journal of the European F",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.4029054343700409,
+        "score": 0.4029054343700409,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39484163",
-        "text": "Corrigendum: Effectiveness of perindopril/amlodipine fixed-dose combination in the treatment of hypertension: a systematic review. [This corrects the article DOI: 10.3389/fphar.2023.1156655.].",
-        "score": 0.38429704308509827,
-        "doi": "10.3389/fphar.2024.1485834",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": -0.7278084754943848,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9191512",
+        "text": "A dose-response study of perindopril in hypertension: effects on blood pressure 6 and 24 h after dosing. Perindopril Multicentre Dose-Response Study Group. To examine the dose-response characteristics of perindopril at the time of its peak and trough antihypertensive effects, with the primary outcome measure being changes in diastolic blood pressure. After a four-week, single-blind placebo run-in, patients were randomly allocated to four doses of perindopril or placebo using a parallel group design. Sixteen specialist centres in the United States. Of 483 patients entered into the run-in phase, 293 were eligible for randomization to perindopril or placebo therapy, with 260 patients included in the final efficacy analysis. Eligible patients were randomized to 12 weeks of therapy with perindopril 2, 4, 8 or 16 mg or placebo. At the final visit, all doses of perindopril significantly (P < 0.05) lowered diastolic blood pressure compared with placebo. The ratio of changes in placebo-corrected diastolic blood pressure at 24 versus 6 h for perindopril 2, 4 and 8 mg was 1.0, 1.0 and 0.97, respectively. The maximum antihypertensive effect was seen with perindopril 8 mg, with the 16 mg dose providing no additional response. Changes in systolic and diastolic blood pressure were similar. Perindopril is most effective at doses of 4 and 8 mg once daily, with similar reductions in diastolic blood pressure present at 6 and 24 h after dosing.",
+        "doi": "",
+        "journal": "The Canadian journal of cardiology",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.40495970845222473,
+        "score": 0.40495970845222473,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38293914",
-        "text": "Comparison of Effectiveness Among Different Sodium-Glucose Cotransoporter-2 Inhibitors According to Underlying Conditions: A Network Meta-Analysis of Randomized Controlled Trials. To investigate the individual profile of each SGLT2 (sodium-glucose cotransoporter-2) inhibitor in patients with different backgrounds. This study included 21 placebo-controlled randomized controlled trials with a total of 96 196 participants, investigating empagliflozin, ertugliflozin, dapagliflozin, canagliflozin, and sotagliflo",
-        "score": 0.3748542070388794,
-        "doi": "10.1161/JAHA.123.031805",
-        "journal": "Journal of the American Heart Association",
+        "id": "PMID:39354951",
+        "text": "Efficacy and Safety of Ertugliflozin Compared to Placebo in Patients With Type 2 Diabetes: An Updated Systematic Review and Meta-Analysis.",
+        "doi": "10.1155/2024/5553327",
+        "journal": "Journal of diabetes research",
         "year": "2024",
-        "rerank_score": 4.989046096801758,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.23960362374782562,
+        "score": 0.23960362374782562,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39836391",
-        "text": "Effectiveness of Empagliflozin vs Dapagliflozin for Kidney Outcomes in Type 2 Diabetes. No large randomized clinical trial has directly compared empagliflozin with dapagliflozin, leaving their comparative effectiveness regarding kidney outcomes unknown. To compare kidney outcomes between initiation of empagliflozin vs dapagliflozin in adults with type 2 diabetes who were receiving antihyperglycemic treatment. This target trial emulation used nationwide, population-based routinely collected Danish health car",
-        "score": 0.3813907206058502,
-        "doi": "10.1001/jamainternmed.2024.7381",
-        "journal": "JAMA internal medicine",
+        "id": "PMID:40403299",
+        "text": "Empagliflozin Versus Placebo in Type 2 Diabetes and Cardiovascular Disease: A Systematic Review and Meta-Analysis.",
+        "doi": "10.1097/MJT.0000000000001983",
+        "journal": "American journal of therapeutics",
         "year": "2025",
-        "rerank_score": 4.017086505889893,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.28069189190864563,
+        "score": 0.28069189190864563,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:29282633",
-        "text": "Ertugliflozin Compared with Glimepiride in Patients with Type 2 Diabetes Mellitus Inadequately Controlled on Metformin: The VERTIS SU Randomized Study. This study assessed the safety and efficacy of ertugliflozin (an oral sodium-glucose cotransporter 2 inhibitor) vs. glimepiride in patients with type 2 diabetes mellitus (T2DM) inadequately controlled on metformin.",
-        "score": 0.3830813765525818,
-        "doi": "10.1007/s13300-017-0354-4",
-        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
-        "year": "2017",
-        "rerank_score": 3.3815839290618896,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:35126474",
+        "text": "Efficacy and Safety of Ertugliflozin in Type 2 Diabetes: A Systematic Review and Meta-Analysis.",
+        "doi": "10.3389/fgene.2021.821281",
+        "journal": "Frontiers in genetics",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.31913870573043823,
+        "score": 0.31913870573043823,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

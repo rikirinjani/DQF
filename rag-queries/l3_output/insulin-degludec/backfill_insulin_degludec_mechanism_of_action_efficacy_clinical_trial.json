@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:29423761",
-        "text": "Comparative safety and efficacy of insulin degludec with insulin glargine in type 2 and type 1 diabetes: a meta-analysis of randomized controlled trials. To determine the safety and efficacy of insulin degludec versus glargine in patients with type 1 (T1D) and type 2 (T2D) diabetes mellitus.",
-        "score": 0.35035210847854614,
-        "doi": "10.1007/s00592-018-1107-1",
-        "journal": "Acta diabetologica",
-        "year": "2017",
-        "rerank_score": 4.499560356140137,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22577639",
+        "text": "Advances in insulin therapy: a review of insulin degludec.",
+        "doi": "",
+        "journal": "The Journal of family practice",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3034043610095978,
+        "score": 0.3034043610095978,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39254740",
-        "text": "Insulin Efsitora versus Degludec in Type 2 Diabetes without Previous Insulin Treatment. Insulin efsitora alfa (efsitora) is a new basal insulin designed for once-weekly administration. Data on safety and efficacy have been limited to small, phase 1 or phase 2 trials. We conducted a 52-week, phase 3, parallel-design, open-label, treat-to-target trial involving adults with type 2 diabetes who had not previously received insulin. Participants were randomly assigned in a 1:1 ratio to receive efsitora or deglude",
-        "score": 0.37910008430480957,
-        "doi": "10.1056/NEJMoa2403953",
-        "journal": "The New England journal of medicine",
-        "year": "2024",
-        "rerank_score": 4.007816791534424,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25330628",
+        "text": "Treating to target in type 2 diabetes: the BEGIN trial programme. Insulin degludec is a new-generation basal insulin with an ultra-long duration of action. The insulin degludec and insulin degludec/insulin aspart clinical trial programme was truly global, involving 40 different countries and encompassing a multitude of ethnic populations. It is the largest insulin development clinical trial programme on record--with more than 11,000 patients included worldwide. It includes two main components: BEGIN (insulin degludec studied across the spectrum of diabetes) and BOOST (insulin degludec in a fixed-dose combination with insulin aspart). In clinical trials (phase 2 and phase 3a), insulin degludec achieved similar glycaemic control to that seen with insulin glargine in patients with type 1 or 2 diabetes, but with a lower risk of nocturnal hypoglycaemia. In addition, trials examining a flexible dosing regimen of insulin degludec in patients with type 1 or 2 diabetes show the potential for adjusting the injection time, without compromising glycaemic control or safety. A 200 U/mL formulation of insulin degludec is also available for use in patients who require large volumes of basal insulin. Subcutaneous insulin degludec is generally well tolerated in patients with type 1 or 2 diabetes and represents a useful advance in the treatment of type 1 or 2 diabetes.",
+        "doi": "",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.32423797249794006,
+        "score": 0.32423797249794006,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41293743",
-        "text": "Efficacy and safety of insulin degludec/aspart in patients with type 2 and type 1 diabetes mellitus: real-world evidence from Indonesia. Real-world studies on insulin degludec/aspart (IDegAsp) have been conducted in some Southeast Asian populations; however, data specific to Indonesia remain limited. The aim of this study was to evaluate the efficacy, safety profiles, and real-world clinical experience of IDegAsp after five years of implementation in diabetes care in Indonesia. This five-year, single-center",
-        "score": 0.3834908902645111,
-        "doi": "10.3389/fendo.2025.1690169",
-        "journal": "Frontiers in endocrinology",
-        "year": "2025",
-        "rerank_score": 3.974311113357544,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:24134602",
+        "text": "Insulin degludec: a new insulin for today?",
+        "doi": "10.1111/dme.12319",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.33671656250953674,
+        "score": 0.33671656250953674,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

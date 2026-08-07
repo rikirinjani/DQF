@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39665939",
-        "text": "Comparison of the effectiveness of aliskiren and ramipril for the management of hypertension: A systematic review and meta-analysis. Ramipril is an important option in the management of hypertension, while the role of aliskiren is still up for debate. We aim to meta-analyse and compare the effect of aliskiren with ramipril by measuring mean difference in systolic blood pressure (mdSBP) and mean difference in diastolic blood pressure (mdDBP). The search was conducted using the PubMed and Cochrane databases f",
-        "score": 0.3698630928993225,
-        "doi": "10.1016/j.hipert.2024.11.002",
-        "journal": "Hipertension y riesgo vascular",
-        "year": "2024",
-        "rerank_score": 0.05445045232772827,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16195488",
+        "text": "Effects of ramipril on arterial stiffness.",
+        "doi": "10.1161/01.HYP.0000184527.20503.98",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.35282471776008606,
+        "score": 0.35282471776008606,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39641301",
-        "text": "Effect of single-pill versus free equivalent combinations on persistence and major adverse cardiovascular events in hypertension: a real-world analysis. Hypertension guidelines recommend the use of single-pill combinations (SPCs) of antihypertensive drugs to improve treatment persistence and blood pressure control. This study aimed to investigate the long-term effects of ramipril/amlodipine (R/A) SPC versus free equivalent dose combinations (FEC) on cardiovascular outcomes and treatment persistence. This re",
-        "score": 0.393480122089386,
-        "doi": "10.1097/HJH.0000000000003916",
-        "journal": "Journal of hypertension",
-        "year": "2024",
-        "rerank_score": -2.2339091300964355,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7843761",
+        "text": "Ramipril-induced regression of left ventricular hypertrophy in treated hypertensive individuals. HYCAR Study Group. The objective of this trial was to assess the effects of 6-month daily treatment with two doses of ramipril on left ventricular mass and the dependence of this on blood pressure changes in hypertensive patients with left ventricular hypertrophy. After a selection phase of 4 to 6 weeks with patients under antihypertensive therapy with 20 mg furosemide daily, 115 patients with either controlled or uncontrolled hypertension and left ventricular hypertrophy were randomized in a double-blind manner to receive either placebo (n = 40), 1.25 mg (low dose, n = 38), or 5 mg (regular dose, n = 37) ramipril daily for 6 months. Treatment with furosemide was continued unchanged during this phase. The main outcome measured was left ventricular hypertrophy regression as assessed from central blind reading of echocardiograms recorded at randomization and after 6 months. No significant differences were observed for changes in casual or ambulatory blood pressure between the three groups. Left ventricular mass index was found to be significantly reduced in patients receiving 5 mg ramipril compared with those receiving placebo (-10.8 +/- 3.7 versus +4.1 +/- 4.0 g/m2, P = .008); in patients receiving 1.25 mg ramipril, the difference was close to borderline significance compared with placebo (-7.0 +/- 4.3 g/m2, P = .06). Similar results were observed for changes in left ventricular mass (-20.3 +/- 6.6 and -13.0 +/- 7.8 g in the 5- and 1.25-mg ramipril groups, respectively, versus +9.1 +/- 7.2 g in the placebo group; P = .004 and .04, respectively).(ABSTRACT TRUNCATED AT 250 WORDS)",
+        "doi": "10.1161/01.hyp.25.1.92",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.36372965574264526,
+        "score": 0.36372965574264526,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39114702",
-        "text": "Empagliflozin combined with sacubitril/valsartan in hypertensive patients with heart failure: a retrospective study of efficacy and effect on blood pressure variability and cardiac function. To evaluate the efficacy of empagliflozin combined with sacubitril/valsartan in treating hypertensive patients with heart failure (HF), focusing on its effects on blood pressure variability (BPV) and cardiac function. This retrospective study included 101 patients with hypertension and heart failure with reduced ejectio",
-        "score": 0.41279667615890503,
-        "doi": "10.62347/LXJB8350",
-        "journal": "American journal of translational research",
-        "year": "2024",
-        "rerank_score": -5.680150508880615,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20614511",
+        "text": "[Variability of cardiac rhythm in patients with a symptomatic renal hypertension and effect of ramipril on its changes]. Variability of cardiac rhythm and influence of Ramipril on it have been studied in 31 patients with a secondary renal hypertension of 1 and 2 stages. Obtained data have shown, that treatment with Ramipril normalizes neurohumoral regulation at the expense of decrease of excessive sympathetic stimulation and decrease of peripheral parasympathetic insufficiency rate. All above mentioned changes were accompanied by reduction in frequency and grade of blood pressure increase and improvement in tolerance to physical activity.",
+        "doi": "",
+        "journal": "Likars'ka sprava",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.3682592213153839,
+        "score": 0.3682592213153839,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -8,52 +8,39 @@
     "results": [
       {
         "id": "PMID:28275958",
-        "text": "Comparative Effectiveness of Adding Alogliptin to Metformin Plus Sulfonylurea with Other DPP-4 Inhibitors in Type 2 Diabetes: A Systematic Review and Network Meta-Analysis. Alogliptin is an oral antihyperglycemic agent that is a selective inhibitor of the enzyme dipeptidyl peptidase-4 (DPP-4), approved for the treatment of type 2 diabetes mellitus (T2DM). There currently exists no comparative data to support the use of alogliptin in combination with metformin (met) and sulfonylurea (SU). A decision-focused ",
-        "score": 0.3842776119709015,
+        "text": "Comparative Effectiveness of Adding Alogliptin to Metformin Plus Sulfonylurea with Other DPP-4 Inhibitors in Type 2 Diabetes: A Systematic Review and Network Meta-Analysis. Alogliptin is an oral antihyperglycemic agent that is a selective inhibitor of the enzyme dipeptidyl peptidase-4 (DPP-4), approved for the treatment of type 2 diabetes mellitus (T2DM). There currently exists no comparative data to support the use of alogliptin in combination with metformin (met) and sulfonylurea (SU). A decision-focused network meta-analysis (NMA) was performed to compare the relative efficacy and safety of alogliptin 25 mg once daily to other DPP-4 inhibitors as part of a triple therapy regimen for patients inadequately controlled on metformin and SU dual therapy. A systematic literature review was conducted to identify published papers of randomized controlled trials (RCTs) that compared alogliptin with other DPP-4 inhibitors (linagliptin, saxagliptin, sitagliptin, and vildagliptin) at their Summary of Product Characteristics (SmPC) recommended daily doses, added on to metformin and SU. Comprehensive comparative analysis involving frequentist meta-analysis and Bayesian NMA compared alogliptin to each DPP-4 inhibitor separately and collectively as a group. Quasi-random effect models were introduced when random effect models could not be estimated. The review identified 2186 articles, and 94 full-text articles were assessed for eligibility. Eight RCTs contained appropriate data for inclusion in the NMA. All analyses over all trial population sets produced very similar results, and show that alogliptin 25 mg is as least as effective (as measured by change in HbA1c from baseline, but supported by other outcome measures: change in body weight and FPG from baseline) and safe (as measured by incidence of hypoglycemia and adverse events leading to study discontinuation) as all the other DPP-4 inhibitors in triple therapy. This decision-focused systematic review and NMA demonstrated alogliptin 25 mg daily to have similar efficacy and safety compared to other DPP-4 inhibitors, for the treatment of T2DM in adults inadequately controlled on metformin and SU. (Funded by Takeda Development Centre Americas; EXAMINE ClinicalTrials.gov number, NCT00968708).",
         "doi": "10.1007/s13300-017-0245-8",
         "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
         "year": "2017",
-        "rerank_score": 5.521289825439453,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.38005250692367554,
+        "score": 0.38005250692367554,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:28435304",
-        "text": "Comparative effectiveness of glycemic control in patients with type 2 diabetes treated with GLP-1 receptor agonists: a network meta-analysis of placebo-controlled and active-comparator trials. Clinical studies of patients with type 2 diabetes show that GLP-1 receptor agonists (GLP-1 RAs) improve glycemic control and promote weight loss. We conducted a Bayesian network meta-analysis (NMA) of placebo- and active-controlled randomized trials to assess the comparative effectiveness of liraglutide, albiglutide, ",
-        "score": 0.38914841413497925,
-        "doi": "10.2147/DMSO.S116810",
-        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
-        "year": "2017",
-        "rerank_score": 4.669543266296387,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23452780",
+        "text": "Efficacy of alogliptin in type 2 diabetes treatment: a meta-analysis of randomized double-blind controlled studies. Alogliptin is a new dipeptidyl peptidase (DPP-4) inhibitor, which is under investigation for treatment of type 2 diabetes either alone or in combination with other antidiabetic drugs. The aim of this meta-analysis was to assess the efficacy and tolerability of alogliptin in patients with type 2 diabetes. Computer based search was performed in MEDLINE, Cochrane library, and HINARI (Health InterNetwork Access to Research Initiative) databases. Meta-analysis was carried out by incorporating double-blind randomized controlled studies done on the efficacy of alogliptin in patients with type 2 diabetes. The efficacy and tolerability of alogliptin was determined by standardized mean differences (SMDs) and Mantel-Haenszel odds ratio. Heterogeneity was assessed by the chi-squared test (Cochran Q test) and I2 statistics. The pooled SMDs demonstrated a significant reduction in HbA1c in patients treated with alogliptin 12.5 mg (SMD = -0.81; 95% CI, -1.11 to -0.51) or alogliptin 25 mg (SMD= -0.98; 95%CI= -1.30 to -0.66) as compared with controls. The SMD for reduction in fasting plasma glucose level (FPG) from baseline was also statistically significant among alogliptin treated patients. However, the effect of alogliptin on body weight change was inconclusive. The proportion of patients who discontinued alogliptin due to adverse events was not different from controls. Similarly, the meta-analyses of specific adverse events did not demonstrate statistically significant differences. Alogliptin alone or in combination with other antidiabetic drug has shown a significant reduction in HbA1c and FPG level in patients with type 2 diabetes. However, its consistent efficacy for longer duration of therapy needs further investigation.",
+        "doi": "10.1186/1472-6823-13-9",
+        "journal": "BMC endocrine disorders",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3917452096939087,
+        "score": 0.3917452096939087,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:36264574",
-        "text": "Comparative Effectiveness of Empagliflozin vs Liraglutide or Sitagliptin in Older Adults With Diverse Patient Characteristics. Limited evidence is available on the comparative effectiveness of empagliflozin vs alternative second-line glucose-lowering agents in patients with type 2 diabetes (T2D) receiving routine care who have a broad spectrum of cardiorenal risk.",
-        "score": 0.38244619965553284,
-        "doi": "10.1001/jamanetworkopen.2022.37606",
-        "journal": "JAMA network open",
-        "year": "2022",
-        "rerank_score": 2.7158234119415283,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27200603",
+        "text": "Assessment of The Economic Value Of Dpp-4 Inhibitor Alogliptin Compared With Sitagliptin, Saxagliptin, And Linagliptin.",
+        "doi": "10.1016/j.jval.2014.08.657",
+        "journal": "Value in health : the journal of the International Society for Pharmacoeconomics",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.3986750841140747,
+        "score": 0.3986750841140747,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:32729217",
-        "text": "A pragmatic randomized clinical trial of insulin glargine 300 U/mL vs first-generation basal insulin analogues in insulin-naïve adults with type 2 diabetes: 6-month outcomes of the ACHIEVE Control study. To compare the safety and efficacy of insulin glargine 300 U/mL (Gla-300) versus first-generation standard-of-care basal insulin analogues (SOC-BI; insulin glargine 100 U/mL or insulin detemir) at 6 months.",
-        "score": 0.33272600173950195,
-        "doi": "10.1111/dom.14152",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2020",
-        "rerank_score": 6.447592258453369,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15336483",
+        "text": "Insulin glargine clinical trials.",
+        "doi": "10.1016/s0149-2918(04)90190-7",
+        "journal": "Clinical therapeutics",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.27670422196388245,
+        "score": 0.27670422196388245,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:34130445",
-        "text": "Efficacy and Safety of Self-Titration Algorithms of Insulin Glargine 300 units/mL in Individuals with Uncontrolled Type 2 Diabetes Mellitus (The Korean TITRATION Study): A Randomized Controlled Trial. To compare the efficacy and safety of two insulin self-titration algorithms, Implementing New Strategies with Insulin Glargine for Hyperglycemia Treatment (INSIGHT) and EDITION, for insulin glargine 300 units/mL (Gla-300) in Korean individuals with uncontrolled type 2 diabetes mellitus (T2DM).",
-        "score": 0.33369913697242737,
-        "doi": "10.4093/dmj.2020.0274",
-        "journal": "Diabetes & metabolism journal",
-        "year": "2020",
-        "rerank_score": 5.899258136749268,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29872460",
+        "text": "A Patient-level Analysis of Efficacy and Hypoglycaemia Outcomes Across Treat-to-target Trials with Insulin Glargine Added to Oral Antidiabetes Agents in People with Type 2 Diabetes.",
+        "doi": "10.17925/EE.2014.10.01.23",
+        "journal": "European endocrinology",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.32992467284202576,
+        "score": 0.32992467284202576,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40623843",
-        "text": "Insulin glargine supplementation during early management phase in children with diabetic ketoacidosis: a double-blinded randomised controlled trial. To evaluate the efficacy and safety of early supplementation with insulin glargine (GI) during the acute management of paediatric diabetic ketoacidosis (DKA). Double-blinded randomised controlled trial conducted from July 2022 to June 2023. Emergency department and paediatric intensive care unit of a tertiary care teaching hospital in North India. Children betw",
-        "score": 0.3665526211261749,
-        "doi": "10.1136/archdischild-2024-327912",
-        "journal": "Archives of disease in childhood",
-        "year": "2024",
-        "rerank_score": 5.430501461029053,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18199142",
+        "text": "Potential flaws and biases in a randomized controlled trial (RCT) of insulin determir vs. insulin glargine by Pieber and colleagues.",
+        "doi": "10.1111/j.1464-5491.2007.02335.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.34429067373275757,
+        "score": 0.34429067373275757,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

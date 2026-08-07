@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.43658193945884705,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 5.036981582641602,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3847343325614929,
+        "score": 0.3847343325614929,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39277567",
-        "text": "Clinical outcomes in type 2 diabetes patients with chronic heart failure treated with metformin: a meta-analysis. To explore outcomes of metformin (Met) as an antihyperglycemic agent in patients with type 2 diabetes mellitus (T2DM) combined with chronic heart failure (CHF). This article employed a meta-analysis approach to systematically search several databases. Stata 15.1 software was employed for statistical analysis. This meta-analysis encompassed 15 randomized controlled trials, involving 20,595 patien",
-        "score": 0.4660569727420807,
-        "doi": "10.1007/s12020-024-04025-6",
-        "journal": "Endocrine",
-        "year": "2024",
-        "rerank_score": 1.5456708669662476,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:41405318",
-        "text": "The Impact of Metformin on Postoperative Opioid Consumption and Patient Reported Outcomes after Lumbar Fusion. Retrospective cohort. To examine metformin use on postoperative outcomes amongst patients with diabetes undergoing lumbar fusion. Several animal studies have demonstrated that metformin, a first-line treatment for type 2 diabetes (T2DM), can attenuate neuropathic pain via decreased activation of microglia and suppression of inflammatory signaling. Adult diabetic patients who underwent a 1-2-level p",
-        "score": 0.45749223232269287,
-        "doi": "10.1097/BRS.0000000000005586",
-        "journal": "Spine",
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
         "year": "2025",
-        "rerank_score": 0.7243626117706299,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3988124132156372,
+        "score": 0.3988124132156372,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:19602650",
+        "text": "Addressing metformin.",
+        "doi": "",
+        "journal": "Canadian family physician Medecin de famille canadien",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.4301891028881073,
+        "score": 0.4301891028881073,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

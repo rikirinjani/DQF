@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40156748",
-        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
-        "score": 0.4440411925315857,
-        "doi": "10.1007/s12325-025-03176-w",
-        "journal": "Advances in therapy",
-        "year": "2025",
-        "rerank_score": 4.897407531738281,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.41929879784584045,
+        "score": 0.41929879784584045,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.4454081654548645,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
+        "id": "PMID:27473874",
+        "text": "Low-dose propranolol for infantile hemangioma of the head and neck: Analysis of 23 consecutive patients. More and more infantile hemangiomas (IH) are being treated with propranolol, but the effectiveness, dosage, and treatment course are still in dispute. The aim of this observational study was to describe the therapeutic response, tolerance, and safety of low-dose propranolol in 23 children with IH of the head and neck. Data were collected from the medical charts of patients treated with low-dose propranolol from December 2009 through November 2011. Oral dose was 1-1.5 mg/kg once per day. Blood pressure and heart rate were monitored during the first 24 h of treatment. In the absence of side-effects, treatment was continued at home and the child was re-evaluated every month. All patients had a good response, even if treated with corticosteroid previously. Color and growth changes within 1 week were noted. Treatment continued for a mean total duration of 6 months until the IH had totally disappeared or stabilized. There were no severe adverse reactions. Side-effects were limited and mild, including blood pressure decrease, somnolence, and nausea. No relapse was noted. Low-dose propranolol appears to be effective and safe for IH, especially for those patients previously treated with corticosteroid and who had no response or severe side-effects.",
+        "doi": "10.1111/ped.13109",
+        "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.4317365288734436,
+        "score": 0.4317365288734436,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:39349176",
+        "text": "Use of propranolol in [",
+        "doi": "10.1016/j.remnie.2024.500068",
+        "journal": "Revista espanola de medicina nuclear e imagen molecular",
         "year": "2024",
-        "rerank_score": 4.670517444610596,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40979769",
-        "text": "Understanding number needed to treat (NNT): A practical guide for anaesthesia and critical care clinicians.",
-        "score": 0.43294838070869446,
-        "doi": "10.4103/ija.ija_1000_25",
-        "journal": "Indian journal of anaesthesia",
-        "year": "2025",
-        "rerank_score": 1.3597794771194458,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4343257248401642,
+        "score": 0.4343257248401642,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

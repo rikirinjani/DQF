@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38814579",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.4178159832954407,
-        "doi": "10.1001/jamaoncol.2024.1869",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -1.9947736263275146,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:28711448",
+        "text": "The Paradox in Demonstrating Hydralazine-Nitrate Efficacy.",
+        "doi": "10.1016/j.jchf.2017.05.005",
+        "journal": "JACC. Heart failure",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.4084983766078949,
+        "score": 0.4084983766078949,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38814593",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.4178159832954407,
-        "doi": "10.1001/jamaoncol.2024.0113",
-        "journal": "JAMA oncology",
+        "id": "PMID:39572624",
+        "text": "A randomized clinical trial evaluating Hydralazine's efficacy in early-stage Alzheimer's disease: The EHSAN Study. Alzheimer's Disease (AD), a neurodegenerative disorder escalating worldwide, remains incurable with existing interventions merely mitigating symptoms. Hydralazine, an antihypertensive agent, has displayed neuroprotective potential in AD animal models via amplification of mitochondrial functionality and stimulation of stress management and repair pathways. Nevertheless, its effectiveness and tolerability in human AD cohorts are yet to be confirmed. This study protocol describes the design of an ongoing, single-center, randomized, triple-blind, placebo-controlled trial to assess hydralazine's effects on cognitive function in mild to moderate -stage AD patients. We will enroll 424 patients aged 50 and older, meeting NINCDS-ADRDA criteria for probable AD with Mini-Mental State Examination scores from 12-26. They'll be randomly assigned to receive either hydralazine HCL (25 mg, thrice daily) or a placebo for 12 months. The primary outcome is the Alzheimer's Disease Assessment Scale change from baseline to 12 months. Secondary outcomes include various measures using Lawton instrumental activities of daily living scale, neuropsychiatry inventory, and caregiver activity survey. This trial will explore the potential benefits and risks of hydralazine in mild to moderate AD treatment. It's the first trial examining hydralazine's impact on mild to moderate -stage AD in human and is registered at the Iranian Registry of Clinical Trials (IRCT20200711048075N1, registered 29/07/2020) and ClinicalTrials.gov (NCT 04,842,552AQ, registered 13/04/2021). Ethics approval was granted by the Research Ethics Committee of the National Institute for Medical Research Development (IR.NIMAD.REC.1398.424), following the SPIRIT Statement guidelines. Findings will be disseminated via peer-reviewed publications and conferences. This inaugural human clinical trial evaluates hydralazine's impact on patients in the mild to moderate AD. Executed with a randomized, triple-blind, placebo-controlled methodology, this study incorporates a significant sample size and an extended monitoring duration. Multiple parameters, including cognitive capabilities, will be assessed. Potential limitations include the inherent homogeneity of the AD cohort, the lack of biomarker assays, and the unpredictable progression of the disease. Notably, the study might not elucidate the protracted effects of hydralazine beyond a 12-month period. Another limitation of our clinical trial is that patients were diagnosed with Alzheimer's disease based solely on clinical evaluation and MRI findings, without the inclusion of specific biomarkers, which may impact the accuracy and specificity of the diagnosis. Trial registration: Iranian Registry of Clinical Trials (IRCT20200711048075N1, registered 29/07/2020) and ClinicalTrials.gov (NCT 04,842,552, registered 13/04/2021).",
+        "doi": "10.1038/s41598-024-79616-4",
+        "journal": "Scientific reports",
         "year": "2024",
-        "rerank_score": -1.9947736263275146,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4162827432155609,
+        "score": 0.4162827432155609,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38814615",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial-Reply.",
-        "score": 0.40116485953330994,
-        "doi": "10.1001/jamaoncol.2024.0140",
-        "journal": "JAMA oncology",
+        "id": "PMID:38294293",
+        "text": "Antimicrobial activity of hydralazine against methicillin-resistant and methicillin-susceptible",
+        "doi": "10.2217/fmb-2023-0160",
+        "journal": "Future microbiology",
         "year": "2024",
-        "rerank_score": -2.6180732250213623,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.47527310252189636,
+        "score": 0.47527310252189636,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

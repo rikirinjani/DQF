@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39466390",
-        "text": "Real-world evidence of lisinopril in pediatric hypertension and nephroprotective management: a 10-year cohort study. Over the last 20 years, pediatric hypertension (pHTN) prevalence in Western society has risen from 3.5 to 9% due to childhood overweight, obesity, and secondary kidney and cardiological conditions. Few studies have assessed commonly used antihypertensive medication lisinopril's (ACE-inhibitor) long-term efficacy and the long-term value of renin-angiotensin-aldosterone system (RAAS) biomarkers",
-        "score": 0.41260337829589844,
-        "doi": "10.1007/s00467-024-06531-1",
-        "journal": "Pediatric nephrology (Berlin, Germany)",
-        "year": "2024",
-        "rerank_score": -3.2082319259643555,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12494133",
+        "text": "[Efficacy and safety of the use of lisinopril in the treatment of patients with hypertension].",
+        "doi": "",
+        "journal": "Kardiologiia",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.4038783609867096,
+        "score": 0.4038783609867096,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40063419",
-        "text": "Switching From ARBs to Sacubitril/Valsartan Safely Improves 24-Hour Ambulatory Blood Pressure in Patients With Advanced Chronic Kidney Disease. We investigated the effects of sacubitril/valsartan, a first-in-class angiotensin receptor neprilysin inhibitor (ARNI), on 24-hour blood pressure (BP) and safety for 12 weeks in Japanese patients with non-dialysis advanced chronic kidney disease (CKD). We conducted a prospective, single-arm exploratory study. Patients with non-dialysis CKD stage G4-5 (estimated glom",
-        "score": 0.4106130599975586,
-        "doi": "10.1093/ajh/hpaf028",
+        "id": "PMID:14553956",
+        "text": "A double-blind, placebo-controlled, dose-response study of the effectiveness and safety of lisinopril for children with hypertension. Despite widespread use in hypertensive children, the safety and effectiveness of lisinopril had not been previously tested in a controlled study. This study explored the dose-response relationship and safety of lisinopril in 115 hypertensive children, aged 6 to 16 years. Patients were randomized in a double-blind fashion for 2 weeks to one of three doses by body weight at baseline: <50 kg: low (0.625 mg), middle (2.5 mg), high (20 mg), and > or =50 kg: low (1.25 mg), middle (5 mg), high (40 mg). The dose-response for lisinopril was evaluated by analyzing the change in slope in sitting diastolic and systolic blood pressure (BP) by dose after 2 weeks of therapy compared to baseline. Patients then entered a double-blind withdrawal, where patients were either switched to placebo or continued their current lisinopril treatment for up to 2 weeks. Patients completed period II when their BP returned to baseline. Antihypertensive effectiveness, between placebo and lisinopril was determined for all doses. Adverse events were carefully monitored. There was a dose-response relationship between the lowest and each of the higher doses of lisinopril. Blood pressure in the placebo group increased after withdrawal of lisinopril. The dose-response relationship was consistent across all subgroups (ie, age, Tanner stage, ethnicity, gender). Lisinopril, once daily, is an effective and well-tolerated antihypertensive in children aged 6 to 16 years. An initial dose of 0.07 mg/kg, administered once daily, effectively lowered BP within 2 weeks. Blood pressure was reduced in a dose-dependent fashion.",
+        "doi": "10.1016/s0895-7061(03)00900-2",
         "journal": "American journal of hypertension",
-        "year": "2024",
-        "rerank_score": -3.583921432495117,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.40738025307655334,
+        "score": 0.40738025307655334,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39114702",
-        "text": "Empagliflozin combined with sacubitril/valsartan in hypertensive patients with heart failure: a retrospective study of efficacy and effect on blood pressure variability and cardiac function. To evaluate the efficacy of empagliflozin combined with sacubitril/valsartan in treating hypertensive patients with heart failure (HF), focusing on its effects on blood pressure variability (BPV) and cardiac function. This retrospective study included 101 patients with hypertension and heart failure with reduced ejectio",
-        "score": 0.41762155294418335,
-        "doi": "10.62347/LXJB8350",
-        "journal": "American journal of translational research",
-        "year": "2024",
-        "rerank_score": -4.204849720001221,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31184313",
+        "text": "Lisinopril reverses behavioural alterations in spontaneously hypertensive rats. This study investigated the effect of lisinopril (angiotensin-converting enzyme inhibitor) on potential behavioural alterations in spontaneously hypertensive rats (SHR). Three groups of 15-17-week-old rats were investigated for 2 weeks: Wistar control group, SHR group and SHR+lisinopril group. Systolic blood pressure (SBP) was normal in Wistar rats, SHR expressed hypertension and lisinopril normalized the SBP. We observed increased time spent in and increased frequency of entries to the central area of the open field in SHR, while lisinopril induced a trend to reduce the time spent in the central area of the open field and reduced the frequency of entries there. There was a positive correlation between SBP and reduced anxiety-like behaviour in normotensive rats; no correlations in the SHR or SHR+lisinopril groups were observed. We conclude that lisinopril normalized the increase in SBP and partly reversed the alterations of anxiety-like behaviour in SHR.",
+        "doi": "10.4149/gpb_2019011",
+        "journal": "General physiology and biophysics",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.4110836982727051,
+        "score": 0.4110836982727051,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

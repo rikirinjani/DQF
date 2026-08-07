@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38070127",
-        "text": "Verapamil modulates NFAT2 to inhibit tumor growth and potentiates PD1ab immune checkpoint inhibitor therapy in cervical cancer treatment. Current evidence suggests a high co-prevalence of hypertension and cervical cancer. Accordingly, blood pressure control is indicated during anti-tumor drug therapy in this patient population. Over the past few years, immunotherapy has made great strides in treating different cancers. However, the role and clinical significance of verapamil as a first-line anti-hypertensiv",
-        "score": 0.4016367495059967,
-        "doi": "10.1080/10799893.2023.2291562",
-        "journal": "Journal of receptor and signal transduction research",
-        "year": "2024",
-        "rerank_score": 5.292942523956299,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7783113",
+        "text": "Calcium channel blockade: is lowering office blood pressure enough?",
+        "doi": "",
+        "journal": "Journal of human hypertension",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.36920860409736633,
+        "score": 0.36920860409736633,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39296914",
-        "text": "Effects of intracoronary administration of small doses of nicorandil and verapamil on blood pressure and heart rate. Nicorandil and verapamil can improve coronary blood flow and coronary microcirculation during percutaneous coronary intervention. However, the effects of intracoronary (IC) administration of nicorandil and verapamil on hemodynamics remain unclear. To clarify the safety and effects of IC administration of nicorandil and verapamil on blood pressure (BP) and heart rate (HR) to provide evidence-b",
-        "score": 0.4071525037288666,
-        "doi": "10.1016/j.ahjo.2024.100461",
-        "journal": "American heart journal plus : cardiology research and practice",
-        "year": "2024",
-        "rerank_score": 3.99812912940979,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15779502",
+        "text": "Chronotherapeutic oral drug absorption system verapamil is effective in reducing morning blood pressure in African Americans: a post hoc analysis of the chrono trial. Results of several clinical trials have shown that verapamil is effective in reducing blood pressure (BP) in African Americans, a population at high risk for hypertension and target-organ damage. Nonetheless, adequate control of BP is perceived as difficult to achieve in this population. A post hoc analysis of data from the community-based CHRONO trial (Controlling Hypertension in the moRning with a ChrONO medication) was undertaken to assess racial/ethnic differences in the safety and efficacy of the Chronotherapeutic Oral Drug Absorption System (CODAS) formulation of verapamil in a real-world setting. Once-daily administration of the CODAS formulation of verapamil significantly reduced morning BP (P<0.0001) regardless of race or ethnicity. In the African-American population (N=466), the response rate for systolic BP (<140 mmHg or > or =10% reduction from baseline) and diastolic BP (<90 mmHg or reduction > or =10 mmHg from baseline) combined was 70.8%, and 60% of those individuals responded at the lowest (200 mg) dose. Of the 59.7% of African Americans who reached the target BP of <140/90 mmHg, 64% did so at the 200-mg dose. Response rates were not affected by gender, age or treatment history, and CODAS-verapamil was well tolerated in all ethnic/racial treatment groups. In a trial conducted in actual clinical practices, the CODAS formulation of verapamil was shown to be safe and effective in African Americans, Caucasians, Hispanics and Asians.",
+        "doi": "",
+        "journal": "Journal of the National Medical Association",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3747830092906952,
+        "score": 0.3747830092906952,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40083595",
-        "text": "Posttreatment pulse rate reduction and not baseline pulse rate as an indicator of blood pressure response to nebivolol: a subanalysis from the real-world BENEFIT-KOREA study. This subanalysis of BENEFIT-KOREA cohort assessed the impact of baseline pulse rate (PR) and posttreatment PR reduction on the blood pressure (BP)-lowering efficacy of nebivolol in patients with hypertension. South Korean patients with hypertension were enrolled in the BENEFIT-KOREA study; 3,011 patients received nebivolol as monothera",
-        "score": 0.4023604691028595,
-        "doi": "10.5646/ch.2025.31.e8",
-        "journal": "Clinical hypertension",
-        "year": "2024",
-        "rerank_score": 2.7455413341522217,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8522636",
+        "text": "Moexipril in the treatment of mild to moderate essential hypertension: comparison with sustained-release verapamil. To compare and contrast the antihypertensive efficacy of an angiotensin-converting enzyme (ACE) inhibitor to a calcium antagonist, 88 and 90 patients with essential hypertension were randomly assigned to receive moexipril and verapamil, respectively. At the end of the first 6 weeks of active therapy, sitting diastolic blood pressure decreased by 11 mmHg in patients receiving moexipril and by 9 mmHg in patients receiving verapamil. The 24-week treatment period was completed by 72 patients who received moexipril and 71 patients who received verapamil. Mean decreases in sitting diastolic blood pressure of 10 mmHg and 11 mmHg were observed in the respective intent-to-treat moexipril and verapamil groups. At doses of 7.5 mg and 15 mg once daily, moexipril had an antihypertensive effect comparable to that of sustained-release verapamil at doses of 180 mg and 240 mg once daily.",
+        "doi": "10.1002/j.1552-4604.1995.tb04122.x",
+        "journal": "Journal of clinical pharmacology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.37482595443725586,
+        "score": 0.37482595443725586,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38823475",
-        "text": "Repeated doses of captopril induce airway hyperresponsiveness by modulating the TRPV1 receptor in rats. Although TRPV1 receptors play an essential role in the adverse effects on the airways following captopril treatment, there is no available evidence of their involvement in treatment regimens involving repeated doses of captopril. Comparing the difference in these two treatment regimens is essential since captopril is a continuous-use medication. Thus, this study explored the role of the transient receptor",
-        "score": 0.4286721348762512,
-        "doi": "10.1016/j.pupt.2024.102302",
-        "journal": "Pulmonary pharmacology & therapeutics",
-        "year": "2024",
-        "rerank_score": 0.81305330991745,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10788996",
+        "text": "[Adverse effects of angiotensin receptor antagonists].",
+        "doi": "10.1007/s001010050822",
+        "journal": "Der Anaesthesist",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.42309990525245667,
+        "score": 0.42309990525245667,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:18605972",
-        "text": "Side effects of angiotensin converting enzyme inhibitor (captopril) in newborns and young infants. To analyze the side effects of captopril, an angiotensin converting enzyme inhibitor (ACEI) in newborn and young infants.",
-        "score": 0.40171945095062256,
-        "doi": "10.1515/JPM.2008.064",
-        "journal": "Journal of perinatal medicine",
-        "year": "2008",
-        "rerank_score": 0.12817570567131042,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9734114",
+        "text": "[Risk factors of adverse effects of angiotensin-converting enzyme inhibitors. Apropos of 30,072 patients treated by trandolapril]. The aim of the present study was to investigate the incidence of adverse effects and the prognostic value of various risk factors in a large population of unselected hypertensive patients treated with the ACE inhibitor trandolapril. Among the 30 072 patients investigated in this post marketing retrospective study, 1813 patients (6.0 per cent) reported an adverse effect. The five most frequent side effects were coughing (3.1 per cent), dizziness (0.7 per cent), headache (0.6 per cent) asthenia (0.5 per cent) and nausea (0.3 per cent). Intolerance risk factors for trandolapril were researched using both univariate and multivariate analysis. In the univariate analysis, a prior intolerance of an ACE inhibitor and female gender were strongly correlated with either overall intolerance or coughing. The most relevant variables for the occurrence of adverse effects, listed according to their entry order in the multivariate analysis, were: prior intolerance of ACE inhibitors (OR: 4.19, 95 per cent CI: 3.66-4.78), female gender (OR: 1.46, 95 per cent CI: 1.31-1.63), prior intolerance of other antihpertensive agents (OR: 1.27, 95 per cent CI: 1.14-1.41), smoking (OR: 0.76, 95 per cent CI: 0.66-0.87) and combination with a beta blocker (OR: 1.31, 95 per cent CI: 1.08-1.58). A prior intolerance of an ACE inhibitor appears to be a very strong predictor of coughing (OR: 6.14, 95 per cent CI: 5.24-7.19). The following variables, namely female gender (OR: 1.61, 95 per cent CI: 1.40-1.85), age 60-80 (OR: 1.25, 95 per cent CI: 1.09-1.44) and prior intolerance of other antihypertensive agents (OR: 1.20, 95 per cent CI: 1.03-2.39) appear less significant.",
+        "doi": "",
+        "journal": "Therapie",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.4342600107192993,
+        "score": 0.4342600107192993,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39625739",
-        "text": "Comparison of the pharmacovigilance signals of cardiac and renal adverse events associated with sacubitril/valsartan and valsartan alone based on the FAERS database. In clinical practice, cardiovascular and renal safety profiles of sacubitril/valsartan, compared with those of valsartan alone, remain controversial. Therefore, we aimed to compare the pharmacovigilance signals related to cardiovascular and renal adverse events between sacubitril/valsartan and valsartan alone using the Food and Drug Administrat",
-        "score": 0.41577064990997314,
-        "doi": "10.1080/14740338.2024.2436100",
-        "journal": "Expert opinion on drug safety",
-        "year": "2025",
-        "rerank_score": -0.5474468469619751,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9670588",
+        "text": "[Hepatotoxicity caused by captopril].",
+        "doi": "",
+        "journal": "Atencion primaria",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.44527047872543335,
+        "score": 0.44527047872543335,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40735972",
-        "text": "Effects of pioglitazone with and without exercise training on cardiorespiratory fitness and oxygen uptake kinetics in type 2 diabetes. Exercise tolerance is often impaired in type 2 diabetes (T2D), and barriers to regular exercise are common. This study evaluated whether 12 weeks of pioglitazone (PIO) therapy could enhance peak oxygen uptake (V̇O Male participants with T2D were assigned to one of the following groups: (1) non-exercising control (CON, n = 12), (2) PIO (15 mg/day) alone (PIO, n = 6), (3) exer",
-        "score": 0.39491310715675354,
-        "doi": "10.1111/dom.16648",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2025",
-        "rerank_score": 2.8994598388671875,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11594240",
+        "text": "Pharmacokinetics and clinical efficacy of pioglitazone. Pioglitazone is a thiazolidinedione that increases insulin sensitivity in target tissues. It is well-absorbed, with a mean absolute bioavailability of 83% and reaching maximum concentrations in around 1.5 hours. It is metabolised by the hepatic cytochrome P450 enzyme system. However, unlike troglitazone, studies have provided no evidence to suggest that pioglitazone administration leads to inhibition or induction of any of the P450 isoenzymes involved in drug metabolism. Therefore pioglitazone may have lower potential for drug interaction. The half-life is about 9 hours but two active metabolites mainly contribute to the extended glucose-lowering effects. It is administered once daily without regard to meals. The pharmacokinetics are not significantly altered in Type 2 diabetes, renal or hepatic insufficiency or in the elderly. In placebo-controlled clinical studies, pioglitazone effectively improved glycaemic control in people with Type 2 diabetes as evidenced by significant reductions in HbA1c and fasting plasma glucose, whether used as monotherapy or in combination with sulphonylurea, metformin or insulin. Pioglitazone also had a beneficial effect on the abnormal lipid profile seen in Type 2 diabetes. Compared with placebo, pioglitazone significantly reduced serum triglycerides and increased high density lipoprotein cholesterol with no change in low density lipoprotein or total cholesterol.",
+        "doi": "",
+        "journal": "International journal of clinical practice. Supplement",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.3800494074821472,
+        "score": 0.3800494074821472,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38682243",
-        "text": "Pioglitazone does not enhance exogenous glucose oxidation or metabolic clearance rate during aerobic exercise in men under acute high-altitude exposure. Insulin insensitivity decreases exogenous glucose oxidation and metabolic clearance rate (MCR) during aerobic exercise in unacclimatized lowlanders at high altitude (HA). Whether use of an oral insulin sensitizer before acute HA exposure enhances exogenous glucose oxidation is unclear. This study investigated the impact of pioglitazone (PIO) on exogenous gl",
-        "score": 0.4074261486530304,
-        "doi": "10.1152/ajpregu.00064.2024",
-        "journal": "American journal of physiology. Regulatory, integrative and comparative physiolo",
-        "year": "2024",
-        "rerank_score": -1.0346159934997559,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11900311",
+        "text": "Pioglitazone: a review of Japanese clinical studies. Pioglitazone, a new thiazolidinedione agent,has been shown to increase insulin sensitivity in clinical trials. Pioglitazone HCI was rapidly absorbed within one hour, achieved peak concentrations at 2-3 h, and was eliminated from serum at 24-36 h. Pioglitazone demonstrated dose-dependent pharmacokinetics. Food did not significantly affect the pharmacokinetic profile of pioglitazone. The pharmacokinetic profile of sulfonylurea agents was not significantly altered by concurrent administration with pioglitazone. Pharmacokinetic studies in healthy volunteers and in patients with type 2 diabetes indicated that pioglitazone may be administered once daily. In patients with type 2 diabetes, pioglitazone as monotherapy and in combination with sulfonylureas or an alpha-glucosidase inhibitor significantly reduced fasting blood glucose, HbA1c, triglycerides, and free fatty acids, and significantly increased HDL-cholesterol. Pioglitazone demonstrated either minor increases or decreases in cholesterol with no adverse effect on LDL-cholesterol. No patients experienced jaundice or ALT elevations > or = three times the upper limit of normal. Adverse events were mild and transient; all subjects returned to their baseline health status or laboratory tests upon withdrawal from, or completion of, the studies. Based upon these preliminary studies, full-scale clinical investigations were conducted in Japan, the United States, and Europe. As a result, in many countries pioglitazone has gained approval for use in patients with type 2 diabetes.",
+        "doi": "10.1185/0300799039117059",
+        "journal": "Current medical research and opinion",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3874184191226959,
+        "score": 0.3874184191226959,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40802044",
-        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
-        "score": 0.3803483247756958,
-        "doi": "10.1007/s40262-025-01559-4",
-        "journal": "Clinical pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -1.4934725761413574,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20174742",
+        "text": "Biokinetic study of pioglitazone in female volunteers by a validated high performance liquid chromatography method.",
+        "doi": "",
+        "journal": "Saudi medical journal",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.3880380690097809,
+        "score": 0.3880380690097809,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

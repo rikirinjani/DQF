@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:25744115",
-        "text": "Five-year efficacy and safety data of exenatide once weekly: long-term results from the DURATION-1 randomized clinical trial. To evaluate the 5-year efficacy and safety of once weekly exenatide.",
-        "score": 0.4115625023841858,
-        "doi": "10.1016/j.mayocp.2015.01.008",
-        "journal": "Mayo Clinic proceedings",
-        "year": "2014",
-        "rerank_score": 0.02750774472951889,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18456920",
+        "text": "Exenatide and rare adverse events.",
+        "doi": "",
+        "journal": "The New England journal of medicine",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.2878604233264923,
+        "score": 0.2878604233264923,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39129531",
-        "text": "Adverse events associated with inclisiran: a real-world disproportionality analysis based on the FAERS database. Randomized clinical trials have reported some safety profiles in inclisiran, but adverse events in real-world remain insufficient. We aim to evaluate the safety of inclisiran in real-world by collecting the data from the FDA Adverse Event Reporting System database. Disproportionality analysis was performed by utilizing both Frequency method and Bayesian method to mine adverse event signals of inc",
-        "score": 0.42578163743019104,
-        "doi": "10.1080/14740338.2024.2389989",
-        "journal": "Expert opinion on drug safety",
-        "year": "2025",
-        "rerank_score": -1.728429913520813,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18450614",
+        "text": "Exenatide and rare adverse events.",
+        "doi": "10.1056/NEJMc0707137",
+        "journal": "The New England journal of medicine",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.2878604233264923,
+        "score": 0.2878604233264923,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38407147",
-        "text": "Safety Profile of Selective Serotonin Reuptake Inhibitors in Real-World Settings: A Pharmacovigilance Study Based on FDA Adverse Event Reporting System. Selective serotonin reuptake inhibitors (SSRIs) are the most frequently prescribed agents to treat depression. Considering the growth in antidepressant prescription rates, SSRI-induced adverse events (AEs) need to be comprehensively clarified. This study was to investigate safety profiles and potential AEs associated with SSRIs using the Food and Drug Admin",
-        "score": 0.4285326600074768,
-        "doi": "10.1177/10600280241231116",
-        "journal": "The Annals of pharmacotherapy",
-        "year": "2024",
-        "rerank_score": -1.9791111946105957,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23885352",
+        "text": "Exenatide added to insulin. Beware the potentially serious adverse effects of exenatide.",
+        "doi": "",
+        "journal": "Prescrire international",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.32467877864837646,
+        "score": 0.32467877864837646,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

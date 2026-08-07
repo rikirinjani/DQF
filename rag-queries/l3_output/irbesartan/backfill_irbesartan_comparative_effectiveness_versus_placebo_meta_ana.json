@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:10821345",
-        "text": "Angiotensin II antagonists for hypertension: are there differences in efficacy? We compared the antihypertensive efficacy of available drugs in the new angiotensin-II-antagonist (AIIA) class. The antihypertensive efficacy of losartan, valsartan, irbesartan, and candesartan was evaluated from randomized controlled trials (RCT) by performing a metaanalysis of 43 published RCT. These trials involved AIIA compared with placebo, other antihypertensive classes, and direct comparisons between AIIA. A weighted-aver",
-        "score": 0.3856385350227356,
-        "doi": "10.1016/s0895-7061(99)00237-x",
-        "journal": "American journal of hypertension",
-        "year": "2000",
-        "rerank_score": 4.71750020980835,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10321426",
+        "text": "An elective-titration study of the comparative effectiveness of two angiotensin II-receptor blockers, irbesartan and losartan.",
+        "doi": "",
+        "journal": "Clinical therapeutics",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.3618941307067871,
+        "score": 0.3618941307067871,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39333921",
-        "text": "Safety and efficacy of sparsentan versus irbesartan in focal segmental glomerulosclerosis and IgA nephropathy: a systematic review and meta-analysis of randomized controlled trials. Sparsentan has shown positive effects on managing different subtypes of glomerulonephritis. The recent results of trials require a pooled analysis to validate these results. We aim to assess the safety and efficacy of sparsentan versus irbesartan for patients with IgA nephropathy and focal glomerulosclerosis (FSGS). We conducted",
-        "score": 0.3850535750389099,
-        "doi": "10.1186/s12882-024-03713-9",
-        "journal": "BMC nephrology",
-        "year": "2024",
-        "rerank_score": 4.435697555541992,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20030566",
+        "text": "Differences in pharmacology and their translation into differences in clinical efficacy--a comparison of the renin angiotensin blocking agents irbesartan and losartan. Guidelines recommend five antihypertensive drug classes, but which particular drug to choose is up to the treating physician. We aimed at an in-depth comparison of two frequently used angiotensin receptor blockers to provide evidence for this decision. Pharmacology of irbesartan and losartan, their blood-pressure-lowering efficacy, their tolerability/safety, end-organ protective effects and economic evaluation. Both drugs differ in their oral bioavailability, potential for food interactions, degree of metabolism, dosing interval, time to peak, volume of distribution and terminal half-life. Irbesartan provides a greater and longer-lasting antihypertensive effect and was determined to be cost effective over losartan in Denmark and Sweden. Irbesartan was more effective in preventing deterioration of kidney function in patients with diabetic nephropathy, being cost effective from a German perspective. There is only one end point trial for either drug in patients with left ventricular hypertrophy, heart failure and atrial fibrillation, but no direct comparison. There is an incremental clinical benefit of irbesartan over losartan in the treatment of hypertension and diabetic nephropathy which can be substantiated by corresponding preclinical study evidence. This has translated into an economic benefit in a number of country-specific evaluations.",
+        "doi": "10.1517/14656560903512962",
+        "journal": "Expert opinion on pharmacotherapy",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.3695829212665558,
+        "score": 0.3695829212665558,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39412629",
-        "text": "A Systematic Literature Review and Network Meta-analysis of Azilsartan Medoxomil Compared to Other Anti-hypertensives Efficacy in Lowering Blood Pressure Amongst Mild to Moderate Hypertensive Patients. A systematic literature review and network meta-analysis was conducted on azilsartan medoxomil (AZL-M) versus other antihypertensive drugs' efficacy in hypertensive patients. The search utilized English platforms, from January 2000 until December 2023, resulting in 10,380 articles being screened. Screening cr",
-        "score": 0.40509045124053955,
-        "doi": "10.1007/s12325-024-02997-5",
-        "journal": "Advances in therapy",
-        "year": "2024",
-        "rerank_score": 2.281687021255493,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:24590633",
+        "text": "The challenges of comparing results between placebo controlled randomized trials and non-experimental new user, active comparator cohort studies: the example of olmesartan.",
+        "doi": "10.1002/pds.3602",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3770321309566498,
+        "score": 0.3770321309566498,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

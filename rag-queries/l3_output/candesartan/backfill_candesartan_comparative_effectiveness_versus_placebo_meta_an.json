@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:16620350",
-        "text": "A placebo-controlled comparison of the efficacy and tolerability of candesartan cilexetil, 8 mg, and losartan, 50 mg, as monotherapy in patients with essential hypertension, using 36-h ambulatory blood pressure monitoring. This double-blind, randomised, controlled study compared the efficacy of candesartan cilexetil 8 mg (n = 87) and losartan 50 mg (n = 89), once daily for 6 weeks, relative to placebo (n = 80) in patients with mild-to-moderate essential hypertension (diastolic blood pressure (DBP): 95-115 m",
-        "score": 0.3518441319465637,
-        "doi": "10.1111/j.1368-5031.2006.00903.x",
-        "journal": "International journal of clinical practice",
-        "year": "2006",
-        "rerank_score": 4.608371734619141,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9705046",
+        "text": "Candesartan vs losartan.",
+        "doi": "10.1038/sj.jhh.1000616",
+        "journal": "Journal of human hypertension",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.34202277660369873,
+        "score": 0.34202277660369873,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38579097",
-        "text": "Comparison of sacubitril/valsartan with olmesartan for hypertension: A meta-analysis of randomized controlled trials. The efficacy of sacubitril/valsartan versus olmesartan remains controversial for the control of hypertension. We conduct a systematic review and meta-analysis to explore the influence of sacubitril/valsartan versus olmesartan on the control of hypertension. We have searched PubMed, Embase, Web of science, EBSCO, and Cochrane library databases through July 2023 for randomized controlled trial",
-        "score": 0.3533592224121094,
-        "doi": "10.1097/MD.0000000000037501",
-        "journal": "Medicine",
-        "year": "2024",
-        "rerank_score": 2.630659341812134,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21421652",
+        "text": "A systematic review and meta-analysis of candesartan and losartan in the management of essential hypertension. Candesartan is a relatively novel antihypertensive agent of the angiotensin receptor blocker (ARB). Several clinical trials have compared candesartan with losartan in the management of essential hypertension. However, systematic assessment of efficacy and safety between candesartan and losartan is still lacking. We reviewed randomised controlled trials (RCTs) comparing candesartan with losartan for net reduction in blood pressure from baseline, response and control rates, and incidences of common and serious adverse events.Weighted mean differences (WMD), and relative risk (RR) with 95% confidence intervals (CI) were calculated for continuous and dichotomous data, respectively. A total of 12 RCTs with 3644 patients were included in this meta-analysis. When comparing the efficacy of candesartan and losartan in reducing systolic blood pressure (SBP) and diastolic blood pressure (DBP) at the end of the follow-up period, results with candesartan were superior to losartan in the reduction SBP and DBP (WMD, -2.97; 95% CI, -4.18 - -1.77; p < 0.001; WMD, -1.76; 95% CI, -2.57 - -0.96; p < 0.001; respectively). Candesartan had better response and control rates than losartan. (RR, 1.12; 95% CI, 1.06-1.18; p < 0.01; RR, 1.26; 95% CI, 1.06-1.50; p = 0.008). Reported common adverse events for the two agents were not significantly different (RR, 0.98; 95% CI, 0.86-1.12; p = 0.78). The incidence of serious adverse events for candesartan was lower than for losartan (RR, 0.48; 95% CI, 0.25-0.92; p = 0.03). The net reduction of DBP showed negative correlation with baseline DBP in both candesartan and losartan groups (regression coefficient -1.81, p = 0.03 and regression coefficient -1.56, p = 0.02, respectively). Candesartan is superior to losartan in reducing blood pressure. Candesartan also causes fewer serious adverse events than losartan.",
+        "doi": "10.1177/1470320310391503",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.35252997279167175,
+        "score": 0.35252997279167175,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39295934",
-        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
-        "score": 0.3606454133987427,
-        "doi": "10.3389/fphar.2024.1418826",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": 2.5380945205688477,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22820775",
+        "text": "Losartan vs candesartan for heart failure.",
+        "doi": "10.1001/jama.2012.7642",
+        "journal": "JAMA",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3550872504711151,
+        "score": 0.3550872504711151,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

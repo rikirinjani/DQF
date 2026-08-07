@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39689380",
-        "text": "Furosemide with adjunctive acetazolamide vs furosemide only in critically ill patients: A pilot two-center randomized controlled trial. Furosemide is the most commonly used diuretic in intensive care units (ICU). We aimed to evaluate the physiological effects of adjunctive acetazolamide with furosemide on diuresis and the prevention of potential furosemide-induced metabolic alkalosis. We performed a two-center, pilot, open-label, randomized trial. Where the treating physicians planned intravenous diuretic t",
-        "score": 0.41727691888809204,
-        "doi": "10.1016/j.jcrc.2024.155002",
-        "journal": "Journal of critical care",
-        "year": "2024",
-        "rerank_score": 2.3468174934387207,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15806485",
+        "text": "Efficacy of furosemide in ARF.",
+        "doi": "10.1053/j.ajkd.2004.11.024",
+        "journal": "American journal of kidney diseases : the official journal of the National Kidne",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3672277629375458,
+        "score": 0.3672277629375458,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39121183",
-        "text": "Safety and Efficacy of Torsemide Versus Furosemide in Patients With Heart Failure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials and Real-World Data.",
-        "score": 0.3860982060432434,
-        "doi": "10.1097/MJT.0000000000001735",
-        "journal": "American journal of therapeutics",
+        "id": "PMID:39196651",
+        "text": "Mechanistic Differences between Torsemide and Furosemide.",
+        "doi": "10.1681/ASN.0000000000000481",
+        "journal": "Journal of the American Society of Nephrology : JASN",
         "year": "2024",
-        "rerank_score": 2.2555112838745117,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3879585564136505,
+        "score": 0.3879585564136505,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39943128",
-        "text": "Subcutaneous Furosemide Therapy for Chronic Management of Refractory Congestive Heart Failure in Dogs and Cats. Reduced efficacy of oral diuretics in the treatment of congestive heart failure (CHF) can be secondary to reduced enteral drug absorption. The aim of this study was to determine the efficacy of subcutaneous (SC) furosemide administration to control the signs of refractory CHF in dogs and cats and to assess the feasibility of this route of administration. The clinical records of 13 dogs and 17 cats",
-        "score": 0.3913463354110718,
-        "doi": "10.3390/ani15030358",
-        "journal": "Animals : an open access journal from MDPI",
+        "id": "PMID:39745789",
+        "text": "Comparing Torsemide with Furosemide: Finally a Mechanistic Approach that Says, \"Enough Already\".",
+        "doi": "10.1681/ASN.0000000562",
+        "journal": "Journal of the American Society of Nephrology : JASN",
         "year": "2025",
-        "rerank_score": 1.794801115989685,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.40183955430984497,
+        "score": 0.40183955430984497,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

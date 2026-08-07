@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
+        "id": "PMID:14531832",
+        "text": "Submaximal dose of trandolapril in the COOPERATE trial?",
+        "doi": "10.1046/j.1523-1755.2003.00295.x",
+        "journal": "Kidney international",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3942969739437103,
+        "score": 0.3942969739437103,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:10520662",
+        "text": "Survival benefit of trandolapril.",
+        "doi": "10.1016/S0140-6736(05)76074-8",
+        "journal": "Lancet (London, England)",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.42680323123931885,
+        "score": 0.42680323123931885,
+        "rerank_score": 0.95
+      },
+      {
         "id": "PMID:7607715",
-        "text": "Differing mechanisms of action of angiotensin-converting enzyme inhibition in black and white hypertensive patients. The Trandolapril Multicenter Study Group. The antihypertensive effect of the angiotensin-converting enzyme inhibitor trandolapril administered in doses of 1, 2, and 4 mg/d was compared in 207 white patients and 91 black patients with mild to moderate hypertension following a double-blind, randomized, placebo-controlled, parallel study design. Trandolapril is a prodrug that is rapidly hydrolyz",
-        "score": 0.4062318503856659,
+        "text": "Differing mechanisms of action of angiotensin-converting enzyme inhibition in black and white hypertensive patients. The Trandolapril Multicenter Study Group. The antihypertensive effect of the angiotensin-converting enzyme inhibitor trandolapril administered in doses of 1, 2, and 4 mg/d was compared in 207 white patients and 91 black patients with mild to moderate hypertension following a double-blind, randomized, placebo-controlled, parallel study design. Trandolapril is a prodrug that is rapidly hydrolyzed to its active diacid metabolite, trandolaprilat. After 6 weeks of double-blind treatment, trandolapril lowered baseline sitting diastolic pressure in both white and black patients. A comparison of the antihypertensive response of the two populations revealed that the black patients required between two and four times the dose of trandolapril to obtain a response similar to that observed in the white patients. A dose of 1 mg/d trandolapril resulted in a 6.1 mm Hg mean decrease in baseline sitting diastolic pressure for white patients; a similar response (-6.5 mm Hg) was observed in the black patients at 4 mg/d. In contrast to the population differences in blood pressure, the decreases in angiotensin-converting enzyme activity were similar for both populations. An evaluation of trandolaprilat levels revealed that there were no racial differences in the trandolaprilat concentrations required to achieve a given degree of angiotensin-converting enzyme inhibition. Therefore, it appears that the antihypertensive response of black patients is not completely explained by a reduction in angiotensin-converting enzyme activity. The lack of response at a lower dose but increasing response at a higher dose could reflect another vasodepressor activity of trandolapril or just be evidence of reduced sensitivity of high blood pressure in blacks to angiotensin-converting enzyme inhibition.",
         "doi": "10.1161/01.hyp.26.1.124",
         "journal": "Hypertension (Dallas, Tex. : 1979)",
         "year": "1995",
-        "rerank_score": 1.927338719367981,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:15528874",
-        "text": "Effects of combination treatment with losartan and trandolapril on office and ambulatory blood pressures in non-diabetic renal disease: a COOPERATE-ABP substudy. In the COOPERATE trial, the combination treatment of the angiotensin-II receptor blocker losartan and the angiotensin-converting-enzyme inhibitor trandolapril significantly retarded progression of non-diabetic kidney disease compared with each monotherapy. The benefit could be greatly attributable to the potent reduction of proteinuria, because the",
-        "score": 0.4060328006744385,
-        "doi": "10.1159/000081953",
-        "journal": "American journal of nephrology",
-        "year": "2004",
-        "rerank_score": -0.7374326586723328,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:41088566",
-        "text": "Major Limitations of Randomized Controlled Trials Assessing Antidepressant Efficacy.",
-        "score": 0.42690977454185486,
-        "doi": "10.1097/JCP.0000000000002075",
-        "journal": "Journal of clinical psychopharmacology",
-        "year": "2025",
-        "rerank_score": -1.2910317182540894,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.4274789094924927,
+        "score": 0.4274789094924927,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

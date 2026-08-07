@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41549823",
-        "text": "Pharmacokinetic Interaction Among Amlodipine, Losartan, and Chlorthalidone after a Single Oral Administration in Healthy Male Subjects. Antihypertensive drugs are more potent when administered in combinations of two or three different classes of drugs. The objective of this study was to evaluate the pharmacokinetic interaction among amlodipine, losartan, and chlorthalidone. A randomized, open-label, four-sequence, four-period, four-treatment, single-dose study was conducted in healthy Korean male subjects, ",
-        "score": 0.41471758484840393,
-        "doi": "10.1002/cpdd.70024",
-        "journal": "Clinical pharmacology in drug development",
-        "year": "2025",
-        "rerank_score": -1.4942575693130493,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8739826",
+        "text": "The pharmacokinetics of extended release felodipine in children.",
+        "doi": "10.1007/s002280050083",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.38788700103759766,
+        "score": 0.38788700103759766,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40616336",
-        "text": "Pharmacokinetic Variability of Amlodipine Serum Concentration and Effect on Blood Pressure in Patients Treated for Hypertension. We investigated the effects of age, sex, BMI, total number of prescribed daily pills, common biomarkers, and CYP3A4/5 polymorphisms on dose-adjusted amlodipine concentration (CDR) in hypertensive patients. We also examined associations between the same covariates, dose, and serum amlodipine concentrations with uncontrolled hypertension. Amlodipine concentrations were measured in 4",
-        "score": 0.41644221544265747,
-        "doi": "10.1002/prp2.70140",
-        "journal": "Pharmacology research & perspectives",
-        "year": "2025",
-        "rerank_score": -1.9229685068130493,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20881606",
+        "text": "Pharmacokinetic and antihypertensive profile of amlodipine and felodipine-ER in younger versus older patients with hypertension. To evaluate the impact of age on the pharmacokinetics and blood pressure (BP) responses of a dihydropyridine (DHP) with large versus small first-pass metabolism in hypertensive subjects, younger (n = 28) and older (n = 35) patients with hypertension were randomized to placebo, felodipine-ER 5 mg/d, or amlodipine 5 mg/d. In the young subjects, the first dose of either DHP did not decrease BP and chronic dosing decreased BP by approximately 10 mm Hg, which had disappeared by 24 hours. In the older group, felodipine-ER decreased systolic BP by approximately 10 mm Hg after the first dose and by approximately 20 mm Hg after chronic dosing, which had disappeared after 24 hours. The first dose of amlodipine caused a gradual fall in BP and chronic dosing by approximately 20 mm Hg and still by approximately 10 mm Hg at 120 hours. Older subjects showed approximately 30% higher area under the concentration–time curves and plasma concentrations of felodipine and amlodipine, but (apparent) elimination half-lives did not differ between younger and older subjects. The chronic antihypertensive responses correlated well with both plasma levels and pretreatment BP. Age has only a modest impact on the pharmacokinetics of amlodipine and felodipine-ER but markedly affects the BP response to the first dose of either DHP and the duration of action after chronic dosing of amlodipine.",
+        "doi": "10.1097/FJC.0b013e3181fc45bb",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.39004191756248474,
+        "score": 0.39004191756248474,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38675150",
-        "text": "The Impact of Paediatric Obesity on Drug Pharmacokinetics: A Virtual Clinical Trials Case Study with Amlodipine. The incidence of paediatric obesity continues to rise worldwide and contributes to a range of diseases including cardiovascular disease. Obesity in children has been shown to impact upon the plasma concentrations of various compounds, including amlodipine. Nonetheless, information on the influence of obesity on amlodipine pharmacokinetics and the need for dose adjustment has not been studied prev",
-        "score": 0.3926752507686615,
-        "doi": "10.3390/pharmaceutics16040489",
-        "journal": "Pharmaceutics",
-        "year": "2024",
-        "rerank_score": -1.975763201713562,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8751023",
+        "text": "Relationship between time of intake of grapefruit juice and its effect on pharmacokinetics and pharmacodynamics of felodipine in healthy subjects. In this randomised, cross-over study, in nine healthy males given felodipine ER 10 mg PO 200 ml grapefruit juice was found to increase the plasma levels of felodipine even when the juice was taken 24 hours before the drug. Grapefruit juice drunk simultaneously with and 1, 4, 10 or 24 hours before the drug administration resulted in a 32-99% increase in mean Cmax values of felodipine, relative to concomitant water and felodipine intake. The effect on AUC was also significant when juice was taken up to 10 h before the drug. The effect of the interaction decreased with increasing time between juice and drug intake. All treatments produced a significant decrease in diastolic blood pressure and an increase in heart rate in comparison with morning basal values. The change in haemodynamic variables was approximately the same after all treatment combinations. Headache was reported more frequently after treatments including grapefruit juice.",
+        "doi": "10.1007/BF00192360",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3917233645915985,
+        "score": 0.3917233645915985,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

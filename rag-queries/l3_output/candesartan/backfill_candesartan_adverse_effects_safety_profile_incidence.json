@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:36440098",
-        "text": "Candesartan-the next anti-amyloid drug? This scientific commentary refers to 'Safety and biomarker effects of candesartan in non-hypertensive adults with prodromal Alzheimer's disease' by Hajjar",
-        "score": 0.3934735059738159,
-        "doi": "10.1093/braincomms/fcac293",
-        "journal": "Brain communications",
-        "year": "2022",
-        "rerank_score": 2.127551794052124,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19202920",
+        "text": "[Anti-metabolic syndrome effects of candesartan].",
+        "doi": "",
+        "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.40928512811660767,
+        "score": 0.40928512811660767,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39486868",
-        "text": "Candesartan Has No Clinically Meaningful Effect on the Plasma Concentrations of Cytochrome P450 2C8 Substrate Repaglinide in Humans. In vitro evidence shows that the acyl-",
-        "score": 0.41369813680648804,
-        "doi": "10.1124/dmd.124.001798",
-        "journal": "Drug metabolism and disposition: the biological fate of chemicals",
-        "year": "2024",
-        "rerank_score": 0.5655919909477234,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15592574",
+        "text": "Candesartan. Candesartan cilexetil is the prodrug of candesartan, an angiotensin II receptor antagonist. Candesartan binds selectively and non-competitively to the angiotensin II receptor type 1, thus preventing the actions of angiotensin II. Clinical trials have demonstrated its efficacy at a dose range of 2 to 32 mg once daily in hypertension of all grades, heart failure, in reducing urinary albumin excretion in diabetes mellitus and in coexisting hypertension and renal failure. Pharmacokinetic properties of candesartan cilexetil in elderly patients are not significantly different from those in younger individuals. Hepatic impairment does not change pharmacokinetics of candesartan cilexetil at doses up to 12 mg/day. No dose adjustment is necessary in patients with mild or moderate renal impairment. Tolerability of candesartan cilexetil is not much different from that of placebo. All adverse events are usually of mild to moderate severity and not dose-related. The most common adverse events were headache, upper respiratory tract infection, back pain, and dizziness. The incidence of these adverse effects, as well as of cough, was similar in patients treated with candesartan cilexetil or placebo. The incidence of adverse events in long-term trials was not different from that in short-term trials. Tolerability of candesartan cilexetil does not differ with either age or gender.",
+        "doi": "10.1111/j.1527-3466.2004.tb00146.x",
+        "journal": "Cardiovascular drug reviews",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.4159761667251587,
+        "score": 0.4159761667251587,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39358448",
-        "text": "Phase III randomized clinical trial of efficacy and safety of amlodipine and candesartan cilexetil combination for hypertension treatment. Effective antihypertensive therapy is essential for achieving optimal blood pressure (BP) control and reducing cardiovascular events. This double-blind, multicenter, randomized trial aimed to compare the antihypertensive efficacy and safety of a combination of amlodipine (AML) and candesartan cilexetil (CC) versus AML monotherapy in patients with essential hypertension (",
-        "score": 0.4220167398452759,
-        "doi": "10.1038/s41598-024-74003-5",
-        "journal": "Scientific reports",
-        "year": "2024",
-        "rerank_score": 0.1500241607427597,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10788996",
+        "text": "[Adverse effects of angiotensin receptor antagonists].",
+        "doi": "10.1007/s001010050822",
+        "journal": "Der Anaesthesist",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.4232369363307953,
+        "score": 0.4232369363307953,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

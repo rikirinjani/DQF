@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40395720",
-        "text": "Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. Amlodipine, a widely prescribed clinical medication, is associated with adverse reactions that can impede the proper execution of treatment regimens. The lack of systematic studies on amlodipine's adverse drug reactions (ADRs) necessitates further investigation to facilitate refined population management and optimize therapeutic outcomes. This study leveraged the FDA Adverse Event Reporting Sys",
-        "score": 0.45634832978248596,
-        "doi": "10.3389/fcvm.2025.1504671",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2024",
-        "rerank_score": 2.078368663787842,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9894374",
+        "text": "Improved tolerability of felodipine compared with amlodipine in elderly hypertensives: a randomised, double-blind study in 535 patients, focusing on vasodilatory adverse events. The International Study Group. The primary aim of this double-blind, parallel group trial was to compare incidence of newly occurring vasodilatory adverse events in elderly patients treated with recommended once-daily doses of felodipine extended release (ER) or amlodipine. A total of 535 patients over 65 years old with a sitting diastolic blood pressure of 90-115 mmHg and/or systolic blood pressure 160-220 mmHg, were recruited at 46 centres worldwide. Patients were randomised to felodipine ER 2.5 mg or amlodipine 5 mg. If blood pressure was > 160/90 mmHg after three or six weeks, felodipine ER was increased to 5 and 10 mg and amlodipine to 10 mg. After nine weeks, average doses of felodipine ER and amlodipine were 5.5 mg and 7.3 mg, respectively. Newly occurring vasodilatory adverse events were reported by 32% of felodipine ER patients and 43% of amlodipine patients (p = 0.007). Both treatments effectively reduced blood pressure 24 hours post-dose. Using a low starting dose and individual titration, felodipine ER achieves good control of blood pressure with few vasodilatory side-effects.",
+        "doi": "",
+        "journal": "International journal of clinical practice",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.4463610351085663,
+        "score": 0.4463610351085663,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40656772",
-        "text": "Correction: Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. [This corrects the article DOI: 10.3389/fcvm.2025.1504671.].",
-        "score": 0.4415363669395447,
-        "doi": "10.3389/fcvm.2025.1636315",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2025",
-        "rerank_score": 0.7685774564743042,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9104926",
+        "text": "Overview of the safety of felodipine based on clinical trials in patients with hypertension. All clinical studies of at least 1 week's duration with felodipine in patients with hypertension were included in a safety analysis. The major finding was that felodipine does not increase mortality or the incidence of major cardiovascular events and that the data indicate a favorable effect.",
+        "doi": "10.1016/s0002-9149(97)00034-9",
+        "journal": "The American journal of cardiology",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.4551957845687866,
+        "score": 0.4551957845687866,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:2285628",
-        "text": "Twenty-four hour profile of the hypotensive action of felodipine in essential hypertension. Felodipine, 10 mg twice daily, and placebo were administered for 5 weeks to ten untreated essential hypertensives in a double-blind, random-order, crossover study. At the end of each phase patients were assessed by 36 hours of continuous intraarterial blood pressure recordings, both during normal activities and specified activities. Patients were also assessed by 36-hour Holter analysis, maximal exercise testing, rad",
-        "score": 0.43530988693237305,
-        "doi": "10.1007/BF01857751",
-        "journal": "Cardiovascular drugs and therapy",
-        "year": "1990",
-        "rerank_score": 0.5214611291885376,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8606536",
+        "text": "Twenty-four-hour blood pressure monitoring during treatment with extended-release felodipine versus slow-release nifedipine: cross-over study. The lack of comparative studies of nifedipine and felodipine using 24-h blood pressure (BP) monitoring in the same patients led to the present study evaluating the antihypertensive efficacy and side effects of treatment with slow-release (SR) nifedipine (20 mg twice daily) and extended-release (ER) felodipine (10 mg once daily). In the double-blind study, subjects were randomly assigned to one of two treatment groups: 6 weeks of nifedipine SR (20 mg twice daily) followed by 6 weeks of felodipine (ER) (10 mg once daily with evening matched placebo), or vice versa. Twenty-four-hour ambulatory BP monitoring showed no significant differences in systolic BP (SBP) during the day. There were no significant differences in diastolic BP (DBP) throughout the 24 h, although the frequency of DBP recordings > 90 mm Hg was greater during nifedipine (33.1%) than felodipine (27.75%) treatment. The most common side effects were flushing, palpitations, headaches, and ankle edema; there were no adverse effect on lipid profile or glucose level.",
+        "doi": "10.1097/00005344-199512000-00018",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.46471256017684937,
+        "score": 0.46471256017684937,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

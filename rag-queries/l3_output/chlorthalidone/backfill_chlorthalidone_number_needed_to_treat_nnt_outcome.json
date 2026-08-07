@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.472493052482605,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 3.893842935562134,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3761107623577118,
+        "score": 0.3761107623577118,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39957722",
-        "text": "Comparison of Cardiovascular Outcomes Between Chlorthalidone and Hydrochlorothiazide in Hypertensive Patients. Chlorthalidone (CLTD) and hydrochlorothiazide (HCTZ) are widely used thiazide diuretics for hypertension management. This study aimed to evaluate and compare the cardiovascular outcomes of patients treated with CLTD versus HCTZ. This multicenter, retrospective cohort study utilized data from the Korea University Medical Center, derived from electronic health records. A total of 14 257 hypertensive ",
-        "score": 0.4614347219467163,
-        "doi": "10.1111/jch.70000",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
-        "year": "2025",
-        "rerank_score": 0.8985324501991272,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10578213",
+        "text": "The 'number need to treat': does it help clinical decision making? The number needed to treat (NNT) is an increasingly popular way of presenting the effects of treatment. However, the NNT varies markedly depending on the baseline risk of patients, the outcome considered, and the clinical setting. Furthermore geographic and secular trends make the NNT unstable between places and over time. Particular caution is needed in deriving the NNT from pooled absolute risk differences in meta-analysis. In general, the NNT should be calculated by applying the relative risk reduction on treatment estimated by trials or meta-analysis to populations of specified absolute high, average or low risk to illustrate a range of possible NNTs.",
+        "doi": "10.1038/sj.jhh.1000919",
+        "journal": "Journal of human hypertension",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.42589980363845825,
+        "score": 0.42589980363845825,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38743423",
-        "text": "Chlorthalidone vs Hydrochlorothiazide for Hypertension Treatment After Myocardial Infarction or Stroke: A Secondary Analysis of a Randomized Clinical Trial. Patients with prior myocardial infarction (MI) or stroke have a greater risk of recurrent cardiovascular (CV) events. To evaluate the association of chlorthalidone (CTD) vs hydrochlorothiazide (HCTZ) with CV outcomes and noncancer deaths in participants with and without prior MI or stroke. This was a prespecified secondary analysis of the Diuretic Compa",
-        "score": 0.48092079162597656,
-        "doi": "10.1001/jamanetworkopen.2024.11081",
-        "journal": "JAMA network open",
-        "year": "2024",
-        "rerank_score": -0.7192805409431458,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16174840",
+        "text": "Number needed to treat: a descriptor for weighing therapeutic options. The utility and limitations of the number needed to treat (NNT) are described and compared with those of alternative descriptors of therapeutic yield. Pharmacists, physicians, and patients are more likely to launch interventions based on relative measures of therapeutic yield. The NNT is a simple way to express the absolute therapeutic yield of an intervention. It is essential to take baseline risk and length of follow-up into account when calculating and interpreting absolute or relative measures of therapeutic yield. Patients may have difficulty understanding what the NNT tells them about the benefits and harms associated with an intervention, and confidence intervals for the NNT can be difficult to interpret. Relative measures of benefits are advantageous for comparing benefits across populations with different risks. The use of absolute measures to describe therapeutic options leads to more conservative decision-making and is potentially more useful. Among the absolute measures, the absolute risk reduction may be easier to understand than the NNT. These measures are most helpful when the best options are not clear or when patient input is needed. Personal digital assistants and Web-based tools can assist with calculations. The NNT is a useful measure but is influenced by numerous variables and may not be easily understood by patients.",
+        "doi": "10.2146/ajhp040558",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.44820356369018555,
+        "score": 0.44820356369018555,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

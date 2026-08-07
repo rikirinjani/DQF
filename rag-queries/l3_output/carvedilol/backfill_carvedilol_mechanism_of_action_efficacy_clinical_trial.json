@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38621497",
-        "text": "Efficacy and safety of once-daily carvedilol in patients with atrial fibrillation: A randomized, double-blind, placebo-controlled trial.",
-        "score": 0.4042856693267822,
-        "doi": "10.1016/j.hrthm.2024.04.057",
-        "journal": "Heart rhythm",
-        "year": "2024",
-        "rerank_score": 4.378486633300781,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15075055",
+        "text": "The carvedilol or metoprolol European trial.",
+        "doi": "",
+        "journal": "Current cardiology reports",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.3727756440639496,
+        "score": 0.3727756440639496,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39988204",
-        "text": "Effects of carvedilol on the prevention of cardiotoxicity induced by anthracyclines: Design and rationale of the CARDIOTOX trial. Patients with cancer undergoing chemotherapy with an anthracycline-based regimen are at increased risk of cardiotoxicity, predisposing to heart failure, arrhythmias and death. Whether carvedilol may confer benefit to prevent anthracycline-induced cardiotoxicity remains to be determined. CARDIOTOX is a double-blind, placebo controlled randomized clinical trial that plan to enroll ",
-        "score": 0.38137567043304443,
-        "doi": "10.1016/j.ahj.2025.02.014",
-        "journal": "American heart journal",
-        "year": "2024",
-        "rerank_score": 4.1995391845703125,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12166050",
+        "text": "Current research on carvedilol in heart failure.",
+        "doi": "",
+        "journal": "Critical care nurse",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.39320108294487,
+        "score": 0.39320108294487,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41567130",
-        "text": "The efficacy of carvedilol in improving cardiac function and survival in patients with anthracycline-induced cardiotoxicity: a comprehensive systematic review and meta-analysis. Anthracyclines (ANT) are widely used in chemotherapy, but their dose-dependent Cardiotoxicity limits long-term use. Carvedilol, a non-selective beta-blocker, has shown potential as a Cardioprotective agent for patients receiving ANT, though its overall effectiveness remains unclear. This systematic review and  We performed a compreh",
-        "score": 0.38812339305877686,
-        "doi": "10.1016/j.ijcha.2025.101862",
-        "journal": "International journal of cardiology. Heart & vasculature",
-        "year": "2025",
-        "rerank_score": 3.9945778846740723,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11961943",
+        "text": "Using carvedilol to treat heart failure.",
+        "doi": "",
+        "journal": "Critical care nurse",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.39349478483200073,
+        "score": 0.39349478483200073,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

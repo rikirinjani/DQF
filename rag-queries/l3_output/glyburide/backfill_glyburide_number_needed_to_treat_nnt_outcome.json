@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.5064898729324341,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 4.419257164001465,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.41234415769577026,
+        "score": 0.41234415769577026,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38306147",
-        "text": "Benefit of Topical Combination Therapy for Acne: Analyzing Effect Size Using Number Needed to Treat. Topical acne trials often are confounded by high vehicle response rates and differing outcome measures, making it difficult to compare treatments. Number needed to treat (NNT) can be a simple, clinically meaningful way to indirectly compare treatment options without head-to-head data. NNT is the number of patients who need to be treated with an intervention to observe one additional patient successfully achi",
-        "score": 0.5029593110084534,
-        "doi": "10.36849/JDD.7927",
-        "journal": "Journal of drugs in dermatology : JDD",
-        "year": "2024",
-        "rerank_score": 1.9580738544464111,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40687377",
-        "text": "Preclinical pharmacology and safety studies to support an AAV9 NGLY1 gene therapy clinical trial for the treatment of NGLY1 deficiency. GS-100 is an AAV9 gene replacement therapy for the treatment of N-glycanase 1 (NGLY1) deficiency, an ultra-rare, recessive disorder characterized by developmental delay, intellectual disability, hyperkinetic movement disorder, elevated liver enzymes, (hypo)alacrima, and peripheral neuropathy. In pharmacology studies using",
-        "score": 0.5212796330451965,
-        "doi": "10.1016/j.omtm.2025.101524",
-        "journal": "Molecular therapy. Methods & clinical development",
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
         "year": "2025",
-        "rerank_score": -3.4472014904022217,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4161454737186432,
+        "score": 0.4161454737186432,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:26796130",
+        "text": "Predicting failure of glyburide therapy in gestational diabetes. We sought to develop a prediction model to identify women with gestational diabetes (GDM) who require insulin to achieve glycemic control. Retrospective cohort of all singletons with GDM treated with glyburide from 2007 to 2013. Glyburide failure was defined as reaching glyburide 20 mg day(-1) and receiving insulin. Glyburide success was defined as any glyburide dose without insulin and >70% of visits with glycemic control. Multivariable logistic regression analysis was performed to create a prediction model. Of the 360 women, 63 (17.5%) qualified as glyburide failure and 157 (43.6%) as glyburide success. The final prediction model for glyburide failure included prior GDM, GDM diagnosis ⩽26 weeks, 1-h glucose challenge test ⩾228 mg dl(-1), 3-h glucose tolerance test 1-h value ⩾221 mg dl(-1), ⩾7 postprandial blood sugars >120 mg dl(-1) in the week glyburide started and ⩾1 blood sugar >200 mg dl(-1). The model accurately classified 81% of subjects. Women with GDM who will require insulin can be identified at the initiation of pharmacological therapy.",
+        "doi": "10.1038/jp.2015.216",
+        "journal": "Journal of perinatology : official journal of the California Perinatal Associati",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.4272405803203583,
+        "score": 0.4272405803203583,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

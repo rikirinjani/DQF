@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39295934",
-        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
-        "score": 0.4043508768081665,
-        "doi": "10.3389/fphar.2024.1418826",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": 4.27169942855835,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:27403645",
-        "text": "One-year efficacy and safety of saxagliptin add-on in patients receiving dapagliflozin and metformin. Greater reductions in glycated haemoglobin (HbA1c) with saxagliptin, a dipeptidyl peptidase-4 inhibitor, versus placebo add-on in patients with type 2 diabetes who had inadequate glycaemic control with dapagliflozin 10 mg/d plus metformin were demonstrated after 24 weeks of treatment. Results over 52 weeks of treatment were assessed in this analysis.",
-        "score": 0.38259637355804443,
-        "doi": "10.1111/dom.12741",
+        "id": "PMID:20590752",
+        "text": "Saxagliptin efficacy.",
+        "doi": "10.1111/j.1463-1326.2010.01205.x",
         "journal": "Diabetes, obesity & metabolism",
-        "year": "2016",
-        "rerank_score": 4.194154739379883,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.326498806476593,
+        "score": 0.326498806476593,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:21871686",
-        "text": "Efficacy and safety of saxagliptin added to metformin in Asian people with type 2 diabetes mellitus: a randomized controlled trial. To assess efficacy and safety of saxagliptin added to metformin versus placebo plus metformin in Asian patients with type 2 diabetes mellitus (T2DM) and inadequate glycemic control on metformin alone.",
-        "score": 0.38571399450302124,
-        "doi": "10.1016/j.diabres.2011.07.035",
-        "journal": "Diabetes research and clinical practice",
+        "id": "PMID:24445719",
+        "text": "ACP Journal Club. In at-risk patients with type 2 diabetes, saxagliptin and placebo did not differ for CV events.",
+        "doi": "10.7326/0003-4819-160-2-201401210-02009",
+        "journal": "Annals of internal medicine",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.36733898520469666,
+        "score": 0.36733898520469666,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:22098472",
+        "text": "Saxagliptin and sitagliptin in adult patients with type 2 diabetes: a systematic review and meta-analysis. The objective of this study is to compare the efficacy and safety of sitagliptin and saxagliptin with placebo and other hypoglycaemic medications in adults with type 2 diabetes. We searched MEDLINE®, Embase, the Cochrane Library and the International Pharmaceuticals from their inception through 3 February 2011. Studies were included of adults with type 2 diabetes that were 12 weeks or more in duration. Meta-analyses were conducted when included studies were homogenous enough to justify combining their results. A total of 32 articles met inclusion criteria. Sitagliptin 100 mg monotherapy and saxagliptin 5 mg resulted in greater HbA1c reduction compared to placebo [weighted mean difference (WMD) -0.82%, 95% CI -0.95 to -0.70 and WMD -0.70, 95% CI -0.84 to -0.56, respectively]. Sitagliptin was similar to sulfonylureas for HbA1c reduction (WMD 0.08%, 95% CI 0-0.16, 3 trials) and to saxagliptin in one head-to-head trial. There was no statistically significant difference in hypoglycaemia between sitagliptin (pooled RR 1.55, 95% CI 0.55-4.36) or saxagliptin (pooled RR 1.04, 95% CI 0.28-3.81) and placebo. Sitagliptin and saxagliptin result in similar modest HbA1c reductions and do not increase the risk of hypoglycaemia unless combined with other therapies. Their role in the long-term treatment of type 2 diabetes remains unclear given the lack of long-term data on efficacy, harms and health outcomes.",
+        "doi": "10.1111/j.1463-1326.2011.01540.x",
+        "journal": "Diabetes, obesity & metabolism",
         "year": "2011",
-        "rerank_score": 3.6501219272613525,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.38753384351730347,
+        "score": 0.38753384351730347,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

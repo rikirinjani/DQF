@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:11306148",
-        "text": "Calculating confidence intervals for the number needed to treat. The number needed to treat (NNT) has gained much attention in the past years as a useful way of reporting the results of randomized controlled trials with a binary outcome. Defined as the reciprocal of the absolute risk reduction (ARR), NNT is the estimated average number of patients needed to be treated to prevent an adverse outcome in one additional patient. As with other estimated effect measures, it is important to document the uncertainty",
-        "score": 0.4591688811779022,
-        "doi": "10.1016/s0197-2456(00)00134-3",
-        "journal": "Controlled clinical trials",
-        "year": "2001",
-        "rerank_score": 3.259561061859131,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.4229475259780884,
+        "score": 0.4229475259780884,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:16172791",
-        "text": "Celecoxib inhibits urokinase-type plasminogen activator (uPA) production in MDA-MB-231 breast cancer cells. Elevated urokinase-type plasminogen activator (uPA) expression in breast tumors predicts poor survival. We found celecoxib (25 microM) significantly reduced uPA protein and mRNA in MDA-MB-231 breast cancer cells following 72 h of treatment. Celecoxib also inhibited cell viability (12.5 and 25 microM) and induced G2M arrest (25 microM). Therefore, celecoxib therapy for uPA positive breast cancer should",
-        "score": 0.45876574516296387,
-        "doi": "10.1007/s10549-005-6941-5",
-        "journal": "Breast cancer research and treatment",
+        "id": "PMID:15833778",
+        "text": "Predicting postoperative analgesia outcomes: NNT league tables or procedure-specific evidence? Number needed to treat (NNT) values have been recommended and used to assess efficacy of analgesics for acute pain management. However, the data analysed come from a variety of procedures, which may potentially hinder the interpretation of the NNT value for specific procedures. We reanalysed available NNT data with acetaminophen in relation to the magnitude of surgical injury. Acetaminophen was less effective for pain relief after orthopaedic procedures than after dental procedures. The relative risk ratio for more than 50% pain relief, compared with placebo, was only 1.87 compared with 3.77 (P<0.05). Although NNT can give a valuable overview of efficacy, this concept is not necessarily applicable to all types of surgery. We suggest that estimates of NNT should be related to specific surgical procedures.",
+        "doi": "10.1093/bja/aei144",
+        "journal": "British journal of anaesthesia",
         "year": "2005",
-        "rerank_score": -0.5341452956199646,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.4317418038845062,
+        "score": 0.4317418038845062,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41570179",
-        "text": "Effect of Celecoxib Combined With Low-Dose-Rate Brachytherapy on Long-Term Oncological Outcomes and Quality of Life in Prostate Cancer: Post Hoc Analysis of an Open-Label Controlled Randomized Trial. Long-term clinical data evaluating oncological outcomes and patient-reported quality of life (QOL) after combining celecoxib with radiotherapy are lacking. Therefore, we aimed to assess oncological outcomes and QOL with extended follow-up to determine the effect of celecoxib combined with low-dose-rate brachyth",
-        "score": 0.48015642166137695,
-        "doi": "10.1002/pros.70136",
-        "journal": "The Prostate",
-        "year": "2026",
-        "rerank_score": -1.6690219640731812,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22165523",
+        "text": "[The number needed to treat (NNT)]. The number needed to treat (NNT) is a valuable information in treatment decisions. This is the result of a calculation based on published data, collected from an intervention study. NNT is the inverse of the absolute risk reduction (1/ARR) between two treatment options. It is always expressed by a value rounded up to whole numbers, between 1 and infinity, depending on the effectiveness of the new treatment being studied. The NNT is the average number of patients needed to be treated for a duration equal to the study period to achieve one additional positive response under the conditions of the study. The more the treatment will be effective, the more the NNT will be low (tending towards 1). The NNT should be calculated based on the results of a clinical study of good methodological quality, involving a well-defined and homogeneous group of patients, whose baseline risk is known and using a dichotomous endpoint (the event occurs or not). The study must have shown a statistically significant difference between the two groups. In the process of medical decision making, the NNT must be balanced with the safety profile of the treatment (represented by the number needed to harm, or NNH), the costs and stress associated with it. It is possible to calculate a NNT and its confidence interval, from the published data of a clinical study. Some authors report the NNT in the text of the publication.",
+        "doi": "",
+        "journal": "Revue medicale de Bruxelles",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.45469480752944946,
+        "score": 0.45469480752944946,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

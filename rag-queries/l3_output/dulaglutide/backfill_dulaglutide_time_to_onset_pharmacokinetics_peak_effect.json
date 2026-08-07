@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
+        "id": "PMID:31048937",
+        "text": "Dulaglutide efficacy.",
+        "doi": "10.18773/austprescr.2019.015",
+        "journal": "Australian prescriber",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.3436800241470337,
+        "score": 0.3436800241470337,
+        "rerank_score": 1.0
+      },
+      {
         "id": "PMID:40842022",
-        "text": "A Combined Modeling Approach to Predict the Effect of Gastric Emptying Delay on the Pharmacokinetics of Small Molecules. Dulaglutide, a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist, is approved for improving glycemic control and reducing cardiovascular risks in patients with type 2 diabetes mellitus (T2DM). This research investigates the effect of dulaglutide on gastric emptying and its impact on the pharmacokinetics (PK) of orally administered molecules utilizing a combination of population",
-        "score": 0.38509297370910645,
+        "text": "A Combined Modeling Approach to Predict the Effect of Gastric Emptying Delay on the Pharmacokinetics of Small Molecules. Dulaglutide, a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist, is approved for improving glycemic control and reducing cardiovascular risks in patients with type 2 diabetes mellitus (T2DM). This research investigates the effect of dulaglutide on gastric emptying and its impact on the pharmacokinetics (PK) of orally administered molecules utilizing a combination of population pharmacokinetic (PopPK) and physiologically based pharmacokinetic (PBPK) modeling approaches. In clinical studies, the gastric emptying delay (GED) was evaluated in healthy participants and patients with T2DM at various dose levels of dulaglutide. A PopPK model estimated the exposure-dependent delay in gastric emptying, which was then input into the orally administered small molecule PBPK models. These PBPK models, informed by internal clinical studies and publicly available data, quantified the effect of dulaglutide-induced GED on the area under the curve (AUC), maximum concentration (C",
         "doi": "10.1002/psp4.70101",
         "journal": "CPT: pharmacometrics & systems pharmacology",
         "year": "2025",
-        "rerank_score": 2.7177789211273193,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3581463098526001,
+        "score": 0.3581463098526001,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40802044",
-        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
-        "score": 0.3764132261276245,
-        "doi": "10.1007/s40262-025-01559-4",
+        "id": "PMID:26507721",
+        "text": "Clinical Pharmacokinetics of Dulaglutide in Patients with Type 2 Diabetes: Analyses of Data from Clinical Trials. Dulaglutide is a long-acting glucagon-like peptide-1 receptor agonist administered as once-weekly subcutaneous injections for the treatment of type 2 diabetes (T2D). The clinical pharmacokinetics of dulaglutide were characterized in patients with T2D and healthy subjects. The pharmacokinetics of dulaglutide were assessed throughout clinical development, including conventional pharmacokinetic analysis in clinical pharmacology studies and population pharmacokinetic analyses of data from combined phase 2 and phase 3 studies in patients with T2D. The effects of potential covariates on dulaglutide population pharmacokinetics were evaluated using nonlinear mixed-effects models. Dulaglutide gradually reached the maximum concentration in 48 h and had a terminal elimination half-life of 5 days. Steady state was achieved between the second and fourth doses. The accumulation ratio was 1.56 for the 1.5 mg dose. Intra-individual variability estimates for the area under the plasma concentration-time curve and the maximum concentration were both <17% [coefficient of variation (CV)]. There was no difference in pharmacokinetics between injection sites (arm, thigh or abdomen). Dulaglutide pharmacokinetics were well described by a two-compartment model with first-order absorption and elimination. The population clearance was estimated at 0.126 L/h [inter-individual variability (CV) 33.8%]. Age, body weight, sex, race and ethnicity did not influence dulaglutide pharmacokinetics to any clinically relevant degree. The pharmacokinetics of dulaglutide support once-weekly administration in patients with T2D. The pharmacokinetic findings suggest that dose adjustment is not necessary on the basis of body weight, sex, age, race or ethnicity or site of injection.",
+        "doi": "10.1007/s40262-015-0338-3",
         "journal": "Clinical pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -1.1838196516036987,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:38173379",
-        "text": "Commentary on \"Effects of once-weekly dulaglutide on juvenile type 2 diabetes mellitus and obesity in Korea: a pilot study\".",
-        "score": 0.3922695815563202,
-        "doi": "10.6065/apem.2322098edi010",
-        "journal": "Annals of pediatric endocrinology & metabolism",
-        "year": "2024",
-        "rerank_score": -2.1236515045166016,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.3583705723285675,
+        "score": 0.3583705723285675,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

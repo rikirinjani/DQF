@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40246397",
-        "text": "Enalapril for Preventing Cardiotoxicity After High-Dose Anthracycline Therapy in Breast Cancer and Lymphoma Patients.",
-        "score": 0.4664649963378906,
-        "doi": "10.1016/j.jaccao.2025.01.014",
-        "journal": "JACC. CardioOncology",
-        "year": "2025",
-        "rerank_score": -0.6198306083679199,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.36493954062461853,
+        "score": 0.36493954062461853,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:17324140",
-        "text": "Pharmacokinetics and pharmacodynamics of a nitric oxide-releasing derivative of enalapril in male beagles. 1. Pharmacological compounds that release nitric oxide (NO) have been useful tools in the evaluation of the broad role of NO in physiopathology and therapeutics. The present study compared the pharmacokinetics and pharmacodynamics of enalapril and an NO-releasing enalapril molecule (NCX899) in conscious male beagles. The effects of both enalapril and NCX899 in the arterial hypertension and bradycardia ",
-        "score": 0.4550892412662506,
-        "doi": "10.1111/j.1440-1681.2007.04559.x",
-        "journal": "Clinical and experimental pharmacology & physiology",
-        "year": "2007",
-        "rerank_score": -1.2721487283706665,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39560898",
-        "text": "A Response to: Letter to the Editor Regarding \"Comparing Cardiovascular Outcomes and Costs of Perindopril-, Enalapril- or Losartan-Based Antihypertensive Regimens in South Africa: Real-World Medical Claims Database Analysis\".",
-        "score": 0.48096728324890137,
-        "doi": "10.1007/s12325-024-03045-y",
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
         "journal": "Advances in therapy",
-        "year": "2024",
-        "rerank_score": -2.1050527095794678,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.41597646474838257,
+        "score": 0.41597646474838257,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:26241223",
+        "text": "The Number Needed to Treat: 25 Years of Trials and Tribulations in Clinical Research. The number needed to treat (NNT) is a simple measure of a treatment's impact, increasingly reported in randomized trials and observational studies, but often incorrectly calculated in studies involving varying follow-up times. We discuss the NNT in these contexts and illustrate the concept using several published studies. While the computation of the NNT is founded on the cumulative incidence of the outcome, several published studies use simple proportions that do not account for varying follow-up times, or use incidence rates per person-time. We show how these approaches can lead to erroneous values of the NNT and misleading interpretations. For example, a trial of 3,845 very elderly hypertensives randomized to a diuretic or placebo reported a NNT of 94 treated for 2 years to prevent one stroke, though the correct approach results in a NNT of 63. Also, meta-analyses involving trials of differing lengths often report a single NNT, such as the meta-analysis of 22 trials of the anticholinergic tiotropium in chronic obstructive pulmonary disease that reported a NNT of 16 patients \"over one year,\" even if the trials varied in duration from 3 to 48 months, with the actual NNTs varying widely from 15 to 250. Finally, we describe the value of the NNT in assessing benefit-risk, such as low-dose aspirin use in secondary prevention of mortality assessed against the risk of gastrointestinal bleeding. As the \"number needed to treat\" becomes increasingly used in the comparative effectiveness and safety of therapies, its accurate estimation and interpretation become crucial to avoid distorting clinical, economic, and public health decisions.",
+        "doi": "10.5041/RMMJ.10218",
+        "journal": "Rambam Maimonides medical journal",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.41854578256607056,
+        "score": 0.41854578256607056,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:27140803",
-        "text": "Effect of canagliflozin on the pharmacokinetics of glyburide, metformin, and simvastatin in healthy participants. Drug-drug interactions between canagliflozin, a sodium glucose co-transporter 2 inhibitor, and glyburide, metformin, and simvastatin were evaluated in three phase-1 studies in healthy participants. In these open-label, fixed sequence studies, participants received: Study 1-glyburide 1.25 mg/day (Day 1), canagliflozin 200 mg/day (Days 4-8), canagliflozin with glyburide (Day 9); Study 2-metformin ",
-        "score": 0.35820502042770386,
-        "doi": "10.1002/cpdd.166",
+        "id": "PMID:29098700",
+        "text": "Response to in vitro and physiologically-based pharmacokinetic assessment of the drug-drug interaction potential of canagliflozin.",
+        "doi": "10.1111/bcp.13443",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.38005274534225464,
+        "score": 0.38005274534225464,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:39430196",
+        "text": "Canagliflozin Pharmacokinetics at Steady State in Patients on Maintenance Hemodialysis.",
+        "doi": "10.1016/j.ekir.2024.07.038",
+        "journal": "Kidney international reports",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.3829023241996765,
+        "score": 0.3829023241996765,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:27136910",
+        "text": "Absolute oral bioavailability and pharmacokinetics of canagliflozin: A microdose study in healthy participants. Absolute oral bioavailability of canagliflozin was assessed by simultaneous oral administration with intravenous [(14) C]-canagliflozin microdose infusion in nine healthy men. Pharmacokinetics of canagliflozin, [(14) C]-canagliflozin, and total radioactivity, and safety and tolerability were assessed at prespecified timepoints. On day 1, single-dose oral canagliflozin (300 mg) followed 105 minutes later by intravenous [(14) C]-canagliflozin (10 µg, 200 nCi) was administered. After oral administration, the mean (SD) Cmax of canagliflozin was 2504 (482) ng/mL at 1.5 hours, AUC∞ 17,375 (3555) ng.h/mL, and t1/2 11.6 (0.70) hours. After intravenous administration, the mean (SD) Cmax of unchanged [(14) C]-canagliflozin was 17,605 (6901) ng/mL, AUC∞ 27,100 (10,778) ng.h/mL, Vdss 83.5 (29.2) L, Vdz 119 (41.6) L, and CL 12.2 (3.79) L/h. Unchanged [(14) C]-canagliflozin and metabolites accounted for about 57% and 43% of the plasma total [(14) C] radioactivity AUC∞ , respectively. For total [(14) C] radioactivity, the mean (SD) Cmax was 15,981 (2721) ng-eq/mL, and AUC∞ 53,755 (15,587) ng-eq.h/mL. Renal (34.5% in urine) and biliary (34.1% in feces) excretions were the major elimination pathways for total [(14) C] radioactivity. The absolute oral bioavailability of canagliflozin was 65% (90% confidence interval: 55.41; 76.07). Overall, oral canagliflozin 300 mg coadministered with intravenous [(14) C]-canagliflozin (10 µg) was generally well-tolerated in healthy men, with no treatment-emergent adverse events.",
+        "doi": "10.1002/cpdd.162",
         "journal": "Clinical pharmacology in drug development",
         "year": "2014",
-        "rerank_score": 3.394949436187744,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39113254",
-        "text": "Pharmacokinetics and Alterations in Glucose and Insulin Levels After a Single Dose of Canagliflozin in Healthy Icelandic Horses. Canagliflozin (CFZ) is a sodium-glucose cotransporter-2 inhibitor that has shown promising results as a drug for the treatment of insulin dysregulation in horses. Even though CFZ is used clinically, no pharmacokinetic data has previously been published. In this study, the pharmacokinetics of CFZ after administration of a single oral dose of 1.8 mg/kg in eight healthy Icelandic hor",
-        "score": 0.3870081305503845,
-        "doi": "10.1111/jvp.13476",
-        "journal": "Journal of veterinary pharmacology and therapeutics",
-        "year": "2024",
-        "rerank_score": 1.195368766784668,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:41313266",
-        "text": "Clinical pharmacokinetics on canagliflozin: a systematic review of  Canagliflozin (CFZ), is a commonly used sodium-glucose cotransporter-2 inhibitor drug for the management of type 2 diabetes mellitus (T2DM). This review comprehensively compiles existing research studies regarding the clinical pharmacokinetic (PK) behavior of canagliflozin, primarily focusing on exploring effects of different disease conditions, potential drug interactions, and genetic polymorphism. A comprehensive review of scholarly liter",
-        "score": 0.3727204203605652,
-        "doi": "10.1080/17512433.2025.2597512",
-        "journal": "Expert review of clinical pharmacology",
-        "year": "2026",
-        "rerank_score": 0.8766149282455444,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.3832653760910034,
+        "score": 0.3832653760910034,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

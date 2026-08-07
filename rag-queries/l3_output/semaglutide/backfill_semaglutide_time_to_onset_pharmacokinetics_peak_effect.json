@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:30788808",
-        "text": "Population Pharmacokinetics of Semaglutide for Type 2 Diabetes. The aim of the present analysis was to characterise the absorption, distribution and elimination of semaglutide by means of population pharmacokinetic (PK) models using data from nine clinical pharmacology trials conducted in both healthy subjects and those with type 2 diabetes.",
-        "score": 0.3489067554473877,
-        "doi": "10.1007/s13300-019-0581-y",
-        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
-        "year": "2019",
-        "rerank_score": 1.147142767906189,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39549228",
-        "text": "Time-Efficacy Relationship of Semaglutide in the Treatment of Type 2 Diabetes Mellitus: A Model-Based Meta-Analysis. Our objective was to quantify the efficacy of subcutaneous once-weekly semaglutide in treating type 2 diabetes mellitus (T2DM) over time. Based on a literature search of the PubMed, Embase, Cochrane, and Web of Science databases, a modified maximum effect (E E The efficacy of semaglutide in glucose control was investigated using the model-based meta-analysis method, which yields new insights ",
-        "score": 0.3558498024940491,
-        "doi": "10.1007/s40262-024-01449-1",
+        "id": "PMID:33969456",
+        "text": "Clinical Pharmacokinetics of Oral Semaglutide: Analyses of Data from Clinical Pharmacology Trials. The absorption, distribution and elimination of oral semaglutide, the first oral glucagon-like peptide-1 receptor agonist for treating type 2 diabetes, was investigated using a population pharmacokinetic model based on data from clinical pharmacology trials. A previously developed, two-compartment pharmacokinetic model, based on subcutaneous and intravenous semaglutide, was extended to include data from six oral semaglutide trials conducted in either healthy volunteers or subjects with renal or hepatic impairment. Five trials employed multiple doses of oral semaglutide (5-10 mg) and one was a single-dose (10 mg) trial. In a separate analysis, the model was re-estimated using data from a trial in subjects with type 2 diabetes. The model accurately described concentration profiles across trials. Post-dose fasting time, co-ingestion of a large water volume, and body weight were the most important covariates affecting semaglutide exposure. Bioavailability was 0.8% when oral semaglutide was dosed using the recommended dosing conditions (30 min post-dose fasting time, administered with ≤ 120 mL of water), increasing with a longer post-dose fasting time and decreasing with higher water volume. Within-subject variability in bioavailability was 137%, which with once-daily dosing and a long half-life translates into 33% within-subject variability in steady-state exposure. There was no significant difference in oral bioavailability of semaglutide in healthy subjects and subjects with type 2 diabetes. The updated model provided a general characterisation of semaglutide pharmacokinetics following oral, subcutaneous and intravenous administration in healthy subjects and subjects with type 2 diabetes. Within-individual variation of oral bioavailability was relatively high, but reduced considerably at steady state. CLINICALTRIALS. NCT01572753, NCT01619345, NCT02014259, NCT02016911, NCT02249871, NCT02172313, NCT02877355.",
+        "doi": "10.1007/s40262-021-01025-x",
         "journal": "Clinical pharmacokinetics",
-        "year": "2024",
-        "rerank_score": 0.6348593831062317,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.37574902176856995,
+        "score": 0.37574902176856995,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39488821",
-        "text": "Pharmacokinetic Properties of a Once-Weekly Fixed-Ratio Combination of Insulin Icodec and Semaglutide Compared with Separate Administration of Each Component in Individuals with Type 2 Diabetes Mellitus. IcoSema is being developed as a subcutaneous once-weekly fixed-ratio combination of the once-weekly basal insulin icodec and the once-weekly glucagon-like peptide-1 receptor agonist semaglutide. This study investigated the pharmacokinetics of icodec and semaglutide in IcoSema versus separate administration ",
-        "score": 0.35447919368743896,
-        "doi": "10.1007/s40261-024-01405-8",
-        "journal": "Clinical drug investigation",
-        "year": "2024",
-        "rerank_score": 0.18331196904182434,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37385277",
+        "text": "The pursuit of optimal semaglutide dosing in type 2 diabetes continues.",
+        "doi": "10.1016/S0140-6736(23)01233-3",
+        "journal": "Lancet (London, England)",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.38159987330436707,
+        "score": 0.38159987330436707,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:35532920",
+        "text": "Semaglutide in routine clinical practice: interesting news from real-world evidence.",
+        "doi": "10.1001/jamapediatrics.2022.1060",
+        "journal": "JAMA pediatrics",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.38186702132225037,
+        "score": 0.38186702132225037,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

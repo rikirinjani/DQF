@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40628043",
-        "text": "PPARγ activation reduces pancreatic beta cell death in type 1 diabetes by decreasing heparanase-dependent insulitis. While the majority of individuals with type 1 diabetes (T1D) receives lifelong exogenous insulin replacement therapy, a clinically significant subset remains refractory to achieving optimal glycemic targets, necessitating the exploration of novel adjunctive medications to enhance T1D treatment strategies. The aim of this study was to explore the efficacy of rosiglitazone (ROZ), a typical thia",
-        "score": 0.35656431317329407,
-        "doi": "10.1016/j.intimp.2025.115183",
-        "journal": "International immunopharmacology",
-        "year": "2025",
-        "rerank_score": 5.7983808517456055,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10603986",
+        "text": "Rosiglitazone for type 2 diabetes mellitus.",
+        "doi": "",
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.3343517780303955,
+        "score": 0.3343517780303955,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40745111",
-        "text": "Efficacy and safety of insulin sensitisers for treating type 2 diabetes: a network meta-analysis. Thiazolidinediones (TZDs), including pioglitazone and rosiglitazone, and non-TZD insulin sensitisers (chiglitazar sodium) demonstrate potential; however, their comparative efficacy and safety remain unclear. We aimed to analyse the efficacy and safety of commonly used insulin sensitisers, including chiglitazar sodium, sitagliptin, pioglitazone, and rosiglitazone for treating type 2 diabetes mellitus (T2DM). A c",
-        "score": 0.3934786319732666,
-        "doi": "10.1007/s00228-025-03882-y",
-        "journal": "European journal of clinical pharmacology",
-        "year": "2025",
-        "rerank_score": 4.653072834014893,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11273100",
+        "text": "Guidance on rosiglitazone for type 2 diabetes mellitus.",
+        "doi": "10.1016/S0140-6736(05)71290-3",
+        "journal": "Lancet (London, England)",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.33581048250198364,
+        "score": 0.33581048250198364,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41236870",
-        "text": "Lobeglitazone improves glycaemic control as add-on therapy to empagliflozin plus metformin in patients with type 2 diabetes mellitus: A double-blind, randomised, placebo-controlled trial. This study aimed to evaluate the efficacy and safety of triple therapy with lobeglitazone 0.5 mg as an add-on treatment compared with placebo in patients with type 2 diabetes mellitus (T2DM) inadequately controlled with metformin and empagliflozin. In this Phase 3, multicentre, double-blind, randomised trial, patients with",
-        "score": 0.4226912260055542,
-        "doi": "10.1111/dom.70257",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2025",
-        "rerank_score": 4.186022758483887,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11213884",
+        "text": "Once- and twice-daily dosing with rosiglitazone improves glycemic control in patients with type 2 diabetes. To determine the efficacy of rosiglitazone compared with placebo in reducing hyperglycemia. After a 4-week placebo run-in period, 959 patients were randomized to placebo or rosiglitazone (total daily dose 4 or 8 mg) for 26 weeks. The primary measure of efficacy was change in the HbA1c concentration. Rosiglitazone produced dosage-dependent reductions in HbA1c of 0.8, 0.9, 1.1, and 1.5% in the 4 mg o.d., 2 mg b.i.d., 8 mg o.d., and 4 mg b.i.d. groups, respectively, compared with placebo. Clinically significant decreases from baseline in HbA1c were observed in drug-naive patients at all rosiglitazone doses and in patients previously treated with oral monotherapy at rosiglitazone 8 mg o.d. and 4 mg b.i.d. Clinically significant decreases from baseline in HbA1c were also observed with rosiglitazone 4 mg b.i.d. in patients previously treated with combination oral therapy. Approximately 33% of drug-naive patients treated with rosiglitazone achieved HbA1c < or =7% at study end. The proportions of patients with at least one adverse event were comparable among the rosiglitazone and placebo groups. There was no evidence of hepatotoxicity in any treatment group. There were statistically significant increases in weight and serum lipids in all rosiglitazone treatment groups compared with placebo. For LDL and HDL cholesterol, the observed increase appeared to be dose related. Rosiglitazone at total daily doses of 4 and 8 mg significantly improved glycemic control in patients with type 2 diabetes and was well tolerated.",
+        "doi": "10.2337/diacare.24.2.308",
+        "journal": "Diabetes care",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.3419588804244995,
+        "score": 0.3419588804244995,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38799791",
-        "text": "Irbesartan ameliorates diabetic kidney injury in  Irbesartan has been widely used in the clinical treatment of diabetic kidney disease (DKD). However, the molecular mechanism of its delay of DKD disease progression has not been fully elucidated. The aim of the present study was to investigate the mechanism of irbesartan in the treatment of DKD. C57BL/KsJ  The present study demonstrated irbesartan could significantly improve the renal function in  Generally, irbesartan can effectively treat DKD by regulating",
-        "score": 0.4072358012199402,
-        "doi": "10.2478/jtim-2022-0049",
-        "journal": "Journal of translational internal medicine",
-        "year": "2024",
-        "rerank_score": 3.4438624382019043,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19443965",
+        "text": "[Pharmacological properties and clinical efficacy of the long-active angiotensin receptor blocker (ARB) irbesartan].",
+        "doi": "10.1254/fpj.133.275",
+        "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.3332819640636444,
+        "score": 0.3332819640636444,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:10574413",
-        "text": "Long-term safety and antihypertensive efficacy of irbesartan: pooled results of five open-label studies. An analysis of 5 multicenter, open-label studies was conducted to evaluate the long-term safety and efficacy of irbesartan in 1,006 patients with seated diastolic blood pressure (SeDBP) 95-110 mm Hg. Irbesartan monotherapy was started at 75 mg and titrated to 300 mg at 2- to 4-week intervals to achieve normalized blood pressure (SeDBP <90 mm Hg). If normalized BP was not attained with irbesartan 300 mg a",
-        "score": 0.38553035259246826,
-        "doi": "10.3109/10641969909070849",
-        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "id": "PMID:10420939",
+        "text": "[Irbesartan].",
+        "doi": "",
+        "journal": "Revista de medicina de la Universidad de Navarra",
         "year": "1999",
-        "rerank_score": 3.2690467834472656,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.34427130222320557,
+        "score": 0.34427130222320557,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39333921",
-        "text": "Safety and efficacy of sparsentan versus irbesartan in focal segmental glomerulosclerosis and IgA nephropathy: a systematic review and meta-analysis of randomized controlled trials. Sparsentan has shown positive effects on managing different subtypes of glomerulonephritis. The recent results of trials require a pooled analysis to validate these results. We aim to assess the safety and efficacy of sparsentan versus irbesartan for patients with IgA nephropathy and focal glomerulosclerosis (FSGS). We conducted",
-        "score": 0.431268572807312,
-        "doi": "10.1186/s12882-024-03713-9",
-        "journal": "BMC nephrology",
-        "year": "2024",
-        "rerank_score": 3.076781749725342,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9622147",
+        "text": "Dose-related efficacy of irbesartan for hypertension: an integrated analysis. Results of eight multicenter, randomized, placebo-controlled, double-blind, parallel-group studies were pooled to assess the efficacy of the angiotensin II-receptor blocker irbesartan over the dose range of 1 to 900 mg. A total of 2955 adults with a seated diastolic blood pressure of 95 to 110 mm Hg were randomized to treatment with oral irbesartan once daily or placebo for 6 to 8 weeks. Office blood pressure was measured at trough (24+/-3 hours after the last dose) and peak (3+/-1 hours after the last dose) by mercury sphygmomanometry. Demographic characteristics (mean blood pressure; 151/101 mm Hg; mean age, 54 years; 63% male; and 82% white) were similar across all dose groups. After the groups were pooled, antihypertensive efficacy was assessed by therapeutic response (trough seated diastolic blood pressure <90 mm Hg or a reduction from baseline of > or = 10 mm Hg) and by modeling of the maximum reductions in trough and peak seated diastolic and systolic blood pressure. Antihypertensive effects increased with increasing doses and reached a plateau at > or = 300 mg. Irbesartan 150 mg provided placebo-subtracted reductions in trough seated systolic and diastolic blood pressure of approximately 8 and approximately 5 mm Hg, respectively, with 56% of patients displaying a favorable response. In conclusion, irbesartan provides clinically significant blood pressure lowering, with a clear relationship between (log) dose and antihypertensive effect.",
+        "doi": "10.1161/01.hyp.31.6.1311",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.35143575072288513,
+        "score": 0.35143575072288513,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

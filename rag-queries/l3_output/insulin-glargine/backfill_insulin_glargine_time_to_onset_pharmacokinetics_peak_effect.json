@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38379002",
-        "text": "Pharmacokinetic and pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes. To investigate the pharmacokinetic/pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes (T1D). In this randomized, open-label, two-period crossover trial, 66 individuals with T1D (age 18-64 years; glycated haemoglobin ≤75 mmol/mol [≤ 9%]) were to receive once-weekly icodec (8 weeks) and once-daily insulin glargine U100 (2 weeks) at individualized fixed equ",
-        "score": 0.349290132522583,
-        "doi": "10.1111/dom.15510",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2024",
-        "rerank_score": 2.4582552909851074,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30369394",
+        "text": "Insulin depot absorption modeling and pharmacokinetic simulation with insulin glargine 300 U/mL . Mathematical models of insulin absorption have been used to predict plasma insulin concentrations after administration, but few are specifically applicable to insulin glargine, which precipitates subcutaneously after injection. The formation and redissolution of subcutaneous depots of insulin glargine 100 U/mL (Gla-100) and insulin glargine 300 U/mL (Gla-300) are modeled. Surface-area-dependent redissolution is introduced to established diffusion and absorption pathways, and pharmacokinetic (PK) profiles are simulated and subsequently validated using experimental data from euglycemic glucose clamp studies. Simulations are used to predict the PK effect of adapting the timing of once-daily insulin injections and of switching from one insulin product to the other. -Results: Simulated PK profiles resemble those previously observed in clinical trials, with Gla-300 providing more gradual and prolonged release of Gla-300 vs. Gla-100, owing to a more compact depot. The predicted PK profile of Gla-300 shows less fluctuation in plasma insulin concentrations than that of Gla-100, and may be better suited to adapting the timing of daily injections to account for variation in daily activities. Simulating a switch from one insulin glargine product to the other results in temporary alteration of previous steady state, but this is regained within ~ 3 days. This study suggests that PK differences between Gla-300 and Gla-100 are a product of the more compact Gla-300 depot and its smaller surface area. The model employed also allowed estimation of insulin glargine concentrations when varying the time interval between injections as well as when switching from one insulin glargine product to the other. .",
+        "doi": "10.5414/CP203269",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.35763993859291077,
+        "score": 0.35763993859291077,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41508735",
-        "text": "Pharmacokinetic properties of insulin GZR4 after subcutaneous administration in the thigh, abdomen, or upper arm in healthy participants. This trial aimed to evaluate the impact of different subcutaneous injection regions on the pharmacokinetics and safety of the once-weekly basal insulin GZR4 in healthy Chinese participants. This randomized, open-label, three-period crossover trial enrolled 24 healthy participants. Each participant received a single subcutaneous injection of GZR4 (3 nmol/kg) in the thigh, ",
-        "score": 0.39690834283828735,
-        "doi": "10.1111/dom.70461",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2025",
-        "rerank_score": 0.2519853115081787,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23132625",
+        "text": "Determination of time to onset and rate of action of insulin products: importance and new approaches. One important aspect of insulin drug development is to ascertain that short-acting insulins mimic the normal mealtime insulin release in healthy subjects. Therefore, it is important to identify metrics that allow identification of unique characteristics of insulin products based on pharmacokinetic (PK) (time-concentration) or glucodynamic (time course of action) profiles. Current development programs use metrics such as \"onset of action\" to characterize insulin products, in addition to peak and area under the curve parameters for PK and glucodynamic profiles. However, in current practice, onset of action parameter is often interchangeably used with rate of action for insulin products, which points to existence of confusion about their definitions and methods of determination. In this paper, we discuss these two parameters with an underlying objective to prompt discussion on development of a quantitative standard for insulin products based on the onset and/or rate of action. This paper presents euglycemic clamp and meal challenge study data using a hypothetical insulin product and attempts to clear confusion by emphasizing on the distinct properties of these parameters.",
+        "doi": "10.1002/jps.23355",
+        "journal": "Journal of pharmaceutical sciences",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3619718551635742,
+        "score": 0.3619718551635742,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38418413",
-        "text": "Bridging dose of U-100 glargine with first dose of insulin degludec improves glycaemia in the 48 h after transition in twice-daily glargine users. To study the effects of a bridging dose of U-100 glargine (U-100G) with the first dose of degludec in type 1 diabetes (T1D) patients transitioning from glargine to degludec, by comparing the glucose metrics 48 h before and after the transition. Patients with T1D on a stable U-100G regimen and with glycated haemoglobin concentration <75 mmol/mol were randomized (d",
-        "score": 0.3757621645927429,
-        "doi": "10.1111/dom.15502",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2024",
-        "rerank_score": -0.6970429420471191,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17303785",
+        "text": "Pharmacokinetics and pharmacodynamics of the long-acting insulin analog glargine after 1 week of use compared with its first administration in subjects with type 1 diabetes.",
+        "doi": "10.2337/dc06-2208",
+        "journal": "Diabetes care",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3653815686702728,
+        "score": 0.3653815686702728,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:28573708",
-        "text": "Variability in and predictors of glycaemic responses after 24 weeks of treatment with exenatide twice daily and exenatide once weekly. The range of glycated haemoglobin (HbA1c) responses and characteristics associated with above-average response to exenatide twice daily and once weekly were examined. Data were pooled from 8 exenatide-twice-daily and 5 exenatide-once-weekly studies. A baseline HbA1c-corrected measure of change in HbA1c after 24 weeks identified high, average and low responses. Multiple linea",
-        "score": 0.40971511602401733,
-        "doi": "10.1111/dom.13022",
+        "id": "PMID:37246796",
+        "text": "Relationship between body weight change and glycaemic control with tirzepatide treatment in people with type 2 diabetes: A post hoc assessment of the SURPASS clinical trial programme. To assess the relationship between HbA1c and body weight reductions with tirzepatide treatment (5, 10 or 15 mg). HbA1c and body weight data at 40 weeks (SURPASS-1, -2 and -5) and 52 weeks (SURPASS-3 and -4) were analysed by trial. Across the SURPASS clinical trials, HbA1c reductions from baseline were observed in 96%-99%, 98%-99% and 94%-99% of participants treated with tirzepatide 5, 10 and 15 mg, respectively. Moreover, 87%-94%, 88%-95% and 88%-97% of participants, respectively, experienced weight loss associated with HbA1c reductions. Statistically significant associations (correlation coefficients ranging from 0.1438 to 0.3130 across studies; P ≤ .038) between HbA1c and body weight changes were observed with tirzepatide in SURPASS-2, -3, -4 (all doses) and -5 (tirzepatide 5 mg only). In this post hoc analysis, consistent reductions in both HbA1c and body weight were observed in most participants treated with tirzepatide at doses of 5, 10 or 15 mg. A statistically significant but modest association between HbA1c and body weight change was observed in SURPASS-2, SURPASS-3 and SURPASS-4, suggesting that both weight-independent and weight-dependent mechanisms are responsible for the tirzepatide-induced improvement in glycaemic control.",
+        "doi": "10.1111/dom.15140",
         "journal": "Diabetes, obesity & metabolism",
-        "year": "2017",
-        "rerank_score": -1.294445276260376,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3546389639377594,
+        "score": 0.3546389639377594,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:34681215",
-        "text": "Efficacy and Safety of Tirzepatide in Patients with Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Phase II/III Trials. Tirzepatide is a novel once-a-week dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist, currently under trial to assess glycemic efficacy and safety in people with type 2 diabetes. A systematic review and meta-analysis were conducted to investigate the efficacy of tirzepatide on glycated hemoglobin (HbA1c, %), fastin",
-        "score": 0.4123757481575012,
-        "doi": "10.3390/ph14100991",
-        "journal": "Pharmaceuticals (Basel, Switzerland)",
-        "year": "2021",
-        "rerank_score": -1.6482619047164917,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36607902",
+        "text": "Effect of tirzepatide on prediabetics and blood pressure with implications for future research.",
+        "doi": "10.1515/jbcpp-2022-0305",
+        "journal": "Journal of basic and clinical physiology and pharmacology",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.3851785361766815,
+        "score": 0.3851785361766815,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:17076987",
-        "text": "Factors associated with the effect-size of thiazolidinedione (TZD) therapy on HbA(1c): a meta-analysis of published randomized clinical trials. To examine factors affecting the size of the HbA(1c) response to thiazolidinedione (TZD) therapy.",
-        "score": 0.40668967366218567,
-        "doi": "10.1185/030079906X148328",
-        "journal": "Current medical research and opinion",
-        "year": "2006",
-        "rerank_score": -2.0344178676605225,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40033710",
+        "text": "Effect of tirzepatide on weight and metabolism in a multiethnic cohort with and without diabetes.",
+        "doi": "10.1111/dom.16287",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.3869931697845459,
+        "score": 0.3869931697845459,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

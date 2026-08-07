@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41365837",
-        "text": "Comment on \"Effects of liraglutide treatment for 18 days on metabolic parameters, regional body composition and the myostatin-activin-follistatin-IGF-1 axis\".",
-        "score": 0.3596676290035248,
-        "doi": "10.1111/dom.70366",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2025",
-        "rerank_score": 1.864115834236145,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37927173",
+        "text": "Prevalence and variations in gastric emptying delay in response to GLP-1 receptor agonist liraglutide.",
+        "doi": "10.1002/oby.23941",
+        "journal": "Obesity (Silver Spring, Md.)",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3884456157684326,
+        "score": 0.3884456157684326,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39707524",
-        "text": "Effects of liraglutide on abdominal fat distribution and glucose metabolism in Chinese subjects with obesity. To observe the effects of liraglutide on abdominal fat distribution in Chinese subjects with obesity in 12 weeks, and further to explore the correlation between abdominal fat content and glucose metabolism after monotherapy. This study recruited 71 obese subjects. All the subjects have received liraglutide monotherapy (0.6 mg-1.8 mg/d) for 12 weeks. Clinical assessment, laboratory assays and magneti",
-        "score": 0.37454545497894287,
-        "doi": "10.1186/s13098-024-01540-4",
-        "journal": "Diabetology & metabolic syndrome",
-        "year": "2024",
-        "rerank_score": 1.359739065170288,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20671294",
+        "text": "Effect of three different injection sites on the pharmacokinetics of the once-daily human GLP-1 analogue liraglutide.",
+        "doi": "10.1177/0091270010374474",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.39572837948799133,
+        "score": 0.39572837948799133,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39512012",
-        "text": "[The GLP-1 analogue battle: effects of semaglutide 0,5 mg/weekly versus liraglutide 3 mg/daily on anthropometric parameters after 3 months in a real world-scenario]. Background: the prevalence of obesity is reaching a pandemic status. The SCALE trials showed that liraglutide 3 mg among people with obesity (PwO) was effective to reduce bodyweight and related complications. The fact that almost two-thirds of patients did not achieve the desired weight loss with the maximum dose of liraglutide made almost mand",
-        "score": 0.36482009291648865,
-        "doi": "10.20960/nh.05244",
-        "journal": "Nutricion hospitalaria",
-        "year": "2024",
-        "rerank_score": -1.6984753608703613,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27193270",
+        "text": "Liraglutide 3.0 mg for Weight Management: A Population Pharmacokinetic Analysis. This analysis used a population pharmacokinetic approach to identify covariates that influence plasma exposure of liraglutide 3.0 mg, a glucagon-like peptide-1 (GLP-1) receptor agonist approved for weight management in overweight and obese individuals. Samples for pharmacokinetic analysis were drawn at weeks 2, 12 and 28 of the phase IIIa SCALE Obesity and Prediabetes (N = 2339) and SCALE Diabetes (N = 584) trials. Dose proportionality of liraglutide in obese subjects was investigated using data from a phase II dose-finding study (N = 331). Dose-proportional exposure of liraglutide up to and including 3.0 mg was confirmed. Body weight and sex influenced exposure of liraglutide 3.0 mg, while age ≥70 years, race, ethnicity and baseline glycaemic status did not. Compared with a reference subject weighing 100 kg, exposure of liraglutide 3.0 mg was 44 % lower for a subject weighing 234 kg (90 % CI 41-47), 41 % higher for a subject weighing 60 kg (90 % CI 37-46), and 32 % higher (90 % CI 28-35) in females than males with the same body weight. Neither injection site nor renal function significantly influenced exposure of liraglutide 3.0 mg (post hoc analysis). Population pharmacokinetics of liraglutide up to and including 3.0 mg daily in overweight and obese adults demonstrated dose-proportional exposure, and limited effect of covariates other than sex and body weight. These findings were similar to those previously observed with liraglutide up to 1.8 mg in subjects with type 2 diabetes mellitus. Further analysis of exposure-response relationship and its effect on dose requirements is addressed in a separate publication.",
+        "doi": "10.1007/s40262-016-0410-7",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.40030962228775024,
+        "score": 0.40030962228775024,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

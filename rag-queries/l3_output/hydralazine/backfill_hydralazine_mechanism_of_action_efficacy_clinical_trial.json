@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41091880",
-        "text": "Hydralazine inhibits cysteamine dioxygenase to treat preeclampsia and senesce glioblastoma. Hydralazine (HYZ), a treatment for preeclampsia and hypertensive crisis, is listed by the World Health Organization as an essential medicine. Its mode of action has remained unknown through its seven decades of clinical use. Here, we identify 2-aminoethanethiol dioxygenase (ADO), a key mediator of targeted protein degradation, as a selective HYZ target. The drug chelates ADO's metallocofactor and can alkylate one of ",
-        "score": 0.44290995597839355,
-        "doi": "10.1126/sciadv.adx7687",
-        "journal": "Science advances",
-        "year": "2025",
-        "rerank_score": 4.164239406585693,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:39572624",
+        "text": "A randomized clinical trial evaluating Hydralazine's efficacy in early-stage Alzheimer's disease: The EHSAN Study. Alzheimer's Disease (AD), a neurodegenerative disorder escalating worldwide, remains incurable with existing interventions merely mitigating symptoms. Hydralazine, an antihypertensive agent, has displayed neuroprotective potential in AD animal models via amplification of mitochondrial functionality and stimulation of stress management and repair pathways. Nevertheless, its effectiveness and tolerability in human AD cohorts are yet to be confirmed. This study protocol describes the design of an ongoing, single-center, randomized, triple-blind, placebo-controlled trial to assess hydralazine's effects on cognitive function in mild to moderate -stage AD patients. We will enroll 424 patients aged 50 and older, meeting NINCDS-ADRDA criteria for probable AD with Mini-Mental State Examination scores from 12-26. They'll be randomly assigned to receive either hydralazine HCL (25 mg, thrice daily) or a placebo for 12 months. The primary outcome is the Alzheimer's Disease Assessment Scale change from baseline to 12 months. Secondary outcomes include various measures using Lawton instrumental activities of daily living scale, neuropsychiatry inventory, and caregiver activity survey. This trial will explore the potential benefits and risks of hydralazine in mild to moderate AD treatment. It's the first trial examining hydralazine's impact on mild to moderate -stage AD in human and is registered at the Iranian Registry of Clinical Trials (IRCT20200711048075N1, registered 29/07/2020) and ClinicalTrials.gov (NCT 04,842,552AQ, registered 13/04/2021). Ethics approval was granted by the Research Ethics Committee of the National Institute for Medical Research Development (IR.NIMAD.REC.1398.424), following the SPIRIT Statement guidelines. Findings will be disseminated via peer-reviewed publications and conferences. This inaugural human clinical trial evaluates hydralazine's impact on patients in the mild to moderate AD. Executed with a randomized, triple-blind, placebo-controlled methodology, this study incorporates a significant sample size and an extended monitoring duration. Multiple parameters, including cognitive capabilities, will be assessed. Potential limitations include the inherent homogeneity of the AD cohort, the lack of biomarker assays, and the unpredictable progression of the disease. Notably, the study might not elucidate the protracted effects of hydralazine beyond a 12-month period. Another limitation of our clinical trial is that patients were diagnosed with Alzheimer's disease based solely on clinical evaluation and MRI findings, without the inclusion of specific biomarkers, which may impact the accuracy and specificity of the diagnosis. Trial registration: Iranian Registry of Clinical Trials (IRCT20200711048075N1, registered 29/07/2020) and ClinicalTrials.gov (NCT 04,842,552, registered 13/04/2021).",
+        "doi": "10.1038/s41598-024-79616-4",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.379409521818161,
+        "score": 0.379409521818161,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40149097",
-        "text": "Antibacterial and Antibiofilm Activities of Hydralazine, an Antihypertensive Drug: In Vitro and In Silico Approaches.",
-        "score": 0.42451590299606323,
-        "doi": "10.3390/antibiotics14030286",
-        "journal": "Antibiotics (Basel, Switzerland)",
-        "year": "2025",
-        "rerank_score": 0.629633903503418,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:28711448",
+        "text": "The Paradox in Demonstrating Hydralazine-Nitrate Efficacy.",
+        "doi": "10.1016/j.jchf.2017.05.005",
+        "journal": "JACC. Heart failure",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.3812286853790283,
+        "score": 0.3812286853790283,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41038073",
-        "text": "Neuropharmacological evaluation of hydralazine hydrazone derivatives: Synthesis, In silico, and zebrafish studies. Hydralazine is an old antihypertensive drug that, through drug repurposing strategies, has shown significant potential as a therapeutic agent for other diseases. Additionally, it presents itself as a promising precursor for the synthesis of new compounds. This study evaluates the anxiolytic, anticonvulsant, and memory-retention potential of hydralazine and its hydrazone derivatives (HDZH 2,4OH,",
-        "score": 0.4155140519142151,
-        "doi": "10.1016/j.bbrc.2025.152728",
-        "journal": "Biochemical and biophysical research communications",
-        "year": "2025",
-        "rerank_score": 0.44113627076148987,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38294293",
+        "text": "Antimicrobial activity of hydralazine against methicillin-resistant and methicillin-susceptible",
+        "doi": "10.2217/fmb-2023-0160",
+        "journal": "Future microbiology",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.4170041084289551,
+        "score": 0.4170041084289551,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

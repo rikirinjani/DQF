@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:3552537",
-        "text": "Lack of effect of gliclazide on early diabetic nephropathy and retinopathy: a two-year controlled study. This study has attempted to document a specific haemovascular action of gliclazide on the reversal of early diabetic microangiopathy. A prospective double-blind controlled study was performed over 2 years, comparing gliclazide versus placebo in insulin-treated and gliclazide versus glibenclamide in non-insulin-treated diabetic subjects, after a 1-year run-in period. Glycaemic control was not significantl",
-        "score": 0.40195292234420776,
-        "doi": "10.1016/s0168-8227(87)80010-4",
-        "journal": "Diabetes research and clinical practice",
-        "year": "1987",
-        "rerank_score": 2.30883526802063,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17415747",
+        "text": "Gliclazide: pharmacokinetic-pharmacodynamic relationships in rats. The relationship between the pharmacokinetics of gliclazide and its antidiabetic efficacy were evaluated on the basis of experimental determination of changes with time in the plasma levels of this antidiabetic agent and those of glucose. The experiment included rats with both initial normal glycaemia and alloxan-induced hyperglycaemia (glycaemia increased by a minimum of 30%). Pharmacokinetic and pharmacodynamic parameters were examined in the interval of 30 to 180 min after p.o. administration of a single dose of 25 mg/kg of gliclazide. The drug was administered on day 4, following a single i.v. dose of either 50 mg/kg of alloxan (hyperglycaemic group) or the injection vehicle (control group). Even though the biological availability of gliclazide was similar in both normoglycaemic and hyperglycaemic animals, the gliclazide-induced hypoglycaemizing response was not uniform: until 60 min, the decrease of glycaemia was smaller in animals with alloxan hyperglycaemia (23% decrease at 60 min) in contrast to the normoglycaemic animals (36% decrease at 60 min), at later times, the intensity of this hypoglycaemizing effect of gliclazide persisted in the hyperglycaemic animals, while in the normoglycaemic ones, a reversal of the hypoglycaemizing effect occurred.",
+        "doi": "10.1002/bdd.550",
+        "journal": "Biopharmaceutics & drug disposition",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3891340494155884,
+        "score": 0.3891340494155884,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38294337",
-        "text": "Real-world evidence on the effectiveness and safety of gliclazide MR 60 mg in Bangladeshi patients with Type II diabetes during fasting: a sub-analysis from the global DIA-RAMADAN study.",
-        "score": 0.4349703788757324,
-        "doi": "10.57264/cer-2023-0132",
-        "journal": "Journal of comparative effectiveness research",
-        "year": "2024",
-        "rerank_score": -0.14873236417770386,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10778709",
+        "text": "Gliclazide, a better choice for type 2 diabetes.",
+        "doi": "",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.3912777006626129,
+        "score": 0.3912777006626129,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39702972",
-        "text": "Optimization of Romiplostim Biosimilar Efficacy Trial Using In Silico Clinical Trial Approach for Patients With Immune Thrombocytopenia. During biosimilar drug development, conducting a clinical trial of biosimilar efficacy in patients may become necessary in the presence of residual uncertainty regarding the biosimilarity of the drugs. In the development of the biosimilar romiplostim GP40141, we aimed to use a model-based in silico clinical trial (ISCT) approach to optimize the planned biosimilar efficacy ",
-        "score": 0.432014524936676,
-        "doi": "10.1002/cpdd.1494",
-        "journal": "Clinical pharmacology in drug development",
-        "year": "2024",
-        "rerank_score": -1.3365927934646606,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29679474",
+        "text": "Population pharmacokinetics of gliclazide in normal and diabetic rabbits. Gliclazide is a second-generation sulphonylurea drug widely used in the treatment of type 2 diabetes. However, there is no single report to describe the population pharmacokinetics of gliclazide in animal models. This study was aimed to evaluate the population pharmacokinetics (PK) of gliclazide in normal and alloxan-induced diabetic rabbits using nonlinear mixed effects modeling. A total of 90 New Zealand white rabbits were administered with three doses (4.13, 8.27 and 16.53 mg/kg b.wt) of gliclazide by an oral route. Blood samples were collected up to 24 hr and the gliclazide concentrations in rabbit were determined using the HPLC method. The non-compartmental and classical compartmental PK analyses were performed using Phoenix WinNonlin. Population PK analysis of gliclazide was performed using nonlinear mixed-effects model software NONMEM and Phoenix NLME considering the weight, age, sex, health and dose as covariates. The final population values for clearance (CL), volume of distribution (V) and the absorption rate constant (k",
+        "doi": "10.1002/bdd.2132",
+        "journal": "Biopharmaceutics & drug disposition",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.3943471610546112,
+        "score": 0.3943471610546112,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

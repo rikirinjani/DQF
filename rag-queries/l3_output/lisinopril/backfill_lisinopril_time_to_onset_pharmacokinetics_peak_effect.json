@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40802044",
-        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
-        "score": 0.4012317955493927,
-        "doi": "10.1007/s40262-025-01559-4",
-        "journal": "Clinical pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -0.9953972697257996,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17216247",
+        "text": "A multicenter study of the pharmacokinetics of lisinopril in pediatric patients with hypertension. The pharmacokinetic (PK) parameters of lisinopril were obtained in 46 children aged 6 months to 15 years. A lisinopril suspension (0.15 mg/kg per day) was administered to patients <6 years of age; the remaining children received lisinopril tablets, the daily dose being adjusted according to body weight, i.e., 2.5 mg if <25 kg, 5 mg if 25-45 kg, and 10 mg if >45 kg. Blood was drawn predose and on eight occasions postdose in children aged 4-15 years, and on five occasions in those aged <4 years. PK data are reported for the 46 children in terms of age groups: Group I (n=9), aged 6-23 months; Group II (n=8), aged 2-5 years; Group III (n=12), aged 6-11 years; Group IV (n=17), aged 12-15 years. The dose of lisinopril ranged from 3.07 mg/m(2) per day in Group I to 4.78 mg/m(2) per day in Group IV. C(max) of lisinopril, which occurred 5-6 h postdose, varied from 22 ng/ml in Groups I and II to 44 ng/ml in Groups III and IV; AUC(0-24 h) ranged from 301-311 ng.h/ml in Groups I and II to 550-570 ng.h/ml in Groups III and IV. No serious adverse events related to lisinopril were reported.",
+        "doi": "10.1007/s00467-006-0399-5",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.42670705914497375,
+        "score": 0.42670705914497375,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38344757",
-        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
-        "score": 0.3963388502597809,
-        "doi": "10.1080/00498254.2024.2317888",
-        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
-        "year": "2024",
-        "rerank_score": -3.0601818561553955,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8877596",
+        "text": "Pharmacokinetic-pharmacodynamic model relating lisinopril plasma concentrations to regional hemodynamic effects in healthy volunteers. In a previous placebo-controlled, randomized, double-blind, cross-over study performed in 6 healthy volunteers, we investigated the pharmacokinetics and pharmacodynamics of a single oral administration of two doses (5 and 20 mg) of the angiotensin-converting enzyme inhibitor (ACEI), lisinopril. The purpose of the present study was to investigate the relation between lisinopril plasma concentrations (C, ng/ml), and lisinopril-induced effects on plasma converting enzyme activity (PCEA, nmol/ml/min), brachial artery flow (BAF, ml/min), and brachial vascular resistance (BVR, mm Hg . s/ml). PCEA and BVR were expressed in percent changes from initial values and BAF was expressed in absolute values. Effects (E) were related to C by the Hill model: E = Emax . C gamma/CE50 gamma + C gamma). For PCEA, the model was fitted to the data of both doses simultaneously. Emax was fixed at -100%, and we obtained (mean +/- SD) CE50 = 1.4 +/- 0.6 ng/ml and gamma = 0.6 +/- 0.1. For BAF and BVR, the model was fitted to the data of the 20-mg dose for 5 subjects and to those of the 5-mg dose for 1 subject. We obtained Emax = 45 +/- 20 ml/min, CE50 = 24.0 +/- 12.4 ng/ml, and gamma = 3.2 +/- 1.3 for BAF, and Emax = -45 +/- 15%, CE50 = 22.0 +/- 10.2 ng/ml, and gamma = 3.1 +/- 1.1 for BVR. Therefore, the concentration-effect relations for BVR (or BAF) and PCEA display quite different shapes (CE50, gamma), which emphasizes the necessity of performing pharmacokinetic-pharmacodynamic (PK-PD) modeling on hemodynamic parameters to determine the optimal dosages of ACEIs.",
+        "doi": "10.1097/00005344-199609000-00018",
+        "journal": "Journal of cardiovascular pharmacology",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.42950016260147095,
+        "score": 0.42950016260147095,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39017590",
-        "text": "Exploring the multiple effects of nifedipine and captopril administration in spontaneously hypertensive rats through pharmacokinetic-pharmacodynamic analyses. This study assessed the pharmacokinetics (PKs) and pharmacodynamics (PDs) of two antihypertensive drugs, nifedipine and captopril, by exploring their main (blood pressure [BP]) and secondary effects (heart rate [HR] and QT interval [QT]) in spontaneously hypertensive rats. This study aimed to assess the relationship between PKs and PDs. Using these PD",
-        "score": 0.3682726323604584,
-        "doi": "10.1002/prp2.1249",
-        "journal": "Pharmacology research & perspectives",
-        "year": "2024",
-        "rerank_score": -3.357370138168335,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19840529",
+        "text": "The effect of exenatide on lisinopril pharmacodynamics and pharmacokinetics in patients with hypertension. This study evaluated the potential effect of exenatide on the pharmacokinetics and pharmacodynamics of lisinopril in patients with mild-to-moderate hypertension. 22 patients with mild-to-moderate primary hypertension participated in a double-blind, randomized, placebo-controlled, 2-period, 2-sequence crossover study. Patients on stable lisinopril therapy were randomly assigned to receive subcutaneous exenatide (10 microg b.i.d.) and placebo b.i.d. separated by at least 2 days washout period. The primary pharmacodynamic parameters were baseline-adjusted 24-hour mean systolic and diastolic blood pressure. Steady state plasma lisinopril concentration-time profiles were also assessed. Mean blood pressure changes were not significantly different between exenatide and placebo coadministered with lisinopril. The least squares mean differences (95% CI) between treatments were +1.38 mmHg (-1.41, 4.17) for diastolic and +1.38 mmHg (-1.95, 4.71) for systolic blood pressure. Exenatide delayed the time to attain maximum lisinopril concentration (tmax,ss) by 2 hours but did not significantly alter maximum lisinopril concentration (Cmax,ss) or area under the concentration-time profile (AUCtau,ss) over the 24-hour steady-state dosing interval. This study demonstrated that concurrent administration of exenatide did not produce clinically relevant changes in blood pressure and did not significantly alter lisinopril pharmacokinetics in patients with mild-to-moderate hypertension.",
+        "doi": "10.5414/cpp47651",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.43046799302101135,
+        "score": 0.43046799302101135,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

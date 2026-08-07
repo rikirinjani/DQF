@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40209103",
-        "text": "Subgroup Analyses in Randomized Trials of Clostridioides difficile-Associated Disease: Recurring Challenges With Analyzing Recurrence.",
-        "score": 0.40364396572113037,
-        "doi": "10.1093/cid/ciaf188",
-        "journal": "Clinical infectious diseases : an official publication of the Infectious Disease",
-        "year": "2025",
-        "rerank_score": -2.084592580795288,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31606802",
+        "text": "Effect of Stimulation of α The study examined the effect of clonidine hydrochloride (10",
+        "doi": "10.1007/s10517-019-04579-w",
+        "journal": "Bulletin of experimental biology and medicine",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.431958943605423,
+        "score": 0.431958943605423,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39050741",
-        "text": "Comparative Study of the Effects of Clonidine and Tranexamic Acid on Intraoperative Bleeding in Rhinoplasty: A Clinical Trial. The present study was conducted to compare the effects of clonidine and tranexamic acid on the volume of bleeding and quality of the surgical field in terms of bleeding in candidates who underwent rhinoplasty. In this two-sided clinical trial, candidates eligible for rhinoplasty were randomly assigned to two treatment groups: tranexamic acid and clonidine. The first group received t",
-        "score": 0.40458130836486816,
-        "doi": "10.1016/j.jpra.2024.04.013",
-        "journal": "JPRAS open",
-        "year": "2024",
-        "rerank_score": -2.1691269874572754,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10957873",
+        "text": "[Effect of clonidine].",
+        "doi": "",
+        "journal": "Orvosi hetilap",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.43537020683288574,
+        "score": 0.43537020683288574,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38814615",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial-Reply.",
-        "score": 0.3858908414840698,
-        "doi": "10.1001/jamaoncol.2024.0140",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -2.2676150798797607,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21426356",
+        "text": "Clonidine: diverse use in pharmacologic management.",
+        "doi": "10.1111/j.1744-6163.2011.00302.x",
+        "journal": "Perspectives in psychiatric care",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.46983852982521057,
+        "score": 0.46983852982521057,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

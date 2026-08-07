@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40913391",
-        "text": "A Randomized Trial on the Combined Effect of Ponesimod and Propranolol on Heart Rate, Cardiac Safety, and Pharmacokinetics in Healthy Adults. The objective of this phase 1 study was to evaluate the pharmacokinetics (PK), pharmacodynamics, and cardiac effect following administration of ponesimod (a selective sphingosine-1-phosphate receptor modulator) and propranolol in healthy adults. In treatment period (TP) 1, participants received ponesimod (2 mg). In TP2, if resting heart rate (HR) was ≥ 55 bpm, the pon",
-        "score": 0.3967081904411316,
-        "doi": "10.1111/cts.70341",
-        "journal": "Clinical and translational science",
-        "year": "2025",
-        "rerank_score": 2.193535089492798,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12783630",
+        "text": "Pharmacokinetics of propranolol after single and multiple dosing with sustained release propranolol or propranolol CR (innopran XL) , a new chronotherapeutic formulation. Blood pressure rises rapidly upon waking and may be responsible, in part, for the increased incidence of myocardial infarction and stroke during the morning hours. Current formulations and dosing of antihypertensive drugs do not provide maximum coverage during this vulnerable period. This study was performed to demonstrate that propranolol CR (Innopran XL), a novel chronotherapeutic formulation of propranolol designed for nighttime dosing, has appropriate pharmacokinetics to provide maximum cardioprotective effect in the morning. Pharmacokinetics of propranolol CR and sustained-release propranolol after single and multiple doses were determined in normal male volunteers in this open-label, 2-period crossover study. The drugs were dosed in the evening and serial blood samples were taken for determination of propranolol concentration the next 24 to 72 hours. After a single 160-mg dose of propranolol CR administered at 10 pm, absorption was delayed by about 4 hours, after which plasma concentration rose steadily, reaching a peak at about 10:00 am. In contrast, after dosing with sustained release propranolol, plasma levels of propranolol began to rise almost immediately, reaching a plateau between 4:00 am and 10:00 am. During multiple dosing, steady-state trough plasma concentrations were achieved after 2 days with either drug. After the final dose, the plasma profiles of both drugs were similar to those observed in the single-dose study. Bioavailability was similar for both formulations of propranolol. Propranolol CR exhibited appropriate pharmacokinetics for a chronotherapeutic approach to the treatment of hypertension.",
+        "doi": "10.1097/01.HDX.0000074436.09658.3b",
+        "journal": "Heart disease (Hagerstown, Md.)",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.4069811701774597,
+        "score": 0.4069811701774597,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38639762",
-        "text": "Effect of propranolol on pharmacokinetics of clozapine in schizophrenic patients: a meta-analysis. Clozapine is the effective therapy for treatment-refractory schizophrenia. However, the use of clozapine is limited by its adverse effects. As propranolol is frequently used for the prevention and treatment of clozapine-induced tachycardia, we performed a meta-analysis to evaluate the effects of propranolol on steady state pharmacokinetics of clozapine in schizophrenic patients. We included 16 retrospective st",
-        "score": 0.3972853422164917,
-        "doi": "10.1007/s00228-024-03690-w",
-        "journal": "European journal of clinical pharmacology",
-        "year": "2024",
-        "rerank_score": 1.6338341236114502,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16624681",
+        "text": "Pharmacokinetic and pharmacodynamic characteristics of beta-blockers: when differences may matter.",
+        "doi": "10.1016/j.cardfail.2006.02.010",
+        "journal": "Journal of cardiac failure",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.4205712080001831,
+        "score": 0.4205712080001831,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41155370",
-        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
-        "score": 0.4275388717651367,
-        "doi": "10.3390/ijms262010080",
-        "journal": "International journal of molecular sciences",
-        "year": "2025",
-        "rerank_score": -0.8415893316268921,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:28761821",
+        "text": "Pharmacokinetic Parameters and Over-Responsiveness of Iranian Population to Propranolol.",
+        "doi": "10.15171/apb.2017.024",
+        "journal": "Advanced pharmaceutical bulletin",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.4213293194770813,
+        "score": 0.4213293194770813,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

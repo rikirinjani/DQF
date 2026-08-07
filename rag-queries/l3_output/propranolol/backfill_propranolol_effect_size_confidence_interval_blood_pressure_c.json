@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40052723",
-        "text": "The Impact of Heart Rate Reduction From Individual Baseline With Propranolol for Primary and Secondary Prophylaxis of Variceal Hemorrhage in Cirrhosis. A target heart rate of 55-60 beats per minute is a goal for propranolol in both primary and secondary prophylaxis of variceal hemorrhage (VH). However, dose adjustments are often needed based on baseline heart rates. This study analyzed the effect of heart rate reduction from baseline with propranolol therapy on VH in patients with cirrhosis. A retrospective",
-        "score": 0.411044716835022,
-        "doi": "10.1111/cts.70192",
-        "journal": "Clinical and translational science",
-        "year": "2025",
-        "rerank_score": 0.733020007610321,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9836246",
+        "text": "Evaluation of propranolol effects as a function of its chronergy and circadian variation of blood pressure.",
+        "doi": "",
+        "journal": "Proceedings of the Western Pharmacology Society",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.40806418657302856,
+        "score": 0.40806418657302856,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41036277",
-        "text": "Blood pressure lowering for prevention of episodic migraine: results of a pilot randomized, placebo-controlled trial of combination blood pressure lowering medication with propranolol. Beta blockers are effective in migraine prevention. Low-dose combination therapy of blood pressure lowering is likely to lower blood pressure more than a beta-blocker, but there are no data on comparative efficacy of these treatments in migraine prophylaxis. A double-blind, randomized, pilot trial in participants with episodi",
-        "score": 0.3748205900192261,
-        "doi": "10.3389/fneur.2025.1630732",
-        "journal": "Frontiers in neurology",
-        "year": "2025",
-        "rerank_score": -2.055257558822632,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31120143",
+        "text": "Evaluation of a modified outpatient model for using propranolol to treat infantile hemangiomas. For infantile hemangiomas requiring treatment, existing recommendations advise initiation of propranolol followed by a 2-hour period of blood pressure and heart rate monitoring, resulting in prolonged office visits for both families and clinicians. In order to reduce visit times, we evaluate our current practice of at-home or in-office propranolol administration followed by in-office vital sign monitoring. We retrospectively reviewed the medical records of 157 patients with infantile hemangiomas (IH) who initiated propranolol under this outpatient protocol. Blood pressure (BP) and heart rate (HR) were obtained at a baseline visit and 1-2 hours after initial dose administration. We identified potential risk factors for clinically significant decreases in systolic blood pressure (SBP) and HR (defined as decrease of > 20 mm Hg and > 15 bpm, respectively) using logistic regression analysis, and adverse events were recorded. Fifty-five individuals (35.4%) showed a decrease in HR of more than 15 bpm, and 23 individuals (14.7%) showed a decrease in SBP of more than 20 mm Hg. Multivariable logistic regression suggested that younger age, history of preterm birth, and Caucasian race may slightly increase the odds of clinically significant changes in vital signs upon propranolol initiation. However, no clinically symptomatic adverse events occurred upon initiation of propranolol. Vital sign monitoring may be important when starting propranolol treatment in younger or historically preterm patients. However, routine mandatory in-office vital sign monitoring may not be necessary in healthy infants more than 45 weeks postconceptional age.",
+        "doi": "10.1111/pde.13843",
+        "journal": "Pediatric dermatology",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.41247791051864624,
+        "score": 0.41247791051864624,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41155370",
-        "text": "Structural and Pharmacological Insights into Propranolol: An Integrated Crystallographic Perspective. Propranolol is a non-selective β-adrenergic receptor antagonist widely used in cardiovascular and neurological therapy. Its naphthalene-based structure contributes to its high lipophilicityand central nervous system penetration. Clinically, propranolol is indicated for hypertension, arrhythmias, anxiety, migraine, and other conditions. It undergoes extensive hepatic metabolism via cytochrome P450 enzymes, n",
-        "score": 0.405800461769104,
-        "doi": "10.3390/ijms262010080",
-        "journal": "International journal of molecular sciences",
-        "year": "2025",
-        "rerank_score": -3.125964641571045,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9836247",
+        "text": "Differential chronergy of propranolol effects on heart rate in healthy and hypertensive subjects.",
+        "doi": "",
+        "journal": "Proceedings of the Western Pharmacology Society",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.4139415919780731,
+        "score": 0.4139415919780731,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

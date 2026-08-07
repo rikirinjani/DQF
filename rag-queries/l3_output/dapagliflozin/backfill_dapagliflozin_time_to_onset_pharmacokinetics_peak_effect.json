@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39090542",
-        "text": "Effect of dapagliflozin on readmission and loop diuretics use in patients with acute heart failure: a retrospective propensity score-matched cohort study. The efficacy of dapagliflozin in patients with acute heart failure remains unclear. To investigate the impact of dapagliflozin (DAPA) on loop diuretics use and 90-day readmission in patients with acute heart failure. In a retrospective cohort study, patients diagnosed with acute heart failure or chronic heart failure with acute exacerbation admitted to Fu",
-        "score": 0.3767029643058777,
-        "doi": "10.1186/s12872-024-04078-5",
-        "journal": "BMC cardiovascular disorders",
-        "year": "2024",
-        "rerank_score": 1.8376436233520508,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31077437",
+        "text": "Comparison of pharmacokinetics and the exposure-response relationship of dapagliflozin between adolescent/young adult and adult patients with type 1 diabetes mellitus. To quantitatively compare pharmacokinetics (PK) and the exposure-response (ER) relationship of the sodium-glucose cotransporter-2 inhibitor, dapagliflozin, between adolescents/young adults and adults with type 1 diabetes mellitus (T1DM). Data from 2 clinical studies for dapagliflozin were analysed using a non-linear mixed-effects approach. The PK and the relationship between dapagliflozin exposure and response (24-hour urinary glucose excretion) were characterized. PK was evaluated using a 2-compartment model with first-order absorption while the exposure response-relationship was analysed using a sigmoidal maximal-effect model. The 24-hour median blood glucose, estimated glomerular filtration rate (eGFR), sex, age and body weight were evaluated as covariates. A 2-compartment model with first order absorption provided a reasonable fit to the dapagliflozin PK data. Body weight was found to be a significant covariate on dapagliflozin exposure. The ER relationship was best described by a sigmoidal maximal effect model with 24-hour median blood glucose and eGFR as significant covariates on maximal effect. In accordance with the observed data, model-predicted urinary glucose excretion response following 10 mg dapagliflozin dose was higher in the study in adolescents/young adults (138.0 g/24 h) compared to adults (70.5 g/24 h) with T1DM. This is linked to higher eGFR and 24-hour median blood glucose in this trial. Dapagliflozin PK and ER relationship were similar in the 2 analysed studies after accounting for covariate effects. These results suggest that no dose adjustment is required for adolescent patients with T1DM.",
+        "doi": "10.1111/bcp.13981",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.36778348684310913,
+        "score": 0.36778348684310913,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39379561",
-        "text": "Assessment of basic pharmacokinetic parameters of dapagliflozin in TTS formulations in male minipigs. Given the extended time over which diabetes treatment is administered, the transdermal delivery system is anticipated to be a more suitable option for older individuals who may experience difficulty swallowing. The continuous delivery of dapagliflozin and more stable plasma levels are anticipated to reduce the incidence of side effects and the frequency of dosing. The objectives of the study were to determi",
-        "score": 0.35235244035720825,
-        "doi": "10.1038/s41598-024-74675-z",
-        "journal": "Scientific reports",
-        "year": "2024",
-        "rerank_score": 1.6616413593292236,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34128274",
+        "text": "The effect of morning versus evening administration of empagliflozin on its pharmacokinetics and pharmacodynamics characteristics in healthy adults: a two-way crossover, non-randomised trial.",
+        "doi": "10.1111/den.14014",
+        "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscop",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.36952266097068787,
+        "score": 0.36952266097068787,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40467095",
-        "text": "Effect of dapagliflozin on metabolic dysfunction-associated steatohepatitis: multicentre, double blind, randomised, placebo controlled trial. To assess the efficacy and safety of the sodium-glucose cotransporter 2 inhibitor dapagliflozin in participants with metabolic dysfunction-associated steatohepatitis (MASH). Multicentre, double blind, randomised, placebo controlled trial. Six tertiary hospitals in China from 23 November 2018 to 28 March 2023. 154 adults with biopsy diagnosed MASH, with or without type",
-        "score": 0.373503714799881,
-        "doi": "10.1136/bmj-2024-083735",
-        "journal": "BMJ (Clinical research ed.)",
-        "year": "2025",
-        "rerank_score": 0.9526892304420471,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:28089373",
+        "text": "Clinical parameters affecting dapagliflozin response in patients with type 2 diabetes.",
+        "doi": "10.1016/j.diabet.2016.11.005",
+        "journal": "Diabetes & metabolism",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.3765029013156891,
+        "score": 0.3765029013156891,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

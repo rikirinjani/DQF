@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:36967511",
-        "text": "Effects of different doses glimepiride intake on the pharmacokinetics of benzbromarone in rats. Benzbromarone (BNR) is prescribed for the management of hyperuricemia, whereas glimepiride (GLM) for the treatment of Type 2 Diabetes Mellitus. Both drugs are certified to be mainly metabolized via cytochrome P450 (CYP) 2C9 in vivo and may have the potential drug-drug interactions. This study aims to investigate the possible influence of orally administered low- and high-dose glimepiride (GLM) on pharmacokinetic ",
-        "score": 0.38036829233169556,
-        "doi": "",
-        "journal": "Pakistan journal of pharmaceutical sciences",
-        "year": "2023",
-        "rerank_score": 0.651580810546875,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40802044",
-        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
-        "score": 0.4218178689479828,
-        "doi": "10.1007/s40262-025-01559-4",
-        "journal": "Clinical pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -1.3581808805465698,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:38344757",
-        "text": "Development of a physiologically based pharmacokinetic model for levetiracetam in patients with renal impairment to guide dose adjustment based on steady-state peak/trough concentrations. Levetiracetam may cause acute renal failure and myoclonic encephalopathy at high plasma levels, particularly in patients with renal impairment. The aim of this study was to develop a physiologically based pharmacokinetic (PBPK) model to predict levetiracetam pharmacokinetics in Chinese adults with epilepsy and renal impair",
-        "score": 0.436798095703125,
-        "doi": "10.1080/00498254.2024.2317888",
-        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "id": "PMID:39861183",
+        "text": "The Clinical Pharmacokinetics and Pharmacodynamics of Glimepiride-A Systematic Review and Meta-Analysis.",
+        "doi": "10.3390/ph18010122",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
         "year": "2024",
-        "rerank_score": -3.44818377494812,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.34362974762916565,
+        "score": 0.34362974762916565,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:35980254",
+        "text": "Glimepiride pharmacokinetics in overdose.",
+        "doi": "10.1080/15563650.2022.2112692",
+        "journal": "Clinical toxicology (Philadelphia, Pa.)",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.3812188506126404,
+        "score": 0.3812188506126404,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:27121788",
+        "text": "Dose Linearity of Glimepiride in Healthy Human Egyptian Volunteers. The present study was adopted to evaluate the pharmacokinetics and dose linearity of glimepiride after administration of single oral doses of 1-6 mg glimepiride in an open-label, five-way crossover study. Twenty-four healthy male Egyptian volunteers were given 1, 2, 3, 4, and 6 mg of glimepiride on five occasions, and blood samples were collected over 24 hours. Plasma glimepiride concentrations were assayed by a validated reversed-phase high-performance liquid chromatography method with UV detection and the data were evaluated by non-compartmental methods to determine pharmacokinetic parameters. The mean elimination half-lives (t1/2 ) did not vary with the dose. The peak plasma levels (Cmax ) and area under the plasma level versus time curve (AUC) data showed dose-proportional response. The time to peak plasma concentration (tmax ), mean residence time, oral clearance (Cl/F) and apparent volume of distribution (Vd /F) were all similar regardless of the administered dose (P > .05). The 90% confidence intervals of the ratios of dose-adjusted log transformed values of Cmax , AUC0-t , AUC0-∞ , t1/2 , and tmax fell within the range of 80-125%. These findings suggest that glimepiride disposition is linear over the dose range studied healthy human Egyptian volunteers.",
+        "doi": "10.1002/cpdd.20",
+        "journal": "Clinical pharmacology in drug development",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3917596936225891,
+        "score": 0.3917596936225891,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

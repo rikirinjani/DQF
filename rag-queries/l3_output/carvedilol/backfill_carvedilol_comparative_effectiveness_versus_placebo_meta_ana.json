@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:28882337",
-        "text": "Meta-Analysis Comparing Metoprolol and Carvedilol on Mortality Benefits in Patients With Acute Myocardial Infarction. Although carvedilol, a nonselective beta-blocker with alpha-adrenergic blocking and multiple ancillary activities, has been demonstrated to be superior to metoprolol in chronic heart failure, it remains unclear whether the superiority of carvedilol still exists in myocardial infarction (MI). Therefore, we performed a network meta-analysis of randomized controlled trials (RCTs) to compare the",
-        "score": 0.39315301179885864,
-        "doi": "10.1016/j.amjcard.2017.07.036",
-        "journal": "The American journal of cardiology",
-        "year": "2017",
-        "rerank_score": 4.7168869972229,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:24863629",
+        "text": "Convergence in findings from randomized trials and elaborately analysed observational data on mortality reduction with carvedilol in heart failure in comparison with metoprolol.",
+        "doi": "10.1002/ejhf.108",
+        "journal": "European journal of heart failure",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3425638973712921,
+        "score": 0.3425638973712921,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41567130",
-        "text": "The efficacy of carvedilol in improving cardiac function and survival in patients with anthracycline-induced cardiotoxicity: a comprehensive systematic review and meta-analysis. Anthracyclines (ANT) are widely used in chemotherapy, but their dose-dependent Cardiotoxicity limits long-term use. Carvedilol, a non-selective beta-blocker, has shown potential as a Cardioprotective agent for patients receiving ANT, though its overall effectiveness remains unclear. This systematic review and  We performed a compreh",
-        "score": 0.3940003514289856,
-        "doi": "10.1016/j.ijcha.2025.101862",
-        "journal": "International journal of cardiology. Heart & vasculature",
-        "year": "2025",
-        "rerank_score": 4.136445999145508,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15075055",
+        "text": "The carvedilol or metoprolol European trial.",
+        "doi": "",
+        "journal": "Current cardiology reports",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.3608402609825134,
+        "score": 0.3608402609825134,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41194854",
-        "text": "Is Carvedilol Effective in Preventing and Modulating Concentric Cardiac Remodelling? A Comprehensive Systematic Review and Meta-Analyses. Carvedilol, commonly used to treat hypertension and known for its vasodilatory and pleiotropic effects, has been studied in various patient populations. However, its specific impact on diastolic dysfunction and heart failure with preserved ejection fraction (HFpEF) remains unclear. The aim of the study is to evaluate carvedilol's efficacy in preventing concentric cardiac ",
-        "score": 0.4006919860839844,
-        "doi": "10.1155/cdr/9108324",
-        "journal": "Cardiovascular therapeutics",
-        "year": "2024",
-        "rerank_score": 3.4426984786987305,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22928183",
+        "text": "Observational comparative effectiveness studies of drug therapies: high-quality answers or important clinical questions?: comment on \"Comparative effectiveness of 2 β-blockers in hypertensive patients\".",
+        "doi": "10.1001/archinternmed.2012.4306",
+        "journal": "Archives of internal medicine",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3799881041049957,
+        "score": 0.3799881041049957,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

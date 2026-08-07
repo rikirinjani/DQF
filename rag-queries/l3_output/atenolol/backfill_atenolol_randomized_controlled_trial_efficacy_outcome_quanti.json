@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39831760",
-        "text": "Effect of a calcium-channel blocker and β-blocker combination on reading-to-reading blood pressure variability: a randomized crossover trial. The objective of this study was to investigate the efficacy of the nitrendipine/atenolol combination in comparison with standard-dose nitrendipine or atenolol monotherapy in reducing blood pressure (BP) and blood pressure variability (BPV) as assessed by ambulatory BP monitoring. In a randomized, crossover trial, 32 patients (30-65 years) with grade 1 hypertension and",
-        "score": 0.4140762984752655,
-        "doi": "10.1097/MBP.0000000000000736",
-        "journal": "Blood pressure monitoring",
-        "year": "2025",
-        "rerank_score": 4.170874118804932,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20919350",
+        "text": "Review of clinical pharmacology of atenolol.",
+        "doi": "",
+        "journal": "Proceedings of the Royal Society of Medicine",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.3987647294998169,
+        "score": 0.3987647294998169,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40345955",
-        "text": "Efficacy of a Digitally Supported Intervention for Children and Adolescents With Difficult-to-control Asthma (INSPIRINGKIDS): Results From a Multicentre Randomized Controlled Trial.",
-        "score": 0.424560010433197,
-        "doi": "10.1016/j.arbres.2025.04.004",
-        "journal": "Archivos de bronconeumologia",
-        "year": "2024",
-        "rerank_score": -0.23713740706443787,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11113718",
+        "text": "Effect of beta 1 blockade with atenolol on progression of heart failure in patients pretreated with high-dose enalapril. The survival benefit of beta-blocker treatment in patients with heart failure has been established in recent trials. Yet, the impact of beta-blockers added on high dose angiotensin converting enzyme inhibitors has not been reported. To investigate the effect of atenolol, a hydrophilic, selective beta1-adrenergic antagonist, added on enalapril 40 mg/day in patients with advanced left ventricular dysfunction in a double-blind placebo-controlled trial. One hundred and nineteen patients with class II or III heart failure, left ventricular ejection fraction < or = 25% and treatment with 40 mg enalapril daily were given an initial challenge dose of atenolol 12. 5 mg. One hundred patients (54 with idiopathic, 28 with ischemic, 18 with other dilated cardiomyopathy) tolerated challenge and were randomized to atenolol (maintenance dose 89+/-11 mg/day, range 50-100 mg/day) or placebo. The primary endpoint was combined worsening heart failure or death within 2 years, the secondary endpoint was hospitalization for cardiac events. After 395+/-266 days interim analysis revealed a significant difference between the atenolol and placebo group (log rank P<0.01) and the trial was concluded. Twenty-seven patients had developed worsening heart failure (8 in the atenolol group vs. 19 in the placebo group) and 13 patients had died (5 in the atenolol vs. 8 in the placebo group). Overall there were 23 hospitalizations for cardiac events (6 in the atenolol group vs. 21 in the placebo group, P=0.07); 17 hospitalizations were due to worsening heart failure (5 in the atenolol group, 12 in the placebo-group, P=0.05) and 10 due to arrhythmias (1 in the atenolol group vs. 9 in the placebo group, P<0.01) The data suggest that in patients with advanced left ventricular dysfunction, beta-blockers can provide substantial benefits supplementary to that already achieved with high dose enalapril treatment.",
+        "doi": "10.1016/s1388-9842(00)00120-3",
+        "journal": "European journal of heart failure",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.4388236999511719,
+        "score": 0.4388236999511719,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38814579",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.4023529887199402,
-        "doi": "10.1001/jamaoncol.2024.1869",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -2.044945478439331,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15707110",
+        "text": "[Noticeable meta-analysis of atenolol does not cover all aspects].",
+        "doi": "",
+        "journal": "Lakartidningen",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.4502212703227997,
+        "score": 0.4502212703227997,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

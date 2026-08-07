@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:20950126",
-        "text": "The number needed to treat for second-generation biologics when treating established rheumatoid arthritis: a systematic quantitative review of randomized controlled trials. To evaluate the number needed to treat (NNT) and the number needed to harm (NNH) of the second-generation biologics abatacept, certolizumab, golimumab, rituximab, and tocilizumab in patients with established rheumatoid arthritis (RA) taking concomitant methotrexate (MTX).",
-        "score": 0.4421048164367676,
-        "doi": "10.3109/03009742.2010.491834",
-        "journal": "Scandinavian journal of rheumatology",
-        "year": "2010",
-        "rerank_score": 2.4589955806732178,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.37720516324043274,
+        "score": 0.37720516324043274,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:29903847",
-        "text": "Hypoglycemia, Cardiovascular Outcomes, and Death: The LEADER Experience. In the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) cardiovascular (CV) outcomes trial (NCT01179048), liraglutide significantly reduced the risk of CV events (by 13%) and hypoglycemia versus placebo. This post hoc analysis examines the associations between hypoglycemia and CV outcomes and death.",
-        "score": 0.44134193658828735,
-        "doi": "10.2337/dc17-2677",
-        "journal": "Diabetes care",
-        "year": "2017",
-        "rerank_score": 1.6074708700180054,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.38469070196151733,
+        "score": 0.38469070196151733,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:28387138",
-        "text": "Cardiovascular safety of liraglutide for the treatment of type 2 diabetes. Liraglutide is a GLP-1 RA that is an option for treatment of T2DM. Typical of all new glucose-lowering agents, its CV safety profile is of great interest. Areas covered: This article outlines the efficacy of the GLP-1 RA liraglutide from RCTs, moving through the pivotal phase 3 LEAD trials, and subsequent meta-analyses to assess CV safety. This review describes evolution of regulatory requirements to obtain safety information through",
-        "score": 0.4432089626789093,
-        "doi": "10.1080/14740338.2017.1313225",
-        "journal": "Expert opinion on drug safety",
-        "year": "2017",
-        "rerank_score": 0.5976218581199646,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34523727",
+        "text": "Liraglutide",
+        "doi": "10.1002/14651858.CD015085.pub2",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.41120773553848267,
+        "score": 0.41120773553848267,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

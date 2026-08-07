@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41562647",
-        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
-        "score": 0.4639050364494324,
-        "doi": "10.1080/13696998.2026.2615606",
-        "journal": "Journal of medical economics",
-        "year": "2026",
-        "rerank_score": 1.7102017402648926,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3794982433319092,
+        "score": 0.3794982433319092,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:2455154",
-        "text": "Comparative efficacy of lisinopril and nifedipine retard in essential hypertension: a double-blind, placebo-controlled trial. Lisinopril, a long-acting angiotensin converting enzyme inhibitor, and the calcium channel blocker nifedipine in its retard formulation, were compared as monotherapy in a group of 45 patients with essential hypertension. Lisinopril in single daily doses (range 20-80 mg, median dose 40 mg) and nifedipine retard in twice daily doses (total daily dose range 40-80 mg, median dose 60 mg) ",
-        "score": 0.4374736547470093,
-        "doi": "",
-        "journal": "Journal of cardiovascular pharmacology",
-        "year": "1987",
-        "rerank_score": -1.654299259185791,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:38244149",
-        "text": "Numbers Needed to Treat for Preventing Adverse Cardiovascular Outcomes for Sodium-Glucose Cotransporter 2 Inhibitors vs. Dipeptidyl Peptidase 4 Inhibitors: The Hong Kong Diabetes Study.",
-        "score": 0.47194015979766846,
-        "doi": "10.1007/s10557-024-07550-8",
-        "journal": "Cardiovascular drugs and therapy",
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and the comparator response. Confidence intervals should always accompany NNT for the precision of its estimate. In this review, three meta-analyses are reviewed, which included the NNT in the analysis of response.",
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
         "year": "2024",
-        "rerank_score": -1.9095724821090698,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.43594929575920105,
+        "score": 0.43594929575920105,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:17487821",
+        "text": "Lisinopril in paediatric medicine: a retrospective chart review of long-term treatment in children. To investigate the antihypertensive efficacy, dosing, tolerability and effects on growth of lisinopril (off label-use) in paediatric patients during long-term treatment. We conducted a retrospective analysis of data from 123 patients treated with lisinopril in a paediatric nephrology clinic over a 9.3-year period. Patients were categorised by age group and predominant clinical diagnosis: hypertension (n=59), renal parenchymal disease (n=27), diabetes mellitus (n=33) and miscellaneous (n=4). The vast majority were Caucasian (93%) and boys (66%). Mean duration of treatment was 2.0 years. Age at start of treatment ranged from two months to 17.7 years. Mean lisinopril starting and final doses were 0.105 mg/kg/day for hypertensive patients and 0.108 mg/kg/day for patients with renal disease, respectively. The most common adverse event was hypotension (8.6% of the patients). Haematology and serum biochemistry profiles were unaffected by lisinopril. Growth was not different from data recorded by Belgian population studies. In 29 of the 47 hypertensive patients who received lisinopril monotherapy, comparing blood pressure (BP) at baseline and after six months treatment, mean reductions in systolic/diastolic BP were 19/18 mmHg. Lisinopril was well tolerated in paediatric patients. Doses of 0.1 mg/kg/day produced clinically significant BP reduction in hypertensive patients.",
+        "doi": "10.3317/jraas.2007.004",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.43663156032562256,
+        "score": 0.43663156032562256,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

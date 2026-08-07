@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.42463749647140503,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 4.292114734649658,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37212811",
+        "text": "Using dapagliflozin in patients with heart failure.",
+        "doi": "10.1097/01.NURSE.0000927496.48856.2f",
+        "journal": "Nursing",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.382032573223114,
+        "score": 0.382032573223114,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:35800000",
-        "text": "Dapagliflozin and Empagliflozin in Heart Failure with Reduced Ejection Fraction: A Retrospective Study. Dapagliflozin 10 mg and empagliflozin 10 mg have been recommended to treat heart failure with reduced ejection fraction (HFrEF), and the purpose of this study was to compare the efficacy and safety of them in HFrEF.",
-        "score": 0.41709649562835693,
-        "doi": "10.2147/IJGM.S366943",
-        "journal": "International journal of general medicine",
-        "year": "2022",
-        "rerank_score": 3.539076328277588,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32353360",
+        "text": "Effectiveness in the inhibition of dapagliflozin and canagliflozin on M-type K Dapagliflozin (DAPA) or canagliflozin (CANA), Na",
+        "doi": "10.1016/j.ejphar.2020.173141",
+        "journal": "European journal of pharmacology",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3850180506706238,
+        "score": 0.3850180506706238,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:17395871",
-        "text": "Clinical impact of NXY-059 demonstrated in the SAINT I trial: derivation of number needed to treat for benefit over entire range of functional disability. The SAINT I trial demonstrated that the neuroprotective agent NXY-059 improves the distribution of acute stroke patient outcomes on the modified Rankin Scale (mRS) of global disability. Standard dichotomized number-needed-to-treat (NNT) analyses for the magnitude of treatment benefit range widely, from 22.7 to infinity, and each capture only a portion of ",
-        "score": 0.4231331944465637,
-        "doi": "10.1161/01.STR.0000263135.47779.9e",
-        "journal": "Stroke",
-        "year": "2007",
-        "rerank_score": 3.5119004249572754,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31796888",
+        "text": "Dapagliflozin for HFrEF - improved outcomes across all ages.",
+        "doi": "10.1038/s41569-019-0321-z",
+        "journal": "Nature reviews. Cardiology",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.39019840955734253,
+        "score": 0.39019840955734253,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

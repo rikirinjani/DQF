@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40979769",
-        "text": "Understanding number needed to treat (NNT): A practical guide for anaesthesia and critical care clinicians.",
-        "score": 0.4589582085609436,
-        "doi": "10.4103/ija.ija_1000_25",
-        "journal": "Indian journal of anaesthesia",
-        "year": "2025",
-        "rerank_score": 1.5339875221252441,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.4141593873500824,
+        "score": 0.4141593873500824,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38860154",
-        "text": "Safety and prescribing recommendations for verapamil in newly diagnosed pediatric type 1 diabetes (T1D): The CLVer experience. To report the safety and side effects associated with taking verapamil for beta-cell preservation in children with newly-diagnosed T1D. Eighty-eight participants aged 8.5 to 17.9 years weighing ≥ 30 kg were randomly assigned to verapamil (N = 47) or placebo (N = 41) within 31 days of T1D diagnosis and followed for 12 months from diagnosis, main CLVer study. Drug dosing was weight-ba",
-        "score": 0.4895597994327545,
-        "doi": "10.1016/j.jcte.2024.100352",
-        "journal": "Journal of clinical & translational endocrinology",
-        "year": "2024",
-        "rerank_score": 1.343098521232605,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:26504804",
+        "text": "Short-Term Effects of Verapamil and Diltiazem in the Treatment of No Reflow Phenomenon: A Meta-Analysis of Randomized Controlled Trials. Currently, there is still a lack of an optimal treatment for no reflow phenomenon (NRP). We analyzed the efficacy and safety of using nondihydropyridine calcium channel antagonists (NDHP, verapamil/diltiazem) in patients suffering from NRP. Eight RCTs with 494 participants were eligible for analysis. The pooling analysis showed that intracoronary verapamil/diltiazem injection significantly decreased the occurrence of the coronary NRP (RR: 0.3, 95% CI: 0.16-0.57; P = 0.0002) and reduced corrected thrombolysis in myocardial infarction (TIMI) frame Count (WMD = -9.24, 95% CI -13.91-4.57; P = 0.0001) in patients with NRP. Moreover, verapamil/diltiazem treatment showed superiority in reducing wall motion index (WMI) compared to the control at day 1 (WMD = 0.11, 95% CI: 0.02-0.20; P = 0.02) (P < 0.05). There was also a significantly greater decline at occurrence of the major adverse cardiac events between verapamil/diltiazem and control groups (WMD: 0.4, 95% CI: 0.19-0.84; P = 0.02). However, using verapamil/diltiazem did not provide additional improvement of left ventricular ejection fraction post procedure (at 7 days, WMD, 0.1; 95% CI, -2.43-2.63; P = 0.94; at 30 days, WMD, 0.42; 95% CI, -2.09-2.92; P = 0.75). NDHP use is beneficial in attenuating NRP and reducing 6-month MACEs in patients with NRP.",
+        "doi": "10.1155/2015/382086",
+        "journal": "BioMed research international",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.44428232312202454,
+        "score": 0.44428232312202454,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39558612",
-        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
-        "score": 0.4922395646572113,
-        "doi": "10.1177/03331024241299377",
-        "journal": "Cephalalgia : an international journal of headache",
-        "year": "2024",
-        "rerank_score": 0.6303809881210327,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22165523",
+        "text": "[The number needed to treat (NNT)]. The number needed to treat (NNT) is a valuable information in treatment decisions. This is the result of a calculation based on published data, collected from an intervention study. NNT is the inverse of the absolute risk reduction (1/ARR) between two treatment options. It is always expressed by a value rounded up to whole numbers, between 1 and infinity, depending on the effectiveness of the new treatment being studied. The NNT is the average number of patients needed to be treated for a duration equal to the study period to achieve one additional positive response under the conditions of the study. The more the treatment will be effective, the more the NNT will be low (tending towards 1). The NNT should be calculated based on the results of a clinical study of good methodological quality, involving a well-defined and homogeneous group of patients, whose baseline risk is known and using a dichotomous endpoint (the event occurs or not). The study must have shown a statistically significant difference between the two groups. In the process of medical decision making, the NNT must be balanced with the safety profile of the treatment (represented by the number needed to harm, or NNH), the costs and stress associated with it. It is possible to calculate a NNT and its confidence interval, from the published data of a clinical study. Some authors report the NNT in the text of the publication.",
+        "doi": "",
+        "journal": "Revue medicale de Bruxelles",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.464148610830307,
+        "score": 0.464148610830307,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

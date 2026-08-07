@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41222871",
-        "text": "Low-Dose Triple-Pill of Telmisartan, Amlodipine, and Indapamide for Initial Hypertension Treatment: A GRADE-Assessed Meta-analysis of Randomized Trials. FDA-approved GMRx2, a single-pill combination of telmisartan, amlodipine, and indapamide, has shown potential for improving blood pressure (BP) control. We assessed the efficacy and safety of low-dose GMRx2 compared to placebo, or standard-care (monotherapy or dual therapy) in mild to moderate hypertension. A meta-analysis of randomized controlled trials (R",
-        "score": 0.3967554569244385,
-        "doi": "10.1007/s40292-025-00751-8",
-        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
-        "year": "2025",
-        "rerank_score": 4.8071465492248535,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17588853",
+        "text": "[The efficacy of indapamide in different cardiovascular outcome--meta-analysis]. First line antihypertensive treatment's drugs have to be able to decrease the cardiovascular morbidity and mortality. This kind of efficacy of thiazides type diuretics were published earlier in several studies. The efficacy of indapamide was investigated in several studies, but there is no analysis which is including all of the indapamide-studies. We conducted a meta-analysis of all relevant randomized-controlled-trials with indapamide. Efficacy of indapamide was analyzed in different cardiovascular and safety outcomes. We searched the MEDLINE database 1995-2005 for indapamide-trials. Only double-blind, parallel-group design trials were involved. Both the fixed effect model and the random effect model were used for data synthesis, results were probed with Mantel-Hanzel test and inverse variance test. Data were combined from 9 trials that included 10 108 patients. Indapamide treatment of 48 patients with a history of stroke prevents another stroke (NNT = 47.8 95% CI 29.6-126.6). Data from 5 trials including 7085 patients show that indapamide is superior to placebo in reducing blood pressure, the differences are: 7.28 mm Hg (95% CI: 6.37-8.19) in systolic blood pressure and 3.50 mm Hg (95% CI 2.99-4.01) in diastolic blood pressure. Data from 5 trials including 2856 patients show that indapamide is superior to active controls in reducing systolic blood pressure, the difference is significant: 1.30 mm Hg (95% CI 0.28-2.31). The difference in diastolic blood pressure was not significant. Data of 505 patients show that indapamide reduced left ventricular mass index significantly more than enalapril 20 mg, the difference is 6.50 g/m(2) (95%CI: 0.81-12.19). Data of 6206 patients show that frequency of adverse drug reaction is similar in the indapamide and placebo groups (rr = 0.97 95%CI 0.76-1.22). Indapamide is efficacious in prevention of further stroke, reduces effectively the blood pressure and the left ventricular mass index. Indapamide treatment is well tolerated.",
+        "doi": "10.1556/OH.2007.28046",
+        "journal": "Orvosi hetilap",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.41053104400634766,
+        "score": 0.41053104400634766,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38848115",
-        "text": "Cost-effectiveness analysis comparing single-pill combination of perindopril/amlodipine/indapamide to the free equivalent combination in patients with hypertension from an Italian national health system perspective. To evaluate the cost-effectiveness of a single-pill combination (SPC) of perindopril/amlodipine/indapamide versus its free equivalent combination (FEC) in adults with hypertension in Italy. A Markov model was developed to perform a cost-utility analysis with a lifetime horizon and an Italian hea",
-        "score": 0.40401893854141235,
-        "doi": "10.1080/14737167.2024.2365988",
-        "journal": "Expert review of pharmacoeconomics & outcomes research",
-        "year": "2024",
-        "rerank_score": 3.3257908821105957,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18173819",
+        "text": "Assessing the relative efficacy of different agents based on the outcomes from meta-analyses.",
+        "doi": "10.1111/j.1742-1241.2007.01594.x",
+        "journal": "International journal of clinical practice",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.4106862545013428,
+        "score": 0.4106862545013428,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:3277419",
-        "text": "Analysis of well-being and 24-hour blood pressure recording in a comparative study between indapamide and captopril. The effects of indapamide and captopril on office and ambulatory blood pressure control and on general well-being were investigated in 30 active, randomly selected patients from 25 to 68 years old, with mild to moderate essential hypertension (diastolic blood pressure, 92 to 114 mm Hg). Twenty-four-hour ambulatory blood pressure monitoring using an ICR model 5200 portable recorder and evaluat",
-        "score": 0.3982895612716675,
-        "doi": "",
-        "journal": "The American journal of medicine",
-        "year": "1988",
-        "rerank_score": 2.10068416595459,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.4158738851547241,
+        "score": 0.4158738851547241,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

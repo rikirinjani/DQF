@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38936943",
-        "text": "Efficacy and Safety of Vildagliptin for Type 2 Diabetes in Patients With Diabetic Kidney Disease. Vildagliptin is one of the dipeptidyl peptidase-4 (DPP-4) inhibitors that have been shown to improve hyperglycemia in clinical trials among patients with type 2 diabetes. However, few studies have examined the efficacy of vildagliptin in patients with diabetic kidney disease (DKD). Eight patients with DKD received oral vildagliptin 50-100 mg/day. The duration of diabetes was 6.7±5.9 years and observation period",
-        "score": 0.3608161211013794,
-        "doi": "10.21873/invivo.13635",
-        "journal": "In vivo (Athens, Greece)",
-        "year": "2024",
-        "rerank_score": 7.051336288452148,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:35236189",
+        "text": "Clinical efficacy and safety of vildagliptin in the treatment of patients with impaired glucose tolerance.",
+        "doi": "10.1177/17531934221082412",
+        "journal": "The Journal of hand surgery, European volume",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.28044477105140686,
+        "score": 0.28044477105140686,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:26620049",
-        "text": "Efficacy and Safety of Vildagliptin as an Add-on to Insulin with or without Metformin in Japanese Patients with Type 2 Diabetes Mellitus: A 12-week, Double-Blind, Randomized Study. To assess the efficacy and safety of vildagliptin as add-on therapy in Japanese patients with type 2 diabetes mellitus (T2DM), inadequately controlled on stable long-acting, intermediate-acting, or pre-mixed insulin, with or without concomitant metformin.",
-        "score": 0.3497905135154724,
-        "doi": "10.1007/s13300-015-0147-6",
-        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
-        "year": "2015",
-        "rerank_score": 5.883950233459473,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17509069",
+        "text": "Comparison between vildagliptin and metformin to sustain reductions in HbA(1c) over 1 year in drug-naïve patients with Type 2 diabetes. To evaluate the ability of vildagliptin and metformin to sustain reductions in HbA(1c) over a 1-year treatment period in drug-naïve patients with Type 2 diabetes (Type 2 DM). Double-blind, randomized, multicentre, active-controlled, parallel-group study of 52-week treatment with vildagliptin (100 mg daily, n = 526) or metformin (titrated to 2000 mg daily, n = 254) in drug-naïve patients (baseline HbA(1c) = 7.5-11.0%). HbA(1c) was measured periodically over 1 year. Vildagliptin and metformin each rapidly decreased HbA(1c) from an equal baseline of 8.7%. Most of the HbA(1c) reduction was attained by week 12, and the efficacy was sustained throughout 1-year treatment with both agents. At the study end, significant HbA(1c) reductions from baseline were seen with both vildagliptin (-1.0 +/- 0.1%, P < 0.001) and metformin (-1.4 +/- 0.1%, P < 0.001); however, statistical non-inferiority of 50 mg vildagliptin twice daily to 1000 mg metformin twice daily was not established. Body weight did not change during the 1-year treatment with vildagliptin (0.3 +/- 0.2 kg, P = 0.17) and decreased in metformin-treated patients (-1.9 +/- 0.3 kg, P < 0.001). The proportion of patients experiencing an adverse event was 70.1 vs. 75.4% in patients receiving vildagliptin and metformin, respectively. The proportion of patients experiencing a gastrointestinal adverse event was twofold higher in the metformin group, driven by a 3-4-fold greater incidence of diarrhoea, nausea and abdominal pain. The incidence of hypoglycaemia was similarly low in both groups (< 1%). A clinically meaningful decrease in HbA(1c) that was sustained throughout a 1-year treatment in drug-naïve patients with Type 2 DM was seen with both metformin and vildagliptin monotherapy.",
+        "doi": "10.1111/j.1464-5491.2007.02191.x",
+        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.31273993849754333,
+        "score": 0.31273993849754333,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40901275",
-        "text": "Efficacy and Safety of Vildagliptin Versus Other Dipeptidyl Peptidase 4 (DPP-4) Inhibitors in the Management of Type 2 Diabetes Mellitus: A Systematic Review of Randomized Controlled Trials. Dipeptidyl peptidase 4 inhibitors (DPP-4 inhibitors) are used as second-line drugs in the treatment of type 2 diabetes mellitus (T2DM) patients. They act by preventing the breakdown of incretin hormones, which enhance insulin secretion and reduce glucagon secretion. Vildagliptin and sitagliptin are more commonly used DP",
-        "score": 0.3897450566291809,
-        "doi": "10.7759/cureus.91432",
-        "journal": "Cureus",
-        "year": "2025",
-        "rerank_score": 5.784308910369873,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21595273",
+        "text": "[Vildagliptin].",
+        "doi": "",
+        "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.3179070055484772,
+        "score": 0.3179070055484772,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

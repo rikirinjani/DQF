@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38700326",
-        "text": "Acute pharmacodynamic responses to sitagliptin: Drug-induced increase in early insulin secretion in oral glucose tolerance test. DPP4 inhibitors are widely prescribed as treatments for type 2 diabetes. Because drug responses vary among individuals, we initiated investigations to identify genetic variants associated with the magnitude of drug responses. Sitagliptin (100 mg) was administered to 47 healthy volunteers. Several endpoints were measured to assess clinically relevant responses - including the effec",
-        "score": 0.38764479756355286,
-        "doi": "10.1111/cts.13809",
-        "journal": "Clinical and translational science",
-        "year": "2024",
-        "rerank_score": 1.0942364931106567,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19204138",
+        "text": "Effect of sitagliptin on the pharmacokinetics of simvastatin.",
+        "doi": "10.1177/0091270008330983",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.345333069562912,
+        "score": 0.345333069562912,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:2614701",
-        "text": "Inter- and intrasubject variations of ranitidine pharmacokinetics after oral administration to normal male subjects. Inter- and intrasubject variations of ranitidine pharmacokinetics were examined following oral administration of ranitidine tablets (150 mg as base) under controlled conditions at a timed interval of one week (periods I and II) to 12 healthy male subjects. Significant secondary peaks in the plasma concentration-time curves were observed in all subjects in both periods. The first peak occurred",
-        "score": 0.3475930094718933,
-        "doi": "10.1002/jps.2600781204",
-        "journal": "Journal of pharmaceutical sciences",
-        "year": "1989",
-        "rerank_score": -1.0373270511627197,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36818268",
+        "text": "Effect of Sitagliptin",
+        "doi": "10.26574/maedica.2022.17.4.762",
+        "journal": "Maedica",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.35836777091026306,
+        "score": 0.35836777091026306,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41116279",
-        "text": "Pharmacokinetics of Trelagliptin in Rats after Exposure to Acute and Chronic High Altitude Hypoxia. <p> Objectives: As a long-acting DPP-4 inhibitor administered orally once a week, trelagliptin can address the issues of frequent medication and poor compliance associated with traditional hypoglycemic drugs. Revealing the pharmacokinetic changes of trelagliptin is particularly important for populations in high-altitude hypoxic environments. </p><p> Methods: The Hypoxia model in rats was constructed at an alt",
-        "score": 0.38532114028930664,
-        "doi": "10.2174/0113892002408318251002114813",
-        "journal": "Current drug metabolism",
-        "year": "2025",
-        "rerank_score": -1.6701774597167969,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29511780",
+        "text": "Evaluation of pharmacokinetic and pharmacodynamic parameters following single dose of sitagliptin in healthy Indian males. Sitagliptin, a dipeptidyl peptidase (DPP)-IV inhibitor approved for the treatment of type 2 diabetes, is reported to be more efficacious in Indian patients than non-Indian patient population. The objective of the study was to evaluate pharmacokinetic and pharmacodynamic (PK/PD) parameters of single-dose sitagliptin 100 mg (Januvia) in healthy Indian male participants. In a randomised, single-dose, open-label, three-treatment, three-period, three-sequence, crossover bioavailability study, 18 healthy male participants received single-dose of sitagliptin under fasted and fed conditions. PK parameters (C PK parameters expressed in mean (SD) were C Although, there are differences in pharmacokinetic parameters, no clinically meaningful differences were observed with respect to DPP-IV inhibition between Indian and non-Indian population.",
+        "doi": "10.1007/s00228-018-2433-5",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.37439215183258057,
+        "score": 0.37439215183258057,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

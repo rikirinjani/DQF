@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39792849",
-        "text": "The Effectiveness and Safety of Beta Antagonists in Patients With Burns: An Updated Meta-Analysis. AimsThe purpose of this systematic review was to assess the safety and effectiveness of beta antagonists for improving clinical care in burn patients, compared to placebo.MethodsArticles from randomized-controlled trials were identified by a literature search on PubMed and Cochrane. We included relevant trials involving patients with burn. Trials were eligible if they evaluated propranolol and compared to usua",
-        "score": 0.36121904850006104,
-        "doi": "10.1177/00031348251313991",
-        "journal": "The American surgeon",
-        "year": "2025",
-        "rerank_score": 5.374109268188477,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22928183",
+        "text": "Observational comparative effectiveness studies of drug therapies: high-quality answers or important clinical questions?: comment on \"Comparative effectiveness of 2 β-blockers in hypertensive patients\".",
+        "doi": "10.1001/archinternmed.2012.4306",
+        "journal": "Archives of internal medicine",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.38065722584724426,
+        "score": 0.38065722584724426,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:3524092",
-        "text": "Comparison of mefenamic acid and propranolol with placebo in migraine prophylaxis. The prophylactic effects of the antiprostaglandin agent mefenamic acid on migraine attacks were compared with propranolol or placebo in a double-blind crossover study of 29 patients. In the 17 patients who completed the trial the frequency of attacks and their total duration were significantly reduced during mefenamic acid therapy or propranolol therapy as compared to placebo. There were no significant effects of mefenamic ac",
-        "score": 0.3457770049571991,
-        "doi": "10.1111/j.1600-0404.1986.tb04591.x",
-        "journal": "Acta neurologica Scandinavica",
-        "year": "1986",
-        "rerank_score": 4.578427791595459,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.38140371441841125,
+        "score": 0.38140371441841125,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:3429696",
-        "text": "Pharmacokinetics and pharmacodynamics of long-acting propranolol 60-mg capsules: a comparative evaluation. This double-blind, placebo-controlled, four-period cross-over study was undertaken to evaluate the sustained-release characteristics of long-acting propranolol hydrochloride (Inderal LA, Ayerst Laboratories, New York, NY) 60 mg qd, to compare the pharmacokinetic and pharmacodynamic properties of this formulation with conventional propranolol 20 mg tid, and to evaluate the proportionality of long-acting",
-        "score": 0.34510916471481323,
-        "doi": "10.1002/j.1552-4604.1987.tb05584.x",
-        "journal": "Journal of clinical pharmacology",
-        "year": "1987",
-        "rerank_score": 4.2982869148254395,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15106196",
+        "text": "Propranolol for migraine prophylaxis. Propranolol is one of the most commonly prescribed drugs for migraine prophylaxis. We aimed to determine whether there is evidence that propranolol is more effective than placebo and as effective as other drugs for the interval (prophylactic) treatment of patients with migraine. Potentially eligible studies were identified by searching MEDLINE/PubMed (1966 to May 2003) and the Cochrane Central Register of Controlled Trials (Issue 2, 2003), and by screening bibliographies of reviews and identified articles. We included randomised and quasi-randomised clinical trials of at least 4 weeks duration comparing clinical effects of propranolol with placebo or another drug in adult migraine sufferers. Two reviewers extracted information on patients, methods, interventions, outcomes measured, and results using a pre-tested form. Study quality was assessed using two checklists (Jadad scale and Delphi list). Due to the heterogeneity of outcome measures and insufficient reporting of the data, only selective quantitative meta-analyses were performed. As far as possible, effect size estimates were calculated for single trials. In addition, results were summarised descriptively and by a vote count among the reviewers. A total of 58 trials with 5072 participants met the inclusion criteria. The 58 selected trials included 26 comparisons with placebo and 47 comparisons with other drugs. The methodological quality of the majority of trials was unsatisfactory. The principal shortcomings were high dropout rates and insufficient reporting and handling of this problem in the analysis. Overall, the 26 placebo-controlled trials showed clear short-term effects of propranolol over placebo. Due to the lack of studies with long-term follow up, it is unclear whether these effects are stable after stopping propranolol. The 47 comparisons with calcium antagonists, other beta-blockers, and a variety of other drugs did not yield any clear-cut differences. Sample size was, however, insufficient in most trials to establish equivalence. Although many trials have relevant methodological shortcomings, there is clear evidence that propranolol is more effective than placebo in the short-term interval treatment of migraine. Evidence on long-term effects is lacking. Propranolol seems to be as effective and safe as a variety of other drugs used for migraine prophylaxis.",
+        "doi": "10.1002/14651858.CD003225.pub2",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.3888615071773529,
+        "score": 0.3888615071773529,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

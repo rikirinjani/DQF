@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:7614505",
-        "text": "Comparison of the effects of cilazapril and captopril versus placebo on exercise testing in chronic heart failure patients: a double-blind, randomized, multicenter trial. The Cilazapril-Captopril Multicenter Group. In order to compare directly the efficacy of two different angiotensin-converting enzyme (ACE) inhibitors in terms of clinical status and exercise capacity, 443 patients with chronic heart failure (New York Heart Association classes II-IV) were randomized into a 24-week double-blind study to rece",
-        "score": 0.3831063508987427,
-        "doi": "10.1159/000176944",
-        "journal": "Cardiology",
-        "year": "1995",
-        "rerank_score": 5.149038314819336,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18458264",
+        "text": "Comparative effectiveness of angiotensin-converting-enzyme inhibitors: is an ACE always an ace?",
+        "doi": "10.1503/cmaj.080370",
+        "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.37859055399894714,
+        "score": 0.37859055399894714,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:1993795",
-        "text": "Effect of captopril, an angiotensin-converting enzyme inhibitor, in patients with angina pectoris and heart failure. The effects of captopril and placebo were compared in 18 patients with chronic heart failure and angina pectoris with use of a double-blind crossover trial design. Symptoms were assessed by patient treatment preference, visual analogue scores and nitroglycerin consumption. Exercise performance was assessed using two different treadmill protocols of different work intensity with simultaneous m",
-        "score": 0.38036343455314636,
-        "doi": "10.1016/s0735-1097(10)80192-5",
-        "journal": "Journal of the American College of Cardiology",
-        "year": "1991",
-        "rerank_score": 3.4034206867218018,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:26871774",
+        "text": "Comparison of the Efficacy and Safety of Different ACE Inhibitors in Patients With Chronic Heart Failure: A PRISMA-Compliant Network Meta-Analysis. Heart failure is a public health problem and a great economic burden for patients and healthcare systems. Suppression of the renin-angiotensin system (RAS) by angiotensin-converting enzyme (ACE)-inhibitors remains the mainstay of treatment for heart failure. However, the abundance of ACE inhibitors makes it difficult for doctors to choose.We performed this network meta-analysis of ACEIs in patients with heart failure in order to address this area of uncertainty.We searched PubMed, Embase, CENTRAL, and Medline.Any randomized controlled trial evaluating the efficacy and safety of captopril, enalapril, lisinopril, ramipril, or trandolapril or combined interventions of 2 or more of these drugs.Two reviewers extracted the data and made the quality assessment. At first, we used Stata software (version 12.0, StataCorp, College Station, TX) to make traditional pairwise meta-analyses for studies that directly compared different interventions. Then, network meta-analysis was performed using WinBUGS (version 1.4.3, MRC Biostatistics Unit, Cambridge, UK).A total of 29 studies were included. Lisinopril was associated with a higher rate of all-cause mortality compared with placebo (odds ratio 65.9, 95% credible interval 1.91 to 239.6) or ramipril (14.65, 1.23 to 49.5). Enalapril significantly reduced systolic blood pressure when compared with placebo (standardized mean differences -0.6, 95% credible interval -1.03 to -0.18). Both captopril (odds ratio 76.2, 95% credible interval 1.56 to 149.3) and enalapril (274.4, 2.4 to 512.9) were associated with a higher incidence of cough compared to placebo.Some important outcomes such as rehospitalization and cardiac death were not included. The sample size and the number of studies were limited, especially for ramipril.Our results suggest that enalapril might be the best option when considering factors such as increased ejection fraction, stroke volume, and decreased mean arterial pressure. However, enalapril was associated with the highest incidence of cough, gastrointestinal discomfort, and greater deterioration in renal function. Trandolapril ranked first in reducing systolic and diastolic blood pressure. Ramipril was associated with the lowest incidence of all-cause mortality. Lisinopril was the least effective in lowering systolic and diastolic blood pressure and was associated with the highest incidence of all-cause mortality.",
+        "doi": "10.1097/MD.0000000000002554",
+        "journal": "Medicine",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.38370442390441895,
+        "score": 0.38370442390441895,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:2510660",
-        "text": "[Essential arterial hypertension and quality of life. Comparative crossed double-blind study of labetalol and captopril]. The purpose of this multicenter randomised, double-blind and cross-over study was to compare the antihypertensive effects of labetalol (L) and captopril (C) in 42 moderate hypertensive patients (mean age: 52 years). The drugs were given during two 4-weeks periods at the end of which the systolic (SBP) and diastolic blood pressures (DBP) were measured at rest in supine and standing positi",
-        "score": 0.38123834133148193,
-        "doi": "",
-        "journal": "Archives des maladies du coeur et des vaisseaux",
-        "year": "1989",
-        "rerank_score": 2.044445514678955,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:24590633",
+        "text": "The challenges of comparing results between placebo controlled randomized trials and non-experimental new user, active comparator cohort studies: the example of olmesartan.",
+        "doi": "10.1002/pds.3602",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3989361822605133,
+        "score": 0.3989361822605133,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

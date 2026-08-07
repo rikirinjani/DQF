@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
+        "id": "PMID:19353701",
+        "text": "A comparison of the aldosterone-blocking agents eplerenone and spironolactone.",
+        "doi": "10.1002/clc.20442",
+        "journal": "Clinical cardiology",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.38247591257095337,
+        "score": 0.38247591257095337,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:23866347",
+        "text": "Eplerenone and chronic heart failure. No comparison with spironolactone. Still no randomised controlled trials versus spironolactone, but a prematurely terminated placebo-controlled trial with 2737 patients.",
+        "doi": "",
+        "journal": "Prescrire international",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.3852369487285614,
+        "score": 0.3852369487285614,
+        "rerank_score": 0.95
+      },
+      {
         "id": "PMID:31364027",
-        "text": "Relative Efficacy of Spironolactone, Eplerenone, and cAnRenone in patients with Chronic Heart failure (RESEARCH): a systematic review and network meta-analysis of randomized controlled trials. This study aims to assess the comparative benefit and risk profile of treatment with mineralocorticoid receptor antagonists (MRAs) with regard to all-cause mortality (primary endpoint), cardiovascular mortality, or heart failure (HF)-related hospitalization (secondary endpoints) and the safety endpoints hyperkalemia, ",
-        "score": 0.40639010071754456,
+        "text": "Relative Efficacy of Spironolactone, Eplerenone, and cAnRenone in patients with Chronic Heart failure (RESEARCH): a systematic review and network meta-analysis of randomized controlled trials. This study aims to assess the comparative benefit and risk profile of treatment with mineralocorticoid receptor antagonists (MRAs) with regard to all-cause mortality (primary endpoint), cardiovascular mortality, or heart failure (HF)-related hospitalization (secondary endpoints) and the safety endpoints hyperkalemia, acute renal failure, and gynecomastia in patients with chronic HF. We conducted a systematic review and network meta-analysis following PRISMA-P and PRISMA-NMA guidelines. From 16 different sources, 14 randomized controlled trials totaling 12,213 patients testing an active treatment of either spironolactone, eplerenone, or canrenone/potassium-canreonate in adults with symptomatic HF due to systolic dysfunction reporting any of the above endpoints were retained. Efficacy in comparison to placebo/standard medical care with respect to all-cause mortality was confirmed for spironolactone and eplerenone while no conclusion could be drawn for canrenone (HR 0.69 (0.62; 0.77), 0.82 (0.75; 0.91), and 0.50 (0.17; 1.45), respectively). Indirect comparisons hint a potential (non-significant) preference of spironolactone over eplerenone (HR 0.84 (0.68; 1.03)). The overall risk of bias was low to intermediate. Results for secondary endpoints as well as sensitivity analyses essentially mirrored these findings. The beta-blocker adjusted meta-analysis for the primary endpoint showed the same tendency as the unadjusted one (HR 0.39 (0.07; 2.03)). Results need to be interpreted with caution, though, as the resultant mix of patient- and study-level covariates produced unstable statistical modeling. We found no significant and systematic superiority of either MRA regarding efficacy toward all endpoints considered in both direct and indirect comparisons.",
         "doi": "10.1007/s10741-019-09832-y",
         "journal": "Heart failure reviews",
         "year": "2019",
-        "rerank_score": 4.650975227355957,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:30473139",
-        "text": "Safety and cardiovascular efficacy of spironolactone in dialysis-dependent ESRD (SPin-D): a randomized, placebo-controlled, multiple dosage trial. The safety and efficacy of spironolactone is uncertain in end-stage renal disease. We randomized 129 maintenance hemodialysis patients to placebo (n=51) or spironolactone 12.5 mg (n=27), 25 mg (n=26), or 50 mg (n=25) daily for 36 weeks in a double-blind, placebo-controlled, multiple dosage trial to assess safety, tolerability and feasibility and to explore cardio",
-        "score": 0.40723007917404175,
-        "doi": "10.1016/j.kint.2018.08.034",
-        "journal": "Kidney international",
-        "year": "2018",
-        "rerank_score": 3.2450809478759766,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:38936755",
-        "text": "Design and rationale of the CLEAR SYNERGY (OASIS 9) trial: A 2x2 factorial randomized controlled trial of colchicine versus placebo and spironolactone vs placebo in patients with myocardial infarction. Patients experiencing myocardial infarction (MI) remain at high risk of future major adverse cardiovascular events (MACE). While low-dose colchicine and spironolactone have been shown to decrease post-MI MACE, more data are required to confirm their safety and efficacy in an unselected post-MI population. The",
-        "score": 0.4180023670196533,
-        "doi": "10.1016/j.ahj.2024.06.007",
-        "journal": "American heart journal",
-        "year": "2024",
-        "rerank_score": 3.0512855052948,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.394696444272995,
+        "score": 0.394696444272995,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

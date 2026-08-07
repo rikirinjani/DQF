@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38602174",
-        "text": "Nebivolol, an antihypertensive agent, has new application in inhibiting melanoma. Repurposing existing drugs for cancer therapy has become an important strategy because of its advantages, such as cost reduction, effect and safety. The present study was designed to investigate the antimelanoma effect and possible mechanisms of action of nebivolol, which is an approved and widely prescribed antihypertensive agent. In this study, we explored the effect of nebivolol on cell proliferation and cell activity in me",
-        "score": 0.43347877264022827,
-        "doi": "10.1097/CAD.0000000000001597",
-        "journal": "Anti-cancer drugs",
-        "year": "2024",
-        "rerank_score": 3.493175506591797,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12497935",
+        "text": "[Clinical pharmacology of nebivolol].",
+        "doi": "",
+        "journal": "Cardiologia (Rome, Italy)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3669622242450714,
+        "score": 0.3669622242450714,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39195385",
-        "text": "Nebivolol Polymeric Nanoparticles-Loaded In Situ Gel for Effective Treatment of Glaucoma: Optimization, Physicochemical Characterization, and Pharmacokinetic and Pharmacodynamic Evaluation. Nebivolol hydrochloride (NEB), a 3rd-generation beta-blocker, was recently explored in managing open-angle glaucoma due to its mechanism of action involving nitric oxide release for the vasodilation. To overcome the issue of low ocular bioavailability and the systemic side effects associated with conventional ocular form",
-        "score": 0.42776745557785034,
-        "doi": "10.3390/nano14161347",
-        "journal": "Nanomaterials (Basel, Switzerland)",
-        "year": "2024",
-        "rerank_score": 3.0555429458618164,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10820942",
+        "text": "Nebivolol: a new beta blocker on the horizon.",
+        "doi": "",
+        "journal": "Indian heart journal",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.39584022760391235,
+        "score": 0.39584022760391235,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39160298",
-        "text": "Assessment of nebivolol efficacy in experimental models of toxoplasmosis: insights into parasite burden reduction and neuronal protection. This study investigates the efficacy of nebivolol (NBV) in experimental models of toxoplasmosis, focusing on parasite burden reduction and neuronal protection. In the acute model of experimental toxoplasmosis, Swiss mice infected with RH strain tachyzoites received oral NBV chlorhydrate doses of 2 mg/kg/day and 4 mg/kg/day for 8 days. Treatment with NBV significantly red",
-        "score": 0.4644075036048889,
-        "doi": "10.1007/s00436-024-08318-7",
-        "journal": "Parasitology research",
-        "year": "2024",
-        "rerank_score": 3.0162529945373535,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19655820",
+        "text": "Nebivolol: in the treatment of hypertension in the US. Nebivolol is a beta-adrenergic receptor antagonist with a dual mechanism of action. It shows high selectivity for beta(1)-adrenergic receptors and appears to have nitric oxide-mediated vasodilatory activity. Once-daily nebivolol effectively lowered BP in patients with mild to moderate hypertension in four randomized, double-blind, placebo-controlled, 12-week trials. Trough sitting DBP and SBP were reduced to a significantly greater extent in nebivolol than in placebo recipients in trials in demographically heterogenous hypertensive patient groups, as well as in trials involving only Black patients and in patients continuing previous stable antihypertensive drug therapies. Treatment response (defined as a mean sitting DBP <90 mmHg or a >or=10 mmHg reduction from baseline) rates were significantly higher in nebivolol versus placebo recipients in trials enrolling patient groups considered representative of the US hypertensive population (46-65% vs 25%), in Black patients (57-64% vs 27%), and in patients concurrently treated with other antihypertensive drugs (53-65% vs 41%). Nebivolol was generally well tolerated in the treatment of hypertension, with the majority of adverse events described as being mild or moderate in severity. The incidences of fatigue, bradycardia, dyspnea, depression, and erectile dysfunction (events commonly associated with beta-adrenergic receptor antagonist use) did not significantly differ between nebivolol and placebo recipients in the 12-week trials.",
+        "doi": "10.2165/1120274-000000000-00000",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.4070567488670349,
+        "score": 0.4070567488670349,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

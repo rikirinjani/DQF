@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:23008339",
-        "text": "Efficacy and tolerability of nebivolol: does age matter? A retrospective analysis of three randomized, placebo-controlled trials in stage I-II hypertension. This retrospective analysis examined the efficacy and tolerability of nebivolol, a ß(1)-selective, vasodilatory β-blocker, in four different age groups of patients with hypertension.",
-        "score": 0.405996710062027,
-        "doi": "10.1177/1753944712459593",
-        "journal": "Therapeutic advances in cardiovascular disease",
-        "year": "2012",
-        "rerank_score": 3.4007139205932617,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38357307",
+        "text": "Contrastive analysis on the safety of brand and generic nebivolol: a real-world pharmacovigilance study based on the FDA adverse event reporting system.",
+        "doi": "10.3389/fphar.2024.1280201",
+        "journal": "Frontiers in pharmacology",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.37655094265937805,
+        "score": 0.37655094265937805,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:9140802",
-        "text": "A dose-response trial of nebivolol in essential hypertension. A double-blind placebo-controlled dose-response trial of nebivolol, a cardioselective beta-blocking drug which also induces endothelium-dependent dilatation via nitric oxide, has been performed. Nebivolol reduced blood pressure (BP) in a dose dependent way, and was shown to be effective given once daily, without appreciable differences between peak and trough drug levels. There was no postural component to the BP fall. There was no clear inferior",
-        "score": 0.40601015090942383,
-        "doi": "10.1038/sj.jhh.1000392",
-        "journal": "Journal of human hypertension",
-        "year": "1997",
-        "rerank_score": 2.8711295127868652,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15707110",
+        "text": "[Noticeable meta-analysis of atenolol does not cover all aspects].",
+        "doi": "",
+        "journal": "Lakartidningen",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.38933202624320984,
+        "score": 0.38933202624320984,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39920066",
-        "text": "Beneficial and harmful effects of duloxetine versus placebo, 'active placebo' or no intervention for adults with major depressive disorder: a systematic review with meta-analysis and trial sequential analysis of randomised clinical trials. To assess the beneficial and harmful effects of duloxetine versus 'active placebo', placebo or no intervention for adults with major depressive disorder. Systematic review with meta-analysis and trial sequential analysis of randomised trials. Cochrane Central Register of ",
-        "score": 0.42841631174087524,
-        "doi": "10.1136/bmjopen-2023-082853",
-        "journal": "BMJ open",
-        "year": "2025",
-        "rerank_score": 1.9745279550552368,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17786067",
+        "text": "A randomized, double-blind, placebo-controlled parallel-group study to assess the efficacy and safety of nebivolol, a novel beta-blocker, in patients with mild to moderate hypertension. This double-blind, multicenter, randomized placebo-controlled study evaluated the antihypertensive efficacy and safety of nebivolol, a selective beta1-adrenoreceptor blocker with vasodilating effects, in patients with mild to moderate hypertension (sitting diastolic blood pressure [SiDBP] > or =95 mm Hg and < or =109 mm Hg). A total of 909 patients were randomized to receive placebo or nebivolol 1.25, 2.5, 5, 10, 20, or 40 mg once daily for up to 84 days. The primary end point was the change in trough SiDBP from baseline to study end. Nebivolol significantly reduced trough SiDBP (8.0-11.2 mm Hg compared with 2.9 mm Hg with placebo; P<.001) and trough sitting systolic blood pressure (a 4.4-9.5-mm Hg decrease compared with a 2.2-mm Hg increase [corrected] with placebo; P< or =.002). The overall adverse event experience was similar in the nebivolol (46.1%) and placebo (40.7%) groups (P=.273). Once-daily nebivolol is an effective antihypertensive in mild to moderate hypertensive patients.",
+        "doi": "10.1111/j.1524-6175.2007.06679.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3896320164203644,
+        "score": 0.3896320164203644,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

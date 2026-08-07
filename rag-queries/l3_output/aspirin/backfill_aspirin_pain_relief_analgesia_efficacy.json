@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39921848",
-        "text": "Acute enhanced liquid aspirin administration improves performance and intestinal function in nursery pigs. Aspirin (acetylsalicylic acid) is a nonsteroidal anti-inflammatory drug which has been a widely used analgesic for pain relief as well as an anti-inflammatory medication. However, it also causes negative effects on the gastrointestinal (GI) tract including GI bleeding, peptic ulcers, and can also impact the small intestine. Enhanced liquid aspirin (ELA) contains a combination of a salicylate compound, ",
-        "score": 0.4513624310493469,
-        "doi": "10.1093/jas/skaf037",
-        "journal": "Journal of animal science",
-        "year": "2024",
-        "rerank_score": 5.538203239440918,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12118232",
+        "text": "The Efficacy of Nonsteroidal Anti-inflammatory Drugs for Acute Pain.",
+        "doi": "10.1177/107327489900602S01",
+        "journal": "Cancer control : journal of the Moffitt Cancer Center",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.39202356338500977,
+        "score": 0.39202356338500977,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39074973",
-        "text": "Aspirin: latest evidence and developments. Aspirin is a foundation drug of the pharmaceutical industry originally derived as an analgesic/anti-inflammatory agent but serendipitously discovered to have use as a prophylactic drug for major adverse cardiovascular events (MACE). Its modern-day utility in this latter role relies on its efficacy/safety balance in a contemporary population where, at least in high-income countries, age-standardised incident rates for MACE are falling, and where there are now compet",
-        "score": 0.4408552646636963,
-        "doi": "10.1136/heartjnl-2024-323948",
-        "journal": "Heart (British Cardiac Society)",
-        "year": "2024",
-        "rerank_score": 3.7233242988586426,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7784110",
+        "text": "Anti-inflammatory efficacy of treatments with aspirin and acetaminophen.",
+        "doi": "10.1016/0304-3959(94)00198-N",
+        "journal": "Pain",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.40136462450027466,
+        "score": 0.40136462450027466,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41602326",
-        "text": "The efficacy and safety of lower-dose aspirin for primary and secondary prevention of cardiovascular disease in the elderly: an interim analysis of a multicenter, prospective, observational study. Although low-dose aspirin effectively reduces atherothrombosis occurrence in individuals diagnosed with cardiovascular disease (CVD) or in those with high-risk factors, it is significantly associated with increased bleeding. No evidence has been established for a lower dose of aspirin. The Lower-dose Aspirin for P",
-        "score": 0.4477112889289856,
-        "doi": "10.3389/fcvm.2025.1615074",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2025",
-        "rerank_score": 2.905327320098877,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10431716",
+        "text": "Oral aspirin in postoperative pain: a quantitative systematic review. A systematic review of the analgesic efficacy and adverse effects of single-dose aspirin compared with placebo in postoperative pain. Published studies were identified from systematic searching of bibliographic databases and reference lists of retrieved reports. Summed pain intensity and pain relief data were extracted and converted into dichotomous information to yield the number of patients with at least 50% pain relief. This was used to calculate the relative benefit and number-needed-to-treat for one patient to achieve at least 50% pain relief. For adverse effects, relative risk and number-needed-to-harm were calculated. Sensitivity analyses were planned to test the impact of different pain models, pain measurements, sample sizes, quality of study design, and study duration on the results. Seventy-two randomized single-dose trials met our inclusion criteria, with 3253 patients given aspirin, and 3297 placebo. Significant benefit of aspirin over placebo was shown for aspirin 600/650 mg, 1000 mg and 1200 mg, with numbers-needed-to-treat for at least 50% pain relief of 4.4 (4.0-4.9), 4.0 (3.2-5.4) and 2.4 (1.9-3.2) respectively. Single-dose aspirin 600/650 mg produced significantly more drowsiness and gastric irritation than placebo, with numbers-needed-to-harm of 28 (19-52) and 38 (22-174) respectively. Type of pain model, pain measurement, sample size, quality of study design, and study duration had no significant impact on the results. There was a clear dose-response for pain relief with aspirin, even though these were single dose studies. Adverse effects, drowsiness and gastric irritation were also evident in the single dose studies. The pain relief achieved with aspirin was very similar milligram for milligram to that seen with paracetamol.",
+        "doi": "10.1016/S0304-3959(99)00022-6",
+        "journal": "Pain",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.40192559361457825,
+        "score": 0.40192559361457825,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

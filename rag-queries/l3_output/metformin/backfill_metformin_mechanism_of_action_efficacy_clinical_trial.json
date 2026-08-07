@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40466424",
-        "text": "[The role of metformin in the cardiokidney-metabolic patient]. Metformin is a first-line drug in the treatment of type2 diabetes mellitus (T2DM) due to its efficacy, safety, and cost-effectiveness. Its main mechanism of action is the reduction of hepatic gluconeogenesis, improving insulin sensitivity and modulating glucose metabolism. The benefits of metformin are not limited to glycemic control, as it also has cardiovascular effects, reducing the risk of acute myocardial infarction and cardiovascular morta",
-        "score": 0.3807624578475952,
-        "doi": "10.1016/j.semerg.2025.102530",
-        "journal": "Semergen",
-        "year": "2025",
-        "rerank_score": 6.173422813415527,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30065267",
+        "text": "Unravelling metformin's mechanism of action.",
+        "doi": "10.1038/s41574-018-0077-2",
+        "journal": "Nature reviews. Endocrinology",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.3247023820877075,
+        "score": 0.3247023820877075,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39405911",
-        "text": "Metformin-mediated protection against doxorubicin-induced cardiotoxicity. A phase II clinical trial of metformin (MET) for the treatment of doxorubicin (DOX)-induced cardiotoxicity (NCT02472353) failed. The aims of this study were to confirm MET-mediated protection against DOX-induced cardiotoxicity and its mechanism using H9C2 cells, and to establish a Wistar rat model of DOX-induced cardiotoxicity. Subsequently, Wistar rats were utilized to identify clinically relevant indicators for evaluating MET-mediat",
-        "score": 0.39697813987731934,
-        "doi": "10.1016/j.biopha.2024.117535",
-        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
-        "year": "2024",
-        "rerank_score": 5.013425827026367,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:26032104",
+        "text": "Therapy: Metformin takes a new route to clinical efficacy.",
+        "doi": "10.1038/nrendo.2015.85",
+        "journal": "Nature reviews. Endocrinology",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.34220045804977417,
+        "score": 0.34220045804977417,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:36337018",
-        "text": "[Metformin and malignant neoplasms: a possible mechanism of antitumor action and prospects for use in practice]. Metformin is a first-line antidiabetic drug for the treatment of type 2 diabetes mellitus (DM2); its molecular target is AMP-activated protein kinase (AMPK), which is involved in many metabolic processes. Metformin not only reduces blood glucose levels and improves insulin sensitivity, but also inhibits lipolysis and reduces cardiovascular risk in patients with DM2. In recent years, it has been p",
-        "score": 0.36841273307800293,
-        "doi": "10.14341/probl13097",
-        "journal": "Problemy endokrinologii",
-        "year": "2022",
-        "rerank_score": 4.845205783843994,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30603300",
+        "text": "Metformin: clinical topics and new mechanisms of action.",
+        "doi": "10.1007/s13340-016-0300-0",
+        "journal": "Diabetology international",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.3484620749950409,
+        "score": 0.3484620749950409,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

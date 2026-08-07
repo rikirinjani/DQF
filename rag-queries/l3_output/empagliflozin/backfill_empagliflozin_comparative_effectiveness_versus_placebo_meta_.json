@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:31295358",
-        "text": "Cost-effectiveness analysis of empagliflozin treatment in people with Type 2 diabetes and established cardiovascular disease in the EMPA-REG OUTCOME trial. In the EMPA-REG OUTCOME trial, empagliflozin therapy reduced cardiovascular death by 38% compared with placebo when added to standard of care. Using the trial results, we created a discrete-event simulation model to assess lifetime health economic outcomes in people with Type 2 diabetes and established cardiovascular disease.",
-        "score": 0.36153993010520935,
-        "doi": "10.1111/dme.14076",
-        "journal": "Diabetic medicine : a journal of the British Diabetic Association",
-        "year": "2019",
-        "rerank_score": 6.7433929443359375,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40403299",
+        "text": "Empagliflozin Versus Placebo in Type 2 Diabetes and Cardiovascular Disease: A Systematic Review and Meta-Analysis.",
+        "doi": "10.1097/MJT.0000000000001983",
+        "journal": "American journal of therapeutics",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.22914797067642212,
+        "score": 0.22914797067642212,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:34394274",
-        "text": "The efficacy of dapagliflozin for type 1 diabetes: a meta-analysis of randomized controlled studies. The efficacy of dapagliflozin for type 1 diabetes remains controversial. We conduct a systematic review and meta-analysis to explore the treatment efficacy of dapagliflozin versus placebo in patients with type 1 diabetes.",
-        "score": 0.3601948618888855,
-        "doi": "10.4314/ahs.v21i1.2",
-        "journal": "African health sciences",
-        "year": "2021",
-        "rerank_score": 6.158700942993164,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40656174",
-        "text": "The effect of empagliflozin on cardiac function and structure in patients with heart failure with reduced ejection fraction: a systematic review and meta-analysis. Empagliflozin was shown to improve the clinical outcomes of cardiovascular diseases; however, its effects on cardiac structure and cardiac remodeling in patients with heart failure remain controversial to some extent. We conducted this meta-analysis to compare the effect of empagliflozin with placebo on cardiac structure and function among patien",
-        "score": 0.3617754280567169,
-        "doi": "10.5114/aic.2025.151600",
-        "journal": "Postepy w kardiologii interwencyjnej = Advances in interventional cardiology",
+        "id": "PMID:39354951",
+        "text": "Efficacy and Safety of Ertugliflozin Compared to Placebo in Patients With Type 2 Diabetes: An Updated Systematic Review and Meta-Analysis.",
+        "doi": "10.1155/2024/5553327",
+        "journal": "Journal of diabetes research",
         "year": "2024",
-        "rerank_score": 5.613686561584473,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.2860625982284546,
+        "score": 0.2860625982284546,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:36702979",
+        "text": "Indirect comparison of SGLT2 inhibitors in patients with established heart failure: evidence based on Bayesian methods. Head-to-head comparisons among SGLT2 inhibitors treatments in established heart failure remain absent. We conducted a systematic review of dedicated heart failure trials to assess indirectly the composite outcomes and individual clinical endpoints among SGLT2 inhibitor treatments. We systematically reviewed randomized controlled trials comparing SGLT2 inhibitors versus placebo in patients with established heart failure. A Bayesian approach to network meta-analysis was applied. Five trials including four treatment strategies were included in this study. The composite of cardiovascular death or hospitalization for heart failure showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 1.00, 95% CI 0.66-1.55), dapagliflozin and sotagliflozin (OR 1.54, 95% CI 0.91-2.65), and empagliflozin and sotagliflozin (OR 1.53, 95% CI 0.90-2.69). All-cause mortality showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 0.92, 95% CI 0.711-1.18), dapagliflozin and sotagliflozin (OR 1.05, 95% CI 0.68-1.59), and empagliflozin and sotagliflozin (OR 1.14, 95% CI 0.74-1.73). Cardiovascular death showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 0.94, 95% CI 0.71-1.23), dapagliflozin and sotagliflozin (OR 0.96, 95% CI 0.61-1.55), and empagliflozin and sotagliflozin (OR 1.03, 95% CI 0.64-1.66). Hospitalization for heart failure showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 1.13, 95% CI 0.64-1.97), dapagliflozin and sotagliflozin (OR 1.56, 95% CI 0.74-3.15), and empagliflozin and sotagliflozin (OR 1.39, 95% CI 0.68-2.78). In patients with established heart failure, there was no significant difference of the major efficacy outcomes among SGLT2 inhibitor treatments; however, sotagliflozin may be associated with the lowest risk of the composite of cardiovascular death or hospitalization for heart failure, and dapagliflozin may be associated with the lowest risk of all-cause and cardiovascular mortality.",
+        "doi": "10.1002/ehf2.14297",
+        "journal": "ESC heart failure",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.2967056930065155,
+        "score": 0.2967056930065155,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

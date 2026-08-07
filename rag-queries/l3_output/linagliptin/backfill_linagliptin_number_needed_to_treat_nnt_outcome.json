@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:21680988",
-        "text": "Linagliptin: a new DPP-4 inhibitor for the treatment of type 2 diabetes mellitus. Incretin-based therapies constitute a relatively new pharmacological approach to the treatment of type 2 diabetes mellitus. As reflected in the rapidly growing body of literature and the number of glucagon-like peptide-1 and dipeptidyl peptidase-4 inhibitor (DPP-4) compounds that are either approved or in development, there is considerable interest in treatments that target the incretin axis. Linagliptin is a recently approved",
-        "score": 0.4444517493247986,
-        "doi": "10.3810/pgm.2011.07.2303",
-        "journal": "Postgraduate medicine",
-        "year": "2011",
-        "rerank_score": 1.7563244104385376,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.38069045543670654,
+        "score": 0.38069045543670654,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40078077",
-        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
-        "score": 0.459320604801178,
-        "doi": "10.1080/13696998.2025.2466365",
-        "journal": "Journal of medical economics",
+        "id": "PMID:22346314",
+        "text": "Efficacy and safety of linagliptin (tradjenta) in adults with type-2 diabetes mellitus.",
+        "doi": "",
+        "journal": "P & T : a peer-reviewed journal for formulary management",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.39248543977737427,
+        "score": 0.39248543977737427,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
         "year": "2025",
-        "rerank_score": 1.656693935394287,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:27180612",
-        "text": "Pharmacokinetic and pharmacodynamic evaluation of linagliptin for the treatment of type 2 diabetes mellitus, with consideration of Asian patient populations. Our aims were to summarize the clinical pharmacokinetics and pharmacodynamics of the dipeptidyl-peptidase-4 inhibitor, linagliptin, and to consider how these characteristics influence its clinical utility. Differences between linagliptin and other dipeptidyl-peptidase-4 inhibitors were also considered, in addition to the influence of Asian race on the ",
-        "score": 0.4451299011707306,
-        "doi": "10.1111/jdi.12528",
-        "journal": "Journal of diabetes investigation",
-        "year": "2016",
-        "rerank_score": 1.0291885137557983,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3964895009994507,
+        "score": 0.3964895009994507,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39749095",
-        "text": "Cross-Sectional Analyses to Assess the Clinical Safety and Effectiveness of Bisoprolol in Patients With Non-obstructive Coronary Artery Disease Who Underwent Percutaneous Coronary Intervention: A Post-hoc Analysis. Elevated central aortic pressure, cardiac output and peripheral vascular resistance contribute to high morbidity in relation to end organ dysfunction in obstructive and non-obstructive coronary artery disease (NOCAD) cases despite revascularization. Bisoprolol preempts further progression of left",
-        "score": 0.3890068531036377,
-        "doi": "10.7759/cureus.75021",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": 2.7795538902282715,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
         "id": "PMID:30408572",
-        "text": "Long-term effectiveness of bisoprolol in patients with angina: A real-world evidence study. A cohort analysis using UK Clinical Practice Research Datalink (CPRD) was performed to compare the effects of bisoprolol, other β-blockers, and drugs other than β-blockers on the long-term risk of mortality and cardiovascular events in patients with angina. Adult patients first diagnosed with angina from 2000 to 2014, with ≥365 days of registration to first angina diagnosis and initiating monotherapies of bisoprolol,",
-        "score": 0.38952869176864624,
+        "text": "Long-term effectiveness of bisoprolol in patients with angina: A real-world evidence study. A cohort analysis using UK Clinical Practice Research Datalink (CPRD) was performed to compare the effects of bisoprolol, other β-blockers, and drugs other than β-blockers on the long-term risk of mortality and cardiovascular events in patients with angina. Adult patients first diagnosed with angina from 2000 to 2014, with ≥365 days of registration to first angina diagnosis and initiating monotherapies of bisoprolol, other β-blockers, or drugs other than β-blockers within 6 months of angina diagnosis were included. Incidence rates for each treatment cohort were compared using adjusted hazard ratio (HR) and 95% confidence intervals (CI) obtained from Cox regression analyses. Overall, 987 patients were treated with bisoprolol, 1348 with other β-blockers and 5272 with drugs other than β-blockers. Over the total follow-up (≤14 years), the HR of bisoprolol versus other β-blockers and drugs other than β-blockers for mortality was 0.45 (95% CI: 0.34-0.61) and 0.50 (95% CI: 0.38-0.66), respectively. The HR of bisoprolol versus other β-blockers for angina was 0.58 (95% CI: 0.50-0.68) and versus drugs other than β-blockers was 0.77 (95% CI: 0.68-0.88), respectively. For myocardial infarction, the HR of bisoprolol versus drugs other than β-blockers up to 14 years was 0.34 (95% CI: 0.23-0.52) and versus other β-blockers up to 5 years was 0.45 (95% CI: 0.27-0.75). At 5 years, the HR of bisoprolol versus other β-blockers, and drugs other than β-blockers, for arrhythmia was 0.60 (95% CI: 0.35-1.0) and 0.61 (95% CI: 0.40-0.93), respectively. In conclusion, long-term significant reduction in the risk of mortality and various cardiovascular events with bisoprolol versus other β-blockers, and drugs other than β-blockers, confirm treatment guidelines recommendation that bisoprolol is particularly well suited as the first-line treatment of angina in primary care.",
         "doi": "10.1016/j.phrs.2018.10.031",
         "journal": "Pharmacological research",
         "year": "2018",
-        "rerank_score": 2.7266523838043213,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.386166512966156,
+        "score": 0.386166512966156,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40786389",
-        "text": "Carvedilol vs. Metoprolol Effectiveness in Patients With Left Ventricular Assist Devices: A TriNetX Analysis. Beta-blockers are a cornerstone of heart failure management, but comparative effectiveness data for different beta-blockers in patients with mechanical circulatory support remain limited. This study aimed to compare clinical outcomes between carvedilol and metoprolol in patients with left ventricular assist devices (LVADs). We performed a retrospective cohort study using the TriNetX Research Network",
-        "score": 0.4078790247440338,
-        "doi": "10.7759/cureus.87649",
-        "journal": "Cureus",
-        "year": "2025",
-        "rerank_score": 2.6935672760009766,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15707110",
+        "text": "[Noticeable meta-analysis of atenolol does not cover all aspects].",
+        "doi": "",
+        "journal": "Lakartidningen",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.38953331112861633,
+        "score": 0.38953331112861633,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:39385945",
+        "text": "Is Bisoprolol Underutilized in U.S. Heart Failure Patients?",
+        "doi": "10.1016/j.jacadv.2024.101290",
+        "journal": "JACC. Advances",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.3900070786476135,
+        "score": 0.3900070786476135,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

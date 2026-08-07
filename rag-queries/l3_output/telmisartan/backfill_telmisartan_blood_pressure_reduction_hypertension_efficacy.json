@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39480548",
-        "text": "Telmisartan potentiates the ITE-induced aryl hydrocarbon receptor activity in human liver cell line. Telmisartan is an angiotensin receptor blocker (ARB) approved by the Food and Drug Administration of the US for the treatment of hypertension. It possesses unique pharmacologic properties, including the longest half-life among all ARBs; this leads to a 24-h sustained reduction of blood pressure. Besides well-known antihypertensive and cardioprotective effects, there is also strong clinical evidence that telm",
-        "score": 0.38191574811935425,
-        "doi": "10.1007/s00204-024-03901-4",
-        "journal": "Archives of toxicology",
-        "year": "2024",
-        "rerank_score": 6.963498115539551,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23219133",
+        "text": "Overview of telmisartan for blood pressure reduction among angiotensin II receptor blockers: a meta-analysis of head-to-head randomized trials.",
+        "doi": "10.1016/j.ijcard.2012.11.086",
+        "journal": "International journal of cardiology",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.2923489212989807,
+        "score": 0.2923489212989807,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41222871",
-        "text": "Low-Dose Triple-Pill of Telmisartan, Amlodipine, and Indapamide for Initial Hypertension Treatment: A GRADE-Assessed Meta-analysis of Randomized Trials. FDA-approved GMRx2, a single-pill combination of telmisartan, amlodipine, and indapamide, has shown potential for improving blood pressure (BP) control. We assessed the efficacy and safety of low-dose GMRx2 compared to placebo, or standard-care (monotherapy or dual therapy) in mild to moderate hypertension. A meta-analysis of randomized controlled trials (R",
-        "score": 0.4117029309272766,
-        "doi": "10.1007/s40292-025-00751-8",
-        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
-        "year": "2025",
-        "rerank_score": 6.459823131561279,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37576807",
+        "text": "Telmisartan",
+        "doi": "10.3389/fphar.2023.1228525",
+        "journal": "Frontiers in pharmacology",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.2979988157749176,
+        "score": 0.2979988157749176,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41489682",
-        "text": "Evaluation of Effectiveness and Safety of Telmisartan and Amlodipine Fixed-Dose Combination in Indian Patients with Hypertension: TACT-India Study. Hypertension is a major global health burden associated with significant cardiovascular morbidity and mortality. Fixed-dose combinations (FDC) may improve blood pressure (BP) control and prevent associated complications. This study aimed to evaluate the effectiveness and safety of telmisartan and amlodipine FDC in Indian patients with hypertension. This prospect",
-        "score": 0.3681528568267822,
-        "doi": "10.1007/s40801-025-00534-6",
-        "journal": "Drugs - real world outcomes",
-        "year": "2025",
-        "rerank_score": 6.014139652252197,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9878991",
+        "text": "Telmisartan. Telmisartan is a nonpeptide angiotensin II receptor antagonist which selectively and insurmountably inhibits the angiotensin II AT1 receptor subtype without affecting other receptor systems involved in cardiovascular regulation. Oral telmisartan dose-dependently reduced blood pressure (BP) in various animal models of hypertension. In transgenic rats, telmisartan reduced cardiac hypertrophy and glomerulosclerosis. When administered at dosages of 40 to 160 mg once daily to patients with mild to moderate hypertension, telmisartan significantly reduced systolic and diastolic BP compared with placebo and was at least as effective as atenolol 50 or 100 mg and lisinopril 10 to 40 mg. One study showed telmisartan 80 mg/day to be more effective than enalapril 20 mg/day. In 2 studies that used ambulatory BP monitoring, once daily telmisartan provided better control of diastolic BP for the full dosing interval than losartan potassium 50 mg or amlodipine 5 or 10 mg. In a single study in patients with severe hypertension, a telmisartan-based regimen had antihypertensive efficacy similar to that of an enalapril-based regimen. Telmisartan had a tolerability profile similar to that of placebo in clinical studies.",
+        "doi": "10.2165/00003495-199856060-00007",
+        "journal": "Drugs",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.30456221103668213,
+        "score": 0.30456221103668213,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40175632",
-        "text": "Minimal Physiologically-Based Pharmacokinetic Modeling of Atenolol and Metoprolol Absorption in Malnourished Rats. The pharmacokinetics of drugs can be altered by pathophysiological changes in the body that result from malnutrition. The objective of this study was to evaluate the profiles derived from in vivo studies conducted on non-malnourished (control) and malnourished rats using minimal physiologically based pharmacokinetic (mPBPK) models. Single oral doses of atenolol (ATN) and metoprolol (MET) were a",
-        "score": 0.3894834816455841,
-        "doi": "10.1007/s13318-025-00943-6",
-        "journal": "European journal of drug metabolism and pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -1.1345124244689941,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16431379",
+        "text": "Biopharmaceutical evaluation of oral tablet Atenolol (100 and 50 mg) on local population. An open-label, randomized study was designed to determine the bioavailability (BA); pharmacokinetic (PK) and pharmacodynamic (PD) behaviour of Atenolol 50 mg (two pills) and 100 mg (one pill) tablet manufactured by a national pharmaceutical industry. Peak plasma concentration (Cmax): 1.33 +/- 0.31 microg/ml, time to peak plasma concentration (Tmax): 2.2 +/- 0.27 hours, AUC (area under the plasma concentration-time curve) 6.34 +/- 2.1 microg-hr/ml for 100 mg tab and Cmax: 1.07 +/- 0.23 microg/ml, Tmax: 2.5 +/- 0.35 hours, AUC 4.97 +/- 1.09 microg-hr/ml for 50 mg (two pills) tab were observed. The BA and PK parameters such as Cmax, Tmax, are comparable to previous studies, although significant decrease in diastolic and systolic blood pressure (mmHg) upto a certain limit for a considerable duration was observed. However, relation between PK and PD may not be established due to regulatory biochemical feedback mechanism.",
+        "doi": "",
+        "journal": "Pakistan journal of pharmaceutical sciences",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.41882631182670593,
+        "score": 0.41882631182670593,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39110083",
-        "text": "Population Pharmacokinetics of Naloxegol in Pediatric Subjects Receiving Opioids. The pharmacokinetics (PK) of naloxegol were characterized in pediatric subjects, aged 6 months or older to less than 18 years who either have or are at risk of developing opioid-induced constipation following single dose administration. Subjects grouped as aged 12 years or older to less than 18 years, 6 months or older to less than 12 years, and 6 months or older to less than 6 years, received a single oral dose of naloxegol a",
-        "score": 0.39970213174819946,
-        "doi": "10.1002/cpdd.1457",
+        "id": "PMID:20919350",
+        "text": "Review of clinical pharmacology of atenolol.",
+        "doi": "",
+        "journal": "Proceedings of the Royal Society of Medicine",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.42236462235450745,
+        "score": 0.42236462235450745,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:38742472",
+        "text": "Bioequivalence Study of Atenolol Tablets in Healthy Chinese Subjects Under Fasting and Fed Conditions. Atenolol, a cardioselective β1-blocker, exhibits efficacy in treating cardiovascular diseases. We conducted a single-center, randomized, open, single-dose, 2-preparation, 2-cycle, 2-sequence, double-crossover trial with a 7-day washout period to investigate the pharmacokinetics, bioequivalence (BE), and safety of test and reference atenolol tablets (25 mg) in healthy Chinese volunteers. Forty-eight healthy participants were randomized into the fasting and fed arms. After administering a single oral dose of the test or reference formulation (25 mg), plasma atenolol concentrations were measured using liquid chromatography-tandem mass spectrometry. Pharmacokinetic parameters were obtained from concentration-time profiles. In total, 23 and 24 individuals were included in the fasting and fed arms, respectively. The mean concentration-time profiles for both formulations were similar, and C",
+        "doi": "10.1002/cpdd.1414",
         "journal": "Clinical pharmacology in drug development",
-        "year": "2024",
-        "rerank_score": -1.9829672574996948,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39673185",
-        "text": "Pharmacogenetic and microRNA mechanisms of beta blocker use on bone. Motivated by studies showing an association between beta blocker (BB) use and positive bone outcomes, a pilot randomized control trial was performed at the Mayo Clinic which randomized postmenopausal women to placebo, propranolol (40 or 80 mg twice daily), atenolol (50 mg/d), or nebivolol (5 mg/d) to determine changes in bone turnover markers (BTMs) and in BMD over 20 wk. Pharmacogenetic effects and microRNA-mediated mechanisms involving b",
-        "score": 0.4117104113101959,
-        "doi": "10.1093/jbmr/zjae200",
-        "journal": "Journal of bone and mineral research : the official journal of the American Soci",
-        "year": "2024",
-        "rerank_score": -2.662243127822876,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.4330836236476898,
+        "score": 0.4330836236476898,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

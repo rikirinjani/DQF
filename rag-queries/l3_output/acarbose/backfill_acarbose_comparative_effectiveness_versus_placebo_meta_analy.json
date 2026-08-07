@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:33421022",
-        "text": "The Effects of Acarbose on Non-Diabetic Overweight and Obese Patients: A Meta-Analysis. This systematic review aims to verify the efficacy of acarbose monotherapy in treating obese or overweight patients without diabetes.",
-        "score": 0.40339013934135437,
-        "doi": "",
-        "journal": "",
-        "year": "",
-        "rerank_score": 3.881324052810669,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23733987",
+        "text": "Decline in placebo-controlled trial results suggests new directions for comparative effectiveness research. The Affordable Care Act offers strong support for comparative effectiveness research, which entails comparisons among active treatments, to provide the foundation for evidence-based practice. Traditionally, a key form of research into the effectiveness of therapeutic treatments has been placebo-controlled trials, in which a specified treatment is compared to placebo. These trials feature high-contrast comparisons between treatments. Historical trends in placebo-controlled trials have been evaluated to help guide the comparative effectiveness research agenda. We investigated placebo-controlled trials reported in four leading medical journals between 1966 and 2010. We found that there was a significant decline in average effect size or average difference in efficacy (the ability to produce a desired effect) between the active treatment and placebo. On average, recently studied treatments offered only small benefits in efficacy over placebo. A decline in effect sizes in conventional placebo-controlled trials supports an increased emphasis on other avenues of research, including comparative studies on the safety, tolerability, and cost of treatments with established efficacy.",
+        "doi": "10.1377/hlthaff.2012.1353",
+        "journal": "Health affairs (Project Hope)",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.38891032338142395,
+        "score": 0.38891032338142395,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:9653611",
-        "text": "Acarbose in NIDDM patients with poor control on conventional oral agents. A 24-week placebo-controlled study. To determine the efficacy of acarbose, compared with placebo, on the metabolic control of NIDDM patients inadequately controlled on maximal doses of conventional oral agents.",
-        "score": 0.4027540981769562,
-        "doi": "10.2337/diacare.21.7.1154",
-        "journal": "Diabetes care",
-        "year": "1998",
-        "rerank_score": 3.512786865234375,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32582019",
+        "text": "Acarbose With Comparable Glucose-Lowering but Superior Weight-Loss Efficacy to Dipeptidyl Peptidase-4 Inhibitors: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
+        "doi": "10.3389/fendo.2020.00288",
+        "journal": "Frontiers in endocrinology",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.39206579327583313,
+        "score": 0.39206579327583313,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39899873",
-        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
-        "score": 0.41683459281921387,
-        "doi": "10.7326/ANNALS-24-00315",
-        "journal": "Annals of internal medicine",
-        "year": "2025",
-        "rerank_score": 2.941478729248047,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.39459365606307983,
+        "score": 0.39459365606307983,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

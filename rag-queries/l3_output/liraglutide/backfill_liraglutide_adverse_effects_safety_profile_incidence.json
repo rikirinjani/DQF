@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:28387138",
-        "text": "Cardiovascular safety of liraglutide for the treatment of type 2 diabetes. Liraglutide is a GLP-1 RA that is an option for treatment of T2DM. Typical of all new glucose-lowering agents, its CV safety profile is of great interest. Areas covered: This article outlines the efficacy of the GLP-1 RA liraglutide from RCTs, moving through the pivotal phase 3 LEAD trials, and subsequent meta-analyses to assess CV safety. This review describes evolution of regulatory requirements to obtain safety information through",
-        "score": 0.3907530903816223,
-        "doi": "10.1080/14740338.2017.1313225",
-        "journal": "Expert opinion on drug safety",
-        "year": "2017",
-        "rerank_score": 3.663335084915161,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38186650",
+        "text": "Evaluating the bioequivalence and safety of liraglutide injection",
+        "doi": "10.3389/fphar.2023.1326865",
+        "journal": "Frontiers in pharmacology",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3759116530418396,
+        "score": 0.3759116530418396,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:27482610",
-        "text": "EFFECTS OF LIRAGLUTIDE 3.0 MG ON WEIGHT AND RISK FACTORS IN HISPANIC VERSUS NON-HIPANIC POPULATIONS: SUBGROUP ANALYSIS FROM SCALE RANDOMIZED TRIALS. Scarce data exist on pharmacotherapy for obesity in Hispanic individuals. This post hoc analysis of pooled data from 4 phase 3a trials compared the efficacy and safety of liraglutide 3.0 mg versus placebo, as adjunct to a reduced-calorie diet and physical activity, in Hispanic versus non-Hispanic subgroups.",
-        "score": 0.3931267261505127,
-        "doi": "10.4158/EP151181.OR",
-        "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
-        "year": "2016",
-        "rerank_score": 2.926616668701172,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18435773",
+        "text": "Patient-reported rating of gastrointestinal adverse effects during treatment of type 2 diabetes with the once-daily human GLP-1 analogue, liraglutide.",
+        "doi": "10.1111/j.1463-1326.2008.00861.x",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3864721953868866,
+        "score": 0.3864721953868866,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39936458",
-        "text": "Otolaryngologic Side Effects of GLP-1 Receptor Agonists. With the increasing use of GLP-1 receptor agonist (GLP-1 RA) drugs for weight loss and diabetes management, concerns have been raised regarding their potential side effects. We aim to assess the frequency of otolaryngologic adverse events (AEs). Retrospective analysis of national registry. The Food and Drug Administration's Adverse Event Reporting System (FAERS) database was queried for events related to the GLP-1 RA: exenatide, liraglutide, dulagluti",
-        "score": 0.39936381578445435,
-        "doi": "10.1002/lary.32061",
-        "journal": "The Laryngoscope",
-        "year": "2025",
-        "rerank_score": 1.527845025062561,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38357515",
+        "text": "A diabetic patient increased premature ventricular contractions after using liraglutide: a case report. The common adverse reactions of liraglutide are hypoglycemia and gastrointestinal reactions. This case reports a patient with type 2 diabetes mellitus who had an increase in ventricular premature beats after using liraglutide and a decrease in ventricular premature beats after stopping liraglutide, suggesting that clinicians should rule out the possibility of drug-related adverse reactions when using liraglutide in the treatment of diabetes mellitus complicated with coronary heart disease and arrhythmia.",
+        "doi": "10.3389/fcvm.2024.1332754",
+        "journal": "Frontiers in cardiovascular medicine",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3891371488571167,
+        "score": 0.3891371488571167,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

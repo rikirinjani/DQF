@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39851122",
-        "text": "Exploring Drug-Drug Interactions between Losartan and Carbamazepine: A Pharmacokinetic and Pharmacodynamic Study. Hypertension, which affects 1.28 billion people globally aged 30 to 79, is characterized by continuously high blood pressure (140/90 or more) and raises the risk of premature death. Losartan, an angiotensin receptor blocker (ARB), is suggested for patients under the age of 55 who cannot take ACE inhibitors as a first treatment option. Epilepsy, a chronic neurological illness marked by repeated s",
-        "score": 0.38362717628479004,
-        "doi": "10.2174/0113892002358068250119052940",
-        "journal": "Current drug metabolism",
-        "year": "2024",
-        "rerank_score": 1.4824515581130981,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8529329",
+        "text": "Pharmacokinetics of losartan, an angiotensin II receptor antagonist, and its active metabolite EXP3174 in humans. The pharmacokinetics of the angiotensin II receptor antagonist losartan potassium and its active carboxylic acid metabolite EXP3174 were characterized in 18 healthy male subjects after administration of intravenous losartan, intravenous EXP3174, and oral losartan. In these subjects, the average plasma clearance of losartan was 610 ml/min, and the volume of distribution was 34 L. Renal clearance (70 ml/min) accounted for 12% of plasma clearance. Terminal half-life was 2.1 hours. In contrast, the average plasma clearance of EXP3174 was 47 ml/min, and its volume of distribution was 10 L. Renal clearance was 26 ml/min, which accounted for 55% of plasma clearance; terminal half-life was 6.3 hours. After oral administration of losartan, peak concentrations of losartan were reached in 1 hour. Peak concentrations of EXP3174 were reached in 3 1/2 hours. The area under the plasma concentration-time curve of EXP3174 was about four times that of losartan. The oral bioavailability of losartan tablets was 33%. The low bioavailability was mainly attributable to first-pass metabolism. After intravenous or oral administration of losartan the conversion of losartan to the metabolite EXP3174 was 14%.",
+        "doi": "10.1016/0009-9236(95)90020-9",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3715382516384125,
+        "score": 0.3715382516384125,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38775910",
-        "text": "Pharmacokinetics of a Fixed-Dose Combination Product of Amlodipine, Losartan, Ezetimibe, and Rosuvastatin and Its Comparison with Co-administration of Four Individual Components in Healthy Participants. This study aimed to assess and compare the pharmacokinetics, safety, and tolerability of a fixed-dose combination product (FDCP) comprising four different drugs (two antihypertensive drugs, amlodipine and losartan, and two lipid-lowering agents, ezetimibe and rosuvastatin) with their separate tablets. A tota",
-        "score": 0.3988557755947113,
-        "doi": "10.1007/s40268-024-00460-y",
-        "journal": "Drugs in R&D",
-        "year": "2024",
-        "rerank_score": -1.5199021100997925,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17523724",
+        "text": "Pharmacokinetics of Losartan and its Active Metabolite EXP3174 in Healthy Iranian Subjects.",
+        "doi": "10.2165/00044011-200424100-00008",
+        "journal": "Clinical drug investigation",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.40405023097991943,
+        "score": 0.40405023097991943,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:26885213",
-        "text": "Application of back-propagation artificial neural network and curve estimation in pharmacokinetics of losartan in rabbit. In order to develop pharmacokinetic model, a well-known multilayer feed-forward algorithm back-propagation artificial neural networks (BP-ANN) was applied to the pharmacokinetics of losartan in rabbit. The plasma concentrations of losartan in twelve rabbits, which were divided into two groups and given losartan 2 mg/kg by intravenous (Iv) and intragastrical (Ig) administration, were dete",
-        "score": 0.3482130765914917,
+        "id": "PMID:12434539",
+        "text": "Evaluation of irbesartan effects as a function of the time of drug administration.",
         "doi": "",
-        "journal": "International journal of clinical and experimental medicine",
-        "year": "2015",
-        "rerank_score": -1.5282227993011475,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "Proceedings of the Western Pharmacology Society",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.41531991958618164,
+        "score": 0.41531991958618164,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

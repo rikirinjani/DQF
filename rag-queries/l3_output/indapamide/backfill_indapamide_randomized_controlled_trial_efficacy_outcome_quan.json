@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41222871",
-        "text": "Low-Dose Triple-Pill of Telmisartan, Amlodipine, and Indapamide for Initial Hypertension Treatment: A GRADE-Assessed Meta-analysis of Randomized Trials. FDA-approved GMRx2, a single-pill combination of telmisartan, amlodipine, and indapamide, has shown potential for improving blood pressure (BP) control. We assessed the efficacy and safety of low-dose GMRx2 compared to placebo, or standard-care (monotherapy or dual therapy) in mild to moderate hypertension. A meta-analysis of randomized controlled trials (R",
-        "score": 0.4177686870098114,
-        "doi": "10.1007/s40292-025-00751-8",
-        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
-        "year": "2025",
-        "rerank_score": 3.2829089164733887,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11474686",
+        "text": "Significant hypertrophy regression with indapamide sustained release 1.5 mg.",
+        "doi": "",
+        "journal": "Cardiovascular journal of South Africa : official journal for Southern Africa Ca",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.4594863951206207,
+        "score": 0.4594863951206207,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41156295",
-        "text": "Low-Dose Indapamide vs. Hydrochlorothiazide in Idiopathic Hypercalciuria: A Randomized Prospective Trial.",
-        "score": 0.3992762565612793,
-        "doi": "10.3390/jcm14207426",
-        "journal": "Journal of clinical medicine",
-        "year": "2025",
-        "rerank_score": 1.593613624572754,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27487104",
+        "text": "Improving clinical trial design through quantitative pharmacology.",
+        "doi": "",
+        "journal": "Clinical advances in hematology & oncology : H&O",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.4652150869369507,
+        "score": 0.4652150869369507,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41122611",
-        "text": "Real-World Evaluation of the Efficacy and Tolerability of a Fixed-Dose Combination of Amlodipine and Indapamide in Patients Over 55 Years. Isolated systolic hypertension (ISH) is a major cardiovascular risk factor in older adults, yet blood pressure (BP) control remains suboptimal. This study assessed the real-world effectiveness and tolerability of a FDC of indapamide and amlodipine in Bangladeshi patients aged 55 years and older. The COMBINE (COMBination of Indapamide and amlodipiNE) study was an open-lab",
-        "score": 0.40169453620910645,
-        "doi": "10.7759/cureus.92756",
-        "journal": "Cureus",
-        "year": "2025",
-        "rerank_score": -0.4443713426589966,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23447043",
+        "text": "Pharmacokinetics and bioequivalence study of two indapamide formulations after single-dose administration in healthy Chinese male volunteers. The pharmacokinetics and relative bioavailability/bioequivalence of 2 formulations of indapamide were assessed in this paper. The study was conducted in 20 healthy Chinese male volunteers according to an open, randomized, single-blind, 2-way crossover study design with a wash-out phase of 7 days. Blood samples for pharmacokinetic profiling were taken up to 84 h post-dose, and indapamide concentrations in plasma were determined by a validated liquid chromatography-electrospray ionization-mass spectrometry (LC-ESI-MS) method. Based on the plasma concentration-time data of each individual in each period, pharmacokinetic parameters, Cmax, AUC0-τ, AUC0-∞ and t1/2, were calculated by non-compartmental analysis. Pharmacokinetic parameters for test and reference formulations were analyzed statistically to assess bioequivalence of the 2 formulations. The values of Cmax, Tmax, t1/2, AUC0-τ, AUC0-∞ for test and reference formulations were 49.53±5.53 and 47.79±4.68 ng/mL, 1.9±0.6 and 2.0±0.5 h, 22.49±5.93 and 23.23±4.48 h, 859.51±160.92 and 840.90±170.62 ng · h/mL, 934.35±190.60 and 919.52±179.74 ng · h/mL, respectively. The 90% confidence intervals of the T/R-ratios of logarithmically transformed data were within the accepted range of 80-125%. It showed that the 2 formulations of indapamide were bioequivalent. Both preparations were well tolerated and no adverse reactions were found throughout the study.",
+        "doi": "10.1055/s-0032-1331181",
+        "journal": "Drug research",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.4662240445613861,
+        "score": 0.4662240445613861,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
+        "id": "PMID:40844301",
+        "text": "Safety of empagliflozin treatment in four clinical studies: a plain language summary.",
+        "doi": "10.1080/03007995.2025.2547905",
+        "journal": "Current medical research and opinion",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.3307315409183502,
+        "score": 0.3307315409183502,
+        "rerank_score": 1.0
+      },
+      {
         "id": "PMID:38771475",
-        "text": "Safety of Empagliflozin: An Individual Participant-Level Data Meta-Analysis from Four Large Trials. Empagliflozin is a sodium-glucose co-transporter-2 inhibitor used to treat type 2 diabetes (T2D) to improve glycemic control, reduce risk of cardiovascular death in patients with T2D, and treat patients with symptomatic chronic heart failure (HF) and chronic kidney disease (CKD). The safety profile of empagliflozin is well documented, although adverse events (AEs) remain of interest to clinicians. This study ",
-        "score": 0.39126402139663696,
+        "text": "Safety of Empagliflozin: An Individual Participant-Level Data Meta-Analysis from Four Large Trials. Empagliflozin is a sodium-glucose co-transporter-2 inhibitor used to treat type 2 diabetes (T2D) to improve glycemic control, reduce risk of cardiovascular death in patients with T2D, and treat patients with symptomatic chronic heart failure (HF) and chronic kidney disease (CKD). The safety profile of empagliflozin is well documented, although adverse events (AEs) remain of interest to clinicians. This study provides an up-to-date safety evaluation of empagliflozin. Data were pooled from four long-term trials which included: patients with T2D and established cardiovascular disease (EMPA-REG OUTCOME), patients with HF, with/without diabetes (EMPEROR-Reduced and EMPEROR-Preserved), and patients with CKD, with/without diabetes (EMPA-KIDNEY). Since three of the four trials evaluated empagliflozin 10 mg, the meta-analysis was restricted to this dose. Total trial medication exposure was 19,727 patient-years for patients who received empagliflozin (n = 10,472) and 19,447 patient-years for placebo (n = 10,461). The percentages of patients with serious AEs, fatal AEs, and AEs leading to discontinuation were similar for both groups. The incidences of serious urinary tract infection and serious pyelonephritis or urosepsis were similar for both groups but higher for women taking empagliflozin versus placebo. Serious genital infections were not increased with empagliflozin versus placebo. There was a slight increase in ketoacidosis and serious volume depletion in patients who received empagliflozin versus placebo. The occurrence of serious acute kidney injury was lower with empagliflozin versus placebo. Empagliflozin was not associated with an increased incidence of severe hypoglycemia, bone fractures, or lower limb amputations. Empagliflozin is therefore considered safe in people without diabetes, the elderly, patients with very low estimated glomerular filtration rate, low body mass index, and HF. Safety is unaltered by blood pressure, concomitant medication for hypertension, HF, and immunosuppression. This meta-analysis of long-term safety data extends current knowledge and confirms the safety and tolerability of empagliflozin. Empagliflozin is used in adults with type 2 diabetes mellitus (T2D) to improve blood glucose control and in people with T2D and established cardiovascular disease to reduce the risk of death from cardiovascular disease. Also, it is used to treat people with chronic heart failure or chronic kidney disease. Although many clinical trials have shown the effectiveness and safety of empagliflozin, the evaluation of adverse events (AEs) remains of interest. This study further examined the safety of empagliflozin by analyzing four large, long-term clinical trials. These trials included over 20,900 patients with T2D and established cardiovascular disease, patients with heart failure, and patients with chronic kidney disease. Adverse events of interest were pooled and analyzed. Results show the risk of the investigated AEs was similar whether patients had received empagliflozin or placebo. The risk of urinary tract infections, including those that spread to the kidneys, was higher for women taking empagliflozin versus placebo. Ketoacidosis was rare but more frequent in patients taking empagliflozin. A reduction in blood volume was slightly more frequent in people taking empagliflozin versus placebo. The risk of kidney injury was reduced in patients taking empagliflozin versus placebo. The risk of genital infections, hypoglycemia, bone fractures, or lower limb amputations was not increased with empagliflozin. No new safety concerns were raised, including in people who were elderly, had kidney disease, low body weight, T2D, or heart failure. This analysis is consistent with current knowledge of empagliflozin safety in a broad range of patients.",
         "doi": "10.1007/s12325-024-02879-w",
         "journal": "Advances in therapy",
         "year": "2024",
-        "rerank_score": 6.097786903381348,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.345668226480484,
+        "score": 0.345668226480484,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39022025",
-        "text": "Safety assessment of dapagliflozin: Real-world adverse event analysis based on the FAERS database from 2012 to 2023. Dapagliflozin possesses the capacity to cure a wide range of diseases, however, there are many adverse events (AEs) that have not yet been acknowledged or recorded. Safety assessment of dapagliflozin based on the Food and Drug Administration Adverse Event Reporting System (FAERS) database, to explore differences between the reported AEs to provide a overview of the safety profile of dapaglifl",
-        "score": 0.406887024641037,
-        "doi": "10.1016/j.heliyon.2024.e33306",
-        "journal": "Heliyon",
-        "year": "2024",
-        "rerank_score": 5.8442158699035645,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40855136",
-        "text": "Safety and Short-Term Effects of Empagliflozin in Patients with Heart Failure and End-Stage Renal Disease. Our aim was to evaluate the safety of empagliflozin in escalating doses among patients with end-stage renal disease (ESRD) undergoing maintenance hemodialysis who also have heart failure. This single-arm, open-label, dose-escalation study enrolled patients with ESRD on maintenance hemodialysis with heart failure (reduced or preserved ejection fraction) from June to September 2023. Patients sequentially",
-        "score": 0.39765089750289917,
-        "doi": "10.1007/s40256-025-00760-x",
-        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
-        "year": "2025",
-        "rerank_score": 5.355254173278809,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27085585",
+        "text": "Safety and Tolerability of Empagliflozin in Patients with Type 2 Diabetes. The aim of this analysis was to establish the safety profile and tolerability of empagliflozin in patients with type 2 diabetes mellitus (T2DM) according to pooled data from several clinical trials. Pooled data were analyzed from patients with T2DM treated with placebo (n = 3695), empagliflozin 10 mg (n = 3806), or empagliflozin 25 mg (n = 4782) in 17 randomized, Phase I, II, and III clinical trials plus 6 extension studies. Adverse events (AEs) were assessed descriptively in patients who took ≥1 dose of the study drug. AE incidence rates per 100 patient-years were calculated to adjust for differences in drug exposure across trials. Total exposure was 3254, 3840, and 5649 patient-years in the placebo, empagliflozin 10 mg, and empagliflozin 25 mg groups, respectively. The incidence of any AEs, AEs leading to treatment discontinuation, severe AEs, and serious AEs was no higher in patients treated with empagliflozin than with placebo. Empagliflozin was not associated with an increased risk of hypoglycemia versus placebo, except in patients on background sulfonylurea and/or insulin. The incidence of events consistent with urinary tract infection was similar across treatment groups (9.4-11.3/100 patient-years); 0.4%, 0.2%, and 0.3% of patients in the placebo, empagliflozin 10 mg, and empagliflozin 25 mg groups, respectively, had urinary tract infections that required or prolonged hospitalization. The incidence of events consistent with genital infection was higher in patients treated with empagliflozin (4.7 and 5.0/100 patient-years for empagliflozin 10 and 25 mg, respectively) than placebo (1.3/100 patient-years), but only 0.1%, 0.1%, and <0.1% in the placebo, empagliflozin 10 mg, and empagliflozin 25 mg groups, respectively, had genital infections that required or prolonged hospitalization. The incidence of AEs consistent with volume depletion was similar with placebo, empagliflozin 10 mg, and empagliflozin 25 mg (1.6, 1.5, and 1.3/100 patient-years, respectively) and was higher with empagliflozin 25 mg than placebo or empagliflozin 10 mg in patients aged >75 years (4.4 vs 2.3 and 2.5/100 patient-years, respectively). The incidences of bone fractures, malignancies, decreased renal function, hepatic injury, venous thromboembolic events, and diabetic ketoacidosis were low and similar across the treatment groups. In this predefined analysis that was based on >9000 patient-years' exposure to empagliflozin, empagliflozin 10 mg, and empagliflozin 25 mg were well tolerated in patients with T2DM.",
+        "doi": "10.1016/j.clinthera.2016.03.031",
+        "journal": "Clinical therapeutics",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.34730568528175354,
+        "score": 0.34730568528175354,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

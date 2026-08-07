@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40366680",
-        "text": "Spironolactone vs Amiloride for Resistant Hypertension: A Randomized Clinical Trial. Amiloride has been proposed as an alternative to spironolactone for treating resistant hypertension. However, no randomized clinical trials have compared the efficacy of spironolactone and amiloride in patients with resistant hypertension. To determine whether amiloride is noninferior to spironolactone in reducing home-measured systolic blood pressure (SBP) in patients with resistant hypertension. Prospective, open-label, b",
-        "score": 0.3868274986743927,
-        "doi": "10.1001/jama.2025.5129",
-        "journal": "JAMA",
-        "year": "2025",
-        "rerank_score": 6.532406806945801,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31287449",
+        "text": "How effective is spironolactone for treating resistant hypertension?",
+        "doi": "",
+        "journal": "The Journal of family practice",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.3014284372329712,
+        "score": 0.3014284372329712,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:34843183",
-        "text": "The mineralocorticoid receptor blocker spironolactone lowers plasma interferon-γ and interleukin-6 in patients with type 2 diabetes and treatment-resistant hypertension. The mineralocorticoid receptor antagonist spironolactone lowers blood pressure in patients with resistant hypertension despite antihypertensive treatment with angiotensin-converting inhibitors (ACEi) and angiotensin-II receptor blockers (ARB). In preclinical studies, spironolactone suppresses pro-hypertensive interleukin 17A (IL-17A).",
-        "score": 0.35341620445251465,
-        "doi": "10.1097/HJH.0000000000002990",
+        "id": "PMID:21160364",
+        "text": "Antihypertensive efficacy of spironolactone: what about sex?",
+        "doi": "10.1097/HJH.0b013e32834143c6",
         "journal": "Journal of hypertension",
-        "year": "2021",
-        "rerank_score": 6.249214172363281,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.31553253531455994,
+        "score": 0.31553253531455994,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39968509",
-        "text": "Effects of spironolactone on intradialytic hypertension: a multicentre, double-blind, randomized, crossover study. Intradialytic hypertension (IDH) is associated with an increase in hospitalization and mortality. Several studies have shown that spironolactone reduces pre-dialysis blood pressure. However, none evaluated its effect on IDH. This study aims to evaluate the effects of spironolactone on IDH. A 24-week, two-treatment, four-period, multicentre, double-blind, randomized, crossover study was conducte",
-        "score": 0.4208301901817322,
-        "doi": "10.1093/ckj/sfae415",
-        "journal": "Clinical kidney journal",
-        "year": "2024",
-        "rerank_score": 6.087123870849609,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:26221266",
+        "text": "Clinical efficacy of spironolactone for resistant hypertension: a meta analysis from randomized controlled clinical trials. This study sought to determine the current effectiveness and safety of spironolactone for resistant hypertension. Pubmed, EMBASE and Cochrane databases were searched to identify studies that used spironolactone as add-on treatment in resistant hypertension patients. The major outcome is reduction of blood pressure. Three randomized controlled trials, 5 observational study without control group have been identified. At follow-up review, there was a reduction in mean systolic and diastolic blood pressure (BP) respectively, of -20.56 mmHg (95% confidence interval [CI]: -36.47 to -4.65 mmHg) and -6.04 mm Hg (95% CI: -10.24 to -1.85 mm Hg) in controlled study. In uncontrolled studies, at 6-month follow-up, systolic and diastolic BP were reduced -20.73 mm Hg (95% CI: -25.62 to -15.83 mm Hg) and -8.94 mm Hg (95% CI: -10.82 to -7.05 mm Hg, respectively. Spironolactone resulted in the reduction of mean BP in patients with resistant hypertension. The sustained efficacy and safety of spironolactone need to further confirm by large randomized controlled trials with long-term follow-up.",
+        "doi": "",
+        "journal": "International journal of clinical and experimental medicine",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.31887418031692505,
+        "score": 0.31887418031692505,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

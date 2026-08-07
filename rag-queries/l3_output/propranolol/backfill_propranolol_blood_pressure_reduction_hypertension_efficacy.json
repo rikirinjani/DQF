@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41036277",
-        "text": "Blood pressure lowering for prevention of episodic migraine: results of a pilot randomized, placebo-controlled trial of combination blood pressure lowering medication with propranolol. Beta blockers are effective in migraine prevention. Low-dose combination therapy of blood pressure lowering is likely to lower blood pressure more than a beta-blocker, but there are no data on comparative efficacy of these treatments in migraine prophylaxis. A double-blind, randomized, pilot trial in participants with episodi",
-        "score": 0.3396580219268799,
-        "doi": "10.3389/fneur.2025.1630732",
-        "journal": "Frontiers in neurology",
-        "year": "2025",
-        "rerank_score": 5.918598175048828,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15133405",
+        "text": "The antihypertensive efficacy and safety of a chronotherapeutic formulation of propranolol in patients with hypertension. This study evaluated the antihypertensive efficacy and tolerability of a chronotherapeutic formulation of propranolol designed for nighttime dosing (propranolol controlled release [CR]). A total of 434 patients with mild-to-moderate hypertension were randomized to placebo or to one of four doses of propranolol CR (80, 120, 160, or 640 mg/d). At baseline, the mean morning blood pressures were similar in each treatment group and averaged 152/101 mm Hg. After 8 weeks of treatment, morning diastolic blood pressure, the primary efficacy measurement, was significantly reduced from baseline in placebo (-6.98 mm Hg) and all propranolol groups (p<0.001). The decreases ranged from 10.1 mm Hg in the 80-mg/d group to 11.0 mm Hg in the 120-mg/d group and were significantly larger than placebo in the 120-, 160-, and 640-mg/d groups (p<0.05). Blood pressure measured in the evening (trough) demonstrated similar antihypertensive efficacy. Heart rate and rate-pressure product were reduced in a dose-related manner by propranolol CR. The formulation was well tolerated with only fatigue and dizziness being reported more frequently than in the placebo group. Propranolol CR is an effective antihypertensive formulation that may reduce blood pressure during the morning period of maximum cardiovascular risk.",
+        "doi": "10.1111/j.1076-7460.2004.3624.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.37367281317710876,
+        "score": 0.37367281317710876,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40083595",
-        "text": "Posttreatment pulse rate reduction and not baseline pulse rate as an indicator of blood pressure response to nebivolol: a subanalysis from the real-world BENEFIT-KOREA study. This subanalysis of BENEFIT-KOREA cohort assessed the impact of baseline pulse rate (PR) and posttreatment PR reduction on the blood pressure (BP)-lowering efficacy of nebivolol in patients with hypertension. South Korean patients with hypertension were enrolled in the BENEFIT-KOREA study; 3,011 patients received nebivolol as monothera",
-        "score": 0.3981791138648987,
-        "doi": "10.5646/ch.2025.31.e8",
-        "journal": "Clinical hypertension",
+        "id": "PMID:39349176",
+        "text": "Use of propranolol in [",
+        "doi": "10.1016/j.remnie.2024.500068",
+        "journal": "Revista espanola de medicina nuclear e imagen molecular",
         "year": "2024",
-        "rerank_score": 4.517503261566162,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3757065236568451,
+        "score": 0.3757065236568451,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38700308",
-        "text": "β-blockers as the First Line of Treatment for Hypertension Management. β-adrenergic blocker group of medicines has been traditionally used to control high blood pressure since propranolol was discovered by Sir James Black almost 50 years ago. They were the drug of choice in hypertension (HTN) associated with ischemic heart disease, tachyarrhythmias including atrial fibrillation (AF), and anxiety. Congestive cardiac failure was a relative contraindication, but with major advances in science, it became an abs",
-        "score": 0.3973601460456848,
-        "doi": "10.59556/japi.71.0341",
-        "journal": "The Journal of the Association of Physicians of India",
-        "year": "2024",
-        "rerank_score": 4.080663204193115,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12812199",
+        "text": "Optimal use of propranolol.",
+        "doi": "10.1016/s0016-5085(03)00577-8",
+        "journal": "Gastroenterology",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.38139641284942627,
+        "score": 0.38139641284942627,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:23999037",
-        "text": "Results from a 12 months, randomized, clinical trial comparing an olmesartan/amlodipine single pill combination to olmesartan and amlodipine monotherapies on blood pressure and inflammation. Hypertension affects nearly 1 in 3 adults in the United States, and it is an important modifiable risk factor for coronary artery disease, heart failure, renal failure, and stroke. The aim of this study was to evaluate the effects of a fixed-dose olmesartan/amlodipine combination on blood pressure control, lipid profile",
-        "score": 0.38362592458724976,
-        "doi": "10.1016/j.ejps.2013.08.031",
-        "journal": "European journal of pharmaceutical sciences : official journal of the European F",
-        "year": "2013",
-        "rerank_score": 4.3238983154296875,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:24451269",
+        "text": "Effect of olmesartan on blood pressure in patients with hypertension: specification on causality.",
+        "doi": "10.1038/jhh.2013.150",
+        "journal": "Journal of human hypertension",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.37149137258529663,
+        "score": 0.37149137258529663,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38579097",
-        "text": "Comparison of sacubitril/valsartan with olmesartan for hypertension: A meta-analysis of randomized controlled trials. The efficacy of sacubitril/valsartan versus olmesartan remains controversial for the control of hypertension. We conduct a systematic review and meta-analysis to explore the influence of sacubitril/valsartan versus olmesartan on the control of hypertension. We have searched PubMed, Embase, Web of science, EBSCO, and Cochrane library databases through July 2023 for randomized controlled trial",
-        "score": 0.4002543091773987,
-        "doi": "10.1097/MD.0000000000037501",
-        "journal": "Medicine",
-        "year": "2024",
-        "rerank_score": 4.3119730949401855,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16515323",
+        "text": "[Olmesartan: antihypertensive therapy].",
+        "doi": "",
+        "journal": "Krankenpflege Journal",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.38595065474510193,
+        "score": 0.38595065474510193,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:26491273",
-        "text": "Olmesartan vs ramipril in the treatment of hypertension and associated clinical conditions in the elderly: a reanalysis of two large double-blind, randomized studies at the light of the most recent blood pressure targets recommended by guidelines. In this paper, we present the results of a reanalysis of the data of two large randomized, double-blind, parallel group studies with a similar design, comparing the efficacy of an angiotensin-receptor blocker (olmesartan medoxomil) with that of an angiotensin-conv",
-        "score": 0.3839530646800995,
-        "doi": "10.2147/CIA.S88195",
-        "journal": "Clinical interventions in aging",
-        "year": "2015",
-        "rerank_score": 2.876796245574951,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16372830",
+        "text": "Population pharmacokinetics of olmesartan following oral administration of its prodrug, olmesartan medoxomil: in healthy volunteers and hypertensive patients. Olmesartan medoxomil (CS-866) is a new orally active angiotensin II receptor antagonist that is highly selective for the AT1 receptor subtype. To develop a population pharmacokinetic model for olmesartan (RNH-6270), the active metabolite of olmesartan medoxomil, in healthy volunteers and hypertensive patients, and to evaluate effects of covariates on the apparent oral clearance (CL/F), with particular emphasis on the effect of race. Retrospective analysis of data from 12 phase I-III trials in the US, Europe and Japan. Eighty-nine healthy volunteers and 383 hypertensive patients. Nonlinear mixed-effects modelling was used to evaluate 7911 olmesartan plasma sample concentrations. The covariates included age, bodyweight, sex, race (Westerners [including Caucasians and Hispanics] versus Japanese), patient status (hypertensive patients versus healthy volunteers), serum creatinine level as an index of renal function and serum chemistry data as indices of hepatic function. The pharmacokinetic data of olmesartan were well described by a two-compartment linear model with first-order absorption and an absorption lag-time, parameterised in terms of CL/F (6.66 L/h for a typical male Western hypertensive patient), absorption rate constant (1.46h-1), elimination rate constant (0.193h-1), rate constant from the central to peripheral compartment (0.061h-1), rate constant from the peripheral to central compartment (0.079h-1) and absorption lag-time (0.427h). Analysis of covariates showed that age, bodyweight, sex, patient status and renal function were factors influencing the clearance of olmesartan. The population pharmacokinetic analysis of olmesartan showed that: (i) severe renal impairment (serum creatinine >265 micromol/L [approximately 3 mg/dL]) could cause a clearance decrease of > or =30%; (ii) older age, lower bodyweight and being female were determinants of lower clearance but their effects on olmesartan clearance were within 20%; (iii) no statistically significant difference in clearance was found between Westerners and Japanese.",
+        "doi": "10.2165/00003088-200544120-00011",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.39231452345848083,
+        "score": 0.39231452345848083,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

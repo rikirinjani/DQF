@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:28177187",
-        "text": "Efficacy and safety of canagliflozin as add-on therapy to teneligliptin in Japanese patients with type 2 diabetes mellitus: Results of a 24-week, randomized, double-blind, placebo-controlled trial. To investigate efficacy and safety of the sodium-glucose co-transporter 2 (SGLT2) inhibitor canagliflozin administered as add-on therapy to the dipeptidyl peptidase-4 (DPP-4) inhibitor teneligliptin in patients with type 2 diabetes mellitus (T2DM).",
-        "score": 0.38606518507003784,
-        "doi": "10.1111/dom.12898",
+        "id": "PMID:37881140",
+        "text": "Timing of statistical benefit of canagliflozin in patients with type 2 diabetes for cardiovascular and heart failure outcomes: Insights from the CANVAS Program and CREDENCE trial.",
+        "doi": "10.1111/dom.15340",
         "journal": "Diabetes, obesity & metabolism",
-        "year": "2016",
-        "rerank_score": 6.280527591705322,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.33370324969291687,
+        "score": 0.33370324969291687,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40184701",
-        "text": "Immediate and short-term outcomes of in-hospital canagliflozin initiation in acute heart failure: Results from the CANA-AHF randomized clinical trial. Early initiation of empagliflozin, a sodium-glucose cotransporter 2 inhibitor, in acute heart failure (AHF) patients increases urine output, reduces hospital stays, and enhances quality of life post-hospital discharge. This trial aims to investigate the effectiveness and safety of early canagliflozin initiation compared to empagliflozin in hospitalized AHF pa",
-        "score": 0.4002164900302887,
-        "doi": "10.1016/j.hrtlng.2025.03.007",
-        "journal": "Heart & lung : the journal of critical care",
-        "year": "2024",
-        "rerank_score": 5.829215049743652,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30755019",
+        "text": "Effect of canagliflozin use on body weight and blood pressure at one-year follow-up: A systematic review and meta-analysis.",
+        "doi": "10.1177/2047487319829940",
+        "journal": "European journal of preventive cardiology",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.355117529630661,
+        "score": 0.355117529630661,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39216659",
-        "text": "A randomized, open-label, clinical trial examined the effects of canagliflozin on albuminuria and eGFR decline using an individual pre-intervention eGFR slope. Demonstrating drug efficacy in slowing kidney disease progression requires large clinical trials when targeting participants with an early stage of chronic kidney disease (CKD). In this randomized, parallel-group, open-labeled trial (CANPIONE study), we assessed the effect of the sodium-glucose cotransporter 2 (SGLT2) inhibitor canagliflozin using th",
-        "score": 0.4052928686141968,
-        "doi": "10.1016/j.kint.2024.08.019",
-        "journal": "Kidney international",
-        "year": "2024",
-        "rerank_score": 5.0572428703308105,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37227388",
+        "text": "Effect of Canagliflozin on Heart Failure Hospitalization in Diabetes According to Baseline Heart Failure Risk. In the CANVAS (Canagliflozin Cardiovascular Assessment Study) program, canagliflozin reduced the risk of heart failure (HF) hospitalization among individuals with type 2 diabetes mellitus (T2DM). The purpose of this study was to evaluate heterogeneity in absolute and relative treatment effects of canagliflozin on HF hospitalization according to baseline HF risk as assessed by diabetes-specific HF risk scores (WATCH-DM [Weight (body mass index), Age, hyperTension, Creatinine, HDL-C, Diabetes control (fasting plasma glucose) and QRS Duration, MI and CABG] and TRS-HF Participants in the CANVAS trial were categorized into low, medium, and high risk for HF using the WATCH-DM score (for participants without prevalent HF) and the TRS-HF Among 10,137 participants with available HF data, 1,446 (14.3%) had HF at baseline. Among participants without baseline HF, WATCH-DM risk category did not modify the treatment effect of canagliflozin (vs placebo) on HF hospitalization (P interaction = 0.56). However, the absolute and relative risk reduction with canagliflozin was numerically greater in the high-risk group (cumulative incidence, canagliflozin vs placebo: 8.1% vs 12.7%; HR: 0.62 [95% CI: 0.37-0.93]; P = 0.03; number needed to treat: 22) than in the low- and intermediate-risk groups. When overall study participants were categorized according to the TRS-HF Among participants with T2DM, the WATCH-DM and TRS-HF",
+        "doi": "10.1016/j.jchf.2023.03.025",
+        "journal": "JACC. Heart failure",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.3552241325378418,
+        "score": 0.3552241325378418,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

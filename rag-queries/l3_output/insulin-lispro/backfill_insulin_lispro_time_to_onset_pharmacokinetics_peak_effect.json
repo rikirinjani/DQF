@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39778084",
-        "text": "Pharmacokinetic and Pharmacodynamic Equivalence of Biosimilar and Reference Ultra-Rapid Lispro: A Comparative Clamp Study in Healthy Volunteers. Ultra-rapid insulin lispro is an innovative insulin analogue designed to achieve rapid onset and short duration of action, aimed at optimizing glycemic control in patients with diabetes. This was a double-blind, randomized, 2-period, crossover clamp study to evaluate the pharmacokinetics (PK) and pharmacodynamics (PD), along with safety profiles, of a potential bio",
-        "score": 0.3639370799064636,
-        "doi": "10.1002/cpdd.1497",
-        "journal": "Clinical pharmacology in drug development",
+        "id": "PMID:40070573",
+        "text": "Pharmacokinetics and pharmacodynamics of insulin lispro 25 versus the original preparation (Humalog",
+        "doi": "10.3389/fphar.2025.1533548",
+        "journal": "Frontiers in pharmacology",
         "year": "2024",
-        "rerank_score": 3.4492673873901367,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.34638193249702454,
+        "score": 0.34638193249702454,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:10660973",
-        "text": "Safety and efficacy of insulin lispro in patients with diabetes mellitus. Lispro is a human insulin analogue with a very rapid onset of action, and a shorter duration of activity than soluble insulin. In order to assess the therapeutical value of lispro, we have had an open-label, non-comparative study, for 12 weeks, involving 19 IDDM patients. The treatment regimen with lispro and Humulin N has been adapted depending on each patient characteristics. Patients attended three visits, and the main metabolic co",
-        "score": 0.3418886959552765,
+        "id": "PMID:17593235",
+        "text": "Insulin glulisine: a faster onset of action compared with insulin lispro. This randomized, single-centre, double-blind, crossover study compared the pharmacodynamic and pharmacokinetic properties of two different doses of insulin glulisine (glulisine) and insulin lispro (lispro) in lean to obese subjects. Eighty subjects without diabetes, stratified into four body mass index (BMI) classes (<25, >or=25 to <30, >or=30 to <35 and >or=35 kg/m(2)), were randomized to receive single injections of glulisine and lispro (0.2 and 0.4 U/kg) on four study days under glucose clamp conditions. Glucose infusion rates (GIR) and insulin (INS) concentrations were assessed for 10 h postdose. Glulisine showed a greater early metabolic action than lispro [GIR-area under the curve (GIR-AUC) between 0 and 1 h (0.2 U/kg: 102.3 +/- 75.1 vs. 83.1 +/- 72.8 mg/kg, p < 0.05; 0.4 U/kg: 158.0 +/- 100.0 vs. 112.3 +/- 70.8 mg/kg, p < 0.001)], with an earlier time to 10% of total GIR-AUC (0.2 U/kg: 1.4 +/- 0.4 vs. 1.5 +/- 0.4 h; 0.4 U/kg: 1.4 +/- 0.3 vs. 1.5 +/- 0.3 h, p < 0.05). The total metabolic effect was not different between the two insulins. In accordance with these findings, the time to 10% of total INS-AUC was faster with glulisine compared with lispro at either dose (0.2 U/kg: 0.7 +/- 0.2 vs. 0.8 +/- 0.2 h; 0.4 U/kg: 0.8 +/- 0.2 vs. 0.9 +/- 0.2 h, p < 0.001). The faster rise in insulin concentrations and the earlier onset of activity of glulisine vs. lispro was consistently observed in each individual BMI class. Glulisine shows a faster onset of action than lispro, independent of BMI and dose.",
+        "doi": "10.1111/j.1463-1326.2007.00746.x",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3537483215332031,
+        "score": 0.3537483215332031,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:8906134",
+        "text": "Lispro, a rapid-onset insulin.",
         "doi": "",
-        "journal": "Romanian journal of internal medicine = Revue roumaine de medecine interne",
-        "year": "2000",
-        "rerank_score": 1.7569493055343628,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:12518253",
-        "text": "Differences in pharmacokinetics and pharmacodynamics of insulin lispro and aspart in healthy volunteers. Pharmacokinetic and pharmacodynamic profiles of the rapid-acting insulin analogues lispro and aspart were compared in a randomized, double-blind crossover study of 20 fasting healthy men following a single subcutaneous injection. Either insulin lispro or aspart, 0.05 U/kg-body-weight, was injected subcutaneously and followed by determination of 5-h profiles of plasma glucose, serum C-peptide and insulin ",
-        "score": 0.3437449634075165,
-        "doi": "10.1055/s-2002-36428",
-        "journal": "Experimental and clinical endocrinology & diabetes : official journal, German So",
-        "year": "2003",
-        "rerank_score": 0.5978549718856812,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3603235185146332,
+        "score": 0.3603235185146332,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

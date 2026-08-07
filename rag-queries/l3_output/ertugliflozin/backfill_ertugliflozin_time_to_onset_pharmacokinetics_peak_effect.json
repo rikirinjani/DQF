@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:37955156",
-        "text": "Longitudinal efficacy of Ertugliflozin in type 2 diabetes mellitus: a meta-analysis of randomized controlled trials. Ertugliflozin, a sodium-glucose cotransporter-2 inhibitor, seems to improve glycemic control in type 2 diabetes mellitus (T2DM). We aim to evaluate the efficacy of Ertugliflozin across multiple time intervals (18, 26, and 52 weeks) in T2DM patients. A literature search was conducted on electronic databases. Data was extracted from eligible studies at both 5 mg and 15 mg doses in monotherapy a",
-        "score": 0.3589329123497009,
-        "doi": "10.1080/14656566.2023.2279100",
-        "journal": "Expert opinion on pharmacotherapy",
-        "year": "2024",
-        "rerank_score": 1.8949871063232422,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31057225",
+        "text": "Overview of Ertugliflozin.",
+        "doi": "10.2337/cd18-0097",
+        "journal": "Clinical diabetes : a publication of the American Diabetes Association",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.35456013679504395,
+        "score": 0.35456013679504395,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40386055",
-        "text": "Population Pharmacokinetic-pharmacodynamic Model Analysis of Dapagliflozin for HbA1c-lowering Effects in Japanese Patients with Type 2 Diabetes Mellitus using Long-term Real-world Data.",
-        "score": 0.3621397614479065,
-        "doi": "10.7150/ijms.111519",
-        "journal": "International journal of medical sciences",
-        "year": "2025",
-        "rerank_score": -1.2761273384094238,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34128274",
+        "text": "The effect of morning versus evening administration of empagliflozin on its pharmacokinetics and pharmacodynamics characteristics in healthy adults: a two-way crossover, non-randomised trial.",
+        "doi": "10.1111/den.14014",
+        "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscop",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.36378976702690125,
+        "score": 0.36378976702690125,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41077870",
-        "text": "Pharmacokinetics and Bioequivalence of two Empagliflozin Tablet Formulations: Results From a Randomized, Open-Label, Crossover Study in Fasting Healthy Volunteers. This study aimed to assess the bioequivalence of a newly developed generic formulation of empagliflozin in comparison with the reference product. A total of 32 healthy adult volunteers participated in an open-label, randomized, balanced, two-treatment, two-sequence, two-period crossover study. Following an overnight fast, each participant receive",
-        "score": 0.37566623091697693,
-        "doi": "10.1002/cpdd.1614",
-        "journal": "Clinical pharmacology in drug development",
-        "year": "2025",
-        "rerank_score": -1.991605281829834,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34223210",
+        "text": "Population Pharmacokinetic Analyses of Ertugliflozin in Select Ethnic Populations. Ertugliflozin, a sodium-glucose cotransporter 2 inhibitor, is approved for treatment of type 2 diabetes. Two population pharmacokinetic (PK) analyses were conducted, using data from up to 17 phase 1 to 3 studies, to characterize ertugliflozin PK parameters in select ethnic subgroups: (1) East/Southeast (E/SE) Asian vs non-E/SE Asian subjects; (2) Asian subjects from mainland China vs Asian subjects from the rest of the world and non-Asian subjects. A 2-compartment model with first-order absorption, lag time, and first-order elimination was fitted to the observed data. For the E/SE Asian vs non-E/SE Asian analysis (13 692 PK observations from 2276 subjects), E/SE Asian subjects exhibited a 17% increase in apparent clearance (CL/F) and 148% increase in apparent central volume of distribution (Vc/F) vs non-E/SE Asian subjects. However, individual post hoc CL/F values were similar between groups when body weight differences were considered. For the second analysis (16 018 PK observations from 2620 subjects), compared with non-Asian subjects, CL/F was similar while Vc/F increased by 44% in Asian subjects from mainland China and both CL/F and Vc/F increased in Asian subjects from the rest of the world (8% and 115%, respectively) vs non-Asian subjects. Increases in Vc/F would decrease the ertugliflozin maximum concentration but would not impact area under the concentration-time curve. Therefore, the differences in CL/F (area under the concentration-time curve) and Vc/F were not considered clinically relevant or likely to result in meaningful ethnic differences in the PK of ertugliflozin.",
+        "doi": "10.1016/j.xfre.2020.03.004",
+        "journal": "F&S reports",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.37095239758491516,
+        "score": 0.37095239758491516,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

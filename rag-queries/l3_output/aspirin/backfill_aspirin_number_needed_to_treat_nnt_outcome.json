@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.4169130325317383,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 4.404656887054443,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12638472",
+        "text": "[Antiaggregation: aspirin]. Many randomized trials have shown aspirin as an effective antiplatelet drug for the secondary prevention of cardiovascular events. The NNT (number needed to treat) to prevent 1 vascular event is about 25. The NNH (number needed to harm) inducing one cerebral bleeding is about 1'000, to provoke one severe extracerebral bleeding about 100-200. The primary prevention can be recommended only for high risk patients for cardiovascular events (annual risk of 1-1.5% or more), calculated on the basis of the Framingham data, the Sheffield tables or in analysis of U.S. Preventive Services Task Force. The mechanisms of action, interactions and the \"aspirin-resistance\" are briefly discussed.",
+        "doi": "10.1024/0040-5930.60.1.15",
+        "journal": "Therapeutische Umschau. Revue therapeutique",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.39024797081947327,
+        "score": 0.39024797081947327,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41107892",
-        "text": "Long-term aspirin use and perioperative outcomes in lumbar interbody fusion: a population-based study using US national inpatient sample database. To evaluate the impact of long-term aspirin use (L-AU) on perioperative outcomes in Lumbar interbody fusion (LIF) using the US National Inpatient Sample (NIS) database. Data from 485,224 LIF patients (2010-2019) were extracted from the NIS. A 1:1 propensity score matching (PSM) was performed to balance baseline characteristics between L-AU and non-L-AU groups. Mu",
-        "score": 0.4101068675518036,
-        "doi": "10.1186/s13018-025-06261-6",
-        "journal": "Journal of orthopaedic surgery and research",
-        "year": "2025",
-        "rerank_score": -1.601108431816101,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3999007046222687,
+        "score": 0.3999007046222687,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40550264",
-        "text": "Outcomes of aspirin allergy evaluation in cardiac patients presenting with non-ST-elevation myocardial infarction.",
-        "score": 0.42908966541290283,
-        "doi": "10.1016/j.anai.2025.06.023",
-        "journal": "Annals of allergy, asthma & immunology : official publication of the American Co",
-        "year": "2025",
-        "rerank_score": -1.7189069986343384,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29066520",
+        "text": "What dose of aspirin should be used in the initial treatment of Kawasaki disease?",
+        "doi": "10.1136/archdischild-2017-313538",
+        "journal": "Archives of disease in childhood",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.4227875769138336,
+        "score": 0.4227875769138336,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

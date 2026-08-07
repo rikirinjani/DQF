@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40516012",
-        "text": "Determining the Optimal Dosing of Methyldopa in Pregnancy-Induced Hypertension Using PBPK-PD Modeling. Pregnancy-induced hypertension is a significant risk factor for adverse maternal and fetal outcomes, with methyldopa being a commonly prescribed antihypertensive for its safety profile. However, the physiological changes during pregnancy may alter the pharmacokinetics (PK) and pharmacodynamics (PD) of methyldopa, complicating the establishment of optimal dosing regimens. This study aims to develop and vali",
-        "score": 0.423667311668396,
-        "doi": "10.1007/s40262-025-01523-2",
-        "journal": "Clinical pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -2.620363235473633,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20789624",
+        "text": "Methyldopa in Hypertension.",
+        "doi": "",
+        "journal": "British medical journal",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.3172973394393921,
+        "score": 0.3172973394393921,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39801449",
-        "text": "Impact of Daytime and Nighttime Blood Pressure and Nocturnal Blood Pressure Fall on Heart Failure Risk in Treated Hypertension. To evaluate the impact of daytime, nighttime, and nocturnal blood pressures (BPs) fall on heart failure (HF). We analyzed data from five cohorts including 15,526 treated hypertensive patients, experiencing 625 HF events, by study-level meta-analysis. The pooled hazard ratios (HRs) and 95% confidence intervals (CIs) for 1SD increase in BP parameters or per group were calculated. Whe",
-        "score": 0.41222915053367615,
-        "doi": "10.1093/ajh/hpaf008",
-        "journal": "American journal of hypertension",
-        "year": "2024",
-        "rerank_score": -6.501408100128174,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20789628",
+        "text": "Methyldopa in the Treatment of Hypertension.",
+        "doi": "10.1136/bmj.1.5326.295",
+        "journal": "British medical journal",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.3437260687351227,
+        "score": 0.3437260687351227,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40249367",
-        "text": "Systolic blood pressure variability: risk of cardiovascular events, chronic kidney disease, dementia, and death. Earlier studies evaluated the association between systolic blood pressure variability (SBPV) measured during a single period and risk of health outcomes. This study expanded upon existing evidence by examining the association between changes in SBPV over time and clinical outcomes in primary care settings. Visit-to-visit SBPV was determined as standard deviation of ≥3 systolic blood pressure valu",
-        "score": 0.42116260528564453,
-        "doi": "10.1093/eurheartj/ehaf256",
-        "journal": "European heart journal",
-        "year": "2024",
-        "rerank_score": -6.7183942794799805,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19821316",
+        "text": "Methyldopa for primary hypertension. Hypertension is associated with an increased risk of stroke, myocardial infarction and congestive heart failure. Methyldopa is a centrally acting antihypertensive agent, which was commonly used in the 1970's and 80's for blood pressure control. Its use at present has largely been replaced by antihypertensive drug classes with less side effects, but it is still used in developing countries due to its low cost. A review of its relative effectiveness compared to placebo on surrogate and clinical outcomes is justified. To quantify the effect of methyldopa compared to placebo in randomized controlled trials (RCTs) on all cause mortality, cardiovascular mortality, serious adverse events, myocardial infarctions, strokes, withdrawals due to adverse effects and blood pressure in patients with primary hypertension. We searched the following databases: Cochrane Central Register of Controlled Trials (1960-June 2009), MEDLINE (2005-June 2009), and EMBASE (2007-June 2009). Bibliographic citations from retrieved studies were also reviewed. No language restrictions were applied. We selected RCTs studying patients with primary hypertension. We excluded studies of patients with secondary hypertension or gestational hypertension. Two reviewers independently extracted data and assessed trial quality using the risk of bias tool. Data synthesis and analysis was performed using RevMan 5. Data for blood pressure were combined using the generic inverse variance method. Twelve trials (N=595) met the inclusion criteria for this review. None of these studies evaluated the effects of methyldopa compared to placebo on mortality and morbidity outcomes. Data for withdrawals due to adverse effects were not reported in a way that permitted meaningful meta-analysis. Data from six of the twelve trials (N=231) were combined to evaluate the blood pressure lowering effects of methyldopa compared to placebo. This meta-analysis shows that methyldopa at doses ranging from 500-2250 mg daily lowers systolic and diastolic blood pressure by a mean of 13 (95%CI 6-20) / 8 (95% CI 4-13) mmHg. Overall, the risk of bias was considered moderate. Methyldopa lowers blood pressure to varying degrees compared to placebo for patients with primary hypertension. Its effect on clinical outcomes, however, remains uncertain.",
+        "doi": "10.1002/14651858.CD003893.pub3",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.3922949433326721,
+        "score": 0.3922949433326721,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

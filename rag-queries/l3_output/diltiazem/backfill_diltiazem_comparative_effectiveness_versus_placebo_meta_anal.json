@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:7036710",
-        "text": "Efficacy of diltiazem in angina on effort: a multicenter trial. During a multicenter study 57 patients with exercise-induced angina were evaluated with serial exercise testing to assess the efficacy of diltiazem, a calcium slow channel blocking agent, compared with a placebo. The study consisted of a 1 week single-blind placebo stabilization period followed by a double-blind triple crossover between diltiazem and placebo. Three dose levels were tested (120, 180 and 240 mg/day) in each patient. For the three",
-        "score": 0.37736719846725464,
-        "doi": "10.1016/s0002-9149(82)80013-1",
-        "journal": "The American journal of cardiology",
-        "year": "1982",
-        "rerank_score": 5.074490070343018,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.41534411907196045,
+        "score": 0.41534411907196045,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:1907056",
-        "text": "[Ineffectiveness of diltiazem in Duchenne muscular dystrophy: a placebo-controlled double-blind study]. In a randomized double-blind study the clinical efficacy of the calcium channel blocker, diltiazem was compared to that of a placebo on the clinical course of Duchenne's dystrophy (DMD) over a 12-month period. Altogether 30 patients, mostly in an advanced state of the disease, were evaluated. The 17 patients in the diltiazem group received 90-360 mg diltiazem per day according to their body weight; the 13",
-        "score": 0.37799346446990967,
-        "doi": "",
-        "journal": "Wiener klinische Wochenschrift",
-        "year": "1991",
-        "rerank_score": 4.60598087310791,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37889203",
+        "text": "Effect of Diltiazem Versus Placebo on Microvascular Dysfunction Assessed By Repeated Continuous Thermodilution Measurements: Results of the EDIT-CMD Trial.",
+        "doi": "10.1161/JAHA.123.030188",
+        "journal": "Journal of the American Heart Association",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.4279780685901642,
+        "score": 0.4279780685901642,
+        "rerank_score": 0.95
       },
       {
         "id": "PMID:9551874",
-        "text": "A placebo-controlled comparison of diltiazem and amlodipine monotherapy in essential hypertension using 24-h ambulatory monitoring. Thirty patients (17 females, median age 55 years) with mild/moderate hypertension (sitting diastolic blood pressure 95-110 mmHg over 2 consecutive weeks) participated in a study of the efficacy and tolerability of once-daily diltiazem \"controlled delivery\" 180 mg-360 mg and amlodipine 5-10 mg compared with placebo (using clinic and 24-h ambulatory blood pressure measurement (Ac",
-        "score": 0.37661466002464294,
+        "text": "A placebo-controlled comparison of diltiazem and amlodipine monotherapy in essential hypertension using 24-h ambulatory monitoring. Thirty patients (17 females, median age 55 years) with mild/moderate hypertension (sitting diastolic blood pressure 95-110 mmHg over 2 consecutive weeks) participated in a study of the efficacy and tolerability of once-daily diltiazem \"controlled delivery\" 180 mg-360 mg and amlodipine 5-10 mg compared with placebo (using clinic and 24-h ambulatory blood pressure measurement (Accutraker II). The study was conducted in a general practice setting using a randomized double-blind crossover design with Latin square allocation of treatment order within subjects. During each phase, doses were titrated to achieve a predose clinic sitting diastolic blood pressure of 90 mmHg. Three patients withdrew while taking amlodipine and 3 while taking placebo. The numbers of patients receiving the higher dose in each phase were as follows: placebo 22, diltiazem 12 and amlodipine 19. End-of-phase mean clinic sitting blood pressures were as follows: placebo 152/100, diltiazem 146/95 and amlodipine 140/93. End-of-phase mean 24-h ambulatory blood pressures were as follows: placebo 151/93, diltiazem 143/86 and amlodipine 137/84. Both clinic and ambulatory blood pressures were therefore significantly reduced (p < 0.01) in both active phases compared with placebo, and systolic blood pressure was also significantly lower with amlodipine compared with diltiazem. Heart rate was increased with amlodipine. Both drugs were well tolerated, and adverse events were predictable for each agent, with amlodipine causing more vasodilator side effects. Thus both amlodipine and diltiazem once-daily are effective in reducing blood pressure. While amlodipine is more potent than diltiazem in reducing systolic blood pressure, it causes more vasodilator side effects.",
         "doi": "10.1080/080370598437538",
         "journal": "Blood pressure",
         "year": "1998",
-        "rerank_score": 4.292367935180664,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.4309021532535553,
+        "score": 0.4309021532535553,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

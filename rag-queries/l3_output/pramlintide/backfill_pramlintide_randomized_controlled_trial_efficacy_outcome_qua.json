@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:9493258",
-        "text": "Estimating the causal effect of compliance on binary outcome in randomized controlled trials. We examine likelihood based methods aimed at analysing the causal effect of actual exposure to drug treatment on a (repeated) binary outcome in two randomized trials with partial compliance. Starting with the univariate compliance summary 'total treatment dose history', we apply a method for ordinal compliance and monotone dose response, proposed by Goetghebeur and Molenberghs. In a short duration trial of blood pr",
-        "score": 0.3976459205150604,
-        "doi": "10.1002/(sici)1097-0258(19980215)17:3<34",
-        "journal": "Statistics in medicine",
-        "year": "1998",
-        "rerank_score": 1.8209381103515625,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19244569",
+        "text": "Psychometric properties of an instrument for assessing treatment satisfaction associated with pramlintide use. The clinical benefits of any new treatment depend substantially on patient acceptance and treatment satisfaction, because only well-accepted treatments will be widely used. Thus, it is important to understand how patients experience a new treatment. This study assessed the psychometric properties of a questionnaire (PRAM-TSQ) designed to measure treatment satisfaction in patients using pramlintide (an analog of amylin, a glucoregulatory hormone co-secreted with insulin), which is designed to improve glucose control. Patients with diabetes completed the 14-item PRAM-TSQ at the end of 2 separate placebo-controlled, double-blind, randomized clinical trials in which they added active or placebo pramlintide to their established insulin regimen. Factor analysis was used to assess item clustering for the PRAM-TSQ, and the Cronbach's alpha measure of inter-item agreement was used to assess scale reliability. PRAM-TSQ validity was assessed by comparing scores between treatment arms, and effect sizes were measured by the eta statistic. Validity was also assessed by associations (Pearson correlations) between the PRAM-TSQ and clinical study outcomes (end of study values and during study changes in clinical measures: postprandial glucose [PPG], A1C, weight, and insulin requirements). Scaling revealed 4 PRAM-TSQ components: Global Benefits, Specific Benefits, Absence of Side Effects, Treatment Preference. The total composite PRAM-TSQ had good reliability in both studies (type 1 alpha = .93; type 2 alpha = .94); subscale reliabilities ranged from .65 to 94. Composite scores differed for pramlintide-treated and placebo-treated patients (type 1 P < .01; type 2 P < .05), and were associated with lower PPG, weight, and insulin requirements (all P < .05). Results were similar for PRAM-TSQ subscales assessing Global Benefits and Treatment Preference; Specific Benefits subscale scores were associated with lower PPG and weight (all P < .05). The PRAM-TSQ shows evidence of being a valid, reliable instrument for assessing treatment satisfaction in patients using pramlintide. The subscales are comprehensive and sensitive to the known potential effects of pramlintide treatment. Diabetes educators can use patient responses to the PRAM-TSQ to facilitate treatment adherence by reminding patients of treatment benefits they experience and by helping patients overcome negative effects they report.",
+        "doi": "10.1177/0145721708326989",
+        "journal": "The Diabetes educator",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.4283539354801178,
+        "score": 0.4283539354801178,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:22714785",
-        "text": "Incorporating prognostic factors into causal estimators: a comparison of methods for randomised controlled trials with a time-to-event outcome. In randomised controlled trials, the effect of treatment on those who comply with allocation to active treatment can be estimated by comparing their outcome to those in the comparison group who would have complied with active treatment had they been allocated to it. We compare three estimators of the causal effect of treatment on compliers when this is a parameter i",
-        "score": 0.39632248878479004,
-        "doi": "10.1002/sim.5411",
-        "journal": "Statistics in medicine",
-        "year": "2011",
-        "rerank_score": 0.35101979970932007,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12017422",
+        "text": "Pramlintide: an agent for glycemic control plus weight control?",
+        "doi": "10.1089/15209150252924102",
+        "journal": "Diabetes technology & therapeutics",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.44116708636283875,
+        "score": 0.44116708636283875,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39313076",
-        "text": "A meta-epidemiological analysis of post-hoc comparisons and primary endpoint interpretability among randomized noncomparative trials in clinical medicine. Randomized noncomparative trials (RNCTs) promise reduced accrual requirements vs randomized controlled comparative trials because RNCTs do not enroll a control group and instead compare outcomes to historical controls or prespecified estimates. We hypothesized that RNCTs often suffer from two methodological concerns: (1) lack of interpretability due to gr",
-        "score": 0.4179382026195526,
-        "doi": "10.1016/j.jclinepi.2024.111540",
-        "journal": "Journal of clinical epidemiology",
-        "year": "2024",
-        "rerank_score": -1.8819382190704346,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37940642",
+        "text": "A standardized metric to enhance clinical trial design and outcome interpretation in type 1 diabetes. The use of a standardized outcome metric enhances clinical trial interpretation and cross-trial comparison. If a disease course is predictable, comparing modeled predictions with outcome data affords the precision and confidence needed to accelerate precision medicine. We demonstrate this approach in type 1 diabetes (T1D) trials aiming to preserve endogenous insulin secretion measured by C-peptide. C-peptide is predictable given an individual's age and baseline value; quantitative response (QR) adjusts for these variables and represents the difference between the observed and predicted outcome. Validated across 13 trials, the QR metric reduces each trial's variance and increases statistical power. As smaller studies are especially subject to random sampling variability, using QR as the outcome introduces alternative interpretations of previous clinical trial results. QR can provide model-based estimates that quantify whether individuals or groups did better or worse than expected. QR also provides a purer metric to associate with biomarker measurements. Using data from more than 1300 participants, we demonstrate the value of QR in advancing disease-modifying therapy in T1D. QR applies to any disease where outcome is predictable by pre-specified baseline covariates, rendering it useful for defining responders to therapy, comparing therapeutic efficacy, and understanding causal pathways in disease.",
+        "doi": "10.1038/s41467-023-42581-z",
+        "journal": "Nature communications",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.4489905536174774,
+        "score": 0.4489905536174774,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

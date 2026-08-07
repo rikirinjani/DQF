@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41345378",
-        "text": "Transdermal Clonidine for Hypertension: An Underutilized Ally in the Modern Era. Despite advancements in pharmacological strategies, blood pressure (BP) control remains unsatisfactory in a significant proportion of hypertensive patients. This may be related to the multifactorial pathogenesis of hypertension, which makes treatment challenging and often requires the use of multiple BP-lowering pills that can reduce adherence. Transdermal clonidine, a central α₂-adrenergic agonist, offers a unique antihyperten",
-        "score": 0.41614410281181335,
-        "doi": "10.1007/s40292-025-00770-5",
-        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
-        "year": "2025",
-        "rerank_score": 5.43303108215332,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:35339725",
+        "text": "Safety And Efficacy of Clonidine for Acute Hypertensive Urgency in an Older and Hospitalized Population.",
+        "doi": "10.1016/j.slasd.2022.03.006",
+        "journal": "SLAS discovery : advancing life sciences R & D",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.3801446557044983,
+        "score": 0.3801446557044983,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39291839",
-        "text": "Emergency Department and Critical Care Use of Clevidipine for Treatment of Hypertension in Patients With Acute Stroke. Clevidipine is a parenteral dihydropyridine calcium channel blocker that received Food and Drug Administration approval in 2008 for the reduction of blood pressure (BP) when oral therapy is not feasible or not desirable. Soon after approval, our institution incorporated clevidipine into protocols for the management of hypertension among acute stroke patients, based on the drug's rapid onset",
-        "score": 0.4370955228805542,
-        "doi": "10.1097/HPC.0000000000000375",
-        "journal": "Critical pathways in cardiology",
-        "year": "2025",
-        "rerank_score": 3.3960118293762207,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11408403",
+        "text": "Normalization of blood pressure in a patient with severe orthostatic hypotension and supine hypertension using clonidine.",
+        "doi": "10.1161/01.hyp.37.6.e24",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.3812585771083832,
+        "score": 0.3812585771083832,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41085098",
-        "text": "Efficacy and Safety of a Generic Clevidipine in Hypertensive Urgencies and Non-Fulminant Hypertensive Emergencies: A Phase III, Multicenter, Randomized, Double-Blind, Positive Drug Parallel-Controlled Study. Hypertensive crises require rapid blood pressure control to prevent stroke and myocardial injury. Despite Cleviprex's efficacy, its high cost limits accessibility in China. This Phase III, multicenter, randomized, double-blind study evaluated the efficacy and safety of a generic clevidipine (China's fir",
-        "score": 0.42065298557281494,
-        "doi": "10.1111/jch.70144",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
-        "year": "2025",
-        "rerank_score": 3.101206064224243,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15883756",
+        "text": "Clonidine lowers blood pressure by reducing vascular resistance and cardiac output in young, healthy males. Clonidine is a classical sympatholytic drug that is widely used for the treatment of hypertension. Experimental and clinical studies suggest that Clonidine may activate baroreflex. The aim of this study was to determine the hemodynamic response to Clonidine under physiological conditions and to test the hypothesis that Clonidine would reduce cardiac output and blood pressure resulting in an increase in total peripheral resistance. Clonidine's hemodynamic effect was evaluated in 28 young, healthy subjects after a single i.v. dose of 1 microg x kg(- 1). Impedance cardiography, systolic time intervals and pulse wave analysis were used to characterize myocardial and vascular function. Clonidine lowered blood pressure, heart rate, left ventricular ejection time, and pulse wave velocity and increased pre-ejection period. Stroke volume and cardiac output decreased gradually over the investigation time of 240 min. Central systolic blood pressure (SBP) was lowered to a larger extent than peripheral SBP. Total peripheral resistance was characterized by an immediate fall of short duration followed by a continuous rise above baseline after 120 min. Placebo did not have any significant effect on hemodynamic parameters. Clonidine's blood pressure lowering effect is mediated by both an immediate decrease in vascular resistance and a prolonged decrease in cardiac output, and Clonidine lowers central SBP more than peripheral SBP.",
+        "doi": "10.1007/s10557-005-6890-6",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3968842327594757,
+        "score": 0.3968842327594757,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

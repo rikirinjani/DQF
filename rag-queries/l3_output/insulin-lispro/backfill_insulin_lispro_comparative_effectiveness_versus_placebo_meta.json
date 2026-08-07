@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38976545",
-        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
-        "score": 0.3776349723339081,
-        "doi": "10.1097/MJT.0000000000001743",
-        "journal": "American journal of therapeutics",
-        "year": "2024",
-        "rerank_score": 4.70508337020874,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29471700",
+        "text": "Methodological concerns with the meta-analysis comparing insulin degludec/liraglutide and insulin glargine/lixisenatide.",
+        "doi": "10.1080/14656566.2018.1444882",
+        "journal": "Expert opinion on pharmacotherapy",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.31247085332870483,
+        "score": 0.31247085332870483,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:17112621",
-        "text": "A review of human and analogue insulin trials. A recent meta-analysis evaluated trials of the rapid-acting analogues insulin lispro and insulin aspart, performed before the introduction of the basal analogues, insulin glargine and insulin detemir. This article reviews the effect of rapid-acting and basal insulin analogues separately and in combination, relative to human insulin. Outcomes evaluated include HbA(1c), hypoglycaemia, postprandial glucose (PPG), and weight changes. Results from trials that matche",
-        "score": 0.35022905468940735,
-        "doi": "10.1016/j.diabres.2006.10.015",
-        "journal": "Diabetes research and clinical practice",
-        "year": "2006",
-        "rerank_score": 3.0469846725463867,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27202668",
+        "text": "Premixed Insulin Lispro Versus Insulin Glargine In Type 2 Diabetes: A Meta-Analysis.",
+        "doi": "10.1016/j.jval.2014.08.141",
+        "journal": "Value in health : the journal of the International Society for Pharmacoeconomics",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.3167867064476013,
+        "score": 0.3167867064476013,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38774225",
-        "text": "Ultra rapid lispro improves postprandial glucose control versus lispro in combination with basal insulin: a study based on CGM in type 2 diabetes in China. To evaluate the efficacy and safety of URLi (ultra rapid lispro insulin) compared to insulin lispro as bolus insulin with basal insulin using CGM in the individuals with type 2 diabetes(T2D) in China. This was a double-blind, randomized, parallel, prospective, phase 3 study. Subjects with uncontrolled T2D were recruited and randomized 1:2 into the insuli",
-        "score": 0.3726770579814911,
-        "doi": "10.3389/fendo.2024.1364585",
-        "journal": "Frontiers in endocrinology",
-        "year": "2024",
-        "rerank_score": 2.0536553859710693,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25612348",
+        "text": "[Efficacy and safety of insulin lispro in obese patients with type 2 diabetes mellitus: a retrospective metaanalysis of 7 randomized controlled trials].",
+        "doi": "",
+        "journal": "Vnitrni lekarstvi",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.3393700420856476,
+        "score": 0.3393700420856476,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

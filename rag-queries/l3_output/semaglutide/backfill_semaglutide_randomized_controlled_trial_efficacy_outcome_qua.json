@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:32333875",
-        "text": "Dose-response, efficacy, and safety of oral semaglutide monotherapy in Japanese patients with type 2 diabetes (PIONEER 9): a 52-week, phase 2/3a, randomised, controlled trial. Given the unique phenotype of type 2 diabetes in Japanese patients, novel therapies such as oral semaglutide require evaluation in this population. PIONEER 9 aimed to assess the dose-response of oral semaglutide and to compare the efficacy and safety of oral semaglutide with placebo and a subcutaneous GLP-1 receptor agonist in a Japan",
-        "score": 0.3695761561393738,
-        "doi": "10.1016/S2213-8587(20)30075-9",
-        "journal": "The lancet. Diabetes & endocrinology",
-        "year": "2019",
-        "rerank_score": 4.212341785430908,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:39218241",
+        "text": "Six Substudies From the Semaglutide Trials: Identifying Mechanisms of Benefit and Whom to Treat.",
+        "doi": "10.1016/j.jacc.2024.08.038",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.30314749479293823,
+        "score": 0.30314749479293823,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:33318068",
-        "text": "Long-term efficacy and safety of oral semaglutide and the effect of switching from sitagliptin to oral semaglutide in patients with type 2 diabetes: a 52-week, randomized, open-label extension of the PIONEER 7 trial. The PIONEER 7 trial demonstrated superior glycemic control and weight loss with once-daily oral semaglutide with flexible dose adjustment versus sitagliptin 100 mg in type 2 diabetes. This 52-week extension evaluated long-term oral semaglutide treatment and switching from sitagliptin to oral se",
-        "score": 0.39599716663360596,
-        "doi": "10.1136/bmjdrc-2020-001649",
-        "journal": "BMJ open diabetes research & care",
-        "year": "2020",
-        "rerank_score": 4.129045009613037,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:35532920",
+        "text": "Semaglutide in routine clinical practice: interesting news from real-world evidence.",
+        "doi": "10.1001/jamapediatrics.2022.1060",
+        "journal": "JAMA pediatrics",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.33421435952186584,
+        "score": 0.33421435952186584,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:29246950",
-        "text": "Efficacy and Safety of Once-Weekly Semaglutide Versus Exenatide ER in Subjects With Type 2 Diabetes (SUSTAIN 3): A 56-Week, Open-Label, Randomized Clinical Trial. To compare the efficacy and safety of once-weekly semaglutide 1.0 mg s.c. with exenatide extended release (ER) 2.0 mg s.c. in subjects with type 2 diabetes.",
-        "score": 0.3936467170715332,
-        "doi": "10.2337/dc17-0417",
-        "journal": "Diabetes care",
-        "year": "2017",
-        "rerank_score": 3.931339979171753,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38796654",
+        "text": "What the SELECT trial of semaglutide means for clinicians.",
+        "doi": "10.1038/s41591-024-03013-7",
+        "journal": "Nature medicine",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.33448103070259094,
+        "score": 0.33448103070259094,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

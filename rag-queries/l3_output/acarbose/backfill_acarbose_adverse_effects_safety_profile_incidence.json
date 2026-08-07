@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41235387",
-        "text": "When Acarbose Overdose Turns Severe: Managing Hypoglycemia in an Uncommon Scenario. Acarbose is usually safe, but overdose can trigger severe, life-threatening hypoglycemia. In cases of unexplained low blood sugar-particularly in patients with psychiatric illness or access to hypoglycemic drugs-acarbose toxicity should be considered. Rapid intravenous glucose, careful monitoring, and patient education are vital for optimal outcomes.",
-        "score": 0.43763482570648193,
-        "doi": "10.1002/ccr3.71448",
-        "journal": "Clinical case reports",
-        "year": "2025",
-        "rerank_score": 2.169090986251831,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9072658",
+        "text": "[Acarbose can have adverse effects on the liver].",
+        "doi": "",
+        "journal": "Lakartidningen",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.34188562631607056,
+        "score": 0.34188562631607056,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40228628",
-        "text": "The safety profile of fluoroquinolones. While they are very useful agents, fluoroquinolones (FQs) are associated with a number of serious adverse effects (AEs). The objective of this paper is to describe the characteristics of frequent serious AEs related to FQs along with their risk factors, their safety in specific populations, and the main drug-drug interactions that may occur. Serious AEs commonly associated with FQs include tendon disorders (particularly tendinopathy and tendon rupture), CNS toxicity (",
-        "score": 0.44727447628974915,
-        "doi": "10.1016/j.idnow.2025.105064",
-        "journal": "Infectious diseases now",
-        "year": "2025",
-        "rerank_score": -0.9631267189979553,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17532702",
+        "text": "Safety and tolerability of acarbose in the treatment of type 1 and type 2 diabetes mellitus. To assess the safety profile of acarbose treatment over a 1-year period at a dose range of 50-300mg three times daily in patients with type 1 or type 2 diabetes mellitus. In this 56-week, double-blind, parallel-group, multicentre comparison, patients were randomised to acarbose or placebo in a 2 : 1 ratio. An 8-week forced titration phase (from 50-300mg three times daily) was followed by a 48-week maintenance phase during which patients received the highest dose tolerated during titration. Patients were assessed at 13 visits with respect to adverse events/intercurrent illnesses, abnormal laboratory values (serum chemistry, urinalysis, complete blood and reticulocyte count, serum iron and total iron binding capacity, and serum vitamin B(6), B(12), D and folate levels), discontinuation rates, ECG findings, vital signs and evaluation of the patients' diaries with regard to gastrointestinal events. A total of 359 patients (acarbose 240, placebo 119) were valid for analysis; 21% had type 1 diabetes. Most patients received concomitant insulin or sulfonylurea treatment. Study withdrawal was reported for 35% of acarbose and 24% of placebo recipients (p = 0.053); adverse events were the main reason for withdrawal in acarbose recipients (20%; placebo group 5%; p < 0.01). The most common adverse events for acarbose recipients were gastrointestinal (abdominal pain, flatulence and diarrhoea), which were more frequent than in placebo patients (p < 0.01). These events occurred more often early in the study and attenuated over time. Acarbose was safe and well tolerated by the majority of diabetic patients over a 1-year treatment period.",
+        "doi": "10.2165/00044011-200525090-00003",
+        "journal": "Clinical drug investigation",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3649745583534241,
+        "score": 0.3649745583534241,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39918872",
-        "text": "Adverse drug event profile of pharmacotherapies for alcohol use disorder: a retrospective pharmacovigilance disproportionality analysis study. Alcohol Use Disorder (AUD) significantly affects global health, leading to physical deterioration and impacting personal and social relationships. This study aims to evaluate the adverse event profiles (AEP) of three USFDA-approved medications for AUD, acamprosate, disulfiram, and naltrexone, using data from the USFDA Adverse Event Reporting System (AERS). Reports re",
-        "score": 0.4377378225326538,
-        "doi": "10.1080/14740338.2025.2464896",
-        "journal": "Expert opinion on drug safety",
-        "year": "2025",
-        "rerank_score": -0.9904031753540039,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9652620",
+        "text": "Acarbose-induced hepatic injury.",
+        "doi": "10.1016/S0140-6736(05)78337-9",
+        "journal": "Lancet (London, England)",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.3767317533493042,
+        "score": 0.3767317533493042,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

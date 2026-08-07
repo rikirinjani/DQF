@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40212008",
-        "text": "Comparative efficacy and tolerability of currently approved incretin mimetics: A systematic analysis of placebo-controlled clinical trials. This study compares the therapeutic efficacy, gastrointestinal (GI) adverse event (AE) rates and the relationship between the therapeutic efficacy and GI AEs in randomized, placebo-controlled clinical trials (RCTs) of GLP-1 RAs and the dual GLP-1/GIP agonist tirzepatide. A systematic PubMed search identified 38 phase 3 or 4 placebo-controlled RCTs of exenatide (b.i.d. a",
-        "score": 0.4047267735004425,
-        "doi": "10.1111/dom.16398",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2025",
-        "rerank_score": 5.596130847930908,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23404321",
+        "text": "[Treatment of type 2 diabetes: Exenatide or liraglutide? - Exenatide and liraglutide in head-to-head comparison approximately coequal].",
+        "doi": "10.1055/s-0032-1329038",
+        "journal": "Deutsche medizinische Wochenschrift (1946)",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.3230818808078766,
+        "score": 0.3230818808078766,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38976545",
-        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
-        "score": 0.40102607011795044,
-        "doi": "10.1097/MJT.0000000000001743",
-        "journal": "American journal of therapeutics",
-        "year": "2024",
-        "rerank_score": 5.391432285308838,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17404355",
+        "text": "Exenatide in combination therapy: small study, big market, and many unanswered questions.",
+        "doi": "10.7326/0003-4819-146-7-200704030-00009",
+        "journal": "Annals of internal medicine",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3525637984275818,
+        "score": 0.3525637984275818,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:32109448",
-        "text": "Effectiveness of dulaglutide vs liraglutide and exenatide once-weekly. A real-world study and meta-analysis of observational studies. Real-word data on the head-to-head comparisons among glucagon-like peptide-1 receptor agonists (GLP-1RA) are scant. Therefore, we aimed to compare the effectiveness of dulaglutide versus liraglutide and exenatide once weekly (exeOW) in type 2 diabetic (T2D) patients under routine care.",
-        "score": 0.40245938301086426,
-        "doi": "10.1016/j.metabol.2020.154190",
-        "journal": "Metabolism: clinical and experimental",
-        "year": "2019",
-        "rerank_score": 5.273473739624023,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34865573",
+        "text": "Weekly Exenatide Therapy: A Real-World Comparison of Incretin Therapies.",
+        "doi": "10.1080/14786419.2021.2005054",
+        "journal": "Natural product research",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.3564074635505676,
+        "score": 0.3564074635505676,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

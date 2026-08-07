@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39438942",
-        "text": "Effect of ertugliflozin on left ventricular function in type 2 diabetes and pre-heart failure: the Ertu-GLS randomized clinical trial. The therapeutic effects of ertugliflozin, a sodium-glucose cotransporter 2 inhibitor, on cardiovascular outcome are not fully understood. This study aimed to evaluate the efficacy and safety of ertugliflozin on cardiac function in people with type 2 diabetes and pre-heart failure. We conducted a 24-week randomized, double-blind, placebo-controlled trial involving individuals",
-        "score": 0.3893224596977234,
-        "doi": "10.1186/s12933-024-02463-0",
-        "journal": "Cardiovascular diabetology",
-        "year": "2024",
-        "rerank_score": 5.896651744842529,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40281528",
-        "text": "The effect of empagliflozin on peripheral microvascular dysfunction in patients with heart failure with preserved ejection fraction. Empagliflozin is an effective treatment for heart failure with preserved ejection fraction (HFpEF), but its definite mechanism of action is unclear. Systemic microvascular dysfunction strongly relates to HFpEF aetiology, and we hypothesised that empagliflozin improves microvascular function in HFpEF. To investigate the effect of the sodium-glucose cotransporter-2 inhibitor emp",
-        "score": 0.3962358832359314,
-        "doi": "10.1186/s12933-025-02679-8",
-        "journal": "Cardiovascular diabetology",
-        "year": "2024",
-        "rerank_score": 3.8812384605407715,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:32202075",
-        "text": "Efficacy and Safety of Ertugliflozin in Patients with Overweight and Obesity with Type 2 Diabetes Mellitus. This study aimed to evaluate ertugliflozin in patients with overweight and obesity with type 2 diabetes mellitus.",
-        "score": 0.3877241015434265,
-        "doi": "10.1002/oby.22748",
-        "journal": "Obesity (Silver Spring, Md.)",
+        "id": "PMID:31057225",
+        "text": "Overview of Ertugliflozin.",
+        "doi": "10.2337/cd18-0097",
+        "journal": "Clinical diabetes : a publication of the American Diabetes Association",
         "year": "2019",
-        "rerank_score": 3.6510987281799316,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.29097670316696167,
+        "score": 0.29097670316696167,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:32337660",
+        "text": "Overview of the Clinical Pharmacology of Ertugliflozin, a Novel Sodium-Glucose Cotransporter 2 (SGLT2) Inhibitor. Ertugliflozin, a selective inhibitor of sodium-glucose cotransporter 2 (SGLT2), is approved in the US, EU, and other regions for the treatment of adults with type 2 diabetes mellitus (T2DM). This review summarizes the ertugliflozin pharmacokinetic (PK) and pharmacodynamic data obtained during phase I clinical development, which supported the registration and labeling of this drug. The PK of ertugliflozin was similar in healthy subjects and patients with T2DM. Oral absorption was rapid, with time to peak plasma concentrations (T",
+        "doi": "10.1007/s40262-020-00875-1",
+        "journal": "Clinical pharmacokinetics",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3278648257255554,
+        "score": 0.3278648257255554,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:32324082",
+        "text": "Efficacy and safety of ertugliflozin across racial groups in patients with type 2 diabetes mellitus.",
+        "doi": "10.1080/03007995.2020.1760228",
+        "journal": "Current medical research and opinion",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.33355677127838135,
+        "score": 0.33355677127838135,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

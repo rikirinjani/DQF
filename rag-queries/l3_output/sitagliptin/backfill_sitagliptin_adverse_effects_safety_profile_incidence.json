@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38864127",
-        "text": "[Cardiovascular safety of sitagliptin added to metformin in real world patients with type 2 diabetes]. To assess the safety of sitagliptin added to metformin on cardiovascular adverse events in real world patients with type 2 diabetes mellitus (T2DM). Real world data from Yinzhou Regional Health Care Database were used to select T2DM patients with diagnosis and treatment records in the platform from January 1, 2017 to December 31, 2022. According to drug prescription records, the patients were divided into ",
-        "score": 0.4331625699996948,
-        "doi": "",
-        "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health scienc",
-        "year": "2024",
-        "rerank_score": 3.8640193939208984,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36818268",
+        "text": "Effect of Sitagliptin",
+        "doi": "10.26574/maedica.2022.17.4.762",
+        "journal": "Maedica",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.34064123034477234,
+        "score": 0.34064123034477234,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41448390",
-        "text": "Major adverse cardiovascular and limb events caused by tirzepatide in patients with type 2 diabetes at high cardiovascular risk: A comparison with sitagliptin. To elucidate the overall protective effects of tirzepatide against atherosclerosis-related events, including cardiovascular and lower-extremity events. We conducted a retrospective cohort study using the TriNetX global health research network to identify patients with type 2 diabetes (T2D) who initiated tirzepatide or sitagliptin between January 2022",
-        "score": 0.4191248118877411,
-        "doi": "10.1016/j.diabres.2025.113072",
-        "journal": "Diabetes research and clinical practice",
-        "year": "2025",
-        "rerank_score": 2.9324452877044678,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20412573",
+        "text": "Safety and tolerability of sitagliptin in clinical studies: a pooled analysis of data from 10,246 patients with type 2 diabetes. In a previous pooled analysis of 12 double-blind clinical studies that included data on 6,139 patients with type 2 diabetes, treatment with sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, was shown to be generally well tolerated compared with treatment with control agents. As clinical development of sitagliptin continues, additional studies have been completed, and more patients have been exposed to sitagliptin. The purpose of the present analysis is to update the safety and tolerability assessment of sitagliptin by pooling data from 19 double-blind clinical studies. The present analysis included data from 10,246 patients with type 2 diabetes who received either sitagliptin 100 mg/day (N = 5,429; sitagliptin group) or a comparator agent (placebo or an active comparator) (N = 4,817; non-exposed group). The 19 studies from which this pooled population was drawn represent the double-blind, randomized studies that included patients treated with the usual clinical dose of sitagliptin (100 mg/day) for between 12 weeks and 2 years and for which results were available as of July 2009. These 19 studies assessed sitagliptin taken as monotherapy, initial combination therapy with metformin or pioglitazone, or as add-on combination therapy with other antihyperglycemic agents (metformin, pioglitazone, a sulfonylurea +/- metformin, insulin +/- metformin, or rosiglitazone + metformin). Patients in the non-exposed group were taking placebo, metformin, pioglitazone, a sulfonylurea +/- metformin, insulin +/- metformin, or rosiglitazone + metformin. The analysis used patient-level data from each study to evaluate between-group differences in the exposure-adjusted incidence rates of adverse events. Summary measures of overall adverse events were similar in the sitagliptin and non-exposed groups, except for an increased incidence of drug-related adverse events in the non-exposed group. Incidence rates of specific adverse events were also generally similar between the two groups, except for increased incidence rates of hypoglycemia, related to the greater use of a sulfonylurea, and diarrhea, related to the greater use of metformin, in the non-exposed group and constipation in the sitagliptin group. Treatment with sitagliptin was not associated with an increased risk of major adverse cardiovascular events. In this updated pooled safety analysis of data from 10,246 patients with type 2 diabetes, sitagliptin 100 mg/day was generally well tolerated in clinical trials of up to 2 years in duration.",
+        "doi": "10.1186/1472-6823-10-7",
+        "journal": "BMC endocrine disorders",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.36999043822288513,
+        "score": 0.36999043822288513,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:25816296",
-        "text": "Efficacy and safety of sitagliptin added to insulin in Japanese patients with type 2 diabetes: the EDIT randomized trial. To clarify the efficacy and safety of adding sitagliptin to insulin therapy in Japanese patients with suboptimally controlled type 2 diabetes (T2DM).",
-        "score": 0.4154719114303589,
-        "doi": "10.1371/journal.pone.0121988",
-        "journal": "PloS one",
-        "year": "2014",
-        "rerank_score": 0.4785324037075043,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:26331206",
+        "text": "[Sitagliptin in diabetes: Severe side effects are rare].",
+        "doi": "10.1024/1661-8157/a002118",
+        "journal": "Praxis",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.3714826703071594,
+        "score": 0.3714826703071594,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

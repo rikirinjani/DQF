@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:35103456",
-        "text": "The effectiveness and safety of linagliptin within elderly type 2 diabetes mellitus: a meta-analysis and systematic review. Linagliptin is a convenient and effective drug approved for glycemic management in type 2 diabetes mellitus (T2DM). However, the effectiveness and safety evidence of linagliptin remains unclear with the increasing prevalence of T2DM in elderly patients.",
-        "score": 0.3895638585090637,
-        "doi": "10.23736/S2724-6507.22.03661-2",
-        "journal": "Minerva endocrinology",
-        "year": "2025",
-        "rerank_score": 4.3219170570373535,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21681003",
+        "text": "Review of the safety and efficacy of linagliptin as add-on therapy to metformin in patients with type 2 diabetes: a randomized, double-blind, placebo-controlled study.",
+        "doi": "10.3810/pgm.2011.07.2318",
+        "journal": "Postgraduate medicine",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.330386757850647,
+        "score": 0.330386757850647,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39295934",
-        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
-        "score": 0.40688109397888184,
-        "doi": "10.3389/fphar.2024.1418826",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": 3.968855381011963,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23468467",
+        "text": "A novel model-based meta-analysis to indirectly estimate the comparative efficacy of two medications: an example using DPP-4 inhibitors, sitagliptin and linagliptin, in treatment of type 2 diabetes mellitus. To develop a longitudinal statistical model to indirectly estimate the comparative efficacies of two drugs, using model-based meta-analysis (MBMA). Comparison of two oral dipeptidyl peptidase (DPP)-4 inhibitors, sitagliptin and linagliptin, for type 2 diabetes mellitus (T2DM) treatment was used as an example. Systematic review with MBMA. MEDLINE, EMBASE, http://www.ClinicalTrials.gov, Cochrane review of DPP-4 inhibitors for T2DM, sitagliptin trials on Food and Drug Administration website to December 2011 and linagliptin data from the manufacturer. Double-blind, randomised controlled clinical trials, ≥12 weeks' duration, that analysed sitagliptin or linagliptin efficacies as changes in glycated haemoglobin (HbA1c) levels, in adults with T2DM and HbA1c >7%, irrespective of background medication. MODEL DEVELOPMENT AND APPLICATION: A Bayesian model was fitted (Markov Chain Monte Carlo method). The final model described HbA1c levels as function of time, dose, baseline HbA1c, washout status/duration and ethnicity. Other covariates showed no major impact on model parameters and were not included. For the indirect comparison, a population of 1000 patients was simulated from the model with a racial composition reflecting the average racial distribution of the linagliptin trials, and baseline HbA1c of 8%. The model was developed using longitudinal data from 11 234 patients (10 linagliptin, 15 sitagliptin trials), and assessed by internal evaluation techniques, demonstrating that the model adequately described the observations. Simulations showed both linagliptin 5 mg and sitagliptin 100 mg reduced HbA1c by 0.81% (placebo-adjusted) at week 24. Credible intervals for participants without washout were -0.88 to -0.75 (linagliptin) and -0.89 to -0.73 (sitagliptin), and for those with washout, -0.91 to -0.76 (linagliptin) and -0.91 to -0.75 (sitagliptin). This study demonstrates the use of longitudinal MBMA in the field of diabetes treatment. Based on an example evaluating HbA1c reduction with linagliptin versus sitagliptin, the model used seems a valid approach for indirect drug comparisons.",
+        "doi": "10.1136/bmjopen-2012-001844",
+        "journal": "BMJ open",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.33706504106521606,
+        "score": 0.33706504106521606,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38976545",
-        "text": "Comparative Meta-Analysis of Retatrutide Versus Placebo and Dulaglutide for Weight Loss and Diabetes Management: Insights From Clinical Trials.",
-        "score": 0.4065929651260376,
-        "doi": "10.1097/MJT.0000000000001743",
-        "journal": "American journal of therapeutics",
-        "year": "2024",
-        "rerank_score": 3.601142168045044,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32154149",
+        "text": "CARdiovascular Outcome study of LINAgliptin versus glimepiride in patients with T2D trial.",
+        "doi": "10.4103/picr.PICR_157_19",
+        "journal": "Perspectives in clinical research",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.3486458659172058,
+        "score": 0.3486458659172058,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

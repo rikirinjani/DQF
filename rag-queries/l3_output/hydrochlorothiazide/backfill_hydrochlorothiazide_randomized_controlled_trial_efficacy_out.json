@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:8212715",
-        "text": "[Antihypertensive effectiveness of enalapril and hydrochlorothiazide as a combination drug]. 1062 patients with moderate to severe hypertension were enrolled in an open-label multicenter trial investigating the antihypertensive efficacy and safety of the preconstituted formulation enalapril (20 mg) and hydrochlorothiazide (12.5 mg) over a treatment period of 12 weeks. According to the inclusion criteria of the study protocol 489 patients had to be excluded from statistical evaluation of efficacy. Results we",
-        "score": 0.395041823387146,
-        "doi": "",
-        "journal": "Wiener medizinische Wochenschrift (1946)",
-        "year": "1993",
-        "rerank_score": 2.981210470199585,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37795644",
+        "text": "Randomized Clinical Outcome Trials in Hypertension.",
+        "doi": "10.1161/HYPERTENSIONAHA.123.21725",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3910450041294098,
+        "score": 0.3910450041294098,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41209776",
-        "text": "Dual antihypertensive strategies: A real-world comparative study of efficacy and safety of fixed-dose combinations in a tertiary care setting. The aim of this study was to evaluate the comparative efficacy and safety of fixed-dose combinations of amlodipine 5 mg + hydrochlorothiazide 12.5 mg (A+H) (Group 1), telmisartan 40 mg + hydrochlorothiazide 12.5 mg (T+H) (Group 2), and ramipril 5 mg + hydrochlorothiazide 12.5 mg (R+H) (Group 3) in patients of essential hypertension. A prospective, randomized, open-la",
-        "score": 0.42384710907936096,
-        "doi": "10.4103/picr.picr_165_24",
-        "journal": "Perspectives in clinical research",
-        "year": "2024",
-        "rerank_score": 1.1842448711395264,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27443442",
+        "text": "Efficacy of Low-Dose Chlorthalidone Versus Hydrochlorothiazide Remains Ambiguous.",
+        "doi": "10.1016/j.jacc.2016.04.048",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.40252962708473206,
+        "score": 0.40252962708473206,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39484134",
-        "text": "Efficacy and Safety of Chlortalidone and Hydrochlorothiazide in Prevention of Cardiovascular Diseases. The variance between guideline recommendations and real-world usage might stem from the perception that chlorthalidone poses a higher risk of adverse effects, although there is no clear evidence of disparities in cardiovascular outcomes. It is crucial to assess both the clinical cardiovascular effects and adverse reactions of both drugs for clinical guidance. In this study, we present a comprehensive and u",
-        "score": 0.40826112031936646,
-        "doi": "10.31083/j.rcm2510380",
-        "journal": "Reviews in cardiovascular medicine",
-        "year": "2024",
-        "rerank_score": 0.8125504851341248,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12461303",
+        "text": "Reproducibility of blood pressure response to hydrochlorothiazide. Few studies have investigated the reproducibility of responses to antihypertensive therapies. The purpose of this study was to assess the reproducibility of the blood pressure response to a thiazide diuretic, a preferred initial treatment for hypertension. Twenty-two subjects who underwent monotherapy with hydrochlorothiazide as part of a study to identify predictors of blood pressure response agreed to undergo the same protocol a second time, 26.6+/-11.8 (range, 4-52) months after their first participation. The mean systolic and diastolic blood pressure responses to hydrochlorothiazide did not differ significantly between the first and second participation (systolic response, -14.2+/-16.4 mm Hg vs. -16.0+/-16.5 mm Hg; diastolic response, -7.1+/-11.8 mm Hg vs. -6.6+/-8.6 mm Hg), and these responses were significantly correlated between the two trials (systolic response, r=0.61 and p<0.01; diastolic response, r=0.64 and p<0.01). However, both the direction and magnitude of responses for individual subjects varied considerably, with the limits of agreement between the first and second participations (i.e., 2 standard deviations above and below the mean difference between responses) ranging from 27.4 mm Hg to -23.8 mm Hg for systolic blood pressure response and from 17.4 mm Hg to -18.4 mm Hg for diastolic blood pressure response. These results show that the average systolic and diastolic blood pressure responses to hydrochlorothiazide for a group of subjects are reproducible; however, the responses for individual subjects are unpredictable.",
+        "doi": "10.1111/j.1524-6175.2002.00965.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.41265812516212463,
+        "score": 0.41265812516212463,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

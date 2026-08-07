@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
+        "id": "PMID:16515323",
+        "text": "[Olmesartan: antihypertensive therapy].",
+        "doi": "",
+        "journal": "Krankenpflege Journal",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.3527875542640686,
+        "score": 0.3527875542640686,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:15592575",
+        "text": "Clinical and experimental aspects of olmesartan medoxomil, a new angiotensin II receptor antagonist. Olmesartan medoxomil is a new orally active angiotensin II (Ang II) type 1 receptor antagonist. It is a prodrug and is rapidly de-esterified during absorption to form olmesartan, the active metabolite. Olmesartan is a potent, competitive and selective Ang II type 1 receptor antagonist. Olmesartan is not metabolized by the cytochrome P-450 and has a dual route of elimination, by kidneys and liver. In patients with essential hypertension olmesartan medoxomil administered once daily at doses of 10-80 mg dose-dependently reduced diastolic blood pressure (DBP). Troughto-peak ratios for both DBP and systolic blood pressure (SBP) were above 50%. At the recommended once-daily starting doses, olmesartan medoxomil (20 mg) was more effective than losartan (50 mg), valsartan (80 mg) or irbesartan (150 mg) in reducing cuff DBP in patients with essential hypertension. The results of cuff SBP and mean 24-h DBP and SBP were similar to those of cuff DBP measurement. In mild-to-moderate hypertensive patients the recommended starting dose of olmesartan medoxomil was as effective as that of amlodipine besylate (5 mg/day) in reducing both cuff and 24-h blood pressure. In lowering DBP olmesartan medoxomil, at 10-20 mg/day, was as effective as atenolol at 50-100 mg/day. In mild-to-moderate hypertensive patients, olmesartan medoxomil, at 5-20 mg once daily, was more effective than captopril at 12.5-50 mg twice daily. At 20-40 mg once daily olmesartan medoxomil was as effective as felodipine, at 5-10 mg once daily. Olmesartan medoxomil has minimal adverse effects with no clinically important drug interactions. Animal studies have shown that olmesartan medoxomil provides a wide range of organ protection. Olmesartan medoxomil ameliorated atherosclerosis in hyperlipidemic animals and ameliorated cardiac remodeling and improved survival in rats with myocardial infarction. Olmesartan medoxomil has renoprotective effects in a remnant kidney model and type 2 diabetes models. Future investigation should reveal whether these beneficial effects of olmesartan medoxomil are applicable to human diseases.",
+        "doi": "10.1111/j.1527-3466.2004.tb00147.x",
+        "journal": "Cardiovascular drug reviews",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.3812722861766815,
+        "score": 0.3812722861766815,
+        "rerank_score": 0.95
+      },
+      {
         "id": "PMID:15291377",
-        "text": "Clinical efficacy and tolerability of olmesartan. Olmesartan medoxomil is an angiotensin II receptor antagonist that selectively and competitively inhibits the angiotensin II type 1 receptor.",
-        "score": 0.36426711082458496,
+        "text": "Clinical efficacy and tolerability of olmesartan. Olmesartan medoxomil is an angiotensin II receptor antagonist that selectively and competitively inhibits the angiotensin II type 1 receptor. This article reviews the results of some key studies that assessed the efficacy and tolerability of olmesartan in patients with hypertension. Olmesartan has been investigated in several clinical studies. This article reports on data from 1 such study with a prospective, randomized, double-blind, placebo-controlled, parallel-group, dose-finding design in patients with mild to moderate hypertension (baseline mean sitting diastolic blood pressure, 100-114 mm Hg). The results from a meta-analysis of 7 randomized, double-blind, placebo-controlled studies are also presented. In the dose-finding study, 792 patients were randomized to olmesartan (2.5-80 mg) or placebo once daily, and changes were recorded in trough mean sitting diastolic and systolic blood pressures from baseline to the end of a 12-week treatment period. For the meta-analysis, 3055 patients were randomized to treatment; 2511 received olmesartan. In the dose-finding study as well as in the meta-analysis, olmesartan (2.5-80 mg once daily) produced a dose-dependent decrease in diastolic and systolic blood pressures, and at a dose of 10 to 80 mg showed significant superiority in reducing diastolic blood pressure over placebo (P < 0.05). The 20-mg dose was considered optimal, with a responder rate of 70%. Furthermore, in a 2-year study with 462 patients, olmesartan had a good safety profile and was well tolerated. The results of the clinical studies in >3000 patients receiving olmesartan showed that the frequency and profile of adverse events with olmesartan were generally similar to those with placebo; the frequency of adverse events was not dose related. Olmesartan, with or without hydrochlorothiazide, was well tolerated over 2 years of treatment.",
         "doi": "10.1016/s0149-2918(04)90143-9",
         "journal": "Clinical therapeutics",
         "year": "2004",
-        "rerank_score": 5.344425201416016,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:18498909",
-        "text": "The combination of olmesartan medoxomil and amlodipine besylate in controlling high blood pressure: COACH, a randomized, double-blind, placebo-controlled, 8-week factorial efficacy and safety study. Hypertension guidelines recommend the use of 2 agents having complementary mechanisms of action when >1 agent is needed to achieve blood pressure (BP) goals.",
-        "score": 0.36450499296188354,
-        "doi": "10.1016/j.clinthera.2008.04.002",
-        "journal": "Clinical therapeutics",
-        "year": "2008",
-        "rerank_score": 4.539289474487305,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:19120719",
-        "text": "Early antihypertensive efficacy of olmesartan medoxomil. The authors assessed the early antihypertensive efficacy of olmesartan medoxomil (OM) in a 12-week prospective observational study. Of 2221 patients with untreated hypertension who received OM (mainly 10 or 20 mg), 331 patients whose blood pressure (BP) was measured at 1 week after initiation of treatment were defined as the \"early BP determination group,'' whereas the remaining 1890 patients were defined as the ;;standard BP determination group.'' Ba",
-        "score": 0.3638935685157776,
-        "doi": "10.1111/j.1751-7176.2008.00050.x",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
-        "year": "2009",
-        "rerank_score": 3.342818260192871,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.38470402359962463,
+        "score": 0.38470402359962463,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

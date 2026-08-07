@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:37671755",
-        "text": "The Effect of Insulin Degludec Versus Insulin Glargine U100 on Glucose Metrics Recorded During Continuous Glucose Monitoring in People With Type 1 Diabetes and Recurrent Nocturnal Severe Hypoglycemia. Comparing continuous glucose monitoring (CGM)-recorded metrics during treatment with insulin degludec (IDeg) versus insulin glargine U100 (IGlar-100) in people with type 1 diabetes (T1D) and recurrent nocturnal severe hypoglycemia. This is a multicenter, two-year, randomized, crossover trial, including 149 adu",
-        "score": 0.35350924730300903,
-        "doi": "10.1177/19322968231197423",
-        "journal": "Journal of diabetes science and technology",
-        "year": "2025",
-        "rerank_score": 1.9021782875061035,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25451191",
+        "text": "Switching from insulin glargine to insulin degludec reduced HbA1c,  daily insulin doses and anti-insulin antibody in anti-insulin  antibody-positive subjects with type 1 diabetes.",
+        "doi": "10.1016/j.diabet.2014.09.003",
+        "journal": "Diabetes & metabolism",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3676277697086334,
+        "score": 0.3676277697086334,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38682470",
-        "text": "Effect of hemoglobin A1c change on 24-month clinical outcomes in patients with diabetes after acute myocardial infarction. The average glycated hemoglobin (HbA1c) may not accurately reflect glycemic control status during the mid-term after acute myocardial infarction (AMI). We aimed to evaluate changes in HbA1c and their effect on mid-term clinical outcomes in patients with diabetes and AMI. We enrolled patients with diabetes ( n  = 967) who underwent HbA1c measurement in the Korean nationwide registry. The",
-        "score": 0.3664007782936096,
-        "doi": "10.1097/MCA.0000000000001369",
-        "journal": "Coronary artery disease",
-        "year": "2024",
-        "rerank_score": 1.5290119647979736,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:32744395",
-        "text": "Effects of insulin degludec and insulin glargine U300 on glycaemic stability in individuals with type 1 diabetes: A multicentre, randomized controlled crossover study. To compare the effects of insulin degludec (IDeg) and insulin glargine U300 (IGlarU300) on glycaemic stability in subjects with type 1 diabetes.",
-        "score": 0.34542930126190186,
-        "doi": "10.1111/dom.14161",
+        "id": "PMID:30552800",
+        "text": "A comparative effectiveness study of degludec and insulin glargine 300 U/mL in insulin-naïve patients with type 2 diabetes. To compare the real-world effectiveness of insulin degludec (degludec) and glargine 300 units/mL (glargine U300) in insulin-naïve adult patients with type 2 diabetes in routine US clinical practice. CONFIRM is a non-interventional comparative effectiveness study following US patients across the continuum of care, through electronic medical records from multiple health systems and integrated delivery networks. Propensity-score matching controlled for confounding. The primary endpoint, change in HbA1c from baseline to 180 days of follow-up, was estimated using a repeated-measure of covariance analysis with subject as random effect. Change in the rate of hypoglycaemic episodes (defined using International Classification of Diseases codes 9/10) and change in proportion of patients with hypoglycaemia were estimated using negative binomial and logistic regression, respectively. Time-to-discontinuation of the initial basal insulin/initiation with another prescribed basal insulin was analysed using a Cox Proportional Hazard model. Data concerning 4056 patients were analysed. After matching, baseline characteristics were comparable (n = 2028 in each group). After 180 days of follow-up, degludec was associated with a larger reduction in HbA1c (estimated treatment difference, -0.27%; P = 0.03), greater reductions in change in rate (rate ratio, 0.70; P < 0.05) and greater reductions in change in the likelihood of hypoglycaemia (odds ratio, 0.64; P < 0.01]) compared with glargine U300. In addition, patients treated with degludec were 27% less likely to discontinue treatment at follow-up compared with those treated with glargine U300 (hazard ratio, 0.73; P < 0.001). Significantly improved HbA1c, larger reductions in rates and likelihood of hypoglycaemia and lower risk of treatment discontinuation were demonstrated with degludec vs glargine U300.",
+        "doi": "10.1111/dom.13616",
         "journal": "Diabetes, obesity & metabolism",
-        "year": "2020",
-        "rerank_score": 0.4459170401096344,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.37366795539855957,
+        "score": 0.37366795539855957,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:29770552",
+        "text": "Variability of insulin degludec and glargine 300 U/mL: A matter of methodology or just marketing?",
+        "doi": "10.1111/dom.13365",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.38621655106544495,
+        "score": 0.38621655106544495,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

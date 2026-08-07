@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39358448",
-        "text": "Phase III randomized clinical trial of efficacy and safety of amlodipine and candesartan cilexetil combination for hypertension treatment. Effective antihypertensive therapy is essential for achieving optimal blood pressure (BP) control and reducing cardiovascular events. This double-blind, multicenter, randomized trial aimed to compare the antihypertensive efficacy and safety of a combination of amlodipine (AML) and candesartan cilexetil (CC) versus AML monotherapy in patients with essential hypertension (",
-        "score": 0.36384594440460205,
-        "doi": "10.1038/s41598-024-74003-5",
-        "journal": "Scientific reports",
-        "year": "2024",
-        "rerank_score": 4.9458465576171875,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9844624",
+        "text": "Candesartan for hypertension.",
+        "doi": "",
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.3588080108165741,
+        "score": 0.3588080108165741,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40975098",
-        "text": "Candesartan versus placebo for migraine prevention in patients with episodic migraine: a randomised, triple-blind, placebo-controlled, phase 2 trial. Effective and well-tolerated preventive treatments for migraine remain few, and the angiotensin receptor blocker candesartan has shown promise in small studies. This study aimed to evaluate the safety, tolerability, and efficacy of candesartan for the preventive treatment of episodic migraine. This randomised, triple-blind, placebo-controlled, parallel-group, ",
-        "score": 0.3596963584423065,
-        "doi": "10.1016/S1474-4422(25)00269-8",
-        "journal": "The Lancet. Neurology",
-        "year": "2025",
-        "rerank_score": 3.799502372741699,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22469317",
+        "text": "Candesartan cilexetil.",
+        "doi": "10.1016/B978-0-12-397220-0.00003-9",
+        "journal": "Profiles of drug substances, excipients, and related methodology",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3626233637332916,
+        "score": 0.3626233637332916,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38663908",
-        "text": "CandeSpartan Study: Candesartan Spanish Response-prediction and Tolerability study in migraine. Effectiveness of candesartan in migraine prevention is supported by two randomized controlled trials. We aimed to assess the effectiveness, tolerability, and response predictors of candesartan in the preventive treatment of migraine. Observational, multicenter, prospective cohort study. The 50%, 75% and 30% responder rates, between weeks 8-12 and 20-24, were compared with the baseline. Treatment emergent adverse ",
-        "score": 0.3864399194717407,
-        "doi": "10.1177/03331024241248833",
-        "journal": "Cephalalgia : an international journal of headache",
-        "year": "2024",
-        "rerank_score": 3.0386383533477783,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11028310",
+        "text": "[Candesartan, angiotensin II receptor antagonist].",
+        "doi": "",
+        "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.3653245270252228,
+        "score": 0.3653245270252228,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

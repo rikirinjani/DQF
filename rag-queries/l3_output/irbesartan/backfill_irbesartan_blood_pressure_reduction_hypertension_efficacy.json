@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39026999",
-        "text": "Efficacy and safety of azilsartan medoxomil in the treatment of hypertension: a systematic review and meta-analysis. Angiotensin II receptor blockers (ARBs) are utilized for the management of hypertension and diabetes. Previous meta-analyses suggested that azilsartan medoxomil (AZL-M) improved blood pressure (BP) reduction, but there were no safety findings or suggestions for patients with hypertension or diabetes. We performed an efficacy and safety meta-analysis of randomized controlled trials (RCTs) eval",
-        "score": 0.3751829266548157,
-        "doi": "10.3389/fcvm.2024.1383217",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2024",
-        "rerank_score": 7.5247578620910645,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:16623075",
-        "text": "Irbesartan/HCTZ fixed combinations in patients of different racial/ethnic groups with uncontrolled systolic blood pressure on monotherapy. The IrbesartaN/hydroChlorothiazide (HCTZ) bLood pressUre reductionS In diVErse patient populations (INCLUSIVE) trial was a multicenter, prospective, open-label, single-arm study evaluating the efficacy and safety of irbesartan/HCTZ fixed combinations in patients > or = 18 years old with uncontrolled systolic blood pressure (SBP, 140-159 mmHg; 130-159 mmHg for type-2 diab",
-        "score": 0.34188827872276306,
+        "id": "PMID:9465857",
+        "text": "Irbesartan for hypertension.",
         "doi": "",
-        "journal": "Journal of the National Medical Association",
-        "year": "2006",
-        "rerank_score": 6.561686038970947,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.26935651898384094,
+        "score": 0.26935651898384094,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40255869",
-        "text": "Sacubitril-Valsartan Lowers Blood Pressure in Patients on Dialysis: A Randomized Controlled Multicenter Study. Individuals with end-stage kidney disease frequently grapple with uncontrolled hypertension, which elevates their risk for cardiovascular complications. This randomized, controlled, multicenter study, conducted across 10 hospitals, aimed to compare the effectiveness and safety of sacubitril-valsartan versus irbesartan in managing hypertension among dialysis patients. The primary efficacy variable o",
-        "score": 0.37471938133239746,
-        "doi": "10.1159/000545195",
-        "journal": "Kidney diseases (Basel, Switzerland)",
-        "year": "2024",
-        "rerank_score": 6.361341953277588,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9622147",
+        "text": "Dose-related efficacy of irbesartan for hypertension: an integrated analysis. Results of eight multicenter, randomized, placebo-controlled, double-blind, parallel-group studies were pooled to assess the efficacy of the angiotensin II-receptor blocker irbesartan over the dose range of 1 to 900 mg. A total of 2955 adults with a seated diastolic blood pressure of 95 to 110 mm Hg were randomized to treatment with oral irbesartan once daily or placebo for 6 to 8 weeks. Office blood pressure was measured at trough (24+/-3 hours after the last dose) and peak (3+/-1 hours after the last dose) by mercury sphygmomanometry. Demographic characteristics (mean blood pressure; 151/101 mm Hg; mean age, 54 years; 63% male; and 82% white) were similar across all dose groups. After the groups were pooled, antihypertensive efficacy was assessed by therapeutic response (trough seated diastolic blood pressure <90 mm Hg or a reduction from baseline of > or = 10 mm Hg) and by modeling of the maximum reductions in trough and peak seated diastolic and systolic blood pressure. Antihypertensive effects increased with increasing doses and reached a plateau at > or = 300 mg. Irbesartan 150 mg provided placebo-subtracted reductions in trough seated systolic and diastolic blood pressure of approximately 8 and approximately 5 mm Hg, respectively, with 56% of patients displaying a favorable response. In conclusion, irbesartan provides clinically significant blood pressure lowering, with a clear relationship between (log) dose and antihypertensive effect.",
+        "doi": "10.1161/01.hyp.31.6.1311",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.3082156479358673,
+        "score": 0.3082156479358673,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:9850301",
+        "text": "Irbesartan treatment in hypertension. Angiotensin II receptor antagonists lower blood pressure by blocking the final step in the renin pathway, whereas ACE inhibitors reduce angiotensin II production. ACE inhibitors also block kinin degradation, which may alter both efficacy and side-effects. Irbesartan, one of the newer receptor antagonists, has confirmed their tolerability and shown similar dose-related efficacy to other major classes.",
+        "doi": "",
+        "journal": "Hospital medicine (London, England : 1998)",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.3195995092391968,
+        "score": 0.3195995092391968,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

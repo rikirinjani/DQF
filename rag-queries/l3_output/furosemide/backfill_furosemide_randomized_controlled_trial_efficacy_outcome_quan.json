@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39121183",
-        "text": "Safety and Efficacy of Torsemide Versus Furosemide in Patients With Heart Failure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials and Real-World Data.",
-        "score": 0.39459332823753357,
-        "doi": "10.1097/MJT.0000000000001735",
-        "journal": "American journal of therapeutics",
-        "year": "2024",
-        "rerank_score": 2.9938223361968994,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15806485",
+        "text": "Efficacy of furosemide in ARF.",
+        "doi": "10.1053/j.ajkd.2004.11.024",
+        "journal": "American journal of kidney diseases : the official journal of the National Kidne",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.4000501334667206,
+        "score": 0.4000501334667206,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38814579",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.39639294147491455,
-        "doi": "10.1001/jamaoncol.2024.1869",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -1.177385926246643,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18067045",
+        "text": "Acute effect of furosemide on glomerular filtration rate in diastolic dysfunction. We sought to evaluate the acute effect of furosemide on glomerular filtration rate (GFR) in subjects with diastolic dysfunction. An equal number of subjects with documented diastolic dysfunction (DD) and healthy volunteers (controls) were enrolled and underwent a baseline GFR measurement via plasma clearance of technetium-99m-diethylenetriaminepentaacetic acid. Within three to seven days of the baseline, study subjects were scheduled for a second GFR study, which was performed immediately after administration of furosemide (20 mg orally and 20 mg intravenously). There were eight healthy volunteers (8 males with a mean age 42 +/- 7.8 years; 6 white, 2 Asian) and eight subjects with diastolic dysfunction (7 males, 1 female, with a mean age 64.5 +/- 9.3 years; 7 whites, 1 African-American). There was a significant post-furosemide decline in GFR in the healthy volunteers, baseline vs. post-furosemide 131.6 +/- 19.8 vs. 117 +/- 18.2 mL/min, respectively (p = 0.03), and the patients with DD, baseline vs. post-furosemide 117.5 +/- 22.3 vs. 92 +/- 21.7 mL/min, respectively (p = 0.0002). A strong trend was detected, though not statistically significant, of greater GFR decline in subjects with DD compared to the healthy volunteers, 25.5 +/- 9.9 vs. 14.6 +/- 15.6 mL/min, respectively (p = 0.12). To conclude, acute administration of furosemide might potentially cause a greater decline in GFR in subjects with diastolic dysfunction.",
+        "doi": "10.1080/08860220701641777",
+        "journal": "Renal failure",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.4396052658557892,
+        "score": 0.4396052658557892,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38814593",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.39639294147491455,
-        "doi": "10.1001/jamaoncol.2024.0113",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -1.177385926246643,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25262369",
+        "text": "The effects of dose reduction of furosemide on glomerular filtration rate in stable systolic heart failure.",
+        "doi": "10.1016/j.jchf.2014.05.014",
+        "journal": "JACC. Heart failure",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.44096386432647705,
+        "score": 0.44096386432647705,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

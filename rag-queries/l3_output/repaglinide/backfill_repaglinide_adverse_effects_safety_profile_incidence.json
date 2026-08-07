@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:10668848",
-        "text": "Pharmacokinetics of repaglinide in subjects with renal impairment. To evaluate the effect of renal impairment and renal failure on the pharmacokinetics and safety of repaglinide.",
-        "score": 0.42447060346603394,
-        "doi": "10.1067/mcp.2000.103973",
-        "journal": "Clinical pharmacology and therapeutics",
-        "year": "2000",
-        "rerank_score": 1.6407653093338013,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:24623479",
-        "text": "Reduced physiologically-based pharmacokinetic model of repaglinide: impact of OATP1B1 and CYP2C8 genotype and source of in vitro data on the prediction of drug-drug interaction risk. To investigate the effect of OATP1B1 genotype as a covariate on repaglinide pharmacokinetics and drug-drug interaction (DDIs) risk using a reduced physiologically-based pharmacokinetic (PBPK) model.",
-        "score": 0.4254261255264282,
-        "doi": "10.1007/s11095-014-1333-3",
-        "journal": "Pharmaceutical research",
-        "year": "2013",
-        "rerank_score": 0.029354874044656754,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:20600729",
-        "text": "In vitro characterization and invivo toxicity study of repaglinide loaded poly (methyl methacrylate) nanoparticles. With the objective to achieve prolonged drug release, especially for the treatment of diabetes mellitus, and thereby to reduce the side effects of administration of conventional dosage form, repaglinide loaded PMMA nanoparticles have been formulated. These nanoparticles have been developed by solvent evaporation method and were subjected to various studies for characterization including photon",
-        "score": 0.4254675507545471,
-        "doi": "10.1016/j.ijpharm.2010.06.023",
-        "journal": "International journal of pharmaceutics",
+        "id": "PMID:20387361",
+        "text": "Repaglinide induced acute hepototoxicity. Repaglinide is considered a safe drug; adverse events are mild to moderate which includes hypoglycemia, headache, nausea, vomiting, diarrhea and dyspepsia as similar to sulphonylureas. This case report describes a rare side effect of repaglinide. In rare cases, elevated liver enzymes have been noted. We report a case of acute hepatotoxicity in a 78-year-old woman who developed acute hepatotoxicity while taking repaglinide.",
+        "doi": "",
+        "journal": "JNMA; journal of the Nepal Medical Association",
         "year": "2010",
-        "rerank_score": -0.6124764084815979,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.36750346422195435,
+        "score": 0.36750346422195435,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:16710643",
+        "text": "Safety profile of repaglinide as used in general practice in England: results of a prescription-event monitoring study. Repaglinide is a prandial glucose regulator indicated for management of type 2 diabetes. This post-marketing study used the observational cohort technique of prescription-event monitoring (PEM) to monitor safety of repaglinide prescribed in primary care in England. Patients were identified from dispensed prescriptions issued by general practitioners (GPs) between December 1998 and January 2001. Demographic and clinical event data were collected from questionnaires posted to GPs at least six months after the date of first prescription for each patient. The cohort consisted of 5731 patients [median age 60 (IQR 51-68), 49.9% male]. Event incidence densities (IDs) [no. 1st reports/1000 patient-months of exposure] were calculated for all events reported. The most frequently recorded clinical events in the first month were diarrhoea (ID(1) 10.3), malaise/lassitude (ID(1) 8.1) and nausea/vomiting (ID(1) 7.9). The most frequently reported reason for stopping was 'not effective' (647), with the most common clinical reasons being diarrhoea (60), malaise/lassitude (55) and intolerance (54). One hundred and thirteen adverse drug reactions (ADRs) were reported, with the most frequently specified being diarrhoea (10), abdominal pain (10) and nausea/vomiting (9). We concluded that repaglinide is generally well tolerated when used in general practice in England and did not identify any serious unrecognised adverse events.",
+        "doi": "10.1007/s00592-006-0203-9",
+        "journal": "Acta diabetologica",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3754779100418091,
+        "score": 0.3754779100418091,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:10522841",
+        "text": "Preclinical and clinical studies on safety and tolerability of repaglinide. Repaglinide, an insulinotropic benzoic acid derivative, has been tested extensively in the preclinical and clinical setting for safety and tolerability. In preclinical safety trials, no clinically relevant laboratory or histopathological changes were found and repaglinide was not found to be genotoxic, immunogenic, teratogenic or tumorigenic at levels 50 times greater than the exposure in humans. In an ascending-dose tolerability study in Type 2 diabetic patients, no clinically relevant changes in liver enzymes or ECG occurred during the trial. A total of five active-controlled, long-term trials of identical design have been carried out (with 12 months of maintenance on a fixed, pretitrated dose), including 1228 patients on repaglinide and 597 on sulphonylureas, 417 of whom were on glibenclamide. The most common adverse event in the phase II studies was hypoglycaemia. The frequency of hypoglycaemia was identical for repaglinide and sulphonylureas; however, fewer nocturnal hypoglycaemic events were observed with repaglinide and no increase in the frequency of hypoglycaemic events occurred in elderly patients (> 65 years) compared with younger patients. Severe reactions (assistance required) were approximately twice as frequent in the comparator group. During these studies, two serious hypoglycaemic reactions were reported (coma, seizure or hospitalization), both occurring in patients on glibenclamide. The frequency of serious adverse events and serious cardiovascular events was comparable between repaglinide and sulphonylureas.",
+        "doi": "10.1055/s-0029-1212171",
+        "journal": "Experimental and clinical endocrinology & diabetes : official journal, German So",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.3988707661628723,
+        "score": 0.3988707661628723,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

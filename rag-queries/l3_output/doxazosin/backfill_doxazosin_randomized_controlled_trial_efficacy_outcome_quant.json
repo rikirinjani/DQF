@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:27564283",
-        "text": "Doxazosin oral intake therapy to relieve stent - related urinary symptoms and pain: a prospective, randomized, controlled study. To assess the impact of Doxazosin Oral Intake Therapy on urinary symptoms and pain in patients with indwelling ureteral stents Patients and Methods: A total of 239 patients with ureteral stone-related hydronephrosis who underwent a double-J stent insertion after ureteroscopic lithotripsy were enrolled. Patients were randomized to receive doxazosin cotrolled release 4 mg once daily",
-        "score": 0.392352432012558,
-        "doi": "10.1590/S1677-5538.IBJU.2015.0570",
-        "journal": "International braz j urol : official journal of the Brazilian Society of Urology",
-        "year": "2015",
-        "rerank_score": 1.7287752628326416,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11724218",
+        "text": "Doxazosin for the management of hypertension: implications of the findings of the ALLHAT trial.",
+        "doi": "10.1016/s0895-7061(01)02212-9",
+        "journal": "American journal of hypertension",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.37543925642967224,
+        "score": 0.37543925642967224,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:7519112",
-        "text": "A three month double-blind study of doxazosin as treatment for benign prostatic bladder outlet obstruction. To evaluate the efficacy and tolerability of doxazosin in the treatment of bladder outflow obstruction resulting from benign prostatic hyperplasia (BPH).",
-        "score": 0.3918227255344391,
-        "doi": "10.1111/j.1464-410x.1994.tb16546.x",
-        "journal": "British journal of urology",
-        "year": "1994",
-        "rerank_score": -1.241525650024414,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:41471314",
+        "text": "A Systematic Review and Meta-Analysis of Doxazosin Pharmacokinetics in Healthy and Diseased Populations.",
+        "doi": "10.3390/ph18121825",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.37783363461494446,
+        "score": 0.37783363461494446,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:25568671",
-        "text": "The antihypertension drug doxazosin suppresses JAK/STATs phosphorylation and enhances the effects of IFN-α/γ-induced apoptosis. Doxazosin, a commonly prescribed treatment for patients with benign prostatic hyperplasia, serves as an α1-blocker of the adrenergic receptors. In this study, we calculated its effect on the ovarian carcinoma cells. Doxazosin induces dose-dependent growth suppression and is additively activated through IFN-α or IFN-γ stimulation. They both enhanced G1 phase arrest, as well as the a",
-        "score": 0.39177343249320984,
-        "doi": "10.18632/genesandcancer.37",
-        "journal": "Genes & cancer",
-        "year": "2014",
-        "rerank_score": -1.9896671772003174,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12219881",
+        "text": "Doxazosin and ALLHAT trial: a response.",
+        "doi": "10.1016/s0895-7061(02)02996-5",
+        "journal": "American journal of hypertension",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3969968855381012,
+        "score": 0.3969968855381012,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

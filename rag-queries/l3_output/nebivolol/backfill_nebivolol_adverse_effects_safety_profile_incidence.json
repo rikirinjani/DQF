@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:16635049",
-        "text": "Effect of treatment with nebivolol on parameters of oxidative stress in type 2 diabetics with mild to moderate hypertension. The aim of this study was to examine the effect of the cadioselective B(1)-adrenoceptor blocker nebivolol on glycaemic control, lipid profile and markers of oxidative stress in patients with type 2 diabetes over a 6-month period.",
-        "score": 0.44620954990386963,
-        "doi": "10.1111/j.1365-2710.2006.00718.x",
-        "journal": "Journal of clinical pharmacy and therapeutics",
+        "id": "PMID:16772759",
+        "text": "Nationwide efficacy-safety study of nebivolol in mildly hypertensive patients. Nebivolol has been adequately tested in clinical efficacy trials of patients with mild hypertension. Clinical efficacy trials or their meta-analyses did not accurately predict the outcome of subsequent large studies. The primary objective was to assess the efficacy/safety of nebivolol 5-10 mg daily in a nationwide study of patients with mild hypertension. Secondary objectives were (1) to compare efficacy/safety as monotherapy versus add-on therapy and (2) to assess the effect of nebivolol on ISH. This was an open-label, 6-week follow-up study of 6,356 patients with mild hypertension or ISH, as defined by the 1999 World Health Organization guidelines, recruited from 2,700 facilities. Previous monotherapies were continued except for beta-blockers. Results are reported as means+/-SDs. Intention-to-treat analysis is given. A total of 5,740 patients completed the study; of the withdrawals, 90% were lost for follow-up or were noncompliant, 38% were untreated before, 23% had beta-blockers. In the accumulated data, mean systolic and diastolic blood pressures fell by 24+/-14 and 13+/-9 mm Hg (both P<0.001). The differences between the blood pressure-reducing effects of nebivolol monotherapy and add-on therapy were not statistically significant: 28+/-16 and 22+/-14 mm Hg for systolic and 15+/-11 and 11+/-8 mm Hg for diastolic blood pressures. Adverse events were limited to 0.5% of the patients, no serious adverse events were observed. In the ISH patients, diastolic blood pressure fell by 4+/-6 mm Hg compared with 15+/-10 mm Hg in the no-ISH patients (P<0.01). Efficacy-safety effects of nebivolol in patients with mild hypertension can be generalized in a nationwide assessment. The efficacy of nebivolol as monotherapy and as the efficacy as add-on therapy are very similar. Nebivolol is highly efficacious in patients with ISH.",
+        "doi": "10.1097/01.mjt.0000149923.39085.44",
+        "journal": "American journal of therapeutics",
         "year": "2006",
-        "rerank_score": 1.4805446863174438,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.3840510845184326,
+        "score": 0.3840510845184326,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39969604",
-        "text": "Comparison of nebivolol, carvedilol, and bisoprolol for adverse clinical outcomes among patients with heart failure-a real-world nationwide investigation. The authors report a retrospective cohort study based on a national dataset that explores the association between the prescription of three beta-blockers (BB) and a diagnosis of heart failure (HF) readmission, cardiovascular (CV) death, and all-cause death. Patients with HF who received nebivolol, carvedilol, and bisoprolol between 2016 and 2020 were iden",
-        "score": 0.4673915505409241,
-        "doi": "10.1007/s00210-025-03855-z",
-        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-        "year": "2024",
-        "rerank_score": 1.2705247402191162,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38357307",
+        "text": "Contrastive analysis on the safety of brand and generic nebivolol: a real-world pharmacovigilance study based on the FDA adverse event reporting system.",
+        "doi": "10.3389/fphar.2024.1280201",
+        "journal": "Frontiers in pharmacology",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3860611021518707,
+        "score": 0.3860611021518707,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:20411618",
-        "text": "Cardiovascular protective effects of nebivolol in Zucker diabetic fatty rats. Although effective in reducing blood pressure, therapy with a first-generation [beta]-blocker is currently controversial in metabolic syndrome due to its negative impact on carbohydrate and lipid metabolism.",
-        "score": 0.4445151686668396,
-        "doi": "10.1097/hjh.0b013e328337598c",
-        "journal": "Journal of hypertension",
-        "year": "2010",
-        "rerank_score": 0.9335341453552246,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12497936",
+        "text": "[Therapeutic effects of nebivolol].",
+        "doi": "",
+        "journal": "Cardiologia (Rome, Italy)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.4005967676639557,
+        "score": 0.4005967676639557,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

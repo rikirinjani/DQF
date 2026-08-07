@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39611070",
-        "text": "Efficacy of Different Beta Blockers in Reducing Mortality in Heart-Failure Patients. This study evaluated the comparative efficacy of different beta blockers bisoprolol, carvedilol, and metoprolol in reducing mortality and hospitalizations among 120 heart-failure (HF) patients. The sample had an equal gender distribution (50% male, 50% female) with a mean age of 69.28 years. Baseline characteristics, such as systolic blood pressure (mean: 134.36 mmHg) and left ventricular ejection fraction (LVEF) (mean: 40.",
-        "score": 0.37280166149139404,
-        "doi": "10.7759/cureus.74171",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": 5.679294109344482,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7794574",
+        "text": "Metoprolol minimizes nighttime blood pressure dip in hypertensive black males. Twelve hypertensive black males completed the study, which was conducted to evaluate the effect of metoprolol on 24-h ambulatory blood pressure (ABP). Study participants took 50 mg to 100 mg metoprolol twice daily for a minimum of 3 weeks. Metoprolol had no significant effect on blood pressure (147/90 +/- 11/8 mm Hg v 151/88 +/- 16/8 mm Hg, baseline v treated, respectively) in spite of causing significant reductions in heart rate (87 +/- 9 beats/min v 69 +/- 7 beats/min, P < .001). Only one subject had a > or = 10 mm Hg decrease in 24-h diastolic blood pressure. The nighttime fall in blood pressure was minimized by metoprolol and clinically significant increases in daytime or nighttime blood pressure were noted in 58% of patients. Metoprolol therapy failed to lower blood pressure and eliminated the normal nighttime decline in blood pressure. Since the nighttime decline in blood pressure is thought to protect against target organ damage, it may be important to identify antihypertensive agents which preserve or enhance the nighttime blood pressure dip.",
+        "doi": "10.1016/0895-7061(94)00209-T",
+        "journal": "American journal of hypertension",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.4080084264278412,
+        "score": 0.4080084264278412,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39124839",
-        "text": "Efficacy and Safety of Low-Dose Bisoprolol/Hydrochlorothiazide Combination for the Treatment of Hypertension: A Systematic Review and Meta-Analysis.",
-        "score": 0.3880784809589386,
-        "doi": "10.3390/jcm13154572",
-        "journal": "Journal of clinical medicine",
-        "year": "2024",
-        "rerank_score": 4.329174518585205,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21927164",
+        "text": "Metoprolol in management of patients with depression and hypertension.",
+        "doi": "",
+        "journal": "Indian journal of psychiatry",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4158017337322235,
+        "score": 0.4158017337322235,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38941270",
-        "text": "Clinical outcome in hypertensive patients treated with amlodipine plus bisoprolol or plus valsartan. Several guidelines do not recommend beta-blocker as the first-line treatment for hypertension because of its inferior efficacy in stroke prevention. Combination therapy with beta-blocker is commonly used for blood pressure control. We compared the clinical outcomes in patients treated with amlodipine plus bisoprolol (A + B), a ß1-selective beta-blocker and amlodipine plus valsartan (A + V). A population-base",
-        "score": 0.4202156066894531,
-        "doi": "10.1080/03007995.2024.2374514",
-        "journal": "Current medical research and opinion",
-        "year": "2024",
-        "rerank_score": 3.9691622257232666,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36983598",
+        "text": "Metoprolol and  Metoprolol is a medication commonly utilized in select patients to achieve a reduction in heart rate, systolic blood pressure, or other indications. A majority of metoprolol metabolism occurs via",
+        "doi": "10.3390/jpm13030416",
+        "journal": "Journal of personalized medicine",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.41658079624176025,
+        "score": 0.41658079624176025,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

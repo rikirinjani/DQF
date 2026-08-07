@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39713902",
-        "text": "Effect of nebivolol on erectile function: a systematic review and meta-analysis of randomized controlled trials. Historically, β-blockers have been associated with erectile dysfunction (ED). Nebivolol, a third-generation β-blocker, may have had no negative effect on erectile function because of its vasodilating properties. However, the evidence level was considered either as low or very low. A systematic review and meta-analysis of randomized controlled trials (RCTs) was conducted to determine the effect of",
-        "score": 0.43196094036102295,
-        "doi": "10.1093/jsxmed/qdae189",
-        "journal": "The journal of sexual medicine",
-        "year": "2024",
-        "rerank_score": 3.264014720916748,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12497936",
+        "text": "[Therapeutic effects of nebivolol].",
+        "doi": "",
+        "journal": "Cardiologia (Rome, Italy)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3972831666469574,
+        "score": 0.3972831666469574,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38814579",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.423075795173645,
-        "doi": "10.1001/jamaoncol.2024.1869",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -1.5311535596847534,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16772759",
+        "text": "Nationwide efficacy-safety study of nebivolol in mildly hypertensive patients. Nebivolol has been adequately tested in clinical efficacy trials of patients with mild hypertension. Clinical efficacy trials or their meta-analyses did not accurately predict the outcome of subsequent large studies. The primary objective was to assess the efficacy/safety of nebivolol 5-10 mg daily in a nationwide study of patients with mild hypertension. Secondary objectives were (1) to compare efficacy/safety as monotherapy versus add-on therapy and (2) to assess the effect of nebivolol on ISH. This was an open-label, 6-week follow-up study of 6,356 patients with mild hypertension or ISH, as defined by the 1999 World Health Organization guidelines, recruited from 2,700 facilities. Previous monotherapies were continued except for beta-blockers. Results are reported as means+/-SDs. Intention-to-treat analysis is given. A total of 5,740 patients completed the study; of the withdrawals, 90% were lost for follow-up or were noncompliant, 38% were untreated before, 23% had beta-blockers. In the accumulated data, mean systolic and diastolic blood pressures fell by 24+/-14 and 13+/-9 mm Hg (both P<0.001). The differences between the blood pressure-reducing effects of nebivolol monotherapy and add-on therapy were not statistically significant: 28+/-16 and 22+/-14 mm Hg for systolic and 15+/-11 and 11+/-8 mm Hg for diastolic blood pressures. Adverse events were limited to 0.5% of the patients, no serious adverse events were observed. In the ISH patients, diastolic blood pressure fell by 4+/-6 mm Hg compared with 15+/-10 mm Hg in the no-ISH patients (P<0.01). Efficacy-safety effects of nebivolol in patients with mild hypertension can be generalized in a nationwide assessment. The efficacy of nebivolol as monotherapy and as the efficacy as add-on therapy are very similar. Nebivolol is highly efficacious in patients with ISH.",
+        "doi": "10.1097/01.mjt.0000149923.39085.44",
+        "journal": "American journal of therapeutics",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.4053901731967926,
+        "score": 0.4053901731967926,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38814593",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.423075795173645,
-        "doi": "10.1001/jamaoncol.2024.0113",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -1.5311535596847534,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12497935",
+        "text": "[Clinical pharmacology of nebivolol].",
+        "doi": "",
+        "journal": "Cardiologia (Rome, Italy)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.40590256452560425,
+        "score": 0.40590256452560425,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

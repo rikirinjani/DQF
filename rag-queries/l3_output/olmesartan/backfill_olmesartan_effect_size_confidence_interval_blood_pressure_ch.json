@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40509774",
-        "text": "Blood pressure-lowering efficacy of Sacubitril/Allisartan versus Olmesartan in Chinese hypertensive patients with a nondipping blood pressure pattern. Abnormal nocturnal blood pressure dipping profile is an important cardiovascular risk factor in patients with hypertension. This analysis aimed to investigate the effects of Sacubitril/Allisartan on blood pressure in Chinese patients with mild to moderate hypertension and a nighttime nondipping pattern. We performed analysis of data from a randomized clinical",
-        "score": 0.39070653915405273,
-        "doi": "10.1097/HJH.0000000000004065",
-        "journal": "Journal of hypertension",
-        "year": "2024",
-        "rerank_score": 1.0114332437515259,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15323064",
+        "text": "Effects of olmesartan medoxomil on systolic blood pressure and pulse pressure in the management of hypertension. In this analysis, we evaluated the efficacy of the angiotensin II receptor blocker olmesartan medoxomil in reducing systolic blood pressure (SBP) and pulse pressure (PP) in hypertensive patients. Data from seven randomized, double blind, placebo controlled, 6- to 12-week efficacy trials of olmesartan 20 mg and 40 mg/day were analyzed to determine changes in trough seated SBP and PP within three cohorts: 1) total cohort (n = 1777); 2) subjects with a wide PP: that is, those with a baseline PP >55 mm Hg (n = 917); and 3) a subpopulation of patients with a wide PP and age > or = 65 years (n = 296). Statistical comparisons used least squares mean values. In the total cohort, olmesartan 20 and 40 mg/day resulted in mean reductions in SBP of 15.1 and 17.6 mm Hg, respectively (P < .001 v placebo). In the wide PP cohort, olmesartan resulted in mean reductions in SBP of 17.7 and 22.0 mm Hg and mean reductions in PP of 7.4 Hg and 8.8 mm Hg for the groups receiving 20 and 40 mg/day, respectively (P < .001 v placebo). In the cohort with wide PP and age > or = 65 years, olmesartan 20 and 40 mg/day produced mean reductions in SBP of 21.8 and 22.5 mm Hg, and PP of 6.7 and 7.6 mm Hg, respectively (P < .05 v placebo). Olmesartan significantly reduces SBP and PP, and these reductions are more pronounced in patients with a wide baseline PP. In patients with a wide baseline PP and age > or = 65 years, the population at greatest risk for cardiovascular morbidity and mortality, olmesartan reduces PP to an extent similar to that in patients <65 years of age.",
+        "doi": "10.1016/j.amjhyper.2004.05.003",
+        "journal": "American journal of hypertension",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.3465721309185028,
+        "score": 0.3465721309185028,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39504016",
-        "text": "Efficacy of Olmesartan/Amlodipine Single-Pill Combination on 24-h Mean Systolic Blood Pressure Measured by Ambulatory Monitoring in Non-Responders to Valsartan or Candesartan Monotherapy. The aim of this study was to evaluate the efficacy of olmesartan/amlodipine (OLM/AML) single-pill combination (SPC) therapy using ambulatory blood pressure monitoring (ABPM) in non-responders to valsartan or candesartan monotherapy. Isolated systolic hypertension (ISH) is the most prevalent form of hypertension in middle-a",
-        "score": 0.39259374141693115,
-        "doi": "10.1111/jch.14929",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
-        "year": "2024",
-        "rerank_score": 0.3269057273864746,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:24451269",
+        "text": "Effect of olmesartan on blood pressure in patients with hypertension: specification on causality.",
+        "doi": "10.1038/jhh.2013.150",
+        "journal": "Journal of human hypertension",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3602485954761505,
+        "score": 0.3602485954761505,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38579097",
-        "text": "Comparison of sacubitril/valsartan with olmesartan for hypertension: A meta-analysis of randomized controlled trials. The efficacy of sacubitril/valsartan versus olmesartan remains controversial for the control of hypertension. We conduct a systematic review and meta-analysis to explore the influence of sacubitril/valsartan versus olmesartan on the control of hypertension. We have searched PubMed, Embase, Web of science, EBSCO, and Cochrane library databases through July 2023 for randomized controlled trial",
-        "score": 0.3845662474632263,
-        "doi": "10.1097/MD.0000000000037501",
-        "journal": "Medicine",
-        "year": "2024",
-        "rerank_score": -2.987469434738159,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16515323",
+        "text": "[Olmesartan: antihypertensive therapy].",
+        "doi": "",
+        "journal": "Krankenpflege Journal",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.3692980408668518,
+        "score": 0.3692980408668518,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39672540",
-        "text": "Once-Weekly Tirzepatide Versus Once-Daily Basal Insulin in Managing Type 2 Diabetes Inadequately Controlled With Oral anti-Hyperglycemic Drugs: A Systematic Review and Meta-Analysis. No meta-analysis has been published comparing the efficacy and safety of tirzepatide vs once-daily basal insulins in subjects with type 2 diabetes (T2D) inadequately controlled with oral anti-hyperglycemic drugs. This meta-analysis was conducted to address this knowledge gap. Randomized controlled trials involving subjects with",
-        "score": 0.38636913895606995,
-        "doi": "10.1016/j.eprac.2024.12.005",
+        "id": "PMID:35977865",
+        "text": "Updated Meta-Analysis Assessing the Cardiovascular Efficacy of Tirzepatide.",
+        "doi": "10.1016/j.amjcard.2022.07.003",
+        "journal": "The American journal of cardiology",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.36094948649406433,
+        "score": 0.36094948649406433,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:41390457",
+        "text": "The relation between tirzepatide and adverse cardiovascular events or renal adverse events: a meta-analysis based on randomized controlled trials.",
+        "doi": "10.1186/s13098-025-02064-1",
+        "journal": "Diabetology & metabolic syndrome",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.3881088197231293,
+        "score": 0.3881088197231293,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:39733942",
+        "text": "Neuropsychiatric Effects of Tirzepatide: A Systematic Review and Meta-Analysis.",
+        "doi": "10.1016/j.eprac.2024.12.017",
         "journal": "Endocrine practice : official journal of the American College of Endocrinology a",
         "year": "2024",
-        "rerank_score": 4.764463901519775,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:25162656",
-        "text": "The efficacy of paroxetine and placebo in treating anxiety and depression: a meta-analysis of change on the Hamilton Rating Scales. Previous meta-analyses of published and unpublished trials indicate that antidepressants provide modest benefits compared to placebo in the treatment of depression; some have argued that these benefits are not clinically significant. However, these meta-analyses were based only on trials submitted for the initial FDA approval of the medication and were limited to those aimed at",
-        "score": 0.40412187576293945,
-        "doi": "10.1371/journal.pone.0106337",
-        "journal": "PloS one",
-        "year": "2014",
-        "rerank_score": 2.7525060176849365,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:22883424",
-        "text": "An indirect comparison of the efficacy and safety of desvenlafaxine and venlafaxine using placebo as the common comparator. This meta-analysis compared the efficacy and safety of desvenlafaxine and venlafaxine at the Australian approved doses.",
-        "score": 0.39851000905036926,
-        "doi": "10.1017/S1092852912000648",
-        "journal": "CNS spectrums",
-        "year": "2012",
-        "rerank_score": 2.659846305847168,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3948965072631836,
+        "score": 0.3948965072631836,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41293743",
-        "text": "Efficacy and safety of insulin degludec/aspart in patients with type 2 and type 1 diabetes mellitus: real-world evidence from Indonesia. Real-world studies on insulin degludec/aspart (IDegAsp) have been conducted in some Southeast Asian populations; however, data specific to Indonesia remain limited. The aim of this study was to evaluate the efficacy, safety profiles, and real-world clinical experience of IDegAsp after five years of implementation in diabetes care in Indonesia. This five-year, single-center",
-        "score": 0.38015347719192505,
-        "doi": "10.3389/fendo.2025.1690169",
-        "journal": "Frontiers in endocrinology",
-        "year": "2025",
-        "rerank_score": 3.6003921031951904,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38264229",
+        "text": "Safety and glycemic control with insulin degludec use in clinical practice: results from a 3-year Japanese post-marketing surveillance study. Insulin degludec (degludec) is a basal insulin with a long duration of action. This post-marketing surveillance study monitored safety and glycemic control during use of degludec for 3 years in normal clinical practice in Japan. This multicenter, open-label, observational study included patients with diabetes receiving degludec in Japan between 2013 and 2019. The primary outcome was incidence of adverse events occurring over 3 years of treatment. The pre-specified, secondary outcomes were severe hypoglycemic episodes and changes in HbA1c and fasting plasma glucose levels. Of 4167 patients enrolled, 4022 were included in the safety assessments and 3918 in the assessments of glycemic control. Mean age was 58.9 years; 74.1% of patients had type 2 diabetes, and mean HbA1c at baseline was 8.7%. Adverse events and serious adverse events were observed in 19.1% and 8.9% of patients, respectively. Cardiac disorders and neoplasms were reported in 2.0% and 1.8% of patients, respectively, with the majority of these incidents reported as serious adverse events. Adverse drug reactions were seen in 8.0% of patients, mainly hypoglycemia. Hypoglycemic events were observed in 5.6% of patients, and severe hypoglycemic events in 1.7%. No serious allergic or injection-site reactions were seen. Respective changes (from baseline to 3 years' observation) in HbA1c and fasting plasma glucose levels were - 0.55% and - 36.3 mg/dL, and 19.6% of patients reached HbA1c < 7.0%. Using degludec for 3 years in normal clinical practice had a good safety and tolerability profile. Improvements in glycemic control were also seen. The online version contains supplementary material available at 10.1007/s13340-023-00657-7.",
+        "doi": "10.1007/s13340-023-00657-7",
+        "journal": "Diabetology international",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.35106509923934937,
+        "score": 0.35106509923934937,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40014293",
-        "text": "In-Hospital Management of Hyperglycemia: The Role of Insulin Degludec. Hyperglycemia is a common and challenging condition in hospitalized patients both with and without a history of diabetes. Managing hyperglycemia effectively is critical in reducing complications, mortality, and the length of hospital stays. Insulin degludec (IDeg), an ultralong-acting basal insulin, has a well-established efficacy and safety profile in terms of managing hyperglycemia in outpatients; it has demonstrated benefits in clinic",
-        "score": 0.38868167996406555,
-        "doi": "10.1007/s13300-025-01707-w",
-        "journal": "Diabetes therapy : research, treatment and education of diabetes and related dis",
-        "year": "2024",
-        "rerank_score": 3.3038296699523926,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29143515",
+        "text": "Safety of Degludec versus Glargine in Type 2 Diabetes.",
+        "doi": "10.1056/NEJMc1712575",
+        "journal": "The New England journal of medicine",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.3893875181674957,
+        "score": 0.3893875181674957,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:25417447",
-        "text": "[Daytime flexible application of Insulin degludec in patients with type 1 diabetes or type 2 diabetes]. Insulin degludec (IDeg) is a basal insulin with a stable, flat action profile and an even distribution of the blood glucose lowering effect over 24 hou rs. The terminal half-life of IDeg is about 25 hours, which reflects a mean prolongation by factor 2 compared to Insulin glargin (lGlar).This may enable for a more flexible daytime dosing versus up to now available basal insulins.",
-        "score": 0.36514797806739807,
-        "doi": "",
-        "journal": "MMW Fortschritte der Medizin",
-        "year": "2014",
-        "rerank_score": 3.0037715435028076,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29141162",
+        "text": "Safety of Degludec versus Glargine in Type 2 Diabetes.",
+        "doi": "10.1056/NEJMc1712575",
+        "journal": "The New England journal of medicine",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.3893875181674957,
+        "score": 0.3893875181674957,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:16809161",
-        "text": "Approaching clinical problems in prostate cancer radiotherapy using the number needed to treat (NNT) technique. The goals of this article are to review the application of the number needed to treat (NNT) concept to selected clinical problems in prostate cancer radiotherapy. Particular emphasis will be placed on (1) comparison of radiotherapy with other treatment options for early-stage disease, (2) the role of hormone therapy in addition to radiotherapy over a spectrum of disease presentation, and (3) syste",
-        "score": 0.443891704082489,
-        "doi": "10.1080/07357900600633775",
-        "journal": "Cancer investigation",
-        "year": "2006",
-        "rerank_score": 1.9462578296661377,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.399409681558609,
+        "score": 0.399409681558609,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39558518",
-        "text": "Outcomes of Bolus Dose Furosemide Versus Continuous Infusion in Patients With Acute Decompensated Left Ventricular Failure and Atrial Fibrillation. This prospective, randomized trial aimed to compare the efficacy and safety of different intravenous diuretic regimens in acute decompensated heart failure (ADHF) patients. ADHF patients were enrolled and randomized into three groups: continuous intravenous furosemide infusion (cIV), bolus furosemide injection (bI), and furosemide plus hypertonic saline solution",
-        "score": 0.4737512469291687,
-        "doi": "10.1002/clc.70033",
-        "journal": "Clinical cardiology",
-        "year": "2024",
-        "rerank_score": -0.19524173438549042,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34121726",
+        "text": "Potential Role of Natriuretic Response to Furosemide Stress Test During Acute Heart Failure. Poor natriuresis has been associated with a poorer response to diuretic treatment and worse prognosis in acute heart failure. Recommendations on how and when to measure urinary sodium (UNa) are lacking. We aim to evaluate UNa quantification after a furosemide stress test (FST) capacity to predict appropriate decongestion during acute heart failure hospitalization. Patients underwent an FST on day-1 of admission, and UNa was measured 2 hours after, dividing patients into low or high UNa based on the sample median value. A semiquantitative composite congestive score (CCS; 0-9) and NT pro-BNP (N-terminal pro-B-type natriuretic peptide) quantification were assessed before the FST and at day 5 after the FST. Median UNa after FST in the 65 patients included was 113 (97-122) mmol/L. At day 5, a lower proportion of patients with a low UNa reached a 30% decrease in NT-proBNP levels (21 [66%] for low UNa versus 31 [94%] for high UNa;  Low natriuresis after an FST identified patients at a higher risk of an inadequate diuretic response and an inappropriate decongestion. FST-guided diuretic treatment might help to improve decongestion, shorten hospitalizations, and to reduce adverse outcomes.",
+        "doi": "10.4103/njcp.njcp_477_19",
+        "journal": "Nigerian journal of clinical practice",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.43820616602897644,
+        "score": 0.43820616602897644,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:11081314",
-        "text": "[Comparison of the therapeutic efficacy of spironolactone and furosemide in patients with severe congestive heart failure]. 21 patients with NYHA class III to IV congestive heart failure were randomised to Aldactone (200 mg i.v., 11 pts) or furosemide (20 mg i.v., 10 pts). The mean urine volume in 24 hours in Aldactone group was 1145 ml (range 600 to 2500 ml) and 1678 ml (range 1000 to 3500 ml) in furosemide group (NS). Reduction of magnesium plasma level in furosemide group 24 hours after treatment (from 2",
-        "score": 0.44431886076927185,
-        "doi": "",
-        "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
-        "year": "2000",
-        "rerank_score": -0.24616281688213348,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:39745789",
+        "text": "Comparing Torsemide with Furosemide: Finally a Mechanistic Approach that Says, \"Enough Already\".",
+        "doi": "10.1681/ASN.0000000562",
+        "journal": "Journal of the American Society of Nephrology : JASN",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.4462578296661377,
+        "score": 0.4462578296661377,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

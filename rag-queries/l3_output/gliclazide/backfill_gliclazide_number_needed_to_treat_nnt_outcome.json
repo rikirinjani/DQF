@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40078077",
-        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
-        "score": 0.4927408993244171,
-        "doi": "10.1080/13696998.2025.2466365",
-        "journal": "Journal of medical economics",
-        "year": "2025",
-        "rerank_score": 2.0903496742248535,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.36755111813545227,
+        "score": 0.36755111813545227,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:27666900",
-        "text": "Treatment of Type 2 Diabetes with a Breakable Extended Release Gliclazide Formulation in Primary Care: The Xrise Study. This study examines whether a new, scored and breakable once daily gliclazide tablet formulation, gliclazide XR 60 mg, that enables a simple 2-steps titration, can improve glycemic control rates in the community.",
-        "score": 0.4632871448993683,
-        "doi": "",
-        "journal": "The Journal of the Association of Physicians of India",
-        "year": "2016",
-        "rerank_score": -0.005465306341648102,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.43373820185661316,
+        "score": 0.43373820185661316,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40426928",
-        "text": "Add-On Treatment with Gliclazide for Cancer Patients with Type 2 Diabetes Undergoing Cyclic Glucocorticoid-Containing Chemotherapy.",
-        "score": 0.46599113941192627,
-        "doi": "10.3390/biomedicines13051101",
-        "journal": "Biomedicines",
-        "year": "2025",
-        "rerank_score": -2.189833164215088,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15977973",
+        "text": "Gliclazide modified release.",
+        "doi": "10.2165/00003495-200565100-00009",
+        "journal": "Drugs",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.43458008766174316,
+        "score": 0.43458008766174316,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

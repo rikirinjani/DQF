@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:32453482",
-        "text": "Comparative effectiveness of dapagliflozin vs DPP-4 inhibitors on a composite endpoint of HbA1c, body weight and blood pressure reduction in the real world. Treatment of type 2 diabetes (T2D) should aim at preventing or delaying complications through the control of glycaemia and cardiovascular risk factors. We herein compared the SGLT-2 inhibitor dapagliflozin vs DPP-4 inhibitors (DPP-4i) on a composite endpoint of glycaemic and extraglycaemic effectiveness.",
-        "score": 0.3649333119392395,
-        "doi": "10.1002/dmrr.3353",
-        "journal": "Diabetes/metabolism research and reviews",
-        "year": "2020",
-        "rerank_score": 5.592743873596191,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39836391",
-        "text": "Effectiveness of Empagliflozin vs Dapagliflozin for Kidney Outcomes in Type 2 Diabetes. No large randomized clinical trial has directly compared empagliflozin with dapagliflozin, leaving their comparative effectiveness regarding kidney outcomes unknown. To compare kidney outcomes between initiation of empagliflozin vs dapagliflozin in adults with type 2 diabetes who were receiving antihyperglycemic treatment. This target trial emulation used nationwide, population-based routinely collected Danish health car",
-        "score": 0.3509669899940491,
-        "doi": "10.1001/jamainternmed.2024.7381",
-        "journal": "JAMA internal medicine",
+        "id": "PMID:40403299",
+        "text": "Empagliflozin Versus Placebo in Type 2 Diabetes and Cardiovascular Disease: A Systematic Review and Meta-Analysis.",
+        "doi": "10.1097/MJT.0000000000001983",
+        "journal": "American journal of therapeutics",
         "year": "2025",
-        "rerank_score": 5.100907802581787,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.27573373913764954,
+        "score": 0.27573373913764954,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:32791755",
-        "text": "Efficacy and safety of dapagliflozin plus saxagliptin vs monotherapy as added to metformin in patients with type 2 diabetes: A meta-analysis. This study aim at evaluating the efficacy and safety of dapagliflozin plus saxagliptin vs monotherapy as added to metformin in patients with type 2 diabetes mellitus (T2DM).",
-        "score": 0.3589414358139038,
-        "doi": "10.1097/MD.0000000000021409",
-        "journal": "Medicine",
-        "year": "2020",
-        "rerank_score": 5.0009894371032715,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36702979",
+        "text": "Indirect comparison of SGLT2 inhibitors in patients with established heart failure: evidence based on Bayesian methods. Head-to-head comparisons among SGLT2 inhibitors treatments in established heart failure remain absent. We conducted a systematic review of dedicated heart failure trials to assess indirectly the composite outcomes and individual clinical endpoints among SGLT2 inhibitor treatments. We systematically reviewed randomized controlled trials comparing SGLT2 inhibitors versus placebo in patients with established heart failure. A Bayesian approach to network meta-analysis was applied. Five trials including four treatment strategies were included in this study. The composite of cardiovascular death or hospitalization for heart failure showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 1.00, 95% CI 0.66-1.55), dapagliflozin and sotagliflozin (OR 1.54, 95% CI 0.91-2.65), and empagliflozin and sotagliflozin (OR 1.53, 95% CI 0.90-2.69). All-cause mortality showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 0.92, 95% CI 0.711-1.18), dapagliflozin and sotagliflozin (OR 1.05, 95% CI 0.68-1.59), and empagliflozin and sotagliflozin (OR 1.14, 95% CI 0.74-1.73). Cardiovascular death showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 0.94, 95% CI 0.71-1.23), dapagliflozin and sotagliflozin (OR 0.96, 95% CI 0.61-1.55), and empagliflozin and sotagliflozin (OR 1.03, 95% CI 0.64-1.66). Hospitalization for heart failure showed no significant difference in the comparison between dapagliflozin and empagliflozin (OR 1.13, 95% CI 0.64-1.97), dapagliflozin and sotagliflozin (OR 1.56, 95% CI 0.74-3.15), and empagliflozin and sotagliflozin (OR 1.39, 95% CI 0.68-2.78). In patients with established heart failure, there was no significant difference of the major efficacy outcomes among SGLT2 inhibitor treatments; however, sotagliflozin may be associated with the lowest risk of the composite of cardiovascular death or hospitalization for heart failure, and dapagliflozin may be associated with the lowest risk of all-cause and cardiovascular mortality.",
+        "doi": "10.1002/ehf2.14297",
+        "journal": "ESC heart failure",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.29998862743377686,
+        "score": 0.29998862743377686,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:39354951",
+        "text": "Efficacy and Safety of Ertugliflozin Compared to Placebo in Patients With Type 2 Diabetes: An Updated Systematic Review and Meta-Analysis.",
+        "doi": "10.1155/2024/5553327",
+        "journal": "Journal of diabetes research",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.30428653955459595,
+        "score": 0.30428653955459595,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

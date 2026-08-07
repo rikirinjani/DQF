@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:34697882",
-        "text": "A model-based simulation of glycaemic control and body weight when switching from semaglutide to 3.0- and 4.5-mg doses of once-weekly dulaglutide. To evaluate HbA1c and body weight changes when semaglutide 0.5- or 1.0-mg once-weekly (QW) is switched to dulaglutide 3.0- or 4.5-mg QW via exposure-response modelling.",
-        "score": 0.35242003202438354,
-        "doi": "10.1111/dom.14582",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2021",
-        "rerank_score": 2.9062676429748535,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:39507603",
+        "text": "Real-World HbA1c Changes Among Type 2 Diabetes Mellitus Patients Initiating Treatment With a 1.0 Mg Weekly Dose of Semaglutide for Diabetes.",
+        "doi": "10.36469/001c.124111",
+        "journal": "Journal of health economics and outcomes research",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.3376857042312622,
+        "score": 0.3376857042312622,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:29687620",
-        "text": "Semaglutide as a therapeutic option for elderly patients with type 2 diabetes: Pooled analysis of the SUSTAIN 1-5 trials. The efficacy and safety of semaglutide vs comparators in non-elderly (<65 years) and elderly (≥65 years) patients with type 2 diabetes (T2D) across the SUSTAIN 1-5 trials were evaluated. Patients were randomized to once-weekly subcutaneous semaglutide (0.5 or 1.0 mg) vs placebo, sitagliptin, exenatide or insulin. The primary objective was change in HbA1c and secondary objectives were cha",
-        "score": 0.3659029006958008,
-        "doi": "10.1111/dom.13331",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2018",
-        "rerank_score": 1.3077375888824463,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38416593",
+        "text": "Semaglutide and cardiovascular outcomes by baseline HbA1c in diabetes: the SUSTAIN 6 and PIONEER 6 trials.",
+        "doi": "10.1093/eurheartj/ehae028",
+        "journal": "European heart journal",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.3465127646923065,
+        "score": 0.3465127646923065,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:34622228",
-        "text": "Levels of circulating semaglutide determine reductions in HbA1c and body weight in people with type 2 diabetes. Glucagon-like peptide-1 receptor agonists (GLP-1RA) are used for the treatment of type 2 diabetes. Whether clinically important responses and adverse events (AEs) are dependent on the route of administration has not been determined. We demonstrate that nearly identical exposure-response pharmacodynamic relationships are determined by plasma semaglutide levels achieved through oral versus injectabl",
-        "score": 0.37595731019973755,
-        "doi": "10.1016/j.xcrm.2021.100387",
-        "journal": "Cell reports. Medicine",
-        "year": "2021",
-        "rerank_score": 0.9564574360847473,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40473254",
+        "text": "Efficacy of Semaglutide Injection in the Treatment of Type 2 Diabetes Mellitus and its Impact on C-Peptide Levels. Type 2 Diabetes Mellitus (T2DM) remains a significant global health challenge, necessitating more effective therapeutic strategies. This study was to observe the impact of semaglutide on the C-Peptide levels and glycemic variability. This retrospective evaluation was conducted from January 2020 to January 2023 at our hospital, involving 172 patients diagnosed with T2DM. Patients were stratified into two groups: the observation group (86 patients) received semaglutide injections plus metformin, and the control group (86 patients) received only metformin. Treatment efficacy was assessed using changes in HbA1c, fasting blood glucose (FBG), 2-hour postprandial blood glucose (2 h BG), and C-Peptide levels. Additional evaluations included changes in glycemic variability indicators such as standard deviation of blood glucose (SDBG), mean of daily differences (MODD), and mean amplitude of glycemic excursions (MAGE). The observation group showed significantly greater improvements in glycemic control and C-Peptide levels compared to the control group. Specifically, the observation group achieved a significant reduction in HbA1c from 70 mmol/mol to 53 mmol/mol, FBG from 10.91 mmol/l to 6.12 mmol/l, and increased C-Peptide levels in both fasting and postprandial states. Improvements in glycemic variability were also more pronounced in the observation group. There was no significant difference in the incidence of adverse events between the two groups. Semaglutide combined with metformin significantly enhances the efficacy of treatment in T2DM patients, with marked improvements in C-Peptide levels, glycemic control, and reduction in glycemic variability. This combination therapy not only offers superior glucose management but also appears to bolster pancreatic function.",
+        "doi": "10.1055/a-2618-7509",
+        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.3480612337589264,
+        "score": 0.3480612337589264,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

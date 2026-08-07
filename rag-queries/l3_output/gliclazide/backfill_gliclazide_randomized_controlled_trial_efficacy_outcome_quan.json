@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38814579",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.4141640067100525,
-        "doi": "10.1001/jamaoncol.2024.1869",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -2.036360740661621,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29679474",
+        "text": "Population pharmacokinetics of gliclazide in normal and diabetic rabbits. Gliclazide is a second-generation sulphonylurea drug widely used in the treatment of type 2 diabetes. However, there is no single report to describe the population pharmacokinetics of gliclazide in animal models. This study was aimed to evaluate the population pharmacokinetics (PK) of gliclazide in normal and alloxan-induced diabetic rabbits using nonlinear mixed effects modeling. A total of 90 New Zealand white rabbits were administered with three doses (4.13, 8.27 and 16.53 mg/kg b.wt) of gliclazide by an oral route. Blood samples were collected up to 24 hr and the gliclazide concentrations in rabbit were determined using the HPLC method. The non-compartmental and classical compartmental PK analyses were performed using Phoenix WinNonlin. Population PK analysis of gliclazide was performed using nonlinear mixed-effects model software NONMEM and Phoenix NLME considering the weight, age, sex, health and dose as covariates. The final population values for clearance (CL), volume of distribution (V) and the absorption rate constant (k",
+        "doi": "10.1002/bdd.2132",
+        "journal": "Biopharmaceutics & drug disposition",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.3890524208545685,
+        "score": 0.3890524208545685,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38814593",
-        "text": "Results of the TARGET-TP Randomized Clinical Trial.",
-        "score": 0.4141640067100525,
-        "doi": "10.1001/jamaoncol.2024.0113",
-        "journal": "JAMA oncology",
-        "year": "2024",
-        "rerank_score": -2.036360740661621,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36999176",
+        "text": "Optimal dosing of gliclazide-A model-based approach. Gliclazide was approved as a treatment for type 2 diabetes in an era before model-based drug development, and consequently, the recommended doses were not optimised with modern methods. To investigate various dosing regimens of gliclazide, we used publicly available data to characterise the dose-response relationship using pharmacometric models. A literature search identified 21 published gliclazide pharmacokinetic (PK) studies with full profiles. These were digitised, and a PK model was developed for immediate- (IR) and modified-release (MR) formulations. Data from a gliclazide dose-ranging study of postprandial glucose were used to characterise the concentration-response relationship using the integrated glucose-insulin model. Simulations from the full model showed that the maximum effect was 44% of the patients achieving HbA1c <7%, with 11% experiencing glucose <3 mmol/L and the most sensitive patients (i.e., 5% most extreme) experiencing 35 min of hypoglycaemia. Simulations revealed that the recommended IR dose (320 mg) was appropriate with no efficacy gain with increased dose. However, the recommended dose for the MR formulation may be increased to 270 mg, with more patients achieving HbA1c goals (i.e., HbA1c <7%) without a hypoglycaemic risk higher than the resulting risk from the recommended IR dose.",
+        "doi": "10.1111/bcpt.13868",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.39127400517463684,
+        "score": 0.39127400517463684,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38294337",
-        "text": "Real-world evidence on the effectiveness and safety of gliclazide MR 60 mg in Bangladeshi patients with Type II diabetes during fasting: a sub-analysis from the global DIA-RAMADAN study.",
-        "score": 0.42340216040611267,
-        "doi": "10.57264/cer-2023-0132",
-        "journal": "Journal of comparative effectiveness research",
-        "year": "2024",
-        "rerank_score": -2.4824509620666504,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29651307",
+        "text": "Effectiveness of gliclazide MR 60 mg in the management of type 2 diabetes: analyses from the EASYDia trial. Although the number of antihyperglycemic agents has expanded significantly, sulfonylureas (in particular gliclazide) remain an important option because of a variety of patient and health system factors. The large, real world, observational, and international EASYDia trial evaluated the effectiveness of gliclazide modified release (MR) 60 mg in individuals with type 2 diabetes with a broad range of diabetes history, body mass index (BMI) and background antihyperglycemic treatment. A total of 7170 participants from eight countries, age ≥ 35 years with HbA1c ≥ 7.5% and not treated with insulin, were prescribed 30-120 mg of gliclazide MR 60 mg once daily. HbA1c goals were individualized and dosing uptitrated, as required, over the 6-month long study. In this post hoc subanalysis, efficacy endpoints were analyzed according to stratified baseline HbA1c levels, weight and glucose-lowering regimens. Episodes of hypoglycemia requiring assistance were documented. At baseline, mean age was 58.9 years, HbA1c 8.8%, BMI 30.1 kg/m Progressive gliclazide MR 60 mg uptitration was well tolerated and lowered HbA1c across a broad range of HbA1c, BMI and background glucose-lowering therapy. Weight loss was noted when BMI was ≥ 25.0 kg/m",
+        "doi": "10.1186/s13098-018-0331-8",
+        "journal": "Diabetology & metabolic syndrome",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.39271172881126404,
+        "score": 0.39271172881126404,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

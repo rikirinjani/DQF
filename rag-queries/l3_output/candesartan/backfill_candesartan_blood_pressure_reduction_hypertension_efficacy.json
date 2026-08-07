@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39358448",
-        "text": "Phase III randomized clinical trial of efficacy and safety of amlodipine and candesartan cilexetil combination for hypertension treatment. Effective antihypertensive therapy is essential for achieving optimal blood pressure (BP) control and reducing cardiovascular events. This double-blind, multicenter, randomized trial aimed to compare the antihypertensive efficacy and safety of a combination of amlodipine (AML) and candesartan cilexetil (CC) versus AML monotherapy in patients with essential hypertension (",
-        "score": 0.35422056913375854,
-        "doi": "10.1038/s41598-024-74003-5",
-        "journal": "Scientific reports",
-        "year": "2024",
-        "rerank_score": 7.6767706871032715,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9844624",
+        "text": "Candesartan for hypertension.",
+        "doi": "",
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.2961046099662781,
+        "score": 0.2961046099662781,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39026999",
-        "text": "Efficacy and safety of azilsartan medoxomil in the treatment of hypertension: a systematic review and meta-analysis. Angiotensin II receptor blockers (ARBs) are utilized for the management of hypertension and diabetes. Previous meta-analyses suggested that azilsartan medoxomil (AZL-M) improved blood pressure (BP) reduction, but there were no safety findings or suggestions for patients with hypertension or diabetes. We performed an efficacy and safety meta-analysis of randomized controlled trials (RCTs) eval",
-        "score": 0.369020938873291,
-        "doi": "10.3389/fcvm.2024.1383217",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2024",
-        "rerank_score": 7.5215535163879395,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11318085",
+        "text": "Antihypertensive effects of losartan and candesartan.",
+        "doi": "10.1016/s0149-2918(01)80055-2",
+        "journal": "Clinical therapeutics",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.3320404589176178,
+        "score": 0.3320404589176178,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39504016",
-        "text": "Efficacy of Olmesartan/Amlodipine Single-Pill Combination on 24-h Mean Systolic Blood Pressure Measured by Ambulatory Monitoring in Non-Responders to Valsartan or Candesartan Monotherapy. The aim of this study was to evaluate the efficacy of olmesartan/amlodipine (OLM/AML) single-pill combination (SPC) therapy using ambulatory blood pressure monitoring (ABPM) in non-responders to valsartan or candesartan monotherapy. Isolated systolic hypertension (ISH) is the most prevalent form of hypertension in middle-a",
-        "score": 0.3568323254585266,
-        "doi": "10.1111/jch.14929",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
-        "year": "2024",
-        "rerank_score": 6.859632968902588,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12497948",
+        "text": "[Angiotensin II receptor antagonists in arterial hypertension: new clinical evidence with candesartan].",
+        "doi": "",
+        "journal": "Cardiologia (Rome, Italy)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3532455265522003,
+        "score": 0.3532455265522003,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

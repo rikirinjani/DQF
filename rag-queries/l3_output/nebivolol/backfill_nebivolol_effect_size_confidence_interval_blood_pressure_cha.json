@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39467996",
-        "text": "Effect of nebivolol monotherapy or combination therapy on blood pressure levels in patients with hypertension: an updated systematic review and multilevel meta-analysis of 91 randomized controlled trials. To systematically appraise and summarize the available evidence from published randomized controlled trials considering the effect of nebivolol on blood pressure in patients with hypertension. Literature search was performed through Medline (via PubMed), Cochrane Library and Scopus until December 15, 2023.",
-        "score": 0.3610152304172516,
-        "doi": "10.1007/s40292-024-00687-5",
-        "journal": "High blood pressure & cardiovascular prevention : the official journal of the It",
-        "year": "2024",
-        "rerank_score": 1.184482216835022,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10686666",
+        "text": "The effect of nebivolol on left ventricular hypertrophy in hypertension.",
+        "doi": "10.1023/a:1007840123533",
+        "journal": "Cardiovascular drugs and therapy",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.3584193289279938,
+        "score": 0.3584193289279938,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:30063644",
-        "text": "The effects of nebivolol and irbesartan on postdialysis and ambulatory blood pressure in patients with intradialytic hypertension: a randomized cross-over study. Intradialytic hypertension is estimated at 5-15% of hemodialysis patients and is associated with poor prognosis. Studies on therapeutic interventions for this entity are extremely few. We aimed to evaluate the effects of nebivolol and irbesartan on peridialytic, intradialytic, and ambulatory BP in patients with intradialytic hypertension.",
-        "score": 0.3527384400367737,
-        "doi": "10.1097/HJH.0000000000001891",
-        "journal": "Journal of hypertension",
-        "year": "2018",
-        "rerank_score": 0.6363936066627502,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19527321",
+        "text": "Nebivolol in obese and non-obese hypertensive patients. Use of beta-blockers in hypertensive obese patients remains controversial because of concerns about potential influences on weight, lipids, and glucose metabolism. The authors examined a pooled analysis of 3 multicenter randomized placebo-controlled trials. Patients were randomized to placebo or an increasing dose of nebivolol for 12 weeks. Primary outcome was the mean baseline to end point change in trough mean sitting diastolic blood pressure (SiDBP). Secondary outcomes were baseline to end point changes in trough sitting systolic blood pressure (SiSBP); trough standing and peak supine diastolic blood pressure and systolic blood pressure. Nebivolol reduced SiDBP significantly compared with placebo at all doses > or =2.5 mg in obese and non-obese patients. Reductions in SiSBP with nebivolol were higher than controls at all studied doses > or =5 mg in non-obese and > or =2.5 mg in obese patients. These findings and nebivolol's neutral effects on lipid and carbohydrate metabolism suggest that it is one option for blood pressure control in the moderately obese population.",
+        "doi": "10.1111/j.1751-7176.2009.00119.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.3632432222366333,
+        "score": 0.3632432222366333,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40490940",
-        "text": "Differential Effects of Antihypertensive Drugs on Central Blood Pressure: A Randomized Comparison between Nebivolol and Telmisartan. Central blood pressure (CBP) is a better predictor of cardiovascular outcomes than peripheral blood pressure. First- and second-generation beta-blockers have poor CBP-lowering effects. However, nebivolol, a third-generation beta-blocker with vasodilatory effects, may be beneficial in lowering CBP. This study compared the CBP-lowering efficacies of nebivolol and telmisartan ove",
-        "score": 0.42119696736335754,
-        "doi": "10.1093/ajh/hpaf098",
-        "journal": "American journal of hypertension",
-        "year": "2024",
-        "rerank_score": -0.010945001617074013,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17786067",
+        "text": "A randomized, double-blind, placebo-controlled parallel-group study to assess the efficacy and safety of nebivolol, a novel beta-blocker, in patients with mild to moderate hypertension. This double-blind, multicenter, randomized placebo-controlled study evaluated the antihypertensive efficacy and safety of nebivolol, a selective beta1-adrenoreceptor blocker with vasodilating effects, in patients with mild to moderate hypertension (sitting diastolic blood pressure [SiDBP] > or =95 mm Hg and < or =109 mm Hg). A total of 909 patients were randomized to receive placebo or nebivolol 1.25, 2.5, 5, 10, 20, or 40 mg once daily for up to 84 days. The primary end point was the change in trough SiDBP from baseline to study end. Nebivolol significantly reduced trough SiDBP (8.0-11.2 mm Hg compared with 2.9 mm Hg with placebo; P<.001) and trough sitting systolic blood pressure (a 4.4-9.5-mm Hg decrease compared with a 2.2-mm Hg increase [corrected] with placebo; P< or =.002). The overall adverse event experience was similar in the nebivolol (46.1%) and placebo (40.7%) groups (P=.273). Once-daily nebivolol is an effective antihypertensive in mild to moderate hypertensive patients.",
+        "doi": "10.1111/j.1524-6175.2007.06679.x",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3643994927406311,
+        "score": 0.3643994927406311,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

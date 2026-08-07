@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41103874",
-        "text": "Hydralazine-Induced Diarrhea in a Geriatric Patient: A Case Report and a Review of the Literature on Deprescribing as a Diagnostic Strategy. Older adults can be particularly susceptible to adverse drug reactions (ADRs) due to age-related physiological changes, decline in renal and hepatic function, and chronic comorbidities. Drug-induced diarrhea (DID) can often be hard to identify in the older adult population due to polypharmacy and the constant addition of new medications to treat the side effects of pre",
-        "score": 0.4383006989955902,
-        "doi": "10.7759/cureus.92359",
-        "journal": "Cureus",
-        "year": "2025",
-        "rerank_score": 2.3351736068725586,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36008095",
+        "text": "Hydralazine-induced liver injury: a review and discussion.",
+        "doi": "10.1136/dtb.2022.243278rep",
+        "journal": "Drug and therapeutics bulletin",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.4150160551071167,
+        "score": 0.4150160551071167,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40777674",
-        "text": "A Delayed Adverse Reaction: Hydralazine-Induced Lupus After Years of Use. Drug-induced lupus (DIL) is a rare autoimmune condition triggered by certain medications, most commonly hydralazine and procainamide. DIL can manifest after a few weeks or even after several years of drug exposure. We present a case of a 61-year-old female with hypertension and type 2 diabetes mellitus who developed progressive polyarthritis, myalgia, and fatigue that developed over a year after three years of hydralazine use. Laborat",
-        "score": 0.44661945104599,
-        "doi": "10.7759/cureus.87514",
-        "journal": "Cureus",
-        "year": "2025",
-        "rerank_score": 2.083381175994873,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34401741",
+        "text": "Hydralazine-induced liver injury: a review and discussion. Hydralazine is a commonly prescribed antihypertensive agent. Some of its labelled adverse reactions include lupus-like syndrome, tachycardia, headache and fever. Despite its well-known side effects, little is known about hydralazine's hepatotoxic effects. We report the case of a 54-year-old female patient who was started on hydralazine for hypertension management but later presented with hydralazine-induced liver injury. Her initial presentation consisted of non-specific symptoms and a hepatocellular injury pattern. Liver biopsy revealed hepatic steatosis. Three weeks after discontinuation of hydralazine, the patient's liver enzymes normalised, and her symptoms resolved. Few studies have examined the incidence and mechanism by which hydralazine induces a liver injury pattern. With this case, we review the literature, the pathogenesis involved and the eventual management of hydralazine-induced liver injury. We propose close monitoring of liver enzymes for patients on hydralazine throughout their treatment course.",
+        "doi": "10.1016/j.jvacx.2021.100107",
+        "journal": "Vaccine: X",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.41673439741134644,
+        "score": 0.41673439741134644,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38910670",
-        "text": "Comparison of the Effects of Hydralazine and Labetalol on Intracranial Pressure When Used for Blood Pressure Control in Patients With Intracranial Hemorrhage: A Retrospective Study. Background Recommendations on optimal agents to manage blood pressure (BP) in patients with an intracranial hemorrhage (ICH) are lacking. A case series suggests that hydralazine can cause intracranial pressure (ICP) elevation in an ICH. The purpose of this study was to compare the effects of intravenous (IV) hydralazine to IV la",
-        "score": 0.4449687600135803,
-        "doi": "10.7759/cureus.60914",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": 0.7297372817993164,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30821162",
+        "text": "Electrocardiographic Changes Following Acute Hydralazine Overdose. Hydralazine is an FDA-approved antihypertensive agent which has been utilized for years either alone or in combination with other medications especially the beta-blockers. Hydralazine works as a direct-acting vasodilator, thereby exerting a decrease in vascular resistance and increase in intravascular volume. When overdosed, hydralazine applies its toxic effects by extending its pharmacological action, which produces hypotension, syncope, tachycardia, and nausea. However, studies and case reports of acute hydralazine toxicity and its effects on electrocardiographic changes are rare, and most of the medical literature have only highlighted its immunological side effects. In this report, we are presenting a case of acute hydralazine overdose in a young woman who ended up in CCU due to remarkably abnormal electrocardiogram and unstable hemodynamics followed by myocardial infarction.",
+        "doi": "",
+        "journal": "Archives of Iranian medicine",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.45872408151626587,
+        "score": 0.45872408151626587,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

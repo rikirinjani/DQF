@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40509774",
-        "text": "Blood pressure-lowering efficacy of Sacubitril/Allisartan versus Olmesartan in Chinese hypertensive patients with a nondipping blood pressure pattern. Abnormal nocturnal blood pressure dipping profile is an important cardiovascular risk factor in patients with hypertension. This analysis aimed to investigate the effects of Sacubitril/Allisartan on blood pressure in Chinese patients with mild to moderate hypertension and a nighttime nondipping pattern. We performed analysis of data from a randomized clinical",
-        "score": 0.4038147032260895,
-        "doi": "10.1097/HJH.0000000000004065",
-        "journal": "Journal of hypertension",
-        "year": "2024",
-        "rerank_score": 6.393562316894531,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12494133",
+        "text": "[Efficacy and safety of the use of lisinopril in the treatment of patients with hypertension].",
+        "doi": "",
+        "journal": "Kardiologiia",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.321548730134964,
+        "score": 0.321548730134964,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40621831",
-        "text": "Efficacy and safety of sacubitril/valsartan in Afro-descendant patients with resistant hypertension: a randomized controlled trial. Sacubitril/valsartan (Sac-Val) has demonstrated blood pressure (BP)-lowering effects, but its role in resistant hypertension remains unclear. This study evaluated the efficacy and safety of Sac-Val compared to optimized angiotensin II receptor blocker (ARB) or angiotensin-converting enzyme inhibitor (ACEI) therapy in Brazilian patients with resistant hypertension, predominantly",
-        "score": 0.4108806252479553,
-        "doi": "10.1097/HJH.0000000000004075",
-        "journal": "Journal of hypertension",
-        "year": "2025",
-        "rerank_score": 5.758267879486084,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22980373",
+        "text": "Reduction of mean arterial pressure and proteinuria by the effect of ACEIs (Lisinopril) in Kurdish hypertensive patients in Hawler City. The angiotensin converting enzyme inhibitors (ACEIs) are a group of pharmaceuticals that are used primarily in treatment of hypertension and congestive heart failure, in some cases as the drugs of first choice. The renin-angiotensin system is activated in response to hypotension, decreased sodium concentration in the distal tubule, decreased blood volume and in renal sympathetic nerve stimulation. This study examines the effects of angiotensin converting enzyme inhibitor (Lisinopril) on blood pressure (BP) 131 ± 2.4 and proteinuria 0.198 ± 0.005 in Kurd hypertensive patients, mean arterial blood pressure and proteinuria excretion were measured weekly along the period of 12 weeks. Lisinopril significantly reduced mean arterial blood pressure, and attenuated proteinuria level in patients subjected to this study in lisinopril 10mg dose dependent manner (p<0.05, n=24). In conclusion, lisinopril is of beneficial of renoprotection and in lowering BP.",
+        "doi": "10.5539/gjhs.v4n5p14",
+        "journal": "Global journal of health science",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.388027161359787,
+        "score": 0.388027161359787,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39026999",
-        "text": "Efficacy and safety of azilsartan medoxomil in the treatment of hypertension: a systematic review and meta-analysis. Angiotensin II receptor blockers (ARBs) are utilized for the management of hypertension and diabetes. Previous meta-analyses suggested that azilsartan medoxomil (AZL-M) improved blood pressure (BP) reduction, but there were no safety findings or suggestions for patients with hypertension or diabetes. We performed an efficacy and safety meta-analysis of randomized controlled trials (RCTs) eval",
-        "score": 0.42617082595825195,
-        "doi": "10.3389/fcvm.2024.1383217",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2024",
-        "rerank_score": 5.117946624755859,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7557704",
+        "text": "[A multicenter study of lisinopril in the treatment of mild to moderate hypertension]. The efficacy, tolerability and impact on quality of life of the ACE inhibitor lisinopril were evaluated in a 12-week open, multicenter post-marketing surveillance study. 233 patients, 45 years and over with diastolic blood pressure (DBP) 95-105 mm Hg were followed after a washout period of 7 days. 22 withdrew due either to adverse reactions, mainly cough (4.3%) and dizziness (3%), or noncompliance. DBP of 90 mm Hg or less was achieved in 50.7% with once-a-day 10 mg lisinopril, in 26.1% with 20 mg and in 16.1% with 20 mg plus addition of hydrochlorothiazide, 12.5 mg; in only 7.1% was BP not controlled. Adverse reactions other than cough or dizziness were experienced by fewer than 1%. Dartmouth COOP Functional Health Assessment Charts/WONCA were used to evaluate quality of life and were found useful in the study. Compared to baseline assessments, all functional status indicators (physical fitness, feelings, daily activities, social activities, change in health and overall health) scored significantly better in all treated patients after 12 weeks. Thus, in more than 90% of patients lisinopril was well-tolerated, highly effective in lowering blood pressure and possibly (no control group) improved the quality of life of all patients.",
+        "doi": "",
+        "journal": "Harefuah",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.395650714635849,
+        "score": 0.395650714635849,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

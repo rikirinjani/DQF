@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38498345",
-        "text": "Candesartan upregulates angiotensin-converting enzyme 2 in kidneys of male animals by decreased ubiquitination. Candesartan is a common angiotensin-II receptor-1 blocker used for patients with cardiovascular and renal diseases. Angiotensin-converting enzyme 2 (ACE2) is a negative regulator of blood pressure (BP), and also a major receptor for coronaviruses. To determine whether and how candesartan upregulates ACE2, we examined BP and ACE2 in multi-organs from male and female C57BL/6J mice treated with cande",
-        "score": 0.39476802945137024,
-        "doi": "10.1096/fj.202302707R",
-        "journal": "FASEB journal : official publication of the Federation of American Societies for",
-        "year": "2024",
-        "rerank_score": -0.30500757694244385,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9844624",
+        "text": "Candesartan for hypertension.",
+        "doi": "",
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.3728911876678467,
+        "score": 0.3728911876678467,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39358448",
-        "text": "Phase III randomized clinical trial of efficacy and safety of amlodipine and candesartan cilexetil combination for hypertension treatment. Effective antihypertensive therapy is essential for achieving optimal blood pressure (BP) control and reducing cardiovascular events. This double-blind, multicenter, randomized trial aimed to compare the antihypertensive efficacy and safety of a combination of amlodipine (AML) and candesartan cilexetil (CC) versus AML monotherapy in patients with essential hypertension (",
-        "score": 0.4020727872848511,
-        "doi": "10.1038/s41598-024-74003-5",
-        "journal": "Scientific reports",
-        "year": "2024",
-        "rerank_score": -1.6919962167739868,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9331007",
+        "text": "Candesartan cilexetil, a new generation angiotensin II antagonist, provides dose dependent antihypertensive effect. Candesartan is a new generation angiotensin II type 1 receptor blocker, characterised by tight binding to and slow dissociation from the receptor. In order to delineate the dose-response curve for candesartan cilexetil (the orally administered prodrug), results from six European placebo-controlled, dose-response studies were pooled. These were of a double-blind, randomised, parallel group design, with a treatment duration of 4-12 weeks. A total of 1482 patients with mild to moderate primary hypertension were treated with candesartan cilexetil 2 mg (n = 80), 4 mg (n = 216), 8 mg (n = 455) or 16 mg (n = 294), or with placebo (n = 437). Blood pressure (BP) measurements were performed 24 h after dose. The differences in BP change (baseline vs end of the studies) between the placebo group and the groups treated with candesartan cilexetil were assessed using analysis of covariance and dose response curves were estimated by fitting the data to an Emax model. The placebo-corrected mean reductions in sitting diastolic BP were approximately 2.5 mm Hg with 2 mg, 4.5 mm Hg with 4 mg, 6 mm Hg with 8 mg, and 8 mm Hg with 16 mg of candesartan cilexetil. For sitting systolic BP, the placebo-corrected mean reductions were in the order of 5, 7, 10 and 12 mmHg, respectively, with 2, 4, 8 and 16 mg of candesartan cilexetil. The BP reductions were similar in the standing position with no indication of postural hypotension. Age or gender did not influence the BP response to candesartan cilexetil. In conclusion, candesartan cilexetil provides a clinically significant, dose-dependent antihypertensive effect in doses ranging from 4-16 mg once daily.",
+        "doi": "",
+        "journal": "Journal of human hypertension",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.38544026017189026,
+        "score": 0.38544026017189026,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38581132",
-        "text": "Achieved dose and treatment discontinuation of candesartan in men and women with chronic heart failure: data from CHARM. Angiotensin receptor blockers have been shown to reduce heart failure hospitalization and cardiovascular mortality in men and women with heart failure with reduced ejection fraction (HFrEF). It is unknown whether there are differences between men and women in achieved dose and treatment discontinuation due to adverse events of candesartan. We conducted a post hoc analysis of the Candesart",
-        "score": 0.3683181405067444,
-        "doi": "10.1002/ehf2.14715",
-        "journal": "ESC heart failure",
-        "year": "2024",
-        "rerank_score": -3.7917275428771973,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9331010",
+        "text": "Antihypertensive effects of candesartan cilexetil, enalapril and placebo.",
+        "doi": "",
+        "journal": "Journal of human hypertension",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.386828750371933,
+        "score": 0.386828750371933,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

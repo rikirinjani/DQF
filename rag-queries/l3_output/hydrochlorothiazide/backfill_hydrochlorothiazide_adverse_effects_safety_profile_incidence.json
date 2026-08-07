@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39544450",
-        "text": "A Rare Case of Pulmonary Edema Secondary to Hydrochlorothiazide Use. Noncardiogenic pulmonary edema has been reported as a rare adverse reaction of hydrochlorothiazide. Symptoms can develop acutely after medication ingestion, and patients may present acutely ill. The mechanism by which hydrochlorothiazide causes pulmonary edema remains unknown and is considered idiosyncratic. Prompt supportive care and discontinuation of the medication is necessary to prevent and manage such a complication. This case report",
-        "score": 0.42419707775115967,
-        "doi": "10.1155/2024/9423545",
-        "journal": "Case reports in critical care",
-        "year": "2024",
-        "rerank_score": 4.201905250549316,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27613469",
+        "text": "Severe adverse drug reactions induced by hydrochlorothiazide: A persistent old problem.",
+        "doi": "10.1016/j.anai.2016.07.003",
+        "journal": "Annals of allergy, asthma & immunology : official publication of the American Co",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.3364195227622986,
+        "score": 0.3364195227622986,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39092405",
-        "text": "Hydrochlorothiazide-Induced Exfoliative Rash and Sepsis. Hydrochlorothiazide is a diuretic agent commonly used to treat hypertension, chronic edema from congestive heart failure or cirrhosis, and nephrogenic diabetes insipidus. Diuretics work by increasing urine output and are classified based on the specific renal segments they act on. As with all medications, they are not without their side effects. The most significant and serious include hypovolemia and electrolyte disturbances. Other more rare adverse ",
-        "score": 0.4324326515197754,
-        "doi": "10.7759/cureus.63655",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": 3.6943883895874023,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18705533",
+        "text": "The safety profile of telmisartan as monotherapy or combined with hydrochlorothiazide: a retrospective analysis of 50 studies. To compare the tolerability and safety of telmisartan +/- hydrochlorothiazide (HCTZ). This retrospective analysis was performed on all hypertensive patients that were enrolled in telmisartan studies. A total of 30 double-blind (n=8023) and 20 open-label (n=8393) studies were available at the time of this analysis, and were included. Treatments investigated were placebo, telmisartan 10-160 mg, or telmisartan 10-160 mg plus HCTZ 6.25-25 mg. The incidence and causality of all adverse events (AEs) and laboratory abnormalities occurring during treatment were recorded. The incidences of all-cause AEs in the double-blind studies were: 2.73 per patient-year (PY) (36.1%; placebo); 2.03/PY (37.4%; telmisartan monotherapy) and 2.09/PY (44.8%; telmisartan plus HCTZ). The respective numbers in the open-label studies were: 0.65/PY (49.6%; telmisartan monotherapy) and 0.70/PY (40.3%; telmisartan plus HCTZ). The most frequent suspected adverse reactions were dizziness and headache, which were comparable across groups and studies. The overall incidence of drug-related laboratory abnormalities was low in all treatment groups. Treatment-related hyperuricaemia and hypokalaemia occurred in less than 0.1% of patients, respectively, treated with telmisartan plus HCTZ. Incidences of discontinuation due to an AE were 4.6%, 4.5% and 4.7%, respectively, for the placebo, telmisartan and telmisartan plus HCTZ treatment groups. The consolidated data show that telmisartan +/- HCTZ are well tolerated in patients of all ages and have placebo-like tolerabilities.",
+        "doi": "10.1080/08038020802144383",
+        "journal": "Blood pressure. Supplement",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.40810123085975647,
+        "score": 0.40810123085975647,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:25496048",
-        "text": "Comparing clinical effectiveness and drug toxicity with hydrochlorothiazide and chlorthalidone using two potency ratios in a managed care population. This study compared the clinical effectiveness and drug toxicity of chlorthalidone and hydrochlorothiazide. Electronic health records and claims data were used to identify patients initially prescribed chlorthalidone or hydrochlorothiazide. A total of 214 patients prescribed chlorthalidone 25 mg were matched with 428 patients prescribed hydrochlorothiazide 25 ",
-        "score": 0.40535110235214233,
-        "doi": "10.1111/jch.12453",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "id": "PMID:25335110",
+        "text": "Quality evaluation of pharmaceutical formulations containing hydrochlorothiazide. Hydrochlorothiazide is a diuretic used to treat hypertension that belongs to class IV of the Biopharmaceutics Classification System. The drug was evaluated by quality control, thermal characterization tests, and pharmaceutical formulation compatibility studies. It was concluded that the generic drug, Lab 2, was not a pharmaceutical equivalent. The compounded drugs, Lab 5 and Lab 6, produced unsatisfactory but expected results, since there is no requirement for dissolution and dissolution profile testing for the commercialization of these products. In a compatibility study, lactose and mannitol were shown to be incompatible with HCTZ, which may explain the lack of equivalence of the generic pharmaceutical product, associated with other situations.",
+        "doi": "10.3390/molecules191016824",
+        "journal": "Molecules (Basel, Switzerland)",
         "year": "2014",
-        "rerank_score": 0.10258316248655319,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.42392516136169434,
+        "score": 0.42392516136169434,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

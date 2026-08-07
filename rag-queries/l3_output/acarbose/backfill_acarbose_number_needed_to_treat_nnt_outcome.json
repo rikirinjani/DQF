@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:28778255",
-        "text": "Guideline-Adherent Antithrombotic Treatment Improves Outcomes in Patients With Atrial Fibrillation: Insights From the Community-Based Darlington Atrial Fibrillation Registry. To assess the influence of guideline-adherent vs nonadherent antithrombotic treatment (ATT) on stroke and mortality rates in an atrial fibrillation (AF) primary care population.",
-        "score": 0.48922234773635864,
-        "doi": "10.1016/j.mayocp.2017.05.023",
-        "journal": "Mayo Clinic proceedings",
-        "year": "2016",
-        "rerank_score": -9.259016036987305,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3616223633289337,
+        "score": 0.3616223633289337,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38427273",
-        "text": "Constructing and Validating a Nomogram Model for Short-Term Prognosis of Patients with AChR-Ab+ GMG. This study aimed to establish and validate a nomogram prognostic model for predicting short-term efficacy of acetylcholine receptor antibody-positive (AChR-Ab+) generalized myasthenia gravis (GMG). A retrospective observational study was conducted at the First Hospital of Shanxi Medical University, enrolling patients diagnosed with AChR-Ab+ GMG from May 2020 to September 2022. The primary outcome was the cha",
-        "score": 0.5100791454315186,
-        "doi": "10.1007/s40120-024-00590-0",
-        "journal": "Neurology and therapy",
-        "year": "2024",
-        "rerank_score": -9.396806716918945,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.4117301404476166,
+        "score": 0.4117301404476166,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38437689",
-        "text": "In adults aged ≥80 y with NSTE-ACS, an invasive vs. conservative strategy improved outcomes at a median 5.3 y. Berg ES, Tegn NK, Abdelnoor M, et al; After Eighty Study Investigators.",
-        "score": 0.49748384952545166,
-        "doi": "10.7326/J24-0007",
-        "journal": "Annals of internal medicine",
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and the comparator response. Confidence intervals should always accompany NNT for the precision of its estimate. In this review, three meta-analyses are reviewed, which included the NNT in the analysis of response.",
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
         "year": "2024",
-        "rerank_score": -9.409265518188477,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4127042591571808,
+        "score": 0.4127042591571808,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

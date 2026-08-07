@@ -340,7 +340,11 @@ def fetch_lancedb(query: str, top_k: int = RAG_TOP_K) -> tuple[dict, str]:
 
     try:
         if _LANCEDB_CACHE["model"] is None:
-            _LANCEDB_CACHE["model"] = SentenceTransformer(LANCEDB_MODEL)
+            # local_files_only: the model is snapshotted in the HF cache;
+            # never hit the network at load time (transient HF-Hub stalls
+            # hung a whole class for hours). Offline load is deterministic.
+            _LANCEDB_CACHE["model"] = SentenceTransformer(
+                LANCEDB_MODEL, local_files_only=True)
         model = _LANCEDB_CACHE["model"]
         q_emb = model.encode(query, normalize_embeddings=True)
     except Exception as e:

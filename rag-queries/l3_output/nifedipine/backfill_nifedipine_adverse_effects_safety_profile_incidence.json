@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:6478889",
-        "text": "Safety of nifedipine in subjects with bronchial asthma and COPD. This prospective study was undertaken to evaluate the safety of nifedipine, a calcium channel blocking agent, on 60 subjects with asthma, chronic obstructive pulmonary disease (COPD), angina, and normal subjects. All subjects received nifedipine, 20 mg, sublingually. Spirometry was done pre-drug administration and every 20 minutes after for two hours. Parameters measured were forced vital capacity (FVC), forced expiratory volume in one second ",
-        "score": 0.40534520149230957,
-        "doi": "10.1378/chest.86.4.515",
-        "journal": "Chest",
-        "year": "1984",
-        "rerank_score": 4.328868865966797,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10454793",
+        "text": "Adverse reactions to short-acting nifedipine in hypertensive crises.",
+        "doi": "",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.3894813060760498,
+        "score": 0.3894813060760498,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39740899",
-        "text": "Disproportionality Analysis of Hepatotoxic and Gastrointestinal Adverse Events Associated With Nintedanib Using the Japanese Adverse Drug Event Report (JADER) Database. Nintedanib may cause adverse events such as elevated liver enzyme levels, diarrhea, and decreased appetite. These adverse events should be managed appropriately as they affect the quality of life of patients. This study has aimed to analyze patient characteristics and time-to-onset of adverse events caused by nintedanib using the Japanese Ad",
-        "score": 0.43817275762557983,
-        "doi": "10.21873/invivo.13841",
-        "journal": "In vivo (Athens, Greece)",
-        "year": "2024",
-        "rerank_score": 1.7676771879196167,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9758326",
+        "text": "Another report of adverse reactions to immediate-release nifedipine. Numerous case reports in the literature describe adverse drug events associated with immediate-release nifedipine (IRN). In addition, several publications alerted health care professionals regarding the agent. However, it is still administered, and adverse reactions are still reported. Our patient suffered IRN-induced hypotension, myocardial ischemia, and mental status changes. We recommend that the use of IRN in treatment of hypertension should be either totally prohibited or severely restricted. The product should not be readily available for indiscriminate administration. Also, continuing education and training are required to alert all health care professionals to the serious dangers associated with this drug.",
+        "doi": "",
+        "journal": "Pharmacotherapy",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.41352057456970215,
+        "score": 0.41352057456970215,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40356972",
-        "text": "Post-marketing safety concerns with pirfenidone and nintedanib: an analysis of individual case safety reports from the FDA adverse event reporting system database and the Japanese adverse drug event report databases. To date, only two drugs, pirfenidone and nintedanib, are approved for the treatment of patients with idiopathic pulmonary fibrosis (IPF). In addition, very few studies have reported on the safety profile of either drug in large populations. This study aims to identify and compare adverse drug e",
-        "score": 0.4470125734806061,
-        "doi": "10.3389/fphar.2025.1530697",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": 0.5243321657180786,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9610546",
+        "text": "Potassium channel-blocking actions of nifedipine: a cause for morbidity at high doses?",
+        "doi": "10.1161/01.cir.97.20.2098",
+        "journal": "Circulation",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.41709476709365845,
+        "score": 0.41709476709365845,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

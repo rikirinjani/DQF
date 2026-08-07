@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40920198",
-        "text": "A Case Report on the Use of Doxazosin to Improve Outcomes in a Patient With a KCNT1 Genetic Variation. This case report describes the use of doxazosin (Cardura) as a treatment for a patient with an autosomal dominant",
-        "score": 0.4831019937992096,
-        "doi": "10.1177/08830738251371331",
-        "journal": "Journal of child neurology",
-        "year": "2025",
-        "rerank_score": 3.432823896408081,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.404569536447525,
+        "score": 0.404569536447525,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40078077",
-        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
-        "score": 0.47558510303497314,
-        "doi": "10.1080/13696998.2025.2466365",
-        "journal": "Journal of medical economics",
-        "year": "2025",
-        "rerank_score": 1.418760061264038,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9568679",
+        "text": "Does doxazosin affect prostatic growth?",
+        "doi": "10.1002/(sici)1097-0045(19980501)35:2<15",
+        "journal": "The Prostate",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.44609886407852173,
+        "score": 0.44609886407852173,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:12634229",
-        "text": "Number needed to treat (NNT): implication in rheumatology clinical practice. To calculate the number needed to treat (NNT) and number needed to harm (NNH) from the data in rheumatology clinical trials and systematic reviews.",
-        "score": 0.4639348089694977,
-        "doi": "10.1136/ard.62.4.316",
-        "journal": "Annals of the rheumatic diseases",
-        "year": "2003",
-        "rerank_score": 1.0143011808395386,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29769296",
+        "text": "Interpreting risk reduction in clinical trials for pulmonary arterial hypertension. Because of scepticism concerning study results when relying solely on relative effect estimates, the number needed to treat (NNT) has been used extensively to quantify the net clinical benefit of an intervention, and is reported increasingly in randomised trials and observational studies. This method is a simple measure representing the number of patients who would need to be treated to prevent one additional adverse event. However, like relative risk, the NNT is an inherently time-dependent measure. Thus, its calculation may lead to misleading interpretations, especially for studies involving varying follow-up times or recurrent outcomes. In addition to study duration and the efficacy of the therapy and the comparator, multiple other factors directly influence the NNT and should be taken into account in its interpretation as for comparative effectiveness of therapies. Its accurate estimation and interpretation, as well as its limitations, are therefore crucial to avoid erroneous clinical and public health decisions. We discuss the calculation and the interpretation of risk reduction and the NNT in the context of the changing landscape of clinical trials in pulmonary arterial hypertension.",
+        "doi": "10.1183/16000617.0020-2018",
+        "journal": "European respiratory review : an official journal of the European Respiratory So",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.45725929737091064,
+        "score": 0.45725929737091064,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

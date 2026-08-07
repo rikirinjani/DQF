@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40078077",
-        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
-        "score": 0.47089558839797974,
-        "doi": "10.1080/13696998.2025.2466365",
-        "journal": "Journal of medical economics",
-        "year": "2025",
-        "rerank_score": 3.012923240661621,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.4036703407764435,
+        "score": 0.4036703407764435,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41562647",
-        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
-        "score": 0.48302900791168213,
-        "doi": "10.1080/13696998.2026.2615606",
-        "journal": "Journal of medical economics",
-        "year": "2026",
-        "rerank_score": 1.9842796325683594,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19164422",
+        "text": "Years-needed-to-treat to add 1 year of life: a new metric to estimate treatment effects in randomized trials. A standard metric to estimate absolute treatment effects is numbers-needed-to-treat (NNT), which implicitly assumes that all benefits reverse at trial-end. However, in-trial survival benefits typically do not reverse until long after trial-end, so that NNT will substantially underestimate lifetime benefits. We developed a new concept, years-needed-to-treat (YNT) to add 1 year of life, that quantifies the expected average life expectancy for two treatments including the estimated years of life remaining post-trial. Numbers-needed-to-treat and YNT were calculated in the COMET trial, in which carvedilol vs. metoprolol tartrate resulted in 17% lower mortality over 4.8 years. A multivariate Cox model was used to predict survival. Remaining years of life were estimated using the mortality-life-table method. At trial-end, survival was 9% higher in the carvedilol arm. Assuming that patients remained on the same therapy post-trial, the average total years of life for carvedilol vs. metoprolol were 10.63 +/- 0.19 vs. 9.48 +/- 0.18 (P < 0.0001) or 1.15 (95% confidence interval 0.64-1.66) additional years of life. The YNT was 9.2, indicating that 9.2 person-years of treatment added 1 person-year of life, compared with NNT of 59. Compared with NNT, the YNT method more accurately accounts for potential long-term benefits of interventions in randomized trials.",
+        "doi": "10.1093/eurjhf/hfn048",
+        "journal": "European journal of heart failure",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.431712806224823,
+        "score": 0.431712806224823,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39558612",
-        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
-        "score": 0.4837397634983063,
-        "doi": "10.1177/03331024241299377",
-        "journal": "Cephalalgia : an international journal of headache",
-        "year": "2024",
-        "rerank_score": 0.5558474063873291,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11755290",
+        "text": "Neurohormonal blockade in chronic heart failure. How much is enough? Can there be too much?.",
+        "doi": "10.1016/s0735-1097(01)01715-6",
+        "journal": "Journal of the American College of Cardiology",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.44192641973495483,
+        "score": 0.44192641973495483,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

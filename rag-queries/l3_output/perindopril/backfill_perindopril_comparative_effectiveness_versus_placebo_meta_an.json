@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:36876369",
-        "text": "Antihypertensive effect of telmisartan versus perindopril in hypertensive patients. We performed this meta-analysis determining the antihypertensive effect of telmisartan versus perindopril in patients with essential hypertension.",
-        "score": 0.3711116909980774,
-        "doi": "10.4149/BLL_2023_058",
-        "journal": "Bratislavske lekarske listy",
-        "year": "2023",
-        "rerank_score": 3.2616710662841797,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19421649",
+        "text": "Perindopril: do randomised, controlled trials support an ACE inhibitor class effect? A meta-analysis of clinical trials. Due to the lack of face-to-face trials between ACE inhibitors, clinicians and third-party funders may assume they provide similar outcomes. As a result, ACE inhibitors may be prescribed interchangeably and deemed to provide the same outcomes for all patients when used chronically, that is for more than six months. This meta-analysis aims to dispute the assumption of a class effect when prescribing ACE inhibitors (ACEIs), since the evidence from all the clinical trials is not uniform and therefore a direct comparison is impossible. Published randomised, controlled trials were selected using an applicable literature search for all ACEIs, irrespective of drug combination, for any cardiovascular outcome (both composite and individual outcomes were included). The average length of ACEI exposure per trial had to be longer than six months). This meta-analysis was performed using odds ratios as the parameter of efficacy in a fixed-effects model. Perindopril resulted in significantly fewer patients reaching the primary endpoint versus all other ACEIs combined. The results were consistent for myocardial infarction, stroke and mortality (5 vs 11%, p = 0.0001). Perindopril alone or as part of combination therapy in clinical trials seemed to deliver clear and consistent outcome differences compared to other ACEI trials. In the presence of positive outcomes from robust randomised, controlled trials for perindopril, one cannot assume a class effect for all ACEIs.",
+        "doi": "",
+        "journal": "Cardiovascular journal of Africa",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.36532720923423767,
+        "score": 0.36532720923423767,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39899873",
-        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
-        "score": 0.3823678493499756,
-        "doi": "10.7326/ANNALS-24-00315",
-        "journal": "Annals of internal medicine",
-        "year": "2025",
-        "rerank_score": 2.3838231563568115,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17724273",
+        "text": "Can large-scale trials or meta-analyses demonstrate blood pressure--independent effect of angiotensin receptor blockers?",
+        "doi": "10.1161/HYPERTENSIONAHA.107.097402",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3952449560165405,
+        "score": 0.3952449560165405,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:3034017",
-        "text": "A double-blind study to compare the efficacy, tolerance and safety of two doses of the angiotensin converting enzyme inhibitor ramipril with placebo. In a randomized, double-blind trial, 2 doses of ramipril (2.5 and 5 mg once daily) were compared with placebo in patients with mild to moderate essential hypertension. A 2-week placebo run-in phase was followed by 4 weeks of treatment. Eighty-six patients entered the study and 17 withdrew during the course of the study. Both doses of ramipril appeared to be mo",
-        "score": 0.36899274587631226,
-        "doi": "10.1016/0002-9149(87)90064-6",
-        "journal": "The American journal of cardiology",
-        "year": "1987",
-        "rerank_score": 1.8096174001693726,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19575093",
+        "text": "Consistency of treatment effect of perindopril and indapamide across broad spectrum of vascular disease.",
+        "doi": "",
+        "journal": "Cardiovascular journal of Africa",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.4083538055419922,
+        "score": 0.4083538055419922,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

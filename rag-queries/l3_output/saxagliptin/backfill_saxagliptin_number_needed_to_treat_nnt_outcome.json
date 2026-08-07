@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38320500",
-        "text": "Dapagliflozin or Saxagliptin in Pediatric Type 2 Diabetes. BACKGROUND: Incidence of type 2 diabetes (T2D) in children and adolescents is increasing, but treatment options are limited. METHODS: This was a 26-week, phase 3 trial with a 26-week extension among patients (10 to 17 years of age) with uncontrolled T2D (A1C 6.5 to 10.5%) receiving metformin, insulin, or both. Participants were randomly assigned 1:1:1 to 5 mg of dapagliflozin (N=81), 2.5 mg of saxagliptin (N=88), or placebo (N=76). Patients in activ",
-        "score": 0.4862832725048065,
-        "doi": "10.1056/EVIDoa2300210",
-        "journal": "NEJM evidence",
-        "year": "2024",
-        "rerank_score": 1.0963199138641357,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20590752",
+        "text": "Saxagliptin efficacy.",
+        "doi": "10.1111/j.1463-1326.2010.01205.x",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.3446899950504303,
+        "score": 0.3446899950504303,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39558612",
-        "text": "Benefit-risk assessment based on number needed to treat and number needed to harm: Atogepant vs. calcitonin gene-related peptide monoclonal antibodies. To evaluate the benefit-risk assessment of atogepant and calcitonin gene-related peptide (CGRP) monoclonal antibodies (mAbs) vs. placebo based on the number needed to treat (NNT) and the number needed to harm (NNH) in a blended episodic migraine and chronic migraine (EM + CM) population. The NNT was calculated based on achievement of a ≥ 50% reduction in mea",
-        "score": 0.48867225646972656,
-        "doi": "10.1177/03331024241299377",
-        "journal": "Cephalalgia : an international journal of headache",
-        "year": "2024",
-        "rerank_score": 0.5594082474708557,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3755171000957489,
+        "score": 0.3755171000957489,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:21323504",
-        "text": "Efficacy and safety of saxagliptin in older patients with type 2 diabetes mellitus. To assess the safety and efficacy of saxagliptin (5 mg once-daily) in older patients (≥65 years of age) with inadequately controlled type 2 diabetes.",
-        "score": 0.47134917974472046,
-        "doi": "10.1185/03007995.2011.554532",
-        "journal": "Current medical research and opinion",
-        "year": "2011",
-        "rerank_score": 0.3063814640045166,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25189213",
+        "text": "Heart failure, saxagliptin, and diabetes mellitus: observations from the SAVOR-TIMI 53 randomized trial. Diabetes mellitus and heart failure frequently coexist. However, few diabetes mellitus trials have prospectively evaluated and adjudicated heart failure as an end point. A total of 16 492 patients with type 2 diabetes mellitus and a history of, or at risk of, cardiovascular events were randomized to saxagliptin or placebo (mean follow-up, 2.1 years). The primary end point was the composite of cardiovascular death, myocardial infarction, or ischemic stroke. Hospitalization for heart failure was a predefined component of the secondary end point. Baseline N-terminal pro B-type natriuretic peptide was measured in 12 301 patients. More patients treated with saxagliptin (289, 3.5%) were hospitalized for heart failure compared with placebo (228, 2.8%; hazard ratio, 1.27; 95% confidence intercal, 1.07-1.51; P=0.007). Corresponding rates at 12 months were 1.9% versus 1.3% (hazard ratio, 1.46; 95% confidence interval, 1.15-1.88; P=0.002), with no significant difference thereafter (time-varying interaction, P=0.017). Subjects at greatest risk of hospitalization for heart failure had previous heart failure, an estimated glomerular filtration rate ≤60 mL/min, or elevated baseline levels of N-terminal pro B-type natriuretic peptide. There was no evidence of heterogeneity between N-terminal pro B-type natriuretic peptide and saxagliptin (P for interaction=0.46), although the absolute risk excess for heart failure with saxagliptin was greatest in the highest N-terminal pro B-type natriuretic peptide quartile (2.1%). Even in patients at high risk of hospitalization for heart failure, the risk of the primary and secondary end points were similar between treatment groups. In the context of balanced primary and secondary end points, saxagliptin treatment was associated with an increased risk or hospitalization for heart failure. This increase in risk was highest among patients with elevated levels of natriuretic peptides, previous heart failure, or chronic kidney disease. http://www.clinicaltrials.gov. Unique identifier: NCT01107886.",
+        "doi": "10.1161/CIRCULATIONAHA.114.010389",
+        "journal": "Circulation",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.411997526884079,
+        "score": 0.411997526884079,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:22776824",
-        "text": "Dapagliflozin monotherapy in drug-naïve patients with diabetes: a randomized-controlled trial of low-dose range. Many patients with type 2 diabetes are suboptimally managed with currently available therapies. Dapagliflozin, a sodium-glucose co-transporter-2 inhibitor, has shown efficacy in reducing diabetic hyperglycaemia. This study assessed efficacy of three lower doses in recently diagnosed patients.",
-        "score": 0.33993765711784363,
-        "doi": "10.1111/j.1463-1326.2012.01659.x",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2012",
-        "rerank_score": 7.224565029144287,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20609956",
+        "text": "Dapagliflozin, an SGLT2 inhibitor, for diabetes.",
+        "doi": "10.1016/S0140-6736(10)60749-0",
+        "journal": "Lancet (London, England)",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.31387847661972046,
+        "score": 0.31387847661972046,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39223856",
-        "text": "Efficacy and safety of dapagliflozin add-on to evogliptin plus metformin therapy in patients with type 2 diabetes: A randomized, double-blind, placebo-controlled study. To evaluate the efficacy and safety of dapagliflozin versus placebo as an add-on in patients with type 2 diabetes who did not achieve adequate glycaemic control with evogliptin and metformin combination. In this multicentre, randomized, double-blind, placebo-controlled Phase 3 trial, patients with glycated haemoglobin (HbA1c) levels ≥7.0% (≥",
-        "score": 0.34719884395599365,
-        "doi": "10.1111/dom.15838",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2024",
-        "rerank_score": 6.634171962738037,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32247210",
+        "text": "Dapagliflozin is associated with improved glycaemic control and weight reduction at 44 months of follow-up in a secondary care diabetes clinic in the UK. We examined HbA1c and cardiovascular risk factors with a median follow-up of 44 months therapy with dapagliflozin. We undertook a clinical practice evaluation of 101 patients attending our clinic. Dapagliflozin resulted in a significant reduction in HbA1c 82.6 ± 15.7 v 68.7 ± 17.8 mmol/mol. Dapagliflozin maintains glycaemic control along with sustained improvements in weight and no decline in renal function.",
+        "doi": "10.1016/j.dsx.2020.03.007",
+        "journal": "Diabetes & metabolic syndrome",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.32414838671684265,
+        "score": 0.32414838671684265,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41454305",
-        "text": "Effectiveness of empagliflozin in reducing hypoglycemic events as compared to sulfonylurea in type 2 diabetes patients during fasting in Ramadan: a single-center study. This study aimed to compare the reduction in hospital admissions due to hypoglycemia and the decrease in HbA1c levels between empagliflozin and sulfonylurea, alongside the standard care provided to patients with type 2 diabetes during fasting. A single-center prospective observational cohort study was conducted from March to June 2022. Patie",
-        "score": 0.36544355750083923,
-        "doi": "10.1186/s12902-025-02134-5",
-        "journal": "BMC endocrine disorders",
-        "year": "2025",
-        "rerank_score": 6.2445454597473145,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36114415",
+        "text": "Dapagliflozin improves outcomes in HFmrEF and HFpEF.",
+        "doi": "10.1038/s41569-022-00782-x",
+        "journal": "Nature reviews. Cardiology",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.3365325331687927,
+        "score": 0.3365325331687927,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

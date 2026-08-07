@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40948240",
-        "text": "Sitagliptin, a DPP-4 Inhibitor, Effectively Promotes the Healing of Diabetic Foot Ulcer: A Randomized Controlled Trial. This randomized controlled trial (RCT) was designed to evaluate the effects of sitagliptin on diabetic foot ulcers (DFUs). This was a randomized, open-label clinical trial. The participants were assigned to either the control group, which received standard conventional therapy alone, or the sitagliptin treatment group, which received an oral administration of sitagliptin (100 mg once daily",
-        "score": 0.4039487838745117,
-        "doi": "10.1111/1753-0407.70156",
-        "journal": "Journal of diabetes",
-        "year": "2025",
-        "rerank_score": 4.883732795715332,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:21428727",
-        "text": "Efficacy and tolerability of sitagliptin monotherapy in elderly patients with type 2 diabetes: a randomized, double-blind, placebo-controlled trial. Type 2 diabetes in the elderly is an important and insufficiently studied public health problem. This study evaluated sitagliptin monotherapy in patients with type 2 diabetes aged ≥ 65 years.",
-        "score": 0.39175835251808167,
-        "doi": "10.1185/03007995.2011.568059",
+        "id": "PMID:23971498",
+        "text": "Sitagliptin: results from clinical practice.",
+        "doi": "10.1185/03007995.2013.835716",
         "journal": "Current medical research and opinion",
-        "year": "2011",
-        "rerank_score": 4.50475549697876,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.3148256838321686,
+        "score": 0.3148256838321686,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39636567",
-        "text": "Efficacy of Dapagliflozin + Sitagliptin + Metformin Versus Sitagliptin + Metformin in T2DM Inadequately Controlled on Metformin Monotherapy: A Multicentric Randomized Trial. A slower adoption rate of fixed dose combinations (FDC) in diabetes management is partly due to insufficient data. This study evaluates the safety and efficacy of an FDC of dapagliflozin + sitagliptin + metformin hydrochloride extended release (XR), compared to a dual FDC of sitagliptin + metformin hydrochloride XR among patients with t",
-        "score": 0.40194571018218994,
-        "doi": "10.1007/s12325-024-03037-y",
-        "journal": "Advances in therapy",
-        "year": "2024",
-        "rerank_score": 4.387972831726074,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:36818268",
+        "text": "Effect of Sitagliptin",
+        "doi": "10.26574/maedica.2022.17.4.762",
+        "journal": "Maedica",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.32702288031578064,
+        "score": 0.32702288031578064,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:21899912",
+        "text": "Contributing factors related to efficacy of the dipeptidyl peptidase-4 inhibitor sitagliptin in Japanese patients with type 2 diabetes.",
+        "doi": "10.1016/j.diabres.2011.08.016",
+        "journal": "Diabetes research and clinical practice",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.3793104290962219,
+        "score": 0.3793104290962219,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

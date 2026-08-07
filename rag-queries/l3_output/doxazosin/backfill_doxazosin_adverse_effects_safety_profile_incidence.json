@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:2969740",
-        "text": "Effect of doxazosin monotherapy on blood pressure and plasma lipids in patients with essential hypertension. The efficacy and safety of doxazosin (DOX) for the treatment of hypertension was investigated. A multicenter, double-blind, placebo-controlled, parallel design was employed. A 4-week placebo runin period was followed by a 9-week double-blind period during which patients were randomly assigned to placebo or 2, 4, or 8 mg doxazosin. Blood pressures (BP) and heart rates (HR) were measured 24 hours postd",
-        "score": 0.4178820848464966,
-        "doi": "10.1093/ajh/1.2.158",
-        "journal": "American journal of hypertension",
-        "year": "1988",
-        "rerank_score": 3.5292141437530518,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12496921",
+        "text": "Doxazosin in the treatment of benign prostatic hyperplasia. A review of the safety profile in older patients. The objective of this paper is to review the safety of doxazosin in older patients (>/=65 y) with benign prostatic hyperplasia (BPH) as reported in seven international clinical trials. Data from seven double-blind, placebo-controlled, phase III trials, in both normotensive and hypertensive patients with BPH were collated and analysed. Data on doxazosin were available for 341 men 65 y and over. Even though older patients can be at particular risk of adverse drug reactions, there was no apparent evidence of poor tolerability with doxazosin in older patients with BPH. The percentages of younger normotensive BPH patients (<65 y) experiencing at least one adverse event were 47 and 44% for doxazosin and placebo groups, respectively; for older normotensive BPH patients (>/=65 y) the corresponding values were 42 and 38%. For the younger hypertensive BPH patients the incidence rates for adverse events were 55% (doxazosin) and 42% (placebo) and for older hypertensive BPH patients 43 and 30%, respectively. The most commonly reported adverse events for all groups were dizziness, headache and fatigue and few serious adverse effects were reported throughout these trials. It can be concluded that doxazosin is well tolerated in young and old, normotensive and hypertensive patients with BPH.",
+        "doi": "10.1038/sj.pcan.4500211",
+        "journal": "Prostate cancer and prostatic diseases",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.4255688786506653,
+        "score": 0.4255688786506653,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:1824664",
-        "text": "An evaluation of the efficacy and safety of doxazosin in hypertension associated with renal dysfunction. The Japanese Doxazosin Study Group. Doxazosin was administered once daily to 26 patients with renal hypertension or hypertension associated with renal dysfunction. Doxazosin produced a significant reduction in blood pressure that was stable throughout the treatment period. A significant change was not observed in heart rate. Blood pressure was \"markedly decreased\" or \"decreased\" in 80% of patients receiv",
-        "score": 0.4170701503753662,
-        "doi": "10.1016/0002-8703(91)90876-j",
-        "journal": "American heart journal",
-        "year": "1991",
-        "rerank_score": 3.1232361793518066,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:10854819",
-        "text": "The antihypertensive effects of doxazosin on the arterial system: changes in peripheral vascular resistance and wall tension. Background: Hypertension is characterized by structural and functional abnormalities that affect the entire cardiovascular system, including the large arteries. The antihypertensive efficacy of doxazosin, a selective alpha(1) antagonist, and its effects on the arterial system were investigated. Method: In our double-blind, randomized, placebo-controlled study including 30 hypertensiv",
-        "score": 0.41923344135284424,
-        "doi": "10.1016/s0953-6205(00)00077-7",
-        "journal": "European journal of internal medicine",
+        "id": "PMID:10999589",
+        "text": "Doxazosin overdosage.",
+        "doi": "10.1016/s0735-6757(00)90109-8",
+        "journal": "The American journal of emergency medicine",
         "year": "2000",
-        "rerank_score": 2.438772201538086,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.44739219546318054,
+        "score": 0.44739219546318054,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:10631624",
+        "text": "The effects of hepatic impairment on the pharmacokinetics of doxazosin. The pharmacokinetics of doxazosin was determined in an open-label study of 12 male volunteers with hepatic impairment (stable alcoholic cirrhosis) and 12 healthy male volunteers. Participants (fasting) received a single 2 mg doxazosin tablet, and blood samples were collected over a 120-hour period. Safety assessments included laboratory and vital sign (blood pressure, pulse rate, and ECGs) measurements and recording of all reported adverse events. The mean peak plasma concentrations were 10.8 ng/mL and 12.3 ng/mL for the subjects with hepatic impairment and healthy subjects, respectively. The corresponding mean area under the plasma concentration-time curve values were 246 and 172 ng.h/mL, a 43% increase in exposure in the subjects with hepatic impairment (p = 0.02). Although the apparent oral clearance was reduced by 30% in men with hepatic impairment compared with healthy subjects (p = 0.02), the elimination halflife was not significantly changed (24 vs. 22 hours, respectively). Laboratory test results, vital signs, and the incidence of adverse events were similar for the two treatment groups. These findings indicate that the recommended dosing regimen for doxazosin is appropriate for patients with clinically mild to moderate hepatic impairment.",
+        "doi": "10.1177/00912700022008711",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.4576311707496643,
+        "score": 0.4576311707496643,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

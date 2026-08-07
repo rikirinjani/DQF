@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41091778",
-        "text": "A real-world pharmacovigilance analysis of acute renal failure associated with sacubitril/valsartan based on FDA Adverse Event Reporting System (FAERS). The renal safety profile of sacubitril/valsartan remains debated in clinical practice. To address this uncertainty, we conducted a pharmacovigilance analysis of acute renal adverse events associated with sacubitril/valsartan using the FDA Adverse Event Reporting System (FAERS) database. Using data from the FAERS database, we conducted an observational pharm",
-        "score": 0.4533963203430176,
-        "doi": "10.1371/journal.pone.0334402",
-        "journal": "PloS one",
-        "year": "2025",
-        "rerank_score": 5.247873306274414,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12444541",
+        "text": "The safety of valsartan: results of a postmarketing surveillance study on 12881 patients in England. Valsartan is a second class of angiotensin II receptor antagonist, indicated for the treatment of hypertension. The objective of the study was to monitor the safety of valsartan using the technique of prescription event monitoring (PEM), in patients who were prescribed this drug by general practitioners (GPs) in England. PEM is a noninterventional observation cohort technique. Exposure data were obtained from dispensed prescriptions issued between December 1996 and November 1998. Outcome data were obtained by sending questionnaires to prescribing GPs. The cohort comprised 12881 patients. Events most frequently reported as suspected adverse drug reactions were malaise/lassitude (37; 0.3% of total cohort), dizziness (19; 0.1%), and unspecified side effects (57; 0.4%). Events with the highest incidence density (ID(1) per 1000 patient-months of treatment) in the first month of treatment were malaise/lassitude (15.6), dizziness (11.8), and headache/migraine (10.9). Most frequent reasons for stopping valsartan were not effective (847; 6.6% of total cohort), malaise/lassitude (265; 21%), and dizziness (146; 1.1%). No unexpected serious adverse events were identified. Other events assessed as possibly related to valsartan use were impotence (37), dizziness (19), cough (9), facial oedema (5), hyperkalaemia (3), and angioneurotic oedema (1). There were four reports of exposure during pregnancy and 203 deaths (1.5%) in this cohort. In conclusion, this study monitored the safety profile of valsartan in a large cohort of patients in general practice in England. No untoward features other than dizziness were identified that were not mentioned in the prescribing guidance.",
+        "doi": "10.1038/sj.jhh.1001490",
+        "journal": "Journal of human hypertension",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.42251476645469666,
+        "score": 0.42251476645469666,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:34125356",
-        "text": "Five Years of Sacubitril/Valsartan-a Safety Analysis of Randomized Clinical Trials and Real-World Pharmacovigilance. In PARADIGM-HF, sacubitril/valsartan showed a significant reduction in mortality and hospitalization for patients with heart failure with reduced ejection fraction. Despite proven efficacy, sacubitril/valsartan has moderate uptake in clinical practice. This study explores the safety profile of sacubitril/valsartan by comparing adverse events in RCT and real-world use.",
-        "score": 0.4370395243167877,
-        "doi": "10.1007/s10557-021-07210-1",
-        "journal": "Cardiovascular drugs and therapy",
-        "year": "2021",
-        "rerank_score": 4.69064998626709,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40925796",
+        "text": "Overall safety evaluation of the risk signals of sacubitril/valsartan: A postmarketing pharmacoepidemiology study from 2015 to 2024. Sacubitril/valsartan is a widely used cardiovascular agent characterized by its dual inhibition of the renin-angiotensin-aldosterone system and neprilysin. However, existing evidence on the safety of sacubitril/valsartan is primarily limited to clinical studies; this results in an inability to provide a timely update on associated adverse events. To mine and systematically describe adverse events related to sacubitril/valsartan from September 2015 to June 2024 using the Food and Drug Administration Adverse Event Reporting System (FAERS) database. The reporting odds ratio, proportional reporting ratio, Bayesian confidence propagation neural network and multi-item gamma poisson shrinker methods were combined to detect risk signals in the FAERS database to identify potential associations between sacubitril/valsartan and adverse events. A total of 95,132 adverse event reports with sacubitril/valsartan as the \"primary suspect\" were collected. A total of 588 preferred terms and 27 system organ categories were obtained. The proportion of serious adverse events was 49.11%. Notably, hypotension (n=10,338, reporting odds ratio 13.71, proportional reporting ratio 13.23, information component 3.60, empirical Bayes geometric mean 12.08) and throat clearing (n=1495, reporting odds ratio 132.46, proportional reporting ratio 131.75, information component 6.03, empirical Bayes geometric mean 65.44) exhibited the highest incidence and signal intensity, respectively. In addition, uncommon, but apparently strong adverse event signals were observed, such as dyspnoea paroxysmal nocturnal and brain natriuretic peptide decreased. Cardiac dysfunction (n=444, reporting odds ratio 26.55, proportional reporting ratio 26.50, information component 4.47, empirical Bayes geometric mean 22.13) and memory impairment (n=2134, reporting odds ratio 3.35, proportional reporting ratio 3.33, information component 1.71, empirical Bayes geometric mean 3.27) also showed strong adverse event signals, which were not included in the instructions. Psychiatric and neurological disorders, especially cardiac dysfunction and memory impairment, should be closely monitored in the clinical application of sacubitril/valsartan. At the same time, clinical professionals should be alert to the occurrence of adverse event signals not mentioned in the instructions, and take preventive measures to ensure the safety of clinical use.",
+        "doi": "10.1016/j.acvd.2025.06.077",
+        "journal": "Archives of cardiovascular diseases",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.42270076274871826,
+        "score": 0.42270076274871826,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41017677",
-        "text": "Auditory system adverse events with sacubitril/valsartan: an active-comparator restricted disproportionality analysis using the FDA adverse event reporting system database. Sacubitril/valsartan, an angiotensin receptor-neprilysin inhibitor, is used for heart failure with reduced ejection fraction. Emerging evidence suggests potential ototoxicity, including hearing loss and vestibular disorders, which remain underreported and poorly characterized. Our objective was to compare auditory adverse event (AE) repo",
-        "score": 0.4366914927959442,
-        "doi": "10.1080/14740338.2025.2568242",
-        "journal": "Expert opinion on drug safety",
-        "year": "2025",
-        "rerank_score": 3.7365379333496094,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20691326",
+        "text": "Valsartan inefficacy or ill-effects of concomitant medications!",
+        "doi": "10.1016/j.amjcard.2010.06.005",
+        "journal": "The American journal of cardiology",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.4284989833831787,
+        "score": 0.4284989833831787,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

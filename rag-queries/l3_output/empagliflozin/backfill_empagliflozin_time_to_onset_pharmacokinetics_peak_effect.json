@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41260692",
-        "text": "Feeding Time-Dependent Changes in the Preventive Effect of Empagliflozin on the Development of Peripheral Neuropathic Pain in Diabetic Model Mice. It is known that the daily feeding cycle affects the dosing time-dependent changes in the pharmacodynamics and pharmacokinetics of many drugs. Our previous study demonstrated that administration of empagliflozin (EMPA), sodium-glucose cotransporter 2 (SGLT2) inhibitor, at the beginning of daily feeding cycle (active phase) effectively prevents the development of ",
-        "score": 0.3723408281803131,
-        "doi": "10.1248/bpb.b25-00524",
-        "journal": "Biological & pharmaceutical bulletin",
-        "year": "2025",
-        "rerank_score": 3.646087408065796,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:34128274",
+        "text": "The effect of morning versus evening administration of empagliflozin on its pharmacokinetics and pharmacodynamics characteristics in healthy adults: a two-way crossover, non-randomised trial.",
+        "doi": "10.1111/den.14014",
+        "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscop",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.33168837428092957,
+        "score": 0.33168837428092957,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:23859534",
-        "text": "Pharmacokinetics, safety and tolerability of empagliflozin, a sodium glucose cotransporter 2 inhibitor, in patients with hepatic impairment. This open-label, parallel-group study investigated the effect of various degrees of hepatic impairment on the pharmacokinetics, safety and tolerability of the sodium glucose cotransporter 2 inhibitor empagliflozin.",
-        "score": 0.35604363679885864,
-        "doi": "10.1111/dom.12183",
-        "journal": "Diabetes, obesity & metabolism",
+        "id": "PMID:35216342",
+        "text": "Pharmacokinetics and Bioequivalence of Two Empagliflozin, with Evaluation in Healthy Jordanian Subjects under Fasting and Fed Conditions. The current study is a randomized, open-label, two-period, two-sequence, two-way crossover pharmacokinetic study in healthy Jordanian subjects to evaluate the pharmacokinetics and bioequivalence profile of two cases of empagliflozin 10 mg under fasting and fed conditions. The plasma concentrations of empagliflozin were determined using an HPLC-MS/MS method. Tolerability and safety were assessed throughout the study. This study included 26 subjects, 26 in both fasting and fed groups.The pharmacokinetic parameters, which included the area under the concentration-time curve from time zero to infinity (AUC",
+        "doi": "10.3390/ijms23042223",
+        "journal": "International journal of molecular sciences",
+        "year": "2022",
+        "corpus": "main",
+        "distance": 0.3629783093929291,
+        "score": 0.3629783093929291,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:23253948",
+        "text": "Pharmacokinetics of empagliflozin, a sodium glucose cotransporter-2 (SGLT2) inhibitor, and metformin following co-administration in healthy volunteers. This open-label study investigated potential drug-drug interactions between empagliflozin and metformin. 16 healthy men received treatment A (empagliflozin 50 mg q.d. for 5 days), treatment B (empagliflozin 50 mg q.d. for 4 days with metformin 1,000 mg b.i.d. for 3 days and 1,000 mg q.d. on Day 4) and treatment C (metformin 1,000 mg b.i.d. for 3 days and 1,000 mg q.d .on Day 4) in the sequence AB then C, or C then AB. Metformin had no clinically relevant effect on the area under the steady state plasma concentration-time curve (AUC(τ,ss) geometric mean ratio (GMR): 96.9; 90% CI: 92.3 - 101.7) or the maximum plasma concentration at steady state (C(max,ss) GMR: 100.5; 90% CI: 88.8 - 113.7) of empagliflozin. Similarly, empagliflozin had no clinically relevant effect on AUC(τ,ss) (GMR: 100.7; 90% CI: 95.9 - 105.6) or C(max,ss) (GMR: 103.6; 90% CI: 96.5 - 111.2) of metformin. The renal clearance of empagliflozin and metformin were unaffected by co-administration. Both drugs were well tolerated alone and in combination and did not cause hypoglycemia. These data support co-administration of empagliflozin and metformin without dose adjustment.",
+        "doi": "10.5414/CP201794",
+        "journal": "International journal of clinical pharmacology and therapeutics",
         "year": "2013",
-        "rerank_score": 1.442267656326294,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:27666126",
-        "text": "Acute Pharmacodynamic Effects of Empagliflozin With and Without Diuretic Agents in Patients With Type 2 Diabetes Mellitus. The goal of this study was to investigate the pharmacodynamic effects of co-administration of empagliflozin, a sodium glucose cotransporter 2 inhibitor, with diuretic agents.",
-        "score": 0.35616517066955566,
-        "doi": "10.1016/j.clinthera.2016.08.008",
-        "journal": "Clinical therapeutics",
-        "year": "2016",
-        "rerank_score": 1.33882737159729,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.37636327743530273,
+        "score": 0.37636327743530273,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

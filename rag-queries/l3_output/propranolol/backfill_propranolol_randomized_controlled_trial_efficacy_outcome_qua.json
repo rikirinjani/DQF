@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41036277",
-        "text": "Blood pressure lowering for prevention of episodic migraine: results of a pilot randomized, placebo-controlled trial of combination blood pressure lowering medication with propranolol. Beta blockers are effective in migraine prevention. Low-dose combination therapy of blood pressure lowering is likely to lower blood pressure more than a beta-blocker, but there are no data on comparative efficacy of these treatments in migraine prophylaxis. A double-blind, randomized, pilot trial in participants with episodi",
-        "score": 0.3873755633831024,
-        "doi": "10.3389/fneur.2025.1630732",
-        "journal": "Frontiers in neurology",
-        "year": "2025",
-        "rerank_score": 4.536812782287598,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20476444",
+        "text": "Clinical trial of propranolol in acute myocardial infarction.",
+        "doi": "",
+        "journal": "The Ulster medical journal",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.4447016716003418,
+        "score": 0.4447016716003418,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40602490",
-        "text": "Letter to the Editor Regarding: \"The Efficacy and Safety of Enalapril and Propranolol on Neurological Recovery of Isolated Severe Traumatic Brain Injury, a Randomized Clinical Trial\".",
-        "score": 0.4029187262058258,
-        "doi": "10.1016/j.wneu.2025.124216",
-        "journal": "World neurosurgery",
-        "year": "2025",
-        "rerank_score": 3.146155595779419,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10759091",
+        "text": "The effects of propranolol on cognitive function and quality of life: a randomized trial among patients with diastolic hypertension. We sought to determine whether propranolol has adverse effects on cognitive function, depressive symptoms, and sexual function in patients treated for diastolic hypertension. We performed a placebo-controlled trial among 312 men and women, 22 to 59 years of age, who had untreated diastolic hypertension (90 to 104 mm Hg). Patients were randomly assigned to treatment with propranolol (80 to 400 mg/day) or matching placebo tablets. Thirteen tests of cognitive function were assessed at baseline, 3 months, and 12 months. Five tests measured reaction time to, or accuracy in, interpreting visual stimuli; one test measured the ability to acquire, reproduce, and change a set of arbitrary stimulus-response sets; and seven tests measured memory or learning verbal information. Depressive symptoms and sexual function were assessed by questionnaires at baseline and 12 months. There were no significant differences by treatment assignment for 11 of the 13 tests of cognitive function at either 3 or 12 months of follow-up. Compared with placebo, participants treated with propranolol had slightly fewer correct responses at 3 months (33 +/- 3 [mean +/- SD] versus 34 +/- 2, P = 0.02) and slightly more errors of commission at 3 months (4 +/-5 versus 3 +/- 3, P = 0.04) and at 12 months (4 +/- 4 versus 3 +/- 3, P = 0.05). At 12 months, depressive symptoms and sexual function and desire did not differ by treatment assignment. Treatment of hypertension with propranolol had limited adverse effects on tests of cognitive function that were of questionable clinical relevance, and there were no documented adverse effects on depressive symptoms or sexual function. Selection of beta-blockers for treatment of hypertension should be based on other factors.",
+        "doi": "10.1016/s0002-9343(00)00304-1",
+        "journal": "The American journal of medicine",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.4477759301662445,
+        "score": 0.4477759301662445,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39549852",
-        "text": "JAAD Game Changers: Atenolol versus propranolol for the treatment of infantile hemangiomas: a randomized controlled study.",
-        "score": 0.3699072599411011,
-        "doi": "10.1016/j.jaad.2024.10.092",
-        "journal": "Journal of the American Academy of Dermatology",
-        "year": "2024",
-        "rerank_score": 0.5745267868041992,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31133517",
+        "text": "Therapeutic efficacy of propranolol for infantile hemangiomas. This was a retrospective study to analyze the clinical therapeutic efficacy of propranolol in patients with infantile hemangioma (IH). Patients with IH were treated with propranolol (2-4.5 mg/kg/day). Those patients who did not have a good response to propranolol underwent intertumoral injection of pingyangmycin or surgery. Relative therapeutic responses to propranolol among the 51 patients were as follows: excellent in 31.37% (16 of 51); good in 39.21% (20 of 51); poor in 23.53% (12 of 51); and nonresponsive in 3.92% (3 of 51). Of the 15 patients who had a poor or no response to propranolol, 2 received injected pingyangmycin, and 3 underwent surgical resection; the remaining 10 patients received no further therapy. The relevance of many clinical factors (sex, age, dose, depth, and diameter) to the efficacy of propranolol was assessed with univariate and multivariate ordinal logistic regression models, which indicated that young age (≤5 months) was significantly associated with better efficacy (P ˂ .05). The most common side effect was diarrhea (52.2%). There was no significant association between dose of propranolol and side effects (P = .12). The effect of oral propranolol was better in younger patients. A 3- to 4.5-mg/kg/day dose may not be more effective than the conventional recommended dose of 2 to 3 mg/kg/day.",
+        "doi": "10.1016/j.oooo.2019.04.014",
+        "journal": "Oral surgery, oral medicine, oral pathology and oral radiology",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.45235705375671387,
+        "score": 0.45235705375671387,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

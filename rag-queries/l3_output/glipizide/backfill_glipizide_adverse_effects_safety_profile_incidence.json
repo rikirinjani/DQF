@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:409862",
-        "text": "Clinical trial with glipizide in uncomplicated maturity onset diabetes mellitus. A clinical trial with a new hypoglycaemic drug glipizide was carried out for an average period of 7 months, on 51 non-insulin independent adult diabetics attending the out-patients clinic of the Diabetic Association of Pakistan, Karachi. Forty five patients were satisfactorily controlled on glipizide. No toxic side effects were observed and the drug was well tolerated.",
-        "score": 0.40389925241470337,
-        "doi": "",
-        "journal": "JPMA. The Journal of the Pakistan Medical Association",
-        "year": "1977",
-        "rerank_score": 0.29486900568008423,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:38408478",
-        "text": "Encyclopaedic Review of Glipizide Pre-clinical and Clinical Status. Glipizide is an oral glucose-lowering medication that is beneficial for the treatment of type 2 diabetes. This study compiles exhaustively all accessible information on glipizide, from preclinical to clinical studies. Glipizide may be used in concert with TRAIL to treat cancer cells; in vitro studies have shown that it suppresses angiogenesis and vasculogenesis while shielding cells from glycation-induced damage. Anticonvulsant effects and ",
-        "score": 0.43164074420928955,
-        "doi": "10.1055/a-2237-8566",
-        "journal": "Drug research",
+        "id": "PMID:39161610",
+        "text": "Role of age and sex in the incidence of adverse effects among diabetic patients treated with glipizide. Glipizide is an antidiabetic drug that belongs to a class of medication known as sulfonylureas. It is considered one of the highly prescribed antidiabetic drugs for the treatment of type II diabetes in patients following a kidney transplant. It lowers blood glucose levels by causing the release of insulin from β-cells in the pancreas. Its main metabolizing pathway is through the liver. It has several adverse effects, which range from an upset stomach to glipizide-induced haemolytic anaemia and hypoglycaemia. These adverse effects may be spontaneous, or they could have a genetic cause. The present study aimed to assess and document the incidence of glipizide-induced adverse reactions among patients prescribed the drug. The present retrospective case-control study used the electronic medical records of patients prescribed glipizide for the past 3 years. These records were reviewed to extract and document cases and/or signs of glipizide-induced adverse reactions. The results revealed that the incidence of adverse effects was higher among female patients (odds ratio, 2.40, P<0.001). Moreover, the results revealed that the likelihood of developing adverse drug reactions among patients <40 years of age was higher than in older patients (P>0.05). The outcomes of the present study are expected to prompt future studies to take sex and age into consideration, in an aim to improve treatment outcomes, reduce adverse events and decrease the burden of unnecessary costs for healthcare systems. Recommendations also include genetic screening prior to administering the medication, educating the patients and caregivers on the possibility of adverse drug reactions, and routine follow-up. This issue is of utmost importance to achieve the optimal outcomes with the minimal detrimental effects.",
+        "doi": "10.3892/etm.2024.12680",
+        "journal": "Experimental and therapeutic medicine",
         "year": "2024",
-        "rerank_score": 0.12189853191375732,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.3979480564594269,
+        "score": 0.3979480564594269,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:23672754",
-        "text": "Effects and patient compliance of sustained-release versus immediate-release glipizides in patients with type 2 diabetes mellitus: a systematic review and meta-analysis. This review aimed to address effects of sustained-release versus immediate-release glipizide on glucose control, insulin secretion, and compliance. We searched Medline, EMBASE, the Cochrane Library, and Chinese Biomedical database from inceptions to May 31, 2011, screened reference lists of relevant studies, and contacted pharmaceutical com",
-        "score": 0.4041057527065277,
-        "doi": "10.1111/j.1756-5391.2011.01158.x",
-        "journal": "Journal of evidence-based medicine",
-        "year": "2013",
-        "rerank_score": -0.2909758388996124,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9600473",
+        "text": "Hypoglycemia from glipizide and glyburide.",
+        "doi": "10.1001/jama.279.18.1441-a",
+        "journal": "JAMA",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.4063076674938202,
+        "score": 0.4063076674938202,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:9600474",
+        "text": "Hypoglycemia from glipizide and glyburide.",
+        "doi": "",
+        "journal": "JAMA",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.4063076674938202,
+        "score": 0.4063076674938202,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

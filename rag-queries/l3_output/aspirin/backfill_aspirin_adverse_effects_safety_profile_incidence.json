@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39340686",
-        "text": "Long-Term Effects of Low-Dose Aspirin on Gastrointestinal Symptoms and Bleeding Complications in Patients with Type 2 Diabetes. Low-dose aspirin for primary prevention is determined by the balance of risks of cardiovascular events and adverse effects. We assessed the long-term gastrointestinal symptoms or bleeding with low-dose aspirin in diabetic patients. The Japanese Primary Prevention of Atherosclerosis with Aspirin for Diabetes (JPAD) trial was a randomized clinical trial to evaluate the efficacy and s",
-        "score": 0.3914330005645752,
-        "doi": "10.1007/s40256-024-00679-9",
-        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
-        "year": "2024",
-        "rerank_score": 2.1876721382141113,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8937273",
+        "text": "Safety profile of low-dose aspirin.",
+        "doi": "10.1016/S0140-6736(05)67495-8",
+        "journal": "Lancet (London, England)",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.34406566619873047,
+        "score": 0.34406566619873047,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38530560",
-        "text": "Inhibition Conversion of Aspirin into Salicylic Acid in Presence of Glycine. Aspirin (AS) is a common drug having anti-pyretic and anti-inflammatory properties which is widely used in diverse medical conditions. The intake of AS may cause adverse effects such as gastrointestinal ulcer, tinnitus and Reye's syndrome. The adverse effects of AS arise due to conversion of AS into salicylic acid (SAL). Glycine (Gly) is a simplest non essential amino acid having anti-oxidative and anti-inflammatory effects. It als",
-        "score": 0.3996928334236145,
-        "doi": "10.1007/s10895-024-03675-z",
-        "journal": "Journal of fluorescence",
-        "year": "2024",
-        "rerank_score": 1.8525365591049194,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31249915",
+        "text": "Aspirin in the Food and Drug Administration Adverse Event Reporting System: Missing Demographics and Underreporting.",
+        "doi": "10.1055/s-0037-1606301",
+        "journal": "TH open : companion journal to thrombosis and haemostasis",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.4177020192146301,
+        "score": 0.4177020192146301,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39074973",
-        "text": "Aspirin: latest evidence and developments. Aspirin is a foundation drug of the pharmaceutical industry originally derived as an analgesic/anti-inflammatory agent but serendipitously discovered to have use as a prophylactic drug for major adverse cardiovascular events (MACE). Its modern-day utility in this latter role relies on its efficacy/safety balance in a contemporary population where, at least in high-income countries, age-standardised incident rates for MACE are falling, and where there are now compet",
-        "score": 0.3941120505332947,
-        "doi": "10.1136/heartjnl-2024-323948",
-        "journal": "Heart (British Cardiac Society)",
-        "year": "2024",
-        "rerank_score": 1.7245545387268066,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16828608",
+        "text": "Dose of aspirin and bleeding risks.",
+        "doi": "10.1016/j.amjcard.2006.01.004",
+        "journal": "The American journal of cardiology",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.41862136125564575,
+        "score": 0.41862136125564575,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

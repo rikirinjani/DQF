@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39489056",
-        "text": "Pioglitazone increases risk of ischemic heart disease in patients with type 2 diabetes receiving insulin. Studies evaluating the cardiovascular safety of pioglitazone show inconsistent results and ischemic heart disease (IHD) risks associated with different anti-diabetic drugs added to metformin uncontrolled type 2 diabetes mellitus (T2DM) are not assessed. This study aimed to evaluate IHD risk associated with pioglitazone and/or insulin added to patients with metformin uncontrolled T2DM. Data were extracte",
-        "score": 0.42519301176071167,
-        "doi": "10.1016/j.jdiacomp.2024.108898",
-        "journal": "Journal of diabetes and its complications",
-        "year": "2024",
-        "rerank_score": 4.658546447753906,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11594241",
+        "text": "Safety profile of pioglitazone. The safety profile of pioglitazone has been evaluated in trials including over 5,400 subjects, of whom over 3,500 received active treatment resulting in over 2,500 patient-years of exposure. Since its launch, over 1.4 million patients have been prescribed pioglitazone. This paper will examine the clinical trial tolerability and safety data available for pioglitazone. Safety was evaluated both as monotherapy and in combination with other antihyperglycaemic drugs. All studies had a placebo-controlled, double-blind, randomised, parallel-group, multi-centre design, in which pioglitazone was administered once daily over a period of 16-24 weeks. Most trials also had a long-term open label extension. In these trials, adverse events were recorded, as were details of laboratory blood values, urine analysis, vital signs and electrocardiograms. In addition, specific studies were conducted to examine any effects of pioglitazone on cardiac structure and function, and body composition. This paper will also briefly review data available from post-marketing surveillance.",
+        "doi": "",
+        "journal": "International journal of clinical practice. Supplement",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.3380530774593353,
+        "score": 0.3380530774593353,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39068060",
-        "text": "Efficacy and Safety of Pioglitazone Add-on in Patients with Type 2 Diabetes Mellitus Inadequately Controlled with Metformin and Dapagliflozin: A Multicenter, Randomized, Double-blind, and Placebo-controlled Study. The purpose of this study was to determine the efficacy and safety profile of pioglitazone compared with placebo (PBO) in patients with type 2 diabetes (T2D) inadequately controlled with metformin and dapagliflozin. In this prospective, multicenter, randomized, double-blind, PBO-controlled trial, ",
-        "score": 0.4287679195404053,
-        "doi": "10.1016/j.clinthera.2024.06.023",
-        "journal": "Clinical therapeutics",
-        "year": "2024",
-        "rerank_score": 3.678046226501465,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20175701",
+        "text": "Pioglitazone: side effect and safety profile. Thiazolidinediones (TZDs) are useful glucose-lowering agents for patients with Type 2 diabetes. Through PPAR-gamma-mediated effects, these drugs not only improve insulin sensitivity and glycemia, they also have beneficial effects on lipid metabolism and the vascular endothelium, with potential to improve cardiovascular risk. However, this promise has not been entirely fulfilled. The first TZD, troglitazone, was withdrawn after reports of severe liver damage. The second TZD, rosiglitazone, has been reported in meta-analyses to be associated with possible increased risk of cardiovascular disease (CVD) events. The third TZD approved for clinical use in the US, pioglitazone, appears to be associated with decreased CVD events in most studies/meta-analyses. We undertook a literature search in Pubmed from the year 2000 onwards to review the side effect/safety profile of pioglitazone. A comprehensive summary of the currently available data on the side effect/safety profile of pioglitazone. The main adverse effects reported with pioglitazone are those common to the TZD class: weight gain, pedal edema, bone loss and precipitation of congestive heart failure in at-risk individuals, without any increase in CVD/all-cause mortality. Overall, the safety profile of pioglitazone is favorable and remains a useful option for the treatment of insulin-resistant patients with Type 2 diabetes. Further studies are needed to confirm/clarify its cardiovascular benefits.",
+        "doi": "10.1517/14740331003623218",
+        "journal": "Expert opinion on drug safety",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.35478442907333374,
+        "score": 0.35478442907333374,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40420634",
-        "text": "Efficacy and Safety of Pioglitazone Add-On in Patients With Type 2 Diabetes Mellitus Inadequately Controlled With Metformin and Dapagliflozin: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Type 2 diabetes mellitus (T2DM) accounts for over 90% of diabetes cases worldwide. Pioglitazone, a thiazolidinedione, enhances insulin sensitivity by activating PPAR-γ. Evidence on its efficacy and safety as an add-on to metformin and SGLT2 inhibitors in inadequately controlled T2DM is limited. Th",
-        "score": 0.4393196702003479,
-        "doi": "10.1002/edm2.70061",
-        "journal": "Endocrinology, diabetes & metabolism",
-        "year": "2025",
-        "rerank_score": 2.8996100425720215,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17405241",
+        "text": "[Adverse effects of glitazones].",
+        "doi": "",
+        "journal": "Ugeskrift for laeger",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3621912896633148,
+        "score": 0.3621912896633148,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

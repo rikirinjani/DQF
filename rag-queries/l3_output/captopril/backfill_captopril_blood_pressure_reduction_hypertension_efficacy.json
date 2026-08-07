@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40509774",
-        "text": "Blood pressure-lowering efficacy of Sacubitril/Allisartan versus Olmesartan in Chinese hypertensive patients with a nondipping blood pressure pattern. Abnormal nocturnal blood pressure dipping profile is an important cardiovascular risk factor in patients with hypertension. This analysis aimed to investigate the effects of Sacubitril/Allisartan on blood pressure in Chinese patients with mild to moderate hypertension and a nighttime nondipping pattern. We performed analysis of data from a randomized clinical",
-        "score": 0.41201114654541016,
-        "doi": "10.1097/HJH.0000000000004065",
-        "journal": "Journal of hypertension",
-        "year": "2024",
-        "rerank_score": 5.766810894012451,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11890606",
+        "text": "Blood pressure reduction after the first dose of captopril and perindopril.",
+        "doi": "10.1046/j.1532-5415.2001.4911260.x",
+        "journal": "Journal of the American Geriatrics Society",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3605482876300812,
+        "score": 0.3605482876300812,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40379224",
-        "text": "Development of 3D-Printed Captopril Mini-Tablets with customized release profiles for paediatric hypertension therapy. Hypertension, defined as a sustained increase in resting systolic and/or diastolic blood pressure (BP), represents a modifiable risk factor for cardiovascular and renal diseases that affect 5-10 % of paediatric patients. Captopril (CPT) is widely used for treating paediatric arterial hypertension; however, the smallest commercially available dosage form (25 mg) often necessitates off-label ",
-        "score": 0.3935479521751404,
-        "doi": "10.1016/j.ijpharm.2025.125685",
-        "journal": "International journal of pharmaceutics",
-        "year": "2025",
-        "rerank_score": 5.451209545135498,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10348013",
+        "text": "CAPPP trial. Captopril Prevention Project.",
+        "doi": "10.1016/s0140-6736(05)75892-x",
+        "journal": "Lancet (London, England)",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.3607335388660431,
+        "score": 0.3607335388660431,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40621831",
-        "text": "Efficacy and safety of sacubitril/valsartan in Afro-descendant patients with resistant hypertension: a randomized controlled trial. Sacubitril/valsartan (Sac-Val) has demonstrated blood pressure (BP)-lowering effects, but its role in resistant hypertension remains unclear. This study evaluated the efficacy and safety of Sac-Val compared to optimized angiotensin II receptor blocker (ARB) or angiotensin-converting enzyme inhibitor (ACEI) therapy in Brazilian patients with resistant hypertension, predominantly",
-        "score": 0.378540575504303,
-        "doi": "10.1097/HJH.0000000000004075",
-        "journal": "Journal of hypertension",
-        "year": "2025",
-        "rerank_score": 5.290829658508301,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10348010",
+        "text": "CAPPP trial. Captopril Prevention Project.",
+        "doi": "",
+        "journal": "Lancet (London, England)",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.3607335388660431,
+        "score": 0.3607335388660431,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

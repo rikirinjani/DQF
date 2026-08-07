@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41169733",
-        "text": "App-based multimodal lifestyle-intervention for essential hypertension (HYPE): a decentralized randomised controlled trial. Life-style interventions are effective in lowering blood pressure (BP) and reducing cardiovascular risk, but implementation is poor. We aimed to evaluate the efficacy of an app-based multimodal lifestyle intervention in reducing BP in patients with uncontrolled hypertension. In a decentralized, single-blinded, randomized-controlled trial, adults with uncontrolled hypertension by home B",
-        "score": 0.42266127467155457,
-        "doi": "10.3389/fdgth.2025.1672553",
-        "journal": "Frontiers in digital health",
-        "year": "2025",
-        "rerank_score": 0.6364653706550598,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20789628",
+        "text": "Methyldopa in the Treatment of Hypertension.",
+        "doi": "10.1136/bmj.1.5326.295",
+        "journal": "British medical journal",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.2535766661167145,
+        "score": 0.2535766661167145,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38506059",
-        "text": "Long-Term Blood Pressure Reductions Following Catheter-Based Renal Denervation: A Systematic Review and Meta-Analysis. Renal denervation is a recognized adjunct therapy for hypertension with clinically significant blood pressure (BP)-lowering effects. Long-term follow-up data are critical to ascertain durability of the effect and safety. Aside from the 36-month follow-up data available from randomized control trials, recent cohort analyses extended follow-up out to 10 years. We sought to analyze study-level",
-        "score": 0.4311424791812897,
-        "doi": "10.1161/HYPERTENSIONAHA.123.22314",
-        "journal": "Hypertension (Dallas, Tex. : 1979)",
-        "year": "2024",
-        "rerank_score": -0.43263256549835205,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20789624",
+        "text": "Methyldopa in Hypertension.",
+        "doi": "",
+        "journal": "British medical journal",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.25735050439834595,
+        "score": 0.25735050439834595,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41397718",
-        "text": "[Acupoint magnetotherapy as an adjunctive treatment for mild to moderate hypertension with  To observe the clinical efficacy of acupoint magnetotherapy as an adjunctive treatment for mild to moderate hypertension with  A total of 66 patients with mild to moderate hypertension of  After the intervention, both groups showed reductions in TCM syndrome scores, office systolic blood pressure (SBP), and diastolic blood pressure (DBP) compared with those before intervention ( Acupoint magnetotherapy as an adjuncti",
-        "score": 0.4063463509082794,
-        "doi": "10.13703/j.0255-2930.20240820-k0004",
-        "journal": "Zhongguo zhen jiu = Chinese acupuncture & moxibustion",
-        "year": "2024",
-        "rerank_score": -1.0511467456817627,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19821316",
+        "text": "Methyldopa for primary hypertension. Hypertension is associated with an increased risk of stroke, myocardial infarction and congestive heart failure. Methyldopa is a centrally acting antihypertensive agent, which was commonly used in the 1970's and 80's for blood pressure control. Its use at present has largely been replaced by antihypertensive drug classes with less side effects, but it is still used in developing countries due to its low cost. A review of its relative effectiveness compared to placebo on surrogate and clinical outcomes is justified. To quantify the effect of methyldopa compared to placebo in randomized controlled trials (RCTs) on all cause mortality, cardiovascular mortality, serious adverse events, myocardial infarctions, strokes, withdrawals due to adverse effects and blood pressure in patients with primary hypertension. We searched the following databases: Cochrane Central Register of Controlled Trials (1960-June 2009), MEDLINE (2005-June 2009), and EMBASE (2007-June 2009). Bibliographic citations from retrieved studies were also reviewed. No language restrictions were applied. We selected RCTs studying patients with primary hypertension. We excluded studies of patients with secondary hypertension or gestational hypertension. Two reviewers independently extracted data and assessed trial quality using the risk of bias tool. Data synthesis and analysis was performed using RevMan 5. Data for blood pressure were combined using the generic inverse variance method. Twelve trials (N=595) met the inclusion criteria for this review. None of these studies evaluated the effects of methyldopa compared to placebo on mortality and morbidity outcomes. Data for withdrawals due to adverse effects were not reported in a way that permitted meaningful meta-analysis. Data from six of the twelve trials (N=231) were combined to evaluate the blood pressure lowering effects of methyldopa compared to placebo. This meta-analysis shows that methyldopa at doses ranging from 500-2250 mg daily lowers systolic and diastolic blood pressure by a mean of 13 (95%CI 6-20) / 8 (95% CI 4-13) mmHg. Overall, the risk of bias was considered moderate. Methyldopa lowers blood pressure to varying degrees compared to placebo for patients with primary hypertension. Its effect on clinical outcomes, however, remains uncertain.",
+        "doi": "10.1002/14651858.CD003893.pub3",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.34472280740737915,
+        "score": 0.34472280740737915,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

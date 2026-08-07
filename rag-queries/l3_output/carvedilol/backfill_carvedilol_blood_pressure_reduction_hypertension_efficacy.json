@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40017728",
-        "text": "Is carvedilol superior to propranolol in patients with cirrhosis with portal hypertension: a systematic and meta-analysis. Carvedilol has shown greater potency than propranolol as a β-blocker in managing cardiac conditions. However, its efficacy in reducing portal hypertension (PHTN) in patients with cirrhosis remains unclear. This study evaluates the efficacy and safety of carvedilol compared with propranolol in managing PHTN. A systematic review and meta-analysis were conducted using PubMed, Scopus and Em",
-        "score": 0.41189494729042053,
-        "doi": "10.7573/dic.2024-11-3",
-        "journal": "Drugs in context",
-        "year": "2024",
-        "rerank_score": 7.795431613922119,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39724907",
-        "text": "CARVEDILOL IN PATIENTS WITH UNCONTROLLED AND RESISTANT ARTERIAL HYPERTENSION. The use of beta-blockers in treating resistant hypertension remains poorly understood. While PATHWAY-2 showed a systolic blood pressure benefit with bisoprolol, further research is needed to evaluate other beta-blockers in terms of the effect of systolic blood pressure, assess diastolic blood pressure effects, and guide management in patients intolerant to CCBs as well. Our study aimed to evaluate the efficacy of Carvedilol (non-s",
-        "score": 0.35953688621520996,
+        "id": "PMID:7587995",
+        "text": "Carvedilol for hypertension.",
         "doi": "",
-        "journal": "Georgian medical news",
-        "year": "2024",
-        "rerank_score": 6.738390922546387,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "Drug and therapeutics bulletin",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.26619669795036316,
+        "score": 0.26619669795036316,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41453085",
-        "text": "Carvedilol versus Propranolol in Preventing Decompensation in Patients with Compensated Cirrhosis: A Real-World Propensity-Matched Study. Non-selective beta-blockers are widely used for the management of portal hypertension and prevention of variceal bleeding in patients with liver cirrhosis. While studies have demonstrated carvedilol's superiority in reducing portal pressure compared to propranolol, limited real-world data directly compare their efficacy in preventing decompensation. We conducted a retrosp",
-        "score": 0.3948858380317688,
-        "doi": "10.15403/jgld-6497",
-        "journal": "Journal of gastrointestinal and liver diseases : JGLD",
-        "year": "2025",
-        "rerank_score": 6.006011962890625,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8767610",
+        "text": "[Balanced beta--alpha-blocker treatment with carvedilol in mild-moderate arterial hypertension]. The search for the ideal antihypertensive drug is ongoing. Carvedilol is a new beta-adrenoceptor antagonist which also causes peripheral vasodilation primarily via alpha 1-adrenergic blockade. Twenty patients with mild to moderate essential hypertension and previous intolerance and side effects to other antihypertensive drugs were studied. After initial baseline assessment, patients received 25 mg carvedilol orally q.d. The treatment lasted 60 days. In our study carvedilol was well tolerated and no important side effect was recorded. Blood pressure decreased significantly to normal values, without orthostatic blood pressure decreases. Heart rate decreased significantly too, but no significant bradycardia was induced. No negative effects on serum lipids and no clinical evidence of increase in peripheral resistance were observed. Ventricular arrhythmia on Holter monitoring were significantly reduced after treatment with carvedilol.",
+        "doi": "",
+        "journal": "Minerva cardioangiologica",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3429127633571625,
+        "score": 0.3429127633571625,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:9503102",
+        "text": "Results of therapy with carvedilol, a beta-blocker vasodilator with antioxidant properties, in hypertensive patients. Carvedilol is a new beta-blocker antihypertensive agent with vasodilating properties secondary to alpha 1-blocking activity. Peripheral vascular resistance is reduced and cardiac output and renal function are not altered with carvedilol. The antihypertensive effects of this agent are equivalent to those of other beta-blockers, calcium channel blockers, angiotensin converting enzyme inhibitors, and diuretics. Carvedilol has a neutral effect on lipids and glucose metabolism. The percentage of responders is increased when carvedilol is combined with a diuretic. This agent has several unique properties. In addition to its antihypertensive effects, carvedilol in vitro and in vivo has been shown to have antiproliferative effects on smooth muscle cells and to inhibit the action of oxygen-free radicals. The antioxidant properties of this compound are significantly greater than those of vitamin E. In animal models, carvedilol may slow the process of atherogenesis, reduce infarct size, and improve postinfarction survival to a greater degree than other beta-blockers. Recent studies have demonstrated that carvedilol reduces morbidity and mortality in patients with congestive heart failure who are already receiving angiotensin converting enzyme inhibitors, diuretics, and digitalis. The antioxidant and antiproliferative activities of carvedilol may present an advantage over other available antihypertensive medications.",
+        "doi": "10.1016/s0895-7061(97)00424-x",
+        "journal": "American journal of hypertension",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.34292837977409363,
+        "score": 0.34292837977409363,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

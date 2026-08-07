@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39916458",
-        "text": "Factors Influencing Nerinetide Effect on Clinical Outcome in Patients Without Alteplase Treatment in the ESCAPE-NA1 Trial. In the ESCAPE-NA1 (Efficacy and Safety of Nerinetide for the Treatment of Acute Ischaemic Stroke) trial, treatment with nerinetide was associated with improved outcomes in patients who did not receive intravenous alteplase. We compared the effect of nerinetide on clinical outcomes in patients without concurrent intravenous alteplase treatment within different patient subgroups. ESCAPE-N",
-        "score": 0.47188445925712585,
-        "doi": "10.5853/jos.2024.03139",
-        "journal": "Journal of stroke",
-        "year": "2024",
-        "rerank_score": -3.861459255218506,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3612748980522156,
+        "score": 0.3612748980522156,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39767800",
-        "text": "Predictive Value of N-Terminal Pro B-Type Natriuretic Peptide for Short-Term Outcome of Cardioversion in Patients with First-Diagnosed or Paroxysmal Atrial Fibrillation Presenting to the Emergency Department.",
-        "score": 0.4697631895542145,
-        "doi": "10.3390/biomedicines12122895",
-        "journal": "Biomedicines",
-        "year": "2024",
-        "rerank_score": -5.937323093414307,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
+        "journal": "Advances in therapy",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.38617855310440063,
+        "score": 0.38617855310440063,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:24627529",
-        "text": "Validation of N-terminal pro-brain natriuretic peptide cut-off values for risk stratification of pulmonary embolism. The optimal N-terminal pro-brain natriuretic peptide (NT-proBNP) cut-off value for risk stratification of pulmonary embolism remains controversial. In this study we validated and compared different proposed NT-proBNP cut-off values in 688 normotensive patients with pulmonary embolism. During the first 30 days, 28 (4.1%) patients reached the primary outcome (pulmonary embolism-related death or",
-        "score": 0.4589274823665619,
-        "doi": "10.1183/09031936.00211613",
-        "journal": "The European respiratory journal",
-        "year": "2014",
-        "rerank_score": -6.514070510864258,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12079622",
+        "text": "Is pramlintide an adjunct to insulin therapy?",
+        "doi": "10.1089/15209150260007408",
+        "journal": "Diabetes technology & therapeutics",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.41798675060272217,
+        "score": 0.41798675060272217,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

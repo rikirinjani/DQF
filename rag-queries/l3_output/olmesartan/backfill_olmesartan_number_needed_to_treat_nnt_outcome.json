@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41562647",
-        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
-        "score": 0.4777902364730835,
-        "doi": "10.1080/13696998.2026.2615606",
-        "journal": "Journal of medical economics",
-        "year": "2026",
-        "rerank_score": 1.8313552141189575,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.392733633518219,
+        "score": 0.392733633518219,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40851507",
-        "text": "Spectrofluorimetric Method for the Assay of Fixed-Dose Combinations Containing Olmesartan: Sustainability Assessment via Novel Relative Ranking NQS Index, GSST, and Whiteness R The Need, Quality, and Sustainability (NQS) index was very recently developed. It evaluates the compromise of analytical techniques between social needs, analytical performance, and global sustainability. Regarding ARBs, Olmesartan (OLM) has become one of the worldwide first-line antihypertensive therapies. Its fixed-dose combination",
-        "score": 0.4789958894252777,
-        "doi": "10.1002/bio.70292",
-        "journal": "Luminescence : the journal of biological and chemical luminescence",
-        "year": "2025",
-        "rerank_score": -0.13974228501319885,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21502981",
+        "text": "Pharmacotherapy: Olmesartan for microalbuminuria--friend or foe?",
+        "doi": "10.1038/nrendo.2011.68",
+        "journal": "Nature reviews. Endocrinology",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4174034893512726,
+        "score": 0.4174034893512726,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40013678",
-        "text": "[Medical treatment can become more efficient]. A substantial part of our expenditure on medical treatment aims to cure the patient from the disease. The effectiveness of these treatments has been proven by Evidence Based Medicine and is assessed by comparing groups of patients. However, not all individual patients benefit from the treatment. In trials this effect is measured by calculating the number needed to treat (NNT). The NNT can be seen as a proxy for the inefficiency of a medical intervention. Usuall",
-        "score": 0.5009918212890625,
-        "doi": "",
-        "journal": "Nederlands tijdschrift voor geneeskunde",
-        "year": "2025",
-        "rerank_score": -2.6190507411956787,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21840109",
+        "text": "Increased mortality in patients with diabetes associated with olmesartan for the prevention/delay of microalbuminuria onset: a matter of concern?",
+        "doi": "10.1016/j.recesp.2011.05.024",
+        "journal": "Revista espanola de cardiologia (English ed.)",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4358304738998413,
+        "score": 0.4358304738998413,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

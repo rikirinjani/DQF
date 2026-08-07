@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3949940800666809,
+        "score": 0.3949940800666809,
+        "rerank_score": 1.0
+      },
+      {
         "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.44117337465286255,
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and the comparator response. Confidence intervals should always accompany NNT for the precision of its estimate. In this review, three meta-analyses are reviewed, which included the NNT in the analysis of response.",
         "doi": "10.1016/j.jpainsymman.2024.06.002",
         "journal": "Journal of pain and symptom management",
         "year": "2024",
-        "rerank_score": 4.158092021942139,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4399387240409851,
+        "score": 0.4399387240409851,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38306147",
-        "text": "Benefit of Topical Combination Therapy for Acne: Analyzing Effect Size Using Number Needed to Treat. Topical acne trials often are confounded by high vehicle response rates and differing outcome measures, making it difficult to compare treatments. Number needed to treat (NNT) can be a simple, clinically meaningful way to indirectly compare treatment options without head-to-head data. NNT is the number of patients who need to be treated with an intervention to observe one additional patient successfully achi",
-        "score": 0.47347480058670044,
-        "doi": "10.36849/JDD.7927",
-        "journal": "Journal of drugs in dermatology : JDD",
-        "year": "2024",
-        "rerank_score": 1.430737018585205,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:7438770",
-        "text": "Spironolactone in the long-term management of patients with congestive heart failure. The therapeutic efficacy of 100 mg spironolactone once daily in patients with congestive heart failure was evaluated in a multi-centre study in general practice. One hundred and fifteen patients were admitted to the study. Clinical and haemotological assessments were made at entry and at regular intervals throughout the 48-week study period. Body weight decreased and the incidence of both pitting and pulmonary oedema was r",
-        "score": 0.4425387382507324,
-        "doi": "10.1185/03007998009112040",
-        "journal": "Current medical research and opinion",
-        "year": "1980",
-        "rerank_score": 0.9327526688575745,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:28700781",
+        "text": "Efficacy and Safety of Spironolactone in Acute Heart Failure: The ATHENA-HF Randomized Clinical Trial. Persistent congestion is associated with worse outcomes in acute heart failure (AHF). Mineralocorticoid receptor antagonists administered at high doses may relieve congestion, overcome diuretic resistance, and mitigate the effects of adverse neurohormonal activation in AHF. To assess the effect of high-dose spironolactone and usual care on N-terminal pro-B-type natriuretic peptide (NT-proBNP) levels compared with usual care alone. This double-blind and placebo (or low-dose)-controlled randomized clinical trial was conducted in 22 US acute care hospitals among patients with AHF who were previously receiving no or low-dose (12.5 mg or 25 mg daily) spironolactone and had NT-proBNP levels of 1000 pg/mL or more or B-type natriuretic peptide levels of 250 pg/mL or more, regardless of ejection fraction. High-dose spironolactone (100 mg) vs placebo or 25 mg spironolactone (usual care) daily for 96 hours. The primary end point was the change in NT-proBNP levels from baseline to 96 hours. Secondary end points included the clinical congestion score, dyspnea assessment, net urine output, and net weight change. Safety end points included hyperkalemia and changes in renal function. A total of 360 patients were randomized, of whom the median age was 65 years, 129 (36%) were women, 200 (55.5%) were white, 151 (42%) were black, 8 (2%) were Hispanic or Latino, 9 (2.5%) were of other race/ethnicity, and the median left ventricular ejection fraction was 34%. Baseline median (interquartile range) NT-proBNP levels were 4601 (2697-9596) pg/mL among the group treated with high-dose spironolactone and 3753 (1968-7633) pg/mL among the group who received usual care. There was no significant difference in the log NT-proBNP reduction between the 2 groups (-0.55 [95% CI, -0.92 to -0.18] with high-dose spironolactone and -0.49 [95% CI, -0.98 to -0.14] with usual care, P = .57). None of the secondary end point or day-30 all-cause mortality or heart failure hospitalization rate differed between the 2 groups. The changes in serum potassium and estimated glomerular filtration rate at 24, 48, 72, and 96 hours. were similar between the 2 groups. Adding treatment with high-dose spironolactone to usual care for patients with AHF for 96 hours was well tolerated but did not improve the primary or secondary efficacy end points. clinicaltrials.gov Identifier: NCT02235077.",
+        "doi": "10.1001/jamacardio.2017.2198",
+        "journal": "JAMA cardiology",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.44568371772766113,
+        "score": 0.44568371772766113,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

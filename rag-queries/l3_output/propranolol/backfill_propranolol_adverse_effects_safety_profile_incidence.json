@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40624053",
-        "text": "Cardiovascular safety of propranolol oral solution in infantile hemangiomas: a disproportionality analysis based on the FAERS database. This study aims to explore the potential association between propranolol and cardiovascular adverse events (AEs) through real-world evidence. Reports from the FDA Adverse Event Reporting System (FAERS) database spanning from January 2014 to September 2024, identifying propranolol oral solution as the primary suspected (PS) drug, were analyzed. Disproportionality analysis em",
-        "score": 0.39781656861305237,
-        "doi": "10.1038/s41598-025-07577-3",
-        "journal": "Scientific reports",
-        "year": "2025",
-        "rerank_score": 4.036404132843018,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25660680",
+        "text": "Evidence and nuances of propranolol safety.",
+        "doi": "10.1111/bjd.13600",
+        "journal": "The British journal of dermatology",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.3238520324230194,
+        "score": 0.3238520324230194,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39655516",
-        "text": "A prospective study of acute propranolol overdose defining dose thresholds of severe toxicity (ATOM - 9). Propranolol is a beta-adrenoceptor blocking drug with sodium channel-blocking properties that can cause life-threatening toxicity in overdose. Limited research defines dose thresholds of toxicity. We aimed to investigate propranolol overdose and dose thresholds for severe toxicity. This is a prospective series of patients with acute propranolol overdose ≥360 mg from August 2014 to December 2023 enrolled",
-        "score": 0.3863871991634369,
-        "doi": "10.1080/15563650.2024.2435397",
-        "journal": "Clinical toxicology (Philadelphia, Pa.)",
-        "year": "2025",
-        "rerank_score": 2.090681552886963,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23715618",
+        "text": "Retrospective review of adverse effects from propranolol in infants.",
+        "doi": "10.1001/jamadermatol.2013.2230",
+        "journal": "JAMA dermatology",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.36834585666656494,
+        "score": 0.36834585666656494,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39853384",
-        "text": "Effects of early propranolol administration on mortality from severe, traumatic brain injury: a retrospective propensity score-matched registry study. The role of beta-blockers in severe, traumatic brain injury (TBI) management is debated. Severe TBI may elicit a surge of catecholamines, which has been associated with increased morbidity and mortality. We hypothesize administering propranolol, a non-selective beta-blocker, within 48 h of TBI will reduce patient mortality within 30 days of injury. The TriNet",
-        "score": 0.42160266637802124,
-        "doi": "10.1007/s00068-024-02699-1",
-        "journal": "European journal of trauma and emergency surgery : official publication of the E",
-        "year": "2024",
-        "rerank_score": 1.9608491659164429,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8956349",
+        "text": "Adverse CNS-effects of beta-adrenoceptor blockers. In 1962 propranolol, the first beta adrenoceptor antagonist (beta blocker), was brought on to the market. There is now a host of different beta blockers available, and these compounds are among the most commonly prescribed groups of drugs. The efficacy of beta blockers has been proven predominantly for the treatment of cardiovascular diseases. Beta blockers are also used for certain types of CNS disorders, such as anxiety disorders, essential tremor and migraine. While low toxicity means that they have a favorable risk-benefit ratio, given the high intensity of use, it is essential to have a comprehensive knowledge of adverse events. Adverse events of beta blockers that can be related to the CNS are quite often neglected, even in textbooks of clinical pharmacology or review articles, and thus often misdiagnosed. The following article, therefore, after summarizing the use of beta blockers for CNS indications, critically reviews the literature on centrally mediated adverse events. General pharmacological features of beta blockers and their molecular basis of action will briefly be addressed to the extent that they are or may become relevant for central nervous pharmacotherapy and side-effects.",
+        "doi": "10.1055/s-2007-979572",
+        "journal": "Pharmacopsychiatry",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3965173363685608,
+        "score": 0.3965173363685608,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

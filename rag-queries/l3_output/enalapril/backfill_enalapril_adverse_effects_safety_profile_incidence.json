@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:34224605",
-        "text": "Hospitalization for adverse events under abiraterone or enzalutamide exposure in real-world setting: A French population-based study on prostate cancer patients. Safety profiles of abiraterone and enzalutamide rely mainly on Phase III clinical trials. Our objective was to estimate the incidence rate ratio (IRR) for certain adverse events leading in real life to hospitalization (atrial fibrillation, acute heart failure, ischaemic heart disease, acute kidney injury [AKI], ischaemic stroke, torsade de pointe/Q",
-        "score": 0.39119037985801697,
-        "doi": "10.1111/bcp.14972",
-        "journal": "British journal of clinical pharmacology",
-        "year": "2021",
-        "rerank_score": 4.215137481689453,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10193097",
+        "text": "[Hepatoxicity by enalapril].",
+        "doi": "",
+        "journal": "Gastroenterologia y hepatologia",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.42187169194221497,
+        "score": 0.42187169194221497,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:2846102",
-        "text": "Postmarketing surveillance of enalapril. II: Investigation of the potential role of enalapril in deaths with renal failure. The possibility that enalapril might damage renal function was investigated in 1098 deaths recorded in a prescription-event monitoring study. Case notes for 913 patients were examined. In seventy five there was a rise in the urea or creatinine concentration of 50% or more above pretreatment values. Enalapril appeared to have contributed to a decline in renal function and subsequent dea",
-        "score": 0.391440212726593,
-        "doi": "10.1136/bmj.297.6652.830",
-        "journal": "BMJ (Clinical research ed.)",
-        "year": "1988",
-        "rerank_score": 1.445541262626648,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10788996",
+        "text": "[Adverse effects of angiotensin receptor antagonists].",
+        "doi": "10.1007/s001010050822",
+        "journal": "Der Anaesthesist",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.42202866077423096,
+        "score": 0.42202866077423096,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38739482",
-        "text": "Differences in ocular adverse events associated with phosphodiesterase-5 inhibitors: a real-world pharmacovigilance study. Our study aims to characterize the ocular safety profiles of phosphodiesterase type 5 (PDE5) inhibitors and explore the differences among different PDE5 inhibitors. We analyzed reports on ocular adverse events associated with sildenafil, vardenafil and tadalafil submitted to the FDA Adverse Event Reporting System (FAERS) database from the first quarter of 2004 to the first quarter of 20",
-        "score": 0.3933296799659729,
-        "doi": "10.1080/14740338.2024.2355335",
-        "journal": "Expert opinion on drug safety",
-        "year": "2024",
-        "rerank_score": -0.11112518608570099,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9734114",
+        "text": "[Risk factors of adverse effects of angiotensin-converting enzyme inhibitors. Apropos of 30,072 patients treated by trandolapril]. The aim of the present study was to investigate the incidence of adverse effects and the prognostic value of various risk factors in a large population of unselected hypertensive patients treated with the ACE inhibitor trandolapril. Among the 30 072 patients investigated in this post marketing retrospective study, 1813 patients (6.0 per cent) reported an adverse effect. The five most frequent side effects were coughing (3.1 per cent), dizziness (0.7 per cent), headache (0.6 per cent) asthenia (0.5 per cent) and nausea (0.3 per cent). Intolerance risk factors for trandolapril were researched using both univariate and multivariate analysis. In the univariate analysis, a prior intolerance of an ACE inhibitor and female gender were strongly correlated with either overall intolerance or coughing. The most relevant variables for the occurrence of adverse effects, listed according to their entry order in the multivariate analysis, were: prior intolerance of ACE inhibitors (OR: 4.19, 95 per cent CI: 3.66-4.78), female gender (OR: 1.46, 95 per cent CI: 1.31-1.63), prior intolerance of other antihpertensive agents (OR: 1.27, 95 per cent CI: 1.14-1.41), smoking (OR: 0.76, 95 per cent CI: 0.66-0.87) and combination with a beta blocker (OR: 1.31, 95 per cent CI: 1.08-1.58). A prior intolerance of an ACE inhibitor appears to be a very strong predictor of coughing (OR: 6.14, 95 per cent CI: 5.24-7.19). The following variables, namely female gender (OR: 1.61, 95 per cent CI: 1.40-1.85), age 60-80 (OR: 1.25, 95 per cent CI: 1.09-1.44) and prior intolerance of other antihypertensive agents (OR: 1.20, 95 per cent CI: 1.03-2.39) appear less significant.",
+        "doi": "",
+        "journal": "Therapie",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.42673158645629883,
+        "score": 0.42673158645629883,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41154686",
-        "text": "Trandolapril Attenuates Pro-Arrhythmic Downregulation of Cx43 and Cx40 in Atria of Volume Overloaded Hypertensive and Normotensive Rats. Pressure overload in non-treated or resistant hypertension (HTN) increases the risk of heart failure (HF) as well as the occurrence of fatal ventricular arrhythmias and stroke-provoking atrial fibrillation (AF), while perturbed connexin-43 (Cx43) and Cx40 might be involved. In addition, kidney dysfunction may facilitate hemodynamic volume overload and congestive HF. We inv",
-        "score": 0.413340300321579,
-        "doi": "10.3390/biom15101457",
-        "journal": "Biomolecules",
-        "year": "2025",
-        "rerank_score": 4.244683742523193,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8845087",
+        "text": "Trandolapril: a clinical profile. Trandolapril is a new angiotensin converting enzyme (ACE) inhibitor that effectively lowers blood pressure in doses up to 2 mg. Only a small additional effect is seen with higher doses. The drug is transformed in vivo to the active metabolite trandolaprilat. When renal function is severely impaired a dose reduction may be necessary because the clearance of trandolaprilat is significantly correlated to creatinine clearance. Trandolapril has a sustained action that is reflected in long-lasting inhibition of ACE, even after discontinuation of treatment. Blood pressure is controlled by the drug in about 60% of patients with a side effect profile that is comparable to that of the other ACE inhibitors. Trandolapril can be given safely over a prolonged period of time.",
+        "doi": "10.1016/0895-7061(95)00192-1",
+        "journal": "American journal of hypertension",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3491988182067871,
+        "score": 0.3491988182067871,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39077768",
-        "text": "UMOD (uromodulin) has been linked to hypertension through potential activation of Na This prospective, multicenter, genotype-blinded trial evaluated torasemide (torsemide) efficacy on systolic blood pressure (SBP) reduction over 16 weeks in nondiabetic, hypertensive participants uncontrolled on ≥1 nondiuretic antihypertensive for >3 months. The primary end point was the change in 24-hour ambulatory SBP (ABPM SBP) and SBP response trajectories between baseline and 16 weeks by genotype (AA versus AG/GG) due t",
-        "score": 0.4368332624435425,
-        "doi": "10.1161/HYPERTENSIONAHA.124.23122",
-        "journal": "Hypertension (Dallas, Tex. : 1979)",
-        "year": "2024",
-        "rerank_score": 3.068284749984741,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8941256",
+        "text": "Trandolapril: an ACE inhibitor for treatment of hypertension.",
+        "doi": "",
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3626214861869812,
+        "score": 0.3626214861869812,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40083595",
-        "text": "Posttreatment pulse rate reduction and not baseline pulse rate as an indicator of blood pressure response to nebivolol: a subanalysis from the real-world BENEFIT-KOREA study. This subanalysis of BENEFIT-KOREA cohort assessed the impact of baseline pulse rate (PR) and posttreatment PR reduction on the blood pressure (BP)-lowering efficacy of nebivolol in patients with hypertension. South Korean patients with hypertension were enrolled in the BENEFIT-KOREA study; 3,011 patients received nebivolol as monothera",
-        "score": 0.43204572796821594,
-        "doi": "10.5646/ch.2025.31.e8",
-        "journal": "Clinical hypertension",
-        "year": "2024",
-        "rerank_score": 1.7368119955062866,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10668225",
+        "text": "Brazilian multicenter study on efficacy and tolerability of trandolapril in mild-to-moderate essential arterial hypertension. EMBATHE substudy with ambulatory blood pressure monitoring. A double-blind, placebo-controlled multicenter study involving 34 centers from different Brazilian regions was performed to evaluate the antihypertensive efficacy and tolerability of trandolapril, an angiotensin I converting enzyme inhibitor, in the treatment of mild-to-moderate systemic arterial hypertension. Of 262 patients enrolled in this study, 127 were treated with trandolapril 2 mg/day for 8 consecutive weeks, and the remaining 135 patients received placebo for the same period of time. Reduction in blood pressure (BP) and the occurrence of adverse events during this period were evaluated in both groups. Significantly reductions in both systolic and diastolic pressures were observed in patients treated with trandolapril when compared with those on placebo. Antihypertensive efficacy was achieved in 57.5% of the patients on trandolapril and in 42% of these normal values of BP were obtained. The efficacy of trandolapril was similar in all centers, regardless of the area of the country. In a subset of 30 patients who underwent ABPM, responders showed a significant hypotensive effect to trandolapril throughout the 24 hour day. The adverse event profile was similar in both trandolapril and placebo groups. Our results demonstrate, for the first time in a large group of hypertensive patients from different regions in Brazil, good efficacy and tolerability of trando-lapril during treatment of mild-to-moderate essential systemic hypertension.",
+        "doi": "10.1590/s0066-782x1999000500002",
+        "journal": "Arquivos brasileiros de cardiologia",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.37208032608032227,
+        "score": 0.37208032608032227,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:27367159",
-        "text": "Effect of spironolactone on patients with resistant hypertension and obstructive sleep apnea. To examine whether spironolactone could reduce the severity of obstructive sleep apnea (OSA) and lower blood pressure in patients with resistant hypertension.",
-        "score": 0.3646228313446045,
-        "doi": "10.3109/10641963.2015.1131290",
-        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "id": "PMID:27027381",
+        "text": "Predictors of blood pressure response to spironolactone.",
+        "doi": "10.1097/HJH.0000000000000897",
+        "journal": "Journal of hypertension",
         "year": "2016",
-        "rerank_score": 0.05123523622751236,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.35432198643684387,
+        "score": 0.35432198643684387,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:487270",
-        "text": "The effect of spironolactone on the arterial water, cation, and norepinephrine contents of control and 'one-kidney-one-clip' hypertensive dogs. Spironolactone at 10 mg per kilogram per day was given to control and 'one-kidney-one-clip' hypertensive dogs for 6--7 weeks. Compared with untreated animals the treated animals had a lower arterial water content, a higher arterial, myocardial, and skeletal muscle sodium content, and variable changes in tissue potassium concentrations.",
-        "score": 0.3639621138572693,
-        "doi": "10.1139/y79-096",
-        "journal": "Canadian journal of physiology and pharmacology",
-        "year": "1979",
-        "rerank_score": -0.45967593789100647,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31898989",
+        "text": "Renal safety outcomes of spironolactone in patients with resistant hypertension. Resistant hypertension (RH) is a significant health problem with complex management. The aim of this study was to evaluate the risks and benefits of adding spironolactone to treat RH. In total, 216 patients with RH in whom spironolactone (12.5-25mg daily) was added as an antihypertensive were evaluated. One-hundred and twenty-five (125) were analysed retrospectively and 91 prospectively. Blood pressure (BP) and laboratory parameters (serum creatinine [sCrea], estimated glomerular filtration rate [eGFR] and serum potassium [sK]) were analysed at baseline and at 3-6-12 months after introducing spironolactone. A change of systolic/diastolic BP (mean±standard deviation) of -10.9±2.7/-4.3±1.6mmHg at 3 months and -13.6±2.8/-6.0±1.6mmHg at 12 months; p<0.001 was observed. These values were confirmed with ambulatory-BP monitoring at 12 months. At 3 months, an increase in sCrea of 0.10±0.04mg/dl, a decrease in eGFR of -5.4±1.9ml/min/1.73m After 3 months with spironolactone, a decrease in BP associated with a decrease in the eGFR and an increase in sCrea and sK was observed. These changes were maintained at 12 months. Spironolactone is an effective and safe treatment for RH in patients with baseline eGFR ≥30ml/min/1.73m",
+        "doi": "10.1016/j.nefro.2019.10.004",
+        "journal": "Nefrologia",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.3599865734577179,
+        "score": 0.3599865734577179,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40919025",
-        "text": "Effect of spironolactone on cardiovascular and renal outcomes in patients with chronic kidney disease. Steroidal mineralocorticoid receptor antagonists (MRAs), including spironolactone, effectively treat resistant hypertension, reduce proteinuria and lower mortality in heart failure with reduced ejection fraction. However, their long-term effects in chronic kidney disease (CKD) remain unclear. This study investigated spironolactone's impact on end-stage renal disease (ESRD), major adverse cardiovascular eve",
-        "score": 0.4217117130756378,
-        "doi": "10.1093/ckj/sfaf247",
-        "journal": "Clinical kidney journal",
-        "year": "2025",
-        "rerank_score": -0.727386474609375,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21804623",
+        "text": "Addition of spironolactone in patients with resistant arterial hypertension (ASPIRANT)--study protocol. There is currently limited data on which drug should be used to improve blood pressure control in patients with resistant hypertension. Recent observational trials reported spironolactone as having good effects. This study is designed to assess the effect of the addition of 25 mg of spironolactone on blood pressure (BP) in patients with resistant arterial hypertension. Patients with office systolic BP > 140 mmHg or diastolic BP > 90 mmHg despite treatment with at least 3 antihypertensive drugs including a diuretic, are enrolled in this double-blind, placebo-controlled, multicentre trial. Patients are randomly assigned to receive spironolactone or a placebo at a ratio of 1:1 by the method of simple randomisation. Our primary endpoints are to show a statistically significant difference in the fall of mean day-time systolic and diastolic BP by ambulatory blood pressure monitoring (ABPM), between the spironolactone and placebo groups, after 8 weeks of treatment. Secondary outcomes are changes of serum potassium, natrium, creatinine, body weight, casual blood pressure in office, difference in the fall of mean night-time and 24-hour ABPM BP and treatment response depending on different baseline levels of aldosterone and aldosterone/PRA ratio. If spironolactone proves effective, it might become the standard of treatment in patients with resistant arterial hypertension.",
+        "doi": "10.5507/bp.155.2011.004",
+        "journal": "Biomedical papers of the Medical Faculty of the University Palacky, Olomouc, Cze",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.3708757162094116,
+        "score": 0.3708757162094116,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

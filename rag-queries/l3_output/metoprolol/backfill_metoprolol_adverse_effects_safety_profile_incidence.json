@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41044440",
-        "text": "Real-world safety profile of bisoprolol: signal detection and demographic stratification using the FAERS database. Bisoprolol, a selective β₁-blocker, is widely prescribed for cardiovascular disease. Real-world pharmacovigilance can clarify adverse drug reactions (ADRs) across demographic strata and identify signals not fully characterized in trials. We analyzed bisoprolol-associated reports in the FDA Adverse Event Reporting System. Disproportionality was assessed using complementary algorithms-reporting o",
-        "score": 0.4268124997615814,
-        "doi": "10.1007/s00210-025-04650-6",
-        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-        "year": "2025",
-        "rerank_score": 4.0507307052612305,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:39900827",
-        "text": "Effect of metoprolol exposure following myocardial infarction on future cardiovascular events: a Mendelian randomization study. The clinical benefit of up-titration of metoprolol to a guideline-recommended target dose after myocardial infarction (MI) is unknown. Our aim was to investigate whether variation in metoprolol exposure determined by cytochrome p450 enzyme 2D6 (CYP2D6) influences the occurrence of major adverse cardiovascular events (MACE) and cardiovascular death (CV death) among patients treated ",
-        "score": 0.4289703965187073,
-        "doi": "10.1007/s00228-025-03806-w",
-        "journal": "European journal of clinical pharmacology",
+        "id": "PMID:39716844",
+        "text": "Metoprolol adverse events and literature analyses: case/non-case analyses using the FDA Adverse Event Reporting System (FAERS). In recent years, β-blockers such as metoprolol have been upgraded to first-line antihypertensive drugs. However, metoprolol demonstrates poor prognosis effects on diseases such as stroke. Further clinical application may expand the possibility of its related adverse reactions. Currently, there is a lack of comprehensive research on the overall safety of metoprolol. Statistical analysis and signal mining were conducted on adverse event reports related to metoprolol obtained from the FAERS database. Signal mining was conducted using the proportional reporting ratio, the report margin method, the bayesian confidence propagation neural network, and empirical Bayesian geometric mean in the measures of disproportionality to detect potential adverse reaction signals. The results showed 16,853 reports related to metoprolol use, identifying 506 preferred terms (PTs) covering 23 system organ classes (SOCs). In addition, some new potential adverse reactions appeared among the top 30 PTs ranked by signal strength, such as 'orthostatic intolerance' (IC025 = 3.00), 'trigemino-cardiac reflex' (IC025 = 4.30), 'decorticate posture' (IC025 = 3.34), etc. Notably, there was a strong association between 'suspected suicide' (IC025 = 5.59) and the drug signal. This study identified unexpected signals of serious adverse reactions, suggesting the importance of continuous post-marketing surveillance of metoprolol to understand its potential risks.",
+        "doi": "10.1080/14740338.2024.2446420",
+        "journal": "Expert opinion on drug safety",
         "year": "2024",
-        "rerank_score": 3.3833682537078857,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4250631630420685,
+        "score": 0.4250631630420685,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41072527",
-        "text": "INCIDENCE OF ADVERSE EVENTS RESULTING FROM BETA-BLOCKER TITRATION IN PATIENTS WITH HEART FAILURE. Beta blockers are an essential part of the treatment and management of heart failure. Unfortunately, due to adverse events, it is not possible to titrate the medication to the recommended dose in all patients according to the guidelines. The role of adverse events in the treatment of bisoprolol, carvedilol, and metoprolol in the Georgian population when titration is not possible was studied. A study was conduct",
-        "score": 0.4388895034790039,
+        "id": "PMID:27268029",
+        "text": "Adverse effects and tolerability of β blockers.",
+        "doi": "10.1136/bmj.i3142",
+        "journal": "BMJ (Clinical research ed.)",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.4339441657066345,
+        "score": 0.4339441657066345,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:12229900",
+        "text": "Beta-blocker side effects: no big deal?",
         "doi": "",
-        "journal": "Georgian medical news",
-        "year": "2025",
-        "rerank_score": 2.616413116455078,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "Health news (Waltham, Mass.)",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.44550850987434387,
+        "score": 0.44550850987434387,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

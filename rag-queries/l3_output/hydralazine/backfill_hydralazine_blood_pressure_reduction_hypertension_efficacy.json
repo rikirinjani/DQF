@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41238241",
-        "text": "Reducing the Nonindicated Use of IV Hydralazine in the Inpatient Setting. Elevated blood pressure (BP) affects up to 72% of hospitalized patients. Intravenous (IV) antihypertensives are indicated for hypertensive emergencies, but they are often given for asymptomatic BP elevations, leading to hypotension, acute kidney injury, and intensive care unit transfers without improving outcomes. At UConn John Dempsey Hospital, 69% of IV hydralazine use between June 2023 and January 2024 lacked appropriate indication",
-        "score": 0.4097198247909546,
-        "doi": "10.1016/j.jaccas.2025.105712",
-        "journal": "JACC. Case reports",
-        "year": "2025",
-        "rerank_score": 4.727985382080078,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:26490128",
+        "text": "Helping Hospitalized Patients with Hypertension: The Case for Hydralazine.",
+        "doi": "10.1016/j.jpeds.2015.09.071",
+        "journal": "The Journal of pediatrics",
+        "year": "2015",
+        "corpus": "main",
+        "distance": 0.3539550006389618,
+        "score": 0.3539550006389618,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39026999",
-        "text": "Efficacy and safety of azilsartan medoxomil in the treatment of hypertension: a systematic review and meta-analysis. Angiotensin II receptor blockers (ARBs) are utilized for the management of hypertension and diabetes. Previous meta-analyses suggested that azilsartan medoxomil (AZL-M) improved blood pressure (BP) reduction, but there were no safety findings or suggestions for patients with hypertension or diabetes. We performed an efficacy and safety meta-analysis of randomized controlled trials (RCTs) eval",
-        "score": 0.4679683744907379,
-        "doi": "10.3389/fcvm.2024.1383217",
-        "journal": "Frontiers in cardiovascular medicine",
-        "year": "2024",
-        "rerank_score": 4.373718738555908,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7833330",
+        "text": "Hydralazine boluses for the treatment of severe hypertension in pre-eclampsia.",
+        "doi": "10.1111/j.1471-0528.1995.tb09050.x",
+        "journal": "British journal of obstetrics and gynaecology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3785833418369293,
+        "score": 0.3785833418369293,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40700120",
-        "text": "Efficacy and Safety of Nifedipine Compared to Intravenous Hydralazine for Severe Hypertensive Disorders in Pregnancy: A Systematic Review and Meta-Analysis of Randmomized Controlled Trials.",
-        "score": 0.45787161588668823,
-        "doi": "10.3390/medsci13030091",
-        "journal": "Medical sciences (Basel, Switzerland)",
-        "year": "2025",
-        "rerank_score": 2.679513692855835,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7647069",
+        "text": "Hydralazine boluses for the treatment of severe hypertension in pre-eclampsia.",
+        "doi": "10.1111/j.1471-0528.1995.tb11377.x",
+        "journal": "British journal of obstetrics and gynaecology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3785833418369293,
+        "score": 0.3785833418369293,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41042258",
-        "text": "A double-blind, randomized, placebo-controlled trial of doxazosin for posttraumatic distressing dreams and sleep disturbance in men and women with posttraumatic stress. Distressing dreams and sleep disturbance more broadly are core features of posttraumatic stress disorder. Effective treatments remain elusive. Doxazosin is an alpha-1 adrenergic blocker with demonstrated promise for posttraumatic stress disorder, but there is a dearth of evidence from randomized controlled trials. The current randomized, dou",
-        "score": 0.39386147260665894,
-        "doi": "10.5664/jcsm.11908",
-        "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American",
-        "year": "2026",
-        "rerank_score": 2.435774087905884,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:40984657",
-        "text": "Efficacy and Safety of Lisdexamfetamine Versus Topiramate Versus Naltrexone/Bupropion in Individuals With Binge Eating Disorder: A Network Meta-Analysis. To compare the efficacy and safety of lisdexamfetamine, topiramate, and naltrexone/bupropion for treating binge eating disorder (BED) using network meta-analysis. We systematically searched PubMed, Scopus, ClinicalTrials.gov, and Cochrane Central up to February 2025 for randomized controlled trials evaluating these medications versus placebo in adults with",
-        "score": 0.3939448297023773,
-        "doi": "10.1002/erv.70035",
-        "journal": "European eating disorders review : the journal of the Eating Disorders Associati",
+        "id": "PMID:41471314",
+        "text": "A Systematic Review and Meta-Analysis of Doxazosin Pharmacokinetics in Healthy and Diseased Populations.",
+        "doi": "10.3390/ph18121825",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
         "year": "2025",
-        "rerank_score": 2.337481737136841,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.362418532371521,
+        "score": 0.362418532371521,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:2884855",
-        "text": "An open one-year comparison of doxazosin and prazosin for mild to moderate essential hypertension. The long-term safety, efficacy and effect on serum lipid profile of doxazosin, a new alpha 1-adrenoceptor inhibitor administered once daily, were compared with those of prazosin, administered twice daily, in 104 patients with essential hypertension treated for 1 year. Doxazosin produced clinically significant decreases in standing and supine blood pressures over a period of 1 year. These decreases were similar",
-        "score": 0.38931238651275635,
-        "doi": "10.1016/0002-9149(87)90160-3",
-        "journal": "The American journal of cardiology",
-        "year": "1987",
-        "rerank_score": 1.8875913619995117,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22903123",
+        "text": "Levosimendan, meta-analysis, and the Levosimendan Infusion versus Dobutamine study: surely some mistake?",
+        "doi": "10.1097/CCM.0b013e31825bc7fd",
+        "journal": "Critical care medicine",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.3941638171672821,
+        "score": 0.3941638171672821,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:12037690",
+        "text": "Doxazosin, an inferior antihypertensive agent?",
+        "doi": "10.1038/sj.jhh.1001313",
+        "journal": "Journal of human hypertension",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.4029213786125183,
+        "score": 0.4029213786125183,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

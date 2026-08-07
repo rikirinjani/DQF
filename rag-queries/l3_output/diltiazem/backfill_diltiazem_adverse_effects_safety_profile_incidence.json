@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39317559",
-        "text": "Safety and efficacy of a hybrid intravenous and oral diltiazem protocol for acute rate control in the emergency department.",
-        "score": 0.41149789094924927,
-        "doi": "10.1016/j.ajem.2024.09.047",
-        "journal": "The American journal of emergency medicine",
-        "year": "2024",
-        "rerank_score": -0.268072247505188,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15096363",
+        "text": "Potentially fatal interaction between diltiazem and statins.",
+        "doi": "10.7326/0003-4819-140-8-200404200-00037-",
+        "journal": "Annals of internal medicine",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.43529942631721497,
+        "score": 0.43529942631721497,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39645457",
-        "text": "Reader comment regarding: Comparative safety and efficacy of a hybrid intravenous and oral diltiazem protocol for acute rate control in the emergency department.",
-        "score": 0.4175456166267395,
-        "doi": "10.1016/j.ajem.2024.11.095",
-        "journal": "The American journal of emergency medicine",
-        "year": "2024",
-        "rerank_score": -0.6601269841194153,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9486675",
+        "text": "The spectrum of cutaneous reactions associated with diltiazem: three cases and a review of the literature. Cutaneous reactions ranging from exanthems to severe adverse events have been reported in association with calcium channel blockers. Our purpose was to document cutaneous eruptions resulting from use of diltiazem. We describe three patients who experienced a cutaneous reaction (i.e., hypersensitivity syndrome reaction, pruritic exanthematous eruption, and acute generalized exanthematous pustulosis) possibly induced by diltiazem, summarize adverse reaction reports obtained from the Health Protection Branch, and review the literature on calcium channel blockers inducing cutaneous reactions. Of the 315 cases of possible diltiazem-induced adverse reactions that were reported to the Health Protection Branch, 151 (48%) were cutaneous. The number of diltiazem-induced cutaneous events was significantly greater than those induced by either nifedipine or verapamil. However, no difference was found in the proportion of serious cutaneous adverse events to either of the three drugs. Diltiazem has been associated with a variety of cutaneous reactions that appear to occur more frequently than with other calcium channel blockers.",
+        "doi": "10.1016/s0190-9622(98)70241-5",
+        "journal": "Journal of the American Academy of Dermatology",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.44374880194664,
+        "score": 0.44374880194664,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38925331",
-        "text": "Diltiazem, direct oral anticoagulants, and risk of major bleeding in patients with atrial fibrillation.",
-        "score": 0.40310466289520264,
-        "doi": "10.1016/j.hrthm.2024.06.040",
-        "journal": "Heart rhythm",
-        "year": "2024",
-        "rerank_score": -0.7565261125564575,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12555384",
+        "text": "[Effect of diltiazem on lipid profiles and heart rate in hypertensive patients]. Diltiazem is an antihypertensive belonging to the class of heart rate-slowing calcium channel blockers; its antihypertensive efficacy has been demonstrated for a long time. Controlled trials have also demonstrated that it does not interfere with lipid parameters. This open multicentre trial was designed to verify the absence of any action of diltiazem on lipid parameters as well as its effect on the heart rate of hypertensive patients. The patients included had to take one capsule of diltiazem 300 mg sustained release formulation, developed by Laboratoires Synthélabo, in the morning for 6 months. A lipid assessment and an electrocardiogram were performed before and at the end of the trial. One hundred and forty-six patients were included: 81 underwent a complete lipid assessment (7 parameters) before and after treatment and 69 underwent an electrocardiogram at rest to the same study times. Total cholesterol (p = 0.0007), LDL cholesterol (p = 0.005) and apoprotein A1 (p = 0.0002) were significantly decreased. Blood pressure decreased progressively throughout the study and was \"controlled\" (supine diastolic blood pressure < or = 90 mmHg) after six months of treatment in 77% of patients. Heart rate decreased significantly at the end of the study; no pathological variation of PR, QRS and Qt intervals was observed. The effect on heart rate, also studied in patient subgroups defined by their baseline values, was more marked when the baseline heart rate was increased. The investigators considered the safety to be good at each visit, in 80% of cases. Sixteen patients dropped out of the trial because of adverse effects or intercurrent disease. The adverse effects most frequently reported were oedema of the lower limbs (7.5%), headache (4.8%) and hot flushes (2.7%). No harmful effect of diltiazem on lipid parameters was observed during this open trial; some lipid parameters even decreased at the end of treatment. Clinically, diltiazem lowered blood pressure and decreased heart rate. The reduction of heart rate was more marked in the case of high baseline heart rate. Safety was satisfactory.",
+        "doi": "",
+        "journal": "Annales de cardiologie et d'angeiologie",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.4555230736732483,
+        "score": 0.4555230736732483,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }
