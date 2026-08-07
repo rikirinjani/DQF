@@ -1,0 +1,56 @@
+{
+  "pipeline": "DQF L3 evidence backfill ALL (88 drugs, 9 classes)",
+  "generated": "2026-08-07T08:23:44",
+  "rag_endpoint": "s3://pubmed-rag-lancedb/lancedb",
+  "source": "lancedb",
+  "classes": [
+    "Antihypertensive",
+    "Diabetes",
+    "NSAID",
+    "Statin",
+    "PPI",
+    "H2RA",
+    "Antacid",
+    "Alginate",
+    "Mucosal Protectant"
+  ],
+  "drugs": {
+    "terazosin": {
+      "class": "Antihypertensive",
+      "name": "Terazosin",
+      "files_written": [
+        "backfill_terazosin_mechanism_of_action_efficacy_clinical_trial.json",
+        "backfill_terazosin_blood_pressure_reduction_hypertension_efficacy.json",
+        "backfill_terazosin_number_needed_to_treat_nnt_outcome.json",
+        "backfill_terazosin_adverse_effects_safety_profile_incidence.json",
+        "backfill_terazosin_randomized_controlled_trial_efficacy_outcome_quant.json",
+        "backfill_terazosin_effect_size_confidence_interval_blood_pressure_cha.json",
+        "backfill_terazosin_comparative_effectiveness_versus_placebo_meta_anal.json",
+        "backfill_terazosin_time_to_onset_pharmacokinetics_peak_effect.json"
+      ],
+      "rag_ok": 8,
+      "still_loading_failed": 0,
+      "timeout_failed": 0,
+      "other_errors": 0,
+      "eutils_run": false,
+      "eutils_file": null,
+      "files_skipped_existing": 0,
+      "skipped_already_covered": false
+    }
+  },
+  "totals": {
+    "drugs_total": 1,
+    "rag_queries_issued": 8,
+    "rag_ok": 8,
+    "still_loading_failed": 0,
+    "timeout_failed": 0,
+    "other_errors": 0,
+    "eutils_runs": 0,
+    "files_written": 8,
+    "files_refreshed": 8,
+    "files_skipped_existing": 0,
+    "drugs_already_covered": 0
+  },
+  "endpoint_errors": [],
+  "overwrites": "refresh mode: existing backfill_* files overwritten in place"
+}

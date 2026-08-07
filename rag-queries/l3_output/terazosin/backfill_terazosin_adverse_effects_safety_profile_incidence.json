@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40667509",
-        "text": "A retrospective observational study on case reports of adverse drug reactions (ADRs) to tirzepatide. With the increasing clinical use of tirzepatide, its safety profile has garnered significant attention. This article systematically reviews case reports of tirzepatide-associated adverse drug reactions (ADRs) to summarize their characteristics. We searched PubMed, Web of Science, ScienceDirect, Wiley Online, and Embase databases for case reports on tirzepatide adverse events using the keywords: \"tirzepatide\"",
-        "score": 0.4166627526283264,
-        "doi": "10.3389/fphar.2025.1608657",
-        "journal": "Frontiers in pharmacology",
-        "year": "2025",
-        "rerank_score": -1.703240156173706,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12605736",
+        "text": "[Hepatotoxicity induced by terazosin].",
+        "doi": "10.1016/s0025-7753(03)73619-7",
+        "journal": "Medicina clinica",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3954769968986511,
+        "score": 0.3954769968986511,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:30981104",
-        "text": "Midazolam: Safety of use in palliative care: A systematic critical review. The undesired effects of midazolam can be life-threatening. This paper delineates the findings related to the pharmacokinetics, adverse effects and drug-drug interactions as well as associated therapeutic implications for safe midazolam use.",
-        "score": 0.4114163815975189,
-        "doi": "10.1016/j.biopha.2019.108838",
-        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
-        "year": "2019",
-        "rerank_score": -2.120654344558716,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18082813",
+        "text": "Acute intoxication with terazosin.",
+        "doi": "10.1016/j.ajem.2007.08.002",
+        "journal": "The American journal of emergency medicine",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.42960602045059204,
+        "score": 0.42960602045059204,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38407147",
-        "text": "Safety Profile of Selective Serotonin Reuptake Inhibitors in Real-World Settings: A Pharmacovigilance Study Based on FDA Adverse Event Reporting System. Selective serotonin reuptake inhibitors (SSRIs) are the most frequently prescribed agents to treat depression. Considering the growth in antidepressant prescription rates, SSRI-induced adverse events (AEs) need to be comprehensively clarified. This study was to investigate safety profiles and potential AEs associated with SSRIs using the Food and Drug Admin",
-        "score": 0.4178568124771118,
-        "doi": "10.1177/10600280241231116",
-        "journal": "The Annals of pharmacotherapy",
-        "year": "2024",
-        "rerank_score": -3.2087786197662354,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10737482",
+        "text": "The mechanism of adverse events associated with terazosin: an analysis of the Veterans Affairs cooperative study. We determined the mechanism of adverse events associated with alpha1-blockers for treating benign prostatic hyperplasia (BPH). We randomized 1,229 men with clinical BPH at 31 Veterans Affairs medical centers into equal treatment groups, including those who received placebo, terazosin, finasteride, and combined terazosin and finasteride therapy, respectively. Adverse events were captured at all study visits during our 1-year study. Our current review of adverse events is limited to patients randomized to the placebo and terazosin groups. We compared the incidence of orthostatic blood pressure change, postural symptoms and orthostatic hypotension in men who were normotensive and hypertensive at baseline, respectively. We also determined the association of changes in systolic blood pressure with the incidence of treatment related adverse events. The treatment related rates of dizziness, asthenia, postural hypotension and syncope were 19%, 6%, 6% and 1%, respectively. Of these adverse events only postural hypotension was associated with orthostatic blood pressure changes. The incidence of asthenia, dizziness and postural hypotension was not significantly greater in patients with a systolic blood pressure decrease of 5 or greater and less than 5 mm. Hg, respectively. Dizziness and asthenia are not associated with changes in blood pressure, suggesting that these treatment related adverse events associated with alpha1-blockers are not related to vascular events. Designing a subtype selective alpha1 antagonist that has less effect on blood pressure may not result in marked improvement in tolerability over commercially available alpha1-blockers.",
+        "doi": "",
+        "journal": "The Journal of urology",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.43175041675567627,
+        "score": 0.43175041675567627,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

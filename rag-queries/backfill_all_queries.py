@@ -99,6 +99,15 @@ RAG_TIMEOUT = 30         # per-call timeout; timeout == failed
 RETRY_MAX = 2            # extra attempts after initial (Still loading)
 RETRY_BACKOFF_S = 5.0
 
+# Direct LanceDB path (bypasses the HF Space, which is paused indefinitely).
+# See rag-queries/README.md + MemPalace drawer_projects_pubmed-rag-db_6861a4e8
+# for the query recipe. Requires live `aws login` session creds exported as
+# AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / AWS_SESSION_TOKEN.
+LANCEDB_URI = "s3://pubmed-rag-lancedb/lancedb"
+LANCEDB_REGION = "ap-southeast-1"
+LANCEDB_TABLE = "embeddings"
+LANCEDB_MODEL = "BAAI/bge-base-en-v1.5"
+
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 NCBI_EMAIL = "dqf-pipeline@example.com"
 NCBI_TOOL = "DQFL3BackfillAll"
@@ -277,6 +286,67 @@ def fetch_rag(query: str) -> tuple[dict, str]:
             return data, "still_loading" if "Still loading" in err else "error_response"
         return data, "ok"
     return {"_error": "retries exhausted"}, "still_loading"
+
+
+# ---------------------------------------------------------------------------
+# Direct LanceDB vector search (replaces the paused HF Space endpoint)
+# ---------------------------------------------------------------------------
+def fetch_lancedb(query: str, top_k: int = RAG_TOP_K) -> tuple[dict, str]:
+    """Vector-search the LanceDB abstracts table directly.
+
+    Bypasses the HF Space entirely (it is paused). Requires live AWS session
+    creds in the environment (AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY /
+    AWS_SESSION_TOKEN) minted by `aws configure export-credentials --format
+    env` within the current `aws login` session window.
+
+    Returns (data, outcome); outcome in {"ok", "import_error",
+    "connect_error", "embed_error", "search_error"}. `_distance` from LanceDB
+    is cosine-ish distance (lower = better); it is stored raw as `distance`
+    and mirrored as `score`/`rerank_score` (higher = better) so downstream
+    consumers that expect the RAG endpoint shape keep working.
+    """
+    try:
+        import lancedb
+        from sentence_transformers import SentenceTransformer
+    except ImportError as e:
+        return {"_error": f"lancedb / sentence-transformers not installed: {e}"}, "import_error"
+
+    try:
+        db = lancedb.connect(LANCEDB_URI, storage_options={"region": LANCEDB_REGION})
+        table = db.open_table(LANCEDB_TABLE)
+    except Exception as e:
+        return {"_error": f"lancedb connect/open failed: {e}"}, "connect_error"
+
+    try:
+        model = SentenceTransformer(LANCEDB_MODEL)
+        q_emb = model.encode(query, normalize_embeddings=True)
+    except Exception as e:
+        return {"_error": f"embedding failed: {e}"}, "embed_error"
+
+    try:
+        rows = table.search(q_emb).limit(top_k).to_list()
+    except Exception as e:
+        return {"_error": f"vector search failed: {e}"}, "search_error"
+
+    results = []
+    for i, r in enumerate(rows):
+        pmid = str(r.get("id") or "").replace("pmid_", "").strip()
+        dist = float(r.get("_distance", 0.0))
+        # Mirror RAG-endpoint shape; rank-order rerank_score (higher=better)
+        # so consumers that don't understand _distance still order correctly.
+        results.append({
+            "id": f"PMID:{pmid}",
+            "text": r.get("text") or "",
+            "doi": r.get("doi") or "",
+            "journal": r.get("journal") or "",
+            "year": r.get("year") or "",
+            "corpus": r.get("corpus") or "",
+            "distance": dist,
+            "score": dist,
+            "rerank_score": 1.0 if i == 0 else max(0.5, 1.0 - 0.05 * i),
+        })
+    return {"results": results, "source": "LanceDB direct vector search",
+            "endpoint": LANCEDB_URI}, "ok"
 
 
 # ---------------------------------------------------------------------------
@@ -521,6 +591,10 @@ def main() -> int:
     parser.add_argument("--drug", help="Run a single drug id only")
     parser.add_argument("--rag-only", action="store_true",
                         help="Skip Angle C (EUtils) even if RAG < 6/8 OK")
+    parser.add_argument("--source", choices=["rag", "lancedb"], default="rag",
+                        help="Evidence backend: 'rag' = HF Space endpoint (default); "
+                             "'lancedb' = direct LanceDB vector search (bypasses the "
+                             "paused Space; needs live AWS session creds in env)")
     parser.add_argument("--eutils-only", metavar="DRUG",
                         help="Run only the Angle C EUtils query for a drug")
     args = parser.parse_args()
@@ -548,7 +622,8 @@ def main() -> int:
     summary = {
         "pipeline": "DQF L3 evidence backfill ALL (88 drugs, 9 classes)",
         "generated": time.strftime("%Y-%m-%dT%H:%M:%S"),
-        "rag_endpoint": RAG_ENDPOINT,
+        "rag_endpoint": RAG_ENDPOINT if args.source == "rag" else LANCEDB_URI,
+        "source": args.source,
         "classes": classes,
         "drugs": {},
     }
@@ -609,7 +684,8 @@ def main() -> int:
                     print(f"  [SKIP] {fname} exists", flush=True)
                     continue
 
-                data, outcome = fetch_rag(spec["query"])
+                data, outcome = (fetch_lancedb(spec["query"]) if args.source == "lancedb"
+                                 else fetch_rag(spec["query"]))
                 path = save_raw(drug_id, spec, data, overwrite=args.refresh)
                 ds["files_written"].append(path.name)
                 totals["files_written"] += 1
