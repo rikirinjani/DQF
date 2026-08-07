@@ -101,12 +101,20 @@ RETRY_BACKOFF_S = 5.0
 
 # Direct LanceDB path (bypasses the HF Space, which is paused indefinitely).
 # See rag-queries/README.md + MemPalace drawer_projects_pubmed-rag-db_6861a4e8
-# for the query recipe. Requires live `aws login` session creds exported as
-# AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / AWS_SESSION_TOKEN.
+# for the query recipe. Requires AWS creds in the environment
+# (AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY; no session token needed when
+# using the permanent IAM key for user pubmed-rag-bot, scoped to
+# s3:GetObject/ListBucket on pubmed-rag-lancedb).
 LANCEDB_URI = "s3://pubmed-rag-lancedb/lancedb"
 LANCEDB_REGION = "ap-southeast-1"
 LANCEDB_TABLE = "embeddings"
 LANCEDB_MODEL = "BAAI/bge-base-en-v1.5"
+
+# Lazy singletons: the embed model and LanceDB table handle are expensive to
+# load (model ~10-30s, table open does S3 index reads). Load once per process
+# and reuse across all 704 queries instead of re-loading per query.
+_LANCEDB_CACHE = {"lancedb": None, "SentenceTransformer": None,
+                  "table": None, "model": None}
 
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 NCBI_EMAIL = "dqf-pipeline@example.com"
@@ -294,10 +302,14 @@ def fetch_rag(query: str) -> tuple[dict, str]:
 def fetch_lancedb(query: str, top_k: int = RAG_TOP_K) -> tuple[dict, str]:
     """Vector-search the LanceDB abstracts table directly.
 
-    Bypasses the HF Space entirely (it is paused). Requires live AWS session
-    creds in the environment (AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY /
-    AWS_SESSION_TOKEN) minted by `aws configure export-credentials --format
-    env` within the current `aws login` session window.
+    Bypasses the HF Space entirely (it is paused). Requires AWS creds in the
+    environment (AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY); the permanent IAM
+    key (user pubmed-rag-bot, read-only on pubmed-rag-lancedb) needs no
+    session token.
+
+    The embedding model and table handle are cached as process-wide lazy
+    singletons (_LANCEDB_CACHE) — loading them per query is ~10-60s of waste
+    each and made a single drug exceed timeout on the full run.
 
     Returns (data, outcome); outcome in {"ok", "import_error",
     "connect_error", "embed_error", "search_error"}. `_distance` from LanceDB
@@ -306,19 +318,30 @@ def fetch_lancedb(query: str, top_k: int = RAG_TOP_K) -> tuple[dict, str]:
     consumers that expect the RAG endpoint shape keep working.
     """
     try:
-        import lancedb
-        from sentence_transformers import SentenceTransformer
+        if _LANCEDB_CACHE["lancedb"] is None:
+            import lancedb
+            from sentence_transformers import SentenceTransformer
+            _LANCEDB_CACHE["lancedb"] = lancedb
+            _LANCEDB_CACHE["SentenceTransformer"] = SentenceTransformer
+        else:
+            lancedb = _LANCEDB_CACHE["lancedb"]
+            SentenceTransformer = _LANCEDB_CACHE["SentenceTransformer"]
     except ImportError as e:
         return {"_error": f"lancedb / sentence-transformers not installed: {e}"}, "import_error"
 
     try:
-        db = lancedb.connect(LANCEDB_URI, storage_options={"region": LANCEDB_REGION})
-        table = db.open_table(LANCEDB_TABLE)
+        if _LANCEDB_CACHE["table"] is None:
+            db = lancedb.connect(LANCEDB_URI,
+                                 storage_options={"region": LANCEDB_REGION})
+            _LANCEDB_CACHE["table"] = db.open_table(LANCEDB_TABLE)
+        table = _LANCEDB_CACHE["table"]
     except Exception as e:
         return {"_error": f"lancedb connect/open failed: {e}"}, "connect_error"
 
     try:
-        model = SentenceTransformer(LANCEDB_MODEL)
+        if _LANCEDB_CACHE["model"] is None:
+            _LANCEDB_CACHE["model"] = SentenceTransformer(LANCEDB_MODEL)
+        model = _LANCEDB_CACHE["model"]
         q_emb = model.encode(query, normalize_embeddings=True)
     except Exception as e:
         return {"_error": f"embedding failed: {e}"}, "embed_error"

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:10940749",
-        "text": "Amlodipine besylate induced acute interstitial nephritis. Adverse effects of amlodipine besylate, a widely used antihypertensive medication, include peripheral edema, flushing, headache, pruritus, and rash. An adverse renal effect attributable to the medication has hitherto not been reported in the literature. We herein report a case of amlodipine besylate induced acute interstitial nephritis.",
-        "score": 0.39942440390586853,
-        "doi": "10.1159/000045688",
-        "journal": "Nephron",
-        "year": "2000",
-        "rerank_score": 5.0635986328125,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
         "id": "PMID:40395720",
-        "text": "Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. Amlodipine, a widely prescribed clinical medication, is associated with adverse reactions that can impede the proper execution of treatment regimens. The lack of systematic studies on amlodipine's adverse drug reactions (ADRs) necessitates further investigation to facilitate refined population management and optimize therapeutic outcomes. This study leveraged the FDA Adverse Event Reporting Sys",
-        "score": 0.4011014401912689,
+        "text": "Adverse events associated with amlodipine: a pharmacovigilance study using the FDA adverse event reporting system. Amlodipine, a widely prescribed clinical medication, is associated with adverse reactions that can impede the proper execution of treatment regimens. The lack of systematic studies on amlodipine's adverse drug reactions (ADRs) necessitates further investigation to facilitate refined population management and optimize therapeutic outcomes. This study leveraged the FDA Adverse Event Reporting System (FAERS) database, extracting reports submitted exclusively by healthcare professionals where amlodipine was designated as the primary suspect (PS). Four risk signal detection methods were employed: Ratio of Odds Ratio, Proportional Reporting Ratio, Bayesian Confidence Propagation Neural Network, and Empirical Bayes Geometric Mean, to conduct a comprehensive analysis of amlodipine-related ADRs. Furthermore, subgroup analyses stratified by gender and age were performed, with multivariable logistic regression utilized to validate the reliability of the findings. Across the general population, male cohort, female cohort, elderly group, and younger demographic, the four signal detection methods collectively identified 513, 348, 403, 246, and 260 potential ADRs associated with amlodipine, respectively. Intersection analysis revealed 27 common ADRs, including gingival hypertrophy, vasoplegia syndrome, and distributive shock. Subsequent multivariable logistic regression confirmed amlodipine's role as an independent risk factor for all 27 ADRs (OR > 1,  This study provides compelling evidence that amlodipine poses risks of peripheral edema, shock, and dyspnea, among others. Additionally, it identified previously unreported ADRs such as abnormal full blood count and personality disorder. These findings underscore the importance of exercising caution when prescribing amlodipine to high-risk individuals with a history of hyperkalemia, cardiac structural abnormalities, or airway obstruction.",
         "doi": "10.3389/fcvm.2025.1504671",
         "journal": "Frontiers in cardiovascular medicine",
         "year": "2024",
-        "rerank_score": 4.6265764236450195,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.39714252948760986,
+        "score": 0.39714252948760986,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:14758392",
-        "text": "Amlodipine associated hyperpigmentation. Amlodipine is a potent peripheral and coronary vasodilator with high selectivity for vascular smooth muscle, and is widely used in mild to moderate hypertension, chronic stable angina and vasospastic angina. Its most prevalent side effects are peripheral edema, flushing and headache. Cutaneous adverse reactions associated with amlodipine have been rarely reported. Herein, a male patient is described to develop oral mucosal and cutaneous hyperpigmentation one year aft",
-        "score": 0.40235453844070435,
+        "id": "PMID:20566256",
+        "text": "Amlodipine toxicity vs. exposure in children.",
+        "doi": "10.1016/j.jemermed.2009.08.071",
+        "journal": "The Journal of emergency medicine",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.41238150000572205,
+        "score": 0.41238150000572205,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:8834129",
+        "text": "-Efficacy and safety of using amlodipine in treatment of mild and moderate essential hypertension-. The present study aimed to assess the efficacy and tolerance of amlodipine (Norvasc-Pfizer) in the treatment of 152 patients with mild and moderate essential hypertension. This study was a multicenter and open trial and lasted 24 weeks. During 7 visits arterial blood pressure, heart rate, body weight and side effects of amlodipine were registered. The dosage of amlodipine was 5 to 10 mg/day. 59 patients received also other antihypertensive drugs in doses used before starting amlodipine treatment. 57 patients needed changes in amlodipine dosing from 5 to 10 mg/day. During the study no significant changes in body weight or heart rate were noticed. Mean arterial blood pressure dropped significantly from 123.9 +/- 0.6 at the beginning of the study to 102.3 +/- 0.8 mm Hg at the end of this study. During this study a total of 26 dropouts were noticed. The reasons of these dropouts were the following: side effects--6 patients, noncompliance--7 patients, insufficient hypotensive effect--7 patients, unknown reason--5 patients, hypertensive crisis--1 patient. The following side effects were observed ocdemata of the legs in 10.5%, headaches in 2% of patients. One patient complained of increased susceptibility to weather changes, 1 patient had nausea and dizziness and 1 had headaches, pains in the legs and chest and nausea. All these side effects were mild and transient. Results obtained in this trial suggest, that amlodipine is an efficient and well tolerated antihypertensive drug in patients with mild and moderate essential",
         "doi": "",
-        "journal": "Saudi medical journal",
-        "year": "2004",
-        "rerank_score": 4.204089164733887,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "Polskie Archiwum Medycyny Wewnetrznej",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.4173014461994171,
+        "score": 0.4173014461994171,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

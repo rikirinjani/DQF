@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39358448",
-        "text": "Phase III randomized clinical trial of efficacy and safety of amlodipine and candesartan cilexetil combination for hypertension treatment. Effective antihypertensive therapy is essential for achieving optimal blood pressure (BP) control and reducing cardiovascular events. This double-blind, multicenter, randomized trial aimed to compare the antihypertensive efficacy and safety of a combination of amlodipine (AML) and candesartan cilexetil (CC) versus AML monotherapy in patients with essential hypertension (",
-        "score": 0.37020567059516907,
-        "doi": "10.1038/s41598-024-74003-5",
-        "journal": "Scientific reports",
-        "year": "2024",
-        "rerank_score": 7.830483436584473,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17679647",
+        "text": "Amlodipine and stroke prevention.",
+        "doi": "10.1161/HYPERTENSIONAHA.107.096610",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3641596734523773,
+        "score": 0.3641596734523773,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39130528",
-        "text": "A Real-World Study on the Short-Term Efficacy of Amlodipine in Treating Hypertension Among Inpatients. Hospitalized hypertensive patients rely on blood pressure medication, yet there is limited research on the sole use of amlodipine, despite its proven efficacy in protecting target organs and reducing mortality. This study aims to identify key indicators influencing the efficacy of amlodipine, thereby enhancing treatment outcomes. In this multicenter retrospective study, 870 hospitalized patients with prima",
-        "score": 0.318626344203949,
-        "doi": "10.2147/POR.S464439",
-        "journal": "Pragmatic and observational research",
-        "year": "2024",
-        "rerank_score": 7.530600547790527,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30341872",
+        "text": "Amlodipine in the Era of New Generation Calcium Channel Blockers. Amlodipine is a classical drug with varied properties extending from control of blood pressure to as an antianginal and anti atherosclerotic agent. Amlodipine is a longer acting dihydropyridine calcium channel blocker, effective for 24 hours BP control and cause no BP variability. It is a powerful, well-tolerated, and safe antihypertensive agents that is widely used either alone or as a key component of combination therapy for hypertension. Its effective BP reduction has shown proven benefits in cardiovascular event reduction that is supported with strong evidences from large randomised controlled trials. Combination therapies of amlodipine with other agents eliciting renin-angiotensin-aldosterone system blockade (angiotensin II receptor blockers or renin inhibitors) have shown effective blood pressure-lowering strategies in CV risk reduction and progression of renal disease. Novel type of calcium channel blockers have been developed which have additional properties of blocking T and N subtypes of calcium channels and apart from their class effects they exerts specific action on heart rate and renin aldosterone system. They are considered to be more renoprotective due to this additional properties. Amlodipine is most potent and longer acting agent compared to the newer CCBs, its effectiveness in BP lowering still makes it the agent of choice among all the CCBs.",
+        "doi": "",
+        "journal": "The Journal of the Association of Physicians of India",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.36919522285461426,
+        "score": 0.36919522285461426,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38704294",
-        "text": "The Efficacy and Tolerability of Irbesartan/Amlodipine Combination Therapy in Patients With Essential Hypertension Whose Blood Pressure Were not Controlled by Irbesartan Monotherapy. This study aimed to evaluate the efficacy and tolerability of irbesartan (IRB) and amlodipine (AML) combination therapy in patients with essential hypertension whose blood pressure (BP) was not controlled by IRB monotherapy. Two multicenter, randomized, double-blind, placebo-controlled, phase III studies were conducted in Korea",
-        "score": 0.3438017964363098,
-        "doi": "10.1016/j.clinthera.2024.04.004",
-        "journal": "Clinical therapeutics",
-        "year": "2024",
-        "rerank_score": 7.226552963256836,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11574741",
+        "text": "Amlodipine: effective for treatment of mild to moderate essential hypertension and left ventricular hypertrophy. This was a 20-week, open-label, uncontrolled clinical investigation of the long-acting calcium antagonist amlodipine in 33 male or female patients with essential hypertension and left ventricular hypertrophy (LVH). A once-daily dose (5-10 mg/day) of amlodipine provided a consistent antihypertensive effect, reducing the sitting diastolic (-13.8% change) and systolic (-13.0% change) blood pressures by clinically meaningful and statistically significant (p = 0.0001, n = 33) amounts. Amlodipine had no effect on heart rate. A significant regression in LVH was seen (left ventricular mass index reduced from 169.0 [SD 30.7] g/m(2) to 140.6 [SD 19.6] g/m(2), p < 0.01, n = 12). There was also a significant reduction in total peripheral resistance and improvement in left ventricular diastolic filling (E/A ratio increased from 0.86 pre-treatment to 1.03 post-treatment, p = 0.038, n = 12). These results are consistent with other studies in showing that a relatively short treatment regimen with amlodipine is associated with a significant reduction in left ventricular mass index.",
+        "doi": "10.1159/000049096",
+        "journal": "Cardiology",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.36978062987327576,
+        "score": 0.36978062987327576,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }
