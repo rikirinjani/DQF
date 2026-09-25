@@ -741,6 +741,44 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
         profile["cns_penetration"] = _check_cns(findings)
         profile["off_targets"] = _extract_off_targets(findings, drug)
 
+    elif drug_class == "Antacid":
+        # Direct chemical neutralization of gastric HCl. Dimensions:
+        #   neutralization_capacity 1-3 (potency / pH-raising ability)
+        #   acid_rebound           1-3 (rebound hypersecretion after stopping)
+        #   renal_toxicity_risk    1-3 (Al/Mg accumulation in CKD)
+        #   duration_min           min of action, numeric (or None)
+        profile["neutralization_capacity"] = _score_risk(findings,
+            keywords=["neutraliz", "acid-neutralizing", "ph", "potency",
+                      "buffering", "antacid", "acid binding", "mEq"],
+            intensifiers=["potent", "high capacity", "most effective", "rapid",
+                          "immediate", "superior"],
+            mitigators=["weak", "low capacity", "minimal", "poor"],
+            default=2,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life",
+                         "bioavailability", "absorption"],
+            drug_name=drug_name)
+        profile["acid_rebound"] = _score_risk(findings,
+            keywords=["rebound", "hypergastrinemia", "acid hypersecretion",
+                      "gastrin", "acid secretion"],
+            intensifiers=["significant", "marked", "clinically relevant"],
+            default=1,
+            drug_name=drug_name)
+        profile["renal_toxicity_risk"] = _score_risk(findings,
+            keywords=["renal toxicity", "nephrotoxicity",
+                      "aluminum accumulation", "accumulation", "encephalopathy",
+                      "aluminum toxicity", "magnesium toxicity",
+                      "hypermagnesemia"],
+            intensifiers=["severe", "significant", "toxic", "life-threatening",
+                          "fatal"],
+            mitigators=["no accumulation", "well-tolerated", "safe",
+                        "minimal absorption", "not absorbed",
+                        "insignificant absorption"],
+            default=1,
+            adverse_context_terms=["toxicity", "encephalopathy", "accumulation",
+                                   "hypermagnesemia", "poisoning"],
+            drug_name=drug_name)
+        profile["duration_min"] = _extract_duration_min(findings, drug)
+
     pool_relevance_pct = round(100 * relevant_snippets / total_snippets, 1) if total_snippets else 0.0
     profile["_evidence"] = {
         "pmids": sorted(all_pmids),
@@ -1449,6 +1487,43 @@ def _check_cns(findings: list) -> bool:
     """Check for CNS penetration evidence."""
     all_text = " ".join(f["text"].lower() for f in findings)
     return "cns" in all_text or "central nervous" in all_text or "blood-brain" in all_text
+
+
+def _extract_duration_min(findings: list, drug: "dict" = None) -> "Optional[int]":
+    """Antacid duration of action in minutes.
+
+    Prefers the curated ``l2_pk``/``l3_systems`` duration already present on
+    the drug record (single source of truth: ``duration_h`` in hours) so the
+    derived minutes can never contradict the hand-curated value. Falls back to
+    text extraction only when no curated duration exists.
+
+    Text path matches only explicit duration-of-action phrasing ("sustained
+    relief for 120 min", "duration of action ... 30 minutes") so unrelated
+    "N hours" in the pool (PK half-lives, alloy studies) cannot be misread.
+    Returns None when no duration is stated -- never invented.
+    """
+    # 1. curated value wins (hours -> minutes)
+    for src in (drug or {}).get("l3_systems", {}), (drug or {}).get("l2_pk", {}):
+        h = (src or {}).get("duration_h")
+        if isinstance(h, (int, float)) and h > 0:
+            return int(round(h * 60))
+    # 2. evidence-based extraction
+    all_text = " ".join(f["text"].lower() for f in findings)
+    CUE = (r"(?:duration of action|duration|lasts?|lasting|persist\w*|"
+           r"effect\w*\s+(?:of|lasts?|for)|neutraliz\w*\s+for|for)")
+    m = re.search(
+        rf'{CUE}\s*(?:of\s*|:)?\s*(\d{{1,3}})\s*(?:-|to|\u2013)?\s*(\d{{1,3}})?\s*'
+        r'(?:minutes|min\b)', all_text)
+    if m:
+        vals = [int(g) for g in m.groups() if g]
+        return max(vals) if vals else None
+    m = re.search(
+        rf'{CUE}\s*(?:of\s*|:)?\s*(\d(?:\.\d)?)\s*(?:-|to|\u2013)?\s*(\d(?:\.\d)?)?\s*'
+        r'(?:hours|hour|hrs|hr\b)', all_text)
+    if m:
+        vals = [float(g) for g in m.groups() if g]
+        return int(round(max(vals) * 60)) if vals else None
+    return None
 
 
 def _check_heart_rate(findings: list, drug: dict = None) -> str:

@@ -1766,10 +1766,10 @@
         "aluminum_accumulation_ckd": true,
         "ddi_risk": 2,
         "note": "Fastest onset but no healing effect; bowel-balanced; Al accumulation risk in CKD",
-        "neutralization_capacity": 2,
-        "acid_rebound": 1,
-        "renal_toxicity_risk": 1,
-        "duration_min": 90,
+        "neutralization_capacity": null,
+        "acid_rebound": null,
+        "renal_toxicity_risk": null,
+        "duration_min": null,
         "_evidence": {
           "pmids": [
             "32110819"
@@ -1826,14 +1826,14 @@
         "duration_h": 1.2,
         "tolerance": false,
         "healing_ability": false,
-        "acid_rebound": 1,
+        "acid_rebound": true,
         "milk_alkali_risk": true,
         "chelation_ddi": true,
         "ddi_risk": 2,
         "note": "Unique among antacids â€” produces acid rebound (Ca-gastrin mediated) and milk-alkali syndrome risk",
-        "neutralization_capacity": 3,
-        "renal_toxicity_risk": 1,
-        "duration_min": 72,
+        "neutralization_capacity": null,
+        "renal_toxicity_risk": null,
+        "duration_min": null,
         "_evidence": {
           "pmids": [
             "12452946",
