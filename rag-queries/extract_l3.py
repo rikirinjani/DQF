@@ -600,12 +600,14 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             pk_contexts=["clearance", "pharmacokinetic", "half-life", "excretion", "elimination", "bioavailability"],
             drug_name=drug_name)
         profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp", "warfarin"], default=1,
+            negations=["limited", "few"],
             drug_name=drug_name)
 
     elif drug_class == "Statin":
         profile["myopathy_risk"] = _score_risk(findings, ["myopathy", "muscle", "rhabdomyolysis"], default=2,
             drug_name=drug_name)
         profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp3a4", "oatp"], default=1,
+            negations=["limited", "few"],
             drug_name=drug_name)
         profile["pleiotropic_effects"] = _extract_pleiotropic(findings)
 
@@ -621,6 +623,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             keywords=["drug interaction", "cyp", "clopidogrel"],
             intensifiers=["strong inhibitor", "major", "significant", "contraindicated"],
             mitigators=["weak", "minimal", "no interaction", "not metabolized"],
+            negations=["limited", "few"],
             default=2,
             drug_name=drug_name)
         profile["cdi_risk"] = _score_risk(findings,
@@ -690,6 +693,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             keywords=["drug interaction", "interaction", "NSAID", "diuretic", "ACE inhibitor", "ARB"],
             intensifiers=["contraindicated", "significant", "major", "caution"],
             mitigators=["no interaction", "safe", "well-tolerated", "minimal"],
+            negations=["limited", "few"],
             default=1,
             drug_name=drug_name)
         profile["heart_rate_effect"] = _check_heart_rate(findings, drug)
@@ -726,6 +730,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             keywords=["drug interaction", "interaction", "renal clearance", "tubular secretion", "contrast"],
             intensifiers=["significant", "contraindicated", "caution", "major"],
             mitigators=["no interaction", "no significant", "safe", "well-tolerated"],
+            negations=["limited", "few"],
             default=1,
             drug_name=drug_name)
         profile["hypoglycemia_risk"] = _score_risk(findings,
@@ -737,6 +742,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
 
     elif drug_class == "H2RA":
         profile["ddi_risk"] = _score_risk(findings, ["cyp", "drug interaction", "theophylline"], default=1,
+            negations=["limited", "few"],
             drug_name=drug_name)
         profile["tolerance"] = _check_tolerance(findings)
         profile["cns_penetration"] = _check_cns(findings)
@@ -811,6 +817,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             intensifiers=["significant", "contraindicated", "caution", "major",
                           "substantially reduced"],
             mitigators=["no interaction", "no effect", "no significant", "safe"],
+            negations=["limited", "few"],
             default=1,
             drug_name=drug_name)
 
@@ -856,6 +863,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             intensifiers=["significant", "contraindicated", "caution", "major",
                           "substantially reduced"],
             mitigators=["no interaction", "no effect", "no significant", "safe"],
+            negations=["limited", "few"],
             default=1,
             drug_name=drug_name)
 
@@ -1029,6 +1037,19 @@ def _build_salt_name_re() -> "re.Pattern":
 SALT_NAME_RE = _build_salt_name_re()
 
 
+_NONALNUM_RE = re.compile(r"[^a-z0-9]+")
+
+
+def _compact_text(s: str) -> str:
+    """Lowercase alphanumeric-only form used for format-variant matching.
+
+    "cytochrome p450 (cyp) 3a4" -> "...cyp3a4...", so a compacted keyword
+    such as "cyp3a4" matches despite parentheticals, hyphens or spacing
+    ("cyp-3a4", "cyp 3a4", "cyp) 3a4").
+    """
+    return _NONALNUM_RE.sub("", s.lower())
+
+
 def _score_risk(findings: list, keywords: list[str], default: int = 1,
                 intensifiers: list[str] = None,
                 mitigators: list[str] = None,
@@ -1092,6 +1113,11 @@ def _score_risk(findings: list, keywords: list[str], default: int = 1,
     score = default
 
     kw_lower = [k.lower() for k in keywords]
+    # Compacted keyword forms for format-variant fallback matching; only
+    # keywords of >=5 compacted characters join the fallback so short tokens
+    # ("cyp", "gi") cannot match across fused word boundaries.
+    kw_compact = [(k, ck) for k in kw_lower
+                  if len(ck := _compact_text(k)) >= 5]
     int_lower = [w.lower() for w in intensifiers]
     mit_lower = [w.lower() for w in mitigators]
     neg_lower = [n.lower() for n in negations]
@@ -1126,7 +1152,15 @@ def _score_risk(findings: list, keywords: list[str], default: int = 1,
         for sentence in re.split(r'(?<=[.!?])\s+', f["text"].lower()):
             present = [k for k in kw_lower if k in sentence]
             if not present:
-                continue  # sentence doesn't discuss this dimension
+                # Format-variant fallback: punctuation-insensitive matching
+                # ("cytochrome p450 (cyp) 3a4" contains "cyp3a4" once
+                # non-alphanumerics are stripped). Direct substring matching
+                # above stays authoritative; this only recovers keywords whose
+                # written form differs from the list form.
+                compact = _compact_text(sentence)
+                present = [k for k, ck in kw_compact if ck in compact]
+                if not present:
+                    continue  # sentence doesn't discuss this dimension
 
             # Salt-name guard: a keyword that occurs ONLY inside a drug-salt
             # phrase ("divalproex sodium", "sodium valproate") is not evidence
@@ -1167,7 +1201,7 @@ def _score_risk(findings: list, keywords: list[str], default: int = 1,
             # keyword). Proximity-scoped: "greater BP reduction than in the
             # placebo group" is NOT away-attributed, but "increased incidences
             # of hypoglycemia ... in the comparator group" IS.
-            negated = _negated_keywords(sentence, present)
+            negated = _negated_keywords(sentence, present, extra_phrases=neg_lower)
             away = _away_attributed_keywords(sentence, present)
             non_negated = [k for k in present if k not in negated and k not in away]
             if negated or away:
@@ -1225,13 +1259,18 @@ def _score_risk(findings: list, keywords: list[str], default: int = 1,
 _WORD_RE = re.compile(r"[\w'-]+")
 
 
-def _negated_keywords(sentence: str, keywords: list[str]) -> set:
+def _negated_keywords(sentence: str, keywords: list[str],
+                      extra_phrases: list[str] = None) -> set:
     """Return keyword occurrences whose meaning is negated in-place.
 
     A keyword occurrence counts as negated when a negation phrase starts
     within the 5 words immediately before it. Negations AFTER the keyword
     (e.g. "reduced hypoglycemia with no increased weight gain") do NOT negate
     it, so genuine positive evidence is preserved.
+
+    extra_phrases supplies call-site negations (the ``negations=`` argument of
+    ``_score_risk``), e.g. dimension-specific absence wording such as
+    "limited"/"few" for drug-interaction pools.
     """
     tokens = [(m.group(0).lower(), m.start(), m.end())
               for m in _WORD_RE.finditer(sentence)]
@@ -1245,8 +1284,13 @@ def _negated_keywords(sentence: str, keywords: list[str]) -> set:
         "without", "unlikely", "rare", "no benefit", "no effect",
         "no protection", "does not increase", "did not increase",
         "no increased",
+        # Absence-of-effect phrases: a sentence stating that an effect is
+        # absent must not count as positive evidence for that dimension,
+        # e.g. "with no clinically important drug interactions".
+        "no clinically important", "no important", "no clinically significant",
+        "absence of", "free of", "unaffected by",
     ]
-    for ph in NEGATION_PHRASES:
+    for ph in NEGATION_PHRASES + (extra_phrases or []):
         start = 0
         while True:
             i = sentence.find(ph, start)
