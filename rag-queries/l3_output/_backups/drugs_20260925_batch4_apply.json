@@ -361,7 +361,7 @@
       "l3_systems": {
         "cox_inhibition": "None in periphery (central COX debated)",
         "gi_risk": 2,
-        "cv_risk": 1,
+        "cv_risk": 2,
         "renal_risk": 2,
         "platelet_effect": "None",
         "off_targets": [
@@ -1171,7 +1171,7 @@
         "ddi_risk": 3,
         "pump_recovery_t_half_h": 27,
         "hypergastrinemia": true,
-        "cdi_risk": 1,
+        "cdi_risk": 2,
         "pneumonia_risk": 1,
         "ckd_risk": 1,
         "fracture_risk": 1,
@@ -2198,7 +2198,7 @@
       "l3_systems": {
         "gi_risk": 3,
         "cv_risk": 2,
-        "renal_risk": 3,
+        "renal_risk": 2,
         "cns_penetration": false,
         "platelet_effect": "Reversible inhibition, duration ~tÂ½",
         "cox_inhibition": null,
@@ -2331,7 +2331,7 @@
       "l3_systems": {
         "gi_risk": 3,
         "cv_risk": 2,
-        "renal_risk": 3,
+        "renal_risk": 2,
         "cns_penetration": true,
         "platelet_effect": "Reversible inhibition",
         "cox_inhibition": null,
@@ -2676,8 +2676,8 @@
       },
       "l3_systems": {
         "gi_risk": 3,
-        "cv_risk": 1,
-        "renal_risk": 3,
+        "cv_risk": 2,
+        "renal_risk": 2,
         "cns_penetration": false,
         "platelet_effect": "Reversible, resolves within 24h of cessation",
         "cox_inhibition": null,
@@ -3758,7 +3758,7 @@
       "hepatic_safety": "safe",
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 3,
         "renal_benefit": 3,
         "gi_tolerability": 3,
@@ -4529,7 +4529,7 @@
       },
       "l3_systems": {
         "bp_reduction": 3,
-        "renal_protection": 3,
+        "renal_protection": 2,
         "metabolic_effect": 3,
         "electrolyte_risk": 2,
         "ddi_risk": 2,
@@ -4866,7 +4866,7 @@
         "bp_reduction": 3,
         "renal_protection": 3,
         "metabolic_effect": 3,
-        "electrolyte_risk": 3,
+        "electrolyte_risk": 2,
         "ddi_risk": 3,
         "heart_rate_effect": "tachycardia",
         "_evidence": {
@@ -5168,7 +5168,7 @@
         "bp_reduction": 3,
         "renal_protection": 3,
         "metabolic_effect": 3,
-        "electrolyte_risk": 1,
+        "electrolyte_risk": 2,
         "ddi_risk": 2,
         "heart_rate_effect": "bradycardia",
         "_evidence": {
@@ -5701,7 +5701,7 @@
       "l3_systems": {
         "bp_reduction": 3,
         "renal_protection": 3,
-        "metabolic_effect": 3,
+        "metabolic_effect": 2,
         "electrolyte_risk": 2,
         "ddi_risk": 2,
         "heart_rate_effect": "tachycardia",
@@ -5779,7 +5779,7 @@
       "l3_systems": {
         "bp_reduction": 3,
         "renal_protection": 3,
-        "metabolic_effect": 3,
+        "metabolic_effect": 2,
         "electrolyte_risk": 3,
         "ddi_risk": 2,
         "heart_rate_effect": "none",
@@ -5865,7 +5865,7 @@
         "bp_reduction": 3,
         "renal_protection": 2,
         "metabolic_effect": 3,
-        "electrolyte_risk": 3,
+        "electrolyte_risk": 2,
         "ddi_risk": 2,
         "heart_rate_effect": "none",
         "_evidence": {
@@ -6448,7 +6448,7 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 3,
         "renal_benefit": 3,
         "gi_tolerability": 3,
@@ -6621,7 +6621,7 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 3,
         "renal_benefit": 3,
         "gi_tolerability": 3,
@@ -6700,7 +6700,7 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 2,
         "renal_benefit": 2,
         "gi_tolerability": 3,
@@ -7267,12 +7267,12 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 2,
         "renal_benefit": 2,
         "gi_tolerability": 3,
         "ddi_risk": 2,
-        "hypoglycemia_risk": 1,
+        "hypoglycemia_risk": 3,
         "_evidence": {
           "pmids": [
             "10400405",
@@ -7440,7 +7440,7 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 3,
         "renal_benefit": 2,
         "gi_tolerability": 3,
@@ -7973,8 +7973,8 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
-        "cv_outcome_benefit": 3,
+        "weight_effect": 2,
+        "cv_outcome_benefit": 2,
         "renal_benefit": 3,
         "gi_tolerability": 3,
         "ddi_risk": 2,
@@ -8151,7 +8151,7 @@
       },
       "l3_systems": {
         "a1c_reduction": 3,
-        "weight_effect": 3,
+        "weight_effect": 2,
         "cv_outcome_benefit": 2,
         "renal_benefit": 2,
         "gi_tolerability": 3,

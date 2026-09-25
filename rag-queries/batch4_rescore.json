@@ -1,0 +1,824 @@
+{
+ "results": [
+  {
+   "group": "paracetamol|cv_risk",
+   "drug": "paracetamol",
+   "dim": "cv_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 1
+   },
+   "new": 1
+  },
+  {
+   "group": "esomeprazole|cdi_risk",
+   "drug": "esomeprazole",
+   "dim": "cdi_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 1
+   },
+   "new": 1
+  },
+  {
+   "group": "esomeprazole|acid_rebound",
+   "drug": "esomeprazole",
+   "dim": "acid_rebound",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 4,
+    "strong": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "pantoprazole|bone_fracture_risk",
+   "drug": "pantoprazole",
+   "dim": "bone_fracture_risk",
+   "current": 2,
+   "clean": 2,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "moderate": 1
+   }
+  },
+  {
+   "group": "aluminum-magnesium-hydroxide|neutralization_capacity",
+   "drug": "aluminum-magnesium-hydroxide",
+   "dim": "neutralization_capacity",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "moderate": 1,
+    "strong": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "calcium-carbonate|renal_toxicity_risk",
+   "drug": "calcium-carbonate",
+   "dim": "renal_toxicity_risk",
+   "current": 1,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 1,
+   "labels": {
+    "none": 1,
+    "strong": 2,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "naproxen|renal_risk",
+   "drug": "naproxen",
+   "dim": "renal_risk",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 7,
+    "strong": 3,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "indomethacin|renal_risk",
+   "drug": "indomethacin",
+   "dim": "renal_risk",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 6,
+    "moderate": 3,
+    "strong": 2,
+    "negative": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "ketorolac|cv_risk",
+   "drug": "ketorolac",
+   "dim": "cv_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 1
+   },
+   "new": 1
+  },
+  {
+   "group": "ketorolac|renal_risk",
+   "drug": "ketorolac",
+   "dim": "renal_risk",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 8,
+    "strong": 3,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "aspirin|cv_risk",
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 2,
+    "strong": 3,
+    "moderate": 5
+   },
+   "new": 3
+  },
+  {
+   "group": "losartan|renal_protection",
+   "drug": "losartan",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "moderate": 2,
+    "strong": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "amlodipine|renal_protection",
+   "drug": "amlodipine",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 7
+   }
+  },
+  {
+   "group": "metoprolol|metabolic_effect",
+   "drug": "metoprolol",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 4,
+    "strong": 1,
+    "moderate": 3
+   },
+   "new": 3
+  },
+  {
+   "group": "hydrochlorothiazide|metabolic_effect",
+   "drug": "hydrochlorothiazide",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 3,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "chlorthalidone|renal_protection",
+   "drug": "chlorthalidone",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "strong": 1,
+    "moderate": 1,
+    "none": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "dapagliflozin|cv_outcome_benefit",
+   "drug": "dapagliflozin",
+   "dim": "cv_outcome_benefit",
+   "current": 3,
+   "clean": 3,
+   "v2": 2,
+   "r1": 2,
+   "kw": 3,
+   "labels": {
+    "none": 3,
+    "strong": 2,
+    "negative": 4,
+    "moderate": 2
+   }
+  },
+  {
+   "group": "semaglutide|weight_effect",
+   "drug": "semaglutide",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 5,
+    "moderate": 4,
+    "strong": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "tirzepatide|renal_benefit",
+   "drug": "tirzepatide",
+   "dim": "renal_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 3,
+    "moderate": 1,
+    "strong": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "candesartan|renal_protection",
+   "drug": "candesartan",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "moderate": 3,
+    "strong": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "candesartan|electrolyte_risk",
+   "drug": "candesartan",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 7
+   }
+  },
+  {
+   "group": "telmisartan|metabolic_effect",
+   "drug": "telmisartan",
+   "dim": "metabolic_effect",
+   "current": 3,
+   "clean": 3,
+   "v2": 1,
+   "r1": 1,
+   "kw": 3,
+   "labels": {
+    "none": 1,
+    "negative": 1,
+    "strong": 1,
+    "moderate": 1
+   }
+  },
+  {
+   "group": "nifedipine|electrolyte_risk",
+   "drug": "nifedipine",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 4,
+    "moderate": 4,
+    "strong": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "verapamil|electrolyte_risk",
+   "drug": "verapamil",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 8
+   },
+   "new": 1
+  },
+  {
+   "group": "atenolol|renal_protection",
+   "drug": "atenolol",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 3,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "furosemide|metabolic_effect",
+   "drug": "furosemide",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 6,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "spironolactone|metabolic_effect",
+   "drug": "spironolactone",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 5,
+    "moderate": 2,
+    "strong": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "indapamide|renal_protection",
+   "drug": "indapamide",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "indapamide|electrolyte_risk",
+   "drug": "indapamide",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 2,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "clonidine|renal_protection",
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 4,
+    "strong": 6
+   },
+   "new": 3
+  },
+  {
+   "group": "ertugliflozin|weight_effect",
+   "drug": "ertugliflozin",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 3,
+    "strong": 8
+   },
+   "new": 3
+  },
+  {
+   "group": "dulaglutide|weight_effect",
+   "drug": "dulaglutide",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 6,
+    "moderate": 2,
+    "strong": 4
+   },
+   "new": 3
+  },
+  {
+   "group": "exenatide|weight_effect",
+   "drug": "exenatide",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "strong": 3,
+    "moderate": 1,
+    "none": 3
+   },
+   "new": 3
+  },
+  {
+   "group": "linagliptin|weight_effect",
+   "drug": "linagliptin",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 8
+   }
+  },
+  {
+   "group": "alogliptin|weight_effect",
+   "drug": "alogliptin",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 5,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "alogliptin|cv_outcome_benefit",
+   "drug": "alogliptin",
+   "dim": "cv_outcome_benefit",
+   "current": 2,
+   "clean": 2,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 3,
+    "moderate": 1
+   }
+  },
+  {
+   "group": "rosiglitazone|weight_effect",
+   "drug": "rosiglitazone",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "strong": 3,
+    "none": 1,
+    "moderate": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "rosiglitazone|cv_outcome_benefit",
+   "drug": "rosiglitazone",
+   "dim": "cv_outcome_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 3,
+    "moderate": 4,
+    "strong": 1
+   }
+  },
+  {
+   "group": "rosiglitazone|hypoglycemia_risk",
+   "drug": "rosiglitazone",
+   "dim": "hypoglycemia_risk",
+   "current": 3,
+   "clean": 1,
+   "v2": 1,
+   "r1": 1,
+   "kw": 3,
+   "labels": {
+    "none": 6
+   },
+   "new": 1
+  },
+  {
+   "group": "glipizide|renal_benefit",
+   "drug": "glipizide",
+   "dim": "renal_benefit",
+   "current": 3,
+   "clean": 3,
+   "v2": 1,
+   "r1": 1,
+   "kw": 3,
+   "labels": {
+    "none": 1,
+    "strong": 1
+   }
+  },
+  {
+   "group": "glimepiride|weight_effect",
+   "drug": "glimepiride",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 3,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "glimepiride|renal_benefit",
+   "drug": "glimepiride",
+   "dim": "renal_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 1,
+   "r1": 1,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 1
+   }
+  },
+  {
+   "group": "glyburide|cv_outcome_benefit",
+   "drug": "glyburide",
+   "dim": "cv_outcome_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "strong": 1,
+    "none": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "gliclazide|cv_outcome_benefit",
+   "drug": "gliclazide",
+   "dim": "cv_outcome_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "moderate": 1,
+    "strong": 2,
+    "none": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "acarbose|weight_effect",
+   "drug": "acarbose",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 4,
+    "moderate": 1,
+    "strong": 3
+   },
+   "new": 3
+  },
+  {
+   "group": "acarbose|cv_outcome_benefit",
+   "drug": "acarbose",
+   "dim": "cv_outcome_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 2,
+    "strong": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "repaglinide|renal_benefit",
+   "drug": "repaglinide",
+   "dim": "renal_benefit",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "strong": 2
+   },
+   "new": 3
+  },
+  {
+   "group": "pramlintide|weight_effect",
+   "drug": "pramlintide",
+   "dim": "weight_effect",
+   "current": 2,
+   "clean": 3,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 4,
+    "strong": 7,
+    "moderate": 1
+   },
+   "new": 3
+  },
+  {
+   "group": "pramlintide|hypoglycemia_risk",
+   "drug": "pramlintide",
+   "dim": "hypoglycemia_risk",
+   "current": 3,
+   "clean": 3,
+   "v2": 1,
+   "r1": 1,
+   "kw": 3,
+   "labels": {
+    "none": 9,
+    "strong": 3,
+    "moderate": 2
+   }
+  },
+  {
+   "group": "celecoxib|ddi_risk",
+   "drug": "celecoxib",
+   "dim": "ddi_risk",
+   "current": 1,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 1,
+   "labels": {
+    "none": 3,
+    "pk": 2,
+    "pd": 2
+   }
+  },
+  {
+   "group": "atorvastatin|ddi_risk",
+   "drug": "atorvastatin",
+   "dim": "ddi_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "pk": 2,
+    "pd": 1,
+    "none": 1
+   }
+  },
+  {
+   "group": "rosuvastatin|ddi_risk",
+   "drug": "rosuvastatin",
+   "dim": "ddi_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1,
+    "pk": 1
+   }
+  },
+  {
+   "group": "simvastatin|ddi_risk",
+   "drug": "simvastatin",
+   "dim": "ddi_risk",
+   "current": 2,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 2,
+   "labels": {
+    "none": 1
+   }
+  },
+  {
+   "group": "tirzepatide|ddi_risk",
+   "drug": "tirzepatide",
+   "dim": "ddi_risk",
+   "current": 1,
+   "clean": 1,
+   "v2": 3,
+   "r1": 3,
+   "kw": 1,
+   "labels": {
+    "none": 1
+   }
+  }
+ ],
+ "rule": "clean: strong->3/moderate->2/else 1 (ddi: _score_risk on pk/pd); raise if clean>cur and v2>cur; drop if clean<cur and v2<cur; else hold"
+}
