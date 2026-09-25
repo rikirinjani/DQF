@@ -1,0 +1,731 @@
+{
+  "fixed_to_kw": [
+    {
+      "drug": "pravastatin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 1,
+      "rationale": "Pravastatin is unaffected by inhibition by either cyp2c9"
+    },
+    {
+      "drug": "valsartan",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 1,
+      "rationale": "Only one sentence mentions another drug (thiazide diuretics), but it does not show a pharmacokinetic or pharmacodynamic "
+    }
+  ],
+  "still_diluted": [
+    {
+      "drug": "celecoxib",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "celecoxib is associated with fewer upper gastrointestinal adverse effects than conventional non-steroidal anti-inflammat"
+    },
+    {
+      "drug": "paracetamol",
+      "dim": "cv_risk",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "No mortality, cardiovascular, gastrointestinal or renal AEs reported in observational studies at standard analgesic dose"
+    },
+    {
+      "drug": "atorvastatin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Atorvastatin is a substrate of CYP3A4 and BCRP, and it interacts with other drugs that inhibit these enzymes or transpor"
+    },
+    {
+      "drug": "rosuvastatin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Rosuvastatin is unaffected by CYP2C9 inhibition, but pravastatin is. Rosuvastatin co-administration with cedirogant lead"
+    },
+    {
+      "drug": "simvastatin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Simvastatin plasma concentrations significantly increased by potent CYP3A4 inhibitors"
+    },
+    {
+      "drug": "esomeprazole",
+      "dim": "cdi_risk",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "No mention of CDI risk"
+    },
+    {
+      "drug": "esomeprazole",
+      "dim": "acid_rebound",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "5 studies show no symptomatic rebound after esomeprazole treatment"
+    },
+    {
+      "drug": "pantoprazole",
+      "dim": "bone_fracture_risk",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "Mechanistic background alone does not support."
+    },
+    {
+      "drug": "cimetidine",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Cimetidine is a potent inhibitor of cytochrome p450, causing interactions with ranitidine, procainamide, quinidine, da p"
+    },
+    {
+      "drug": "aluminum-magnesium-hydroxide",
+      "dim": "neutralization_capacity",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "All sentences support the effect of Al/Mg hydroxide antacid on the pharmacokinetics of dexibuprofen."
+    },
+    {
+      "drug": "calcium-carbonate",
+      "dim": "renal_toxicity_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Calcium carbonate mitigates renal failure in rats with hypertension, and its administration is associated with variabili"
+    },
+    {
+      "drug": "naproxen",
+      "dim": "renal_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Naproxen reduces glomerular filtration rate and renal plasma flow, and induces suppression of renal prostaglandin synthe"
+    },
+    {
+      "drug": "indomethacin",
+      "dim": "renal_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "indomethacin exacerbates hyperosmolality-induced triglyceride synthesis, reduces renal blood flow and glomerular filtrat"
+    },
+    {
+      "drug": "indomethacin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies show indomethacin's effect on proliferation of glioma cell lines, ovulation, and preterm labour, and no"
+    },
+    {
+      "drug": "ketorolac",
+      "dim": "cv_risk",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "No significant changes in cardiac output, stroke volume, mean arterial pressure, or systemic vascular resistance followi"
+    },
+    {
+      "drug": "ketorolac",
+      "dim": "renal_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies report renal impairment as an adverse effect of ketorolac, and one study compares the renal risk of ket"
+    },
+    {
+      "drug": "ketorolac",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Ketorolac is a nonsteroidal anti-inflammatory drug (nsaid) that alleviates pain and inflammation by inhibiting cyclooxyg"
+    },
+    {
+      "drug": "aspirin",
+      "dim": "cv_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "10 studies show aspirin's antiplatelet action is central to explaining its antitumor efficacy, ameliorating carotid arte"
+    },
+    {
+      "drug": "losartan",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Losartan is more effective than angiotensin (1-7) in preventing thyroxine-induced renal injury in the rat, and synergy o"
+    },
+    {
+      "drug": "amlodipine",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "combination therapies of amlodipine with other agents eliciting renin-angiotensin-aldosterone system blockade (angiotens"
+    },
+    {
+      "drug": "metoprolol",
+      "dim": "metabolic_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Metoprolol is listed as an effective medication for migraine prevention in two level A studies (PMID:22529202, PMID:1926"
+    },
+    {
+      "drug": "hydrochlorothiazide",
+      "dim": "metabolic_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Drug lowers serum sodium and increases urinary sodium, and causes hypokalemia, suggesting metabolic effects."
+    },
+    {
+      "drug": "hydrochlorothiazide",
+      "dim": "ddi_risk",
+      "kw": 3,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "No evidence of a pharmacokinetic or pharmacodynamic interaction with other drugs, and no evidence of a clinically signif"
+    },
+    {
+      "drug": "chlorthalidone",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Chlorthalidone is effective in treating hypertension in patients with stage 4 chronic kidney disease, and it can mitigat"
+    },
+    {
+      "drug": "metformin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Cimetidine-metformin interaction is a known pharmacokinetic interaction mediated by organic cation transporters."
+    },
+    {
+      "drug": "dapagliflozin",
+      "dim": "cv_outcome_benefit",
+      "kw": 3,
+      "r1": 2,
+      "v2": 2,
+      "rationale": "6 studies show no significant difference in cardiovascular death or hospitalization for heart failure between dapagliflo"
+    },
+    {
+      "drug": "semaglutide",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Semaglutide is established as an effective weight loss treatment by controlling appetite (PMIDs: 39728000) and its benef"
+    },
+    {
+      "drug": "tirzepatide",
+      "dim": "renal_benefit",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Meta-analysis of RCTs, pharmacokinetics study in subjects with renal impairment, and comparison of tirzepatide with othe"
+    },
+    {
+      "drug": "tirzepatide",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "tirzepatide-induced siadh presenting with seizures"
+    },
+    {
+      "drug": "candesartan",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Candesartan has expected effects on renal function, is mainly cleared by the kidneys, and has favorable effects on renal"
+    },
+    {
+      "drug": "candesartan",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Candesartan was associated with hyperkalemia, renal dysfunction, and hypotension in three trials."
+    },
+    {
+      "drug": "telmisartan",
+      "dim": "metabolic_effect",
+      "kw": 3,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "Telmisartan treatment did not increase serum creatinine or potassium in any subgroup, including >400 patients with impai"
+    },
+    {
+      "drug": "nifedipine",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Nifedipine causes a long-term reduction in sodium balance (2571289, 8884561, 2487801), enhances the acute blood pressure"
+    },
+    {
+      "drug": "verapamil",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "7 sentences do not support an effect of verapamil on electrolyte risk"
+    },
+    {
+      "drug": "verapamil",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies show verapamil impairs digoxin renal excretion and hepatic degradation, and a case report shows verapam"
+    },
+    {
+      "drug": "atenolol",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Atenolol is predominantly eliminated via the kidneys, and its elimination half-life increases in patients with impaired "
+    },
+    {
+      "drug": "furosemide",
+      "dim": "metabolic_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Furosemide increases urinary sodium excretion, and inhibits the sodium-potassium-chloride cotransporter in the thick asc"
+    },
+    {
+      "drug": "furosemide",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Furosemide is a loop diuretic, and its diuretic effect is compared with other loop diuretics, and its urinary excretion "
+    },
+    {
+      "drug": "spironolactone",
+      "dim": "metabolic_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple RCTs show spironolactone's effect on serum potassium, and a QSP model predicts potassium concentrations from EH"
+    },
+    {
+      "drug": "spironolactone",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies show spironolactone's diuretic effect and its ability to prevent potassium loss, complementing the effe"
+    },
+    {
+      "drug": "indapamide",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Indapamide does not accumulate in the blood in comparison to patients with normal renal function, and no adverse effect "
+    },
+    {
+      "drug": "indapamide",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Lower incidence of hypokalemia with indapamide sr 1.5 mg compared to higher doses, and lower change in serum potassium w"
+    },
+    {
+      "drug": "indapamide",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Indapamide is a diuretic prescribed in the treatment of hypertension at the dosage of 2.5 mg per day (8572850). Indapami"
+    },
+    {
+      "drug": "doxazosin",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "No mention of doxazosin in relation to drug-drug interactions."
+    },
+    {
+      "drug": "clonidine",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "clonidine is a useful antihypertensive agent for patients with chronic renal insufficiency, renal blood flow and glomeru"
+    },
+    {
+      "drug": "ertugliflozin",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Ertugliflozin significantly reduced body weight in multiple studies, and reductions were greater with ertugliflozin vers"
+    },
+    {
+      "drug": "dulaglutide",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies show dulaglutide reduces weight in patients with type 2 diabetes mellitus."
+    },
+    {
+      "drug": "exenatide",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "weight decreased by 1.8 kg with exenatide and increased by 1.0 kg with placebo (between-group difference, -2.7 kg [ci, -"
+    },
+    {
+      "drug": "linagliptin",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "linagliptin treatment is well tolerated, with weight-neutral effects"
+    },
+    {
+      "drug": "alogliptin",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "All studies show alogliptin does not induce weight gain, and several studies show it is weight neutral."
+    },
+    {
+      "drug": "alogliptin",
+      "dim": "cv_outcome_benefit",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "Alogliptin is well-tolerated in patients with T2DM, but further evaluation is required to determine the mechanism and ef"
+    },
+    {
+      "drug": "rosiglitazone",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Rosiglitazone was associated with more weight gain and edema than either metformin or glyburide in multiple studies, and"
+    },
+    {
+      "drug": "rosiglitazone",
+      "dim": "cv_outcome_benefit",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "Two studies found no causal effects between rosiglitazone and cardiovascular disease or risk factors, and one study foun"
+    },
+    {
+      "drug": "rosiglitazone",
+      "dim": "hypoglycemia_risk",
+      "kw": 3,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "Rosiglitazone was associated with less hypoglycemia than glyburide in multiple comparisons."
+    },
+    {
+      "drug": "glipizide",
+      "dim": "renal_benefit",
+      "kw": 3,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "Metformin may be avoided in chronic renal failure, but glipizide and repaglinide seem to be good choices."
+    },
+    {
+      "drug": "glimepiride",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "glimepiride exhibits weight neutralizing/reducing effects in patients with type 2 diabetes, and is generally associated "
+    },
+    {
+      "drug": "glimepiride",
+      "dim": "renal_benefit",
+      "kw": 2,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "No significant difference in renal outcomes between glimepiride and other antidiabetic drugs."
+    },
+    {
+      "drug": "glyburide",
+      "dim": "cv_outcome_benefit",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosigl"
+    },
+    {
+      "drug": "glyburide",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Glyburide is associated with hypoglycemia when co-administered with aspirin, and there is a higher discontinuation rate "
+    },
+    {
+      "drug": "gliclazide",
+      "dim": "cv_outcome_benefit",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies have shown a low risk of hypoglycemic episodes and beneficial long-term cardiovascular safety in observ"
+    },
+    {
+      "drug": "acarbose",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies show that acarbose produces a weight-loss effect, including a meta-analysis that shows a significant we"
+    },
+    {
+      "drug": "acarbose",
+      "dim": "cv_outcome_benefit",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Multiple studies suggest the use of acarbose for the treatment of diabetes and provide cardiovascular protection."
+    },
+    {
+      "drug": "repaglinide",
+      "dim": "renal_benefit",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "Repaglinide is well tolerated in patients with type 2 diabetes, including elderly patients and those with renal impairme"
+    },
+    {
+      "drug": "pramlintide",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 3,
+      "rationale": "10 sentences support pramlintide's effect on weight loss in patients with type 1 and 2 diabetes, with 3 studies showing "
+    },
+    {
+      "drug": "pramlintide",
+      "dim": "hypoglycemia_risk",
+      "kw": 3,
+      "r1": 1,
+      "v2": 1,
+      "rationale": "6 studies show pramlintide lowers HbA1c without increasing risk of severe hypoglycemia in patients with type 1 diabetes,"
+    }
+  ],
+  "confirmed_kw": [
+    {
+      "drug": "diclofenac",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 2,
+      "v2": 1,
+      "rationale": "No evidence of a real drug-drug interaction is shown in the provided sentences."
+    },
+    {
+      "drug": "naproxen",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 1,
+      "rationale": "No evidence of a drug-drug interaction between naproxen and other drugs."
+    },
+    {
+      "drug": "meloxicam",
+      "dim": "renal_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Meloxicam compromises renal perfusion in rats, does not reduce renal injury or even synergize the reno-protective effect"
+    },
+    {
+      "drug": "meloxicam",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 1,
+      "rationale": "No evidence of a drug-drug interaction for meloxicam"
+    },
+    {
+      "drug": "piroxicam",
+      "dim": "renal_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Multiple studies show that piroxicam affects renal function, including inhibition of sodium transport, renal effects in "
+    },
+    {
+      "drug": "piroxicam",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 1,
+      "rationale": "No evidence of drug-drug interaction is found in the provided sentences. The sentences only compare the efficacy and saf"
+    },
+    {
+      "drug": "aspirin",
+      "dim": "renal_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "aspirin inhibits prostaglandin synthesis and affects renal function, but the renal effects are minor and the clinical si"
+    },
+    {
+      "drug": "amlodipine",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "The evidence shows that amlodipine may be associated with an increased risk of electrolyte disturbances, particularly hy"
+    },
+    {
+      "drug": "metformin",
+      "dim": "weight_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Two studies support a moderate effect of metformin on weight loss, but the mechanism is not yet fully understood."
+    },
+    {
+      "drug": "enalapril",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Enalapril is an ACE inhibitor, but the evidence does not show a pharmacokinetic or pharmacodynamic interaction with othe"
+    },
+    {
+      "drug": "irbesartan",
+      "dim": "ddi_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Evidence of pharmacokinetic interaction in different CYP2C9 genotypes and clinical efficacy at least comparable with ACE"
+    },
+    {
+      "drug": "felodipine",
+      "dim": "metabolic_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Felodipine causes significant diuresis and natriuresis, and establishes a negative sodium balance over the duration of t"
+    },
+    {
+      "drug": "diltiazem",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Diltiazem does not have adverse effects on electrolytes, and it has been shown to prevent fibrosis in rats, possibly syn"
+    },
+    {
+      "drug": "bisoprolol",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Bisoprolol is associated with acute kidney injury (PMID:39543745), and its clearance is lower in patients with chronic h"
+    },
+    {
+      "drug": "carvedilol",
+      "dim": "renal_protection",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Reduced peripheral vascular resistance and preclinical evidence of antioxidant and antifibrotic effects suggest potentia"
+    },
+    {
+      "drug": "propranolol",
+      "dim": "metabolic_effect",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Propranolol has sodium channel-blocking properties that can cause life-threatening toxicity in overdose, and it decrease"
+    },
+    {
+      "drug": "nebivolol",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Both studies show nebivolol's effect on potassium channels, which may affect electrolyte balance."
+    },
+    {
+      "drug": "furosemide",
+      "dim": "electrolyte_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Multiple studies show furosemide increases urinary sodium excretion, and one study shows it enhances sodium mobilization"
+    },
+    {
+      "drug": "ertugliflozin",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 1,
+      "rationale": "No evidence of drug-drug interaction is provided in the text."
+    },
+    {
+      "drug": "exenatide",
+      "dim": "renal_benefit",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Multiple studies suggest that exenatide may have renal benefits, but specific dosing guidelines for patients with renal "
+    },
+    {
+      "drug": "vildagliptin",
+      "dim": "hypoglycemia_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Vildagliptin is associated with increased incidences of hypoglycemia compared to comparators, except for when used in co"
+    },
+    {
+      "drug": "acarbose",
+      "dim": "hypoglycemia_risk",
+      "kw": 2,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Acarbose treatment for persistent hypoglycemia in patients with dumping syndrome."
+    }
+  ],
+  "genuinely_revised": [],
+  "new_overread": [
+    {
+      "drug": "ibuprofen",
+      "dim": "ddi_risk",
+      "kw": 1,
+      "r1": 3,
+      "v2": 2,
+      "rationale": "Ibuprofen has a comparatively low risk of cardiovascular adverse effects compared to other NSAIDs, and it is not without"
+    }
+  ]
+}
