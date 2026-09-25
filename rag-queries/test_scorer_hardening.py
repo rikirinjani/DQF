@@ -82,6 +82,10 @@ check("simvastatin 'cytochrome p450 (cyp) 3a4' -> keyword cyp3a4",
 check("hyphen variant 'cyp-3a4' also matches",
       ddi_score("clarithromycin, a potent cyp-3a4 inhibitor, increases "
                 "simvastatin exposure.", "simvastatin", "Statin"), 2)
+check("bcrp transporter variant matches (rosuvastatin BCRP DDI)",
+      ddi_score("the increased rosuvastatin exposure and minimal change in "
+                "atorvastatin exposure with co-administration of cedirogant is "
+                "attributed to bcrp inhibition.", "rosuvastatin", "Statin"), 2)
 check("compaction trap exists (raw 'cyp' inside a fused word)",
       "cyp" in _compact_text("legacy python"), True)
 check("short keyword (<5 compacted chars) does NOT match via fallback",
@@ -119,12 +123,21 @@ check("clarithromycin lovastatin exposure sentence still scores (lovastatin)",
                 "transporters, lovastatin exposure is markedly increased.",
                 "lovastatin", "Statin"), 2)
 
+print("=== 4b. Antacid ddi_risk producer (new in this change set) ===")
+check("antacid chelation DDI sentence scores (aluminum hydroxide)",
+      ddi_score("aluminum hydroxide antacid reduces the absorption of "
+                "coadministered levothyroxine and fluoroquinolones.",
+                "aluminum hydroxide", "Antacid"), 2)
+check("antacid absence sentence stays low (calcium carbonate)",
+      ddi_score("calcium carbonate has no clinically important drug interactions.",
+                "calcium carbonate", "Antacid"), 1)
+
 print("=== 5. module integrity ===")
-# NOTE: the Antacid block (Al/Mg hydroxide, calcium carbonate) has no
-# ddi_risk call in the current pipeline -- its interaction dim is
-# "chelation_ddi". The 8 ddi_risk call sites are the keys below.
+# NOTE: the Antacid block gained its ddi_risk call in the same change set
+# (previously legacy data with no producer); its interaction dim is also
+# covered separately by "chelation_ddi" (manual/extra).
 for cls in ("NSAID", "Statin", "PPI", "Antihypertensive", "Diabetes", "H2RA",
-            "Alginate", "Mucosal Protectant"):
+            "Antacid", "Alginate", "Mucosal Protectant"):
     check(f"ddi args extracted for {cls}", cls in ddi_args, True)
 check("all ddi call sites carry the 'limited' negation",
       all("limited" in (ddi_args[c]["negations"] or []) for c in ddi_args), True)

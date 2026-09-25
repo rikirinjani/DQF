@@ -131,12 +131,14 @@
       "off_target_queries": [],
       "class_mechanism_queries": [
         "antacid acid rebound mechanism",
-        "antacid aluminum calcium CKD accumulation"
+        "antacid aluminum calcium CKD accumulation",
+        "{drug} antacid drug interaction chelation absorption coadministration"
       ],
       "l3_fields": {
         "neutralization_capacity": null,
         "acid_rebound": null,
         "renal_toxicity_risk": null,
+        "ddi_risk": null,
         "duration_min": null
       }
     },

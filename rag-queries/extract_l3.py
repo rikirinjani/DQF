@@ -606,7 +606,10 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
     elif drug_class == "Statin":
         profile["myopathy_risk"] = _score_risk(findings, ["myopathy", "muscle", "rhabdomyolysis"], default=2,
             drug_name=drug_name)
-        profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp3a4", "oatp"], default=1,
+        # BCRP included: rosuvastatin/atorvastatin DDIs are transporter-mediated
+        # (e.g. cedirogant co-administration raises rosuvastatin exposure via
+        # BCRP inhibition) and were invisible to the CYP3A4/OATP-only list.
+        profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp3a4", "oatp", "bcrp"], default=1,
             negations=["limited", "few"],
             drug_name=drug_name)
         profile["pleiotropic_effects"] = _extract_pleiotropic(findings)
@@ -783,6 +786,19 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             default=1,
             adverse_context_terms=["toxicity", "encephalopathy", "accumulation",
                                    "hypermagnesemia", "poisoning"],
+            drug_name=drug_name)
+        # Interaction dimension (mirrors Alginate/Mucosal): antacids chelate or
+        # adsorb co-administered drugs and raise gastric pH, altering their
+        # absorption/bioavailability. Previously this dim carried a legacy
+        # value with no producer in the pipeline.
+        profile["ddi_risk"] = _score_risk(findings,
+            keywords=["drug interaction", "interaction", "chelation", "binding",
+                      "absorption", "coadministration", "reduced absorption"],
+            intensifiers=["significant", "contraindicated", "caution", "major",
+                          "substantially reduced"],
+            mitigators=["no interaction", "no effect", "no significant", "safe"],
+            negations=["limited", "few"],
+            default=1,
             drug_name=drug_name)
         profile["duration_min"] = _extract_duration_min(findings, drug)
 
