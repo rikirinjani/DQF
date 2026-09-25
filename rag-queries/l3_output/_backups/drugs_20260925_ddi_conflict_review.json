@@ -839,7 +839,7 @@
         "myopathy_risk": 3,
         "hepatic_risk": null,
         "renal_safety": "Safe (biliary excretion)",
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "note": "No CYP-mediated DDI â€” good for polypharmacy; glucose neutrality vs other statins",
         "hmgcr_inhibition": null,
         "lipophilicity": null,
@@ -1274,7 +1274,7 @@
         "healing_ability": 1,
         "cyp2c19_inhibition": "None (Ki 14-69 ÂµM)",
         "cyp2c19_metabolism_pct": 25,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "pump_recovery_t_half_h": 46,
         "hypergastrinemia": true,
         "cdi_risk": 3,
@@ -1495,7 +1495,7 @@
         "healing_ability": 2,
         "cyp2c19_inhibition": "None (Ki 17-21 ÂµM)",
         "cyp2c19_metabolism_pct": 10,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "pump_recovery_t_half_h": 24,
         "hypergastrinemia": true,
         "cdi_risk": 1,
@@ -3034,7 +3034,7 @@
         "renal_protection": 2,
         "metabolic_effect": 3,
         "electrolyte_risk": 1,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -3310,7 +3310,7 @@
         "renal_protection": 2,
         "metabolic_effect": 2,
         "electrolyte_risk": 3,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -3404,7 +3404,7 @@
         "renal_protection": 2,
         "metabolic_effect": 2,
         "electrolyte_risk": 3,
-        "ddi_risk": 1,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -3672,7 +3672,7 @@
         "cv_outcome_benefit": 3,
         "renal_benefit": 3,
         "gi_tolerability": 3,
-        "ddi_risk": 1,
+        "ddi_risk": 3,
         "hypoglycemia_risk": 2,
         "_evidence": {
           "pmids": [
@@ -4088,7 +4088,7 @@
         "renal_protection": 3,
         "metabolic_effect": 3,
         "electrolyte_risk": 1,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "heart_rate_effect": "tachycardia",
         "_evidence": {
           "pmids": [
@@ -4360,7 +4360,7 @@
         "renal_protection": 3,
         "metabolic_effect": 3,
         "electrolyte_risk": 3,
-        "ddi_risk": 1,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -4532,7 +4532,7 @@
         "renal_protection": 2,
         "metabolic_effect": 3,
         "electrolyte_risk": 2,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -4703,7 +4703,7 @@
         "renal_protection": 3,
         "metabolic_effect": 3,
         "electrolyte_risk": 1,
-        "ddi_risk": 1,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -4783,7 +4783,7 @@
         "renal_protection": 3,
         "metabolic_effect": 3,
         "electrolyte_risk": 2,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -6113,7 +6113,7 @@
         "renal_protection": 2,
         "metabolic_effect": 2,
         "electrolyte_risk": 1,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "heart_rate_effect": "bradycardia",
         "_evidence": {
           "pmids": [
@@ -7977,7 +7977,7 @@
         "cv_outcome_benefit": 2,
         "renal_benefit": 3,
         "gi_tolerability": 3,
-        "ddi_risk": 2,
+        "ddi_risk": 3,
         "hypoglycemia_risk": 2,
         "_evidence": {
           "pmids": [
