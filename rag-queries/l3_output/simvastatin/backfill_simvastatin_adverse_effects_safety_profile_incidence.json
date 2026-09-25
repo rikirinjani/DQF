@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:19179259",
-        "text": "[Maximal initial dose of simvastatin causing acute renal failure through rhabdomyolysis: risk factors, pathomechanism and therapy related to a case]. Rhabdomyolysis (RML) is a rare and severe adverse effect of simvastatin (SIM). Several risk factors have been described which play a role in its pathogenesis, namely age >65, diabetes mellitus, renal disease, high-dose statin therapy, chemicals metabolized by cytochrome P450 3A4 or idiosyncrasy.",
-        "score": 0.40262672305107117,
-        "doi": "10.1556/OH.2009.28498",
-        "journal": "Orvosi hetilap",
-        "year": "2009",
-        "rerank_score": 5.039096832275391,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12686348",
+        "text": "Comparison of the frequency of adverse events in patients treated with atorvastatin or simvastatin.",
+        "doi": "10.1016/s0002-9149(03)00124-3",
+        "journal": "The American journal of cardiology",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.39255014061927795,
+        "score": 0.39255014061927795,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:33033975",
-        "text": "Safety of Chronic Simvastatin Treatment in Patients with Decompensated Cirrhosis: Many Adverse Events but No Liver Injury. The high mortality rate of decompensated cirrhosis underlines the need for new treatments. Experimental models of cirrhosis and its reported relationship with atherosclerotic cardiovascular disease have provided data supporting the rational use of statins in these patients. However, little is known about the safety of statins in this setting.",
-        "score": 0.40585777163505554,
-        "doi": "10.1007/s10620-020-06630-7",
-        "journal": "Digestive diseases and sciences",
-        "year": "2020",
-        "rerank_score": 4.533740043640137,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30512647",
+        "text": "[Adverse effects of statins]",
+        "doi": "",
+        "journal": "La Revue du praticien",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.41220736503601074,
+        "score": 0.41220736503601074,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:26860922",
-        "text": "Safety Profile of Atorvastatin 80 mg: A Meta-Analysis of 17 Randomized Controlled Trials in 21,910 Participants. Atorvastatin 80 mg/day has significant benefits for the primary and secondary prevention of cardiovascular and cerebrovascular disease. To our knowledge, no meta-analysis focusing on assessing the safety profile of atorvastatin 80 mg/day has been performed; therefore, our aim was to evaluate the tolerability and adverse event (AE) patterns of this drug/dose.",
-        "score": 0.40089714527130127,
-        "doi": "10.1007/s40264-016-0394-0",
-        "journal": "Drug safety",
-        "year": "2016",
-        "rerank_score": 3.217531442642212,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:28291889",
+        "text": "Adverse Effects of Statins-Reply.",
+        "doi": "10.1001/jama.2017.0154",
+        "journal": "JAMA",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.42210376262664795,
+        "score": 0.42210376262664795,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39258162",
-        "text": "Lack of Efficacy of Simvastatin Adjunctive Therapy for Patients with Schizophrenia: A Meta-Analysis of Randomized Controlled Trials. The adjunctive therapeutic potential of simvastatin in schizophrenia treatment has generated interest due to its anti-inflammatory and neuroprotective properties. This meta-analysis aims to assess the efficacy of simvastatin as an adjunct treatment for schizophrenia, synthesizing results from various controlled trials. We performed a comprehensive search of databases including",
-        "score": 0.3834664225578308,
-        "doi": "10.2147/NDT.S480921",
-        "journal": "Neuropsychiatric disease and treatment",
-        "year": "2024",
-        "rerank_score": 5.154573917388916,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7823749",
+        "text": "Validity of the 4S simvastatin trial.",
+        "doi": "10.1016/s0140-6736(95)90261-9",
+        "journal": "Lancet (London, England)",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.41694334149360657,
+        "score": 0.41694334149360657,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:21716297",
-        "text": "The effect of simvastatin in penile erection: a randomized, double-blind, placebo-controlled clinical trial (Simvastatin treatment for erectile dysfunction-STED TRIAL). The aim of the study is to evaluate the effect of simvastatin in erectile dysfunction (ED) secondary to endothelial dysfunction. This study is a double-blind, randomized, placebo-controlled, clinical trial in patients with ED and endothelial dysfunction. Patients were randomized to receive 20 mg simvastatin (n = 21) or placebo (n = 20) daily",
-        "score": 0.3849422335624695,
-        "doi": "10.1038/ijir.2011.33",
-        "journal": "International journal of impotence research",
-        "year": "2011",
-        "rerank_score": 4.1713104248046875,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7846795",
+        "text": "[The Scandinavian Simvastatin Survival Study].",
+        "doi": "",
+        "journal": "Ugeskrift for laeger",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.42828869819641113,
+        "score": 0.42828869819641113,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:18070096",
-        "text": "Simvastatin in the acute phase of ischemic stroke: a safety and efficacy pilot trial. Although statins are being used for secondary prevention of ischemic stroke, recent experimental data have shown new pleiotropic effects of these drugs responsible for their role in neuroprotection. We conducted a pilot, double-blind, randomized, multicenter clinical trial to study for the first time safety and efficacy of simvastatin in the acute phase of ischemic stroke. Simvastatin/placebo was given at 3-12 h from sympt",
-        "score": 0.38832801580429077,
-        "doi": "10.1111/j.1468-1331.2007.02015.x",
-        "journal": "European journal of neurology",
-        "year": "2007",
-        "rerank_score": 3.943127393722534,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8520845",
+        "text": "Profiling a landmark clinical trial: Scandinavian Simvastatin Survival Study.",
+        "doi": "",
+        "journal": "Current opinion in lipidology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.43246990442276,
+        "score": 0.43246990442276,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

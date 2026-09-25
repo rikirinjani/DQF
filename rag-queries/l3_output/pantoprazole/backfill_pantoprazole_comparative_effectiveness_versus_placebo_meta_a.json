@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:11095320",
-        "text": "Oral pantoprazole for erosive esophagitis: a placebo-controlled, randomized clinical trial. Pantoprazole US GERD Study Group. The aim of this dose-response study was to compare the effectiveness of 10 mg, 20 mg, and 40 mg of pantoprazole with that of placebo tablets in the healing and symptom relief of gastroesophageal reflux disease associated with erosive esophagitis, and to determine the optimal dose.",
-        "score": 0.3881153166294098,
-        "doi": "10.1111/j.1572-0241.2000.03254.x",
-        "journal": "The American journal of gastroenterology",
-        "year": "2000",
-        "rerank_score": 4.638568878173828,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:15771760",
-        "text": "A randomized comparative study of esomeprazole 40 mg versus pantoprazole 40 mg for healing erosive oesophagitis: the EXPO study. To assess the efficacy of the 8-week therapy with esomeprazole 40 mg vs. pantoprazole 40 mg for healing erosive oesophagitis (EE) as part of a management study.",
-        "score": 0.38833528757095337,
-        "doi": "10.1111/j.1365-2036.2005.02368.x",
+        "id": "PMID:24330240",
+        "text": "Commentary: daily pantoprazole vs. esomeprazole for GERD--authors' reply.",
+        "doi": "10.1111/apt.12577",
         "journal": "Alimentary pharmacology & therapeutics",
-        "year": "2005",
-        "rerank_score": 3.0578787326812744,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.3655534088611603,
+        "score": 0.3655534088611603,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:33795542",
-        "text": "Efficacy of S-pantoprazole 10 mg in the Symptom Control of Non-erosive Reflux Disease: A Phase III Placebo-controlled Trial. S-isomer (S) pantoprazole is more bioavailable and less dependent on cytochrome 2C19 than is racemic pantoprazole. We aim to evaluate the efficacy and safety of 10 mg S-pantoprazole for treatment of non-erosive reflux disease (NERD).",
-        "score": 0.38550981879234314,
-        "doi": "10.5056/jnm19053",
-        "journal": "Journal of neurogastroenterology and motility",
-        "year": "2019",
-        "rerank_score": 2.8965938091278076,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16285985",
+        "text": "Explaining divergent results of meta-analyses on proton pump inhibitor treatment for ulcer bleeding.",
+        "doi": "10.1053/j.gastro.2005.09.042",
+        "journal": "Gastroenterology",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3707840144634247,
+        "score": 0.3707840144634247,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:15681917",
+        "text": "A randomized controlled trial of equivalence between pantoprazole and esomeprazole that does not have the power to conclude.",
+        "doi": "",
+        "journal": "Journal of clinical gastroenterology",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3828295171260834,
+        "score": 0.3828295171260834,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

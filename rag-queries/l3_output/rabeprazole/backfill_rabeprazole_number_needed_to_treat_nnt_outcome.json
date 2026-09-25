@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40078077",
-        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
-        "score": 0.47389495372772217,
-        "doi": "10.1080/13696998.2025.2466365",
-        "journal": "Journal of medical economics",
-        "year": "2025",
-        "rerank_score": 1.4811416864395142,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10582820",
+        "text": "Rabeprazole sodium.",
+        "doi": "10.1093/ajhp/56.22.2300",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.42735952138900757,
+        "score": 0.42735952138900757,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:17459036",
-        "text": "Oral R115866 in the treatment of moderate to severe facial acne vulgaris: an exploratory study. R115866 (Rambazole; Barrier Therapeutics NV, Geel, Belgium), a new-generation retinoic acid metabolism-blocking agent, is a nonretinoid compound enhancing intracellularly the endogenous levels of all-trans-retinoic acid by blocking its catabolism. By virtue of this property, and the proven positive effects of retinoids in the treatment of acne, R115866 could potentially be a useful drug for acne.",
-        "score": 0.46714937686920166,
-        "doi": "10.1111/j.1365-2133.2007.07896.x",
-        "journal": "The British journal of dermatology",
-        "year": "2007",
-        "rerank_score": -7.572614669799805,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.45540931820869446,
+        "score": 0.45540931820869446,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39200070",
-        "text": "Cefiderocol-Based Regimen for Acinetobacter NDM-1 Outbreak. Variable outcomes have been reported with cefiderocol in infections due to carbapenem-resistant",
-        "score": 0.4782896041870117,
-        "doi": "10.3390/antibiotics13080770",
-        "journal": "Antibiotics (Basel, Switzerland)",
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and the comparator response. Confidence intervals should always accompany NNT for the precision of its estimate. In this review, three meta-analyses are reviewed, which included the NNT in the analysis of response.",
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
         "year": "2024",
-        "rerank_score": -7.757417678833008,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.4639909565448761,
+        "score": 0.4639909565448761,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

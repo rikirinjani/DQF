@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40255229",
-        "text": "Effect of a Single Preventive Intravenous Dose of Ketorolac and Paracetamol on Reducing Postoperative Pain in Septorhinoplasty Patients: Double-Blind Randomized Clinical Trial. Effective pain management is crucial in septorhinoplasty and remains a significant challenge. This study investigated the effect of ketorolac and paracetamol on pain control in septorhinoplasty patients and assessed their efficacy in reducing the need for rescue analgesics. This double-blind randomized clinical trial was conducted at",
-        "score": 0.404796838760376,
-        "doi": "10.30476/ijms.2024.102131.3488",
-        "journal": "Iranian journal of medical sciences",
-        "year": "2024",
-        "rerank_score": 0.6894444823265076,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32480212",
+        "text": "Retrospective study of the analgesic effect of a 15 mg dose of ketorolac in ambulatory gynecologic surgery.",
+        "doi": "10.1016/j.jclinane.2020.109904",
+        "journal": "Journal of clinical anesthesia",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.40715673565864563,
+        "score": 0.40715673565864563,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40957602",
-        "text": "Efficacy and adverse effects of lower doses of ketorolac; a systematic review and meta-analysis. Ketorolac, a non-steroidal anti-inflammatory drug, is proposed to have a ceiling effect. We studied if ketorolac at lower doses was as effective and safe as the standard doses. Randomized trials on different doses of ketorolac were searched in MEDLINE, Embase, Scopus, and Web of Science from the inception date to 12 December 2024. The extent of change in pain, pain relief, need for rescue analgesia, reduction in",
-        "score": 0.3998746871948242,
-        "doi": "10.1080/17581869.2025.2560293",
-        "journal": "Pain management",
-        "year": "2026",
-        "rerank_score": 0.15244916081428528,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8988064",
+        "text": "Population pharmacodynamic model for ketorolac analgesia. To derive a population pharmacokinetic-pharmacodynamic model that characterizes the distribution of pain relief scores and remedication times observed in patients receiving intramuscular ketorolac for the treatment of moderate to severe postoperative pain. The data analysis approach deals with the complexities of analyzing analgesic trial data: (1) repeated measurements, (2) ordered categorical response variables, and (3) nonrandom censoring because the patients can take a rescue medication if their pain relief is insufficient. Patients (n = 522) received a single oral or intramuscular administration of placebo or a single intramuscular dose of 10, 30, 60, or 90 mg ketorolac for postoperative pain relief. Pain relief was measured periodically with use of a five-category ordinal scale up to 6 hours after dosing. In this period, 288 patients received additional medication because of insufficient pain relief. Pharmacokinetic data was available for 85 subjects. Models were fitted to the data with the NONMEM program. The pharmacokinetic data was best described by a two-compartment model with first-order absorption. Pain relief was found to be a function of drug concentration (Emax model), time (waxing and waning of placebo effect), and an individual random effect. The drug concentration at half-maximal effect (EC50) and the first-order rate constant (keo) half-life for pain relief were 0.37 mg/L and 24 minutes. The probability of remedication was found to be a function of the observed level of pain relief and was found to increase with time. Monte Carlo simulations showed that adequate pain relief was achieved in 50% of the patients at 41, 27, 23, and 21 minutes after 10, 30, 60, or 90 mg of intramuscular ketorolac. Adequate pain relief was maintained up to 6 hours in 50%, 70%, 78%, and 81% of patients after these four doses. Only 25% of the patients achieved adequate pain relief with placebo. A population pharmacokinetic-pharmacodynamic model for the analgesic efficacy of intramuscular ketorolac was derived. The simulated relationship between dose, time, and percentage of patients with adequate pain relief suggested that 30 mg intramuscular ketorolac was the optimal initial dose for postoperative pain relief.",
+        "doi": "10.1016/S0009-9236(96)90210-6",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.4151637852191925,
+        "score": 0.4151637852191925,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40753250",
-        "text": "Correction: Comparing the effects of ketorolac and Paracetamol on postoperative pain relief after coronary artery bypass graft surgery. a randomized clinical trial.",
-        "score": 0.37272077798843384,
-        "doi": "10.1186/s13019-025-03524-5",
-        "journal": "Journal of cardiothoracic surgery",
-        "year": "2025",
-        "rerank_score": -0.04765456169843674,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9014572",
+        "text": "The effect of pretreatment with ketorolac on pain during intravenous injection of propofol.",
+        "doi": "",
+        "journal": "Anaesthesia",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.42600318789482117,
+        "score": 0.42600318789482117,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

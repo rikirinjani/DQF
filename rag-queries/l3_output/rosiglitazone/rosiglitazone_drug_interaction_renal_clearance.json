@@ -4,54 +4,162 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:39088906",
-        "text": "Physiologically based pharmacokinetic modeling of CYP2C8 substrate rosiglitazone and its metabolite to predict metabolic drug-drug interaction. Rosiglitazone is an activator of nuclear peroxisome proliferator-activated (PPAR) receptor gamma used in the treatment of type 2 diabetes mellitus. The elimination of rosiglitazone occurs mainly via metabolism, with major contribution by enzyme cytochrome P450 (CYP) 2C8. Primary routes of rosiglitazone metabolism are N-demethylation and hydroxylation. Modulation of ",
-        "score": 0.4327438771724701,
-        "doi": "10.1016/j.dmpk.2024.101023",
-        "journal": "Drug metabolism and pharmacokinetics",
-        "year": "2024",
-        "rerank_score": 3.070570230484009,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:39887671",
+        "text": "Photothermal-Responsive Soluble Microneedle Patches for Meibomian Gland Dysfunction Therapy.\n\nMeibomian gland dysfunction (MGD) is a leading cause of evaporative dry eye disease, presenting a challenge for targeted treatment. Traditional topical ocular drug delivery methods often fail to effectively reach the meibomian glands (MGs). To address this, the study has developed a soluble microneedles (MN) patch comprising poly(vinyl alcohol), cyclodextrin modified polyacrylic acid, and new indocyanine green. This innovative MN patch facilitates the transdermal release of peroxisome proliferator-activated receptor gamma (PPAR-γ) agonists, such as rosiglitazone in response to near-infrared ray induced temperature changes. By safely optimizing temperature, the patch effectively liquefied meibum lips, thereby alleviating duct obstruction while releasing the drug. MN patches exhibit sufficient mechanical strength for effective skin penetration, and its biosafety for eyelid application has been rigorously assessed in vitro and in vivo. The therapeutic efficiency of rosiglitazone loaded MN (ROSI-MN) treatment for MGD is evaluated in high-fat mice. After three months of treatments, ROSI-MN administration significantly alleviated MGD clinical manifestations, including ocular surface damage, lipid deposits, glandular hypertrophy, and inflammatory infiltration, ultimately improving the microstructure and biofunction of MGs. In conclusion, the soluble MN patches hold promise as an effective drug delivery strategy for treating ocular surface diseases beyond MGD.",
+        "title": "Photothermal-Responsive Soluble Microneedle Patches for Meibomian Gland Dysfunction Therapy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "39887671",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "authors": [
+            "Yu Fei",
+            "Zhao Xuan",
+            "Wang Qian"
+          ],
+          "pub_date": "2025-Mar",
+          "doi": "10.1002/advs.202413962",
+          "mesh_terms": [
+            "Animals",
+            "Mice",
+            "Meibomian Gland Dysfunction",
+            "Rosiglitazone",
+            "Needles",
+            "Drug Delivery Systems",
+            "Meibomian Glands",
+            "Disease Models, Animal",
+            "Photothermal Therapy"
+          ]
         }
       },
       {
-        "id": "PMID:39969140",
-        "text": "The Impact of Augmented Renal Clearance on the Pharmacokinetics of Levetiracetam in Critically Ill Patients: A Literature Review. Levetiracetam is an antiseizure medication (ASM) that has several advantages over other ASMs, such as dose-proportional pharmacokinetics, high bioavailability, and minimal drug interactions. The drug is primarily eliminated through the kidneys. Therefore, dose adjustments are necessary in patients with renal impairment or patients experiencing augmented renal clearance (ARC) to m",
-        "score": 0.4387708902359009,
-        "doi": "10.1002/jcph.70007",
-        "journal": "Journal of clinical pharmacology",
-        "year": "2024",
-        "rerank_score": 0.28147873282432556,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:39104155",
+        "text": "Macrophage Polarization during MRONJ Development in Mice.\n\nMacrophages are important regulators of bone remodeling, and M1 polarization is observed in the setting of medication-related osteonecrosis of the jaws (MRONJ). Here, we characterize the phenotype of macrophages during early stages of MRONJ development in zoledronate (ZA)-treated mice with periodontal disease and explore the role of rosiglitazone, a drug that has been reported to lower the M1/M2 macrophage ratio, in MRONJ burden. Mice received ZA, and experimental periodontal disease (EPD) was induced around their second left maxillary molar. The mice were euthanized 1, 2, or 4 wk later. Micro-computed tomography and histologic and immunohistochemical analyses were carried out. In a separate experiment, mice were treated with ZA in the absence or presence of rosiglitazone, EPD was induced for 5 wk, and the MRONJ burden was assessed. An M1 predilection was noted in ZA versus vehicle (Veh) mice at 1, 2, or 4 wk after ligature placement. M1 cells were found to be positive for MMP-13, and their presence coincided with disruption of the surrounding collagen network in ZA mice. Rosiglitazone caused a reversal in the M1/M2 polarization in Veh and ZA mice. Rosiglitazone did not cause significant radiographic changes 5 wk after EPD in Veh or ZA animals. Importantly, percentage osteonecrosis and bone exposure were decreased in the rosiglitazone-treated versus nontreated ZA sites 5 wk after EPD. Our data point to an important role of M1 macrophage polarization with an overexpression of MMP-13 in the early phases of MRONJ development and provide insight into the use of interventional approaches promoting an M2 phenotype as a preventative means to alleviate MRONJ burden.",
+        "title": "Macrophage Polarization during MRONJ Development in Mice.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39104155",
+          "journal": "Journal of dental research",
+          "authors": [
+            "Soundia A",
+            "Elzakra N",
+            "Hadaya D"
+          ],
+          "pub_date": "2024-Aug",
+          "doi": "10.1177/00220345241258990",
+          "mesh_terms": [
+            "Animals",
+            "Mice",
+            "Rosiglitazone",
+            "Zoledronic Acid",
+            "Macrophages",
+            "X-Ray Microtomography",
+            "Thiazolidinediones",
+            "Bisphosphonate-Associated Osteonecrosis of the Jaw",
+            "Imidazoles",
+            "Diphosphonates",
+            "Matrix Metalloproteinase 13",
+            "Bone Density Conservation Agents",
+            "Disease Models, Animal",
+            "Phenotype",
+            "Male",
+            "Bone Remodeling",
+            "Mice, Inbred C57BL",
+            "Periodontal Diseases",
+            "Collagen"
+          ]
         }
       },
       {
-        "id": "PMID:39623604",
-        "text": "EXPRESSION OF CONCERN: Rosiglitazone and 15-deoxy-Δ",
-        "score": 0.4288618564605713,
-        "doi": "10.1111/bph.17421",
-        "journal": "British journal of pharmacology",
-        "year": "2024",
-        "rerank_score": -0.8980650305747986,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:10954962",
+        "text": "Rosiglitazone.\n\nRosiglitazone, a potent thiazolidinedione oral antidiabetic agent recently approved in the US, differs structurally from pioglitazone and troglitazone (other approved thiazolidinediones), with greater PPAR gamma binding affinity and antihyperglycaemic potency in preclinical models. Clinical data on more than 4500 patients with type 2 diabetes show that rosiglitazone is a safe, effective monotherapy or combination therapy, producing significant reductions in haemoglobin A1c and fasting plasma glucose under different dosing regimens. Unlike troglitazone, which has been associated with idiosyncratic hepatotoxicity and rare cases of liver failure and death, rosiglitazone has shown a low incidence of liver abnormalities in more than 3500 patient-years of exposure. No significant food or drug interactions have been reported. Particularly effective as first-line therapy, rosiglitazone is a useful addition to the roster of oral antidiabetic agents.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10954962",
+          "journal": "International journal of clinical practice",
+          "authors": [
+            "Goldstein B J"
+          ],
+          "pub_date": "2000-Jun",
+          "doi": "",
+          "mesh_terms": [
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Therapy, Combination",
+            "Food-Drug Interactions",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin Resistance",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones",
+            "United States"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40665921",
+        "text": "PPARγ Agonists Accelerate MRI Signal Resolution Mediated by Resting-State Astroglia in Acute Intracerebral Hemorrhage.\n\nIn the aftermath of intracerebral hemorrhage (ICH), the clearance of harmful substances from the hematoma helps to mitigate brain edema and reduce the risk of subsequent neurological damage. This study aimed to investigate the mechanism underlying early hematoma processing following ICH and to explore the potential of modulating this process via astrocyte regulation.\nICH was induced by intrastriatal injection of bacterial collagenase. A calcium channel blocker, pyr3 (ethyl 1-[4-(2,3,3-trichloroprop-2-enoylamino)phenyl]-5-(trifluoromethyl)pyrazole-4-carboxylate), was used to suppress astrocyte activity, or combined with PPARγ (peroxisome proliferator-activated receptor gamma) agonists (rosiglitazone and pioglitazone) as the intervention approach. The rats were randomly assigned to the following groups: ICH with vehicle treatment, ICH with pyr3 treatment, ICH with rosiglitazone treatment, ICH with pioglitazone treatment, ICH with pyr3 and rosiglitazone treatment, and ICH with pyr3 and pioglitazone treatment. Drugs were administered via the intraventricular route into the contralateral ventricle 10 minutes after ICH induction. The evolution of hematoma within the first 21 hours was meticulously examined using T2-weighted magnetic resonance imaging. Motor behavioral testing and diffusion-weighted imaging were used to assess longer-lasting functional outcomes and edema. To assess astrocyte-specific responses, an astrocyte cell line was incubated with hemin followed by different drug treatments. An intracellular hemin assay was used to quantify the hemin uptake capacity of astrocytes.\nDelayed signaling transitions of the hematoma were observed in the ICH with pyr3 treatment group in T2-weighted images, manifesting in different ICH models (ANOVA; P<0.001). The additional treatment of rosiglitazone rescued the delayed signaling transition (ANOVA; P<0.01) with a slight reduction in hematoma volume (ANOVA; P<0.001). ICH with pyr3 and pioglitazone treatment group exhibited improved motor behavior (ANOVA; P<0.001), gait (ANOVA; P<0.001), and reduced brain water content (ANOVA; P<0.01) than ICH with the vehicle treatment group. In cultured astrocytes, the combined treatment group showed increased HCP-1 (heme carrier protein-1) expression and hemin uptake within a few hours (P<0.001).\nCombined treatment with the calcium channel blocker, pyr3, and the PPARγ agonist accelerated the early absorption of heme iron by resting-state astrocytes, leading to improved functional performance and reduced edema in later stages.",
+        "title": "PPARγ Agonists Accelerate MRI Signal Resolution Mediated by Resting-State Astroglia in Acute Intracerebral Hemorrhage.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40665921",
+          "journal": "Stroke",
+          "authors": [
+            "Chiu You-Pen",
+            "Ji Hui-Ru",
+            "Yang Yi-Chin"
+          ],
+          "pub_date": "2025-Sep",
+          "doi": "10.1161/STROKEAHA.124.048584",
+          "mesh_terms": [
+            "Animals",
+            "PPAR gamma",
+            "Cerebral Hemorrhage",
+            "Astrocytes",
+            "Rats",
+            "Male",
+            "Rosiglitazone",
+            "Rats, Sprague-Dawley",
+            "Pioglitazone",
+            "Magnetic Resonance Imaging",
+            "Thiazolidinediones",
+            "Brain Edema"
+          ]
+        }
+      },
+      {
+        "id": "PMID:29058622",
+        "text": "Adverse drug effects observed with vildagliptin versus pioglitazone or rosiglitazone in the treatment of patients with type 2 diabetes mellitus: a systematic review and meta-analysis of randomized controlled trials.\n\nVildagliptin and pioglitazone/rosiglitazone are emerging Oral Hypoglycemic Agents (OHAs) which are used to treat patients suffering from Type 2 Diabetes Mellitus (T2DM). In this analysis, we aimed to systematically compare the adverse drug events which were observed with the use of vildagliptin versus pioglitazone or rosiglitazone respectively.\nOnline databases were searched for studies comparing vildagliptin with pioglitazone/rosiglitazone. Adverse drug events were considered as the clinical endpoints in this analysis. We calculated Odds Ratios (OR) with 95% Confidence Intervals (CIs) using the RevMan 5.3 software. All the authors had full access to the data which were used and approved the final version of the manuscript.\nA total number of 2396 patients were analyzed (1486 and 910 patients were treated with vildagliptin and pioglitazone/rosiglitazone respectively). Vildagliptin and pioglitazone/rosiglitazone were both associated with similar overall adverse drug events (OR: 1.00, 95% CI: 0.81-1.24; P = 1.00). Headache (OR: 0.88, 95% CI: 0.60-1.27; P = 0.49) and upper respiratory tract infection (OR: 0.95, 95% CI: 0.71-1.27; P = 0.75) were similarly observed. However, dizziness was significantly lower with pioglitazone/rosiglitazone (OR: 0.63, 95% CI: 0.43-0.92; P = 0.02). Back pain, diarrhea and nausea were insignificantly lower with pioglitazone/rosiglitazone (OR: 0.81, 95% CI: 0.49-1.33; P = 0.40), (OR: 0.83, 95% CI: 0.48-1.44; P = 0.52) and (OR: 0.52, 95% CI: 0.25-1.05; P = 0.07) respectively, whereas peripheral edema and weight gain were insignificantly higher (OR: 1.21, 95% CI: 0.56-2.62; P = 0.63) and (OR: 2.29, 95% CI: 0.51-10.34; P = 0.28) respectively. Nevertheless, when pioglitazone and rosiglitazone were separately compared with vildagliptin, peripheral edema and weight gain were significantly higher with rosiglitazone (OR: 2.36, 95% CI: 1.40-3.99; P = 0.001) and (OR: 5.20, 95% CI: 2.47-10.92; P = 0.0001) respectively.\nBoth vildagliptin and pioglitazone/rosiglitazone are acceptable for the treatment of patients with T2DM on the basis that they are not significantly different in terms of overall adverse drug events. However, weight gain and peripheral edema would have to be re-assessed in further larger randomized controlled trials.",
+        "title": "Adverse drug effects observed with vildagliptin versus pioglitazone or rosiglitazone in the treatment of patients with type 2 diabetes mellitus: a systematic review and meta-analysis of randomized controlled trials.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "29058622",
+          "journal": "BMC pharmacology & toxicology",
+          "authors": [
+            "Bundhun Pravesh Kumar",
+            "Janoo Girish",
+            "Teeluck Abhishek Rishikesh"
+          ],
+          "pub_date": "2017-Oct-23",
+          "doi": "10.1186/s40360-017-0175-0",
+          "mesh_terms": [
+            "Adamantane",
+            "Diabetes Mellitus, Type 2",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Nitriles",
+            "Pioglitazone",
+            "Pyrrolidines",
+            "Randomized Controlled Trials as Topic",
+            "Rosiglitazone",
+            "Thiazolidinediones",
+            "Vildagliptin"
+          ]
         }
       }
     ]

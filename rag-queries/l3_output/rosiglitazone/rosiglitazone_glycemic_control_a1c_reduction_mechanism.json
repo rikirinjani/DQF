@@ -4,54 +4,163 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:38756434",
-        "text": "Liraglutide and Robust A1C Reductions Among People With Type 2 Diabetes Requiring Appetite Control: A Review of Two Cases.",
-        "score": 0.40463846921920776,
-        "doi": "10.2337/ds23-0052",
-        "journal": "Diabetes spectrum : a publication of the American Diabetes Association",
-        "year": "2024",
-        "rerank_score": 0.7227277159690857,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:17145742",
+        "text": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.\n\nThe efficacy of thiazolidinediones, as compared with other oral glucose-lowering medications, in maintaining long-term glycemic control in type 2 diabetes is not known.\nWe evaluated rosiglitazone, metformin, and glyburide as initial treatment for recently diagnosed type 2 diabetes in a double-blind, randomized, controlled clinical trial involving 4360 patients. The patients were treated for a median of 4.0 years. The primary outcome was the time to monotherapy failure, which was defined as a confirmed level of fasting plasma glucose of more than 180 mg per deciliter (10.0 mmol per liter), for rosiglitazone, as compared with metformin or glyburide. Prespecified secondary outcomes were levels of fasting plasma glucose and glycated hemoglobin, insulin sensitivity, and beta-cell function.\nKaplan-Meier analysis showed a cumulative incidence of monotherapy failure at 5 years of 15% with rosiglitazone, 21% with metformin, and 34% with glyburide. This represents a risk reduction of 32% for rosiglitazone, as compared with metformin, and 63%, as compared with glyburide (P<0.001 for both comparisons). The difference in the durability of the treatment effect was greater between rosiglitazone and glyburide than between rosiglitazone and metformin. Glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosiglitazone (P<0.05), and the risk associated with metformin was similar to that with rosiglitazone. Rosiglitazone was associated with more weight gain and edema than either metformin or glyburide but with fewer gastrointestinal events than metformin and with less hypoglycemia than glyburide (P<0.001 for all comparisons).\nThe potential risks and benefits, the profile of adverse events, and the costs of these three drugs should all be considered to help inform the choice of pharmacotherapy for patients with type 2 diabetes. (ClinicalTrials.gov number, NCT00279045 [ClinicalTrials.gov].).",
+        "title": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "17145742",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Kahn Steven E",
+            "Haffner Steven M",
+            "Heise Mark A"
+          ],
+          "pub_date": "2006-Dec-07",
+          "doi": "10.1056/NEJMoa066224",
+          "mesh_terms": [
+            "Cardiovascular Diseases",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Double-Blind Method",
+            "Female",
+            "Glyburide",
+            "Glycated Hemoglobin",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Kaplan-Meier Estimate",
+            "Male",
+            "Metformin",
+            "Middle Aged",
+            "Proportional Hazards Models",
+            "Rosiglitazone",
+            "Thiazolidinediones",
+            "Treatment Outcome",
+            "Waist-Hip Ratio",
+            "Weight Gain"
+          ]
         }
       },
       {
-        "id": "PMID:39088906",
-        "text": "Physiologically based pharmacokinetic modeling of CYP2C8 substrate rosiglitazone and its metabolite to predict metabolic drug-drug interaction. Rosiglitazone is an activator of nuclear peroxisome proliferator-activated (PPAR) receptor gamma used in the treatment of type 2 diabetes mellitus. The elimination of rosiglitazone occurs mainly via metabolism, with major contribution by enzyme cytochrome P450 (CYP) 2C8. Primary routes of rosiglitazone metabolism are N-demethylation and hydroxylation. Modulation of ",
-        "score": 0.36974865198135376,
-        "doi": "10.1016/j.dmpk.2024.101023",
-        "journal": "Drug metabolism and pharmacokinetics",
-        "year": "2024",
-        "rerank_score": 0.5366753935813904,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:10400405",
+        "text": "Rosiglitazone.\n\nRosiglitazone, a thiazolidinedione antidiabetic agent, improves insulin resistance, a key underlying metabolic abnormality in most patients with type 2 (non-insulin-dependent) diabetes mellitus. In animal models of insulin resistance, rosiglitazone decreased plasma glucose, insulin and triglyceride levels and also attenuated or prevented diabetic nephropathy and pancreatic islet cell degeneration. In contrast with troglitazone, rosiglitazone does not induce cytochrome P4503A4 metabolism. It does not interact significantly with nifedipine, oral contraceptives, metformin, digoxin, ranitidine or acarbose. In clinical trials in patients with type 2 diabetes mellitus, rosiglitazone 2 to 12 mg/day (as a single daily dose or 2 divided daily doses) improved glycaemic control, as shown by decreases in fasting plasma glucose and glycosylated haemoglobin (HbA1c). Addition of rosiglitazone 2 to 8 mg/day to existing sulphonylurea, metformin or insulin therapy achieved further reductions in fasting plasma glucose and HbA1c. Oral combinations improved insulin sensitivity and beta-cell function according to a homeostasis model assessment. Consistent with its mechanism of action, rosiglitazone appears to be associated with a low risk of hypoglycaemia (<2% of patients receiving monotherapy). There is no evidence to date that rosiglitazone shares the hepatotoxicity of troglitazone.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10400405",
+          "journal": "Drugs",
+          "authors": [
+            "Balfour J A",
+            "Plosker G L"
+          ],
+          "pub_date": "1999-Jun",
+          "doi": "10.2165/00003495-199957060-00007",
+          "mesh_terms": [
+            "Animals",
+            "Blood Glucose",
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Polypharmacy",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
         }
       },
       {
-        "id": "PMID:40628043",
-        "text": "PPARγ activation reduces pancreatic beta cell death in type 1 diabetes by decreasing heparanase-dependent insulitis. While the majority of individuals with type 1 diabetes (T1D) receives lifelong exogenous insulin replacement therapy, a clinically significant subset remains refractory to achieving optimal glycemic targets, necessitating the exploration of novel adjunctive medications to enhance T1D treatment strategies. The aim of this study was to explore the efficacy of rosiglitazone (ROZ), a typical thia",
-        "score": 0.3959590792655945,
-        "doi": "10.1016/j.intimp.2025.115183",
-        "journal": "International immunopharmacology",
-        "year": "2025",
-        "rerank_score": 0.18840254843235016,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:16033298",
+        "text": "Rosiglitazone/Metformin.\n\nThe thiazolidinedione rosiglitazone and the biguanide metformin are effective antihyperglycaemic agents with different modes of action; rosiglitazone primarily increases insulin sensitivity, whereas metformin primarily reduces hepatic glucose output. Antihyperglycaemic combination therapy is often required to achieve effective glycaemic control. A fixed-dose formulation of rosiglitazone/metformin was recently approved in the EU and the US for the treatment of type 2 diabetes mellitus in patients inadequately controlled on metformin monotherapy. Bioequivalence between the fixed-dose combination tablet and coadministration of rosiglitazone with metformin at the same dosage has been established in a pharmacokinetic study. Fixed-dose rosiglitazone/metformin 8 mg/2g per day reduced glycosylated haemoglobin (HbA1c) and fasting plasma glucose (FPG) levels to a significantly greater extent than metformin 3 g/day in patients with type 2 diabetes in a 24-week, randomised, double-blind study. Rosiglitazone plus metformin was significantly more effective than metformin alone at reducing HbA1c and FPG levels in patients with type 2 diabetes in three 26-week, randomised, double-blind, placebo-controlled studies. Rosiglitazone plus metformin was generally well tolerated in all studies and had a tolerability profile similar to that of metformin monotherapy. Mild or moderate symptomatic hypoglycaemia was reported in <or=4.4% of rosiglitazone plus metformin recipients.",
+        "title": "Rosiglitazone/Metformin.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16033298",
+          "journal": "Drugs",
+          "authors": [
+            "Wellington Keri"
+          ],
+          "pub_date": "2005",
+          "doi": "10.2165/00003495-200565110-00013",
+          "mesh_terms": [
+            "Animals",
+            "Diabetes Mellitus",
+            "Drug Combinations",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Metformin",
+            "Rosiglitazone",
+            "Therapeutic Equivalency",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:11336599",
+        "text": "Rosiglitazone.\n\nType 2 diabetes mellitus is characterised by impaired insulin secretion, diminished peripheral insulin action and increased hepatic glucose production. Clinical trials have indicated that near-normal glucose control may reduce the risk for microvascular and - to a lesser extent - macrovascular complications in Type 2 diabetic patients. Thiazolidinediones improve insulin action by activating a nuclear receptor, PPARgamma. Therefore, these drugs are often referred to as 'insulin sensitisers'. Rosiglitazone is the second compound of this group. Clinical studies with rosiglitazone have shown that it is effective in lowering blood glucose levels in Type 2 diabetic patients treated with either diet alone, sulphonylurea or metformin. Preliminary studies suggest that rosiglitazone also improves glycaemic control in insulin-treated patients while even slightly decreasing insulin dose. The magnitude of the effects is, however, moderate. In diet-treated patients, the reduction of HbA1c levels amounted on average 0.5 - 1.5% and addition to existing sulphonylurea therapy decreased HbA1c by 1.0 - 1.2%. The clinical relevance of additional beneficial effects, i.e., on blood pressure and microalbuminuria, needs to be determined further. Rosiglitazone does not cause hypoglycaemia or gastrointestinal side effects. There is however some concern related to fluid retention, which seems to be an effect of all PPARgamma agonists. In patients treated with rosiglitazone, no severe hepatotoxic side effects have been noticed until now. In the treatment of our patients with Type 2 diabetes, drugs like rosiglitazone which directly reduce insulin resistance are very welcome but more data on its combined use with insulin are needed. Additional studies will also explore its long-term effects in sparing beta-cell function and reducing diabetes-related complications and atherosclerosis.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11336599",
+          "journal": "Expert opinion on pharmacotherapy",
+          "authors": [
+            "Wolffenbuttel B H",
+            "Sels J P",
+            "Huijberts M S"
+          ],
+          "pub_date": "2001-Mar",
+          "doi": "10.1517/14656566.2.3.467",
+          "mesh_terms": [
+            "Animals",
+            "Blood Pressure",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Drug Therapy, Combination",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Metformin",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:10954962",
+        "text": "Rosiglitazone.\n\nRosiglitazone, a potent thiazolidinedione oral antidiabetic agent recently approved in the US, differs structurally from pioglitazone and troglitazone (other approved thiazolidinediones), with greater PPAR gamma binding affinity and antihyperglycaemic potency in preclinical models. Clinical data on more than 4500 patients with type 2 diabetes show that rosiglitazone is a safe, effective monotherapy or combination therapy, producing significant reductions in haemoglobin A1c and fasting plasma glucose under different dosing regimens. Unlike troglitazone, which has been associated with idiosyncratic hepatotoxicity and rare cases of liver failure and death, rosiglitazone has shown a low incidence of liver abnormalities in more than 3500 patient-years of exposure. No significant food or drug interactions have been reported. Particularly effective as first-line therapy, rosiglitazone is a useful addition to the roster of oral antidiabetic agents.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10954962",
+          "journal": "International journal of clinical practice",
+          "authors": [
+            "Goldstein B J"
+          ],
+          "pub_date": "2000-Jun",
+          "doi": "",
+          "mesh_terms": [
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Therapy, Combination",
+            "Food-Drug Interactions",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin Resistance",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones",
+            "United States"
+          ]
         }
       }
     ]

@@ -4,54 +4,122 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40602229",
-        "text": "Activation of ERK/MAPK signaling by MAZ through transcriptional repression of PPP3CA to promote osteoclastogenesis and osteoporosis progression: Functions and mechanisms. Osteoporosis (OP) is a systemic skeletal disease that contributes to compromised bone strength and increased fracture risk. This paper investigates the functional role of protein phosphatase 3 catalytic subunit α (PPP3CA) in OP and its mechanisms. Bioinformatics prediction analysis was performed to identify genes associated with OP and its",
-        "score": 0.3719392418861389,
-        "doi": "10.1016/j.tice.2025.103028",
-        "journal": "Tissue & cell",
-        "year": "2025",
-        "rerank_score": 4.976477146148682,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:36142643",
+        "text": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.\n\nProton pump inhibitors (PPIs) are an antacid drug often used in acid-related disorders. They decrease acid secretion in the stomach by blocking an enzyme called H+/K+ ATPase which controls acid production. Introduced to the market in 1989, their use has increased rapidly worldwide and they are now among the top 10 most prescribed drugs in the United States. As of 2015, the FDA has already approved six drugs of this class (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole and rabeprazole). Recently, the risks and benefits of long-term PPI use were questioned and many studies indicated that their use should be carefully considered, especially in young patients, whose treatment with these drugs could last many years. Even greater concerns have been raised about a potential positive association between PPIs and osteoporotic fracture risk including the hip, spine and wrist. Although based on observational studies, there is substantial evidence associating the long-term use of PPIs and fracture. This relationship is only partially admitted due to the lack of consistent effects of PPIs on bone mineral density loss. Therefore, this narrative review aimed to discuss the recent findings pertaining to the risk of osteoporotic fracture associated with PPIs, in particular prolonged use, and to call for further research to elucidate the mechanisms associated with this bone fragility.",
+        "title": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "36142643",
+          "journal": "International journal of molecular sciences",
+          "authors": [
+            "Lespessailles Eric",
+            "Toumi Hechmi"
+          ],
+          "pub_date": "2022-Sep-14",
+          "doi": "10.3390/ijms231810733",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adenosine Triphosphatases",
+            "Antacids",
+            "Bone Density",
+            "Dexlansoprazole",
+            "Esomeprazole",
+            "Humans",
+            "Lansoprazole",
+            "Omeprazole",
+            "Osteoporotic Fractures",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Rabeprazole",
+            "United States"
+          ]
         }
       },
       {
-        "id": "PMID:40360512",
-        "text": "FABP4 inhibition suppresses bone resorption and protects against postmenopausal osteoporosis in ovariectomized mice. Postmenopausal osteoporosis (PMOP) is a condition in women caused by estrogen deficiency, characterized by reduced bone mass and increased fracture risk. Fatty acid-binding protein 4 (FABP4), a lipid-binding protein involved in metabolism and inflammation, has emerged as a key regulator in metabolic disorders and bone resorption; however, its direct role in PMOP remains unclear. Here, we show",
-        "score": 0.369259238243103,
-        "doi": "10.1038/s41467-025-59719-w",
-        "journal": "Nature communications",
-        "year": "2024",
-        "rerank_score": 3.489579677581787,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:14687806",
+        "text": "Gastric acid control with esomeprazole, lansoprazole, omeprazole, pantoprazole, and rabeprazole: a five-way crossover study.\n\nProton pump inhibitors owe their clinical efficacy to their ability to suppress gastric acid production. The objective of this study was to evaluate and compare intragastric pH following standard doses of esomeprazole, lansoprazole, omeprazole, pantoprazole and rabeprazole.\nThis randomized, open-label, comparative five-way crossover study evaluated the 24-h intragastric pH profile of oral esomeprazole 40 mg, lansoprazole 30 mg, omeprazole 20 mg, pantoprazole 40 mg, and rabeprazole 20 mg once daily in 34 Helicobacter pylori-negative patients aged 18-60 yr with symptoms of gastroesophageal reflux disease. Patients were randomly assigned to one of five treatment sequences and study drug was taken on 5 consecutive mornings 30 minutes prior to a standardized breakfast. A washout period of at least 10 days separated each treatment phase.\nThirty-four patients provided evaluable data for all five comparators. The mean number of hours of evaluable pH data was > or =23.75 hours. On day 5, intragastric pH was maintained above 4.0 for a mean of 14.0 h with esomeprazole, 12.1 h with rabeprazole, 11.8 h with omeprazole, 11.5 h with lansoprazole, and 10.1 h with pantoprazole (p < or = 0.001 for differences between esomeprazole and all other comparators). Esomeprazole also provided a significantly higher percentage of patients with an intragastric pH greater than 4.0 for more than 12 h relative to the other proton pump inhibitors (p < 0.05). The frequency of adverse events was similar between treatment groups.\nEsomeprazole at the standard dose of 40 mg once daily provided more effective control of gastric acid at steady state than standard doses of lansoprazole, omeprazole, pantoprazole, and rabeprazole in patients with symptoms of gastroesophageal reflux disease.",
+        "title": "Gastric acid control with esomeprazole, lansoprazole, omeprazole, pantoprazole, and rabeprazole: a five-way crossover study.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "14687806",
+          "journal": "The American journal of gastroenterology",
+          "authors": [
+            "Miner Philip",
+            "Katz Philip O",
+            "Chen Yusong"
+          ],
+          "pub_date": "2003-Dec",
+          "doi": "10.1111/j.1572-0241.2003.08783.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adolescent",
+            "Adult",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Chi-Square Distribution",
+            "Cross-Over Studies",
+            "Esomeprazole",
+            "Female",
+            "Gastric Acid",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Lansoprazole",
+            "Least-Squares Analysis",
+            "Male",
+            "Middle Aged",
+            "Omeprazole",
+            "Pantoprazole",
+            "Rabeprazole",
+            "Sulfoxides",
+            "Treatment Outcome"
+          ]
         }
       },
       {
-        "id": "PMID:39189924",
-        "text": "Caffeic acid derivative MPMCA suppresses osteoclastogenesis and facilitates osteoclast apoptosis: implications for the treatment of bone loss disorders. Osteoclast activity plays a crucial role in the pathological mechanisms of osteoporosis and bone remodeling. The treatment of these disorders involves the use of pharmacological medicines that work by inhibiting the activity of osteoclasts. Nevertheless, the prevalent and infrequent negative consequences of current antiresorptive and bone anabolic treatment",
-        "score": 0.37315833568573,
-        "doi": "10.18632/aging.206067",
-        "journal": "Aging",
-        "year": "2024",
-        "rerank_score": 2.8974826335906982,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:40421218",
+        "text": "Exploring the mechanisms and targets of proton pump inhibitors-induced osteoporosis through network toxicology, molecular docking, and molecular dynamics simulations.\n\nProton pump inhibitors (PPIs) are widely used for the treatment of acid-related disorders, but long-term use has been increasingly associated with an elevated risk of osteoporosis. However, the underlying molecular mechanisms and specific targets of PPIs-induced bone loss remain poorly understood. This study aimed to explore the molecular mechanisms and key genes of PPIs-induced osteoporosis using network toxicology, molecular docking, and molecular dynamics simulations.\nWe identified common targets of four widely used PPIs (omeprazole, lansoprazole, pantoprazole, and rabeprazole) and osteoporosis by screening large-scale biological databases. A protein-protein interaction network was constructed, and key hub genes were determined based on topological parameters such as degree, betweenness centrality, and closeness centrality. Enrichment analysis was performed to explore the biological processes, cellular components, molecular functions, and KEGG pathways associated with the overlapping targets. Molecular docking was conducted to evaluate the binding affinities between PPIs and their potential targets, and molecular dynamics simulations were employed to assess the stability of these interactions over time.\nWe identified 35 potential targets for omeprazole-induced osteoporosis, 39 for lansoprazole, 29 for pantoprazole, and 29 for rabeprazole. Topological analysis of the protein-protein interaction networks revealed the hub genes for each PPI: epidermal growth factor receptor (EGFR) for omeprazole, estrogen receptor 1 (ESR1) for lansoprazole, EGFR for pantoprazole, and Proto-oncogene tyrosine-protein kinase SRC for rabeprazole. Molecular docking demonstrated strong and stable binding affinities between PPIs and their respective targets, with binding energies all below -5 kcal/mol. Molecular dynamics simulations confirmed the structural stability of these complexes, characterized by low root mean square deviation and root mean square fluctuation values and consistent hydrogen bond formation.\nThis study identified EGFR, ESR1, and SRC as key regulatory genes in PPIs-induced osteoporosis, highlighting their roles in bone metabolism. The stable interactions between PPIs and these targets suggest their involvement in bone loss, providing a foundation for future experimental validation.",
+        "title": "Exploring the mechanisms and targets of proton pump inhibitors-induced osteoporosis through network toxicology, molecular docking, and molecular dynamics simulations.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40421218",
+          "journal": "Frontiers in pharmacology",
+          "authors": [
+            "Mu Yaqi",
+            "Zhou Yaqi",
+            "Zhang Xinan"
+          ],
+          "pub_date": "2025",
+          "doi": "10.3389/fphar.2025.1592048",
+          "mesh_terms": []
+        }
+      },
+      {
+        "id": "PMID:33461697",
+        "text": "Rabeprazole: A comprehensive profile.\n\nRabeprazole belongs to the class of anti-secretory drugs, with benzimidazoles substitution. These drugs induce gastric acid secretion through precise inhibition of the enzyme H+/K+-ATPase (acid or proton pump). This effect helps to treat and prevent conditions in which gastric acid directly aggravates symptoms such as duodenal and gastric ulcers. This chapter includes a comprehensive review of rabeprazole in terms of nomenclature, its physical-chemical properties, methods of preparation and ADME profiles. In addition, the chapter also includes a review of several methods for analysis of rebeprazole in its dosage forms and biological fluids.",
+        "title": "Rabeprazole: A comprehensive profile.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "33461697",
+          "journal": "Profiles of drug substances, excipients, and related methodology",
+          "authors": [
+            "Bakheit Ahmed H",
+            "Al-Kahtani Hamad M",
+            "Albraiki Salem"
+          ],
+          "pub_date": "2021",
+          "doi": "10.1016/bs.podrm.2020.07.003",
+          "mesh_terms": [
+            "Anti-Ulcer Agents",
+            "Gastric Acid",
+            "Humans",
+            "Proton Pump Inhibitors",
+            "Rabeprazole"
+          ]
         }
       }
     ]

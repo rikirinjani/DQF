@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41562647",
-        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
-        "score": 0.5022968053817749,
-        "doi": "10.1080/13696998.2026.2615606",
-        "journal": "Journal of medical economics",
-        "year": "2026",
-        "rerank_score": 1.6436262130737305,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3864637017250061,
+        "score": 0.3864637017250061,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:8630634",
-        "text": "A double-blind study to compare the efficacy and safety of meloxicam 15 mg with piroxicam 20 mg in patients with osteoarthritis of the hip. Meloxicam 15 mg once daily (n = 128) was compared with piroxicam 20 mg (n = 127) in this 6 week, double-blind, parallel-group, randomized, multicentre study in out-patients with symptomatic osteoarthritis (OA) of the hip. Assessments of pain, global efficacy and global tolerance were made on a 10 cm horizontal visual analogue scale; severity of OA was evaluated by Leque",
-        "score": 0.46011221408843994,
-        "doi": "10.1093/rheumatology/35.suppl_1.35",
-        "journal": "British journal of rheumatology",
-        "year": "1996",
-        "rerank_score": -1.1757726669311523,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22165523",
+        "text": "[The number needed to treat (NNT)]. The number needed to treat (NNT) is a valuable information in treatment decisions. This is the result of a calculation based on published data, collected from an intervention study. NNT is the inverse of the absolute risk reduction (1/ARR) between two treatment options. It is always expressed by a value rounded up to whole numbers, between 1 and infinity, depending on the effectiveness of the new treatment being studied. The NNT is the average number of patients needed to be treated for a duration equal to the study period to achieve one additional positive response under the conditions of the study. The more the treatment will be effective, the more the NNT will be low (tending towards 1). The NNT should be calculated based on the results of a clinical study of good methodological quality, involving a well-defined and homogeneous group of patients, whose baseline risk is known and using a dichotomous endpoint (the event occurs or not). The study must have shown a statistically significant difference between the two groups. In the process of medical decision making, the NNT must be balanced with the safety profile of the treatment (represented by the number needed to harm, or NNH), the costs and stress associated with it. It is possible to calculate a NNT and its confidence interval, from the published data of a clinical study. Some authors report the NNT in the text of the publication.",
+        "doi": "",
+        "journal": "Revue medicale de Bruxelles",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4388081729412079,
+        "score": 0.4388081729412079,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41140664",
-        "text": "A real-world data analysis of piroxicam in the FDA Adverse Event Reporting System (FAERS) database. Piroxicam is a widely used antipyretic and analgesic. Due to an increasing number of adverse event (AE) reports, effective pharmacovigilance is essential for evaluating its benefit-risk profile. We assessed the safety profile of piroxicam through disproportionality analysis based on all AE reports involving the drug in the FDA Adverse Event Reporting System (FAERS) from 2004 till 2024. Signal detection was pe",
-        "score": 0.48823145031929016,
-        "doi": "10.3389/fmed.2025.1687088",
-        "journal": "Frontiers in medicine",
-        "year": "2025",
-        "rerank_score": -1.2100290060043335,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16174840",
+        "text": "Number needed to treat: a descriptor for weighing therapeutic options. The utility and limitations of the number needed to treat (NNT) are described and compared with those of alternative descriptors of therapeutic yield. Pharmacists, physicians, and patients are more likely to launch interventions based on relative measures of therapeutic yield. The NNT is a simple way to express the absolute therapeutic yield of an intervention. It is essential to take baseline risk and length of follow-up into account when calculating and interpreting absolute or relative measures of therapeutic yield. Patients may have difficulty understanding what the NNT tells them about the benefits and harms associated with an intervention, and confidence intervals for the NNT can be difficult to interpret. Relative measures of benefits are advantageous for comparing benefits across populations with different risks. The use of absolute measures to describe therapeutic options leads to more conservative decision-making and is potentially more useful. Among the absolute measures, the absolute risk reduction may be easier to understand than the NNT. These measures are most helpful when the best options are not clear or when patient input is needed. Personal digital assistants and Web-based tools can assist with calculations. The NNT is a useful measure but is influenced by numerous variables and may not be easily understood by patients.",
+        "doi": "10.2146/ajhp040558",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.4438394606113434,
+        "score": 0.4438394606113434,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

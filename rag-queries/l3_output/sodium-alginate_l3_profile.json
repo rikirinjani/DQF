@@ -1,14 +1,30 @@
 {
   "_evidence": {
     "pmids": [
-      "23020277",
-      "27447444",
+      "16977507",
+      "17451926",
+      "23484864",
+      "24655031",
+      "30667557",
       "30940497",
       "35621940",
-      "40058440"
+      "38265063",
+      "38754168",
+      "38920926",
+      "39777299",
+      "40600413",
+      "40637018",
+      "40795549",
+      "40941086",
+      "41149413",
+      "41192969"
     ],
-    "source_count": 1,
-    "finding_count": 5
+    "source_count": 9,
+    "finding_count": 17,
+    "dup_pmids_skipped": 1,
+    "pool_relevance_pct": 62.1,
+    "filtered_off_drug": 11,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

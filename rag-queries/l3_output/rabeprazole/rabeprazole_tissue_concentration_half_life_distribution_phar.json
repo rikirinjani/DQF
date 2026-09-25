@@ -4,54 +4,141 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:39326395",
-        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
-        "score": 0.4065118432044983,
-        "doi": "10.1159/000541619",
-        "journal": "Ophthalmic research",
-        "year": "2024",
-        "rerank_score": -1.8173319101333618,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:39711068",
-        "text": "A Phase 1, Open-Label, Randomized, Two-Part Study in Healthy Adult Volunteers to Evaluate the Bioavailability of the Maribavir Powder for Oral Suspension, as Well as Food Effect and Impact of Rabeprazole. The relative bioavailability and impact of food and the proton pump inhibitor rabeprazole on the pharmacokinetics of a maribavir powder-for-oral-suspension formulation was investigated in a Phase 1 open-label study in healthy adult volunteers. A single 200-mg maribavir dose was administered as the commerci",
-        "score": 0.3967573046684265,
-        "doi": "10.1002/cpdd.1493",
-        "journal": "Clinical pharmacology in drug development",
-        "year": "2024",
-        "rerank_score": -2.305614948272705,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:29562147",
+        "text": "Helicobacter pylori Therapy for the Prevention of Metachronous Gastric Cancer.\n\nPatients with early gastric cancers that are limited to gastric mucosa or submucosa usually have an advanced loss of mucosal glandular tissue (glandular atrophy) and are at high risk for subsequent (metachronous) development of new gastric cancer. The long-term effects of treatment to eradicate Helicobacter pylori on histologic improvement and the prevention of metachronous gastric cancer remain unclear.\nIn this prospective, double-blind, placebo-controlled, randomized trial, we assigned 470 patients who had undergone endoscopic resection of early gastric cancer or high-grade adenoma to receive either H. pylori eradication therapy with antibiotics or placebo. Two primary outcomes were the incidence of metachronous gastric cancer detected on endoscopy performed at the 1-year follow-up or later and improvement from baseline in the grade of glandular atrophy in the gastric corpus lesser curvature at the 3-year follow-up.\nA total of 396 patients were included in the modified intention-to-treat analysis population (194 in the treatment group and 202 in placebo group). During a median follow-up of 5.9 years, metachronous gastric cancer developed in 14 patients (7.2%) in the treatment group and in 27 patients (13.4%) in the placebo group (hazard ratio in the treatment group, 0.50; 95% confidence interval, 0.26 to 0.94; P=0.03). Among the 327 patients in the subgroup that underwent histologic analysis, improvement from baseline in the atrophy grade at the gastric corpus lesser curvature was observed in 48.4% of the patients in the treatment group and in 15.0% of those in the placebo group (P<0.001). There were no serious adverse events; mild adverse events were more common in the treatment group (42.0% vs. 10.2%, P<0.001).\nPatients with early gastric cancer who received H. pylori treatment had lower rates of metachronous gastric cancer and more improvement from baseline in the grade of gastric corpus atrophy than patients who received placebo. (Funded by the National Cancer Center, South Korea; ClinicalTrials.gov number, NCT02407119 .).",
+        "title": "Helicobacter pylori Therapy for the Prevention of Metachronous Gastric Cancer.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "29562147",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Choi Il Ju",
+            "Kook Myeong-Cherl",
+            "Kim Young-Il"
+          ],
+          "pub_date": "2018-Mar-22",
+          "doi": "10.1056/NEJMoa1708423",
+          "mesh_terms": [
+            "Adenoma",
+            "Adult",
+            "Aged",
+            "Amoxicillin",
+            "Anti-Bacterial Agents",
+            "Clarithromycin",
+            "Double-Blind Method",
+            "Drug Therapy, Combination",
+            "Female",
+            "Follow-Up Studies",
+            "Gastritis, Atrophic",
+            "Gastroscopy",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Humans",
+            "Incidence",
+            "Intention to Treat Analysis",
+            "Kaplan-Meier Estimate",
+            "Male",
+            "Middle Aged",
+            "Neoplasm Recurrence, Local",
+            "Prospective Studies",
+            "Proton Pump Inhibitors",
+            "Rabeprazole",
+            "Stomach",
+            "Stomach Neoplasms"
+          ]
         }
       },
       {
-        "id": "PMID:34979059",
-        "text": "Population Pharmacokinetic Modeling and Exposure-Response Analysis for Aripiprazole Once Monthly in Subjects With Schizophrenia. An intramuscular formulation of aripiprazole monohydrate dosed once monthly (AOM) was developed to address nonadherence with the approved oral tablets. A 3-compartment linear population pharmacokinetic model for oral and AOM doses was developed; relative bioavailability was estimated for AOM relative to oral dosing and body mass index and sex were significant predictors of AOM abs",
-        "score": 0.3757500648498535,
-        "doi": "10.1002/cpdd.1022",
-        "journal": "Clinical pharmacology in drug development",
-        "year": "2020",
-        "rerank_score": -3.2237765789031982,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:15016609",
+        "text": "Pharmacogenomics of proton pump inhibitors.\n\nProton pump inhibitors (PPIs), such as omeprazole, lansoprazole, rabeprazole, esomeprazole, and pantoprazole, are metabolized by cytochrome P450 isoenzyme 2C19 (CYP2C19) in the liver. There are genetic differences that affect the activity of this enzyme. The genotypes of CYP2C19 are classified into three groups: homozygous extensive metabolizer (homEM), heterozygous extensive metabolizer (hetEM), and poor metabolizer (PM). The pharmacokinetics and pharmacodynamics of PPIs differ among the different CYP2C19 genotype groups. Plasma PPI and intragastric pH levels during PPI treatment are the lowest in the homEM group and the highest in the PM group. These CYP2C19 genotype-dependent differences in pharmacokinetics and pharmacodynamics of PPIs are reflected in the cure rates for gastroesophageal reflux disease and Helicobacter pylori infection with PPI-based therapies. The CYP2C19 genotyping test is a useful tool for deciding on the optimal treatment regimen using a PPI, including a dual (PPI plus antibiotic) or a triple (PPI plus two antibiotics) therapy.",
+        "title": "Pharmacogenomics of proton pump inhibitors.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15016609",
+          "journal": "Pharmacogenomics",
+          "authors": [
+            "Furuta Takahisa",
+            "Shirai Naohito",
+            "Sugimoto Mitsushige"
+          ],
+          "pub_date": "2004-Mar",
+          "doi": "10.1517/phgs.5.2.181.27483",
+          "mesh_terms": [
+            "Anti-Bacterial Agents",
+            "Aryl Hydrocarbon Hydroxylases",
+            "Cytochrome P-450 CYP2C19",
+            "Drug Therapy, Combination",
+            "Enzyme Inhibitors",
+            "Gastroesophageal Reflux",
+            "Helicobacter Infections",
+            "Humans",
+            "Mixed Function Oxygenases",
+            "Pharmacogenetics",
+            "Polymorphism, Genetic",
+            "Proton Pump Inhibitors",
+            "Proton Pumps"
+          ]
+        }
+      },
+      {
+        "id": "PMID:12369444",
+        "text": "Rabeprazole: pharmacokinetics and pharmacokinetic drug interactions.\n\nRabeprazole is the most recently approved proton pump inhibitor in Germany. The substance has an absolute bioavailability upon oral administration of approximately 52% which is robust against food intake or administration of antacids. Maximal plasma concentrations are reached after approximately 3-4 h. Concentrations increase proportionally with the dose. Rabeprazole undergoes an almost complete, mainly non-enzymatic metabolism with renal elimination of the metabolites. CYP3A4 and CYP2C19 contribute to the fraction of metabolism mediated enzymatically. Elimination half-life is about 1 h. The extent of rabeprazole concentration increase by old age, poor metabolizer status for CYP2C19 and impairment of liver function is not greater than two-fold, impaired renal function does not affect the elimination. Even in patients with delayed elimination, no relevant accumulation of rabeprazole was observed upon long-term administration. In in vivo studies, rabeprazole had no noteworthy effect on the metabolism of other drugs. This statement however must be made with reservation because of shortcomings in published studies with respect to the methods used and presentation and because of lacking investigations about possible effects on the cytochrome P-450 enzymes CYP3A4 and CYP2D6. A slight reduction in ketoconazole absorption and a moderate increase in digoxin concentrations should be taken into account for concomitant therapy, but is expected to be clinically relevant only in isolated cases. Based on these partially incomplete data, in summary it is to be expected that rabeprazole can be administered at a standard dose for the respective disease in almost any patient for the entire duration of therapy, and that usually no dose adjustment of other drugs is required when rabeprazole is coadministered.",
+        "title": "Rabeprazole: pharmacokinetics and pharmacokinetic drug interactions.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "12369444",
+          "journal": "Die Pharmazie",
+          "authors": [
+            "Fuhr U",
+            "Jetter A"
+          ],
+          "pub_date": "2002-Sep",
+          "doi": "",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adult",
+            "Aging",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Biological Availability",
+            "Child",
+            "Clinical Trials as Topic",
+            "Drug Interactions",
+            "Female",
+            "Food-Drug Interactions",
+            "Humans",
+            "Intestinal Absorption",
+            "Male",
+            "Omeprazole",
+            "Rabeprazole"
+          ]
         }
       }
     ]

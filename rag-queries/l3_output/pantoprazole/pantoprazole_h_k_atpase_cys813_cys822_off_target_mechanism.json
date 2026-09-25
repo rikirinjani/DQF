@@ -4,54 +4,110 @@
     "dimension": "off_target",
     "target": "H+/K+ ATPase (Cys813+Cys822)"
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40413744",
-        "text": "Assembly and cooperative mechanism of the hexameric fungal plasma membrane H The fungal plasma membrane H+-ATPase Pma1 hydrolyzes ATP to pump protons out of the cell to maintain the intracellular pH and membrane potential. Pma1 is unique among the P-type ATPases as it functions as a hexamer, although the underlying mechanism has been unclear. Here, we show that the Pma1 hexamer functions cooperatively, and the cooperativity is mediated by the domain-swapped N-terminal extension (NTE). The NTE of one Pma1 su",
-        "score": 0.4118543863296509,
-        "doi": "10.1016/j.celrep.2025.115753",
-        "journal": "Cell reports",
-        "year": "2024",
-        "rerank_score": -1.288343071937561,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:36142643",
+        "text": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.\n\nProton pump inhibitors (PPIs) are an antacid drug often used in acid-related disorders. They decrease acid secretion in the stomach by blocking an enzyme called H+/K+ ATPase which controls acid production. Introduced to the market in 1989, their use has increased rapidly worldwide and they are now among the top 10 most prescribed drugs in the United States. As of 2015, the FDA has already approved six drugs of this class (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole and rabeprazole). Recently, the risks and benefits of long-term PPI use were questioned and many studies indicated that their use should be carefully considered, especially in young patients, whose treatment with these drugs could last many years. Even greater concerns have been raised about a potential positive association between PPIs and osteoporotic fracture risk including the hip, spine and wrist. Although based on observational studies, there is substantial evidence associating the long-term use of PPIs and fracture. This relationship is only partially admitted due to the lack of consistent effects of PPIs on bone mineral density loss. Therefore, this narrative review aimed to discuss the recent findings pertaining to the risk of osteoporotic fracture associated with PPIs, in particular prolonged use, and to call for further research to elucidate the mechanisms associated with this bone fragility.",
+        "title": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "36142643",
+          "journal": "International journal of molecular sciences",
+          "authors": [
+            "Lespessailles Eric",
+            "Toumi Hechmi"
+          ],
+          "pub_date": "2022-Sep-14",
+          "doi": "10.3390/ijms231810733",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adenosine Triphosphatases",
+            "Antacids",
+            "Bone Density",
+            "Dexlansoprazole",
+            "Esomeprazole",
+            "Humans",
+            "Lansoprazole",
+            "Omeprazole",
+            "Osteoporotic Fractures",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Rabeprazole",
+            "United States"
+          ]
         }
       },
       {
-        "id": "PMID:39707503",
-        "text": "V-ATPase in cancer: mechanistic insights and therapeutic potentials. Vacuolar-type H+-ATPase (V-ATPase) is a crucial proton pump that plays an essential role in maintaining intracellular pH homeostasis and a variety of physiological processes. This review provides an in-depth exploration of the structural components, functional mechanisms, and regulatory modes of V-ATPase in cancer cells. Comprising two main domains, V",
-        "score": 0.3970290422439575,
-        "doi": "10.1186/s12964-024-01998-9",
-        "journal": "Cell communication and signaling : CCS",
-        "year": "2024",
-        "rerank_score": -2.859650135040283,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35787720",
+        "text": "An update on drug-drug interactions associated with proton pump inhibitors.\n\nProton pump inhibitors (PPIs) block the gastric H/K-ATPase, therefore inhibiting acid gastric secretion, leading to an increased pH (>4). They account for an extremely high number of prescriptions worldwide. Numerous drug-drug interactions have been described with PPIs, but all the described interactions do not have clinical significance.\nThis review will discuss the latest updates on drug-drug interactions with PPIs, focusing on the last 10-year publications in the following areas: anti-infective agents, anticancer drugs, antiplatelet agents and anticoagulants, and antidiabetics.\nAlthough pharmacokinetic interactions of PPIs have been described with many drugs, their clinical relevance remains controversial. However, given the extremely high number of people being treated with PPIs, clinicians should remain vigilant for interactions that may be clinically significant and require dose adjustment or therapeutic monitoring. Interestingly, not all PPIs have the same pharmacokinetic and pharmacodynamic profile, with some having a strong potential to inhibit CYP2C19, such as omeprazole, esomeprazole, and lansoprazole, while others, pantoprazole, rabeprazole, and dexlansoprazole, are weak CYP2C19 inhibitors. These may be preferred depending on co-prescribed treatments.In addition, new formulations have been developed to prevent some of the gastric pH-dependent drug interactions and should be evaluated in further large-scale prospective comparative studies.",
+        "title": "An update on drug-drug interactions associated with proton pump inhibitors.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35787720",
+          "journal": "Expert opinion on drug metabolism & toxicology",
+          "authors": [
+            "Ben Ghezala Inès",
+            "Luu Maxime",
+            "Bardou Marc"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1080/17425255.2022.2098107",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Drug Interactions",
+            "Enzyme Inhibitors",
+            "Esomeprazole",
+            "Humans",
+            "Omeprazole",
+            "Prospective Studies",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:40498833",
-        "text": "ATP13A1 engages SEC61 to facilitate substrate-specific translocation. The accurate targeting of proteins to their designated cellular compartments is essential for maintaining proper cellular architecture and function. However, interpreting and sorting the highly variable targeting sequences in secreted and membrane proteins present a substantial challenge for achieving precise localization within the secretory pathway. In this study, we demonstrate that atypical signal sequences, characterized by high hydr",
-        "score": 0.3950953483581543,
-        "doi": "10.1126/sciadv.adt1346",
-        "journal": "Science advances",
-        "year": "2025",
-        "rerank_score": -2.9359853267669678,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:11402494",
+        "text": "Pantoprazole.\n\nThe pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosage and administration of pantoprazole are reviewed. Pantoprazole is a gastric hydrogen-potassium adenosine triphosphatase (H+/K(+)-ATPase) inhibitor. It shares the same core structure as other currently available proton-pump inhibitors (PPIs). The FDA-labeled indication is the short-term treatment of erosive esophagitis. PPIs act by selectively inhibiting H+/K(+)-ATPase in the secretory canaliculus of the stimulated parietal cell. Understanding the pharmacodynamics of PPIs is more relevant than knowing their pharmacokinetics, since the duration of action depends on the rate of de novo proton-pump regeneration, not the duration of drug circulation in the body. Pantoprazole is well absorbed, undergoes little first-pass metabolism, and has an absolute bioavailability of approximately 77%. Pantoprazole has been evaluated in more than 100 clinical trials involving more than 11,000 patients. It is effective in treating erosive esophagitis and duodenal and gastric ulcers. It is also effective as adjunctive treatment with antimicrobials in patients infected with Helicobacter pylori. Pantoprazole has been shown to control acid production in Zollinger-Ellison syndrome. Pantoprazole is well tolerated. The most commonly reported adverse effects are headache, diarrhea, and abdominal pain. The recommended oral dosage for erosive esophagitis is 40 mg once a day for up to eight weeks. The recommended i.v. dose is 40 mg given over 15 minutes once a day in patients with gastroesophageal reflux disease who are unable to take oral medication. Pantoprazole appears to be as safe and effective as other PPIs in acid-related disorders.",
+        "title": "Pantoprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11402494",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Poole P"
+          ],
+          "pub_date": "2001-Jun-01",
+          "doi": "10.1093/ajhp/58.11.999",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Enzyme Inhibitors",
+            "Esophagitis",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Sulfoxides"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15703599",
+        "text": "Gastric secretion.\n\nGastric acid facilitates the digestion of protein and the absorption of iron, calcium, and vitamin B12. It also protects against bacterial overgrowth and enteric infection, including prion disease. When homeostatic mechanisms malfunction, the volume and concentration of acid may overwhelm mucosal defense mechanisms, leading to duodenal ulcer, gastric ulcer, and gastroesophageal reflux disease. This article reviews recent knowledge contributing to understanding of the regulation of gastric acid secretion at the central, peripheral, and intracellular levels.\nThe vagus nerve contains afferent fibers that transmit sensory information from the stomach to the nucleus of the solitary tract. Input from the nucleus of the solitary tract is relayed to vagal efferent neurons that originate from two brain stem nuclei: the nucleus ambiguus and the dorsal motor nucleus of the vagus. The latter is also influenced by thyrotropin-releasing hormone neurons that act centrally to stimulate acid secretion. The main peripheral stimulants of acid secretion are the hormone gastrin and the paracrine amine histamine. Gastrin stimulates acid secretion directly and, more importantly, indirectly by releasing histamine from fundic enterochromaffin-like cells. Gastrin also exerts trophic effects on various tissues, including the gastric and intestinal mucosa. The main inhibitor of acid secretion is somatostatin. Somatostatin, acting via ssTR2 receptors, exerts a tonic paracrine inhibitory influence on the secretion of gastrin, histamine, and acid secretion. Calcitonin gene-related peptide, adrenomedullin, amylin, atrial natriuretic peptide, and pituitary adenylate cyclase-activating polypeptide all stimulate somatostatin secretion and thus inhibit acid secretion. HK-ATPase, the proton pump of the parietal cell, is stored within cytoplasmic tubulovesicles during the resting state, but during stimulation, it is shuttled to the canalicular membrane by a poorly understood mechanism that probably involves soluble N-ethylmaleimide-sensitive factor attachment protein receptor proteins. The proton pump inhibitor, pantoprazole, is unique in that it binds cysteine 822, located deep within the membrane domain of the alpha-subunit. The difficulty that reducing agents, such as glutathione, have in reaching cysteine 822 may be responsible for the longer half-time for acid recovery observed with pantoprazole. Hypergastrinemia, induced by proton pump inhibitors, enhances expression of cyclooxygenase-2 and hence prostaglandins within parietal cells, a feedback pathway that may protect the stomach against acid-induced damage.\nIn the past year, significant advances have been made in understanding of the regulation of gastric acid secretion. Ultimately, these advances should lead to improved therapies to prevent and treat acid-related disorders. Gastric acid secretion must be precisely controlled at a variety of levels to prevent disease caused by hyperchlorhydria and hypochlorhydria. The mechanisms include neural (central and peripheral), hormonal, paracrine, and intracellular pathways that operate in concert to switch acid secretion on during ingestion of a meal and off during the interdigestive period. A better understanding of the physiology of acid secretion in health and disease should eventually lead to improved therapies to prevent and treat acid-related disorders.",
+        "title": "Gastric secretion.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15703599",
+          "journal": "Current opinion in gastroenterology",
+          "authors": [
+            "Schubert Mitchell L"
+          ],
+          "pub_date": "2003-Nov",
+          "doi": "10.1097/00001574-200311000-00002",
+          "mesh_terms": []
         }
       }
     ]

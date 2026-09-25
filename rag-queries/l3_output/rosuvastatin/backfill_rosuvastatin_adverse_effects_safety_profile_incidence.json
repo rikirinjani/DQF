@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:27815113",
-        "text": "Rosuvastatin safety: An experimental study of myotoxic effects and mitochondrial alterations in rats. Myopathy is the most commonly reported adverse effect of statins. All statins are associated with myopathy, though with different rates. Rosuvastatin is a potent statin reported to induce myopathy comparable to earlier statins. However, in clinical practice most patients could tolerate rosuvastatin over other statins. This study aimed to evaluate the myopathic pattern of rosuvastatin in rats using biochemic",
-        "score": 0.40717047452926636,
-        "doi": "10.1016/j.toxlet.2016.10.017",
-        "journal": "Toxicology letters",
-        "year": "2016",
-        "rerank_score": 6.026223182678223,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15246717",
+        "text": "Safety and efficacy of rosuvastatin.",
+        "doi": "10.1016/S0140-6736(04)16616-6",
+        "journal": "Lancet (London, England)",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.3761769235134125,
+        "score": 0.3761769235134125,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:22304793",
-        "text": "Renal safety of intensive cholesterol-lowering treatment with rosuvastatin: a retrospective analysis of renal adverse events among 40,600 participants in the rosuvastatin clinical development program. Intensive lowering of low-density lipoprotein cholesterol (LDL-C) with statins reduces cardiovascular risk but can cause liver-, muscle-, and possibly renal-related adverse events (AEs). We assessed the effects of rosuvastatin on the risk of developing renal impairment or renal failure among participants in th",
-        "score": 0.39818045496940613,
-        "doi": "10.1016/j.atherosclerosis.2011.12.011",
-        "journal": "Atherosclerosis",
-        "year": "2011",
-        "rerank_score": 5.259440898895264,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16733834",
+        "text": "Rosuvastatin safety: a comprehensive, international pharmacoepidemiology programme. Results from clinical trials and clinical practice have shown statins to be generally well tolerated with a low frequency of clinically relevant side effects. Nevertheless, there are rare occasions when adverse events (AEs), sometimes serious, may occur. Rosuvastatin is the newest statin to be approved in the USA and many other countries. As part of the continued assessment of the benefit-risk profile of rosuvastatin, AstraZeneca has developed a progressive, comprehensive pharmacoepidemiology programme to complement safety data obtained from randomised clinical trials and spontaneous reporting systems, which have demonstrated that rosuvastatin has a safety profile in line with comparator statins. This programme comprises nine studies conducted in recognised centres of excellence assessing over 50,000 patients treated with rosuvastatin. It consists of three components: patient characteristics studies (four studies), safety evaluation studies (four studies); and review of data generated from the Prescription-Event Monitoring (PEM) study, designed and run by an independent third party. Patient characteristics studies are designed to describe the characteristics and drug utilisation patterns of new users of rosuvastatin compared with new users of other statins in automated databases. Safety evaluation studies will examine the rates of specific AEs in different cohorts of statin users and determine risk factors for these events using data recorded prospectively in automated databases with case adjudication via medical record review. The independent PEM study will monitor any significant events recorded by general practitioners since starting rosuvastatin treatment. This article is an overview of the rationale and methodology of the rosuvastatin pharmacoepidemiology programme.",
+        "doi": "10.1002/pds.1260",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.4058542251586914,
+        "score": 0.4058542251586914,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41182640",
-        "text": "Risk of Hematuria, Proteinuria, and Cardiovascular Events in Patients Treated with Rosuvastatin Compared with Atorvastatin: A Retrospective Cohort Study in 136,680 Patients. Rosuvastatin and atorvastatin are the two primary high-intensity statins used for cardiovascular risk reduction. However, concerns have been raised regarding the renal safety profile of rosuvastatin. This study compared risks of hematuria, proteinuria, and cardiovascular events between rosuvastatin- and atorvastatin-treated patients. Th",
-        "score": 0.3967251181602478,
-        "doi": "10.1007/s40256-025-00776-3",
-        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
-        "year": "2025",
-        "rerank_score": 5.0786895751953125,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16581327",
+        "text": "Statin safety: an appraisal from the adverse event reporting system. The adverse event (AE) profiles of 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase inhibitor (statin) agents are of great interest, in particular the most recently approved statin, rosuvastatin. The forwarding of reports of AEs has been shown to be influenced by several reporting biases, including secular trend, the new drug reporting effect, product withdrawals, and publicity. Comparative assessments that use AE reporting rates are difficult to interpret under these circumstances, because such effects can themselves lead to marked increases in AE reporting. Consequently, many comparative reporting rate analyses are best carried out in conjunction with other metrics that put reporting burden into context, such as report proportion. All-AE reporting rates showed a temporal profile that resembled those of other statins when marketing cycle and secular trend were taken into account. A before-and-after cerivastatin withdrawal comparison showed a substantial increase in the reporting of AEs of interest for the statin class overall. Report proportion analyses indicated that the burden of rosuvastatin-associated AEs was similar to that for other statin agents. Analyses of monthly reporting rates showed that the reporting of rosuvastatin-associated rhabdomyolysis and renal failure have increased following AE-specific mass media publicity. Postrosuvastatin AE reporting patterns were comparable to those seen with other statins and did not resemble cerivastatin.",
+        "doi": "10.1016/j.amjcard.2005.12.008",
+        "journal": "The American journal of cardiology",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.40888482332229614,
+        "score": 0.40888482332229614,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

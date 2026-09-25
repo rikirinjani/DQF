@@ -4,54 +4,144 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:39539895",
-        "text": "Comparative Efficacy of Dexlansoprazole, Pantoprazole, Esomeprazole, and Rabeprazole in Achieving Optimal 24-Hour Intragastric pH Control: A Randomized Crossover Study Using Ambulatory pH Monitoring. Proton pump inhibitors (PPIs) regulate gastric acid reflux. Dexlansoprazole's efficacy in prolonging acid suppression compared to conventional PPIs and placebo requires evaluation. A prospective, randomized, placebo-controlled, five-way crossover pilot study was conducted on healthy volunteers comparing the pot",
-        "score": 0.40165871381759644,
-        "doi": "10.7759/cureus.71418",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": 0.8517441153526306,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:28964908",
+        "text": "Interchangeable Use of Proton Pump Inhibitors Based on Relative Potency.\n\nAlthough proton pump inhibitors (PPIs) are widely used, their relative potency and ideal dosing regimens remain unclear. We analyzed data from randomized clinical trials that performed pH testing in patients receiving solid-dose PPI formulations (omeprazole, esomeprazole, lansoprazole, pantoprazole, rabeprazole) for a minimum of 5 days. We used omeprazole equivalency and the surrogate biomarker, percentage time pH > 4 over a 24-hour period (pH4time), to compare PPI effectiveness for different PPIs given once, twice, or 3 times daily. We found that increasing strength of once-daily PPIs (9-64 mg omeprazole equivalents) increased pH4time linearly from approximately 10.0 to 15.6 hours; higher doses produced no further increase in pH4time. Increasing the frequency to twice-daily PPI increased pH4time linearly, from approximately 15.8 to 21.0 hours. Three-times daily PPIs performed similarly to twice-daily PPIs. The costs of PPIs varied greatly, but the cost variation was not directly related to potency. We conclude that PPIs can be used interchangeably based on potency. Using twice-daily PPIs is more effective in increasing efficacy increasing once-daily PPI dosage. Omeprazole and lansoprazole (30 mg) and 20 mg of esomeprazole rabeprazole are functionally equivalent.",
+        "title": "Interchangeable Use of Proton Pump Inhibitors Based on Relative Potency.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "28964908",
+          "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+          "authors": [
+            "Graham David Y",
+            "Tansel Aylin"
+          ],
+          "pub_date": "2018-Jun",
+          "doi": "10.1016/j.cgh.2017.09.033",
+          "mesh_terms": [
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Proton Pump Inhibitors",
+            "Randomized Controlled Trials as Topic",
+            "Treatment Outcome"
+          ]
         }
       },
       {
-        "id": "PMID:39404726",
-        "text": "[Efficacy of rabeprazole for the treatment of gastroesophageal reflux disease in a 7-day non-interventional trial]. To evaluate the efficacy of seven-day treatment with rabeprazole (Razo Thirty patients with typical GERD manifestations were examined. The study included patients who underwent pH-impedancemetry, endoscopic examination, and were prescribed treatment with rabeprazole at a dose of 20 mg once a day. Clinical monitoring was performed during three visits: before treatment, after 3 days, and after 7",
-        "score": 0.3764658272266388,
-        "doi": "10.26442/00403660.2024.08.202895",
-        "journal": "Terapevticheskii arkhiv",
-        "year": "2024",
-        "rerank_score": 0.2546346187591553,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:18925391",
+        "text": "Relative potency of proton-pump inhibitors-comparison of effects on intragastric pH.\n\nComparative potency of proton-pump inhibitors (PPIs) is an important clinical issue. Most available trials have compared the different PPIs at one or a few selected specific dosages, making it difficult to derive quantitative equivalence dosages. Here we derived PPI dose equivalents based on a comprehensive assessment of dose-dependent effects on intragastric pH.\nAll available clinical studies reporting the effects of PPIs on mean 24-h intragastric pH were sought from electronic databases including Medline. Studies included were restricted to those targeting the Caucasian population, and healthy volunteers or gastroesophageal reflux disease (GERD) patients. The dose-effect relationships for mean 24-h intragastric pH and for percentage of time with pH > 4 in 24 h were analyzed for each PPI using pharmacodynamic modeling with NONMEM and a model integrating all available data.\nFifty-seven studies fulfilled the inclusion criteria. Based on the mean 24-h gastric pH, the relative potencies of the five PPIs compared to omeprazole were 0.23, 0.90, 1.00, 1.60, and 1.82 for pantoprazole, lansoprazole, omeprazole, esomeprazole, and rabeprazole, respectively. Compared with healthy volunteers, patients with GERD needed a 1.9-fold higher dose and Helicobacter pylori-positive individuals needed only about 20% of the dose to achieve a given increase in mean 24-h intragastric pH.\nThe present meta-analysis provides quantitative estimates on clinical potency of individual PPIs that may be helpful when switching between PPIs and for assessing the cost-effectiveness of specific PPIs. However, our estimates must be viewed with caution because only a limited dose range has been tested and not exactly the same study conditions were applied for the different substances.",
+        "title": "Relative potency of proton-pump inhibitors-comparison of effects on intragastric pH.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "18925391",
+          "journal": "European journal of clinical pharmacology",
+          "authors": [
+            "Kirchheiner Julia",
+            "Glatt Silke",
+            "Fuhr Uwe"
+          ],
+          "pub_date": "2009-Jan",
+          "doi": "10.1007/s00228-008-0576-5",
+          "mesh_terms": [
+            "Dose-Response Relationship, Drug",
+            "Drug Dosage Calculations",
+            "Gastric Acid",
+            "Gastric Acidity Determination",
+            "Gastric Mucosa",
+            "Gastroesophageal Reflux",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Models, Biological",
+            "Practice Guidelines as Topic",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:40094149",
-        "text": "Real-world-evidence, prospective-observational study to evaluate safety and effectiveness of rabeprazole dual-delayed-release capsules in patients with gastroesophageal reflux disease. Abnormal gastric acid reflux into the esophagus causes symptoms of gastroesophageal reflux disease (GERD) such as heartburn and regurgitation and also leads to mucosal damage. This damage can further lead to complications such as Barrett's esophagus and esophagitis. Conventional proton pump inhibitors (PPIs) often fail to red",
-        "score": 0.38400182127952576,
-        "doi": "10.4292/wjgpt.v16.i1.103898",
-        "journal": "World journal of gastrointestinal pharmacology and therapeutics",
-        "year": "2024",
-        "rerank_score": -1.5945607423782349,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35787720",
+        "text": "An update on drug-drug interactions associated with proton pump inhibitors.\n\nProton pump inhibitors (PPIs) block the gastric H/K-ATPase, therefore inhibiting acid gastric secretion, leading to an increased pH (>4). They account for an extremely high number of prescriptions worldwide. Numerous drug-drug interactions have been described with PPIs, but all the described interactions do not have clinical significance.\nThis review will discuss the latest updates on drug-drug interactions with PPIs, focusing on the last 10-year publications in the following areas: anti-infective agents, anticancer drugs, antiplatelet agents and anticoagulants, and antidiabetics.\nAlthough pharmacokinetic interactions of PPIs have been described with many drugs, their clinical relevance remains controversial. However, given the extremely high number of people being treated with PPIs, clinicians should remain vigilant for interactions that may be clinically significant and require dose adjustment or therapeutic monitoring. Interestingly, not all PPIs have the same pharmacokinetic and pharmacodynamic profile, with some having a strong potential to inhibit CYP2C19, such as omeprazole, esomeprazole, and lansoprazole, while others, pantoprazole, rabeprazole, and dexlansoprazole, are weak CYP2C19 inhibitors. These may be preferred depending on co-prescribed treatments.In addition, new formulations have been developed to prevent some of the gastric pH-dependent drug interactions and should be evaluated in further large-scale prospective comparative studies.",
+        "title": "An update on drug-drug interactions associated with proton pump inhibitors.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35787720",
+          "journal": "Expert opinion on drug metabolism & toxicology",
+          "authors": [
+            "Ben Ghezala Inès",
+            "Luu Maxime",
+            "Bardou Marc"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1080/17425255.2022.2098107",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Drug Interactions",
+            "Enzyme Inhibitors",
+            "Esomeprazole",
+            "Humans",
+            "Omeprazole",
+            "Prospective Studies",
+            "Proton Pump Inhibitors"
+          ]
+        }
+      },
+      {
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
+        }
+      },
+      {
+        "id": "PMID:37635269",
+        "text": "Pharmacological treatment of gastro-oesophageal reflux in children.\n\nGastro-oesophageal reflux (GOR) is characterised by the regurgitation of gastric contents into the oesophagus. GOR is a common presentation in infancy, both in primary and secondary care, affecting approximately 50% of infants under three months old. The natural history of GOR in infancy is generally of a self-limiting condition that improves with age, but older children and children with co-existing medical conditions can have more protracted symptoms. The distinction between gastro-oesophageal reflux disease (GORD) and GOR is debated. Current National Institute of Health and Care Excellence (NICE) guidelines define GORD as GOR causing symptoms severe enough to merit treatment. This is an update of a review first published in 2014.\nTo assess the effects of pharmacological treatments for GOR in infants and children.\nFor this update, we searched CENTRAL, MEDLINE, Embase, and Web of Science up to 17 September 2022. We also searched for ongoing trials in clinical trials registries, contacted experts in the field, and searched the reference lists of trials and reviews for any additional trials.\nWe included randomised controlled trials (RCTs) that compared any currently-available pharmacological treatment for GOR in children with placebo or another medication. We excluded studies assessing dietary management of GORD and studies of thickened feeds. We included studies in infants and children up to 16 years old.\nWe used standard methodology expected by Cochrane.\nWe included 36 RCTs involving 2251 children and infants. We were able to extract summary data from 14 RCTs; the remaining trials had insufficient data for extraction. We were unable to pool results in a meta-analysis due to methodological differences in the included studies (including heterogeneous outcomes, study populations, and study design). We present the results in two groups by age: infants up to 12 months old, and children aged 12 months to 16 years old. Infants Omeprazole versus placebo: there is no clear effect on symptoms from omeprazole. One study (30 infants; very low-certainty evidence) showed cry/fuss time in infants aged three to 12 months had altered from 246 ± 105 minutes/day at baseline (mean +/- standard deviation (SD)) to 191 ± 120 minutes/day in the omeprazole group and from 287 ± 132 minutes/day to 201 ± 100 minutes/day in the placebo group (mean difference (MD) 10 minutes/day lower (95% confidence interval (CI) -89.1 to 69.1)). The reflux index changed in the omeprazole group from 9.9 ± 5.8% in 24 hours to 1.0 ± 1.3% and in the placebo group from 7.2 ± 6.0% to 5.3 ± 4.9% in 24 hours (MD 7% lower, 95% CI -4.7 to -9.3). Omeprazole versus ranitidine: one study (76 infants; very low-certainty evidence) showed omeprazole may or may not provide symptomatic benefit equivalent to ranitidine. Symptom scores in the omeprazole group changed from 51.9 ± 5.4 to 2.4 ± 1.2, and in the ranitidine group from 47 ± 5.6 to 2.5 ± 0.6 after two weeks: MD -4.97 (95% CI -7.33 to -2.61). Esomeprazole versus placebo: esomeprazole appeared to show no additional reduction in the number of GORD symptoms compared to placebo (1 study, 52 neonates; very low-certainty evidence): both the esomeprazole group (184.7 ± 78.5 to 156.7 ± 75.1) and placebo group (183.1 ± 77.5 to 158.3 ± 75.9) improved: MD -3.2 (95% CI -4.6 to -1.8). Children Proton pump inhibitors (PPIs) at different doses may provide little to no symptomatic and endoscopic benefit. Rabeprazole given at different doses (0.5 mg/kg and 1 mg/kg) may provide similar symptom improvement (127 children in total; very low-certainty evidence). In the lower-dose group (0.5 mg/kg), symptom scores improved in both a low-weight group of children (< 15 kg) (mean -10.6 ± SD 11.13) and a high-weight group of children (> 15 kg) (mean -13.6 ± 13.1). In the higher-dose groups (1 mg/kg), scores improved in the low-weight (-9 ± 11.2) and higher-weight groups (-8.3 ± 9.2). For the higher-weight group, symptom score mean difference between the two different dosing regimens was 2.3 (95% CI -2 to 6.6), and for the lower-weight group, symptom score MD was 4.6 (95% CI -2.9 to 12). Pantoprazole: pantoprazole may or may not improve symptom scores at 0.3 mg/kg, 0.6 mg/kg, and 1.2 mg/kg pantoprazole in children aged one to five years by week eight, with no difference between 0.3 mg/kg and 1.2 mg/kg dosing (0.3 mg/kg mean -2.4 ± 1.7; 1.2 mg/kg -1.7 ± 1.2: MD 0.7 (95% CI -0.4 to 1.8)) (one study, 60 children; very low-certainty evidence). There were insufficient summary data to assess other medications.\nThere is very low-certainty evidence about symptom improvements and changes in pH indices for infants. There are no summary data for endoscopic changes. Medications may or may not provide a benefit (based on very low-certainty evidence) for infants whose symptoms remain bothersome, despite nonmedical interventions or parental reassurance. If a medication is required, there is no clear evidence based on summary data for omeprazole, esomeprazole (in neonates), H₂antagonists, and alginates for symptom improvements (very low-certainty evidence). Further studies with longer follow-up are needed. In older children with GORD, in studies with summary data extracted, there is very low-certainty evidence that PPIs (rabeprazole and pantoprazole) may or may not improve GORD outcomes. No robust data exist for other medications. Further RCT evidence is required in all areas, including subgroups (preterm babies and children with neurodisabilities).",
+        "title": "Pharmacological treatment of gastro-oesophageal reflux in children.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37635269",
+          "journal": "The Cochrane database of systematic reviews",
+          "authors": [
+            "Tighe Mark P",
+            "Andrews Edward",
+            "Liddicoat Iona"
+          ],
+          "pub_date": "2023-Aug-22",
+          "doi": "10.1002/14651858.CD008550.pub3",
+          "mesh_terms": [
+            "Adolescent",
+            "Child",
+            "Humans",
+            "Infant",
+            "Infant, Newborn",
+            "Esomeprazole",
+            "Gastroesophageal Reflux",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Rabeprazole",
+            "Ranitidine"
+          ]
         }
       }
     ]

@@ -4,54 +4,159 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40083682",
-        "text": "The Los Angeles-B esophagitis is a conclusive diagnostic evidence for gastroesophageal reflux disease: the validation of Lyon Consensus 2.0. Recently, Lyon Consensus 2.0 recommended Los Angeles (LA)-B esophagitis as conclusive evidence and LA-A esophagitis as borderline evidence for gastroesophageal reflux disease (GERD). This study aimed to investigate the diagnostic value of LA-B and LA-A esophagitis. Patients with typical reflux symptoms who underwent endoscopy examination and received acid-suppressive t",
-        "score": 0.4627889394760132,
-        "doi": "10.1093/gastro/goaf004",
-        "journal": "Gastroenterology report",
-        "year": "2024",
-        "rerank_score": 0.6351441740989685,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38345252",
+        "text": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.\n\nLos Angeles grade C/D esophagitis is a severe manifestation of gastroesophageal reflux disease that require active treatment and close follow-up. Potassium competitive acid blockers (P-CAB) are promising alternatives to proton pump inhibitors (PPI). We aimed to compare the efficacy and safety of P-CAB and PPI in healing grade C/D esophagitis to aid clinical decision-making.\nA systematic literature search was performed using PubMed, MEDLINE, and Cochrane Central Register of Controlled Trials. Randomized controlled trials were eligible for inclusion if efficacy of P-CAB and PPI in healing grade C/D esophagitis was reported. Pooled risk ratios and risk difference with 95% credible intervals were used to summarize estimated effect of each comparison. The benefit of treatments was ranked using the surface under the cumulative probability ranking score.\nOf 5,876 articles identified in the database, 24 studies were eligible. Studies included incorporated 3 P-CAB (vonoprazan, tegoprazan, and keverprazan) and 6 PPI (lansoprazole, esomeprazole, omeprazole, rabeprazole extended-release (ER), pantoprazole, and dexlansoprazole). Based on the failure to achieve mucosal healing, 20 mg of vonoprazan q.d. ranked the first among PPI in initial and maintained healing of grade C/D esophagitis (surface under the cumulative probability ranking score = 0.89 and 0.87, respectively). Vonoprazan had similar risk of incurring adverse events, severe adverse events, and withdrawal to drug when compared with PPI. For those who attempted lower maintenance treatment dose, 10 mg of vonoprazan q.d. was a reasonable choice, considering its moderate efficacy and safety.\nVonoprazan has considerable efficacy in initial and maintained healing of grade C/D esophagitis compared with PPI, with moderate short-term and long-term safety.",
+        "title": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38345252",
+          "journal": "The American journal of gastroenterology",
+          "authors": [
+            "Zhuang Qianjun",
+            "Chen Songfeng",
+            "Zhou Xuyu"
+          ],
+          "pub_date": "2024-May-01",
+          "doi": "10.14309/ajg.0000000000002714",
+          "mesh_terms": [
+            "Humans",
+            "Esophagitis",
+            "Esophagitis, Peptic",
+            "Gastroesophageal Reflux",
+            "Proton Pump Inhibitors",
+            "Pyrroles",
+            "Randomized Controlled Trials as Topic",
+            "Sulfonamides",
+            "Treatment Outcome"
+          ]
         }
       },
       {
-        "id": "PMID:39648266",
-        "text": "Long-term efficacy of on-demand vonoprazan treatment for mild reflux esophagitis: success rates and predictors of treatment failure. Concerns surrounding long-term proton pump inhibitor use have prompted the exploration of alternative treatments for reflux esophagitis (RE). We previously demonstrated that 24 weeks of on-demand treatment with vonoprazan, a potassium-competitive acid blocker, effectively managed mild RE (Los Angeles classification grade A/B) in more than 80% of patients. However, its long-ter",
-        "score": 0.4534095525741577,
-        "doi": "10.1007/s10388-024-01099-z",
-        "journal": "Esophagus : official journal of the Japan Esophageal Society",
-        "year": "2024",
-        "rerank_score": 0.1987159252166748,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:11402494",
+        "text": "Pantoprazole.\n\nThe pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosage and administration of pantoprazole are reviewed. Pantoprazole is a gastric hydrogen-potassium adenosine triphosphatase (H+/K(+)-ATPase) inhibitor. It shares the same core structure as other currently available proton-pump inhibitors (PPIs). The FDA-labeled indication is the short-term treatment of erosive esophagitis. PPIs act by selectively inhibiting H+/K(+)-ATPase in the secretory canaliculus of the stimulated parietal cell. Understanding the pharmacodynamics of PPIs is more relevant than knowing their pharmacokinetics, since the duration of action depends on the rate of de novo proton-pump regeneration, not the duration of drug circulation in the body. Pantoprazole is well absorbed, undergoes little first-pass metabolism, and has an absolute bioavailability of approximately 77%. Pantoprazole has been evaluated in more than 100 clinical trials involving more than 11,000 patients. It is effective in treating erosive esophagitis and duodenal and gastric ulcers. It is also effective as adjunctive treatment with antimicrobials in patients infected with Helicobacter pylori. Pantoprazole has been shown to control acid production in Zollinger-Ellison syndrome. Pantoprazole is well tolerated. The most commonly reported adverse effects are headache, diarrhea, and abdominal pain. The recommended oral dosage for erosive esophagitis is 40 mg once a day for up to eight weeks. The recommended i.v. dose is 40 mg given over 15 minutes once a day in patients with gastroesophageal reflux disease who are unable to take oral medication. Pantoprazole appears to be as safe and effective as other PPIs in acid-related disorders.",
+        "title": "Pantoprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11402494",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Poole P"
+          ],
+          "pub_date": "2001-Jun-01",
+          "doi": "10.1093/ajhp/58.11.999",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Enzyme Inhibitors",
+            "Esophagitis",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Sulfoxides"
+          ]
         }
       },
       {
-        "id": "PMID:38777170",
-        "text": "Comparison of Los Angeles Grades of Erosive Esophagitis Scored by Local Investigators vs Central Adjudicators in a Clinical Trial. Approximately 30% of patients with typical gastroesophageal reflux disease (GERD) symptoms have endoscopic evidence of erosive esophagitis (EE).",
-        "score": 0.456429660320282,
-        "doi": "10.1016/j.cgh.2024.05.007",
-        "journal": "Clinical gastroenterology and hepatology : the official clinical practice journa",
-        "year": "2024",
-        "rerank_score": -0.9486624002456665,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:8793599",
+        "text": "Pharmacokinetics of pantoprazole in man.\n\nThe proton pump inhibitor pantoprazole is a substituted benzimidazole sulphoxide for the treatment of acid-related gastrointestinal diseases such as reflux esophagitis, duodenal and gastric ulcers. Pantoprazole, administered as a 40 mg enteric coated tablet, is quantitatively absorbed. Its absolute bioavailability is 77% and does not change upon multiple dosing. Following a single oral dose of 40 mg, Cmax is approximately 2.5 mg/l, with a tmax of 2-3 h. The AUC(0,inf.) is approximately 5 mgxh/l. Pantoprazole shows linear pharmacokinetics after both i.v. and oral administration. Pantoprazole is extensively metabolized in the liver, has a total serum clearance of 0.1 l/h/kg, a serum elimination half-life of about 1.1 h, and an apparent volume of distribution of 0.15 l/kg. 98% of pantoprazole is bound to serum proteins. Elimination half-life, clearance and volume of distribution are independent of the dose. The main serum metabolite is formed by demethylation at the 4-position of the pyridine ring, followed by conjugation with sulphate. Almost 80% of an oral or intravenous dose is excreted as metabolites in urine; the remainder is found in feces and originates from biliary secretion. The pharmacokinetics of pantoprazole are unaltered in patients with renal failure. In patients with severe liver cirrhosis, the decreased rate of metabolism results in a half-life of 7-9 h. The clearance of pantoprazole is only slightly affected by age, its half-life being approximately 1.25 h in the elderly. Concomitant intake of food had no influence on the bioavailability of pantoprazole. Pantoprazole showed lack of cytochrome P450 interaction with concomitantly administered drugs in any of the studies conducted to date. Lack of interaction was also demonstrated with a coadministered antacid. The absence of inductive effects on metabolism after chronic administration was first shown by using antipyrine as a probe for mixed functional oxidative cytochrome P450 enzymes. Absence of CYP1A2 induction was confirmed using the specific probe caffeine. As sensitive probes for CYP3A enzyme induction, urinary excretion of D-glucaric acid and 6 beta-hydroxycortisol were also unchanged.",
+        "title": "Pharmacokinetics of pantoprazole in man.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "8793599",
+          "journal": "International journal of clinical pharmacology and therapeutics",
+          "authors": [
+            "Huber R",
+            "Hartmann M",
+            "Bliesath H"
+          ],
+          "pub_date": "1996-May",
+          "doi": "",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adolescent",
+            "Adult",
+            "Aged",
+            "Benzimidazoles",
+            "Enzyme Inhibitors",
+            "Female",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Sulfoxides"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40315134",
+        "text": "Risk Factors for Patient-Important Upper Gastrointestinal Bleeding.\n\nRationale: Patient-important gastrointestinal bleeding is an endpoint developed by patients and family members; however, risk factors for this outcome are unknown. Objectives: We sought to identify risk factors for patient-important upper gastrointestinal bleeding among invasively ventilated adults. Methods: This preplanned regression analysis of an international trial database evaluated baseline and time-varying risk factors in the preceding 3 days for patient-important upper gastrointestinal bleeding, accounting for illness severity and the competing risk of death. Measurements and Main Results: Patient-important upper gastrointestinal bleeding occurred in the ICU among 131 of 4,821 (2.7%) patients. Baseline APACHE II score-hazard ratio (HR), 1.24 (95% confidence interval [CI] = 1.12, 1.37) per 5-point increase-and the following were associated with greater risk of patient-important bleeding: inotropes or vasopressors (HR, 2.05 [95% CI = 1.35, 3.12]), severe thrombocytopenia (platelet count, <50 × 109/L) (HR, 2.21 [95% CI = 1.24, 3.94]) and platelet inhibitor drugs (HR, 1.69 [95% CI = 1.11, 2.56]). A lower bleeding risk was associated with pantoprazole (HR, 0.36 [95% CI = 0.25, 0.54]) and enteral nutrition (HR, 0.81 [95% CI = 0.68, 0.97]) for every increase of 500 ml/d. There was no interaction between enteral nutrition and pantoprazole (interaction P = 0.94). Allocation to pantoprazole was associated with a lower risk of patient-important upper gastrointestinal bleeding regardless of the volume of enteral nutrition (for 500 ml/d: HR, 0.36 [95% CI = 0.22, 0.58]; for no enteral nutrition: HR, 0.36 [95% CI = 0.18, 0.72]). The association of enteral nutrition and bleeding was similar with pantoprazole (HR, 0.82 [95% CI = 0.63, 1.07]) or without pantoprazole (HR, 0.81 [95% CI = 0.66, 1.00]). Conclusions: Several factors are associated with the risk of patient-important upper gastrointestinal bleeding during invasive ventilation.",
+        "title": "Risk Factors for Patient-Important Upper Gastrointestinal Bleeding.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40315134",
+          "journal": "American journal of respiratory and critical care medicine",
+          "authors": [
+            "Deane Adam M",
+            "Lauzier François",
+            "Adhikari Neill K J"
+          ],
+          "pub_date": "2025-Sep",
+          "doi": "10.1164/rccm.202411-2245OC",
+          "mesh_terms": [
+            "Humans",
+            "Gastrointestinal Hemorrhage",
+            "Male",
+            "Female",
+            "Risk Factors",
+            "Middle Aged",
+            "Aged",
+            "Respiration, Artificial",
+            "Intensive Care Units",
+            "Proton Pump Inhibitors",
+            "APACHE",
+            "Adult",
+            "Pantoprazole"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15190384",
+        "text": "Understanding NSAID-PPI-COX-2 interrelationships.\n\nNonsteroidal antiinflammatory drugs (NSAIDs) are widely used to treat arthritis but are associated with adverse gastrointestinal events. While the selective COX-2 inhibitors show fewer gastrointestinal complications than NSAIDs, they may not be suitable for all patients and one of them has been associated with serious thrombotic cardiovascular events. Furthermore, many arthritis patients are at high risk of coronary artery disease and take low-dose aspirin, which is also associated with adverse gastrointestinal events. Proton pump inhibitor (PPI) therapy has been shown to be effective in reducing the risk of gastrointestinal complications in this patient population. Recent randomized clinical trials have also shown that pantoprazole therapy is effective in the healing of NSAID-induced gastrointestinal damage. Several studies have also demonstrated that pantoprazole is effective in preventing the development of gastrointestinal lesions in patients with continuous NSAID intake. The use of PPIs in combination with nonselective NSAIDs has also been found to be beneficial in patients at high risk for rebleeding and reduces the incidence of dyspepsia. Finally, the combination of a COX-2 inhibitor with a PPI has shown promise in patients with previous NSAID-related gastrointestinal complications who are at high risk for reinjury.",
+        "title": "Understanding NSAID-PPI-COX-2 interrelationships.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15190384",
+          "journal": "Drugs of today (Barcelona, Spain : 1998)",
+          "authors": [
+            "Singh Gurkirpal"
+          ],
+          "pub_date": "2004-Mar",
+          "doi": "",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Aspirin",
+            "Benzimidazoles",
+            "Cyclooxygenase Inhibitors",
+            "Gastroesophageal Reflux",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Humans",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Randomized Controlled Trials as Topic",
+            "Sulfoxides"
+          ]
         }
       }
     ]

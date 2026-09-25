@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41026701",
-        "text": "Pharmacokinetic profile of oral firocoxib in the koala (Phascolarctos cinereus). The pharmacokinetic profile of firocoxib administered orally at 5 mg/kg as a single dose to three mature koalas of each sex is described. After single dose administration, the harmonic means for maximal plasma concentration (Cmax), time to reach Cmax (Tmax) and elimination half-life (t1/2) were 79.2 ng/mL, 3.69 h, and 5.01 h, respectively. Males exhibited a higher Cmax than females (217.4 vs 48.4 ng/mL), suggesting greater oral",
-        "score": 0.3720276653766632,
-        "doi": "10.1371/journal.pone.0332448",
-        "journal": "PloS one",
-        "year": "2025",
-        "rerank_score": -4.46345329284668,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17112811",
+        "text": "Impact of CYP2C9*3/*3 genotype on the pharmacokinetics and pharmacodynamics of piroxicam.",
+        "doi": "10.1016/j.clpt.2006.08.003",
+        "journal": "Clinical pharmacology and therapeutics",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.43143951892852783,
+        "score": 0.43143951892852783,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41360102",
-        "text": "Effect of Scutellarin on the Pharmacokinetics and Pharmacodynamics of Warfarin in Rats. The study aims to investigate the pharmacodynamics and pharmacokinetics to elucidate the mechanism of enhanced anticoagulant effect of scutellarin and its preparations on warfarin. Evaluation of pharmacodynamic effects is undertaken by measuring coagulation parameters prothrombin time (PT) and activated partial thromboplastin time (APTT). The UHPLC-ESI-MS/MS method is used to determine the plasma concentrations of R/S-wa",
-        "score": 0.36887073516845703,
-        "doi": "10.1055/a-2748-8868",
-        "journal": "Planta medica",
-        "year": "2025",
-        "rerank_score": -5.832230567932129,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18713233",
+        "text": "Physiologically motivated time-delay model to account for mechanisms underlying enterohepatic circulation of piroxicam in human beings. The study was conducted to formulate a physiologically motivated time-delay (PM TD) mathematical model for human beings, which incorporates disintegration of a drug formulation, dissolution, discontinuous gastric emptying and enterohepatic circulation (EHC) of a drug. Piroxicam, administered to 24 European, healthy individuals in 20 mg capsules Feldene Pfizer, was used as a model drug. Plasma was analysed for piroxicam by a validated high-performance liquid chromatography method. The PM TD mathematical model was developed using measured plasma piroxicam concentration-time profiles of the individuals and tools of a computationally efficient mathematical analysis and modeling, based on the theory of linear dynamic systems. The constructed model was capable of (i) quantifying different fractions of the piroxicam dose sequentially disposable for absorption and (ii) estimating time delays between time when the piroxicam dose reaches stomach and time when individual of fractions of the piroxicam dose is disposable for absorption. The model verification was performed through a formal proof, based on comparisons of observed and model-predicted plasma piroxicam concentration-time profiles. The model verification showed an adequate model performance and agreement between the compared profiles. Accordingly, it confirmed that the developed model was an appropriate representative of the piroxicam fate in the individuals enrolled. The presented model provides valuable information on factors that control dynamic mechanisms of EHC, that is, information unobtainable with the models proposed for the EHC analysis previously.",
+        "doi": "10.1111/j.1742-7843.2008.00304.x",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.432051420211792,
+        "score": 0.432051420211792,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38974039",
-        "text": "Exploring the pharmacokinetics and tolerability of cyclooxygenase inhibitor ampiroxicam: a phase I study on single and multiple oral doses.",
-        "score": 0.3535047173500061,
-        "doi": "10.3389/fphar.2024.1429971",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": -5.950470447540283,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31398041",
+        "text": "Justification of Biowaiver and Dissolution Rate Specifications for Piroxicam Immediate Release Products Based on Physiologically Based Pharmacokinetic Modeling: An In-Depth Analysis. A quantitative prediction of human pharmacokinetic (PK) profiles has become an increasing demand for the reduction of the clinical failure of drug formulations. The existing in vitro and in vivo correlation (IVIVC) methodology could achieve this goal, but the development of IVIVC for immediate release (IR) products is challenging. Herein, we report that for certain weakly acidic biopharmaceutical classification system (BCS) class II molecules (piroxicam, PIRO), physiologically based PK (PBPK) modeling could be used as a tool to quantitatively predict PK in beagle dogs and to conduct an interspecies extrapolation to humans. First, robust PBPK models were constructed in beagle dogs under both fasted and fed states. Then, a",
+        "doi": "10.1021/acs.molpharmaceut.9b00350",
+        "journal": "Molecular pharmaceutics",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.43361636996269226,
+        "score": 0.43361636996269226,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

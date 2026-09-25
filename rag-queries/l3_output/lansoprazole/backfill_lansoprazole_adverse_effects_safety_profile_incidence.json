@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40092076",
-        "text": "Effect of proton pump inhibitor (lansoprazole) on adverse drug reactions and rational drug use in elderly patients with chronic heart failure. To evaluate the efficacy and rationale of proton pump inhibitors (PPIs) for adverse drug reactions in elderly patients with heart failure (HF). From February 2019 to September 2021, 120 elderly patients with chronic heart failure (CHF) treated at Jintan First People's Hospital were enrolled as subjects. The patients were classified into a control group (n=60) and a r",
-        "score": 0.4230763018131256,
-        "doi": "10.62347/BZED8420",
-        "journal": "American journal of translational research",
-        "year": "2024",
-        "rerank_score": 3.5627214908599854,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10082075",
+        "text": "Safety profile of Lansoprazole: the US clinical trial experience. Lansoprazole has undergone extensive clinical evaluation for the treatment of acid-peptic diseases. The aim of this study was to define the safety profile of lansoprazole and compare it to that of other therapeutic agents evaluated in the same controlled trials. The clinical safety profile of lansoprazole and comparative agents (placebo, ranitidine and omeprazole) was reviewed for 3281 patients who participated in short term (up to 8 weeks) and long term (up to 56 months) clinical trials conducted in the US. Adverse events, laboratory value changes and gastric biopsy changes that occurred during treatment were compared statistically for differences between treatments. The incidence of adverse events and number of patients discontinuing treatment because of adverse events was similar for lansoprazole and comparative agents. Other than elevated serum gastrin levels, a known effect of proton pump inhibitors, no trends in laboratory changes were observed. Median values for gastrin levels remained within the normal range; about 2% of patients had gastrin levels >400 pg/ml at any time, while <1% had 2 or more gastrin values >500 pg/ml. Values returned to baseline levels after therapy was discontinued. No significant changes in gastric endocrine cell growth from baseline to final visit were observed, nor was there evidence of dysplasia or neoplasia. Lansoprazole is well tolerated for both short and long term treatment of acid-related disease. The tolerability of lansoprazole is comparable to that of ranitidine, omeprazole and placebo in the treatment of these diseases.",
+        "doi": "10.2165/00002018-199920020-00008",
+        "journal": "Drug safety",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.34519532322883606,
+        "score": 0.34519532322883606,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:11926700",
-        "text": "An overview of the pharmacology, efficacy, safety and cost-effectiveness of lansoprazole. Lansoprazole is a proton pump inhibitor that reduces gastric acid secretion in a dose-dependent manner via inhibition of H+/K+-adenosine triphosphatase in gastric parietal cells. It also exhibits antibacterial activity against Helicobacter pylori in vitro. During almost 10 years of clinical use, lansoprazole has proved effective and well tolerated in a wide range of acid-related disorders, including gastro-oesophageal ",
-        "score": 0.41962382197380066,
-        "doi": "",
-        "journal": "International journal of clinical practice",
-        "year": "2002",
-        "rerank_score": 3.3421969413757324,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19025844",
+        "text": "Safety review in 10,008 users of lansoprazole in daily practice. Purpose-Soon after the introduction of the proton pump inhibitor, lansoprazole, a 4-year observational follow-up study was started to evaluate the safety of this drug in naturally-occurring groups of patients in The Netherlands. Results of this study were compared with clinical trial data and the limited published data from observational studies.Methods- prospective, observational study in which patients with a new episode of lansoprazole use were followed during the medication period for a maximum of 2 years. All (adverse) events during use were documented by the prescriber, irrespective of possible association with lansoprazole therapy.Results- total of 805 general practitioners (GPs) and 266 specialists provided a total of 10,008 lansoprazole users with a broad range of diagnoses. Of all patients, 17.4% reported one or more adverse events. The profile and frequency of reported adverse events was consistent with results from clinical trials and other observational studies. The most frequently reported adverse events were diarrhoea, headache, nausea, skin disorders, dizziness and generalized abdominal pain/cramps. There was no new evidence of rare adverse events. Furthermore, no lansoprazole-related unlabelled adverse events of clinical significance were recorded.Conclusions- Although the patterns of use of lansoprazole in daily practice deviated to some extent from the diagnoses in the information leaflet, lansoprazole was found to have a highly acceptable safety profile in this large naturally-occurring group of users. Reporting rates were higher soon after introduction of lansoprazole before falling to a lower stable level. Copyright (c) 2000 John Wiley & Sons, Ltd.",
+        "doi": "10.1002/1099-1557(200009/10)9:5<383::AID",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3503515124320984,
+        "score": 0.3503515124320984,
+        "rerank_score": 0.95
       },
       {
         "id": "PMID:39731662",
         "text": "The Relationship Between Lansoprazole and Coronary Heart Disease Risk: Controversial Protective Effects and Cardiovascular Adverse Events.",
-        "score": 0.43404078483581543,
         "doi": "10.1007/s10557-024-07668-9",
         "journal": "Cardiovascular drugs and therapy",
         "year": "2024",
-        "rerank_score": 2.3919577598571777,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.36433640122413635,
+        "score": 0.36433640122413635,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

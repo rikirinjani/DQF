@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:23745048",
-        "text": "Pharmacokinetic drug interaction profile of omeprazole with adverse consequences and clinical risk management. Omeprazole, a proton pump inhibitor (PPI), is widely used for the treatment of dyspepsia, peptic ulcer, gastroesophageal reflux disease, and functional dyspepsia. Polypharmacy is common in patients receiving omeprazole. Drug toxicity and treatment failure resulting from inappropriate combination therapy with omeprazole have been reported sporadically. Systematic review has not been available to add",
-        "score": 0.40234267711639404,
-        "doi": "10.2147/TCRM.S43151",
-        "journal": "Therapeutics and clinical risk management",
-        "year": "2013",
-        "rerank_score": 5.491204738616943,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8789905",
+        "text": "Side effects of omeprazole.",
+        "doi": "10.3109/00365529609009139",
+        "journal": "Scandinavian journal of gastroenterology",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3148479759693146,
+        "score": 0.3148479759693146,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:2691313",
-        "text": "Omeprazole: long-term safety. Based on the experience from more than 10,000 individuals omeprazole has been found to be safe and is well tolerated. Side effects are few and do not differ from those observed during H2-blocker treatment. Effects on endocrine cells observed in animals during toxicological studies include increase of antral G cells, decrease of antral D cells and increase of fundic ECL cells. The increase of G cells and the decrease of D cells is the consequence of achlorhydria achieved by very",
-        "score": 0.4097658693790436,
-        "doi": "10.1159/000200107",
-        "journal": "Digestion",
-        "year": "1989",
-        "rerank_score": 4.921420097351074,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:40834017",
+        "text": "Updating understanding of real-world adverse events associated with omeprazole. This study aims to assess the adverse events (AEs) and safety profile of omeprazole, a widely used proton pump inhibitor (PPI) for acid-related diseases. Despite being a first-line treatment, its overuse due to easy accessibility and lack of public awareness about usage guidelines may lead to potential side effects, necessitating a reassessment of its safety. We extracted 119,159 adverse event reports (AERs) related to omeprazole from the FDA Adverse Event Reporting System (FAERS) database, covering data from Q1 2004 to Q4 2023. A disproportionality analysis was performed to evaluate indications, concomitant medication use, and safety. Omeprazole was commonly prescribed for gastroesophageal reflux disease (GERD), dyspepsia, peptic ulcers, and gastritis. It was frequently used with drugs like aspirin, lisinopril, furosemide, atorvastatin, and metoprolol. Notably, renal and urinary disorders showed strong positive signals, including chronic kidney disease, acute kidney injury, and renal failure, with statistically significant disproportionality measures. The study also identified adverse reactions not listed on drug labels, such as hyperparathyroidism secondary and intentional product misuse. Our findings provide new insights into the safety of omeprazole in real-world clinical settings, highlighting novel adverse events and offering evidence for safer clinical use.",
+        "doi": "10.1371/journal.pone.0330509",
+        "journal": "PloS one",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.3579353988170624,
+        "score": 0.3579353988170624,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:3460168",
-        "text": "Safety aspects of omeprazole. Omeprazole has been given to more than 2500 subjects, mostly in short-term studies for 2-4 weeks, but also to some patients for more than 2 years. An analysis of side-effects has so far not shown a specific pattern that could be attributed to the drug.",
-        "score": 0.404715895652771,
-        "doi": "10.3109/00365528609090915",
-        "journal": "Scandinavian journal of gastroenterology. Supplement",
-        "year": "1986",
-        "rerank_score": 3.949455738067627,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19845261",
+        "text": "[Adverse effects of proton pump inhibitors].",
+        "doi": "",
+        "journal": "Acta gastroenterologica Latinoamericana",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.3622523546218872,
+        "score": 0.3622523546218872,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

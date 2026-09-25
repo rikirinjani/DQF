@@ -4,54 +4,172 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40822326",
-        "text": "Retraction: Rosiglitazone exerts an anti-depressive effect in unpredictable chronic mild-stress-induced depressive mice by maintaining essential neuron autophagy and inhibiting excessive astrocytic apoptosis. [This retracts the article DOI: 10.3389/fnmol.2017.00293.].",
-        "score": 0.43299412727355957,
-        "doi": "10.3389/fnmol.2025.1673288",
-        "journal": "Frontiers in molecular neuroscience",
-        "year": "2025",
-        "rerank_score": 2.6650660037994385,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:17145742",
+        "text": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.\n\nThe efficacy of thiazolidinediones, as compared with other oral glucose-lowering medications, in maintaining long-term glycemic control in type 2 diabetes is not known.\nWe evaluated rosiglitazone, metformin, and glyburide as initial treatment for recently diagnosed type 2 diabetes in a double-blind, randomized, controlled clinical trial involving 4360 patients. The patients were treated for a median of 4.0 years. The primary outcome was the time to monotherapy failure, which was defined as a confirmed level of fasting plasma glucose of more than 180 mg per deciliter (10.0 mmol per liter), for rosiglitazone, as compared with metformin or glyburide. Prespecified secondary outcomes were levels of fasting plasma glucose and glycated hemoglobin, insulin sensitivity, and beta-cell function.\nKaplan-Meier analysis showed a cumulative incidence of monotherapy failure at 5 years of 15% with rosiglitazone, 21% with metformin, and 34% with glyburide. This represents a risk reduction of 32% for rosiglitazone, as compared with metformin, and 63%, as compared with glyburide (P<0.001 for both comparisons). The difference in the durability of the treatment effect was greater between rosiglitazone and glyburide than between rosiglitazone and metformin. Glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosiglitazone (P<0.05), and the risk associated with metformin was similar to that with rosiglitazone. Rosiglitazone was associated with more weight gain and edema than either metformin or glyburide but with fewer gastrointestinal events than metformin and with less hypoglycemia than glyburide (P<0.001 for all comparisons).\nThe potential risks and benefits, the profile of adverse events, and the costs of these three drugs should all be considered to help inform the choice of pharmacotherapy for patients with type 2 diabetes. (ClinicalTrials.gov number, NCT00279045 [ClinicalTrials.gov].).",
+        "title": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "17145742",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Kahn Steven E",
+            "Haffner Steven M",
+            "Heise Mark A"
+          ],
+          "pub_date": "2006-Dec-07",
+          "doi": "10.1056/NEJMoa066224",
+          "mesh_terms": [
+            "Cardiovascular Diseases",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Double-Blind Method",
+            "Female",
+            "Glyburide",
+            "Glycated Hemoglobin",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Kaplan-Meier Estimate",
+            "Male",
+            "Metformin",
+            "Middle Aged",
+            "Proportional Hazards Models",
+            "Rosiglitazone",
+            "Thiazolidinediones",
+            "Treatment Outcome",
+            "Waist-Hip Ratio",
+            "Weight Gain"
+          ]
         }
       },
       {
-        "id": "PMID:41042385",
-        "text": "Impact of Rosiglitazone on Subdermal Adipose Tissue Growth and Lipid Droplet Formation: An In Vitro and In Vivo Study. Adipose tissue regeneration plays a crucial role in tissue repair and aesthetic medicine. The PPARγ pathway is pivotal in lipid metabolism and adipogenesis. As a PPARγ agonist, rosiglitazone has shown potential in promoting adipocyte differentiation and lipid droplet formation. However, its localized effects on adipose tissue regeneration and underlying mechanisms remain unclear. This study",
-        "score": 0.3896833062171936,
-        "doi": "10.1007/s00266-025-05274-0",
-        "journal": "Aesthetic plastic surgery",
-        "year": "2025",
-        "rerank_score": 2.5224812030792236,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38605183",
+        "text": "Adipose tissue macrophages secrete small extracellular vesicles that mediate rosiglitazone-induced insulin sensitization.\n\nThe obesity epidemic continues to worsen worldwide, driving metabolic and chronic inflammatory diseases. Thiazolidinediones, such as rosiglitazone (Rosi), are PPARγ agonists that promote 'M2-like' adipose tissue macrophage (ATM) polarization and cause insulin sensitization. As ATM-derived small extracellular vesicles (ATM-sEVs) from lean mice are known to increase insulin sensitivity, we assessed the metabolic effects of ATM-sEVs from Rosi-treated obese male mice (Rosi-ATM-sEVs). Here we show that Rosi leads to improved glucose and insulin tolerance, transcriptional repolarization of ATMs and increased sEV secretion. Administration of Rosi-ATM-sEVs rescues obesity-induced glucose intolerance and insulin sensitivity in vivo without the known thiazolidinedione-induced adverse effects of weight gain or haemodilution. Rosi-ATM-sEVs directly increase insulin sensitivity in adipocytes, myotubes and primary mouse and human hepatocytes. Additionally, we demonstrate that the miRNAs within Rosi-ATM-sEVs, primarily miR-690, are responsible for these beneficial metabolic effects. Thus, using ATM-sEVs with specific miRNAs may provide a therapeutic path to induce insulin sensitization.",
+        "title": "Adipose tissue macrophages secrete small extracellular vesicles that mediate rosiglitazone-induced insulin sensitization.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38605183",
+          "journal": "Nature metabolism",
+          "authors": [
+            "Rohm Theresa V",
+            "Castellani Gomes Dos Reis Felipe",
+            "Isaac Roi"
+          ],
+          "pub_date": "2024-May",
+          "doi": "10.1038/s42255-024-01023-w",
+          "mesh_terms": [
+            "Animals",
+            "Rosiglitazone",
+            "Extracellular Vesicles",
+            "Mice",
+            "Insulin Resistance",
+            "Macrophages",
+            "Adipose Tissue",
+            "Male",
+            "Humans",
+            "MicroRNAs",
+            "Obesity",
+            "Insulin",
+            "Adipocytes",
+            "Mice, Inbred C57BL"
+          ]
         }
       },
       {
-        "id": "PMID:38148342",
-        "text": "Rosiglitazone improves insulin resistance but does not improve exercise capacity in individuals with impaired glucose tolerance: A randomized clinical study. Dysmetabolic states, such as type 2 diabetes (T2D), characterized by insulin resistance (IR), are associated with fatty liver, increased cardiovascular disease (CVD) risk, and decreased functional exercise capacity (FEC). Rosiglitazone (RO) improves exercise capacity and IR in T2D. However, the effects of RO on FEC and other markers of CVD risk in pred",
-        "score": 0.39134693145751953,
-        "doi": "10.1177/10815589231225183",
-        "journal": "Journal of investigative medicine : the official publication of the American Fed",
-        "year": "2024",
-        "rerank_score": 2.362720012664795,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:30645973",
+        "text": "Gain Fat-Lose Metastasis: Converting Invasive Breast Cancer Cells into Adipocytes Inhibits Cancer Metastasis.\n\nCancer cell plasticity facilitates the development of therapy resistance and malignant progression. De-differentiation processes, such as an epithelial-mesenchymal transition (EMT), are known to enhance cellular plasticity. Here, we demonstrate that cancer cell plasticity can be exploited therapeutically by forcing the trans-differentiation of EMT-derived breast cancer cells into post-mitotic and functional adipocytes. Delineation of the molecular pathways underlying such trans-differentiation has motivated a combination therapy with MEK inhibitors and the anti-diabetic drug Rosiglitazone in various mouse models of murine and human breast cancer in vivo. This combination therapy provokes the conversion of invasive and disseminating cancer cells into post-mitotic adipocytes leading to the repression of primary tumor invasion and metastasis formation.",
+        "title": "Gain Fat-Lose Metastasis: Converting Invasive Breast Cancer Cells into Adipocytes Inhibits Cancer Metastasis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30645973",
+          "journal": "Cancer cell",
+          "authors": [
+            "Ishay-Ronen Dana",
+            "Diepenbruck Maren",
+            "Kalathur Ravi Kiran Reddy"
+          ],
+          "pub_date": "2019-Jan-14",
+          "doi": "10.1016/j.ccell.2018.12.002",
+          "mesh_terms": [
+            "3T3-L1 Cells",
+            "Adipocytes",
+            "Adipogenesis",
+            "Animals",
+            "Breast Neoplasms",
+            "Cell Line, Tumor",
+            "Cell Movement",
+            "Cell Transdifferentiation",
+            "Epithelial-Mesenchymal Transition",
+            "Female",
+            "Flavonoids",
+            "Humans",
+            "Mice",
+            "Neoplasm Metastasis",
+            "Neoplasm Transplantation",
+            "Proto-Oncogene Proteins c-met",
+            "Rosiglitazone",
+            "Signal Transduction",
+            "Transforming Growth Factor beta"
+          ]
+        }
+      },
+      {
+        "id": "PMID:21366501",
+        "text": "The safety of thiazolidinediones.\n\nThe prevalence of type 2 diabetes mellitus (T2DM) has reached epidemic proportions. Many new therapies have emerged, including thiazolidinediones (TZDs), selective agonists of PPAR-γ, now used as both primary and add-on therapies. Given that T2DM is a lifetime disease, there is a need for assurance that new drugs are both safe and effective. Recent concern about the cardiovascular safety of one of the new drugs, rosiglitazone, is the stimulus for this review.\nThe safety of pioglitazone and rosiglitazone under the headings of liver safety, cardiovascular safety, fluid retention, weight gain and bone fractures is reviewed based on a PubMed search of the years 1997 through June 2010. This review also describes the magnitude of the risks of the TZDs and provides a recommendation on the use of TZDs.\nLiver safety is no longer an issue with the TZDs. There are no significant differences between rosiglitazone and pioglitazone in fluid retention, weight gain and bone fractures. However, pioglitazone tends to be cardioprotective while rosiglitazone is cardiotoxic. There is no current justification for prescribing rosiglitazone.",
+        "title": "The safety of thiazolidinediones.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "21366501",
+          "journal": "Expert opinion on drug safety",
+          "authors": [
+            "Tolman Keith G"
+          ],
+          "pub_date": "2011-May",
+          "doi": "10.1517/14740338.2011.534982",
+          "mesh_terms": [
+            "Animals",
+            "Diabetes Mellitus, Type 2",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Pioglitazone",
+            "Rosiglitazone",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:14532954",
+        "text": "The \"glitazones\": rosiglitazone and pioglitazone.\n\nRosiglitazone and pioglitazone are two new additions to the therapeutic options for the treatment of type 2 diabetes mellitus. These agents differ from our current therapies in their mode of action. They have potential non-glucose lowering effects that may reduce cardiovascular risk and are effective both as monotherapy and in combination with sulfonylureas, metformin, and insulin. They are generally well tolerated, with the main side effects being weight gain and fluid retention. However, special precaution is warranted in patients with congestive heart failure or hepatic disease, and monitoring of liver enzymes is recommended for the first year of therapy. Despite their effectiveness, rosiglitazone and pioglitazone remain second-line agents to metformin and glyburide, agents that have demonstrated efficacy in decreasing the microvascular and macrovascular complications associated with type 2 diabetes mellitus.",
+        "title": "The \"glitazones\": rosiglitazone and pioglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "14532954",
+          "journal": "Journal of obstetrics and gynaecology Canada : JOGC = Journal d'obstetrique et gynecologie du Canada : JOGC",
+          "authors": [
+            "Papoushek Christine"
+          ],
+          "pub_date": "2003-Oct",
+          "doi": "10.1016/s1701-2163(16)30676-4",
+          "mesh_terms": [
+            "Contraindications",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Female",
+            "Heart Failure",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Lactation",
+            "Pioglitazone",
+            "Pregnancy",
+            "Risk Factors",
+            "Rosiglitazone",
+            "Thiazolidinediones",
+            "Treatment Outcome",
+            "Weight Gain"
+          ]
         }
       }
     ]

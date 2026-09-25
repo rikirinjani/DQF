@@ -1,0 +1,27 @@
+﻿{
+    "checks":  [
+                   "hydrochlorothiazide metabolic_effect 3 -\u003e 2 (primary target)",
+                   "chlorthalidone 3 -\u003e 2 (improvement)",
+                   "lisinopril 3 -\u003e 1 (known sparse pool, accepted)",
+                   "candesartan/olmesartan/nebivolol stayed 3 (better than predicted regression)",
+                   "no non-metabolic field changed (bp_reduction/renal_protection/electrolyte_risk/ddi_risk/heart_rate all clean)",
+                   "no score out of range {1,2,3}",
+                   "atenolol KEEP 3 and propranolol set 2 match pipeline; l2b_overrides.json not runtime-consumed"
+               ],
+    "deviation_notes":  [
+                            "telmisartan 3 -\u003e 2 driven by adverse-gate false positive on favorable sentence \u0027no adverse effects on glucose/triglyceride/cholesterol\u0027 (match_count 3-\u003e2) - flagged for user decision",
+                            "methyldopa 3 -\u003e 1 due to degenerate retrieval-artifact pool (documented in l2b_overrides.json notes) - accepted as insufficient-evidence",
+                            "carvedilol/clonidine dropped to 2 though spec predicted 3 (clinically defensible)"
+                        ],
+    "ver_id":  "VER-2026-006",
+    "linked_tasks":  [
+                         "DQF metabolic_effect override-rule fix"
+                     ],
+    "timestamp":  "2026-08-10T11:24:54Z",
+    "status":  "open",
+    "evidence_path":  "rag-queries/l3_output/_backups/drugs_20260810_111916.json; api/drugs.json (post-merge)",
+    "result":  "pass",
+    "linked_specs":  [
+                         "metabolic fix spec (oracle, 2026-08-10, Temp\\dqf_metabolic_fix_spec.md)"
+                     ]
+}

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40753250",
-        "text": "Correction: Comparing the effects of ketorolac and Paracetamol on postoperative pain relief after coronary artery bypass graft surgery. a randomized clinical trial.",
-        "score": 0.4257875680923462,
-        "doi": "10.1186/s13019-025-03524-5",
-        "journal": "Journal of cardiothoracic surgery",
-        "year": "2025",
-        "rerank_score": -0.38972386717796326,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11924950",
+        "text": "Paracetamol pain relief.",
+        "doi": "10.1038/sj.bdj.4801345a",
+        "journal": "British dental journal",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3971255421638489,
+        "score": 0.3971255421638489,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38937394",
-        "text": "Paracetamol Combination Therapy for Back Pain and Osteoarthritis: A Systematic Review and Meta-Analyses. Although paracetamol (acetaminophen) combined with other analgesics can reduce pain intensity in some pain conditions, its effectiveness in managing low back pain and osteoarthritis is unclear. This systematic review investigated whether paracetamol combination therapy is more effective and safer than monotherapy or placebo in low back pain and osteoarthritis. Online database searches were conducted for ",
-        "score": 0.40461039543151855,
-        "doi": "10.1007/s40265-024-02065-w",
-        "journal": "Drugs",
-        "year": "2024",
-        "rerank_score": -0.6492131352424622,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20154294",
+        "text": "Quantifying pain relief following administration of a novel formulation of paracetamol (acetaminophen). This article describes how a model-based analysis was used to aid development of a novel formulation technology. Paracetamol (acetaminophen) was used as the motivating example with 4 different formulations (2 developmental and 2 commercial) compared using stochastic (Monte Carlo) pharmacokinetic (PK)-pharmacodynamic (PD) simulations to explore potential differences in pharmacodynamic outcomes. PK models were developed from data collected during an intensively sampled, 4-arm crossover trial in 25 fasted healthy subjects, administered 1 g of paracetamol in 4 different formulations. The PK models were linked to a previously published PD model that quantified pain relief over time following tonsillectomy. The number needed to treat (NNT) was the primary numeric used to compare effectiveness. The developmental formulations were likely to produce faster and greater analgesia with an NNT (compared with placebo) to reduce pain by 50% over a 45-minute interval post dose of 2.75 and 2.88 compared with 4.31 and 3.2 for the commercial products. Over the course of 1 hour, all formulations were comparable. The stochastic simulations provided support that the novel formulation technology was likely to provide a clinically meaningful advantage and should be developed further.",
+        "doi": "10.1177/0091270009359181",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.407417356967926,
+        "score": 0.407417356967926,
+        "rerank_score": 0.95
       },
       {
         "id": "PMID:38653785",
         "text": "Correction to: Analgesic effect of oral paracetamol 1000 mg/ibuprofen 400 mg, paracetamol 1000 mg/codeine 60 mg, paracetamol 1000 mg/ibuprofen 400 mg/codeine 60 mg, or placebo on acute postoperative pain: a single‑dose, randomized, and double‑blind study.",
-        "score": 0.4293847680091858,
         "doi": "10.1007/s00228-024-03688-4",
         "journal": "European journal of clinical pharmacology",
         "year": "2024",
-        "rerank_score": -1.5130423307418823,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.41466614603996277,
+        "score": 0.41466614603996277,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

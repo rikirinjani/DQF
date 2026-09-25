@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:8739021",
-        "text": "Effectiveness and safety of low-dose pravastatin and squalene, alone and in combination, in elderly patients with hypercholesterolemia. A double-blind, placebo-controlled study was conducted to compare the efficacy and safety of low-dose (10 mg) prevastatin and squalene (860 mg), either alone or in combination therapy, with placebo in the treatment of elderly patients with hypercholesterolemia. Ambulatory elderly patients (N = 102) were assigned in randomized fashion to receive active treatment or placebo f",
-        "score": 0.4001982808113098,
-        "doi": "10.1002/j.1552-4604.1996.tb05029.x",
-        "journal": "Journal of clinical pharmacology",
+        "id": "PMID:8712106",
+        "text": "Fluvastatin versus pravastatin.",
+        "doi": "10.1016/s0002-9149(96)90321-5",
+        "journal": "The American journal of cardiology",
         "year": "1996",
-        "rerank_score": 4.759339809417725,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.3473612368106842,
+        "score": 0.3473612368106842,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39295934",
-        "text": "Terlipressin versus placebo or noradrenalin in the treatment of hepatorenal syndrome: a systematic review and meta-analysis. Hepatorenal syndrome (HRS) bears a very poor prognosis with unmet need for safe and effective therapies. This systematic review and meta-analysis aimed to re-assess safety and efficacy of terlipressin versus placebo or noradrenaline for HRS, based on previous randomized controlled trials (RCTs). PubMed, EMBASE, MEDLINE (OvidSP) and Cochrane registers were searched for trials reporting",
-        "score": 0.3963091969490051,
-        "doi": "10.3389/fphar.2024.1418826",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": 3.605506420135498,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16275204",
+        "text": "Statin comparisons in controlled clinical trials.",
+        "doi": "10.1016/j.amjcard.2005.05.004",
+        "journal": "The American journal of cardiology",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.35035303235054016,
+        "score": 0.35035303235054016,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:15139406",
-        "text": "[Clinical study of the month. REVERAL and PROVE-IT: confirmation of the concept \" the lower, the better\" for cholesterol therapy in patients with coronary heart disease]. Statins, as compared to placebo, have proven their efficacy in reducing cardiovascular events in patients with or without cardiovascular disease and in a large range of cholesterol levels. Two new head-to-head randomised trials comparing intensive treatment with atorvastatin 80 mg/day with moderate treatment with pravastatin 40 mg/day were",
-        "score": 0.39508962631225586,
+        "id": "PMID:15952708",
+        "text": "Commentary. Additive benefits of pravastatin and aspirin to decrease risks of cardiovascular disease: randomized and observational comparisons of secondary prevention trials and their meta-analyses.",
         "doi": "",
-        "journal": "Revue medicale de Liege",
-        "year": "2004",
-        "rerank_score": 2.9476921558380127,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "journal": "Perspectives in vascular surgery and endovascular therapy",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.3554445803165436,
+        "score": 0.3554445803165436,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -14,23 +14,33 @@
   "anti_inflammatory": null,
   "_evidence": {
     "pmids": [
-      "15901204",
+      "11524058",
+      "12860216",
+      "14512129",
+      "16581327",
+      "16733834",
       "17910518",
+      "19064019",
+      "20522984",
       "21130454",
       "21342078",
-      "21813193",
-      "22398934",
+      "22019059",
+      "23644555",
       "24452083",
-      "26525112",
       "30692522",
       "32729746",
+      "35009221",
       "36613689",
       "38588613",
       "39102854",
       "40254247"
     ],
-    "source_count": 7,
-    "finding_count": 16
+    "source_count": 15,
+    "finding_count": 20,
+    "dup_pmids_skipped": 1,
+    "pool_relevance_pct": 52.5,
+    "filtered_off_drug": 19,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

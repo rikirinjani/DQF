@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:1460195",
-        "text": "Intolerance to piroxicam in patients with adverse reactions to nonsteroidal antiinflammatory drugs. To evaluate the tolerance to piroxicam in patients with urticaria induced by analgesic and/or nonsteroidal antiinflammatory drugs (NSAIDs), we carried out a 2-year study in an outpatient clinic. All the patients referred to the clinic for study entered a protocol for evaluation of intolerance to one or more drugs. If patients were allergic to at least two different NSAIDs they were allocated to group A, but i",
-        "score": 0.419964075088501,
-        "doi": "10.1016/0091-6749(92)90459-f",
-        "journal": "The Journal of allergy and clinical immunology",
-        "year": "1992",
-        "rerank_score": 1.311526894569397,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:41140664",
+        "text": "A real-world data analysis of piroxicam in the FDA Adverse Event Reporting System (FAERS) database. Piroxicam is a widely used antipyretic and analgesic. Due to an increasing number of adverse event (AE) reports, effective pharmacovigilance is essential for evaluating its benefit-risk profile. We assessed the safety profile of piroxicam through disproportionality analysis based on all AE reports involving the drug in the FDA Adverse Event Reporting System (FAERS) from 2004 till 2024. Signal detection was performed using the reporting odds ratio, proportional reporting ratio, multi-item gamma Poisson shrinker, and Bayesian confidence propagation neural network methods. The Weibull distribution was applied to model time-to-onset of AEs. Analyses were stratified by age and sex, and subgroup patterns were examined. AE outcomes were categorized accordingly. Our findings confirmed known label-reported AEs, such as hypersensitivity, urticaria, gastric ulcers, and gastrointestinal hemorrhage. Additionally, several potentially less well-known AEs were identified, such as acute generalized exanthematous pustulosis, blister formation, and urinary retention. Subgroup analyses revealed significant variations in AE patterns across different age groups and sexes. The majority of AEs occurred during the early stages of treatment, highlighting the importance of vigilant monitoring of AEs especially during initial dosing. This real-world study reinforces established safety concerns related to piroxicam while identifying potentially less well-known safety signals. These findings offer valuable insights for clinicians aiming to optimize patient safety during piroxicam therapy.",
+        "doi": "10.3389/fmed.2025.1687088",
+        "journal": "Frontiers in medicine",
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.44681257009506226,
+        "score": 0.44681257009506226,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39726516",
-        "text": "Rituximab Safety Profile: A Seven-Year Retrospective Analysis From Southern India. This study aimed to analyze the pattern, severity, and outcomes of adverse drug reactions (ADRs) associated with rituximab use reported to a regional pharmacovigilance center in Kerala, India. This retrospective study analyzed rituximab-associated ADRs reported from 2017 to 2023. ADRs were assessed using the WHO-UMC criteria for causality and the Modified Hartwig Siegel Scale for severity. A total of 74 patients reported ADRs",
-        "score": 0.42852547764778137,
-        "doi": "10.7759/cureus.74454",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": -0.21777355670928955,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19534045",
+        "text": "Piroxicam: restriction of indications: labelling change. Only half-measures. Piroxicam has too many cutaneous and gastrointestinal adverse effects and yet, it remains on the market.",
+        "doi": "",
+        "journal": "Prescrire international",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.44729673862457275,
+        "score": 0.44729673862457275,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40356972",
-        "text": "Post-marketing safety concerns with pirfenidone and nintedanib: an analysis of individual case safety reports from the FDA adverse event reporting system database and the Japanese adverse drug event report databases. To date, only two drugs, pirfenidone and nintedanib, are approved for the treatment of patients with idiopathic pulmonary fibrosis (IPF). In addition, very few studies have reported on the safety profile of either drug in large populations. This study aims to identify and compare adverse drug e",
-        "score": 0.4458320438861847,
-        "doi": "10.3389/fphar.2025.1530697",
-        "journal": "Frontiers in pharmacology",
-        "year": "2024",
-        "rerank_score": -1.0568263530731201,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22234915",
+        "text": "Impact of a health safety warning and prior authorisation on the use of piroxicam: a time-series study. The aim of this study was to assess the quantitative changes in systemic use of piroxicam after the issue of a health safety warning about its risks and the subsequent implementation of prior authorisation. We determined the number of monthly daily defined doses/1000 inhabitants/day (DHDs) of piroxicam in the period 2005-2008 in a health area in Spain. The data were analysed graphically, and the impact of the safety warning and introduction of prior authorisation were estimated by using segmented regression analysis. The graph showed that the number of DHDs of piroxicam was stable both before and after the health safety warning but registered a very marked decrease after implementation of prior authorisation, after which DHDs of piroxicam remained stable at a 98% inferior level compared with previous to prior authorisation. Segmented regression analysis showed no statistically significant immediate jump in piroxicam utilisation after the safety warning nor a change in the slope afterwards, but it did show a significant immediate jump after prior authorisation. Population exposure to systemic piroxicam remained unaffected by a previous health safety warning but declined sharply after the introduction of prior authorisation.",
+        "doi": "10.1002/pds.2275",
+        "journal": "Pharmacoepidemiology and drug safety",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4677688777446747,
+        "score": 0.4677688777446747,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

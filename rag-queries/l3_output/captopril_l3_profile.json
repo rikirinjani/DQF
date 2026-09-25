@@ -3,11 +3,13 @@
   "renal_protection": 3,
   "metabolic_effect": 3,
   "electrolyte_risk": 3,
-  "ddi_risk": 2,
+  "ddi_risk": 3,
   "heart_rate_effect": "none",
   "_evidence": {
     "pmids": [
+      "11474160",
       "11834188",
+      "11890606",
       "12817017",
       "1373306",
       "1546641",
@@ -15,6 +17,7 @@
       "2408245",
       "25465731",
       "2674438",
+      "26871774",
       "26883147",
       "27444248",
       "2872551",
@@ -27,6 +30,7 @@
       "3555583",
       "36104755",
       "36736951",
+      "37417783",
       "3896277",
       "40806350",
       "6130354",
@@ -37,12 +41,14 @@
       "6753890",
       "7033784",
       "7037265",
-      "8413456"
+      "8413456",
+      "9679620"
     ],
-    "source_count": 12,
-    "finding_count": 57,
-    "pool_relevance_pct": 95.0,
-    "filtered_off_drug": 3,
+    "source_count": 20,
+    "finding_count": 36,
+    "dup_pmids_skipped": 26,
+    "pool_relevance_pct": 73.8,
+    "filtered_off_drug": 22,
     "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."

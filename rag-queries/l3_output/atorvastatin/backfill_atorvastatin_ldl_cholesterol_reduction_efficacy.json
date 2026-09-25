@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:18635754",
-        "text": "Efficacy of atorvastatin for achieving cholesterol targets after LDL-cholesterol based dose selection in patients with type 2 diabetes. We analyzed the feasibility of an intensive lipid-lowering strategy based on a starting dose of atorvastatin according to baseline and target low-density lipoprotein cholesterol (LDL-C) level (<2.6 mmol/L) in 202 statin-naïve patients with type 2 diabetes within 24 weeks. They were assigned to receive a daily dosage of atorvastatin based on their initial LDL-C levels. The p",
-        "score": 0.33173877000808716,
-        "doi": "10.1177/1074248408321461",
-        "journal": "Journal of cardiovascular pharmacology and therapeutics",
-        "year": "2008",
-        "rerank_score": 8.239483833312988,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9264433",
+        "text": "Effectiveness of atorvastatin for reducing low-density lipoprotein cholesterol to National Cholesterol Education Program treatment goals. Atorvastatin is a highly efficacious hydroxymethylglutaryl-coenzyme A reductase inhibitor that has been shown to reduce low-density lipoprotein cholesterol by 40% to 60%. Monotherapy with atorvastatin (10 to 80 mg/day) is well-tolerated, convenient, and appears to be effective for achieving National Cholesterol Education Program treatment goals in most patients, regardless of risk status.",
+        "doi": "10.1016/s0002-9149(97)00360-3",
+        "journal": "The American journal of cardiology",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.30861514806747437,
+        "score": 0.30861514806747437,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:14693301",
-        "text": "A multicenter, randomized, double-blind clinical trial comparing the low-density lipoprotein cholesterol-lowering ability of lovastatin 10, 20, and 40 mg/d with fluvastatin 20 and 40 mg/d. The available statin drugs have similar pharmacodynamic properties but are not equal in low-density lipoprotein cholesterol (LDL-C)-lowering efficacy.",
-        "score": 0.33157873153686523,
-        "doi": "10.1016/s0149-2918(03)80330-2",
-        "journal": "Clinical therapeutics",
+        "id": "PMID:12573192",
+        "text": "Benefits of atorvastatin in cholesterol lowering.",
+        "doi": "",
+        "journal": "Current atherosclerosis reports",
         "year": "2003",
-        "rerank_score": 5.4659833908081055,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.33546561002731323,
+        "score": 0.33546561002731323,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40349283",
-        "text": "Switching Therapy to the Second Brand of Generic Atorvastatin: A 6-Month Retrospective Cohort, Real-World Study. High levels of low-density lipoprotein-cholesterol (LDL) is a major risk factor for cardiovascular diseases. While treatment with atorvastatin is beneficial, the original atorvastatin may be cost prohibitive to some patients. Currently, a second brand of generic atorvastatin is available on the market. This study aimed to evaluate the effectiveness of the second generic brand of atorvastatin. Thi",
-        "score": 0.3549204468727112,
-        "doi": "10.1007/s40801-025-00491-0",
-        "journal": "Drugs - real world outcomes",
-        "year": "2025",
-        "rerank_score": 4.0655717849731445,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10687671",
+        "text": "Efficacy of atorvastatin compared with simvastatin in patients with hypercholesterolemia. Atorvastatin, a new enantiomerically pure synthetic statin, has shown a marked low-density lipoprotein (LDL) cholesterol reduction at doses ranging from 10 to 80 mg/d. This trial was designed to compare the efficacy of atorvastatin 10 mg with simvastatin 10 mg and 20 mg, the latter dose being commonly used in some countries. A parallel group, randomized, PROBE, multicenter study was conducted to compare the efficacy of 10 mg/d atorvastatin with that of 10 mg/d simvastatin and 20 mg/d simvastatin in patients with primary hypercholesterolemia. After a 6-week diet-placebo lead-in period, 272 patients with LDL cholesterol > or = 160 mg/dL and triglycerides < or = 300 mg/dL were randomized to 6 weeks of treatment with atorvastatin 10 mg (109 patients), simvastatin 20 mg (109 patients), or simvastatin 10 mg (54 patients). In the main analysis, which tested the equivalence of atorvastatin 10 mg and simvastatin 20 mg, the mean percent change in LDL cholesterol for atorvastatin 10 mg (-37.0%) was greater than and not equivalent to simvastatin 20 mg (-33.8%). In the secondary analysis, which compared the efficacy of atorvastatin 10 mg with that of simvastatin 10 mg, the mean decrease in LDL cholesterol was significantly greater (P < .001) for atorvastatin 10 mg than for simvastatin 10 mg (-37.0% vs. -28.9%). The two drugs were well tolerated, with an incidence of clinical and biochemical side effects similar among the 3 treatment groups. In primary hypercholesterolemia, atorvastatin 10 mg was more effective and nonequivalent to simvastatin 20 mg and significantly more effective than simvastatin 10 mg for reducing LDL cholesterol levels.",
+        "doi": "10.1177/107424840000500104",
+        "journal": "Journal of cardiovascular pharmacology and therapeutics",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.34756168723106384,
+        "score": 0.34756168723106384,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

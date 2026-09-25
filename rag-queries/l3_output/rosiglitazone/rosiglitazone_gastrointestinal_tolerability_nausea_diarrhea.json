@@ -4,54 +4,170 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:39789843",
-        "text": "Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the SURMOUNT-1 to -4 trials. This analysis evaluated whether gastrointestinal (GI) adverse events (AEs) including nausea, vomiting, diarrhoea (N/V/D) and dyspepsia were associated with weight reduction with tirzepatide across the SURMOUNT-1 to -4 trials. SURMOUNT-1 to -4 were global Phase 3 clinical trials evaluating the safety and efficacy of tirzepatide am",
-        "score": 0.41171973943710327,
-        "doi": "10.1111/dom.16176",
-        "journal": "Diabetes, obesity & metabolism",
-        "year": "2024",
-        "rerank_score": 0.5257949829101562,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:17145742",
+        "text": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.\n\nThe efficacy of thiazolidinediones, as compared with other oral glucose-lowering medications, in maintaining long-term glycemic control in type 2 diabetes is not known.\nWe evaluated rosiglitazone, metformin, and glyburide as initial treatment for recently diagnosed type 2 diabetes in a double-blind, randomized, controlled clinical trial involving 4360 patients. The patients were treated for a median of 4.0 years. The primary outcome was the time to monotherapy failure, which was defined as a confirmed level of fasting plasma glucose of more than 180 mg per deciliter (10.0 mmol per liter), for rosiglitazone, as compared with metformin or glyburide. Prespecified secondary outcomes were levels of fasting plasma glucose and glycated hemoglobin, insulin sensitivity, and beta-cell function.\nKaplan-Meier analysis showed a cumulative incidence of monotherapy failure at 5 years of 15% with rosiglitazone, 21% with metformin, and 34% with glyburide. This represents a risk reduction of 32% for rosiglitazone, as compared with metformin, and 63%, as compared with glyburide (P<0.001 for both comparisons). The difference in the durability of the treatment effect was greater between rosiglitazone and glyburide than between rosiglitazone and metformin. Glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosiglitazone (P<0.05), and the risk associated with metformin was similar to that with rosiglitazone. Rosiglitazone was associated with more weight gain and edema than either metformin or glyburide but with fewer gastrointestinal events than metformin and with less hypoglycemia than glyburide (P<0.001 for all comparisons).\nThe potential risks and benefits, the profile of adverse events, and the costs of these three drugs should all be considered to help inform the choice of pharmacotherapy for patients with type 2 diabetes. (ClinicalTrials.gov number, NCT00279045 [ClinicalTrials.gov].).",
+        "title": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "17145742",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Kahn Steven E",
+            "Haffner Steven M",
+            "Heise Mark A"
+          ],
+          "pub_date": "2006-Dec-07",
+          "doi": "10.1056/NEJMoa066224",
+          "mesh_terms": [
+            "Cardiovascular Diseases",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Double-Blind Method",
+            "Female",
+            "Glyburide",
+            "Glycated Hemoglobin",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Kaplan-Meier Estimate",
+            "Male",
+            "Metformin",
+            "Middle Aged",
+            "Proportional Hazards Models",
+            "Rosiglitazone",
+            "Thiazolidinediones",
+            "Treatment Outcome",
+            "Waist-Hip Ratio",
+            "Weight Gain"
+          ]
         }
       },
       {
-        "id": "PMID:41452405",
-        "text": "Rosiglitazone Adjunct to Risperidone for Irritability in Autistic Children: A Randomized, Double-Blind, Placebo-Controlled Trial.",
-        "score": 0.46599242091178894,
-        "doi": "10.1007/s10803-025-07183-2",
-        "journal": "Journal of autism and developmental disorders",
-        "year": "2025",
-        "rerank_score": -0.8090717792510986,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:17100408",
+        "text": "Vildagliptin.\n\nVildagliptin is a dipeptidyl peptidase-4 (DPP-4) inhibitor that is being evaluated in the treatment of patients with type 2 diabetes mellitus. It improves glycaemic control by inhibiting DPP-4 from inactivating the incretin hormones glucagon-like peptide-1 and glucose-dependent insulinotropic polypeptide, prolonging incretin activity in response to ingestion of nutrients. This allows for increased insulin sensitivity, decreased glucagon secretion and improved beta-cell function in a glucose-dependent manner. Glycaemic control with vildagliptin 50 or 100 mg/day, measured by a change from baseline in mean glycosylated haemoglobin (HbA(1c)) at study endpoint, was improved relative to placebo in several well designed clinical trials of vildagliptin monotherapy in patients with type 2 diabetes. In randomised active comparator studies, noninferiority of vildagliptin in reducing HbA(1c) levels from baseline was established to rosiglitazone, but not to metformin. Vildagliptin also showed efficacy in reducing HbA(1c) levels in patients with type 2 diabetes when used in combination with metformin, pioglitazone or insulin. Vildagliptin was generally well tolerated when administered alone or in combination with additional antidiabetic treatment. Gastrointestinal adverse events were mild to moderate in intensity, and occurred less frequently than with metformin. Hypoglycaemic events were rare and occurred at a similar incidence to that with placebo.",
+        "title": "Vildagliptin.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "17100408",
+          "journal": "Drugs",
+          "authors": [
+            "Henness Sheridan",
+            "Keam Susan J"
+          ],
+          "pub_date": "2006",
+          "doi": "10.2165/00003495-200666150-00007",
+          "mesh_terms": [
+            "Adamantane",
+            "Animals",
+            "Diabetes Mellitus, Type 2",
+            "Dipeptidyl-Peptidase IV Inhibitors",
+            "Enzyme Inhibitors",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Nitriles",
+            "Pyrrolidines",
+            "Vildagliptin"
+          ]
         }
       },
       {
-        "id": "PMID:39623604",
-        "text": "EXPRESSION OF CONCERN: Rosiglitazone and 15-deoxy-Δ",
-        "score": 0.45324820280075073,
-        "doi": "10.1111/bph.17421",
-        "journal": "British journal of pharmacology",
-        "year": "2024",
-        "rerank_score": -1.7306747436523438,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:16033298",
+        "text": "Rosiglitazone/Metformin.\n\nThe thiazolidinedione rosiglitazone and the biguanide metformin are effective antihyperglycaemic agents with different modes of action; rosiglitazone primarily increases insulin sensitivity, whereas metformin primarily reduces hepatic glucose output. Antihyperglycaemic combination therapy is often required to achieve effective glycaemic control. A fixed-dose formulation of rosiglitazone/metformin was recently approved in the EU and the US for the treatment of type 2 diabetes mellitus in patients inadequately controlled on metformin monotherapy. Bioequivalence between the fixed-dose combination tablet and coadministration of rosiglitazone with metformin at the same dosage has been established in a pharmacokinetic study. Fixed-dose rosiglitazone/metformin 8 mg/2g per day reduced glycosylated haemoglobin (HbA1c) and fasting plasma glucose (FPG) levels to a significantly greater extent than metformin 3 g/day in patients with type 2 diabetes in a 24-week, randomised, double-blind study. Rosiglitazone plus metformin was significantly more effective than metformin alone at reducing HbA1c and FPG levels in patients with type 2 diabetes in three 26-week, randomised, double-blind, placebo-controlled studies. Rosiglitazone plus metformin was generally well tolerated in all studies and had a tolerability profile similar to that of metformin monotherapy. Mild or moderate symptomatic hypoglycaemia was reported in <or=4.4% of rosiglitazone plus metformin recipients.",
+        "title": "Rosiglitazone/Metformin.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16033298",
+          "journal": "Drugs",
+          "authors": [
+            "Wellington Keri"
+          ],
+          "pub_date": "2005",
+          "doi": "10.2165/00003495-200565110-00013",
+          "mesh_terms": [
+            "Animals",
+            "Diabetes Mellitus",
+            "Drug Combinations",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Metformin",
+            "Rosiglitazone",
+            "Therapeutic Equivalency",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:11336599",
+        "text": "Rosiglitazone.\n\nType 2 diabetes mellitus is characterised by impaired insulin secretion, diminished peripheral insulin action and increased hepatic glucose production. Clinical trials have indicated that near-normal glucose control may reduce the risk for microvascular and - to a lesser extent - macrovascular complications in Type 2 diabetic patients. Thiazolidinediones improve insulin action by activating a nuclear receptor, PPARgamma. Therefore, these drugs are often referred to as 'insulin sensitisers'. Rosiglitazone is the second compound of this group. Clinical studies with rosiglitazone have shown that it is effective in lowering blood glucose levels in Type 2 diabetic patients treated with either diet alone, sulphonylurea or metformin. Preliminary studies suggest that rosiglitazone also improves glycaemic control in insulin-treated patients while even slightly decreasing insulin dose. The magnitude of the effects is, however, moderate. In diet-treated patients, the reduction of HbA1c levels amounted on average 0.5 - 1.5% and addition to existing sulphonylurea therapy decreased HbA1c by 1.0 - 1.2%. The clinical relevance of additional beneficial effects, i.e., on blood pressure and microalbuminuria, needs to be determined further. Rosiglitazone does not cause hypoglycaemia or gastrointestinal side effects. There is however some concern related to fluid retention, which seems to be an effect of all PPARgamma agonists. In patients treated with rosiglitazone, no severe hepatotoxic side effects have been noticed until now. In the treatment of our patients with Type 2 diabetes, drugs like rosiglitazone which directly reduce insulin resistance are very welcome but more data on its combined use with insulin are needed. Additional studies will also explore its long-term effects in sparing beta-cell function and reducing diabetes-related complications and atherosclerosis.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11336599",
+          "journal": "Expert opinion on pharmacotherapy",
+          "authors": [
+            "Wolffenbuttel B H",
+            "Sels J P",
+            "Huijberts M S"
+          ],
+          "pub_date": "2001-Mar",
+          "doi": "10.1517/14656566.2.3.467",
+          "mesh_terms": [
+            "Animals",
+            "Blood Pressure",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Drug Therapy, Combination",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Metformin",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:29183107",
+        "text": "Insulin-sensitising drugs (metformin, rosiglitazone, pioglitazone, D-chiro-inositol) for women with polycystic ovary syndrome, oligo amenorrhoea and subfertility.\n\nPolycystic ovary syndrome (PCOS) is characterised by infrequent or absent ovulation, and high levels of androgens and insulin (hyperinsulinaemia). Hyperinsulinaemia occurs secondary to insulin resistance and is associated with increased risk of cardiovascular disease and diabetes mellitus. Insulin-sensitising agents such as metformin may be effective in treating PCOS-related anovulation.\nTo evaluate the effectiveness and safety of insulin-sensitising drugs in improving reproductive and metabolic outcomes for women with PCOS undergoing ovulation induction.\nWe searched the following databases from inception to January 2017: Cochrane Gynaecology and Fertility Group Specialised Register, CENTRAL, MEDLINE, Embase, PsycINFO and CINAHL. We searched registers of ongoing trials and reference lists from relevant studies.\nWe included randomised controlled trials of insulin-sensitising drugs compared with placebo, no treatment, or an ovulation-induction agent for women with oligo and anovulatory PCOS.\nTwo review authors independently assessed studies for eligibility and bias. Primary outcomes were live birth rate and gastrointestinal adverse effects. Secondary outcomes included other pregnancy outcomes, menstrual frequency and metabolic effects. We combined data to calculate pooled odds ratios (ORs) and 95% confidence intervals (CIs). We assessed statistical heterogeneity using the I2 statistic and reported quality of the evidence for primary outcomes using GRADE methodology.\nWe assessed the interventions metformin, clomiphene citrate, metformin plus clomiphene citrate, D-chiro-inositol, rosiglitazone and pioglitazone. We compared these with each other, placebo or no treatment. We included 48 studies (4451 women), 42 of which investigated metformin (4024 women). Evidence quality ranged from very low to moderate. Limitations were risk of bias (poor reporting of methodology and incomplete outcome data), imprecision and inconsistency. Metformin versus placebo or no treatmentThe evidence suggests that metformin may improve live birth rates compared with placebo (OR 1.59, 95% CI 1.00 to 2.51, 4 studies, 435 women, I2 = 0%, low-quality evidence). The metformin group experienced more gastrointestinal side effects (OR 4.76, 95% CI 3.06 to 7.41, 7 studies, 670 women, I2 = 61%, moderate-quality evidence) but had higher rates of clinical pregnancy (OR 1.93, 95% CI 1.42 to 2.64, 9 studies, 1027 women, I2 = 43%, moderate-quality evidence), ovulation (OR 2.55, 95% CI 1.81 to 3.59, 14 studies, 701 women, I2 = 58%, moderate-quality evidence) and menstrual frequency (OR 1.72, 95% CI 1.14 to 2.61, 7 studies, 427 women, I2 = 54%, low-quality evidence). There was no clear evidence of a difference in miscarriage rates (OR 1.08, 95% CI 0.50 to 2.35, 4 studies, 748 women, I2 = 0%, low-quality evidence). Metformin plus clomiphene citrate versus clomiphene citrate alone There was no conclusive evidence of a difference between the groups in live birth rates (OR 1.21, 95% CI 0.92 to 1.59, 9 studies, 1079 women, I2 = 20%, low-quality evidence), but gastrointestinal side effects were more common with combined therapy (OR 3.97, 95% CI 2.59 to 6.08, 3 studies, 591 women, I2 = 47%, moderate-quality evidence). However, the combined therapy group had higher rates of clinical pregnancy (OR 1.59, 95% CI 1.27 to 1.99, 16 studies, 1529 women, I2 = 33%, moderate-quality evidence) and ovulation (OR 1.57, 95% CI 1.28 to 1.92, 21 studies, 1624 women, I2 = 64%, moderate-quality evidence). There was a statistically significant difference in miscarriage rate per woman, with higher rates in the combined therapy group (OR 1.59, 95% CI 1.03 to 2.46, 9 studies, 1096 women, I2 = 0%, low-quality evidence) but this is of uncertain clinical significance due to low-quality evidence, and no clear difference between groups when we analysed miscarriage per pregnancy (OR 1.30, 95% CI 0.80 to 2.12, 8 studies; 400 pregnancies, I2 = 0%, low-quality evidence). Metformin versus clomiphene citrateWhen all studies were combined, findings for live birth were inconclusive and inconsistent (OR 0.71, 95% CI 0.49 to 1.01, 5 studies, 741 women, I2 = 86%, very low-quality evidence). In subgroup analysis by obesity status, obese women had a lower birth rate in the metformin group (OR 0.30, 95% CI 0.17 to 0.52, 2 studies, 500 women, I2 = 0%, very low-quality evidence), while data from the non-obese group showed a possible benefit from metformin, with high heterogeneity (OR 1.71, 95% CI 1.00 to 2.94, 3 studies, 241 women, I2 = 78%, very low-quality evidence). Similarly, among obese women taking metformin there were lower rates of clinical pregnancy (OR 0.34, 95% CI 0.21 to 0.55, 2 studies, 500 women, I2 = 0%, very low-quality evidence) and ovulation (OR 0.29, 95% CI 0.20 to 0.43 2 studies, 500 women, I2 = 0%, low-quality evidence) while among non-obese women, the metformin group had more pregnancies (OR 1.56, 95% CI 1.05 to 2.33, 5 studies, 490 women, I2 = 41%, very low-quality evidence) and no clear difference in ovulation rates (OR 0.81, 95% CI 0.51 to 1.28, 4 studies, 312 women, low-quality evidence, I2=0%). There was no clear evidence of a difference in miscarriage rates (overall: OR 0.92, 95% CI 0.50 to 1.67, 5 studies, 741 women, I2 = 52%, very low-quality evidence). D-chiro-inositol (2 studies), rosiglitazone (1 study) or pioglitazone (1 study) versus placebo or no treatmentWe were unable to draw conclusions regarding other insulin-sensitising drugs as no studies reported primary outcomes.\nOur updated review suggests that metformin alone may be beneficial over placebo for live birth, although the evidence quality was low. When metformin was compared with clomiphene citrate, data for live birth were inconclusive, and our findings were limited by lack of evidence. Results differed by body mass index (BMI), emphasising the importance of stratifying results by BMI. An improvement in clinical pregnancy and ovulation suggests that clomiphene citrate remains preferable to metformin for ovulation induction in obese women with PCOS.An improved clinical pregnancy and ovulation rate with metformin and clomiphene citrate versus clomiphene citrate alone suggests that combined therapy may be useful although we do not know whether this translates into increased live births. Women taking metformin alone or with combined therapy should be advised that there is no evidence of increased miscarriages, but gastrointestinal side effects are more likely.",
+        "title": "Insulin-sensitising drugs (metformin, rosiglitazone, pioglitazone, D-chiro-inositol) for women with polycystic ovary syndrome, oligo amenorrhoea and subfertility.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "29183107",
+          "journal": "The Cochrane database of systematic reviews",
+          "authors": [
+            "Morley Lara C",
+            "Tang Thomas",
+            "Yasmin Ephia"
+          ],
+          "pub_date": "2017-Nov-29",
+          "doi": "10.1002/14651858.CD003053.pub6",
+          "mesh_terms": [
+            "Abortion, Spontaneous",
+            "Anovulation",
+            "Clomiphene",
+            "Female",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Infertility, Female",
+            "Inositol",
+            "Insulin Resistance",
+            "Live Birth",
+            "Metformin",
+            "Ovulation Induction",
+            "Pioglitazone",
+            "Polycystic Ovary Syndrome",
+            "Pregnancy",
+            "Pregnancy Rate",
+            "Randomized Controlled Trials as Topic",
+            "Rosiglitazone",
+            "Thiazolidinediones"
+          ]
         }
       }
     ]

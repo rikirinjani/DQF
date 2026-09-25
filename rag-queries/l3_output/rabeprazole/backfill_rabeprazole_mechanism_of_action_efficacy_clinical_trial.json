@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39404726",
-        "text": "[Efficacy of rabeprazole for the treatment of gastroesophageal reflux disease in a 7-day non-interventional trial]. To evaluate the efficacy of seven-day treatment with rabeprazole (Razo Thirty patients with typical GERD manifestations were examined. The study included patients who underwent pH-impedancemetry, endoscopic examination, and were prescribed treatment with rabeprazole at a dose of 20 mg once a day. Clinical monitoring was performed during three visits: before treatment, after 3 days, and after 7",
-        "score": 0.41894638538360596,
-        "doi": "10.26442/00403660.2024.08.202895",
-        "journal": "Terapevticheskii arkhiv",
-        "year": "2024",
-        "rerank_score": 5.265571594238281,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10491722",
+        "text": "Rabeprazole: pharmacology, pharmacokinetics, and potential for drug interactions. Introduction.",
+        "doi": "10.1046/j.1365-2036.1999.00018.x",
+        "journal": "Alimentary pharmacology & therapeutics",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.365575909614563,
+        "score": 0.365575909614563,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41286656",
-        "text": "Efficacy of 10 days high-dose and double-dose rabeprazole-based concomitant therapy for Helicobacter pylori eradication among Lebanese population: a pilot randomized controlled trial. The aim of this study is to optimize Helicobacter pylori (H. pylori) eradication by increasing the proton pump inhibitor (PPI) dose and reducing the treatment duration of antibiotics without compromising the treatment's safety and efficacy. This pilot randomized controlled trial included 120 patients from Notre Dame des Secour",
-        "score": 0.44207361340522766,
-        "doi": "10.1186/s12876-025-04478-7",
-        "journal": "BMC gastroenterology",
-        "year": "2025",
-        "rerank_score": 4.161627292633057,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37401012",
+        "text": "Repurposing of rabeprazole as an anti-",
+        "doi": "10.1080/14756366.2023.2231169",
+        "journal": "Journal of enzyme inhibition and medicinal chemistry",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.41368725895881653,
+        "score": 0.41368725895881653,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39681063",
-        "text": "Rabeprazole inhibits lung cancer progression by triggering NLRP3/CASP-1/caspase-dependent pyroptosis. Gastric acid-related diseases could be treated using proton pump inhibitors (PPIs), which have been found to have anti-tumor ability. Rabeprazole is a type of PPI whose effect and mechanism in lung cancer remained to be clarified. Lung cancer cells and lung cancer mice were treated with different concentrations of Rabeprazole and then cell proliferation was detected by CCK-8 and colony formation assays. Pyr",
-        "score": 0.4481865167617798,
-        "doi": "10.1016/j.intimp.2024.113806",
-        "journal": "International immunopharmacology",
-        "year": "2024",
-        "rerank_score": 3.562962770462036,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16240208",
+        "text": "Efficacy of rabeprazole in the treatment of symptomatic gastroesophageal reflux disease. The purpose of this study was to assess the rapidity of symptom relief and 4-week efficacy of rabeprazole 20 mg in patients with moderately severe nonerosive gastroesophageal reflux disease. Data were analyzed from 2 similarly designed, double-blind, placebo-controlled, multicenter, U.S. trials. After a 2-week placebo run-in period, patients (N = 261) were randomized to 4 weeks of rabeprazole 20 mg once daily or placebo. Patients kept symptom diaries and scored symptom severity. Median time to first 24-hour heartburn-free interval was 3.5 days for the rabeprazole group compared with 19.5 days for the placebo group (P < or = .0002). Complete heartburn relief at week 4 was 32% with rabeprazole and 3.8% with placebo (P < or = .001). Rabeprazole also significantly improved other GERD-associated symptoms (e.g., regurgitation, belching, early satiety) by week 4 compared with placebo (P < or = .05). Rabeprazole provides fast and potent relief from heartburn and other symptoms of nonerosive gastroesophageal reflux disease.",
+        "doi": "10.1007/s10620-005-3000-3",
+        "journal": "Digestive diseases and sciences",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.4378511905670166,
+        "score": 0.4378511905670166,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

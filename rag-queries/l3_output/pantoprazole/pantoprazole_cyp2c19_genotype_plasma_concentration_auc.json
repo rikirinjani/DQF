@@ -4,54 +4,142 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:9014204",
-        "text": "CYP2C19 genotype and phenotype determined by omeprazole in a Korean population. Omeprazole (20 mg orally) was given to 103 healthy Korean subjects and blood was taken 3 h after administration. The plasma concentration ratio of omeprazole and hydroxyomeprazole, used as an index of CYP2C19 activity, was bimodally distributed. Thirteen subjects (12.6%) were identified as poor metabolizers (PMs) with an omeprazole hydroxylation ratio of 6.95 or higher. Among the 206 CYP2C19 alleles, CYP2C19*2 and CYP2C19*3 were",
-        "score": 0.40853631496429443,
-        "doi": "10.1097/00008571-199612000-00008",
-        "journal": "Pharmacogenetics",
-        "year": "1996",
-        "rerank_score": 5.348873615264893,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:39445918",
-        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
-        "score": 0.41530394554138184,
-        "doi": "10.1080/00498254.2024.2421513",
-        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
-        "year": "2024",
-        "rerank_score": 2.009424924850464,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35787720",
+        "text": "An update on drug-drug interactions associated with proton pump inhibitors.\n\nProton pump inhibitors (PPIs) block the gastric H/K-ATPase, therefore inhibiting acid gastric secretion, leading to an increased pH (>4). They account for an extremely high number of prescriptions worldwide. Numerous drug-drug interactions have been described with PPIs, but all the described interactions do not have clinical significance.\nThis review will discuss the latest updates on drug-drug interactions with PPIs, focusing on the last 10-year publications in the following areas: anti-infective agents, anticancer drugs, antiplatelet agents and anticoagulants, and antidiabetics.\nAlthough pharmacokinetic interactions of PPIs have been described with many drugs, their clinical relevance remains controversial. However, given the extremely high number of people being treated with PPIs, clinicians should remain vigilant for interactions that may be clinically significant and require dose adjustment or therapeutic monitoring. Interestingly, not all PPIs have the same pharmacokinetic and pharmacodynamic profile, with some having a strong potential to inhibit CYP2C19, such as omeprazole, esomeprazole, and lansoprazole, while others, pantoprazole, rabeprazole, and dexlansoprazole, are weak CYP2C19 inhibitors. These may be preferred depending on co-prescribed treatments.In addition, new formulations have been developed to prevent some of the gastric pH-dependent drug interactions and should be evaluated in further large-scale prospective comparative studies.",
+        "title": "An update on drug-drug interactions associated with proton pump inhibitors.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35787720",
+          "journal": "Expert opinion on drug metabolism & toxicology",
+          "authors": [
+            "Ben Ghezala Inès",
+            "Luu Maxime",
+            "Bardou Marc"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1080/17425255.2022.2098107",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Drug Interactions",
+            "Enzyme Inhibitors",
+            "Esomeprazole",
+            "Humans",
+            "Omeprazole",
+            "Prospective Studies",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:38925553",
-        "text": "Combined effect of CYP2C19 and CYP2D6 genotypes on escitalopram serum concentration and its metabolic ratio in a European patient population. The aim of the present study was to investigate the impact of CYP2D6 genotype on exposure and metabolism of escitalopram in patients stratified by CYP2C19 genotype in a large real-world population. Patients were included from a therapeutic drug monitoring service if they had measured serum concentration of escitalopram and the metabolite, N-desmethyl escitalopram, and",
-        "score": 0.40904197096824646,
-        "doi": "10.1111/bcp.16156",
-        "journal": "British journal of clinical pharmacology",
-        "year": "2024",
-        "rerank_score": 1.9989652633666992,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:18681492",
+        "text": "Dabigatran etexilate.\n\nDabigatran etexilate is an orally administered prodrug of dabigatran, which is a potent, concentration-dependent inhibitor of thrombus formation and thrombin-induced platelet aggregation. Dabigatran etexilate pharmacokinetics were linear across a wide dosage range. There were no clinically important pharmacokinetic interactions with digoxin (a P-glycoprotein substrate), pantoprazole (a proton-pump inhibitor) or drugs that are substrates and/or inhibitors of hepatic cytochrome P450 enzymes. In two large, randomized, double-blind trials of the prevention of venous thromboembolism (VTE) in patients undergoing total hip or total knee replacement surgery, orally administered dabigatran etexilate 220 mg/day was noninferior to subcutaneous enoxaparin sodium 40 mg/day for the primary composite endpoint of total VTE events or all-cause mortality during the treatment period. There were no significant differences between dabigatran etexilate and enoxaparin sodium in major VTE events and VTE-related mortality. Across trials, < or =0.5% of patients experienced a symptomatic pulmonary embolus or died. Dabigatran etexilate was generally well tolerated. In patients undergoing total hip or total knee replacement surgery, there was no significant difference between dabigatran etexilate and enoxaparin sodium recipients in the incidence of major or minor bleeding.",
+        "title": "Dabigatran etexilate.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "18681492",
+          "journal": "Drugs",
+          "authors": [
+            "Sanford Mark",
+            "Plosker Greg L"
+          ],
+          "pub_date": "2008",
+          "doi": "10.2165/00003495-200868120-00007",
+          "mesh_terms": [
+            "Anemia",
+            "Anticoagulants",
+            "Area Under Curve",
+            "Benzimidazoles",
+            "Dabigatran",
+            "Half-Life",
+            "Hemorrhage",
+            "Humans",
+            "Molecular Structure",
+            "Platelet Aggregation",
+            "Prodrugs",
+            "Pyridines",
+            "Randomized Controlled Trials as Topic",
+            "Suppuration",
+            "Surgical Wound Infection",
+            "Thromboembolism",
+            "Thrombosis",
+            "Treatment Outcome"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15703599",
+        "text": "Gastric secretion.\n\nGastric acid facilitates the digestion of protein and the absorption of iron, calcium, and vitamin B12. It also protects against bacterial overgrowth and enteric infection, including prion disease. When homeostatic mechanisms malfunction, the volume and concentration of acid may overwhelm mucosal defense mechanisms, leading to duodenal ulcer, gastric ulcer, and gastroesophageal reflux disease. This article reviews recent knowledge contributing to understanding of the regulation of gastric acid secretion at the central, peripheral, and intracellular levels.\nThe vagus nerve contains afferent fibers that transmit sensory information from the stomach to the nucleus of the solitary tract. Input from the nucleus of the solitary tract is relayed to vagal efferent neurons that originate from two brain stem nuclei: the nucleus ambiguus and the dorsal motor nucleus of the vagus. The latter is also influenced by thyrotropin-releasing hormone neurons that act centrally to stimulate acid secretion. The main peripheral stimulants of acid secretion are the hormone gastrin and the paracrine amine histamine. Gastrin stimulates acid secretion directly and, more importantly, indirectly by releasing histamine from fundic enterochromaffin-like cells. Gastrin also exerts trophic effects on various tissues, including the gastric and intestinal mucosa. The main inhibitor of acid secretion is somatostatin. Somatostatin, acting via ssTR2 receptors, exerts a tonic paracrine inhibitory influence on the secretion of gastrin, histamine, and acid secretion. Calcitonin gene-related peptide, adrenomedullin, amylin, atrial natriuretic peptide, and pituitary adenylate cyclase-activating polypeptide all stimulate somatostatin secretion and thus inhibit acid secretion. HK-ATPase, the proton pump of the parietal cell, is stored within cytoplasmic tubulovesicles during the resting state, but during stimulation, it is shuttled to the canalicular membrane by a poorly understood mechanism that probably involves soluble N-ethylmaleimide-sensitive factor attachment protein receptor proteins. The proton pump inhibitor, pantoprazole, is unique in that it binds cysteine 822, located deep within the membrane domain of the alpha-subunit. The difficulty that reducing agents, such as glutathione, have in reaching cysteine 822 may be responsible for the longer half-time for acid recovery observed with pantoprazole. Hypergastrinemia, induced by proton pump inhibitors, enhances expression of cyclooxygenase-2 and hence prostaglandins within parietal cells, a feedback pathway that may protect the stomach against acid-induced damage.\nIn the past year, significant advances have been made in understanding of the regulation of gastric acid secretion. Ultimately, these advances should lead to improved therapies to prevent and treat acid-related disorders. Gastric acid secretion must be precisely controlled at a variety of levels to prevent disease caused by hyperchlorhydria and hypochlorhydria. The mechanisms include neural (central and peripheral), hormonal, paracrine, and intracellular pathways that operate in concert to switch acid secretion on during ingestion of a meal and off during the interdigestive period. A better understanding of the physiology of acid secretion in health and disease should eventually lead to improved therapies to prevent and treat acid-related disorders.",
+        "title": "Gastric secretion.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15703599",
+          "journal": "Current opinion in gastroenterology",
+          "authors": [
+            "Schubert Mitchell L"
+          ],
+          "pub_date": "2003-Nov",
+          "doi": "10.1097/00001574-200311000-00002",
+          "mesh_terms": []
+        }
+      },
+      {
+        "id": "PMID:8793599",
+        "text": "Pharmacokinetics of pantoprazole in man.\n\nThe proton pump inhibitor pantoprazole is a substituted benzimidazole sulphoxide for the treatment of acid-related gastrointestinal diseases such as reflux esophagitis, duodenal and gastric ulcers. Pantoprazole, administered as a 40 mg enteric coated tablet, is quantitatively absorbed. Its absolute bioavailability is 77% and does not change upon multiple dosing. Following a single oral dose of 40 mg, Cmax is approximately 2.5 mg/l, with a tmax of 2-3 h. The AUC(0,inf.) is approximately 5 mgxh/l. Pantoprazole shows linear pharmacokinetics after both i.v. and oral administration. Pantoprazole is extensively metabolized in the liver, has a total serum clearance of 0.1 l/h/kg, a serum elimination half-life of about 1.1 h, and an apparent volume of distribution of 0.15 l/kg. 98% of pantoprazole is bound to serum proteins. Elimination half-life, clearance and volume of distribution are independent of the dose. The main serum metabolite is formed by demethylation at the 4-position of the pyridine ring, followed by conjugation with sulphate. Almost 80% of an oral or intravenous dose is excreted as metabolites in urine; the remainder is found in feces and originates from biliary secretion. The pharmacokinetics of pantoprazole are unaltered in patients with renal failure. In patients with severe liver cirrhosis, the decreased rate of metabolism results in a half-life of 7-9 h. The clearance of pantoprazole is only slightly affected by age, its half-life being approximately 1.25 h in the elderly. Concomitant intake of food had no influence on the bioavailability of pantoprazole. Pantoprazole showed lack of cytochrome P450 interaction with concomitantly administered drugs in any of the studies conducted to date. Lack of interaction was also demonstrated with a coadministered antacid. The absence of inductive effects on metabolism after chronic administration was first shown by using antipyrine as a probe for mixed functional oxidative cytochrome P450 enzymes. Absence of CYP1A2 induction was confirmed using the specific probe caffeine. As sensitive probes for CYP3A enzyme induction, urinary excretion of D-glucaric acid and 6 beta-hydroxycortisol were also unchanged.",
+        "title": "Pharmacokinetics of pantoprazole in man.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "8793599",
+          "journal": "International journal of clinical pharmacology and therapeutics",
+          "authors": [
+            "Huber R",
+            "Hartmann M",
+            "Bliesath H"
+          ],
+          "pub_date": "1996-May",
+          "doi": "",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adolescent",
+            "Adult",
+            "Aged",
+            "Benzimidazoles",
+            "Enzyme Inhibitors",
+            "Female",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Sulfoxides"
+          ]
         }
       }
     ]

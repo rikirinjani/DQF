@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40078077",
-        "text": "Number needed to treat (NNT) with pembrolizumab as an adjuvant therapy in resected patients with high-risk stage II (IIB and IIC) melanoma and its application to cost of preventing an event (COPE) in Mexico. Melanoma, responsible for most skin cancer deaths globally, has mortality rates expected to double by 2040. Pembrolizumab is a highly selective antibody approved for melanoma treatment and other cancers. Despite new treatments for melanoma, high treatment costs and long approval times limit patient acce",
-        "score": 0.47366225719451904,
-        "doi": "10.1080/13696998.2025.2466365",
-        "journal": "Journal of medical economics",
-        "year": "2025",
-        "rerank_score": 2.0246732234954834,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3483886420726776,
+        "score": 0.3483886420726776,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:34264500",
-        "text": "Benefit-Risk Assessment of Galcanezumab Versus Placebo for the Treatment of Episodic and Chronic Migraine Using the Metrics of Number Needed to Treat and Number Needed to Harm. Subcutaneous galcanezumab was an effective, well-tolerated preventive treatment for adults with episodic (EM) or chronic migraine (CM) in 4 phase 3 randomized controlled trials: EVOLVE-1, EVOLVE-2, REGAIN, and CONQUER. Number needed to treat (NNT) and to harm (NNH) are metrics of effect size used to evaluate benefit-risk profiles. Th",
-        "score": 0.4652906656265259,
-        "doi": "10.1007/s12325-021-01848-x",
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and the comparator response. Confidence intervals should always accompany NNT for the precision of its estimate. In this review, three meta-analyses are reviewed, which included the NNT in the analysis of response.",
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.40597572922706604,
+        "score": 0.40597572922706604,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:40156748",
+        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other outcomes. In this secondary analysis of data from the SELECT cardiovascular (CV) outcomes trial, we aimed to determine the NNT for semaglutide for major adverse cardiovascular events (MACE), in addition to NNTs when other clinically and payer-relevant outcomes are included. This study is a secondary analysis of data from the randomized, double-blind SELECT trial (ClinicalTrials.gov NCT03574597) of once-weekly subcutaneous administration of semaglutide compared with placebo in 17,604 patients with overweight or obesity and with established cardiovascular disease (CVD) (39.8 months mean follow-up). The outcomes were NNT The relative risk reductions observed for the events comprising the NNTs were 20% (NNT When clinically and payer-relevant outcomes from the SELECT trial are included in calculations of NNT, semaglutide was associated with greater risk reductions and lower estimates of NNT than for the primary endpoint alone. Our findings suggest that including the broader effects of semaglutide beyond the primary trial endpoint recognizes additional value to stakeholders.",
+        "doi": "10.1007/s12325-025-03176-w",
         "journal": "Advances in therapy",
-        "year": "2021",
-        "rerank_score": 0.5405154228210449,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:19713652",
-        "text": "The impact of pravastatin therapy on long-term outcome in patients with metabolic syndrome undergoing complete coronary revascularization. Few studies dealing with the efficacy of statin therapy among patients with metabolic syndrome (MS) and coronary artery disease (CAD) have been conducted. In particular, there have been no studies of the efficacy of statins among Asian MS patients with treated CAD.",
-        "score": 0.46482765674591064,
-        "doi": "10.1253/circj.cj-09-0122",
-        "journal": "Circulation journal : official journal of the Japanese Circulation Society",
-        "year": "2009",
-        "rerank_score": 0.28759944438934326,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2025",
+        "corpus": "recent",
+        "distance": 0.4281505048274994,
+        "score": 0.4281505048274994,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

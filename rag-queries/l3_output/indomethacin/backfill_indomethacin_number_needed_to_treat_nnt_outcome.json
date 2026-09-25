@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38636712",
-        "text": "Number needed to treat (NNT) for ketamine and esketamine in adults with treatment-resistant depression: A systematic review and meta-analysis. Ketamine has been established as efficacious in adults living with Treatment-resistant Depression (TRD). Toward providing a quantifiable estimate of the clinical meaningfulness of the therapeutic benefit of ketamine, herein, we conduct a systematic review that aims to report the Number Needed to Treat (NNT) and the Number Needed to Harm (NNH). This systematic review ",
-        "score": 0.46155452728271484,
-        "doi": "10.1016/j.jad.2024.04.039",
-        "journal": "Journal of affective disorders",
-        "year": "2024",
-        "rerank_score": 1.6221524477005005,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3693079352378845,
+        "score": 0.3693079352378845,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38679455",
-        "text": "Does perioperative hydrocortisone or indomethacin improve pancreatoduodenectomy outcomes? A triple arm, randomized placebo-controlled trial. This trial evaluated whether anti-inflammatory agents hydrocortisone (H) and indomethacin (I) could reduce major complications after pancreatoduodenectomy (PD). Between June 2018 and June 2020, 105 patients undergoing PD with > 40% of acini on the intraoperative frozen section were randomized into three groups (35 patients per group): 1) intravenous H 100 mg 8 hourly, ",
-        "score": 0.44825708866119385,
-        "doi": "10.14701/ahbps.24-021",
-        "journal": "Annals of hepato-biliary-pancreatic surgery",
-        "year": "2024",
-        "rerank_score": -0.5192012786865234,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:18385922",
+        "text": "A third course of indomethacin.",
+        "doi": "10.1007/s00246-008-9216-1",
+        "journal": "Pediatric cardiology",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.44470345973968506,
+        "score": 0.44470345973968506,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:2644750",
-        "text": "The effect of continuous intravenous indomethacin infusion on bleeding time and postoperative pain in patients undergoing emergency surgery of the lower extremities. Fifty-four orthopaedic patients were given either indomethacin (25-50 mg bolus plus infusion, 5-7.5 mg h-1) or only lactated Ringer solution intravenously over 20 h in a randomized and double-blind fashion. The study was started at the casualty department as soon as possible after the decision to operate was made. The patients were given a spin",
-        "score": 0.42484578490257263,
-        "doi": "10.1111/j.1399-6576.1989.tb02860.x",
-        "journal": "Acta anaesthesiologica Scandinavica",
-        "year": "1989",
-        "rerank_score": -0.9092807173728943,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12634229",
+        "text": "Number needed to treat (NNT): implication in rheumatology clinical practice. To calculate the number needed to treat (NNT) and number needed to harm (NNH) from the data in rheumatology clinical trials and systematic reviews. The NNTs for the clinically important outcome measures in the rheumatology systematic reviews from the Cochrane Library, issue 2, 2000 and in the original randomised, double blind, controlled trials were calculated. The measure used for calculating the NNT in rheumatoid arthritis (RA) interventions was the American College of Rheumatology 20% improvement or Paulus criteria; in osteoarthritis (OA) interventions, the improvement of pain; and in systemic sclerosis (SSc) interventions, the improvement of Raynaud's phenomenon. The NNH was calculated from the rate of withdrawals due to adverse events from the treatment. The data required for the calculation of the NNT were available in 15 systematic reviews and 11 original articles. For RA interventions, etanercept treatment for six months had the smallest NNT (1.6; 95% confidence interval (CI) 1.4 to 2.0), whereas leflunomide had the largest NNH (9.6; 95% CI 6.8 to 16.7). For OA treatment options, only etodolac and tenoxicam produced significant pain relief compared with placebo (NNT=4.4; 95% CI 2.4 to 24.4 and 3.8; 95% CI 2.5 to 7.3, respectively). For SSc interventions, none were shown to be efficacious in improving Raynaud's phenomenon because the 95% CI of the NNT was infinite. The NNT and NNH are helpful for clinicians, enabling them to translate the results from clinical trials and systematic reviews to use in routine clinical practice. Both NNT and NNH should be accompanied by a limited 95% CI and adjusted for the individual subject's baseline risk.",
+        "doi": "10.1136/ard.62.4.316",
+        "journal": "Annals of the rheumatic diseases",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.4505167007446289,
+        "score": 0.4505167007446289,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

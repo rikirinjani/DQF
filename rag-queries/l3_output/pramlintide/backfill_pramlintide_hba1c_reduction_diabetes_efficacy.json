@@ -1,0 +1,46 @@
+{
+  "query": {
+    "angle": "A2",
+    "dimension": "backfill_outcome",
+    "query": "Pramlintide HbA1c reduction diabetes efficacy"
+  },
+  "result": {
+    "results": [
+      {
+        "id": "PMID:14617226",
+        "text": "Addition of pramlintide to insulin therapy lowers HbA1c in conjunction with weight loss in patients with type 2 diabetes approaching glycaemic targets. Two long-term, randomized, double-blind, placebo-controlled clinical trials in insulin-using patients with type 2 diabetes, spanning a wide range of baseline glycaemic control, have shown that the addition of pramlintide, an analogue of the beta-cell hormone amylin, to pre-existing insulin regimens results in reductions in HbA1c that are accompanied by weight loss. To assess whether this profile of pramlintide is observed in patients approaching, but not yet reaching, glycaemic targets, we conducted a pooled post hoc analysis of the two trials, including all patients with an entry HbA1c between 7.0 and 8.5%. Within this subset of patients, 80 were treated with placebo + insulin [baseline HbA1c 8.0 +/- 0.3%, weight 87.3 +/- 19.3 kg (mean +/- s.d.)] and 86 with pramlintide (120 micro g bid) + insulin [HbA1c 8.0 +/- 0.4%, weight 92.5 +/- 20.4 kg (mean +/- s.d.)]. Endpoints included changes from baseline to Week 26 in HbA1c, body weight, and the event rate of severe hypoglycaemia. Adjunctive therapy with pramlintide resulted in significant reductions in both HbA1c and body weight from baseline to Week 26 (-0.43% and -2.0 kg differences from placebo, respectively, both p < 0.001). These changes were achieved without a concomitant increase in the overall rate of severe hypoglycaemic events (0.13 pramlintide vs. 0.19 placebo, events/patient year of exposure). The data from this post hoc analysis indicate that the addition of pramlintide to insulin therapy may help patients with type 2 diabetes who are approaching, but not yet reaching, glycaemic targets to achieve further reductions in HbA1c without concomitant weight gain and increased risk of severe hypoglycaemia.",
+        "doi": "10.1046/j.1463-1326.2003.00295.x",
+        "journal": "Diabetes, obesity & metabolism",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3454725444316864,
+        "score": 0.3454725444316864,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:15090634",
+        "text": "Effect of pramlintide on weight in overweight and obese insulin-treated type 2 diabetes patients. Several randomized, placebo-controlled, double-blind trials in insulin-treated patients with type 2 diabetes have shown that adjunctive therapy with pramlintide reduces hemoglobin (Hb)A1c with concomitant weight loss. This analysis further characterizes the weight-lowering effect of pramlintide in this patient population. This pooled post hoc analysis of two long-term trials included all patients who were overweight/obese at baseline (BMI > 25 kg/m2), and who were treated with either 120 microg pramlintide BID (n = 254; HbA1c 9.2%; weight, 96.1 kg) or placebo (n = 244; HbA1c 9.4%; weight, 95.0 kg). Statistical endpoints included changes from baseline to week 26 in HbA1c, body weight, and insulin use. Pramlintide treatment resulted in significant reductions from baseline to week 26, compared with placebo, in HbA1c and body weight (both, p < 0.0001), for placebo-corrected reductions of -0.41% and -1.8 kg, respectively. Approximately three times the number of patients using pramlintide experienced a > or = 5% reduction of body weight than with placebo (9% vs. 3%, p = 0.0005). Patients using pramlintide also experienced a proportionate decrease in total daily insulin use (r = 0.39, p < 0.0001). The greatest placebo-corrected reductions in weight at week 26 were observed in pramlintide-treated patients with a BMI >40 kg/m2 and in those concomitantly treated with metformin (both, p < 0.001), for placebo-corrected reductions of -3.2 kg and -2.5 kg, respectively. These findings support further evaluation of the weight-lowering potential of pramlintide in obese patients with type 2 diabetes.",
+        "doi": "10.1038/oby.2004.76",
+        "journal": "Obesity research",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.35445326566696167,
+        "score": 0.35445326566696167,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:12017422",
+        "text": "Pramlintide: an agent for glycemic control plus weight control?",
+        "doi": "10.1089/15209150252924102",
+        "journal": "Diabetes technology & therapeutics",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.3602578043937683,
+        "score": 0.3602578043937683,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:26271127",
-        "text": "Meta-Analysis Comparing Rosuvastatin and Atorvastatin in Reducing Concentration of C-Reactive Protein in Patients With Hyperlipidemia. We conducted a meta-analysis of 13 randomized trials comparing the efficacy of rosuvastatin versus atorvastatin in reducing concentrations of C-reactive protein (CRP). We searched PubMed, Ovid, and Elsevier databases until June 2014. Search terms included C-reactive protein or CRP, rosuvastatin, atorvastatin, randomized, randomly, and randomization; 13 trials (3798 patients)",
-        "score": 0.36620116233825684,
-        "doi": "10.1177/0003319715599863",
-        "journal": "Angiology",
-        "year": "2015",
-        "rerank_score": 6.016477584838867,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:16143705",
-        "text": "A comparative study with rosuvastatin in subjects with metabolic syndrome: results of the COMETS study. The efficacy and safety of rosuvastatin, atorvastatin, and placebo were compared in patients with the metabolic syndrome.",
-        "score": 0.36409828066825867,
-        "doi": "10.1093/eurheartj/ehi482",
-        "journal": "European heart journal",
+        "id": "PMID:16275204",
+        "text": "Statin comparisons in controlled clinical trials.",
+        "doi": "10.1016/j.amjcard.2005.05.004",
+        "journal": "The American journal of cardiology",
         "year": "2005",
-        "rerank_score": 5.816223621368408,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.3486509323120117,
+        "score": 0.3486509323120117,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:26780905",
-        "text": "Lipophilic Statin Versus Rosuvastatin (Hydrophilic) Treatment for Heart Failure: a Meta-Analysis and Adjusted Indirect Comparison of Randomised Trials. This study aims to compare lipophilic and hydrophilic statin therapy on clinical outcomes of heart failure (HF) using a systematic review and an adjusted indirect comparison meta-analysis. Outcomes were all-cause mortality, cardiovascular mortality, cardiovascular hospitalization and hospitalization for worsening HF.",
-        "score": 0.36613568663597107,
-        "doi": "10.1007/s10557-015-6636-z",
-        "journal": "Cardiovascular drugs and therapy",
-        "year": "2016",
-        "rerank_score": 5.385523796081543,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22019059",
+        "text": "A meta-analysis of randomized head-to-head trials of atorvastatin versus rosuvastatin for reductions in C-reactive protein.",
+        "doi": "10.1016/j.ijcard.2011.09.065",
+        "journal": "International journal of cardiology",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.3498697876930237,
+        "score": 0.3498697876930237,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:19064019",
+        "text": "Comparison of benefits and risks of rosuvastatin versus atorvastatin from a meta-analysis of head-to-head randomized controlled trials. The benefit from statin therapy is proportional to the low-density lipoprotein (LDL) cholesterol reduction. However, adverse events appear to be related to dose rather than LDL cholesterol reduction. Although serious side effects are rare, any comparison of statins requires scrutiny of the relation between therapeutic effect and risk of side effects. This report sought to determine whether the additional LDL cholesterol lowering with rosuvastatin over atorvastatin could be obtained without increased risk of short-term adverse events. Twenty-five studies (approximately 20,000 patients) were identified that provided 28 comparisons of 1:1 dose ratios, 20 comparisons of 1:2 dose ratios, and 6 comparisons of 1:4 dose ratios. Treatment difference in benefit (percentage of LDL cholesterol reduction) and risk (odds ratios for myalgia, increased alanine aminotransferase >3 times the upper limit of normal, creatine kinase >10 times the upper limit of normal, and percentage of change in glomerular filtration rate, as well as deaths, serious adverse events, and withdrawals caused by adverse events) were estimated using meta-analysis and presented in benefit-risk planes. Rosuvastatin was more efficacious than the same dose of atorvastatin (1:1 dose ratio) or a 2 times higher dose (1:2 dose ratio) of atorvastatin. There was no significant difference between rosuvastatin and a 4 times higher dose of atorvastatin (1:4 dose ratio). There were no significant differences between rosuvastatin and atorvastatin at any dose ratio for adverse events. Percentages of change in GFR improved significantly with both treatments. In conclusion, at 1:1 and 1:2 dose ratios, significant additional decreases in LDL cholesterol were obtained using rosuvastatin compared with atorvastatin at a similar risk of the adverse events presented.",
+        "doi": "10.1016/j.amjcard.2008.08.014",
+        "journal": "The American journal of cardiology",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.36546769738197327,
+        "score": 0.36546769738197327,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

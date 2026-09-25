@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.4158557057380676,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 4.1631622314453125,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25095785",
+        "text": "Statins: numbers needed to treat and personal decision making.",
+        "doi": "10.1136/bmj.g4980",
+        "journal": "BMJ (Clinical research ed.)",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3864562511444092,
+        "score": 0.3864562511444092,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:26542887",
-        "text": "Intravenous Administration of Simvastatin Improves Cognitive Outcome following Severe Traumatic Brain Injury in Rats. Simvastatin is a 3-hydroxy-3-methylglutaryl coenzyme A reductase inhibitor commonly used to reduce serum cholesterol. The beneficial effects of oral simvastatin have been reported in pre-clinical models of traumatic brain injury (TBI). The current study was designed to evaluate the potential beneficial effects of simvastatin in a model of severe penetrating TBI using an intravenous (IV) rout",
-        "score": 0.40772613883018494,
-        "doi": "10.1089/neu.2015.4139",
-        "journal": "Journal of neurotrauma",
-        "year": "2015",
-        "rerank_score": 1.2459344863891602,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3908633291721344,
+        "score": 0.3908633291721344,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:14759379",
-        "text": "Safety and tolerability of simvastatin plus niacin in patients with coronary artery disease and low high-density lipoprotein cholesterol (The HDL Atherosclerosis Treatment Study). The high-density lipoprotein (HDL)-Atherosclerosis Treatment Study showed that simvastatin plus niacin (mean daily dose 13 mg and 2.4 g, respectively) halt angiographic atherosclerosis progression and reduce major clinical events by 60% in patients with coronary artery disease (CAD) who have low HDL, in comparison with placebos, o",
-        "score": 0.40737032890319824,
-        "doi": "10.1016/j.amjcard.2003.10.009",
-        "journal": "The American journal of cardiology",
-        "year": "2003",
-        "rerank_score": 0.8426195979118347,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21801540",
+        "text": "Therapeutic decisions by number needed to treat and survival gains: a cross-sectional survey of lipid-lowering drug recommendations. Previous studies suggest that lay people have difficulties with evaluating effect size in terms of number needed to treat (NNT), but they are sensitive to effect size in terms of survival gains. To explore whether GPs and internists are sensitive to NNT and survival gains when considering a lipid-lowering drug therapy. Cross-sectional survey of primary prevention of cardiovascular disease with random allocation to different scenarios. GPs (n = 450) and internists (n = 450) were posted a vignette presenting a high-risk patient and a novel drug, 'neostatin'. The benefit was described in terms of NNT or mean gain in disease-free survival. Each physician was randomly allocated to one version of the vignette. Outcome measures were evaluation of 'neostatin' on a Likert scale (0: very poor choice, 10: very good choice) and the proportion recommending 'neostatin'. A total of 477 responses (53%) were received. Among responders to NNT scenarios, 26%, 31%, and 43% recommended 'neostatin' for NNT values of 34, 17, and 9 respectively. With equivalent disease-free survival gains of 9, 17, and 32 months, 40%, 49%, and 52% respectively recommended the drug. On the rating scale, mean values were 4.7, 5.0, and 5.5 across the respective NNT scenarios and 5.2, 6.2, and 6.1 across the scenarios presenting survival gains. Differences in trends between the two formats were not statistically significant. In total, 33% recommended 'neostatin' when presented with NNT values, compared to 47% when presented with survival gain (χ(2) = 9.2, P= 0.002). Physicians presented with survival gains were more likely to recommend the therapy than those presented with NNT. Sensitivity to effect size was similar for both effect formats.",
+        "doi": "10.3399/bjgp11X588448",
+        "journal": "The British journal of general practice : the journal of the Royal College of Ge",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4212988317012787,
+        "score": 0.4212988317012787,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

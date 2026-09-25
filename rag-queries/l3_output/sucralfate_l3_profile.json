@@ -1,10 +1,24 @@
 {
   "_evidence": {
     "pmids": [
-      "9068926"
+      "2092028",
+      "2360833",
+      "3310631",
+      "39836033",
+      "40155548",
+      "40304217",
+      "40515427",
+      "40872708",
+      "7599345",
+      "9068926",
+      "9424000"
     ],
-    "source_count": 1,
-    "finding_count": 1
+    "source_count": 9,
+    "finding_count": 11,
+    "dup_pmids_skipped": 3,
+    "pool_relevance_pct": 56.0,
+    "filtered_off_drug": 11,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41052642",
-        "text": "Esomeprazole prevents oxaliplatin-induced peripheral neuropathy through inhibiting organic cation transporter 2 in mice. Oxaliplatin (L-OHP) is widely used as a key drug for the treatment of various cancers, including colorectal cancer. However, L-OHP accumulates in the dorsal root ganglion (DRG) via organic cation transporter 2 (OCT2/SLC22A2), causing L-OHP-induced peripheral neuropathy (OIPN), a major clinical problem. Although proton pump inhibitors (PPIs) exhibit off-target OCT2 inhibitory effects, it r",
-        "score": 0.48007267713546753,
-        "doi": "10.1016/j.ejps.2025.107309",
-        "journal": "European journal of pharmaceutical sciences : official journal of the European F",
-        "year": "2025",
-        "rerank_score": 0.73481285572052,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.4212633967399597,
+        "score": 0.4212633967399597,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39622191",
-        "text": "Esomeprazole's Antifibrotic Effects on Rats With Epidural Fibrosis. Study DesignRat subjects were randomly assigned to control, local, and systemic esomeprazole groups (n = 4-6 per group).ObjectiveExcessive scar formation after laminectomy can cause nerve entrapment and postoperative pain and discomfort. A rat laminectomy model determined whether topical application and systemic administration of esomeprazole can prevent epidural fibrosis.MethodsLaminectomy alone was performed in the control group. Topical ",
-        "score": 0.4686376452445984,
-        "doi": "10.1177/21925682241306045",
-        "journal": "Global spine journal",
-        "year": "2024",
-        "rerank_score": 0.1762787401676178,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11331440",
+        "text": "Esomeprazole (nexium).",
+        "doi": "",
+        "journal": "The Medical letter on drugs and therapeutics",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.43039408326148987,
+        "score": 0.43039408326148987,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41358629",
-        "text": "Comparative efficacy and safety of different brexpiprazole doses for agitation in Alzheimer's disease: A systematic review and network meta-analysis. BackgroundAgitation in Alzheimer's disease significantly impacts patient outcomes and caregiver burden. Brexpiprazole has emerged as a promising treatment option, but optimal dosing remains unclear.ObjectiveTo evaluate the comparative efficacy and safety of different brexpiprazole doses in treating agitation associated with Alzheimer's disease through a system",
-        "score": 0.4778946042060852,
-        "doi": "10.1177/13872877251404500",
-        "journal": "Journal of Alzheimer's disease : JAD",
-        "year": "2025",
-        "rerank_score": -2.957779884338379,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25250612",
+        "text": "Single-dose pharmacokinetic properties of esomeprazole in children aged 1 - 11 years with endoscopically proven GERD: a randomized, open-label study. To assess the overall exposure after a single dose of esomeprazole in children with gastroesophageal reflux disease (GERD). Oral esomeprazole administered as an intact capsule with 30 - 180 mL of water, or as an opened capsule mixed with as much as 1 tablespoon of applesauce followed by 30 - 180 mL of water. In this randomized, open-label study of children aged 1 - 11 years with endoscopically proven GERD, patients weighing 8 - < 20 kg were randomized to a single 5- or 10-mg oral dose of esomeprazole, and patients weighing >= 20 kg were randomized to a single 10- or 20-mg oral dose of esomeprazole. Esomeprazole exposure (AUC(0-∞)), AUC from zero to last measurable concentration (AUC(0-t)), maximum plasma concentration (C(max)), time to C(max) (t(max)), terminal-phase half-life, apparent oral clearance, and apparent volume of distribution were determined. 28 patients were randomized to receive esomeprazole: 14 patients weighing 8 to < 20 kg received esomeprazole 5 mg (n = 7) or 10 mg (n = 7), and 14 patients weighing ≥20 kg received esomeprazole 10 mg (n = 6) or 20 mg (n = 8). Children weighing 8 - < 20 kg had a 1.8-fold higher exposure with the 10-mg vs. 5-mg dose (AUC(0-∞), 1.32 vs. 0.73 μmol·h/L, respectively); children weighing ≥ 20 kg had a 4.4-fold higher exposure with the 20-mg vs. 10-mg dose (AUC(0-∞), 3.06 vs. 0.69 μmol·h/L). C(max) was 2.2-fold higher for the 10-mg vs. 5-mg dose (8 to < 20 kg) and 2.4-fold higher for the 20-mg vs.10-mg dose (>= 20 kg). The pharmacokinetics of single-dose esomeprazole were dose-dependent in children weighing >= 20 kg but not in children weighing 8 to < 20 kg.",
+        "doi": "10.5414/CP201971",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.45936229825019836,
+        "score": 0.45936229825019836,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

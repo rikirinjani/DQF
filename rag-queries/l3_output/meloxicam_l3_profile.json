@@ -4,7 +4,13 @@
   "cv_risk": 2,
   "renal_risk": 2,
   "platelet_effect": null,
-  "off_targets": [],
+  "off_targets": [
+    "Cannabinoid",
+    "Platelet",
+    "Ppar",
+    "Prostanoid",
+    "Thromboxane"
+  ],
   "anti_inflammatory": null,
   "analgesic": null,
   "antipyretic": null,
@@ -12,12 +18,13 @@
   "_evidence": {
     "pmids": [
       "10391112",
-      "10628595",
+      "10769766",
       "10810234",
-      "10882157",
       "10892637",
       "11028250",
+      "11041902",
       "11078056",
+      "11108435",
       "11566042",
       "12162470",
       "14659976",
@@ -27,15 +34,27 @@
       "16254252",
       "16265533",
       "17164136",
+      "19821429",
+      "21672128",
       "2401186",
+      "25269447",
       "27596333",
       "31961516",
       "39598398",
+      "41066714",
+      "8630630",
+      "8838440",
+      "9185970",
       "9219313",
-      "9475035"
+      "9475035",
+      "9506875"
     ],
-    "source_count": 8,
-    "finding_count": 28
+    "source_count": 16,
+    "finding_count": 31,
+    "dup_pmids_skipped": 8,
+    "pool_relevance_pct": 75.0,
+    "filtered_off_drug": 13,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

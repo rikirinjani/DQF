@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:8630640",
-        "text": "A 4-week, double-blind, parallel-group study to compare the gastrointestinal effects of meloxicam 7.5 mg, meloxicam 15 mg, piroxicam 20 mg and placebo by means of faecal blood loss, endoscopy and symptom evaluation in healthy volunteers. Meloxicam is a new non-steroidal anti-inflammatory drug (NSAID) which preferentially inhibits cyclooxygenase-2 (COX-2) over cyclooxygenase-1 (COX-1). Gastrointestinal (GI) tolerability of meloxicam 7.5 and 15 mg vs piroxicam 20 mg was evaluated in a 4-week, double-blind, pa",
-        "score": 0.40285608172416687,
-        "doi": "10.1093/rheumatology/35.suppl_1.61",
-        "journal": "British journal of rheumatology",
-        "year": "1996",
-        "rerank_score": 3.768097162246704,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9506875",
+        "text": "A double-blind, randomized, placebo-controlled study of efficacy and tolerance of meloxicam treatment in patients with osteoarthritis of the knee. Meloxicam is a new non-steroidal anti-inflammatory drug (NSAID), with a favourable ratio of inhibition of cyclooxygenase-2 (COX-2)/cyclooxygenase-1 (COX-1), giving the drug the potential to produce few gastric adverse effects. The aim of this study was to investigate the efficacy and safety of meloxicam in patients with osteoarthritis (OA) of the knee. Five hundred and thirteen patients were treated in a double-blind trial comparing once-daily meloxicam 7.5 mg, 15mg, 30mg, or placebo (140, 134, 102 and 137 patients, respectively). Outcome measures included scores on Visual Analogue Scales (VAS) for pain on movement (primary endpoint) and pain at rest in the target joint as well as global efficacy. Lesquesne's index of severity and paracetamol consumption were also measured. Global tolerability and the occurrence of adverse events were monitored. Both meloxicam 7.5 mg and 15 mg were significantly more effective than placebo with respect to pain on movement (p < 0.01 and p < 0.03, respectively). Both doses of meloxicam compared favourably with placebo with respect to pain of the target joint at rest, although only the 15 mg dose achieved statistical significance (p < 0.02). Global efficacy showed a significant difference for both doses of meloxicam (p < 0.05 and p < 0.002 for 7.5 mg and 15 mg doses, respectively). Once daily meloxicam 7.5 and 15 mg is effective and well tolerated in the short term symptomatic treatment of OA of the knee.",
+        "doi": "10.1080/030097498441146",
+        "journal": "Scandinavian journal of rheumatology",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.38587766885757446,
+        "score": 0.38587766885757446,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:29965830",
-        "text": "Estimating relative efficacy in acute postoperative pain: network meta-analysis is consistent with indirect comparison to placebo alone. Network meta-analysis uses direct comparisons of interventions within randomized controlled trials and indirect comparisons across them. Network meta-analysis uses more data than a series of direct comparisons with placebo, and theoretically should produce more reliable results. We used a Cochrane overview review of acute postoperative pain trials and other systematic revi",
-        "score": 0.4007054269313812,
-        "doi": "10.1097/j.pain.0000000000001322",
-        "journal": "Pain",
-        "year": "2018",
-        "rerank_score": 2.9122414588928223,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9876404",
+        "text": "Meloxicam--a safer NSAID?",
+        "doi": "",
+        "journal": "Drug and therapeutics bulletin",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.4037494957447052,
+        "score": 0.4037494957447052,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39920066",
-        "text": "Beneficial and harmful effects of duloxetine versus placebo, 'active placebo' or no intervention for adults with major depressive disorder: a systematic review with meta-analysis and trial sequential analysis of randomised clinical trials. To assess the beneficial and harmful effects of duloxetine versus 'active placebo', placebo or no intervention for adults with major depressive disorder. Systematic review with meta-analysis and trial sequential analysis of randomised trials. Cochrane Central Register of ",
-        "score": 0.40834754705429077,
-        "doi": "10.1136/bmjopen-2023-082853",
-        "journal": "BMJ open",
-        "year": "2025",
-        "rerank_score": 1.5171513557434082,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31974182",
+        "text": "Efficacy of meloxicam compared with carprofen for treating canine osteoarthritis.",
+        "doi": "10.1136/vr.m50",
+        "journal": "The Veterinary record",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.4088144898414612,
+        "score": 0.4088144898414612,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

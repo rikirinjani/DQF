@@ -4,54 +4,153 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:39423754",
-        "text": "Combined dapagliflozin and roxadustat effectively protected heart and kidney against cardiorenal syndrome-induced damage in rodent through activation of cell stress-Nfr2/ARE signalings and stabilizing HIF-1α. This study tested whether combined dapagliflozin (DAPA) and roxadustat (ROX) therapy was superior to a singular therapy in protecting heart and kidney functions in rats with cardiorenal syndrome (CRS). An in vitro study demonstrated that the cell survival (PI3K/Akt/mTOR)/cell stress (ERK1/2, JNK/p-38) ",
-        "score": 0.3702649474143982,
-        "doi": "10.1016/j.biopha.2024.117567",
-        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
-        "year": "2024",
-        "rerank_score": 2.0116167068481445,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:37533255",
+        "text": "STING/ACSL4 axis-dependent ferroptosis and inflammation promote hypertension-associated chronic kidney disease.\n\nHypertension is a primary modifiable risk factor for cardiovascular diseases, which often induces renal end-organ damage and complicates chronic kidney disease (CKD). In the present study, histological analysis of human kidney samples revealed that hypertension induced mtDNA leakage and promoted the expression of stimulator of interferon genes (STING) in renal epithelial cells. We used angiotensin II (AngII)- and 2K1C-treated mouse kidneys to elucidate the underlying mechanisms. Abnormal renal mtDNA packing caused by AngII promoted STING-dependent production of inflammatory cytokines, macrophage infiltration, and a fibrogenic response. STING knockout significantly decreased nuclear factor-κB activation and immune cell infiltration, attenuating tubule atrophy and extracellular matrix accumulation in vivo and in vitro. These effects delayed CKD progression. Immunoprecipitation assays and liquid chromatography-tandem mass spectrometry showed that STING and ACSL4 were directly combined at the D53 and K412 amino acids of ACSL4. Furthermore, STING induced renal inflammatory response and fibrosis through ACSL4-dependent ferroptosis. Last, inhibition of ACSL4 using small interfering RNA, rosiglitazone, or Fer-1 downregulated AngII-induced mtDNA-STING-dependent renal inflammation. These results suggest that targeting the STING/ACSL4 axis might represent a potential strategy for treating hypertension-associated CKD.",
+        "title": "STING/ACSL4 axis-dependent ferroptosis and inflammation promote hypertension-associated chronic kidney disease.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "37533255",
+          "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+          "authors": [
+            "Gao Li",
+            "Zhang Junsheng",
+            "Yang Tingting"
+          ],
+          "pub_date": "2023-Oct-04",
+          "doi": "10.1016/j.ymthe.2023.07.026",
+          "mesh_terms": [
+            "Animals",
+            "Renal Insufficiency, Chronic",
+            "Mice",
+            "Membrane Proteins",
+            "Humans",
+            "Ferroptosis",
+            "Hypertension",
+            "Inflammation",
+            "Disease Models, Animal",
+            "Male",
+            "Angiotensin II",
+            "Signal Transduction",
+            "DNA, Mitochondrial",
+            "Mice, Knockout",
+            "STING Protein"
+          ]
         }
       },
       {
-        "id": "PMID:38935212",
-        "text": "Protective effects of pioglitazone in renal ischemia-reperfusion injury (RIRI): focus on oxidative stress and inflammation. Renal ischemia-reperfusion injury (RIRI) is a critical phenomenon that compromises renal function and is the most serious health concern related to acute kidney injury (AKI). Pioglitazone (Pio) is a known agonist of peroxisome proliferator-activated receptor-gamma (PPAR-γ). PPAR-γ is a nuclear receptor that regulates genes involved in inflammation, metabolism, and cellular differentiat",
-        "score": 0.4008522033691406,
-        "doi": "10.1007/s10157-024-02525-3",
-        "journal": "Clinical and experimental nephrology",
-        "year": "2024",
-        "rerank_score": 1.398806095123291,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35709763",
+        "text": "Mapping the single-cell transcriptomic response of murine diabetic kidney disease to therapies.\n\nDiabetic kidney disease (DKD) occurs in ∼40% of patients with diabetes and causes kidney failure, cardiovascular disease, and premature death. We analyzed the response of a murine DKD model to five treatment regimens using single-cell RNA sequencing (scRNA-seq). Our atlas of ∼1 million cells revealed a heterogeneous response of all kidney cell types both to DKD and its treatment. Both monotherapy and combination therapies targeted differing cell types and induced distinct and non-overlapping transcriptional changes. The early effects of sodium-glucose cotransporter-2 inhibitors (SGLT2i) on the S1 segment of the proximal tubule suggest that this drug class induces fasting mimicry and hypoxia responses. Diabetes downregulated the spliceosome regulator serine/arginine-rich splicing factor 7 (Srsf7) in proximal tubule that was specifically rescued by SGLT2i. In vitro proximal tubule knockdown of Srsf7 induced a pro-inflammatory phenotype, implicating alternative splicing as a driver of DKD and suggesting SGLT2i regulation of proximal tubule alternative splicing as a potential mechanism of action for this drug class.",
+        "title": "Mapping the single-cell transcriptomic response of murine diabetic kidney disease to therapies.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35709763",
+          "journal": "Cell metabolism",
+          "authors": [
+            "Wu Haojia",
+            "Gonzalez Villalobos Romer",
+            "Yao Xiang"
+          ],
+          "pub_date": "2022-Jul-05",
+          "doi": "10.1016/j.cmet.2022.05.010",
+          "mesh_terms": [
+            "Animals",
+            "Cardiovascular Diseases",
+            "Diabetes Mellitus, Type 2",
+            "Diabetic Nephropathies",
+            "Mice",
+            "Sodium-Glucose Transporter 2 Inhibitors",
+            "Transcriptome"
+          ]
         }
       },
       {
-        "id": "PMID:41428405",
-        "text": "Association between Complete Proteinuria Remission and Kidney Function in the Phase 3 PROTECT Trial of Sparsentan in IgA Nephropathy. In the phase 3, randomized, double-blind PROTECT (NCT03762850) trial, sparsentan, a single-molecule dual endothelin angiotensin receptor antagonist (DEARA), reduced proteinuria and preserved kidney function compared to maximum labeled dose irbesartan in adults with immunoglobulin A nephropathy. In this post hoc analysis of PROTECT, we assessed the association between complete",
-        "score": 0.3967420756816864,
-        "doi": "10.2215/CJN.0000000961",
-        "journal": "Clinical journal of the American Society of Nephrology : CJASN",
-        "year": "2025",
-        "rerank_score": 0.5915828347206116,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:37146924",
+        "text": "Roles of the peroxisome proliferator-activated receptors (PPARs) in the pathogenesis of nonalcoholic fatty liver disease (NAFLD).\n\nNon-alcoholic fatty liver disease (NAFLD) encompasses a spectrum of disease phenotypes which start with simple steatosis and lipid accumulation in the hepatocytes - a typical histological lesions characteristic. It may progress to non-alcoholic steatohepatitis (NASH) that is characterized by hepatic inflammation and/or fibrosis and subsequent onset of NAFLD-related cirrhosis and hepatocellular carcinoma (HCC). Due to the central role of the liver in metabolism, NAFLD is regarded as a result of and contribution to the metabolic abnormalities seen in the metabolic syndrome. Peroxisome proliferator-activated receptors (PPARs) has three subtypes, which govern the expression of genes responsible for energy metabolism, cellular development, inflammation, and differentiation. The agonists of PPARα, such as fenofibrate and clofibrate, have been used as lipid-lowering drugs in clinical practice. Thiazolidinediones (TZDs) - ligands of PPARγ, such as rosiglitazone and pioglitazone, are also used in the treatment of type 2 diabetes (T2D) with insulin resistance (IR). Increasing evidence suggests that PPARβ/δ agonists have potential therapeutic effects in improving insulin sensitivity and lipid metabolism disorders. In addition, PPARs ligands have been considered as potential therapeutic drugs for hypertension, atherosclerosis (AS) or diabetic nephropathy. Their crucial biological roles dictate the significance of PPARs-targeting in medical research and drug discovery. Here, it reviews the biological activities, ligand selectivity and biological functions of the PPARs family, and discusses the relationship between PPARs and the pathogenesis of NAFLD and metabolic syndrome. This will open new possibilities for PPARs application in medicine, and provide a new idea for the treatment of fatty liver and related diseases.",
+        "title": "Roles of the peroxisome proliferator-activated receptors (PPARs) in the pathogenesis of nonalcoholic fatty liver disease (NAFLD).",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37146924",
+          "journal": "Pharmacological research",
+          "authors": [
+            "Qiu Yuan-Ye",
+            "Zhang Jing",
+            "Zeng Fan-Yi"
+          ],
+          "pub_date": "2023-Jun",
+          "doi": "10.1016/j.phrs.2023.106786",
+          "mesh_terms": [
+            "Humans",
+            "Non-alcoholic Fatty Liver Disease",
+            "Diabetes Mellitus, Type 2",
+            "Metabolic Syndrome",
+            "Carcinoma, Hepatocellular",
+            "Liver Neoplasms",
+            "Liver",
+            "PPAR alpha",
+            "Inflammation",
+            "Lipids"
+          ]
+        }
+      },
+      {
+        "id": "PMID:26940171",
+        "text": "Pioglitazone.\n\nPioglitazone is a thiazolidinedione antidiabetic with actions similar to those of rosiglitazone. It is used in the management of type 2 diabetes mellitus and is prepared by reducing 5-[4-[2-(5-ethyl-2-pyridyl)ethoxy]benzilidene]-2,4-thiazolidinedione with sodium borohydride in the presence of a cobalt ion and dimethyl glyoxime. Ultraviolet spectroscopy shows maximum absorption at 270nm. Infrared spectroscopy shows principal peaks at wave numbers 3082, 2964, 1736, 1690, 1472, 1331, 1254, 1040, 841, 728cm(-1) (KBr disk). The determination method by high-performance liquid chromatography was linear over the range of 25-1500ng/mL of pioglitazone in plasma (r(2)>0.999). The within- and between-day precision values were in the range of 2.4-6.8%. The limit of quantitation of the method was 25ng/mL. It is well absorbed with a mean absolute bioavailability of 83% and reaching maximum concentrations in around 1.5h. It is metabolized by the hepatic cytochrome P450 enzyme system. Following oral administration, approximately 15-30% of the pioglitazone dose is recovered in the urine. Renal elimination of pioglitazone is negligible, and the drug is excreted primarily as metabolites and their conjugates. It is presumed that most of the oral dose is excreted into the bile either unchanged or as metabolites and eliminated in the feces.",
+        "title": "Pioglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "26940171",
+          "journal": "Profiles of drug substances, excipients, and related methodology",
+          "authors": [
+            "Al-Majed A",
+            "Bakheit A H H",
+            "Abdel Aziz H A"
+          ],
+          "pub_date": "2016",
+          "doi": "10.1016/bs.podrm.2015.11.002",
+          "mesh_terms": [
+            "Animals",
+            "Chemistry, Pharmaceutical",
+            "Diabetes Mellitus, Type 2",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Pioglitazone",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:10400405",
+        "text": "Rosiglitazone.\n\nRosiglitazone, a thiazolidinedione antidiabetic agent, improves insulin resistance, a key underlying metabolic abnormality in most patients with type 2 (non-insulin-dependent) diabetes mellitus. In animal models of insulin resistance, rosiglitazone decreased plasma glucose, insulin and triglyceride levels and also attenuated or prevented diabetic nephropathy and pancreatic islet cell degeneration. In contrast with troglitazone, rosiglitazone does not induce cytochrome P4503A4 metabolism. It does not interact significantly with nifedipine, oral contraceptives, metformin, digoxin, ranitidine or acarbose. In clinical trials in patients with type 2 diabetes mellitus, rosiglitazone 2 to 12 mg/day (as a single daily dose or 2 divided daily doses) improved glycaemic control, as shown by decreases in fasting plasma glucose and glycosylated haemoglobin (HbA1c). Addition of rosiglitazone 2 to 8 mg/day to existing sulphonylurea, metformin or insulin therapy achieved further reductions in fasting plasma glucose and HbA1c. Oral combinations improved insulin sensitivity and beta-cell function according to a homeostasis model assessment. Consistent with its mechanism of action, rosiglitazone appears to be associated with a low risk of hypoglycaemia (<2% of patients receiving monotherapy). There is no evidence to date that rosiglitazone shares the hepatotoxicity of troglitazone.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10400405",
+          "journal": "Drugs",
+          "authors": [
+            "Balfour J A",
+            "Plosker G L"
+          ],
+          "pub_date": "1999-Jun",
+          "doi": "10.2165/00003495-199957060-00007",
+          "mesh_terms": [
+            "Animals",
+            "Blood Glucose",
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Polypharmacy",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
         }
       }
     ]

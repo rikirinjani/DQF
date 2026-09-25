@@ -4,54 +4,178 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40564064",
-        "text": "Dual Modulation of Adipogenesis and Apoptosis by PPARG Agonist Rosiglitazone and Antagonist Betulinic Acid in 3T3-L1 Cells.",
-        "score": 0.422476202249527,
-        "doi": "10.3390/biomedicines13061340",
-        "journal": "Biomedicines",
-        "year": "2025",
-        "rerank_score": 2.5848047733306885,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:17145742",
+        "text": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.\n\nThe efficacy of thiazolidinediones, as compared with other oral glucose-lowering medications, in maintaining long-term glycemic control in type 2 diabetes is not known.\nWe evaluated rosiglitazone, metformin, and glyburide as initial treatment for recently diagnosed type 2 diabetes in a double-blind, randomized, controlled clinical trial involving 4360 patients. The patients were treated for a median of 4.0 years. The primary outcome was the time to monotherapy failure, which was defined as a confirmed level of fasting plasma glucose of more than 180 mg per deciliter (10.0 mmol per liter), for rosiglitazone, as compared with metformin or glyburide. Prespecified secondary outcomes were levels of fasting plasma glucose and glycated hemoglobin, insulin sensitivity, and beta-cell function.\nKaplan-Meier analysis showed a cumulative incidence of monotherapy failure at 5 years of 15% with rosiglitazone, 21% with metformin, and 34% with glyburide. This represents a risk reduction of 32% for rosiglitazone, as compared with metformin, and 63%, as compared with glyburide (P<0.001 for both comparisons). The difference in the durability of the treatment effect was greater between rosiglitazone and glyburide than between rosiglitazone and metformin. Glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosiglitazone (P<0.05), and the risk associated with metformin was similar to that with rosiglitazone. Rosiglitazone was associated with more weight gain and edema than either metformin or glyburide but with fewer gastrointestinal events than metformin and with less hypoglycemia than glyburide (P<0.001 for all comparisons).\nThe potential risks and benefits, the profile of adverse events, and the costs of these three drugs should all be considered to help inform the choice of pharmacotherapy for patients with type 2 diabetes. (ClinicalTrials.gov number, NCT00279045 [ClinicalTrials.gov].).",
+        "title": "Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "17145742",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Kahn Steven E",
+            "Haffner Steven M",
+            "Heise Mark A"
+          ],
+          "pub_date": "2006-Dec-07",
+          "doi": "10.1056/NEJMoa066224",
+          "mesh_terms": [
+            "Cardiovascular Diseases",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Double-Blind Method",
+            "Female",
+            "Glyburide",
+            "Glycated Hemoglobin",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Kaplan-Meier Estimate",
+            "Male",
+            "Metformin",
+            "Middle Aged",
+            "Proportional Hazards Models",
+            "Rosiglitazone",
+            "Thiazolidinediones",
+            "Treatment Outcome",
+            "Waist-Hip Ratio",
+            "Weight Gain"
+          ]
         }
       },
       {
-        "id": "PMID:40628043",
-        "text": "PPARγ activation reduces pancreatic beta cell death in type 1 diabetes by decreasing heparanase-dependent insulitis. While the majority of individuals with type 1 diabetes (T1D) receives lifelong exogenous insulin replacement therapy, a clinically significant subset remains refractory to achieving optimal glycemic targets, necessitating the exploration of novel adjunctive medications to enhance T1D treatment strategies. The aim of this study was to explore the efficacy of rosiglitazone (ROZ), a typical thia",
-        "score": 0.40964072942733765,
-        "doi": "10.1016/j.intimp.2025.115183",
-        "journal": "International immunopharmacology",
-        "year": "2025",
-        "rerank_score": 1.6894991397857666,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:10400405",
+        "text": "Rosiglitazone.\n\nRosiglitazone, a thiazolidinedione antidiabetic agent, improves insulin resistance, a key underlying metabolic abnormality in most patients with type 2 (non-insulin-dependent) diabetes mellitus. In animal models of insulin resistance, rosiglitazone decreased plasma glucose, insulin and triglyceride levels and also attenuated or prevented diabetic nephropathy and pancreatic islet cell degeneration. In contrast with troglitazone, rosiglitazone does not induce cytochrome P4503A4 metabolism. It does not interact significantly with nifedipine, oral contraceptives, metformin, digoxin, ranitidine or acarbose. In clinical trials in patients with type 2 diabetes mellitus, rosiglitazone 2 to 12 mg/day (as a single daily dose or 2 divided daily doses) improved glycaemic control, as shown by decreases in fasting plasma glucose and glycosylated haemoglobin (HbA1c). Addition of rosiglitazone 2 to 8 mg/day to existing sulphonylurea, metformin or insulin therapy achieved further reductions in fasting plasma glucose and HbA1c. Oral combinations improved insulin sensitivity and beta-cell function according to a homeostasis model assessment. Consistent with its mechanism of action, rosiglitazone appears to be associated with a low risk of hypoglycaemia (<2% of patients receiving monotherapy). There is no evidence to date that rosiglitazone shares the hepatotoxicity of troglitazone.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10400405",
+          "journal": "Drugs",
+          "authors": [
+            "Balfour J A",
+            "Plosker G L"
+          ],
+          "pub_date": "1999-Jun",
+          "doi": "10.2165/00003495-199957060-00007",
+          "mesh_terms": [
+            "Animals",
+            "Blood Glucose",
+            "Clinical Trials as Topic",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Polypharmacy",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
         }
       },
       {
-        "id": "PMID:38387480",
-        "text": "Preservation of β-Cells as a Therapeutic Strategy for Diabetes. The preservation of pancreatic islet β-cells is crucial in diabetes mellitus, encompassing both type 1 and type 2 diabetes. β-cell dysfunction, reduced mass, and apoptosis are central to insufficient insulin secretion in both types. Research is focused on understanding β-cell characteristics and the factors regulating their function to develop novel therapeutic approaches. In type 1 diabetes (T1D), β-cell destruction by the immune system calls ",
-        "score": 0.4157908856868744,
-        "doi": "10.1055/a-2239-2668",
-        "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et",
-        "year": "2024",
-        "rerank_score": 1.5708404779434204,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:11336599",
+        "text": "Rosiglitazone.\n\nType 2 diabetes mellitus is characterised by impaired insulin secretion, diminished peripheral insulin action and increased hepatic glucose production. Clinical trials have indicated that near-normal glucose control may reduce the risk for microvascular and - to a lesser extent - macrovascular complications in Type 2 diabetic patients. Thiazolidinediones improve insulin action by activating a nuclear receptor, PPARgamma. Therefore, these drugs are often referred to as 'insulin sensitisers'. Rosiglitazone is the second compound of this group. Clinical studies with rosiglitazone have shown that it is effective in lowering blood glucose levels in Type 2 diabetic patients treated with either diet alone, sulphonylurea or metformin. Preliminary studies suggest that rosiglitazone also improves glycaemic control in insulin-treated patients while even slightly decreasing insulin dose. The magnitude of the effects is, however, moderate. In diet-treated patients, the reduction of HbA1c levels amounted on average 0.5 - 1.5% and addition to existing sulphonylurea therapy decreased HbA1c by 1.0 - 1.2%. The clinical relevance of additional beneficial effects, i.e., on blood pressure and microalbuminuria, needs to be determined further. Rosiglitazone does not cause hypoglycaemia or gastrointestinal side effects. There is however some concern related to fluid retention, which seems to be an effect of all PPARgamma agonists. In patients treated with rosiglitazone, no severe hepatotoxic side effects have been noticed until now. In the treatment of our patients with Type 2 diabetes, drugs like rosiglitazone which directly reduce insulin resistance are very welcome but more data on its combined use with insulin are needed. Additional studies will also explore its long-term effects in sparing beta-cell function and reducing diabetes-related complications and atherosclerosis.",
+        "title": "Rosiglitazone.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11336599",
+          "journal": "Expert opinion on pharmacotherapy",
+          "authors": [
+            "Wolffenbuttel B H",
+            "Sels J P",
+            "Huijberts M S"
+          ],
+          "pub_date": "2001-Mar",
+          "doi": "10.1517/14656566.2.3.467",
+          "mesh_terms": [
+            "Animals",
+            "Blood Pressure",
+            "Cholesterol, LDL",
+            "Diabetes Mellitus, Type 2",
+            "Drug Interactions",
+            "Drug Therapy, Combination",
+            "Humans",
+            "Hypoglycemic Agents",
+            "Insulin",
+            "Islets of Langerhans",
+            "Metformin",
+            "Rosiglitazone",
+            "Thiazoles",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:38779820",
+        "text": "Restoring adiponectin via rosiglitazone ameliorates tissue wasting in mice with lung cancer.\n\nTo investigate systemic regulators of the cancer-associated cachexia syndrome (CACS) in a pre-clinical model for lung cancer with the goal to identify therapeutic targets for tissue wasting.\nUsing the Kras/Lkb1 (KL) mouse model, we found that CACS is associated with white adipose tissue (WAT) dysfunction that directly affects skeletal muscle homeostasis. WAT transcriptomes showed evidence of reduced adipogenesis, and, in agreement, we found low levels of circulating adiponectin. To preserve adipogenesis and restore adiponectin levels, we treated mice with the PPAR-γ agonist, rosiglitazone.\nRosiglitazone treatment increased serum adiponectin levels, delayed weight loss, and preserved skeletal muscle and adipose tissue mass, as compared to vehicle-treated mice. The preservation of muscle mass with rosiglitazone was associated with increases in AMPK and AKT activity. Similarly, activation of the adiponectin receptors in muscle cells increased AMPK activity, anabolic signaling, and protein synthesis.\nOur data suggest that PPAR-γ agonists may be a useful adjuvant therapy to preserve tissue mass in lung cancer.",
+        "title": "Restoring adiponectin via rosiglitazone ameliorates tissue wasting in mice with lung cancer.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38779820",
+          "journal": "Acta physiologica (Oxford, England)",
+          "authors": [
+            "Langer Henning Tim",
+            "Ramsamooj Shakti",
+            "Dantas Ezequiel"
+          ],
+          "pub_date": "2024-Aug",
+          "doi": "10.1111/apha.14167",
+          "mesh_terms": [
+            "Animals",
+            "Rosiglitazone",
+            "Lung Neoplasms",
+            "Cachexia",
+            "Adiponectin",
+            "Mice",
+            "Muscle, Skeletal",
+            "PPAR gamma",
+            "Male",
+            "Adipose Tissue, White",
+            "Mice, Inbred C57BL",
+            "Thiazolidinediones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:39095358",
+        "text": "Rosiglitazone and trametinib exhibit potent anti-tumor activity in a mouse model of muscle invasive bladder cancer.\n\nMuscle invasive bladder cancers (BCs) can be divided into 2 major subgroups-basal/squamous (BASQ) tumors and luminal tumors. Since Pparg has low or undetectable expression in BASQ tumors, we tested the effects of rosiglitazone, Pparg agonist, in a mouse model of BASQ BC. We find that rosiglitazone reduces proliferation while treatment with rosiglitazone plus trametinib, a MEK inhibitor, induces apoptosis and reduces tumor volume by 91% after 1 month. Rosiglitazone and trametinib also induce a shift from BASQ to luminal differentiation in tumors, which our analysis suggests is mediated by retinoid signaling, a pathway known to drive the luminal differentiation program. Our data suggest that rosiglitazone, trametinib, and retinoids, which are all FDA approved, may be clinically active in BASQ tumors in patients.",
+        "title": "Rosiglitazone and trametinib exhibit potent anti-tumor activity in a mouse model of muscle invasive bladder cancer.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39095358",
+          "journal": "Nature communications",
+          "authors": [
+            "Plumber Sakina A",
+            "Tate Tiffany",
+            "Al-Ahmadie Hikmat"
+          ],
+          "pub_date": "2024-Aug-02",
+          "doi": "10.1038/s41467-024-50678-2",
+          "mesh_terms": [
+            "Animals",
+            "Urinary Bladder Neoplasms",
+            "Pyridones",
+            "Pyrimidinones",
+            "Rosiglitazone",
+            "Mice",
+            "Disease Models, Animal",
+            "Apoptosis",
+            "Humans",
+            "Cell Proliferation",
+            "Cell Line, Tumor",
+            "Antineoplastic Agents",
+            "Neoplasm Invasiveness",
+            "Female",
+            "PPAR gamma",
+            "Thiazolidinediones",
+            "Cell Differentiation",
+            "Signal Transduction",
+            "Retinoids"
+          ]
         }
       }
     ]

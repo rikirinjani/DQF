@@ -4,54 +4,134 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40742526",
-        "text": "Vonoprazan Versus Lansoprazole in the Healing and Maintenance Phase of Erosive Esophagitis: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Vonoprazan (VPZ), a potassium-competitive acid blocker, has emerged as an alternative to traditional proton-pump inhibitors like Lansoprazole (LPZ) for the treatment of erosive esophagitis (EE). Vonoprazan provides stronger acid suppression compared to PPIs; however, evidence regarding its effectiveness and safety in treating EE remains limited. W",
-        "score": 0.3722141981124878,
-        "doi": "10.1007/s10620-025-09290-7",
-        "journal": "Digestive diseases and sciences",
-        "year": "2025",
-        "rerank_score": 6.09212064743042,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38875111",
+        "text": "Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation.\n\nWhether proton-pump inhibitors are beneficial or harmful for stress ulcer prophylaxis in critically ill patients undergoing invasive ventilation is unclear.\nIn this international, randomized trial, we assigned critically ill adults who were undergoing invasive ventilation to receive intravenous pantoprazole (at a dose of 40 mg daily) or matching placebo. The primary efficacy outcome was clinically important upper gastrointestinal bleeding in the intensive care unit (ICU) at 90 days, and the primary safety outcome was death from any cause at 90 days. Multiplicity-adjusted secondary outcomes included ventilator-associated pneumonia, Clostridioides difficile infection, and patient-important bleeding.\nA total of 4821 patients underwent randomization in 68 ICUs. Clinically important upper gastrointestinal bleeding occurred in 25 of 2385 patients (1.0%) receiving pantoprazole and in 84 of 2377 patients (3.5%) receiving placebo (hazard ratio, 0.30; 95% confidence interval [CI], 0.19 to 0.47; P<0.001). At 90 days, death was reported in 696 of 2390 patients (29.1%) in the pantoprazole group and in 734 of 2379 patients (30.9%) in the placebo group (hazard ratio, 0.94; 95% CI, 0.85 to 1.04; P = 0.25). Patient-important bleeding was reduced with pantoprazole; all other secondary outcomes were similar in the two groups.\nAmong patients undergoing invasive ventilation, pantoprazole resulted in a significantly lower risk of clinically important upper gastrointestinal bleeding than placebo, with no significant effect on mortality. (Funded by the Canadian Institutes of Health Research and others; REVISE ClinicalTrials.gov number, NCT03374800.).",
+        "title": "Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38875111",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Cook Deborah",
+            "Deane Adam",
+            "Lauzier François"
+          ],
+          "pub_date": "2024-Jul-04",
+          "doi": "10.1056/NEJMoa2404245",
+          "mesh_terms": [
+            "Adult",
+            "Aged",
+            "Female",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Critical Illness",
+            "Double-Blind Method",
+            "Gastrointestinal Hemorrhage",
+            "Intensive Care Units",
+            "Pantoprazole",
+            "Peptic Ulcer",
+            "Pneumonia, Ventilator-Associated",
+            "Proton Pump Inhibitors",
+            "Respiration, Artificial",
+            "Stress, Physiological"
+          ]
         }
       },
       {
-        "id": "PMID:38976448",
-        "text": "Randomized, Double-Blind, Active-Controlled Phase 3 Study to Evaluate Efficacy and Safety of Zastaprazan Compared With Esomeprazole in Erosive Esophagitis. Zastaprazan is a potent potassium-competitive acid blocker developed to treat gastroesophageal reflux disease. The aim of this study was to evaluate the efficacy and safety of zastaprazan compared with esomeprazole in patient with erosive esophagitis (EE). A phase III, multicenter, randomized, double-blind, noninferiority clinical study was conducted wit",
-        "score": 0.37762516736984253,
-        "doi": "10.14309/ajg.0000000000002929",
-        "journal": "The American journal of gastroenterology",
-        "year": "2024",
-        "rerank_score": 5.594475746154785,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38345252",
+        "text": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.\n\nLos Angeles grade C/D esophagitis is a severe manifestation of gastroesophageal reflux disease that require active treatment and close follow-up. Potassium competitive acid blockers (P-CAB) are promising alternatives to proton pump inhibitors (PPI). We aimed to compare the efficacy and safety of P-CAB and PPI in healing grade C/D esophagitis to aid clinical decision-making.\nA systematic literature search was performed using PubMed, MEDLINE, and Cochrane Central Register of Controlled Trials. Randomized controlled trials were eligible for inclusion if efficacy of P-CAB and PPI in healing grade C/D esophagitis was reported. Pooled risk ratios and risk difference with 95% credible intervals were used to summarize estimated effect of each comparison. The benefit of treatments was ranked using the surface under the cumulative probability ranking score.\nOf 5,876 articles identified in the database, 24 studies were eligible. Studies included incorporated 3 P-CAB (vonoprazan, tegoprazan, and keverprazan) and 6 PPI (lansoprazole, esomeprazole, omeprazole, rabeprazole extended-release (ER), pantoprazole, and dexlansoprazole). Based on the failure to achieve mucosal healing, 20 mg of vonoprazan q.d. ranked the first among PPI in initial and maintained healing of grade C/D esophagitis (surface under the cumulative probability ranking score = 0.89 and 0.87, respectively). Vonoprazan had similar risk of incurring adverse events, severe adverse events, and withdrawal to drug when compared with PPI. For those who attempted lower maintenance treatment dose, 10 mg of vonoprazan q.d. was a reasonable choice, considering its moderate efficacy and safety.\nVonoprazan has considerable efficacy in initial and maintained healing of grade C/D esophagitis compared with PPI, with moderate short-term and long-term safety.",
+        "title": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38345252",
+          "journal": "The American journal of gastroenterology",
+          "authors": [
+            "Zhuang Qianjun",
+            "Chen Songfeng",
+            "Zhou Xuyu"
+          ],
+          "pub_date": "2024-May-01",
+          "doi": "10.14309/ajg.0000000000002714",
+          "mesh_terms": [
+            "Humans",
+            "Esophagitis",
+            "Esophagitis, Peptic",
+            "Gastroesophageal Reflux",
+            "Proton Pump Inhibitors",
+            "Pyrroles",
+            "Randomized Controlled Trials as Topic",
+            "Sulfonamides",
+            "Treatment Outcome"
+          ]
         }
       },
       {
-        "id": "PMID:39083496",
-        "text": "Efficacy and Safety of Potassium-competitive Acid Blockers Versus Proton Pump Inhibitors in Treating Erosive Esophagitis: A Meta-analysis Based on Randomized Controlled Trials. This meta-analysis aimed to investigate the efficacy and safety of potassium-competitive acid blockers (P-CABs) and proton pump inhibitors (PPIs) in treating erosive esophagitis (EE). PubMed, Embase, Cochrane Library, and Web of Science were systematically searched using predefined search terms up to January 2024. Relevant randomized",
-        "score": 0.3807555139064789,
-        "doi": "10.1097/MCG.0000000000002052",
-        "journal": "Journal of clinical gastroenterology",
-        "year": "2024",
-        "rerank_score": 5.559743881225586,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:10983736",
+        "text": "Esomeprazole.\n\nEsomeprazole, a new proton pump inhibitor, is the S-isomer of omeprazole and is the first such inhibitor to be developed as a single isomer. Esomeprazole provided better control of intragastric pH than omeprazole, lansoprazole and pantoprazole in trials conducted in patients with gastro-oesophageal reflux disease (GORD) or healthy volunteers (n = 20 to 115). In 2 large randomised, double-blind multicentre trials esomeprazole 20 and/or 40mg for 8 weeks produced higher healing rates of erosive oesophagitis and better symptom control than omeprazole 20 mg in patients with GORD. Esomeprazole 10, 20 or 40mg once daily for 6 months maintained healing versus placebo (p < 0.001) in patients with endoscopically confirmed healed erosive oesophagitis in 2 large randomised, double-blind multicentre trials. Similarly, symptom-driven on-demand use of esomeprazole effectively controlled symptoms of GORD (heartburn) for 6 months in 2 large placebo-controlled trials. Esomeprazole-based triple therapy for 7 days was as effective for eradication of Helicobacter pylori as longer omeprazole-based therapy in 2 randomised double-blind trials including about 450 patients each. Endoscopically confirmed ulcer healing 4 weeks after treatment initiation was reported in about 90% of patients with active duodenal ulcer in both treatment groups. Esomeprazole-based triple therapy for 10 days was more effective than esomeprazole plus clarithromycin for eradication of H. pylori in 233 patients.",
+        "title": "Esomeprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "10983736",
+          "journal": "Drugs",
+          "authors": [
+            "Spencer C M",
+            "Faulds D"
+          ],
+          "pub_date": "2000-Aug",
+          "doi": "10.2165/00003495-200060020-00006",
+          "mesh_terms": [
+            "Animals",
+            "Anti-Ulcer Agents",
+            "Clinical Trials as Topic",
+            "Duodenal Ulcer",
+            "Enzyme Inhibitors",
+            "Esomeprazole",
+            "Gastroesophageal Reflux",
+            "Helicobacter pylori",
+            "Humans",
+            "Omeprazole",
+            "Stereoisomerism"
+          ]
+        }
+      },
+      {
+        "id": "PMID:30354950",
+        "text": "Pantoprazole in Patients at Risk for Gastrointestinal Bleeding in the ICU.\n\nProphylaxis for gastrointestinal stress ulceration is frequently given to patients in the intensive care unit (ICU), but its risks and benefits are unclear.\nIn this European, multicenter, parallel-group, blinded trial, we randomly assigned adults who had been admitted to the ICU for an acute condition (i.e., an unplanned admission) and who were at risk for gastrointestinal bleeding to receive 40 mg of intravenous pantoprazole (a proton-pump inhibitor) or placebo daily during the ICU stay. The primary outcome was death by 90 days after randomization.\nA total of 3298 patients were enrolled; 1645 were randomly assigned to the pantoprazole group and 1653 to the placebo group. Data on the primary outcome were available for 3282 patients (99.5%). At 90 days, 510 patients (31.1%) in the pantoprazole group and 499 (30.4%) in the placebo group had died (relative risk, 1.02; 95% confidence interval [CI], 0.91 to 1.13; P=0.76). During the ICU stay, at least one clinically important event (a composite of clinically important gastrointestinal bleeding, pneumonia, Clostridium difficile infection, or myocardial ischemia) had occurred in 21.9% of patients assigned to pantoprazole and 22.6% of those assigned to placebo (relative risk, 0.96; 95% CI, 0.83 to 1.11). In the pantoprazole group, 2.5% of patients had clinically important gastrointestinal bleeding, as compared with 4.2% in the placebo group. The number of patients with infections or serious adverse reactions and the percentage of days alive without life support within 90 days were similar in the two groups.\nAmong adult patients in the ICU who were at risk for gastrointestinal bleeding, mortality at 90 days and the number of clinically important events were similar in those assigned to pantoprazole and those assigned to placebo. (Funded by Innovation Fund Denmark and others; SUP-ICU ClinicalTrials.gov number, NCT02467621 .).",
+        "title": "Pantoprazole in Patients at Risk for Gastrointestinal Bleeding in the ICU.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30354950",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Krag Mette",
+            "Marker Søren",
+            "Perner Anders"
+          ],
+          "pub_date": "2018-Dec-06",
+          "doi": "10.1056/NEJMoa1714919",
+          "mesh_terms": [
+            "Aged",
+            "Critical Illness",
+            "Female",
+            "Gastrointestinal Hemorrhage",
+            "Humans",
+            "Injections, Intravenous",
+            "Intensive Care Units",
+            "Male",
+            "Middle Aged",
+            "Pantoprazole",
+            "Peptic Ulcer",
+            "Proton Pump Inhibitors",
+            "Risk Factors",
+            "Single-Blind Method",
+            "Stress, Physiological",
+            "Survival Analysis"
+          ]
         }
       }
     ]

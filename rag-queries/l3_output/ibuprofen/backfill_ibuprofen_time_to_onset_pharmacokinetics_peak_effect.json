@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41338520",
-        "text": "Effect of ibuprofen on the pharmacokinetics of intravenous flucloxacillin in healthy adults. Ibuprofen is frequently co-administered with antibiotics for its analgesic effect when treating infections. In vitro studies have shown that ibuprofen exhibits concentration-dependent inhibition of organic anion transporters (OAT) 1 and OAT3, and therefore may reduce clearance of β-lactams, including flucloxacillin, in a similar manner to probenecid. We therefore aimed to evaluate the effect of ibuprofen on the phar",
-        "score": 0.3569228947162628,
-        "doi": "10.1016/j.ijantimicag.2025.107684",
-        "journal": "International journal of antimicrobial agents",
-        "year": "2025",
-        "rerank_score": 2.484553813934326,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17976261",
+        "text": "Effect of absorption rate on pharmacokinetics of ibuprofen in relation to chiral inversion in humans. The effect of absorption rate on the pharmacokinetics of ibuprofen enantiomers was investigated in 12 healthy Han Chinese male volunteers following oral administration of immediate-release (IR) and sustained-release (SR) preparations containing racemic ibuprofen (rac-ibuprofen). The area under the curve of the plasma concentration-time curve (AUC; (mean+/-s.d.) values for rac-ibuprofen were 192.90+/-43.47 for the SR preparation and 195.90+/-31.69 microg h mL(-1) for the IR preparation. AUC values for the enantiomers after administration of the SR formulation were 55.38+/-17.79 and 92.51+/-30.68 microg h mL(-1) for R- and S-ibuprofen, respectively, and were 65.94+/-20.06 and 100.81+/-32.28 microg h mL(-1) for R- and S-ibuprofen after administration of the IR preparation. These values did not differ significantly. C(max) values were significantly decreased with the SR preparation: 25.11+/-5.71, 12.24+/-3.79 and 12.38+/-3.55 microg h mL(-1) for rac-, R-, and S-ibuprofen, respectively, after administration of the SR preparation, vs 46.21+/-8.20, 20.82+/-5.90 and 23.46+/-7.30 microg h mL(-1) for rac-, R-, and S-ibuprofen, respectively, after administration of the IR preparation. Mean residence time was significantly increased: 7.01+/-1.29, 5.52+/-1.25 and 7.04+/-1.30 h for rac-, R-, and S-ibuprofen, respectively, after administration of the SR preparation vs 4.34+/-0.89, 3.43+/-0.64 and 4.51+/-0.79 h for rac-, R-, and S-ibuprofen, respectively, after administration of the IR preparation. AUC values for S-ibuprofen were significantly larger than those for R-ibuprofen in both preparations, indicating unidirectional chiral inversion. The S/R ratio of serum concentrations of enantiomers was 1.78-fold higher at 6 h after administration of the SR preparation compared with the IR preparation (P<0.01). These results indicate that ibuprofen undergoes pre-systemic chiral inversion in parallel with a systemic process and that the clinical effects of rac-ibuprofen in humans depend on the absorption rate.",
+        "doi": "10.1211/jpp.59.11.0007",
+        "journal": "The Journal of pharmacy and pharmacology",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.37615394592285156,
+        "score": 0.37615394592285156,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41052574",
-        "text": "Mechanistic embedding of concise physiological absorption models for enhanced prediction in population pharmacokinetic modeling of oral ibuprofen. Ibuprofen, a commonly used non-steroidal anti-inflammatory drug (NSAID), exhibits considerable variability in pharmacokinetics following oral administration, particularly during the absorption phase. This study aimed to enhance the mechanistic understanding of ibuprofen absorption by developing and integrating physiologically-informed models of absorption within ",
-        "score": 0.369086354970932,
-        "doi": "10.1016/j.mbs.2025.109546",
-        "journal": "Mathematical biosciences",
-        "year": "2025",
-        "rerank_score": 1.471321940422058,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10536246",
+        "text": "Morning versus evening dosing of ibuprofen using conventional and time-controlled release formulations. Many functions of the human body vary considerably during a day. These variations can lead to changes in drug plasma concentrations. In the study on healthy volunteers described here it was determined whether ibuprofen plasma levels following single oral doses of immediate-release and press-coated time-controlled release tablet formulations depend on time of drug administration (08:00 or 22:00 h). The difference between morning and evening dosing of the immediate-release formulation was minimal. The results with the press-coated formulation were unexpected having regard to results of previous studies on non-steroidal anti-inflammatory analgesics. Time to peak concentration was 6 h after morning administration, 4 h after evening administration. Both the rate and extent of bioavailability of ibuprofen were lower when dosing took place at 08:00 h than when dosing took place at 22:00 h. The influence of food on the pharmacokinetic profile of an evening dose of the press-coated formulation was also studied. When tablets were administered with a meal the ratio C(max)/AUC and t(max) and AUC values indicated that bioavailability was reduced. The main conclusion was that the chronopharmacokinetic behaviour of the press-coated ibuprofen tablet is related to the formulation, not the drug substance as such.",
+        "doi": "10.1016/s0378-5173(99)00250-1",
+        "journal": "International journal of pharmaceutics",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.39636626839637756,
+        "score": 0.39636626839637756,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38641229",
-        "text": "Bioequivalence risk assessment of oral formulations containing racemic ibuprofen through a chiral physiologically based pharmacokinetic model of ibuprofen enantiomers. The characterization of the time course of ibuprofen enantiomers can be useful in the selection of the most sensitive analyte in bioequivalence studies. Physiologically based pharmacokinetic (PBPK) modelling and simulation represents the most efficient methodology to virtually assess bioequivalence outcomes. In this work, we aim to develop an",
-        "score": 0.3914071321487427,
-        "doi": "10.1016/j.ejpb.2024.114293",
-        "journal": "European journal of pharmaceutics and biopharmaceutics : official journal of Arb",
-        "year": "2024",
-        "rerank_score": -1.2317379713058472,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21164065",
+        "text": "Pharmacokinetics, safety, and tolerability of a rapid infusion of i.v. ibuprofen in healthy adults. The pharmacokinetics, safety, and tolerability of a rapid infusion of i.v. ibuprofen in healthy adults were evaluated. Methods In this randomized, double-blind, placebo-controlled, single-dose, crossover study, 12 healthy subjects age 18-65 years were randomized to receive a single dose of either 800 mg i.v. ibuprofen (infused over five to seven minutes) concomitantly with an oral placebo or 800 mg oral ibuprofen with concomitant i.v. placebo (0.9% sodium chloride injection). After a six-day washout period, subjects received the treatment not previously received. Blood samples were taken 1 hour before each dose of study medication was administered and throughout the 12 hours thereafter. Plasma ibuprofen concentrations were determined using validated liquid chromatography-tandem mass spectrometry methods. The frequency and severity of treatment-emergent adverse effects were monitored throughout the study. The maximum plasma concentration (C(max)) of i.v. ibuprofen was approximately twice that of oral ibuprofen, and the (t(max)) of i.v. ibuprofen was 0.11 hour, compared with 1.5 hours for oral ibuprofen. However, the elimination half-life of i.v. and oral ibuprofen did not differ, both of which were approximately 2 hours. Oral ibuprofen was 100% bioavailable; therefore, the area under the concentration-time curve did not differ between i.v. and oral ibuprofen. In addition, i.v. ibuprofen infused over five to seven minutes did not differ in terms of safety or tolerability when compared with oral ibuprofen. I.V. ibuprofen, when administered over five to seven minutes in healthy subjects, achieved a higher C(max) and a more-rapid t(max) than did oral ibuprofen and was found to be safe and well tolerated.",
+        "doi": "10.2146/ajhp100120",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.40340638160705566,
+        "score": 0.40340638160705566,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

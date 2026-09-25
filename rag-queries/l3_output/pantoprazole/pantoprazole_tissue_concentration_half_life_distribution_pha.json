@@ -4,54 +4,110 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:38837864",
-        "text": "Physiologically-based pharmacokinetic modeling of pantoprazole to evaluate the role of CYP2C19 genetic variation and obesity in the pediatric population. Pantoprazole is a proton pump inhibitor indicated for the treatment of gastroesophageal reflux disease, a condition that disproportionately affects children with obesity. Appropriately dosing pantoprazole in children with obesity requires understanding the body size metric that best guides dosing, but pharmacokinetic (PK) trials using traditional technique",
-        "score": 0.39735233783721924,
-        "doi": "10.1002/psp4.13167",
-        "journal": "CPT: pharmacometrics & systems pharmacology",
-        "year": "2024",
-        "rerank_score": -0.5764556527137756,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:39189986",
-        "text": "Evaluation of Obesity-Related Physiological Changes on Pantoprazole Clearance in Children Using a Population Pharmacokinetic Approach. Pediatric obesity is a growing health concern, affecting millions of children worldwide. While pharmacokinetic (PK) changes in numerous commonly prescribed medications have been linked to obesity, the physiological mechanisms driving these alterations and their implications for drug dosing remain poorly understood. The objective of this study was to evaluate previously repor",
-        "score": 0.37172847986221313,
-        "doi": "10.1002/jcph.6122",
-        "journal": "Journal of clinical pharmacology",
-        "year": "2024",
-        "rerank_score": -1.6349294185638428,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:11402494",
+        "text": "Pantoprazole.\n\nThe pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosage and administration of pantoprazole are reviewed. Pantoprazole is a gastric hydrogen-potassium adenosine triphosphatase (H+/K(+)-ATPase) inhibitor. It shares the same core structure as other currently available proton-pump inhibitors (PPIs). The FDA-labeled indication is the short-term treatment of erosive esophagitis. PPIs act by selectively inhibiting H+/K(+)-ATPase in the secretory canaliculus of the stimulated parietal cell. Understanding the pharmacodynamics of PPIs is more relevant than knowing their pharmacokinetics, since the duration of action depends on the rate of de novo proton-pump regeneration, not the duration of drug circulation in the body. Pantoprazole is well absorbed, undergoes little first-pass metabolism, and has an absolute bioavailability of approximately 77%. Pantoprazole has been evaluated in more than 100 clinical trials involving more than 11,000 patients. It is effective in treating erosive esophagitis and duodenal and gastric ulcers. It is also effective as adjunctive treatment with antimicrobials in patients infected with Helicobacter pylori. Pantoprazole has been shown to control acid production in Zollinger-Ellison syndrome. Pantoprazole is well tolerated. The most commonly reported adverse effects are headache, diarrhea, and abdominal pain. The recommended oral dosage for erosive esophagitis is 40 mg once a day for up to eight weeks. The recommended i.v. dose is 40 mg given over 15 minutes once a day in patients with gastroesophageal reflux disease who are unable to take oral medication. Pantoprazole appears to be as safe and effective as other PPIs in acid-related disorders.",
+        "title": "Pantoprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11402494",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Poole P"
+          ],
+          "pub_date": "2001-Jun-01",
+          "doi": "10.1093/ajhp/58.11.999",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Enzyme Inhibitors",
+            "Esophagitis",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Sulfoxides"
+          ]
         }
       },
       {
-        "id": "PMID:39326395",
-        "text": "Pharmacokinetics-Based Safety Evaluation in Half-Dose Verteporfin Photodynamic Therapy. This study was conducted to assess the systemic pharmacokinetic profiles of half-dose verteporfin photodynamic therapy (PDT) using concentration data from a previous clinical trial and to subsequently suggest safety precaution guidelines. Coefficients for the bi-exponential model were obtained from published data on post-infusion plasma verteporfin concentrations within a period of 0.17-4 h. Using the extrapolative forec",
-        "score": 0.3793659210205078,
-        "doi": "10.1159/000541619",
-        "journal": "Ophthalmic research",
-        "year": "2024",
-        "rerank_score": -1.7774970531463623,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:18681492",
+        "text": "Dabigatran etexilate.\n\nDabigatran etexilate is an orally administered prodrug of dabigatran, which is a potent, concentration-dependent inhibitor of thrombus formation and thrombin-induced platelet aggregation. Dabigatran etexilate pharmacokinetics were linear across a wide dosage range. There were no clinically important pharmacokinetic interactions with digoxin (a P-glycoprotein substrate), pantoprazole (a proton-pump inhibitor) or drugs that are substrates and/or inhibitors of hepatic cytochrome P450 enzymes. In two large, randomized, double-blind trials of the prevention of venous thromboembolism (VTE) in patients undergoing total hip or total knee replacement surgery, orally administered dabigatran etexilate 220 mg/day was noninferior to subcutaneous enoxaparin sodium 40 mg/day for the primary composite endpoint of total VTE events or all-cause mortality during the treatment period. There were no significant differences between dabigatran etexilate and enoxaparin sodium in major VTE events and VTE-related mortality. Across trials, < or =0.5% of patients experienced a symptomatic pulmonary embolus or died. Dabigatran etexilate was generally well tolerated. In patients undergoing total hip or total knee replacement surgery, there was no significant difference between dabigatran etexilate and enoxaparin sodium recipients in the incidence of major or minor bleeding.",
+        "title": "Dabigatran etexilate.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "18681492",
+          "journal": "Drugs",
+          "authors": [
+            "Sanford Mark",
+            "Plosker Greg L"
+          ],
+          "pub_date": "2008",
+          "doi": "10.2165/00003495-200868120-00007",
+          "mesh_terms": [
+            "Anemia",
+            "Anticoagulants",
+            "Area Under Curve",
+            "Benzimidazoles",
+            "Dabigatran",
+            "Half-Life",
+            "Hemorrhage",
+            "Humans",
+            "Molecular Structure",
+            "Platelet Aggregation",
+            "Prodrugs",
+            "Pyridines",
+            "Randomized Controlled Trials as Topic",
+            "Suppuration",
+            "Surgical Wound Infection",
+            "Thromboembolism",
+            "Thrombosis",
+            "Treatment Outcome"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15703599",
+        "text": "Gastric secretion.\n\nGastric acid facilitates the digestion of protein and the absorption of iron, calcium, and vitamin B12. It also protects against bacterial overgrowth and enteric infection, including prion disease. When homeostatic mechanisms malfunction, the volume and concentration of acid may overwhelm mucosal defense mechanisms, leading to duodenal ulcer, gastric ulcer, and gastroesophageal reflux disease. This article reviews recent knowledge contributing to understanding of the regulation of gastric acid secretion at the central, peripheral, and intracellular levels.\nThe vagus nerve contains afferent fibers that transmit sensory information from the stomach to the nucleus of the solitary tract. Input from the nucleus of the solitary tract is relayed to vagal efferent neurons that originate from two brain stem nuclei: the nucleus ambiguus and the dorsal motor nucleus of the vagus. The latter is also influenced by thyrotropin-releasing hormone neurons that act centrally to stimulate acid secretion. The main peripheral stimulants of acid secretion are the hormone gastrin and the paracrine amine histamine. Gastrin stimulates acid secretion directly and, more importantly, indirectly by releasing histamine from fundic enterochromaffin-like cells. Gastrin also exerts trophic effects on various tissues, including the gastric and intestinal mucosa. The main inhibitor of acid secretion is somatostatin. Somatostatin, acting via ssTR2 receptors, exerts a tonic paracrine inhibitory influence on the secretion of gastrin, histamine, and acid secretion. Calcitonin gene-related peptide, adrenomedullin, amylin, atrial natriuretic peptide, and pituitary adenylate cyclase-activating polypeptide all stimulate somatostatin secretion and thus inhibit acid secretion. HK-ATPase, the proton pump of the parietal cell, is stored within cytoplasmic tubulovesicles during the resting state, but during stimulation, it is shuttled to the canalicular membrane by a poorly understood mechanism that probably involves soluble N-ethylmaleimide-sensitive factor attachment protein receptor proteins. The proton pump inhibitor, pantoprazole, is unique in that it binds cysteine 822, located deep within the membrane domain of the alpha-subunit. The difficulty that reducing agents, such as glutathione, have in reaching cysteine 822 may be responsible for the longer half-time for acid recovery observed with pantoprazole. Hypergastrinemia, induced by proton pump inhibitors, enhances expression of cyclooxygenase-2 and hence prostaglandins within parietal cells, a feedback pathway that may protect the stomach against acid-induced damage.\nIn the past year, significant advances have been made in understanding of the regulation of gastric acid secretion. Ultimately, these advances should lead to improved therapies to prevent and treat acid-related disorders. Gastric acid secretion must be precisely controlled at a variety of levels to prevent disease caused by hyperchlorhydria and hypochlorhydria. The mechanisms include neural (central and peripheral), hormonal, paracrine, and intracellular pathways that operate in concert to switch acid secretion on during ingestion of a meal and off during the interdigestive period. A better understanding of the physiology of acid secretion in health and disease should eventually lead to improved therapies to prevent and treat acid-related disorders.",
+        "title": "Gastric secretion.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15703599",
+          "journal": "Current opinion in gastroenterology",
+          "authors": [
+            "Schubert Mitchell L"
+          ],
+          "pub_date": "2003-Nov",
+          "doi": "10.1097/00001574-200311000-00002",
+          "mesh_terms": []
         }
       }
     ]

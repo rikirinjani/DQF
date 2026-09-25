@@ -1,13 +1,16 @@
 {
   "cox_inhibition": null,
   "gi_risk": 2,
-  "cv_risk": 1,
+  "cv_risk": 2,
   "renal_risk": 2,
   "platelet_effect": null,
   "off_targets": [
-    "P2X7",
-    "Purinergic",
-    "Trpv1"
+    "Platelet",
+    "Ppar",
+    "Pparg",
+    "Prostanoid",
+    "Thromboxane",
+    "Thromboxane-Prostanoid"
   ],
   "anti_inflammatory": null,
   "analgesic": null,
@@ -15,24 +18,30 @@
   "ddi_risk": 1,
   "_evidence": {
     "pmids": [
-      "38442578",
+      "10714612",
+      "16431378",
+      "16987349",
+      "20163263",
+      "20470236",
+      "22168216",
+      "25879879",
+      "26242469",
+      "28850416",
       "38716761",
-      "38876401",
-      "38931423",
-      "39429925",
       "39512215",
       "39763427",
-      "40663614",
       "40716177",
-      "40841348",
-      "40915150",
-      "41046250",
       "41132706",
       "41465841",
-      "41556714"
+      "7758059",
+      "9262331"
     ],
-    "source_count": 5,
-    "finding_count": 15
+    "source_count": 13,
+    "finding_count": 17,
+    "dup_pmids_skipped": 0,
+    "pool_relevance_pct": 43.6,
+    "filtered_off_drug": 22,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

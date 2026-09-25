@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40115566",
-        "text": "Assessing the safety and adverse effects of paracetamol, ibuprofen, and their combination in paediatric pain and fever management: A prospective observational study. Pain and fever are common paediatric complaints that demand meticulous symptom alleviation to ensure the child's holistic well-being. Paracetamol, ibuprofen, and their synergistic coadministration occupy a crucial position, rendering the management of these symptoms efficacious. This study aims to evaluate the safety and adverse effects of para",
-        "score": 0.4039701819419861,
-        "doi": "10.4103/jfmpc.jfmpc_348_24",
-        "journal": "Journal of family medicine and primary care",
-        "year": "2024",
-        "rerank_score": 3.7114202976226807,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17292760",
+        "text": "Safety of recommended doses of paracetamol.",
+        "doi": "10.1016/S0140-6736(07)60229-3",
+        "journal": "Lancet (London, England)",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3577311336994171,
+        "score": 0.3577311336994171,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38686870",
-        "text": "Comparison of safety of acetaminophen and ibuprofen in minors: based on the FAERS database. To investigate adverse events(ADEs) associated with the use of paracetamol and ibuprofen in people under 18 years of age. The use of NSAIDs reached a peak as a result of the spread of COVID-19 in previous years. Minors, as a special population, need to pay more attention to the use of corresponding drugs and the occurrence of adverse events (ADEs). ADEs report data of the two drugs were extracted from the FDA Adverse",
-        "score": 0.4355831444263458,
-        "doi": "10.1080/14740338.2024.2348614",
-        "journal": "Expert opinion on drug safety",
-        "year": "2025",
-        "rerank_score": 1.8055511713027954,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25512959",
+        "text": "How safe is paracetamol?",
+        "doi": "10.1136/archdischild-2014-307431",
+        "journal": "Archives of disease in childhood",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.3584609627723694,
+        "score": 0.3584609627723694,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41475826",
-        "text": "Efficacy of paracetamol added to WHO step III opioids in chronic pain control: study protocol for a randomised, double-blind, placebo-controlled, non-inferiority, multicentre study in Switzerland. The analgesic and antipyretic paracetamol (acetaminophen) is generally considered safe in therapeutic doses. The most important toxic effect is hepatotoxicity after supratherapeutic doses or in the presence of risk factors (eg, malnutrition, alcoholism). According to the WHO analgesic ladder, a combination of a no",
-        "score": 0.42825615406036377,
-        "doi": "10.1136/bmjopen-2025-107360",
-        "journal": "BMJ open",
-        "year": "2026",
-        "rerank_score": 0.48807284235954285,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:25732175",
+        "text": "Paracetamol: not as safe as we thought? A systematic literature review of observational studies. We conducted a systematic literature review to assess the adverse event (AE) profile of paracetamol. We searched Medline and Embase from database inception to 1 May 2013. We screened for observational studies in English, which reported mortality, cardiovascular, gastrointestinal (GI) or renal AEs in the general adult population at standard analgesic doses of paracetamol. Study quality was assessed using Grading of Recommendations Assessment, Development and Evaluation. Pooled or adjusted summary statistics were presented for each outcome. Of 1888 studies retrieved, 8 met inclusion criteria, and all were cohort studies. Comparing paracetamol use versus no use, of two studies reporting mortality one showed a dose-response and reported an increased relative rate of mortality from 0.95 (0.92 to 0.98) to 1.63 (1.58 to 1.68). Of four studies reporting cardiovascular AEs, all showed a dose-response with one reporting an increased risk ratio of all cardiovascular AEs from 1.19 (0.81 to 1.75) to 1.68 (1.10 to 2.57). One study reporting GI AEs reported a dose-response with increased relative rate of GI AEs or bleeds from 1.11 (1.04 to 1.18) to 1.49 (1.34 to 1.66). Of four studies reporting renal AEs, three reported a dose-response with one reporting an increasing OR of ≥30% decrease in estimated glomerular filtration rate from 1.40 (0.79 to 2.48) to 2.19 (1.4 to 3.43). Given the observational nature of the data, channelling bias may have had an important impact. However, the dose-response seen for most endpoints suggests a considerable degree of paracetamol toxicity especially at the upper end of standard analgesic doses.",
+        "doi": "10.1136/annrheumdis-2014-206914",
+        "journal": "Annals of the rheumatic diseases",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.4080735445022583,
+        "score": 0.4080735445022583,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

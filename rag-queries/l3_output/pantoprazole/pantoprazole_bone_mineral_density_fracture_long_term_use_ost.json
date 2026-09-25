@@ -4,54 +4,130 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:38775462",
-        "text": "Major Pancreatic Resection Increases Bone Mineral Density Loss, Osteoporosis, and Fractures. To assess whether long-term survivors of pancreatic surgery show increased risk to develop impaired bone mineral density, osteoporosis, and vitamin D deficiency. Pancreatic resection poses a risk for malabsorption of fat-soluble vitamins and other micronutrients essential for bone mineralization. Here, we evaluated the long-term effects of pancreatic resection on bone mineral density (BMD) and its clinical sequelae.",
-        "score": 0.3740823268890381,
-        "doi": "10.1097/SLA.0000000000006326",
-        "journal": "Annals of surgery",
-        "year": "2025",
-        "rerank_score": 4.081097602844238,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:36142643",
+        "text": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.\n\nProton pump inhibitors (PPIs) are an antacid drug often used in acid-related disorders. They decrease acid secretion in the stomach by blocking an enzyme called H+/K+ ATPase which controls acid production. Introduced to the market in 1989, their use has increased rapidly worldwide and they are now among the top 10 most prescribed drugs in the United States. As of 2015, the FDA has already approved six drugs of this class (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole and rabeprazole). Recently, the risks and benefits of long-term PPI use were questioned and many studies indicated that their use should be carefully considered, especially in young patients, whose treatment with these drugs could last many years. Even greater concerns have been raised about a potential positive association between PPIs and osteoporotic fracture risk including the hip, spine and wrist. Although based on observational studies, there is substantial evidence associating the long-term use of PPIs and fracture. This relationship is only partially admitted due to the lack of consistent effects of PPIs on bone mineral density loss. Therefore, this narrative review aimed to discuss the recent findings pertaining to the risk of osteoporotic fracture associated with PPIs, in particular prolonged use, and to call for further research to elucidate the mechanisms associated with this bone fragility.",
+        "title": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "36142643",
+          "journal": "International journal of molecular sciences",
+          "authors": [
+            "Lespessailles Eric",
+            "Toumi Hechmi"
+          ],
+          "pub_date": "2022-Sep-14",
+          "doi": "10.3390/ijms231810733",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adenosine Triphosphatases",
+            "Antacids",
+            "Bone Density",
+            "Dexlansoprazole",
+            "Esomeprazole",
+            "Humans",
+            "Lansoprazole",
+            "Omeprazole",
+            "Osteoporotic Fractures",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Rabeprazole",
+            "United States"
+          ]
         }
       },
       {
-        "id": "PMID:40146262",
-        "text": "Impact of Zoledronic Acid on Bone Mineral Density and Trabecular Score Following Denosumab Discontinuation in Older Adults in Long-Term Care. Discontinuation of denosumab can result in rebound bone loss and increased vertebral fracture risk. In residents of long-term care communities (LTCCs) with osteoporosis, there is limited data on managing the risks after discontinuation. We investigated the impact of a single dose of zoledronic acid on bone density and microarchitecture following two years of denosumab",
-        "score": 0.36772602796554565,
-        "doi": "10.1007/s00223-025-01364-y",
-        "journal": "Calcified tissue international",
-        "year": "2025",
-        "rerank_score": 3.2640914916992188,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38389608",
+        "text": "Long-Term Use of Proton-Pump Inhibitors: Unravelling the Safety Puzzle.\n\nGlobally, over 25% of the population suffers from acid-related disorders such as dyspepsia or gastroesophageal reflux disease (GERD), and around 7.6% of Indians report having GERD symptoms on a frequent enough basis to warrant a diagnosis. Over the past three decades, proton-pump inhibitors (PPIs) have been the mainstay of medical therapy for acid-peptic diseases like GERD, etc. Additionally, they are frequently prescribed for prophylactic purposes and in conjunction with non-steroidal anti-inflammatory drugs. PPIs are generally prescribed for four to eight weeks. However, it may be prescribed for patients with comorbidities and multiple medications for a longer period of time. While this remains true in terms of effectiveness, concerns have been raised about the safety of long-term PPI use and the serious adverse effects that may result. Some of the observational and population-based cohort studies have shown an association between long-term use of PPIs and an increased risk of pneumonia, major cardiovascular events, dementia, vitamin B12 deficiency, bone fractures, gastric cancer, and kidney injury, among others. This review analyzes the clinical data supporting the long-term use of PPIs and takes a deep dive into whether these several emerging long-term concerns apply to the currently available PPIs in India. We have summarized a vast array of studies, including randomized trials, cohort studies, and meta-analyses, that report low or high incidences of major health risks linked with PPIs and have assessed their appropriateness over a given period.",
+        "title": "Long-Term Use of Proton-Pump Inhibitors: Unravelling the Safety Puzzle.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38389608",
+          "journal": "Cureus",
+          "authors": [
+            "Bhatnagar Manish S",
+            "Choudhari Sachin",
+            "Pawar Dattatray"
+          ],
+          "pub_date": "2024-Jan",
+          "doi": "10.7759/cureus.52773",
+          "mesh_terms": []
         }
       },
       {
-        "id": "PMID:39273817",
-        "text": "Long-Term Bone Density Changes and Fracture Risk in Myasthenia Gravis: Implications for FRAX Myasthenia gravis (MG) patients often require long-term glucocorticoid therapy, which may affect bone health. This study aimed to assess long-term changes in bone mineral density (BMD), evaluate osteoporotic fracture incidence, and examine the relationship between MG-specific factors and bone health outcomes over a 10-year period. This single-center, prospective cohort study included 28 MG patients. BMD, T-scores, Z",
-        "score": 0.3505402207374573,
-        "doi": "10.3390/healthcare12171793",
-        "journal": "Healthcare (Basel, Switzerland)",
-        "year": "2024",
-        "rerank_score": 2.869615077972412,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:36629265",
+        "text": "Proton pump inhibitors: Understanding the associated risks and benefits of long-term use.\n\nProton pump inhibitors (PPIs) are widely prescribed medications. Various adverse clinical effects of PPIs have been reported in the literature, particularly over the past decade. The purpose of this article is to review published data primarily describing adverse effects associated with PPI use and to help clinicians determine which patients may still benefit from therapy despite safety concerns.\nAssociations between PPIs and the following have been described: bone fracture, acute and chronic kidney disease, gastrointestinal infections, deficiencies in vitamin B12 and magnesium, and coronavirus disease 2019 and respiratory infections. For inclusion in this review, studies must have evaluated potential adverse events associated with PPIs as a primary or secondary objective. Increased risks of bone fracture, acute and chronic kidney disease, gastrointestinal infections, and magnesium deficiency were consistently reported, albeit mostly in studies involving low-quality data (case-control and/or observational studies) and subject to bias. In the only pertinent randomized controlled trial to date, chronic pantoprazole use was associated with a greater risk of enteric infections relative to placebo use; there was no significant between-group difference in any other adverse event evaluated. PPIs continue to be recommended by the American College of Gastroenterology as a first-line treatment for management of gastroesophageal reflux disease and in the acute period following upper gastrointestinal and ulcer bleeding.\nHigher-quality data is needed to better understand PPI-associated risks of the adverse effects listed above. Until then, clinicians may consider greater vigilance with PPI use; however, the data does not demonstrate a need for wide adoption of de-escalation strategies solely out of safety concerns.",
+        "title": "Proton pump inhibitors: Understanding the associated risks and benefits of long-term use.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "36629265",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Thurber Kristina M",
+            "Otto Ashley O",
+            "Stricker Shawna L"
+          ],
+          "pub_date": "2023-Apr-08",
+          "doi": "10.1093/ajhp/zxad009",
+          "mesh_terms": [
+            "Humans",
+            "Proton Pump Inhibitors",
+            "COVID-19",
+            "Gastrointestinal Diseases",
+            "Fractures, Bone",
+            "Risk Assessment",
+            "Randomized Controlled Trials as Topic"
+          ]
+        }
+      },
+      {
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
+        }
+      },
+      {
+        "id": "PMID:37060552",
+        "text": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.\n\nProton pump inhibitors (PPI) may impact the absorption of vitamin B12. We performed a systematic review to ascertain if PPI use increases risk of vitamin B12 deficiency.\nElectronic databases (PubMed, Embase, Scopus) were searched on first of September 2022. We selected studies that compared the frequency of vitamin B12 deficiency in PPI users and non-users. Pooled Odds Ratio (OR) was calculated for the occurrence of vitamin B12 deficiency in PPI users compared to non-users. The risk of bias was assessed using the Newcastle Ottawa scale.\nTwenty-five studies were included. The pooled OR of vitamin B12 deficiency among PPI users (2852 participants) was higher than non-users (28070 participants) (OR 1.42, 95% CI: 1.16-1.73; I2 = 54%). Overall risk of PPI use among vitamin B12 deficient individuals was higher than those without deficiency (OR 1.49, 1.20-1.85; I2 = 68%). Most studies found no difference between serum vitamin B12 levels among PPI users compared to non-users.\nAlthough the pooled OR of vitamin B12 deficiency was slightly increased in PPI users, but there was significant heterogeneity, and the pooled OR was too low to imply an association clearly. Better-designed prospective studies in long-term users may clarify the issue.\nThis study was not registered on PROSPERO.",
+        "title": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37060552",
+          "journal": "Expert review of gastroenterology & hepatology",
+          "authors": [
+            "Choudhury Arup",
+            "Jena Anuraag",
+            "Jearth Vaneet"
+          ],
+          "pub_date": "2023-May",
+          "doi": "10.1080/17474124.2023.2204229",
+          "mesh_terms": [
+            "Humans",
+            "Proton Pump Inhibitors",
+            "Prospective Studies",
+            "Vitamin B 12 Deficiency",
+            "Vitamin B 12"
+          ]
         }
       }
     ]

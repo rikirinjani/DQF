@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.4683436453342438,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 4.223074913024902,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3706170916557312,
+        "score": 0.3706170916557312,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40436668",
-        "text": "The Safety and Efficacy of Intravenous Ibuprofen in Older Patients: A Retrospective Subgroup Analysis. Intravenous ibuprofen (IVIB) is safe and effective for the management of pain and fever in children and adults, but requires evaluation in older patients. This retrospective study aimed to evaluate the safety and efficacy of IVIB in older patients (age ≥60 years). A post hoc subgroup analysis was performed with data from four prospective clinical studies in which IVIB was administered for the treatment of ",
-        "score": 0.47835370898246765,
-        "doi": "10.1016/j.clinthera.2025.04.021",
-        "journal": "Clinical therapeutics",
-        "year": "2024",
-        "rerank_score": -4.02183198928833,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22165523",
+        "text": "[The number needed to treat (NNT)]. The number needed to treat (NNT) is a valuable information in treatment decisions. This is the result of a calculation based on published data, collected from an intervention study. NNT is the inverse of the absolute risk reduction (1/ARR) between two treatment options. It is always expressed by a value rounded up to whole numbers, between 1 and infinity, depending on the effectiveness of the new treatment being studied. The NNT is the average number of patients needed to be treated for a duration equal to the study period to achieve one additional positive response under the conditions of the study. The more the treatment will be effective, the more the NNT will be low (tending towards 1). The NNT should be calculated based on the results of a clinical study of good methodological quality, involving a well-defined and homogeneous group of patients, whose baseline risk is known and using a dichotomous endpoint (the event occurs or not). The study must have shown a statistically significant difference between the two groups. In the process of medical decision making, the NNT must be balanced with the safety profile of the treatment (represented by the number needed to harm, or NNH), the costs and stress associated with it. It is possible to calculate a NNT and its confidence interval, from the published data of a clinical study. Some authors report the NNT in the text of the publication.",
+        "doi": "",
+        "journal": "Revue medicale de Bruxelles",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.40695786476135254,
+        "score": 0.40695786476135254,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:19588427",
-        "text": "Single dose oral flurbiprofen for acute postoperative pain in adults. Flurbiprofen is a non-selective non-steroidal anti-inflammatory drug (NSAID), related to ibuprofen and naproxen, used to treat acute and chronic painful conditions. There is no systematic review of its use in acute postoperative pain.",
-        "score": 0.4461122751235962,
-        "doi": "10.1002/14651858.CD007358.pub2",
-        "journal": "The Cochrane database of systematic reviews",
-        "year": "2009",
-        "rerank_score": -4.546016693115234,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16174840",
+        "text": "Number needed to treat: a descriptor for weighing therapeutic options. The utility and limitations of the number needed to treat (NNT) are described and compared with those of alternative descriptors of therapeutic yield. Pharmacists, physicians, and patients are more likely to launch interventions based on relative measures of therapeutic yield. The NNT is a simple way to express the absolute therapeutic yield of an intervention. It is essential to take baseline risk and length of follow-up into account when calculating and interpreting absolute or relative measures of therapeutic yield. Patients may have difficulty understanding what the NNT tells them about the benefits and harms associated with an intervention, and confidence intervals for the NNT can be difficult to interpret. Relative measures of benefits are advantageous for comparing benefits across populations with different risks. The use of absolute measures to describe therapeutic options leads to more conservative decision-making and is potentially more useful. Among the absolute measures, the absolute risk reduction may be easier to understand than the NNT. These measures are most helpful when the best options are not clear or when patient input is needed. Personal digital assistants and Web-based tools can assist with calculations. The NNT is a useful measure but is influenced by numerous variables and may not be easily understood by patients.",
+        "doi": "10.2146/ajhp040558",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the Amer",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.4370778501033783,
+        "score": 0.4370778501033783,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

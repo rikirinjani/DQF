@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39726018",
-        "text": "Is perioperative use of a combination of pregabalin and naproxen superior to naproxen only in reducing pain in ankle fractures? A prospective, randomized, multicenter study. To compare the analgesic efficacy, adverse effects, and long-term functional outcomes of perioperative naproxen alone versus naproxen with pregabalin for treating pain in ankle fractures. This study included 70 patients who underwent operative fixation of rotatory ankle fractures. Group A received naproxen 500 mg only, and Group B recei",
-        "score": 0.4052692651748657,
-        "doi": "10.1186/s13018-024-05321-7",
-        "journal": "Journal of orthopaedic surgery and research",
-        "year": "2024",
-        "rerank_score": -1.9589403867721558,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21272053",
+        "text": "Modelling of pain intensity and informative dropout in a dental pain model after naproxcinod, naproxen and placebo administration. • Modelling has been used to describe the pain relief and dropout for a few non-steroidal anti-inflammatory drugs. • This study shows the relationship between dose, plasma concentration, pain intensity and dropout for naproxen and naproxcinod. It also extends previous models by using a visual analogue scale for pain intensity instead of modelling pain relief on a categorical scale, and shows the value of including informative dropout in the simulations for visual predictive checks. To describe pain intensity (PI) measured on a visual analogue scale (VAS) and dropout due to request for rescue medication after administration of naproxcinod, naproxen or placebo in 242 patients after wisdom tooth removal. METHODS Non-linear mixed effects modelling was used to describe the plasma concentrations of naproxen, either formed from naproxcinod or from naproxen itself, and their relationship to PI and dropout. Goodness of fit was assessed by simultaneous simulations of PI and dropout. Baseline PI for the typical patient was 52.7 mm. The PI was influenced by placebo effects, using an exponential model, and by naproxen concentrations using a sigmoid E(max) model. Typical maximal placebo effect was a decrease in PI by 20.2%, with an onset rate constant of 0.237 h(-1). EC(50) was 0.135 µmol l(-1). A Weibull time-to-event model was used for the dropout, where the hazard was dependent on the predicted PI and by the PI at baseline. Since the dropout was not at random, it was necessary to include the simulated dropout in visual predictive checks (VPC) of PI. This model describes the relationship between drug effects, PI and the likelihood of dropout after naproxcinod, naproxen and placebo administration. The model provides an opportunity to describe the effects of other doses or formulations, after dental extraction. VPC created by simultaneous simulations of PI and dropout provides a good way of assessing the goodness of fit when there is informative dropout.",
+        "doi": "10.1111/j.1365-2125.2011.03924.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4315379559993744,
+        "score": 0.4315379559993744,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41242528",
-        "text": "Pain rating variability and response to treatment in osteoarthritis clinical trials. Despite recognition that osteoarthritis (OA) pain is dynamic, most clinical trials rely on static, single-point assessments. This study examined whether daily pre-treatment pain variability predicts treatment response in OA. We retrospectively analyzed data from 345 knee OA patients enrolled in two randomized, double-blind trials comparing naproxen (500 mg BID; n=190) to placebo (n=155). Participants reported daily pain (0-",
-        "score": 0.41991522908210754,
-        "doi": "10.1016/j.jpain.2025.105601",
-        "journal": "The journal of pain",
-        "year": "2025",
-        "rerank_score": -1.9825724363327026,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:17710005",
-        "text": "Nimesulide in the treatment of postoperative pain: a double-blind, comparative study in patients undergoing arthroscopic knee surgery. To evaluate the efficacy and tolerability of nimesulide in the relief of postoperative pain after orthopedic surgery compared with naproxen and placebo.",
-        "score": 0.35696426033973694,
-        "doi": "10.1097/AJP.0b013e3180e00dff",
+        "id": "PMID:19692798",
+        "text": "A randomized, controlled, dose-ranging study investigating single doses of GW406381, naproxen sodium, or placebo in patients with acute pain after third molar tooth extraction. To evaluate the efficacy and tolerability of 4 doses of GW406381, a cyclooxygenase-2 inhibitor, compared with placebo in a standard model of acute inflammatory pain. This randomized, double-blind, placebo-controlled, single-center study compared single doses of GW406381 (10 to 70 mg) or naproxen sodium 550 mg with placebo in patients after extraction of 2 or more partially bony impacted third molar teeth. A total of 300 patients were randomized (50 per group). The primary efficacy variable was the pain relief intensity difference score at each time point, which was calculated as the sum of the pain intensity difference and pain relief categorical scores at each time point. Each treatment was compared with placebo at each time point using an ordered hierarchical approach with closed testing procedures and last observation carried forward imputation methods. Pain relief intensity differences from placebo were statistically significant beginning at 1.5 hours postdosing for GW406381 70 and 50 mg and at 2-hour postdosing for GW406381 25 and 10 mg. The median time to onset of analgesia was 71 minutes for GW406381 50 mg, 72 minutes for GW406381 70 mg, and 36 minutes for naproxen. The median duration of analgesia was 5.9 hours for GW406381 50 mg, 7.9 hours for GW406391 70 mg, and 11.3 hours for naproxen. All treatments were well tolerated. GW406381 50 and 70 mg demonstrated clinically meaningful analgesia in this acute pain setting, although the onset of analgesia was greater than 1 hour.",
+        "doi": "10.1097/AJP.0b013e3181a085fa",
         "journal": "The Clinical journal of pain",
-        "year": "2007",
-        "rerank_score": -3.5027239322662354,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.43879619240760803,
+        "score": 0.43879619240760803,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:10403264",
+        "text": "Tramadol allows reduction of naproxen dose among patients with naproxen-responsive osteoarthritis pain: a randomized, double-blind, placebo-controlled study. To demonstrate that in patients receiving naproxen for the pain of osteoarthritis (OA), the addition of tramadol will allow a reduction in the naproxen dosage without compromising pain relief. This trial consisted of a 5-week open-label run-in and an 8-week double-blind phase. Patients with at least moderate pain (> or =40 mm on a 100-mm visual analog scale) of OA of the knee after a 1-week medication washout were treated with naproxen 500 mg/day for 1 week. Patients whose pain scores were reduced to <20 mm were discontinued. The remaining patients received naproxen 1,000 mg/day for 3 weeks. Tramadol 200 mg/day was added during the third week. Patients were then randomized in a double-blind manner to continue tramadol 200 mg/day or to begin placebo in addition to naproxen. Randomization was stratified based on response to naproxen 1,000 mg/day. During the double-blind phase, the naproxen dose was reduced by 250 mg every 2 weeks. The primary efficacy end point was the minimum effective naproxen dose (MEND). The MEND was defined as 250 mg above the naproxen daily dosage at which pain relief was no longer adequate. Patients discontinuing the double-blind phase of the study for reasons other than lack of efficacy were assigned a MEND equal to the last naproxen dose received. If the effect of treatment between the responder and nonresponder groups was statistically different, the difference in the MEND was assessed separately within the groups. Of 236 patients randomized (mean age 61 years; 147 females), 90 were stratified as naproxen responders and 146 as naproxen nonresponders. There was a significant difference (P = 0.040) in the treatment effect between the naproxen responders and nonresponders, thus demonstrating a difference in the way responders and nonresponders react to a decrease in naproxen dosage after the addition of tramadol. Among naproxen responders, the MEND was significantly lower in patients receiving tramadol (n = 36) than in patients receiving placebo (n = 54), 221 mg versus 407 mg, respectively (P = 0.021). For the naproxen nonresponders, the mean MEND was 419 mg in the tramadol group and 396 mg in the placebo group (P = 0.706). In patients with painful OA of the knee responding to naproxen 1,000 mg/day, the addition of tramadol 200 mg/day allows a significant reduction in the dosage of naproxen without compromising pain relief.",
+        "doi": "10.1002/1529-0131(199907)42:7<1370::AID-",
+        "journal": "Arthritis and rheumatism",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.4403383433818817,
+        "score": 0.4403383433818817,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

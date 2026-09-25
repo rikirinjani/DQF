@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39963539",
-        "text": "Effectiveness of Intraoperative Ketorolac in Outpatient Breast Surgery: A Double-blinded Prospective Randomized Controlled Trial. The use of nonnarcotic analgesics, such as ketorolac, has been shown to reduce postoperative pain and opioid consumption. This double-blinded randomized trial is designed to assess the efficacy of intraoperative ketorolac in reducing postoperative narcotic use in outpatient breast reconstruction and reduction procedures. This study is a prospective double-blinded randomized contr",
-        "score": 0.34049591422080994,
-        "doi": "10.1097/GOX.0000000000006540",
-        "journal": "Plastic and reconstructive surgery. Global open",
-        "year": "2024",
-        "rerank_score": 6.742626667022705,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8655940",
+        "text": "The analgesic efficacy of ketorolac for acute pain. Ketorolac is a nonsteroidal anti-inflammatory drug, available in both oral and parenteral forms, that possesses significant analgesic potency. Its analgesic efficacy has been studied extensively for the treatment of moderate-to-severe pain in many clinical settings. Although ketorolac possesses significant analgesic potency, it has limited utility as an analgesic for the acute treatment of moderate-to-severe pain in the emergency department. Oral ketorolac has been shown to provide analgesia that is the same or better than aspirin, acetaminophen, and dextropropoxyphene with acetaminophen, and equal analgesia to most other commonly available oral analgesics, including ibuprofen and acetaminophen with codeine. Intramuscular ketorolac provides analgesia equivalent to commonly used doses of meperidine and morphine. However, its utility in acute pain, when rapid relief is necessary, is limited due to a prolonged onset to analgesic action (30-60 min) and a significant number of patients who exhibit little or no response, more than 25% in most studies. The use of intravenous ketorolac has been less well studied. It has analgesic potency but its utility in patients with moderate-to-severe pain is also limited because there is a significant percentage of patients who fail to obtain adequate relief. Ketorolac may be most useful in supplementing parenteral opiates.",
+        "doi": "10.1016/0736-4679(95)02052-7",
+        "journal": "The Journal of emergency medicine",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3695994019508362,
+        "score": 0.3695994019508362,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40326658",
-        "text": "Ketorolac as an Analgesic in Pediatric Acute Pain Management: A Systematic Review and Meta-analysis. Acute pain is a common complaint in the pediatric emergency department. Ketorolac, a nonsteroidal anti-inflammatory drug, is approved for use in adults but remains underinvestigated in pediatric patients. This meta-analysis aims to evaluate the efficacy and safety of Ketorolac for acute pain management in children. A systematic search was conducted using electronic databases, including PubMed, Web of Science",
-        "score": 0.39581552147865295,
-        "doi": "10.1097/PEC.0000000000003381",
-        "journal": "Pediatric emergency care",
-        "year": "2024",
-        "rerank_score": 6.675278663635254,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22266694",
+        "text": "Ketorolac: its role as part of a multimodal analgesic regimen.",
+        "doi": "10.1213/ANE.0b013e31823cd524",
+        "journal": "Anesthesia and analgesia",
+        "year": "2012",
+        "corpus": "main",
+        "distance": 0.375072181224823,
+        "score": 0.375072181224823,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40635926",
-        "text": "Comparative Efficacy of Periarticular Fentanyl versus Ketorolac for Postoperative Pain in Total Hip Arthroplasty: A Randomized Controlled Trial. Local infiltration analgesia (LIA) has been reported as a viable option to tackle postoperative pain. Nonsteroidal anti-inflammatory drugs such as ketorolac and opioids such as fentanyl have shown promising results in the past. At the same time, there are other studies which has refuted any benefit of LIA in postoperative pain management. The presence of conflictin",
-        "score": 0.3733035922050476,
-        "doi": "10.13107/jocr.2025.v15.i07.5846",
-        "journal": "Journal of orthopaedic case reports",
-        "year": "2025",
-        "rerank_score": 6.534751892089844,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:33011670",
+        "text": "Optimal analgesic dose of ketorolac for use in the perioperative period.",
+        "doi": "10.1016/j.jclinane.2020.110081",
+        "journal": "Journal of clinical anesthesia",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3847920596599579,
+        "score": 0.3847920596599579,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

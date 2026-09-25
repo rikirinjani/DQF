@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:17532073",
-        "text": "Concurrent celecoxib versus placebo in patients with stage II-III non-small cell lung cancer: a randomised phase II trial. In several pre-clinical models, cyclooxygenase (COX) inhibitors increase radio-sensitivity of tumours, whilst not affecting normal tissues. A randomised phase II trial comparing concurrent radiotherapy with either celecoxib or placebo in patients with stage II-III non-small cell lung cancer was therefore initiated. Because of poor recruitment, the study was stopped after the enrollment ",
-        "score": 0.4153779149055481,
-        "doi": "10.1016/j.radonc.2007.05.008",
-        "journal": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radi",
-        "year": "2007",
-        "rerank_score": 4.019542694091797,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.36710718274116516,
+        "score": 0.36710718274116516,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:24914585",
-        "text": "A cost-effectiveness analysis of celecoxib compared with diclofenac in the treatment of pain in osteoarthritis (OA) within the Swedish health system using an adaptation of the NICE OA model. Celecoxib for the treatment of pain resulting from osteoarthritis (OA) was reviewed by the Tandvårds- och läkemedelsförmånsverket-Dental and Pharmaceutical Benefits Board (TLV) in Sweden in late 2010. This study aimed to evaluate the incremental cost-effectiveness ratio (ICER) of celecoxib plus a proton pump inhibitor (",
-        "score": 0.41251641511917114,
-        "doi": "10.3111/13696998.2014.933111",
-        "journal": "Journal of medical economics",
-        "year": "2014",
-        "rerank_score": 3.9737942218780518,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12574052",
+        "text": "Systematic review of celecoxib for osteoarthritis and rheumatoid arthritis. Problems compromise review's validity.",
+        "doi": "",
+        "journal": "BMJ (Clinical research ed.)",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.37802451848983765,
+        "score": 0.37802451848983765,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:32569187",
-        "text": "Erlotinib plus tivantinib versus erlotinib alone in patients with previously treated stage IIIb/IV non-small-cell lung cancer: A meta-analysis based on randomized controlled trials. Whether erlotinib plus tivantinib (ET) can achieve better clinical benefits than erlotinib plus placebo (EP) among participants with previously treated advanced non-small-cell lung cancer (NSCLC) is still disputed. We conducted a meta-analysis to evaluate the anticancer efficacy and safety of both regimens.",
-        "score": 0.41252684593200684,
-        "doi": "10.1097/MD.0000000000020596",
-        "journal": "Medicine",
-        "year": "2020",
-        "rerank_score": 2.9006009101867676,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29367329",
+        "text": "NSAIDs are superior to paracetamol for osteoarthritic pain and function in a network meta-analysis.",
+        "doi": "10.1136/ebmed-2017-110878",
+        "journal": "BMJ evidence-based medicine",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.38248008489608765,
+        "score": 0.38248008489608765,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -2,28 +2,41 @@
   "h2_blockade": null,
   "tolerance": false,
   "ddi_risk": 2,
-  "cns_penetration": false,
+  "cns_penetration": true,
   "off_targets": [
+    "H-Receptor",
     "H2-Receptor",
-    "Histamine",
+    "H2-Receptors",
     "Histamine-2"
   ],
   "_evidence": {
     "pmids": [
-      "1646056",
       "16723495",
       "1675461",
+      "1782306",
+      "18947477",
+      "21929996",
       "23038658",
       "23454087",
       "26176290",
+      "2877570",
       "2895455",
       "35258842",
-      "35348553",
+      "38720597",
+      "39193965",
+      "39733426",
+      "39794880",
+      "39821365",
+      "41087788",
       "7710303",
-      "9403794"
+      "8573949"
     ],
-    "source_count": 3,
-    "finding_count": 11
+    "source_count": 11,
+    "finding_count": 19,
+    "dup_pmids_skipped": 1,
+    "pool_relevance_pct": 57.1,
+    "filtered_off_drug": 15,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

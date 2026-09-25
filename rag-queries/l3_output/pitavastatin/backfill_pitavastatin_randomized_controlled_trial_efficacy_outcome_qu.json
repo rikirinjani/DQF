@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40888096",
-        "text": "Win ratio aligns with and enhances interpretation of REPRIEVE's primary findings. We performed a win ratio (WR) analysis of REPRIEVE, a randomized trial of pitavastatin vs placebo for CVD in people with HIV, to assess robustness to event severity. WR aligns with primary findings, and provides insight into pitavastatin protections: persistent advantage over placebo on CV Death, Stroke, and Myocardial Infarction.",
-        "score": 0.40124380588531494,
-        "doi": "10.1093/cid/ciaf477",
-        "journal": "Clinical infectious diseases : an official publication of the Infectious Disease",
-        "year": "2025",
-        "rerank_score": 2.028900384902954,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8752058",
+        "text": "Clinical significance of pravastatin study results.",
+        "doi": "",
+        "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.3988080322742462,
+        "score": 0.3988080322742462,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38320512",
-        "text": "A New Look at P Values for Randomized Clinical Trials. BACKGROUND: We have examined the primary efficacy results of 23,551 randomized clinical trials from the Cochrane Database of Systematic Reviews. METHODS: We estimate that the great majority of trials have much lower statistical power for actual effects than the 80 or 90% for the stated effect sizes. Consequently, “statistically significant” estimates tend to seriously overestimate actual treatment effects, “nonsignificant” results often correspond to im",
-        "score": 0.40641194581985474,
-        "doi": "10.1056/EVIDoa2300003",
-        "journal": "NEJM evidence",
-        "year": "2024",
-        "rerank_score": 1.657929539680481,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29747299",
+        "text": "[The clinical application of pitavastatin: evidence of efficacy and safety in East Asian population].",
+        "doi": "10.3760/cma.j.issn.0578-1426.2018.05.017",
+        "journal": "Zhonghua nei ke za zhi",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.4041109085083008,
+        "score": 0.4041109085083008,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40418812",
-        "text": "Statin Therapy as Primary Prevention for Persons With HIV: A Synopsis of Recommendations From the U.S. Department of Health and Human Services Antiretroviral Treatment Guidelines Panel. REPRIEVE (Randomized Trial to Prevent Vascular Events in HIV) showed benefits of pitavastatin as preventive therapy for atherosclerotic cardiovascular disease (ASCVD) in people with HIV (PWH). In February 2024, the U.S. Department of Health and Human Services Panel for the Use of Antiretroviral Agents in Adults and Adolescen",
-        "score": 0.41510629653930664,
-        "doi": "10.7326/ANNALS-24-03564",
-        "journal": "Annals of internal medicine",
-        "year": "2025",
-        "rerank_score": 0.6125215888023376,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21193153",
+        "text": "Pitavastatin - results from phase III & IV. The pitavastatin Phase III and IV studies assessed the efficacy and safety of standard dose pitavastatin vs. comparable doses of alternative statins in a broad range of patients with hypercholesterolaemia. Phase III studies conducted in Europe included five 12-week, randomised, double-blind trials evaluating the non-inferiority of pitavastatin 1-4mg vs. atorvastatin 10-20mg, simvastatin 20-40 mg and/or pravastatin 10-40mg in patients with primary hypercholesterolaemia and combined dyslipidaemia, including patients with high cardiovascular risk, type II diabetes, and age ≥65 years. The primary endpoint was the adjusted mean percent change from baseline in low-density lipoprotein-cholesterol (LDL-C); secondary endpoints included changes from baseline in lipid and lipoprotein profiles, LDL-C-target attainment rates and safety parameters. For each study, treatment was continued in open-label, long-term extension studies. Phase IV Japanese studies included CHIBA - a 12-week, open-label active control, non-inferiority investigator-led trial comparing the efficacy and safety of pitavastatin 2mg and atorvastatin 10 mg in patients with hypercholesterolaemia; PIAT - a 52-week open-label, investigator-led, randomised, parallel-group study comparing the efficacy and tolerability of pitavastatin 2mg and atorvastatin 10 mg in patients with hypercholesterolaemia and glucose intolerance; and LIVES - a 2-year prospective post-marketing surveillance of pitavastatin in 20,279 patients with hypercholesterolaemia. The primary endpoint for the first two studies was the percent change from baseline in non-high-density lipoprotein-C (non-HDL-C) and HDL-C, respectively; secondary endpoints included % changes from baseline in other lipid/lipoprotein parameters, safety and tolerability. Overall, Phase III and IV studies demonstrate that pitavastatin 1-4mg is well tolerated, improves atherogenic lipid profile and increases LDL-C target attainment rates with a similar or greater efficacy to comparable doses of atorvastatin, simvastatin and pravastatin in most patient groups. In each of these studies, improvements in lipid profile were sustained or improved during the long term suggesting benefits for continued treatment with pitavastatin.",
+        "doi": "10.1016/S1567-5688(10)71064-3",
+        "journal": "Atherosclerosis. Supplements",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.4069286584854126,
+        "score": 0.4069286584854126,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41562647",
-        "text": "Calculating cost per event avoided using a composite number needed to treat. Number needed to treat (NNT) and cost per event avoided (CPEA) are measures used to represent the clinical and economic value of chronic treatments and are commonly calculated based on primary endpoints from trials. This approach, although widely used, does not reflect the complete value of a treatment, as it does not consider outcomes beyond the primary endpoints. This research aims to overcome this limitation by developing multip",
-        "score": 0.5168992280960083,
-        "doi": "10.1080/13696998.2026.2615606",
-        "journal": "Journal of medical economics",
-        "year": "2026",
-        "rerank_score": 2.2037065029144287,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3996260166168213,
+        "score": 0.3996260166168213,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39758385",
-        "text": "Advances in electrochemical sensors for naproxen detection: Mechanisms, performance factors, and emerging challenges. Naproxen (NAP), a nonsteroidal anti-inflammatory, analgesic, and antipyretic drug, has fewer side effects than similar drugs due to its aryl acetic acid structure. For this reason, it is widely prescribed to manage fever, short-term and long-term pain, and musculoskeletal disorders. However, its use has complications such as changes in kidney function, severe gastrointestinal lesions, and in",
-        "score": 0.49923476576805115,
-        "doi": "10.1016/j.heliyon.2024.e40906",
-        "journal": "Heliyon",
-        "year": "2024",
-        "rerank_score": -0.5342720150947571,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:22165523",
+        "text": "[The number needed to treat (NNT)]. The number needed to treat (NNT) is a valuable information in treatment decisions. This is the result of a calculation based on published data, collected from an intervention study. NNT is the inverse of the absolute risk reduction (1/ARR) between two treatment options. It is always expressed by a value rounded up to whole numbers, between 1 and infinity, depending on the effectiveness of the new treatment being studied. The NNT is the average number of patients needed to be treated for a duration equal to the study period to achieve one additional positive response under the conditions of the study. The more the treatment will be effective, the more the NNT will be low (tending towards 1). The NNT should be calculated based on the results of a clinical study of good methodological quality, involving a well-defined and homogeneous group of patients, whose baseline risk is known and using a dichotomous endpoint (the event occurs or not). The study must have shown a statistically significant difference between the two groups. In the process of medical decision making, the NNT must be balanced with the safety profile of the treatment (represented by the number needed to harm, or NNH), the costs and stress associated with it. It is possible to calculate a NNT and its confidence interval, from the published data of a clinical study. Some authors report the NNT in the text of the publication.",
+        "doi": "",
+        "journal": "Revue medicale de Bruxelles",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.41847652196884155,
+        "score": 0.41847652196884155,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39318200",
-        "text": "Sumatriptan-naproxen sodium in migraine: A review. Varied responses to acute migraine medications have been observed, with over one-third (34.5%) of patients reporting insufficient headache relief. Sumatriptan-naproxen sodium, a single, fixed-dose combination tablet comprising sumatriptan 85 mg and naproxen sodium 500 mg, was developed with the rationale of targeting multiple putative mechanisms involved in the pathogenesis of migraine to optimise acute migraine care. A narrative review of clinical trials i",
-        "score": 0.5060056447982788,
-        "doi": "10.1111/ene.16434",
-        "journal": "European journal of neurology",
-        "year": "2024",
-        "rerank_score": -1.993490219116211,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15833778",
+        "text": "Predicting postoperative analgesia outcomes: NNT league tables or procedure-specific evidence? Number needed to treat (NNT) values have been recommended and used to assess efficacy of analgesics for acute pain management. However, the data analysed come from a variety of procedures, which may potentially hinder the interpretation of the NNT value for specific procedures. We reanalysed available NNT data with acetaminophen in relation to the magnitude of surgical injury. Acetaminophen was less effective for pain relief after orthopaedic procedures than after dental procedures. The relative risk ratio for more than 50% pain relief, compared with placebo, was only 1.87 compared with 3.77 (P<0.05). Although NNT can give a valuable overview of efficacy, this concept is not necessarily applicable to all types of surgery. We suggest that estimates of NNT should be related to specific surgical procedures.",
+        "doi": "10.1093/bja/aei144",
+        "journal": "British journal of anaesthesia",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.4419216513633728,
+        "score": 0.4419216513633728,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38875111",
-        "text": "Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation. Whether proton-pump inhibitors are beneficial or harmful for stress ulcer prophylaxis in critically ill patients undergoing invasive ventilation is unclear. In this international, randomized trial, we assigned critically ill adults who were undergoing invasive ventilation to receive intravenous pantoprazole (at a dose of 40 mg daily) or matching placebo. The primary efficacy outcome was clinically important upper gastrointestinal bleeding in t",
-        "score": 0.39959508180618286,
-        "doi": "10.1056/NEJMoa2404245",
-        "journal": "The New England journal of medicine",
-        "year": "2024",
-        "rerank_score": 4.0156049728393555,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:14687838",
+        "text": "Dosage of intravenous pantoprazole.",
+        "doi": "10.1111/j.1572-0241.2003.08677.x",
+        "journal": "The American journal of gastroenterology",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.41812586784362793,
+        "score": 0.41812586784362793,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39539895",
-        "text": "Comparative Efficacy of Dexlansoprazole, Pantoprazole, Esomeprazole, and Rabeprazole in Achieving Optimal 24-Hour Intragastric pH Control: A Randomized Crossover Study Using Ambulatory pH Monitoring. Proton pump inhibitors (PPIs) regulate gastric acid reflux. Dexlansoprazole's efficacy in prolonging acid suppression compared to conventional PPIs and placebo requires evaluation. A prospective, randomized, placebo-controlled, five-way crossover pilot study was conducted on healthy volunteers comparing the pot",
-        "score": 0.39541172981262207,
-        "doi": "10.7759/cureus.71418",
-        "journal": "Cureus",
-        "year": "2024",
-        "rerank_score": 3.8629062175750732,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20514766",
+        "text": "[Efficacy and tolerability of pantoprazole in the treatment of gastroesophageal reflux disease].",
+        "doi": "10.1007/BF03366513",
+        "journal": "MMW Fortschritte der Medizin",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.4232933521270752,
+        "score": 0.4232933521270752,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40984972",
-        "text": "Comparative efficacy and safety of vonoprazan versus esomeprazole-based high-dose dual therapies for first-line  Effective  To compare the efficacy of 14-day vonoprazan-based (VA) and esomeprazole-based (EA) HDDT for  Randomized controlled trial (RCT). A total of 121 patients with confirmed  Baseline demographic and clinical characteristics were comparable between the VA and EA groups. In the intention-to-treat analysis, eradication rates were 86.9% (95% confidence interval (CI): 78.4%-95.4%) in the VA grou",
-        "score": 0.4003593623638153,
-        "doi": "10.1177/17562848251378066",
-        "journal": "Therapeutic advances in gastroenterology",
-        "year": "2025",
-        "rerank_score": 2.2348639965057373,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:29657605",
+        "text": "Meta-analysis of the efficacy and safety of pantoprazole in the treatment and symptom relief of patients with gastroesophageal reflux disease - PAN-STAR. Proton pump inhibitors therapy success in the treatment of gastroesophageal reflux disease (GERD) is a difficult task because the extent of mucosal damage has no relation with the severity of the symptoms. To establish the efficacy of pantoprazole treatment in patients with erosive reflux disease (ERD) and in those with non-erosive reflux disease (NERD), by assessing symptom relief and quality of life. Treatment duration and adverse events associated with pantoprazole treatment were analysed. This meta-analysis was based on three multicentre, prospective, open-label, phase IV trials conducted in Slovenia, Poland, and the Russian Federation. In total, 252 patients with GERD were included and treated with pantoprazole 40 mg once daily for 4 or 8 weeks, depending on the fulfilment of predefined healing criteria. Symptoms were assessed by patients on a scale from 0 to 3 and the quality of life on a rating scale from 1 to 10. Forty-five percent of patients fulfilled the healing criteria after 4 weeks of treatment, and 70% of patients after 8 weeks of treatment. Patients who failed to reach the healing criteria reported significant reduction of symptoms severity. The response to 8-week treatment was significantly higher in patients with ERD (76%) when compared to patients with NERD (64%). Discontinuation of treatment after 4 weeks was not associated with worsening of symptoms and did not affect quality of life. Pantoprazole treatment was associated with improvement of symptoms and the quality of life of GERD patients over 8 weeks of treatment and showed that GERD patients with persisting symptoms benefit from prolonging treatment to 8 weeks. Treatment with pantoprazole 40 mg was very well tolerated - more than 90% of patients were without adverse events throughout the whole study and only 4 patients discontinued the treatment due to adverse events related to pantoprazole treatment. Pantoprazole 40 mg was associated with complete relief of GERD-related symptoms in the majority of patients with ERD and NERD. Furthermore, the severity of symptoms was significantly reduced in patients without complete relief of symptoms. Pantoprazole also continuously improved the quality of life of GERD patients over 8 weeks of treatment and was very well tolerated throughout the whole study. Therefore, this meta-analysis suggests that pantoprazole 40 mg once daily is an effective and well-tolerated choice for providing symptom relief of patients with GERD.",
+        "doi": "10.5114/pg.2018.74556",
+        "journal": "Przeglad gastroenterologiczny",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.424737811088562,
+        "score": 0.424737811088562,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

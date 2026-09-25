@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:23692587",
-        "text": "Paracetamol (Acetaminophen) in stroke 2 (PAIS 2): protocol for a randomized, placebo-controlled, double-blind clinical trial to assess the effect of high-dose paracetamol on functional outcome in patients with acute stroke and a body temperature of 36.5 °C or above. In the first hours after stroke onset, subfebrile temperatures and fever have been associated with poor functional outcome. In the first Paracetamol (Acetaminophen) in Stroke trial, a randomized clinical trial of 1400 patients with acute stroke,",
-        "score": 0.3954348564147949,
-        "doi": "10.1111/ijs.12053",
-        "journal": "International journal of stroke : official journal of the International Stroke S",
-        "year": "2012",
-        "rerank_score": 4.654409408569336,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31982540",
+        "text": "Inferential reproduction analysis demonstrated that \"paracetamol for acute low back pain\" trial conclusions were reproducible. The aim of this study was to reanalyze and reinterpret data obtained in Paracetamol in Acute Low Back Pain (PACE), the first large randomized controlled trial evaluating the efficacy of paracetamol in acute low back pain, to assess the inferential reproducibility of the original conclusions. Mixed effects models were used to reanalyze pain intensity (primary outcome; 11-point Numeric Rating Scale) and physical functioning, health-related quality of life, sleep quality, and time until recovery (as secondary outcomes), according to the intention-to-treat principle. The original authors of the PACE study were not involved in the development of the methods for this reanalysis. The reproduction analyses indicated no effect of treatment on pain intensity and confidence intervals excluded clinically worthwhile effects (adjusted main effect for regular paracetamol vs. placebo 0.00 [-0.02, 0.01; P = 0.85]; adjusted main effect for paracetamol as-needed vs. placebo 0.00 [-0.02, 0.01; P = 0.92]). Similar results were obtained for all secondary outcomes. This study indicates that the conclusions of the PACE trial are inferentially reproducible, even when using a different analytical approach. This reinforces the notion that the management of acute low back pain should focus on providing patients advice and reassurance without the addition of paracetamol.",
+        "doi": "10.1016/j.jclinepi.2020.01.010",
+        "journal": "Journal of clinical epidemiology",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.42942744493484497,
+        "score": 0.42942744493484497,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41217349",
-        "text": "Effect of Paracetamol on Cerebral Temperature in Febrile Brain-Injured Patients. The NEUROTHERM Study: A Randomized Controlled Pharmacodynamic Trial. Hyperthermia is common in brain-injured patients and is considered a systemic secondary brain injury. Paracetamol is most often administered as first-line treatment, although its efficacy in controlling cerebral temperature (CT) has never been evaluated, which is the aim of this study. Pharmacodynamic prospective randomized double-blind placebo-controlled stud",
-        "score": 0.41090166568756104,
-        "doi": "10.1097/CCM.0000000000006951",
-        "journal": "Critical care medicine",
-        "year": "2026",
-        "rerank_score": 4.211061477661133,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20154294",
+        "text": "Quantifying pain relief following administration of a novel formulation of paracetamol (acetaminophen). This article describes how a model-based analysis was used to aid development of a novel formulation technology. Paracetamol (acetaminophen) was used as the motivating example with 4 different formulations (2 developmental and 2 commercial) compared using stochastic (Monte Carlo) pharmacokinetic (PK)-pharmacodynamic (PD) simulations to explore potential differences in pharmacodynamic outcomes. PK models were developed from data collected during an intensively sampled, 4-arm crossover trial in 25 fasted healthy subjects, administered 1 g of paracetamol in 4 different formulations. The PK models were linked to a previously published PD model that quantified pain relief over time following tonsillectomy. The number needed to treat (NNT) was the primary numeric used to compare effectiveness. The developmental formulations were likely to produce faster and greater analgesia with an NNT (compared with placebo) to reduce pain by 50% over a 45-minute interval post dose of 2.75 and 2.88 compared with 4.31 and 3.2 for the commercial products. Over the course of 1 hour, all formulations were comparable. The stochastic simulations provided support that the novel formulation technology was likely to provide a clinically meaningful advantage and should be developed further.",
+        "doi": "10.1177/0091270009359181",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.4393253028392792,
+        "score": 0.4393253028392792,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39701142",
-        "text": "Lisdexamfetamine in the treatment of methamphetamine dependence: A randomised, placebo-controlled trial. This study tested the efficacy and safety of a 12-week course of lisdexamfetamine in reducing methamphetamine use, an outcome which is associated with improvements in health and wellbeing, in people dependent on methamphetamine. This study was a randomised double-blind placebo-controlled trial conducted in six specialist outpatient clinics in Adelaide, Melbourne, Newcastle and Sydney, Australia (2018-202",
-        "score": 0.4093850553035736,
-        "doi": "10.1111/add.16730",
-        "journal": "Addiction (Abingdon, England)",
-        "year": "2024",
-        "rerank_score": 2.3972692489624023,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12626842",
+        "text": "Nimesulide vs. paracetamol: this trial needs to stand trial.",
+        "doi": "",
+        "journal": "Indian pediatrics",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.44244271516799927,
+        "score": 0.44244271516799927,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

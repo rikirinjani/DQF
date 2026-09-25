@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40554258",
-        "text": "Enhanced anti-inflammatory efficacy of a new piroxicam analogue through the MEK/ERK/NF-κB pathway in vitro and in vivo. Piroxicam (PX) is potent and widely used for the treatment of inflammatory conditions. To develop active PX analogues with improved anti-inflammatory activity and minimized adverse effects, a series of PX analogues were designed and synthesized for enhancing anti-inflammatory activity. Among these derivatives, compound 12 exhibited superior NO-inhibitory ability with minimal cytotoxic effe",
-        "score": 0.3947693109512329,
-        "doi": "10.1016/j.intimp.2025.115100",
-        "journal": "International immunopharmacology",
-        "year": "2025",
-        "rerank_score": 4.507284164428711,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8988837",
+        "text": "Preventive not pre-emptive analgesia with piroxicam.",
+        "doi": "10.1007/BF03014338",
+        "journal": "Canadian journal of anaesthesia = Journal canadien d'anesthesie",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.4010561406612396,
+        "score": 0.4010561406612396,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40050536",
-        "text": "Enhanced Transdermal Delivery of Piroxicam via Nanocarriers, Formulation, Optimization, Characterization, Animal Studies and Randomized Double-Blind Clinical Trial. Piroxicam is a non-steroidal anti-inflammatory drug which is used topically as an adjunctive treatment of knee osteoarthritis and as an option to control joint pain in patients suffering rheumatoid arthritis. In this study, an emulgel containing optimized nano-niosomal piroxicam was formulated and characterized in terms of mean size, polydispers",
-        "score": 0.4349762797355652,
-        "doi": "10.1208/s12249-025-03075-x",
-        "journal": "AAPS PharmSciTech",
-        "year": "2024",
-        "rerank_score": 3.794236421585083,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11034755",
+        "text": "Single dose piroxicam for acute postoperative pain. Piroxicam is a non-steroidal anti-inflammatory drug (NSAID) with analgesic properties, and is used mainly for treating rheumatic disorders. Some drugs have been directly compared against each other within a trial setting to determine their relative efficacies, whereas other have not. It is possible, however, to compare analgesics indirectly by examining the effectiveness of each drug against placebo when used in similar clinical situations. To determine the analgesic efficacy and adverse effects of single-dose piroxicam compared with placebo in moderate to severe postoperative pain. To compare the effects of piroxicam with other analgesics. Published reports were identified from systematic searching of Medline, Biological Abstracts, Embase, The Cochrane Library and the Oxford Pain Relief Database. Additional studies were identified from the reference lists of retrieved reports. The following inclusion criteria were used: full journal publication, randomised placebo controlled trial, double-blind design, adult patients, postoperative pain of moderate to severe intensity at the baseline assessment, postoperative administration of oral or intramuscular piroxicam. Summed pain intensity and pain relief data were extracted and converted into dichotomous information to yield the number of patients obtaining at least 50% pain relief. This was used to calculate estimates of relative benefit and number-needed-to-treat for one patient to obtain at least 50% pain relief. Information was collected on adverse effects and estimates of relative risk and number-needed-to-harm were calculated. Three trials (141 patients) compared oral piroxicam 20 mg with placebo and one (15 patients) compared oral piroxicam 40 mg with placebo. For single doses of piroxicam 20 mg and 40 mg the respective numbers-needed-to-treat for at least 50% pain relief were 2.7 (2.1 to 3.8) [95% confidence interval] and 1.9 (1.2 to 4.3) [95% confidence interval] compared with placebo over 4-6 hours in moderate to severe postoperative pain. The reported incidence of adverse effects was no higher with piroxicam (20 mg or 40 mg) than with placebo. Piroxicam appears to be of similar efficacy to other non-steroidal anti-inflammatory drugs (NSAIDs) and intramuscular morphine 10 mg when used as a single oral dose in the treatment of moderate to severe postoperative pain.",
+        "doi": "10.1002/14651858.CD002762",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2000",
+        "corpus": "main",
+        "distance": 0.43234795331954956,
+        "score": 0.43234795331954956,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38940572",
-        "text": "Does Piroxicam have an Added Benefit on Arthrocentesis in the Management of Internal Derangement in Female Patients?: A Randomized Clinical Trial. Arthrocentesis is an accepted treatment modality for internal derangement. Piroxicam is an NSAID that can be injected into the TMJ. The primary objective of this study was to improve mouth opening, and the secondary objective was to decrease TMD-associated pain. A randomized controlled trial (RCT) was performed on patients suffering from anterior disk displacemen",
-        "score": 0.3850265145301819,
-        "doi": "10.1097/SCS.0000000000010447",
-        "journal": "The Journal of craniofacial surgery",
-        "year": "2024",
-        "rerank_score": 2.662642002105713,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12458102",
+        "text": "Re: combination analgesic efficacy.",
+        "doi": "10.1016/s0885-3924(02)00476-1",
+        "journal": "Journal of pain and symptom management",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.4514540135860443,
+        "score": 0.4514540135860443,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40155503",
-        "text": "Optimizing pain management and pupil dilation in cataract surgery: a systematic review and meta-analysis of phenylephrine/ketorolac (OMIDRIA®). This systematic review and meta-analysis aims to evaluate the efficacy and safety of the combination of phenylephrine 1% and ketorolac 0.3% (OMIDRIA®) for optimizing pain management and maintaining pupil dilation during cataract surgery. Comparisons were made against placebo/vehicle, phenylephrine alone, and epinephrine. A comprehensive search of PubMed, Cochrane CE",
-        "score": 0.4121704697608948,
-        "doi": "10.1007/s00417-025-06811-y",
-        "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Grae",
+        "id": "PMID:38529811",
+        "text": "Letter re: Letter to the editor: Superior analgesic efficacy of preemptive low-dose ketorolac compared with parecoxib after total knee arthroplasty: A retrospective propensity score matching study.",
+        "doi": "10.1177/10225536241241893",
+        "journal": "Journal of orthopaedic surgery (Hong Kong)",
         "year": "2024",
-        "rerank_score": 5.237041473388672,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.36963847279548645,
+        "score": 0.36963847279548645,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:41185920",
-        "text": "The Efficacy and Safety of Ketamine or Ketorolac Compared to Opioids in Painful Vaso-Occlusive Crisis: A Systematic Review and Meta-Analysis. To evaluate the efficacy and safety of ketamine or ketorolac compared to opioids in painful vaso-occlusive crisis (VOC). A systematic review and meta-analysis was conducted according to the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) criteria and used Embase, MEDLINE, and Cochrane Central to obtain data that evaluated the efficacy and s",
-        "score": 0.389583945274353,
-        "doi": "10.1177/10600280251380939",
-        "journal": "The Annals of pharmacotherapy",
-        "year": "2025",
-        "rerank_score": 4.622358798980713,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.377000093460083,
+        "score": 0.377000093460083,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41109074",
-        "text": "Bleeding potential and effectiveness of perioperative ketorolac administration in tonsillectomy: A systemic review and meta-analysis. To investigate the safety and effectiveness of perioperative ketorolac administration in tonsillectomy. In this analysis, we examined 15 studies encompassing 1249 patients, obtained from the PubMed, SCOPUS, Embase, Web of Science, and Cochrane databases up to June 2025. Among these, 13 studies included only children, whereas 2 studies included only adults. These studies inves",
-        "score": 0.3903794288635254,
-        "doi": "10.1016/j.ijporl.2025.112608",
-        "journal": "International journal of pediatric otorhinolaryngology",
-        "year": "2025",
-        "rerank_score": 3.2484939098358154,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37634069",
+        "text": "Comparison of Ibuprofen with Ketorolac on the Control of Renal Colic Pain: A Meta-Analysis of Randomized Controlled Studies. The comparison of ibuprofen with ketorolac remains controversial for the pain control of renal colic. We therefore conduct this meta-analysis to compare the analgesic efficacy of ibuprofen with ketorolac for renal colic. We have searched PubMed, EMbase, Web of science, EBSCO, and Cochrane library databases through December 2022 for randomized controlled trials (RCTs) assessing the analgesic efficacy of ibuprofen in comparison with ketorolac for renal colic. This meta-analysis was performed using the random-effect or fixed-effect model based on the heterogeneity. Four RCTs were included in the meta-analysis. In patients with renal colic pain, intravenous ibuprofen and ketorolac produced comparable pain scores at 15 min (MD = -0.46; 95% CI = -1.24 to 0.31; P = 0.24), 30 min (MD = -0.81; 95% CI = -1.75 to 0.31; P = 0.09), 60 min (MD=-0.63; 95% CI = -1.40 to 0.13; P = 0.10) and 120 min (MD = -0.74; 95% CI = -2.18 to 0.70; P = 0.31), as well as adverse events (OR = 0.95; 95% CI = 0.61 to 1.49; P = 0.83). Ibuprofen can obtain comparable analgesic efficacy to ketorolac for renal colic pain.",
+        "doi": "10.22037/uj.v20i.7572",
+        "journal": "Urology journal",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.38924312591552734,
+        "score": 0.38924312591552734,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

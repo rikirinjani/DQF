@@ -4,54 +4,168 @@
     "dimension": "off_target",
     "target": "PPARgamma"
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:40019446",
-        "text": "LIBX-A401: A Novel Selective Inhibitor of Acyl-CoA Synthetase Long Chain Family Member 4 (ACSL4) and Its Binding Mode. Acyl-coenzyme A synthetase long-chain family member 4 (ACSL4), a pivotal enzyme in lipid metabolism, has emerged as a therapeutic target for ferroptosis-related conditions and cancer. However, its reference inhibitor, rosiglitazone, has off-target activity on peroxisome proliferator-activated receptor gamma (PPARγ), a key regulator of lipid homeostasis. Here, the discovery of LIBX-A401, a p",
-        "score": 0.3970526158809662,
-        "doi": "10.1002/anie.202500518",
-        "journal": "Angewandte Chemie (International ed. in English)",
-        "year": "2025",
-        "rerank_score": 5.195470809936523,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38594496",
+        "text": "PPARγ alleviates preeclampsia development by regulating lipid metabolism and ferroptosis.\n\nThe study aims to explore the effect of PPARγ signaling on ferroptosis and preeclampsia (PE) development. Serum and placental tissue are collected from healthy subjects and PE patients. The PPARγ and Nrf2 decreases in the PE. Rosiglitazone intervention reverses hypoxia-induced trophoblast ferroptosis and decreases lipid synthesis by regulating Nfr2 and SREBP1. Compared to the Hypoxia group, the migratory and invasive abilities enhance after rosiglitazone and ferr1 treatment. Rosiglitazone reduces the effect of hypoxia and erastin. The si-Nrf2 treatment attenuats the effects of rosiglitazone on proliferation, migration, and invasion. The si-Nrf2 does not affect SREBP1 expression. PPARγ agonists alleviates ferroptosis in the placenta of the PE rats. The study confirms that PPARγ signaling and ferroptosis-related indicators were dysregulated in PE. PPARγ/Nrf2 signaling affects ferroptosis by regulating lipid oxidation rather than SREBP1-mediated lipid synthesis. In conclusion, our study find that PPARγ can alleviate PE development by regulating lipid oxidation and ferroptosis.",
+        "title": "PPARγ alleviates preeclampsia development by regulating lipid metabolism and ferroptosis.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38594496",
+          "journal": "Communications biology",
+          "authors": [
+            "Lai Weisi",
+            "Yu Ling",
+            "Deng Yali"
+          ],
+          "pub_date": "2024-Apr-09",
+          "doi": "10.1038/s42003-024-06063-2",
+          "mesh_terms": [
+            "Humans",
+            "Female",
+            "Pregnancy",
+            "Rats",
+            "Animals",
+            "Rosiglitazone",
+            "PPAR gamma",
+            "Lipid Metabolism",
+            "Placenta",
+            "Pre-Eclampsia",
+            "NF-E2-Related Factor 2",
+            "Ferroptosis",
+            "Hypoxia",
+            "Lipids"
+          ]
         }
       },
       {
-        "id": "PMID:40054722",
-        "text": "The therapeutic potential of Rosiglitazone in modulating scar formation through PPAR-γ pathway. The prevention and treatment of scars has always posed a challenge in the medical field. Researchers have reached the consensus that safe, effective and affordable treatments are needed. Here, by conducting non-targeted metabolomics and RNA sequencing experiments, we revealed that a significant number of metabolites and genes related to glucose and lipid metabolism underwent changes during scar formation, with pe",
-        "score": 0.371724396944046,
-        "doi": "10.1016/j.ejphar.2025.177445",
-        "journal": "European journal of pharmacology",
-        "year": "2024",
-        "rerank_score": 3.612687349319458,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35392915",
+        "text": "The activation of PPARγ enhances Treg responses through up-regulating CD36/CPT1-mediated fatty acid oxidation and subsequent N-glycan branching of TβRII/IL-2Rα.\n\nPeroxisome proliferator-activated receptor gamma (PPARγ) is an enhancer of Treg responses, but the mechanisms remain elusive. This study aimed to solve this problem in view of cellular metabolism.\nThree recognized PPARγ agonists (synthetic agonist: rosiglitazone; endogenous ligand: 15d-PGJ2; natural product: morin) were used as the tools to activate PPARγ. The fatty acid oxidation (FAO) was evaluated through the detection of fatty acid uptake, oxygen consumption rate, mitochondrial mass, mitochondrial membrane potential and acetyl-CoA level. The involvement of UDP-GlcNAc/N-linked glycosylation axis and the exact role of PPARγ in the action of PPARγ agonists were determined by flow cytometry, Q-PCR, western blotting, a commercial kit for enzyme activity and CRISPR/Cas9-mediated knockout.\nRosiglitazone, 15d-PGJ2 and morin all increased the frequency of CD4+Foxp3+ Treg cells generated from naïve CD4+ T cells, boosted the transcription of Foxp3, IL-10, CTLA4 and TIGIT, and facilitated the function of Treg cells. They significantly promoted FAO in differentiating Treg cells by up-regulating the levels of CD36 and CPT1 but not other enzymes involved in FAO such as ACADL, ACADM, HADHA or HADHB, and siCD36 or siCPT1 dampened PPARγ agonists-promoted Treg responses. Moreover, PPARγ agonists enhanced UDP-GlcNAc biosynthesis and subsequent N-linked glycosylation, but did not affect the expressions of N-glycan branching enzymes Mgat1, 2, 4 and 5. Notably, the enzyme activity of phosphofructokinase (PFK) was inhibited by PPARγ agonists and the effect was limited by siCD36 or siCPT1, implying PFK to be a link between PPARγ agonists-promoted FAO and UDP-GlcNAc biosynthesis aside from acetyl-CoA. Furthermore, PPARγ agonists facilitated the cell surface abundance of TβRII and IL-2Rα via N-linked glycosylation, thereby activating TGF-β/Smads and IL-2/STAT5 signaling, and the connection between N-linked glycosylation and Treg responses was revealed by tunicamycin. However, the increased surface abundance of CD36 was demonstrated to be mainly owing to PPARγ agonists-up-regulated overall expression. Finally, PPARγ antagonist GW9662 or CRISPR/Cas9-mediated knockout of PPARγ constrained the effects of rosiglitazone, 15d-PGJ2 and morin, confirming the exact role of PPARγ.\nThe activation of PPARγ enhances Treg responses through up-regulating CD36/CPT1-mediated fatty acid oxidation and subsequent N-glycan branching of TβRII/IL-2Rα, which is beneficial for inflammatory and autoimmune diseases. Video Abstract.",
+        "title": "The activation of PPARγ enhances Treg responses through up-regulating CD36/CPT1-mediated fatty acid oxidation and subsequent N-glycan branching of TβRII/IL-2Rα.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35392915",
+          "journal": "Cell communication and signaling : CCS",
+          "authors": [
+            "Miao Yumeng",
+            "Zhang Changliu",
+            "Yang Ling"
+          ],
+          "pub_date": "2022-Apr-07",
+          "doi": "10.1186/s12964-022-00849-9",
+          "mesh_terms": [
+            "Acetyl Coenzyme A",
+            "CD36 Antigens",
+            "Forkhead Transcription Factors",
+            "Interleukin-2 Receptor alpha Subunit",
+            "PPAR gamma",
+            "Polysaccharides",
+            "Rosiglitazone",
+            "T-Lymphocytes, Regulatory",
+            "Uridine Diphosphate"
+          ]
         }
       },
       {
-        "id": "PMID:21347706",
-        "text": "Identification of the target proteins of rosiglitazone in 3T3-L1 adipocytes through proteomic analysis of cytosolic and secreted proteins. Rosiglitazone, one of the thiazolidinedione (TZD), is an oral antidiabetic drug that activates a gamma isoform of peroxisome proliferator-activated receptor (PPARγ). To identify target proteins induced by rosiglitazone in adipocytes, we first performed simultaneous in-depth proteomic profiling of cytosolic proteins and secreted proteins (secretome) from 3T3-L1 adipocytes",
-        "score": 0.3554510176181793,
-        "doi": "10.1007/s10059-011-0026-6",
-        "journal": "Molecules and cells",
-        "year": "2010",
-        "rerank_score": 2.8831582069396973,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:40931013",
+        "text": "Modulating the PPARγ pathway upregulates NECTIN4 and enhances chimeric antigen receptor (CAR) T cell therapy in bladder cancer.\n\nWith the approval of the antibody-drug conjugate enfortumab vedotin (EV), NECTIN4 has emerged as a bona fide therapeutic target in urothelial carcinoma (UC). Here, we report the development of a NECTIN4-directed chimeric antigen receptor (CAR) T cell, which exhibits reactivity across cells expressing a range of endogenous NECTIN4, with enhanced activity in high expressors. We demonstrate that the PPARγ pathway, critical for luminal differentiation, transcriptionally controls NECTIN4, and that the PPARγ agonist rosiglitazone primes and augments NECTIN4 expression, thereby increasing sensitivity to NECTIN4-CAR T cell-mediated killing. NECTIN4-CAR T cells have potent anti-tumor activity even against EV resistant cells, which largely retain NECTIN4 expression, including in a post-EV biopsy cohort. Our results elucidate a therapeutically actionable mechanism that UC cells use to control NECTIN4 expression and suggest therapeutic approaches that leverage PPARγ agonists for rational combinations with NECTIN4-targeting agents in UC, as well as future potential treatment options for EV-refractory patients.",
+        "title": "Modulating the PPARγ pathway upregulates NECTIN4 and enhances chimeric antigen receptor (CAR) T cell therapy in bladder cancer.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40931013",
+          "journal": "Nature communications",
+          "authors": [
+            "Chang Kevin",
+            "Delavan Henry M",
+            "Yip Elizabeth"
+          ],
+          "pub_date": "2025-Sep-10",
+          "doi": "10.1038/s41467-025-62710-0",
+          "mesh_terms": [
+            "Humans",
+            "PPAR gamma",
+            "Urinary Bladder Neoplasms",
+            "Cell Adhesion Molecules",
+            "Cell Line, Tumor",
+            "Receptors, Chimeric Antigen",
+            "Animals",
+            "Mice",
+            "Immunotherapy, Adoptive",
+            "Up-Regulation",
+            "Rosiglitazone",
+            "Xenograft Model Antitumor Assays",
+            "Female",
+            "Signal Transduction",
+            "Gene Expression Regulation, Neoplastic",
+            "T-Lymphocytes",
+            "Antibodies, Monoclonal",
+            "Nectins"
+          ]
+        }
+      },
+      {
+        "id": "PMID:39579770",
+        "text": "PPARγ-dependent remodeling of translational machinery in adipose progenitors is impaired in obesity.\n\nAdipose tissue regulates energy homeostasis and metabolic function, but its adaptability is impaired in obesity. In this study, we investigate the impact of acute PPARγ agonist treatment in obese mice and find significant transcriptional remodeling of cells in the stromal vascular fraction (SVF). Using single-cell RNA sequencing, we profile the SVF of inguinal and epididymal adipose tissue of obese mice following rosiglitazone treatment and find an induction of ribosomal factors in both progenitor and preadipocyte populations, while expression of ribosomal factors is reduced with obesity. Notably, the expression of a subset of ribosomal factors is directly regulated by PPARγ. Polysome profiling of the epididymal SVF shows that rosiglitazone promotes translational selectivity of mRNAs that encode pathways involved in adipogenesis and lipid metabolism. Inhibition of translation using a eukaryotic translation initiation factor 4A (eIF4A) inhibitor is sufficient in blocking adipogenesis. Our findings shed light on how PPARγ agonists promote adipose tissue plasticity in obesity.",
+        "title": "PPARγ-dependent remodeling of translational machinery in adipose progenitors is impaired in obesity.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39579770",
+          "journal": "Cell reports",
+          "authors": [
+            "De Siqueira Mirian Krystel",
+            "Li Gaoyan",
+            "Zhao Yutian"
+          ],
+          "pub_date": "2024-Dec-24",
+          "doi": "10.1016/j.celrep.2024.114945",
+          "mesh_terms": [
+            "Animals",
+            "PPAR gamma",
+            "Obesity",
+            "Mice",
+            "Adipogenesis",
+            "Rosiglitazone",
+            "Male",
+            "Adipose Tissue",
+            "Protein Biosynthesis",
+            "Stem Cells",
+            "Mice, Inbred C57BL",
+            "Adipocytes"
+          ]
+        }
+      },
+      {
+        "id": "PMID:41819784",
+        "text": "PPARγ contributes to cardioprotection against heat stroke through ABCC5-dependent lipid metabolism.\n\nCardiac function has been found to be particularly vulnerable to climate change and temperature variability. However, the specific molecular mechanisms underlying the pathogenesis of heat stroke (HS)-induced myocardial dysfunction remain largely elusive. In this study, we constructed a cardiomyocyte-specific peroxisome proliferator-activated receptor γ (PPARγ) knockout mouse model subjected to HS to investigate the key role of PPARγ. RNA sequencing analysis was performed to identify downstream targets of PPARγ. Rosiglitazone, a PPARγ agonist, was examined for its therapeutic potential against HS-induced myocardial injury. Our results showed that HS significantly downregulated the expression of PPARγ. Cardiomyocyte-specific knockout of PPARγ exacerbated myocardial injury in mice subjected to HS. RNA-seq analysis revealed that differentially expressed genes were mainly enriched in lipid metabolism-related pathways, particularly ABC transporters. Further experiments demonstrated that ABCC5 serves as a pivotal downstream factor mediating the cardioprotective effects of PPARγ overexpression against HS. HS also led to the accumulation and deposition of lipids in the myocardium and serum over an extended period, which was partly attributed to the downregulation of the PPARγ/ABCC5 pathway. Importantly, we demonstrated that treatment with either rosiglitazone (a PPARγ agonist) or atorvastatin (a lipid-lowering drug) holds promising therapeutic potential for ameliorating HS-induced myocardial dysfunction. These findings indicate that PPARγ protects against HS-induced myocardial pathological manifestations through ABCC5-dependent regulation of lipid metabolism.",
+        "title": "PPARγ contributes to cardioprotection against heat stroke through ABCC5-dependent lipid metabolism.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "41819784",
+          "journal": "Redox biology",
+          "authors": [
+            "Shen Mingzhi",
+            "Zhao Aizhen",
+            "Hao Guangzhi"
+          ],
+          "pub_date": "2026-May",
+          "doi": "10.1016/j.redox.2026.104113",
+          "mesh_terms": [
+            "Animals",
+            "PPAR gamma",
+            "Lipid Metabolism",
+            "Mice",
+            "Rosiglitazone",
+            "Myocytes, Cardiac",
+            "ATP-Binding Cassette, Sub-Family C Proteins",
+            "Mice, Knockout",
+            "PPAR-gamma Agonists",
+            "Disease Models, Animal",
+            "Myocardium",
+            "Male",
+            "Gene Expression Regulation"
+          ]
         }
       }
     ]

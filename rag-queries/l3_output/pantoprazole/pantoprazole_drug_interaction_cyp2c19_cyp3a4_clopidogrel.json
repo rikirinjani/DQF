@@ -4,54 +4,155 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:21392639",
-        "text": "Clopidogrel-drug interactions. Multidrug therapy increases the risk for drug-drug interactions. Clopidogrel, a prodrug, requires hepatic cytochrome P450 (CYP) metabolic activation to produce the active metabolite that inhibits the platelet P2Y₁₂ adenosine diphosphate (ADP) receptor, decreasing platelet activation and aggregation processes. Atorvastatin, omeprazole, and several other drugs have been shown in pharmacodynamic studies to competitively inhibit CYP activation of clopidogrel, reducing clopidogrel ",
-        "score": 0.3715342581272125,
-        "doi": "10.1016/j.jacc.2010.11.024",
-        "journal": "Journal of the American College of Cardiology",
-        "year": "2010",
-        "rerank_score": 6.327901840209961,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35787720",
+        "text": "An update on drug-drug interactions associated with proton pump inhibitors.\n\nProton pump inhibitors (PPIs) block the gastric H/K-ATPase, therefore inhibiting acid gastric secretion, leading to an increased pH (>4). They account for an extremely high number of prescriptions worldwide. Numerous drug-drug interactions have been described with PPIs, but all the described interactions do not have clinical significance.\nThis review will discuss the latest updates on drug-drug interactions with PPIs, focusing on the last 10-year publications in the following areas: anti-infective agents, anticancer drugs, antiplatelet agents and anticoagulants, and antidiabetics.\nAlthough pharmacokinetic interactions of PPIs have been described with many drugs, their clinical relevance remains controversial. However, given the extremely high number of people being treated with PPIs, clinicians should remain vigilant for interactions that may be clinically significant and require dose adjustment or therapeutic monitoring. Interestingly, not all PPIs have the same pharmacokinetic and pharmacodynamic profile, with some having a strong potential to inhibit CYP2C19, such as omeprazole, esomeprazole, and lansoprazole, while others, pantoprazole, rabeprazole, and dexlansoprazole, are weak CYP2C19 inhibitors. These may be preferred depending on co-prescribed treatments.In addition, new formulations have been developed to prevent some of the gastric pH-dependent drug interactions and should be evaluated in further large-scale prospective comparative studies.",
+        "title": "An update on drug-drug interactions associated with proton pump inhibitors.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "35787720",
+          "journal": "Expert opinion on drug metabolism & toxicology",
+          "authors": [
+            "Ben Ghezala Inès",
+            "Luu Maxime",
+            "Bardou Marc"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1080/17425255.2022.2098107",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Drug Interactions",
+            "Enzyme Inhibitors",
+            "Esomeprazole",
+            "Humans",
+            "Omeprazole",
+            "Prospective Studies",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:39445918",
-        "text": "Notable drug-drug interaction between omeprazole and voriconazole in CYP2C19 *1 and *2 (rs4244285, 681G>A) alleles  The drug-drug interaction (DDI) and CYP2C19 genetic variation can lead to a high blood concentration of voriconazole. CYP2C19 is a highly genetically polymorphic enzyme, and CYP2C19*2 is more frequent among Asians associated with reduced metabolism of drugs. Clinical study found that co-administration with omeprazole significantly increased voriconazole concentrations and there was an additive",
-        "score": 0.40727874636650085,
-        "doi": "10.1080/00498254.2024.2421513",
-        "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
-        "year": "2024",
-        "rerank_score": 6.084763526916504,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:38817377",
-        "text": "Computational drug-drug interaction prediction mediated by CYP450 isoforms of Ilaprazole coadministered with clopidogrel. Ilaprazole due to its pharmacokinetic variability does not affect the clopidogrel efficacy during concomitant use.",
-        "score": 0.4323800802230835,
-        "doi": "10.2144/fsoa-2023-0277",
-        "journal": "Future science OA",
-        "year": "2024",
-        "rerank_score": 5.310743808746338,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:40685887",
+        "text": "Efficacy and Safety of Clopidogrel With and Without a Proton Pump Inhibitor: A Systematic Review and Meta-Analysis.\n\nClassifications of drug interaction alerts regarding clopidogrel and a proton pump inhibitor (PPI) differ between knowledge resources. In this systematic review, Medline, Embase, and the Cochrane Library were searched for randomized controlled trials (RCTs) applying PICO criteria: P = patients on clopidogrel; I = intervention: PPI (subgroup: [es]omeprazole); C = comparison: no PPI (C1) or a PPI other than (es)omeprazole (C2); O = outcomes, main: a composite of cardiovascular events (efficacy); also: overt gastrointestinal bleeding (safety). Fourteen RCTs fulfilled the PICO criteria, five without high risk of bias and with at least one clinical event per study arm. Regarding efficacy with or without a PPI, the pooled risk ratio (RR) and risk difference (RD) were 1.08 (95% confidence interval (CI) 0.78; 1.50) and 0.2 percentage points (95% CI -0.9; 1.2), respectively (four RCTs; 4341 patients [96% also used aspirin, 98% receiving I used (es)omeprazole]; moderate certainty evidence). Regarding safety, the RR and RD were 0.13 (95% CI 0.03; 0.59) and -0.7 percentage points (95% CI -1.1; -0.3), respectively (one RCT; 3761 patients; moderate certainty evidence). The available evidence did not allow conclusions regarding omeprazole versus pantoprazole. In conclusion, concurrent use of a PPI probably does not largely affect clopidogrel efficacy, but probably reduces the risk of overt gastrointestinal bleeding.",
+        "title": "Efficacy and Safety of Clopidogrel With and Without a Proton Pump Inhibitor: A Systematic Review and Meta-Analysis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40685887",
+          "journal": "Basic & clinical pharmacology & toxicology",
+          "authors": [
+            "Axelsson Magnus A B",
+            "Parodi López Naldy",
+            "Wikström Jonsson Eva"
+          ],
+          "pub_date": "2025-Aug",
+          "doi": "10.1111/bcpt.70087",
+          "mesh_terms": [
+            "Clopidogrel",
+            "Proton Pump Inhibitors",
+            "Humans",
+            "Platelet Aggregation Inhibitors",
+            "Drug Interactions",
+            "Gastrointestinal Hemorrhage",
+            "Randomized Controlled Trials as Topic",
+            "Omeprazole",
+            "Drug Therapy, Combination",
+            "Treatment Outcome"
+          ]
+        }
+      },
+      {
+        "id": "PMID:11402494",
+        "text": "Pantoprazole.\n\nThe pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosage and administration of pantoprazole are reviewed. Pantoprazole is a gastric hydrogen-potassium adenosine triphosphatase (H+/K(+)-ATPase) inhibitor. It shares the same core structure as other currently available proton-pump inhibitors (PPIs). The FDA-labeled indication is the short-term treatment of erosive esophagitis. PPIs act by selectively inhibiting H+/K(+)-ATPase in the secretory canaliculus of the stimulated parietal cell. Understanding the pharmacodynamics of PPIs is more relevant than knowing their pharmacokinetics, since the duration of action depends on the rate of de novo proton-pump regeneration, not the duration of drug circulation in the body. Pantoprazole is well absorbed, undergoes little first-pass metabolism, and has an absolute bioavailability of approximately 77%. Pantoprazole has been evaluated in more than 100 clinical trials involving more than 11,000 patients. It is effective in treating erosive esophagitis and duodenal and gastric ulcers. It is also effective as adjunctive treatment with antimicrobials in patients infected with Helicobacter pylori. Pantoprazole has been shown to control acid production in Zollinger-Ellison syndrome. Pantoprazole is well tolerated. The most commonly reported adverse effects are headache, diarrhea, and abdominal pain. The recommended oral dosage for erosive esophagitis is 40 mg once a day for up to eight weeks. The recommended i.v. dose is 40 mg given over 15 minutes once a day in patients with gastroesophageal reflux disease who are unable to take oral medication. Pantoprazole appears to be as safe and effective as other PPIs in acid-related disorders.",
+        "title": "Pantoprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "11402494",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Poole P"
+          ],
+          "pub_date": "2001-Jun-01",
+          "doi": "10.1093/ajhp/58.11.999",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Enzyme Inhibitors",
+            "Esophagitis",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Omeprazole",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Sulfoxides"
+          ]
+        }
+      },
+      {
+        "id": "PMID:14687806",
+        "text": "Gastric acid control with esomeprazole, lansoprazole, omeprazole, pantoprazole, and rabeprazole: a five-way crossover study.\n\nProton pump inhibitors owe their clinical efficacy to their ability to suppress gastric acid production. The objective of this study was to evaluate and compare intragastric pH following standard doses of esomeprazole, lansoprazole, omeprazole, pantoprazole and rabeprazole.\nThis randomized, open-label, comparative five-way crossover study evaluated the 24-h intragastric pH profile of oral esomeprazole 40 mg, lansoprazole 30 mg, omeprazole 20 mg, pantoprazole 40 mg, and rabeprazole 20 mg once daily in 34 Helicobacter pylori-negative patients aged 18-60 yr with symptoms of gastroesophageal reflux disease. Patients were randomly assigned to one of five treatment sequences and study drug was taken on 5 consecutive mornings 30 minutes prior to a standardized breakfast. A washout period of at least 10 days separated each treatment phase.\nThirty-four patients provided evaluable data for all five comparators. The mean number of hours of evaluable pH data was > or =23.75 hours. On day 5, intragastric pH was maintained above 4.0 for a mean of 14.0 h with esomeprazole, 12.1 h with rabeprazole, 11.8 h with omeprazole, 11.5 h with lansoprazole, and 10.1 h with pantoprazole (p < or = 0.001 for differences between esomeprazole and all other comparators). Esomeprazole also provided a significantly higher percentage of patients with an intragastric pH greater than 4.0 for more than 12 h relative to the other proton pump inhibitors (p < 0.05). The frequency of adverse events was similar between treatment groups.\nEsomeprazole at the standard dose of 40 mg once daily provided more effective control of gastric acid at steady state than standard doses of lansoprazole, omeprazole, pantoprazole, and rabeprazole in patients with symptoms of gastroesophageal reflux disease.",
+        "title": "Gastric acid control with esomeprazole, lansoprazole, omeprazole, pantoprazole, and rabeprazole: a five-way crossover study.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "14687806",
+          "journal": "The American journal of gastroenterology",
+          "authors": [
+            "Miner Philip",
+            "Katz Philip O",
+            "Chen Yusong"
+          ],
+          "pub_date": "2003-Dec",
+          "doi": "10.1111/j.1572-0241.2003.08783.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adolescent",
+            "Adult",
+            "Anti-Ulcer Agents",
+            "Benzimidazoles",
+            "Chi-Square Distribution",
+            "Cross-Over Studies",
+            "Esomeprazole",
+            "Female",
+            "Gastric Acid",
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Lansoprazole",
+            "Least-Squares Analysis",
+            "Male",
+            "Middle Aged",
+            "Omeprazole",
+            "Pantoprazole",
+            "Rabeprazole",
+            "Sulfoxides",
+            "Treatment Outcome"
+          ]
         }
       }
     ]

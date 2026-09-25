@@ -4,54 +4,157 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:39674371",
-        "text": "Alcohol use as a risk factor for Clostridioides difficile. Clostridioides difficile (C. diff) is a pathogen of concern. Several risk factors are known, but patients without these risk factors continue to develop the disease. Alcohol use disorder (AUD) is known to disrupt the gut similar to antibiotics, which prompted this evaluation of the association between AUD and C. diff infection. A retrospective cohort study was conducted within 5 hospitals in a health system in Colorado. Adults 18 years of age or old",
-        "score": 0.4343980550765991,
-        "doi": "10.1016/j.ajic.2024.12.002",
-        "journal": "American journal of infection control",
-        "year": "2024",
-        "rerank_score": 1.6786727905273438,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38875111",
+        "text": "Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation.\n\nWhether proton-pump inhibitors are beneficial or harmful for stress ulcer prophylaxis in critically ill patients undergoing invasive ventilation is unclear.\nIn this international, randomized trial, we assigned critically ill adults who were undergoing invasive ventilation to receive intravenous pantoprazole (at a dose of 40 mg daily) or matching placebo. The primary efficacy outcome was clinically important upper gastrointestinal bleeding in the intensive care unit (ICU) at 90 days, and the primary safety outcome was death from any cause at 90 days. Multiplicity-adjusted secondary outcomes included ventilator-associated pneumonia, Clostridioides difficile infection, and patient-important bleeding.\nA total of 4821 patients underwent randomization in 68 ICUs. Clinically important upper gastrointestinal bleeding occurred in 25 of 2385 patients (1.0%) receiving pantoprazole and in 84 of 2377 patients (3.5%) receiving placebo (hazard ratio, 0.30; 95% confidence interval [CI], 0.19 to 0.47; P<0.001). At 90 days, death was reported in 696 of 2390 patients (29.1%) in the pantoprazole group and in 734 of 2379 patients (30.9%) in the placebo group (hazard ratio, 0.94; 95% CI, 0.85 to 1.04; P = 0.25). Patient-important bleeding was reduced with pantoprazole; all other secondary outcomes were similar in the two groups.\nAmong patients undergoing invasive ventilation, pantoprazole resulted in a significantly lower risk of clinically important upper gastrointestinal bleeding than placebo, with no significant effect on mortality. (Funded by the Canadian Institutes of Health Research and others; REVISE ClinicalTrials.gov number, NCT03374800.).",
+        "title": "Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38875111",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Cook Deborah",
+            "Deane Adam",
+            "Lauzier François"
+          ],
+          "pub_date": "2024-Jul-04",
+          "doi": "10.1056/NEJMoa2404245",
+          "mesh_terms": [
+            "Adult",
+            "Aged",
+            "Female",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Critical Illness",
+            "Double-Blind Method",
+            "Gastrointestinal Hemorrhage",
+            "Intensive Care Units",
+            "Pantoprazole",
+            "Peptic Ulcer",
+            "Pneumonia, Ventilator-Associated",
+            "Proton Pump Inhibitors",
+            "Respiration, Artificial",
+            "Stress, Physiological"
+          ]
         }
       },
       {
-        "id": "PMID:40168072",
-        "text": "Fidaxomicin for Clostridioides difficile infection in patients with inflammatory bowel disease: a multicenter retrospective cohort study. Inflammatory bowel disease (IBD) patients with Clostridioides difficile infection (CDI) are at increased risk of adverse outcomes. Data on fidaxomicin use in IBD remain scarce. We assessed the effectiveness and safety of fidaxomicin for CDI and its impact on IBD outcomes in a large international cohort. Adult patients with ulcerative colitis (UC) or Crohn's disease (CD) t",
-        "score": 0.4351831078529358,
-        "doi": "10.1093/ecco-jcc/jjaf056",
-        "journal": "Journal of Crohn's & colitis",
-        "year": "2025",
-        "rerank_score": 1.5878510475158691,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:38389608",
+        "text": "Long-Term Use of Proton-Pump Inhibitors: Unravelling the Safety Puzzle.\n\nGlobally, over 25% of the population suffers from acid-related disorders such as dyspepsia or gastroesophageal reflux disease (GERD), and around 7.6% of Indians report having GERD symptoms on a frequent enough basis to warrant a diagnosis. Over the past three decades, proton-pump inhibitors (PPIs) have been the mainstay of medical therapy for acid-peptic diseases like GERD, etc. Additionally, they are frequently prescribed for prophylactic purposes and in conjunction with non-steroidal anti-inflammatory drugs. PPIs are generally prescribed for four to eight weeks. However, it may be prescribed for patients with comorbidities and multiple medications for a longer period of time. While this remains true in terms of effectiveness, concerns have been raised about the safety of long-term PPI use and the serious adverse effects that may result. Some of the observational and population-based cohort studies have shown an association between long-term use of PPIs and an increased risk of pneumonia, major cardiovascular events, dementia, vitamin B12 deficiency, bone fractures, gastric cancer, and kidney injury, among others. This review analyzes the clinical data supporting the long-term use of PPIs and takes a deep dive into whether these several emerging long-term concerns apply to the currently available PPIs in India. We have summarized a vast array of studies, including randomized trials, cohort studies, and meta-analyses, that report low or high incidences of major health risks linked with PPIs and have assessed their appropriateness over a given period.",
+        "title": "Long-Term Use of Proton-Pump Inhibitors: Unravelling the Safety Puzzle.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38389608",
+          "journal": "Cureus",
+          "authors": [
+            "Bhatnagar Manish S",
+            "Choudhari Sachin",
+            "Pawar Dattatray"
+          ],
+          "pub_date": "2024-Jan",
+          "doi": "10.7759/cureus.52773",
+          "mesh_terms": []
         }
       },
       {
-        "id": "PMID:30220616",
-        "text": "High-risk medication use for Clostridium difficile infection among hospitalized patients with cancer. Patients with cancer are vulnerable to Clostridium difficile infection (CDI); hospitals with larger oncology populations may have worse CDI performance. Among 71 academic hospitals studied, there were significant differences in oncology patient-days per 1,000 admissions across CDI standardized infection ratio categories of better, no different, and worse; worse hospitals had the greatest number of patient-d",
-        "score": 0.4100668430328369,
-        "doi": "10.1016/j.ajic.2018.07.016",
-        "journal": "American journal of infection control",
-        "year": "2018",
-        "rerank_score": 0.9290187954902649,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:30354950",
+        "text": "Pantoprazole in Patients at Risk for Gastrointestinal Bleeding in the ICU.\n\nProphylaxis for gastrointestinal stress ulceration is frequently given to patients in the intensive care unit (ICU), but its risks and benefits are unclear.\nIn this European, multicenter, parallel-group, blinded trial, we randomly assigned adults who had been admitted to the ICU for an acute condition (i.e., an unplanned admission) and who were at risk for gastrointestinal bleeding to receive 40 mg of intravenous pantoprazole (a proton-pump inhibitor) or placebo daily during the ICU stay. The primary outcome was death by 90 days after randomization.\nA total of 3298 patients were enrolled; 1645 were randomly assigned to the pantoprazole group and 1653 to the placebo group. Data on the primary outcome were available for 3282 patients (99.5%). At 90 days, 510 patients (31.1%) in the pantoprazole group and 499 (30.4%) in the placebo group had died (relative risk, 1.02; 95% confidence interval [CI], 0.91 to 1.13; P=0.76). During the ICU stay, at least one clinically important event (a composite of clinically important gastrointestinal bleeding, pneumonia, Clostridium difficile infection, or myocardial ischemia) had occurred in 21.9% of patients assigned to pantoprazole and 22.6% of those assigned to placebo (relative risk, 0.96; 95% CI, 0.83 to 1.11). In the pantoprazole group, 2.5% of patients had clinically important gastrointestinal bleeding, as compared with 4.2% in the placebo group. The number of patients with infections or serious adverse reactions and the percentage of days alive without life support within 90 days were similar in the two groups.\nAmong adult patients in the ICU who were at risk for gastrointestinal bleeding, mortality at 90 days and the number of clinically important events were similar in those assigned to pantoprazole and those assigned to placebo. (Funded by Innovation Fund Denmark and others; SUP-ICU ClinicalTrials.gov number, NCT02467621 .).",
+        "title": "Pantoprazole in Patients at Risk for Gastrointestinal Bleeding in the ICU.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30354950",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Krag Mette",
+            "Marker Søren",
+            "Perner Anders"
+          ],
+          "pub_date": "2018-Dec-06",
+          "doi": "10.1056/NEJMoa1714919",
+          "mesh_terms": [
+            "Aged",
+            "Critical Illness",
+            "Female",
+            "Gastrointestinal Hemorrhage",
+            "Humans",
+            "Injections, Intravenous",
+            "Intensive Care Units",
+            "Male",
+            "Middle Aged",
+            "Pantoprazole",
+            "Peptic Ulcer",
+            "Proton Pump Inhibitors",
+            "Risk Factors",
+            "Single-Blind Method",
+            "Stress, Physiological",
+            "Survival Analysis"
+          ]
+        }
+      },
+      {
+        "id": "PMID:37060552",
+        "text": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.\n\nProton pump inhibitors (PPI) may impact the absorption of vitamin B12. We performed a systematic review to ascertain if PPI use increases risk of vitamin B12 deficiency.\nElectronic databases (PubMed, Embase, Scopus) were searched on first of September 2022. We selected studies that compared the frequency of vitamin B12 deficiency in PPI users and non-users. Pooled Odds Ratio (OR) was calculated for the occurrence of vitamin B12 deficiency in PPI users compared to non-users. The risk of bias was assessed using the Newcastle Ottawa scale.\nTwenty-five studies were included. The pooled OR of vitamin B12 deficiency among PPI users (2852 participants) was higher than non-users (28070 participants) (OR 1.42, 95% CI: 1.16-1.73; I2 = 54%). Overall risk of PPI use among vitamin B12 deficient individuals was higher than those without deficiency (OR 1.49, 1.20-1.85; I2 = 68%). Most studies found no difference between serum vitamin B12 levels among PPI users compared to non-users.\nAlthough the pooled OR of vitamin B12 deficiency was slightly increased in PPI users, but there was significant heterogeneity, and the pooled OR was too low to imply an association clearly. Better-designed prospective studies in long-term users may clarify the issue.\nThis study was not registered on PROSPERO.",
+        "title": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37060552",
+          "journal": "Expert review of gastroenterology & hepatology",
+          "authors": [
+            "Choudhury Arup",
+            "Jena Anuraag",
+            "Jearth Vaneet"
+          ],
+          "pub_date": "2023-May",
+          "doi": "10.1080/17474124.2023.2204229",
+          "mesh_terms": [
+            "Humans",
+            "Proton Pump Inhibitors",
+            "Prospective Studies",
+            "Vitamin B 12 Deficiency",
+            "Vitamin B 12"
+          ]
+        }
+      },
+      {
+        "id": "PMID:18063537",
+        "text": "Clostridium difficile.\n\nGeorge, a 55-year-old retired businessman with a diagnosis of myelofibrosis, underwent an allogeneic stem cell transplantation from his human leukocyte antigen-matched brother in June 2006. He was admitted to the hospital for a possible flare of graft-versus-host disease (GVHD) of the gut. His medications included tacrolimus, budesonide, and bechlamethasone for immunosuppression and pantoprazole. A stool sample was positive for Clostridium difficile toxin A on October 31, 2006, and he was started on oral metronidazole.",
+        "title": "Clostridium difficile.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "18063537",
+          "journal": "Clinical journal of oncology nursing",
+          "authors": [
+            "Hooker Mallori"
+          ],
+          "pub_date": "2007-Dec",
+          "doi": "10.1188/07.CJON.801-804",
+          "mesh_terms": [
+            "Anti-Infective Agents",
+            "Anti-Inflammatory Agents",
+            "Beclomethasone",
+            "Biopsy",
+            "Budesonide",
+            "Clostridioides difficile",
+            "Colonoscopy",
+            "Enterocolitis, Pseudomembranous",
+            "Feces",
+            "Hematopoietic Stem Cell Transplantation",
+            "Humans",
+            "Immunosuppressive Agents",
+            "Infection Control",
+            "Male",
+            "Metronidazole",
+            "Middle Aged",
+            "Oncology Nursing",
+            "Primary Myelofibrosis",
+            "Risk Factors",
+            "Tacrolimus",
+            "Vancomycin"
+          ]
         }
       }
     ]

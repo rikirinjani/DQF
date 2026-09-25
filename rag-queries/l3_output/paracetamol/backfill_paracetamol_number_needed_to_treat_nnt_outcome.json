@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40156748",
-        "text": "The Composite Number Needed to Treat for Semaglutide in Populations with Overweight or Obesity and Established Cardiovascular Disease Without Diabetes. Number needed to treat (NNT), an outcome measure derived from the estimated risk results of clinical trials, is widely used to demonstrate value to stakeholders by identifying how many patients require treatment to avoid one event of interest. However, NNTs calculated for primary trial endpoints may underestimate a treatment's value by not considering other ",
-        "score": 0.435455322265625,
-        "doi": "10.1007/s12325-025-03176-w",
-        "journal": "Advances in therapy",
-        "year": "2025",
-        "rerank_score": 4.370622158050537,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.38987937569618225,
+        "score": 0.38987937569618225,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38876401",
-        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and th",
-        "score": 0.48005592823028564,
-        "doi": "10.1016/j.jpainsymman.2024.06.002",
-        "journal": "Journal of pain and symptom management",
-        "year": "2024",
-        "rerank_score": 4.117955207824707,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15833778",
+        "text": "Predicting postoperative analgesia outcomes: NNT league tables or procedure-specific evidence? Number needed to treat (NNT) values have been recommended and used to assess efficacy of analgesics for acute pain management. However, the data analysed come from a variety of procedures, which may potentially hinder the interpretation of the NNT value for specific procedures. We reanalysed available NNT data with acetaminophen in relation to the magnitude of surgical injury. Acetaminophen was less effective for pain relief after orthopaedic procedures than after dental procedures. The relative risk ratio for more than 50% pain relief, compared with placebo, was only 1.87 compared with 3.77 (P<0.05). Although NNT can give a valuable overview of efficacy, this concept is not necessarily applicable to all types of surgery. We suggest that estimates of NNT should be related to specific surgical procedures.",
+        "doi": "10.1093/bja/aei144",
+        "journal": "British journal of anaesthesia",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.4072222411632538,
+        "score": 0.4072222411632538,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38636712",
-        "text": "Number needed to treat (NNT) for ketamine and esketamine in adults with treatment-resistant depression: A systematic review and meta-analysis. Ketamine has been established as efficacious in adults living with Treatment-resistant Depression (TRD). Toward providing a quantifiable estimate of the clinical meaningfulness of the therapeutic benefit of ketamine, herein, we conduct a systematic review that aims to report the Number Needed to Treat (NNT) and the Number Needed to Harm (NNH). This systematic review ",
-        "score": 0.44915997982025146,
-        "doi": "10.1016/j.jad.2024.04.039",
-        "journal": "Journal of affective disorders",
-        "year": "2024",
-        "rerank_score": 3.5043838024139404,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:23964853",
+        "text": "Predicting the requirement for N-acetylcysteine in paracetamol poisoning from reported dose. There is contention over whether reported dose correlates with toxicity in paracetamol poisoning and risk assessment is currently based on serum paracetamol concentration compared to a nomogram, irrespective of reported dose. Objective. To determine if reported dose predicts the need for N-acetylcysteine (NAC). Data were taken from paracetamol overdoses presenting to a tertiary toxicology service. Age, sex, reported dose, ingestion time, timed paracetamol concentrations between 4 and 16 h, hepatotoxicity (peak alanine transaminase > 1000 U/L) and treatment (single dose-activated charcoal [SDAC] and NAC) were analysed. Data were analysed within a repeated measures logistic regression framework using NONMEM (ver 7.2). The primary outcome was administration of NAC, which was determined based on a serum paracetamol concentration greater than the nomogram line. There were 1571 admissions in 1303 patients, with a median age of 27 years (12-96 years) and 1140 (73%) were females. The median dose was 10 g (1-100 g). The paracetamol concentration was above the nomogram line in 337 of 1571 (22%) patients. Patients presenting later (first paracetamol concentration between 7 and 16 h post-overdose) compared to those presenting earlier (4-7 h post-overdose) were more likely to have hepatotoxicity (5.5% vs. 0.4%; p < 0.0001), have a toxic paracetamol concentration (34% vs. 18%; p < 0.0001) and receive NAC (48% vs. 23%; p < 0.0001). SDAC reduced the probability of the paracetamol concentration being above the nomogram. Based on SDAC not being administered there was a 5% probability of requiring NAC at a dose of 6-9 g, a 10% chance of requiring NAC at a dose of 13-16 g, a 50% chance of requiring NAC at a dose of 30-34 g and a 90% chance for needing NAC at 48-50 g. Reported dose was a good predictor of a toxic paracetamol concentration and SDAC reduced the probability of the concentration being above the nomogram. These predictions may assist in determining which patients could be started on NAC immediately.",
+        "doi": "10.3109/15563650.2013.830733",
+        "journal": "Clinical toxicology (Philadelphia, Pa.)",
+        "year": "2013",
+        "corpus": "main",
+        "distance": 0.42486998438835144,
+        "score": 0.42486998438835144,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

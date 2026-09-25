@@ -4,54 +4,143 @@
     "dimension": "tissue_kinetics",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:37097441",
-        "text": "Effects of CYP2C9 and CYP2C19 genetic polymorphisms on the pharmacokinetics and pharmacodynamics of gliclazide in healthy subjects. Gliclazide metabolism is mediated by genetically polymorphic CYP2C9 and CYP2C19 enzymes. We investigated the effects of CYP2C9 and CYP2C19 genetic polymorphisms on the pharmacokinetics and pharmacodynamics of gliclazide. Twenty-seven Korean healthy volunteers were administered a single oral dose of gliclazide 80 mg. The plasma concentration of gliclazide was quantified for the ",
-        "score": 0.35935723781585693,
-        "doi": "10.1007/s12272-023-01448-z",
-        "journal": "Archives of pharmacal research",
-        "year": "2022",
-        "rerank_score": 3.8121163845062256,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35787720",
+        "text": "An update on drug-drug interactions associated with proton pump inhibitors.\n\nProton pump inhibitors (PPIs) block the gastric H/K-ATPase, therefore inhibiting acid gastric secretion, leading to an increased pH (>4). They account for an extremely high number of prescriptions worldwide. Numerous drug-drug interactions have been described with PPIs, but all the described interactions do not have clinical significance.\nThis review will discuss the latest updates on drug-drug interactions with PPIs, focusing on the last 10-year publications in the following areas: anti-infective agents, anticancer drugs, antiplatelet agents and anticoagulants, and antidiabetics.\nAlthough pharmacokinetic interactions of PPIs have been described with many drugs, their clinical relevance remains controversial. However, given the extremely high number of people being treated with PPIs, clinicians should remain vigilant for interactions that may be clinically significant and require dose adjustment or therapeutic monitoring. Interestingly, not all PPIs have the same pharmacokinetic and pharmacodynamic profile, with some having a strong potential to inhibit CYP2C19, such as omeprazole, esomeprazole, and lansoprazole, while others, pantoprazole, rabeprazole, and dexlansoprazole, are weak CYP2C19 inhibitors. These may be preferred depending on co-prescribed treatments.In addition, new formulations have been developed to prevent some of the gastric pH-dependent drug interactions and should be evaluated in further large-scale prospective comparative studies.",
+        "title": "An update on drug-drug interactions associated with proton pump inhibitors.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "35787720",
+          "journal": "Expert opinion on drug metabolism & toxicology",
+          "authors": [
+            "Ben Ghezala Inès",
+            "Luu Maxime",
+            "Bardou Marc"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1080/17425255.2022.2098107",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Drug Interactions",
+            "Enzyme Inhibitors",
+            "Esomeprazole",
+            "Humans",
+            "Omeprazole",
+            "Prospective Studies",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:39663234",
-        "text": "The CYP2C19 enzyme is implicated in the metabolism of several clinically used drugs. Its phenotype is usually predicted by genotyping and indicates the expected enzymatic activity for each patient. However, with a few exceptions,",
-        "score": 0.3899909257888794,
-        "doi": "10.1515/dmpt-2024-0093",
-        "journal": "Drug metabolism and personalized therapy",
-        "year": "2024",
-        "rerank_score": 3.5122270584106445,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
         }
       },
       {
-        "id": "PMID:41549095",
-        "text": "Pharmacokinetic recall study of Estonian Biobank participants with novel genetic variants in CYP2C19 and CYP2D6. CYP2C19 and CYP2D6 are involved in the hepatic metabolism of approximately 35-40% of clinically used drugs. We conducted an in vivo phenotyping study encompassing 114 Estonian Biobank participants to evaluate the functional impact of rare or novel single-nucleotide and structural variants in the CYP2C19 and CYP2D6 genes using omeprazole and metoprolol as respective probe drugs. Plasma concentrati",
-        "score": 0.38509228825569153,
-        "doi": "10.1038/s41525-025-00549-6",
-        "journal": "NPJ genomic medicine",
-        "year": "2025",
-        "rerank_score": 3.4775421619415283,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:40421218",
+        "text": "Exploring the mechanisms and targets of proton pump inhibitors-induced osteoporosis through network toxicology, molecular docking, and molecular dynamics simulations.\n\nProton pump inhibitors (PPIs) are widely used for the treatment of acid-related disorders, but long-term use has been increasingly associated with an elevated risk of osteoporosis. However, the underlying molecular mechanisms and specific targets of PPIs-induced bone loss remain poorly understood. This study aimed to explore the molecular mechanisms and key genes of PPIs-induced osteoporosis using network toxicology, molecular docking, and molecular dynamics simulations.\nWe identified common targets of four widely used PPIs (omeprazole, lansoprazole, pantoprazole, and rabeprazole) and osteoporosis by screening large-scale biological databases. A protein-protein interaction network was constructed, and key hub genes were determined based on topological parameters such as degree, betweenness centrality, and closeness centrality. Enrichment analysis was performed to explore the biological processes, cellular components, molecular functions, and KEGG pathways associated with the overlapping targets. Molecular docking was conducted to evaluate the binding affinities between PPIs and their potential targets, and molecular dynamics simulations were employed to assess the stability of these interactions over time.\nWe identified 35 potential targets for omeprazole-induced osteoporosis, 39 for lansoprazole, 29 for pantoprazole, and 29 for rabeprazole. Topological analysis of the protein-protein interaction networks revealed the hub genes for each PPI: epidermal growth factor receptor (EGFR) for omeprazole, estrogen receptor 1 (ESR1) for lansoprazole, EGFR for pantoprazole, and Proto-oncogene tyrosine-protein kinase SRC for rabeprazole. Molecular docking demonstrated strong and stable binding affinities between PPIs and their respective targets, with binding energies all below -5 kcal/mol. Molecular dynamics simulations confirmed the structural stability of these complexes, characterized by low root mean square deviation and root mean square fluctuation values and consistent hydrogen bond formation.\nThis study identified EGFR, ESR1, and SRC as key regulatory genes in PPIs-induced osteoporosis, highlighting their roles in bone metabolism. The stable interactions between PPIs and these targets suggest their involvement in bone loss, providing a foundation for future experimental validation.",
+        "title": "Exploring the mechanisms and targets of proton pump inhibitors-induced osteoporosis through network toxicology, molecular docking, and molecular dynamics simulations.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40421218",
+          "journal": "Frontiers in pharmacology",
+          "authors": [
+            "Mu Yaqi",
+            "Zhou Yaqi",
+            "Zhang Xinan"
+          ],
+          "pub_date": "2025",
+          "doi": "10.3389/fphar.2025.1592048",
+          "mesh_terms": []
+        }
+      },
+      {
+        "id": "PMID:16359346",
+        "text": "CYP2C19 genotype and the PPIs--focus on rabeprazole.\n\nAmongst all the proton pump inhibitors (PPI), the hepatic metabolism of rabeprazole is least dependent on the CYP4502C19 system. Rabeprazole is therefore the PPI least affected by CYP4502C19 genetic polymorphism. This unique feature of rabeprazole complements rabeprazole's fast onset of action, and may lead to profound and consistent inhibition of gastric acid secretion in the treatment of acid-related disorders.",
+        "title": "CYP2C19 genotype and the PPIs--focus on rabeprazole.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16359346",
+          "journal": "Journal of gastroenterology and hepatology",
+          "authors": [
+            "Lim P W Y",
+            "Goh K L",
+            "Wong B C Y"
+          ],
+          "pub_date": "2005-Dec",
+          "doi": "10.1111/j.1440-1746.2005.04167.x",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adenosine Triphosphatases",
+            "Anti-Ulcer Agents",
+            "Aryl Hydrocarbon Hydroxylases",
+            "Benzimidazoles",
+            "Cytochrome P-450 CYP2C19",
+            "Gastroesophageal Reflux",
+            "Genotype",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Mixed Function Oxygenases",
+            "Omeprazole",
+            "Polymorphism, Genetic",
+            "Proton Pump Inhibitors",
+            "Proton-Translocating ATPases",
+            "Rabeprazole"
+          ]
+        }
+      },
+      {
+        "id": "PMID:25473155",
+        "text": "CYP2C19 polymorphism influences Helicobacter pylori eradication.\n\nThe known factors that have contributed to the decline of Helicobacter pylori (H. pylori) eradication rate include antibiotic resistance, poor compliance, high gastric acidity, high bacterial load, and cytochrome P450 2C19 (CYP2C19) polymorphism. Proton pump inhibitor (PPI) is important in the eradication regimen. The principal enzyme implicated in the metabolism of PPIs is CYP2C19. The effects of PPI depend on metabolic enzyme, cytochrome P450 enzymes, and CYP2C19 with genetic differences in the activity of this enzyme (the homozygous EM, heterozygous EM (HetEM), and poor metabolizer). The frequency of the CYP2C19 polymorphism is highly varied among different ethnic populations. The CYP2C19 genotype is a cardinal factor of H. pylori eradication in patients taking omeprazole- based or lansoprazole-based triple therapies. In contrast, the CYP2C19 polymorphism has no significant effect on the rabeprazole-based or esomeprazole-based triple therapies. The efficacy of levofloxacin-based rescue triple therapy might be also affected by the CYP2C19 polymorphism, but CYP2C19 genotypes did not show obvious impact on other levofloxacin-based rescue therapies. Choice of different PPIs and/or increasing doses of PPIs should be individualized based on the pharmacogenetics background of each patient and pharmacological profile of each drug. Other possible factors influencing gastric acid secretion (e.g., IL-1β- 511 polymorphism) would be also under consideration.",
+        "title": "CYP2C19 polymorphism influences Helicobacter pylori eradication.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "25473155",
+          "journal": "World journal of gastroenterology",
+          "authors": [
+            "Kuo Chao-Hung",
+            "Lu Chien-Yu",
+            "Shih Hsiang-Yao"
+          ],
+          "pub_date": "2014-Nov-21",
+          "doi": "10.3748/wjg.v20.i43.16029",
+          "mesh_terms": [
+            "Anti-Bacterial Agents",
+            "Cytochrome P-450 CYP2C19",
+            "Drug Therapy, Combination",
+            "Genotype",
+            "Helicobacter Infections",
+            "Helicobacter pylori",
+            "Humans",
+            "Pharmacogenetics",
+            "Phenotype",
+            "Polymorphism, Genetic",
+            "Proton Pump Inhibitors",
+            "Treatment Outcome"
+          ]
         }
       }
     ]

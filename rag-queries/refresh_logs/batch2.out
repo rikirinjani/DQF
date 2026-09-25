@@ -1,0 +1,13 @@
+[14:09:14] SKIP (already done): Antihypertensive
+[14:09:14] SKIP (already done): Diabetes
+[14:09:14] START (try 1/2): NSAID -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_NSAID.log
+[14:17:15] class NSAID not OK (try 1); retrying in 20s...
+[14:17:35] START (try 2/2): NSAID -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_NSAID.log
+[14:25:25] class NSAID not OK (try 2); giving up for now
+[14:25:45] START (try 1/2): Statin -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_Statin.log
+[14:30:56] class Statin not OK (try 1); retrying in 20s...
+[14:31:16] START (try 2/2): Statin -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_Statin.log
+[14:36:26] class Statin not OK (try 2); giving up for now
+[14:36:46] START (try 1/2): PPI -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_PPI.log
+[14:45:17] class PPI not OK (try 1); retrying in 20s...
+[14:45:37] START (try 2/2): PPI -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_PPI.log

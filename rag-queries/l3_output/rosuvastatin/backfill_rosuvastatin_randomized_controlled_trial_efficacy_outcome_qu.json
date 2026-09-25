@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39622823",
-        "text": "PET-CT outcomes from a randomised controlled trial of rosuvastatin as an adjunct to standard tuberculosis treatment. Adjunctive rosuvastatin for rifampicin-susceptible pulmonary tuberculosis (rs-PTB) shows no effect on microbiological or radiological outcomes in a phase IIb randomised, controlled trial (NCT04504851). We explore the impact of adjunctive rosuvastatin on 18F-fluorodeoxyglucose (FDG) positron emission tomography-computed tomography (PET-CT) imaging in a sub-study of 24 participants. Changes in ",
-        "score": 0.3606845736503601,
-        "doi": "10.1038/s41467-024-54419-3",
-        "journal": "Nature communications",
-        "year": "2024",
-        "rerank_score": 6.153653621673584,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12646335",
+        "text": "Introduction: rosuvastatin--an efficacy assessment based on pooled trial data.",
+        "doi": "10.1016/s0002-9149(03)00002-x",
+        "journal": "The American journal of cardiology",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3781435191631317,
+        "score": 0.3781435191631317,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:12486428",
-        "text": "Efficacy and safety of rosuvastatin compared with pravastatin and simvastatin in patients with hypercholesterolemia: a randomized, double-blind, 52-week trial. The primary objective of this trial was to compare the efficacy of rosuvastatin with that of pravastatin and simvastatin for lowering low-density lipoprotein cholesterol (LDL-C) levels.",
-        "score": 0.36995700001716614,
-        "doi": "10.1067/mhj.2002.129312",
-        "journal": "American heart journal",
-        "year": "2002",
-        "rerank_score": 5.060777187347412,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15246717",
+        "text": "Safety and efficacy of rosuvastatin.",
+        "doi": "10.1016/S0140-6736(04)16616-6",
+        "journal": "Lancet (London, England)",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.4081801772117615,
+        "score": 0.4081801772117615,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:32003938",
-        "text": "A randomized, double-blind clinical trial to evaluate the efficacy and safety of a fixed-dose combination of amlodipine/rosuvastatin in patients with dyslipidemia and hypertension. This multicenter, randomized, double-blind, parallel-group phase III clinical trial aimed to investigate the efficacy and safety of a rosuvastatin + amlodipine combination compared with that of rosuvastatin or amlodipine monotherapy in hypertensive patients with dyslipidemia. A total of 106 patients of 15 institutions in Korea we",
-        "score": 0.3691365420818329,
-        "doi": "10.1111/jch.13774",
-        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
-        "year": "2019",
-        "rerank_score": 4.527065277099609,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12860216",
+        "text": "Comparison of the efficacy and safety of rosuvastatin versus atorvastatin, simvastatin, and pravastatin across doses (STELLAR* Trial). The primary objective of this 6-week, parallel-group, open-label, randomized, multicenter trial was to compare rosuvastatin with atorvastatin, pravastatin, and simvastatin across dose ranges for reduction of low-density lipoprotein (LDL) cholesterol. Secondary objectives included comparing rosuvastatin with comparators for other lipid modifications and achievement of National Cholesterol Education Program Adult Treatment Panel III and Joint European Task Force LDL cholesterol goals. After a dietary lead-in period, 2,431 adults with hypercholesterolemia (LDL cholesterol > or =160 and <250 mg/dl; triglycerides <400 mg/dl) were randomized to treatment with rosuvastatin 10, 20, 40, or 80 mg; atorvastatin 10, 20, 40, or 80 mg; simvastatin 10, 20, 40, or 80 mg; or pravastatin 10, 20, or 40 mg. At 6 weeks, across-dose analyses showed that rosuvastatin 10 to 80 mg reduced LDL cholesterol by a mean of 8.2% more than atorvastatin 10 to 80 mg, 26% more than pravastatin 10 to 40 mg, and 12% to 18% more than simvastatin 10 to 80 mg (all p <0.001). Mean percent changes in high-density lipoprotein cholesterol in the rosuvastatin groups were +7.7% to +9.6% compared with +2.1% to +6.8% in all other groups. Across dose ranges, rosuvastatin reduced total cholesterol significantly more (p <0.001) than all comparators and triglycerides significantly more (p <0.001) than simvastatin and pravastatin. Adult Treatment Panel III LDL cholesterol goals were achieved by 82% to 89% of patients treated with rosuvastatin 10 to 40 mg compared with 69% to 85% of patients treated with atorvastatin 10 to 80 mg; the European LDL cholesterol goal of <3.0 mmol/L was achieved by 79% to 92% in rosuvastatin groups compared with 52% to 81% in atorvastatin groups. Drug tolerability was similar across treatments.",
+        "doi": "10.1016/s0002-9149(03)00530-7",
+        "journal": "The American journal of cardiology",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.42273175716400146,
+        "score": 0.42273175716400146,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

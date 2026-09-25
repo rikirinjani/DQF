@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:14749696",
-        "text": "Pharmacokinetics and pharmacodynamics of pravastatin in pediatric and adolescent cardiac transplant recipients on a regimen of triple immunosuppression. In adults, pravastatin reduces the development and progression of transplant vasculopathy, the main long-term risk after cardiac transplantation. The pharmacokinetics of pravastatin is not known in children taking calcineurin inhibitors. Our aim was to determine the single-dose pharmacokinetics and short-term safety of pravastatin in children undergoing reg",
-        "score": 0.35403895378112793,
-        "doi": "10.1016/j.clpt.2003.09.011",
-        "journal": "Clinical pharmacology and therapeutics",
-        "year": "2004",
-        "rerank_score": 0.9896668195724487,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:14551181",
+        "text": "Individual difference in the pharmacokinetics of a drug, pravastatin, in healthy subjects. The purpose of this investigation was to determine whether there were individual pharmacokinetic differences of a drug, pravastatin. Furthermore, the percentage of subjects who showed pharmacokinetic differences was determined. A single oral dose of pravastatin 10 mg was administered to 84 Japanese healthy male subjects. Serum concentrations of pravastatin were measured for 8 hours postdose. Area under the concentration-time curve (AUC) and peak concentration (Cmax) were determined as primary evaluation parameters. An outlier was defined as follows: Outlier 1 < Q1 - (Q3 - Q1) x 1.5 or Q3+(Q3-Q1) x 1.5 < Outlier 1, Outlier 2 < Q1 - (Q3 - Q1) x 3 or Q3+ (Q3-Q1) x 3 < Outlier 2. Subjects who were outliers were regarded as having an individual difference in pharmacokinetic behavior. In AUC and Cmax, 4 of 84 subjects (4.8%) were higher outliers. Of these 4 subjects, 2 were high outliers in both AUC and Cmax. No subjects were low outliers. It was concluded that a significant individual difference in the pharmacokinetics of pravastatin was observed in 4.8% of the subjects (4/84).",
+        "doi": "10.1177/0091270003257232",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3830599784851074,
+        "score": 0.3830599784851074,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40029062",
-        "text": "Identification of Genetic Variants Associated with Pravastatin and Pitavastatin Pharmacokinetics. A clinical trial was carried out to investigate the pharmacogenetics of single-dose pravastatin and pitavastatin pharmacokinetics in 173 and 164 healthy participants. Additionally, 96 participants were included from previous pharmacogenetic studies with pravastatin. In a genome-wide meta-analysis of pravastatin including all 269 participants, SLCO1B1 c.521T>C (rs4149056) was associated with increased AUC",
-        "score": 0.35776033997535706,
-        "doi": "10.1002/cpt.3623",
-        "journal": "Clinical pharmacology and therapeutics",
-        "year": "2024",
-        "rerank_score": 0.3036608397960663,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11850660",
+        "text": "Chronokinetics of Pravastatin Administered in the PM Compared with AM Dosing. Pravastatin, an HMG CoA reductase inhibitor used in the treatment of hypercholesterolemia, is recommended for bedtime (PM) dosing. Bedtime dosing with pravastatin is slightly more efficacious but not significantly different than morning (AM) dosing in lowering LDL-C and total cholesterol. The pharmacokinetics of pravastatin and its major metabolite SQ 31,906 were determined in 20 healthy men administered a single 20-mg dose either in the morning or at bedtime in an open, randomized, crossover study. Concentrations of pravastatin and SQ 31,906 were measured in serum and urine by gas chromatograph/mass spectrometry methodology. The area under the serum concentration time curve (AUC) of pravastatin was significantly less (40%) following PM dosing compared with AM dosing. Urinary excretion of pravastatin following PM dosing was also significantly decreased. Bioavailability of SQ 31,906 was somewhat higher in the PM group (20% greater following PM administration), and urinary excretion of SQ 31,906 was significantly increased by 60% following PM dosing. The lower AUC of pravastatin following PM dosing does not diminish its efficacy, possibly because PM dosing immediately precedes the diurnal peak period of hepatic cholesterol synthesis. Lower blood levels of pravastatin following PM dosing may contribute to its favorable safety profile.",
+        "doi": "10.1097/00045391-199504000-00008",
+        "journal": "American journal of therapeutics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.4040559232234955,
+        "score": 0.4040559232234955,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:40802044",
-        "text": "Double Peaking Phenomena in Pharmacokinetic Disposition Revisited. Multiple peaking in pharmacokinetics refers to the occurrence of two or more peaks of drug plasma concentrations following a single dose administration. It complicates interpretation of pharmacokinetics parameters and influences clinical decision-making regarding drug efficacy and bioequivalence. This review re-examines and extends an earlier seminal review on the physicochemical and formulation-related causes and physiological mechanisms of",
-        "score": 0.37824273109436035,
-        "doi": "10.1007/s40262-025-01559-4",
-        "journal": "Clinical pharmacokinetics",
-        "year": "2025",
-        "rerank_score": -1.296453833580017,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:30591716",
+        "text": "The implications of target saturation for the use of drug-target residence time.",
+        "doi": "10.1038/nrd.2018.234",
+        "journal": "Nature reviews. Drug discovery",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.41821959614753723,
+        "score": 0.41821959614753723,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

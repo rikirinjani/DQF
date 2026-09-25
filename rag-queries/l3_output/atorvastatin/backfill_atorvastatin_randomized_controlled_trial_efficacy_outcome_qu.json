@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:18343257",
-        "text": "Cardiovascular outcomes among patients newly initiating atorvastatin or simvastatin therapy: a large database analysis of managed care plans in the United States. While the results of randomized clinical trials have indicated that statins improve outcomes in patients without cardiovascular disease (CVD), it remains uncertain whether there are differences in efficacy between statins, particularly in clinical practice, where the public health implications could be substantial.",
-        "score": 0.3538244366645813,
-        "doi": "10.1016/j.clinthera.2008.01.003",
-        "journal": "Clinical therapeutics",
-        "year": "2007",
-        "rerank_score": 4.824768543243408,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:27471896",
+        "text": "Editorial: Effect of atorvastatin.",
+        "doi": "10.3171/2016.3.JNS153042",
+        "journal": "Journal of neurosurgery",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.4069357216358185,
+        "score": 0.4069357216358185,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:35274326",
-        "text": "Survival of the hospitalized patients with COVID-19 receiving atorvastatin: A randomized clinical trial. As statins decrease the progression of sepsis and its related mortality, this study aimed to evaluate the effect of atorvastatin on survival and symptom improvement in hospitalized patients with COVID-19. This randomized controlled trial was performed on 156 hospitalized patients with COVID-19 in Bojnourd city in 2021. Patients were randomly divided into comparison (standard therapy: hydroxychloroquine +",
-        "score": 0.35805338621139526,
-        "doi": "10.1002/jmv.27710",
-        "journal": "Journal of medical virology",
-        "year": "2022",
-        "rerank_score": 4.670875072479248,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21873709",
+        "text": "Long-term results from statin trials: answers but more unresolved questions.",
+        "doi": "10.1093/eurheartj/ehr303",
+        "journal": "European heart journal",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.419123113155365,
+        "score": 0.419123113155365,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39865826",
-        "text": "The Efficacy of Oral Atorvastatin for Skin Toxicity in Breast Cancer Patients Undergoing Radiotherapy: A Randomized, Double-blind, Placebo-controlled Trial. Most Breast Cancer (BC) patients undergoing Radiotherapy (RT) are potentially susceptible to skin toxicity and prone to clinical symptom complaints. This study aimed to investigate the effect of oral Atorvastatin (ATV) administration on skin toxicity in BC patients undergoing RT. One hundred BC patients were randomly assigned to oral ATV (40 mg) or plac",
-        "score": 0.35504835844039917,
-        "doi": "10.2174/0113816128343188241225193315",
-        "journal": "Current pharmaceutical design",
-        "year": "2024",
-        "rerank_score": 4.438971996307373,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:9708683",
+        "text": "Comparative dose efficacy study of atorvastatin versus simvastatin, pravastatin, lovastatin, and fluvastatin in patients with hypercholesterolemia (the CURVES study)",
+        "doi": "",
+        "journal": "The American journal of cardiology",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.42035186290740967,
+        "score": 0.42035186290740967,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

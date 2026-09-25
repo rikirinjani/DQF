@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:40774408",
-        "text": "Relationship between simvastatin pharmacokinetics and muscle toxicity in male mice. Statins are highly effective in reducing plasma LDL-cholesterol but may be myotoxic. Since the relationship between statin exposure and myotoxicity is not clearly established, the current study aimed to compare blood and skeletal muscle concentrations with myotoxicity in male mice treated orally with 5, 10 and 25 mg/kg/day simvastatin for 3 weeks. After the first dose, simvastatin blood pharmacokinetics was dose-dependent, w",
-        "score": 0.35784637928009033,
-        "doi": "10.1016/j.fct.2025.115688",
-        "journal": "Food and chemical toxicology : an international journal published for the Britis",
-        "year": "2025",
-        "rerank_score": 1.724835991859436,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:21733123",
+        "text": "The influence of dosing time, variable compliance and circadian low-density lipoprotein production on the effect of simvastatin: simulations from a pharmacokinetic-pharmacodynamic model. The aim of this study was to explore the influence of simvastatin dosing time, variable compliance and circadian cholesterol production on the reduction of low-density lipoprotein (LDL). A published pharmacokinetic-pharmacodynamic (PKPD) model for simvastatin was identified and evaluated. A model for circadian LDL production was incorporated into the PKPD model. Reduction in LDL from baseline was simulated stochastically from the full model at dose levels of 10, 20, 40 and 80 mg daily for 30 days. Simulated dosing times for each data set were morning (8.00 a.m.), evening (22.00 p.m.), evening with reduced compliance and evening for a hypothetical bioequivalent generic. Differences in LDL reduction from baseline between evening (33-43%) and morning dosing (31-43%) were negligible across a range of doses. Any differences were negated when variable compliance was considered. In addition, differences in simvastatin effect between morning and evening dosing were found to be within the range of LDL concentrations that would be permissible for a bioequivalent generic (at the lower limit) and hence are not likely to be important clinically. The results of this study suggest that taking simvastatin in the evening is not superior to morning dosing.",
+        "doi": "10.1111/j.1742-7843.2011.00757.x",
+        "journal": "Basic & clinical pharmacology & toxicology",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.408379465341568,
+        "score": 0.408379465341568,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:40297930",
-        "text": "Impacts of Pharmacokinetic Gene Polymorphisms on Steady-State Plasma Concentrations of Simvastatin in Thai Population. Simvastatin, an HMG-CoA reductase inhibitor, is widely used for hypercholesterolemia but may cause myotoxicity linked to its plasma concentration. Pharmacokinetic gene polymorphisms influence inter-individual variability in simvastatin exposure. This study investigated the effects of pharmacokinetic gene polymorphisms on steady-state simvastatin plasma levels in Thai patients. Eighty-nine T",
-        "score": 0.39084577560424805,
-        "doi": "10.1111/cts.70225",
-        "journal": "Clinical and translational science",
-        "year": "2025",
-        "rerank_score": 0.9152126312255859,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:10375806",
+        "text": "Delay of metabolism rate of ciclosporin by simvastatin in 7 Chinese healthy men. To study the effects of simvastatin (Sim) on pharmacokinetics of ciclosporin (Cic). Seven healthy young volunteers took Cic 100 mg alone or in combination with Sim 10 mg in a randomized crossover study. The Cic concentrations in blood were determined by specific fluorescence polarization immunoassay. Data were analyzed with 3P87 program. The blood concentration-time curve was fitted to open 2-compartment model, and the pharmacokinetic parameters of Cic alone and Cic + Sim were: Cmax (646 +/- 94) and (698 +/- 340) micrograms.L-1; Tmax (1.12 +/- 0.13) and (1.13 +/- 0.21) h; AUC (2.3 +/- 0.4) and (2.6 +/- 1.2) mg.h.L-1; T1/2 beta (12 +/- 6) and (23 +/- 8) h (P < 0.05). Sim delays the metabolism rate of Cic when they are given simutaneously.",
+        "doi": "",
+        "journal": "Zhongguo yao li xue bao = Acta pharmacologica Sinica",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.4172244966030121,
+        "score": 0.4172244966030121,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:41123847",
-        "text": "Assessment of Pharmacokinetic Drug Interaction of Asciminib with Atorvastatin in Healthy Participants. Asciminib is the first BCR::ABL1 inhibitor that Specifically Targets the ABL Myristoyl Pocket (STAMP) in patients with chronic myeloid leukemia. This phase 1, two-treatment-period, drug-drug interaction study evaluated the effect of steady-state asciminib on the pharmacokinetics of atorvastatin. A single dose of atorvastatin (20 mg) was administered on day 1 (period 1: days 1-4). On days 5-11 (period 2: da",
-        "score": 0.3823867440223694,
-        "doi": "10.1002/cpdd.1611",
-        "journal": "Clinical pharmacology in drug development",
-        "year": "2025",
-        "rerank_score": -0.36760595440864563,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7786066",
+        "text": "Fluvastatin: pharmakokinetic properties.",
+        "doi": "",
+        "journal": "ANNA journal",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.42477622628211975,
+        "score": 0.42477622628211975,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

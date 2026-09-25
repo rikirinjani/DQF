@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:12743630",
-        "text": "Pitavastatin (NK-104), a new HMG-CoA reductase inhibitor. Pitavastatin calcium (NK-104) is a new synthetic hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor (statin). Animal studies suggest that, in addition to reducing low-density lipoprotein (LDL) cholesterol, the drug may produce marked reductions in triglyceride-rich particles (very-low-density [VLDL] and intermediate-density lipoproteins [IDL]). It is not metabolized by the common cytochrome P-450 3A4 enzyme, possibly reducing the risk for",
-        "score": 0.3383476138114929,
-        "doi": "10.1358/dot.2001.37.9.844218",
-        "journal": "Drugs of today (Barcelona, Spain : 1998)",
-        "year": "2003",
-        "rerank_score": 5.805493354797363,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
-      },
-      {
-        "id": "PMID:29334477",
-        "text": "Improvement of endothelial function by pitavastatin: a meta-analysis. Dyslipidemia is commonly associated with endothelial dysfunction and increased cardiovascular risk. Pitavastatin has been shown to reduce total and low-density lipoprotein cholesterol, to increase high-density lipoprotein (HDL)-cholesterol and improve HDL function. Furthermore, several trials explored its effects on flow-mediated dilation (FMD), as an index of endothelial function. The authors evaluated the effect of pitavastatin therapy ",
-        "score": 0.3384513854980469,
-        "doi": "10.1080/14656566.2018.1428560",
+        "id": "PMID:30482061",
+        "text": "An evaluation of pitavastatin for the treatment of hypercholesterolemia. Statins are the first line of therapy to reduce low-density lipoprotein cholesterol (LDL-C) in order to decrease cardiovascular events. Pitavastatin is the latest statin to be introduced to the market. Areas covered: In this article, the authors review the efficacy, safety, and tolerability of pitavastatin. The authors also review a recent cardiovascular outcome study. Expert opinion: Pitavastatin produces dose-dependent reductions in LDL-C at lower doses than other statins. The maximum approved dose of 4 mg reduces LDL-C by about 40-49% in different patient groups and is equivalent to atorvastatin 20 mg in this effect. Pitavastatin undergoes minimal metabolism so drug-drug interactions are less likely than with many other statins, but it can interact with some drugs that inhibit drug transporters. Compared with other statins, it has been associated with greater increases in high-density lipoprotein cholesterol and it was found to be less likely to cause new onset diabetes. In a recent study in Japanese patients with stable coronary artery disease, pitavastatin 4 mg was more effective than pitavastatin 1 mg in reducing cardiovascular events. Therefore, the highest dose may be preferred in high-risk patients.",
+        "doi": "10.1080/14656566.2018.1544243",
         "journal": "Expert opinion on pharmacotherapy",
         "year": "2018",
-        "rerank_score": 5.658211708068848,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "main",
+        "distance": 0.3604770004749298,
+        "score": 0.3604770004749298,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:15893181",
-        "text": "Relative efficacy of atorvastatin 80 mg and pravastatin 40 mg in achieving the dual goals of low-density lipoprotein cholesterol <70 mg/dl and C-reactive protein <2 mg/l: an analysis of the PROVE-IT TIMI-22 trial. The aim of this research was to compare relative efficacy of different statin regimens in achieving the dual goals of low-density lipoprotein cholesterol (LDL-C) and C-reactive protein (CRP) reduction.",
-        "score": 0.3382788300514221,
-        "doi": "10.1016/j.jacc.2005.02.080",
-        "journal": "Journal of the American College of Cardiology",
-        "year": "2005",
-        "rerank_score": 5.486532688140869,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:16733299",
+        "text": "Efficacy of a low dose of pitavastatin compared with atorvastatin in primary hyperlipidemia: results of a 12-week, open label study. Pitavastatin has a potent cholesterol-lowering action. The clinical efficacy and safety of a low dose, 1 mg, of pitavastatin were examined. The effect of 12 weeks' treatment with pitavastatin 1 mg in an open label, non-randomized trial involving 137 patients with hypercholesterolemia as compared with treatment with atorvastatin 10 mg. Total cholesterol, low-density lipoprotein (LDL) cholesterol, high density lipoprotein (HDL) cholesterol and triglyceride (TG) levels at baseline did not differ between the two groups. At follow-up, there were no significant differences in total cholesterol, LDL cholesterol and HDL cholesterol levels between the groups. The TG levels at follow-up were higher in the pitavastatin group than atorvastatin group (p < 0.01). In patients with hyperlipidemia type IIa, TG levels at follow-up were lower in the atorvastatin subgroup (p < 0.01). However, there was no significant difference in TG levels at follow-up between the two subgroups in patients with hyperlipidemia type IIb. Pitavastatin 1 mg daily was safe and efficacious in reducing LDL cholesterol levels as compared with atorvastatin 10 mg daily. Further randomized comparative studies are needed to clarify the effect of a low dose of pitavastatin.",
+        "doi": "10.5551/jat.13.108",
+        "journal": "Journal of atherosclerosis and thrombosis",
+        "year": "2006",
+        "corpus": "main",
+        "distance": 0.36523112654685974,
+        "score": 0.36523112654685974,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:39791666",
+        "text": "Systematic Review on Efficacy, Effectiveness, and Safety of Pitavastatin in Dyslipidemia in Asia.",
+        "doi": "10.3390/healthcare13010059",
+        "journal": "Healthcare (Basel, Switzerland)",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.3660101592540741,
+        "score": 0.3660101592540741,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

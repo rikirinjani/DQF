@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41485102",
-        "text": "Analytical Determination of Piroxicam and Its Metabolites: A Comprehensive Insight. Piroxicam (PX), a widely used oxicam-class nonsteroidal anti-inflammatory drug (NSAID), remains highly relevant in pharmaceutical, biological, and environmental research due to its extensive clinical use, low solubility, strong plasma protein binding, and the formation of multiple metabolites. The literature evaluated in this review was collected from major scientific databases, including Scopus, Web of Science, PubMed, Scie",
-        "score": 0.4036674499511719,
-        "doi": "10.1080/10408347.2025.2605483",
-        "journal": "Critical reviews in analytical chemistry",
-        "year": "2026",
-        "rerank_score": 2.2657294273376465,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7699560",
+        "text": "Placebo-controlled versus comparative studies of drug effects.",
+        "doi": "10.1016/s0022-3476(95)70388-8",
+        "journal": "The Journal of pediatrics",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3756466507911682,
+        "score": 0.3756466507911682,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:2663165",
-        "text": "A clinical evaluation of piroxicam gel: an open comparative trial with diclofenac gel in the treatment of acute musculoskeletal disorders. An open, parallel trial was conducted to compare the efficacy and toleration of piroxicam 0.5% gel and diclofenac 1.16% topical gel preparations in the treatment of 173 patients with well-defined, acute sprains and tendinitis of the ankle, shoulder, or elbow. Therapy was begun within three to five days of the injury and continued for up to 14 days. Piroxicam gel was appl",
-        "score": 0.3955346941947937,
-        "doi": "",
-        "journal": "Clinical therapeutics",
-        "year": "1989",
-        "rerank_score": 2.197338581085205,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19467328",
+        "text": "Efficacy and safety of piroxicam revisited. A global meta-analysis of randomised clinical trials. The relative efficacy/safety profiles of traditional (non-selective) NSAIDs (t-NSAIDs) have been repeatedly challenged. To better understand the efficacy and safety profile of piroxicam, a widely used NSAID, a meta-analysis of comparative RCTs was carried out according to the QUOROM guidance. A systematic comprehensive research (years 1980-2006) of any comparative randomised controlled trial (of over 7-day duration) with piroxicam for the treatment of osteoarticular conditions was conducted. Conservative analyses were stratified by comparator, outcome, indication, duration, and doses. Publication bias and robustness were exhaustively investigated. Seventy-five comparative trials were ultimately included for analyses. Regarding global efficacy, piroxicam was more effective than naproxen [OR=1.37 (1.05; 1.77)] and nabumetone [OR=1.72 (1.26; 2.34)], while equivalent to other NSAIDS [OR=1.06 (0.96; 1.18)]. For pain and articular swelling, piroxicam was statistically equivalent to all other NSAIDs. For mobility, piroxicam appeared to be more effective than indomethacin, while equivalent to all other NSAIDs. Piroxicam was globally safer than other NSAIDs OR=0.83 [0.73; 0.96], notably indomethacin [OR=0.53 (0.43; 0.64], naproxen [OR=0.75 (0.65; 0.85)] and salicylates [OR=0.36 (0.17; 0.75)]. From a global GI safety point of view, piroxicam was better tolerated than indomethacin [OR=0.46 (0.36; 0.58)], naproxen [OR=0.66 (0.53; 0.83)] and salicylates [OR=0.45 (0.27; 0.78)] while less tolerated when compared to meloxicam [OR=1.49 (1.05; 2.13)]. Major GI effects were comparable among piroxicam users as in comparator drugs users [OR=1.33 (0.96; 1.84)], except for meloxicam [OR=2.37 (1.13; 4.97)]. The skin safety of piroxicam was statistically comparable to those of comparators [OR=1.01 (0.68; 1.51)]. This meta-analysis of RCTs support a similar to more favourable efficacy/safety profile of piroxicam as compared to other t-NSAIDs.",
+        "doi": "10.1016/j.phrs.2009.03.021",
+        "journal": "Pharmacological research",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.4025970995426178,
+        "score": 0.4025970995426178,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39899873",
-        "text": "Comparative Effectiveness of Pharmacologic Treatments for the Prevention of Episodic Migraine Headache: A Systematic Review and Network Meta-analysis for the American College of Physicians. Various treatments for preventing episodic migraine are available. To evaluate the comparative effectiveness and harms of pharmacologic prevention of episodic migraine, focusing on treatments already determined to be superior to placebo. MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from incepti",
-        "score": 0.3943719267845154,
-        "doi": "10.7326/ANNALS-24-00315",
-        "journal": "Annals of internal medicine",
+        "id": "PMID:41472641",
+        "text": "Comparative Efficacy of",
+        "doi": "10.1177/27683605251406898",
+        "journal": "Journal of integrative and complementary medicine",
         "year": "2025",
-        "rerank_score": 2.1906566619873047,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "corpus": "recent",
+        "distance": 0.41076281666755676,
+        "score": 0.41076281666755676,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

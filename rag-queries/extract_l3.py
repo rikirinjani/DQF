@@ -518,6 +518,7 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
     Returns a dict matching the drugs.json l3_systems schema.
     """
     drug_class = drug["class"]
+    drug_name = drug["name"]
     class_templates = templates.get("classes", {}).get(drug_class, {})
     l3_schema = class_templates.get("l3_fields", {}).copy()
 
@@ -590,19 +591,25 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
     # Fill in the fields that apply to this class
     if drug_class == "NSAID":
         profile["off_targets"] = _extract_off_targets(findings, drug)
-        profile["gi_risk"] = _score_risk(findings, ["gastric", "bleeding", "mucosal", "gi_risk"], default=2)
-        profile["cv_risk"] = _score_risk(findings, ["cardiovascular", "thrombosis", "mace", "cv_risk"], default=1)
-        profile["renal_risk"] = _score_risk(findings, ["renal", "kidney", "prostaglandin"], default=1)
-        profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp", "warfarin"], default=1)
+        profile["gi_risk"] = _score_risk(findings, ["gastric", "bleeding", "mucosal", "gi_risk"], default=2,
+            drug_name=drug_name)
+        profile["cv_risk"] = _score_risk(findings, ["cardiovascular", "thrombosis", "mace", "cv_risk"], default=1,
+            drug_name=drug_name)
+        profile["renal_risk"] = _score_risk(findings, ["renal", "kidney", "prostaglandin"], default=1,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life", "excretion", "elimination", "bioavailability"],
+            drug_name=drug_name)
+        profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp", "warfarin"], default=1,
+            drug_name=drug_name)
 
     elif drug_class == "Statin":
-        profile["myopathy_risk"] = _score_risk(findings, ["myopathy", "muscle", "rhabdomyolysis"], default=2)
-        profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp3a4", "oatp"], default=1)
+        profile["myopathy_risk"] = _score_risk(findings, ["myopathy", "muscle", "rhabdomyolysis"], default=2,
+            drug_name=drug_name)
+        profile["ddi_risk"] = _score_risk(findings, ["drug interaction", "cyp3a4", "oatp"], default=1,
+            drug_name=drug_name)
         profile["pleiotropic_effects"] = _extract_pleiotropic(findings)
 
     elif drug_class == "PPI":
         drug_id = drug.get("id")
-        drug_name = drug.get("name", "")
         profile["healing_ability"] = extract_healing_ability(findings, drug_id=drug_id)
         # CYP2C19: try regex on RAG snippets, then full-text NCBI fetch, then known defaults
         cyp_val = _extract_cyp2c19(findings, drug_id=drug_id)
@@ -613,83 +620,123 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             keywords=["drug interaction", "cyp", "clopidogrel"],
             intensifiers=["strong inhibitor", "major", "significant", "contraindicated"],
             mitigators=["weak", "minimal", "no interaction", "not metabolized"],
-            default=2)
+            default=2,
+            drug_name=drug_name)
         profile["cdi_risk"] = _score_risk(findings,
             keywords=["clostridium", "cdi", "c diff", "diarrhea"],
             intensifiers=["odds ratio", "increased risk", "significant risk", "4.81"],
             mitigators=["no association", "not significant", "lowest"],
-            default=1)
+            default=1,
+            drug_name=drug_name)
         profile["bone_fracture_risk"] = _score_risk(findings,
             keywords=["fracture", "bone mineral density", "osteoporosis", "hip fracture", "bone"],
-            default=1)
+            default=1,
+            drug_name=drug_name)
         profile["acid_rebound"] = _score_risk(findings,
             keywords=["rebound", "hypergastrinemia", "acid hypersecretion", "gastrin"],
             intensifiers=["significant", "marked", "clinically relevant"],
-            default=1)
+            default=1,
+            drug_name=drug_name)
 
     elif drug_class == "Antihypertensive":
         profile["bp_reduction"] = _score_risk(findings,
             keywords=["bp reduction", "blood pressure", "antihypertensive", "systolic", "diastolic"],
             intensifiers=["superior", "greater reduction", "most effective", "first-line"],
-            mitigators=["modest", "mild", "minimal reduction", "no better than"],
-            default=2)
+            mitigators=["modest reduction", "mild reduction", "minimal reduction",
+                        "no better than", "small reduction", "smaller reduction"],
+            default=2,
+            excluded_terms=["end-diastolic", "end-systolic"],
+            drug_name=drug_name)
         profile["renal_protection"] = _score_risk(findings,
             keywords=["renal", "nephropathy", "kidney", "proteinuria", "albuminuria", "creatinine"],
             intensifiers=["significant", "protective", "renoprotective", "delay", "slow progression"],
             mitigators=["no benefit", "no protection", "no effect"],
-            default=1)
+            default=1,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life", "bioavailability",
+                         "excretion", "elimination", "absorption", "sodium retention"],
+            drug_name=drug_name)
         profile["metabolic_effect"] = _score_risk(findings,
             keywords=["glucose", "lipid", "uric acid", "metabolic", "diabetes", "insulin", "potassium", "sodium"],
             intensifiers=["neutral", "favorable", "beneficial", "improved"],
-            mitigators=["unfavorable", "hyperglycemia", "hyperuricemia", "hypokalemia", "dyslipidemia"],
-            default=2)
+            mitigators=["unfavorable", "hyperglycemia", "hyperuricemia", "hypokalemia", "dyslipidemia",
+                        "neutral effect", "no significant change", "no change",
+                        "did not alter", "did not affect", "without adverse", "no adverse"],
+            default=1,
+            adverse_context_terms=[
+                "adverse metabolic",
+                "adverse effect",
+                "new-onset diabetes",
+                "diabetes mellitus",
+                "gout",
+                "glucose dysregulation",
+                "more common among patients who received",
+                "more common in patients receiving",
+                "higher incidence of",
+                "increased risk of",
+                "-induced",
+                "drug-induced",
+            ],
+            drug_name=drug_name)
         profile["electrolyte_risk"] = _score_risk(findings,
             keywords=["hyperkalemia", "hypokalemia", "hyponatremia", "electrolyte", "potassium", "sodium"],
             intensifiers=["severe", "significant", "life-threatening", "hospitalization"],
-            mitigators=["no significant", "mild", "transient", "well-tolerated"],
-            default=1)
+            mitigators=["no significant", "transient", "well-tolerated",
+                        "mild hypokalemia", "mild hyperkalemia", "mild hyponatremia"],
+            default=1,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life", "excretion", "elimination", "renal handling"],
+            drug_name=drug_name)
         profile["ddi_risk"] = _score_risk(findings,
             keywords=["drug interaction", "interaction", "NSAID", "diuretic", "ACE inhibitor", "ARB"],
             intensifiers=["contraindicated", "significant", "major", "caution"],
             mitigators=["no interaction", "safe", "well-tolerated", "minimal"],
-            default=1)
-        profile["heart_rate_effect"] = _check_heart_rate(findings)
+            default=1,
+            drug_name=drug_name)
+        profile["heart_rate_effect"] = _check_heart_rate(findings, drug)
 
     elif drug_class == "Diabetes":
         profile["a1c_reduction"] = _score_risk(findings,
             keywords=["a1c", "glycemic", "hemoglobin a1c", "glucose", "glycemic control", "hyperglycemia"],
             intensifiers=["superior", "greater reduction", "most effective", "significant reduction", "1.5%"],
             mitigators=["modest", "mild reduction", "inferior", "no better than"],
-            default=2)
+            default=2,
+            drug_name=drug_name)
         profile["weight_effect"] = _score_weight_effect(findings)
         profile["cv_outcome_benefit"] = _score_risk(findings,
             keywords=["cardiovascular", "mace", "mortality", "heart failure", "cv death", "myocardial infarction", "stroke"],
             intensifiers=["significant reduction", "benefit", "protective", "reduced risk", "superior", "-14%", "-26%", "-38%"],
             mitigators=["no benefit", "no difference", "neutral", "non-inferior", "no effect"],
-            default=1)
+            default=1,
+            drug_name=drug_name)
         profile["renal_benefit"] = _score_risk(findings,
             keywords=["renal", "kidney", "nephropathy", "egfr", "albuminuria", "proteinuria", "ckd", "creatinine"],
             intensifiers=["significant", "protective", "slow progression", "renoprotective", "reduced"],
             mitigators=["no benefit", "no effect", "no difference", "no protection"],
-            default=1)
+            default=1,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life", "bioavailability",
+                         "excretion", "elimination", "absorption", "sodium retention"],
+            drug_name=drug_name)
         profile["gi_tolerability"] = _score_risk(findings,
             keywords=["nausea", "vomiting", "diarrhea", "gi", "gastrointestinal", "abdominal", "dyspepsia"],
             intensifiers=["severe", "intolerable", "discontinuation", "high rate", "frequent"],
             mitigators=["well-tolerated", "mild", "transient", "low rate", "no significant"],
-            default=2)
+            default=2,
+            drug_name=drug_name)
         profile["ddi_risk"] = _score_risk(findings,
             keywords=["drug interaction", "interaction", "renal clearance", "tubular secretion", "contrast"],
             intensifiers=["significant", "contraindicated", "caution", "major"],
             mitigators=["no interaction", "no significant", "safe", "well-tolerated"],
-            default=1)
+            default=1,
+            drug_name=drug_name)
         profile["hypoglycemia_risk"] = _score_risk(findings,
             keywords=["hypoglycemia", "low blood glucose", "severe hypoglycemia", "glucose <70", "hypoglycemic"],
             intensifiers=["high risk", "frequent", "severe", "significant", "increased"],
             mitigators=["low risk", "minimal", "no increased", "rare", "no significant"],
-            default=2)
+            default=2,
+            drug_name=drug_name)
 
     elif drug_class == "H2RA":
-        profile["ddi_risk"] = _score_risk(findings, ["cyp", "drug interaction", "theophylline"], default=1)
+        profile["ddi_risk"] = _score_risk(findings, ["cyp", "drug interaction", "theophylline"], default=1,
+            drug_name=drug_name)
         profile["tolerance"] = _check_tolerance(findings)
         profile["cns_penetration"] = _check_cns(findings)
         profile["off_targets"] = _extract_off_targets(findings, drug)
@@ -710,57 +757,447 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
 
 
 def _extract_off_targets(findings: list, drug: dict) -> list:
-    """Identify off-targets mentioned in RAG results beyond the drug's primary targets."""
+    """Identify off-targets mentioned in RAG results beyond the drug's primary targets.
+
+    Sentence-level drug-name proximity: a candidate only counts if it appears
+    in a sentence that discusses the drug (background/review mentions of
+    unrelated receptors are excluded). Known target tokens are also recognized
+    in bare form (e.g. 'TRPV1' without a 'receptor' suffix).
+    """
     known_targets = {t["name"].lower() for t in drug.get("l1_binding", {}).get("targets", [])}
     known_kw = {"cox-1", "cox-2", "cox", "hmgcr", "h+/k+-atpase", "h2 receptor"}
     # Generic words that appear in text but aren't target names
     stop_words = {"ion", "cation", "transient", "putative", "novel", "target", "site", "mediated",
                   "current", "function", "cell", "human", "potent", "key", "direct", "type",
-                  "alternative", "multiple", "specific", "partial", "full", "acid"}
+                  "alternative", "multiple", "specific", "partial", "full", "acid",
+                  "hydrophobic", "activated", "coupled", "estrogen", "calcium", "adenosine",
+                  "glutamate", "receptor", "sodium", "potassium", "serotonin", "dopamine",
+                  "purinergic", "capsaicin", "protein", "nuclear", "nucleus", "membrane",
+                  "binding", "affinity", "activated receptor", "protein-coupled"}
+    # Known real off-target families, recognized with or without a suffix
+    known_offtarget_tokens = {"trpv1", "trpa1", "wasabi", "p2x7", "p2x4", "asic1a", "asic1b",
+                              "cox-1", "cox-2", "hmgcr", "h+/k+-atpase", "h2 receptor",
+                              "mineralocorticoid", "toll-like", "protease-activated", "thromboxane",
+                              "prostanoid", "cannabinoid", "gpbar1", "ep1", "ep3", "platelet",
+                              "ppar", "pparg", "cgrp", "neurokinin", "nk1", "bradykinin"}
+
+    drug_name = (drug.get("name") or "").lower()
+    drug_id = (drug.get("id") or "").lower().replace("-", " ")
+    refs = [r for r in (drug_name, drug_id, "the drug", "this drug",
+                        "this agent", "this compound") if r]
+
+    def _about_drug(sentence: str) -> bool:
+        return any(r in sentence for r in refs) if refs else True
 
     off_targets = set()
     for f in findings:
         text_lower = f["text"].lower()
-        # Look for target-like patterns: "{name} receptor", "{name} channel", etc.
-        targets_found = re.findall(r'(\w[\w/-]+)\s+(receptor|channel|antagonist|agonist)', text_lower)
-        for name, _ in targets_found:
-            name = name.strip().lower()
-            if (name not in known_targets and name not in known_kw
-                    and len(name) > 3 and name not in stop_words):
-                off_targets.add(name.title())
+        # Tier 2: curated real off-target tokens -- accepted anywhere in a
+        # drug-relevant finding (TRPV1 often appears in a background sentence
+        # of an NSAID paper). These are real by curation, not by proximity.
+        for tok in known_offtarget_tokens:
+            if tok in text_lower and tok not in known_targets:
+                off_targets.add(tok.title())
+
+        for sentence in re.split(r'(?<=[.!?])\s+', text_lower):
+            if not _about_drug(sentence):
+                continue  # background sentence, not about the drug
+            # Tier 1: novel "name receptor|channel|..." patterns -- these
+            # need drug-name proximity so generic words like "Hydrophobic
+            # Receptor" from unrelated papers cannot pass.
+            for name, _ in re.findall(r'(\w[\w/-]+)\s+(receptor|channel|antagonist|agonist)', sentence):
+                name = name.strip().lower()
+                if (name not in known_targets and name not in known_kw
+                        and len(name) > 3 and name not in stop_words
+                        and not name.endswith(("-coupled", "-activated", "-dependent"))):
+                    off_targets.add(name.title())
 
     return sorted(off_targets)[:6]  # cap at 6
 
 
+# Drug-salt name phrases. "sodium" inside these is the salt form of another
+# drug (divalproex sodium, warfarin sodium, sodium valproate, ...), NOT a
+# metabolic/electrolyte finding about the index drug. Multi-drug review
+# sentences name the index drug AND other drugs' salt forms in the same
+# sentence, so they pass the drug-anchor gate and would otherwise inflate
+# keyword counts. Legitimate sodium findings ("serum sodium", "urinary
+# sodium excretion", "sodium retention") are NOT salt phrases and survive.
+# Curated list -- no generic "\w+ sodium" rule, which would mask real
+# evidence like "serum sodium".
+SALT_NAME_RE = re.compile(
+    r"\b(?:divalproex|warfarin|diclofenac|naproxen|ketorolac|indomethacin|"
+    r"lansoprazole|pantoprazole|rabeprazole|omeprazole|valsartan|sacubitril|"
+    r"alendronate|risedronate|oxacillin|nafcillin|ampicillin|methicillin|"
+    r"carboxymethylcellulose)\s+sodium\b"
+    r"|\bsodium\s+(?:valproate|zirconium|polystyrene|alginate|phenylbutyrate|"
+    r"cellulose|nitroprusside|oxybate|thiosulfate|nitrite|acetate|lactate|"
+    r"levothyroxine|citrate|phosphate|bicarbonate|chloride|sulfate|"
+    r"indomethacin)\b",
+    re.IGNORECASE,
+)
+
+
 def _score_risk(findings: list, keywords: list[str], default: int = 1,
                 intensifiers: list[str] = None,
-                mitigators: list[str] = None) -> int:
+                mitigators: list[str] = None,
+                negations: list[str] = None,
+                pk_contexts: list[str] = None,
+                adverse_context_terms: list[str] = None,
+                drug_name: str = None,
+                excluded_terms: list[str] = None) -> int:
     """Score a risk dimension 1-3 based on keyword density + intensity modifiers.
 
     Keywords trigger base score. Intensifiers (e.g. 'severe', 'major') bump +1.
     Mitigators (e.g. 'minimal', 'weak') reduce -1.
+
+    Scoping: keyword presence is counted per finding (a keyword counts at most
+    once per finding; multiple findings each contribute). Intensifiers and
+    mitigators apply ONLY within findings that also contain a dimension keyword
+    (co-occurrence scoping), so modifiers in unrelated findings -- e.g. "mild"
+    in an off-drug paper -- cannot distort the score.
+
+    Precision (sentence level):
+      - drug_name anchor: when drug_name is provided, a sentence counts as
+        evidence only if it ALSO names the drug (or uses a generic
+        drug-reference such as "the drug", "study drug", "this agent"). This
+        excludes comparator-drug content (e.g. "spironolactone ... serum
+        potassium"), other drugs in the same abstract (e.g. "sodium
+        valproate"), excipients ("carboxymethylcellulose sodium") and general
+        lifestyle advice ("low sodium intake") that merely contain a keyword.
+      - negations: a keyword occurrence is NOT evidence when a negation phrase
+        starts within the 5 words before it (e.g. "does not accentuate
+        glibenclamide-induced hypoglycemia"); such sentences count toward
+        mitigation instead of evidence.
+      - comparison-group attribution: keyword occurrences are treated as
+        non-evidence when a comparison-arm phrase ("in the comparator group",
+        "in the placebo arm") starts within 6 words AFTER the keyword, since
+        the outcome belongs to the other arm. Positive RCT phrasing
+        ("greater BP reduction than in the placebo group") is preserved.
+      - pk_contexts: sentences containing both a keyword and a PK/mechanistic
+        term (e.g. "renal clearance", "pharmacokinetics") are mechanistic
+        statements, not clinical-outcome evidence, and are skipped entirely.
+      - adverse_context_terms: sentences containing both a keyword and an
+        adverse-context term (e.g. "adverse metabolic", "new-onset diabetes",
+        "drug-induced") are adverse-outcome statements, not positive evidence.
+        They count toward mitigation (mit_findings) but do NOT contribute
+        keywords to matched_keywords, preventing adverse mentions from
+        inflating the base score. This gate runs AFTER the negation check
+        so that "no increased risk of diabetes" reaches neg_findings rather
+        than being caught as an adverse sentence.
     """
     if intensifiers is None:
         intensifiers = []
     if mitigators is None:
         mitigators = []
+    if negations is None:
+        negations = []
+    if pk_contexts is None:
+        pk_contexts = []
+    if adverse_context_terms is None:
+        adverse_context_terms = []
+    if excluded_terms is None:
+        excluded_terms = []
     score = default
-    all_text = " ".join(f["text"].lower() for f in findings)
-    match_count = sum(1 for kw in keywords if kw.lower() in all_text)
+
+    kw_lower = [k.lower() for k in keywords]
+    int_lower = [w.lower() for w in intensifiers]
+    mit_lower = [w.lower() for w in mitigators]
+    neg_lower = [n.lower() for n in negations]
+    pk_lower = [p.lower() for p in pk_contexts]
+    # Adverse-context terms: sentences containing these phrases describe
+    # drug-induced harm. They count as mitigation but do NOT contribute
+    # keywords to matched_keywords (avoids inflating base score from
+    # adverse-outcome language like "new-onset diabetes mellitus").
+    adv_lower = None
+    if adverse_context_terms is not None:
+        adv_lower = [a.lower() for a in adverse_context_terms]
+    # Terms that CONTAIN a keyword but mean something else entirely, e.g.
+    # "end-diastolic" (LV chamber measure) must not count as "diastolic"
+    # blood-pressure evidence.
+    ex_lower = [e.lower() for e in excluded_terms]
+
+    # Generic drug references accepted as anchors alongside the drug name.
+    drug_anchors = None
+    if drug_name:
+        drug_anchors = [
+            drug_name.lower(),
+            "the drug", "this drug", "study drug", "active drug",
+            "the agent", "this agent", "drug treatment", "drug-treated",
+        ]
+
+    matched_keywords = set()
+    int_findings = 0
+    mit_findings = 0
+    neg_findings = 0
+    pos_findings = 0
+    for f in findings:
+        for sentence in re.split(r'(?<=[.!?])\s+', f["text"].lower()):
+            present = [k for k in kw_lower if k in sentence]
+            if not present:
+                continue  # sentence doesn't discuss this dimension
+
+            # Salt-name guard: a keyword that occurs ONLY inside a drug-salt
+            # phrase ("divalproex sodium", "sodium valproate") is not evidence
+            # for this dimension. Multi-drug reviews name the index drug and
+            # other drugs' salt forms in the same sentence, passing the
+            # drug-anchor gate; masking removes the salt phrase so its "sodium"
+            # does not count. Legitimate sodium findings survive because they
+            # are not salt phrases (masked.count(k) >= 1 keeps the keyword).
+            if SALT_NAME_RE.search(sentence):
+                masked = SALT_NAME_RE.sub(" ", sentence)
+                present = [k for k in present if masked.count(k) >= 1]
+            if not present:
+                continue
+
+            # Excluded terms: a keyword that occurs ONLY inside an excluded
+            # term (e.g. "diastolic" inside "end-diastolic") is not evidence.
+            if ex_lower:
+                for ex in ex_lower:
+                    if ex in sentence:
+                        present = [k for k in present
+                                   if k not in ex or sentence.count(k) > sentence.count(ex)]
+            if not present:
+                continue
+
+            # Drug-anchor gate: with drug_name set, a sentence is evidence
+            # only when the drug (or a generic drug reference) is in the SAME
+            # sentence -- kills comparator/other-drug/excipient/lifestyle
+            # sentences that merely contain a dimension keyword.
+            if drug_anchors is not None and not any(a in sentence for a in drug_anchors):
+                continue
+
+            # PK/mechanistic statement -- not clinical-outcome evidence.
+            if pk_lower and any(p in sentence for p in pk_lower):
+                continue
+
+            # Keyword occurrences negated in-place (negation before keyword)
+            # or attributed to a comparison arm (away-phrase shortly AFTER the
+            # keyword). Proximity-scoped: "greater BP reduction than in the
+            # placebo group" is NOT away-attributed, but "increased incidences
+            # of hypoglycemia ... in the comparator group" IS.
+            negated = _negated_keywords(sentence, present)
+            away = _away_attributed_keywords(sentence, present)
+            non_negated = [k for k in present if k not in negated and k not in away]
+            if negated or away:
+                if not non_negated:
+                    neg_findings += 1  # entire sentence's evidence is negated/away
+                    continue
+
+            # Adverse-context gate: sentences describing drug-induced harm
+            # count as mitigation evidence but do NOT contribute keywords to
+            # matched_keywords. This prevents adverse-outcome mentions (e.g.
+            # "new-onset diabetes mellitus", "gout") from inflating the base
+            # score as if they were favorable metabolic evidence. Runs AFTER
+            # the negation check so "no increased risk of diabetes" reaches
+            # neg_findings rather than being caught as adverse.
+            if adv_lower and any(a in sentence for a in adv_lower):
+                # Negation guard: when every adverse-context term present is
+                # itself negated ("telmisartan had no adverse effects on
+                # glucose, triglyceride or cholesterol levels"), the sentence
+                # describes the ABSENCE of harm -- favorable evidence, not an
+                # adverse-outcome statement. Fall through to normal keyword
+                # matching so it can contribute positive evidence.
+                if not _adverse_terms_negated(sentence, adv_lower):
+                    mit_findings += 1
+                    continue  # skip keyword matching for this sentence
+
+            matched_keywords.update(non_negated)
+            pos_findings += 1
+            if any(w in sentence for w in int_lower):
+                int_findings += 1
+            if any(w in sentence for w in mit_lower):
+                mit_findings += 1
+
+    match_count = len(matched_keywords)
     if match_count >= 3:
         score = min(3, default + 2)
     elif match_count >= 1:
         score = min(3, default + 1)
-    # Apply intensifiers (bump if keywords also matched)
-    if match_count >= 1:
-        int_count = sum(1 for w in intensifiers if w.lower() in all_text)
-        if int_count >= 1:
+
+    if match_count >= 1 or neg_findings >= 1:
+        if int_findings >= 1:
             score = min(3, score + 1)
-        # Apply mitigators (reduce)
-        mit_count = sum(1 for w in mitigators if w.lower() in all_text)
-        if mit_count >= 1:
+        # Mitigation/negation only overrides when it OUTWEIGHS the positive
+        # evidence -- one "no significant" sentence must not cancel a drug
+        # with multiple positive keyword sentences (or intensifiers).
+        # Compare against PURE positive evidence: keyword sentences that carry
+        # no mitigator. (mit_findings is co-occurrence-scoped, so every
+        # mit_finding is also a pos_finding; subtracting avoids mitigators
+        # neutralizing themselves.)
+        pure_pos = pos_findings - mit_findings
+        if mit_findings + neg_findings > pure_pos + int_findings:
             score = max(1, score - 1)
     return score
+
+
+_WORD_RE = re.compile(r"[\w'-]+")
+
+
+def _negated_keywords(sentence: str, keywords: list[str]) -> set:
+    """Return keyword occurrences whose meaning is negated in-place.
+
+    A keyword occurrence counts as negated when a negation phrase starts
+    within the 5 words immediately before it. Negations AFTER the keyword
+    (e.g. "reduced hypoglycemia with no increased weight gain") do NOT negate
+    it, so genuine positive evidence is preserved.
+    """
+    tokens = [(m.group(0).lower(), m.start(), m.end())
+              for m in _WORD_RE.finditer(sentence)]
+    # Word indices where a negation phrase starts.
+    neg_starts = set()
+    NEGATION_PHRASES = [
+        "does not", "did not", "do not", "doesn't", "didn't", "won't",
+        "no significant", "no increase", "no evidence", "no association",
+        "not associated", "not related", "not increased", "not elevated",
+        "not affected", "not accentuate", "not enhanced", "not augment",
+        "without", "unlikely", "rare", "no benefit", "no effect",
+        "no protection", "does not increase", "did not increase",
+        "no increased",
+    ]
+    for ph in NEGATION_PHRASES:
+        start = 0
+        while True:
+            i = sentence.find(ph, start)
+            if i < 0:
+                break
+            for wi, (_w, ws, we) in enumerate(tokens):
+                if ws <= i < we:
+                    neg_starts.add(wi)
+                    break
+            start = i + 1
+
+    negated = set()
+    for k in keywords:
+        start = 0
+        while True:
+            i = sentence.find(k, start)
+            if i < 0:
+                break
+            for wi, (_w, ws, we) in enumerate(tokens):
+                if ws <= i < we:
+                    if any(1 <= wi - nw <= 5 for nw in neg_starts):
+                        negated.add(k)
+                    break
+            start = i + 1
+    return negated
+
+
+_AWAY_PHRASES = [
+    "in the comparator", "in the placebo", "in the control", "in the vehicle",
+    "in the placebo arm", "in the control arm",
+    "comparator group", "placebo group", "control group",
+]
+
+# Negation words that, when immediately before an away phrase, turn it into
+# a study-design caveat rather than an outcome attribution, e.g. "(no control
+# group)", "without a placebo group".
+_AWAY_CAVEAT_PREFIX = ["no", "without", "without a", "not", "no concurrent", "without any"]
+
+
+def _away_attributed_keywords(sentence: str, keywords: list[str]) -> set:
+    """Return keywords whose outcome is attributed to a comparison arm.
+
+    An outcome is away-attributed when a comparison-arm phrase starts within
+    6 words AFTER the keyword, e.g. "increased incidences of hypoglycemia,
+    tremor, and hyperhidrosis in the comparator group". Positive RCT phrasing
+    is preserved: "reductions in blood pressure were greater in the active
+    group than in the placebo group" -- the away phrase is ~10 words after
+    the keyword, beyond the window. Study-design caveats ("(no control
+    group)") are NOT away attributions and are preserved as evidence.
+    """
+    tokens = [(m.group(0).lower(), m.start(), m.end())
+              for m in _WORD_RE.finditer(sentence)]
+    away_starts = set()
+    for ph in _AWAY_PHRASES:
+        start = 0
+        while True:
+            i = sentence.find(ph, start)
+            if i < 0:
+                break
+            # Skip caveat usage: away phrase preceded by "no"/"without"/"not"
+            # within 4 words (e.g. "(no control group)").
+            prefix = sentence[max(0, i - 24):i]
+            if any(p + " " in prefix + " " for p in _AWAY_CAVEAT_PREFIX):
+                start = i + 1
+                continue
+            for wi, (_w, ws, we) in enumerate(tokens):
+                if ws <= i < we:
+                    away_starts.add(wi)
+                    break
+            start = i + 1
+
+    away = set()
+    for k in keywords:
+        start = 0
+        while True:
+            i = sentence.find(k, start)
+            if i < 0:
+                break
+            for wi, (_w, ws, we) in enumerate(tokens):
+                if ws <= i < we:
+                    # away phrase starts within 6 words AFTER the keyword
+                    if any(1 <= aw - wi <= 6 for aw in away_starts):
+                        away.add(k)
+                    break
+            start = i + 1
+    return away
+
+
+# TIGHT negation phrases for the adverse-gate rescue. A sentence is rescued
+# (treated as absence-of-harm evidence) ONLY when an adverse-context term is
+# immediately preceded by one of these constructions, e.g. "telmisartan had
+# no adverse effects on glucose, triglyceride or cholesterol levels".
+# Deliberately narrower than the generic _negated_keywords list: statements
+# like "did not increase the risk of hypoglycemia" are NOT rescued -- the
+# adverse gate keeps suppressing them exactly as before. Only negated
+# ADVERSE-EFFECT statements fall through to positive keyword matching.
+_ADVERSE_NEGATION_PHRASES = [
+    "no adverse", "without adverse", "no evidence of adverse",
+    "free of adverse", "lacked adverse", "without any adverse",
+    "no significant adverse", "not associated with adverse",
+]
+
+
+def _adverse_terms_negated(sentence: str, adverse_terms: list[str]) -> bool:
+    """Return True when EVERY adverse-context term present in the sentence is
+    immediately negated by a tight adverse-negation phrase.
+
+    A term occurrence at index i counts as negated when one of the tight
+    phrases starts at or overlaps the term start (adjacency window: the
+    phrase must begin <= i and end >= i - 2 chars). This rescues
+    "no adverse effects on glucose..." -- the phrase "no adverse" directly
+    abuts the term "adverse effects" -- while leaving every other adverse
+    sentence gated as before. Mixed sentences ("increased risk of diabetes
+    mellitus and no adverse effects on lipids") keep their genuine adverse
+    content and still hit the gate.
+    """
+    present = [a for a in adverse_terms if a in sentence]
+    if not present:
+        return True  # nothing to rescue
+    phrase_spans = []
+    for ph in _ADVERSE_NEGATION_PHRASES:
+        start = 0
+        while True:
+            i = sentence.find(ph, start)
+            if i < 0:
+                break
+            phrase_spans.append((i, i + len(ph)))
+            start = i + 1
+    if not phrase_spans:
+        return False  # no tight phrase present -- nothing is rescued
+    for a in present:
+        start = 0
+        negated_this = False
+        while True:
+            i = sentence.find(a, start)
+            if i < 0:
+                break
+            if any(ps <= i and i - pe <= 2 for ps, pe in phrase_spans):
+                negated_this = True
+            start = i + 1
+        if not negated_this:
+            return False
+    return True
 
 
 def _extract_cyp2c19(findings: list, drug_id: str = None, drug_name: str = None) -> Optional[int]:
@@ -940,17 +1377,77 @@ def _check_cns(findings: list) -> bool:
     return "cns" in all_text or "central nervous" in all_text or "blood-brain" in all_text
 
 
-def _check_heart_rate(findings: list) -> str:
-    """Determine heart rate effect from evidence: bradycardia, tachycardia, or none."""
-    all_text = " ".join(f["text"].lower() for f in findings)
+def _check_heart_rate(findings: list, drug: dict = None) -> str:
+    """Determine heart rate effect from evidence: bradycardia, tachycardia, or none.
+
+    Sentence-level drug-name proximity: only sentences that discuss the drug
+    count, so a comparator drug's effect in the same abstract (e.g. nifedipine
+    vs diltiazem comparisons) cannot flip the result. If neither effect has
+    drug-anchored support, returns "none".
+
+    Combination-therapy guard: a sentence is ALSO skipped when it names a
+    second drug from the index AND co-administration is signaled
+    (e.g. "trandolapril/verapamil er ... included bradycardia") -- the rate
+    effect may belong to the co-administered drug. Head-to-head comparisons
+    ("verapamil versus atenolol") are NOT skipped: the effect is still
+    attributable to the subject drug.
+    """
     brady_kw = ["bradycardia", "heart rate reduction", "negative chronotropic", "slow heart", "decreased heart rate"]
+    # "ventricular tachycardia" is an arrhythmia endpoint, not a heart-rate
+    # effect -- exclude it explicitly.
     tachy_kw = ["tachycardia", "reflex tachycardia", "increased heart rate", "palpitations", "heart rate increase"]
-    for kw in brady_kw:
-        if kw in all_text:
-            return "bradycardia"
-    for kw in tachy_kw:
-        if kw in all_text:
-            return "tachycardia"
+    def _is_rate_tachy(sentence: str) -> bool:
+        if "ventricular tachycardia" in sentence:
+            return False
+        return any(k in sentence for k in tachy_kw)
+
+    if drug is None:
+        drug = {}
+    drug_name = (drug.get("name") or "").lower()
+    drug_id = (drug.get("id") or "").lower().replace("-", " ")
+    refs = [r for r in (drug_name, drug_id, "the drug", "this drug",
+                        "this agent", "this compound") if r]
+    other_drugs = _get_other_drug_names(drug_name)
+
+    def _mentions_other_drug(sentence: str) -> bool:
+        return any(len(n) >= 4 and n in sentence for n in other_drugs)
+
+    def _is_coadmin(sentence: str) -> bool:
+        """Co-administration signal: the second drug is co-dosed with ours
+        (e.g. "trandolapril/verapamil er therapy"), so the rate effect may
+        belong to the partner. Head-to-head comparisons ("verapamil versus
+        atenolol") are NOT co-administration -- the effect is still
+        attributable to the subject drug."""
+        return any(sig in sentence for sig in [
+            "/", "combined with", "in combination with", "coadministered",
+            "co-administered", "fixed-dose", "plus ", " add-on ", "add on ",
+            "combination therapy", "combination of",
+        ])
+
+    brady_n = tachy_n = 0
+    for f in findings:
+        ft = f["text"].lower()
+        finding_ref = bool(refs) and any(r in ft for r in refs)
+        for sentence in re.split(r'(?<=[.!?])\s+', ft):
+            sentence_ref = bool(refs) and any(r in sentence for r in refs)
+            if refs and not sentence_ref:
+                # Drug not named in THIS sentence. Count only when the drug is
+                # discussed in the same finding AND no other drug is named in
+                # the sentence (otherwise a comparator's clause -- "diltiazem
+                # decreased heart rate" -- leaks into the subject's profile).
+                if not (finding_ref and not _mentions_other_drug(sentence)):
+                    continue
+            elif sentence_ref and _mentions_other_drug(sentence) and _is_coadmin(sentence):
+                continue  # combination therapy -- attribution ambiguous
+            if any(k in sentence for k in brady_kw):
+                brady_n += 1
+            elif _is_rate_tachy(sentence):
+                tachy_n += 1
+
+    if brady_n > tachy_n:
+        return "bradycardia"
+    if tachy_n > brady_n:
+        return "tachycardia"
     return "none"
 
 

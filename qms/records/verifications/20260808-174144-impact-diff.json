@@ -1,0 +1,12 @@
+﻿{
+    "ver_id":  "VER-2026-020",
+    "result":  "pass",
+    "linked_tasks":  [
+                         "DQF refreshed abstract impact diff"
+                     ],
+    "linked_specs":  [
+
+                     ],
+    "evidence_path":  "C:\\Users\\think\\AppData\\Local\\Temp\\dqf-l3-impact-report.json",
+    "notes":  "Reparsed 76 completed-class L3 profiles against preserved pre-refresh profiles. All 76 had substantive field changes. No merge into api/drugs.json; L4 unchanged."
+}

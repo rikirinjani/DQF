@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:32739846",
-        "text": "Comparison of topical capsaicin and topical piroxicam in the treatment of acute trauma-induced pain: A randomized double-blind trial. This study aimed to compare the analgesic efficacy of topical capsaicin and topical piroxicam in acute musculoskeletal injuries.",
-        "score": 0.3796774744987488,
-        "doi": "10.1016/j.ajem.2020.05.104",
-        "journal": "The American journal of emergency medicine",
-        "year": "2020",
-        "rerank_score": 3.2909741401672363,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8624625",
+        "text": "Compliance monitoring of NSAID drug therapy in ankylosing spondylitis, experiences with an electronic monitoring device. We concluded a randomized, controlled trial to compare once-daily 20 mg piroxicam versus once-daily 20 mg tenoxicam in ankylosing spondylitis. We recorded patients' dosing histories with electronic monitors for an average of 225 days (range 55-379) in 34 recipients of piroxicam and 31 recipients of tenoxicam. Dosing histories with the two agents were similar and are combined. Patients took 81% of prescribed doses; 78% once daily (as prescribed) and 3% as two or more daily doses. On 19% of all monitored days, there was no record of a dose being taken; 68% were single no-dose days, the rest (32%) being 2 to >10 consecutive no-dose days. In 3% of monitored days, extra doses were evidently taken, 88% as twice daily and 12% as three or more doses. Only 22% of all patients (14/65) strictly complied with the regimen: one dose daily every day. The remainder alternated between no-dose days and extra-dose days. We found no correlation between patient compliance and improvement in reported pain or morning stiffness.",
+        "doi": "10.1093/rheumatology/35.1.60",
+        "journal": "British journal of rheumatology",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.4836757779121399,
+        "score": 0.4836757779121399,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:38940572",
-        "text": "Does Piroxicam have an Added Benefit on Arthrocentesis in the Management of Internal Derangement in Female Patients?: A Randomized Clinical Trial. Arthrocentesis is an accepted treatment modality for internal derangement. Piroxicam is an NSAID that can be injected into the TMJ. The primary objective of this study was to improve mouth opening, and the secondary objective was to decrease TMD-associated pain. A randomized controlled trial (RCT) was performed on patients suffering from anterior disk displacemen",
-        "score": 0.4083546996116638,
-        "doi": "10.1097/SCS.0000000000010447",
-        "journal": "The Journal of craniofacial surgery",
-        "year": "2024",
-        "rerank_score": 2.246999979019165,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:31398041",
+        "text": "Justification of Biowaiver and Dissolution Rate Specifications for Piroxicam Immediate Release Products Based on Physiologically Based Pharmacokinetic Modeling: An In-Depth Analysis. A quantitative prediction of human pharmacokinetic (PK) profiles has become an increasing demand for the reduction of the clinical failure of drug formulations. The existing in vitro and in vivo correlation (IVIVC) methodology could achieve this goal, but the development of IVIVC for immediate release (IR) products is challenging. Herein, we report that for certain weakly acidic biopharmaceutical classification system (BCS) class II molecules (piroxicam, PIRO), physiologically based PK (PBPK) modeling could be used as a tool to quantitatively predict PK in beagle dogs and to conduct an interspecies extrapolation to humans. First, robust PBPK models were constructed in beagle dogs under both fasted and fed states. Then, a",
+        "doi": "10.1021/acs.molpharmaceut.9b00350",
+        "journal": "Molecular pharmaceutics",
+        "year": "2019",
+        "corpus": "main",
+        "distance": 0.48459580540657043,
+        "score": 0.48459580540657043,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39520228",
-        "text": "Pragmatic monitoring of emerging efficacy data in randomized controlled trials. Monitoring the conduct of phase III randomized controlled trials is driven by ethical reasons to protect the study integrity and the safety of trial participants. We propose a group sequential, pragmatic approach for monitoring the accumulating efficacy information in randomized controlled trials. The \"Population Health Research Institute boundary\" is simple to implement and sensible, as it considers the reduction in uncertainty",
-        "score": 0.40074318647384644,
-        "doi": "10.1177/17407745241290729",
-        "journal": "Clinical trials (London, England)",
-        "year": "2025",
-        "rerank_score": -0.3272458016872406,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8988837",
+        "text": "Preventive not pre-emptive analgesia with piroxicam.",
+        "doi": "10.1007/BF03014338",
+        "journal": "Canadian journal of anaesthesia = Journal canadien d'anesthesie",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.4861900508403778,
+        "score": 0.4861900508403778,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

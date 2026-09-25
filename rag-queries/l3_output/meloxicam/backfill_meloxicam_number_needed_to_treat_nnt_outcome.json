@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:11853278",
-        "text": "Safety and efficacy of meloxicam 7.5 mg in the treatment of osteoarthritis in Thai patients. A prospective, open trial to evaluate the safety and efficacy of oral meloxicam 7.5 mg once daily over a period of 28 days in Thai patients with osteoarthritis was conducted in 3 major hospitals in Bangkok, Thailand. A total of 137 patients were enrolled and completed the study protocol. The mean age of the patients was 57.6 years and 88 per cent were female. Pain on movement and pain at rest evaluated after treatme",
-        "score": 0.47379493713378906,
-        "doi": "",
-        "journal": "Journal of the Medical Association of Thailand = Chotmaihet thangphaet",
-        "year": "2002",
-        "rerank_score": -1.1941819190979004,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:32035226",
+        "text": "Number Needed-to-Treat (NNT): Is it a necessary marker of therapeutic efficiency?",
+        "doi": "10.1016/j.diabet.2020.01.004",
+        "journal": "Diabetes & metabolism",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.3947118818759918,
+        "score": 0.3947118818759918,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:17063980",
-        "text": "Meloxicam determination in human plasma by high-performance liquid chromatography coupled with tandem mass spectrometry (LC-MS-MS) in Brazilian bioequivalence studies. In this study, the bioavailability of 2 meloxicam 15 mg tablet formulations was compared. A single dose of each formulation was administered to 24 healthy volunteers (12 males and 12 females).",
-        "score": 0.4743565320968628,
-        "doi": "10.5414/cpp44489",
-        "journal": "International journal of clinical pharmacology and therapeutics",
-        "year": "2006",
-        "rerank_score": -4.681347846984863,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:38876401",
+        "text": "Understanding The Number Needed to Treat. The number needed to treat (NNT) is the inverse of the absolute risk difference, which is used as a secondary outcome to clinical trials as a measure relevant to a positive trial, supplementing statistical significance. The NNT requires dichotomous outcomes and is influenced by the baseline disease or symptom severity, the particular population, the type and intensity of the interventional, the duration of treatment, the time period to assessment of response, and the comparator response. Confidence intervals should always accompany NNT for the precision of its estimate. In this review, three meta-analyses are reviewed, which included the NNT in the analysis of response.",
+        "doi": "10.1016/j.jpainsymman.2024.06.002",
+        "journal": "Journal of pain and symptom management",
+        "year": "2024",
+        "corpus": "recent",
+        "distance": 0.4458593428134918,
+        "score": 0.4458593428134918,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39606887",
-        "text": "Oral azacitidine maintenance after intensive chemotherapy versus venetoclax and azacitidine: real world outcomes in newly diagnosed acute myeloid leukemia. Oral azacitidine (Oral-AZA) is recommended as maintenance therapy for patients with newly diagnosed acute myeloid leukemia (ND AML) achieving remission with intensive chemotherapy (IC) but not transplant candidates; venetoclax plus injectable azacitidine (VEN-AZA) is recommended for patients ineligible for IC. Some patients may be considered candidates f",
-        "score": 0.4785904288291931,
-        "doi": "10.1080/10428194.2024.2425792",
-        "journal": "Leukemia & lymphoma",
-        "year": "2025",
-        "rerank_score": -6.900482654571533,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15833778",
+        "text": "Predicting postoperative analgesia outcomes: NNT league tables or procedure-specific evidence? Number needed to treat (NNT) values have been recommended and used to assess efficacy of analgesics for acute pain management. However, the data analysed come from a variety of procedures, which may potentially hinder the interpretation of the NNT value for specific procedures. We reanalysed available NNT data with acetaminophen in relation to the magnitude of surgical injury. Acetaminophen was less effective for pain relief after orthopaedic procedures than after dental procedures. The relative risk ratio for more than 50% pain relief, compared with placebo, was only 1.87 compared with 3.77 (P<0.05). Although NNT can give a valuable overview of efficacy, this concept is not necessarily applicable to all types of surgery. We suggest that estimates of NNT should be related to specific surgical procedures.",
+        "doi": "10.1093/bja/aei144",
+        "journal": "British journal of anaesthesia",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.450785756111145,
+        "score": 0.450785756111145,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

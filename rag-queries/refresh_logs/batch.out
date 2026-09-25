@@ -1,0 +1,772 @@
+[09:00:57] START: Antihypertensive -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_Antihypertensive.log
+Loaded 33 drugs from C:\Users\think\Project_v2\drug-quantification-framework\api\drugs.json (Antihypertensive)
+
+=== amlodipine [Antihypertensive] ===
+  [A1] Amlodipine mechanism of action efficacy clinical trial         -> OK(3)            backfill_amlodipine_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Amlodipine blood pressure reduction hypertension efficacy      -> OK(3)            backfill_amlodipine_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Amlodipine number needed to treat NNT outcome                  -> OK(3)            backfill_amlodipine_number_needed_to_treat_nnt_outcome.json
+  [A4] Amlodipine adverse effects safety profile incidence            -> OK(3)            backfill_amlodipine_adverse_effects_safety_profile_incidence.json
+  [B1] Amlodipine randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_amlodipine_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Amlodipine effect size confidence interval blood pressure chan -> OK(3)            backfill_amlodipine_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Amlodipine comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_amlodipine_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Amlodipine time to onset pharmacokinetics peak effect          -> OK(3)            backfill_amlodipine_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== atenolol [Antihypertensive] ===
+  [A1] Atenolol mechanism of action efficacy clinical trial           -> OK(3)            backfill_atenolol_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Atenolol blood pressure reduction hypertension efficacy        -> OK(3)            backfill_atenolol_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Atenolol number needed to treat NNT outcome                    -> OK(3)            backfill_atenolol_number_needed_to_treat_nnt_outcome.json
+  [A4] Atenolol adverse effects safety profile incidence              -> OK(3)            backfill_atenolol_adverse_effects_safety_profile_incidence.json
+  [B1] Atenolol randomized controlled trial efficacy outcome quantita -> OK(3)            backfill_atenolol_randomized_controlled_trial_efficacy_outcome_quanti.json
+  [B2] Atenolol effect size confidence interval blood pressure change -> OK(3)            backfill_atenolol_effect_size_confidence_interval_blood_pressure_chan.json
+  [B3] Atenolol comparative effectiveness versus placebo meta-analysi -> OK(3)            backfill_atenolol_comparative_effectiveness_versus_placebo_meta_analy.json
+  [B4] Atenolol time to onset pharmacokinetics peak effect            -> OK(3)            backfill_atenolol_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== bisoprolol [Antihypertensive] ===
+  [A1] Bisoprolol mechanism of action efficacy clinical trial         -> OK(3)            backfill_bisoprolol_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Bisoprolol blood pressure reduction hypertension efficacy      -> OK(3)            backfill_bisoprolol_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Bisoprolol number needed to treat NNT outcome                  -> OK(3)            backfill_bisoprolol_number_needed_to_treat_nnt_outcome.json
+  [A4] Bisoprolol adverse effects safety profile incidence            -> OK(3)            backfill_bisoprolol_adverse_effects_safety_profile_incidence.json
+  [B1] Bisoprolol randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_bisoprolol_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Bisoprolol effect size confidence interval blood pressure chan -> OK(3)            backfill_bisoprolol_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Bisoprolol comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_bisoprolol_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Bisoprolol time to onset pharmacokinetics peak effect          -> OK(3)            backfill_bisoprolol_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== candesartan [Antihypertensive] ===
+  [A1] Candesartan mechanism of action efficacy clinical trial        -> OK(3)            backfill_candesartan_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Candesartan blood pressure reduction hypertension efficacy     -> OK(3)            backfill_candesartan_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Candesartan number needed to treat NNT outcome                 -> OK(3)            backfill_candesartan_number_needed_to_treat_nnt_outcome.json
+  [A4] Candesartan adverse effects safety profile incidence           -> OK(3)            backfill_candesartan_adverse_effects_safety_profile_incidence.json
+  [B1] Candesartan randomized controlled trial efficacy outcome quant -> OK(3)            backfill_candesartan_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Candesartan effect size confidence interval blood pressure cha -> OK(3)            backfill_candesartan_effect_size_confidence_interval_blood_pressure_c.json
+  [B3] Candesartan comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_candesartan_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Candesartan time to onset pharmacokinetics peak effect         -> OK(3)            backfill_candesartan_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== captopril [Antihypertensive] ===
+  [A1] Captopril mechanism of action efficacy clinical trial          -> OK(3)            backfill_captopril_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Captopril blood pressure reduction hypertension efficacy       -> OK(3)            backfill_captopril_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Captopril number needed to treat NNT outcome                   -> OK(3)            backfill_captopril_number_needed_to_treat_nnt_outcome.json
+  [A4] Captopril adverse effects safety profile incidence             -> OK(3)            backfill_captopril_adverse_effects_safety_profile_incidence.json
+  [B1] Captopril randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_captopril_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Captopril effect size confidence interval blood pressure chang -> OK(3)            backfill_captopril_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Captopril comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_captopril_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Captopril time to onset pharmacokinetics peak effect           -> OK(3)            backfill_captopril_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== carvedilol [Antihypertensive] ===
+  [A1] Carvedilol mechanism of action efficacy clinical trial         -> OK(3)            backfill_carvedilol_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Carvedilol blood pressure reduction hypertension efficacy      -> OK(3)            backfill_carvedilol_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Carvedilol number needed to treat NNT outcome                  -> OK(3)            backfill_carvedilol_number_needed_to_treat_nnt_outcome.json
+  [A4] Carvedilol adverse effects safety profile incidence            -> OK(3)            backfill_carvedilol_adverse_effects_safety_profile_incidence.json
+  [B1] Carvedilol randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_carvedilol_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Carvedilol effect size confidence interval blood pressure chan -> OK(3)            backfill_carvedilol_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Carvedilol comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_carvedilol_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Carvedilol time to onset pharmacokinetics peak effect          -> OK(3)            backfill_carvedilol_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== chlorthalidone [Antihypertensive] ===
+  [A1] Chlorthalidone mechanism of action efficacy clinical trial     -> OK(3)            backfill_chlorthalidone_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Chlorthalidone blood pressure reduction hypertension efficacy  -> OK(3)            backfill_chlorthalidone_blood_pressure_reduction_hypertension_efficac.json
+  [A3] Chlorthalidone number needed to treat NNT outcome              -> OK(3)            backfill_chlorthalidone_number_needed_to_treat_nnt_outcome.json
+  [A4] Chlorthalidone adverse effects safety profile incidence        -> OK(3)            backfill_chlorthalidone_adverse_effects_safety_profile_incidence.json
+  [B1] Chlorthalidone randomized controlled trial efficacy outcome qu -> OK(3)            backfill_chlorthalidone_randomized_controlled_trial_efficacy_outcome_.json
+  [B2] Chlorthalidone effect size confidence interval blood pressure  -> OK(3)            backfill_chlorthalidone_effect_size_confidence_interval_blood_pressur.json
+  [B3] Chlorthalidone comparative effectiveness versus placebo meta-a -> OK(3)            backfill_chlorthalidone_comparative_effectiveness_versus_placebo_meta.json
+  [B4] Chlorthalidone time to onset pharmacokinetics peak effect      -> OK(3)            backfill_chlorthalidone_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== clonidine [Antihypertensive] ===
+  [A1] Clonidine mechanism of action efficacy clinical trial          -> OK(3)            backfill_clonidine_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Clonidine blood pressure reduction hypertension efficacy       -> OK(3)            backfill_clonidine_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Clonidine number needed to treat NNT outcome                   -> OK(3)            backfill_clonidine_number_needed_to_treat_nnt_outcome.json
+  [A4] Clonidine adverse effects safety profile incidence             -> OK(3)            backfill_clonidine_adverse_effects_safety_profile_incidence.json
+  [B1] Clonidine randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_clonidine_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Clonidine effect size confidence interval blood pressure chang -> OK(3)            backfill_clonidine_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Clonidine comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_clonidine_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Clonidine time to onset pharmacokinetics peak effect           -> OK(3)            backfill_clonidine_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== diltiazem [Antihypertensive] ===
+  [A1] Diltiazem mechanism of action efficacy clinical trial          -> OK(3)            backfill_diltiazem_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Diltiazem blood pressure reduction hypertension efficacy       -> OK(3)            backfill_diltiazem_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Diltiazem number needed to treat NNT outcome                   -> OK(3)            backfill_diltiazem_number_needed_to_treat_nnt_outcome.json
+  [A4] Diltiazem adverse effects safety profile incidence             -> OK(3)            backfill_diltiazem_adverse_effects_safety_profile_incidence.json
+  [B1] Diltiazem randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_diltiazem_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Diltiazem effect size confidence interval blood pressure chang -> OK(3)            backfill_diltiazem_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Diltiazem comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_diltiazem_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Diltiazem time to onset pharmacokinetics peak effect           -> OK(3)            backfill_diltiazem_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== doxazosin [Antihypertensive] ===
+  [A1] Doxazosin mechanism of action efficacy clinical trial          -> OK(3)            backfill_doxazosin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Doxazosin blood pressure reduction hypertension efficacy       -> OK(3)            backfill_doxazosin_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Doxazosin number needed to treat NNT outcome                   -> OK(3)            backfill_doxazosin_number_needed_to_treat_nnt_outcome.json
+  [A4] Doxazosin adverse effects safety profile incidence             -> OK(3)            backfill_doxazosin_adverse_effects_safety_profile_incidence.json
+  [B1] Doxazosin randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_doxazosin_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Doxazosin effect size confidence interval blood pressure chang -> OK(3)            backfill_doxazosin_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Doxazosin comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_doxazosin_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Doxazosin time to onset pharmacokinetics peak effect           -> OK(3)            backfill_doxazosin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== enalapril [Antihypertensive] ===
+  [A1] Enalapril mechanism of action efficacy clinical trial          -> OK(3)            backfill_enalapril_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Enalapril blood pressure reduction hypertension efficacy       -> OK(3)            backfill_enalapril_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Enalapril number needed to treat NNT outcome                   -> OK(3)            backfill_enalapril_number_needed_to_treat_nnt_outcome.json
+  [A4] Enalapril adverse effects safety profile incidence             -> OK(3)            backfill_enalapril_adverse_effects_safety_profile_incidence.json
+  [B1] Enalapril randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_enalapril_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Enalapril effect size confidence interval blood pressure chang -> OK(3)            backfill_enalapril_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Enalapril comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_enalapril_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Enalapril time to onset pharmacokinetics peak effect           -> OK(3)            backfill_enalapril_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== felodipine [Antihypertensive] ===
+  [A1] Felodipine mechanism of action efficacy clinical trial         -> OK(3)            backfill_felodipine_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Felodipine blood pressure reduction hypertension efficacy      -> OK(3)            backfill_felodipine_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Felodipine number needed to treat NNT outcome                  -> OK(3)            backfill_felodipine_number_needed_to_treat_nnt_outcome.json
+  [A4] Felodipine adverse effects safety profile incidence            -> OK(3)            backfill_felodipine_adverse_effects_safety_profile_incidence.json
+  [B1] Felodipine randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_felodipine_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Felodipine effect size confidence interval blood pressure chan -> OK(3)            backfill_felodipine_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Felodipine comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_felodipine_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Felodipine time to onset pharmacokinetics peak effect          -> OK(3)            backfill_felodipine_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== furosemide [Antihypertensive] ===
+  [A1] Furosemide mechanism of action efficacy clinical trial         -> OK(3)            backfill_furosemide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Furosemide blood pressure reduction hypertension efficacy      -> OK(3)            backfill_furosemide_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Furosemide number needed to treat NNT outcome                  -> OK(3)            backfill_furosemide_number_needed_to_treat_nnt_outcome.json
+  [A4] Furosemide adverse effects safety profile incidence            -> OK(3)            backfill_furosemide_adverse_effects_safety_profile_incidence.json
+  [B1] Furosemide randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_furosemide_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Furosemide effect size confidence interval blood pressure chan -> OK(3)            backfill_furosemide_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Furosemide comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_furosemide_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Furosemide time to onset pharmacokinetics peak effect          -> OK(3)            backfill_furosemide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== hydralazine [Antihypertensive] ===
+  [A1] Hydralazine mechanism of action efficacy clinical trial        -> OK(3)            backfill_hydralazine_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Hydralazine blood pressure reduction hypertension efficacy     -> OK(3)            backfill_hydralazine_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Hydralazine number needed to treat NNT outcome                 -> OK(3)            backfill_hydralazine_number_needed_to_treat_nnt_outcome.json
+  [A4] Hydralazine adverse effects safety profile incidence           -> OK(3)            backfill_hydralazine_adverse_effects_safety_profile_incidence.json
+  [B1] Hydralazine randomized controlled trial efficacy outcome quant -> OK(3)            backfill_hydralazine_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Hydralazine effect size confidence interval blood pressure cha -> OK(3)            backfill_hydralazine_effect_size_confidence_interval_blood_pressure_c.json
+  [B3] Hydralazine comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_hydralazine_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Hydralazine time to onset pharmacokinetics peak effect         -> OK(3)            backfill_hydralazine_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== hydrochlorothiazide [Antihypertensive] ===
+  [A1] Hydrochlorothiazide mechanism of action efficacy clinical tria -> OK(3)            backfill_hydrochlorothiazide_mechanism_of_action_efficacy_clinical_tr.json
+  [A2] Hydrochlorothiazide blood pressure reduction hypertension effi -> OK(3)            backfill_hydrochlorothiazide_blood_pressure_reduction_hypertension_ef.json
+  [A3] Hydrochlorothiazide number needed to treat NNT outcome         -> OK(3)            backfill_hydrochlorothiazide_number_needed_to_treat_nnt_outcome.json
+  [A4] Hydrochlorothiazide adverse effects safety profile incidence   -> OK(3)            backfill_hydrochlorothiazide_adverse_effects_safety_profile_incidence.json
+  [B1] Hydrochlorothiazide randomized controlled trial efficacy outco -> OK(3)            backfill_hydrochlorothiazide_randomized_controlled_trial_efficacy_out.json
+  [B2] Hydrochlorothiazide effect size confidence interval blood pres -> OK(3)            backfill_hydrochlorothiazide_effect_size_confidence_interval_blood_pr.json
+  [B3] Hydrochlorothiazide comparative effectiveness versus placebo m -> OK(3)            backfill_hydrochlorothiazide_comparative_effectiveness_versus_placebo.json
+  [B4] Hydrochlorothiazide time to onset pharmacokinetics peak effect -> OK(3)            backfill_hydrochlorothiazide_time_to_onset_pharmacokinetics_peak_effe.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== indapamide [Antihypertensive] ===
+  [A1] Indapamide mechanism of action efficacy clinical trial         -> OK(3)            backfill_indapamide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Indapamide blood pressure reduction hypertension efficacy      -> OK(3)            backfill_indapamide_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Indapamide number needed to treat NNT outcome                  -> OK(3)            backfill_indapamide_number_needed_to_treat_nnt_outcome.json
+  [A4] Indapamide adverse effects safety profile incidence            -> OK(3)            backfill_indapamide_adverse_effects_safety_profile_incidence.json
+  [B1] Indapamide randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_indapamide_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Indapamide effect size confidence interval blood pressure chan -> OK(3)            backfill_indapamide_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Indapamide comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_indapamide_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Indapamide time to onset pharmacokinetics peak effect          -> OK(3)            backfill_indapamide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== irbesartan [Antihypertensive] ===
+  [A1] Irbesartan mechanism of action efficacy clinical trial         -> OK(3)            backfill_irbesartan_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Irbesartan blood pressure reduction hypertension efficacy      -> OK(3)            backfill_irbesartan_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Irbesartan number needed to treat NNT outcome                  -> OK(3)            backfill_irbesartan_number_needed_to_treat_nnt_outcome.json
+  [A4] Irbesartan adverse effects safety profile incidence            -> OK(3)            backfill_irbesartan_adverse_effects_safety_profile_incidence.json
+  [B1] Irbesartan randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_irbesartan_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Irbesartan effect size confidence interval blood pressure chan -> OK(3)            backfill_irbesartan_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Irbesartan comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_irbesartan_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Irbesartan time to onset pharmacokinetics peak effect          -> OK(3)            backfill_irbesartan_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== lisinopril [Antihypertensive] ===
+  [A1] Lisinopril mechanism of action efficacy clinical trial         -> OK(3)            backfill_lisinopril_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Lisinopril blood pressure reduction hypertension efficacy      -> OK(3)            backfill_lisinopril_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Lisinopril number needed to treat NNT outcome                  -> OK(3)            backfill_lisinopril_number_needed_to_treat_nnt_outcome.json
+  [A4] Lisinopril adverse effects safety profile incidence            -> OK(3)            backfill_lisinopril_adverse_effects_safety_profile_incidence.json
+  [B1] Lisinopril randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_lisinopril_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Lisinopril effect size confidence interval blood pressure chan -> OK(3)            backfill_lisinopril_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Lisinopril comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_lisinopril_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Lisinopril time to onset pharmacokinetics peak effect          -> OK(3)            backfill_lisinopril_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== losartan [Antihypertensive] ===
+  [A1] Losartan mechanism of action efficacy clinical trial           -> OK(3)            backfill_losartan_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Losartan blood pressure reduction hypertension efficacy        -> OK(3)            backfill_losartan_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Losartan number needed to treat NNT outcome                    -> OK(3)            backfill_losartan_number_needed_to_treat_nnt_outcome.json
+  [A4] Losartan adverse effects safety profile incidence              -> OK(3)            backfill_losartan_adverse_effects_safety_profile_incidence.json
+  [B1] Losartan randomized controlled trial efficacy outcome quantita -> OK(3)            backfill_losartan_randomized_controlled_trial_efficacy_outcome_quanti.json
+  [B2] Losartan effect size confidence interval blood pressure change -> OK(3)            backfill_losartan_effect_size_confidence_interval_blood_pressure_chan.json
+  [B3] Losartan comparative effectiveness versus placebo meta-analysi -> OK(3)            backfill_losartan_comparative_effectiveness_versus_placebo_meta_analy.json
+  [B4] Losartan time to onset pharmacokinetics peak effect            -> OK(3)            backfill_losartan_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== methyldopa [Antihypertensive] ===
+  [A1] Methyldopa mechanism of action efficacy clinical trial         -> OK(3)            backfill_methyldopa_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Methyldopa blood pressure reduction hypertension efficacy      -> OK(3)            backfill_methyldopa_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Methyldopa number needed to treat NNT outcome                  -> OK(3)            backfill_methyldopa_number_needed_to_treat_nnt_outcome.json
+  [A4] Methyldopa adverse effects safety profile incidence            -> OK(3)            backfill_methyldopa_adverse_effects_safety_profile_incidence.json
+  [B1] Methyldopa randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_methyldopa_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Methyldopa effect size confidence interval blood pressure chan -> OK(3)            backfill_methyldopa_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Methyldopa comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_methyldopa_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Methyldopa time to onset pharmacokinetics peak effect          -> OK(3)            backfill_methyldopa_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== metoprolol [Antihypertensive] ===
+  [A1] Metoprolol mechanism of action efficacy clinical trial         -> OK(3)            backfill_metoprolol_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Metoprolol blood pressure reduction hypertension efficacy      -> OK(3)            backfill_metoprolol_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Metoprolol number needed to treat NNT outcome                  -> OK(3)            backfill_metoprolol_number_needed_to_treat_nnt_outcome.json
+  [A4] Metoprolol adverse effects safety profile incidence            -> OK(3)            backfill_metoprolol_adverse_effects_safety_profile_incidence.json
+  [B1] Metoprolol randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_metoprolol_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Metoprolol effect size confidence interval blood pressure chan -> OK(3)            backfill_metoprolol_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Metoprolol comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_metoprolol_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Metoprolol time to onset pharmacokinetics peak effect          -> OK(3)            backfill_metoprolol_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== nebivolol [Antihypertensive] ===
+  [A1] Nebivolol mechanism of action efficacy clinical trial          -> OK(3)            backfill_nebivolol_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Nebivolol blood pressure reduction hypertension efficacy       -> OK(3)            backfill_nebivolol_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Nebivolol number needed to treat NNT outcome                   -> OK(3)            backfill_nebivolol_number_needed_to_treat_nnt_outcome.json
+  [A4] Nebivolol adverse effects safety profile incidence             -> OK(3)            backfill_nebivolol_adverse_effects_safety_profile_incidence.json
+  [B1] Nebivolol randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_nebivolol_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Nebivolol effect size confidence interval blood pressure chang -> OK(3)            backfill_nebivolol_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Nebivolol comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_nebivolol_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Nebivolol time to onset pharmacokinetics peak effect           -> OK(3)            backfill_nebivolol_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== nifedipine [Antihypertensive] ===
+  [A1] Nifedipine mechanism of action efficacy clinical trial         -> OK(3)            backfill_nifedipine_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Nifedipine blood pressure reduction hypertension efficacy      -> OK(3)            backfill_nifedipine_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Nifedipine number needed to treat NNT outcome                  -> OK(3)            backfill_nifedipine_number_needed_to_treat_nnt_outcome.json
+  [A4] Nifedipine adverse effects safety profile incidence            -> OK(3)            backfill_nifedipine_adverse_effects_safety_profile_incidence.json
+  [B1] Nifedipine randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_nifedipine_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Nifedipine effect size confidence interval blood pressure chan -> OK(3)            backfill_nifedipine_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Nifedipine comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_nifedipine_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Nifedipine time to onset pharmacokinetics peak effect          -> OK(3)            backfill_nifedipine_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== olmesartan [Antihypertensive] ===
+  [A1] Olmesartan mechanism of action efficacy clinical trial         -> OK(3)            backfill_olmesartan_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Olmesartan blood pressure reduction hypertension efficacy      -> OK(3)            backfill_olmesartan_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Olmesartan number needed to treat NNT outcome                  -> OK(3)            backfill_olmesartan_number_needed_to_treat_nnt_outcome.json
+  [A4] Olmesartan adverse effects safety profile incidence            -> OK(3)            backfill_olmesartan_adverse_effects_safety_profile_incidence.json
+  [B1] Olmesartan randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_olmesartan_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Olmesartan effect size confidence interval blood pressure chan -> OK(3)            backfill_olmesartan_effect_size_confidence_interval_blood_pressure_ch.json
+  [B3] Olmesartan comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_olmesartan_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Olmesartan time to onset pharmacokinetics peak effect          -> OK(3)            backfill_olmesartan_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== perindopril [Antihypertensive] ===
+  [A1] Perindopril mechanism of action efficacy clinical trial        -> OK(3)            backfill_perindopril_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Perindopril blood pressure reduction hypertension efficacy     -> OK(3)            backfill_perindopril_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Perindopril number needed to treat NNT outcome                 -> OK(3)            backfill_perindopril_number_needed_to_treat_nnt_outcome.json
+  [A4] Perindopril adverse effects safety profile incidence           -> OK(3)            backfill_perindopril_adverse_effects_safety_profile_incidence.json
+  [B1] Perindopril randomized controlled trial efficacy outcome quant -> OK(3)            backfill_perindopril_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Perindopril effect size confidence interval blood pressure cha -> OK(3)            backfill_perindopril_effect_size_confidence_interval_blood_pressure_c.json
+  [B3] Perindopril comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_perindopril_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Perindopril time to onset pharmacokinetics peak effect         -> OK(3)            backfill_perindopril_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== propranolol [Antihypertensive] ===
+  [A1] Propranolol mechanism of action efficacy clinical trial        -> OK(3)            backfill_propranolol_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Propranolol blood pressure reduction hypertension efficacy     -> OK(3)            backfill_propranolol_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Propranolol number needed to treat NNT outcome                 -> OK(3)            backfill_propranolol_number_needed_to_treat_nnt_outcome.json
+  [A4] Propranolol adverse effects safety profile incidence           -> OK(3)            backfill_propranolol_adverse_effects_safety_profile_incidence.json
+  [B1] Propranolol randomized controlled trial efficacy outcome quant -> OK(3)            backfill_propranolol_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Propranolol effect size confidence interval blood pressure cha -> OK(3)            backfill_propranolol_effect_size_confidence_interval_blood_pressure_c.json
+  [B3] Propranolol comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_propranolol_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Propranolol time to onset pharmacokinetics peak effect         -> OK(3)            backfill_propranolol_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== ramipril [Antihypertensive] ===
+  [A1] Ramipril mechanism of action efficacy clinical trial           -> OK(3)            backfill_ramipril_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Ramipril blood pressure reduction hypertension efficacy        -> OK(3)            backfill_ramipril_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Ramipril number needed to treat NNT outcome                    -> OK(3)            backfill_ramipril_number_needed_to_treat_nnt_outcome.json
+  [A4] Ramipril adverse effects safety profile incidence              -> OK(3)            backfill_ramipril_adverse_effects_safety_profile_incidence.json
+  [B1] Ramipril randomized controlled trial efficacy outcome quantita -> OK(3)            backfill_ramipril_randomized_controlled_trial_efficacy_outcome_quanti.json
+  [B2] Ramipril effect size confidence interval blood pressure change -> OK(3)            backfill_ramipril_effect_size_confidence_interval_blood_pressure_chan.json
+  [B3] Ramipril comparative effectiveness versus placebo meta-analysi -> OK(3)            backfill_ramipril_comparative_effectiveness_versus_placebo_meta_analy.json
+  [B4] Ramipril time to onset pharmacokinetics peak effect            -> OK(3)            backfill_ramipril_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== spironolactone [Antihypertensive] ===
+  [A1] Spironolactone mechanism of action efficacy clinical trial     -> OK(3)            backfill_spironolactone_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Spironolactone blood pressure reduction hypertension efficacy  -> OK(3)            backfill_spironolactone_blood_pressure_reduction_hypertension_efficac.json
+  [A3] Spironolactone number needed to treat NNT outcome              -> OK(3)            backfill_spironolactone_number_needed_to_treat_nnt_outcome.json
+  [A4] Spironolactone adverse effects safety profile incidence        -> OK(3)            backfill_spironolactone_adverse_effects_safety_profile_incidence.json
+  [B1] Spironolactone randomized controlled trial efficacy outcome qu -> OK(3)            backfill_spironolactone_randomized_controlled_trial_efficacy_outcome_.json
+  [B2] Spironolactone effect size confidence interval blood pressure  -> OK(3)            backfill_spironolactone_effect_size_confidence_interval_blood_pressur.json
+  [B3] Spironolactone comparative effectiveness versus placebo meta-a -> OK(3)            backfill_spironolactone_comparative_effectiveness_versus_placebo_meta.json
+  [B4] Spironolactone time to onset pharmacokinetics peak effect      -> OK(3)            backfill_spironolactone_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== telmisartan [Antihypertensive] ===
+  [A1] Telmisartan mechanism of action efficacy clinical trial        -> OK(3)            backfill_telmisartan_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Telmisartan blood pressure reduction hypertension efficacy     -> OK(3)            backfill_telmisartan_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Telmisartan number needed to treat NNT outcome                 -> OK(3)            backfill_telmisartan_number_needed_to_treat_nnt_outcome.json
+  [A4] Telmisartan adverse effects safety profile incidence           -> OK(3)            backfill_telmisartan_adverse_effects_safety_profile_incidence.json
+  [B1] Telmisartan randomized controlled trial efficacy outcome quant -> OK(3)            backfill_telmisartan_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Telmisartan effect size confidence interval blood pressure cha -> OK(3)            backfill_telmisartan_effect_size_confidence_interval_blood_pressure_c.json
+  [B3] Telmisartan comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_telmisartan_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Telmisartan time to onset pharmacokinetics peak effect         -> OK(3)            backfill_telmisartan_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== terazosin [Antihypertensive] ===
+  [A1] Terazosin mechanism of action efficacy clinical trial          -> OK(3)            backfill_terazosin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Terazosin blood pressure reduction hypertension efficacy       -> OK(3)            backfill_terazosin_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Terazosin number needed to treat NNT outcome                   -> OK(3)            backfill_terazosin_number_needed_to_treat_nnt_outcome.json
+  [A4] Terazosin adverse effects safety profile incidence             -> OK(3)            backfill_terazosin_adverse_effects_safety_profile_incidence.json
+  [B1] Terazosin randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_terazosin_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Terazosin effect size confidence interval blood pressure chang -> OK(3)            backfill_terazosin_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Terazosin comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_terazosin_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Terazosin time to onset pharmacokinetics peak effect           -> OK(3)            backfill_terazosin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== trandolapril [Antihypertensive] ===
+  [A1] Trandolapril mechanism of action efficacy clinical trial       -> OK(3)            backfill_trandolapril_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Trandolapril blood pressure reduction hypertension efficacy    -> OK(3)            backfill_trandolapril_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Trandolapril number needed to treat NNT outcome                -> OK(3)            backfill_trandolapril_number_needed_to_treat_nnt_outcome.json
+  [A4] Trandolapril adverse effects safety profile incidence          -> OK(3)            backfill_trandolapril_adverse_effects_safety_profile_incidence.json
+  [B1] Trandolapril randomized controlled trial efficacy outcome quan -> OK(3)            backfill_trandolapril_randomized_controlled_trial_efficacy_outcome_qu.json
+  [B2] Trandolapril effect size confidence interval blood pressure ch -> OK(3)            backfill_trandolapril_effect_size_confidence_interval_blood_pressure_.json
+  [B3] Trandolapril comparative effectiveness versus placebo meta-ana -> OK(3)            backfill_trandolapril_comparative_effectiveness_versus_placebo_meta_a.json
+  [B4] Trandolapril time to onset pharmacokinetics peak effect        -> OK(3)            backfill_trandolapril_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== valsartan [Antihypertensive] ===
+  [A1] Valsartan mechanism of action efficacy clinical trial          -> OK(3)            backfill_valsartan_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Valsartan blood pressure reduction hypertension efficacy       -> OK(3)            backfill_valsartan_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Valsartan number needed to treat NNT outcome                   -> OK(3)            backfill_valsartan_number_needed_to_treat_nnt_outcome.json
+  [A4] Valsartan adverse effects safety profile incidence             -> OK(3)            backfill_valsartan_adverse_effects_safety_profile_incidence.json
+  [B1] Valsartan randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_valsartan_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Valsartan effect size confidence interval blood pressure chang -> OK(3)            backfill_valsartan_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Valsartan comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_valsartan_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Valsartan time to onset pharmacokinetics peak effect           -> OK(3)            backfill_valsartan_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== verapamil [Antihypertensive] ===
+  [A1] Verapamil mechanism of action efficacy clinical trial          -> OK(3)            backfill_verapamil_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Verapamil blood pressure reduction hypertension efficacy       -> OK(3)            backfill_verapamil_blood_pressure_reduction_hypertension_efficacy.json
+  [A3] Verapamil number needed to treat NNT outcome                   -> OK(3)            backfill_verapamil_number_needed_to_treat_nnt_outcome.json
+  [A4] Verapamil adverse effects safety profile incidence             -> OK(3)            backfill_verapamil_adverse_effects_safety_profile_incidence.json
+  [B1] Verapamil randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_verapamil_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Verapamil effect size confidence interval blood pressure chang -> OK(3)            backfill_verapamil_effect_size_confidence_interval_blood_pressure_cha.json
+  [B3] Verapamil comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_verapamil_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Verapamil time to onset pharmacokinetics peak effect           -> OK(3)            backfill_verapamil_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+======================================================================
+SUMMARY (ALL 88 drugs, 9 classes)
+======================================================================
+  amlodipine                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  atenolol                     Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  bisoprolol                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  candesartan                  Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  captopril                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  carvedilol                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  chlorthalidone               Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  clonidine                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  diltiazem                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  doxazosin                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  enalapril                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  felodipine                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  furosemide                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  hydralazine                  Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  hydrochlorothiazide          Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  indapamide                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  irbesartan                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  lisinopril                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  losartan                     Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  methyldopa                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  metoprolol                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  nebivolol                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  nifedipine                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  olmesartan                   Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  perindopril                  Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  propranolol                  Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  ramipril                     Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  spironolactone               Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  telmisartan                  Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  terazosin                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  trandolapril                 Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  valsartan                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  verapamil                    Antihyperten RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+----------------------------------------------------------------------
+  Drugs: 33 | RAG queries issued: 264 | OK: 264 | still-loading: 0 | timeouts: 0 | other: 0 | EUtils runs: 0 | files written: 264 | files refreshed: 264 | files skipped (existing): 0 | drugs already covered: 0
+  Summary file: C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\backfill_all_summary.json
+  Overwrites: none (all outputs are new backfill_* files)
+[09:24:29] DONE: Antihypertensive
+[09:24:29] START: Diabetes -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_Diabetes.log
+Loaded 28 drugs from C:\Users\think\Project_v2\drug-quantification-framework\api\drugs.json (Diabetes)
+
+=== acarbose [Diabetes] ===
+  [A1] Acarbose mechanism of action efficacy clinical trial           -> OK(3)            backfill_acarbose_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Acarbose HbA1c reduction diabetes efficacy                     -> OK(3)            backfill_acarbose_hba1c_reduction_diabetes_efficacy.json
+  [A3] Acarbose number needed to treat NNT outcome                    -> OK(3)            backfill_acarbose_number_needed_to_treat_nnt_outcome.json
+  [A4] Acarbose adverse effects safety profile incidence              -> OK(3)            backfill_acarbose_adverse_effects_safety_profile_incidence.json
+  [B1] Acarbose randomized controlled trial efficacy outcome quantita -> OK(3)            backfill_acarbose_randomized_controlled_trial_efficacy_outcome_quanti.json
+  [B2] Acarbose effect size confidence interval HbA1c change          -> OK(3)            backfill_acarbose_effect_size_confidence_interval_hba1c_change.json
+  [B3] Acarbose comparative effectiveness versus placebo meta-analysi -> OK(3)            backfill_acarbose_comparative_effectiveness_versus_placebo_meta_analy.json
+  [B4] Acarbose time to onset pharmacokinetics peak effect            -> OK(3)            backfill_acarbose_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== alogliptin [Diabetes] ===
+  [A1] Alogliptin mechanism of action efficacy clinical trial         -> OK(3)            backfill_alogliptin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Alogliptin HbA1c reduction diabetes efficacy                   -> OK(3)            backfill_alogliptin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Alogliptin number needed to treat NNT outcome                  -> OK(3)            backfill_alogliptin_number_needed_to_treat_nnt_outcome.json
+  [A4] Alogliptin adverse effects safety profile incidence            -> OK(3)            backfill_alogliptin_adverse_effects_safety_profile_incidence.json
+  [B1] Alogliptin randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_alogliptin_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Alogliptin effect size confidence interval HbA1c change        -> OK(3)            backfill_alogliptin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Alogliptin comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_alogliptin_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Alogliptin time to onset pharmacokinetics peak effect          -> OK(3)            backfill_alogliptin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== canagliflozin [Diabetes] ===
+  [A1] Canagliflozin mechanism of action efficacy clinical trial      -> OK(3)            backfill_canagliflozin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Canagliflozin HbA1c reduction diabetes efficacy                -> OK(3)            backfill_canagliflozin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Canagliflozin number needed to treat NNT outcome               -> OK(3)            backfill_canagliflozin_number_needed_to_treat_nnt_outcome.json
+  [A4] Canagliflozin adverse effects safety profile incidence         -> OK(3)            backfill_canagliflozin_adverse_effects_safety_profile_incidence.json
+  [B1] Canagliflozin randomized controlled trial efficacy outcome qua -> OK(3)            backfill_canagliflozin_randomized_controlled_trial_efficacy_outcome_q.json
+  [B2] Canagliflozin effect size confidence interval HbA1c change     -> OK(3)            backfill_canagliflozin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Canagliflozin comparative effectiveness versus placebo meta-an -> OK(3)            backfill_canagliflozin_comparative_effectiveness_versus_placebo_meta_.json
+  [B4] Canagliflozin time to onset pharmacokinetics peak effect       -> OK(3)            backfill_canagliflozin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== dapagliflozin [Diabetes] ===
+  [A1] Dapagliflozin mechanism of action efficacy clinical trial      -> OK(3)            backfill_dapagliflozin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Dapagliflozin HbA1c reduction diabetes efficacy                -> OK(3)            backfill_dapagliflozin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Dapagliflozin number needed to treat NNT outcome               -> OK(3)            backfill_dapagliflozin_number_needed_to_treat_nnt_outcome.json
+  [A4] Dapagliflozin adverse effects safety profile incidence         -> OK(3)            backfill_dapagliflozin_adverse_effects_safety_profile_incidence.json
+  [B1] Dapagliflozin randomized controlled trial efficacy outcome qua -> OK(3)            backfill_dapagliflozin_randomized_controlled_trial_efficacy_outcome_q.json
+  [B2] Dapagliflozin effect size confidence interval HbA1c change     -> OK(3)            backfill_dapagliflozin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Dapagliflozin comparative effectiveness versus placebo meta-an -> OK(3)            backfill_dapagliflozin_comparative_effectiveness_versus_placebo_meta_.json
+  [B4] Dapagliflozin time to onset pharmacokinetics peak effect       -> OK(3)            backfill_dapagliflozin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== dulaglutide [Diabetes] ===
+  [A1] Dulaglutide mechanism of action efficacy clinical trial        -> OK(3)            backfill_dulaglutide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Dulaglutide HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_dulaglutide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Dulaglutide number needed to treat NNT outcome                 -> OK(3)            backfill_dulaglutide_number_needed_to_treat_nnt_outcome.json
+  [A4] Dulaglutide adverse effects safety profile incidence           -> OK(3)            backfill_dulaglutide_adverse_effects_safety_profile_incidence.json
+  [B1] Dulaglutide randomized controlled trial efficacy outcome quant -> OK(3)            backfill_dulaglutide_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Dulaglutide effect size confidence interval HbA1c change       -> OK(3)            backfill_dulaglutide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Dulaglutide comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_dulaglutide_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Dulaglutide time to onset pharmacokinetics peak effect         -> OK(3)            backfill_dulaglutide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== empagliflozin [Diabetes] ===
+  [A1] Empagliflozin mechanism of action efficacy clinical trial      -> OK(3)            backfill_empagliflozin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Empagliflozin HbA1c reduction diabetes efficacy                -> OK(3)            backfill_empagliflozin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Empagliflozin number needed to treat NNT outcome               -> OK(3)            backfill_empagliflozin_number_needed_to_treat_nnt_outcome.json
+  [A4] Empagliflozin adverse effects safety profile incidence         -> OK(3)            backfill_empagliflozin_adverse_effects_safety_profile_incidence.json
+  [B1] Empagliflozin randomized controlled trial efficacy outcome qua -> OK(3)            backfill_empagliflozin_randomized_controlled_trial_efficacy_outcome_q.json
+  [B2] Empagliflozin effect size confidence interval HbA1c change     -> OK(3)            backfill_empagliflozin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Empagliflozin comparative effectiveness versus placebo meta-an -> OK(3)            backfill_empagliflozin_comparative_effectiveness_versus_placebo_meta_.json
+  [B4] Empagliflozin time to onset pharmacokinetics peak effect       -> OK(3)            backfill_empagliflozin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== ertugliflozin [Diabetes] ===
+  [A1] Ertugliflozin mechanism of action efficacy clinical trial      -> OK(3)            backfill_ertugliflozin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Ertugliflozin HbA1c reduction diabetes efficacy                -> OK(3)            backfill_ertugliflozin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Ertugliflozin number needed to treat NNT outcome               -> OK(3)            backfill_ertugliflozin_number_needed_to_treat_nnt_outcome.json
+  [A4] Ertugliflozin adverse effects safety profile incidence         -> OK(3)            backfill_ertugliflozin_adverse_effects_safety_profile_incidence.json
+  [B1] Ertugliflozin randomized controlled trial efficacy outcome qua -> OK(3)            backfill_ertugliflozin_randomized_controlled_trial_efficacy_outcome_q.json
+  [B2] Ertugliflozin effect size confidence interval HbA1c change     -> OK(3)            backfill_ertugliflozin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Ertugliflozin comparative effectiveness versus placebo meta-an -> OK(3)            backfill_ertugliflozin_comparative_effectiveness_versus_placebo_meta_.json
+  [B4] Ertugliflozin time to onset pharmacokinetics peak effect       -> OK(3)            backfill_ertugliflozin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== exenatide [Diabetes] ===
+  [A1] Exenatide mechanism of action efficacy clinical trial          -> OK(3)            backfill_exenatide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Exenatide HbA1c reduction diabetes efficacy                    -> OK(3)            backfill_exenatide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Exenatide number needed to treat NNT outcome                   -> OK(3)            backfill_exenatide_number_needed_to_treat_nnt_outcome.json
+  [A4] Exenatide adverse effects safety profile incidence             -> OK(3)            backfill_exenatide_adverse_effects_safety_profile_incidence.json
+  [B1] Exenatide randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_exenatide_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Exenatide effect size confidence interval HbA1c change         -> OK(3)            backfill_exenatide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Exenatide comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_exenatide_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Exenatide time to onset pharmacokinetics peak effect           -> OK(3)            backfill_exenatide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== gliclazide [Diabetes] ===
+  [A1] Gliclazide mechanism of action efficacy clinical trial         -> OK(3)            backfill_gliclazide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Gliclazide HbA1c reduction diabetes efficacy                   -> OK(3)            backfill_gliclazide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Gliclazide number needed to treat NNT outcome                  -> OK(3)            backfill_gliclazide_number_needed_to_treat_nnt_outcome.json
+  [A4] Gliclazide adverse effects safety profile incidence            -> OK(3)            backfill_gliclazide_adverse_effects_safety_profile_incidence.json
+  [B1] Gliclazide randomized controlled trial efficacy outcome quanti -> OK(3)            backfill_gliclazide_randomized_controlled_trial_efficacy_outcome_quan.json
+  [B2] Gliclazide effect size confidence interval HbA1c change        -> OK(3)            backfill_gliclazide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Gliclazide comparative effectiveness versus placebo meta-analy -> OK(3)            backfill_gliclazide_comparative_effectiveness_versus_placebo_meta_ana.json
+  [B4] Gliclazide time to onset pharmacokinetics peak effect          -> OK(3)            backfill_gliclazide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== glimepiride [Diabetes] ===
+  [A1] Glimepiride mechanism of action efficacy clinical trial        -> OK(3)            backfill_glimepiride_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Glimepiride HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_glimepiride_hba1c_reduction_diabetes_efficacy.json
+  [A3] Glimepiride number needed to treat NNT outcome                 -> OK(3)            backfill_glimepiride_number_needed_to_treat_nnt_outcome.json
+  [A4] Glimepiride adverse effects safety profile incidence           -> OK(3)            backfill_glimepiride_adverse_effects_safety_profile_incidence.json
+  [B1] Glimepiride randomized controlled trial efficacy outcome quant -> OK(3)            backfill_glimepiride_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Glimepiride effect size confidence interval HbA1c change       -> OK(3)            backfill_glimepiride_effect_size_confidence_interval_hba1c_change.json
+  [B3] Glimepiride comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_glimepiride_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Glimepiride time to onset pharmacokinetics peak effect         -> OK(3)            backfill_glimepiride_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== glipizide [Diabetes] ===
+  [A1] Glipizide mechanism of action efficacy clinical trial          -> OK(3)            backfill_glipizide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Glipizide HbA1c reduction diabetes efficacy                    -> OK(3)            backfill_glipizide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Glipizide number needed to treat NNT outcome                   -> OK(3)            backfill_glipizide_number_needed_to_treat_nnt_outcome.json
+  [A4] Glipizide adverse effects safety profile incidence             -> OK(3)            backfill_glipizide_adverse_effects_safety_profile_incidence.json
+  [B1] Glipizide randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_glipizide_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Glipizide effect size confidence interval HbA1c change         -> OK(3)            backfill_glipizide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Glipizide comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_glipizide_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Glipizide time to onset pharmacokinetics peak effect           -> OK(3)            backfill_glipizide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== glyburide [Diabetes] ===
+  [A1] Glyburide mechanism of action efficacy clinical trial          -> OK(3)            backfill_glyburide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Glyburide HbA1c reduction diabetes efficacy                    -> OK(3)            backfill_glyburide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Glyburide number needed to treat NNT outcome                   -> OK(3)            backfill_glyburide_number_needed_to_treat_nnt_outcome.json
+  [A4] Glyburide adverse effects safety profile incidence             -> OK(3)            backfill_glyburide_adverse_effects_safety_profile_incidence.json
+  [B1] Glyburide randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_glyburide_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Glyburide effect size confidence interval HbA1c change         -> OK(3)            backfill_glyburide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Glyburide comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_glyburide_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Glyburide time to onset pharmacokinetics peak effect           -> OK(3)            backfill_glyburide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== insulin-aspart [Diabetes] ===
+  [A1] Insulin Aspart mechanism of action efficacy clinical trial     -> OK(3)            backfill_insulin_aspart_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Insulin Aspart HbA1c reduction diabetes efficacy               -> OK(3)            backfill_insulin_aspart_hba1c_reduction_diabetes_efficacy.json
+  [A3] Insulin Aspart number needed to treat NNT outcome              -> OK(3)            backfill_insulin_aspart_number_needed_to_treat_nnt_outcome.json
+  [A4] Insulin Aspart adverse effects safety profile incidence        -> OK(3)            backfill_insulin_aspart_adverse_effects_safety_profile_incidence.json
+  [B1] Insulin Aspart randomized controlled trial efficacy outcome qu -> OK(3)            backfill_insulin_aspart_randomized_controlled_trial_efficacy_outcome_.json
+  [B2] Insulin Aspart effect size confidence interval HbA1c change    -> OK(3)            backfill_insulin_aspart_effect_size_confidence_interval_hba1c_change.json
+  [B3] Insulin Aspart comparative effectiveness versus placebo meta-a -> OK(3)            backfill_insulin_aspart_comparative_effectiveness_versus_placebo_meta.json
+  [B4] Insulin Aspart time to onset pharmacokinetics peak effect      -> OK(3)            backfill_insulin_aspart_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== insulin-degludec [Diabetes] ===
+  [A1] Insulin Degludec mechanism of action efficacy clinical trial   -> OK(3)            backfill_insulin_degludec_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Insulin Degludec HbA1c reduction diabetes efficacy             -> OK(3)            backfill_insulin_degludec_hba1c_reduction_diabetes_efficacy.json
+  [A3] Insulin Degludec number needed to treat NNT outcome            -> OK(3)            backfill_insulin_degludec_number_needed_to_treat_nnt_outcome.json
+  [A4] Insulin Degludec adverse effects safety profile incidence      -> OK(3)            backfill_insulin_degludec_adverse_effects_safety_profile_incidence.json
+  [B1] Insulin Degludec randomized controlled trial efficacy outcome  -> OK(3)            backfill_insulin_degludec_randomized_controlled_trial_efficacy_outcom.json
+  [B2] Insulin Degludec effect size confidence interval HbA1c change  -> OK(3)            backfill_insulin_degludec_effect_size_confidence_interval_hba1c_chang.json
+  [B3] Insulin Degludec comparative effectiveness versus placebo meta -> OK(3)            backfill_insulin_degludec_comparative_effectiveness_versus_placebo_me.json
+  [B4] Insulin Degludec time to onset pharmacokinetics peak effect    -> OK(3)            backfill_insulin_degludec_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== insulin-glargine [Diabetes] ===
+  [A1] Insulin Glargine mechanism of action efficacy clinical trial   -> OK(3)            backfill_insulin_glargine_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Insulin Glargine HbA1c reduction diabetes efficacy             -> OK(3)            backfill_insulin_glargine_hba1c_reduction_diabetes_efficacy.json
+  [A3] Insulin Glargine number needed to treat NNT outcome            -> OK(3)            backfill_insulin_glargine_number_needed_to_treat_nnt_outcome.json
+  [A4] Insulin Glargine adverse effects safety profile incidence      -> OK(3)            backfill_insulin_glargine_adverse_effects_safety_profile_incidence.json
+  [B1] Insulin Glargine randomized controlled trial efficacy outcome  -> OK(3)            backfill_insulin_glargine_randomized_controlled_trial_efficacy_outcom.json
+  [B2] Insulin Glargine effect size confidence interval HbA1c change  -> OK(3)            backfill_insulin_glargine_effect_size_confidence_interval_hba1c_chang.json
+  [B3] Insulin Glargine comparative effectiveness versus placebo meta -> OK(3)            backfill_insulin_glargine_comparative_effectiveness_versus_placebo_me.json
+  [B4] Insulin Glargine time to onset pharmacokinetics peak effect    -> OK(3)            backfill_insulin_glargine_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== insulin-lispro [Diabetes] ===
+  [A1] Insulin Lispro mechanism of action efficacy clinical trial     -> OK(3)            backfill_insulin_lispro_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Insulin Lispro HbA1c reduction diabetes efficacy               -> OK(3)            backfill_insulin_lispro_hba1c_reduction_diabetes_efficacy.json
+  [A3] Insulin Lispro number needed to treat NNT outcome              -> OK(3)            backfill_insulin_lispro_number_needed_to_treat_nnt_outcome.json
+  [A4] Insulin Lispro adverse effects safety profile incidence        -> OK(3)            backfill_insulin_lispro_adverse_effects_safety_profile_incidence.json
+  [B1] Insulin Lispro randomized controlled trial efficacy outcome qu -> OK(3)            backfill_insulin_lispro_randomized_controlled_trial_efficacy_outcome_.json
+  [B2] Insulin Lispro effect size confidence interval HbA1c change    -> OK(3)            backfill_insulin_lispro_effect_size_confidence_interval_hba1c_change.json
+  [B3] Insulin Lispro comparative effectiveness versus placebo meta-a -> OK(3)            backfill_insulin_lispro_comparative_effectiveness_versus_placebo_meta.json
+  [B4] Insulin Lispro time to onset pharmacokinetics peak effect      -> OK(3)            backfill_insulin_lispro_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== linagliptin [Diabetes] ===
+  [A1] Linagliptin mechanism of action efficacy clinical trial        -> OK(3)            backfill_linagliptin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Linagliptin HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_linagliptin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Linagliptin number needed to treat NNT outcome                 -> OK(3)            backfill_linagliptin_number_needed_to_treat_nnt_outcome.json
+  [A4] Linagliptin adverse effects safety profile incidence           -> OK(3)            backfill_linagliptin_adverse_effects_safety_profile_incidence.json
+  [B1] Linagliptin randomized controlled trial efficacy outcome quant -> OK(3)            backfill_linagliptin_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Linagliptin effect size confidence interval HbA1c change       -> OK(3)            backfill_linagliptin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Linagliptin comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_linagliptin_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Linagliptin time to onset pharmacokinetics peak effect         -> OK(3)            backfill_linagliptin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== liraglutide [Diabetes] ===
+  [A1] Liraglutide mechanism of action efficacy clinical trial        -> OK(3)            backfill_liraglutide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Liraglutide HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_liraglutide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Liraglutide number needed to treat NNT outcome                 -> OK(3)            backfill_liraglutide_number_needed_to_treat_nnt_outcome.json
+  [A4] Liraglutide adverse effects safety profile incidence           -> OK(3)            backfill_liraglutide_adverse_effects_safety_profile_incidence.json
+  [B1] Liraglutide randomized controlled trial efficacy outcome quant -> OK(3)            backfill_liraglutide_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Liraglutide effect size confidence interval HbA1c change       -> OK(3)            backfill_liraglutide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Liraglutide comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_liraglutide_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Liraglutide time to onset pharmacokinetics peak effect         -> OK(3)            backfill_liraglutide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== metformin [Diabetes] ===
+  [A1] Metformin mechanism of action efficacy clinical trial          -> OK(3)            backfill_metformin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Metformin HbA1c reduction diabetes efficacy                    -> OK(3)            backfill_metformin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Metformin number needed to treat NNT outcome                   -> OK(3)            backfill_metformin_number_needed_to_treat_nnt_outcome.json
+  [A4] Metformin adverse effects safety profile incidence             -> OK(3)            backfill_metformin_adverse_effects_safety_profile_incidence.json
+  [B1] Metformin randomized controlled trial efficacy outcome quantit -> OK(3)            backfill_metformin_randomized_controlled_trial_efficacy_outcome_quant.json
+  [B2] Metformin effect size confidence interval HbA1c change         -> OK(3)            backfill_metformin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Metformin comparative effectiveness versus placebo meta-analys -> OK(3)            backfill_metformin_comparative_effectiveness_versus_placebo_meta_anal.json
+  [B4] Metformin time to onset pharmacokinetics peak effect           -> OK(3)            backfill_metformin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== pioglitazone [Diabetes] ===
+  [A1] Pioglitazone mechanism of action efficacy clinical trial       -> OK(3)            backfill_pioglitazone_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Pioglitazone HbA1c reduction diabetes efficacy                 -> OK(3)            backfill_pioglitazone_hba1c_reduction_diabetes_efficacy.json
+  [A3] Pioglitazone number needed to treat NNT outcome                -> OK(3)            backfill_pioglitazone_number_needed_to_treat_nnt_outcome.json
+  [A4] Pioglitazone adverse effects safety profile incidence          -> OK(3)            backfill_pioglitazone_adverse_effects_safety_profile_incidence.json
+  [B1] Pioglitazone randomized controlled trial efficacy outcome quan -> OK(3)            backfill_pioglitazone_randomized_controlled_trial_efficacy_outcome_qu.json
+  [B2] Pioglitazone effect size confidence interval HbA1c change      -> OK(3)            backfill_pioglitazone_effect_size_confidence_interval_hba1c_change.json
+  [B3] Pioglitazone comparative effectiveness versus placebo meta-ana -> OK(3)            backfill_pioglitazone_comparative_effectiveness_versus_placebo_meta_a.json
+  [B4] Pioglitazone time to onset pharmacokinetics peak effect        -> OK(3)            backfill_pioglitazone_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== pramlintide [Diabetes] ===
+  [A1] Pramlintide mechanism of action efficacy clinical trial        -> OK(3)            backfill_pramlintide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Pramlintide HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_pramlintide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Pramlintide number needed to treat NNT outcome                 -> OK(3)            backfill_pramlintide_number_needed_to_treat_nnt_outcome.json
+  [A4] Pramlintide adverse effects safety profile incidence           -> OK(3)            backfill_pramlintide_adverse_effects_safety_profile_incidence.json
+  [B1] Pramlintide randomized controlled trial efficacy outcome quant -> OK(3)            backfill_pramlintide_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Pramlintide effect size confidence interval HbA1c change       -> OK(3)            backfill_pramlintide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Pramlintide comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_pramlintide_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Pramlintide time to onset pharmacokinetics peak effect         -> OK(3)            backfill_pramlintide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== repaglinide [Diabetes] ===
+  [A1] Repaglinide mechanism of action efficacy clinical trial        -> OK(3)            backfill_repaglinide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Repaglinide HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_repaglinide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Repaglinide number needed to treat NNT outcome                 -> OK(3)            backfill_repaglinide_number_needed_to_treat_nnt_outcome.json
+  [A4] Repaglinide adverse effects safety profile incidence           -> OK(3)            backfill_repaglinide_adverse_effects_safety_profile_incidence.json
+  [B1] Repaglinide randomized controlled trial efficacy outcome quant -> OK(3)            backfill_repaglinide_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Repaglinide effect size confidence interval HbA1c change       -> OK(3)            backfill_repaglinide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Repaglinide comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_repaglinide_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Repaglinide time to onset pharmacokinetics peak effect         -> OK(3)            backfill_repaglinide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== rosiglitazone [Diabetes] ===
+  [A1] Rosiglitazone mechanism of action efficacy clinical trial      -> OK(3)            backfill_rosiglitazone_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Rosiglitazone HbA1c reduction diabetes efficacy                -> OK(3)            backfill_rosiglitazone_hba1c_reduction_diabetes_efficacy.json
+  [A3] Rosiglitazone number needed to treat NNT outcome               -> OK(3)            backfill_rosiglitazone_number_needed_to_treat_nnt_outcome.json
+  [A4] Rosiglitazone adverse effects safety profile incidence         -> OK(3)            backfill_rosiglitazone_adverse_effects_safety_profile_incidence.json
+  [B1] Rosiglitazone randomized controlled trial efficacy outcome qua -> OK(3)            backfill_rosiglitazone_randomized_controlled_trial_efficacy_outcome_q.json
+  [B2] Rosiglitazone effect size confidence interval HbA1c change     -> OK(3)            backfill_rosiglitazone_effect_size_confidence_interval_hba1c_change.json
+  [B3] Rosiglitazone comparative effectiveness versus placebo meta-an -> OK(3)            backfill_rosiglitazone_comparative_effectiveness_versus_placebo_meta_.json
+  [B4] Rosiglitazone time to onset pharmacokinetics peak effect       -> OK(3)            backfill_rosiglitazone_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== saxagliptin [Diabetes] ===
+  [A1] Saxagliptin mechanism of action efficacy clinical trial        -> OK(3)            backfill_saxagliptin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Saxagliptin HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_saxagliptin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Saxagliptin number needed to treat NNT outcome                 -> OK(3)            backfill_saxagliptin_number_needed_to_treat_nnt_outcome.json
+  [A4] Saxagliptin adverse effects safety profile incidence           -> OK(3)            backfill_saxagliptin_adverse_effects_safety_profile_incidence.json
+  [B1] Saxagliptin randomized controlled trial efficacy outcome quant -> OK(3)            backfill_saxagliptin_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Saxagliptin effect size confidence interval HbA1c change       -> OK(3)            backfill_saxagliptin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Saxagliptin comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_saxagliptin_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Saxagliptin time to onset pharmacokinetics peak effect         -> OK(3)            backfill_saxagliptin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== semaglutide [Diabetes] ===
+  [A1] Semaglutide mechanism of action efficacy clinical trial        -> OK(3)            backfill_semaglutide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Semaglutide HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_semaglutide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Semaglutide number needed to treat NNT outcome                 -> OK(3)            backfill_semaglutide_number_needed_to_treat_nnt_outcome.json
+  [A4] Semaglutide adverse effects safety profile incidence           -> OK(3)            backfill_semaglutide_adverse_effects_safety_profile_incidence.json
+  [B1] Semaglutide randomized controlled trial efficacy outcome quant -> OK(3)            backfill_semaglutide_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Semaglutide effect size confidence interval HbA1c change       -> OK(3)            backfill_semaglutide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Semaglutide comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_semaglutide_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Semaglutide time to onset pharmacokinetics peak effect         -> OK(3)            backfill_semaglutide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== sitagliptin [Diabetes] ===
+  [A1] Sitagliptin mechanism of action efficacy clinical trial        -> OK(3)            backfill_sitagliptin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Sitagliptin HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_sitagliptin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Sitagliptin number needed to treat NNT outcome                 -> OK(3)            backfill_sitagliptin_number_needed_to_treat_nnt_outcome.json
+  [A4] Sitagliptin adverse effects safety profile incidence           -> OK(3)            backfill_sitagliptin_adverse_effects_safety_profile_incidence.json
+  [B1] Sitagliptin randomized controlled trial efficacy outcome quant -> OK(3)            backfill_sitagliptin_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Sitagliptin effect size confidence interval HbA1c change       -> OK(3)            backfill_sitagliptin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Sitagliptin comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_sitagliptin_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Sitagliptin time to onset pharmacokinetics peak effect         -> OK(3)            backfill_sitagliptin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== tirzepatide [Diabetes] ===
+  [A1] Tirzepatide mechanism of action efficacy clinical trial        -> OK(3)            backfill_tirzepatide_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Tirzepatide HbA1c reduction diabetes efficacy                  -> OK(3)            backfill_tirzepatide_hba1c_reduction_diabetes_efficacy.json
+  [A3] Tirzepatide number needed to treat NNT outcome                 -> OK(3)            backfill_tirzepatide_number_needed_to_treat_nnt_outcome.json
+  [A4] Tirzepatide adverse effects safety profile incidence           -> OK(3)            backfill_tirzepatide_adverse_effects_safety_profile_incidence.json
+  [B1] Tirzepatide randomized controlled trial efficacy outcome quant -> OK(3)            backfill_tirzepatide_randomized_controlled_trial_efficacy_outcome_qua.json
+  [B2] Tirzepatide effect size confidence interval HbA1c change       -> OK(3)            backfill_tirzepatide_effect_size_confidence_interval_hba1c_change.json
+  [B3] Tirzepatide comparative effectiveness versus placebo meta-anal -> OK(3)            backfill_tirzepatide_comparative_effectiveness_versus_placebo_meta_an.json
+  [B4] Tirzepatide time to onset pharmacokinetics peak effect         -> OK(3)            backfill_tirzepatide_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== vildagliptin [Diabetes] ===
+  [A1] Vildagliptin mechanism of action efficacy clinical trial       -> OK(3)            backfill_vildagliptin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Vildagliptin HbA1c reduction diabetes efficacy                 -> OK(3)            backfill_vildagliptin_hba1c_reduction_diabetes_efficacy.json
+  [A3] Vildagliptin number needed to treat NNT outcome                -> OK(3)            backfill_vildagliptin_number_needed_to_treat_nnt_outcome.json
+  [A4] Vildagliptin adverse effects safety profile incidence          -> OK(3)            backfill_vildagliptin_adverse_effects_safety_profile_incidence.json
+  [B1] Vildagliptin randomized controlled trial efficacy outcome quan -> OK(3)            backfill_vildagliptin_randomized_controlled_trial_efficacy_outcome_qu.json
+  [B2] Vildagliptin effect size confidence interval HbA1c change      -> OK(3)            backfill_vildagliptin_effect_size_confidence_interval_hba1c_change.json
+  [B3] Vildagliptin comparative effectiveness versus placebo meta-ana -> OK(3)            backfill_vildagliptin_comparative_effectiveness_versus_placebo_meta_a.json
+  [B4] Vildagliptin time to onset pharmacokinetics peak effect        -> OK(3)            backfill_vildagliptin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+======================================================================
+SUMMARY (ALL 88 drugs, 9 classes)
+======================================================================
+  acarbose                     Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  alogliptin                   Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  canagliflozin                Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  dapagliflozin                Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  dulaglutide                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  empagliflozin                Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  ertugliflozin                Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  exenatide                    Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  gliclazide                   Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  glimepiride                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  glipizide                    Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  glyburide                    Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  insulin-aspart               Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  insulin-degludec             Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  insulin-glargine             Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  insulin-lispro               Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  linagliptin                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  liraglutide                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  metformin                    Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  pioglitazone                 Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  pramlintide                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  repaglinide                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  rosiglitazone                Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  saxagliptin                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  semaglutide                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  sitagliptin                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  tirzepatide                  Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+  vildagliptin                 Diabetes     RAG OK 8/8 | still-loading 0 | timeouts 0 | other 0 | files 8 | EUtils: not needed
+----------------------------------------------------------------------
+  Drugs: 28 | RAG queries issued: 224 | OK: 224 | still-loading: 0 | timeouts: 0 | other: 0 | EUtils runs: 0 | files written: 224 | files refreshed: 224 | files skipped (existing): 0 | drugs already covered: 0
+  Summary file: C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\backfill_all_summary.json
+  Overwrites: none (all outputs are new backfill_* files)
+[09:46:08] DONE: Diabetes
+[09:46:08] START: NSAID -> C:\Users\think\Project_v2\drug-quantification-framework\rag-queries\refresh_logs\class_NSAID.log
+Loaded 10 drugs from C:\Users\think\Project_v2\drug-quantification-framework\api\drugs.json (NSAID)
+
+=== aspirin [NSAID] ===
+  [A1] Aspirin mechanism of action efficacy clinical trial            -> OK(3)            backfill_aspirin_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Aspirin pain relief analgesia efficacy                         -> OK(3)            backfill_aspirin_pain_relief_analgesia_efficacy.json
+  [A3] Aspirin number needed to treat NNT outcome                     -> OK(3)            backfill_aspirin_number_needed_to_treat_nnt_outcome.json
+  [A4] Aspirin adverse effects safety profile incidence               -> OK(3)            backfill_aspirin_adverse_effects_safety_profile_incidence.json
+  [B1] Aspirin randomized controlled trial efficacy outcome quantitat -> OK(3)            backfill_aspirin_randomized_controlled_trial_efficacy_outcome_quantit.json
+  [B2] Aspirin effect size confidence interval pain relief            -> OK(3)            backfill_aspirin_effect_size_confidence_interval_pain_relief.json
+  [B3] Aspirin comparative effectiveness versus placebo meta-analysis -> OK(3)            backfill_aspirin_comparative_effectiveness_versus_placebo_meta_analys.json
+  [B4] Aspirin time to onset pharmacokinetics peak effect             -> OK(3)            backfill_aspirin_time_to_onset_pharmacokinetics_peak_effect.json
+  [EUTILS] not needed (RAG OK = 8/8)
+
+=== celecoxib [NSAID] ===
+  [A1] Celecoxib mechanism of action efficacy clinical trial          -> OK(3)            backfill_celecoxib_mechanism_of_action_efficacy_clinical_trial.json
+  [A2] Celecoxib pain relief analgesia efficacy                       -> OK(3)            backfill_celecoxib_pain_relief_analgesia_efficacy.json
+  [A3] Celecoxib number needed to treat NNT outcome                   -> OK(3)            backfill_celecoxib_number_needed_to_treat_nnt_outcome.json

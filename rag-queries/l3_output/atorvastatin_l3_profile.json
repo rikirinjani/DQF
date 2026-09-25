@@ -4,6 +4,8 @@
   "myopathy_risk": 3,
   "ddi_risk": 2,
   "pleiotropic_effects": [
+    "Anti-Inflammatory",
+    "Antioxidant",
     "Endothelial",
     "Plaque",
     "Smooth Muscle",
@@ -14,15 +16,17 @@
   "anti_inflammatory": null,
   "_evidence": {
     "pmids": [
+      "10687671",
+      "10868312",
       "11795271",
+      "11911562",
       "12960612",
       "15996638",
       "17120687",
-      "17596685",
-      "18417069",
       "21130454",
       "21342078",
       "22152281",
+      "24052972",
       "24274967",
       "25678054",
       "30054755",
@@ -33,10 +37,16 @@
       "38588613",
       "39102854",
       "40254247",
-      "41757155"
+      "8844442",
+      "9264433",
+      "9708683"
     ],
-    "source_count": 7,
-    "finding_count": 20
+    "source_count": 15,
+    "finding_count": 24,
+    "dup_pmids_skipped": 3,
+    "pool_relevance_pct": 61.4,
+    "filtered_off_drug": 17,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

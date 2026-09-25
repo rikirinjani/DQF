@@ -1,28 +1,38 @@
 {
   "cox_inhibition": null,
-  "gi_risk": 2,
+  "gi_risk": 3,
   "cv_risk": 2,
   "renal_risk": 1,
   "platelet_effect": null,
-  "off_targets": [],
+  "off_targets": [
+    "Platelet",
+    "Ppar"
+  ],
   "anti_inflammatory": null,
   "analgesic": null,
   "antipyretic": null,
-  "ddi_risk": 2,
+  "ddi_risk": 1,
   "_evidence": {
     "pmids": [
-      "17412741",
-      "21977278",
+      "10225538",
+      "10422544",
+      "10560596",
+      "10804043",
+      "11754710",
+      "12426512",
+      "12804506",
+      "16149679",
+      "18843655",
       "27747190",
       "39660078",
-      "40224452",
-      "40233610",
-      "40819363",
-      "41383482",
-      "41471097"
+      "41383482"
     ],
-    "source_count": 3,
-    "finding_count": 9
+    "source_count": 11,
+    "finding_count": 12,
+    "dup_pmids_skipped": 0,
+    "pool_relevance_pct": 36.4,
+    "filtered_off_drug": 21,
+    "relevance_gate": "pass"
   },
   "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

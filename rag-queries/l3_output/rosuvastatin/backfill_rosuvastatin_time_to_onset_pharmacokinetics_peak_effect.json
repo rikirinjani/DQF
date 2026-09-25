@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:41313442",
-        "text": "Pharmacokinetics of a single-pill combination of rosuvastatin and ezetimibe (2.5 mg/10 mg) in healthy Chinese subjects: an open-label, two-period, phase I study. The single-pill combination of rosuvastatin and ezetimibe effectively reduces low-density lipoprotein cholesterol (LDL-C), while the pharmacokinetics of the single-pill combination of rosuvastatin and ezetimibe at a dosage of 2.5 mg/10 mg are seldom reported. This study aimed to evaluate the pharmacokinetics of a single-pill combination of rosuvast",
-        "score": 0.3383162021636963,
-        "doi": "10.1007/s00210-025-04711-w",
-        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-        "year": "2025",
-        "rerank_score": 1.0797789096832275,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:20522984",
+        "text": "Pharmacokinetic/pharmacodynamic modeling and simulation of rosuvastatin using an extension of the indirect response model by incorporating a circadian rhythm. Pharmacokinetic/pharmacodynamic (PK/PD) modeling and simulation enable the prediction of the effect of a medication in various situations in clinical practice. The aims of this study were to predict the relationships between the effect of rosuvastatin and various factors such as poor compliance, and morning and evening dosages, as well as the change in the pharmacokinetics of rosuvastatin. We characterized the PK/PD model of plasma mevalonic acid (MVA) profiles after rosuvastatin administration and simulated the plasma MVA concentration in various dosage regimens. The plasma rosuvastatin and MVA concentrations reported by Martin et al. were used as the source of PK/PD modeling data. For each simulation, a summary parameter, the area under the plasma MVA concentration-time curves for 24 h in the steady state (AUEC(24)), was used to characterize the time course of each endpoint. To estimate the influence of PK parameters on rosuvastatin effects, the AUEC(24) reduction ratio of baseline levels was simulated from the 0.33-3.0-fold value of each PK parameter estimate. The AUEC(24) reduction ratio was 7.7% lower after morning administration than after evening administration. The changes in the PK parameters more prominently affected the AUEC(24) reduction ratio after morning administration than after evening administration. The simulated plasma MVA concentrations almost reached their baseline levels in the case of patients who forgot to take rosuvastatin. These results suggest that the parameters can be used to determine the effective rosuvastatin dosage regimen.",
+        "doi": "10.1248/bpb.33.1082",
+        "journal": "Biological & pharmaceutical bulletin",
+        "year": "2010",
+        "corpus": "main",
+        "distance": 0.39178943634033203,
+        "score": 0.39178943634033203,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39487337",
-        "text": "Pharmacokinetic Drug-Drug Interaction between Cilostazol and Rosuvastatin in Healthy Participants. Cilostazol improves ischemic symptoms and prevents recurrence following cerebral infarction, and rosuvastatin reduces cholesterol levels. However, no reports exist on the pharmacokinetic interactions between these two drugs in healthy adults. This study evaluated the pharmacokinetic (PK) interactions and safety of cilostazol and rosuvastatin when co-administered to healthy male participants. A randomized, open",
-        "score": 0.3656556010246277,
-        "doi": "10.1007/s40256-024-00686-w",
-        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventio",
-        "year": "2024",
-        "rerank_score": 0.8671156764030457,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:14512129",
+        "text": "A double-blind, randomized, incomplete crossover trial to assess the dose proportionality of rosuvastatin in healthy volunteers. Rosuvastatin, a 3-hydroxy-3-methylglutaryl coenzyme A reductase inhibitor, has been developed for the treatment of patients with dyslipidemia. This study assessed the dose proportionality and pharmacokinetics of single oral doses of rosuvastatin in healthy volunteers. This was a double-blind, randomized, incomplete crossover trial consisting of 3 trial days separated by >/=7-day washout periods. Healthy men were allocated to 1 of 2 treatment regimens: rosuvastatin 10, 20, and 80 mg, or rosuvastatin 10, 40, and 80 mg, administered as single doses on separate trial days in random order. Pharmacokinetic and tolerability assessments were made up to 96 hours after administration. Dose proportionality was tested using the power-law approach. Eighteen healthy white men participated in the trial (mean age, 41.2 years; mean height, 178.4 cm; mean body weight, 81.6 kg). Geometric mean rosuvastatin maximum plasma concentration (C(max)) values of 3.75, 6.79, 10.3, and 30.1 ng/mL were achieved at a median time to C(max) of 5.0 hours after doses of 10, 20, 40, and 80 mg, respectively. The corresponding geometric mean values for rosuvastatin area under the plasma concentration-time curve from time 0 to time of the last measurable concentration (AUC(0-t)) were 31.6, 56.8, 98.2, and 268 ng.h/mL. C(max) and AUC(0-t) were both linearly related to dose. The estimates of the proportionality coefficient (90% CI) for CmaX and AUC(o-t) were 0.999 (0.898-1.099) and 1.024 (0.941-1.107), respectively; all values fell within the prespecified range of 0.847 to 1.153. Rosuvastatin was well tolerated in this group of healthy men when administered orally at doses of 10 to 80 mg. Rosuvastatin systemic exposure was dose proportional over the dose range of 10 to 80 mg.",
+        "doi": "10.1016/s0149-2918(03)80214-x",
+        "journal": "Clinical therapeutics",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3944033980369568,
+        "score": 0.3944033980369568,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39088829",
-        "text": "Impact of rosuvastatin on pulse-wave velocity in men with HIV at moderate cardiovascular risk. This single-centre substudy of a double-blind, randomized, placebo-controlled trial aimed to determine the effect of 96 weeks of rosuvastatin on pulse wave velocity (PWV) in men (n = 55, 54 years) with HIV at moderate cardiovascular risk (Framingham risk score 10-15%). PWV increased in both rosuvastatin [0.54 m/s standard error of difference (SED) 0.26] and placebo [0.50 m/s (SED 0.26), P = 0.896] arms, leading to",
-        "score": 0.36544269323349,
-        "doi": "10.1097/QAD.0000000000003930",
-        "journal": "AIDS (London, England)",
-        "year": "2024",
-        "rerank_score": 0.6388910412788391,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:35009221",
+        "text": "Changes in Rosuvastatin Pharmacokinetics During Postnatal Ontogenesis in Rats. Statin therapy should be considered in children with familial hypercholesterolemia and sustained high LDL-C levels. There are no data on rosuvastatin exposure in patients <6 years and efficacy/safety can only be derived from case reports. Our aim was to examine developmental changes in pharmacokinetics of rosuvastatin in rats in vivo as a basis for clinical development of formulations for patients < 6 years. Rosuvastatin pharmacokinetics was examined in rats aged 1, 4, 7, 10, 14, 21, 28, 35 and 42 days (from birth to sexual maturity). After intraperitoneal dose of 5 mg/kg, blood samples to determine serum rosuvastatin levels were taken at 0.5, 3 and 5 hours. Pharmacokinetic parameters (Vd, CL, AUClast, AUC0-∞) were calculated using pharmacokinecic simulations. Both rosuvastatin CL and Vd started to increase systematically between 2 - 3 weeks of age, which was reflected by decreased total drug exposure. The AUC was up to 13 times higher in the age groups ≤14 days compared with the value at 42 days. Based on interspecies scaling, a dose reduction could be a feasible way, how to develop appropriate dosing schedule and formulations for children aged 2 - 6 years. However, confirmation in clinical development studies will be needed.",
+        "doi": "10.3390/ma15010075",
+        "journal": "Materials (Basel, Switzerland)",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.4049978256225586,
+        "score": 0.4049978256225586,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39289057",
-        "text": "Pharmacokinetics and Pharmacodynamics of a Fixed-Dose Combination of Esomeprazole and Magnesium Hydroxide Compared to the Enteric-Coated Esomeprazole. A fixed-dose combination (FDC) of proton pump inhibitors (PPIs) and antacid salts enables rapid acid suppression through the neutralizing effect of the antacid salt and the rapid absorption of PPIs. This study aimed to compare the pharmacokinetics (PKs) and pharmacodynamics (PDs) of a recently formulated FDC of esomeprazole and magnesium hydroxide to the ente",
-        "score": 0.4066042900085449,
-        "doi": "10.1016/j.clinthera.2024.08.006",
-        "journal": "Clinical therapeutics",
-        "year": "2024",
-        "rerank_score": -0.17368239164352417,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12389067",
+        "text": "The effect of the area under the plasma concentration vs time curve and the maximum plasma concentration of esomeprazole on intragastric pH. The aim of this study was to create a useful model of the effect of the area under the plasma concentration vs time curve (AUC) and the maximum plasma concentration (C(max)) of esomeprazole on intragastric pH, measured as the percentage of total time with intragastric pH above 4 (%pH>4) during a 24-h period. The evaluation is based on esomeprazole data from two crossover studies. In the first study ( n=36), intragastric pH and plasma concentrations were measured on day 5 of repeated once-daily 20-mg and 40-mg doses of esomeprazole during fasting conditions. In the second study ( n=24), measurements were made on days 1 and 5 of repeated once-daily dosing with 40 mg of esomeprazole under fasting and fed conditions. A model was applied in which the logistic function of %pH>4 was assumed to be linearly dependent on log-transformed AUC and C(max). The effects of repeated dosing and of fed relative to fasting conditions were included in the model, and the interindividual variation in %pH>4 was accounted for. The effect of the pharmacokinetic variables AUC and C(max) of esomeprazole on %pH>4 can be adequately described by a model using a logistic function for %pH>4 and a normally distributed error. In this model, log-transformed AUC and C(max) were both statistically significant. The model showed that for a fixed AUC, a decrease in C(max) gives an increase in %pH>4. A decrease in AUC, keeping C(max) fixed, gives a decrease in %pH>4, but a simultaneous decrease in C(max) and AUC will result in a less pronounced decrease in %pH>4. The model may be used for predicting differences in %pH>4 between two formulations, based on assessments of AUC and C(max). Repeated dosing gave an increased %pH>4, where approximately half of the increase stemmed from increased AUC and C(max), and the rest could be attributable to the persistent blockade of the proton pumps. Food intake reduced AUC and C(max) but had no obvious effect on %pH>4, which is explained by a prolonged time period with quantifiable plasma concentrations. The effect of the pharmacokinetic variables AUC and C(max) of esomeprazole on %pH>4 can be adequately described by a model using a logistic function for %pH>4 and a normally distributed error.",
+        "doi": "10.1007/s00228-002-0502-1",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.39255794882774353,
+        "score": 0.39255794882774353,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39703773",
-        "text": "Physiologically based pharmacokinetic modeling to predict the effect of risperidone on aripiprazole pharmacokinetics in subjects with different CYP2D6 genotypes and individuals with hepatic impairment. Aripiprazole and risperidone, widely used atypical antipsychotics, are commonly adjunctively prescribed in clinical practice. When aripiprazole was combined with risperidone, the genotype of drug-metabolizing enzymes and liver impairment may lead to complex pharmacokinetic changes. The Physiologically Based P",
-        "score": 0.4186910390853882,
-        "doi": "10.1177/20420986241303432",
-        "journal": "Therapeutic advances in drug safety",
-        "year": "2024",
-        "rerank_score": -1.4407234191894531,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:17425628",
+        "text": "Effect of timing of dosing in relation to food intake on the pharmacokinetics of esomeprazole. To investigate the pharmacokinetics of esomeprazole before a high-fat meal vs. fasting. This open-label, randomized, crossover study consisted of two 5-day dosing periods of esomeprazole 40 mg per day. On days 1 and 5, subjects received esomeprazole 15 min before a high-fat meal (fed) or 4 h before a non-high-fat meal (fasting). On days 1 and 5, ratio of fed to fasting area under the plasma concentration-time curve [0.56, 90% confidence interval (CI) 0.50, 0.64, and 0.78, 90% CI 0.74, 0.82, respectively] and peak plasma concentration (0.34, 90% CI 0.28, 0.41, and 0.47, 90% CI 0.41, 0.52, respectively) were outside of the limits of bioequivalence. Esomeprazole bioavailability was reduced when taken within 15 min before eating a high-fat meal vs. that while fasting.",
+        "doi": "10.1111/j.1365-2125.2007.02889.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.39382079243659973,
+        "score": 0.39382079243659973,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38488344",
-        "text": "Pediatric Extrapolation Approach for U.S. Food and Drug Administration Approval of Brexpiprazole in Patients Aged 13 to 17 Years with Schizophrenia. A pharmacokinetic (PK) bridging approach was successfully employed to support the dosing regimen and approval of brexpiprazole in pediatric patients aged 13-17 years with schizophrenia. Brexpiprazole was approved in 2015 for the treatment of schizophrenia and the adjunctive treatment of major depressive disorder in adults based on efficacy and safety data from ",
-        "score": 0.4003763794898987,
-        "doi": "10.1002/jcph.2429",
-        "journal": "Journal of clinical pharmacology",
-        "year": "2024",
-        "rerank_score": -2.273946762084961,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:11214773",
+        "text": "Pharmacokinetics of esomeprazole after oral and intravenous administration of single and repeated doses to healthy subjects. To study the pharmacokinetics of esomeprazole, one of the optical isomers of omeprazole, after 20 mg or 40 mg single and repeated oral and intravenous administration to healthy subjects. The main metabolites of esomeprazole were also assessed after the 40-mg oral dose. In two separate studies, 16 healthy male subjects and 16 healthy male and female subjects received intravenous doses of 20 mg and 40 mg esomeprazole, respectively, on the first investigation day. After a washout period of 5-14 days, the same doses (20 mg as a solution and 40 mg as a capsule) were given orally for 5 days and then again intravenously on day 6. Blood samples for determination of esomeprazole and its metabolites were collected 12 h or 24 h post-dose and were analysed using normal-phase liquid chromatography with ultraviolet (UV) detection. Pharmacokinetic parameters of esomeprazole and its metabolites were estimated using non-compartmental analysis. Geometric means and ratios of the geometric means together with 95% confidence intervals (CI) of the pharmacokinetic parameters were calculated using analysis of variance (ANOVA). Plasma clearance (CL) of esomeprazole decreased from 22 l/h to 16 l/h and from 17 l/h to 9 l/h following repeated dosing of 20 mg and 40 mg, respectively. Total area under the plasma concentration-time curve (AUC) increased (from 1.34 micromol x h/l to 2.55 micromol x h/l) with absolute bioavailability (F) being 50% on day 1 and 68% on day 5 after the 20-mg oral dose. AUC increased (from 4.32 micromol x h/l to 11.21 micromol x h/l) with F being 64% on day 1 and 89% on day 5 after the 40-mg oral dose. The plasma levels for esomeprazole sulphone were substantially higher on day 5 than on day 1, while those for 5-hydroxy esomeprazole were marginally higher on day 5 than on day 1 following repeated oral dosing of 40 mg esomeprazole. No side effects attributable to esomeprazole were noticed. The increased AUC of esomeprazole with repeated dosing is probably due to a combination of a decreased first-pass elimination and a decreased systemic clearance.",
+        "doi": "10.1007/s002280000206",
+        "journal": "European journal of clinical pharmacology",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.40234270691871643,
+        "score": 0.40234270691871643,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

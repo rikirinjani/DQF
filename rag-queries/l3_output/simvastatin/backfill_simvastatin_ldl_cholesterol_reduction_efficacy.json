@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:38699976",
-        "text": "Degree of serum LDL cholesterol reduction by simvastatin and ezetimibe is dependent on baseline LDL cholesterol concentration but not on baseline values and changes in cholesterol synthesis and absorption parameters. We questioned whether the baseline status of low-density lipoprotein cholesterol (LDL-C), cholesterol synthesis and absorption, and the changes in these parameters determine the change in serum LDL-C under statin or ezetimibe treatment or under combination treatment. 37 mildly hypercholesterole",
-        "score": 0.354651540517807,
-        "doi": "10.5414/CP204536",
-        "journal": "International journal of clinical pharmacology and therapeutics",
-        "year": "2024",
-        "rerank_score": 6.073842525482178,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:12573191",
+        "text": "Benefits of simvastin in cholesterol lowering.",
+        "doi": "10.1007/s11883-003-0078-y",
+        "journal": "Current atherosclerosis reports",
+        "year": "2003",
+        "corpus": "main",
+        "distance": 0.3440685570240021,
+        "score": 0.3440685570240021,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:19906471",
-        "text": "Reporting of dietary control frameworks in studies on simvastatin efficacy. HMG-Co reductase inhibitors (e.g. simvastatin) are important coronary heart disease (CHD) risk-reduction agents. Prescription protocols recommend low-fat diets in conjunction with simvastatin prescription. Simvastatin efficacy studies were reviewed to define dietary contexts within which simvastatin is most efficacious.",
-        "score": 0.3381042182445526,
-        "doi": "10.1016/j.clnu.2009.10.005",
-        "journal": "Clinical nutrition (Edinburgh, Scotland)",
-        "year": "2009",
-        "rerank_score": 5.556328773498535,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:7730777",
+        "text": "Simvastatin decreases mortality.",
+        "doi": "",
+        "journal": "The Journal of family practice",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3761833906173706,
+        "score": 0.3761833906173706,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:38930515",
-        "text": "Simvastatin, Its Antimicrobial Activity and Its Prevention of Alzheimer's Disease. Simvastatin, a blockbuster drug for treating hypercholesterolemia, has multifactorial benefits as an antimicrobial agent and plays a preventative role in reducing the incidence of Alzheimer's Disease (AD). Although most of the beneficial effects of simvastatin have been attributed to its ability to reduce cholesterol levels, recent scientific studies have suggested that its benefits are largely due to its pleiotropic effects ",
-        "score": 0.3523128032684326,
-        "doi": "10.3390/microorganisms12061133",
-        "journal": "Microorganisms",
-        "year": "2024",
-        "rerank_score": 5.032953262329102,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:8521762",
+        "text": "Simvastatin. A reappraisal of its pharmacology and therapeutic efficacy in hypercholesterolaemia. Simvastatin is an HMG-CoA reductase inhibitor used in the treatment of patients with hypercholesterolaemia. Since the time simvastatin was previously reviewed in Drugs, a number of large clinical trials have confirmed its clinical efficacy. Thus, reductions from baseline were approximately 20 to 40% for serum levels of total cholesterol, 35 to 45% for low density lipoprotein (LDL)-cholesterol and 10 to 20% for triglycerides in patients with primary hypercholesterolaemia receiving simvastatin 10 to 40 mg/day. High density lipoprotein (HDL)-cholesterol levels were increased modestly by about 5 to 15%. Recent data from long term studies indicate that little or no attenuation of these changes in serum lipid and lipoprotein levels occurred with administration of simvastatin for 3 to 5.4 years. Comparative studies with other HMG-CoA reductase inhibitors (lovastatin, pravastatin and fluvastatin), which were lacking at the time of the previous review of simvastatin, demonstrated greater reductions in serum levels of total cholesterol and LDL-cholesterol with simvastatin than equal dosages of lovastatin or pravastatin. Reductions in serum levels of total cholesterol and LDL-cholesterol were similar between agents only when lovastatin or pravastatin were administered at a total daily dosage twice that of simvastatin and when fluvastatin was administered at a total daily dosage approximately 8 times that of simvastatin. In general, simvastatin 10 to 40 mg/day was also more effective than standard dosages of bile acid sequestrants, fibrates or probucol in lowering serum levels of total cholesterol and LDL-cholesterol; however, fibrates usually produced greater reductions in serum triglycerides and greater elevations in HDL-cholesterol levels. The Scandinavian Simvastatin Survival Study (4S), a large secondary prevention study in patients with coronary heart disease and concomitant hypercholesterolaemia, demonstrated that simvastatin 20 to 40 mg/day for a median of 5.4 years significantly reduced overall mortality (the primary end-point of the study) by 30% compared with placebo, which was attributed to a 42% relative reduction in coronary mortality. Coronary morbidity was also significantly reduced by simvastatin in the 4S trial. The tolerability profile of simvastatin appears to be comparable to that of other HMG-CoA reductase inhibitors. The most frequently reported adverse events are gastrointestinal disturbances, which are generally mild and tend to occur less frequently than with cholestyramine. In conclusion, simvastatin is among the most effective agents available for treating patients with hypercholesterolaemia.(ABSTRACT TRUNCATED AT 400 WORDS)",
+        "doi": "10.2165/00003495-199550020-00009",
+        "journal": "Drugs",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.38100454211235046,
+        "score": 0.38100454211235046,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

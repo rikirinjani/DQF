@@ -7,53 +7,40 @@
   "result": {
     "results": [
       {
-        "id": "PMID:39616511",
-        "text": "Potential Effects of Indomethacin on Alleviating Osteoarthritis Progression  To elucidate how indomethacin may slow the progression of osteoarthritis (OA). Chondrocytes were treated with IL-1β (10 ng/mL) for 12 hours to create an in vitro model of OA. Following this, 10 μM of indomethacin was added to the IL-1β-treated chondrocytes for an additional 4 hours to evaluate its effects on inflammation, anabolism, catabolism, apoptosis, and autophagy using ELISA, western blot, immunofluorescence and flow cytometr",
-        "score": 0.42381566762924194,
-        "doi": "",
-        "journal": "Journal of musculoskeletal & neuronal interactions",
-        "year": "2024",
-        "rerank_score": -0.9877762794494629,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:19513973",
+        "text": "[Randomized, double blind, multicentre, parallel group study to compare efficacy and safety of acemetacin and indometacin in patients with activated osteoarthrosis of the knee]. 137 patients with active osteoarthritis of the knee joint were randomized in the ratio 2:1 to be treated with either one of the non-steroidal anti-inflammatory drugs acemetacin (180 mg/day) or indomethacin (150 mg/day). After 4 weeks of treatment, the complaints, as assessed by the patients by means of the Lequesne Index, decreased in both groups to a comparable extent. However, the overall assessment of the therapeutic success, both by patients and by physicians, showed a trend in favor of acemetacin: 70% of the patients in this group reported that their complaints were markedly improved or had subsided entirely, as opposed to 51% of the patients under indomethacin. As for adverse events, gastrointestinal complaints were dominant in both treatment groups, but significantly more patients interrupted the treatment in the indomethacin group (22.2%), than in the acemetacin group (5.4%). 83% of the patients declared the tolerance of acemetacin to be good or very good, in comparison to only 56 % of the patients in the indomethacin group, a highly significant difference (p = 0.0009). This significantly better tolerance of acemetacin in comparison to indomethacin confirms results from previous clinical studies.",
+        "doi": "10.1024/1661-8157.98.12.635",
+        "journal": "Praxis",
+        "year": "2009",
+        "corpus": "main",
+        "distance": 0.4350132942199707,
+        "score": 0.4350132942199707,
+        "rerank_score": 1.0
       },
       {
-        "id": "PMID:39923403",
-        "text": "The effect of Neurokinin-1 receptor antagonists on postoperative pain: A meta-analysis of randomized controlled trials. Substance P is a neuropeptide with a pivotal role in pain transmission and modulation. Preclinical studies suggest that targeting substance P and inhibiting its receptor, neurokinin 1 (NK-1), is a potential avenue for pain relief. When translated into clinical settings, these preliminary findings yielded mixed results. This meta-analysis of randomized controlled trials (RCTs) aims to inves",
-        "score": 0.4261884391307831,
-        "doi": "10.1016/j.jclinane.2025.111772",
-        "journal": "Journal of clinical anesthesia",
-        "year": "2024",
-        "rerank_score": -6.602693557739258,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:37530828",
+        "text": "Trials for Managing Acute Pain - A Clinically Meaningful Small Effect Size?",
+        "doi": "10.1056/NEJMe2305480",
+        "journal": "The New England journal of medicine",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.43726471066474915,
+        "score": 0.43726471066474915,
+        "rerank_score": 0.95
       },
       {
-        "id": "PMID:39578009",
-        "text": "Maximizing Pain Relief: Pharmacists' Analysis of the Ceiling Effect in Nonsteroidal Anti-Inflammatory Drug Treatment for Low Back Pain.",
-        "score": 0.4239375591278076,
-        "doi": "10.1016/j.annemergmed.2024.07.012",
-        "journal": "Annals of emergency medicine",
-        "year": "2024",
-        "rerank_score": -7.145756244659424,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
-        }
+        "id": "PMID:15495100",
+        "text": "Single dose oral indometacin for the treatment of acute postoperative pain. Indometacin is a non-steroidal anti-inflammatory drug (NSAID) used most commonly for the treatment of inflammation and pain resulting from rheumatic disease (arthritis), and less commonly in postoperative pain management. When taken for chronic pain conditions, indometacin has been associated with a high incidence of adverse events. The benefits and harms of orally-administered indometacin for postoperative pain are not clear. To determine the efficacy of a single dose of oral indometacin compared with placebo in treating acute postoperative pain in adults, and to analyse information relating to adverse events. We searched the Cochrane Central Register of Controlled Trials in The Cochrane Library (Issue 3, 2004), MEDLINE, EMBASE and the Oxford Pain Relief Database for relevant studies. Additional studies were sought from the reference lists of retrieved reports. Studies were included in the review if they were randomised, double blind, placebo-controlled clinical trials using a single oral dose of indometacin in adults with acute postoperative pain. Trials were assessed independently by two authors. Pain relief or pain intensity data were extracted and converted into dichotomous information to give the number of patients with at least 50% pain relief over four to six hours. The relative benefit for at least 50% pain relief was calculated. One trial of 59 women with post-episiotomy pain met the inclusion criteria. The dose of indometacin assessed against placebo was 50 mg, and the results concluded that indometacin was not significantly better than placebo for relieving postoperative pain at four to six hours. There was insufficient information to conduct further efficacy analyses or assess adverse events. Conclusions about the clinical efficacy of indometacin for postoperative cannot be made until more trials are conducted for a variety of surgical procedures, and different doses of indometacin are assessed.",
+        "doi": "10.1002/14651858.CD004308.pub2",
+        "journal": "The Cochrane database of systematic reviews",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.4377949833869934,
+        "score": 0.4377949833869934,
+        "rerank_score": 0.9
       }
-    ]
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
   }
 }

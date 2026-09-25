@@ -4,54 +4,128 @@
     "dimension": "class_mechanism",
     "target": null
   },
+  "source": "eutils",
   "result": {
     "results": [
       {
-        "id": "PMID:41553581",
-        "text": "Long-term effect on bone mineral density of denosumab in the treatment of hyperpituitarism driven osteoporosis: an exploratory study. Treatment of skeletal fragility in patients with pituitary diseases is challenging. Denosumab, an antiresorptive bone active drug, increased bone mineral density (BMD) and reduced incidence and risk of fractures in primary osteoporosis. This study aimed to evaluate the efficacy of denosumab in patients with pituitary disease-driven osteoporosis. This retrospective study inves",
-        "score": 0.36326083540916443,
-        "doi": "10.1007/s11102-025-01630-0",
-        "journal": "Pituitary",
-        "year": "2025",
-        "rerank_score": 3.9239842891693115,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:36142643",
+        "text": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.\n\nProton pump inhibitors (PPIs) are an antacid drug often used in acid-related disorders. They decrease acid secretion in the stomach by blocking an enzyme called H+/K+ ATPase which controls acid production. Introduced to the market in 1989, their use has increased rapidly worldwide and they are now among the top 10 most prescribed drugs in the United States. As of 2015, the FDA has already approved six drugs of this class (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole and rabeprazole). Recently, the risks and benefits of long-term PPI use were questioned and many studies indicated that their use should be carefully considered, especially in young patients, whose treatment with these drugs could last many years. Even greater concerns have been raised about a potential positive association between PPIs and osteoporotic fracture risk including the hip, spine and wrist. Although based on observational studies, there is substantial evidence associating the long-term use of PPIs and fracture. This relationship is only partially admitted due to the lack of consistent effects of PPIs on bone mineral density loss. Therefore, this narrative review aimed to discuss the recent findings pertaining to the risk of osteoporotic fracture associated with PPIs, in particular prolonged use, and to call for further research to elucidate the mechanisms associated with this bone fragility.",
+        "title": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "36142643",
+          "journal": "International journal of molecular sciences",
+          "authors": [
+            "Lespessailles Eric",
+            "Toumi Hechmi"
+          ],
+          "pub_date": "2022-Sep-14",
+          "doi": "10.3390/ijms231810733",
+          "mesh_terms": [
+            "2-Pyridinylmethylsulfinylbenzimidazoles",
+            "Adenosine Triphosphatases",
+            "Antacids",
+            "Bone Density",
+            "Dexlansoprazole",
+            "Esomeprazole",
+            "Humans",
+            "Lansoprazole",
+            "Omeprazole",
+            "Osteoporotic Fractures",
+            "Pantoprazole",
+            "Proton Pump Inhibitors",
+            "Rabeprazole",
+            "United States"
+          ]
         }
       },
       {
-        "id": "PMID:40146262",
-        "text": "Impact of Zoledronic Acid on Bone Mineral Density and Trabecular Score Following Denosumab Discontinuation in Older Adults in Long-Term Care. Discontinuation of denosumab can result in rebound bone loss and increased vertebral fracture risk. In residents of long-term care communities (LTCCs) with osteoporosis, there is limited data on managing the risks after discontinuation. We investigated the impact of a single dose of zoledronic acid on bone density and microarchitecture following two years of denosumab",
-        "score": 0.37819114327430725,
-        "doi": "10.1007/s00223-025-01364-y",
-        "journal": "Calcified tissue international",
-        "year": "2025",
-        "rerank_score": 3.7667973041534424,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:35356038",
+        "text": "Managements of sleep bruxism in adult: A systematic review.\n\nThis systematic review aimed to update the management of sleep bruxism (SB) in adults, as diagnosed using polysomnography (PSG) and/or electromyography (EMG). Management methods covered were oral appliance therapy (OAT) with stabilization splints, cognitive-behavioral therapy (CBT), biofeedback therapy (BFT), and pharmacological therapy. A comprehensive search was conducted on MEDLINE, Cochrane Library, and Web of Science up to October 1st, 2021. Reference list searches and hand searches were also performed by an external organization. Two reviewers for each therapy independently performed article selection, data extraction, and risk of bias assessment. The reviewers resolved any disagreements concerning the assortment of the articles by discussion. Finally, 11, 3, 14, and 22 articles were selected for each therapy. The results suggested that OAT tended to reduce the number of SB events, although there was no significant difference compared to other types of splints, that the potential benefits of CBT were not well supported, and that BFT, rabeprazole, clonazepam, clonidine, and botulinum toxin type A injection showed significant reductions in specific SB parameters, although several side effects were reported. It can be concluded that more methodologically rigorous randomized large-sample long-term follow-up clinical trials are needed to clarify the efficacy and safety of management for SB.",
+        "title": "Managements of sleep bruxism in adult: A systematic review.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35356038",
+          "journal": "The Japanese dental science review",
+          "authors": [
+            "Minakuchi Hajime",
+            "Fujisawa Masanori",
+            "Abe Yuka"
+          ],
+          "pub_date": "2022-Nov",
+          "doi": "10.1016/j.jdsr.2022.02.004",
+          "mesh_terms": []
         }
       },
       {
-        "id": "PMID:24802732",
-        "text": "Zoledronic acid increases bone mineral density and improves health-related quality of life over two years of treatment in Chinese women with postmenopausal osteoporosis. Osteoporosis is characterised by decreased bone mass and weakened bones, with an increased risk of fractures. Osteoporotic fracture, the most serious complication of osteoporosis, is related not only to lower bone mineral density (BMD), but also falls. Osteoporosis and fractures are associated with a decreased health-related quality of life",
-        "score": 0.3616628646850586,
-        "doi": "10.5603/EP.2014.0014",
-        "journal": "Endokrynologia Polska",
-        "year": "2014",
-        "rerank_score": 3.2103774547576904,
-        "evidence": {
-          "level": "2b",
-          "grade": "MODERATE",
-          "weight": 0.6,
-          "journal_factor": 1.0,
-          "final_weight": 0.6
+        "id": "PMID:28964908",
+        "text": "Interchangeable Use of Proton Pump Inhibitors Based on Relative Potency.\n\nAlthough proton pump inhibitors (PPIs) are widely used, their relative potency and ideal dosing regimens remain unclear. We analyzed data from randomized clinical trials that performed pH testing in patients receiving solid-dose PPI formulations (omeprazole, esomeprazole, lansoprazole, pantoprazole, rabeprazole) for a minimum of 5 days. We used omeprazole equivalency and the surrogate biomarker, percentage time pH > 4 over a 24-hour period (pH4time), to compare PPI effectiveness for different PPIs given once, twice, or 3 times daily. We found that increasing strength of once-daily PPIs (9-64 mg omeprazole equivalents) increased pH4time linearly from approximately 10.0 to 15.6 hours; higher doses produced no further increase in pH4time. Increasing the frequency to twice-daily PPI increased pH4time linearly, from approximately 15.8 to 21.0 hours. Three-times daily PPIs performed similarly to twice-daily PPIs. The costs of PPIs varied greatly, but the cost variation was not directly related to potency. We conclude that PPIs can be used interchangeably based on potency. Using twice-daily PPIs is more effective in increasing efficacy increasing once-daily PPI dosage. Omeprazole and lansoprazole (30 mg) and 20 mg of esomeprazole rabeprazole are functionally equivalent.",
+        "title": "Interchangeable Use of Proton Pump Inhibitors Based on Relative Potency.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "28964908",
+          "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+          "authors": [
+            "Graham David Y",
+            "Tansel Aylin"
+          ],
+          "pub_date": "2018-Jun",
+          "doi": "10.1016/j.cgh.2017.09.033",
+          "mesh_terms": [
+            "Gastroesophageal Reflux",
+            "Humans",
+            "Hydrogen-Ion Concentration",
+            "Proton Pump Inhibitors",
+            "Randomized Controlled Trials as Topic",
+            "Treatment Outcome"
+          ]
+        }
+      },
+      {
+        "id": "PMID:24550106",
+        "text": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.\n\nProton pump inhibitors (PPIs) are used extensively for the treatment of gastric acid-related disorders, often over the long term, which raises the potential for clinically significant drug interactions in patients receiving concomitant medications. These drug-drug interactions have been previously reviewed. However, the current knowledge is likely to have advanced, so a thorough review of the literature published since 2006 was conducted. This identified new studies of drug interactions that are modulated by gastric pH. These studies showed the effect of a PPI-induced increase in intragastric pH on mycophenolate mofetil pharmacokinetics, which were characterised by a decrease in the maximum exposure and availability of mycophenolic acid, at least at early time points. Post-2006 data were also available outlining the altered pharmacokinetics of protease inhibitors with concomitant PPI exposure. New data for the more recently marketed dexlansoprazole suggest it has no impact on the pharmacokinetics of diazepam, phenytoin, theophylline and warfarin. The CYP2C19-mediated interaction that seems to exist between clopidogrel and omeprazole or esomeprazole has been shown to be clinically important in research published since the 2006 review; this effect is not seen as a class effect of PPIs. Finally, data suggest that coadministration of PPIs with methotrexate may affect methotrexate pharmacokinetics, although the mechanism of interaction is not well understood. As was shown in the previous review, individual PPIs differ in their propensities to interact with other drugs and the extent to which their interaction profiles have been defined. The interaction profiles of omeprazole and pantoprazole sodium (pantoprazole-Na) have been studied most extensively. Several studies have shown that omeprazole carries a considerable potential for drug interactions because of its high affinity for CYP2C19 and moderate affinity for CYP3A4. In contrast, pantoprazole-Na appears to have lower potential for interactions with other medications. Lansoprazole and rabeprazole also seem to have a weaker potential for interactions than omeprazole, although their interaction profiles, along with those of esomeprazole and dexlansoprazole, have been less extensively investigated. Only a few drug interactions involving PPIs are of clinical significance. Nonetheless, the potential for drug interactions should be considered when choosing a PPI to manage gastric acid-related disorders. This is particularly relevant for elderly patients taking multiple medications, or for those receiving a concomitant medication with a narrow therapeutic index.",
+        "title": "Pharmacokinetic drug interaction profiles of proton pump inhibitors: an update.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "24550106",
+          "journal": "Drug safety",
+          "authors": [
+            "Wedemeyer Ralph-Steven",
+            "Blume Henning"
+          ],
+          "pub_date": "2014-Apr",
+          "doi": "10.1007/s40264-014-0144-0",
+          "mesh_terms": [
+            "Cytochrome P-450 CYP2C19",
+            "Cytochrome P-450 CYP3A",
+            "Drug Interactions",
+            "Humans",
+            "Proton Pump Inhibitors"
+          ]
+        }
+      },
+      {
+        "id": "PMID:37060552",
+        "text": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.\n\nProton pump inhibitors (PPI) may impact the absorption of vitamin B12. We performed a systematic review to ascertain if PPI use increases risk of vitamin B12 deficiency.\nElectronic databases (PubMed, Embase, Scopus) were searched on first of September 2022. We selected studies that compared the frequency of vitamin B12 deficiency in PPI users and non-users. Pooled Odds Ratio (OR) was calculated for the occurrence of vitamin B12 deficiency in PPI users compared to non-users. The risk of bias was assessed using the Newcastle Ottawa scale.\nTwenty-five studies were included. The pooled OR of vitamin B12 deficiency among PPI users (2852 participants) was higher than non-users (28070 participants) (OR 1.42, 95% CI: 1.16-1.73; I2 = 54%). Overall risk of PPI use among vitamin B12 deficient individuals was higher than those without deficiency (OR 1.49, 1.20-1.85; I2 = 68%). Most studies found no difference between serum vitamin B12 levels among PPI users compared to non-users.\nAlthough the pooled OR of vitamin B12 deficiency was slightly increased in PPI users, but there was significant heterogeneity, and the pooled OR was too low to imply an association clearly. Better-designed prospective studies in long-term users may clarify the issue.\nThis study was not registered on PROSPERO.",
+        "title": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37060552",
+          "journal": "Expert review of gastroenterology & hepatology",
+          "authors": [
+            "Choudhury Arup",
+            "Jena Anuraag",
+            "Jearth Vaneet"
+          ],
+          "pub_date": "2023-May",
+          "doi": "10.1080/17474124.2023.2204229",
+          "mesh_terms": [
+            "Humans",
+            "Proton Pump Inhibitors",
+            "Prospective Studies",
+            "Vitamin B 12 Deficiency",
+            "Vitamin B 12"
+          ]
         }
       }
     ]
