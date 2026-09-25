@@ -779,6 +779,85 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             drug_name=drug_name)
         profile["duration_min"] = _extract_duration_min(findings, drug)
 
+    elif drug_class == "Alginate":
+        # Non-systemic raft-forming reflux suppressant. Dimensions:
+        #   raft_strength       1-3 (raft/barrier formation & integrity)
+        #   reflux_suppression  1-3 (symptom/acid reflux control)
+        #   sodium_load         mg sodium per dose (numeric, from curated PK)
+        #   ddi_risk            1-3 (reduced absorption of co-administered drugs)
+        profile["raft_strength"] = _score_risk(findings,
+            keywords=["raft", "barrier", "alginic", "gel", "viscosity",
+                      "floating", "bioadhesive", "raft integrity"],
+            intensifiers=["strong", "robust", "high viscosity", "stable",
+                          "potent", "effective barrier"],
+            mitigators=["weak", "unstable", "low viscosity", "poor"],
+            default=2,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life",
+                         "bioavailability", "systemic absorption"],
+            drug_name=drug_name)
+        profile["reflux_suppression"] = _score_risk(findings,
+            keywords=["reflux", "regurgitation", "heartburn", "gerd",
+                      "acid pocket", "postprandial", "esophageal"],
+            intensifiers=["significant", "superior", "rapid", "complete",
+                          "effective", "greater"],
+            mitigators=["no better than", "comparable", "minimal", "modest"],
+            default=2,
+            drug_name=drug_name)
+        profile["sodium_load"] = _extract_sodium_mg(drug)
+        profile["ddi_risk"] = _score_risk(findings,
+            keywords=["drug interaction", "interaction", "absorption",
+                      "bioavailability", "coadministration", "reduced absorption"],
+            intensifiers=["significant", "contraindicated", "caution", "major",
+                          "substantially reduced"],
+            mitigators=["no interaction", "no effect", "no significant", "safe"],
+            default=1,
+            drug_name=drug_name)
+
+    elif drug_class == "Mucosal Protectant":
+        # Non-systemic barrier/cytoprotective agent. Dimensions:
+        #   barrier_protection 1-3 (mucosal barrier / cytoprotection)
+        #   ulcer_healing      1-3 (ulcer/lesion healing efficacy)
+        #   aluminum_exposure  1-3 (aluminum load / renal accumulation risk)
+        #   ddi_risk           1-3 (binds/chelates co-administered drugs)
+        profile["barrier_protection"] = _score_risk(findings,
+            keywords=["barrier", "cytoprotect", "mucosal protection",
+                      "coating", "protein complex", "protective", "adherent"],
+            intensifiers=["significant", "strong", "effective", "marked",
+                          "robust"],
+            mitigators=["weak", "minimal", "no protection", "poor"],
+            default=2,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life",
+                         "bioavailability", "systemic absorption"],
+            drug_name=drug_name)
+        profile["ulcer_healing"] = _score_risk(findings,
+            keywords=["ulcer", "healing", "mucosal damage", "erosive",
+                      "duodenal", "gastric", "lesion"],
+            intensifiers=["significant", "superior", "effective", "complete",
+                          "greater", "complete healing"],
+            mitigators=["no benefit", "inferior", "no better than", "minimal"],
+            default=2,
+            drug_name=drug_name)
+        profile["aluminum_exposure"] = _score_risk(findings,
+            keywords=["aluminum", "aluminium", "accumulation", "renal failure",
+                      "dialysis", "encephalopathy", "phosphate binding"],
+            intensifiers=["severe", "significant", "toxic", "life-threatening",
+                          "accumulate", "fatal"],
+            mitigators=["no accumulation", "well-tolerated", "safe",
+                        "minimal absorption", "not absorbed",
+                        "insignificant absorption"],
+            default=1,
+            adverse_context_terms=["toxicity", "encephalopathy", "accumulation",
+                                   "poisoning"],
+            drug_name=drug_name)
+        profile["ddi_risk"] = _score_risk(findings,
+            keywords=["drug interaction", "interaction", "binding", "chelation",
+                      "absorption", "coadministration", "reduced absorption"],
+            intensifiers=["significant", "contraindicated", "caution", "major",
+                          "substantially reduced"],
+            mitigators=["no interaction", "no effect", "no significant", "safe"],
+            default=1,
+            drug_name=drug_name)
+
     pool_relevance_pct = round(100 * relevant_snippets / total_snippets, 1) if total_snippets else 0.0
     profile["_evidence"] = {
         "pmids": sorted(all_pmids),
@@ -1474,6 +1553,26 @@ def extract_healing_ability(findings: list, drug_id: str = None) -> Optional[int
     if drug_id and drug_id.lower() in PPI_HEALING_DEFAULTS:
         return PPI_HEALING_DEFAULTS[drug_id.lower()]
 
+    return None
+
+
+def _extract_sodium_mg(drug: "dict" = None) -> "Optional[int]":
+    """Sodium load (mg per dose) for a salt-based drug, else None.
+
+    Prefers the curated ``sodium_content_mg_per_dose`` already present on the
+    drug's l3_systems / l2_pk record (single source of truth, mirrors the
+    duration_min design). Falls back to parsing the ``special`` PK note for a
+    "<n> mg" sodium figure. Returns None when nothing is stated.
+    """
+    for src in ((drug or {}).get("l3_systems", {}), (drug or {}).get("l2_pk", {})):
+        v = (src or {}).get("sodium_content_mg_per_dose")
+        if isinstance(v, (int, float)) and v > 0:
+            return int(round(v))
+    special = str(((drug or {}).get("l2_pk", {}) or {}).get("special", "")).lower()
+    m = re.search(r'(?:sodium|na)[^\d]{0,30}?(\d{2,4})\s*(?:-\s*(\d{2,4}))?\s*mg', special)
+    if m:
+        vals = [int(g) for g in m.groups() if g]
+        return max(vals) if vals else None
     return None
 
 

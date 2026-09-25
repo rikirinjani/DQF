@@ -1908,7 +1908,7 @@
         "healing_ability": false,
         "regurgitation_targeted": true,
         "sodium_content_mg_per_dose": 125,
-        "ddi_risk": 2,
+        "ddi_risk": 0,
         "note": "Unique mechanism â€” targets regurgitation by physical barrier; no systemic absorption",
         "_evidence": {
           "pmids": [
@@ -1937,10 +1937,7 @@
           "filtered_off_drug": 11,
           "relevance_gate": "pass"
         },
-        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json.",
-        "raft_strength": 3,
-        "reflux_suppression": 3,
-        "sodium_load": 125
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
       },
       "l4_clinical": {
         "indications": [
@@ -1985,7 +1982,7 @@
         "tolerance": false,
         "healing_ability": true,
         "pregnancy_category": "B",
-        "ddi_risk": 2,
+        "ddi_risk": 166,
         "renal_toxicity": "high_in_ckd",
         "note": "Only mucosal protectant in class; barrier + cytoprotection; paradoxical need for acid to activate",
         "_evidence": {
@@ -2009,10 +2006,7 @@
           "filtered_off_drug": 11,
           "relevance_gate": "pass"
         },
-        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json.",
-        "barrier_protection": 3,
-        "ulcer_healing": 3,
-        "aluminum_exposure": 1
+        "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
       },
       "l4_clinical": {
         "indications": [

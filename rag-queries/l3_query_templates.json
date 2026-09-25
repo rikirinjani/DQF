@@ -196,6 +196,56 @@
         "ddi_risk": null,
         "hypoglycemia_risk": null
       }
+    },
+    "Alginate": {
+      "tissue_sites": ["stomach", "esophagus", "lower esophageal sphincter"],
+      "tissue_queries": [
+        "{drug} raft formation barrier mechanism reflux",
+        "{drug} esophageal reflux suppression physical barrier",
+        "{drug} sodium content bioavailability systemic absorption",
+        "{drug} onset duration raft integrity postprandial"
+      ],
+      "off_target_queries": [
+        "{drug} {target} physical barrier mechanism",
+        "{drug} {target} non-systemic effect"
+      ],
+      "class_mechanism_queries": [
+        "{drug} alginate raft-forming reflux suppressant mechanism",
+        "{drug} alginate versus antacid reflux symptom relief",
+        "{drug} alginate drug interaction absorption coadministration",
+        "{drug} alginate sodium content cardiovascular caution"
+      ],
+      "l3_fields": {
+        "raft_strength": null,
+        "reflux_suppression": null,
+        "sodium_load": null,
+        "ddi_risk": null
+      }
+    },
+    "Mucosal Protectant": {
+      "tissue_sites": ["gastric mucosa", "duodenal mucosa", "stomach"],
+      "tissue_queries": [
+        "{drug} mucosal barrier protection cytoprotection mechanism",
+        "{drug} ulcer healing duodenal gastric efficacy",
+        "{drug} aluminum content absorption renal accumulation",
+        "{drug} onset duration acid-dependent activation"
+      ],
+      "off_target_queries": [
+        "{drug} {target} barrier mechanism",
+        "{drug} {target} non-systemic effect"
+      ],
+      "class_mechanism_queries": [
+        "{drug} sucralfate mucosal protectant barrier mechanism",
+        "{drug} ulcer healing rate randomized controlled trial",
+        "{drug} drug interaction binding absorption coadministration",
+        "{drug} aluminum accumulation renal failure toxicity"
+      ],
+      "l3_fields": {
+        "barrier_protection": null,
+        "ulcer_healing": null,
+        "aluminum_exposure": null,
+        "ddi_risk": null
+      }
     }
   }
 }
