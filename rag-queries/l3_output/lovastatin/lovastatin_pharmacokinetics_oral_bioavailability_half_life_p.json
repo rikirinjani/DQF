@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin pharmacokinetics oral bioavailability half-life plasma",
+    "dimension": "l2_pk",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18293165",
+        "text": "Pharmacokinetics and bioequivalence study of two tablet formulations of lovastatin in healthy volunteers. Lovastatin is a lipid-lowering agent indicated for primary hypercholesterolemia. This study has assessed single-dosing pharmacokinetics of lovastatin and of its main metabolite, lovastatin beta-hydroxyacid, and has compared the pharmacokinetics of two formulations of lovastatin, a test lovastatin generic (LVSG), and a reference (mevinacor 40 MSD) preparation. The pharmacokinetics and bioequivalence of the two formulations of lovastatin were evaluated by a two-way cross-over randomized double blinded study, in 36 healthy volunteers after a single oral dose of 2 x 40 mg per subject. On plasma samples, collected at given intervals of time (0-24h), lovastatin and its main active metabolite were assayed by high pressure liquid chromatography with positive turbo ion spray ionization tandem mass spectrometry detection. The pharmacokinetic parameters, area under the curve total (AUC(t)) and to infinity (AUC(inf)), peak plasma concentration (C(max)), time to attain peak (t(max)), and elimination half-life (t(1/2)) were determined and analyzed statistically. Only minor differences in the pharmacokinetics of lovastatin and lovastatin hydroxyacid between LVSG and mevinacor were found. Analysis of variance (ANOVA) did not show any significant difference between the two formulations, and 90% confidence intervals fell within the acceptable range for bioequivalence. The tolerability profile was good and comparable for the two formulations of lovastatin. Our study, which was performed with the largest number of subjects compared with those published in literature, indicates the bioequivalence of LVSG and mevinacor tablets. The high inter-subject variability of parameters investigated indicate the need of appropriate sample size in pharmacokinetics studies with lovastatin.",
+        "doi": "10.1080/10641960801944249",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3459438979625702,
+        "score": 0.3459438979625702,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:11831543",
+        "text": "Comparative pharmacokinetics of lovastatin extended-release tablets and lovastatin immediate-release tablets in humans. The pharmacokinetics of lovastatin and its active metabolite lovastatin acid was evaluated in 9 healthy subjects in a three-period crossover study following a single oral dose of lovastatin extended-release (ER) tablets and lovastatin immediate-release (IR) tablets. Participants were dosed with lovastatin IR 40 mg tablets following a standard breakfast, lovastatin ER 40 mg tablets following a standard breakfast, and lovastatin ER 40 mg tablets underfasting conditions. Serial plasma samples were collected for up to 48 hours postdose and assayed for lovastatin and lovastatin acid using a liquid chromatography/mass spectroscopy/mass spectroscopy method. Lovastatin ER tablets, unlike lovastatin IR tablets, exhibited delayed- and extended-release characteristics. The relative bioavailability, in terms of area under the curve values, of lovastatin (156%) and lovastatin acid (124%) was greater from lovastatin ER tablets as compared with lovastatin IR tablets when given with breakfast. An even greater increase in the bioavailability of lovastatin (261%) and lovastatin acid (231%) was observed when the lovastatin ER tablets were administered under fasting conditions. Thus, greater gastrointestinal tract drug absorption of lovastatin from lovastatin ER tablets was demonstrated. Ingestion of a standard breakfast prior to administration of lovastatin ER tablets decreased absorption of lovastatin by approximately 40%, relative to lovastatin ER tablets under fasting conditions.",
+        "doi": "10.1177/00912700222011111",
+        "journal": "Journal of clinical pharmacology",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.35293251276016235,
+        "score": 0.35293251276016235,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:7786066",
+        "text": "Fluvastatin: pharmakokinetic properties.",
+        "doi": "",
+        "journal": "ANNA journal",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3543447256088257,
+        "score": 0.3543447256088257,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

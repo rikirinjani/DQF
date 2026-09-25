@@ -1,0 +1,145 @@
+{
+  "query": {
+    "query": "Lovastatin HMGCR (prodrug) non-HMGCR mechanism",
+    "dimension": "off_target",
+    "target": "HMGCR (prodrug)"
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30054755",
+        "text": "Statin resistance in Candida glabrata.\n\nReduced efficacy of statins has been observed in people but the mechanism of this resistance is unclear and no statin-resistance mutations in the catalytic domain of HMGCR have been reported. The present study focused on looking for statin-resistance mutations and examining the mechanism of statin resistance using Candida glabrata as a model organism.\nC. glabrata was cultured in media containing lovastatin, simvastatin or atorvastatin to obtain lovastatin-, simvastatin- and atorvastatin-resistant mutants. A single mutant from each was purified for further analysis. In each mutant, gene sequencing showed there were no changes in the catalytic domain of HMGCR. HMGCR was overexpressed in two resistant isolates suggesting that increased production of HMGCR can lead to resistance. In a third mutant, HMGCR activity was unaltered, suggesting a non-HMGCR related mechanism, such as increased drug efflux, could be operating.\nCandida glabrata is a useful model organism for examining resistance to statins. Further studies are warranted to examine the precise molecular mechanisms of statin resistance.",
+        "title": "Statin resistance in Candida glabrata.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "30054755",
+          "journal": "Biotechnology letters",
+          "authors": [
+            "Subhan Mishal",
+            "Faryal Rani",
+            "Macreadie Ian"
+          ],
+          "pub_date": "2018-Oct",
+          "doi": "10.1007/s10529-018-2597-1",
+          "mesh_terms": [
+            "Antifungal Agents",
+            "Candida glabrata",
+            "Catalytic Domain",
+            "Drug Resistance, Fungal",
+            "Fungal Proteins",
+            "Gene Expression Regulation, Fungal",
+            "Hydroxymethylglutaryl CoA Reductases",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Mutation"
+          ]
+        }
+      },
+      {
+        "id": "PMID:36820075",
+        "text": "The interaction between polyphyllin I and SQLE protein induces hepatotoxicity through SREBP-2/HMGCR/SQLE/LSS pathway.\n\nPolyphyllin I (PPI) and polyphyllin II (PII) are the main active substances in the Paris polyphylla. However, liver toxicity of these compounds has impeded their clinical application and the potential hepatotoxicity mechanisms remain to be elucidated. In this work, we found that PPI and PII exposure could induce significant hepatotoxicity in human liver cell line L-02 and zebrafish in a dose-dependent manner. The results of the proteomic analysis in L-02 cells and transcriptome in zebrafish indicated that the hepatotoxicity of PPI and PII was associated with the cholesterol biosynthetic pathway disorders, which were alleviated by the cholesterol biosynthesis inhibitor lovastatin. Additionally, 3-hydroxy-3-methy-lglutaryl CoA reductase (HMGCR) and squalene epoxidase (SQLE), the two rate-limiting enzymes in the cholesterol synthesis, selected as the potential targets, were confirmed by the molecular docking, the overexpression, and knockdown of HMGCR or SQLE with siRNA. Finally, the pull-down and surface plasmon resonance technology revealed that PPI could directly bind with SQLE but not with HMGCR. Collectively, these data demonstrated that PPI-induced hepatotoxicity resulted from the direct binding with SQLE protein and impaired the sterol-regulatory element binding protein 2/HMGCR/SQLE/lanosterol synthase pathways, thus disturbing the cholesterol biosynthesis pathway. The findings of this research can contribute to a better understanding of the key role of SQLE as a potential target in drug-induced hepatotoxicity and provide a therapeutic strategy for the prevention of drug toxic effects with similar structures in the future.",
+        "title": "The interaction between polyphyllin I and SQLE protein induces hepatotoxicity through SREBP-2/HMGCR/SQLE/LSS pathway.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "36820075",
+          "journal": "Journal of pharmaceutical analysis",
+          "authors": [
+            "Li Zhiqi",
+            "Fan Qiqi",
+            "Chen Meilin"
+          ],
+          "pub_date": "2023-Jan",
+          "doi": "10.1016/j.jpha.2022.11.005",
+          "mesh_terms": []
+        }
+      },
+      {
+        "id": "PMID:2565206",
+        "text": "The physiological disposition of lovastatin.\n\nLovastatin is a pro-drug lactone whose open chain beta-hydroxy-acid (HA) is a potent inhibitor of hydroxymethylglutaryl-CoA-reductase and thus of cholesterol synthesis. Because the liver is the major site of cholesterolgenesis, it is the principal target organ for agents of this class. In animals, lovastatin is not as well absorbed as HA given per se, but that fraction that is absorbed reaches the portal circulation largely unchanged and is more efficiently extracted by the liver, after which it is reversibly biotransformed to HA and irreversibly to other enzymatically active products. These, like HA, maintain high hepatic gradients relative to all tissues examined. The minimal systemic burden for HA is attributable in part to the metabolic equilibrium, lovastatin in equilibrium HA, the opposing reactions for which appear to be present in most tissues. Excretion is very largely biliary in all species. Detailed comparisons of absorption, distribution, metabolism, and excretion profiles presented here and elsewhere indicate dogs to be the most appropriate paradigm for humans for study of lovastatin disposition.",
+        "title": "The physiological disposition of lovastatin.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "2565206",
+          "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+          "authors": [
+            "Duggan D E",
+            "Chen I W",
+            "Bayne W F"
+          ],
+          "pub_date": "1989",
+          "doi": "",
+          "mesh_terms": [
+            "Animals",
+            "Bile",
+            "Dogs",
+            "Feces",
+            "Gastric Mucosa",
+            "Humans",
+            "Liver",
+            "Lovastatin",
+            "Macaca",
+            "Rats",
+            "Time Factors",
+            "Tissue Distribution"
+          ]
+        }
+      },
+      {
+        "id": "PMID:38397481",
+        "text": "Peroxisomal Localization of a Truncated HMG-CoA Reductase under Low Cholesterol Conditions.\n\n3-hydroxy-3-methylglutaryl-CoA reductase (HMG-CoA reductase, HMGCR) is one of the rate-limiting enzymes in the mevalonate pathway required for cholesterol biosynthesis. It is an integral membrane protein of the endoplasmic reticulum (ER) but has occasionally been described in peroxisomes. By co-immunofluorescence microscopy using different HMGCR antibodies, we present evidence for a dual localization of HMGCR in the ER and peroxisomes in differentiated human monocytic THP-1 cells, primary human monocyte-derived macrophages and human primary skin fibroblasts under conditions of low cholesterol and statin treatment. Using density gradient centrifugation and Western blot analysis, we observed a truncated HMGCR variant of 76 kDa in the peroxisomal fractions, while a full-length HMGCR of 96 kDa was contained in fractions of the ER. In contrast to primary human control fibroblasts, peroxisomal HMGCR was not found in fibroblasts from patients suffering from type-1 rhizomelic chondrodysplasia punctata, who lack functional PEX7 and, thus, cannot import peroxisomal matrix proteins harboring a type-2 peroxisomal targeting signal (PTS2). Moreover, in the N-terminal region of the soluble 76 kDa C-terminal catalytic domain, we identified a PTS2-like motif, which was functional in a reporter context. We propose that under sterol-depleted conditions, part of the soluble HMGCR domain, which is released from the ER by proteolytic processing for further turnover, remains sufficiently long in the cytosol for peroxisomal import via a PTS2/PEX7-dependent mechanism. Altogether, our findings describe a dual localization of HMGCR under combined lipid depletion and statin treatment, adding another puzzle piece to the complex regulation of HMGCR.",
+        "title": "Peroxisomal Localization of a Truncated HMG-CoA Reductase under Low Cholesterol Conditions.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "38397481",
+          "journal": "Biomolecules",
+          "authors": [
+            "Wang Jianqiu",
+            "Kunze Markus",
+            "Villoria-González Andrea"
+          ],
+          "pub_date": "2024-Feb-19",
+          "doi": "10.3390/biom14020244",
+          "mesh_terms": [
+            "Humans",
+            "Acyl Coenzyme A",
+            "Cholesterol",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Membrane Proteins",
+            "Hydroxymethylglutaryl CoA Reductases"
+          ]
+        }
+      },
+      {
+        "id": "PMID:39824985",
+        "text": "SLC13A2 promotes hepatocyte metabolic remodeling and liver regeneration by enhancing de novo cholesterol biosynthesis.\n\nMetabolic requirements of dividing hepatocytes are prerequisite for liver regeneration after injury. In contrast to transcriptional dynamics during liver repair, its metabolic dependencies remain poorly defined. Here, we screened metabolic genes differentially regulated during liver regeneration, and report that SLC13A2, a transporter for TCA cycle intermediates, is decreased in rapid response to partial hepatectomy in mice and recovered along restoration of liver mass and function. Liver-specific overexpression or depletion of SLC13A2 promoted or attenuated liver regeneration, respectively. SLC13A2 increased cleavage of SREBP2, and expression of cholesterol metabolism genes, including LDLR and HMGCR. Mechanistically, SLC13A2 promotes import of citrate into hepatocytes, serving as building block for ACLY-dependent acetyl-CoA formation and de novo synthesis of cholesterol. In line, the pre-administration of the HMGCR inhibitor lovastatin abolished SLC13A2-mediated liver regeneration. Similarly, ACLY inhibition suppressed SLC13A2-promoted cholesterol synthesis for hepatocellular proliferation and liver regeneration in vivo. In sum, this study demonstrates that citrate transported by SLC13A2 acts as an intermediate metabolite to restore the metabolic homeostasis during liver regeneration, suggesting SLC13A2 as a potential drug target after liver damage.",
+        "title": "SLC13A2 promotes hepatocyte metabolic remodeling and liver regeneration by enhancing de novo cholesterol biosynthesis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39824985",
+          "journal": "The EMBO journal",
+          "authors": [
+            "Shi Li",
+            "Chen Hao",
+            "Zhang Yuxin"
+          ],
+          "pub_date": "2025-Mar",
+          "doi": "10.1038/s44318-025-00362-y",
+          "mesh_terms": [
+            "Animals",
+            "Liver Regeneration",
+            "Cholesterol",
+            "Hepatocytes",
+            "Mice",
+            "Liver",
+            "Male",
+            "Mice, Inbred C57BL",
+            "Sterol Regulatory Element Binding Protein 2",
+            "Hepatectomy",
+            "Humans",
+            "Hydroxymethylglutaryl CoA Reductases"
+          ]
+        }
+      }
+    ]
+  }
+}

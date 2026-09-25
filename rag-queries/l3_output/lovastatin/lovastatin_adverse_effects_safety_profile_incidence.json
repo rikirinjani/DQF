@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin adverse effects safety profile incidence",
+    "dimension": "backfill_safety",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:30512647",
+        "text": "[Adverse effects of statins]",
+        "doi": "",
+        "journal": "La Revue du praticien",
+        "year": "2018",
+        "corpus": "main",
+        "distance": 0.40705278515815735,
+        "score": 0.40705278515815735,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:28291889",
+        "text": "Adverse Effects of Statins-Reply.",
+        "doi": "10.1001/jama.2017.0154",
+        "journal": "JAMA",
+        "year": "2017",
+        "corpus": "main",
+        "distance": 0.42025521397590637,
+        "score": 0.42025521397590637,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:25353029",
+        "text": "Statin adverse effects: sorting out the evidence.",
+        "doi": "",
+        "journal": "The Journal of family practice",
+        "year": "2014",
+        "corpus": "main",
+        "distance": 0.42465054988861084,
+        "score": 0.42465054988861084,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

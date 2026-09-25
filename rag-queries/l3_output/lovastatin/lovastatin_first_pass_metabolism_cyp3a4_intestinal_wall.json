@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin first pass metabolism CYP3A4 intestinal wall",
+    "dimension": "l2_pk",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18445987",
+        "text": "Intestinal first-pass metabolism of CYP3A4 substrates. Cytochrome P450 3A4 (CYP3A4) is present not only in the liver but also in the small intestine, where it functions as a barrier against xenobiotics. Some CYP3A4 substrates exhibit low bioavailability due to intestinal first pass metabolism. The AUCs of such CYP3A4 substrates are remarkably changed by the inhibition, induction, and saturation of CYP3A4 and so prediction of intestinal first-pass metabolism is important. In this article, factors affecting intestinal first-pass metabolism of drugs are reviewed, focusing on the intestinal metabolism by CYP3A. The methods to predict intestinal first-pass metabolism are also reviewed.",
+        "doi": "10.2133/dmpk.23.87",
+        "journal": "Drug metabolism and pharmacokinetics",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3536840081214905,
+        "score": 0.3536840081214905,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:10490896",
+        "text": "Small intestinal metabolism of the 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor lovastatin and comparison with pravastatin. We compared the intestinal metabolism of the structurally related 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitors lovastatin and pravastatin in vitro. Human small intestinal microsomes metabolized lovastatin to its major metabolites 6'beta-hydroxy (apparent K(m) = 11.2 +/- 3.3 microM) and 6'-exomethylene (apparent K(m) = 22.7 +/- 9.0 microM) lovastatin. The apparent K(m) values were similar for lovastatin metabolism by human liver microsomes. 6'beta-Hydroxylovastatin formation by pig small intestinal microsomes was inhibited with the following inhibition K(i) values: cyclosporine, 3.3 +/- 1.2 microM; ketoconazole, 0.4 +/- 0.1 microM; and troleandomycin, 0.8 +/- 0.9 microM. K(i) values for 6'-exomethylene lovastatin were similar. Incubation of pravastatin with human small intestinal microsomes resulted in the generation of 3'alpha,5'beta, 6'beta-trihydroxypravastatin (apparent K(m) = 4560 +/- 1410 microM) and hydroxypravastatin (apparent K(m) = 5290 +/- 1740 microM). In addition, as in the liver, pravastatin was metabolized in the small intestine by sulfation and subsequent degradation to its main metabolite 3'alpha-iso-pravastatin. It was concluded that lovastatin is metabolized by cytochrome P-450 3A enzymes in the small intestine. Compared with lovastatin, the cytochrome P-450-dependent intestinal intrinsic clearance of pravastatin was >5000-fold lower and cannot be expected to significantly affect its oral bioavailability or to be a significant site of drug interactions.",
+        "doi": "",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.369764506816864,
+        "score": 0.369764506816864,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:19328560",
+        "text": "How important is intestinal cytochrome P450 3A metabolism? Cytochrome P450 3A (CYP3A) enzymes metabolize a wide variety of xenobiotics including many drugs. Because CYP3A is localized in both the liver and intestine, it can make a major contribution to the presystemic elimination of substrate drugs after oral administration ('first-pass metabolism'). However, assessments of the relative importance of intestinal versus hepatic CYP3A-mediated first-pass metabolism have been difficult to make and are subject to extensive discussion. To assess systematically the relative contributions of the intestine and liver to first-pass metabolism in vivo, Cyp3a knockout mice expressing human CYP3A4 in the liver or intestine have recently been generated. Analysis of these mice, together with previous observations in humans, substantiates that intestinal CYP3A4 can operate independently of the liver as a highly efficient metabolic barrier during the uptake of various drugs from the intestine. We expect that the insights obtained with these mouse models will contribute to the development of better oral drugs and treatment regimens.",
+        "doi": "10.1016/j.tips.2009.02.003",
+        "journal": "Trends in pharmacological sciences",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3916412591934204,
+        "score": 0.3916412591934204,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

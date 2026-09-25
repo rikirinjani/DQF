@@ -1,0 +1,102 @@
+{
+  "query": {
+    "query": "statin DDI CYP3A4 OATP1B1 mechanism",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35152405",
+        "text": "The Clinical Pharmacogenetics Implementation Consortium Guideline for SLCO1B1, ABCG2, and CYP2C9 genotypes and Statin-Associated Musculoskeletal Symptoms.\n\nStatins reduce cholesterol, prevent cardiovascular disease, and are among the most commonly prescribed medications in the world. Statin-associated musculoskeletal symptoms (SAMS) impact statin adherence and ultimately can impede the long-term effectiveness of statin therapy. There are several identified pharmacogenetic variants that impact statin disposition and adverse events during statin therapy. SLCO1B1 encodes a transporter (SLCO1B1; alternative names include OATP1B1 or OATP-C) that facilitates the hepatic uptake of all statins. ABCG2 encodes an efflux transporter (BCRP) that modulates the absorption and disposition of rosuvastatin. CYP2C9 encodes a phase I drug metabolizing enzyme responsible for the oxidation of some statins. Genetic variation in each of these genes alters systemic exposure to statins (i.e., simvastatin, rosuvastatin, pravastatin, pitavastatin, atorvastatin, fluvastatin, lovastatin), which can increase the risk for SAMS. We summarize the literature supporting these associations and provide therapeutic recommendations for statins based on SLCO1B1, ABCG2, and CYP2C9 genotype with the goal of improving the overall safety, adherence, and effectiveness of statin therapy. This document replaces the 2012 and 2014 Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for SLCO1B1 and simvastatin-induced myopathy.",
+        "title": "The Clinical Pharmacogenetics Implementation Consortium Guideline for SLCO1B1, ABCG2, and CYP2C9 genotypes and Statin-Associated Musculoskeletal Symptoms.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "35152405",
+          "journal": "Clinical pharmacology and therapeutics",
+          "authors": [
+            "Cooper-DeHoff Rhonda M",
+            "Niemi Mikko",
+            "Ramsey Laura B"
+          ],
+          "pub_date": "2022-May",
+          "doi": "10.1002/cpt.2557",
+          "mesh_terms": [
+            "ATP Binding Cassette Transporter, Subfamily G, Member 2",
+            "Cytochrome P-450 CYP2C9",
+            "Genotype",
+            "Humans",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Liver-Specific Organic Anion Transporter 1",
+            "Neoplasm Proteins",
+            "Pharmacogenetics",
+            "Rosuvastatin Calcium",
+            "Simvastatin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:31628882",
+        "text": "Interaction potential between clarithromycin and individual statins-A systematic review.\n\nThe high prevalence of statin and clarithromycin utilization creates potential for overlapping use. The objectives of this MiniReview were to investigate the evidence base for drug-drug interactions between clarithromycin and currently marketed statins and to present management strategies for these drug combinations. We conducted a systematic literature review following PRISMA guidelines with English language studies retrieved from PubMed and EMBASE (from inception through March 2019). We included 29 articles (16 case reports, 5 observational, 5 clinical pharmacokinetic and 3 in vitro studies). Based on mechanistic/clinical studies involving clarithromycin or the related macrolide erythromycin (both strong inhibitors of CYP3A4 and of hepatic statin uptake transporters OATP1B1 and OATP1B3), clarithromycin is expected to substantially increase systemic exposure to simvastatin and lovastatin (>5-fold increase in area under the plasma concentration-time curve (AUC)), moderately increase AUCs of atorvastatin and pitavastatin (2- to 4-fold AUC increase) and slightly increase pravastatin exposure (≈2-fold AUC increase) while having little effect on fluvastatin or rosuvastatin. The 16 cases of statin-clarithromycin adverse drug reactions (rhabdomyolysis (n = 14) or less severe clinical myopathy) involved a CYP3A4-metabolized statin (simvastatin, lovastatin or atorvastatin). In line, a cohort study found concurrent use of clarithromycin and CYP3A4-metabolized statins to be associated with a doubled risk of hospitalization with rhabdomyolysis or other statin-related adverse events as compared with azithromycin-statin co-administration. If clarithromycin is necessary, we recommend (a) avoiding co-administration with simvastatin, lovastatin or atorvastatin; (b) withholding or dose-reducing pitavastatin; (c) continuing pravastatin therapy with caution, limiting pravastatin dose to 40 mg daily; and (d) continuing fluvastatin or rosuvastatin with caution.",
+        "title": "Interaction potential between clarithromycin and individual statins-A systematic review.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "31628882",
+          "journal": "Basic & clinical pharmacology & toxicology",
+          "authors": [
+            "Hougaard Christensen Mette Marie",
+            "Bruun Haastrup Maija",
+            "Øhlenschlaeger Thomas"
+          ],
+          "pub_date": "2020-Apr",
+          "doi": "10.1111/bcpt.13343",
+          "mesh_terms": [
+            "Area Under Curve",
+            "Clarithromycin",
+            "Drug Interactions",
+            "Humans",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Rhabdomyolysis"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40505233",
+        "text": "Lovastatin alleviates DSS-induced colitis by modulating macrophage polarization via the PPARγ-NF-κB pathway.\n\nLovastatin, a pleiotropic cholesterol-lowering statin, possesses anti-inflammatory and immunomodulatory properties, yet its role in inflammatory bowel disease (IBD) remains unclear. This study investigates the anti-inflammatory effects of lovastatin in a dextran sulfate sodium (DSS)-induced colitis mouse model. We hypothesized that lovastatin alleviates colitis by modulating macrophage polarization via the PPARγ-NF-κB pathway. In vivo, lovastatin treatment mitigated the pathological features associated with colitis, such as body weight loss, disease activity index, colon length shortening, and colonic damage, and restoring the integrity of the intestinal mucosal barrier by preserving goblet cells and increasing tight junction proteins. Furthermore, lovastatin induced a shift in the macrophage phenotype from pro-inflammatory M1 macrophages to anti-inflammatory M2 macrophages, and downregulated M1-associated cytokines while upregulating M2 markers. RNA-seq revealed that PPARγ and NF-κB pathway may be involve in the regulation of macrophage polarization by lovastatin. In vitro, lovastatin dose-dependently inhibited LPS-induced M1 polarization in RAW264.7 cells and promoted M2 polarization via PPARγ activation, which suppressed NF-κB nuclear translocation. Mechanistically, PPARγ inhibition (GW9662) abolished lovastatin's effects, confirming PPARγ-NF-κB crosstalk. These findings demonstrate that lovastatin ameliorates colitis by rebalancing macrophage polarization through PPARγ-mediated NF-κB suppression, supporting its repurposing as a potential IBD therapy.",
+        "title": "Lovastatin alleviates DSS-induced colitis by modulating macrophage polarization via the PPARγ-NF-κB pathway.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40505233",
+          "journal": "International immunopharmacology",
+          "authors": [
+            "Zhu Qingqing",
+            "Zeng Chengcheng",
+            "Peng Wu"
+          ],
+          "pub_date": "2025-Aug-28",
+          "doi": "10.1016/j.intimp.2025.115068",
+          "mesh_terms": [
+            "Animals",
+            "PPAR gamma",
+            "Lovastatin",
+            "Dextran Sulfate",
+            "NF-kappa B",
+            "Mice",
+            "Colitis",
+            "Macrophages",
+            "RAW 264.7 Cells",
+            "Signal Transduction",
+            "Mice, Inbred C57BL",
+            "Anti-Inflammatory Agents",
+            "Disease Models, Animal",
+            "Male",
+            "Colon",
+            "Cytokines",
+            "Macrophage Activation"
+          ]
+        }
+      }
+    ]
+  }
+}

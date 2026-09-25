@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "Lovastatin HMG-CoA reductase pleiotropic effect pathway",
+    "dimension": "off_target",
+    "target": "HMG-CoA reductase"
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18068482",
+        "text": "Pleiotropic effects of statin therapy: molecular mechanisms and clinical results. Statins inhibit the enzyme 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, which is required for cholesterol biosynthesis, and are beneficial in the primary and secondary prevention of cardiovascular disease. Most of the benefits of statin therapy are owing to the lowering of serum cholesterol levels. However, by inhibiting HMG-CoA reductase, statins can also inhibit the synthesis of isoprenoids, which are important lipid attachments for intracellular signaling molecules, such as Rho, Rac and Cdc42. Therefore, it is possible that statins might exert cholesterol-independent or 'pleiotropic' effects through direct inhibition of these small GTP-binding proteins. Recent studies have shown that statins might have important roles in diseases that are not mediated by cholesterol. Here, we review data from recent clinical trials that support the concept of statin pleiotropy and provide a rationale for their clinical importance.",
+        "doi": "10.1016/j.molmed.2007.11.004",
+        "journal": "Trends in molecular medicine",
+        "year": "2007",
+        "corpus": "main",
+        "distance": 0.3380894660949707,
+        "score": 0.3380894660949707,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:21556312",
+        "text": "Pleiotropic effects of the HMG-CoA reductase inhibitors. The HMG-CoA reductase inhibitors (statins) are used extensively in the treatment of hyperlipidemia. They have also demonstrated a benefit in a variety of other disease processes. These secondary actions are known as pleiotropic effects. Our paper serves as a focused and updated discussion on the pleiotropy of statins and emphasizes the importance of randomized placebo-controlled trials to further elucidate this interesting phenomenon.",
+        "doi": "10.2147/IJGM.S16779",
+        "journal": "International journal of general medicine",
+        "year": "2011",
+        "corpus": "main",
+        "distance": 0.3431762158870697,
+        "score": 0.3431762158870697,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:18855711",
+        "text": "Pleiotropic effects of statins: implications for a wide range of diseases.",
+        "doi": "10.2174/157016108785909724",
+        "journal": "Current vascular pharmacology",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.35269027948379517,
+        "score": 0.35269027948379517,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

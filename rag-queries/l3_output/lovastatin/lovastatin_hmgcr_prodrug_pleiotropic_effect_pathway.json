@@ -1,0 +1,162 @@
+{
+  "query": {
+    "query": "Lovastatin HMGCR (prodrug) pleiotropic effect pathway",
+    "dimension": "off_target",
+    "target": "HMGCR (prodrug)"
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31449901",
+        "text": "Topical cholesterol/lovastatin for the treatment of porokeratosis: A pathogenesis-directed therapy.\n\nPorokeratosis is associated with mevalonate pathway gene mutations. Therapeutic options are few and often limited in efficacy. We hypothesized that topical therapy that aims to replenish cholesterol, an essential mevalonate pathway end-product, and block the accumulation of mevalonate pathway toxic metabolites could alleviate porokeratosis.\nTo study the efficacy of topical cholesterol/lovastatin in different variants of porokeratosis.\nWe enrolled a series of 5 porokeratosis patients,1 with disseminated superficial actinic porokeratosis, 2 with porokeratosis palmaris et plantaris disseminata, and 2 with linear porokeratosis. Patients were genotyped before initiation of therapy. Patients then applied topical cholesterol/lovastatin twice daily to a unilaterally defined treatment area for up to 3 months. The response was evaluated and patients photographed at every visit.\nThree patients had MVD mutations, and 2 patients had PMVK mutations. Treatment with topical cholesterol/lovastatin (but not cholesterol alone) resulted in near complete clearance of disseminated superficial actinic porokeratosis lesions after 4 weeks of therapy and moderate improvement of porokeratosis palmaris et plantaris disseminata lesions and linear porokeratosis lesions. There were no adverse events.\nCase series design with a small number of patients.\nTopical cholesterol/lovastatin is an effective and well-tolerated therapy for porokeratosis that underscores the utility of a pathogenesis-based therapy that replaces deficient end products and prevents accumulation of potentially toxic precursors.",
+        "title": "Topical cholesterol/lovastatin for the treatment of porokeratosis: A pathogenesis-directed therapy.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "31449901",
+          "journal": "Journal of the American Academy of Dermatology",
+          "authors": [
+            "Atzmony Lihi",
+            "Lim Young H",
+            "Hamilton Claire"
+          ],
+          "pub_date": "2020-Jan",
+          "doi": "10.1016/j.jaad.2019.08.043",
+          "mesh_terms": [
+            "Administration, Cutaneous",
+            "Adult",
+            "Anticholesteremic Agents",
+            "Carboxy-Lyases",
+            "Child, Preschool",
+            "Cholesterol",
+            "Drug Combinations",
+            "Genotype",
+            "Humans",
+            "Lovastatin",
+            "Middle Aged",
+            "Mutation",
+            "Ointments",
+            "Phosphotransferases (Phosphate Group Acceptor)",
+            "Porokeratosis",
+            "Young Adult"
+          ]
+        }
+      },
+      {
+        "id": "PMID:26773364",
+        "text": "Lovastatin induces platelet apoptosis.\n\nStatins are widely used in the prevention of atherosclerosis and treatment of coronary artery disease because of pleiotropic effects on thrombosis. Thrombocytopenia and hemorrhage occurred in some statin-treated patients, but the reason remains unclear. In the current study, we show that lovastatin dose-dependently induces depolarization of mitochondrial inner transmembrane potential, leading to up-regulation of Bak, down-regulation of Bcl-XL, and activation of caspase-3/8/9. Lovastatin treatment did not increase the surface expression of P-selectin or PAC-1 binding but led to strongly reduced collagen- and thrombin-induced platelet aggregation. The integrin αIIbβ3 antagonist, RGDS, inhibited lovastatin-induced apoptosis in both human platelets and Chinese hamster ovary (CHO) cells stably expressing integrin αIIbβ3. The number of circulating platelets in mice was significantly reduced after intraperitoneal injections with lovastatin. Taken together, these data indicate that lovastatin induced caspase-dependent platelet apoptosis. Lovastatin does not incur platelet activation, whereas impairs platelet function and reduces circulating platelets in vivo, suggesting the possible pathogenesis of thrombocytopenia and hemorrhage in patients treated with statins.",
+        "title": "Lovastatin induces platelet apoptosis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "26773364",
+          "journal": "Environmental toxicology and pharmacology",
+          "authors": [
+            "Zhao Qing",
+            "Li Ming",
+            "Chen Mengxing"
+          ],
+          "pub_date": "2016-Mar",
+          "doi": "10.1016/j.etap.2016.01.002",
+          "mesh_terms": [
+            "Animals",
+            "Anticholesteremic Agents",
+            "Apoptosis",
+            "Blood Platelets",
+            "CHO Cells",
+            "Caspase 3",
+            "Cricetinae",
+            "Cricetulus",
+            "Down-Regulation",
+            "Lovastatin",
+            "Membrane Potential, Mitochondrial",
+            "P-Selectin",
+            "Platelet Aggregation",
+            "Up-Regulation"
+          ]
+        }
+      },
+      {
+        "id": "PMID:30054755",
+        "text": "Statin resistance in Candida glabrata.\n\nReduced efficacy of statins has been observed in people but the mechanism of this resistance is unclear and no statin-resistance mutations in the catalytic domain of HMGCR have been reported. The present study focused on looking for statin-resistance mutations and examining the mechanism of statin resistance using Candida glabrata as a model organism.\nC. glabrata was cultured in media containing lovastatin, simvastatin or atorvastatin to obtain lovastatin-, simvastatin- and atorvastatin-resistant mutants. A single mutant from each was purified for further analysis. In each mutant, gene sequencing showed there were no changes in the catalytic domain of HMGCR. HMGCR was overexpressed in two resistant isolates suggesting that increased production of HMGCR can lead to resistance. In a third mutant, HMGCR activity was unaltered, suggesting a non-HMGCR related mechanism, such as increased drug efflux, could be operating.\nCandida glabrata is a useful model organism for examining resistance to statins. Further studies are warranted to examine the precise molecular mechanisms of statin resistance.",
+        "title": "Statin resistance in Candida glabrata.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30054755",
+          "journal": "Biotechnology letters",
+          "authors": [
+            "Subhan Mishal",
+            "Faryal Rani",
+            "Macreadie Ian"
+          ],
+          "pub_date": "2018-Oct",
+          "doi": "10.1007/s10529-018-2597-1",
+          "mesh_terms": [
+            "Antifungal Agents",
+            "Candida glabrata",
+            "Catalytic Domain",
+            "Drug Resistance, Fungal",
+            "Fungal Proteins",
+            "Gene Expression Regulation, Fungal",
+            "Hydroxymethylglutaryl CoA Reductases",
+            "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+            "Mutation"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40505233",
+        "text": "Lovastatin alleviates DSS-induced colitis by modulating macrophage polarization via the PPARγ-NF-κB pathway.\n\nLovastatin, a pleiotropic cholesterol-lowering statin, possesses anti-inflammatory and immunomodulatory properties, yet its role in inflammatory bowel disease (IBD) remains unclear. This study investigates the anti-inflammatory effects of lovastatin in a dextran sulfate sodium (DSS)-induced colitis mouse model. We hypothesized that lovastatin alleviates colitis by modulating macrophage polarization via the PPARγ-NF-κB pathway. In vivo, lovastatin treatment mitigated the pathological features associated with colitis, such as body weight loss, disease activity index, colon length shortening, and colonic damage, and restoring the integrity of the intestinal mucosal barrier by preserving goblet cells and increasing tight junction proteins. Furthermore, lovastatin induced a shift in the macrophage phenotype from pro-inflammatory M1 macrophages to anti-inflammatory M2 macrophages, and downregulated M1-associated cytokines while upregulating M2 markers. RNA-seq revealed that PPARγ and NF-κB pathway may be involve in the regulation of macrophage polarization by lovastatin. In vitro, lovastatin dose-dependently inhibited LPS-induced M1 polarization in RAW264.7 cells and promoted M2 polarization via PPARγ activation, which suppressed NF-κB nuclear translocation. Mechanistically, PPARγ inhibition (GW9662) abolished lovastatin's effects, confirming PPARγ-NF-κB crosstalk. These findings demonstrate that lovastatin ameliorates colitis by rebalancing macrophage polarization through PPARγ-mediated NF-κB suppression, supporting its repurposing as a potential IBD therapy.",
+        "title": "Lovastatin alleviates DSS-induced colitis by modulating macrophage polarization via the PPARγ-NF-κB pathway.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40505233",
+          "journal": "International immunopharmacology",
+          "authors": [
+            "Zhu Qingqing",
+            "Zeng Chengcheng",
+            "Peng Wu"
+          ],
+          "pub_date": "2025-Aug-28",
+          "doi": "10.1016/j.intimp.2025.115068",
+          "mesh_terms": [
+            "Animals",
+            "PPAR gamma",
+            "Lovastatin",
+            "Dextran Sulfate",
+            "NF-kappa B",
+            "Mice",
+            "Colitis",
+            "Macrophages",
+            "RAW 264.7 Cells",
+            "Signal Transduction",
+            "Mice, Inbred C57BL",
+            "Anti-Inflammatory Agents",
+            "Disease Models, Animal",
+            "Male",
+            "Colon",
+            "Cytokines",
+            "Macrophage Activation"
+          ]
+        }
+      },
+      {
+        "id": "PMID:36820075",
+        "text": "The interaction between polyphyllin I and SQLE protein induces hepatotoxicity through SREBP-2/HMGCR/SQLE/LSS pathway.\n\nPolyphyllin I (PPI) and polyphyllin II (PII) are the main active substances in the Paris polyphylla. However, liver toxicity of these compounds has impeded their clinical application and the potential hepatotoxicity mechanisms remain to be elucidated. In this work, we found that PPI and PII exposure could induce significant hepatotoxicity in human liver cell line L-02 and zebrafish in a dose-dependent manner. The results of the proteomic analysis in L-02 cells and transcriptome in zebrafish indicated that the hepatotoxicity of PPI and PII was associated with the cholesterol biosynthetic pathway disorders, which were alleviated by the cholesterol biosynthesis inhibitor lovastatin. Additionally, 3-hydroxy-3-methy-lglutaryl CoA reductase (HMGCR) and squalene epoxidase (SQLE), the two rate-limiting enzymes in the cholesterol synthesis, selected as the potential targets, were confirmed by the molecular docking, the overexpression, and knockdown of HMGCR or SQLE with siRNA. Finally, the pull-down and surface plasmon resonance technology revealed that PPI could directly bind with SQLE but not with HMGCR. Collectively, these data demonstrated that PPI-induced hepatotoxicity resulted from the direct binding with SQLE protein and impaired the sterol-regulatory element binding protein 2/HMGCR/SQLE/lanosterol synthase pathways, thus disturbing the cholesterol biosynthesis pathway. The findings of this research can contribute to a better understanding of the key role of SQLE as a potential target in drug-induced hepatotoxicity and provide a therapeutic strategy for the prevention of drug toxic effects with similar structures in the future.",
+        "title": "The interaction between polyphyllin I and SQLE protein induces hepatotoxicity through SREBP-2/HMGCR/SQLE/LSS pathway.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "36820075",
+          "journal": "Journal of pharmaceutical analysis",
+          "authors": [
+            "Li Zhiqi",
+            "Fan Qiqi",
+            "Chen Meilin"
+          ],
+          "pub_date": "2023-Jan",
+          "doi": "10.1016/j.jpha.2022.11.005",
+          "mesh_terms": []
+        }
+      }
+    ]
+  }
+}

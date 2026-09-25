@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin HMG-CoA reductase inhibition potency IC50 Ki competitive inhibitor",
+    "dimension": "l1_binding",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7784310",
+        "text": "Pharmacology of competitive inhibitors of HMG-CoA reductase.",
+        "doi": "10.1016/1043-6618(95)80042-5",
+        "journal": "Pharmacological research",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3217329680919647,
+        "score": 0.3217329680919647,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:8729902",
+        "text": "More on comparison of HMG-CoA reductase inhibitors.",
+        "doi": "10.1177/106002809603000420",
+        "journal": "The Annals of pharmacotherapy",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.4104066789150238,
+        "score": 0.4104066789150238,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:11329860",
+        "text": "HMG-CoA reductase inhibitors.",
+        "doi": "10.1016/s0065-3233(01)56003-9",
+        "journal": "Advances in protein chemistry",
+        "year": "2001",
+        "corpus": "main",
+        "distance": 0.42848819494247437,
+        "score": 0.42848819494247437,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin LDL cholesterol reduction efficacy",
+    "dimension": "backfill_outcome",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7610642",
+        "text": "Continued benefit of lovastatin in the treatment of hypercholesterolemia in 36 patients. After one year of treatment, low-dose (20 mg/d) lovastatin achieved continued efficacy without tachyphylaxis in 36 patients with Type IIa or IIb hyperlipoproteinemia. Six week and one year reductions in low density lipoprotein (LDL) cholesterol were significant at 33% and 31% in these patients respectively; reductions in total cholesterol were also significant at 25% and 22% respectively. Increases in high density lipoprotein cholesterol (HDL) were 6% at six weeks and 10% at one year; triglycerides were reduced 16% and 11% respectively. The cholesterol lowering effects were similar for males and females (23% and 21% respectively). Low-dose lovastatin (20 mg/d) is a good choice for reducing cholesterol in patients with primary Type IIa or IIb hyperlipoproteinemia refractory to diet therapy because it is effective in lowering LDL-cholesterol, while raising HDL-cholesterol with few side effects and without tachyphylaxis.",
+        "doi": "",
+        "journal": "The West Virginia medical journal",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.3991559147834778,
+        "score": 0.3991559147834778,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:10178460",
+        "text": "Postmarketing analysis of lovastatin use in the VA Northern California System of Clinics: a retrospective, computer-based study. Prevention of coronary heart disease is a major public health goal. The efficacy of lovastatin in lowering serum cholesterol has been proven in research studies, but its efficacy in practice is unclear. To evaluate our practice patterns and outcome in the Veterans Administration Northern California System of Clinics, we reviewed computer-based records of 203 unselected patients issued lovastatin; 193 (95%) were men, and the average patient age was 66 +/- 9 years. The average daily dose of lovastatin was 24 +/- 10 mg, and average duration of therapy was 22 +/- 11 months. Only 72 patients (35%) were instructed on the prescription to take their medication with the evening meal, and only 59 patients (29%) had seen a dietitian during the observed (1 to 3 years) treatment period. Nevertheless, among the 124 patients with pretreatment lipid data, total serum cholesterol decreased by 18% from 271 +/- 45 to 221 +/- 41 mg/dL (P < 0.001), and low density lipoprotein (LDL)-cholesterol decreased by 23% from 185 +/- 43 to 143 +/- 37 (P < 0.001) mg/dL. High density lipoprotein-cholesterol and triglycerides were unchanged. Of the 168 patients with LDL-cholesterol data during the treatment period, only 74 (44%) achieved an LDL-cholesterol level of less than 130 mg/dL, the minimum goal for a population of older males with a high incidence of other cardiac risk factors. Safety surveillance with liver function testing was performed at least once in 192 patients (95%), but with creatine phosphokinase (CPK) testing in only 123 patients (61%) during the survey period. Enzyme elevations were minor, but occurred at least intermittently in approximately one quarter of patients. Only 5.7% of patients on lovastatin manifested an increase in transaminases on therapy. Due to incomplete baseline data, it is unclear how many patients had elevated CPK as a result of lovastatin. We conclude that: (1) lovastatin is effective in lowering total and LDL-cholesterol in practice, but is often used in dosage insufficient to lower LDL-cholesterol to goal levels; (2) patients are not being adequately educated on dosing schedules; (3) toxicity may be underestimated by infrequent and inconsistent surveillance; and (4) nonpharmacologic therapy is underutilized.",
+        "doi": "",
+        "journal": "The American journal of managed care",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.40210217237472534,
+        "score": 0.40210217237472534,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:9264433",
+        "text": "Effectiveness of atorvastatin for reducing low-density lipoprotein cholesterol to National Cholesterol Education Program treatment goals. Atorvastatin is a highly efficacious hydroxymethylglutaryl-coenzyme A reductase inhibitor that has been shown to reduce low-density lipoprotein cholesterol by 40% to 60%. Monotherapy with atorvastatin (10 to 80 mg/day) is well-tolerated, convenient, and appears to be effective for achieving National Cholesterol Education Program treatment goals in most patients, regardless of risk status.",
+        "doi": "10.1016/s0002-9149(97)00360-3",
+        "journal": "The American journal of cardiology",
+        "year": "1997",
+        "corpus": "main",
+        "distance": 0.4107043147087097,
+        "score": 0.4107043147087097,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

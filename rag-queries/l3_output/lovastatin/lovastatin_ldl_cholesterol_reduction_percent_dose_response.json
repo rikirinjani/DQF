@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin LDL cholesterol reduction percent dose response",
+    "dimension": "l4_clinical",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:10047626",
+        "text": "Comparative efficacy and tolerability of low-dose pravastatin versus lovastatin in patients with hypercholesterolemia. The HMG CoA reductase inhibitors have quickly become the most widely prescribed family of agents for the treatment of patients with elevated low-density lipoprotein (LDL) cholesterol. The incidence of side effects with these agents increases as the dose increases within the recommended dosage range. A lower dosage presumably would have a lower incidence of adverse effects. In addition, lower doses should translate into reduced drug costs. We compared the efficacy of 10 mg of pravastatin and 10 mg of lovastatin in a randomized, crossover design trial among 30 patients with hypercholesterolemia. At baseline, their total cholesterol and LDL cholesterol levels were 249.0 +/- 27.3 and 185.1 +/- 25.5 mg/dL. After 4 weeks of treatment with lovastatin, the total cholesterol and LDL cholesterol levels fell to 202.8 +/- 29.6 and 141.0 +/- 25.3 mg/dL, decreases of 19% and 24%, respectively. Four weeks of pravastatin treatment resulted in levels of 212.6 +/- 30.8 and 150.5 +/- 25.5 mg/dL, or 15% and 19%, respectively. There were highly significant changes in total cholesterol and LDL cholesterol levels with each agent and no differences in effect between the 2 agents. In 13 (43%) of the 30 patients, LDL levels were reduced to </=130 mg/dL with one of the agents. Both agents were generally well tolerated, with no clinically important change in liver function tests or creatinine kinase levels.",
+        "doi": "10.1016/s0002-8703(99)70492-8",
+        "journal": "American heart journal",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.39321058988571167,
+        "score": 0.39321058988571167,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:8875972",
+        "text": "Meeting national cholesterol education goals in clinical practice--a comparison of lovastatin and fluvastatin in primary prevention. The available clinical data for 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitors demonstrate their efficacy and safety in treating hypercholesterolemia and improving long-term morbidity and mortality related to coronary artery disease. Comparative studies among agents in this class support the general perception that, at the most commonly prescribed doses, all these drugs reduce low-density lipoprotein (LDL) cholesterol levels by about 20-30%. The primary measure of efficacy in the current study was the percentage of patients achieving goal levels for LDL cholesterol of < 160 mg/dL, as proposed by the National Cholesterol Education Program (NCEP). This study compares the most widely prescribed agent in this class, lovastatin, with the newest agent, fluvastatin. Patients enrolled had previously been satisfactorily treated with lovastatin 20 mg every evening. Following a placebo washout period, patients were randomized to receive lovastatin 20 mg with the evening meal (69 patients) or fluvastatin 20 mg at bedtime (68 patients) for 4 weeks of open-label therapy. In a second 4-week period, patients on lovastatin continued on the initial dosage while patients receiving fluvastatin had their daily dosage increased to 40 mg at bedtime to evaluate the range of efficacy from 20-40 mg/day. In both treatment arms, the majority of patients achieved the goal lipid level. Approximately 85% of patients on fluvastatin 20 mg and 90% of patients on lovastatin 20 mg achieved the goal within 4 weeks. This small difference was not statistically significant. Increasing the dosage to 40 mg at bedtime in the fluvastatin arm produced goal LDL cholesterol levels in about 90% of patients. Both agents were well tolerated; no patients discontinued therapy because of adverse events.",
+        "doi": "10.1016/s0002-9149(96)00659-5",
+        "journal": "The American journal of cardiology",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.4277547001838684,
+        "score": 0.4277547001838684,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:27533947",
+        "text": "Variability of low-density lipoprotein cholesterol response with different doses of atorvastatin, rosuvastatin, and simvastatin: results from VOYAGER. Patient response to statin treatment is individual and varied. As a consequence, when using a specific-dose approach, as recommended in the 2013 American College of Cardiology/American Heart Association guideline, there will be a range of reductions in the concentration of low-density lipoprotein cholesterol (LDL-C). The aim of this study was to use individual patient data from the VOYAGER meta-analysis to determine the extent of the variability in LDL-C reduction in response to treatment across the recommended doses of different statins. The percentage change from baseline in LDL-C was calculated using individual subject data collected from 32 258 patients treated with atorvastatin 10-80 mg, rosuvastatin 5-40 mg, or simvastatin 10-80 mg. The percentage change in LDL-C for each patient was then used to generate waterfall plots that demonstrated the extent of the variability in response to treatment at all doses of the three statins. The standard deviation of LDL-C reduction for all statins and doses ranged from 12.8 to 17.9%. The percentage of patients experiencing a suboptimal response (<30% reduction in LDL-C) ranged from 5.3 to 53.3%. These results indicate that there is considerable individual variation in the LDL-C reduction at all doses of simvastatin, atorvastatin, and rosuvastatin.",
+        "doi": "10.1093/ehjcvp/pvw006",
+        "journal": "European heart journal. Cardiovascular pharmacotherapy",
+        "year": "2016",
+        "corpus": "main",
+        "distance": 0.4292428493499756,
+        "score": 0.4292428493499756,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin active hydroxyacid metabolite inhibitory concentration enzyme",
+    "dimension": "l1_binding",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:7720768",
+        "text": "Variable activation of lovastatin by hydrolytic enzymes in human plasma and liver. 4. Lovastatin, widely used to lower cholesterol, is a pro-drug that requires metabolic activation through hydrolysis by carboxyesterases. There appear to be at least three distinct esterases in humans capable of catalysing this reaction, one in plasma and two in the liver. The rate of lovastatin hydroxy acid formation was measured as 15.8 pmol.ml-1.min-1 in plasma, 2.13 pmol.mg-1 protein.min-1 in hepatic microsomes and 0.92 pmol.mg-1 protein.min-1 in cytosol. The data suggest that on average the three esterases together are capable of activating about 220 nmol (90 micrograms) lovastatin per minute per person, to which the esterases of plasma, liver microsomes and liver cytosol contribute approximately 18, 15 and 67%, respectively. All three esterases showed evidence of inter-individual variability. In one of 17 livers, both cytosolic and microsomal esterase activity was completely missing, while two other liver specimens lacked one esterase. Such variability must be expected to influence the therapeutic efficacy of the drug, and they might be related to its occasional toxicity.",
+        "doi": "10.1007/BF00196860",
+        "journal": "European journal of clinical pharmacology",
+        "year": "1995",
+        "corpus": "main",
+        "distance": 0.4301033020019531,
+        "score": 0.4301033020019531,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:9118584",
+        "text": "Clinical pharmacokinetics of 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitors. 3-Hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase is the key enzyme of cholesterol synthesis. HMG-CoA reductase inhibitors are potent reversible inhibitors of this enzyme, which act by competing for the substrate HMG-CoA. This review is mainly devoted to the 4 main HMG-CoA reductase inhibitors used today: lovastatin, simvastatin, pravastatin and fluvastatin. Depending upon the dosage, these drugs are able to reduce plasma cholesterol levels by more than 40%. After absorption, each undergoes extensive hepatic first-pass metabolism. Up to 5 primary metabolites are formed, some of which are active inhibitors. The elimination half-lives vary from 0.5 to 3.5 hours and excretion is mainly via the faeces. A limited number of drug interactions has been reported. Increases in liver enzymes and muscle creatine kinase activity are among the most severe adverse effects. These powerful drugs should be reserved for patients with high plasma cholesterol levels and/or those with cardiovascular disease. New therapeutic approaches to atherosclerosis are currently under investigation. HMG-CoA reductase inhibitors are the cornerstone of this research.",
+        "doi": "10.2165/00003088-199631050-00003",
+        "journal": "Clinical pharmacokinetics",
+        "year": "1996",
+        "corpus": "main",
+        "distance": 0.4361811578273773,
+        "score": 0.4361811578273773,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:32795118",
+        "text": "Lovastatin producing by wild strain of  Lovastatin is a drug in the statin class which acts as a natural inhibitor of 3-hydroxy-3-methylglutaryl, a coenzyme reductase reported as being a potential therapeutic agent for several diseases: Alzheimer's, multiple sclerosis, osteoporosis and due to its anti-cancer properties.",
+        "doi": "10.1080/10826068.2020.1805624",
+        "journal": "Preparative biochemistry & biotechnology",
+        "year": "2020",
+        "corpus": "main",
+        "distance": 0.441745787858963,
+        "score": 0.441745787858963,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

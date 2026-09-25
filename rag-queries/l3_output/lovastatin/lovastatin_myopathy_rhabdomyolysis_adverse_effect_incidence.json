@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin myopathy rhabdomyolysis adverse effect incidence",
+    "dimension": "l4_clinical",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:15820170",
+        "text": "Frequency of myopathy in patients receiving lovastatin. Lovastatin (Mevacor) 20 mg is being considered for nonprescription availability. Because the most severe untoward consequence of therapy with any statin is rhabdomyolysis, the clinical data for lovastatin pertaining to this adverse event were reviewed. Evidence to date, based on almost 2 decades of experience, points to an extremely low risk for myopathy and rhabdomyolysis associated with lovastatin.",
+        "doi": "10.1016/j.amjcard.2004.12.042",
+        "journal": "The American journal of cardiology",
+        "year": "2004",
+        "corpus": "main",
+        "distance": 0.26761388778686523,
+        "score": 0.26761388778686523,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:34779634",
+        "text": "Statin Induced Rhabdomyolysis. Statins are group of medicines that lower the level of low-density lipoprotein (LDL) cholesterol. They may exert toxic effects on skeletal muscle ranging from simple muscle pain to life-threatening complications such as rhabdomyolysis. We report a case of 74-year-old male who was prescribed statins along with other drugs for treatment of coronary artery disease (CAD) and developed rhabdomyolysis which lead to acute renal failure. We report this case as statin induced rhabdomyolysis is very rare.",
+        "doi": "10.1021/acs.orglett.1c03565",
+        "journal": "Organic letters",
+        "year": "2021",
+        "corpus": "main",
+        "distance": 0.2975185513496399,
+        "score": 0.2975185513496399,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:12150329",
+        "text": "Statins and the risk of rhabdomyolysis.",
+        "doi": "10.1007/BF03345078",
+        "journal": "Journal of endocrinological investigation",
+        "year": "2002",
+        "corpus": "main",
+        "distance": 0.29865095019340515,
+        "score": 0.29865095019340515,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

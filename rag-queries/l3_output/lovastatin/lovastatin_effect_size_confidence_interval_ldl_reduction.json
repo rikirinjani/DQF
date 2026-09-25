@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin effect size confidence interval LDL reduction",
+    "dimension": "backfill_effect_size",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:18376002",
+        "text": "Does ENHANCE diminish confidence in lowering LDL or in ezetimibe?",
+        "doi": "10.1056/NEJMe0801608",
+        "journal": "The New England journal of medicine",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3858970105648041,
+        "score": 0.3858970105648041,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:18324945",
+        "text": "Enhanced LDL-C reduction: lower is better. Does it matter how?",
+        "doi": "10.1111/j.1742-1241.2008.01721.x",
+        "journal": "International journal of clinical practice",
+        "year": "2008",
+        "corpus": "main",
+        "distance": 0.3968246281147003,
+        "score": 0.3968246281147003,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:10417486",
+        "text": "LDL particle size: an important drug target?",
+        "doi": "10.1046/j.1365-2125.1999.00991.x",
+        "journal": "British journal of clinical pharmacology",
+        "year": "1999",
+        "corpus": "main",
+        "distance": 0.4286733865737915,
+        "score": 0.4286733865737915,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

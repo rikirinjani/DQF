@@ -1,0 +1,47 @@
+{
+  "query": {
+    "query": "lovastatin comparative effectiveness versus placebo meta-analysis",
+    "dimension": "backfill_comparative",
+    "target": null
+  },
+  "source": "lancedb",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:16275204",
+        "text": "Statin comparisons in controlled clinical trials.",
+        "doi": "10.1016/j.amjcard.2005.05.004",
+        "journal": "The American journal of cardiology",
+        "year": "2005",
+        "corpus": "main",
+        "distance": 0.349719762802124,
+        "score": 0.349719762802124,
+        "rerank_score": 1.0
+      },
+      {
+        "id": "PMID:36847307",
+        "text": "Comparative efficacy and safety among high-intensity statins. Systematic Review and Meta-Analysis.",
+        "doi": "10.57264/cer-2022-0163",
+        "journal": "Journal of comparative effectiveness research",
+        "year": "2023",
+        "corpus": "main",
+        "distance": 0.36008942127227783,
+        "score": 0.36008942127227783,
+        "rerank_score": 0.95
+      },
+      {
+        "id": "PMID:9708683",
+        "text": "Comparative dose efficacy study of atorvastatin versus simvastatin, pravastatin, lovastatin, and fluvastatin in patients with hypercholesterolemia (the CURVES study)",
+        "doi": "",
+        "journal": "The American journal of cardiology",
+        "year": "1998",
+        "corpus": "main",
+        "distance": 0.3787868916988373,
+        "score": 0.3787868916988373,
+        "rerank_score": 0.9
+      }
+    ],
+    "source": "LanceDB direct vector search",
+    "endpoint": "s3://pubmed-rag-lancedb/lancedb"
+  }
+}

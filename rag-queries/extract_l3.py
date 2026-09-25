@@ -351,9 +351,10 @@ def build_l3_queries(drug: dict, templates: dict) -> list[dict]:
             })
 
     # 4. PK-tissue disconnect query if half-life is notable
-    pk = drug.get("l2_pk", {})
-    hl = pk.get("half_life_h", 0)
-    special = pk.get("special", "")
+    # Null-safe: curated records legitimately carry None (unknown, not zero).
+    pk = drug.get("l2_pk", {}) or {}
+    hl = pk.get("half_life_h") or 0
+    special = pk.get("special") or ""
     if hl < 3 or "synovial" in special.lower() or "tissue" in special.lower() or "enterohepatic" in special.lower():
         queries.append({
             "query": f"{drug_name} tissue concentration half-life distribution pharmacokinetics",
