@@ -815,26 +815,100 @@ def _extract_off_targets(findings: list, drug: dict) -> list:
     return sorted(off_targets)[:6]  # cap at 6
 
 
-# Drug-salt name phrases. "sodium" inside these is the salt form of another
-# drug (divalproex sodium, warfarin sodium, sodium valproate, ...), NOT a
-# metabolic/electrolyte finding about the index drug. Multi-drug review
-# sentences name the index drug AND other drugs' salt forms in the same
-# sentence, so they pass the drug-anchor gate and would otherwise inflate
-# keyword counts. Legitimate sodium findings ("serum sodium", "urinary
-# sodium excretion", "sodium retention") are NOT salt phrases and survive.
-# Curated list -- no generic "\w+ sodium" rule, which would mask real
-# evidence like "serum sodium".
-SALT_NAME_RE = re.compile(
-    r"\b(?:divalproex|warfarin|diclofenac|naproxen|ketorolac|indomethacin|"
+# Drug-salt / excipient name vocabulary (USP <1121> + RxNorm precise-
+# ingredient modifiers). A "sodium" inside a salt name (divalproex sodium,
+# sodium valproate) is the salt form of ANOTHER drug or an excipient, NOT a
+# metabolic/electrolyte finding about the index drug. Multi-drug reviews name
+# the index drug AND other drugs' salt forms in the same sentence, so they
+# pass the drug-anchor gate and would otherwise inflate keyword counts.
+#
+# Precision rules keep legitimate electrolyte findings intact:
+#   * a bare cation ("sodium") is NEVER masked on its own -- it must be
+#     stoich-prefixed (disodium), followed by an anion (sodium bicarbonate),
+#     or follow a known drug name (losartan potassium);
+#   * therefore "serum sodium", "urinary potassium excretion", "sodium
+#     retention", "potassium supplementation", "calcium channel" survive.
+_SALT_CATIONS = (
+    r"sodium|potassium|calcium|magnesium|ammonium|lithium|zinc|"
+    r"ferrous|ferric|aluminum|aluminium"
+)
+_SALT_ANIONS = (
+    r"chloride|hydrochloride|hydrobromide|bromide|iodide|fluoride|"
+    r"citrate|phosphate|bicarbonate|carbonate|sulfate|sulphate|"
+    r"acetate|lactate|gluconate|tartrate|maleate|fumarate|succinate|"
+    r"oxalate|malate|mesylate|besylate|tosylate|edetate|pamoate|"
+    r"embonate|napsylate|isethionate|mandelate|alginate|polystyrene|"
+    r"valproate|zirconium|phenylbutyrate|levothyroxine|nitroprusside|"
+    r"oxybate|thiosulfate|nitrite|nitrate|salicylate|benzoate|"
+    r"stearate|palmitate|oleate|ascorbate|folate|glucuronate|"
+    r"oxide|hydroxide|peroxide|"
+    r"cellulose|carboxymethylcellulose"
+)
+_SALT_STOICH = r"(?:mono|di|tri|tetra|bis|hemi|sesqui)"
+_SALT_HYDRATES = r"(?:mono|di|tri|hemi|sesqui)?hydrate"
+# Drug names that appear paired with a salt modifier in the corpus but are not
+# always framework entries (comparators in multi-drug reviews). This is the
+# original curated list; the framework's own 88 names are added at build time.
+_SALT_EXTRA_DRUGS = (
+    r"divalproex|warfarin|diclofenac|naproxen|ketorolac|indomethacin|"
     r"lansoprazole|pantoprazole|rabeprazole|omeprazole|valsartan|sacubitril|"
     r"alendronate|risedronate|oxacillin|nafcillin|ampicillin|methicillin|"
-    r"carboxymethylcellulose)\s+sodium\b"
-    r"|\bsodium\s+(?:valproate|zirconium|polystyrene|alginate|phenylbutyrate|"
-    r"cellulose|nitroprusside|oxybate|thiosulfate|nitrite|acetate|lactate|"
-    r"levothyroxine|citrate|phosphate|bicarbonate|chloride|sulfate|"
-    r"indomethacin)\b",
-    re.IGNORECASE,
+    r"carboxymethylcellulose"
 )
+# Prefixes that must NOT be consumed by the generic "any-drug + salt suffix"
+# rule, so legitimate keyword phrases ("lipid phosphate", "renal phosphate",
+# "creatinine phosphate", "serum chloride") survive.
+_SALT_KEEP_PREFIXES = (
+    r"renal|bone|lipid|glucose|metabolic|cardiovascular|heart|hepatic|"
+    r"gastrointestinal|gi|insulin|plasma|serum|urinary|urine|blood|"
+    r"electrolyte|sodium|potassium|calcium|magnesium|dietary|low|high|"
+    r"total|body|creatinine|kidney"
+)
+
+
+def _build_salt_name_re() -> "re.Pattern":
+    """Compile the salt-name masker.
+
+    The drug-name alternation is data-driven (the framework's own drug list)
+    so every drug's salt form is covered -- losartan potassium, metoprolol
+    succinate, diclofenac potassium -- plus a curated extras list for
+    comparators seen in the corpus that are not framework entries.
+    """
+    names = set(_SALT_EXTRA_DRUGS.split("|"))
+    try:
+        names |= {
+            str(d.get("name", "")).lower()
+            for d in load_drugs().get("drugs", []) if d.get("name")
+        }
+    except Exception:
+        pass
+    # longest-first so "sodium alginate" wins over a bare "alginate"
+    drug_alt = "|".join(
+        re.escape(n) for n in sorted(names, key=len, reverse=True) if n
+    )
+    parts = [
+        # 1. stoich-prefixed cation: disodium, monopotassium, dicalcium
+        rf"\b{_SALT_STOICH}(?:{_SALT_CATIONS})\b",
+        # 2. cation + anion: sodium bicarbonate, potassium chloride
+        rf"\b(?:{_SALT_CATIONS})\s+(?:{_SALT_ANIONS})\b",
+        # 3. any-drug + salt suffix: sertraline hydrochloride, codeine
+        #    phosphate. Safe because anions/hydrates are never dimension
+        #    keywords; keyword-ish prefixes are excluded so legit phrases
+        #    ("lipid phosphate", "renal phosphate") survive.
+        rf"\b(?!(?:{_SALT_KEEP_PREFIXES})\s)[a-z][a-z0-9-]{{2,}}\s+"
+        rf"(?:{_SALT_ANIONS}|{_SALT_HYDRATES})\b",
+    ]
+    if drug_alt:
+        # 4. framework drug + salt modifier: losartan potassium, metoprolol
+        #    succinate. Cations ARE keywords, so this branch stays restricted
+        #    to known drug names.
+        parts.append(
+            rf"\b(?:{drug_alt})\s+(?:{_SALT_CATIONS}|{_SALT_ANIONS}|{_SALT_HYDRATES})\b"
+        )
+    return re.compile("|".join(parts), re.IGNORECASE)
+
+
+SALT_NAME_RE = _build_salt_name_re()
 
 
 def _score_risk(findings: list, keywords: list[str], default: int = 1,

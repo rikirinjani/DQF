@@ -1,0 +1,1022 @@
+{
+  "drugs": [
+    {
+      "id": "ibuprofen",
+      "name": "Ibuprofen",
+      "rxcui": "5640",
+      "salt_form": true,
+      "in": [
+        "ibuprofen"
+      ],
+      "pin": [
+        "ibuprofen lysine",
+        "ibuprofen, sodium salt"
+      ]
+    },
+    {
+      "id": "diclofenac",
+      "name": "Diclofenac",
+      "rxcui": "3355",
+      "salt_form": true,
+      "in": [
+        "diclofenac"
+      ],
+      "pin": [
+        "diclofenac diethylammonium",
+        "diclofenac epolamine",
+        "diclofenac potassium",
+        "diclofenac sodium"
+      ]
+    },
+    {
+      "id": "celecoxib",
+      "name": "Celecoxib",
+      "rxcui": "140587",
+      "salt_form": false,
+      "in": [
+        "celecoxib"
+      ],
+      "pin": []
+    },
+    {
+      "id": "paracetamol",
+      "name": "Paracetamol",
+      "rxcui": "161",
+      "salt_form": false,
+      "in": [
+        "acetaminophen"
+      ],
+      "pin": []
+    },
+    {
+      "id": "atorvastatin",
+      "name": "Atorvastatin",
+      "rxcui": "83367",
+      "salt_form": true,
+      "in": [
+        "atorvastatin"
+      ],
+      "pin": [
+        "atorvastatin calcium",
+        "atorvastatin calcium anhydrous",
+        "atorvastatin calcium propylene glycol solvate",
+        "atorvastatin calcium trihydrate"
+      ]
+    },
+    {
+      "id": "rosuvastatin",
+      "name": "Rosuvastatin",
+      "rxcui": "301542",
+      "salt_form": true,
+      "in": [
+        "rosuvastatin"
+      ],
+      "pin": [
+        "rosuvastatin calcium"
+      ]
+    },
+    {
+      "id": "simvastatin",
+      "name": "Simvastatin",
+      "rxcui": "36567",
+      "salt_form": false,
+      "in": [
+        "simvastatin"
+      ],
+      "pin": []
+    },
+    {
+      "id": "pravastatin",
+      "name": "Pravastatin",
+      "rxcui": "42463",
+      "salt_form": true,
+      "in": [
+        "pravastatin"
+      ],
+      "pin": [
+        "pravastatin sodium"
+      ]
+    },
+    {
+      "id": "pitavastatin",
+      "name": "Pitavastatin",
+      "rxcui": "861634",
+      "salt_form": true,
+      "in": [
+        "pitavastatin"
+      ],
+      "pin": [
+        "pitavastatin calcium",
+        "pitavastatin magnesium",
+        "pitavastatin sodium"
+      ]
+    },
+    {
+      "id": "omeprazole",
+      "name": "Omeprazole",
+      "rxcui": "7646",
+      "salt_form": true,
+      "in": [
+        "omeprazole"
+      ],
+      "pin": [
+        "omeprazole magnesium",
+        "omeprazole sodium"
+      ]
+    },
+    {
+      "id": "esomeprazole",
+      "name": "Esomeprazole",
+      "rxcui": "283742",
+      "salt_form": true,
+      "in": [
+        "esomeprazole"
+      ],
+      "pin": [
+        "esomeprazole magnesium",
+        "esomeprazole magnesium dihydrate",
+        "esomeprazole magnesium trihydrate",
+        "esomeprazole sodium",
+        "esomeprazole strontium"
+      ]
+    },
+    {
+      "id": "pantoprazole",
+      "name": "Pantoprazole",
+      "rxcui": "40790",
+      "salt_form": true,
+      "in": [
+        "pantoprazole"
+      ],
+      "pin": [
+        "pantoprazole (as pantoprazole sodium sesquihydrate)",
+        "pantoprazole sodium"
+      ]
+    },
+    {
+      "id": "lansoprazole",
+      "name": "Lansoprazole",
+      "rxcui": "17128",
+      "salt_form": false,
+      "in": [
+        "lansoprazole"
+      ],
+      "pin": []
+    },
+    {
+      "id": "rabeprazole",
+      "name": "Rabeprazole",
+      "rxcui": "114979",
+      "salt_form": true,
+      "in": [
+        "rabeprazole"
+      ],
+      "pin": [
+        "rabeprazole sodium"
+      ]
+    },
+    {
+      "id": "cimetidine",
+      "name": "Cimetidine",
+      "rxcui": "2541",
+      "salt_form": true,
+      "in": [
+        "cimetidine"
+      ],
+      "pin": [
+        "cimetidine hydrochloride"
+      ]
+    },
+    {
+      "id": "ranitidine",
+      "name": "Ranitidine",
+      "rxcui": "9143",
+      "salt_form": true,
+      "in": [
+        "ranitidine"
+      ],
+      "pin": [
+        "ranitidine bismuth citrate",
+        "ranitidine hydrochloride"
+      ]
+    },
+    {
+      "id": "famotidine",
+      "name": "Famotidine",
+      "rxcui": "4278",
+      "salt_form": false,
+      "in": [
+        "famotidine"
+      ],
+      "pin": []
+    },
+    {
+      "id": "aluminum-magnesium-hydroxide",
+      "name": "Al/Mg Hydroxide",
+      "rxcui": null,
+      "salt_form": null,
+      "in": [],
+      "pin": [],
+      "note": "unresolved"
+    },
+    {
+      "id": "calcium-carbonate",
+      "name": "Calcium Carbonate",
+      "rxcui": "1897",
+      "salt_form": false,
+      "in": [
+        "calcium carbonate"
+      ],
+      "pin": []
+    },
+    {
+      "id": "sodium-alginate",
+      "name": "Sodium Alginate",
+      "rxcui": "56446",
+      "salt_form": true,
+      "in": [
+        "alginic acid"
+      ],
+      "pin": [
+        "sodium alginate"
+      ]
+    },
+    {
+      "id": "sucralfate",
+      "name": "Sucralfate",
+      "rxcui": "10156",
+      "salt_form": true,
+      "in": [
+        "sucralfate"
+      ],
+      "pin": [
+        "sucralfate malate"
+      ]
+    },
+    {
+      "id": "naproxen",
+      "name": "Naproxen",
+      "rxcui": "7258",
+      "salt_form": true,
+      "in": [
+        "naproxen"
+      ],
+      "pin": [
+        "naproxen sodium"
+      ]
+    },
+    {
+      "id": "indomethacin",
+      "name": "Indomethacin",
+      "rxcui": "5781",
+      "salt_form": true,
+      "in": [
+        "indomethacin"
+      ],
+      "pin": [
+        "indomethacin sodium",
+        "indomethacin sodium trihydrate"
+      ]
+    },
+    {
+      "id": "meloxicam",
+      "name": "Meloxicam",
+      "rxcui": "41493",
+      "salt_form": false,
+      "in": [
+        "meloxicam"
+      ],
+      "pin": []
+    },
+    {
+      "id": "piroxicam",
+      "name": "Piroxicam",
+      "rxcui": "8356",
+      "salt_form": true,
+      "in": [
+        "piroxicam"
+      ],
+      "pin": [
+        "piroxicam cinnamate",
+        "piroxicam-beta-cyclodextrin"
+      ]
+    },
+    {
+      "id": "ketorolac",
+      "name": "Ketorolac",
+      "rxcui": "35827",
+      "salt_form": true,
+      "in": [
+        "ketorolac"
+      ],
+      "pin": [
+        "ketorolac tromethamine"
+      ]
+    },
+    {
+      "id": "aspirin",
+      "name": "Aspirin",
+      "rxcui": "1191",
+      "salt_form": true,
+      "in": [
+        "aspirin"
+      ],
+      "pin": [
+        "acetylsalicylate sodium"
+      ]
+    },
+    {
+      "id": "lisinopril",
+      "name": "Lisinopril",
+      "rxcui": "29046",
+      "salt_form": true,
+      "in": [
+        "lisinopril"
+      ],
+      "pin": [
+        "lisinopril anhydrous"
+      ]
+    },
+    {
+      "id": "losartan",
+      "name": "Losartan",
+      "rxcui": "52175",
+      "salt_form": true,
+      "in": [
+        "losartan"
+      ],
+      "pin": [
+        "losartan potassium"
+      ]
+    },
+    {
+      "id": "amlodipine",
+      "name": "Amlodipine",
+      "rxcui": "17767",
+      "salt_form": true,
+      "in": [
+        "amlodipine"
+      ],
+      "pin": [
+        "amlodipine benzoate",
+        "amlodipine besylate"
+      ]
+    },
+    {
+      "id": "metoprolol",
+      "name": "Metoprolol",
+      "rxcui": "6918",
+      "salt_form": true,
+      "in": [
+        "metoprolol"
+      ],
+      "pin": [
+        "metoprolol fumarate",
+        "metoprolol succinate",
+        "metoprolol tartrate"
+      ]
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "name": "Hydrochlorothiazide",
+      "rxcui": "5487",
+      "salt_form": false,
+      "in": [
+        "hydrochlorothiazide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "chlorthalidone",
+      "name": "Chlorthalidone",
+      "rxcui": "2409",
+      "salt_form": false,
+      "in": [
+        "chlorthalidone"
+      ],
+      "pin": []
+    },
+    {
+      "id": "metformin",
+      "name": "Metformin",
+      "rxcui": "6809",
+      "salt_form": true,
+      "in": [
+        "metformin"
+      ],
+      "pin": [
+        "metformin hydrochloride"
+      ]
+    },
+    {
+      "id": "empagliflozin",
+      "name": "Empagliflozin",
+      "rxcui": "1545653",
+      "salt_form": false,
+      "in": [
+        "empagliflozin"
+      ],
+      "pin": []
+    },
+    {
+      "id": "dapagliflozin",
+      "name": "Dapagliflozin",
+      "rxcui": "1488564",
+      "salt_form": true,
+      "in": [
+        "dapagliflozin"
+      ],
+      "pin": [
+        "dapagliflozin 2,3-butanediol monohydrate",
+        "dapagliflozin propanediol"
+      ]
+    },
+    {
+      "id": "semaglutide",
+      "name": "Semaglutide",
+      "rxcui": "1991302",
+      "salt_form": false,
+      "in": [
+        "semaglutide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "tirzepatide",
+      "name": "Tirzepatide",
+      "rxcui": "2601723",
+      "salt_form": false,
+      "in": [
+        "tirzepatide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "insulin-glargine",
+      "name": "Insulin Glargine",
+      "rxcui": "274783",
+      "salt_form": true,
+      "in": [
+        "insulin glargine"
+      ],
+      "pin": [
+        "insulin glargine-aglr",
+        "insulin glargine-aldy",
+        "insulin glargine-yfgn"
+      ]
+    },
+    {
+      "id": "enalapril",
+      "name": "Enalapril",
+      "rxcui": "3827",
+      "salt_form": true,
+      "in": [
+        "enalapril"
+      ],
+      "pin": [
+        "enalapril maleate"
+      ]
+    },
+    {
+      "id": "ramipril",
+      "name": "Ramipril",
+      "rxcui": "35296",
+      "salt_form": false,
+      "in": [
+        "ramipril"
+      ],
+      "pin": []
+    },
+    {
+      "id": "perindopril",
+      "name": "Perindopril",
+      "rxcui": "54552",
+      "salt_form": true,
+      "in": [
+        "perindopril"
+      ],
+      "pin": [
+        "perindopril arginine",
+        "perindopril erbumine"
+      ]
+    },
+    {
+      "id": "captopril",
+      "name": "Captopril",
+      "rxcui": "1998",
+      "salt_form": false,
+      "in": [
+        "captopril"
+      ],
+      "pin": []
+    },
+    {
+      "id": "trandolapril",
+      "name": "Trandolapril",
+      "rxcui": "38454",
+      "salt_form": false,
+      "in": [
+        "trandolapril"
+      ],
+      "pin": []
+    },
+    {
+      "id": "valsartan",
+      "name": "Valsartan",
+      "rxcui": "69749",
+      "salt_form": false,
+      "in": [
+        "valsartan"
+      ],
+      "pin": []
+    },
+    {
+      "id": "candesartan",
+      "name": "Candesartan",
+      "rxcui": "214354",
+      "salt_form": true,
+      "in": [
+        "candesartan"
+      ],
+      "pin": [
+        "candesartan cilexetil"
+      ]
+    },
+    {
+      "id": "irbesartan",
+      "name": "Irbesartan",
+      "rxcui": "83818",
+      "salt_form": false,
+      "in": [
+        "irbesartan"
+      ],
+      "pin": []
+    },
+    {
+      "id": "olmesartan",
+      "name": "Olmesartan",
+      "rxcui": "321064",
+      "salt_form": true,
+      "in": [
+        "olmesartan"
+      ],
+      "pin": [
+        "olmesartan medoxomil"
+      ]
+    },
+    {
+      "id": "telmisartan",
+      "name": "Telmisartan",
+      "rxcui": "73494",
+      "salt_form": false,
+      "in": [
+        "telmisartan"
+      ],
+      "pin": []
+    },
+    {
+      "id": "nifedipine",
+      "name": "Nifedipine",
+      "rxcui": "7417",
+      "salt_form": false,
+      "in": [
+        "nifedipine"
+      ],
+      "pin": []
+    },
+    {
+      "id": "felodipine",
+      "name": "Felodipine",
+      "rxcui": "4316",
+      "salt_form": false,
+      "in": [
+        "felodipine"
+      ],
+      "pin": []
+    },
+    {
+      "id": "diltiazem",
+      "name": "Diltiazem",
+      "rxcui": "3443",
+      "salt_form": true,
+      "in": [
+        "diltiazem"
+      ],
+      "pin": [
+        "diltiazem hydrochloride",
+        "diltiazem malate"
+      ]
+    },
+    {
+      "id": "verapamil",
+      "name": "Verapamil",
+      "rxcui": "11170",
+      "salt_form": true,
+      "in": [
+        "verapamil"
+      ],
+      "pin": [
+        "verapamil hydrochloride"
+      ]
+    },
+    {
+      "id": "atenolol",
+      "name": "Atenolol",
+      "rxcui": "1202",
+      "salt_form": false,
+      "in": [
+        "atenolol"
+      ],
+      "pin": []
+    },
+    {
+      "id": "bisoprolol",
+      "name": "Bisoprolol",
+      "rxcui": "19484",
+      "salt_form": true,
+      "in": [
+        "bisoprolol"
+      ],
+      "pin": [
+        "bisoprolol fumarate"
+      ]
+    },
+    {
+      "id": "carvedilol",
+      "name": "Carvedilol",
+      "rxcui": "20352",
+      "salt_form": true,
+      "in": [
+        "carvedilol"
+      ],
+      "pin": [
+        "carvedilol phosphate"
+      ]
+    },
+    {
+      "id": "propranolol",
+      "name": "Propranolol",
+      "rxcui": "8787",
+      "salt_form": true,
+      "in": [
+        "propranolol"
+      ],
+      "pin": [
+        "propranolol hydrochloride"
+      ]
+    },
+    {
+      "id": "nebivolol",
+      "name": "Nebivolol",
+      "rxcui": "31555",
+      "salt_form": true,
+      "in": [
+        "nebivolol"
+      ],
+      "pin": [
+        "nebivolol hydrochloride"
+      ]
+    },
+    {
+      "id": "furosemide",
+      "name": "Furosemide",
+      "rxcui": "4603",
+      "salt_form": false,
+      "in": [
+        "furosemide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "spironolactone",
+      "name": "Spironolactone",
+      "rxcui": "9997",
+      "salt_form": false,
+      "in": [
+        "spironolactone"
+      ],
+      "pin": []
+    },
+    {
+      "id": "indapamide",
+      "name": "Indapamide",
+      "rxcui": "5764",
+      "salt_form": false,
+      "in": [
+        "indapamide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "doxazosin",
+      "name": "Doxazosin",
+      "rxcui": "49276",
+      "salt_form": true,
+      "in": [
+        "doxazosin"
+      ],
+      "pin": [
+        "doxazosin mesylate"
+      ]
+    },
+    {
+      "id": "terazosin",
+      "name": "Terazosin",
+      "rxcui": "37798",
+      "salt_form": true,
+      "in": [
+        "terazosin"
+      ],
+      "pin": [
+        "terazosin hydrochloride",
+        "terazosin hydrochloride anhydrous"
+      ]
+    },
+    {
+      "id": "clonidine",
+      "name": "Clonidine",
+      "rxcui": "2599",
+      "salt_form": true,
+      "in": [
+        "clonidine"
+      ],
+      "pin": [
+        "clonidine hydrochloride"
+      ]
+    },
+    {
+      "id": "hydralazine",
+      "name": "Hydralazine",
+      "rxcui": "5470",
+      "salt_form": true,
+      "in": [
+        "hydralazine"
+      ],
+      "pin": [
+        "hydralazine hydrochloride"
+      ]
+    },
+    {
+      "id": "methyldopa",
+      "name": "Methyldopa",
+      "rxcui": "6876",
+      "salt_form": true,
+      "in": [
+        "methyldopa"
+      ],
+      "pin": [
+        "methyldopa anhydrous"
+      ]
+    },
+    {
+      "id": "canagliflozin",
+      "name": "Canagliflozin",
+      "rxcui": "1373458",
+      "salt_form": true,
+      "in": [
+        "canagliflozin"
+      ],
+      "pin": [
+        "canagliflozin anhydrous"
+      ]
+    },
+    {
+      "id": "ertugliflozin",
+      "name": "Ertugliflozin",
+      "rxcui": "1992672",
+      "salt_form": true,
+      "in": [
+        "ertugliflozin"
+      ],
+      "pin": [
+        "ertugliflozin pidolate"
+      ]
+    },
+    {
+      "id": "liraglutide",
+      "name": "Liraglutide",
+      "rxcui": "475968",
+      "salt_form": false,
+      "in": [
+        "liraglutide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "dulaglutide",
+      "name": "Dulaglutide",
+      "rxcui": "1551291",
+      "salt_form": false,
+      "in": [
+        "dulaglutide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "exenatide",
+      "name": "Exenatide",
+      "rxcui": "60548",
+      "salt_form": false,
+      "in": [
+        "exenatide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "sitagliptin",
+      "name": "Sitagliptin",
+      "rxcui": "593411",
+      "salt_form": true,
+      "in": [
+        "sitagliptin"
+      ],
+      "pin": [
+        "sitagliptin hydrochloride",
+        "sitagliptin phosphate"
+      ]
+    },
+    {
+      "id": "saxagliptin",
+      "name": "Saxagliptin",
+      "rxcui": "857974",
+      "salt_form": true,
+      "in": [
+        "saxagliptin"
+      ],
+      "pin": [
+        "saxagliptin anhydrous",
+        "saxagliptin hydrochloride",
+        "saxagliptin hydrochloride dihydrate"
+      ]
+    },
+    {
+      "id": "linagliptin",
+      "name": "Linagliptin",
+      "rxcui": "1100699",
+      "salt_form": false,
+      "in": [
+        "linagliptin"
+      ],
+      "pin": []
+    },
+    {
+      "id": "alogliptin",
+      "name": "Alogliptin",
+      "rxcui": "1368001",
+      "salt_form": true,
+      "in": [
+        "alogliptin"
+      ],
+      "pin": [
+        "alogliptin benzoate"
+      ]
+    },
+    {
+      "id": "vildagliptin",
+      "name": "Vildagliptin",
+      "rxcui": "596554",
+      "salt_form": false,
+      "in": [
+        "vildagliptin"
+      ],
+      "pin": []
+    },
+    {
+      "id": "pioglitazone",
+      "name": "Pioglitazone",
+      "rxcui": "33738",
+      "salt_form": true,
+      "in": [
+        "pioglitazone"
+      ],
+      "pin": [
+        "pioglitazone hydrochloride"
+      ]
+    },
+    {
+      "id": "rosiglitazone",
+      "name": "Rosiglitazone",
+      "rxcui": "84108",
+      "salt_form": true,
+      "in": [
+        "rosiglitazone"
+      ],
+      "pin": [
+        "rosiglitazone maleate"
+      ]
+    },
+    {
+      "id": "glipizide",
+      "name": "Glipizide",
+      "rxcui": "4821",
+      "salt_form": false,
+      "in": [
+        "glipizide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "glimepiride",
+      "name": "Glimepiride",
+      "rxcui": "25789",
+      "salt_form": false,
+      "in": [
+        "glimepiride"
+      ],
+      "pin": []
+    },
+    {
+      "id": "glyburide",
+      "name": "Glyburide",
+      "rxcui": "4815",
+      "salt_form": true,
+      "in": [
+        "glyburide"
+      ],
+      "pin": [
+        "glyburide, micronized"
+      ]
+    },
+    {
+      "id": "gliclazide",
+      "name": "Gliclazide",
+      "rxcui": "4816",
+      "salt_form": false,
+      "in": [
+        "gliclazide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "insulin-aspart",
+      "name": "Insulin Aspart",
+      "rxcui": "51428",
+      "salt_form": true,
+      "in": [
+        "insulin aspart, human"
+      ],
+      "pin": [
+        "insulin aspart-fsan",
+        "insulin aspart-szjj",
+        "insulin aspart-xjhz"
+      ]
+    },
+    {
+      "id": "insulin-lispro",
+      "name": "Insulin Lispro",
+      "rxcui": "86009",
+      "salt_form": true,
+      "in": [
+        "insulin lispro"
+      ],
+      "pin": [
+        "insulin lispro-aabc"
+      ]
+    },
+    {
+      "id": "insulin-degludec",
+      "name": "Insulin Degludec",
+      "rxcui": "1670007",
+      "salt_form": false,
+      "in": [
+        "insulin degludec"
+      ],
+      "pin": []
+    },
+    {
+      "id": "acarbose",
+      "name": "Acarbose",
+      "rxcui": "16681",
+      "salt_form": false,
+      "in": [
+        "acarbose"
+      ],
+      "pin": []
+    },
+    {
+      "id": "repaglinide",
+      "name": "Repaglinide",
+      "rxcui": "73044",
+      "salt_form": false,
+      "in": [
+        "repaglinide"
+      ],
+      "pin": []
+    },
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "rxcui": "139953",
+      "salt_form": true,
+      "in": [
+        "pramlintide"
+      ],
+      "pin": [
+        "pramlintide acetate"
+      ]
+    }
+  ],
+  "salt_form_count": 52,
+  "unresolved": 1,
+  "total": 88
+}
