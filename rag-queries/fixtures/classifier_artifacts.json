@@ -1,0 +1,263 @@
+{
+ "description": "Fixtures from Batch-4 adjudication: 'strong' labels rejected as classifier artifacts (expect=suspect) vs genuine quantified strongs (expect=clean). Used by classifier_audit.py --selftest.",
+ "artifacts": [
+  {
+   "drug": "calcium-carbonate",
+   "dim": "renal_toxicity_risk",
+   "class": "Antacid",
+   "label": "strong",
+   "text": "oral calcium carbonate administration ameliorates the progression of renal failure in rats with hypertension.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "calcium-carbonate",
+   "dim": "renal_toxicity_risk",
+   "class": "Antacid",
+   "label": "strong",
+   "text": "for the subjects on chronic hemodialysis, most of the variability in the nonrenal clearance and the terminal-phase rate constant of temafloxacin was associated with the quantity of calcium carbonate and related medication taken for the treatment of hyperphosphatemia.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "esomeprazole",
+   "dim": "acid_rebound",
+   "class": "PPI",
+   "label": "strong",
+   "text": "esomeprazole's treatment effect was maintained for ≥ one week after treatment ended, with no sign of symptomatic rebound.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "aluminum-magnesium-hydroxide",
+   "dim": "neutralization_capacity",
+   "class": "Antacid",
+   "label": "strong",
+   "text": "it is concluded that concomitant intake of al/mg hydroxide antacid or food with dexibuprofen has an impact to significantly alter its pharmacokinetic parameters.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "class": "NSAID",
+   "label": "strong",
+   "text": "the detectable benefit of daily low-dose aspirin (at least 75 mg), as used to prevent cardiovascular disease events, strongly suggests that its antiplatelet action is central to explaining its antitumor efficacy.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "class": "NSAID",
+   "label": "strong",
+   "text": "this prostanoid plays a central role in atherothrombosis, as shown by the benefit of the antiplatelet agent low-dose aspirin, a preferential inhibitor of platelet cox-1.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "class": "NSAID",
+   "label": "strong",
+   "text": "recent meta-analysis has revealed that long-term aspirin administration has clear benefits for the secondary prevention of cardiovascular diseases with an odds reduction of 23% and an absolute risk reduction of 3.1% over 2 years.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "metoprolol",
+   "dim": "metabolic_effect",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "divalproex sodium, sodium valproate, topiramate, metoprolol, propranolol, and timolol are effective for migraine prevention and should be offered to patients with migraine to reduce migraine attack frequency and severity (level a).",
+   "expect": "suspect"
+  },
+  {
+   "drug": "chlorthalidone",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "evidence from the click (chlorthalidone in chronic kidney disease) trial indicates that the thiazide-like diuretic chlorthalidone is effective and serves as an alternative therapeutic opportunity for patients with stage 4 ckd and uncontrolled hypertension, including those with treatment-resistant hypertension.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "tirzepatide",
+   "dim": "renal_benefit",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "the pharmacokinetics (pk) and single-dose tolerability of tirzepatide, a dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist being developed for once-weekly treatment of type 2 diabetes (t2d), weight management, and nonalcoholic steatohepatitis, was evaluated in subjects with renal impairment versus healthy subjects with normal renal function.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "atenolol",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "in patients with impaired renal function elimination half life of atenolol gradually increases to values of 36 h in uraemic patients (glomerular filtration rate (gfr) less than 10 ml/min).",
+   "expect": "suspect"
+  },
+  {
+   "drug": "atenolol",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "between gfr and atenolol plasma clearance as well as renal clearance a close significant correlation is described.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "atenolol",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "prolongation of elimination half life requires a dosage adjustment of atenolol in patients with renal failure.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "indapamide",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "no adverse effect of indapamide on renal function is evident in normal volunteers, hypertensive patients, or geriatric hypertensive patients, as determined by glomerular filtration rate or effective renal plasma flow.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "clonidine may be safely given to patients with congestive heart failure, ischemic heart disease, obstructive lung disease, chronic renal insufficiency, and diabetes mellitus.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "the effects of clonidine on renal hemodynamics and renal function make it a particularly useful antihypertensive agent.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "during treatment of hypertensive patients with clonidine, renal blood flow and glomerular filtration rate are well maintained, and renin secretion is reduced.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "no deterioration of renal function was noted in patients with primary hypertension who were treated with clonidine for periods from 6 months to at least 5 years.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "clonidine is also effective in hypertensive patients undergoing chronic hemodialysis, but doses may have to be reduced because the drug is excreted chiefly by the kidney.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "clonidine",
+   "dim": "renal_protection",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "clonidine has also been shown to be effective in patients with renal failure or in hypertensive crisis.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "alogliptin appears to be weight neutral and is relatively well tolerated with few adverse effects.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "there is a low risk of hypoglycemia, weight gain, acute pancreatitis, and gastrointestinal adverse events with alogliptin treatment, as demonstrated in long-term trials (lasting up to 4.5 years) and in a real-world setting.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "dipeptidyl peptidase-4 (dpp-4) inhibitors such as alogliptin are becoming more widely established as treatment options for patients with type 2 diabetes (t2dm) because of their ability to improve glycemic control without increasing the risk of hypoglycemia or weight gain.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "all analyses over all trial population sets produced very similar results, and show that alogliptin 25 mg is as least as effective (as measured by change in hba1c from baseline, but supported by other outcome measures: change in body weight and fpg from baseline) and safe (as measured by incidence of hypoglycemia and adverse events leading to study discontinuation) as all the other dpp-4 inhibitor",
+   "expect": "suspect"
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "alogliptin added to insulin therapy in patients with type 2 diabetes reduces hba(1c) without causing weight gain or increased hypoglycaemia.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "gliclazide",
+   "dim": "cv_outcome_benefit",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "included were randomized studies of at least 12 weeks duration with the following outcomes: hba1c change, incidence of severe hypoglycemia, weight change, cardiovascular events and/or mortality when comparing gliclazide with other oral blood glucose lowering drugs.",
+   "expect": "suspect"
+  },
+  {
+   "drug": "gliclazide",
+   "dim": "cv_outcome_benefit",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "cardiovascular outcome studies have shown no evidence of increased cardiovascular events with gliclazide, and the durability of glucose lowering effects is comparable to other drug groups.",
+   "expect": "suspect"
+  }
+ ],
+ "controls": [
+  {
+   "drug": "ertugliflozin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "for ertugliflozin 5 mg and 15 mg, least squares mean change (placebo adjusted) in absolute bw was -1.4 kg and -1.2 kg for bmi 25 to < 30, -1.8 kg and -1.9 kg for bmi 30 to < 35, and -2.5 kg and -2.9 kg for bmi ≥ 35.",
+   "expect": "clean"
+  },
+  {
+   "drug": "ertugliflozin",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "meaningful reductions in hba1c, fasting plasma glucose, bw, and sbp were observed with ertugliflozin in patients with overweight and obesity with type 2 diabetes mellitus.",
+   "expect": "clean"
+  },
+  {
+   "drug": "naproxen",
+   "dim": "renal_risk",
+   "class": "NSAID",
+   "label": "strong",
+   "text": "naproxen reduced the glomerular filtration rate and renal plasma flow by 18% (p less than 0.05) and 13% (p less than 0.05), respectively, while no significant change was observed during the sulindac treatment periods.",
+   "expect": "clean"
+  },
+  {
+   "drug": "indapamide",
+   "dim": "electrolyte_risk",
+   "class": "Antihypertensive",
+   "label": "strong",
+   "text": "the incidence of patients with a serum potassium concentration less than 3.4 mmol/l was lower with indapamide sr 1.5 mg (11%) than with indapamide 2.5 mg, sr 2 mg, and sr 2.5 mg, respectively: 29%, 18% and 14%.",
+   "expect": "clean"
+  },
+  {
+   "drug": "semaglutide",
+   "dim": "weight_effect",
+   "class": "Diabetes",
+   "label": "strong",
+   "text": "initially intended to control blood glucose levels in patients with type 2 diabetes, semaglutide, a potent glucagon-like peptide 1 analogue, has been established as an effective weight loss treatment by controlling appetite.",
+   "expect": "clean"
+  }
+ ]
+}
