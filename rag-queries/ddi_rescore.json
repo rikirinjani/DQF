@@ -1,0 +1,886 @@
+{
+  "results": [
+    {
+      "drug": "pitavastatin",
+      "class": "Statin",
+      "kept": 1,
+      "of": 4,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "lovastatin",
+      "class": "Statin",
+      "kept": 2,
+      "of": 4,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "omeprazole",
+      "class": "PPI",
+      "kept": 9,
+      "of": 15,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "esomeprazole",
+      "class": "PPI",
+      "kept": 4,
+      "of": 6,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "pantoprazole",
+      "class": "PPI",
+      "kept": 3,
+      "of": 8,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "lansoprazole",
+      "class": "PPI",
+      "kept": 7,
+      "of": 11,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "rabeprazole",
+      "class": "PPI",
+      "kept": 4,
+      "of": 15,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "cimetidine",
+      "class": "H2RA",
+      "kept": 5,
+      "of": 9,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "ranitidine",
+      "class": "H2RA",
+      "kept": 1,
+      "of": 3,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "famotidine",
+      "class": "H2RA",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 3,
+      "final": 1
+    },
+    {
+      "drug": "sodium-alginate",
+      "class": "Alginate",
+      "kept": 0,
+      "of": 2,
+      "current": 2,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "sucralfate",
+      "class": "Mucosal Protectant",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "indomethacin",
+      "class": "NSAID",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 3,
+      "final": 1
+    },
+    {
+      "drug": "piroxicam",
+      "class": "NSAID",
+      "kept": 0,
+      "of": 1,
+      "current": 1,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "ketorolac",
+      "class": "NSAID",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 3,
+      "final": 1
+    },
+    {
+      "drug": "aspirin",
+      "class": "NSAID",
+      "kept": 2,
+      "of": 5,
+      "current": 2,
+      "filtered": 2,
+      "v2": 2,
+      "final": 2
+    },
+    {
+      "drug": "lisinopril",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 12,
+      "current": 3,
+      "filtered": 2,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "losartan",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 14,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "amlodipine",
+      "class": "Antihypertensive",
+      "kept": 1,
+      "of": 3,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "metoprolol",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 7,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "hydrochlorothiazide",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 14,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "chlorthalidone",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 12,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "metformin",
+      "class": "Diabetes",
+      "kept": 1,
+      "of": 2,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "empagliflozin",
+      "class": "Diabetes",
+      "kept": 1,
+      "of": 4,
+      "current": 3,
+      "filtered": 2,
+      "v2": 2,
+      "final": 2
+    },
+    {
+      "drug": "dapagliflozin",
+      "class": "Diabetes",
+      "kept": 1,
+      "of": 3,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "enalapril",
+      "class": "Antihypertensive",
+      "kept": 1,
+      "of": 4,
+      "current": 2,
+      "filtered": 2,
+      "v2": 2,
+      "final": 2
+    },
+    {
+      "drug": "ramipril",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 11,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "perindopril",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 13,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "captopril",
+      "class": "Antihypertensive",
+      "kept": 5,
+      "of": 14,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "trandolapril",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 12,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "valsartan",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 8,
+      "current": 1,
+      "filtered": 2,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "candesartan",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 7,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "irbesartan",
+      "class": "Antihypertensive",
+      "kept": 4,
+      "of": 8,
+      "current": 2,
+      "filtered": 2,
+      "v2": 2,
+      "final": 2
+    },
+    {
+      "drug": "olmesartan",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 12,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "telmisartan",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 15,
+      "current": 3,
+      "filtered": 3,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "nifedipine",
+      "class": "Antihypertensive",
+      "kept": 8,
+      "of": 14,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "felodipine",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 9,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "diltiazem",
+      "class": "Antihypertensive",
+      "kept": 4,
+      "of": 13,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "verapamil",
+      "class": "Antihypertensive",
+      "kept": 6,
+      "of": 11,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "atenolol",
+      "class": "Antihypertensive",
+      "kept": 0,
+      "of": 2,
+      "current": 2,
+      "filtered": 1,
+      "v2": 3,
+      "final": 1
+    },
+    {
+      "drug": "bisoprolol",
+      "class": "Antihypertensive",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 3,
+      "final": 1
+    },
+    {
+      "drug": "carvedilol",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 6,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "propranolol",
+      "class": "Antihypertensive",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "nebivolol",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 4,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "furosemide",
+      "class": "Antihypertensive",
+      "kept": 8,
+      "of": 12,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "spironolactone",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 6,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "indapamide",
+      "class": "Antihypertensive",
+      "kept": 5,
+      "of": 15,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "doxazosin",
+      "class": "Antihypertensive",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "terazosin",
+      "class": "Antihypertensive",
+      "kept": 3,
+      "of": 9,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "clonidine",
+      "class": "Antihypertensive",
+      "kept": 4,
+      "of": 8,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "hydralazine",
+      "class": "Antihypertensive",
+      "kept": 2,
+      "of": 4,
+      "current": 2,
+      "filtered": 2,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "methyldopa",
+      "class": "Antihypertensive",
+      "kept": 0,
+      "of": 2,
+      "current": 2,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "canagliflozin",
+      "class": "Diabetes",
+      "kept": 0,
+      "of": 2,
+      "current": 2,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "dulaglutide",
+      "class": "Diabetes",
+      "kept": 0,
+      "of": 1,
+      "current": 3,
+      "filtered": 1,
+      "v2": 1,
+      "final": 1
+    },
+    {
+      "drug": "saxagliptin",
+      "class": "Diabetes",
+      "kept": 3,
+      "of": 4,
+      "current": 3,
+      "filtered": 3,
+      "v2": 3,
+      "final": 3
+    },
+    {
+      "drug": "linagliptin",
+      "class": "Diabetes",
+      "kept": 2,
+      "of": 2,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "pioglitazone",
+      "class": "Diabetes",
+      "kept": 1,
+      "of": 2,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "rosiglitazone",
+      "class": "Diabetes",
+      "kept": 0,
+      "of": 1,
+      "current": 2,
+      "filtered": 1,
+      "v2": 2,
+      "final": 1
+    },
+    {
+      "drug": "glyburide",
+      "class": "Diabetes",
+      "kept": 1,
+      "of": 2,
+      "current": 2,
+      "filtered": 1,
+      "v2": 3,
+      "final": 1
+    },
+    {
+      "drug": "gliclazide",
+      "class": "Diabetes",
+      "kept": 0,
+      "of": 2,
+      "current": 2,
+      "filtered": 1,
+      "v2": 2,
+      "final": 1
+    },
+    {
+      "drug": "acarbose",
+      "class": "Diabetes",
+      "kept": 1,
+      "of": 3,
+      "current": 3,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    },
+    {
+      "drug": "repaglinide",
+      "class": "Diabetes",
+      "kept": 2,
+      "of": 3,
+      "current": 2,
+      "filtered": 2,
+      "v2": 3,
+      "final": 2
+    }
+  ],
+  "changes": [
+    [
+      "pitavastatin",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "lovastatin",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "omeprazole",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "esomeprazole",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "pantoprazole",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "lansoprazole",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "rabeprazole",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "ranitidine",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "famotidine",
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      "sodium-alginate",
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      "sucralfate",
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      "indomethacin",
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      "ketorolac",
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      "lisinopril",
+      3,
+      2,
+      1,
+      1
+    ],
+    [
+      "losartan",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "hydrochlorothiazide",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "chlorthalidone",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "empagliflozin",
+      3,
+      2,
+      2,
+      2
+    ],
+    [
+      "dapagliflozin",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "ramipril",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "trandolapril",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "candesartan",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "olmesartan",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "telmisartan",
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      "atenolol",
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      "bisoprolol",
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      "propranolol",
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      "doxazosin",
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      "clonidine",
+      3,
+      2,
+      3,
+      2
+    ],
+    [
+      "hydralazine",
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      "methyldopa",
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      "canagliflozin",
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      "dulaglutide",
+      3,
+      1,
+      1,
+      1
+    ],
+    [
+      "rosiglitazone",
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      "glyburide",
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      "gliclazide",
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      "acarbose",
+      3,
+      2,
+      3,
+      2
+    ]
+  ],
+  "rule": "final = clean-pool keyword score; override to 1 where v2 LLM said no interaction; capped at current (monotone de-contamination)"
+}
