@@ -1,0 +1,658 @@
+{
+  "summary": {
+    "cells": 413,
+    "judge_ok": 342,
+    "salvaged": 71,
+    "lost": 0,
+    "comparable": 388,
+    "agree": 298,
+    "agree_pct": 76.8
+  },
+  "per_dimension": {
+    "gi_risk": {
+      "n": 8,
+      "agree": 8
+    },
+    "cv_risk": {
+      "n": 8,
+      "agree": 5
+    },
+    "ddi_risk": {
+      "n": 76,
+      "agree": 50
+    },
+    "renal_risk": {
+      "n": 8,
+      "agree": 2
+    },
+    "myopathy_risk": {
+      "n": 6,
+      "agree": 6
+    },
+    "acid_rebound": {
+      "n": 5,
+      "agree": 4
+    },
+    "cdi_risk": {
+      "n": 3,
+      "agree": 2
+    },
+    "bone_fracture_risk": {
+      "n": 2,
+      "agree": 1
+    },
+    "neutralization_capacity": {
+      "n": 2,
+      "agree": 1
+    },
+    "renal_toxicity_risk": {
+      "n": 1,
+      "agree": 0
+    },
+    "raft_strength": {
+      "n": 1,
+      "agree": 1
+    },
+    "reflux_suppression": {
+      "n": 1,
+      "agree": 1
+    },
+    "barrier_protection": {
+      "n": 1,
+      "agree": 1
+    },
+    "ulcer_healing": {
+      "n": 1,
+      "agree": 1
+    },
+    "bp_reduction": {
+      "n": 33,
+      "agree": 33
+    },
+    "renal_protection": {
+      "n": 31,
+      "agree": 22
+    },
+    "electrolyte_risk": {
+      "n": 28,
+      "agree": 20
+    },
+    "metabolic_effect": {
+      "n": 30,
+      "agree": 23
+    },
+    "a1c_reduction": {
+      "n": 28,
+      "agree": 28
+    },
+    "weight_effect": {
+      "n": 27,
+      "agree": 16
+    },
+    "cv_outcome_benefit": {
+      "n": 24,
+      "agree": 18
+    },
+    "renal_benefit": {
+      "n": 26,
+      "agree": 21
+    },
+    "gi_tolerability": {
+      "n": 17,
+      "agree": 17
+    },
+    "hypoglycemia_risk": {
+      "n": 21,
+      "agree": 17
+    }
+  },
+  "categorical_dims": [
+    "heart_rate_effect"
+  ],
+  "direction": {
+    "llm_higher": 75,
+    "llm_lower": 15
+  },
+  "disagreements": [
+    {
+      "drug": "ibuprofen",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "diclofenac",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 2
+    },
+    {
+      "drug": "celecoxib",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "paracetamol",
+      "dim": "cv_risk",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "atorvastatin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "rosuvastatin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "simvastatin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "pravastatin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "esomeprazole",
+      "dim": "cdi_risk",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "esomeprazole",
+      "dim": "acid_rebound",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "pantoprazole",
+      "dim": "bone_fracture_risk",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "cimetidine",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "aluminum-magnesium-hydroxide",
+      "dim": "neutralization_capacity",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "calcium-carbonate",
+      "dim": "renal_toxicity_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "naproxen",
+      "dim": "renal_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "naproxen",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "indomethacin",
+      "dim": "renal_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "indomethacin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "meloxicam",
+      "dim": "renal_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "meloxicam",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "piroxicam",
+      "dim": "renal_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "piroxicam",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "ketorolac",
+      "dim": "cv_risk",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "ketorolac",
+      "dim": "renal_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "ketorolac",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "aspirin",
+      "dim": "cv_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "aspirin",
+      "dim": "renal_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "losartan",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "amlodipine",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "amlodipine",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "metoprolol",
+      "dim": "metabolic_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "hydrochlorothiazide",
+      "dim": "metabolic_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "hydrochlorothiazide",
+      "dim": "ddi_risk",
+      "keyword": 3,
+      "llm": 1
+    },
+    {
+      "drug": "chlorthalidone",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "metformin",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "metformin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "dapagliflozin",
+      "dim": "cv_outcome_benefit",
+      "keyword": 3,
+      "llm": 2
+    },
+    {
+      "drug": "semaglutide",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "tirzepatide",
+      "dim": "renal_benefit",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "tirzepatide",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "enalapril",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "valsartan",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "candesartan",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "candesartan",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "irbesartan",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "telmisartan",
+      "dim": "metabolic_effect",
+      "keyword": 3,
+      "llm": 1
+    },
+    {
+      "drug": "nifedipine",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "felodipine",
+      "dim": "metabolic_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "diltiazem",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "verapamil",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "verapamil",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "atenolol",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "bisoprolol",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "carvedilol",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "propranolol",
+      "dim": "metabolic_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "nebivolol",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "furosemide",
+      "dim": "metabolic_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "furosemide",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "furosemide",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "spironolactone",
+      "dim": "metabolic_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "spironolactone",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "indapamide",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "indapamide",
+      "dim": "electrolyte_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "indapamide",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "doxazosin",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "clonidine",
+      "dim": "renal_protection",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "ertugliflozin",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "ertugliflozin",
+      "dim": "ddi_risk",
+      "keyword": 1,
+      "llm": 3
+    },
+    {
+      "drug": "dulaglutide",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "exenatide",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "exenatide",
+      "dim": "renal_benefit",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "linagliptin",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "alogliptin",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "alogliptin",
+      "dim": "cv_outcome_benefit",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "vildagliptin",
+      "dim": "hypoglycemia_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "rosiglitazone",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "rosiglitazone",
+      "dim": "cv_outcome_benefit",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "rosiglitazone",
+      "dim": "hypoglycemia_risk",
+      "keyword": 3,
+      "llm": 1
+    },
+    {
+      "drug": "glipizide",
+      "dim": "renal_benefit",
+      "keyword": 3,
+      "llm": 1
+    },
+    {
+      "drug": "glimepiride",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "glimepiride",
+      "dim": "renal_benefit",
+      "keyword": 2,
+      "llm": 1
+    },
+    {
+      "drug": "glyburide",
+      "dim": "cv_outcome_benefit",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "glyburide",
+      "dim": "ddi_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "gliclazide",
+      "dim": "cv_outcome_benefit",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "acarbose",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "acarbose",
+      "dim": "cv_outcome_benefit",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "acarbose",
+      "dim": "hypoglycemia_risk",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "repaglinide",
+      "dim": "renal_benefit",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "pramlintide",
+      "dim": "weight_effect",
+      "keyword": 2,
+      "llm": 3
+    },
+    {
+      "drug": "pramlintide",
+      "dim": "hypoglycemia_risk",
+      "keyword": 3,
+      "llm": 1
+    }
+  ]
+}
