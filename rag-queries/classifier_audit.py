@@ -20,7 +20,11 @@ Rules (a sentence labeled ``strong`` is suspect if any fires)
                 "neutral", ...) -- not positive evidence.
   R2 DIRECTION  dimension has a known direction: benefit dimensions need a
                 benefit term (renal dims need renal-benefit phrasing, not bare
-                BP efficacy), risk dimensions need a harm term.
+                BP efficacy; anticoagulant dims use their own term lists since
+                trial-rate and antidote sentences carry no generic benefit
+                word), risk dimensions need a harm term (per-dim harm lists
+                where the dimension's own words -- bleeding, INR, creatinine --
+                are not in the generic list).
   R3 FIT        sentence contains none of the dimension's scoring keywords
                 (salt-name masked) -- it is about something else.
   R4 PK-MECH    sentence is a pharmacokinetic/mechanistic statement while the
@@ -107,7 +111,42 @@ DIM_BENEFIT_TERMS = {
     "renal_benefit": ["renoprotect", "nephroprotect", "protect the kidney",
                       "slow progression", "slow the progression", "delay the progression",
                       "albuminuria", "proteinuria", "egfr"],
+    # Anticoagulant class: the generic list is too TIGHT here. Efficacy for an
+    # anticoagulant is expressed as trial event rates ("the primary end point
+    # occurred in 188 patients in the rivaroxaban group"), which carry no word
+    # from BENEFIT_TERMS, so every real RCT result was being flagged.
+    "anticoagulation_efficacy": [
+        "stroke", "embolism", "event", "end point", "endpoint", "occurred",
+        "incidence", "rate", "recurrence", "recurrent", "prevention", "prevent",
+        "reduc", "lower", "superior", "non-inferior", "noninferior", "effective",
+        "efficacy", "mortality", "death",
+    ],
+    # Reversal is named, not adjectival: "andexanet alfa for the reversal of ...
+    # enoxaparin" carries no BENEFIT_TERMS word at all.
+    "reversal_availability": [
+        "reversal", "reversed", "reverse", "antidote", "andexanet", "idarucizumab",
+        "vitamin k", "protamine", "prothrombin", "pcc", "neutraliz",
+    ],
 }
+
+# Risk dimensions whose harm vocabulary is not in the generic HARM_TERMS list
+# (written for renal/electrolyte dims). Without these, the anticoagulant risk
+# dims flagged their own dimension words: "major bleeding occurred in 1 patient"
+# carries no word from HARM_TERMS, so a correct strong label looked directionless.
+DIM_HARM_TERMS = {
+    "bleeding_risk": ["bleeding", "bleed", "hemorrhage", "haemorrhage", "ich",
+                      "intracranial", "clinically relevant", "crnm", "transfusion"],
+    "gi_bleeding_risk": ["bleeding", "bleed", "hemorrhage", "haemorrhage",
+                         "gastrointestinal", "gi bleeding", "melaena", "melena"],
+    "renal_clearance_dependence": ["renal", "kidney", "creatinine", "crcl",
+                                   "clearance", "dialysis", "accumulat",
+                                   "excretion", "elimination", "dose adjustment",
+                                   "dose reduction"],
+    "monitoring_burden": ["monitoring", "inr", "anti-xa", "titration",
+                          "dose adjustment", "therapeutic range", "coagulation",
+                          "laboratory", "assay", "dosing"],
+}
+
 
 HARM_TERMS = [
     "risk", "increased", "increase", "adverse", "harm", "toxic", "failure",
@@ -165,7 +204,8 @@ def audit_sentence(text, dim, cls, kwmap, salt_re):
         if not any(t in s for t in terms):
             reasons.append("R2_DIRECTION_NO_BENEFIT")
     else:  # risk
-        if not any(t in s for t in HARM_TERMS):
+        terms = DIM_HARM_TERMS.get(dim, HARM_TERMS)
+        if not any(t in s for t in terms):
             reasons.append("R2_DIRECTION_NO_HARM")
 
     kws = kwmap.get((cls, dim))
@@ -174,7 +214,11 @@ def audit_sentence(text, dim, cls, kwmap, salt_re):
         if not any(k in probe for k in kws):
             reasons.append("R3_FIT_NO_DIM_KEYWORD")
 
-    if dim not in ("ddi_risk", "chelation_ddi") and any(t in s for t in PK_TERMS):
+    # renal_clearance_dependence is exempt alongside the interaction dims: for
+    # that dimension a PK/clearance sentence IS the evidence (the scorer passes
+    # it an empty pk_contexts list for the same reason).
+    if dim not in ("ddi_risk", "chelation_ddi", "renal_clearance_dependence") \
+            and any(t in s for t in PK_TERMS):
         reasons.append("R4_PK_MECHANISTIC")
 
     return reasons

@@ -143,8 +143,13 @@ if os.path.exists(OUTP):
         res = {}
 n_sent = n_keep = 0
 for i, (gid, g) in enumerate(data.items()):
-    if gid in res:
+    # Resume only when the group is actually COMPLETE: a group whose verdict
+    # count is short (the sentence-drop bug) must be redone, not trusted.
+    if gid in res and len(res[gid].get('sentences', [])) == len(g['sentences']):
         continue
+    if gid in res:
+        print(f'REDO incomplete group {gid}: '
+              f'{len(res[gid].get("sentences", []))} != {len(g["sentences"])}', flush=True)
     sents = g['sentences']
     verdicts = {}
     for j in range(0, len(sents), CHUNK):
@@ -155,16 +160,28 @@ for i, (gid, g) in enumerate(data.items()):
             arr = None
             print(f'  ERR {gid} chunk{j}: {type(e).__name__}', flush=True)
         if not arr:
-            arr = [{'n': k+1, 'cls': 'none'} for k in range(len(chunk))]
-        for k, o in enumerate(arr):
-            idx = o.get('n', k+1) - 1
-            if 0 <= idx < len(chunk):
-                s = chunk[idx]
-                cls = o['cls']
-                verdicts[f'{s["pmid"]}|{k+j}'] = {'pmid': s['pmid'], 'text': s['text'], 'cls': cls}
-                n_sent += 1
-                if cls in ('pk', 'pd', 'strong'):
-                    n_keep += 1
+            arr = []
+        # ONE verdict per sentence, ALWAYS. The model may return fewer objects
+        # than the chunk (Batch-6 lost 3 of 313 sentences this way) and its `n`
+        # values may be out of order; indexing off the model's own `n` and then
+        # walking the whole chunk means an omitted sentence is recorded as
+        # 'none' instead of being silently dropped, which would otherwise leave
+        # an unrecoverable length mismatch between input and verdicts.
+        got = {}
+        for k, o in enumerate(arr or []):
+            try:
+                n = int(o.get('n', k + 1))
+            except (TypeError, ValueError):
+                continue
+            if 1 <= n <= len(chunk) and (n - 1) not in got:
+                got[n - 1] = o.get('cls', 'none')
+        for idx in range(len(chunk)):
+            s = chunk[idx]
+            cls = got.get(idx, 'none')
+            verdicts[f'{s["pmid"]}|{idx+j}'] = {'pmid': s['pmid'], 'text': s['text'], 'cls': cls}
+            n_sent += 1
+            if cls in ('pk', 'pd', 'strong'):
+                n_keep += 1
     res[gid] = {'drug': g['drug'], 'dim': g['dim'], 'class': g.get('class'),
                 'desc': g.get('desc'), 'sentences': list(verdicts.values())}
     json.dump(res, open(OUTP, 'w', encoding='utf-8'), ensure_ascii=False)
