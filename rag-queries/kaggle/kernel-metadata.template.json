@@ -1,0 +1,15 @@
+{
+  "_comment": "Template for `kaggle kernels push`. Copy this file + the triage script into an empty dir, rename this to kernel-metadata.json, adjust id/title/code_file, then push. A `script` kernel runs FULLY HEADLESS on Kaggle's servers - no browser, no local machine, nothing to keep awake. Retrieve results later with `kaggle kernels output <id>`.",
+  "id": "rikirinjani/dqf-anticoagulant-triage",
+  "title": "DQF Anticoagulant Triage",
+  "code_file": "kaggle_batch4_triage.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

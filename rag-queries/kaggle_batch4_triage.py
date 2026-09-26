@@ -140,12 +140,26 @@ for gid in [k for k in data if data[k]['dim'] == 'ddi_risk'][:1] + \
     arr = parse_arr(gen(classify_prompt(gid, g, chunk0)))
     print(f'SMOKE {gid}: secs={time.time()-t0:.1f} parsed={arr}', flush=True)
 
-# ---------- CELL 4: full triage ----------
+# ---------- CELL 4: full triage (RESUMABLE — safe to re-run after a killed session) ----------
 OUTP = '/kaggle/working/batch4_verdicts.json'
 CHUNK = 8
+# Resume: if a partial output exists (e.g. the session was stopped and the
+# notebook re-run, or this cell re-run), skip groups already done. Makes
+# detached / batch (Commit) runs cheap to restart.
 res, t0 = {}, time.time()
-n_sent = n_strong = 0
+if os.path.exists(OUTP):
+    try:
+        res = json.load(open(OUTP, encoding='utf-8'))
+        print(f'RESUME: {len(res)}/{len(data)} groups already done', flush=True)
+    except Exception as e:
+        print(f'RESUME: unreadable partial ({type(e).__name__}) — starting fresh', flush=True)
+        res = {}
+n_sent = sum(len(v.get('sentences', [])) for v in res.values())
+n_strong = sum(1 for v in res.values() for s in v.get('sentences', [])
+               if s.get('cls') in ('pk', 'pd', 'strong'))
 for i, (gid, g) in enumerate(data.items()):
+    if gid in res:
+        continue
     sents = g['sentences']
     verdicts = {}
     for j in range(0, len(sents), CHUNK):
@@ -168,9 +182,11 @@ for i, (gid, g) in enumerate(data.items()):
                     n_strong += 1
     res[gid] = {'drug': g['drug'], 'dim': g['dim'], 'class': g.get('class'),
                 'sentences': list(verdicts.values())}
+    # save after EVERY group so a killed session loses at most one group
     json.dump(res, open(OUTP, 'w', encoding='utf-8'), ensure_ascii=False)
     if (i + 1) % 10 == 0:
         print(f'  [{i+1}/{len(data)}] sent={n_sent} keep(pk/pd/strong)={n_strong} '
               f'elapsed={(time.time()-t0)/60:.1f}m', flush=True)
 print(f'DONE groups={len(res)} sentences={n_sent} kept={n_strong} min={(time.time()-t0)/60:.1f}', flush=True)
 print('saved ->', OUTP, flush=True)
+
