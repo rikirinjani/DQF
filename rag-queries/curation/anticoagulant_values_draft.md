@@ -2,7 +2,12 @@
 
 Sources: **PMID** (PubMed/XLM) and **label** (DailyMed SPL, setid listed). `null` = not yet sourced — no fabrication.
 Extraction routes: NCBI targeted PK-review/pivotal-trial queries (XML efetch) + DailyMed label API.
-(`api.open.fda.gov` is DNS-blocked here; `dailymed.nlm.nih.gov` works.)
+
+> **Correction (2026-09-25):** an earlier revision of this file claimed openFDA was
+> "DNS-blocked". That was wrong — it was a wrong hostname. openFDA's API is
+> **`api.fda.gov`** (verified: HTTP 200 label for apixaban), not `api.open.fda.gov`
+> (a non-existent domain that returns NXDOMAIN from every resolver, which produced the
+> `getaddrinfo` failure). No network block existed. NCR-2026-09-25-DQF-OPENFDA filed.
 
 **Source-policy note:** protein binding / Vd / t½ / dose criteria / safety are taken from the
 regulatory label (authoritative), which is a mild extension of the PMID-only convention —
