@@ -132,9 +132,33 @@ flagged for your sign-off.
 
 ---
 
-## Remaining nulls (candidates for a second pass)
+## Source-policy — APPROVED
 
-- **L1 potency (Ki/IC50)**: apixaban, edoxaban, dabigatran, warfarin, enoxaparin (rivaroxaban Ki found).
-- **dabigatran major-bleeding HR** (RE-LY numeric) and **apixaban stroke/SE HR** (0.79 — label table not cleanly extracted).
-- **bioavailability**: dabigatran, warfarin, enoxaparin.
-- A few metabolism/safety enrichments.
+**User approved labels (DailyMed / openFDA) as sources alongside PMIDs (2026-09-25).**
+L2 PK fields are recorded label-primary (regulatory authority) with PMID cross-references in `special`.
+
+## Update — nulls closed via openFDA (2026-09-25)
+
+openFDA (`api.fda.gov`) used to close the remaining gaps:
+
+| Item | Value | Source |
+|---|---|---|
+| apixaban absolute F | 50% | label (PMID 24353445 study: 66.2%) |
+| edoxaban absolute F | 62% | label |
+| dabigatran absolute F | 3–7% | label |
+| enoxaparin PK | t½ 4.5 h, Vd 4.3 L, 40%/8–20% urine | label |
+| edoxaban Ki | 0.561 nmol/L | PMID 18624979 |
+| dabigatran Ki | 4.5 nM | PMID 17598008 |
+| rivaroxaban Ki | 0.4 nmol/L | PMID 20139357 |
+
+### Still null (documented, no source found — no fabrication)
+
+- **L1 potency**: apixaban, warfarin, enoxaparin (rivaroxaban/edoxaban/dabigatran ✓)
+- **dabigatran major-bleeding HR** (RE-LY numeric) · **apixaban stroke/SE HR** (0.79 — label table not cleanly extractable)
+- **warfarin bioavailability** (not stated in label) · **apixaban ICH/other HRs** partially
+
+## Records built
+
+`rag-queries/_add_e1_anticoagulants.py` adds all 6 records (verified: drugs.json 89 → 95;
+existing records unchanged; `l3_systems` seeded for the later merge). New `l2_pk` fields:
+`vd_l` (absolute L) and `protein_binding_pct`.
