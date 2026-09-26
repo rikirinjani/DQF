@@ -248,6 +248,31 @@
         "aluminum_exposure": null,
         "ddi_risk": null
       }
+    },
+    "Anticoagulant": {
+      "tissue_sites": ["liver", "kidney", "vasculature", "gastrointestinal tract"],
+      "tissue_queries": [
+        "{drug} anticoagulant mechanism factor Xa thrombin inhibition",
+        "{drug} renal clearance elimination pharmacokinetics",
+        "{drug} hepatic metabolism CYP3A4 CYP2C9 drug interaction",
+        "{drug} gastrointestinal bleeding mucosal effect"
+      ],
+      "off_target_queries": [],
+      "class_mechanism_queries": [
+        "anticoagulant major bleeding risk intracranial hemorrhage randomized trial",
+        "anticoagulant reversal agent antidote andexanet idarucizumab",
+        "anticoagulant monitoring INR coagulation assay requirement",
+        "{drug} stroke systemic embolism prevention atrial fibrillation"
+      ],
+      "l3_fields": {
+        "anticoagulation_efficacy": null,
+        "bleeding_risk": null,
+        "renal_clearance_dependence": null,
+        "ddi_risk": null,
+        "monitoring_burden": null,
+        "reversal_availability": null,
+        "gi_bleeding_risk": null
+      }
     }
   }
 }

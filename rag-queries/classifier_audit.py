@@ -61,6 +61,10 @@ DIM_DIRECTION = {
     "renal_toxicity_risk": "risk", "gi_risk": "risk", "ddi_risk": "risk",
     "chelation_ddi": "risk", "myopathy_risk": "risk", "aluminum_exposure": "risk",
     "milk_alkali_risk": "risk", "acid_rebound": "risk",
+    # Anticoagulant class
+    "bleeding_risk": "risk", "renal_clearance_dependence": "risk",
+    "monitoring_burden": "risk", "gi_bleeding_risk": "risk",
+    "anticoagulation_efficacy": "benefit", "reversal_availability": "benefit",
     # direction-agnostic
     "weight_effect": None, "metabolic_effect": None, "heart_rate_effect": None,
 }

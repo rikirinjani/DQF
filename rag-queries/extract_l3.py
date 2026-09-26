@@ -883,6 +883,97 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
             default=1,
             drug_name=drug_name)
 
+    elif drug_class == "Anticoagulant":
+        # Umbrella class: VKA (warfarin), direct FXa inhibitors (apixaban,
+        # rivaroxaban, edoxaban), direct thrombin inhibitor (dabigatran),
+        # LMWH (enoxaparin). Dimensions:
+        #   anticoagulation_efficacy    1-3 benefit (stroke/SE + VTE prevention)
+        #   bleeding_risk               1-3 risk    (major bleeding / ICH)
+        #   renal_clearance_dependence  1-3 risk    (renal elimination -> accumulation)
+        #   ddi_risk                    1-3 risk    (CYP3A4/P-gp/CYP2C9)
+        #   monitoring_burden           1-3 risk    (INR/coag monitoring; higher = worse)
+        #   reversal_availability       1-3 benefit (specific antidote exists)
+        #   gi_bleeding_risk            1-3 risk    (gastrointestinal bleeding)
+        # NOTE: pk_contexts deliberately EMPTY for renal_clearance_dependence and
+        # ddi_risk (there, clearance/interaction IS the evidence); no
+        # adverse_context_terms on risk dims (harm is the evidence there).
+        profile["anticoagulation_efficacy"] = _score_risk(findings,
+            keywords=["stroke", "systemic embolism", "venous thromboembolism",
+                      "vte", "deep vein thrombosis", "dvt", "pulmonary embolism",
+                      "non-inferior", "noninferior", "prevention of stroke"],
+            intensifiers=["superior", "significant reduction", "reduced risk",
+                          "effective", "significant"],
+            mitigators=["no difference", "not superior", "inferior", "no benefit"],
+            default=1,
+            pk_contexts=["clearance", "pharmacokinetic", "half-life",
+                         "bioavailability", "absorption"],
+            drug_name=drug_name)
+        profile["bleeding_risk"] = _score_risk(findings,
+            keywords=["major bleeding", "bleeding", "hemorrhage", "haemorrhage",
+                      "intracranial hemorrhage", "intracranial haemorrhage", "ich",
+                      "gastrointestinal bleeding", "fatal bleeding",
+                      "clinically relevant non-major", "crnm"],
+            intensifiers=["severe", "fatal", "life-threatening", "major",
+                          "significantly increased", "higher risk"],
+            mitigators=["no significant", "similar", "comparable", "lower risk",
+                        "less bleeding", "rare", "well-tolerated"],
+            default=1,
+            drug_name=drug_name)
+        profile["renal_clearance_dependence"] = _score_risk(findings,
+            keywords=["renal clearance", "renal impairment", "renal excretion",
+                      "creatinine clearance", "crcl", "renal function", "dialysis",
+                      "accumulation", "renal elimination"],
+            intensifiers=["severe", "contraindicated", "dose reduction",
+                          "dose adjustment", "significant", "accumulation"],
+            mitigators=["no dose adjustment", "minimal", "not renally",
+                        "renal-independent", "no accumulation"],
+            default=1,
+            drug_name=drug_name)
+        profile["ddi_risk"] = _score_risk(findings,
+            keywords=["drug interaction", "interaction", "cyp3a4", "cyp2c9",
+                      "p-gp", "p-glycoprotein", "bcrp", "inducer", "inhibitor",
+                      "coadministration", "co-administration"],
+            intensifiers=["contraindicated", "major", "significant", "avoid",
+                          "caution"],
+            mitigators=["no interaction", "safe", "well-tolerated", "minimal",
+                        "not clinically relevant", "no clinically significant"],
+            negations=["limited", "few"],
+            default=1,
+            drug_name=drug_name)
+        profile["monitoring_burden"] = _score_risk(findings,
+            keywords=["inr", "international normalized ratio", "monitoring",
+                      "coagulation monitoring", "laboratory monitoring",
+                      "dose titration", "dose adjustment",
+                      "time in therapeutic range", "ttr",
+                      "anticoagulation clinic", "anti-xa"],
+            intensifiers=["frequent", "requires", "mandatory", "periodic",
+                          "regular", "unpredictable"],
+            mitigators=["no monitoring", "no routine", "does not require",
+                        "without monitoring", "predictable"],
+            negations=["no routine", "no monitoring", "without monitoring",
+                       "does not require", "not require"],
+            default=1,
+            drug_name=drug_name)
+        profile["reversal_availability"] = _score_risk(findings,
+            keywords=["reversal", "antidote", "andexanet", "idarucizumab",
+                      "vitamin k", "prothrombin complex", "pcc", "protamine",
+                      "ciraparantag"],
+            intensifiers=["specific", "approved", "rapid", "complete",
+                          "effective"],
+            mitigators=["no specific", "no antidote", "partial",
+                        "not available", "lack of"],
+            default=1,
+            drug_name=drug_name)
+        profile["gi_bleeding_risk"] = _score_risk(findings,
+            keywords=["gastrointestinal bleeding", "gi bleeding",
+                      "gastrointestinal hemorrhage",
+                      "gastrointestinal haemorrhage", "dyspepsia",
+                      "gastrointestinal adverse", "upper gastrointestinal"],
+            intensifiers=["significant", "higher", "increased", "severe"],
+            mitigators=["lower", "similar", "no significant", "less"],
+            default=1,
+            drug_name=drug_name)
+
     pool_relevance_pct = round(100 * relevant_snippets / total_snippets, 1) if total_snippets else 0.0
     profile["_evidence"] = {
         "pmids": sorted(all_pmids),
@@ -980,6 +1071,7 @@ _SALT_ANIONS = (
     r"acetate|lactate|gluconate|tartrate|maleate|fumarate|succinate|"
     r"oxalate|malate|mesylate|besylate|tosylate|edetate|pamoate|"
     r"embonate|napsylate|isethionate|mandelate|alginate|polystyrene|"
+    r"etexilate|tosilate|"
     r"valproate|zirconium|phenylbutyrate|levothyroxine|nitroprusside|"
     r"oxybate|thiosulfate|nitrite|nitrate|salicylate|benzoate|"
     r"stearate|palmitate|oleate|ascorbate|folate|glucuronate|"
