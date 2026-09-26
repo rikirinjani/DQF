@@ -1,0 +1,36 @@
+{
+  "anticoagulation_efficacy": 3,
+  "bleeding_risk": 3,
+  "renal_clearance_dependence": 2,
+  "ddi_risk": 3,
+  "monitoring_burden": 2,
+  "reversal_availability": 1,
+  "gi_bleeding_risk": 2,
+  "_evidence": {
+    "pmids": [
+      "24251359",
+      "26448661",
+      "28196633",
+      "28804832",
+      "29231094",
+      "32865374",
+      "35622425",
+      "35745692",
+      "36315950",
+      "36861431",
+      "37991392",
+      "38035566",
+      "39133476",
+      "39225258",
+      "39948237",
+      "42796285"
+    ],
+    "source_count": 8,
+    "finding_count": 16,
+    "dup_pmids_skipped": 18,
+    "pool_relevance_pct": 97.1,
+    "filtered_off_drug": 1,
+    "relevance_gate": "pass"
+  },
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
+}

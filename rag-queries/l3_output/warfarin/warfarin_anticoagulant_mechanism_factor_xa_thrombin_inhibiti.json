@@ -1,0 +1,150 @@
+{
+  "query": {
+    "query": "Warfarin anticoagulant mechanism factor Xa thrombin inhibition",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31906673",
+        "text": "[May warfarin prevent cancer?].\n\nAnimal and epidemiologic studies suggest that the use of warfarin might reduce cancer incidence. The antitumor potential of warfarin is demonstrated in different experimental cancer models. Specifically, studies in murine cancer models have shown that warfarin blocks AXL receptor tyrosine kinase by inhibiting a vitamin K-dependent protein called GAS6, thereby may halt the spread of cancer cells. An off-target effect of the anticoagulant warfarin is inhibition of GAS6-AXL signaling, which enhances antitumor immunity and blocks tumorigenesis independently of anticoagulation. Hence, the observed association between warfarin use and lower cancer incidence is likely due to an enhanced antitumor immune surveillance of early cancer. The large observational study also showed a reduction in cancer incidence among regular warfarin users. The study data indicate that warfarin provides a possible cancer protection. Despite some limitations, the results of this study give further support for the hypothesis that warfarin use decreases cancer incidence, which warrants continued investigation. This finding may have important implications for choosing medications in patients who need anticoagulant therapy.",
+        "title": "[May warfarin prevent cancer?].",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "31906673",
+          "journal": "Vnitrni lekarstvi",
+          "authors": [
+            "Remková Anna",
+            "Remko Milan"
+          ],
+          "pub_date": "2019",
+          "doi": "",
+          "mesh_terms": [
+            "Animals",
+            "Anticoagulants",
+            "Humans",
+            "Incidence",
+            "Intercellular Signaling Peptides and Proteins",
+            "Mice",
+            "Neoplasms",
+            "Proto-Oncogene Proteins",
+            "Receptor Protein-Tyrosine Kinases",
+            "Warfarin",
+            "Axl Receptor Tyrosine Kinase",
+            "Growth Arrest-Specific Protein 6"
+          ]
+        }
+      },
+      {
+        "id": "PMID:19665679",
+        "text": "Anticoagulation monitoring.\n\nThis article reviews the commonly used anticoagulants (warfarin and heparin) and associated recommended laboratory testing. Emphasis is on the various modes of International Normalized Ratio testing and associated variability (clinical laboratory, point of care, patient self-testing). Unfractionated heparin and well-recognized coagulation testing issues are reviewed. The newer anticoagulants (heparin analogs, direct factor Xa inhibitors, and direct thrombin inhibitors) and various applied coagulation laboratory testing and related issues are also discussed.",
+        "title": "Anticoagulation monitoring.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "19665679",
+          "journal": "Clinics in laboratory medicine",
+          "authors": [
+            "Ng Valerie L"
+          ],
+          "pub_date": "2009-Jun",
+          "doi": "10.1016/j.cll.2009.05.003",
+          "mesh_terms": [
+            "Anticoagulants",
+            "Blood Coagulation",
+            "Blood Coagulation Tests",
+            "Drug Monitoring",
+            "Heparin",
+            "Humans",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:15191946",
+        "text": "New anticoagulants.\n\nAnticoagulants are pivotal agents for prevention and treatment of thromboembolic disorders. Limitations of existing anticoagulants, vitamin K antagonist and heparins, have led to the development of newer anticoagulant therapies. These anticoagulants have been designed to target specific coagulation enzymes or steps in the coagulation pathway. New anticoagulants that are under evaluation in clinical trials include: (1) inhibitors of the factor VIIa/tissue factor pathway; (2) factor Xa inhibitors, both indirect and direct; (3) activated protein C and soluble thrombomodulin; and (4) direct thrombin inhibitors. Although most of these are parenteral agents, several of the direct inhibitors of factor Xa and thrombin are orally active. Clinical development of these therapies often starts with studies in the prevention of venous thrombosis before evaluation for other indications, such as prevention of cardioembolism in patients with atrial fibrillation or prosthetic heart valves. At present, the greatest clinical need is for an oral anticoagulant to replace warfarin for long-term prevention and treatment of patients with venous and arterial thrombosis. Ximelagatran, an oral direct thrombin inhibitor, is the first of a series of promising new agents that might fulfill this need. Large phase 3 trials evaluating ximelagatran for the secondary prevention of venous thromboembolism and prevention of cardioembolic events in patients with atrial fibrillation have been completed.",
+        "title": "New anticoagulants.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "15191946",
+          "journal": "Blood",
+          "authors": [
+            "Hirsh Jack",
+            "O'Donnell Martin",
+            "Weitz Jeffrey I"
+          ],
+          "pub_date": "2005-Jan-15",
+          "doi": "10.1182/blood-2003-12-4195",
+          "mesh_terms": [
+            "Anticoagulants",
+            "Humans",
+            "Thromboembolism"
+          ]
+        }
+      },
+      {
+        "id": "PMID:16102051",
+        "text": "New anticoagulants.\n\nThe limitations of heparin and warfarin have prompted the development of new anticoagulant drugs for prevention and treatment of venous and arterial thromboembolism. Novel parenteral agents include synthetic analogs of the pentasaccharide sequence of heparin that mediates its interaction with antithrombin. Fondaparinux, the first synthetic pentasaccharide, is licensed for prevention of venous thromboembolism (VTE) after major orthopedic surgery and for initial treatment of patients with VTE. Idraparinux, a long-acting pentasaccharide that is administered subcutaneously once-weekly, is being compared with warfarin for treatment of VTE and for prevention of cardioembolic events in patients with atrial fibrillation. New oral anticoagulants include direct inhibitors of thrombin, factor Xa and factor IXa. Designed to provide more streamlined anticoagulation than warfarin, these agents can be given without routine coagulation monitoring. Ximelagatran, the first oral direct thrombin inhibitor, is as effective and safe as warfarin for prevention of cardioembolic events in patients with atrial fibrillation. However, ximelagatran produces a three-fold elevation in alanine transaminase levels in 7.9% of patients treated for more than a month, the long-term significance of which is uncertain. Whether other direct thrombin inhibitors or inhibitors of factors Xa or IXa also have this problem is under investigation. After a brief review of coagulation pathways, this paper focuses on new anticoagulants in advanced stages of clinical testing.",
+        "title": "New anticoagulants.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16102051",
+          "journal": "Journal of thrombosis and haemostasis : JTH",
+          "authors": [
+            "Weitz J I",
+            "Bates S M"
+          ],
+          "pub_date": "2005-Aug",
+          "doi": "10.1111/j.1538-7836.2005.01374.x",
+          "mesh_terms": [
+            "Animals",
+            "Anticoagulants",
+            "Azetidines",
+            "Benzimidazoles",
+            "Benzylamines",
+            "Blood Coagulation",
+            "Blood Coagulation Factors",
+            "Dabigatran",
+            "Factor IX",
+            "Fibrinolytic Agents",
+            "Humans",
+            "Models, Biological",
+            "Protein C",
+            "Pyridines",
+            "Thrombin",
+            "Thromboembolism",
+            "Venous Thrombosis"
+          ]
+        }
+      },
+      {
+        "id": "PMID:27320765",
+        "text": "Anticoagulants in dermatology.\n\nAnticoagulants are the cornerstone of treatment of venous thromboembolism associated with various medical conditions and surgical procedures. They act on different steps of the coagulation pathway and are broadly categorized into heparins, vitamin K antagonists, and inhibitors of thrombin and factor Xa. The classification is evolving as newer and better oral and parenteral anticoagulants are being added. Anticoagulants in dermatology are important not only for their therapeutic application in cutaneous thrombotic dermatoses such as livedoid vasculitis, purpura fulminans, superficial and deep venous thrombosis and others but also for their use in non-thrombotic dermatoses such as lichen planus, recurrent oral aphthosis, chronic urticaria and several others. Further, the use of anticoagulants for any indication is associated with various adverse effects with dermatologic manifestations including specific reactions such as warfarin-induced skin necrosis, heparin-induced thrombocytopenia and anticoagulant-associated cholesterol embolization syndrome.",
+        "title": "Anticoagulants in dermatology.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "27320765",
+          "journal": "Indian journal of dermatology, venereology and leprology",
+          "authors": [
+            "Adya Keshavmurthy A",
+            "Inamadar Arun C",
+            "Palit Aparna"
+          ],
+          "pub_date": "2016",
+          "doi": "10.4103/0378-6323.184199",
+          "mesh_terms": [
+            "Anticoagulants",
+            "Dermatology",
+            "Heparin",
+            "Humans",
+            "Skin Diseases",
+            "Thromboembolism",
+            "Venous Thrombosis",
+            "Warfarin"
+          ]
+        }
+      }
+    ]
+  }
+}

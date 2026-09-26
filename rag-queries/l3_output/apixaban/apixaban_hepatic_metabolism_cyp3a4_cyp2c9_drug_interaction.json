@@ -1,0 +1,161 @@
+{
+  "query": {
+    "query": "Apixaban hepatic metabolism CYP3A4 CYP2C9 drug interaction",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:31089975",
+        "text": "Apixaban: A Clinical Pharmacokinetic and Pharmacodynamic Review.\n\nApixaban is an oral, direct factor Xa inhibitor that inhibits both free and clot-bound factor Xa, and has been approved for clinical use in several thromboembolic disorders, including reduction of stroke risk in non-valvular atrial fibrillation, thromboprophylaxis following hip or knee replacement surgery, the treatment of deep vein thrombosis or pulmonary embolism, and prevention of recurrent deep vein thrombosis and pulmonary embolism. The absolute oral bioavailability of apixaban is ~ 50%. Food does not have a clinically meaningful impact on the bioavailability. Apixaban exposure increases dose proportionally for oral doses up to 10 mg. Apixaban is rapidly absorbed, with maximum concentration occurring 3-4 h after oral administration, and has a half-life of approximately 12 h. Elimination occurs via multiple pathways including metabolism, biliary excretion, and direct intestinal excretion, with approximately 27% of total apixaban clearance occurring via renal excretion. The pharmacokinetics of apixaban are consistent across a broad range of patients, and apixaban has limited clinically relevant interactions with most commonly prescribed medications, allowing for fixed dosages without the need for therapeutic drug monitoring. The pharmacodynamic effect of apixaban is closely correlated with apixaban plasma concentration. This review provides a summary of the pharmacokinetic, pharmacodynamic, biopharmaceutical, and drug-drug interaction profiles of apixaban. Additionally, the population-pharmacokinetic analyses of apixaban in both healthy subjects and in the target patient populations are discussed.",
+        "title": "Apixaban: A Clinical Pharmacokinetic and Pharmacodynamic Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "31089975",
+          "journal": "Clinical pharmacokinetics",
+          "authors": [
+            "Byon Wonkyung",
+            "Garonzik Samira",
+            "Boyd Rebecca A"
+          ],
+          "pub_date": "2019-Oct",
+          "doi": "10.1007/s40262-019-00775-z",
+          "mesh_terms": [
+            "Animals",
+            "Anticoagulants",
+            "Antidotes",
+            "Drug Interactions",
+            "Humans",
+            "Pyrazoles",
+            "Pyridones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:22739932",
+        "text": "[Apixaban].\n\nApixaban is a potent reversible inhibitor of the activated human coagulation factor X. This new oral anticoagulant has favourable pharmacokinetic and pharmocodynamic properties which include a concentration-dependent anticoagulant effect, good oral bioavailability, balanced elimination and excretion, infrequent drug or food interactions, and the lack of liver toxicity. Apixaban has already completed a large part of its phase 3 clinical trial programme. In the ARISTOTLE study, which focused on stroke prevention in atrial fibrillation, apixaban showed a balanced efficacy and safety profile, being superior to warfarin both in the prevention of strokes and in the risk of causing major bleeding. A further trial related to this indication, AVERROES, demonstrated the clear superiority of apixaban compared to aspirin treatment. In the primary prophylaxis of venous thromboembolism after orthopaedic surgery, apixaban successfully completed the ADVANCE study programme and was approved in Europe for patients undergoing elective hip or knee replacement. The results of the AMPLIFY and AMPLIFY-EXT studies will soon show whether the inhibitor is also effective in the treatment and secondary prophylaxis after acute deep vein thrombosis and pulmonary embolism. On the other hand, the use of apixaban in the primary prophylaxis of venous thrombosis in hospitalised medical patients, and its administration on top of antiplatelet therapy to patients who have suffered an acute coronary syndrome, have not received support by the results of ADOPT and APPRAISE-II, respectively. In conclusion, on the basis of the available evidence, apixaban appears to be a valuable therapeutic option for the prevention of venous thrombosis and embolic stroke.",
+        "title": "[Apixaban].",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "22739932",
+          "journal": "Hamostaseologie",
+          "authors": [
+            "Konstantinides S",
+            "Münzel T"
+          ],
+          "pub_date": "2012",
+          "doi": "10.5482/HAMO-12-05-0010",
+          "mesh_terms": [
+            "Evidence-Based Medicine",
+            "Fibrinolytic Agents",
+            "Humans",
+            "Pyrazoles",
+            "Pyridones",
+            "Thrombosis",
+            "Treatment Outcome"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35622425",
+        "text": "Drug Interactions Affecting Oral Anticoagulant Use.\n\nOral anticoagulants (OACs) are medications commonly used in patients with atrial fibrillation and other cardiovascular conditions. Both warfarin and direct oral anticoagulants are susceptible to drug-drug interactions (DDIs). DDIs are an important cause of adverse drug reactions and exact a large toll on the health care system. DDI for warfarin mainly involve moderate to strong inhibitors/inducers of cytochrome P450 (CYP) 2C9, which is responsible for the elimination of the more potent S-isomer of warfarin. However, inhibitor/inducers of CYP3A4 and CYP1A2 may also cause DDI with warfarin. Recognition of these precipitating agents along with increased frequency of monitoring when these agents are initiated or discontinued will minimize the impact of warfarin DDI. Direct oral anticoagulants are mainly affected by medications strongly affecting the permeability glycoprotein (P-gp), and to a lesser extent, strong CYP3A4 inhibitors/inducers. Dabigatran and edoxaban are affected by P-gp modulation. Strong inducers of CYP3A4 or P-gp should be avoided in all patients taking direct oral anticoagulant unless previously proven to be otherwise safe. Simultaneous strong CYP3A4 and P-gp inhibitors should be avoided in patients taking apixaban and rivaroxaban. Concomitant antiplatelet/anticoagulant use confers additive risk for bleeding, but their combination is unavoidable in many cases. Minimizing duration of concomitant anticoagulant/antiplatelet therapy as indicated by evidence-based clinical guidelines is the best way to reduce the risk of bleeding.",
+        "title": "Drug Interactions Affecting Oral Anticoagulant Use.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35622425",
+          "journal": "Circulation. Arrhythmia and electrophysiology",
+          "authors": [
+            "Mar Philip L",
+            "Gopinathannair Rakesh",
+            "Gengler Brooke E"
+          ],
+          "pub_date": "2022-Jun",
+          "doi": "10.1161/CIRCEP.121.007956",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Cytochrome P-450 CYP3A",
+            "Dabigatran",
+            "Drug Interactions",
+            "Hemorrhage",
+            "Humans",
+            "Pyridones",
+            "Rivaroxaban",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:37952132",
+        "text": "Apixaban for Stroke Prevention in Subclinical Atrial Fibrillation.\n\nSubclinical atrial fibrillation is short-lasting and asymptomatic and can usually be detected only by long-term continuous monitoring with pacemakers or defibrillators. Subclinical atrial fibrillation is associated with an increased risk of stroke by a factor of 2.5; however, treatment with oral anticoagulation is of uncertain benefit.\nWe conducted a trial involving patients with subclinical atrial fibrillation lasting 6 minutes to 24 hours. Patients were randomly assigned in a double-blind, double-dummy design to receive apixaban at a dose of 5 mg twice daily (2.5 mg twice daily when indicated) or aspirin at a dose of 81 mg daily. The trial medication was discontinued and anticoagulation started if subclinical atrial fibrillation lasting more than 24 hours or clinical atrial fibrillation developed. The primary efficacy outcome, stroke or systemic embolism, was assessed in the intention-to-treat population (all the patients who had undergone randomization); the primary safety outcome, major bleeding, was assessed in the on-treatment population (all the patients who had undergone randomization and received at least one dose of the assigned trial drug, with follow-up censored 5 days after permanent discontinuation of trial medication for any reason).\nWe included 4012 patients with a mean (±SD) age of 76.8±7.6 years and a mean CHA2DS2-VASc score of 3.9±1.1 (scores range from 0 to 9, with higher scores indicating a higher risk of stroke); 36.1% of the patients were women. After a mean follow-up of 3.5±1.8 years, stroke or systemic embolism occurred in 55 patients in the apixaban group (0.78% per patient-year) and in 86 patients in the aspirin group (1.24% per patient-year) (hazard ratio, 0.63; 95% confidence interval [CI], 0.45 to 0.88; P = 0.007). In the on-treatment population, the rate of major bleeding was 1.71% per patient-year in the apixaban group and 0.94% per patient-year in the aspirin group (hazard ratio, 1.80; 95% CI, 1.26 to 2.57; P = 0.001). Fatal bleeding occurred in 5 patients in the apixaban group and 8 patients in the aspirin group.\nAmong patients with subclinical atrial fibrillation, apixaban resulted in a lower risk of stroke or systemic embolism than aspirin but a higher risk of major bleeding. (Funded by the Canadian Institutes of Health Research and others; ARTESIA ClinicalTrials.gov number, NCT01938248.).",
+        "title": "Apixaban for Stroke Prevention in Subclinical Atrial Fibrillation.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "37952132",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Healey Jeff S",
+            "Lopes Renato D",
+            "Granger Christopher B"
+          ],
+          "pub_date": "2024-Jan-11",
+          "doi": "10.1056/NEJMoa2310234",
+          "mesh_terms": [
+            "Aged",
+            "Aged, 80 and over",
+            "Female",
+            "Humans",
+            "Male",
+            "Anticoagulants",
+            "Aspirin",
+            "Atrial Fibrillation",
+            "Canada",
+            "Embolism",
+            "Hemorrhage",
+            "Pyridones",
+            "Stroke",
+            "Treatment Outcome",
+            "Factor Xa Inhibitors",
+            "Double-Blind Method",
+            "Pyrazoles"
+          ]
+        }
+      },
+      {
+        "id": "PMID:27651407",
+        "text": "Apixaban-induced liver injury.\n\nAn 81-year-old woman with well-controlled hypertension presented to the emergency department with new-onset atrial fibrillation with rapid ventricular response. Treatment for atrial fibrillation was initiated, including rate control and anticoagulation with 5 mg of apixaban two times per day for primary stroke prophylaxis. Three days after initiation of apixaban, the patient noted new-onset abdominal pain, worsening shortness of breath and weakness. Laboratory results showed elevated liver enzymes. Workup for elevated transaminase did not reveal any underlying infectious or autoimmune process. Apixaban, a probable cause for the hepatocellular injury, was discontinued and replaced with intravenous unfractionated heparin to bridge anticoagulation with warfarin. The patient's symptoms resolved as her transaminases improved by discontinuation of apixaban. We illustrate this case of drug-induced hepatotoxicity secondary to treatment with apixaban. It is important for physicians to be aware of this rare adverse effect caused by a widely used novel oral anticoagulant.",
+        "title": "Apixaban-induced liver injury.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "27651407",
+          "journal": "BMJ case reports",
+          "authors": [
+            "Clarke Sherri-Anne",
+            "Alsaad Ali A",
+            "Mack Anwar"
+          ],
+          "pub_date": "2016-Sep-20",
+          "doi": "10.1136/bcr-2016-216744",
+          "mesh_terms": [
+            "Abdominal Pain",
+            "Administration, Oral",
+            "Aged, 80 and over",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Chemical and Drug Induced Liver Injury",
+            "Female",
+            "Heparin",
+            "Humans",
+            "Practice Guidelines as Topic",
+            "Pyrazoles",
+            "Pyridones",
+            "Treatment Outcome"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "query": {
+    "query": "Warfarin renal clearance elimination pharmacokinetics",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38035566",
+        "text": "Anticoagulation in Patients with Chronic Kidney Disease.\n\nBoth atrial fibrillation and venous thromboembolism (VTE) are highly prevalent among patients with chronic kidney disease (CKD). Until recently, warfarin was the most commonly prescribed oral anticoagulant. Direct oral anticoagulants (DOACs) have important advantages and have been shown to be noninferior to warfarin with respect to stroke prevention or recurrent VTE in the general population, with lower bleeding rates. This review article will provide available evidence on the use of DOACs in patients with CKD.\nIn post hoc analyses of major randomized studies with DOACs for stroke prevention in atrial fibrillation, in the subgroup of participants with moderate CKD, defined as a creatinine clearance (CrCl) of 30-50 mL/min, dabigatran 150 mg and apixaban were associated with lower rates of stroke and systemic embolism, whereas apixaban and edoxaban were associated with lower bleeding and mortality rates, compared with warfarin. In retrospective observational studies in patients with advanced CKD (defined as a CrCl &lt;30 mL/min) and atrial fibrillation, DOACs had similar efficacy with warfarin with numerically lower bleeding rates. All agents warrant dose adjustment in moderate-to-severe CKD. In patients on maintenance dialysis, the VALKYRIE trial, which was designed initially to study the effect of vitamin K on vascular calcification progression, established superiority for rivaroxaban compared with a vitamin K antagonist (VKA) in the extension phase. Two other clinical trials using apixaban (AXADIA and RENAL-AF) in this population were inconclusive due to recruitment challenges and low event rates. In post hoc analyses of randomized studies with DOACs in patients with VTE, in the subgroup of participants with moderate CKD at baseline, edoxaban was associated with lower rates of recurrent VTE, whereas rivaroxaban and dabigatran were associated with lower and higher bleeding rates, respectively, as compared to warfarin.\nDOACs have revolutionized the management of atrial fibrillation and VTE, and they should be preferred over warfarin in patients with moderate-to-severe CKD with appropriate dose adjustment. Therapeutic drug monitoring with a valid technique may be considered to guide clinical management in individualized cases. Current evidence questions the need for oral anticoagulation in patients on maintenance dialysis with atrial fibrillation as both DOACs and VKAs are associated with high rates of major bleeding.",
+        "title": "Anticoagulation in Patients with Chronic Kidney Disease.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38035566",
+          "journal": "American journal of nephrology",
+          "authors": [
+            "Elenjickal Elias John",
+            "Travlos Christoforos K",
+            "Marques Pedro"
+          ],
+          "pub_date": "2024",
+          "doi": "10.1159/000535546",
+          "mesh_terms": [
+            "Humans",
+            "Warfarin",
+            "Rivaroxaban",
+            "Dabigatran",
+            "Atrial Fibrillation",
+            "Venous Thromboembolism",
+            "Retrospective Studies",
+            "Treatment Outcome",
+            "Anticoagulants",
+            "Hemorrhage",
+            "Stroke",
+            "Renal Insufficiency, Chronic",
+            "Vitamin K",
+            "Administration, Oral",
+            "Pyridines",
+            "Thiazoles"
+          ]
+        }
+      },
+      {
+        "id": "PMID:3542339",
+        "text": "Clinical pharmacokinetics and pharmacodynamics of warfarin. Understanding the dose-effect relationship.\n\nThe simplest complete system accounting for the time-course of changes in the prothrombin time induced by warfarin requires the combination of 4 independent models: A pharmacokinetic model for the absorption, distribution, and elimination of warfarin. Warfarin is essentially completely absorbed, reaching a maximum plasma concentration between 2 and 6 hours. It distributes into a small volume of distribution (10 L/70kg) and is eliminated by hepatic metabolism with a very small clearance (0.2 L/h/70kg). The elimination half-life is about 35 hours. A pharmacodynamic model for the effect of warfarin on the synthesis of clotting factors (prothrombin complex). Prothrombin complex synthesis is inhibited 50% at a warfarin concentration of about 1.5 mg/L. Warfarin concentrations associated with therapeutic anticoagulation are of similar magnitude. A physiological model for the synthesis and degradation of the prothrombin complex. The synthesis rate is about 5%/h/70kg and the elimination half-life estimated from changes in prothrombin time is approximately 17 hours. On average it will take 3 days for the anticoagulant effect of warfarin to reach a stable value when warfarin concentrations are constant. A model for the relationship between the activity of prothrombin complex and the prothrombin time. In general there is a hyperbolic relationship between these quantities. Its exact shape depends upon the method used for measuring the prothrombin time. Attempts to integrate these models into a single system have used essentially the same pharmacokinetic, physiological, and prothrombin activity models. Four distinct pharmacodynamic models have been proposed: linear, log-linear, power and Emax. One might be preferred on theoretical grounds (Emax) but its performance is not clearly different from the others. Empirical methods for warfarin dose prediction as well as those based on the combined pharmacokinetic-pharmacodynamic-physiological-prothrombin system have been proposed. Only one (which was also the first) [Sheiner 1969] has been adequately described and compared with the performance of an unaided physician. The programme compared favourably with decisions made by those physicians normally responsible for adjusting warfarin dose, but was not tested prospectively. A sizeable body of theoretical and experimental observations has contributed to our understanding of the warfarin dose-effect relationship. It remains to be demonstrated that any alternative method is superior to the traditional empirical approach to warfarin dose adjustment.",
+        "title": "Clinical pharmacokinetics and pharmacodynamics of warfarin. Understanding the dose-effect relationship.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "3542339",
+          "journal": "Clinical pharmacokinetics",
+          "authors": [
+            "Holford N H"
+          ],
+          "pub_date": "1986",
+          "doi": "10.2165/00003088-198611060-00005",
+          "mesh_terms": [
+            "Dose-Response Relationship, Drug",
+            "Humans",
+            "Kinetics",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:36335914",
+        "text": "Apixaban for Patients With Atrial Fibrillation on Hemodialysis: A Multicenter Randomized Controlled Trial.\n\nThere are no randomized data evaluating the safety or efficacy of apixaban for stroke prevention in patients with end-stage kidney disease on hemodialysis and with atrial fibrillation (AF).\nThe RENAL-AF trial (Renal Hemodialysis Patients Allocated Apixaban Versus Warfarin in Atrial Fibrillation) was a prospective, randomized, open-label, blinded-outcome evaluation (PROBE) of apixaban versus warfarin in patients receiving hemodialysis with AF and a CHA2DS2-VASc score ≥2. Patients were randomly assigned 1:1 to 5 mg of apixaban twice daily (2.5 mg twice daily for patients ≥80 years of age, weight ≤60 kg, or both) or dose-adjusted warfarin. The primary outcome was time to major or clinically relevant nonmajor bleeding. Secondary outcomes included stroke, mortality, and apixaban pharmacokinetics. Pharmacokinetic sampling was day 1, day 3, and month 1.\nFrom January 2017 through January 2019, 154 patients were randomly assigned to apixaban (n=82) or warfarin (n=72). The trial stopped prematurely because of enrollment challenges. Time in therapeutic range (international normalized ratio, 2.0-3.0) for warfarin-treated patients was 44% (interquartile range, 23%-59%). The 1-year rates for major or clinically relevant nonmajor bleeding were 32% and 26% in apixaban and warfarin groups, respectively (hazard ratio, 1.20 [95% CI, 0.63-2.30]), whereas 1-year rates for stroke or systemic embolism were 3.0% and 3.3% in apixaban and warfarin groups, respectively. Death was the most common major event in the apixaban (21 patients [26%]) and warfarin (13 patients [18%]) arms. The pharmacokinetic substudy enrolled the target 50 patients. Median steady-state 12-hour area under the curve was 2475 ng/mL×h (10th to 90th percentiles, 1342-3285) for 5 mg of apixaban twice daily and 1269 ng/mL×h (10th to 90th percentiles, 615-1946) for 2.5 mg of apixaban twice daily. There was substantial overlap between minimum apixaban blood concentration, 12-hour area under the curve, and maximum apixaban blood concentration for patients with and without a major or clinically relevant nonmajor bleeding event.\nThere was inadequate power to draw any conclusion regarding rates of major or clinically relevant nonmajor bleeding comparing apixaban and warfarin in patients with AF and end-stage kidney disease on hemodialysis. Clinically relevant bleeding events were ≈10-fold more frequent than stroke or systemic embolism among this population on anticoagulation, highlighting the need for future randomized studies evaluating the risks versus benefits of anticoagulation among patients with AF and end-stage kidney disease on hemodialysis.\nURL: https://www.\ngov; Unique identifier: NCT02942407.",
+        "title": "Apixaban for Patients With Atrial Fibrillation on Hemodialysis: A Multicenter Randomized Controlled Trial.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "36335914",
+          "journal": "Circulation",
+          "authors": [
+            "Pokorney Sean D",
+            "Chertow Glenn M",
+            "Al-Khalidi Hussein R"
+          ],
+          "pub_date": "2022-Dec-06",
+          "doi": "10.1161/CIRCULATIONAHA.121.054990",
+          "mesh_terms": [
+            "Humans",
+            "Atrial Fibrillation",
+            "Warfarin",
+            "Anticoagulants",
+            "Prospective Studies",
+            "Treatment Outcome",
+            "Hemorrhage",
+            "Stroke",
+            "Embolism",
+            "Renal Dialysis",
+            "Kidney Failure, Chronic",
+            "Pyrazoles",
+            "Pyridones"
+          ]
+        }
+      },
+      {
+        "id": "PMID:858804",
+        "text": "Warfarin elimination and responsiveness in patients with renal dysfunction.\n\nPlasma warfarin half-life was estimated in four patients with renal dysfunction and five normal control subjects. Hypoprothrombinemic responsiveness to a single oral dose of warfarin (0.75 mg/kg) was also evaluated for both groups. The mean warfarin half-life of 29.9+/-5.0 (S.E.M.) hours for renal patients was significantly shorter than the 44.8+/-6.0 hours half-life for normal controls (P less than 0.05). Additionally, a positive correlation was found between warfarin half-life and creatinine clearance. Pharmacologic responsiveness to warfarin was comparable for both groups. It therefore appears that patients with renal dysfunction do not possess an increased susceptibility, either pharmacokinetic or pharmacologic, to the hypoprothrombinemic effect of warfarin.",
+        "title": "Warfarin elimination and responsiveness in patients with renal dysfunction.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "858804",
+          "journal": "Journal of clinical pharmacology",
+          "authors": [
+            "Bachmann K",
+            "Shapiro R",
+            "Mackiewicz J"
+          ],
+          "pub_date": "1977",
+          "doi": "10.1002/j.1552-4604.1977.tb04608.x",
+          "mesh_terms": [
+            "Adult",
+            "Fatty Acids, Nonesterified",
+            "Female",
+            "Half-Life",
+            "Humans",
+            "Kidney Diseases",
+            "Kinetics",
+            "Male",
+            "Middle Aged",
+            "Prothrombin Time",
+            "Serum Albumin",
+            "Time Factors",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:28122753",
+        "text": "Edoxaban: A direct oral anticoagulant.\n\nThe pharmacology, pharmacokinetics, pharmacodynamics, clinical efficacy, safety, and place in therapy of edoxaban for prevention of stroke in patients with nonvalvular atrial fibrillation (AF) and treatment of venous thromboembolism (VTE) are reviewed.\nAlthough warfarin has been an established therapy for stroke prevention in AF and VTE, the need for agents with less monitoring requirements, fewer food and drug interactions, and a lower risk of major bleeding led to the development of direct oral anticoagulants (DOACs). Current DOACs work by either directly blocking thrombin (dabigatran) or inhibiting factor Xa (apixaban, edoxaban, and rivaroxaban). Edoxaban is the newest DOAC and only the second Food and Drug Administration-approved anticoagulant for once-daily administration. Unlike apixaban and rivaroxaban, edoxaban does not interact with the cytochrome P-450 system. The results of the ENGAGE AF-TIMI 48 and Hokusai-VTE trials demonstrated edoxaban's noninferiority to warfarin. However, the adverse-effect profile of edoxaban may limit the drug's use in clinical practice; in clinical trials, patients with AF who had a creatinine clearance of ≥95 mL/min had a higher rate of strokes with the use of edoxaban versus warfarin.\nA review of the literature showed that edoxaban, the most recently approved DOAC, is noninferior to warfarin for management of VTE (after parenteral anticoagulant therapy) and for stroke risk reduction in many patients with nonvalvular AF.",
+        "title": "Edoxaban: A direct oral anticoagulant.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "28122753",
+          "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+          "authors": [
+            "Poulakos Mara",
+            "Walker Jacqueline N",
+            "Baig Umima"
+          ],
+          "pub_date": "2017-Feb-01",
+          "doi": "10.2146/ajhp150821",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Drug Monitoring",
+            "Factor Xa Inhibitors",
+            "Hemorrhage",
+            "Humans",
+            "Pyridines",
+            "Stroke",
+            "Thiazoles",
+            "Venous Thromboembolism",
+            "Warfarin"
+          ]
+        }
+      }
+    ]
+  }
+}

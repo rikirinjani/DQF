@@ -1,0 +1,169 @@
+{
+  "query": {
+    "query": "Rivaroxaban hepatic metabolism CYP3A4 CYP2C9 drug interaction",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35622425",
+        "text": "Drug Interactions Affecting Oral Anticoagulant Use.\n\nOral anticoagulants (OACs) are medications commonly used in patients with atrial fibrillation and other cardiovascular conditions. Both warfarin and direct oral anticoagulants are susceptible to drug-drug interactions (DDIs). DDIs are an important cause of adverse drug reactions and exact a large toll on the health care system. DDI for warfarin mainly involve moderate to strong inhibitors/inducers of cytochrome P450 (CYP) 2C9, which is responsible for the elimination of the more potent S-isomer of warfarin. However, inhibitor/inducers of CYP3A4 and CYP1A2 may also cause DDI with warfarin. Recognition of these precipitating agents along with increased frequency of monitoring when these agents are initiated or discontinued will minimize the impact of warfarin DDI. Direct oral anticoagulants are mainly affected by medications strongly affecting the permeability glycoprotein (P-gp), and to a lesser extent, strong CYP3A4 inhibitors/inducers. Dabigatran and edoxaban are affected by P-gp modulation. Strong inducers of CYP3A4 or P-gp should be avoided in all patients taking direct oral anticoagulant unless previously proven to be otherwise safe. Simultaneous strong CYP3A4 and P-gp inhibitors should be avoided in patients taking apixaban and rivaroxaban. Concomitant antiplatelet/anticoagulant use confers additive risk for bleeding, but their combination is unavoidable in many cases. Minimizing duration of concomitant anticoagulant/antiplatelet therapy as indicated by evidence-based clinical guidelines is the best way to reduce the risk of bleeding.",
+        "title": "Drug Interactions Affecting Oral Anticoagulant Use.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "35622425",
+          "journal": "Circulation. Arrhythmia and electrophysiology",
+          "authors": [
+            "Mar Philip L",
+            "Gopinathannair Rakesh",
+            "Gengler Brooke E"
+          ],
+          "pub_date": "2022-Jun",
+          "doi": "10.1161/CIRCEP.121.007956",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Cytochrome P-450 CYP3A",
+            "Dabigatran",
+            "Drug Interactions",
+            "Hemorrhage",
+            "Humans",
+            "Pyridones",
+            "Rivaroxaban",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:33757376",
+        "text": "Update on drug interactions with non-vitamin-K-antagonist oral anticoagulants for stroke prevention in elderly patients.\n\nIntroduction: We update the knowledge, since the last review in 2017, about drug-drug interactions (DDI) of non-vitamin-K-antagonist oral anticoagulants (NOAC) in patients ≥75 years.Areas covered: The literature was searched for: 'dabigatran,' 'rivaroxaban,' 'edoxaban,' or 'apixaban' and drugs, affecting platelet function, CYP3A4-, CYP2C9-, or P-Gp-activity. Pharmacodynamic DDI of NOAC with drugs affecting platelet function like nonsteroidal anti-inflammatory drugs and antiplatelet agents occur most frequently. Pharmacokinetic DDI with NOAC were found for 37 of 117 drugs. Reports about DDI with NOAC were found for 51% of P-gp-affecting, 38% for CYP2C9-affecting and 27% for CYP3A4-affecting drugs. Reports about DDI of cardiovascular drugs with NOAC were the most prevalent, followed by anti-infective and nervous system drugs. NOAC plasma levels were measured in retrospective and cohort studies and were associated with concomitant medication. Reports about DDI of NOAC were found in 71 patients ≥75 years.Expert opinion: The knowledge about DDI of NOAC in elderly patients is very limited. Studies should be carried out to investigate the role of drugs potentially interacting with NOAC, which until now have not been investigated. When studying DDI of NOAC, care should be taken to include elderly patients with impaired renal function and patients on polymedication.",
+        "title": "Update on drug interactions with non-vitamin-K-antagonist oral anticoagulants for stroke prevention in elderly patients.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "33757376",
+          "journal": "Expert review of clinical pharmacology",
+          "authors": [
+            "Stöllberger Claudia",
+            "Finsterer Josef"
+          ],
+          "pub_date": "2021-May",
+          "doi": "10.1080/17512433.2021.1908124",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Aged",
+            "Anti-Inflammatory Agents, Non-Steroidal",
+            "Anticoagulants",
+            "Drug Interactions",
+            "Humans",
+            "Platelet Aggregation Inhibitors",
+            "Renal Insufficiency",
+            "Stroke"
+          ]
+        }
+      },
+      {
+        "id": "PMID:23999929",
+        "text": "Clinical pharmacokinetic and pharmacodynamic profile of rivaroxaban.\n\nRivaroxaban is an oral, direct Factor Xa inhibitor that targets free and clot-bound Factor Xa and Factor Xa in the prothrombinase complex. It is absorbed rapidly, with maximum plasma concentrations being reached 2-4 h after tablet intake. Oral bioavailability is high (80-100 %) for the 10 mg tablet irrespective of food intake and for the 15 mg and 20 mg tablets when taken with food. Variability in the pharmacokinetic parameters is moderate (coefficient of variation 30-40 %). The pharmacokinetic profile of rivaroxaban is consistent in healthy subjects and across a broad range of different patient populations studied. Elimination of rivaroxaban from plasma occurs with a terminal half-life of 5-9 h in healthy young subjects and 11-13 h in elderly subjects. Rivaroxaban produces a pharmacodynamic effect that is closely correlated with its plasma concentration. The pharmacokinetic and pharmacodynamic relationship for inhibition of Factor Xa activity can be described by an E max model, and prothrombin time prolongation by a linear model. Rivaroxaban does not inhibit cytochrome P450 enzymes or known drug transporter systems and, because rivaroxaban has multiple elimination pathways, it has no clinically relevant interactions with most commonly prescribed medications. Rivaroxaban has been approved for clinical use in several thromboembolic disorders.",
+        "title": "Clinical pharmacokinetic and pharmacodynamic profile of rivaroxaban.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "23999929",
+          "journal": "Clinical pharmacokinetics",
+          "authors": [
+            "Mueck Wolfgang",
+            "Stampfuss Jan",
+            "Kubitza Dagmar"
+          ],
+          "pub_date": "2014-Jan",
+          "doi": "10.1007/s40262-013-0100-7",
+          "mesh_terms": [
+            "Anticoagulants",
+            "Drug Interactions",
+            "Factor Xa Inhibitors",
+            "Humans",
+            "Morpholines",
+            "Rivaroxaban",
+            "Thiophenes"
+          ]
+        }
+      },
+      {
+        "id": "PMID:21128814",
+        "text": "Oral rivaroxaban for symptomatic venous thromboembolism.\n\nRivaroxaban, an oral factor Xa inhibitor, may provide a simple, fixed-dose regimen for treating acute deep-vein thrombosis (DVT) and for continued treatment, without the need for laboratory monitoring.\nWe conducted an open-label, randomized, event-driven, noninferiority study that compared oral rivaroxaban alone (15 mg twice daily for 3 weeks, followed by 20 mg once daily) with subcutaneous enoxaparin followed by a vitamin K antagonist (either warfarin or acenocoumarol) for 3, 6, or 12 months in patients with acute, symptomatic DVT. In parallel, we carried out a double-blind, randomized, event-driven superiority study that compared rivaroxaban alone (20 mg once daily) with placebo for an additional 6 or 12 months in patients who had completed 6 to 12 months of treatment for venous thromboembolism. The primary efficacy outcome for both studies was recurrent venous thromboembolism. The principal safety outcome was major bleeding or clinically relevant nonmajor bleeding in the initial-treatment study and major bleeding in the continued-treatment study.\nThe study of rivaroxaban for acute DVT included 3449 patients: 1731 given rivaroxaban and 1718 given enoxaparin plus a vitamin K antagonist. Rivaroxaban had noninferior efficacy with respect to the primary outcome (36 events [2.1%], vs. 51 events with enoxaparin-vitamin K antagonist [3.0%]; hazard ratio, 0.68; 95% confidence interval [CI], 0.44 to 1.04; P<0.001). The principal safety outcome occurred in 8.1% of the patients in each group. In the continued-treatment study, which included 602 patients in the rivaroxaban group and 594 in the placebo group, rivaroxaban had superior efficacy (8 events [1.3%], vs. 42 with placebo [7.1%]; hazard ratio, 0.18; 95% CI, 0.09 to 0.39; P<0.001). Four patients in the rivaroxaban group had nonfatal major bleeding (0.7%), versus none in the placebo group (P=0.11).\nRivaroxaban offers a simple, single-drug approach to the short-term and continued treatment of venous thrombosis that may improve the benefit-to-risk profile of anticoagulation. (Funded by Bayer Schering Pharma and Ortho-McNeil; ClinicalTrials.gov numbers, NCT00440193 and NCT00439725.).",
+        "title": "Oral rivaroxaban for symptomatic venous thromboembolism.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "21128814",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Bauersachs Rupert",
+            "Berkowitz Scott D"
+          ],
+          "pub_date": "2010-Dec-23",
+          "doi": "10.1056/NEJMoa1007903",
+          "mesh_terms": [
+            "Acenocoumarol",
+            "Acute Disease",
+            "Administration, Oral",
+            "Aged",
+            "Anticoagulants",
+            "Double-Blind Method",
+            "Enoxaparin",
+            "Factor Xa Inhibitors",
+            "Female",
+            "Hemorrhage",
+            "Humans",
+            "Injections, Subcutaneous",
+            "Intention to Treat Analysis",
+            "Kaplan-Meier Estimate",
+            "Male",
+            "Middle Aged",
+            "Morpholines",
+            "Pulmonary Embolism",
+            "Rivaroxaban",
+            "Thiophenes",
+            "Venous Thromboembolism",
+            "Venous Thrombosis",
+            "Vitamin K",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:41435887",
+        "text": "Inflammatory protein signatures associated with high rivaroxaban exposure.\n\nDirect oral anticoagulants, including rivaroxaban, are widely prescribed for the prevention and treatment of thromboembolic disorders. Despite generally predictable pharmacokinetics (PK), real-world data reveal striking interindividual variability in exposure, raising concerns for both efficacy and bleeding risk. Known genetic and clinical determinants explain only part of this variability, underscoring the need to identify additional contributors. This study aimed to explore systemic protein signatures associated with rivaroxaban exposure intensity. Plasma samples were obtained from 64 participants in a phase I clinical study (NCT04180436) including healthy controls, obese patients, and post-bariatric surgery patients. Rivaroxaban PK was assessed after 20 mg once-daily dosing, and patients were stratified into high and low exposure groups. Untargeted plasma proteomic analysis was performed by liquid chromatography coupled with high-resolution mass spectrometry, followed by univariate and multivariate statistical analyses. Targeted C-reactive protein (CRP) quantification and multiplex cytokine assays were used to validate findings. Differential abundance and multivariate modeling identified inflammation and vascular related proteins associated with high rivaroxaban exposure. Notably, CRP and lipoprotein(a) (LPA) were consistently elevated in high exposure groups. Targeted CRP quantification confirmed these results, even in cases of mild to moderate inflammation. Cytokine analyses revealed a pro-inflammatory profile, characterized by increased interferon gamma and reduced Tumor Necrosis Factor alpha in high exposure patients. Protein-protein interaction networks highlighted CRP, LPA, albumin, and Apolipoprotein B as central hubs, while functional enrichment revealed pathways related to acute inflammation, oxidative stress, and vascular regulation. These findings suggest that systemic inflammation may contribute to rivaroxaban overexposure, with CRP emerging as a promising biomarker to support more personalized anticoagulant strategies.",
+        "title": "Inflammatory protein signatures associated with high rivaroxaban exposure.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "41435887",
+          "journal": "Biochemical pharmacology",
+          "authors": [
+            "Feliu Catherine",
+            "Escal Jean",
+            "Leven Cyril"
+          ],
+          "pub_date": "2026-Mar",
+          "doi": "10.1016/j.bcp.2025.117663",
+          "mesh_terms": [
+            "Humans",
+            "Rivaroxaban",
+            "Male",
+            "Female",
+            "Middle Aged",
+            "Factor Xa Inhibitors",
+            "Adult",
+            "Inflammation",
+            "Proteomics",
+            "Biomarkers",
+            "C-Reactive Protein",
+            "Dose-Response Relationship, Drug",
+            "Inflammation Mediators"
+          ]
+        }
+      }
+    ]
+  }
+}

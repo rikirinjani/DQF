@@ -1,0 +1,159 @@
+{
+  "query": {
+    "query": "anticoagulant reversal agent antidote andexanet idarucizumab",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39133476",
+        "text": "Perioperative Management of Patients Taking Direct Oral Anticoagulants: A Review.\n\nDirect oral anticoagulants (DOACs), comprising apixaban, rivaroxaban, edoxaban, and dabigatran, are commonly used medications to treat patients with atrial fibrillation and venous thromboembolism. Decisions about how to manage DOACs in patients undergoing a surgical or nonsurgical procedure are important to decrease the risks of bleeding and thromboembolism.\nFor elective surgical or nonsurgical procedures, a standardized approach to perioperative DOAC management involves classifying the risk of procedure-related bleeding as minimal (eg, minor dental or skin procedures), low to moderate (eg, cholecystectomy, inguinal hernia repair), or high risk (eg, major cancer or joint replacement procedures). For patients undergoing minimal bleeding risk procedures, DOACs may be continued, or if there is concern about excessive bleeding, DOACs may be discontinued on the day of the procedure. Patients undergoing a low to moderate bleeding risk procedure should typically discontinue DOACs 1 day before the operation and restart DOACs 1 day after. Patients undergoing a high bleeding risk procedure should stop DOACs 2 days prior to the operation and restart DOACs 2 days after. With this perioperative DOAC management strategy, rates of thromboembolism (0.2%-0.4%) and major bleeding (1%-2%) are low and delays or cancellations of surgical and nonsurgical procedures are infrequent. Patients taking DOACs who need emergent (<6 hours after presentation) or urgent surgical procedures (6-24 hours after presentation) experience bleeding rates up to 23% and thromboembolism as high as 11%. Laboratory testing to measure preoperative DOAC levels may be useful to determine whether patients should receive a DOAC reversal agent (eg, prothrombin complex concentrates, idarucizumab, or andexanet-α) prior to an emergent or urgent procedure.\nWhen patients who are taking a DOAC require an elective surgical or nonsurgical procedure, standardized management protocols can be applied that do not require testing DOAC levels or heparin bridging. When patients taking a DOAC require an emergent, urgent, or semiurgent surgical procedure, anticoagulant reversal agents may be appropriate when DOAC levels are elevated or not available.",
+        "title": "Perioperative Management of Patients Taking Direct Oral Anticoagulants: A Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "39133476",
+          "journal": "JAMA",
+          "authors": [
+            "Douketis James D",
+            "Spyropoulos Alex C"
+          ],
+          "pub_date": "2024-Sep-10",
+          "doi": "10.1001/jama.2024.12708",
+          "mesh_terms": [
+            "Humans",
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Perioperative Care",
+            "Pyridines",
+            "Rivaroxaban",
+            "Venous Thromboembolism",
+            "Dabigatran",
+            "Thiazoles",
+            "Blood Loss, Surgical",
+            "Postoperative Hemorrhage",
+            "Elective Surgical Procedures",
+            "Anticoagulation Reversal"
+          ]
+        }
+      },
+      {
+        "id": "PMID:30916798",
+        "text": "Reversal of direct oral anticoagulants: Guidance from the Anticoagulation Forum.\n\nTwo specific reversal agents for direct oral anticoagulants (DOACs) have been approved in the United States: idarucizumab for dabigatran reversal and andexanet alfa for apixaban and rivaroxaban reversal. Non-specific prohemostatic agents such as prothrombin complex concentrate (PCC) and activated PCC have also been used for DOAC reversal. The goal of this document is to provide comprehensive guidance from the Anticoagulation Forum, a North American organization of anticoagulation providers, regarding use of DOAC reversal agents. We discuss indications for reversal, provide guidance on how the individual reversal agents should be administered, and offer suggestions for stewardship at the health system level.",
+        "title": "Reversal of direct oral anticoagulants: Guidance from the Anticoagulation Forum.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30916798",
+          "journal": "American journal of hematology",
+          "authors": [
+            "Cuker Adam",
+            "Burnett Allison",
+            "Triller Darren"
+          ],
+          "pub_date": "2019-Jun",
+          "doi": "10.1002/ajh.25475",
+          "mesh_terms": [
+            "Antibodies, Monoclonal, Humanized",
+            "Anticoagulants",
+            "Factor Xa",
+            "Humans",
+            "Practice Guidelines as Topic",
+            "Recombinant Proteins"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40448969",
+        "text": "2025 Guidelines for direct oral anticoagulants: a practical guidance on the prescription, laboratory testing, peri-operative and bleeding management.\n\nDirect oral anticoagulants (DOACs) are widely prescribed to prevent and treat venous and arterial thromboembolism, supported by published evidence, and are preferred over warfarin in many guidelines. Although the risk of major bleeding, in particular intracranial haemorrhage (ICH), is decreased with DOACs, gastrointestinal bleeding is increased with some DOACs, and the case fatality rate of bleeding remains high. Therefore, it is important to (i) prescribe DOACs appropriately, (ii) have strategies to manage major bleeding including the use of specific reversal agents and (iii) interrupt and resume DOACs for procedures. The main recommendations are as follows: (i) Select the appropriate dose of DOAC according to indications and consider patient factors to minimise bleeding risks; (ii) DOACs do not require routine laboratory testing; (iii) for life-threatening uncontrollable bleeding, specific agents can be used to reverse the anticoagulant effects of DOACs; and (iv) DOACs can be interrupted for planned procedures without the need for 'bridging' with low-molecular-weight heparin (LMWH). The anticoagulant effects of DOACs can be reversed with specific agents, such as andexanet for apixaban and rivaroxaban and idarucizumab for dabigatran. If not available, pro-haemostatic agents such as prothrombin complex concentrates or activated prothrombin complex concentrates can be considered. DOACs can be interrupted and resumed for procedures without the need for 'bridging' with LMWH.",
+        "title": "2025 Guidelines for direct oral anticoagulants: a practical guidance on the prescription, laboratory testing, peri-operative and bleeding management.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40448969",
+          "journal": "Internal medicine journal",
+          "authors": [
+            "Tran Huyen A",
+            "Merriman Eileen",
+            "Baker Ross"
+          ],
+          "pub_date": "2025-Jul",
+          "doi": "10.1111/imj.70103",
+          "mesh_terms": [
+            "Humans",
+            "Administration, Oral",
+            "Anticoagulants",
+            "Gastrointestinal Hemorrhage",
+            "Hemorrhage",
+            "Perioperative Care",
+            "Thromboembolism"
+          ]
+        }
+      },
+      {
+        "id": "PMID:22315269",
+        "text": "Oral anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.\n\nThe objective of this article is to summarize the published literature concerning the pharmacokinetics and pharmacodynamics of oral anticoagulant drugs that are currently available for clinical use and other aspects related to their management.\nWe carried out a standard review of published articles focusing on the laboratory and clinical characteristics of the vitamin K antagonists; the direct thrombin inhibitor, dabigatran etexilate; and the direct factor Xa inhibitor, rivaroxaban\nThe antithrombotic effect of each oral anticoagulant drug, the interactions, and the monitoring of anticoagulation intensity are described in detail and discussed without providing specific recommendations. Moreover, we describe and discuss the clinical applications and optimal dosages of oral anticoagulant therapies, practical issues related to their initiation and monitoring, adverse events such as bleeding and other potential side effects, and available strategies for reversal.\nThere is a large amount of evidence on laboratory and clinical characteristics of vitamin K antagonists. A growing body of evidence is becoming available on the first new oral anticoagulant drugs available for clinical use, dabigatran and rivaroxaban.",
+        "title": "Oral anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "22315269",
+          "journal": "Chest",
+          "authors": [
+            "Ageno Walter",
+            "Gallus Alexander S",
+            "Wittkowsky Ann"
+          ],
+          "pub_date": "2012-Feb",
+          "doi": "10.1378/chest.11-2292",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Anticoagulants",
+            "Antithrombins",
+            "Benzimidazoles",
+            "Dabigatran",
+            "Dose-Response Relationship, Drug",
+            "Evidence-Based Medicine",
+            "Factor Xa",
+            "Factor Xa Inhibitors",
+            "Humans",
+            "Morpholines",
+            "Practice Guidelines as Topic",
+            "Pyridines",
+            "Rivaroxaban",
+            "Societies, Medical",
+            "Thiophenes",
+            "Thrombosis",
+            "United States",
+            "Vitamin K"
+          ]
+        }
+      },
+      {
+        "id": "PMID:33351120",
+        "text": "Safety and efficacy of rivaroxaban in pediatric cerebral venous thrombosis (EINSTEIN-Jr CVT).\n\nAnticoagulant treatment of pediatric cerebral venous thrombosis has not been evaluated in randomized trials. We evaluated the safety and efficacy of rivaroxaban and standard anticoagulants in the predefined subgroup of children with cerebral venous thrombosis (CVT) who participated in the EINSTEIN-Jr trial. Children with CVT were randomized (2:1), after initial heparinization, to treatment with rivaroxaban or standard anticoagulants (continued on heparin or switched to vitamin K antagonist). The main treatment period was 3 months. The primary efficacy outcome, symptomatic recurrent venous thromboembolism (VTE), and principal safety outcome, major or clinically relevant nonmajor bleeding,were centrally evaluated by blinded investigators. Sinus recanalization on repeat brain imaging was a secondary outcome. Statistical analyses were exploratory. In total, 114 children with confirmed CVT were randomized. All children completed the follow-up. None of the 73 rivaroxaban recipients and 1 (2.4%; CVT) of the 41 standard anticoagulant recipients had symptomatic, recurrent VTE after 3 months (absolute difference, 2.4%; 95% confidence interval [CI], -2.6% to 13.5%). Clinically relevant bleeding occurred in 5 (6.8%; all nonmajor and noncerebral) rivaroxaban recipients and in 1 (2.5%; major [subdural] bleeding) standard anticoagulant recipient (absolute difference, 4.4%; 95% CI, -6.7% to 13.4%). Complete or partial sinus recanalization occurred in 18 (25%) and 39 (53%) rivaroxaban recipients and in 6 (15%) and 24 (59%) standard anticoagulant recipients, respectively. In summary, in this substudy of a randomized trial with a limited sample size, children with CVT treated with rivaroxaban or standard anticoagulation had a low risk of recurrent VTE and clinically relevant bleeding. This trial was registered at clinicaltrials.gov as #NCT02234843.",
+        "title": "Safety and efficacy of rivaroxaban in pediatric cerebral venous thrombosis (EINSTEIN-Jr CVT).",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "33351120",
+          "journal": "Blood advances",
+          "authors": [
+            "Connor Philip",
+            "Sánchez van Kammen Mayte",
+            "Lensing Anthonie W A"
+          ],
+          "pub_date": "2020-Dec-22",
+          "doi": "10.1182/bloodadvances.2020003244",
+          "mesh_terms": [
+            "Anticoagulants",
+            "Child",
+            "Hemorrhage",
+            "Humans",
+            "Rivaroxaban",
+            "Venous Thromboembolism",
+            "Venous Thrombosis"
+          ]
+        }
+      }
+    ]
+  }
+}

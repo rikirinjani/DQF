@@ -1,0 +1,163 @@
+{
+  "query": {
+    "query": "anticoagulant reversal agent antidote andexanet idarucizumab",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:39133476",
+        "text": "Perioperative Management of Patients Taking Direct Oral Anticoagulants: A Review.\n\nDirect oral anticoagulants (DOACs), comprising apixaban, rivaroxaban, edoxaban, and dabigatran, are commonly used medications to treat patients with atrial fibrillation and venous thromboembolism. Decisions about how to manage DOACs in patients undergoing a surgical or nonsurgical procedure are important to decrease the risks of bleeding and thromboembolism.\nFor elective surgical or nonsurgical procedures, a standardized approach to perioperative DOAC management involves classifying the risk of procedure-related bleeding as minimal (eg, minor dental or skin procedures), low to moderate (eg, cholecystectomy, inguinal hernia repair), or high risk (eg, major cancer or joint replacement procedures). For patients undergoing minimal bleeding risk procedures, DOACs may be continued, or if there is concern about excessive bleeding, DOACs may be discontinued on the day of the procedure. Patients undergoing a low to moderate bleeding risk procedure should typically discontinue DOACs 1 day before the operation and restart DOACs 1 day after. Patients undergoing a high bleeding risk procedure should stop DOACs 2 days prior to the operation and restart DOACs 2 days after. With this perioperative DOAC management strategy, rates of thromboembolism (0.2%-0.4%) and major bleeding (1%-2%) are low and delays or cancellations of surgical and nonsurgical procedures are infrequent. Patients taking DOACs who need emergent (<6 hours after presentation) or urgent surgical procedures (6-24 hours after presentation) experience bleeding rates up to 23% and thromboembolism as high as 11%. Laboratory testing to measure preoperative DOAC levels may be useful to determine whether patients should receive a DOAC reversal agent (eg, prothrombin complex concentrates, idarucizumab, or andexanet-α) prior to an emergent or urgent procedure.\nWhen patients who are taking a DOAC require an elective surgical or nonsurgical procedure, standardized management protocols can be applied that do not require testing DOAC levels or heparin bridging. When patients taking a DOAC require an emergent, urgent, or semiurgent surgical procedure, anticoagulant reversal agents may be appropriate when DOAC levels are elevated or not available.",
+        "title": "Perioperative Management of Patients Taking Direct Oral Anticoagulants: A Review.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "39133476",
+          "journal": "JAMA",
+          "authors": [
+            "Douketis James D",
+            "Spyropoulos Alex C"
+          ],
+          "pub_date": "2024-Sep-10",
+          "doi": "10.1001/jama.2024.12708",
+          "mesh_terms": [
+            "Humans",
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Perioperative Care",
+            "Pyridines",
+            "Rivaroxaban",
+            "Venous Thromboembolism",
+            "Dabigatran",
+            "Thiazoles",
+            "Blood Loss, Surgical",
+            "Postoperative Hemorrhage",
+            "Elective Surgical Procedures",
+            "Anticoagulation Reversal"
+          ]
+        }
+      },
+      {
+        "id": "PMID:42269153",
+        "text": "Antidotes for Anticoagulation Reversal.\n\nThe global rise in anticoagulant use has increased the number of major bleeding events that warrant timely and effective pharmacologic reversal. Reversal strategies should be informed by the pharmacodynamic and pharmacokinetic features of the anticoagulant and antidote, regulatory indications, quality of evidence, patient-specific factors, and availability of treatment options. Protamine sulfate neutralizes unfractionated heparin, whereas no specific antidotes exist for low-molecular-weight heparins or fondaparinux. Four-factor prothrombin complex concentrates effectively reverse vitamin K antagonists. Idarucizumab specifically reverses dabigatran, although delayed dabigatran rebound can occur. Andexanet alfa targets direct oral factor Xa inhibitors, but uncertainties regarding the efficacy-safety balance, monitoring, rebound, perioperative use, and cost have prompted off-label use of four-factor prothrombin complex concentrates, for which stronger evidence is needed. Key challenges remain, including determination of appropriate dosing, standardization and validation of laboratory monitoring, mitigation of thrombotic risk, and development of guidelines for perioperative treatment. Emerging agents aim to broaden targets and improve safety. Building high-quality evidence remains essential to advancing global, patient-centered anticoagulant and hemostatic care.",
+        "title": "Antidotes for Anticoagulation Reversal.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "42269153",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Rocca Bianca",
+            "Ten Cate Hugo"
+          ],
+          "pub_date": "2026-Jun-11",
+          "doi": "10.1056/NEJMra2506021",
+          "mesh_terms": [
+            "Humans",
+            "Antibodies, Monoclonal, Humanized",
+            "Anticoagulants",
+            "Anticoagulation Reversal",
+            "Antidotes",
+            "Blood Coagulation Factors",
+            "Factor Xa",
+            "Hemorrhage",
+            "Protamines",
+            "Recombinant Proteins",
+            "Factor Xa Inhibitors",
+            "Heparin",
+            "Heparin Antagonists",
+            "Heparin, Low-Molecular-Weight",
+            "Vitamin K",
+            "Off-Label Use",
+            "Thrombosis"
+          ]
+        }
+      },
+      {
+        "id": "PMID:30916798",
+        "text": "Reversal of direct oral anticoagulants: Guidance from the Anticoagulation Forum.\n\nTwo specific reversal agents for direct oral anticoagulants (DOACs) have been approved in the United States: idarucizumab for dabigatran reversal and andexanet alfa for apixaban and rivaroxaban reversal. Non-specific prohemostatic agents such as prothrombin complex concentrate (PCC) and activated PCC have also been used for DOAC reversal. The goal of this document is to provide comprehensive guidance from the Anticoagulation Forum, a North American organization of anticoagulation providers, regarding use of DOAC reversal agents. We discuss indications for reversal, provide guidance on how the individual reversal agents should be administered, and offer suggestions for stewardship at the health system level.",
+        "title": "Reversal of direct oral anticoagulants: Guidance from the Anticoagulation Forum.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30916798",
+          "journal": "American journal of hematology",
+          "authors": [
+            "Cuker Adam",
+            "Burnett Allison",
+            "Triller Darren"
+          ],
+          "pub_date": "2019-Jun",
+          "doi": "10.1002/ajh.25475",
+          "mesh_terms": [
+            "Antibodies, Monoclonal, Humanized",
+            "Anticoagulants",
+            "Factor Xa",
+            "Humans",
+            "Practice Guidelines as Topic",
+            "Recombinant Proteins"
+          ]
+        }
+      },
+      {
+        "id": "PMID:40448969",
+        "text": "2025 Guidelines for direct oral anticoagulants: a practical guidance on the prescription, laboratory testing, peri-operative and bleeding management.\n\nDirect oral anticoagulants (DOACs) are widely prescribed to prevent and treat venous and arterial thromboembolism, supported by published evidence, and are preferred over warfarin in many guidelines. Although the risk of major bleeding, in particular intracranial haemorrhage (ICH), is decreased with DOACs, gastrointestinal bleeding is increased with some DOACs, and the case fatality rate of bleeding remains high. Therefore, it is important to (i) prescribe DOACs appropriately, (ii) have strategies to manage major bleeding including the use of specific reversal agents and (iii) interrupt and resume DOACs for procedures. The main recommendations are as follows: (i) Select the appropriate dose of DOAC according to indications and consider patient factors to minimise bleeding risks; (ii) DOACs do not require routine laboratory testing; (iii) for life-threatening uncontrollable bleeding, specific agents can be used to reverse the anticoagulant effects of DOACs; and (iv) DOACs can be interrupted for planned procedures without the need for 'bridging' with low-molecular-weight heparin (LMWH). The anticoagulant effects of DOACs can be reversed with specific agents, such as andexanet for apixaban and rivaroxaban and idarucizumab for dabigatran. If not available, pro-haemostatic agents such as prothrombin complex concentrates or activated prothrombin complex concentrates can be considered. DOACs can be interrupted and resumed for procedures without the need for 'bridging' with LMWH.",
+        "title": "2025 Guidelines for direct oral anticoagulants: a practical guidance on the prescription, laboratory testing, peri-operative and bleeding management.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "40448969",
+          "journal": "Internal medicine journal",
+          "authors": [
+            "Tran Huyen A",
+            "Merriman Eileen",
+            "Baker Ross"
+          ],
+          "pub_date": "2025-Jul",
+          "doi": "10.1111/imj.70103",
+          "mesh_terms": [
+            "Humans",
+            "Administration, Oral",
+            "Anticoagulants",
+            "Gastrointestinal Hemorrhage",
+            "Hemorrhage",
+            "Perioperative Care",
+            "Thromboembolism"
+          ]
+        }
+      },
+      {
+        "id": "PMID:39029742",
+        "text": "Reversal of direct oral anticoagulants: guidance from the SSC of the ISTH.\n\nThe currently approved direct oral anticoagulants (DOACs) are increasingly used in clinical practice. Although serious bleeding risks are lower with DOACs than with vitamin K antagonists, bleeding remains the most frequent side effect. Andexanet alfa and idarucizumab are the currently approved specific reversal agents for oral factor (F)Xa inhibitors and dabigatran, respectively. Our prior guidance document was published in 2016, but with more information available on the utility and increased use of these reversal agents and other bleeding management strategies, we have updated this International Society on Thrombosis and Haemostasis guidance document on DOAC reversal. In this narrative review, we compare the mechanism of action of specific and nonspecific reversal agents, review the clinical data supporting their use, and provide guidance on when reversal is indicated. In addition, we briefly discuss the reversal of oral FXIa inhibitors, a new class of DOACs currently under clinical development.",
+        "title": "Reversal of direct oral anticoagulants: guidance from the SSC of the ISTH.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "39029742",
+          "journal": "Journal of thrombosis and haemostasis : JTH",
+          "authors": [
+            "Levy Jerrold H",
+            "Shaw Joseph R",
+            "Castellucci Lana A"
+          ],
+          "pub_date": "2024-Oct",
+          "doi": "10.1016/j.jtha.2024.07.009",
+          "mesh_terms": [
+            "Humans",
+            "Administration, Oral",
+            "Hemorrhage",
+            "Factor Xa Inhibitors",
+            "Blood Coagulation",
+            "Antibodies, Monoclonal, Humanized",
+            "Recombinant Proteins",
+            "Anticoagulants",
+            "Dabigatran",
+            "Factor Xa",
+            "Risk Factors",
+            "Treatment Outcome",
+            "Arginine",
+            "Piperazines"
+          ]
+        }
+      }
+    ]
+  }
+}

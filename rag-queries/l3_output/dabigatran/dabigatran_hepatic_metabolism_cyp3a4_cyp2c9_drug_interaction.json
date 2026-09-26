@@ -1,0 +1,178 @@
+{
+  "query": {
+    "query": "Dabigatran hepatic metabolism CYP3A4 CYP2C9 drug interaction",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:35622425",
+        "text": "Drug Interactions Affecting Oral Anticoagulant Use.\n\nOral anticoagulants (OACs) are medications commonly used in patients with atrial fibrillation and other cardiovascular conditions. Both warfarin and direct oral anticoagulants are susceptible to drug-drug interactions (DDIs). DDIs are an important cause of adverse drug reactions and exact a large toll on the health care system. DDI for warfarin mainly involve moderate to strong inhibitors/inducers of cytochrome P450 (CYP) 2C9, which is responsible for the elimination of the more potent S-isomer of warfarin. However, inhibitor/inducers of CYP3A4 and CYP1A2 may also cause DDI with warfarin. Recognition of these precipitating agents along with increased frequency of monitoring when these agents are initiated or discontinued will minimize the impact of warfarin DDI. Direct oral anticoagulants are mainly affected by medications strongly affecting the permeability glycoprotein (P-gp), and to a lesser extent, strong CYP3A4 inhibitors/inducers. Dabigatran and edoxaban are affected by P-gp modulation. Strong inducers of CYP3A4 or P-gp should be avoided in all patients taking direct oral anticoagulant unless previously proven to be otherwise safe. Simultaneous strong CYP3A4 and P-gp inhibitors should be avoided in patients taking apixaban and rivaroxaban. Concomitant antiplatelet/anticoagulant use confers additive risk for bleeding, but their combination is unavoidable in many cases. Minimizing duration of concomitant anticoagulant/antiplatelet therapy as indicated by evidence-based clinical guidelines is the best way to reduce the risk of bleeding.",
+        "title": "Drug Interactions Affecting Oral Anticoagulant Use.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "35622425",
+          "journal": "Circulation. Arrhythmia and electrophysiology",
+          "authors": [
+            "Mar Philip L",
+            "Gopinathannair Rakesh",
+            "Gengler Brooke E"
+          ],
+          "pub_date": "2022-Jun",
+          "doi": "10.1161/CIRCEP.121.007956",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Cytochrome P-450 CYP3A",
+            "Dabigatran",
+            "Drug Interactions",
+            "Hemorrhage",
+            "Humans",
+            "Pyridones",
+            "Rivaroxaban",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:28083625",
+        "text": "[Monitoring of NOAC].\n\nMonitoring non-vitamin K antagonist oral anticoagulants (NOAC) is usually not necessary; however, in some patients it may prove beneficial.\nPatient subgroups who may profit from monitoring were identified, and methods of monitoring (including assessment of which coagulation parameters are affected by NOAC) are described.\nWe searched the PubMed database for each of the search terms, \"NOAC\", \"DOAC\", \"rivaroxaban\", \"dabigatran\", and \"apixaban\", in combination with one of the terms, \"monitoring\", \"measurement\", \"measuring\", or \"assessment\". The results were compiled and reviewed.\nMonitoring is most advantageous in emergency cases with severe bleeding where drug activity needs to be assessed. It can also help in deciding for or against lysis therapy after acute stroke in patients taking NOAC. Furthermore, it can also identify compliance problems and help in planning periprocedural management. There are quantitative measurement methods which measure plasma concentrations exactly and qualitative methods which only allow for a rough estimate or a general confirmation of drug activity. Recommended quantitative measurement methods are diluted thrombin time for dabigatran, and anti-factor Xa activity (calibrated) for rivaroxaban and apixaban.\nSeveral patient subgroups may profit from monitoring of NOAC plasma concentration. One should, however, take several issues into consideration before measurements, such as the objective of each individual measurement, possible consequences (e. g., dose adjustment), and which measurement method to pick.",
+        "title": "[Monitoring of NOAC].",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "28083625",
+          "journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+          "authors": [
+            "Zotz R B",
+            "Weißbach L"
+          ],
+          "pub_date": "2017-Mar",
+          "doi": "10.1007/s00063-016-0249-6",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Antibodies, Monoclonal, Humanized",
+            "Anticoagulants",
+            "Blood Coagulation Tests",
+            "Dabigatran",
+            "Dose-Response Relationship, Drug",
+            "Drug Monitoring",
+            "Emergency Service, Hospital",
+            "Hemorrhage",
+            "Humans",
+            "Intensive Care Units",
+            "Pyrazoles",
+            "Pyridones",
+            "Rivaroxaban",
+            "Stroke",
+            "Thromboembolism",
+            "Vitamin K"
+          ]
+        }
+      },
+      {
+        "id": "PMID:18681492",
+        "text": "Dabigatran etexilate.\n\nDabigatran etexilate is an orally administered prodrug of dabigatran, which is a potent, concentration-dependent inhibitor of thrombus formation and thrombin-induced platelet aggregation. Dabigatran etexilate pharmacokinetics were linear across a wide dosage range. There were no clinically important pharmacokinetic interactions with digoxin (a P-glycoprotein substrate), pantoprazole (a proton-pump inhibitor) or drugs that are substrates and/or inhibitors of hepatic cytochrome P450 enzymes. In two large, randomized, double-blind trials of the prevention of venous thromboembolism (VTE) in patients undergoing total hip or total knee replacement surgery, orally administered dabigatran etexilate 220 mg/day was noninferior to subcutaneous enoxaparin sodium 40 mg/day for the primary composite endpoint of total VTE events or all-cause mortality during the treatment period. There were no significant differences between dabigatran etexilate and enoxaparin sodium in major VTE events and VTE-related mortality. Across trials, < or =0.5% of patients experienced a symptomatic pulmonary embolus or died. Dabigatran etexilate was generally well tolerated. In patients undergoing total hip or total knee replacement surgery, there was no significant difference between dabigatran etexilate and enoxaparin sodium recipients in the incidence of major or minor bleeding.",
+        "title": "Dabigatran etexilate.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "18681492",
+          "journal": "Drugs",
+          "authors": [
+            "Sanford Mark",
+            "Plosker Greg L"
+          ],
+          "pub_date": "2008",
+          "doi": "10.2165/00003495-200868120-00007",
+          "mesh_terms": [
+            "Anemia",
+            "Anticoagulants",
+            "Area Under Curve",
+            "Benzimidazoles",
+            "Dabigatran",
+            "Half-Life",
+            "Hemorrhage",
+            "Humans",
+            "Molecular Structure",
+            "Platelet Aggregation",
+            "Prodrugs",
+            "Pyridines",
+            "Randomized Controlled Trials as Topic",
+            "Suppuration",
+            "Surgical Wound Infection",
+            "Thromboembolism",
+            "Thrombosis",
+            "Treatment Outcome"
+          ]
+        }
+      },
+      {
+        "id": "PMID:28052946",
+        "text": "Dabigatran-related leukocytoclastic vasculitis.\n\nDabigatran is a non-vitamin K antagonist oral anticoagulant that has been approved for atrial fibrillation and prevention of venous thromboembolism. Its use has been increasing in the USA since serum drug levels do not need monitoring. To date, no significant skin side effects have been reported other than 4 cases of non-specific skin lesion and 2 cases of leukocytoclastic vasculitis (LCV), which is a small vessel inflammatory disease that presents as palpable purpura in lower extremities. We present a man aged 57 years with chronic deep vein thrombosis who developed palpable purpura, petechiae, swelling in lower extremities, torso and distal upper extremities on the third day after dabigatran initiation. The present case highlights the potential risk for LCV with dabigatran use and provides insight into its management.",
+        "title": "Dabigatran-related leukocytoclastic vasculitis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "28052946",
+          "journal": "BMJ case reports",
+          "authors": [
+            "An Josiah",
+            "Garje Rohan",
+            "Wanat Karolyn A"
+          ],
+          "pub_date": "2017-Jan-04",
+          "doi": "10.1136/bcr-2016-217423",
+          "mesh_terms": [
+            "Antithrombins",
+            "Dabigatran",
+            "Diagnosis, Differential",
+            "Humans",
+            "Male",
+            "Middle Aged",
+            "Vasculitis, Leukocytoclastic, Cutaneous",
+            "Venous Thrombosis"
+          ]
+        }
+      },
+      {
+        "id": "PMID:31571146",
+        "text": "Drug-Drug Interaction Potential of Darolutamide: In Vitro and Clinical Studies.\n\nDarolutamide is a novel androgen receptor (AR) antagonist approved for the treatment of nonmetastatic castration-resistant prostate cancer (nmCRPC). Accordingly, the drug-drug interaction (DDI) potential of darolutamide was investigated in both nonclinical and clinical studies.\nIn vitro studies were performed to determine the potential for darolutamide to be a substrate, inducer or inhibitor for cytochrome P450 (CYP) isoforms, other metabolizing enzymes and drug transporters. A phase I drug-interaction study in healthy volunteers evaluated the impact of co-administering rifampicin [CYP3A4 and P-glycoprotein (P-gp) inducer] and itraconazole [CYP3A4, P-gp and breast cancer resistance protein (BCRP) inhibitor] on the pharmacokinetics of darolutamide. Two further phase I studies assessed the impact of co-administering oral darolutamide on the pharmacokinetics of midazolam (sensitive CYP3A4 substrate) and dabigatran etexilate (P-gp substrate) and the impact on the pharmacokinetics of co-administered rosuvastatin [a substrate for BCRP, organic anion-transporting polypeptide (OATP)1B1, OATP1B3 and organic anion transporter (OAT)3].\nIn vitro, darolutamide was predominantly metabolized via oxidative biotransformation catalyzed by CYP3A4 and was identified as a substrate for P-gp and BCRP. The enzymatic activity of nine CYP isoforms was not inhibited or slightly inhibited in vitro with darolutamide, and a rank order and mechanistic static assessment indicated that risk of clinically relevant DDIs via CYP inhibition is very low. In vitro, darolutamide exhibited no relevant induction of CYP1A2 or CYP2B6 activity. Inhibition of BCRP-, P-gp-, OAT3-, MATE1-, MATE2-K-, OATP1B1- and OATP1B3-mediated transport was observed in vitro. Phase I data showed that darolutamide exposure increased 1.75-fold with co-administered itraconazole and decreased by 72% with rifampicin. Co-administration of darolutamide with CYP3A4/P-gp substrates showed no effect or only minor effects. Rosuvastatin exposure increased 5.2-fold with darolutamide because of BCRP and probably also OATPB1/OATPB3 inhibition.\nDarolutamide has a low potential for clinically relevant DDIs with drugs that are substrates for CYP or P-gp; increased exposure of BCRP and probably OATP substrates was the main interaction of note.",
+        "title": "Drug-Drug Interaction Potential of Darolutamide: In Vitro and Clinical Studies.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "31571146",
+          "journal": "European journal of drug metabolism and pharmacokinetics",
+          "authors": [
+            "Zurth Christian",
+            "Koskinen Mikko",
+            "Fricke Robert"
+          ],
+          "pub_date": "2019-Dec",
+          "doi": "10.1007/s13318-019-00577-5",
+          "mesh_terms": [
+            "Aged",
+            "Cells, Cultured",
+            "Cytochrome P-450 CYP3A Inducers",
+            "Cytochrome P-450 CYP3A Inhibitors",
+            "Cytochrome P-450 Enzyme System",
+            "Dabigatran",
+            "Drug Interactions",
+            "Enzyme Induction",
+            "Female",
+            "Humans",
+            "Itraconazole",
+            "Male",
+            "Membrane Transport Proteins",
+            "Microsomes, Liver",
+            "Midazolam",
+            "Middle Aged",
+            "Pyrazoles",
+            "Rifampin",
+            "Rosuvastatin Calcium"
+          ]
+        }
+      }
+    ]
+  }
+}

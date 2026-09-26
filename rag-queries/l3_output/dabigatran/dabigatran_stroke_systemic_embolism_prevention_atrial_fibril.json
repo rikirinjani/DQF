@@ -1,0 +1,190 @@
+{
+  "query": {
+    "query": "Dabigatran stroke systemic embolism prevention atrial fibrillation",
+    "dimension": "class_mechanism",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:38035566",
+        "text": "Anticoagulation in Patients with Chronic Kidney Disease.\n\nBoth atrial fibrillation and venous thromboembolism (VTE) are highly prevalent among patients with chronic kidney disease (CKD). Until recently, warfarin was the most commonly prescribed oral anticoagulant. Direct oral anticoagulants (DOACs) have important advantages and have been shown to be noninferior to warfarin with respect to stroke prevention or recurrent VTE in the general population, with lower bleeding rates. This review article will provide available evidence on the use of DOACs in patients with CKD.\nIn post hoc analyses of major randomized studies with DOACs for stroke prevention in atrial fibrillation, in the subgroup of participants with moderate CKD, defined as a creatinine clearance (CrCl) of 30-50 mL/min, dabigatran 150 mg and apixaban were associated with lower rates of stroke and systemic embolism, whereas apixaban and edoxaban were associated with lower bleeding and mortality rates, compared with warfarin. In retrospective observational studies in patients with advanced CKD (defined as a CrCl &lt;30 mL/min) and atrial fibrillation, DOACs had similar efficacy with warfarin with numerically lower bleeding rates. All agents warrant dose adjustment in moderate-to-severe CKD. In patients on maintenance dialysis, the VALKYRIE trial, which was designed initially to study the effect of vitamin K on vascular calcification progression, established superiority for rivaroxaban compared with a vitamin K antagonist (VKA) in the extension phase. Two other clinical trials using apixaban (AXADIA and RENAL-AF) in this population were inconclusive due to recruitment challenges and low event rates. In post hoc analyses of randomized studies with DOACs in patients with VTE, in the subgroup of participants with moderate CKD at baseline, edoxaban was associated with lower rates of recurrent VTE, whereas rivaroxaban and dabigatran were associated with lower and higher bleeding rates, respectively, as compared to warfarin.\nDOACs have revolutionized the management of atrial fibrillation and VTE, and they should be preferred over warfarin in patients with moderate-to-severe CKD with appropriate dose adjustment. Therapeutic drug monitoring with a valid technique may be considered to guide clinical management in individualized cases. Current evidence questions the need for oral anticoagulation in patients on maintenance dialysis with atrial fibrillation as both DOACs and VKAs are associated with high rates of major bleeding.",
+        "title": "Anticoagulation in Patients with Chronic Kidney Disease.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "38035566",
+          "journal": "American journal of nephrology",
+          "authors": [
+            "Elenjickal Elias John",
+            "Travlos Christoforos K",
+            "Marques Pedro"
+          ],
+          "pub_date": "2024",
+          "doi": "10.1159/000535546",
+          "mesh_terms": [
+            "Humans",
+            "Warfarin",
+            "Rivaroxaban",
+            "Dabigatran",
+            "Atrial Fibrillation",
+            "Venous Thromboembolism",
+            "Retrospective Studies",
+            "Treatment Outcome",
+            "Anticoagulants",
+            "Hemorrhage",
+            "Stroke",
+            "Renal Insufficiency, Chronic",
+            "Vitamin K",
+            "Administration, Oral",
+            "Pyridines",
+            "Thiazoles"
+          ]
+        }
+      },
+      {
+        "id": "PMID:19717844",
+        "text": "Dabigatran versus warfarin in patients with atrial fibrillation.\n\nWarfarin reduces the risk of stroke in patients with atrial fibrillation but increases the risk of hemorrhage and is difficult to use. Dabigatran is a new oral direct thrombin inhibitor.\nIn this noninferiority trial, we randomly assigned 18,113 patients who had atrial fibrillation and a risk of stroke to receive, in a blinded fashion, fixed doses of dabigatran--110 mg or 150 mg twice daily--or, in an unblinded fashion, adjusted-dose warfarin. The median duration of the follow-up period was 2.0 years. The primary outcome was stroke or systemic embolism.\nRates of the primary outcome were 1.69% per year in the warfarin group, as compared with 1.53% per year in the group that received 110 mg of dabigatran (relative risk with dabigatran, 0.91; 95% confidence interval [CI], 0.74 to 1.11; P<0.001 for noninferiority) and 1.11% per year in the group that received 150 mg of dabigatran (relative risk, 0.66; 95% CI, 0.53 to 0.82; P<0.001 for superiority). The rate of major bleeding was 3.36% per year in the warfarin group, as compared with 2.71% per year in the group receiving 110 mg of dabigatran (P=0.003) and 3.11% per year in the group receiving 150 mg of dabigatran (P=0.31). The rate of hemorrhagic stroke was 0.38% per year in the warfarin group, as compared with 0.12% per year with 110 mg of dabigatran (P<0.001) and 0.10% per year with 150 mg of dabigatran (P<0.001). The mortality rate was 4.13% per year in the warfarin group, as compared with 3.75% per year with 110 mg of dabigatran (P=0.13) and 3.64% per year with 150 mg of dabigatran (P=0.051).\nIn patients with atrial fibrillation, dabigatran given at a dose of 110 mg was associated with rates of stroke and systemic embolism that were similar to those associated with warfarin, as well as lower rates of major hemorrhage. Dabigatran administered at a dose of 150 mg, as compared with warfarin, was associated with lower rates of stroke and systemic embolism but similar rates of major hemorrhage. (ClinicalTrials.gov number, NCT00262600.)",
+        "title": "Dabigatran versus warfarin in patients with atrial fibrillation.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "19717844",
+          "journal": "The New England journal of medicine",
+          "authors": [
+            "Connolly Stuart J",
+            "Ezekowitz Michael D",
+            "Yusuf Salim"
+          ],
+          "pub_date": "2009-Sep-17",
+          "doi": "10.1056/NEJMoa0905561",
+          "mesh_terms": [
+            "Aged",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Benzimidazoles",
+            "Chi-Square Distribution",
+            "Dabigatran",
+            "Double-Blind Method",
+            "Dyspepsia",
+            "Embolism",
+            "Female",
+            "Follow-Up Studies",
+            "Hemorrhage",
+            "Humans",
+            "Liver",
+            "Male",
+            "Middle Aged",
+            "Myocardial Infarction",
+            "Prodrugs",
+            "Proportional Hazards Models",
+            "Pyridines",
+            "Stroke",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:30571400",
+        "text": "Effectiveness and Safety of Oral Anticoagulants Among Nonvalvular Atrial Fibrillation Patients.\n\nBackground and Purpose- This ARISTOPHANES study (Anticoagulants for Reduction in Stroke: Observational Pooled Analysis on Health Outcomes and Experience of Patients) used multiple data sources to compare stroke/systemic embolism (SE) and major bleeding (MB) among a large number of nonvalvular atrial fibrillation patients on non-vitamin K antagonist oral anticoagulants (NOACs) or warfarin. Methods- A retrospective observational study of nonvalvular atrial fibrillation patients initiating apixaban, dabigatran, rivaroxaban, or warfarin from January 1, 2013, to September 30, 2015, was conducted pooling Centers for Medicare and Medicaid Services Medicare data and 4 US commercial claims databases. After 1:1 NOAC-warfarin and NOAC-NOAC propensity score matching in each database, the resulting patient records were pooled. Cox models were used to evaluate the risk of stroke/SE and MB across matched cohorts. Results- A total of 285 292 patients were included in the 6 matched cohorts: 57 929 apixaban-warfarin, 26 838 dabigatran-warfarin, 83 007 rivaroxaban-warfarin, 27 096 apixaban-dabigatran, 62 619 apixaban-rivaroxaban, and 27 538 dabigatran-rivaroxaban patient pairs. Apixaban (hazard ratio [HR], 0.61; 95% CI, 0.54-0.69), dabigatran (HR, 0.80; 95% CI, 0.68-0.94), and rivaroxaban (HR, 0.75; 95% CI, 0.69-0.82) were associated with lower rates of stroke/SE compared with warfarin. Apixaban (HR, 0.58; 95% CI, 0.54-0.62) and dabigatran (HR, 0.73; 95% CI, 0.66-0.81) had lower rates of MB, and rivaroxaban (HR, 1.07; 95% CI, 1.02-1.13) had a higher rate of MB compared with warfarin. Differences exist in rates of stroke/SE and MB across NOACs. Conclusions- In this largest observational study to date on NOACs and warfarin, the NOACs had lower rates of stroke/SE and variable comparative rates of MB versus warfarin. The findings from this study may help inform the discussion on benefit and risk in the shared decision-making process for stroke prevention between healthcare providers and nonvalvular atrial fibrillation patients. Clinical Trial Registration- URL: https://www.clinicaltrials.gov/ . Unique identifier: NCT03087487.",
+        "title": "Effectiveness and Safety of Oral Anticoagulants Among Nonvalvular Atrial Fibrillation Patients.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "30571400",
+          "journal": "Stroke",
+          "authors": [
+            "Lip Gregory Y H",
+            "Keshishian Allison",
+            "Li Xiaoyan"
+          ],
+          "pub_date": "2018-Dec",
+          "doi": "10.1161/STROKEAHA.118.020232",
+          "mesh_terms": [
+            "Aged",
+            "Aged, 80 and over",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Dabigatran",
+            "Female",
+            "Humans",
+            "Intracranial Hemorrhages",
+            "Male",
+            "Middle Aged",
+            "Proportional Hazards Models",
+            "Pyrazoles",
+            "Pyridones",
+            "Retrospective Studies",
+            "Rivaroxaban",
+            "Stroke",
+            "Treatment Outcome",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35993487",
+        "text": "Risk of stroke/systemic embolism, major bleeding, and associated costs in non-valvular atrial fibrillation patients who initiated apixaban, dabigatran, or rivaroxaban compared with warfarin in the United States medicare population: updated analysis.\n\nTo provide an updated comparison of the risk and cost of stroke/systemic embolism (SE) and major bleeding between direct oral anticoagulants (DOAC: apixaban, rivaroxaban, dabigatran) and warfarin among non-valvular atrial fibrillation (NVAF) patients.\nAdults (≥65 years) initiating warfarin or DOACs between 1 January 2013 and 31 December 2014 were selected from the Medicare database and propensity scores matched 1:1 to balance baseline characteristics. Cox proportional hazards models were used to estimate the risks of stroke/SE and major bleeding of each DOAC vs. warfarin. Two-part models were used to compare the stroke/SE- and major bleeding-related medical costs in each matched cohort.\nOf the 264,479 eligible patients, 38,740 apixaban-warfarin pairs, 76,677 rivaroxaban-warfarin pairs, and 20,955 dabigatran-warfarin pairs were matched. Apixaban (Hazard Ratio [HR] = 0.46; 95% Confidence Interval [CI] 0.38-0.56) and rivaroxaban (HR = 0.71; 95% CI 0.63-0.80) were associated with a significantly lower risk of stroke/SE compared to warfarin. Apixaban (HR = 0.57; 95% CI 0.51-0.63) and dabigatran (HR = 0.80; 95% CI 0.70-0.90) were associated with a significantly lower risk of major bleeding; rivaroxaban (HR = 1.14; 95% CI 1.07-1.21) was associated with a significantly higher risk of major bleeding compared to warfarin. Compared to warfarin, apixaban and rivaroxaban had significantly lower stroke/SE-related medical costs; and apixaban and dabigatran had significantly lower major bleeding-related medical costs.\nThis real-world analysis showed DOACs to be associated with a lower risk of stroke/SE and major bleeding, and lower medical costs compared to warfarin. Among them, only apixaban appears to be associated with a significantly lower risk of all three outcomes collectively: stroke/SE, major bleeding, and lower related medical costs compared to warfarin.",
+        "title": "Risk of stroke/systemic embolism, major bleeding, and associated costs in non-valvular atrial fibrillation patients who initiated apixaban, dabigatran, or rivaroxaban compared with warfarin in the United States medicare population: updated analysis.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35993487",
+          "journal": "Current medical research and opinion",
+          "authors": [
+            "Amin Alpesh",
+            "Keshishian Allison",
+            "Hines Dionne M"
+          ],
+          "pub_date": "2022-Dec",
+          "doi": "10.1080/03007995.2022.2115772",
+          "mesh_terms": [
+            "Aged",
+            "Humans",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Dabigatran",
+            "Embolism",
+            "Hemorrhage",
+            "Medicare",
+            "Pyridones",
+            "Rivaroxaban",
+            "Stroke",
+            "United States",
+            "Warfarin",
+            "Pyrazoles"
+          ]
+        }
+      },
+      {
+        "id": "PMID:26392326",
+        "text": "Stroke prevention using dabigatran in elderly Chinese patients with atrial fibrillation.\n\nLittle is known about the clinical benefit of a non-vitamin K antagonist oral anticoagulant compared with warfarin in elderly Chinese patients with atrial fibrillation (AF).\nThe purpose of this study was to evaluate the clinical benefit of dabigatran in elderly (age ≥80 years) Chinese patients with nonvalvular AF with regard to the risk of ischemic stroke and intracranial hemorrhage (ICH).\nThis was an observational study.\nWe studied 571 Chinese patients (mean age 84.8 ± 4.0 years; 58.1% women) with nonvalvular AF. The primary outcome was hospital admission for ischemic stroke, and the secondary outcome was admission for ICH. The mean CHA2DS2-VASc (congestive heart failure [1 point], hypertension [1 point], age 65-74 years [1 point] and age ≥75 years [2 points], diabetes mellitus [1 point], prior stroke or transient ischemic attack [2 points], vascular disease [1 point], sex category [female] [1 point]) and HAS-BLED (hypertension [1 point], abnormal renal/liver function [1 point], stroke [1 point], bleeding history [1 point] or predisposition [1 point], labile international normalized ratio [1 point], elderly [age >65 years] [1 point], drugs/alcohol concomitantly [1 point]) scores were 4.8 ± 1.6 and 2.4 ± 0.8, respectively. Of 571 patients, 129 (22.6%) were taking dabigatran 110 mg twice daily and the remaining were on warfarin. After a mean follow-up of 2.6 years (a total of 1471 patient-years), ischemic stroke occurred in 83 patients on warfarin (6.9% per year) compared with 4 patients on dabigatran (1.4% per year) (hazard ratio 0.22; 95% confidence interval 0.23-0.67). There were 8 incidences of ICH: 7 in patients on warfarin (0.59% per year) and 1 patient on dabigatran (0.35% per year). Dabigatran was associated with a substantially lower ischemic stroke risk (1.4% per year vs 5.4% per year) and similar ICH risk (0.35% per year vs 0.36% per year) as compared with warfarin with time in therapeutic range (TTR) ≥55%.\nIn elderly Chinese patients with AF, this study suggested that dabigatran achieved superior stroke risk reduction and similar risk of ICH compared with warfarin with TTR ≥55%. Dabigatran may be preferable to warfarin in elderly patients with AF for stroke prevention, particularly in those with poor TTR.",
+        "title": "Stroke prevention using dabigatran in elderly Chinese patients with atrial fibrillation.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "26392326",
+          "journal": "Heart rhythm",
+          "authors": [
+            "Chan Pak-Hei",
+            "Huang Duo",
+            "Hai Jo Jo"
+          ],
+          "pub_date": "2016-Feb",
+          "doi": "10.1016/j.hrthm.2015.09.015",
+          "mesh_terms": [
+            "Aged, 80 and over",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Brain Ischemia",
+            "China",
+            "Dabigatran",
+            "Female",
+            "Humans",
+            "Intracranial Hemorrhages",
+            "Male",
+            "Outcome Assessment, Health Care",
+            "Stroke",
+            "Warfarin"
+          ]
+        }
+      }
+    ]
+  }
+}

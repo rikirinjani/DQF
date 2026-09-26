@@ -1,0 +1,158 @@
+{
+  "query": {
+    "query": "Warfarin hepatic metabolism CYP3A4 CYP2C9 drug interaction",
+    "dimension": "tissue_kinetics",
+    "target": null
+  },
+  "source": "eutils",
+  "result": {
+    "results": [
+      {
+        "id": "PMID:36861431",
+        "text": "Drug-drug interactions with direct oral anticoagulants for the prevention of ischemic stroke and embolism in atrial fibrillation: a narrative review of adverse events.\n\nIn randomized trials, direct oral anticoagulants (DOAC) were non-inferior to the vitamin-K-antagonist (VKA) warfarin in preventing stroke/embolism in patients with atrial fibrillation (AF). DOAC are substrates for P-glycoprotein (P-gp), CYP3A4 and CYP2C9. The activity of these enzymes is modulated by several drugs which might induce pharmacokinetic drug-drug interactions (DDI). Drugs affecting platelet function have the potential for pharmacodynamic DDI of DOAC.\nThe literature was searched for: 'dabigatran,' 'rivaroxaban,' 'edoxaban,' or 'apixaban' and drugs affecting platelet function, CYP3A4-, CYP2C9- or P-gp-activity. Reports about bleeding and embolic events attributed to DDI with DOAC in AF-patients were found for 43 of 171 drugs with interacting potential (25%), most frequently with antiplatelet and nonsteroidal anti-inflammatory drugs. Whereas a co-medication of platelet-affecting drugs is invariably reported to increase the bleeding risk, the findings regarding P-gp-, CYP3A4- and CYP2C9- activity-affecting drugs are ambiguous.\nTests for plasma DOAC-levels and information about DDI of DOAC should be widely available and user-friendly. If advantages and disadvantages of DOAC and VKA can be investigated exhaustively, individualized anticoagulant therapy can be offered to patients, considering co-medication, comorbidities, genetic and geographic factors and the health care system.",
+        "title": "Drug-drug interactions with direct oral anticoagulants for the prevention of ischemic stroke and embolism in atrial fibrillation: a narrative review of adverse events.",
+        "rerank_score": 0.95,
+        "metadata": {
+          "pmid": "36861431",
+          "journal": "Expert review of clinical pharmacology",
+          "authors": [
+            "Stöllberger Claudia",
+            "Schneider Birke",
+            "Finsterer Josef"
+          ],
+          "pub_date": "2023-Apr",
+          "doi": "10.1080/17512433.2023.2187376",
+          "mesh_terms": [
+            "Humans",
+            "Atrial Fibrillation",
+            "Ischemic Stroke",
+            "Cytochrome P-450 CYP3A",
+            "Cytochrome P-450 CYP2C9",
+            "Anticoagulants",
+            "Stroke",
+            "Pyridones",
+            "Embolism",
+            "Drug Interactions",
+            "Administration, Oral"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35622425",
+        "text": "Drug Interactions Affecting Oral Anticoagulant Use.\n\nOral anticoagulants (OACs) are medications commonly used in patients with atrial fibrillation and other cardiovascular conditions. Both warfarin and direct oral anticoagulants are susceptible to drug-drug interactions (DDIs). DDIs are an important cause of adverse drug reactions and exact a large toll on the health care system. DDI for warfarin mainly involve moderate to strong inhibitors/inducers of cytochrome P450 (CYP) 2C9, which is responsible for the elimination of the more potent S-isomer of warfarin. However, inhibitor/inducers of CYP3A4 and CYP1A2 may also cause DDI with warfarin. Recognition of these precipitating agents along with increased frequency of monitoring when these agents are initiated or discontinued will minimize the impact of warfarin DDI. Direct oral anticoagulants are mainly affected by medications strongly affecting the permeability glycoprotein (P-gp), and to a lesser extent, strong CYP3A4 inhibitors/inducers. Dabigatran and edoxaban are affected by P-gp modulation. Strong inducers of CYP3A4 or P-gp should be avoided in all patients taking direct oral anticoagulant unless previously proven to be otherwise safe. Simultaneous strong CYP3A4 and P-gp inhibitors should be avoided in patients taking apixaban and rivaroxaban. Concomitant antiplatelet/anticoagulant use confers additive risk for bleeding, but their combination is unavoidable in many cases. Minimizing duration of concomitant anticoagulant/antiplatelet therapy as indicated by evidence-based clinical guidelines is the best way to reduce the risk of bleeding.",
+        "title": "Drug Interactions Affecting Oral Anticoagulant Use.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35622425",
+          "journal": "Circulation. Arrhythmia and electrophysiology",
+          "authors": [
+            "Mar Philip L",
+            "Gopinathannair Rakesh",
+            "Gengler Brooke E"
+          ],
+          "pub_date": "2022-Jun",
+          "doi": "10.1161/CIRCEP.121.007956",
+          "mesh_terms": [
+            "Administration, Oral",
+            "Anticoagulants",
+            "Atrial Fibrillation",
+            "Cytochrome P-450 CYP3A",
+            "Dabigatran",
+            "Drug Interactions",
+            "Hemorrhage",
+            "Humans",
+            "Pyridones",
+            "Rivaroxaban",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:16014372",
+        "text": "Capecitabine-warfarin interaction.\n\nTo report a case of concomitant warfarin therapy with consecutive cycles of capecitabine therapy, providing time of onset, magnitude, and assessment of the interaction.\nA 59-year-old man receiving chronic warfarin therapy for a mechanical mitral valve replacement was diagnosed with stage IV metastatic colon cancer. He was started on capecitabine/irinotecan after his cancer progressed with fluorouracil/leucovorin and the FOLFOX 6 regimen (oxaliplatin, leucovorin, and continuous fluorouracil infusion). He received 3 consecutive cycles of capecitabine/irinotecan with concomitant oral anticoagulation and, with each cycle, the warfarin dose was reduced. Over the course of these 3 cycles, the total weekly dose of warfarin was reduced by >85%.\nThe capecitabine-warfarin interaction is clinically significant, requiring a black box warning in the package insert. The mechanism of action for the interaction is not clear, but may be related to down-regulation of CYP2C9 by capecitabine or its metabolites or a pharmacodynamic interaction with warfarin. A common response to this interaction, as discussed in previously published case reports, is the discontinuation of warfarin, capecitabine, or both. In this case, the Naranjo probability scale indicates a highly probable drug interaction between warfarin and capecitabine.\nAs more patients require anticoagulation, and as chemotherapy agents such as capecitabine become available, the likelihood for these drug interactions increases. In our patient, close monitoring of therapy allowed successful use of warfarin and capecitabine.",
+        "title": "Capecitabine-warfarin interaction.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "16014372",
+          "journal": "The Annals of pharmacotherapy",
+          "authors": [
+            "Janney Laurel M",
+            "Waterbury Nancee V"
+          ],
+          "pub_date": "2005-Sep",
+          "doi": "10.1345/aph.1G153",
+          "mesh_terms": [
+            "Anticoagulants",
+            "Antimetabolites, Antineoplastic",
+            "Capecitabine",
+            "Colonic Neoplasms",
+            "Deoxycytidine",
+            "Drug Interactions",
+            "Fluorouracil",
+            "Heart Valve Prosthesis Implantation",
+            "Humans",
+            "International Normalized Ratio",
+            "Male",
+            "Middle Aged",
+            "Mitral Valve",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:31633199",
+        "text": "CYP2C9-mediated warfarin and milk thistle interaction.\n\nIn vitro studies suggest a CYP2C9-mediated interaction between milk thistle and warfarin, but there has been no in vivo case report on this interaction.\nA White Hispanic man in his 30s was well controlled on warfarin therapy for mitral valve replacement. His INR increased from 2.64 to 4.12, and he denied changes to his medications and diet but noted starting a 'liver cleanse' supplement which contained milk thistle (200 mg). After stopping the supplement his INR normalized, and he remains on the same warfarin dose.\nThis is the first in vivo report of an interaction between milk thistle and warfarin.",
+        "title": "CYP2C9-mediated warfarin and milk thistle interaction.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "31633199",
+          "journal": "Journal of clinical pharmacy and therapeutics",
+          "authors": [
+            "Lash David Benjamin",
+            "Ward Shereen"
+          ],
+          "pub_date": "2020-Apr",
+          "doi": "10.1111/jcpt.13064",
+          "mesh_terms": [
+            "Adult",
+            "Anticoagulants",
+            "Cytochrome P-450 CYP2C9",
+            "Dietary Supplements",
+            "Herb-Drug Interactions",
+            "Humans",
+            "International Normalized Ratio",
+            "Male",
+            "Silybum marianum",
+            "Plant Extracts",
+            "Warfarin"
+          ]
+        }
+      },
+      {
+        "id": "PMID:35921950",
+        "text": "Potential food-drug interaction risk of thymoquinone with warfarin.\n\nThymoquinone, predominant bioactive compound in Nigella sativa L. (N.sativa) oil, may inhibit the activity of cytochrome P450 2C9 (CYP2C9). However, it is not clear whether thymoquinone can affect the pharmacokinetic behavior of warfarin. Thus, we further to investigate the effect of thymoquinone on warfarin 7-hydroxylation activity and to quantitatively evaluate their food-drug interactions (FDIs) potential. Our data demonstrated that thymoquinone could inhibit warfarin 7-hydroxylase activity with IC50 value of 11.35 ± 0.25 μM. The kinetic analysis indicated that thymoquinone exhibited competitive inhibition on warfarin 7-hydroxylation with Ki value of 3.50 ± 0.44 μM. FDIs risk prediction suggested that coadministration of thymoquinone (>18 mg/day) or dietary supplements containing thymoquinone (N.sativa > 1 g/day or N. sativa oil >1 g/day) might influence pharmacokinetic behavior of warfarin. In conclusion, coadministration of thymoquinone or dietary supplements containing thymoquinone in warfarin-treated patients would likely trigger off unexpected potential drug interactions.",
+        "title": "Potential food-drug interaction risk of thymoquinone with warfarin.",
+        "rerank_score": 1.0,
+        "metadata": {
+          "pmid": "35921950",
+          "journal": "Chemico-biological interactions",
+          "authors": [
+            "Wang Zhen",
+            "Wang Zhe",
+            "Wang Xiaoyu"
+          ],
+          "pub_date": "2022-Sep-25",
+          "doi": "10.1016/j.cbi.2022.110070",
+          "mesh_terms": [
+            "Benzoquinones",
+            "Cytochrome P-450 CYP2C9",
+            "Food-Drug Interactions",
+            "Humans",
+            "Kinetics",
+            "Warfarin"
+          ]
+        }
+      }
+    ]
+  }
+}
