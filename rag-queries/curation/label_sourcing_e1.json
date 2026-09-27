@@ -1,0 +1,93 @@
+{
+ "generated": "2026-09-27T06:03:54",
+ "route": {
+  "dailymed": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/{setid}.xml",
+  "api_fda": "not used - openFDA spl_set_id search returned HTTP 404; api.fda.gov reachable but query form unsuitable"
+ },
+ "method": "quotes sliced verbatim from fetched SPL text; never retyped",
+ "cells": [
+  {
+   "cell": "rivaroxaban | gi_bleeding_risk",
+   "drug": "rivaroxaban",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "10db92f9-2300-4a80-836b-673e1ae91610",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/10db92f9-2300-4a80-836b-673e1ae91610.xml"
+   },
+   "status": "sourced",
+   "quote": "Gastrointestinal (GI) Gastrointestinal bleeding events included upper GI, lower GI, and rectal bleeding. 221 (2.0) 140 (1.2) 1.61 (1.30, 1.99) Fatal Bleeding Fatal bleeding is adjudicated death with the primary cause of death from bleeding. 27 (0.2) 55 (0.5) 0.50 (0.31, 0.79) ICH 24 (0.2) 42 (0.4) 0.58 (0.35, 0.96) Non-intracranial 3 (0.0) 13 (0.1) 0.23 (0.07, 0.82) Figure 1 shows the risk of major bleeding events across major subgroups. Note: The figure above presents effects in various subgroups all of which are baseline characteristics and all of which were pre-specified (diabetic status was not pre-specified in the subgroup but was a criterion for the CHADS2 score). The 95% confidence limits that are shown do not take into accoun",
+   "section": "6 Clinical Trials Experience",
+   "numbers_found": [
+    "1.61 (1.30, 1.99)",
+    "221 (2.0)",
+    "140 (1.2)"
+   ]
+  },
+  {
+   "cell": "enoxaparin | gi_bleeding_risk",
+   "drug": "enoxaparin",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "20635579-c92d-4f6c-a332-1096d51002f2",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/20635579-c92d-4f6c-a332-1096d51002f2.xml"
+   },
+   "status": "not_found",
+   "quote": "",
+   "section": "",
+   "numbers_found": [],
+   "note": "Full label searched: no GI-specific bleeding rate or GI-site event count exists. Only a precaution for patients with active ulcerative/angiodysplastic GI disease or recent GI ulceration - no quantified GI risk to score from."
+  },
+  {
+   "cell": "edoxaban | monitoring_burden",
+   "drug": "edoxaban",
+   "dimension": "monitoring_burden",
+   "label": {
+    "setid": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml"
+   },
+   "status": "sourced",
+   "quote": "Changes observed in PT, INR, and aPTT at the expected therapeutic dose, however, are small, subject to a high degree of variability and not useful in monitoring the anticoagulant effect of edoxaban. Following oral administration, peak pharmacodynamic effects are observed within 1-2 hours, which corr",
+   "section": "12 Pharmacodynamics",
+   "numbers_found": []
+  },
+  {
+   "cell": "rivaroxaban | monitoring_burden",
+   "drug": "rivaroxaban",
+   "dimension": "monitoring_burden",
+   "label": {
+    "setid": "10db92f9-2300-4a80-836b-673e1ae91610",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/10db92f9-2300-4a80-836b-673e1ae91610.xml"
+   },
+   "status": "sourced",
+   "quote": "Monitoring for the anticoagulation effect of rivaroxaban using a clotting test (PT, INR or aPTT) or anti-factor Xa (FXa) activity is not recommended. 5.3 Spinal/Epidural Anesthesia or Puncture When neuraxial anesthesia (",
+   "section": "5 Increased",
+   "numbers_found": []
+  },
+  {
+   "cell": "dabigatran | monitoring_burden",
+   "drug": "dabigatran",
+   "dimension": "monitoring_burden",
+   "label": {
+    "setid": "9ac0a64a-8666-45f7-9d4f-40fd894f7e6d",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9ac0a64a-8666-45f7-9d4f-40fd894f7e6d.xml"
+   },
+   "status": "sourced",
+   "quote": "INR is relatively insensitive to the exposure to dabigatran and cannot be interpreted the same way as used for warfarin monitoring. As in adults, there is a correlation between pla",
+   "section": "12 Pharmacodynamics",
+   "numbers_found": []
+  },
+  {
+   "cell": "enoxaparin | ddi_risk",
+   "drug": "enoxaparin",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "20635579-c92d-4f6c-a332-1096d51002f2",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/20635579-c92d-4f6c-a332-1096d51002f2.xml"
+   },
+   "status": "sourced",
+   "quote": "No pharmacokinetic interaction was observed between enoxaparin and thrombolytics when administered concomitantly. 13 NONCLINICAL TOXICOLOGY 13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility No",
+   "section": "12 Pharmacokinetics Absorption",
+   "numbers_found": []
+  }
+ ]
+}

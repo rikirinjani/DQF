@@ -1,9 +1,9 @@
 {
   "anticoagulation_efficacy": 3,
   "bleeding_risk": 3,
-  "renal_clearance_dependence": 2,
+  "renal_clearance_dependence": 3,
   "ddi_risk": 3,
-  "monitoring_burden": 1,
+  "monitoring_burden": 3,
   "reversal_availability": 3,
   "gi_bleeding_risk": 1,
   "_evidence": {
@@ -39,5 +39,5 @@
     "filtered_off_drug": 0,
     "relevance_gate": "pass"
   },
-  "_note": "Auto-extracted by L3 pipeline; adjudicated 2026-09-27 against Batch-6 triage + label sourcing (anticoagulant_rescore.json)."
+  "_note": "Auto-extracted by L3 pipeline. Review before merging into drugs.json."
 }

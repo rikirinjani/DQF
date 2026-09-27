@@ -150,6 +150,13 @@ def main():
     parser = argparse.ArgumentParser(description="Merge L3 profiles into drugs.json")
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing")
     parser.add_argument("--restore", action="store_true", help="Restore latest backup")
+    parser.add_argument("--only", metavar="ID[,ID...]",
+                        help="Limit the merge to these drug ids. Profiles for drugs "
+                             "outside this list are ignored -- use it whenever a merge "
+                             "must not touch the rest of drugs.json. Without it the "
+                             "merge is repo-wide and will overwrite values that were "
+                             "later adjudicated by hand (the profile files keep their "
+                             "original auto-score, so a re-merge reverts them).")
     args = parser.parse_args()
 
     if args.restore:
@@ -166,6 +173,15 @@ def main():
     if not profiles:
         print("  No L3 profiles found -- run extract_l3.py first")
         return
+
+    if args.only:
+        wanted = {i.strip() for i in args.only.split(",") if i.strip()}
+        unknown = wanted - set(profiles)
+        if unknown:
+            print(f"  ERROR: no profile for {sorted(unknown)}", file=sys.stderr)
+            sys.exit(1)
+        profiles = {k: v for k, v in profiles.items() if k in wanted}
+        print(f"  --only: limiting merge to {sorted(profiles)}")
 
     # Exclude metadata-only profiles (_summary.json data)
     if args.dry_run:
