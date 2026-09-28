@@ -1,0 +1,1190 @@
+{
+  "meta": {
+    "instrument": "V3 inter-rater reliability (pharmacist ranking vs DQF)",
+    "status": "INSTRUMENT READY - RESULTS PENDING: no rater data collected; all agreement numbers absent until real raters submit v3_rater_R*.json files. The dqf blocks below are DQF engine outputs computed per api/server.py - they are NOT rater results and contain no fabricated rankings.",
+    "generated_at": "2026-09-27T07:32:25+00:00",
+    "source": "api/server.py @ master + api/drugs.json (95 drugs / 10 classes)",
+    "dqf_ranking_method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use. || Where the endpoint raises, api/server.py scoring functions invoked directly on the scenario's candidate drugs, replicating the POST /api/query scoring loop (server.py L694-730): per-drug efficacy (_compute_efficacy, L85), safety (_compute_safety, L160), pk (_compute_pk, L280), mechanism (_compute_mechanism, L361); overall = WEIGHTS[prioritize] weighted sum (efficacy .40/.25/.20/.15; safety .20/.50/.20/.10; balanced .30/.30/.20/.20), rounded to 1 decimal; sorted descending (stable sort -> ties keep api/drugs.json order). 'ranking' = that order; 'ranks_midrank' = midrank (average position) for tied overall scores, used by v3_agreement.py.",
+    "fidelity_check": "endpoint path == direct path verified on 7/12 scenarios before use (identical ranking and overall scores); re-verified 2026-09-28 post-N1 (see reverification)",
+    "reverification": "2026-09-28: all 12 scenario rankings recomputed against post-N1 drugs.json (commit 767d1d9) via api/server.py scoring functions (METHOD_DIRECT replication, stable sort, midranks); 11/12 byte-identical; V3-S04 refreshed - meloxicam safety 1.5->3.0, overall 3.5->4.2, rank 6->5 (N1 changed meloxicam gi_risk 3->2)",
+    "data_integrity_findings": [
+      "lovastatin (Statin): l4_clinical.nnt_mace_5yr missing -> _compute_efficacy raises KeyError (server.py L115); the whole Statin class query crashes via /api/query because the class filter scores all class drugs before candidate filtering.",
+      "warfarin (Anticoagulant): l2_pk.renal_excretion_pct = null -> _compute_pk raises TypeError ('>' not supported between NoneType and int, server.py L292) on ANY query; warfarin unrankable by DQF until fixed. Excluded from scenario candidate sets."
+    ],
+    "excluded_from_candidates": {
+      "lovastatin": "unrankable - KeyError in _compute_efficacy (no l4 nnt_mace_5yr)",
+      "warfarin": "unrankable - TypeError in _compute_pk (l2_pk.renal_excretion_pct null); note: warfarin may still appear in vignette concomitant-meds narrative where the scenario is not about warfarin selection (e.g. V3-S02)"
+    },
+    "n_scenarios": 12,
+    "n_candidate_items": 57
+  },
+  "scenarios": [
+    {
+      "id": "V3-S01",
+      "class": "PPI",
+      "priority": "balanced",
+      "vignette": {
+        "age": 58,
+        "concomitant_meds": [
+          "aspirin 81 mg daily",
+          "clopidogrel 75 mg daily",
+          "metformin 1000 mg BID"
+        ],
+        "condition": "Endoscopy-confirmed erosive esophagitis (LA grade B); 8-week healing course planned. Drug-eluting stent 2 months ago; type 2 diabetes.",
+        "cv_risk": "moderate",
+        "gi_risk": "moderate",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Best balance of healing efficacy and interaction-minimising safety.",
+        "renal_function": "normal",
+        "sex": "F"
+      },
+      "candidates": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole"
+      ],
+      "query": {
+        "age": 58,
+        "renal_function": "normal",
+        "cv_risk": "moderate",
+        "gi_risk": "moderate",
+        "pain_type": "none",
+        "drug_class": "PPI",
+        "prioritize": "balanced",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "omeprazole": 7.0,
+          "esomeprazole": 7.6,
+          "pantoprazole": 7.7,
+          "lansoprazole": 7.2,
+          "rabeprazole": 7.7
+        },
+        "scores": {
+          "pantoprazole": {
+            "efficacy": 8.0,
+            "safety": 7.5,
+            "pk": 6.0,
+            "mechanism": 9
+          },
+          "rabeprazole": {
+            "efficacy": 8.0,
+            "safety": 8.5,
+            "pk": 5.0,
+            "mechanism": 9
+          },
+          "esomeprazole": {
+            "efficacy": 9.0,
+            "safety": 7.5,
+            "pk": 5.5,
+            "mechanism": 8
+          },
+          "lansoprazole": {
+            "efficacy": 8.0,
+            "safety": 7.0,
+            "pk": 5.5,
+            "mechanism": 8
+          },
+          "omeprazole": {
+            "efficacy": 8.0,
+            "safety": 7.5,
+            "pk": 3.5,
+            "mechanism": 8
+          }
+        },
+        "ranking": [
+          "pantoprazole",
+          "rabeprazole",
+          "esomeprazole",
+          "lansoprazole",
+          "omeprazole"
+        ],
+        "ranks_midrank": {
+          "pantoprazole": 1.5,
+          "rabeprazole": 1.5,
+          "esomeprazole": 3.0,
+          "lansoprazole": 4.0,
+          "omeprazole": 5.0
+        },
+        "ties": [
+          [
+            "pantoprazole",
+            "rabeprazole"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V3-S02",
+      "class": "PPI",
+      "priority": "safety",
+      "vignette": {
+        "age": 74,
+        "concomitant_meds": [
+          "warfarin (INR in range)",
+          "metformin 1000 mg BID",
+          "amlodipine 5 mg daily"
+        ],
+        "condition": "Symptomatic GERD requiring daily acid suppression. Stage 3b CKD (eGFR 38 mL/min/1.73 m2). Atrial fibrillation.",
+        "cv_risk": "moderate",
+        "gi_risk": "moderate",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Which PPI to use, prioritising safety in CKD with polypharmacy.",
+        "renal_function": "moderate",
+        "sex": "M"
+      },
+      "candidates": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "query": {
+        "age": 74,
+        "renal_function": "moderate",
+        "cv_risk": "moderate",
+        "gi_risk": "moderate",
+        "pain_type": "none",
+        "drug_class": "PPI",
+        "prioritize": "safety",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "omeprazole": 5.6,
+          "esomeprazole": 6.1,
+          "pantoprazole": 6.3,
+          "rabeprazole": 7.0
+        },
+        "scores": {
+          "rabeprazole": {
+            "efficacy": 8.0,
+            "safety": 7.5,
+            "pk": 4.0,
+            "mechanism": 9
+          },
+          "pantoprazole": {
+            "efficacy": 8.0,
+            "safety": 6.5,
+            "pk": 3.0,
+            "mechanism": 9
+          },
+          "esomeprazole": {
+            "efficacy": 9.0,
+            "safety": 6.5,
+            "pk": 1.5,
+            "mechanism": 8
+          },
+          "omeprazole": {
+            "efficacy": 8.0,
+            "safety": 6.5,
+            "pk": 0.0,
+            "mechanism": 8
+          }
+        },
+        "ranking": [
+          "rabeprazole",
+          "pantoprazole",
+          "esomeprazole",
+          "omeprazole"
+        ],
+        "ranks_midrank": {
+          "rabeprazole": 1.0,
+          "pantoprazole": 2.0,
+          "esomeprazole": 3.0,
+          "omeprazole": 4.0
+        },
+        "ties": []
+      }
+    },
+    {
+      "id": "V3-S03",
+      "class": "NSAID",
+      "priority": "balanced",
+      "vignette": {
+        "age": 55,
+        "concomitant_meds": [
+          "omeprazole 20 mg daily (ulcer prophylaxis)"
+        ],
+        "condition": "Painful inflammatory flare of knee osteoarthritis. Prior hospitalised peptic ulcer (moderate GI risk). No known CV disease.",
+        "cv_risk": "low",
+        "gi_risk": "moderate",
+        "hepatic_function": "normal",
+        "pain_type": "inflammatory",
+        "priority_note": "Rank NSAID-class options balancing analgesic efficacy against GI safety.",
+        "renal_function": "normal",
+        "sex": "F"
+      },
+      "candidates": [
+        "ibuprofen",
+        "naproxen",
+        "diclofenac",
+        "celecoxib",
+        "paracetamol"
+      ],
+      "query": {
+        "age": 55,
+        "renal_function": "normal",
+        "cv_risk": "low",
+        "gi_risk": "moderate",
+        "pain_type": "inflammatory",
+        "drug_class": "NSAID",
+        "prioritize": "balanced",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "ibuprofen": 6.9,
+          "naproxen": 5.3,
+          "diclofenac": 7.4,
+          "celecoxib": 7.5,
+          "paracetamol": 5.5
+        },
+        "scores": {
+          "celecoxib": {
+            "efficacy": 8.8,
+            "safety": 7.0,
+            "pk": 6.0,
+            "mechanism": 8
+          },
+          "diclofenac": {
+            "efficacy": 9.2,
+            "safety": 8.0,
+            "pk": 6.0,
+            "mechanism": 5
+          },
+          "ibuprofen": {
+            "efficacy": 8.8,
+            "safety": 7.0,
+            "pk": 6.0,
+            "mechanism": 5
+          },
+          "paracetamol": {
+            "efficacy": 3.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 3
+          },
+          "naproxen": {
+            "efficacy": 5.2,
+            "safety": 7.0,
+            "pk": 5.0,
+            "mechanism": 3
+          }
+        },
+        "ranking": [
+          "celecoxib",
+          "diclofenac",
+          "ibuprofen",
+          "paracetamol",
+          "naproxen"
+        ],
+        "ranks_midrank": {
+          "celecoxib": 1.0,
+          "diclofenac": 2.0,
+          "ibuprofen": 3.0,
+          "paracetamol": 4.0,
+          "naproxen": 5.0
+        },
+        "ties": []
+      }
+    },
+    {
+      "id": "V3-S04",
+      "class": "NSAID",
+      "priority": "safety",
+      "vignette": {
+        "age": 72,
+        "concomitant_meds": [
+          "aspirin 81 mg daily",
+          "lisinopril 10 mg daily",
+          "atorvastatin 40 mg nightly"
+        ],
+        "condition": "Day 2 after elective inguinal hernia repair, requesting analgesia. Established ischaemic heart disease; prior GI bleed; mild renal impairment (eGFR 55).",
+        "cv_risk": "high",
+        "gi_risk": "high",
+        "hepatic_function": "normal",
+        "pain_type": "acute",
+        "priority_note": "Rank analgesic options within the NSAID class, prioritising safety.",
+        "renal_function": "mild",
+        "sex": "M"
+      },
+      "candidates": [
+        "ibuprofen",
+        "naproxen",
+        "diclofenac",
+        "celecoxib",
+        "meloxicam",
+        "paracetamol"
+      ],
+      "query": {
+        "age": 72,
+        "renal_function": "mild",
+        "cv_risk": "high",
+        "gi_risk": "high",
+        "pain_type": "acute",
+        "drug_class": "NSAID",
+        "prioritize": "safety",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "ibuprofen": 4.9,
+          "naproxen": 3.6,
+          "diclofenac": 4.8,
+          "celecoxib": 5.1,
+          "meloxicam": 4.2,
+          "paracetamol": 5.8
+        },
+        "scores": {
+          "paracetamol": {
+            "efficacy": 6.0,
+            "safety": 6.0,
+            "pk": 5.0,
+            "mechanism": 6
+          },
+          "celecoxib": {
+            "efficacy": 9.8,
+            "safety": 2.5,
+            "pk": 7.0,
+            "mechanism": 5
+          },
+          "ibuprofen": {
+            "efficacy": 9.8,
+            "safety": 2.5,
+            "pk": 6.0,
+            "mechanism": 5
+          },
+          "diclofenac": {
+            "efficacy": 9.2,
+            "safety": 3.0,
+            "pk": 5.0,
+            "mechanism": 5
+          },
+          "naproxen": {
+            "efficacy": 9.2,
+            "safety": 0.5,
+            "pk": 5.0,
+            "mechanism": 5
+          },
+          "meloxicam": {
+            "efficacy": 5.0,
+            "safety": 3.0,
+            "pk": 6.0,
+            "mechanism": 5
+          }
+        },
+        "ranking": [
+          "paracetamol",
+          "celecoxib",
+          "ibuprofen",
+          "diclofenac",
+          "meloxicam",
+          "naproxen"
+        ],
+        "ranks_midrank": {
+          "paracetamol": 1.0,
+          "celecoxib": 2.0,
+          "ibuprofen": 3.0,
+          "diclofenac": 4.0,
+          "meloxicam": 5.0,
+          "naproxen": 6.0
+        },
+        "ties": []
+      }
+    },
+    {
+      "id": "V3-S05",
+      "class": "Statin",
+      "priority": "efficacy",
+      "vignette": {
+        "age": 62,
+        "concomitant_meds": [
+          "aspirin 81 mg daily",
+          "metoprolol 50 mg daily",
+          "ramipril 5 mg daily"
+        ],
+        "condition": "6 weeks post-NSTEMI; LDL-C 4.9 mmol/L; statin-naive, to be initiated now. High CV risk.",
+        "cv_risk": "high",
+        "gi_risk": "low",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Which statin to initiate, prioritising LDL-lowering efficacy.",
+        "renal_function": "normal",
+        "sex": "M"
+      },
+      "candidates": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "pitavastatin"
+      ],
+      "query": {
+        "age": 62,
+        "renal_function": "normal",
+        "cv_risk": "high",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Statin",
+        "prioritize": "efficacy",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py scoring functions invoked directly on the scenario's candidate drugs, replicating the POST /api/query scoring loop (server.py L694-730): per-drug efficacy (_compute_efficacy, L85), safety (_compute_safety, L160), pk (_compute_pk, L280), mechanism (_compute_mechanism, L361); overall = WEIGHTS[prioritize] weighted sum (efficacy .40/.25/.20/.15; safety .20/.50/.20/.10; balanced .30/.30/.20/.20), rounded to 1 decimal; sorted descending (stable sort -> ties keep api/drugs.json order). 'ranking' = that order; 'ranks_midrank' = midrank (average position) for tied overall scores, used by v3_agreement.py.",
+        "overall": {
+          "atorvastatin": 7.8,
+          "rosuvastatin": 8.2,
+          "simvastatin": 7.4,
+          "pravastatin": 7.4,
+          "pitavastatin": 7.8
+        },
+        "scores": {
+          "atorvastatin": {
+            "efficacy": 7.7,
+            "safety": 10.0,
+            "pk": 6.0,
+            "mechanism": 7
+          },
+          "rosuvastatin": {
+            "efficacy": 9.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "simvastatin": {
+            "efficacy": 7.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "pravastatin": {
+            "efficacy": 7.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "pitavastatin": {
+            "efficacy": 7.7,
+            "safety": 10.0,
+            "pk": 6.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "rosuvastatin",
+          "atorvastatin",
+          "pitavastatin",
+          "simvastatin",
+          "pravastatin"
+        ],
+        "ranks_midrank": {
+          "rosuvastatin": 1.0,
+          "atorvastatin": 2.5,
+          "pitavastatin": 2.5,
+          "simvastatin": 4.5,
+          "pravastatin": 4.5
+        },
+        "ties": [
+          [
+            "atorvastatin",
+            "pitavastatin"
+          ],
+          [
+            "simvastatin",
+            "pravastatin"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V3-S06",
+      "class": "Statin",
+      "priority": "safety",
+      "vignette": {
+        "age": 68,
+        "concomitant_meds": [
+          "gemfibrozil 600 mg BID",
+          "levothyroxine 75 mcg daily"
+        ],
+        "condition": "Mixed dyslipidaemia with mildly impaired liver function (ALT 1.6x ULN, stable). Recently started gemfibrozil 600 mg BID for residual triglyceride elevation.",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "hepatic_function": "mild",
+        "pain_type": "none",
+        "priority_note": "Rank statin options, prioritising safety (myopathy / hepatic / interaction risk).",
+        "renal_function": "normal",
+        "sex": "M"
+      },
+      "candidates": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "pitavastatin"
+      ],
+      "query": {
+        "age": 68,
+        "renal_function": "normal",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Statin",
+        "prioritize": "safety",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "mild"
+      },
+      "dqf": {
+        "method": "api/server.py scoring functions invoked directly on the scenario's candidate drugs, replicating the POST /api/query scoring loop (server.py L694-730): per-drug efficacy (_compute_efficacy, L85), safety (_compute_safety, L160), pk (_compute_pk, L280), mechanism (_compute_mechanism, L361); overall = WEIGHTS[prioritize] weighted sum (efficacy .40/.25/.20/.15; safety .20/.50/.20/.10; balanced .30/.30/.20/.20), rounded to 1 decimal; sorted descending (stable sort -> ties keep api/drugs.json order). 'ranking' = that order; 'ranks_midrank' = midrank (average position) for tied overall scores, used by v3_agreement.py.",
+        "overall": {
+          "atorvastatin": 6.9,
+          "rosuvastatin": 8.0,
+          "simvastatin": 6.4,
+          "pravastatin": 8.1,
+          "pitavastatin": 7.4
+        },
+        "scores": {
+          "atorvastatin": {
+            "efficacy": 7.7,
+            "safety": 7.0,
+            "pk": 6.0,
+            "mechanism": 7
+          },
+          "rosuvastatin": {
+            "efficacy": 9.0,
+            "safety": 9.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "simvastatin": {
+            "efficacy": 7.0,
+            "safety": 7.0,
+            "pk": 4.0,
+            "mechanism": 7
+          },
+          "pravastatin": {
+            "efficacy": 7.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "pitavastatin": {
+            "efficacy": 7.7,
+            "safety": 8.0,
+            "pk": 6.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "pravastatin",
+          "rosuvastatin",
+          "pitavastatin",
+          "atorvastatin",
+          "simvastatin"
+        ],
+        "ranks_midrank": {
+          "pravastatin": 1.0,
+          "rosuvastatin": 2.0,
+          "pitavastatin": 3.0,
+          "atorvastatin": 4.0,
+          "simvastatin": 5.0
+        },
+        "ties": []
+      }
+    },
+    {
+      "id": "V3-S07",
+      "class": "Antihypertensive",
+      "priority": "balanced",
+      "vignette": {
+        "age": 55,
+        "concomitant_meds": [
+          "metformin 1000 mg BID"
+        ],
+        "condition": "Newly confirmed grade 2 hypertension (152/96 mmHg), type 2 diabetes with albuminuria (ACR 80 mg/g). eGFR 82.",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Rank antihypertensive options balancing BP efficacy against safety/tolerability.",
+        "renal_function": "normal",
+        "sex": "M"
+      },
+      "candidates": [
+        "lisinopril",
+        "losartan",
+        "valsartan",
+        "amlodipine",
+        "chlorthalidone"
+      ],
+      "query": {
+        "age": 55,
+        "renal_function": "normal",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Antihypertensive",
+        "prioritize": "balanced",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "lisinopril": 6.9,
+          "losartan": 7.1,
+          "valsartan": 6.9,
+          "amlodipine": 6.9,
+          "chlorthalidone": 6.9
+        },
+        "scores": {
+          "losartan": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 6.0,
+            "mechanism": 7
+          },
+          "lisinopril": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "amlodipine": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "chlorthalidone": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "valsartan": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "losartan",
+          "lisinopril",
+          "amlodipine",
+          "chlorthalidone",
+          "valsartan"
+        ],
+        "ranks_midrank": {
+          "losartan": 1.0,
+          "lisinopril": 3.5,
+          "amlodipine": 3.5,
+          "chlorthalidone": 3.5,
+          "valsartan": 3.5
+        },
+        "ties": [
+          [
+            "lisinopril",
+            "amlodipine",
+            "chlorthalidone",
+            "valsartan"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V3-S08",
+      "class": "Antihypertensive",
+      "priority": "safety",
+      "vignette": {
+        "age": 70,
+        "concomitant_meds": [
+          "spironolactone 25 mg daily",
+          "sodium bicarbonate 500 mg BID"
+        ],
+        "condition": "Hypertension with stage 3b CKD (eGFR 36). Two prior hyperkalemia episodes (K+ 5.6 mmol/L) on spironolactone 25 mg, which continues under monitoring.",
+        "cv_risk": "high",
+        "gi_risk": "low",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Rank antihypertensive options, prioritising safety given CKD and hyperkalemia risk.",
+        "renal_function": "moderate",
+        "sex": "M"
+      },
+      "candidates": [
+        "lisinopril",
+        "losartan",
+        "amlodipine",
+        "chlorthalidone",
+        "metoprolol"
+      ],
+      "query": {
+        "age": 70,
+        "renal_function": "moderate",
+        "cv_risk": "high",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Antihypertensive",
+        "prioritize": "safety",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "lisinopril": 7.5,
+          "losartan": 7.3,
+          "amlodipine": 7.7,
+          "chlorthalidone": 7.9,
+          "metoprolol": 7.3
+        },
+        "scores": {
+          "chlorthalidone": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 6.0,
+            "mechanism": 7
+          },
+          "amlodipine": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "lisinopril": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 4.0,
+            "mechanism": 7
+          },
+          "losartan": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 3.0,
+            "mechanism": 7
+          },
+          "metoprolol": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 3.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "chlorthalidone",
+          "amlodipine",
+          "lisinopril",
+          "losartan",
+          "metoprolol"
+        ],
+        "ranks_midrank": {
+          "chlorthalidone": 1.0,
+          "amlodipine": 2.0,
+          "lisinopril": 3.0,
+          "losartan": 4.5,
+          "metoprolol": 4.5
+        },
+        "ties": [
+          [
+            "losartan",
+            "metoprolol"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V3-S09",
+      "class": "Antihypertensive",
+      "priority": "safety",
+      "vignette": {
+        "age": 30,
+        "concomitant_meds": [
+          "ferrous sulfate 325 mg daily",
+          "folic acid 1 mg daily"
+        ],
+        "condition": "10 weeks pregnant (first trimester) with pre-existing chronic hypertension (144/92 mmHg). No diabetes.",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Rank antihypertensive options, prioritising fetal/maternal safety.",
+        "renal_function": "normal",
+        "sex": "F"
+      },
+      "candidates": [
+        "methyldopa",
+        "nifedipine",
+        "amlodipine",
+        "propranolol",
+        "hydralazine"
+      ],
+      "query": {
+        "age": 30,
+        "renal_function": "normal",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Antihypertensive",
+        "prioritize": "safety",
+        "pregnancy_status": "first_trimester",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py POST /api/query: the exact QueryRequest (scenario.query) is run through the /api/query handler (import api/server.py; query_drugs), results filtered to candidate ids; scoring and sort identical to METHOD_DIRECT. Cross-checked equal to the direct path before use.",
+        "overall": {
+          "methyldopa": 6.2,
+          "nifedipine": 6.2,
+          "amlodipine": 6.2,
+          "propranolol": 6.2,
+          "hydralazine": 6.2
+        },
+        "scores": {
+          "amlodipine": {
+            "efficacy": 5.0,
+            "safety": 7.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "nifedipine": {
+            "efficacy": 5.0,
+            "safety": 7.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "propranolol": {
+            "efficacy": 5.0,
+            "safety": 7.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "hydralazine": {
+            "efficacy": 5.0,
+            "safety": 7.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "methyldopa": {
+            "efficacy": 5.0,
+            "safety": 7.0,
+            "pk": 5.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "amlodipine",
+          "nifedipine",
+          "propranolol",
+          "hydralazine",
+          "methyldopa"
+        ],
+        "ranks_midrank": {
+          "amlodipine": 3.0,
+          "nifedipine": 3.0,
+          "propranolol": 3.0,
+          "hydralazine": 3.0,
+          "methyldopa": 3.0
+        },
+        "ties": [
+          [
+            "amlodipine",
+            "nifedipine",
+            "propranolol",
+            "hydralazine",
+            "methyldopa"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V3-S10",
+      "class": "Anticoagulant",
+      "priority": "efficacy",
+      "vignette": {
+        "age": 70,
+        "concomitant_meds": [
+          "metformin 1000 mg BID",
+          "bisoprolol 5 mg daily"
+        ],
+        "condition": "Non-valvular atrial fibrillation, newly diagnosed (CHA2DS2-VASc 4: age, hypertension, diabetes, vascular disease). Aspirin stopped at diagnosis.",
+        "cv_risk": "high",
+        "gi_risk": "low",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Rank oral anticoagulants, prioritising stroke-prevention efficacy.",
+        "renal_function": "normal",
+        "sex": "M"
+      },
+      "candidates": [
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "dabigatran"
+      ],
+      "query": {
+        "age": 70,
+        "renal_function": "normal",
+        "cv_risk": "high",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Anticoagulant",
+        "prioritize": "efficacy",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py scoring functions invoked directly on the scenario's candidate drugs, replicating the POST /api/query scoring loop (server.py L694-730): per-drug efficacy (_compute_efficacy, L85), safety (_compute_safety, L160), pk (_compute_pk, L280), mechanism (_compute_mechanism, L361); overall = WEIGHTS[prioritize] weighted sum (efficacy .40/.25/.20/.15; safety .20/.50/.20/.10; balanced .30/.30/.20/.20), rounded to 1 decimal; sorted descending (stable sort -> ties keep api/drugs.json order). 'ranking' = that order; 'ranks_midrank' = midrank (average position) for tied overall scores, used by v3_agreement.py.",
+        "overall": {
+          "apixaban": 6.3,
+          "rivaroxaban": 6.1,
+          "edoxaban": 6.5,
+          "dabigatran": 6.3
+        },
+        "scores": {
+          "apixaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 4.0,
+            "mechanism": 7
+          },
+          "rivaroxaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 3.0,
+            "mechanism": 7
+          },
+          "edoxaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "dabigatran": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 4.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "edoxaban",
+          "apixaban",
+          "dabigatran",
+          "rivaroxaban"
+        ],
+        "ranks_midrank": {
+          "edoxaban": 1.0,
+          "apixaban": 2.5,
+          "dabigatran": 2.5,
+          "rivaroxaban": 4.0
+        },
+        "ties": [
+          [
+            "apixaban",
+            "dabigatran"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V3-S11",
+      "class": "Anticoagulant",
+      "priority": "safety",
+      "vignette": {
+        "age": 78,
+        "concomitant_meds": [
+          "amlodipine 5 mg daily",
+          "pantoprazole 40 mg daily"
+        ],
+        "condition": "Non-valvular atrial fibrillation (CHA2DS2-VASc 5) with stage 3a CKD (eGFR 52). Prior upper-GI bleed (on NSAIDs); no active bleeding now.",
+        "cv_risk": "high",
+        "gi_risk": "moderate",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Rank anticoagulants, prioritising safety (bleeding, renal accumulation).",
+        "renal_function": "mild",
+        "sex": "M"
+      },
+      "candidates": [
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "dabigatran"
+      ],
+      "query": {
+        "age": 78,
+        "renal_function": "mild",
+        "cv_risk": "high",
+        "gi_risk": "moderate",
+        "pain_type": "none",
+        "drug_class": "Anticoagulant",
+        "prioritize": "safety",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py scoring functions invoked directly on the scenario's candidate drugs, replicating the POST /api/query scoring loop (server.py L694-730): per-drug efficacy (_compute_efficacy, L85), safety (_compute_safety, L160), pk (_compute_pk, L280), mechanism (_compute_mechanism, L361); overall = WEIGHTS[prioritize] weighted sum (efficacy .40/.25/.20/.15; safety .20/.50/.20/.10; balanced .30/.30/.20/.20), rounded to 1 decimal; sorted descending (stable sort -> ties keep api/drugs.json order). 'ranking' = that order; 'ranks_midrank' = midrank (average position) for tied overall scores, used by v3_agreement.py.",
+        "overall": {
+          "apixaban": 7.5,
+          "rivaroxaban": 7.1,
+          "edoxaban": 7.7,
+          "dabigatran": 7.3
+        },
+        "scores": {
+          "apixaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 4.0,
+            "mechanism": 7
+          },
+          "rivaroxaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 2.0,
+            "mechanism": 7
+          },
+          "edoxaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "dabigatran": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 3.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "edoxaban",
+          "apixaban",
+          "dabigatran",
+          "rivaroxaban"
+        ],
+        "ranks_midrank": {
+          "edoxaban": 1.0,
+          "apixaban": 2.0,
+          "dabigatran": 3.0,
+          "rivaroxaban": 4.0
+        },
+        "ties": []
+      }
+    },
+    {
+      "id": "V3-S12",
+      "class": "Anticoagulant",
+      "priority": "balanced",
+      "vignette": {
+        "age": 66,
+        "concomitant_meds": [
+          "none"
+        ],
+        "condition": "Acute uncomplicated distal DVT (left calf), day 1 of treatment, outpatient management planned. No cancer.",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "hepatic_function": "normal",
+        "pain_type": "none",
+        "priority_note": "Rank anticoagulant options for treatment, balancing efficacy and safety/monitoring burden.",
+        "renal_function": "normal",
+        "sex": "M"
+      },
+      "candidates": [
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "enoxaparin"
+      ],
+      "query": {
+        "age": 66,
+        "renal_function": "normal",
+        "cv_risk": "moderate",
+        "gi_risk": "low",
+        "pain_type": "none",
+        "drug_class": "Anticoagulant",
+        "prioritize": "balanced",
+        "pregnancy_status": "not_pregnant",
+        "lactation": "no",
+        "hepatic_function": "normal"
+      },
+      "dqf": {
+        "method": "api/server.py scoring functions invoked directly on the scenario's candidate drugs, replicating the POST /api/query scoring loop (server.py L694-730): per-drug efficacy (_compute_efficacy, L85), safety (_compute_safety, L160), pk (_compute_pk, L280), mechanism (_compute_mechanism, L361); overall = WEIGHTS[prioritize] weighted sum (efficacy .40/.25/.20/.15; safety .20/.50/.20/.10; balanced .30/.30/.20/.20), rounded to 1 decimal; sorted descending (stable sort -> ties keep api/drugs.json order). 'ranking' = that order; 'ranks_midrank' = midrank (average position) for tied overall scores, used by v3_agreement.py.",
+        "overall": {
+          "apixaban": 6.7,
+          "rivaroxaban": 6.5,
+          "edoxaban": 6.9,
+          "enoxaparin": 6.7
+        },
+        "scores": {
+          "apixaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 4.0,
+            "mechanism": 7
+          },
+          "rivaroxaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 3.0,
+            "mechanism": 7
+          },
+          "edoxaban": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 5.0,
+            "mechanism": 7
+          },
+          "enoxaparin": {
+            "efficacy": 5.0,
+            "safety": 10.0,
+            "pk": 4.0,
+            "mechanism": 7
+          }
+        },
+        "ranking": [
+          "edoxaban",
+          "apixaban",
+          "enoxaparin",
+          "rivaroxaban"
+        ],
+        "ranks_midrank": {
+          "edoxaban": 1.0,
+          "apixaban": 2.5,
+          "enoxaparin": 2.5,
+          "rivaroxaban": 4.0
+        },
+        "ties": [
+          [
+            "apixaban",
+            "enoxaparin"
+          ]
+        ]
+      }
+    }
+  ]
+}
