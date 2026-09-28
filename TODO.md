@@ -1,7 +1,7 @@
 # DQF Roadmap — Clinical Tool
 
 > *Pharmacist-built, evidence-grounded, patient-personalized drug ranking.*
-> **Last refreshed 2026-09-27** (was stale since 2026-07-26 — old copy still described the 9-drug PoC and listed finished work as pending).
+> **Last refreshed 2026-09-28** — N1–N4 complete (was stale since 2026-09-27).
 
 ---
 
@@ -10,13 +10,13 @@
 | Metric | Value |
 |--------|-------|
 | Drugs | **95** across **10 classes** — Antihypertensive 33, Diabetes 28, NSAID 10, Statin 6, Anticoagulant 6, PPI 5, H2RA 3, Antacid 2, Alginate 1, Mucosal Protectant 1 |
-| L3 coverage | 95/95 drugs; 798 numeric cells, 50 documented nulls (NSAID 24, Statin 20, H2RA 5, Anticoagulant 1) |
+| L3 coverage | 95/95 drugs; 798 numeric cells, 50 documented nulls (NSAID 24, Statin 20, H2RA 5, Anticoagulant 1); **N1 applied 2026-09-28** — 11 vetted changes (8 raises, 3 drops), 25 demoted to open questions |
 | L4 coverage | 95/95, class-specific schema locked in `api/l4_schema_map.json` |
-| Profile docs | 56 — `profiles/` (NSAID), `profiles-statins/`, `profiles-gi/`, `profiles-anticoagulants/` |
-| Validation | 8 reports in `validation/` (V1, V1b, V1c×2, V2, V4, + 2 leave-one-out holdouts) |
+| Profile docs | **94** — `profiles/` (4), `profiles-statins/` (7, incl. lovastatin), `profiles-gi/` (13), `profiles-anticoagulants/` (7), `profiles-antihypertensives/` (34), `profiles-diabetes/` (29) |
+| Validation | 8 reports + **V3 instrument** (`v3-scenarios.json` 12 scenarios/57 items, `v3-inter-rater-protocol.md`, `v3_rater_sheet.md`, `v3_agreement.py`) — results pending real raters |
 | Scorer tests | 46 checks passing — `python rag-queries/test_scorer_hardening.py` (22) + `test_anticoagulant_scorer.py` (24) |
-| LLM triage | Batches 1–6 run; **Batch 5 full corpus landed 2026-09-27** (413 groups / 2573 sentences / 905 kept) |
-| Latest commit | `dc55a32` on `master`, pushed |
+| LLM triage | Batches 1–6 run; **Batch 5 full corpus landed 2026-09-27** (413 groups / 2573 sentences / 905 kept); Batch-7 (antiplatelet) planned in N2 design |
+| Latest commit | `3612e16` on `master`, pushed |
 
 ---
 
@@ -24,13 +24,15 @@
 
 | # | Task | Why | Est. |
 |---|------|-----|------|
-| N1 | **Consume `rag-queries/batch5_verdicts.json`** — rescore/adjudicate the non-anticoagulant evidence pools (`batch4_rescore.json` is the recipe precedent) | 905 kept sentences are sitting unused; this is the payoff of the ~92 min GPU run | 1–2 d |
-| N2 | **E2 — Antiplatelets**: clopidogrel, ticagrelor, prasugrel (aspirin already present, classed NSAID) | Next 🔴 High class; same pipeline as E1 is proven end-to-end | 1–2 wk |
-| N3 | **Inter-rater reliability (V3)** — 2–3 pharmacists rank patient scenarios independently, compare agreement with DQF | The one Phase-V task never started (V1/V1b/V1c/V2/V4 all done) | 2 wk |
-| N4 | **Profile docs for Antihypertensive + Diabetes** | 61 drugs have JSON records but no `profiles-*` docs — the only classes without them | 1 wk |
-| N5 | **HF RAG endpoint** `balade-pubmed-rag-bot.hf.space` still 503 → keep `extract_l3.py --eutils-first` (3 req/s, no `NCBI_API_KEY`); fix or replace the Space | Fetch throughput bottleneck for every future class | as needed |
+| N1 | **Consume `rag-queries/batch5_verdicts.json`** — rescore/adjudicate the non-anticoagulant evidence pools | ✅ **done 2026-09-28** (`767d1d9`) — 11 vetted changes applied, 25 demoted, audit in `batch5_rescore_adjudication.json` | — |
+| N2 | **E2 — Antiplatelets** Phase-1 design: clopidogrel, ticagrelor, prasugrel | ✅ **design done 2026-09-28** (`cafe082`) — 7-dim L3 set, template/scorer plan, Batch-7 triage plan, 3 drug specs; Phase 0 (drug records) + Phase 2 (wiring) pending | — |
+| N3 | **Inter-rater reliability (V3)** instrument | ✅ **instrument done 2026-09-28** (`1a2716d`) — 12 scenarios, protocol, rater sheet, agreement script (self-test passes); S04 refreshed post-N1 | — |
+| N4 | **Profile docs for Antihypertensive + Diabetes** (+ lovastatin) | ✅ **done 2026-09-28** (`3612e16`) — 64 files, generator-assisted, no fabrication | — |
+| N5 | **HF RAG endpoint** — moved to AWS per user decision | ❌ cancelled | — |
+| N6 | **Sourced adjudication backlog** — 25 N1-demoted proposals + 44 conflicts + 44 open questions | Needs label/PMID sourcing per cell (E1 pattern) | 1–2 wk |
+| N7 | **E2 Phase 0+2** — add 3 antiplatelet drug records, wire template/scorer/`DIM_DIRECTION`, run Batch-7 triage | Design approved in N2; unblocks E2 completion | 1–2 wk |
 
-**Validation note:** Phase V is now V1 ✅ · V1b ✅ · V1c ✅ (×2) · V2 ✅ · V4 ✅ · holdouts ✅ · **V3 ⬜**.
+**Validation note:** Phase V is now V1 ✅ · V1b ✅ · V1c ✅ (×2) · V2 ✅ · V4 ✅ · holdouts ✅ · **V3 instrument ✅, results ⬜** (blocked on real raters).
 
 ---
 
@@ -41,9 +43,9 @@
 | # | Class | Drugs | Status |
 |---|-------|-------|--------|
 | E1 | **Anticoagulants** | warfarin, apixaban, rivaroxaban, edoxaban, dabigatran, enoxaparin | ✅ **done 2026-09-27** — 42-cell adjudication merged, profiles written |
-| E2 | **Antiplatelets** | aspirin, clopidogrel, ticagrelor, prasugrel | 🔴 **next** (aspirin only) |
-| E3 | **Antihypertensives** | lisinopril, losartan, amlodipine, metoprolol, HCTZ, chlorthalidone | 🟡 records + L3/L4 done (33 drugs, 0 nulls); profile docs missing → N4 |
-| E4 | **Diabetes** | metformin, empagliflozin, dapagliflozin, semaglutide, tirzepatide, insulin glargine | 🟡 records + L3/L4 done (28 drugs, 0 nulls); profile docs missing → N4 |
+| E2 | **Antiplatelets** | aspirin, clopidogrel, ticagrelor, prasugrel | 🟡 Phase-1 design done (N2); Phase 0 (records) + Phase 2 (wiring) + Batch-7 → N7 |
+| E3 | **Antihypertensives** | lisinopril, losartan, amlodipine, metoprolol, HCTZ, chlorthalidone | ✅ records + L3/L4 + profile docs done (33 drugs, N4) |
+| E4 | **Diabetes** | metformin, empagliflozin, dapagliflozin, semaglutide, tirzepatide, insulin glargine | ✅ records + L3/L4 + profile docs done (28 drugs, N4) |
 | E5 | **Antidepressants** | escitalopram, sertraline, venlafaxine, bupropion, mirtazapine | ⬜ 🟡 Medium |
 | E6 | **Antibiotics** | amoxicillin, doxycycline, azithromycin, ciprofloxacin, TMP-SMX | ⬜ 🟡 Medium |
 
@@ -128,6 +130,10 @@ Each new class = 5–8 records + L3 scorer dimensions + profile docs + validatio
 - **`l4_schema_map.json` Risk 1** — `nnt_bp_control` false-shares a key name between Antihypertensive `{value,ci_95,dose}` and Diabetes `{a1c_reduction,unit,dose}`; needs coordinated rename + consumer update (`server.py` has 6 hardcoded L4 refs, `_add_e3_e4_drugs.py` too).
 - **`docs`/`INDEX.md`** still say "2 drug classes, 9 drugs" — README-era text.
 - **50 null L3 cells** — documented gaps, not blockers (no-fabrication rule).
+- **22 unapplied prior-rescore proposals** (12 batch4_rescore raises, 10 ddi_rescore drops) — values proposed but never merged; documented per-doc in N4 profiles, awaiting apply-or-reject → N6.
+- **lovastatin `nnt_mace_5yr` missing** — Statin class query crashes server-side (`_compute_efficacy` KeyError); lovastatin unrankable until sourced.
+- **`bp_reduction` absent from `DIM_DIRECTION`** — benefit by semantics; add when the antihypertensive artifact gate is next touched.
+- **metformin `hypoglycemia_risk` = 3** in drugs.json — clinically questionable for monotherapy; candidate for N6 sourced review.
 
 ---
 
@@ -143,4 +149,4 @@ P  = personalization     F = full rx           Q = pharmacoeconomics
 C  = clinical integration
 ```
 
-> **Next logical step:** N1 — consume the Batch-5 verdicts, then start E2 antiplatelets.
+> **Next logical step:** N6 (sourced adjudication backlog) or N7 (E2 Phase 0+2 wiring + Batch-7 triage) — pick one lane.
