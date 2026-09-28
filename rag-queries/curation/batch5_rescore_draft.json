@@ -1,0 +1,2919 @@
+{
+  "generated": "2026-09-27",
+  "source": "rag-queries/batch5_verdicts.json",
+  "scope": "89 non-anticoagulant drugs; anticoagulants + batch4_rescore cells + ddi_rescore cells are locked",
+  "rule": "N: clean=strong->3/moderate->2/else 1 (ddi: _score_risk on pk/pd); raise if clean>cur & support>=2; drop if clean<cur & kw<cur; fill nulls if support>=2; conflicts for locked cells",
+  "stats": {
+    "groups_scanned": 413,
+    "anticoagulant_groups_excluded": 0,
+    "locked_groups": 116,
+    "proposals": 36,
+    "raises": 17,
+    "drops": 19,
+    "fills": 0,
+    "holds": 192,
+    "non_numeric_cells_skipped": 25,
+    "open_questions": 44,
+    "conflicts_with_prior_adjudication": 44,
+    "by_class": {
+      "Alginate": {
+        "raise": 0,
+        "drop": 2,
+        "fill": 0
+      },
+      "Antihypertensive": {
+        "raise": 8,
+        "drop": 1,
+        "fill": 0
+      },
+      "Diabetes": {
+        "raise": 7,
+        "drop": 11,
+        "fill": 0
+      },
+      "Mucosal Protectant": {
+        "raise": 0,
+        "drop": 1,
+        "fill": 0
+      },
+      "NSAID": {
+        "raise": 2,
+        "drop": 2,
+        "fill": 0
+      },
+      "Statin": {
+        "raise": 0,
+        "drop": 2,
+        "fill": 0
+      }
+    }
+  },
+  "results": [
+    {
+      "group": "ibuprofen|gi_risk",
+      "drug": "ibuprofen",
+      "dim": "gi_risk",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:8953831",
+          "cls": "none",
+          "text": "case-control studies of upper gi bleeding found odds ratios of the association with ibuprofen between 1 and 3, lower than those associated with aspirin, even at the low 'cardiovascular' doses."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "rosuvastatin|myopathy_risk",
+      "drug": "rosuvastatin",
+      "dim": "myopathy_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "moderate": 1
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:36613689",
+          "cls": "moderate",
+          "text": "recently, a group of genes and molecular pathways has been described to participate in statin-induced myopathy, caused by either simvastatin or rosuvastatin, although the mechanism by which changes in gene regulation occur was not studied."
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "pitavastatin|myopathy_risk",
+      "drug": "pitavastatin",
+      "dim": "myopathy_risk",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:28952474",
+          "cls": "none",
+          "text": "similarly, pitavastatin has better myopathy profile when compared to other statins."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "sodium-alginate|raft_strength",
+      "drug": "sodium-alginate",
+      "dim": "raft_strength",
+      "current": 3,
+      "clean": 2,
+      "kw": 1,
+      "support": 6,
+      "labels": {
+        "none": 1,
+        "moderate": 6
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=1 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:17451926",
+          "cls": "moderate",
+          "text": "sodium alginate is a biocompatible, natural polymer with ph-sensitive gel-forming ability."
+        },
+        {
+          "pmid": "PMID:40637018",
+          "cls": "moderate",
+          "text": "sodium alginates are widely used for their gelling, thickening, and stabilizing properties."
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=1 confirms"
+    },
+    {
+      "group": "sodium-alginate|reflux_suppression",
+      "drug": "sodium-alginate",
+      "dim": "reflux_suppression",
+      "current": 3,
+      "clean": 2,
+      "kw": 1,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "moderate": 1
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=1 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:16977507",
+          "cls": "moderate",
+          "text": "the aims of the present study were to compare effects of sodium alginate and the antacid magaldrate anhydrous in adults with gastroesophageal reflux (gor) symptoms."
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=1 confirms"
+    },
+    {
+      "group": "sucralfate|barrier_protection",
+      "drug": "sucralfate",
+      "dim": "barrier_protection",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:40872708",
+          "cls": "none",
+          "text": "sucralfate, widely known as a mucoprotective agent for gastroduodenal ulcers, has recently shown promising topical effects in human skin lesions by binding and protecting growth factors from proteolytic degradation, thereby en"
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "meloxicam|gi_risk",
+      "drug": "meloxicam",
+      "dim": "gi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "negative": 1,
+        "moderate": 1
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:12162470",
+          "cls": "moderate",
+          "text": "it was concluded that unlike nonselective nsaids, meloxicam's blockade of txa2 formation (even at supratherapeutic doses) does not reach levels that result in decreased in vivo platelet function, as measured by bleeding time and aggregometr"
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "meloxicam|renal_risk",
+      "drug": "meloxicam",
+      "dim": "renal_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "strong": 2,
+        "moderate": 3,
+        "negative": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:8630630",
+          "cls": "strong",
+          "text": "neither hepatic insufficiency nor moderate renal dysfunction have any relevant effects on the pharmacokinetics of meloxicam and dosage adjustments in the elderly are not required."
+        },
+        {
+          "pmid": "PMID:15989631",
+          "cls": "strong",
+          "text": "there is no evidence that meloxicam causes any deterioration in renal function in patients with moderate degrees of renal failure, and no evidence of drug accumulation with continued use."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "piroxicam|renal_risk",
+      "drug": "piroxicam",
+      "dim": "renal_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 4,
+        "moderate": 4,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:2183665",
+          "cls": "strong",
+          "text": "renal effects of ibuprofen, piroxicam, and sulindac in patients with asymptomatic renal failure."
+        },
+        {
+          "pmid": "PMID:9683035",
+          "cls": "strong",
+          "text": "similarly, a dose-response curve was obtained for mel, 4'-mel and piroxicam when measuring in vivo prostaglandin production, anti-inflammatory activity and gastric tolerance to determine the dose resulting in a 50% reduction of the each par"
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "losartan|electrolyte_risk",
+      "drug": "losartan",
+      "dim": "electrolyte_risk",
+      "current": 1,
+      "clean": 3,
+      "kw": 1,
+      "support": 2,
+      "labels": {
+        "none": 3,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:18328120",
+          "cls": "strong",
+          "text": "a double-blind, randomized study evaluating losartan potassium monotherapy or in combination with hydrochlorothiazide versus placebo in obese patients with hypertension."
+        },
+        {
+          "pmid": "PMID:39281239",
+          "cls": "strong",
+          "text": "to compare the efficacy of losartan potassium (lp) and benazepril in the treatment of hypertensive patients with insulin resistance (ir)."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=1 with support=2"
+    },
+    {
+      "group": "hydrochlorothiazide|renal_protection",
+      "drug": "hydrochlorothiazide",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 2,
+        "strong": 2,
+        "moderate": 2,
+        "negative": 1
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:36856614",
+          "cls": "strong",
+          "text": "hydrochlorothiazide and prevention of kidney-stone recurrence."
+        },
+        {
+          "pmid": "PMID:36856614",
+          "cls": "strong",
+          "text": "in this double-blind trial, we randomly assigned patients with recurrent calcium-containing kidney stones to receive hydrochlorothiazide at a dose of 12.5 mg, 25 mg, or 50 mg once daily or placebo once daily."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "tirzepatide|gi_tolerability",
+      "drug": "tirzepatide",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "moderate": 1
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:41179268",
+          "cls": "moderate",
+          "text": "while gastrointestinal adverse effects are common, hyponatremia induced by tirzepatide is rarely reported."
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "insulin-glargine|cv_outcome_benefit",
+      "drug": "insulin-glargine",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 1,
+      "kw": 1,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=1 < current=2",
+      "basis": [
+        {
+          "pmid": "PMID:38344820",
+          "cls": "none",
+          "text": "we investigated cardiovascular outcomes by treatment group in participants randomly assigned to insulin glargine, glimepiride, liraglutide, or "
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=2, kw=1 confirms"
+    },
+    {
+      "group": "insulin-glargine|renal_benefit",
+      "drug": "insulin-glargine",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 1,
+      "kw": 1,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=1 < current=2",
+      "basis": [
+        {
+          "pmid": "PMID:39972199",
+          "cls": "none",
+          "text": "analysis of patient characteristics and safety of insulin glargine u300 use in 21 359 patients with type-2 diabetes and chronic kidney disease: dpv registry study."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=2, kw=1 confirms"
+    },
+    {
+      "group": "felodipine|metabolic_effect",
+      "drug": "felodipine",
+      "dim": "metabolic_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 3,
+      "labels": {
+        "none": 1,
+        "negative": 1,
+        "strong": 3
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:1693722",
+          "cls": "strong",
+          "text": "in response to acute felodipine administration, the significant diuresis and natriuresis observed is caused by a direct inhibitory effect on net renal tubular sodium and water reabsorption."
+        },
+        {
+          "pmid": "PMID:1693722",
+          "cls": "strong",
+          "text": "while the acute natriuretic response to felodipine administration is modulated by compensatory adaptations over the remainder of the 24-h period and during chronic treatment, the negative sodium balance established is sustained over the dur"
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=3"
+    },
+    {
+      "group": "diltiazem|renal_protection",
+      "drug": "diltiazem",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 3,
+      "labels": {
+        "none": 4,
+        "moderate": 2,
+        "strong": 3,
+        "negative": 1
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:36354148",
+          "cls": "strong",
+          "text": "to determine if an intravenous infusion of diltiazem improves renal function through changes in glomerular filtration rate (gfr), fractional excretion of sodium (fena), and urine output (uop) in healthy dogs."
+        },
+        {
+          "pmid": "PMID:1590448",
+          "cls": "strong",
+          "text": "diltiazem restores cardiac output and improves renal function after hemorrhagic shock and crystalloid resuscitation."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=3"
+    },
+    {
+      "group": "diltiazem|electrolyte_risk",
+      "drug": "diltiazem",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 7,
+        "moderate": 1,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:31747760",
+          "cls": "strong",
+          "text": "the distribution of epidural fibrosis density, percentage of fibrosis, and distribution of fibroblasts in the diclofenac sodium + diltiazem group were significantly lower than in the other groups."
+        },
+        {
+          "pmid": "PMID:31747760",
+          "cls": "strong",
+          "text": "the fibroblast numbers of the diltiazem, and diclofenac sodium + diltiazem groups were significantly lower than in the other groups."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "bisoprolol|renal_protection",
+      "drug": "bisoprolol",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 2,
+        "moderate": 2,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:26996442",
+          "cls": "strong",
+          "text": "mean bisoprolol clearance (10.2 l/h) was 30 % lower than in healthy individuals and correlated with mdrd4-estimated renal function."
+        },
+        {
+          "pmid": "PMID:26996442",
+          "cls": "strong",
+          "text": "in patients with chronic heart failure, bisoprolol clearance was associated with estimated renal function; thus, in moderately and severely decreased renal function, patients may need to have their dose adjusted."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "nebivolol|metabolic_effect",
+      "drug": "nebivolol",
+      "dim": "metabolic_effect",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 3,
+        "moderate": 2
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:37849071",
+          "cls": "moderate",
+          "text": "nebivolol is a beta-1 receptor blocker used to treat hypertension, heart failure, erectile dysfunction, vascular disease, and diabetes mellitus."
+        },
+        {
+          "pmid": "PMID:41049496",
+          "cls": "moderate",
+          "text": "minoxidil and nebivolol restore aortic elastic fiber homeostasis in diabetic mice via potassium channel activation."
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "furosemide|electrolyte_risk",
+      "drug": "furosemide",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 3,
+      "support": 5,
+      "labels": {
+        "none": 2,
+        "strong": 5,
+        "moderate": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:41569687",
+          "cls": "strong",
+          "text": "urinary spot sodium and urine output were measured at baseline, 2, and 6 h after 40 mg iv furosemide."
+        },
+        {
+          "pmid": "PMID:10047639",
+          "cls": "strong",
+          "text": "the 24-hour urinary sodium excretion was similar during the furosemide and azosemide treatment periods but was significantly greater in the first 2 hours after drug administration during furosemide treatment."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=5"
+    },
+    {
+      "group": "clonidine|metabolic_effect",
+      "drug": "clonidine",
+      "dim": "metabolic_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "moderate": 1,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:6279379",
+          "cls": "strong",
+          "text": "however, when the clonidine was withdrawn, the glucose intolerance subsided."
+        },
+        {
+          "pmid": "PMID:6279379",
+          "cls": "strong",
+          "text": "in consideration of the response from withdrawal of clonidine and the results of our radioligand studies, wer concluded the glucose intolerance seen in this patient was most likely due to the specific action of clonidine on alpha 2-pancreat"
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "ertugliflozin|gi_tolerability",
+      "drug": "ertugliflozin",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:30427588",
+          "cls": "none",
+          "text": "as metformin is administered with meals because of its gastrointestinal side effects, the ertugliflozin/metformin fdc should also be administered with meals."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "liraglutide|weight_effect",
+      "drug": "liraglutide",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 3,
+      "labels": {
+        "none": 4,
+        "moderate": 5,
+        "strong": 3
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:29527308",
+          "cls": "strong",
+          "text": "the mean hba1c and weight reductions were 12.3 mmol/mol (1.13%; p<0.001) and 3.8 kg (p<0.001) greater in liraglutide than placebo-treated persons."
+        },
+        {
+          "pmid": "PMID:41131486",
+          "cls": "strong",
+          "text": "predictors of weight reduction effectiveness with liraglutide in diabetes mellitus type 2 patients: a retrospective cohort study."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=3"
+    },
+    {
+      "group": "liraglutide|hypoglycemia_risk",
+      "drug": "liraglutide",
+      "dim": "hypoglycemia_risk",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:38357515",
+          "cls": "none",
+          "text": "the common adverse reactions of liraglutide are hypoglycemia and gastrointestinal reactions."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "exenatide|cv_outcome_benefit",
+      "drug": "exenatide",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "moderate": 2,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:26338040",
+          "cls": "strong",
+          "text": "long-term changes in cardiovascular risk markers during administration of exenatide twice daily or glimepiride: results from the european exenatide study."
+        },
+        {
+          "pmid": "PMID:39005289",
+          "cls": "strong",
+          "text": "exenatide administration time determines the effects on blood pressure dipping in  type 2 diabetics have an increased prevalence of hypertension and nondipping blood pressure (bp), which worsen cardiovascular outcomes."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "sitagliptin|gi_tolerability",
+      "drug": "sitagliptin",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:20412573",
+          "cls": "none",
+          "text": "incidence rates of specific adverse events were also generally similar between the two groups, except for increased incidence rates of hypoglycemia, related to the greater use of a sulfonylurea, and diarrhea, related to the greater use of m"
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "saxagliptin|gi_tolerability",
+      "drug": "saxagliptin",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 1,
+      "kw": 1,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=1 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:24376173",
+          "cls": "none",
+          "text": "adverse events and events of special interest (gastrointestinal adverse events, infections, hypersensitivity, pancreatitis, skin lesions, lymphopenia, thrombocytopenia, hypoglycaemia, bone fracture, severe cutaneous adverse reactions, oppor"
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=1 confirms"
+    },
+    {
+      "group": "alogliptin|gi_tolerability",
+      "drug": "alogliptin",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "moderate": 1
+      },
+      "new": 2,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:18405789",
+          "cls": "moderate",
+          "text": "other adverse events were reported in 1 subject each: dizziness (alogliptin 100 mg), syncope (alogliptin 200 mg), constipation (alogliptin 200 mg), viral infection (alogliptin 400 mg), hot flush (placebo), and nausea (placebo)."
+        }
+      ],
+      "why_pool_differs": "clean=2 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "vildagliptin|weight_effect",
+      "drug": "vildagliptin",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 3,
+      "labels": {
+        "none": 5,
+        "strong": 3,
+        "moderate": 3
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:20616619",
+          "cls": "strong",
+          "text": "weight was statistically significantly negatively associated with exenatide (wmd = -1.10, 95% ci = -1.32 to -0.87, p < 0.001) and positively associated with sitagliptin (wmd = 0.60, 95% ci = 0.33-0.87, p < 0.001) and vildagliptin (wmd = 0.5"
+        },
+        {
+          "pmid": "PMID:17509069",
+          "cls": "strong",
+          "text": "body weight did not change during the 1-year treatment with vildagliptin (0.3 +/- 0.2 kg, p = 0.17) and decreased in metformin-treated patients (-1.9 +/- 0.3 kg, p < 0.001)."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=3"
+    },
+    {
+      "group": "glipizide|weight_effect",
+      "drug": "glipizide",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 2,
+      "labels": {
+        "none": 4,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:21477878",
+          "cls": "strong",
+          "text": "sitagliptin and glipizide added to metformin provided similar degrees of glycemic efficacy in patients with type 2 diabetes with inadequate glycemic control on metformin monotherapy at 1 year; however, significantly more patients in the sit"
+        },
+        {
+          "pmid": "PMID:9096986",
+          "cls": "strong",
+          "text": "the once-daily glipizide gits 1) lowered hba1c, fpg, and ppg over a dose range of 5-60 mg, 2) was maximally effective at 5 mg (using hba1c) or 20 mg (using fpg) based on pharmacokinetic and pharmacodynamic relationships, 3) maintained its e"
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "glyburide|gi_tolerability",
+      "drug": "glyburide",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:17145742",
+          "cls": "none",
+          "text": "rosiglitazone was associated with more weight gain and edema than either metformin or glyburide but with fewer gastrointestinal events than metformin and with less hypoglycemia than glyburide (p<0.001 for all comparisons)."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "gliclazide|weight_effect",
+      "drug": "gliclazide",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 2,
+      "labels": {
+        "none": 3,
+        "moderate": 1,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:26361859",
+          "cls": "strong",
+          "text": "gliclazide lowered hba1c more than other oral insulinotropic agents, with a weighted mean difference of -0.11% (95%, ci -0.19 to -0.03%, p=0.008, i(2)=60%), though not more than other sulfonylureas (-0.12%; 95%, ci -0.25 to 0.01%, p=0.07, i"
+        },
+        {
+          "pmid": "PMID:29651307",
+          "cls": "strong",
+          "text": "at baseline, mean age was 58.9 years, hba1c 8.8%, bmi 30.1 kg/m progressive gliclazide mr 60 mg uptitration was well tolerated and lowered hba1c across a broad range of hba1c, bmi and background glucose-lowering therapy."
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "insulin-lispro|hypoglycemia_risk",
+      "drug": "insulin-lispro",
+      "dim": "hypoglycemia_risk",
+      "current": 3,
+      "clean": 1,
+      "kw": 1,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=1 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:24325997",
+          "cls": "none",
+          "text": "obese patients with t2dm treated with insulin lispro were able to achieve the same level of glycemic control as their nonobese counterparts, with some evidence supporting a reduced risk of hypoglycemia."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=1 confirms"
+    },
+    {
+      "group": "repaglinide|cv_outcome_benefit",
+      "drug": "repaglinide",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 2,
+        "strong": 2
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:41267359",
+          "cls": "strong",
+          "text": "the study suggests that prolonged use of pioglitazone, repaglinide and alogliptin may significantly slow cimt progression, improving cardiovascular risk management in patients with diabetes and/or cardiovascular disease."
+        },
+        {
+          "pmid": "PMID:22268393",
+          "cls": "strong",
+          "text": "oral repaglinide (gluconorm®; novonorm®; prandin®; surepost®) is a rapid-acting insulin secretagogue that lowers postprandial glucose (ppg) excursions by targeting early-phase insulin release, with reductions in ppg considered to be importa"
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=2"
+    },
+    {
+      "group": "repaglinide|gi_tolerability",
+      "drug": "repaglinide",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "new": 1,
+      "rule": "N-drop",
+      "via": "kw=2 < current=3",
+      "basis": [
+        {
+          "pmid": "PMID:20387361",
+          "cls": "none",
+          "text": "repaglinide is considered a safe drug; adverse events are mild to moderate which includes hypoglycemia, headache, nausea, vomiting, diarrhea and dyspepsia as similar to sulphonylureas."
+        }
+      ],
+      "why_pool_differs": "clean=1 < current=3, kw=2 confirms"
+    },
+    {
+      "group": "pramlintide|cv_outcome_benefit",
+      "drug": "pramlintide",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 4,
+      "labels": {
+        "none": 2,
+        "moderate": 1,
+        "strong": 4
+      },
+      "new": 3,
+      "rule": "N-raise",
+      "via": "support>=2",
+      "basis": [
+        {
+          "pmid": "PMID:28702246",
+          "cls": "strong",
+          "text": "cardiovascular safety of pramlintide was assessed using accepted regulatory medical definitions of aes reported in five randomized, controlled phase 3 and 4 trials of 16-52 weeks' duration in adults with type 2 diabetes."
+        },
+        {
+          "pmid": "PMID:28702246",
+          "cls": "strong",
+          "text": "ae data obtained from clinical study reports were combined into one database and analyzed for the intention-to-treat population of 2016 patients (pramlintide,  the incidence of reported mace was similar between pramlintide (4.7 %) and poole"
+        }
+      ],
+      "why_pool_differs": "clean=3 > current=2 with support=4"
+    }
+  ],
+  "conflicts_with_prior_adjudication": [
+    {
+      "group": "simvastatin|ddi_risk",
+      "drug": "simvastatin",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "esomeprazole|ddi_risk",
+      "drug": "esomeprazole",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 4,
+      "labels": {
+        "none": 2,
+        "pk": 4
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:36897544",
+          "cls": "pk",
+          "text": "evaluation of cyp2c19-mediated pharmacokinetic drug interaction of tegoprazan, compared with vonoprazan or esomeprazole."
+        },
+        {
+          "pmid": "PMID:36897544",
+          "cls": "pk",
+          "text": "this study aimed to evaluate the effect of tegoprazan on the pharmacokinetics (pk) of a cyp2c19 substrate, proguanil, compared with vonoprazan or esomeprazole."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "esomeprazole|acid_rebound",
+      "drug": "esomeprazole",
+      "dim": "acid_rebound",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 4,
+        "strong": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:27331882",
+          "cls": "strong",
+          "text": "esomeprazole's treatment effect was maintained for ≥ one week after treatment ended, with no sign of symptomatic rebound."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "pantoprazole|ddi_risk",
+      "drug": "pantoprazole",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 1,
+      "support": 1,
+      "labels": {
+        "none": 5,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:35787720",
+          "cls": "pk",
+          "text": "interestingly, not all ppis have the same pharmacokinetic and pharmacodynamic profile, with some having a strong potential to inhibit cyp2c19, such as omeprazole, esomeprazole, and lansoprazole, while others, pantoprazole, rabeprazole, and "
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "lansoprazole|ddi_risk",
+      "drug": "lansoprazole",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 5,
+      "labels": {
+        "none": 5,
+        "pk": 4,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:40379961",
+          "cls": "pk",
+          "text": "exploring the influence of obesity and cyp2 c19 genotype on lansoprazole pharmacokinetics in pediatric patients: a population modeling approach."
+        },
+        {
+          "pmid": "PMID:15752376",
+          "cls": "pk",
+          "text": "effects of clarithromycin on lansoprazole pharmacokinetics between cyp2c19 genotypes."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "ranitidine|ddi_risk",
+      "drug": "ranitidine",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 2,
+        "pd": 2
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:2878343",
+          "cls": "pd",
+          "text": "this type of drug interaction has been reported after administration of both cimetidine and ranitidine with procainamide or quinidine.(abstract truncated at 400 words)"
+        },
+        {
+          "pmid": "PMID:23454087",
+          "cls": "pd",
+          "text": "cimetidine and ranitidine, both cyp inhibitors as well as h2 blockers, caused relaxation of the term and preterm mouse da."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "aluminum-magnesium-hydroxide|neutralization_capacity",
+      "drug": "aluminum-magnesium-hydroxide",
+      "dim": "neutralization_capacity",
+      "current": 2,
+      "clean": 3,
+      "kw": 1,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "moderate": 1,
+        "strong": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:32110819",
+          "cls": "strong",
+          "text": "it is concluded that concomitant intake of al/mg hydroxide antacid or food with dexibuprofen has an impact to significantly alter its pharmacokinetic parameters."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "calcium-carbonate|renal_toxicity_risk",
+      "drug": "calcium-carbonate",
+      "dim": "renal_toxicity_risk",
+      "current": 1,
+      "clean": 3,
+      "kw": 1,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "strong": 2,
+        "moderate": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:7771488",
+          "cls": "strong",
+          "text": "oral calcium carbonate administration ameliorates the progression of renal failure in rats with hypertension."
+        },
+        {
+          "pmid": "PMID:1666497",
+          "cls": "strong",
+          "text": "for the subjects on chronic hemodialysis, most of the variability in the nonrenal clearance and the terminal-phase rate constant of temafloxacin was associated with the quantity of calcium carbonate and related medication taken for the trea"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "indomethacin|ddi_risk",
+      "drug": "indomethacin",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 3,
+      "labels": {
+        "none": 2,
+        "pd": 3
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:16487511",
+          "cls": "pd",
+          "text": "in this study, we investigated the effect of chemically unrelated nsaids in the proliferation of glioma cell lines and the possible mechanisms involved in indomethacin-mediated inhibition of proliferation in glioma cells lines."
+        },
+        {
+          "pmid": "PMID:16493584",
+          "cls": "pd",
+          "text": "morphological studies from rats treated with indomethacin (indo), a potent inhibitor of pg synthesis, provide evidence on the actions of nsaids in ovulation, as well as on the possible roles of pgs in the ovulatory process."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "piroxicam|ddi_risk",
+      "drug": "piroxicam",
+      "dim": "ddi_risk",
+      "current": 1,
+      "clean": 2,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 8,
+        "pd": 1,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:19467328",
+          "cls": "pd",
+          "text": "piroxicam was globally safer than other nsaids or=0.83 [0.73; 0.96], notably indomethacin [or=0.53 (0.43; 0.64], naproxen [or=0.75 (0.65; 0.85)] and salicylates [or=0.36 (0.17; 0.75)]."
+        },
+        {
+          "pmid": "PMID:17112811",
+          "cls": "pk",
+          "text": "impact of cyp2c9*3/*3 genotype on the pharmacokinetics and pharmacodynamics of piroxicam."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "aspirin|cv_risk",
+      "drug": "aspirin",
+      "dim": "cv_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 3,
+      "labels": {
+        "none": 2,
+        "strong": 3,
+        "moderate": 5
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:24605250",
+          "cls": "strong",
+          "text": "the detectable benefit of daily low-dose aspirin (at least 75 mg), as used to prevent cardiovascular disease events, strongly suggests that its antiplatelet action is central to explaining its antitumor efficacy."
+        },
+        {
+          "pmid": "PMID:37236757",
+          "cls": "strong",
+          "text": "this prostanoid plays a central role in atherothrombosis, as shown by the benefit of the antiplatelet agent low-dose aspirin, a preferential inhibitor of platelet cox-1."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "lisinopril|ddi_risk",
+      "drug": "lisinopril",
+      "dim": "ddi_risk",
+      "current": 1,
+      "clean": 2,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 9,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:7560247",
+          "cls": "pd",
+          "text": "thus, lisinopril, administered once daily for 12 weeks, was well tolerated and efficacious in the treatment of heart failure when used concomitantly with diuretics and digoxin."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "losartan|renal_protection",
+      "drug": "losartan",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "moderate": 2,
+        "strong": 2
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:39491028",
+          "cls": "strong",
+          "text": "losartan is more effective than angiotensin (1-7) in preventing thyroxine-induced renal injury in the rat."
+        },
+        {
+          "pmid": "PMID:39810058",
+          "cls": "strong",
+          "text": "synergy of zinc oxide nanoparticles to losartan attenuates kidney injury induced by unilateral ureteral obstruction through modulation of the tnf-α/il6 and bax/bcl2 signaling pathways."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "amlodipine|renal_protection",
+      "drug": "amlodipine",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:30341872",
+          "cls": "none",
+          "text": "combination therapies of amlodipine with other agents eliciting renin-angiotensin-aldosterone system blockade (angiotensin ii receptor blockers or renin inhibitors) have shown effective blood pressure-lowering strategies in cv risk reductio"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "metoprolol|metabolic_effect",
+      "drug": "metoprolol",
+      "dim": "metabolic_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 4,
+        "strong": 1,
+        "moderate": 3
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:22529202",
+          "cls": "strong",
+          "text": "divalproex sodium, sodium valproate, topiramate, metoprolol, propranolol, and timolol are effective for migraine prevention and should be offered to patients with migraine to reduce migraine attack frequency and severity (level a)."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "metoprolol|ddi_risk",
+      "drug": "metoprolol",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 5,
+      "labels": {
+        "none": 7,
+        "pk": 3,
+        "pd": 2
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:38951961",
+          "cls": "pk",
+          "text": "the level of evidence was high for associations between cyp2d6 genetic variation and both metoprolol exposure and heart rate response."
+        },
+        {
+          "pmid": "PMID:38951961",
+          "cls": "pd",
+          "text": "evidence indicates that cyp2d6 poor metabolizers experience clinically significant greater exposure and lower heart rate in response to metoprolol compared with those who are not poor metabolizers."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "hydrochlorothiazide|metabolic_effect",
+      "drug": "hydrochlorothiazide",
+      "dim": "metabolic_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": 3,
+      "support": 3,
+      "labels": {
+        "none": 1,
+        "strong": 3,
+        "moderate": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:38465625",
+          "cls": "strong",
+          "text": "as pk+ decreased in control mice, bp progressively increased and became sensitive to dietary nacl and hydrochlorothiazide, coincident with increased ncc phosphorylation and urinary sodium retention."
+        },
+        {
+          "pmid": "PMID:38465625",
+          "cls": "strong",
+          "text": "by contrast, bp in ca-spak mice was elevated, resistant to the pk+ titration, and sensitive to hydrochlorothiazide and salt at all pk+ levels, concomitant with sustained and elevated urinary sodium retention and ncc phosphorylation and acti"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "hydrochlorothiazide|ddi_risk",
+      "drug": "hydrochlorothiazide",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 3,
+      "support": 2,
+      "labels": {
+        "none": 9,
+        "pk": 1,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:8750372",
+          "cls": "pk",
+          "text": "drug interactions were evaluated by comparing the 24-hour area under the concentration-time curve (auc24) for losartan and its active metabolite, e-3174, when losartan (50 mg) was given alone or in combination with 12.5 mg hydrochlorothiazi"
+        },
+        {
+          "pmid": "PMID:10353300",
+          "cls": "pd",
+          "text": "valsartan/hydrochlorothiazide (hctz) combines an angiotensin ii at1 receptor blocker with a thiazide diuretic to produce additive blood pressure reductions without major effects on heart rate."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "chlorthalidone|renal_protection",
+      "drug": "chlorthalidone",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "strong": 2,
+        "moderate": 1,
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:37355779",
+          "cls": "strong",
+          "text": "evidence from the click (chlorthalidone in chronic kidney disease) trial indicates that the thiazide-like diuretic chlorthalidone is effective and serves as an alternative therapeutic opportunity for patients with stage 4 ckd and uncontroll"
+        },
+        {
+          "pmid": "PMID:34739197",
+          "cls": "strong",
+          "text": "we randomly assigned patients with stage 4 chronic kidney disease and poorly controlled hypertension, as confirmed by 24-hour ambulatory blood-pressure monitoring, in a 1:1 ratio to receive chlorthalidone at an initial dose of 12.5 mg per d"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "chlorthalidone|ddi_risk",
+      "drug": "chlorthalidone",
+      "dim": "ddi_risk",
+      "current": 1,
+      "clean": 3,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 6,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:36516076",
+          "cls": "pd",
+          "text": "in this large pragmatic trial of thiazide diuretics at doses commonly used in clinical practice, patients who received chlorthalidone did not have a lower occurrence of major cardiovascular outcome events or non-cancer-related deaths than p"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "tirzepatide|renal_benefit",
+      "drug": "tirzepatide",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 3,
+        "moderate": 1,
+        "strong": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:33778934",
+          "cls": "strong",
+          "text": "the pharmacokinetics (pk) and single-dose tolerability of tirzepatide, a dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist being developed for once-weekly treatment of type 2 diabetes (t2d), weig"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "captopril|ddi_risk",
+      "drug": "captopril",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 2,
+      "labels": {
+        "none": 7,
+        "pd": 2
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:2674438",
+          "cls": "pd",
+          "text": "interactions involving specific ace inhibitors include captopril-digoxin, resulting in decreased clearance of digoxin from plasma in patients with heart failure, and captopril-probenecid, causing a decrease in captopril clearance."
+        },
+        {
+          "pmid": "PMID:2674438",
+          "cls": "pd",
+          "text": "interactions involving bradykinin include captopril-indomethacin, in which an attenuation of the antihypertensive effects of captopril is manifest."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "valsartan|ddi_risk",
+      "drug": "valsartan",
+      "dim": "ddi_risk",
+      "current": 1,
+      "clean": 2,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 7,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:39260836",
+          "cls": "pd",
+          "text": "sacubitril/valsartan, a combination drug consisting of a neprilysin inhibitor and an angiotensin receptor blocker (arb), has shown a greater improvement in the prognosis of hf than ace inhibi"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "candesartan|electrolyte_risk",
+      "drug": "candesartan",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:18046913",
+          "cls": "none",
+          "text": "candesartan was well tolerated in the trials, with hyperkalemia, renal dysfunction, and hypotension being the most common adverse events."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "irbesartan|ddi_risk",
+      "drug": "irbesartan",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 4,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:38064121",
+          "cls": "pk",
+          "text": "physiologically based pharmacokinetic (pbpk) modeling to predict the pharmacokinetics of irbesartan in different cyp2c9 genotypes."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "olmesartan|ddi_risk",
+      "drug": "olmesartan",
+      "dim": "ddi_risk",
+      "current": 1,
+      "clean": 2,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 10,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:37559251",
+          "cls": "pd",
+          "text": "a study in 2019 suggested that se was related to olmesartan and with the possibility of angiotensin receptor blocker (arb) class effect."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "felodipine|ddi_risk",
+      "drug": "felodipine",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 6,
+        "pd": 1,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:3069435",
+          "cls": "pd",
+          "text": "as a second- or third-line treatment for patients with moderate to severe hypertension refractory to standard drug combinations, felodipine produced considerable reductions in blood pressure when added to beta-blockers and diuretics, either"
+        },
+        {
+          "pmid": "PMID:9723817",
+          "cls": "pk",
+          "text": "subsequent investigations showed that grapefruit juice acted by reducing presystemic felodipine metabolism through selective post-translational down regulation of cytochrome p450 3a4 (cyp3a4) expression in the intestinal wall."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "diltiazem|ddi_risk",
+      "drug": "diltiazem",
+      "dim": "ddi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 4,
+      "labels": {
+        "none": 6,
+        "pd": 3,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:15096363",
+          "cls": "pd",
+          "text": "potentially fatal interaction between diltiazem and statins."
+        },
+        {
+          "pmid": "PMID:10716041",
+          "cls": "pk",
+          "text": "pharmacokinetic interaction between diltiazem and tolbutamide."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "atenolol|renal_protection",
+      "drug": "atenolol",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 3,
+      "labels": {
+        "none": 1,
+        "strong": 3,
+        "moderate": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:6749509",
+          "cls": "strong",
+          "text": "in patients with impaired renal function elimination half life of atenolol gradually increases to values of 36 h in uraemic patients (glomerular filtration rate (gfr) less than 10 ml/min)."
+        },
+        {
+          "pmid": "PMID:6749509",
+          "cls": "strong",
+          "text": "between gfr and atenolol plasma clearance as well as renal clearance a close significant correlation is described."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "atenolol|ddi_risk",
+      "drug": "atenolol",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 2
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "indapamide|renal_protection",
+      "drug": "indapamide",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:6869203",
+          "cls": "strong",
+          "text": "no adverse effect of indapamide on renal function is evident in normal volunteers, hypertensive patients, or geriatric hypertensive patients, as determined by glomerular filtration rate or effective renal plasma flow."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "clonidine|renal_protection",
+      "drug": "clonidine",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 6,
+      "labels": {
+        "none": 4,
+        "strong": 6
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:7046065",
+          "cls": "strong",
+          "text": "clonidine may be safely given to patients with congestive heart failure, ischemic heart disease, obstructive lung disease, chronic renal insufficiency, and diabetes mellitus."
+        },
+        {
+          "pmid": "PMID:6154836",
+          "cls": "strong",
+          "text": "the effects of clonidine on renal hemodynamics and renal function make it a particularly useful antihypertensive agent."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "linagliptin|weight_effect",
+      "drug": "linagliptin",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 1,
+      "kw": null,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:30731650",
+          "cls": "none",
+          "text": "linagliptin treatment is well tolerated, with weight-neutral effects and no increased risk of hypoglycemia."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "alogliptin|weight_effect",
+      "drug": "alogliptin",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 5,
+      "labels": {
+        "none": 1,
+        "strong": 5,
+        "moderate": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:24532820",
+          "cls": "strong",
+          "text": "alogliptin appears to be weight neutral and is relatively well tolerated with few adverse effects."
+        },
+        {
+          "pmid": "PMID:31654243",
+          "cls": "strong",
+          "text": "there is a low risk of hypoglycemia, weight gain, acute pancreatitis, and gastrointestinal adverse events with alogliptin treatment, as demonstrated in long-term trials (lasting up to 4.5 years) and in a real-world setting."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "alogliptin|cv_outcome_benefit",
+      "drug": "alogliptin",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "moderate": 1,
+        "strong": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:31654243",
+          "cls": "strong",
+          "text": "overall, alogliptin is well-tolerated in patients with t2dm, including older patients, those with renal and/or hepatic impairment, and those at high risk of cardiovascular events."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "rosiglitazone|cv_outcome_benefit",
+      "drug": "rosiglitazone",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "strong": 2,
+        "moderate": 5
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:17145742",
+          "cls": "strong",
+          "text": "glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosiglitazone (p<0.05), and the risk associated with metformin was similar to that with rosiglitazone."
+        },
+        {
+          "pmid": "PMID:37318502",
+          "cls": "strong",
+          "text": "no causal effects between rosiglitazone and cardiovascular disease or risk factors: a mendelian randomization study."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "rosiglitazone|ddi_risk",
+      "drug": "rosiglitazone",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 1,
+      "support": 3,
+      "labels": {
+        "none": 6,
+        "pk": 2,
+        "pd": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:11417440",
+          "cls": "pk",
+          "text": "to investigate whether treatment with acarbose alters the pharmacokinetics (pk) of coadministered rosiglitazone."
+        },
+        {
+          "pmid": "PMID:11417440",
+          "cls": "pk",
+          "text": "the area under the concentration-time curve from time zero to infinity [auc(0-infinity)] was on average 12% lower (95% ci-21%, -2%) during rosiglitazone + acarbose coadministration and was accompanied by an approximate 1-h (23%) reduction i"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "glimepiride|renal_benefit",
+      "drug": "glimepiride",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:37213109",
+          "cls": "strong",
+          "text": "mean composite kidney disease progression occurred in 135 (10.6%) patients receiving sitagliptin; glimepiride, 155 (12.4%); liraglutide, 152 (12.0%); and insulin glargine, 150 (11.9%) (p = .56)."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "glyburide|cv_outcome_benefit",
+      "drug": "glyburide",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "strong": 1,
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:17145742",
+          "cls": "strong",
+          "text": "glyburide was associated with a lower risk of cardiovascular events (including congestive heart failure) than was rosiglitazone (p<0.05), and the risk associated with metformin was similar to that with rosiglitazone."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "glyburide|ddi_risk",
+      "drug": "glyburide",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:11368292",
+          "cls": "pk",
+          "text": "the oral clearances of the cyp2c9 substrates diclofenac, tolbutamide, glibenclamide (glyburide) and losartan are reduced by 15 to 25% when coadministered with fluvastatin."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "gliclazide|cv_outcome_benefit",
+      "drug": "gliclazide",
+      "dim": "cv_outcome_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "moderate": 1,
+        "strong": 2,
+        "none": 1
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:24533045",
+          "cls": "strong",
+          "text": "included were randomized studies of at least 12 weeks duration with the following outcomes: hba1c change, incidence of severe hypoglycemia, weight change, cardiovascular events and/or mortality when comparing gliclazide with other oral bloo"
+        },
+        {
+          "pmid": "PMID:36300277",
+          "cls": "strong",
+          "text": "cardiovascular outcome studies have shown no evidence of increased cardiovascular events with gliclazide, and the durability of glucose lowering effects is comparable to other drug groups."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "gliclazide|ddi_risk",
+      "drug": "gliclazide",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 5,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:19719333",
+          "cls": "pk",
+          "text": "clinical trials indicate that st john's wort (hypericum perforatum), via cytochrome p450 (cyp) and/or p-glycoprotein induction, reduces the plasma concentrations (and/or increases the clearance) of alprazolam, amitriptyline, atorvastatin, c"
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "acarbose|ddi_risk",
+      "drug": "acarbose",
+      "dim": "ddi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 1,
+      "support": 5,
+      "labels": {
+        "none": 7,
+        "pd": 4,
+        "pk": 1
+      },
+      "prior_source": "ddi_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:34029903",
+          "cls": "pd",
+          "text": "tea extracts in combination with acarbose, produced a synergistic inhibitory effect on rat maltase activity."
+        },
+        {
+          "pmid": "PMID:8893066",
+          "cls": "pd",
+          "text": "acarbose reversibly inhibits intestinal alpha-glucosidases, enzymes responsible for the metabolism of complex carbohydrates into absorbable monosaccharide units."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    },
+    {
+      "group": "repaglinide|renal_benefit",
+      "drug": "repaglinide",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "strong": 2
+      },
+      "prior_source": "batch4_rescore",
+      "basis": [
+        {
+          "pmid": "PMID:26941817",
+          "cls": "strong",
+          "text": "administration of metformin should be avoided in chronic renal failure (crf) because of lactic acidosis, the potentially fatal complication of metformin, but glipizide and repaglinide seem to be good choices."
+        },
+        {
+          "pmid": "PMID:12083976",
+          "cls": "strong",
+          "text": "repaglinide is well tolerated in patients with type 2 diabetes, including elderly patients and patients with hepatic or renal impairment."
+        }
+      ],
+      "why": "Batch-5 pool maps to a different value than the applied adjudication"
+    }
+  ],
+  "open_questions": [
+    {
+      "group": "ibuprofen|cv_risk",
+      "drug": "ibuprofen",
+      "dim": "cv_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "diclofenac|cv_risk",
+      "drug": "diclofenac",
+      "dim": "cv_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "diclofenac|renal_risk",
+      "drug": "diclofenac",
+      "dim": "renal_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "paracetamol|renal_risk",
+      "drug": "paracetamol",
+      "dim": "renal_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "pantoprazole|cdi_risk",
+      "drug": "pantoprazole",
+      "dim": "cdi_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "moderate": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "pantoprazole|acid_rebound",
+      "drug": "pantoprazole",
+      "dim": "acid_rebound",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "lansoprazole|cdi_risk",
+      "drug": "lansoprazole",
+      "dim": "cdi_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "rabeprazole|acid_rebound",
+      "drug": "rabeprazole",
+      "dim": "acid_rebound",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "naproxen|cv_risk",
+      "drug": "naproxen",
+      "dim": "cv_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 5,
+        "moderate": 5,
+        "strong": 1,
+        "negative": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "piroxicam|cv_risk",
+      "drug": "piroxicam",
+      "dim": "cv_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "aspirin|renal_risk",
+      "drug": "aspirin",
+      "dim": "renal_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 3,
+        "moderate": 4,
+        "strong": 1,
+        "negative": 2
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "amlodipine|metabolic_effect",
+      "drug": "amlodipine",
+      "dim": "metabolic_effect",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 2
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "amlodipine|electrolyte_risk",
+      "drug": "amlodipine",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "moderate": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "metoprolol|electrolyte_risk",
+      "drug": "metoprolol",
+      "dim": "electrolyte_risk",
+      "current": 1,
+      "clean": 3,
+      "kw": 1,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "chlorthalidone|bp_reduction",
+      "drug": "chlorthalidone",
+      "dim": "bp_reduction",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 2,
+      "labels": {
+        "none": 6,
+        "moderate": 2
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "chlorthalidone|metabolic_effect",
+      "drug": "chlorthalidone",
+      "dim": "metabolic_effect",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "metformin|weight_effect",
+      "drug": "metformin",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1,
+        "moderate": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "valsartan|electrolyte_risk",
+      "drug": "valsartan",
+      "dim": "electrolyte_risk",
+      "current": 1,
+      "clean": 3,
+      "kw": 1,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "strong": 1,
+        "moderate": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "olmesartan|renal_protection",
+      "drug": "olmesartan",
+      "dim": "renal_protection",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 4,
+      "labels": {
+        "none": 3,
+        "moderate": 4
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "olmesartan|metabolic_effect",
+      "drug": "olmesartan",
+      "dim": "metabolic_effect",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 2,
+      "labels": {
+        "none": 1,
+        "moderate": 2,
+        "negative": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "telmisartan|renal_protection",
+      "drug": "telmisartan",
+      "dim": "renal_protection",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 4,
+      "labels": {
+        "none": 1,
+        "moderate": 4
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "telmisartan|electrolyte_risk",
+      "drug": "telmisartan",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "verapamil|metabolic_effect",
+      "drug": "verapamil",
+      "dim": "metabolic_effect",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 2,
+      "labels": {
+        "none": 9,
+        "moderate": 2
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "atenolol|electrolyte_risk",
+      "drug": "atenolol",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "carvedilol|metabolic_effect",
+      "drug": "carvedilol",
+      "dim": "metabolic_effect",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "negative": 1,
+        "moderate": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "propranolol|electrolyte_risk",
+      "drug": "propranolol",
+      "dim": "electrolyte_risk",
+      "current": 3,
+      "clean": 1,
+      "kw": 3,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "terazosin|electrolyte_risk",
+      "drug": "terazosin",
+      "dim": "electrolyte_risk",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "moderate": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "hydralazine|bp_reduction",
+      "drug": "hydralazine",
+      "dim": "bp_reduction",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 3,
+      "labels": {
+        "none": 8,
+        "moderate": 3,
+        "negative": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "hydralazine|renal_protection",
+      "drug": "hydralazine",
+      "dim": "renal_protection",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "strong": 1,
+        "negative": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "hydralazine|electrolyte_risk",
+      "drug": "hydralazine",
+      "dim": "electrolyte_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 3
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    },
+    {
+      "group": "dulaglutide|renal_benefit",
+      "drug": "dulaglutide",
+      "dim": "renal_benefit",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 7,
+      "labels": {
+        "none": 3,
+        "moderate": 7
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "exenatide|renal_benefit",
+      "drug": "exenatide",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "moderate": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "sitagliptin|hypoglycemia_risk",
+      "drug": "sitagliptin",
+      "dim": "hypoglycemia_risk",
+      "current": 3,
+      "clean": 1,
+      "kw": 3,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "saxagliptin|weight_effect",
+      "drug": "saxagliptin",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "negative": 2,
+        "moderate": 2,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "linagliptin|cv_outcome_benefit",
+      "drug": "linagliptin",
+      "dim": "cv_outcome_benefit",
+      "current": 3,
+      "clean": 2,
+      "kw": 3,
+      "support": 1,
+      "labels": {
+        "none": 5,
+        "moderate": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "linagliptin|gi_tolerability",
+      "drug": "linagliptin",
+      "dim": "gi_tolerability",
+      "current": 3,
+      "clean": 1,
+      "kw": 3,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+    },
+    {
+      "group": "vildagliptin|hypoglycemia_risk",
+      "drug": "vildagliptin",
+      "dim": "hypoglycemia_risk",
+      "current": 2,
+      "clean": 3,
+      "kw": 1,
+      "support": 1,
+      "labels": {
+        "moderate": 1,
+        "strong": 1,
+        "none": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "pioglitazone|weight_effect",
+      "drug": "pioglitazone",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "rosiglitazone|renal_benefit",
+      "drug": "rosiglitazone",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "moderate": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "glyburide|weight_effect",
+      "drug": "glyburide",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "glyburide|renal_benefit",
+      "drug": "glyburide",
+      "dim": "renal_benefit",
+      "current": 2,
+      "clean": 3,
+      "kw": 2,
+      "support": 1,
+      "labels": {
+        "none": 2,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "insulin-aspart|weight_effect",
+      "drug": "insulin-aspart",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "insulin-degludec|weight_effect",
+      "drug": "insulin-degludec",
+      "dim": "weight_effect",
+      "current": 2,
+      "clean": 3,
+      "kw": null,
+      "support": 1,
+      "labels": {
+        "none": 1,
+        "strong": 1
+      },
+      "question": "single-signal raise (support=1)"
+    },
+    {
+      "group": "acarbose|hypoglycemia_risk",
+      "drug": "acarbose",
+      "dim": "hypoglycemia_risk",
+      "current": 2,
+      "clean": 1,
+      "kw": 2,
+      "support": 0,
+      "labels": {
+        "none": 1
+      },
+      "question": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+    }
+  ],
+  "holds": [
+    "ibuprofen|ddi_risk",
+    "diclofenac|ddi_risk",
+    "celecoxib|gi_risk",
+    "paracetamol|ddi_risk",
+    "atorvastatin|myopathy_risk",
+    "simvastatin|myopathy_risk",
+    "pravastatin|myopathy_risk",
+    "pravastatin|ddi_risk",
+    "lovastatin|myopathy_risk",
+    "omeprazole|acid_rebound",
+    "lansoprazole|acid_rebound",
+    "rabeprazole|bone_fracture_risk",
+    "calcium-carbonate|neutralization_capacity",
+    "sucralfate|ulcer_healing",
+    "naproxen|gi_risk",
+    "naproxen|ddi_risk",
+    "indomethacin|gi_risk",
+    "meloxicam|cv_risk",
+    "meloxicam|ddi_risk",
+    "piroxicam|gi_risk",
+    "ketorolac|gi_risk",
+    "aspirin|gi_risk",
+    "lisinopril|bp_reduction",
+    "lisinopril|renal_protection",
+    "lisinopril|electrolyte_risk",
+    "losartan|bp_reduction",
+    "losartan|metabolic_effect",
+    "amlodipine|bp_reduction",
+    "metoprolol|bp_reduction",
+    "metoprolol|renal_protection",
+    "hydrochlorothiazide|bp_reduction",
+    "hydrochlorothiazide|electrolyte_risk",
+    "chlorthalidone|electrolyte_risk",
+    "metformin|a1c_reduction",
+    "metformin|cv_outcome_benefit",
+    "metformin|renal_benefit",
+    "metformin|gi_tolerability",
+    "metformin|hypoglycemia_risk",
+    "empagliflozin|a1c_reduction",
+    "empagliflozin|weight_effect",
+    "empagliflozin|cv_outcome_benefit",
+    "empagliflozin|renal_benefit",
+    "empagliflozin|hypoglycemia_risk",
+    "dapagliflozin|a1c_reduction",
+    "dapagliflozin|weight_effect",
+    "dapagliflozin|renal_benefit",
+    "semaglutide|a1c_reduction",
+    "semaglutide|cv_outcome_benefit",
+    "semaglutide|renal_benefit",
+    "semaglutide|gi_tolerability",
+    "tirzepatide|a1c_reduction",
+    "tirzepatide|weight_effect",
+    "tirzepatide|cv_outcome_benefit",
+    "insulin-glargine|a1c_reduction",
+    "insulin-glargine|weight_effect",
+    "insulin-glargine|hypoglycemia_risk",
+    "enalapril|bp_reduction",
+    "enalapril|renal_protection",
+    "enalapril|metabolic_effect",
+    "enalapril|electrolyte_risk",
+    "ramipril|bp_reduction",
+    "ramipril|renal_protection",
+    "ramipril|metabolic_effect",
+    "perindopril|bp_reduction",
+    "perindopril|renal_protection",
+    "perindopril|metabolic_effect",
+    "perindopril|electrolyte_risk",
+    "captopril|bp_reduction",
+    "captopril|renal_protection",
+    "captopril|metabolic_effect",
+    "captopril|electrolyte_risk",
+    "trandolapril|bp_reduction",
+    "trandolapril|renal_protection",
+    "trandolapril|metabolic_effect",
+    "trandolapril|electrolyte_risk",
+    "valsartan|bp_reduction",
+    "valsartan|renal_protection",
+    "valsartan|metabolic_effect",
+    "candesartan|bp_reduction",
+    "irbesartan|bp_reduction",
+    "irbesartan|renal_protection",
+    "irbesartan|metabolic_effect",
+    "olmesartan|bp_reduction",
+    "telmisartan|bp_reduction",
+    "nifedipine|bp_reduction",
+    "nifedipine|renal_protection",
+    "nifedipine|metabolic_effect",
+    "felodipine|bp_reduction",
+    "felodipine|renal_protection",
+    "felodipine|electrolyte_risk",
+    "diltiazem|bp_reduction",
+    "diltiazem|metabolic_effect",
+    "verapamil|bp_reduction",
+    "verapamil|renal_protection",
+    "atenolol|bp_reduction",
+    "atenolol|metabolic_effect",
+    "bisoprolol|bp_reduction",
+    "bisoprolol|metabolic_effect",
+    "bisoprolol|electrolyte_risk",
+    "carvedilol|bp_reduction",
+    "carvedilol|renal_protection",
+    "carvedilol|electrolyte_risk",
+    "propranolol|bp_reduction",
+    "propranolol|metabolic_effect",
+    "nebivolol|bp_reduction",
+    "nebivolol|electrolyte_risk",
+    "furosemide|bp_reduction",
+    "furosemide|renal_protection",
+    "spironolactone|bp_reduction",
+    "spironolactone|renal_protection",
+    "spironolactone|electrolyte_risk",
+    "indapamide|bp_reduction",
+    "indapamide|metabolic_effect",
+    "doxazosin|bp_reduction",
+    "doxazosin|renal_protection",
+    "doxazosin|metabolic_effect",
+    "doxazosin|electrolyte_risk",
+    "terazosin|bp_reduction",
+    "terazosin|renal_protection",
+    "terazosin|metabolic_effect",
+    "clonidine|bp_reduction",
+    "hydralazine|metabolic_effect",
+    "methyldopa|bp_reduction",
+    "methyldopa|renal_protection",
+    "canagliflozin|a1c_reduction",
+    "canagliflozin|weight_effect",
+    "canagliflozin|cv_outcome_benefit",
+    "canagliflozin|renal_benefit",
+    "canagliflozin|hypoglycemia_risk",
+    "ertugliflozin|a1c_reduction",
+    "ertugliflozin|cv_outcome_benefit",
+    "ertugliflozin|renal_benefit",
+    "ertugliflozin|ddi_risk",
+    "ertugliflozin|hypoglycemia_risk",
+    "liraglutide|a1c_reduction",
+    "liraglutide|cv_outcome_benefit",
+    "liraglutide|renal_benefit",
+    "liraglutide|gi_tolerability",
+    "dulaglutide|a1c_reduction",
+    "dulaglutide|cv_outcome_benefit",
+    "dulaglutide|gi_tolerability",
+    "exenatide|a1c_reduction",
+    "exenatide|gi_tolerability",
+    "exenatide|hypoglycemia_risk",
+    "sitagliptin|a1c_reduction",
+    "sitagliptin|weight_effect",
+    "sitagliptin|cv_outcome_benefit",
+    "sitagliptin|renal_benefit",
+    "saxagliptin|a1c_reduction",
+    "saxagliptin|cv_outcome_benefit",
+    "saxagliptin|renal_benefit",
+    "linagliptin|a1c_reduction",
+    "linagliptin|renal_benefit",
+    "linagliptin|hypoglycemia_risk",
+    "alogliptin|a1c_reduction",
+    "alogliptin|renal_benefit",
+    "alogliptin|ddi_risk",
+    "alogliptin|hypoglycemia_risk",
+    "vildagliptin|a1c_reduction",
+    "vildagliptin|renal_benefit",
+    "pioglitazone|a1c_reduction",
+    "pioglitazone|cv_outcome_benefit",
+    "pioglitazone|renal_benefit",
+    "rosiglitazone|a1c_reduction",
+    "rosiglitazone|gi_tolerability",
+    "glipizide|a1c_reduction",
+    "glipizide|cv_outcome_benefit",
+    "glipizide|gi_tolerability",
+    "glipizide|hypoglycemia_risk",
+    "glimepiride|a1c_reduction",
+    "glimepiride|cv_outcome_benefit",
+    "glimepiride|ddi_risk",
+    "glimepiride|hypoglycemia_risk",
+    "glyburide|a1c_reduction",
+    "glyburide|hypoglycemia_risk",
+    "gliclazide|a1c_reduction",
+    "gliclazide|renal_benefit",
+    "gliclazide|hypoglycemia_risk",
+    "insulin-aspart|a1c_reduction",
+    "insulin-lispro|a1c_reduction",
+    "insulin-lispro|weight_effect",
+    "insulin-lispro|renal_benefit",
+    "insulin-degludec|a1c_reduction",
+    "insulin-degludec|hypoglycemia_risk",
+    "acarbose|a1c_reduction",
+    "acarbose|renal_benefit",
+    "acarbose|gi_tolerability",
+    "repaglinide|a1c_reduction",
+    "repaglinide|hypoglycemia_risk",
+    "pramlintide|a1c_reduction",
+    "pramlintide|renal_benefit",
+    "pramlintide|gi_tolerability"
+  ]
+}

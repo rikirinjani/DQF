@@ -1,0 +1,225 @@
+{
+ "generated": "2026-09-28",
+ "status": "APPROVED by user 2026-09-28 - 11 vetted changes applied to api/drugs.json",
+ "source_draft": "rag-queries/curation/batch5_rescore_draft.json",
+ "rule_set": {
+  "mechanical": "Rule N: clean(strong->3/moderate->2/else 1; ddi = _score_risk on pk/pd-filtered) + support>=2 for raises + kw<cur confirmation for drops",
+  "vetting_layer": "Every proposal's basis sentence manually checked before applying. Misattributed (wrong drug/construct), irrelevant, or single-none-sentence bases demoted to open questions - absence of evidence is not evidence of absence.",
+  "locked": "6 anticoagulants excluded; 54 batch4_rescore cells + 62 ddi_rescore cells locked (44 disagreements routed to conflicts, never auto-applied)"
+ },
+ "applied": [
+  {
+   "group": "furosemide|electrolyte_risk",
+   "drug": "furosemide",
+   "dim": "electrolyte_risk",
+   "old": 2,
+   "new": 3,
+   "basis": "urinary spot sodium and urine output measured at baseline, 2, and 6 h after 40 mg iv (PMID 41569687); strong:5 - loop diuretic electrolyte loss",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "losartan|electrolyte_risk",
+   "drug": "losartan",
+   "dim": "electrolyte_risk",
+   "old": 1,
+   "new": 3,
+   "basis": "double-blind randomized study evaluating losartan potassium monotherapy or in combination (PMID 18328120); strong:2 - potassium salt, hyperkalemia risk; note 2-step jump",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "diltiazem|renal_protection",
+   "drug": "diltiazem",
+   "dim": "renal_protection",
+   "old": 2,
+   "new": 3,
+   "basis": "IV infusion of diltiazem improves renal function (PMID 36354148); strong:3",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "hydrochlorothiazide|renal_protection",
+   "drug": "hydrochlorothiazide",
+   "dim": "renal_protection",
+   "old": 2,
+   "new": 3,
+   "basis": "hydrochlorothiazide and prevention of kidney-stone recurrence (PMID 36856614, NEJM RCT); strong:2",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "clonidine|metabolic_effect",
+   "drug": "clonidine",
+   "dim": "metabolic_effect",
+   "old": 2,
+   "new": 3,
+   "basis": "clonidine withdrawn -> glucose intolerance subsided (PMID 6279379); strong:2 - old study (1979)",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "exenatide|cv_outcome_benefit",
+   "drug": "exenatide",
+   "dim": "cv_outcome_benefit",
+   "old": 2,
+   "new": 3,
+   "basis": "long-term changes in cardiovascular risk markers during exenatide twice daily (PMID 26338040); strong:2",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "liraglutide|weight_effect",
+   "drug": "liraglutide",
+   "dim": "weight_effect",
+   "old": 2,
+   "new": 3,
+   "basis": "mean hba1c and weight reductions were 12.3 mmol/mol (1.13%; p<0.001) and 3.8 kg (PMID 29527308); strong:3",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "piroxicam|renal_risk",
+   "drug": "piroxicam",
+   "dim": "renal_risk",
+   "old": 2,
+   "new": 3,
+   "basis": "renal effects of ibuprofen, piroxicam, and sulindac in patients with asymptomatic renal failure (PMID 2183665); strong:2",
+   "basis_quality": "solid"
+  },
+  {
+   "group": "insulin-glargine|cv_outcome_benefit",
+   "drug": "insulin-glargine",
+   "dim": "cv_outcome_benefit",
+   "old": 2,
+   "new": 1,
+   "basis": "DEVOTE trial - cardiovascular outcomes by treatment group (PMID 38344820): CV safety demonstrated, no CV benefit; kw=1 confirms direction",
+   "basis_quality": "defensible (support 0, direction confirmed)"
+  },
+  {
+   "group": "insulin-glargine|renal_benefit",
+   "drug": "insulin-glargine",
+   "dim": "renal_benefit",
+   "old": 2,
+   "new": 1,
+   "basis": "safety analysis of insulin glargine u300 in 21,359 patients (PMID 39972199): no renal benefit demonstrated; kw=1 confirms direction",
+   "basis_quality": "defensible (support 0, direction confirmed)"
+  },
+  {
+   "group": "meloxicam|gi_risk",
+   "drug": "meloxicam",
+   "dim": "gi_risk",
+   "old": 3,
+   "new": 2,
+   "basis": "unlike nonselective nsaids, meloxicam's blockade of txa2 formation (PMID 12162470); moderate:1 - gentler GI profile than nonselective NSAIDs",
+   "basis_quality": "defensible"
+  }
+ ],
+ "demoted_to_open_questions": [
+  {
+   "group": "sodium-alginate|raft_strength",
+   "reason": "materials-science framing; raft formation is the class core mechanism"
+  },
+  {
+   "group": "sodium-alginate|reflux_suppression",
+   "reason": "single moderate sentence"
+  },
+  {
+   "group": "bisoprolol|renal_protection",
+   "reason": "basis is clearance PK (renal dependence), not protection"
+  },
+  {
+   "group": "diltiazem|electrolyte_risk",
+   "reason": "basis is epidural-fibrosis text, irrelevant; kw disagrees with raise"
+  },
+  {
+   "group": "felodipine|metabolic_effect",
+   "reason": "basis is diuresis/natriuresis (electrolyte/renal), not metabolic"
+  },
+  {
+   "group": "nebivolol|metabolic_effect",
+   "reason": "basis is generic drug description, no metabolic content"
+  },
+  {
+   "group": "alogliptin|gi_tolerability",
+   "reason": "single moderate (dizziness/syncope case)"
+  },
+  {
+   "group": "ertugliflozin|gi_tolerability",
+   "reason": "basis is about metformin's GI side effects - wrong drug"
+  },
+  {
+   "group": "gliclazide|weight_effect",
+   "reason": "basis is HbA1c text, not weight"
+  },
+  {
+   "group": "glipizide|weight_effect",
+   "reason": "basis is glycemic-efficacy text, not weight"
+  },
+  {
+   "group": "glyburide|gi_tolerability",
+   "reason": "basis is rosiglitazone weight/edema, not GI"
+  },
+  {
+   "group": "insulin-lispro|hypoglycemia_risk",
+   "reason": "single none sentence, truncated basis"
+  },
+  {
+   "group": "liraglutide|hypoglycemia_risk",
+   "reason": "basis lists hypoglycemia as common adverse reaction - contradicts drop"
+  },
+  {
+   "group": "pramlintide|cv_outcome_benefit",
+   "reason": "basis is CV safety assessment - safety is not benefit"
+  },
+  {
+   "group": "repaglinide|cv_outcome_benefit",
+   "reason": "truncated basis, could be CV-risk increase"
+  },
+  {
+   "group": "repaglinide|gi_tolerability",
+   "reason": "basis affirms safe drug/mild adverse events - contradicts drop"
+  },
+  {
+   "group": "saxagliptin|gi_tolerability",
+   "reason": "single none sentence, truncated basis"
+  },
+  {
+   "group": "sitagliptin|gi_tolerability",
+   "reason": "basis (similar incidence rates) supports tolerability - contradicts drop"
+  },
+  {
+   "group": "tirzepatide|gi_tolerability",
+   "reason": "single moderate (hyponatremia text)"
+  },
+  {
+   "group": "vildagliptin|weight_effect",
+   "reason": "basis is exenatide WMD text - wrong drug"
+  },
+  {
+   "group": "sucralfate|barrier_protection",
+   "reason": "basis affirms widely known mucoprotective agent - contradicts drop"
+  },
+  {
+   "group": "ibuprofen|gi_risk",
+   "reason": "basis is GI-bleeding OR study labeled none - ibuprofen has black-box GI warning; drop clinically wrong"
+  },
+  {
+   "group": "meloxicam|renal_risk",
+   "reason": "basis says renal dysfunction has no relevant effect - backwards for a risk raise"
+  },
+  {
+   "group": "pitavastatin|myopathy_risk",
+   "reason": "single none sentence; partially supports but insufficient"
+  },
+  {
+   "group": "rosuvastatin|myopathy_risk",
+   "reason": "genes/pathways text, no myopathy content"
+  }
+ ],
+ "untouched": {
+  "conflicts_with_prior_adjudication": 44,
+  "open_questions_preexisting": 44,
+  "holds": 192,
+  "locked_groups": 116,
+  "categorical_skipped": "25 heart_rate_effect cells (string-typed, not 1-3 scale)"
+ },
+ "verification": {
+  "pre_check": "11/11 currents matched draft expectations before write",
+  "git_diff": "exactly 11 insertions / 11 deletions in api/drugs.json, no formatting noise (round-trip settings identical to merge_l3.py: indent=2, ensure_ascii=False)",
+  "basis_pmids": "all 11 basis PMIDs already present in each drug's _evidence.pmids corpus pool - no evidence changes needed"
+ }
+}
