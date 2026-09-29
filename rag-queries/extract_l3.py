@@ -784,8 +784,10 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
                         "minimal absorption", "not absorbed",
                         "insignificant absorption"],
             default=1,
-            adverse_context_terms=["toxicity", "encephalopathy", "accumulation",
-                                   "hypermagnesemia", "poisoning"],
+            # NOTE: no adverse_context_terms on this RISK dimension --
+            # toxicity/encephalopathy/accumulation sentences are the evidence;
+            # routing them to mitigation inverted the score (harm text lowered
+            # the risk score).
             drug_name=drug_name)
         # Interaction dimension (mirrors Alginate/Mucosal): antacids chelate or
         # adsorb co-administered drugs and raise gastric pH, altering their
@@ -870,8 +872,10 @@ def extract_l3_profile(drug: dict, raw_files: list[Path], templates: dict) -> di
                         "minimal absorption", "not absorbed",
                         "insignificant absorption"],
             default=1,
-            adverse_context_terms=["toxicity", "encephalopathy", "accumulation",
-                                   "poisoning"],
+            # NOTE: no adverse_context_terms here (nor on renal_toxicity_risk
+            # above): this is a RISK dimension -- toxicity/accumulation
+            # sentences ARE the evidence, and routing them to mitigation
+            # inverted the score (harm text lowered the risk score).
             drug_name=drug_name)
         profile["ddi_risk"] = _score_risk(findings,
             keywords=["drug interaction", "interaction", "binding", "chelation",
@@ -1343,10 +1347,15 @@ def _score_risk(findings: list, keywords: list[str], default: int = 1,
                 mit_findings += 1
 
     match_count = len(matched_keywords)
+    # Saturation guard: with default=2, "one keyword hit == max score" collapses
+    # the 1-vs-3+ evidence distinction (a single keyword sentence would clip
+    # straight to 3 and make the >=3 threshold unreachable). A default of 2
+    # therefore requires TWO distinct keyword hits to reach 3; default=1 keeps
+    # the original 1-hit->2 / 3+-hit->3 escalation.
     if match_count >= 3:
         score = min(3, default + 2)
     elif match_count >= 1:
-        score = min(3, default + 1)
+        score = min(3, default + 1) if default < 2 else 2
 
     if match_count >= 1 or neg_findings >= 1:
         if int_findings >= 1:
@@ -1567,12 +1576,20 @@ def _extract_cyp2c19(findings: list, drug_id: str = None, drug_name: str = None)
 
     all_text = " ".join(f["text"] for f in findings)
 
+    # Range-aware pattern FIRST: "CYP2C19 (60-80%)" / "CYP2C19: 60-80%".
+    # Previously the broad single-number pattern below ran earlier and its
+    # greedy [^.]*? capture swallowed the range's upper bound ("(60-80%)"
+    # -> 80); ranges must be matched (and midpointed) before single numbers.
+    m = re.search(r'CYP2C19\s*[\(\:\s]+(\d+)\s*-\s*(\d+)\s*%', all_text, re.I)
+    if m:
+        return (int(m.group(1)) + int(m.group(2))) // 2
+
     # Pattern 1: "70% metabolized via CYP2C19"
     m = re.search(r'(\d+)\s*%\s*(?:metabolized|via|through|by)\s*CYP2C19', all_text, re.I)
     if m:
         return int(m.group(1))
 
-    # Pattern 2: "CYP2C19 ... 70%"
+    # Pattern 2: "CYP2C19 ... 70%" (single number only; ranges handled above)
     m = re.search(r'CYP2C19[^.]*?(\d+)\s*%', all_text, re.I)
     if m:
         return int(m.group(1))
@@ -1581,13 +1598,6 @@ def _extract_cyp2c19(findings: list, drug_id: str = None, drug_name: str = None)
     m = re.search(r'(?:accounts? for|responsible for|mediated by|pathway for)\s*(\d+)\s*%\s*of\s*(?:the\s*)?metabolism', all_text, re.I)
     if m:
         return int(m.group(1))
-
-    # Pattern 4: "CYP2C19 (60-80%)" or "CYP2C19: 60-80%"
-    m = re.search(r'CYP2C19\s*[\(\:\s]+(\d+)\s*-?\s*(\d+)?\s*%', all_text, re.I)
-    if m:
-        v1 = int(m.group(1))
-        v2 = int(m.group(2)) if m.group(2) else None
-        return (v1 + v2) // 2 if v2 else v1
 
     # Fallback: known defaults per drug (well-established PK constants)
     if drug_id and drug_id.lower() in PPI_CYP2C19_DEFAULTS:
@@ -1858,7 +1868,7 @@ def _score_weight_effect(findings: list) -> int:
     all_text = " ".join(f["text"].lower() for f in findings)
     loss_kw = ["weight loss", "weight reduction", "decreased weight", "weight decrease",
                "lost weight", "reduced weight", "body weight reduction"]
-    gain_kw = ["weight gain", "weight increase", "increased weight", "weight gain",
+    gain_kw = ["weight gain", "weight increase", "increased weight",
                "body weight increase", "edema"]
     has_loss = any(kw in all_text for kw in loss_kw)
     has_gain = any(kw in all_text for kw in gain_kw)

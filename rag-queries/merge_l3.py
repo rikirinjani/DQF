@@ -13,7 +13,7 @@ What it does:
     3. Writes updated drugs.json (with .bak backup)
 """
 
-import json, shutil, sys
+import json, os, shutil, sys
 from pathlib import Path
 from datetime import datetime
 
@@ -71,17 +71,33 @@ def dry_run(profiles: dict[str, dict], drugs: list[dict]):
 
 
 def backup_drugs_json():
-    """Create timestamped backup before modifying."""
+    """Create timestamped backup before modifying (collision-safe)."""
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     backup = BACKUP_DIR / f"drugs_{ts}.json"
+    n = 1
+    while backup.exists():  # same-second collisions get a suffix
+        backup = BACKUP_DIR / f"drugs_{ts}_{n}.json"
+        n += 1
     shutil.copy2(DRUGS_JSON, backup)
     print(f"  Backup written: {backup}")
     return backup
 
 
-def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True) -> int:
-    """Patch l3_systems for each matching drug. Returns count of drugs updated."""
+# Fields whose current values were set by human adjudication and must NOT be
+# silently overwritten by a pipeline re-run. Extend via --lock (not yet wired).
+DEFAULT_LOCKED_FIELDS: set[str] = set()
+
+
+def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True,
+          locked_fields: set[str] | None = None) -> int:
+    """Patch l3_systems for each matching drug. Returns count of drugs updated.
+
+    locked_fields: dims whose CURRENT drugs.json values are human-adjudicated;
+    a pipeline re-run never overwrites them (a None/empty pipeline value still
+    leaves the expert value untouched, as before).
+    """
+    locked = DEFAULT_LOCKED_FIELDS if locked_fields is None else set(locked_fields)
     updated = 0
     for drug in drugs:
         drug_id = drug["id"]
@@ -116,6 +132,10 @@ def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True) -> i
                     existing[k] = v
             else:
                 # Scalar field: pipeline's evidence-based value takes priority
+                # — EXCEPT for locked (human-adjudicated) dims, where a stale
+                # pipeline re-run must never silently overwrite expert values.
+                if k in locked and k in existing and existing[k] is not None:
+                    continue
                 existing[k] = v
 
         # Attach evidence trail to the drug entry (not in l3_systems schema)
@@ -128,9 +148,13 @@ def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True) -> i
         updated += 1
 
     if write:
-        with open(DRUGS_JSON, "w", encoding="utf-8") as f:
+        # Atomic write: dump to a sibling temp file, then os.replace — a crash
+        # mid-write can no longer leave a truncated drugs.json behind.
+        tmp = DRUGS_JSON.with_suffix(".json.tmp")
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump({"drugs": drugs}, f, indent=2, ensure_ascii=False)
-        print(f"  Updated {DRUGS_JSON} ({updated} drugs patched)")
+        os.replace(tmp, DRUGS_JSON)
+        print(f"  Updated {DRUGS_JSON} ({updated} drugs patched, atomic write)")
     return updated
 
 

@@ -82,6 +82,20 @@ async def query_tool_ui():
 # Scoring engine
 # ---------------------------------------------------------------------------
 
+def _num(v, default=0.0):
+    """Null-safe numeric coercion for data-fed reads.
+
+    drugs.json carries explicit nulls (e.g. lovastatin.half_life_h,
+    cimetidine.cdi_risk, warfarin.onset_min). For an existing key holding
+    null, dict.get(key, default) returns None — NOT the default — so any
+    downstream comparison (None < 4) raises TypeError. This guard treats
+    None / NaN / bool / non-numeric as `default`.
+    """
+    if isinstance(v, (int, float)) and not isinstance(v, bool) and v == v:
+        return v
+    return default
+
+
 def _compute_efficacy(drug, pain_type, cv_risk):
     """Efficacy score based on L4 clinical data, respecting indication boundaries."""
     cls = drug["class"]
@@ -91,11 +105,17 @@ def _compute_efficacy(drug, pain_type, cv_risk):
 
     if cls == "NSAID":
         # NSAIDs treat pain — NNT for pain relief is the right metric
-        nnt = l4["nnt_50_pain_relief"]["value"]
+        nnt_raw = (l4.get("nnt_50_pain_relief") or {}).get("value")
+        if not isinstance(nnt_raw, (int, float)) or isinstance(nnt_raw, bool) \
+                or nnt_raw != nnt_raw or nnt_raw <= 0:
+            nnt = 4.0  # documented fallback (class-median NNT); invalid/absent data must not crash
+        else:
+            nnt = float(nnt_raw)
+        # NaN guard: NaN != NaN above; arithmetic below stays finite
         score = max(0.0, 10.0 - (nnt - 2.0) * 2.5)
 
         # pain_type matches indications → +1
-        indications = [ind.lower() for ind in l4["indications"]]
+        indications = [ind.lower() for ind in (l4.get("indications") or [])]
         if any(pain_type in ind for ind in indications):
             score += 1
 
@@ -105,20 +125,23 @@ def _compute_efficacy(drug, pain_type, cv_risk):
 
     elif cls == "Statin":
         # Statins prevent CV events — they don't treat pain
+        nnt_raw = (l4.get("nnt_mace_5yr") or {}).get("value")
+        nnt_ok = isinstance(nnt_raw, (int, float)) and not isinstance(nnt_raw, bool) \
+            and nnt_raw == nnt_raw and nnt_raw > 0
         if pain_type and pain_type != "none":
             if cv_risk in ("moderate", "high"):
-                nnt = l4["nnt_mace_5yr"]["value"]
+                nnt = float(nnt_raw) if nnt_ok else 40.0  # documented fallback (class-anchor)
                 score = 9.0 - (nnt - 40.0) * (2.0 / 15.0)
             else:
                 score = 0.5
         else:
-            nnt = l4["nnt_mace_5yr"]["value"]
+            nnt = float(nnt_raw) if nnt_ok else 40.0
             score = 9.0 - (nnt - 40.0) * (2.0 / 15.0)
 
     elif cls in ("PPI", "H2RA", "Antacid", "Alginate"):
         # GI drugs — score based on healing rate + acid suppression
-        ee_8wk = l4.get("ee_healing_8wk_pct", 0)
-        du_4wk = l4.get("duodenal_ulcer_healing_4wk_pct", 0)
+        ee_8wk = _num(l4.get("ee_healing_8wk_pct"))
+        du_4wk = _num(l4.get("duodenal_ulcer_healing_4wk_pct"))
         healing = l3.get("healing_ability", False)
 
         if healing and ee_8wk > 0:
@@ -146,7 +169,7 @@ def _compute_efficacy(drug, pain_type, cv_risk):
 
     elif cls == "Mucosal Protectant":
         # Sucralfate — topical barrier healing with moderate efficacy
-        du_8wk = l4.get("du_healing_8wk_pct", 0)
+        du_8wk = _num(l4.get("du_healing_8wk_pct"))
         if du_8wk >= 78:
             score = 7.0
         elif du_8wk >= 70:
@@ -164,19 +187,26 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
 
     # GI risk penalty when patient has GI risk
     if gi_risk in ("moderate", "high"):
-        score -= l3.get("gi_risk", 0)
+        score -= _num(l3.get("gi_risk"))
 
     # CV risk penalty for NSAIDs when patient has CV risk
     if drug["class"] == "NSAID" and cv_risk in ("moderate", "high"):
-        score -= l3.get("cv_risk", 0)
+        score -= _num(l3.get("cv_risk"))
 
     # Renal risk penalty when patient has impaired renal function
     if renal_function != "normal":
-        score -= l3.get("renal_risk", 0)
+        score -= _num(l3.get("renal_risk"))
 
     # ── Pregnancy penalty ──────────────────────────────────────
+    # Normalize narrative statuses ("contraindicated ... (label)") to the
+    # worst-case code so they hit the intended branch instead of the else
+    # default; keep the original string for the concern generator.
+    _PREG_NORM = (("contraindicated", "X"), ("avoid", "D"), ("high risk", "D"))
+    preg_raw = drug.get("pregnancy_safety", "C")
+    preg = preg_raw if preg_raw in ("A", "B", "C", "C/D", "D", "X") else (
+        next((code for frag, code in _PREG_NORM if isinstance(preg_raw, str) and frag in preg_raw.lower()), "C"))
     if pregnancy_status != "not_pregnant":
-        preg = drug.get("pregnancy_safety", "C")
+        penalty = 2  # default when no specific category matches
         if preg == "A":
             penalty = 0  # Antacids/alginate — non-systemic
         elif preg == "B":
@@ -193,19 +223,42 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
                 penalty = 2  # NSAID 1st/2nd tri — caution
         elif preg == "X":
             penalty = 8  # Statins — teratogenic
-        else:
-            penalty = 2
+        elif preg == "D":
+            penalty = 6
         score -= penalty
 
     # ── Lactation penalty ──────────────────────────────────────
+    # penalty is ALWAYS initialized (the pregnancy block above no longer owns
+    # this variable: with pregnancy_status == "not_pregnant" it never ran, and
+    # the old fall-through raised NameError / reused a stale pregnancy value
+    # for unrecognized lactation strings like "compatible (label)").
     if lactation == "yes":
-        lact = drug.get("lactation_safety", "caution")
+        lac_raw = drug.get("lactation_safety")
+        # normalize narrative forms before matching
+        if isinstance(lac_raw, str):
+            lac_low = lac_raw.lower()
+            if lac_low.startswith("safe"):
+                lact = "safe"
+            elif lac_low.startswith("caution"):
+                lact = "caution"
+            elif lac_low.startswith("avoid"):
+                lact = "avoid"
+            elif lac_low.startswith("compatible"):
+                lact = "safe"  # compatible with breastfeeding (label)
+            elif lac_low.startswith("unknown"):
+                lact = "caution"  # unknown safety → caution, never a silent 0
+            else:
+                lact = "caution"
+        else:
+            lact = "caution"  # null/missing safety data → caution, not safe
         if lact == "safe":
             penalty = 0
         elif lact == "caution":
             penalty = 1
         elif lact == "avoid":
             penalty = 4  # Statins — limited data
+        else:
+            penalty = 1
         score -= penalty
 
     # ── Hepatic impairment penalty ──────────────────────────────
@@ -223,7 +276,7 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
 
     # ── Elderly GI amplification (age > 65 + NSAID + GI risk) ──
     if drug["class"] == "NSAID" and age > 65 and gi_risk in ("moderate", "high"):
-        additional_gi = l3.get("gi_risk", 0) * 0.5
+        additional_gi = _num(l3.get("gi_risk")) * 0.5
         score -= additional_gi
 
     # Paracetamol gets +2 safety bonus (zero COX-mediated risks)
@@ -238,10 +291,11 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
 
     if drug["class"] == "PPI":
         # PPI-specific safety considerations
-        score -= l3.get("cdi_risk", 0) * 0.5
-        if l3.get("ddi_risk", 0) >= 3:
+        score -= _num(l3.get("cdi_risk")) * 0.5
+        ddi = _num(l3.get("ddi_risk"))
+        if ddi >= 3:
             score -= 2
-        elif l3.get("ddi_risk", 0) >= 2:
+        elif ddi >= 2:
             score -= 1
         if renal_function != "normal":
             score -= 1  # CKD risk signal
@@ -271,8 +325,8 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
         # Sucralfate — safe in general population, critical in CKD
         if renal_function != "normal":
             score -= 4  # Aluminum accumulation in CKD
-        if l3.get("ddi_risk", 0) >= 100:
-            score -= 2  # 166 drug interactions
+        if _num(l3.get("ddi_risk")) >= 3:
+            score -= 2  # chelation/adsorption interactions (1-3 scale)
 
     return round(max(0.0, min(10.0, score)), 1)
 
@@ -282,20 +336,27 @@ def _compute_pk(drug, age, renal_function):
     pk = drug["l2_pk"]
     l3 = drug["l3_systems"]
     score = 5.0
+    # Null-safe half-life: explicit null (e.g. lovastatin) or missing must not
+    # crash the comparison; treated as "no long-half-life bonus".
+    half_life = pk.get("half_life_h")
+    half_life = half_life if isinstance(half_life, (int, float)) and not isinstance(half_life, bool) else 0.0
 
     # Half-life vs age — longer t½ is better for elderly (adherence)
-    if age > 65 and pk["half_life_h"] >= 8:
+    if age > 65 and half_life >= 8:
         score += 1
 
-    # Renal clearance penalty when drug is renally cleared and patient impaired
+    # Renal clearance penalty when drug is renally cleared and patient impaired.
+    # H2RA block below re-applies its own renal rule; the generic one is skipped
+    # for H2RA to avoid double-counting the same clearance up to -6.
     renal_pct = pk.get("renal_excretion_pct", 0)
-    if renal_pct > 50 and renal_function != "normal":
+    renal_pct = renal_pct if isinstance(renal_pct, (int, float)) and not isinstance(renal_pct, bool) else 0
+    if drug["class"] != "H2RA" and renal_pct > 50 and renal_function != "normal":
         penalties = {"mild": 1, "moderate": 2, "severe": 3}
         score -= penalties[renal_function]
 
     # DDI penalty for elderly on high-DDI drugs
     if age > 65:
-        ddi = l3.get("ddi_risk", 0)
+        ddi = _num(l3.get("ddi_risk"))
         if ddi >= 3:
             score -= 2
         elif ddi == 2:
@@ -316,25 +377,28 @@ def _compute_pk(drug, age, renal_function):
     # GI drug PK considerations
     if drug["class"] == "PPI":
         # CYP2C19 genotype dependency → penalty for high dependency
-        cyp_pct = l3.get("cyp2c19_metabolism_pct", 0)
+        cyp_pct = _num(l3.get("cyp2c19_metabolism_pct"))
         if cyp_pct >= 80:
             score -= 1.5  # Unpredictable in poor/extensive metabolizers
         elif cyp_pct >= 50:
             score -= 0.5
-        # Bioavailability bonus
-        if pk["bioavailability"] >= 70:
+        # Bioavailability bonus (null-safe: explicit null/missing = no bonus)
+        bioavail = pk.get("bioavailability")
+        bioavail = bioavail if isinstance(bioavail, (int, float)) and not isinstance(bioavail, bool) else 0
+        if bioavail >= 70:
             score += 1
         # PK pattern non-linear → penalty
         if "non-linear" in pk.get("special", "").lower():
             score -= 1
 
     elif drug["class"] == "H2RA":
-        # Renal clearance → penalty in renal impairment
-        if pk.get("renal_excretion_pct", 0) >= 50 and renal_function != "normal":
+        # Renal clearance → penalty in renal impairment (sole renal rule for
+        # this class — the generic penalty above is skipped for H2RA)
+        if _num(pk.get("renal_excretion_pct")) >= 50 and renal_function != "normal":
             penalties = {"mild": 1, "moderate": 2, "severe": 3}
             score -= penalties[renal_function]
-        # Longer t½ → convenience bonus
-        if pk["half_life_h"] >= 3:
+        # Longer t½ → convenience bonus (null-safe; same guard as generic path)
+        if half_life >= 3:
             score += 1
         # CSF penetration → CNS risk penalty in elderly
         if drug["id"] == "ranitidine" and age > 65:
@@ -368,7 +432,7 @@ def _compute_mechanism(drug, pain_type, cv_risk):
         if pain_type == "inflammatory":
             # COX-2 selectivity scoring for inflammatory pain
             selectivity = l1.get("selectivity", "").lower()
-            if "300x" in selectivity or "co-2 selective" in selectivity:
+            if "300x" in selectivity or "cox-2 selective" in selectivity:
                 score = 8
             elif "preferential" in selectivity:
                 score = 7
@@ -378,7 +442,7 @@ def _compute_mechanism(drug, pain_type, cv_risk):
                 score = 3  # non-COX (paracetamol)
 
             # Off-target bonus — diclofenac P2X3 blockade
-            off_targets = [str(ot).lower() for ot in l3.get("off_targets", [])]
+            off_targets = [str(ot).lower() for ot in (l3.get("off_targets") or [])]
             if any("p2x3" in ot for ot in off_targets):
                 score += 2
         else:
@@ -435,9 +499,9 @@ def _get_combo_suggestions(drug, regimens):
 
     drug_class = drug["class"]
     for reg in regimens_list:
-        if reg["type"] != "combo":
-            continue
-        if reg.get("base_class") == drug_class:
+        if reg.get("type") == "combo":
+            if reg.get("base_class") != drug_class:
+                continue
             add_on_class = reg["add_on_class"]
             # Find a representative drug from that class
             add_on_drugs = [d for d in drugs if d["class"] == add_on_class]
@@ -454,6 +518,9 @@ def _get_combo_suggestions(drug, regimens):
                 "note": reg.get("note", ""),
             })
         elif reg.get("type") == "mono" and reg.get("drug_class") == drug_class:
+            # NOTE: previously UNREACHABLE — an early `continue` on non-combo
+            # regimens skipped this branch entirely, so monotherapy suggestions
+            # never appeared in the output.
             suggestions.append({
                 "regimen_id": reg["id"],
                 "label": f"Best as monotherapy — {reg['label']}",
@@ -478,27 +545,27 @@ def _generate_strengths(drug, scores):
     pk = drug["l2_pk"]
 
     if drug["class"] == "NSAID":
-        onset = l4.get("onset_min", 999)
+        onset = _num(l4.get("onset_min"), 999)
         if onset <= 30:
             strengths.append("Fast onset")
-        gi = l3.get("gi_risk", 2)
+        gi = _num(l3.get("gi_risk"), 2)
         if gi == 0:
             strengths.append("GI-sparing")
         elif gi <= 1:
             strengths.append("Low GI risk")
     elif drug["class"] == "Statin":
-        ldl = l3.get("ldl_reduction_pct", 0)
+        ldl = _num(l3.get("ldl_reduction_pct"))
         if ldl >= 50:
             strengths.append("Potent LDL reduction")
-        if l3.get("ddi_risk", 3) == 0:
+        if _num(l3.get("ddi_risk"), 3) == 0:
             strengths.append("No DDI concerns")
-        if l3.get("myopathy_risk", 2) <= 0:
+        if _num(l3.get("myopathy_risk"), 2) <= 0:
             strengths.append("Lowest myopathy risk")
     elif drug["class"] == "PPI":
-        ee = l4.get("ee_healing_8wk_pct", 0)
+        ee = _num(l4.get("ee_healing_8wk_pct"))
         if ee >= 88:
             strengths.append("Best healing rates")
-        if l3.get("ddi_risk", 3) == 0:
+        if _num(l3.get("ddi_risk"), 3) == 0:
             strengths.append("No DDI concerns")
         if "fastest onset" in pk.get("special", "").lower():
             strengths.append("Fastest onset")
@@ -546,13 +613,13 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
     pk = drug["l2_pk"]
 
     if drug["class"] == "NSAID":
-        gi = l3.get("gi_risk", 0)
+        gi = _num(l3.get("gi_risk"))
         if gi >= 2 and gi_risk in ("moderate", "high"):
             concerns.append("GI risk")
-        cv = l3.get("cv_risk", 0)
+        cv = _num(l3.get("cv_risk"))
         if cv >= 2 and cv_risk in ("moderate", "high"):
             concerns.append("CV risk")
-        renal = l3.get("renal_risk", 0)
+        renal = _num(l3.get("renal_risk"))
         if renal >= 1 and renal_function != "normal":
             concerns.append("Renal risk")
 
@@ -560,8 +627,9 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
     if drug["class"] == "Statin" and pain_type and cv_risk == "low":
         concerns.append("Not indicated for pain")
 
-    # Short half-life → frequent dosing
-    half_life = pk.get("half_life_h", 0)
+    # Short half-life → frequent dosing (null-safe: explicit null in
+    # drugs.json, e.g. lovastatin, must not crash the comparison)
+    half_life = _num(pk.get("half_life_h"))
     if half_life < 4:
         concerns.append("Short t½ requires frequent dosing")
 
@@ -570,7 +638,7 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
         concerns.append("Lower efficacy")
 
     # DDI burden
-    if l3.get("ddi_risk", 0) >= 3:
+    if _num(l3.get("ddi_risk")) >= 3:
         concerns.append("High DDI burden")
 
     # Paracetamol
@@ -578,16 +646,16 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
         concerns.append("No anti-inflammatory effect")
 
     # Statin myopathy
-    if drug["class"] == "Statin" and l3.get("myopathy_risk", 2) >= 2:
+    if drug["class"] == "Statin" and _num(l3.get("myopathy_risk"), 2) >= 2:
         concerns.append("Myopathy risk")
 
     # PPI concerns
     if drug["class"] == "PPI":
-        if l3.get("cdi_risk", 0) >= 2:
+        if _num(l3.get("cdi_risk")) >= 2:
             concerns.append("CDI risk (long-term)")
-        if l3.get("ddi_risk", 3) >= 3:
+        if _num(l3.get("ddi_risk"), 3) >= 3:
             concerns.append("High DDI burden")
-        if l3.get("cyp2c19_metabolism_pct", 0) >= 80:
+        if _num(l3.get("cyp2c19_metabolism_pct")) >= 80:
             concerns.append("CYP2C19 genotype-dependent")
 
     # H2RA concerns
@@ -640,7 +708,13 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
         elif hep == "caution" and hepatic_function in ("moderate", "severe"):
             concerns.append("Caution in hepatic impairment")
 
-    return concerns[:4]
+    # Critical safety warnings (contraindication-grade) must survive any
+    # truncation: they are emitted verbatim at the FRONT of the list, ahead
+    # of the [:4] display cap applied to the advisory remainder.
+    _CRITICAL_MARKERS = ("Contraindicated", "Avoid in", "Avoid while")
+    critical = [c for c in concerns if any(c.startswith(m) for m in _CRITICAL_MARKERS)]
+    advisory = [c for c in concerns if c not in critical]
+    return (critical + advisory[:max(0, 4 - len(critical))])
 
 
 # ---------------------------------------------------------------------------
@@ -720,14 +794,22 @@ async def query_drugs(req: QueryRequest):
             "name": drug["name"],
             "class": drug["class"],
             "scores": scores,
+            # full precision kept on the dict for sorting; display rounding
+            # happens at serialization so ranking is not tie-broken by
+            # dataset order
+            "_overall_raw": overall,
             "overall": round(overall, 1),
             "strengths": strengths,
             "concerns": concerns,
             "combo_suggestions": combo_suggestions,
         })
 
-    # Sort by overall score descending
-    results.sort(key=lambda r: r["overall"], reverse=True)
+    # Sort by overall score descending at FULL precision (rounding only for
+    # display; premature rounding created artificial ties resolved by
+    # dataset order)
+    results.sort(key=lambda r: r["_overall_raw"], reverse=True)
+    for r in results:
+        r.pop("_overall_raw", None)
 
     # Generate summary
     if results:

@@ -59,6 +59,11 @@ DIM_DIRECTION = {
     "ulcer_healing": "benefit", "reflux_suppression": "benefit",
     "raft_strength": "benefit", "a1c_reduction": "benefit",
     "gi_tolerability": "benefit",
+    "bp_reduction": "benefit",          # higher = more BP reduction (benefit by
+    #                                    semantics; was absent, so audit_sentence
+    #                                    silently treated it as direction-agnostic)
+    "hmgcr_inhibition": "benefit",
+    "ldl_reduction_pct": "benefit",
     # risk
     "renal_risk": "risk", "cv_risk": "risk", "electrolyte_risk": "risk",
     "hypoglycemia_risk": "risk", "cdi_risk": "risk", "bone_fracture_risk": "risk",
@@ -71,6 +76,11 @@ DIM_DIRECTION = {
     "anticoagulation_efficacy": "benefit", "reversal_availability": "benefit",
     # direction-agnostic
     "weight_effect": None, "metabolic_effect": None, "heart_rate_effect": None,
+    "lipophilicity": None, "anti_inflammatory": None,
+    # H2RA helper dims: present/absent flags produced by mention-only helpers
+    "tolerance": None, "cns_penetration": None,
+    # Alginate continuous field (mg, not a 1-3 score) — direction-agnostic
+    "sodium_load": None,
 }
 
 ABSENCE_TERMS = [
