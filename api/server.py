@@ -96,6 +96,47 @@ def _num(v, default=0.0):
     return default
 
 
+def _norm_preg(raw):
+    """Normalize pregnancy_safety (code or narrative) to its A..X code.
+
+    Negation-aware (re-assessment regression): _PREG_NORM substring matching
+    previously mapped "not contraindicated" to X, imposing the -8 teratogen
+    penalty on drugs whose narrative explicitly denies contraindication.
+    """
+    if raw in ("A", "B", "C", "C/D", "D", "X"):
+        return raw
+    if not isinstance(raw, str):
+        return "C"
+    low = raw.lower()
+    for frag, code in (("contraindicated", "X"), ("avoid", "D"), ("high risk", "D")):
+        if frag in low and ("not " + frag) not in low:
+            return code
+    return "C"
+
+
+def _norm_lact(raw):
+    """Normalize lactation_safety (code or narrative) to safe/caution/avoid.
+
+    Unknown/null/missing safety data -> caution, never a silent safe.
+    """
+    if raw in ("safe", "caution", "avoid"):
+        return raw
+    if not isinstance(raw, str):
+        return "caution"
+    low = raw.lower()
+    if low.startswith("safe"):
+        return "safe"
+    if low.startswith("caution"):
+        return "caution"
+    if low.startswith("avoid"):
+        return "avoid"
+    if low.startswith("compatible"):
+        return "safe"  # compatible with breastfeeding (label)
+    if low.startswith("unknown"):
+        return "caution"  # unknown safety -> caution, never a silent 0
+    return "caution"
+
+
 def _compute_efficacy(drug, pain_type, cv_risk):
     """Efficacy score based on L4 clinical data, respecting indication boundaries."""
     cls = drug["class"]
@@ -130,13 +171,14 @@ def _compute_efficacy(drug, pain_type, cv_risk):
             and nnt_raw == nnt_raw and nnt_raw > 0
         if pain_type and pain_type != "none":
             if cv_risk in ("moderate", "high"):
-                nnt = float(nnt_raw) if nnt_ok else 40.0  # documented fallback (class-anchor)
-                score = 9.0 - (nnt - 40.0) * (2.0 / 15.0)
+                # No valid NNT data -> neutral 5.0, never best-in-class
+                # (re-assessment RES-01: the old 40.0 anchor scored 9.0,
+                # ranking data-less statins at the top of the class)
+                score = (9.0 - (float(nnt_raw) - 40.0) * (2.0 / 15.0)) if nnt_ok else 5.0
             else:
                 score = 0.5
         else:
-            nnt = float(nnt_raw) if nnt_ok else 40.0
-            score = 9.0 - (nnt - 40.0) * (2.0 / 15.0)
+            score = (9.0 - (float(nnt_raw) - 40.0) * (2.0 / 15.0)) if nnt_ok else 5.0
 
     elif cls in ("PPI", "H2RA", "Antacid", "Alginate"):
         # GI drugs — score based on healing rate + acid suppression
@@ -185,9 +227,14 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
     l3 = drug["l3_systems"]
     score = 10.0
 
-    # GI risk penalty when patient has GI risk
+    # GI risk penalty when patient has GI risk. Anticoagulants carry the GI
+    # dimension as gi_bleeding_risk (no gi_risk key at all) — coalesce so
+    # they don't silently escape the penalty (re-assessment REG-01).
     if gi_risk in ("moderate", "high"):
-        score -= _num(l3.get("gi_risk"))
+        gi = l3.get("gi_risk")
+        if gi is None:
+            gi = l3.get("gi_bleeding_risk")
+        score -= _num(gi)
 
     # CV risk penalty for NSAIDs when patient has CV risk
     if drug["class"] == "NSAID" and cv_risk in ("moderate", "high"):
@@ -201,10 +248,8 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
     # Normalize narrative statuses ("contraindicated ... (label)") to the
     # worst-case code so they hit the intended branch instead of the else
     # default; keep the original string for the concern generator.
-    _PREG_NORM = (("contraindicated", "X"), ("avoid", "D"), ("high risk", "D"))
     preg_raw = drug.get("pregnancy_safety", "C")
-    preg = preg_raw if preg_raw in ("A", "B", "C", "C/D", "D", "X") else (
-        next((code for frag, code in _PREG_NORM if isinstance(preg_raw, str) and frag in preg_raw.lower()), "C"))
+    preg = _norm_preg(preg_raw)
     if pregnancy_status != "not_pregnant":
         penalty = 2  # default when no specific category matches
         if preg == "A":
@@ -233,24 +278,7 @@ def _compute_safety(drug, gi_risk, cv_risk, renal_function, age, pregnancy_statu
     # the old fall-through raised NameError / reused a stale pregnancy value
     # for unrecognized lactation strings like "compatible (label)").
     if lactation == "yes":
-        lac_raw = drug.get("lactation_safety")
-        # normalize narrative forms before matching
-        if isinstance(lac_raw, str):
-            lac_low = lac_raw.lower()
-            if lac_low.startswith("safe"):
-                lact = "safe"
-            elif lac_low.startswith("caution"):
-                lact = "caution"
-            elif lac_low.startswith("avoid"):
-                lact = "avoid"
-            elif lac_low.startswith("compatible"):
-                lact = "safe"  # compatible with breastfeeding (label)
-            elif lac_low.startswith("unknown"):
-                lact = "caution"  # unknown safety → caution, never a silent 0
-            else:
-                lact = "caution"
-        else:
-            lact = "caution"  # null/missing safety data → caution, not safe
+        lact = _norm_lact(drug.get("lactation_safety"))
         if lact == "safe":
             penalty = 0
         elif lact == "caution":
@@ -363,7 +391,7 @@ def _compute_pk(drug, age, renal_function):
             score -= 1
 
     # Special features bonus (enterohepatic recirc, active metabolites, etc.)
-    special = pk.get("special", "").lower()
+    special = (pk.get("special") or "").lower()
     bonus_keywords = [
         "enterohepatic",
         "active metabolite",
@@ -388,13 +416,15 @@ def _compute_pk(drug, age, renal_function):
         if bioavail >= 70:
             score += 1
         # PK pattern non-linear → penalty
-        if "non-linear" in pk.get("special", "").lower():
+        if "non-linear" in (pk.get("special") or "").lower():
             score -= 1
 
     elif drug["class"] == "H2RA":
         # Renal clearance → penalty in renal impairment (sole renal rule for
         # this class — the generic penalty above is skipped for H2RA)
-        if _num(pk.get("renal_excretion_pct")) >= 50 and renal_function != "normal":
+        # > 50 (not >= 50) — harmonized with the generic renal-clearance
+        # boundary above so the two paths agree at exactly 50%
+        if _num(pk.get("renal_excretion_pct")) > 50 and renal_function != "normal":
             penalties = {"mild": 1, "moderate": 2, "severe": 3}
             score -= penalties[renal_function]
         # Longer t½ → convenience bonus (null-safe; same guard as generic path)
@@ -431,7 +461,7 @@ def _compute_mechanism(drug, pain_type, cv_risk):
     if cls == "NSAID":
         if pain_type == "inflammatory":
             # COX-2 selectivity scoring for inflammatory pain
-            selectivity = l1.get("selectivity", "").lower()
+            selectivity = (l1.get("selectivity") or "").lower()
             if "300x" in selectivity or "cox-2 selective" in selectivity:
                 score = 8
             elif "preferential" in selectivity:
@@ -453,7 +483,7 @@ def _compute_mechanism(drug, pain_type, cv_risk):
                 score += 1
     else:  # Statin
         # Statins don't treat pain — mechanism score reflects indication match
-        if pain_type and cv_risk == "low":
+        if pain_type and pain_type != "none" and cv_risk == "low":
             score = 0  # Pain is the concern and no CV risk → statins irrelevant
         elif cv_risk in ("moderate", "high"):
             score = 7  # CV risk present → HMGCR inhibition is relevant
@@ -567,14 +597,14 @@ def _generate_strengths(drug, scores):
             strengths.append("Best healing rates")
         if _num(l3.get("ddi_risk"), 3) == 0:
             strengths.append("No DDI concerns")
-        if "fastest onset" in pk.get("special", "").lower():
+        if "fastest onset" in (pk.get("special") or "").lower():
             strengths.append("Fastest onset")
-        if "cyp2c19-independent" in pk.get("special", "").lower():
+        if "cyp2c19-independent" in (pk.get("special") or "").lower():
             strengths.append("CYP2C19-independent")
     elif drug["class"] == "H2RA":
         if drug["id"] == "famotidine":
             strengths.append("Safest DDI profile")
-            if "longest" in pk.get("special", "").lower():
+            if "longest" in (pk.get("special") or "").lower():
                 strengths.append("Longest duration")
         if drug["id"] == "ranitidine":
             strengths.append("High potency")
@@ -592,7 +622,7 @@ def _generate_strengths(drug, scores):
         strengths.append("Good efficacy")
 
     # Special features
-    special = pk.get("special", "").lower()
+    special = (pk.get("special") or "").lower()
     if "active metabolite" in special:
         strengths.append("Active metabolites")
     if "hydrophilic" in special:
@@ -623,14 +653,16 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
         if renal >= 1 and renal_function != "normal":
             concerns.append("Renal risk")
 
-    # Indication mismatch: statins don't treat pain
-    if drug["class"] == "Statin" and pain_type and cv_risk == "low":
+    # Indication mismatch: statins don't treat pain (pain_type "none" is not
+    # a pain request — never penalize statins for it, re-assessment RES-04)
+    if drug["class"] == "Statin" and pain_type and pain_type != "none" and cv_risk == "low":
         concerns.append("Not indicated for pain")
 
-    # Short half-life → frequent dosing (null-safe: explicit null in
-    # drugs.json, e.g. lovastatin, must not crash the comparison)
+    # Short half-life → frequent dosing. Unknown/zero half-life (explicit
+    # null or 0 in drugs.json, e.g. lovastatin) emits nothing — a missing
+    # value is not evidence of a short t½ (re-assessment REG-02).
     half_life = _num(pk.get("half_life_h"))
-    if half_life < 4:
+    if 0 < half_life < 4:
         concerns.append("Short t½ requires frequent dosing")
 
     # Low efficacy
@@ -653,8 +685,8 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
     if drug["class"] == "PPI":
         if _num(l3.get("cdi_risk")) >= 2:
             concerns.append("CDI risk (long-term)")
-        if _num(l3.get("ddi_risk"), 3) >= 3:
-            concerns.append("High DDI burden")
+        # (DDI burden is emitted by the generic block above; this block's
+        # duplicate consumed two advisory display slots — re-assessment RES-06)
         if _num(l3.get("cyp2c19_metabolism_pct")) >= 80:
             concerns.append("CYP2C19 genotype-dependent")
 
@@ -684,20 +716,23 @@ def _generate_concerns(drug, scores, gi_risk, cv_risk, renal_function, pain_type
             concerns.append("Aluminum toxicity (CKD)")
         concerns.append("QID dosing burden")
 
-    # Pregnancy concern
+    # Pregnancy concern — normalize narrative statuses the same way the
+    # safety scorer does, so "contraindicated (label)" emits the critical
+    # warning instead of falling through to the generic caution.
     if pregnancy_status != "not_pregnant":
-        preg = drug.get("pregnancy_safety", "C")
+        preg = _norm_preg(drug.get("pregnancy_safety", "C"))
         if preg == "X":
             concerns.append("Contraindicated in pregnancy (Category X)")
         elif preg == "C/D" and pregnancy_status == "third_trimester":
             concerns.append("Avoid in 3rd trimester (premature ductus closure)")
+        elif preg == "D":
+            concerns.append("Avoid in pregnancy (Category D)")
         elif preg in ("C", "C/D"):
             concerns.append("Pregnancy caution — limited safety data")
 
-    # Lactation concern
+    # Lactation concern — same narrative normalization as the safety scorer.
     if lactation == "yes":
-        lact = drug.get("lactation_safety", "caution")
-        if lact == "avoid":
+        if _norm_lact(drug.get("lactation_safety")) == "avoid":
             concerns.append("Avoid while breastfeeding (lack of safety data)")
 
     # Hepatic concern

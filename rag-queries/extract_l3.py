@@ -1580,9 +1580,9 @@ def _extract_cyp2c19(findings: list, drug_id: str = None, drug_name: str = None)
     # Previously the broad single-number pattern below ran earlier and its
     # greedy [^.]*? capture swallowed the range's upper bound ("(60-80%)"
     # -> 80); ranges must be matched (and midpointed) before single numbers.
-    m = re.search(r'CYP2C19\s*[\(\:\s]+(\d+)\s*-\s*(\d+)\s*%', all_text, re.I)
+    m = re.search(r'CYP2C19\s*[\(\:\s]+(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%', all_text, re.I)
     if m:
-        return (int(m.group(1)) + int(m.group(2))) // 2
+        return int((float(m.group(1)) + float(m.group(2))) / 2)
 
     # Pattern 1: "70% metabolized via CYP2C19"
     m = re.search(r'(\d+)\s*%\s*(?:metabolized|via|through|by)\s*CYP2C19', all_text, re.I)
