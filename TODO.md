@@ -1,7 +1,7 @@
 # DQF Roadmap — Clinical Tool
 
 > *Pharmacist-built, evidence-grounded, patient-personalized drug ranking.*
-> **Last refreshed 2026-09-28** — N1–N4 complete (was stale since 2026-09-27).
+> **Last refreshed 2026-09-29** — external-audit round complete: 10-fix batch + null-safety sweep (`fde0203`), re-assessment + Batch-6 (`667fd49`). N6 next.
 
 ---
 
@@ -16,7 +16,8 @@
 | Validation | 8 reports + **V3 instrument** (`v3-scenarios.json` 12 scenarios/57 items, `v3-inter-rater-protocol.md`, `v3_rater_sheet.md`, `v3_agreement.py`) — results pending real raters |
 | Scorer tests | 46 checks passing — `python rag-queries/test_scorer_hardening.py` (22) + `test_anticoagulant_scorer.py` (24) |
 | LLM triage | Batches 1–6 run; **Batch 5 full corpus landed 2026-09-27** (413 groups / 2573 sentences / 905 kept); Batch-7 (antiplatelet) planned in N2 design |
-| Latest commit | `3612e16` on `master`, pushed |
+| External audit | **2-round Kaggle LLM audit** — 10 fixes + null-safety sweep (`fde0203`); re-assessment `dqf-reeval` (Gemini full 12/14 CORRECT, score 1.0) → **Batch-6** (`667fd49`): anticoagulant GI coalesce, pregnancy negation guard, concerns normalization, NNT neutral fallback, template fixes. Grid 352/0, all suites green |
+| Latest commit | `667fd49` on `master`, pushed |
 
 ---
 
@@ -29,7 +30,10 @@
 | N3 | **Inter-rater reliability (V3)** instrument | ✅ **instrument done 2026-09-28** (`1a2716d`) — 12 scenarios, protocol, rater sheet, agreement script (self-test passes); S04 refreshed post-N1 | — |
 | N4 | **Profile docs for Antihypertensive + Diabetes** (+ lovastatin) | ✅ **done 2026-09-28** (`3612e16`) — 64 files, generator-assisted, no fabrication | — |
 | N5 | **HF RAG endpoint** — moved to AWS per user decision | ❌ cancelled | — |
-| N6 | **Sourced adjudication backlog** — 25 N1-demoted proposals + 44 conflicts + 44 open questions | Needs label/PMID sourcing per cell (E1 pattern) | 1–2 wk |
+| N5b | **External audit batch** — 10 verified findings + null-safety sweep | ✅ **done 2026-09-29** (`fde0203`) — grid 352/0, suites pass | — |
+| N5c | **Re-assessment (`dqf-reeval`) + Batch-6** — dual-model verification, then apply findings | ✅ **done 2026-09-29** (`667fd49`) — Gemini 12/14 CORRECT; 11 changes: GI coalesce, pregnancy negation, concerns normalization, NNT neutral 5.0, bradycardia template fix (R-13 resolved) | — |
+| N6 | **Sourced adjudication backlog** — 25 N1-demoted proposals + 44 conflicts + 44 open questions + 22 unapplied prior-rescore proposals; **now also:** merge lock policy (`DEFAULT_LOCKED_FIELDS` + deletion-respecting merge), template wording review (cough/angioedema are ACEi effects in the generic AH query), lovastatin `nnt_mace_5yr` sourcing, metformin `hypoglycemia_risk` review, amlodipine bradycardia attribution (data-traced to template noise) | Needs label/PMID sourcing per cell (E1 pattern) | 1–2 wk |
+| N6b | **Indication-boundary design** — any-class queries compare pain NNT vs CV NNT vs GI healing; needs target-condition field + eligibility gate before scoring | Deep redesign surfaced by re-assessment (RES-01/RES-02); design first, implement in S-arc | design 2–3 d |
 | N7 | **E2 Phase 0+2** — add 3 antiplatelet drug records, wire template/scorer/`DIM_DIRECTION`, run Batch-7 triage | Design approved in N2; unblocks E2 completion | 1–2 wk |
 
 **Validation note:** Phase V is now V1 ✅ · V1b ✅ · V1c ✅ (×2) · V2 ✅ · V4 ✅ · holdouts ✅ · **V3 instrument ✅, results ⬜** (blocked on real raters).
@@ -131,8 +135,9 @@ Each new class = 5–8 records + L3 scorer dimensions + profile docs + validatio
 - **`docs`/`INDEX.md`** still say "2 drug classes, 9 drugs" — README-era text.
 - **50 null L3 cells** — documented gaps, not blockers (no-fabrication rule).
 - **22 unapplied prior-rescore proposals** (12 batch4_rescore raises, 10 ddi_rescore drops) — values proposed but never merged; documented per-doc in N4 profiles, awaiting apply-or-reject → N6.
-- **lovastatin `nnt_mace_5yr` missing** — Statin class query crashes server-side (`_compute_efficacy` KeyError); lovastatin unrankable until sourced.
-- **`bp_reduction` absent from `DIM_DIRECTION`** — benefit by semantics; add when the antihypertensive artifact gate is next touched.
+- **lovastatin `nnt_mace_5yr` missing** — ✅ crash fixed 2026-09-29 (null-safe neutral 5.0 fallback, `fde0203`/`667fd49`); the DATA is still missing → N6 sourcing.
+- ✅ **`bp_reduction` absent from `DIM_DIRECTION`** — fixed 2026-09-29 (`fde0203`, R-10): bp_reduction/hmgcr_inhibition/ldl_reduction_pct = benefit.
+- **merge lock policy** — `DEFAULT_LOCKED_FIELDS` is empty and list-merging re-adds expert-deleted items (re-assessment REG-02/RES-03); policy decision + implementation → N6.
 - **metformin `hypoglycemia_risk` = 3** in drugs.json — clinically questionable for monotherapy; candidate for N6 sourced review.
 
 ---
@@ -149,4 +154,4 @@ P  = personalization     F = full rx           Q = pharmacoeconomics
 C  = clinical integration
 ```
 
-> **Next logical step:** N6 (sourced adjudication backlog) or N7 (E2 Phase 0+2 wiring + Batch-7 triage) — pick one lane.
+> **Next logical step:** N6 (sourced adjudication backlog — worklist + source plan first), then N6b design, then N7.
