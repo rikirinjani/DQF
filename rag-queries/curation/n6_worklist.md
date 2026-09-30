@@ -13,9 +13,14 @@
 | A | N1-demoted proposals (batch5) | 25 | `curation/batch5_rescore_adjudication.json` → `demoted_to_open_questions` (group + demotion reason) | drug\|dim, proposed change, why the basis failed vetting |
 | B | Conflicts with prior adjudication | 44 | `curation/batch5_rescore_draft.json` → `conflicts_with_prior_adjudication` (keys incl. `prior_source`, `why`) | drug\|dim where batch5 evidence disagrees with the E1 42-cell adjudication |
 | C | Pre-existing open questions | 44 | `curation/batch5_rescore_draft.json` → `open_questions` (keys incl. `question`) | drug\|dim + question text |
-| D | Unapplied batch4 raises | 12 of 54 | `rag-queries/batch4_rescore.json` → `results` | drug\|dim raise proposals never merged |
-| E | Unapplied ddi drops | 10 of 37 | `rag-queries/ddi_rescore.json` → `changes` | drug ddi proposals never merged |
-| F | String-typed heart_rate_effect cells | 25 | batch5 `categorical_skipped` | typing policy decision, then 1–3 scoring |
+| D | Unapplied batch4 raises | **32** of 54 | `rag-queries/batch4_rescore.json` → `results`, diffed vs `api/drugs.json` (N6.1) | 22 already applied, 0 superseded |
+| E | Unapplied ddi changes | **14** of 37 | `rag-queries/ddi_rescore.json` → `changes`, diffed (N6.1) | 15 applied, **8 superseded** (later merges moved them differently — treat as close-or-re-propose) |
+| F | String-typed heart_rate_effect cells | **33** | `curation/n6_worklist.json` → `F_heart_rate_effect_strings` (full-corpus scan; batch5 saw only 25 in its 89-drug scope) | distinct values: {bradycardia, tachycardia, none}; beta-blocker bradycardia = real class effect, DHP-CCB entries = artifacts |
+
+> **Machine-readable worklist:** `curation/n6_worklist.json` (N6.1 output) — all
+> categories with current values embedded; the authoritative counts. The earlier
+> "22 unapplied proposals (12+10)" figure in TODO Known Debt was an undercount
+> of what N4 profiles happened to document; the diff is ground truth.
 | G | Named specials | 4 | see §4 | lovastatin NNT, metformin hypo, amlodipine HR attribution, AH template wording |
 | H | Policy: merge lock semantics | 1 | re-assessment REG-02/RES-03 | `DEFAULT_LOCKED_FIELDS` + deletion-respecting merge |
 

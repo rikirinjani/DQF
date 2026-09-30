@@ -134,7 +134,7 @@ Each new class = 5–8 records + L3 scorer dimensions + profile docs + validatio
 - **`l4_schema_map.json` Risk 1** — `nnt_bp_control` false-shares a key name between Antihypertensive `{value,ci_95,dose}` and Diabetes `{a1c_reduction,unit,dose}`; needs coordinated rename + consumer update (`server.py` has 6 hardcoded L4 refs, `_add_e3_e4_drugs.py` too).
 - **`docs`/`INDEX.md`** still say "2 drug classes, 9 drugs" — README-era text.
 - **50 null L3 cells** — documented gaps, not blockers (no-fabrication rule).
-- **22 unapplied prior-rescore proposals** (12 batch4_rescore raises, 10 ddi_rescore drops) — values proposed but never merged; documented per-doc in N4 profiles, awaiting apply-or-reject → N6.
+- **46 unapplied prior-rescore proposals** (32 batch4_rescore + 14 ddi_rescore per mechanical diff 2026-09-29; 8 ddi superseded — see `rag-queries/curation/n6_worklist.json`) — values proposed but never merged; awaiting apply-or-reject → N6.
 - **lovastatin `nnt_mace_5yr` missing** — ✅ crash fixed 2026-09-29 (null-safe neutral 5.0 fallback, `fde0203`/`667fd49`); the DATA is still missing → N6 sourcing.
 - ✅ **`bp_reduction` absent from `DIM_DIRECTION`** — fixed 2026-09-29 (`fde0203`, R-10): bp_reduction/hmgcr_inhibition/ldl_reduction_pct = benefit.
 - **merge lock policy** — `DEFAULT_LOCKED_FIELDS` is empty and list-merging re-adds expert-deleted items (re-assessment REG-02/RES-03); policy decision + implementation → N6.
