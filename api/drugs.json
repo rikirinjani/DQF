@@ -1274,7 +1274,7 @@
         "healing_ability": 1,
         "cyp2c19_inhibition": "None (Ki 14-69 ÂµM)",
         "cyp2c19_metabolism_pct": 25,
-        "ddi_risk": 2,
+        "ddi_risk": 1,
         "pump_recovery_t_half_h": 46,
         "hypergastrinemia": true,
         "cdi_risk": 3,
@@ -1385,7 +1385,7 @@
         "healing_ability": 2,
         "cyp2c19_inhibition": "Strongest in vitro (Ki 0.4-1.5 ÂµM)",
         "cyp2c19_metabolism_pct": 50,
-        "ddi_risk": 3,
+        "ddi_risk": 2,
         "pump_recovery_t_half_h": 13,
         "hypergastrinemia": true,
         "cdi_risk": 2,
@@ -1700,7 +1700,7 @@
         "antiandrogenic": false,
         "ndma_concern": true,
         "csf_penetration": "Highest in class",
-        "ddi_risk": 3,
+        "ddi_risk": 2,
         "note": "Most potent H2RA; historically most prescribed; withdrawn globally 2020",
         "h2_blockade": null,
         "cns_penetration": true,
@@ -1802,7 +1802,7 @@
         "cyp_inhibition": "None",
         "antiandrogenic": false,
         "csf_penetration": "Lowest in class",
-        "ddi_risk": 2,
+        "ddi_risk": 1,
         "note": "Safest H2RA â€” no DDI, no antiandrogenicity, longest tÂ½; now the most-prescribed H2RA",
         "h2_blockade": null,
         "cns_penetration": true,
@@ -2578,7 +2578,7 @@
         "anti_inflammatory": null,
         "analgesic": null,
         "antipyretic": null,
-        "ddi_risk": 1,
+        "ddi_risk": 2,
         "_evidence": {
           "pmids": [
             "11034755",
@@ -3202,7 +3202,7 @@
         "renal_protection": 2,
         "metabolic_effect": 2,
         "electrolyte_risk": 1,
-        "ddi_risk": 3,
+        "ddi_risk": 2,
         "heart_rate_effect": "bradycardia",
         "_evidence": {
           "pmids": [
@@ -4266,7 +4266,7 @@
         "renal_protection": 3,
         "metabolic_effect": 3,
         "electrolyte_risk": 3,
-        "ddi_risk": 3,
+        "ddi_risk": 2,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -4616,7 +4616,7 @@
         "renal_protection": 3,
         "metabolic_effect": 3,
         "electrolyte_risk": 1,
-        "ddi_risk": 2,
+        "ddi_risk": 1,
         "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
@@ -5279,7 +5279,7 @@
         "renal_protection": 2,
         "metabolic_effect": 3,
         "electrolyte_risk": 2,
-        "ddi_risk": 2,
+        "ddi_risk": 1,
         "heart_rate_effect": "bradycardia",
         "_evidence": {
           "pmids": [
@@ -5373,7 +5373,7 @@
         "renal_protection": 2,
         "metabolic_effect": 1,
         "electrolyte_risk": 1,
-        "ddi_risk": 2,
+        "ddi_risk": 1,
         "heart_rate_effect": "bradycardia",
         "_evidence": {
           "pmids": [
@@ -7977,7 +7977,7 @@
         "cv_outcome_benefit": 3,
         "renal_benefit": 3,
         "gi_tolerability": 3,
-        "ddi_risk": 2,
+        "ddi_risk": 1,
         "hypoglycemia_risk": 1,
         "_evidence": {
           "pmids": [
