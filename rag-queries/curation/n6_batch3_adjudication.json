@@ -1,0 +1,206 @@
+{
+ "generated": "2026-09-29",
+ "batch": "N6.3: benefit cells (cv_outcome_benefit, renal_protection, renal_benefit, weight_effect)",
+ "method": "N1 vetting layer + raise/drop rules applied to in-pool basis sentences (PMIDs cited in batch5_rescore_draft.json). No external fetch needed: every raise either failed the >=2 support rule or failed vetting (safety!=benefit, clearance-PK!=protection, wrong-dimension, bases contradicting direction).",
+ "outcome": "35 adjudications, 0 value changes - all KEEP with documented reasons",
+ "adjudications": {
+  "A_demoted": [
+   {
+    "group": "bisoprolol|renal_protection",
+    "current": 2,
+    "reason": "vetting: pool basis is clearance PK (renal dependence), not protection - N1 demotion precedent"
+   },
+   {
+    "group": "gliclazide|weight_effect",
+    "current": 2,
+    "reason": "vetting: basis was HbA1c text, not weight; SU class is weight-neutral-to-gain; peer weight-neutral DPP-4s sit at 2"
+   },
+   {
+    "group": "glipizide|weight_effect",
+    "current": 2,
+    "reason": "vetting: basis was glycemic-efficacy text, not weight; same SU class reasoning"
+   },
+   {
+    "group": "pramlintide|cv_outcome_benefit",
+    "current": 2,
+    "reason": "vetting: basis is CV safety assessment - safety is not benefit (N1 precedent)"
+   },
+   {
+    "group": "repaglinide|cv_outcome_benefit",
+    "current": 2,
+    "reason": "vetting: truncated basis, could be CV-risk increase; no affirmative benefit evidence"
+   },
+   {
+    "group": "vildagliptin|weight_effect",
+    "current": 2,
+    "reason": "vetting: basis is exenatide WMD text - wrong drug; DPP-4 class weight-neutral consistent with peers at 2"
+   }
+  ],
+  "B_conflicts": [
+   {
+    "group": "losartan|renal_protection",
+    "current": 2,
+    "reason": "vetting: sup-2 bases are rat-model studies, one nanoparticle-combination (protection attributed to combo, not losartan). Keep; POOL-REFRESH candidate: RENAAL (DKD indication) would justify 3 if added to pool"
+   },
+   {
+    "group": "amlodipine|renal_protection",
+    "current": 2,
+    "reason": "sup 0 - raise fails the >=2 rule"
+   },
+   {
+    "group": "chlorthalidone|renal_protection",
+    "current": 2,
+    "reason": "vetting: CLICK-trial bases affirm BP efficacy IN CKD patients, not renoprotection (kidney-outcome) - dimension mismatch"
+   },
+   {
+    "group": "tirzepatide|renal_benefit",
+    "current": 2,
+    "reason": "sup 1 - raise fails the >=2 rule"
+   },
+   {
+    "group": "atenolol|renal_protection",
+    "current": 2,
+    "reason": "vetting: both bases (PMID 6749509) are clearance-PK (GFR-correlated elimination) - identical vetting-fail to bisoprolol's N1 demotion"
+   },
+   {
+    "group": "indapamide|renal_protection",
+    "current": 2,
+    "reason": "sup 1 - raise fails the >=2 rule"
+   },
+   {
+    "group": "clonidine|renal_protection",
+    "current": 2,
+    "reason": "vetting: bases are safety-in-CKD (PMID 7046065) and dated renal-hemodynamics usefulness (PMID 6154836, 1981) - hemodynamics != long-term protection"
+   },
+   {
+    "group": "linagliptin|weight_effect",
+    "current": 2,
+    "reason": "clean 1, sup 0 - no raise evidence"
+   },
+   {
+    "group": "alogliptin|weight_effect",
+    "current": 2,
+    "reason": "vetting: sup-5 bases say 'weight NEUTRAL' (PMID 24532820) and 'low risk of weight gain' (PMID 31654243) - bases CONTRADICT the proposed raise to 3"
+   },
+   {
+    "group": "alogliptin|cv_outcome_benefit",
+    "current": 2,
+    "reason": "sup 1 - raise fails the >=2 rule"
+   },
+   {
+    "group": "rosiglitazone|cv_outcome_benefit",
+    "current": 2,
+    "reason": "vetting: bases affirm CV HARM (PMID 17145742: glyburide lower CV risk than rosiglitazone) and null (PMID 37318502 MR study) - contradict benefit"
+   },
+   {
+    "group": "glimepiride|renal_benefit",
+    "current": 2,
+    "reason": "sup 1 - raise fails the >=2 rule"
+   },
+   {
+    "group": "glyburide|cv_outcome_benefit",
+    "current": 2,
+    "reason": "sup 1 - raise fails the >=2 rule"
+   },
+   {
+    "group": "gliclazide|cv_outcome_benefit",
+    "current": 2,
+    "reason": "vetting: key basis (PMID 36300277) says 'no evidence of INCREASED cardiovascular events' - CV safety is not benefit (N1 pramlintide precedent); other base is a methods sentence"
+   },
+   {
+    "group": "repaglinide|renal_benefit",
+    "current": 2,
+    "reason": "vetting: bases are safety/tolerability in renal impairment (PMID 26941817, 12083976) - safety is not benefit"
+   }
+  ],
+  "C_open_questions": [
+   {
+    "group": "metformin|weight_effect",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule. POOL-REFRESH candidate: DPP/UKPDS weight-loss evidence would justify 3 if added to pool"
+   },
+   {
+    "group": "olmesartan|renal_protection",
+    "current": 3,
+    "reason": "drop signal but kw=3 >= current=3 - keyword scorer disagrees, drop fails"
+   },
+   {
+    "group": "telmisartan|renal_protection",
+    "current": 3,
+    "reason": "drop signal but kw=3 >= current=3 - drop fails"
+   },
+   {
+    "group": "hydralazine|renal_protection",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "dulaglutide|renal_benefit",
+    "current": 3,
+    "reason": "drop signal but kw=3 >= current=3 - drop fails"
+   },
+   {
+    "group": "exenatide|renal_benefit",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "saxagliptin|weight_effect",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "linagliptin|cv_outcome_benefit",
+    "current": 3,
+    "reason": "drop signal but kw=3 >= current=3 - drop fails"
+   },
+   {
+    "group": "pioglitazone|weight_effect",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "rosiglitazone|renal_benefit",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "glyburide|weight_effect",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "glyburide|renal_benefit",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "insulin-aspart|weight_effect",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   },
+   {
+    "group": "insulin-degludec|weight_effect",
+    "current": 2,
+    "reason": "single-signal raise (support=1) fails >=2 rule"
+   }
+  ]
+ },
+ "counts": {
+  "A": 6,
+  "B": 15,
+  "C": 14,
+  "total": 35,
+  "changes": 0
+ },
+ "pool_refresh_candidates": [
+  "losartan|renal_protection: RENAAL trial (DKD indication) would justify 3",
+  "metformin|weight_effect: DPP/UKPDS weight-loss evidence would justify 3",
+  "amlodipine bradycardia/heart_rate_effect re-pull post-template-fix (tracked in G specials)"
+ ],
+ "vetting_patterns_confirmed": [
+  "clearance-PK bases are NOT protection evidence (atenolol=bisoprolol precedent)",
+  "safety/tolerability-in-impairment is NOT benefit (pramlintide/repaglinide precedent)",
+  "bases contradicting the proposed direction veto the raise regardless of support count (alogliptin 'weight neutral')"
+ ]
+}
