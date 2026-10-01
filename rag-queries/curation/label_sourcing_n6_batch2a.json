@@ -1,0 +1,309 @@
+{
+ "generated": "2026-09-29",
+ "batch": "N6.2a: high-impact risk cells (hypoglycemia + GI/bleeding)",
+ "method": "E1 pattern: verbatim DailyMed SPL quotes (setids current as of 2026-09-30 DailyMed publish) or in-pool PMID evidence; never retyped",
+ "approval_gate": "PROPOSED ONLY - no drugs.json changes. Awaiting user approval before merge_l3 apply.",
+ "cells": [
+  {
+   "cell": "metformin | hypoglycemia_risk",
+   "drug": "metformin",
+   "dimension": "hypoglycemia_risk",
+   "label": {
+    "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/23aa50c5-28fe-4322-b5c6-1f1c48409b16.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 1
+   },
+   "quote": "Insulin and insulin secretagogues (e.g., sulfonylurea) are known to cause hypoglycemia. Metformin hydrochloride may increase the risk of hypoglycemia when combined with insulin and/or an insulin secretagogue. Therefore, a lower dose of insulin or insulin secretagogue may be required to minimize the risk of hypoglycemia when used in combination with metformin hydrochloride. [6.1: hypoglycemia listed among reactions reported in >=1% to <=5% of metformin patients, not in the >5% table]",
+   "section": "5.3 Hypoglycemia with Concomitant Use with Insulin and Insulin Secretagogues; 6.1",
+   "numbers_found": [
+    ">=1% to <=5% band"
+   ],
+   "note": "Label flags hypo only for combination use; monotherapy carries no hypo warning. Current 3 equals insulin - indefensible."
+  },
+  {
+   "cell": "insulin-lispro | hypoglycemia_risk",
+   "drug": "insulin-lispro",
+   "dimension": "hypoglycemia_risk",
+   "label": {
+    "setid": "2be14cbb-197a-4da8-82c8-2443594e7f6f",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2be14cbb-197a-4da8-82c8-2443594e7f6f.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "Hypoglycemia is the most common adverse reaction associated with insulins, including Insulin Lispro. Severe hypoglycemia can cause seizures, may be life-threatening, or cause death.",
+   "section": "5.3 Hypoglycemia; 6.1",
+   "numbers_found": [],
+   "note": "Demoted proposal had a single-none-sentence basis; label confirms current 3. Closed."
+  },
+  {
+   "cell": "liraglutide | hypoglycemia_risk",
+   "drug": "liraglutide",
+   "dimension": "hypoglycemia_risk",
+   "label": {
+    "setid": "0efc3a89-211a-4496-baab-e8265e07de2b",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0efc3a89-211a-4496-baab-e8265e07de2b.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 2
+   },
+   "quote": "Adult patients receiving liraglutide in combination with an insulin secretagogue (e.g., sulfonylurea) or insulin may have an increased risk of hypoglycemia, including severe hypoglycemia. [6.1: hypoglycemia requiring assistance in 8 liraglutide-treated patients (7.5 events/1000 pt-yrs); 7 of the 8 concomitantly using a sulfonylurea]",
+   "section": "5.4 Hypoglycemia; 6.1",
+   "numbers_found": [
+    "7.5 events/1000 pt-yrs",
+    "7 of 8 on SU"
+   ],
+   "note": "Demotion reason noted the basis affirmed hypo - the label refines it: severe hypo is combo-driven (7/8 on SU). Intrinsic mono risk low. 3->2."
+  },
+  {
+   "cell": "sitagliptin | hypoglycemia_risk",
+   "drug": "sitagliptin",
+   "dimension": "hypoglycemia_risk",
+   "label": {
+    "setid": "983e9e14-e9bd-3136-e573-98b4dc67860b",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/983e9e14-e9bd-3136-e573-98b4dc67860b.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 2
+   },
+   "quote": "In controlled clinical studies as both monotherapy and combination therapy with metformin, pioglitazone, or rosiglitazone and metformin, the overall incidence of adverse reactions, hypoglycemia, and discontinuation of therapy due to clinical adverse reactions with sitagliptin were similar to placebo. [Table 3 add-on to glimepiride: overall hypo 27 (12.2%) vs placebo 4 (1.8%); rate 0.59 vs 0.24 episodes/pt-yr; severe 0 vs 0]",
+   "section": "5.4; 6.1 Table 3",
+   "numbers_found": [
+    "12.2% vs 1.8% (SU combo)",
+    "0.59 vs 0.24 rate",
+    "mono similar to placebo"
+   ],
+   "note": "Monotherapy hypo similar to placebo; elevation only in SU/insulin combos. 3->2."
+  },
+  {
+   "cell": "acarbose | hypoglycemia_risk",
+   "drug": "acarbose",
+   "dimension": "hypoglycemia_risk",
+   "label": {
+    "setid": "1ba7a072-03b0-41f2-be7a-101145bdef3a",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1ba7a072-03b0-41f2-be7a-101145bdef3a.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "Because of their mechanism of action, Acarbose Tablets when administered alone should not cause hypoglycemia in the fasted or postprandial state. [...] Acarbose Tablets themselves do not cause hypoglycemia even when administered to patients in the fasted state. Unlike sulfonylureas or insulin, an overdose of Acarbose Tablets will not result in hypoglycemia.",
+   "section": "PRECAUTIONS Hypoglycemia; Information for Patients; OVERDOSAGE",
+   "numbers_found": [],
+   "note": "Label explicitly denies intrinsic hypo. Batch5 kw=2 agreement overridden by label per decision rules. 2->1."
+  },
+  {
+   "cell": "vildagliptin | hypoglycemia_risk",
+   "drug": "vildagliptin",
+   "dimension": "hypoglycemia_risk",
+   "label": null,
+   "status": "no_us_label",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "",
+   "section": "",
+   "numbers_found": [],
+   "note": "Not FDA-approved: DailyMed returns 0 SPLs. Single-signal batch5 raise (support=1) fails the N1 raise rule (>=2). DPP-4 class consensus (sitagliptin label: mono ~= placebo) supports 2. Keep; EMA SmPC optional follow-up."
+  },
+  {
+   "cell": "ibuprofen | gi_risk",
+   "drug": "ibuprofen",
+   "dimension": "gi_risk",
+   "label": {
+    "setid": "2d6675e4-5859-4be2-8037-a20ce9f707aa",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2d6675e4-5859-4be2-8037-a20ce9f707aa.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "NSAIDs cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. [...] Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occurred in approximately 1% of patients treated for 3 to 6 months, and in about 2% to 4% of patients treated for one year.",
+   "section": "Boxed Warning; 5.2 (CELEBREX Rx SPL - FDA-mandated identical class labeling carried by all prescription NSAIDs including ibuprofen; OTC monograph SPLs lack the boxed warning)",
+   "numbers_found": [
+    "~1% at 3-6 mo",
+    "2-4% at 1 yr"
+   ],
+   "note": "Batch5 drop proposal was demoted as clinically wrong (black box). Class boxed warning confirms keep at 3. Closed."
+  },
+  {
+   "cell": "warfarin | gi_bleeding_risk",
+   "drug": "warfarin",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "654ca5d2-d4c1-48f8-90c4-130a21162bb0",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/654ca5d2-d4c1-48f8-90c4-130a21162bb0.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "Warfarin sodium can cause major or fatal bleeding.",
+   "section": "Boxed Warning: BLEEDING RISK",
+   "numbers_found": [],
+   "note": "Reference anchor for the 1-3 bleeding scale; no GI-site rates in sections 5/6. Keep 3."
+  },
+  {
+   "cell": "apixaban | gi_bleeding_risk",
+   "drug": "apixaban",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "41a133ef-e461-48ad-8221-b735bdd0ec25",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/41a133ef-e461-48ad-8221-b735bdd0ec25.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 1,
+    "to": 1,
+    "alternative": 2
+   },
+   "quote": "ELIQUIS increases the risk of bleeding and can cause serious, potentially fatal, bleeding. [ARISTOTLE Table 1: Gastrointestinal (GI) major bleeding - ELIQUIS 128 (0.83/100 pt-yr); warfarin 141 (0.93/100 pt-yr); HR 0.89 (0.70, 1.14)]",
+   "section": "5.2 Bleeding; 6.1 ARISTOTLE",
+   "numbers_found": [
+    "0.83 vs 0.93/100 pt-yr",
+    "HR 0.89 (0.70, 1.14)"
+   ],
+   "note": "Lowest GI-bleed DOAC (guideline-preferred bleeding profile) supports keep at 1; Batch-6 coalesce now yields a nonzero penalty instead of escape. Alternative 2 flagged for approval gate."
+  },
+  {
+   "cell": "edoxaban | gi_bleeding_risk",
+   "drug": "edoxaban",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "raise",
+    "from": 2,
+    "to": 3
+   },
+   "quote": "Gastrointestinal: SAVAYSA 205 (1.8%/yr) vs. warfarin 150 (1.3%/yr); HR 1.40 (1.13, 1.73). [Overall major bleeding lower: HR 0.80 (0.70, 0.91)]",
+   "section": "6.1 ENGAGE AF-TIMI 48 Table 6.1",
+   "numbers_found": [
+    "1.8%/yr vs 1.3%/yr",
+    "HR 1.40 (1.13, 1.73)"
+   ],
+   "note": "GI-site bleeding EXCEEDS warfarin (highest among DOACs). 1 verbatim label quantifier satisfies the raise rule. 2->3."
+  },
+  {
+   "cell": "dabigatran | gi_bleeding_risk",
+   "drug": "dabigatran",
+   "dimension": "gi_bleeding_risk",
+   "label": null,
+   "pmid_pool": {
+    "pmids": [
+     "35143325",
+     "39432641",
+     "26920607",
+     "24440332",
+     "25470152"
+    ],
+    "doi": "10.1016/j.amjcard.2013.11.049",
+    "source_file": "rag-queries/curation/dabigatran_evidence.json fields.L4_bleeding"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "raise",
+    "from": 2,
+    "to": 3
+   },
+   "quote": "Dabigatran was associated with a decreased risk of intracranial bleeding (RR 0.40, 95% CI 0.27 to 0.59) but an increased risk of gastrointestinal bleeding (RR 1.51, 95% CI 1.23 to 1.84). [SPL refetch truncated before Section 6; in-pool meta-analysis used instead per batch5 verification pattern]",
+   "section": "in-pool meta-analysis (Am J Cardiol, DOI above)",
+   "numbers_found": [
+    "GI RR 1.51 (1.23, 1.84) vs VKA"
+   ],
+   "note": "GI bleed exceeds VKA (RE-LY consistent: D150 GI bleed > warfarin + dyspepsia signal). 2->3."
+  },
+  {
+   "cell": "rivaroxaban | gi_bleeding_risk",
+   "drug": "rivaroxaban",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "10db92f9-2300-4a80-836b-673e1ae91610",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/10db92f9-2300-4a80-836b-673e1ae91610.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "Cited from E1 label_sourcing_e1.json (ROCKET-AF GI bleeding HR 1.61 (1.30, 1.99), 221 vs 140 events). No refetch.",
+   "section": "E1 record",
+   "numbers_found": [
+    "HR 1.61 (1.30, 1.99)"
+   ],
+   "note": "Already sourced in E1. Keep 3."
+  },
+  {
+   "cell": "enoxaparin | gi_bleeding_risk",
+   "drug": "enoxaparin",
+   "dimension": "gi_bleeding_risk",
+   "label": {
+    "setid": "20635579-c92d-4f6c-a332-1096d51002f2",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/20635579-c92d-4f6c-a332-1096d51002f2.xml"
+   },
+   "status": "not_found",
+   "proposed": {
+    "action": "keep_null",
+    "from": null,
+    "to": null
+   },
+   "quote": "Cited from E1 label_sourcing_e1.json: full label searched, no GI-specific bleeding rate or GI-site event count; only a precaution for active ulcerative/angiodysplastic GI disease. No refetch.",
+   "section": "E1 record",
+   "numbers_found": [],
+   "note": "not_found = keep null per E1 rule; Batch-6 coalesce yields 0 penalty (documented, no fabricated floor)."
+  }
+ ],
+ "proposal_summary": {
+  "changes": [
+   "metformin|hypoglycemia_risk 3->1",
+   "liraglutide|hypoglycemia_risk 3->2",
+   "sitagliptin|hypoglycemia_risk 3->2",
+   "acarbose|hypoglycemia_risk 2->1",
+   "edoxaban|gi_bleeding_risk 2->3",
+   "dabigatran|gi_bleeding_risk 2->3"
+  ],
+  "keeps": [
+   "insulin-lispro|hypoglycemia_risk 3",
+   "vildagliptin|hypoglycemia_risk 2",
+   "ibuprofen|gi_risk 3",
+   "warfarin|gi_bleeding_risk 3",
+   "apixaban|gi_bleeding_risk 1 (alt 2 noted)",
+   "rivaroxaban|gi_bleeding_risk 3",
+   "enoxaparin|gi_bleeding_risk null"
+  ],
+  "counts": {
+   "sourced": 11,
+   "no_us_label": 1,
+   "not_found": 1,
+   "proposed_changes": 6,
+   "keeps": 7
+  }
+ }
+}
