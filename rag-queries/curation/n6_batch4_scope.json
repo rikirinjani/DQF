@@ -1,0 +1,1152 @@
+{
+ "generated": "n6.4 scope v2 (mechanical)",
+ "method": "worklist A-E cross-referenced vs resolutions 2a/2b + batch3 adjudication; D/E filtered to status=unapplied",
+ "counts": {
+  "D_open": 9,
+  "E_open": 1,
+  "D_covered_elsewhere": 7,
+  "abc_open_total": 50,
+  "n6_4_unique_cells": 52,
+  "n6_4_unique_drugs": 42
+ },
+ "abc_open_by_dim": {
+  "electrolyte_risk": 10,
+  "metabolic_effect": 9,
+  "gi_tolerability": 8,
+  "cv_risk": 5,
+  "renal_risk": 4,
+  "acid_rebound": 3,
+  "myopathy_risk": 2,
+  "cdi_risk": 2,
+  "bp_reduction": 2,
+  "raft_strength": 1,
+  "reflux_suppression": 1,
+  "barrier_protection": 1,
+  "neutralization_capacity": 1,
+  "renal_toxicity_risk": 1
+ },
+ "D_open": [
+  {
+   "drug": "esomeprazole",
+   "dim": "acid_rebound",
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "bone_fracture_risk",
+   "current": 2,
+   "proposed": null,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "aluminum-magnesium-hydroxide",
+   "dim": "neutralization_capacity",
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "calcium-carbonate",
+   "dim": "renal_toxicity_risk",
+   "current": 1,
+   "proposed": 3,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "metoprolol",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "hydrochlorothiazide",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "candesartan",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "proposed": null,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "telmisartan",
+   "dim": "metabolic_effect",
+   "current": 3,
+   "proposed": null,
+   "note": "batch4 proposal"
+  }
+ ],
+ "E_open": [
+  {
+   "drug": "hydralazine",
+   "dim": "ddi_risk",
+   "current": 2,
+   "proposed": 2,
+   "note": "ddi proposal"
+  }
+ ],
+ "abc_open": {
+  "raft_strength": [
+   {
+    "src": "A",
+    "drug": "sodium-alginate",
+    "dim": "raft_strength",
+    "current": 3,
+    "proposed": "materials-science framing; raft formation is the class core mechanism",
+    "note": "materials-science framing; raft formation is the class core mechanism",
+    "action_hint": "demote"
+   }
+  ],
+  "reflux_suppression": [
+   {
+    "src": "A",
+    "drug": "sodium-alginate",
+    "dim": "reflux_suppression",
+    "current": 3,
+    "proposed": "single moderate sentence",
+    "note": "single moderate sentence",
+    "action_hint": "demote"
+   }
+  ],
+  "electrolyte_risk": [
+   {
+    "src": "A",
+    "drug": "diltiazem",
+    "dim": "electrolyte_risk",
+    "current": 2,
+    "proposed": "basis is epidural-fibrosis text, irrelevant; kw disagrees with raise",
+    "note": "basis is epidural-fibrosis text, irrelevant; kw disagrees with raise",
+    "action_hint": "demote"
+   },
+   {
+    "src": "B",
+    "drug": "candesartan",
+    "dim": "electrolyte_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   },
+   {
+    "src": "C",
+    "drug": "amlodipine",
+    "dim": "electrolyte_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "metoprolol",
+    "dim": "electrolyte_risk",
+    "current": 1,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "valsartan",
+    "dim": "electrolyte_risk",
+    "current": 1,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "telmisartan",
+    "dim": "electrolyte_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "atenolol",
+    "dim": "electrolyte_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "propranolol",
+    "dim": "electrolyte_risk",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "terazosin",
+    "dim": "electrolyte_risk",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "hydralazine",
+    "dim": "electrolyte_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ],
+  "metabolic_effect": [
+   {
+    "src": "A",
+    "drug": "felodipine",
+    "dim": "metabolic_effect",
+    "current": 2,
+    "proposed": "basis is diuresis/natriuresis (electrolyte/renal), not metabolic",
+    "note": "basis is diuresis/natriuresis (electrolyte/renal), not metabolic",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "nebivolol",
+    "dim": "metabolic_effect",
+    "current": 3,
+    "proposed": "basis is generic drug description, no metabolic content",
+    "note": "basis is generic drug description, no metabolic content",
+    "action_hint": "demote"
+   },
+   {
+    "src": "B",
+    "drug": "metoprolol",
+    "dim": "metabolic_effect",
+    "current": 2,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   },
+   {
+    "src": "B",
+    "drug": "hydrochlorothiazide",
+    "dim": "metabolic_effect",
+    "current": 2,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   },
+   {
+    "src": "C",
+    "drug": "amlodipine",
+    "dim": "metabolic_effect",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "chlorthalidone",
+    "dim": "metabolic_effect",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "olmesartan",
+    "dim": "metabolic_effect",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "verapamil",
+    "dim": "metabolic_effect",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "carvedilol",
+    "dim": "metabolic_effect",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ],
+  "gi_tolerability": [
+   {
+    "src": "A",
+    "drug": "alogliptin",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "single moderate (dizziness/syncope case)",
+    "note": "single moderate (dizziness/syncope case)",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "ertugliflozin",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "basis is about metformin's GI side effects - wrong drug",
+    "note": "basis is about metformin's GI side effects - wrong drug",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "glyburide",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "basis is rosiglitazone weight/edema, not GI",
+    "note": "basis is rosiglitazone weight/edema, not GI",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "repaglinide",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "basis affirms safe drug/mild adverse events - contradicts drop",
+    "note": "basis affirms safe drug/mild adverse events - contradicts drop",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "saxagliptin",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "single none sentence, truncated basis",
+    "note": "single none sentence, truncated basis",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "sitagliptin",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "basis (similar incidence rates) supports tolerability - contradicts drop",
+    "note": "basis (similar incidence rates) supports tolerability - contradicts drop",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "tirzepatide",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": "single moderate (hyponatremia text)",
+    "note": "single moderate (hyponatremia text)",
+    "action_hint": "demote"
+   },
+   {
+    "src": "C",
+    "drug": "linagliptin",
+    "dim": "gi_tolerability",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ],
+  "barrier_protection": [
+   {
+    "src": "A",
+    "drug": "sucralfate",
+    "dim": "barrier_protection",
+    "current": 3,
+    "proposed": "basis affirms widely known mucoprotective agent - contradicts drop",
+    "note": "basis affirms widely known mucoprotective agent - contradicts drop",
+    "action_hint": "demote"
+   }
+  ],
+  "renal_risk": [
+   {
+    "src": "A",
+    "drug": "meloxicam",
+    "dim": "renal_risk",
+    "current": 2,
+    "proposed": "basis says renal dysfunction has no relevant effect - backwards for a risk raise",
+    "note": "basis says renal dysfunction has no relevant effect - backwards for a risk raise",
+    "action_hint": "demote"
+   },
+   {
+    "src": "C",
+    "drug": "diclofenac",
+    "dim": "renal_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "paracetamol",
+    "dim": "renal_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "aspirin",
+    "dim": "renal_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   }
+  ],
+  "myopathy_risk": [
+   {
+    "src": "A",
+    "drug": "pitavastatin",
+    "dim": "myopathy_risk",
+    "current": 3,
+    "proposed": "single none sentence; partially supports but insufficient",
+    "note": "single none sentence; partially supports but insufficient",
+    "action_hint": "demote"
+   },
+   {
+    "src": "A",
+    "drug": "rosuvastatin",
+    "dim": "myopathy_risk",
+    "current": 3,
+    "proposed": "genes/pathways text, no myopathy content",
+    "note": "genes/pathways text, no myopathy content",
+    "action_hint": "demote"
+   }
+  ],
+  "acid_rebound": [
+   {
+    "src": "B",
+    "drug": "esomeprazole",
+    "dim": "acid_rebound",
+    "current": 2,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   },
+   {
+    "src": "C",
+    "drug": "pantoprazole",
+    "dim": "acid_rebound",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "rabeprazole",
+    "dim": "acid_rebound",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ],
+  "neutralization_capacity": [
+   {
+    "src": "B",
+    "drug": "aluminum-magnesium-hydroxide",
+    "dim": "neutralization_capacity",
+    "current": 2,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   }
+  ],
+  "renal_toxicity_risk": [
+   {
+    "src": "B",
+    "drug": "calcium-carbonate",
+    "dim": "renal_toxicity_risk",
+    "current": 1,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   }
+  ],
+  "cv_risk": [
+   {
+    "src": "B",
+    "drug": "aspirin",
+    "dim": "cv_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "Batch-5 pool maps to a different value than the applied adjudication",
+    "action_hint": "conflict"
+   },
+   {
+    "src": "C",
+    "drug": "ibuprofen",
+    "dim": "cv_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "diclofenac",
+    "dim": "cv_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "naproxen",
+    "dim": "cv_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "single-signal raise (support=1)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "piroxicam",
+    "dim": "cv_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ],
+  "cdi_risk": [
+   {
+    "src": "C",
+    "drug": "pantoprazole",
+    "dim": "cdi_risk",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "lansoprazole",
+    "dim": "cdi_risk",
+    "current": 2,
+    "proposed": null,
+    "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ],
+  "bp_reduction": [
+   {
+    "src": "C",
+    "drug": "chlorthalidone",
+    "dim": "bp_reduction",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   },
+   {
+    "src": "C",
+    "drug": "hydralazine",
+    "dim": "bp_reduction",
+    "current": 3,
+    "proposed": null,
+    "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)",
+    "action_hint": "open-question"
+   }
+  ]
+ },
+ "hr_strings_count": 33,
+ "specials": [
+  {
+   "item": "lovastatin|nnt_mace_5yr",
+   "current": null,
+   "api_fallback": "neutral 5.0 (fde0203/667fd49)",
+   "action": "source MACE endpoint from statin label; if none exists keep null + document"
+  },
+  {
+   "item": "metformin|hypoglycemia_risk",
+   "current": 3,
+   "action": "source label quote (monotherapy hypoglycemia uncommon); expect drop to 1-2"
+  },
+  {
+   "item": "amlodipine|heart_rate_effect",
+   "current": "bradycardia",
+   "action": "re-pull pool post-template-fix (bradycardia query removed 667fd49); re-adjudicate"
+  },
+  {
+   "item": "AH template wording",
+   "current": "bradycardia removed (667fd49)",
+   "action": "split cough/angioedema (ACEi) vs edema (CCB) per-subclass; pairs with R1"
+  }
+ ],
+ "n6_4_cell_list": [
+  {
+   "drug": "esomeprazole",
+   "dim": "acid_rebound",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "bone_fracture_risk",
+   "sources": [
+    "batch4_proposal"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "aluminum-magnesium-hydroxide",
+   "dim": "neutralization_capacity",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "calcium-carbonate",
+   "dim": "renal_toxicity_risk",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 1,
+   "proposed": 3,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "metoprolol",
+   "dim": "metabolic_effect",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "hydrochlorothiazide",
+   "dim": "metabolic_effect",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 2,
+   "proposed": 3,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "candesartan",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "batch4_proposal",
+    "B"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "batch4 proposal | Batch-5 pool maps to a different value than the applied adjudication"
+  },
+  {
+   "drug": "telmisartan",
+   "dim": "metabolic_effect",
+   "sources": [
+    "batch4_proposal"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "batch4 proposal"
+  },
+  {
+   "drug": "sodium-alginate",
+   "dim": "raft_strength",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "materials-science framing; raft formation is the class core mechanism",
+   "note": "materials-science framing; raft formation is the class core mechanism"
+  },
+  {
+   "drug": "sodium-alginate",
+   "dim": "reflux_suppression",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "single moderate sentence",
+   "note": "single moderate sentence"
+  },
+  {
+   "drug": "diltiazem",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "A"
+   ],
+   "current": 2,
+   "proposed": "basis is epidural-fibrosis text, irrelevant; kw disagrees with raise",
+   "note": "basis is epidural-fibrosis text, irrelevant; kw disagrees with raise"
+  },
+  {
+   "drug": "amlodipine",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "metoprolol",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 1,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "valsartan",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 1,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "telmisartan",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "atenolol",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "propranolol",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "terazosin",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "hydralazine",
+   "dim": "electrolyte_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "felodipine",
+   "dim": "metabolic_effect",
+   "sources": [
+    "A"
+   ],
+   "current": 2,
+   "proposed": "basis is diuresis/natriuresis (electrolyte/renal), not metabolic",
+   "note": "basis is diuresis/natriuresis (electrolyte/renal), not metabolic"
+  },
+  {
+   "drug": "nebivolol",
+   "dim": "metabolic_effect",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "basis is generic drug description, no metabolic content",
+   "note": "basis is generic drug description, no metabolic content"
+  },
+  {
+   "drug": "amlodipine",
+   "dim": "metabolic_effect",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "chlorthalidone",
+   "dim": "metabolic_effect",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "olmesartan",
+   "dim": "metabolic_effect",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "verapamil",
+   "dim": "metabolic_effect",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "carvedilol",
+   "dim": "metabolic_effect",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "single moderate (dizziness/syncope case)",
+   "note": "single moderate (dizziness/syncope case)"
+  },
+  {
+   "drug": "ertugliflozin",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "basis is about metformin's GI side effects - wrong drug",
+   "note": "basis is about metformin's GI side effects - wrong drug"
+  },
+  {
+   "drug": "glyburide",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "basis is rosiglitazone weight/edema, not GI",
+   "note": "basis is rosiglitazone weight/edema, not GI"
+  },
+  {
+   "drug": "repaglinide",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "basis affirms safe drug/mild adverse events - contradicts drop",
+   "note": "basis affirms safe drug/mild adverse events - contradicts drop"
+  },
+  {
+   "drug": "saxagliptin",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "single none sentence, truncated basis",
+   "note": "single none sentence, truncated basis"
+  },
+  {
+   "drug": "sitagliptin",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "basis (similar incidence rates) supports tolerability - contradicts drop",
+   "note": "basis (similar incidence rates) supports tolerability - contradicts drop"
+  },
+  {
+   "drug": "tirzepatide",
+   "dim": "gi_tolerability",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "single moderate (hyponatremia text)",
+   "note": "single moderate (hyponatremia text)"
+  },
+  {
+   "drug": "linagliptin",
+   "dim": "gi_tolerability",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "sucralfate",
+   "dim": "barrier_protection",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "basis affirms widely known mucoprotective agent - contradicts drop",
+   "note": "basis affirms widely known mucoprotective agent - contradicts drop"
+  },
+  {
+   "drug": "meloxicam",
+   "dim": "renal_risk",
+   "sources": [
+    "A"
+   ],
+   "current": 2,
+   "proposed": "basis says renal dysfunction has no relevant effect - backwards for a risk raise",
+   "note": "basis says renal dysfunction has no relevant effect - backwards for a risk raise"
+  },
+  {
+   "drug": "diclofenac",
+   "dim": "renal_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "paracetamol",
+   "dim": "renal_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "aspirin",
+   "dim": "renal_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "pitavastatin",
+   "dim": "myopathy_risk",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "single none sentence; partially supports but insufficient",
+   "note": "single none sentence; partially supports but insufficient"
+  },
+  {
+   "drug": "rosuvastatin",
+   "dim": "myopathy_risk",
+   "sources": [
+    "A"
+   ],
+   "current": 3,
+   "proposed": "genes/pathways text, no myopathy content",
+   "note": "genes/pathways text, no myopathy content"
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "acid_rebound",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "rabeprazole",
+   "dim": "acid_rebound",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "ibuprofen",
+   "dim": "cv_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "diclofenac",
+   "dim": "cv_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "naproxen",
+   "dim": "cv_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "single-signal raise (support=1)"
+  },
+  {
+   "drug": "piroxicam",
+   "dim": "cv_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "cdi_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "lansoprazole",
+   "dim": "cdi_risk",
+   "sources": [
+    "C"
+   ],
+   "current": 2,
+   "proposed": null,
+   "note": "drop signal but kw=2 >= current=2 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "chlorthalidone",
+   "dim": "bp_reduction",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  },
+  {
+   "drug": "hydralazine",
+   "dim": "bp_reduction",
+   "sources": [
+    "C"
+   ],
+   "current": 3,
+   "proposed": null,
+   "note": "drop signal but kw=3 >= current=3 (keyword scorer disagrees)"
+  }
+ ],
+ "n6_4_by_dim": {
+  "metabolic_effect": 10,
+  "electrolyte_risk": 10,
+  "gi_tolerability": 8,
+  "cv_risk": 5,
+  "renal_risk": 4,
+  "acid_rebound": 3,
+  "myopathy_risk": 2,
+  "cdi_risk": 2,
+  "bp_reduction": 2,
+  "bone_fracture_risk": 1,
+  "neutralization_capacity": 1,
+  "renal_toxicity_risk": 1,
+  "raft_strength": 1,
+  "reflux_suppression": 1,
+  "barrier_protection": 1
+ }
+}
