@@ -1,0 +1,616 @@
+{
+ "generated": "2026-09-29",
+ "batch": "N6.2b: ddi block (13 E-drops + 22 B-conflicts, 27 distinct drugs)",
+ "method": "E1 pattern: verbatim DailyMed SPL / openFDA Rx-label quotes; B tie-break rule (prior wins unless quantified label/RCT) + N1 vetting layer (basis must affirm the proposed direction)",
+ "approval_gate": "PROPOSED ONLY - no drugs.json changes. Awaiting user approval before merge_l3 apply.",
+ "cells": [
+  {
+   "cell": "lansoprazole | ddi_risk",
+   "drug": "lansoprazole",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "lansoprazole Xiromed Rx (setid not returned)"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 2
+   },
+   "quote": "Lansoprazole metabolized via CYP2C19 and CYP3A4 (substrate, not perpetrator - no clopidogrel warning unlike omeprazole). Theophylline clearance increased (titrate); tacrolimus exposure up in CYP2C19 PMs (monitor); rilpivirine contraindicated (class); warfarin INR, high-dose MTX, digoxin, pH-drugs monitoring list.",
+   "section": "7 Drug Interactions",
+   "numbers_found": [],
+   "note": "E-drop and B-pool (sup 5) agree. Victim-only profile supports 2."
+  },
+  {
+   "cell": "ranitidine | ddi_risk",
+   "drug": "ranitidine",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "ranitidine tablets USP Rx, spl 0fba6615-37c2-4ba6-b6e5-09599369a5bc"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 2
+   },
+   "quote": "Procainamide excretion reduced (monitor >300mg/day); warfarin PT altered (monitor); glipizide +34%; oral midazolam +65%; triazolam +30%; ketoconazole -95% at pH>=6; atazanavir/delavirdine/gefitinib absorption impaired (chronic delavirdine not recommended). No CYP isoform named (weak nonspecific).",
+   "section": "Drug Interactions (renal secretion + pH + weak CYP)",
+   "numbers_found": [
+    "glipizide +34%",
+    "midazolam +65%",
+    "triazolam +30%",
+    "ketoconazole -95%"
+   ],
+   "note": "E-drop and B-pool (sup 2) agree. Preserves H2RA rank cimetidine>ranitidine 2>famotidine 1."
+  },
+  {
+   "cell": "famotidine | ddi_risk",
+   "drug": "famotidine",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "famotidine tablets USP Rx ANDA215767, spl 002875d2-8c30-2d2e-e063-6294a90ae01e"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "pH-dependent drugs (dasatinib/delavirdine/cefditoren/fosamprenavir not recommended; atazanavir/erlotinib/ketoconazole/itraconazole/ledipasvir/nilotinib/rilpivirine - see their labels). Tizanidine (CYP1A2 substrate): famotidine weak CYP1A2 inhibitor, may substantially raise tizanidine (avoid if possible). No contraindicated combos.",
+   "section": "7 Drug Interactions",
+   "numbers_found": [],
+   "note": "E-drop supported: weakest H2RA (no CYP perpetration beyond 1A2-tizanidine; pH issues manageable)."
+  },
+  {
+   "cell": "atenolol | ddi_risk",
+   "drug": "atenolol",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "7836ee53-902b-4a3e-9523-6d4311cfba0e",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7836ee53-902b-4a3e-9523-6d4311cfba0e.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "Catecholamine-depleting drugs, CCBs, disopyramide, amiodarone, clonidine (rebound), indomethacin (blunts effect), digitalis (bradycardia) - all PD/monitoring. CYP enzymes named: none. Contraindicated: none.",
+   "section": "Drug Interactions (PRECAUTIONS)",
+   "numbers_found": [],
+   "note": "E-drop and B-pool (clean 1) agree. PD-only, no CYP, no contras."
+  },
+  {
+   "cell": "bisoprolol | ddi_risk",
+   "drug": "bisoprolol",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "bisoprolol fumarate tablets USP Solco, spl 084308e4-3b8b-40d6-acbf-d775772a8a73"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "Pharmacokinetic studies document no clinically relevant interactions with other agents given concomitantly, including thiazide diuretics and cimetidine. [PD cautions: other beta-blockers, clonidine, CCBs/diltiazem-verapamil, digoxin/bradycardia, rifampin (shortened t1/2, no dose change needed), warfarin no PT effect.]",
+   "section": "Drug Interactions (PRECAUTIONS)",
+   "numbers_found": [],
+   "note": "E-drop supported by explicit no-PK-interaction statement."
+  },
+  {
+   "cell": "pantoprazole | ddi_risk",
+   "drug": "pantoprazole",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "pantoprazole sodium Meitheal Rx (setid not returned)"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "Clopidogrel: no clinically important effect on active metabolite or platelet inhibition. Pantoprazole did not significantly alter kinetics of CYP substrate drugs studied (clopidogrel AUC -14% only). Rilpivirine contraindicated (class). Warfarin INR, high-dose MTX, pH-drugs monitoring.",
+   "section": "7 Drug Interactions",
+   "numbers_found": [
+    "clopidogrel AUC -14%"
+   ],
+   "note": "B-pool (clean 1) + explicit no-effect statements. Preserves PPI rank 3,3,2,1 (ome/esome/lanso/panto)."
+  },
+  {
+   "cell": "irbesartan | ddi_risk",
+   "drug": "irbesartan",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "7885b2a8-be4e-48ab-8113-4e6ab791eb98",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7885b2a8-be4e-48ab-8113-4e6ab791eb98.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "K+-raising agents (hyperkalemia); lithium (monitor); NSAIDs/COX-2 (renal, reversible); dual RAS blockade (avoid); aliskiren contraindicated in diabetes. CYP enzymes in Section 7: none.",
+   "section": "7.1-7.4 (Avapro)",
+   "numbers_found": [],
+   "note": "B-pool (clean 1) + PD-only label. Aligns ARBs at 1 (valsartan/olmesartan already 1)."
+  },
+  {
+   "cell": "piroxicam | ddi_risk",
+   "drug": "piroxicam",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "f1123fe1-b79c-430b-8548-08cd6e518482",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/f1123fe1-b79c-430b-8548-08cd6e518482.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "raise",
+    "from": 1,
+    "to": 2
+   },
+   "quote": "Bleeding synergy (warfarin/aspirin/SSRIs/SNRIs); aspirin combo not generally recommended; ACEi/ARB/BB blunting + renal risk; diuretics blunted; digoxin levels up; lithium +15% / clearance -20%; MTX toxicity; cyclosporine nephrotoxicity. No CYP named; no formal contras.",
+   "section": "7 Table 1 (Teva)",
+   "numbers_found": [
+    "lithium +15%",
+    "clearance -20%"
+   ],
+   "note": "B-raise meets rule (sup 2) + extensive label. Aligns with indomethacin 2."
+  },
+  {
+   "cell": "metoprolol | ddi_risk",
+   "drug": "metoprolol",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "5b0b19b1-4c3c-4ecb-8153-8c58ba29e5ee",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/5b0b19b1-4c3c-4ecb-8153-8c58ba29e5ee.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 2
+   },
+   "quote": "Strong CYP2D6 inhibitors (quinidine, fluoxetine, paroxetine, propafenone) double metoprolol concentrations (monitor). Negative chronotropes (digoxin, clonidine, diltiazem, verapamil) -> bradycardia risk. No drug-drug combination contraindicated.",
+   "section": "7.1-7.4",
+   "numbers_found": [
+    "CYP2D6 inhibitors double concentrations"
+   ],
+   "note": "B-pool (sup 5, pk:3) + label: significant but monitorable single-CYP dependence. Pool basis (CYP2D6 PM exposure) affirms."
+  },
+  {
+   "cell": "captopril | ddi_risk",
+   "drug": "captopril",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "1395ba5b-2fc9-41ff-9c43-e0740d781dee",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1395ba5b-2fc9-41ff-9c43-e0740d781dee.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 3,
+    "to": 2
+   },
+   "quote": "Dual RAS blockade risks; NSAIDs renal/attenuation; precipitous hypotension with diuretics; K+-raising agents; lithium; gold nitritoid; mTOR/neprilysin angioedema; aliskiren contraindicated in diabetes; sacubitril 36h rule. CYP enzymes: none. Pool basis: captopril-digoxin/probenecid/indomethacin PD texts.",
+   "section": "Drug Interactions (partial - truncated at K+ paragraph; CONTRAINDICATIONS cited)",
+   "numbers_found": [],
+   "note": "B-pool (sup 2, pd:2) + long PD-only label. Note: lisinopril stays 1 (raise failed rule) - ACEi inconsistency flagged."
+  },
+  {
+   "cell": "acarbose | ddi_risk",
+   "drug": "acarbose",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "1ba7a072-03b0-41f2-be7a-101145bdef3a",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1ba7a072-03b0-41f2-be7a-101145bdef3a.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "Charcoal and carbohydrate-splitting enzyme products (amylase, pancreatin) should not be taken concomitantly (only prohibited combo). Digoxin bioavailability altered (may need adjustment). SU/insulin hypo potentiation. CYP enzymes: none.",
+   "section": "Drug Interactions (LOINC 34073-7)",
+   "numbers_found": [],
+   "note": "B-pool (sup 5, pd:4) + minimal systemic interactions. Consistent with acarbose hypo 2->1 (N6.2a)."
+  },
+  {
+   "cell": "lovastatin | ddi_risk",
+   "drug": "lovastatin",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "9438d8a0-ca5b-4676-aab9-d0241ccff6c9",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9438d8a0-ca5b-4676-aab9-d0241ccff6c9.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "CYP3A4 substrate; strong inhibitors (ketoconazole, posaconazole, clarithromycin, telithromycin, HIV PIs, nefazodone) raise levels (myopathy risk); grapefruit double-strength juice: lovastatin AUC up 15-fold; cyclosporine raises AUC.",
+   "section": "Pharmacokinetics + Table I footnote (Section 7 truncated)",
+   "numbers_found": [
+    "grapefruit AUC up 15-fold"
+   ],
+   "note": "E-drop REFUTED: major CYP3A4 victim profile (15-fold grapefruit). Keep 3."
+  },
+  {
+   "cell": "omeprazole | ddi_risk",
+   "drug": "omeprazole",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "omeprazole Dr. Reddy's Rx (setid not returned)"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "Time-dependent CYP2C19 inhibitor; omeprazole 80mg reduces clopidogrel active metabolite (avoid combo); rilpivirine contraindicated; citalopram cap 20mg (QT); cilostazol halve; phenytoin/diazepam monitor; warfarin/MTX/digoxin/tacrolimus monitoring; pH-drugs.",
+   "section": "7 Drug Interactions",
+   "numbers_found": [],
+   "note": "E-drop REFUTED: canonical CYP2C19 perpetrator + contraindication. Keep 3."
+  },
+  {
+   "cell": "esomeprazole | ddi_risk",
+   "drug": "esomeprazole",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "esomeprazole Aurobindo Rx (setid not returned)"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "Inhibits CYP2C19: clopidogrel active metabolite reduced (avoid); citalopram cap 20mg; cilostazol halve; rilpivirine contraindicated; warfarin/MTX/digoxin/tacrolimus monitoring; pH-drugs.",
+   "section": "7 Drug Interactions",
+   "numbers_found": [],
+   "note": "E-drop + B-pool (sup 4) REFUTED: same molecule as omeprazole, identical perpetrator profile. Keep 3 (label outranks pool)."
+  },
+  {
+   "cell": "indomethacin | ddi_risk",
+   "drug": "indomethacin",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "205fc4e7-e118-509e-e063-6394a90a78e6",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/205fc4e7-e118-509e-e063-6394a90a78e6.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "Triamterene: should not be administered together (reversible acute renal failure). Lithium +15%/clearance -20%; MTX toxicity; cyclosporine nephrotoxicity; digoxin up; bleeding synergy (warfarin/aspirin/SSRIs/SNRIs); diflunisal fatal hemorrhage; ACEi/ARB/BB/diuretic blunting.",
+   "section": "7 Table 2 (truncated mid-pemetrexed)",
+   "numbers_found": [
+    "lithium +15%",
+    "clearance -20%"
+   ],
+   "note": "E-drop + B-pool (clean 1, sup 3) REFUTED: must-not-combine + narrow-TI drugs affected. Keep 2."
+  },
+  {
+   "cell": "ketorolac | ddi_risk",
+   "drug": "ketorolac",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "7a7c8579-d423-4699-9435-69c4d127c654",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7a7c8579-d423-4699-9435-69c4d127c654.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "CONTRAINDICATIONS: probenecid, pentoxifylline, aspirin/NSAIDs (cumulative risk). WARNINGS: bleeding risk with anticoagulants (heparin, dicumarol, warfarin, dextrans); GI bleed with corticosteroids; diuretic/ACEi/ARB blunting. (Full Section 7 truncated.)",
+   "section": "CONTRAINDICATIONS + WARNINGS (injection SPL - identical DDI profile to oral)",
+   "numbers_found": [],
+   "note": "E-drop REFUTED: 3 contraindicated combos. Keep 2."
+  },
+  {
+   "cell": "glyburide | ddi_risk",
+   "drug": "glyburide",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "glyburide tablets USP Avet, spl 05341afe-5b7a-462a-a196-689cb09f83fc"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "Bosentan: liver enzyme elevations - concomitant administration CONTRAINDICATED. Hypo potentiation: NSAIDs, highly protein-bound drugs, salicylates, sulfonamides, chloramphenicol, probenecid, coumarins, MAOIs, beta-blockers. Ciprofloxacin, miconazole, colesevelam (-32% AUC), topiramate (-25% AUC).",
+   "section": "Drug Interactions",
+   "numbers_found": [
+    "colesevelam AUC -32%",
+    "topiramate AUC -25%"
+   ],
+   "note": "E-drop + B-pool REFUTED: contraindication + extensive list. Keep 2."
+  },
+  {
+   "cell": "gliclazide | ddi_risk",
+   "drug": "gliclazide",
+   "dimension": "ddi_risk",
+   "label": null,
+   "status": "no_us_label",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "",
+   "section": "",
+   "numbers_found": [],
+   "note": "Not FDA-approved: DailyMed returns 0 SPLs. SU class consensus (glyburide keep 2: CYP2C9 + protein binding) supports 2. Keep; EMA SmPC optional follow-up."
+  },
+  {
+   "cell": "rosiglitazone | ddi_risk",
+   "drug": "rosiglitazone",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "ef14122b-7fff-45fa-b13b-0ea9e48bd57d",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/ef14122b-7fff-45fa-b13b-0ea9e48bd57d.xml"
+   },
+   "status": "partial",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "AVANDIA coadministration with insulin is not recommended (CHF 2.4% vs 1.1%, ischemia 2.8% vs 1.4%); nitrates not recommended (ischemia OR 2.9). (Section 7 unreachable: DailyMed truncation, openFDA 404, no generic SPLs.)",
+   "section": "1.2 + 5.2/5.3 (visible portion)",
+   "numbers_found": [
+    "OR 2.9 (1.4, 5.9) nitrate ischemia"
+   ],
+   "note": "E-drop + B-pool REFUTED by vetting: drop basis (acarbose null-study) does not negate the dimension; visible label already carries two not-recommended combos. Keep 2; re-litigate only with verbatim Section 7."
+  },
+  {
+   "cell": "simvastatin | ddi_risk",
+   "drug": "simvastatin",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "3f6fad0b-0278-433f-86db-761b673a5803",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3f6fad0b-0278-433f-86db-761b673a5803.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "CONTRAINDICATED: strong CYP3A4 inhibitors (azoles, macrolides, HIV/HCV PIs, cobicistat, nefazodone), cyclosporine, danazol, gemfibrozil. Dose caps: verapamil/diltiazem/dronedarone 10mg; amlodipine/amiodarone/ranolazine 20mg. Grapefruit avoid; warfarin INR; digoxin. (B-pool evidence: single none-sentence, support 0.)",
+   "section": "7 Drug Interactions",
+   "numbers_found": [],
+   "note": "B-pool (clean 1, sup 0) worthless against this label. Keep 2 (no raise proposed; conservative)."
+  },
+  {
+   "cell": "diltiazem | ddi_risk",
+   "drug": "diltiazem",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "14869f9e-6a66-4f75-b0fc-4d808b1ee85e",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/14869f9e-6a66-4f75-b0fc-4d808b1ee85e.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "CYP3A4 substrate AND inhibitor + P-gp: simvastatin AUC +5-fold (cap 10/240mg); buspirone +5.5-fold; midazolam/triazolam +3-4-fold; carbamazepine +40-72%; cimetidine +58%/+53%; quinidine +51%; digoxin +20%. AVOID ivabradine; AVOID rifampin/CYP3A4 inducers.",
+   "section": "Drug Interactions",
+   "numbers_found": [
+    "simvastatin +5-fold",
+    "buspirone +5.5-fold"
+   ],
+   "note": "B-pool (clean 2, sup 4) REFUTED: quantified major perpetrator. Keep 3."
+  },
+  {
+   "cell": "felodipine | ddi_risk",
+   "drug": "felodipine",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "0bef7cf2-012b-4804-ac93-0a8b333035db",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0bef7cf2-012b-4804-ac93-0a8b333035db.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 3,
+    "to": 3
+   },
+   "quote": "CYP3A4 victim: itraconazole AUC +8-fold/Cmax +6-fold; erythromycin +2.5-fold; grapefruit +2-fold; anticonvulsants reduce AUC to ~6% (consider alternative therapy); tacrolimus levels up.",
+   "section": "Drug Interactions (PRECAUTIONS)",
+   "numbers_found": [
+    "itraconazole AUC +8-fold",
+    "AUC to ~6% on inducers"
+   ],
+   "note": "B-pool (clean 2, sup 2) REFUTED: 8-fold swings + consider-alternative. Keep 3."
+  },
+  {
+   "cell": "lisinopril | ddi_risk",
+   "drug": "lisinopril",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "00b266d9-ac4a-e931-e063-6294a90a6a0b",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/00b266d9-ac4a-e931-e063-6294a90a6a0b.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 1,
+    "to": 1
+   },
+   "quote": "Dual RAS blockade (avoid; aliskiren contraindicated in diabetes); K+-raising agents; lithium; gold nitritoid; mTOR/neprilysin angioedema; NSAIDs renal/attenuation. (Cited from lisinopril+HCTZ combo SPL HCTZ-subsection sibling; single-ingredient SPL truncated.)",
+   "section": "7 (via combo SPL - verbatim lisinopril text)",
+   "numbers_found": [],
+   "note": "B-raise FAILS rule (sup 1). Keep 1. Note: ACEi class inconsistency (captopril 2) flagged, not changed (rule-bound)."
+  },
+  {
+   "cell": "valsartan | ddi_risk",
+   "drug": "valsartan",
+   "dimension": "ddi_risk",
+   "label": {
+    "route": "openFDA DRUG label API (full sections, no truncation)",
+    "note": "Diovan Novartis (setid not returned)"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 1,
+    "to": 1
+   },
+   "quote": "CYP2C9 minimal (~9%); does not inhibit CYP450 at clinical concentrations; CYP-mediated interactions unlikely. K+ agents, NSAIDs, dual RAS blockade, lithium. Aliskiren contraindicated in diabetes.",
+   "section": "7.1-7.4",
+   "numbers_found": [
+    "CYP ~9%"
+   ],
+   "note": "B-raise FAILS rule (sup 1). Keep 1. All ARBs now 1 (irbesartan joins)."
+  },
+  {
+   "cell": "olmesartan | ddi_risk",
+   "drug": "olmesartan",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "dc3f1fd4-5578-4c5d-be7b-12e3f8f3e7df",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/dc3f1fd4-5578-4c5d-be7b-12e3f8f3e7df.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 1,
+    "to": 1
+   },
+   "quote": "K+ agents, NSAIDs, dual RAS blockade, lithium, colesevelam (-exposure, dose 4h apart). CYP enzymes in Section 7: none. Aliskiren contraindicated in diabetes.",
+   "section": "7.1-7.5 (Benicar)",
+   "numbers_found": [],
+   "note": "B-raise FAILS rule (sup 1). Keep 1."
+  },
+  {
+   "cell": "chlorthalidone | ddi_risk",
+   "drug": "chlorthalidone",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "a6fa12f0-a2bc-456a-9f25-f69bb31fdb60",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/a6fa12f0-a2bc-456a-9f25-f69bb31fdb60.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 1,
+    "to": 1
+   },
+   "quote": "Other antihypertensives (potentiation); digitalis/electrolytes; insulin/diabetes agents; tubocurarine; norepinephrine. CYP: none. Contras: none.",
+   "section": "Drug Interactions",
+   "numbers_found": [],
+   "note": "B-raise FAILS rule (sup 1) + short label. Keep 1."
+  },
+  {
+   "cell": "hydrochlorothiazide | ddi_risk",
+   "drug": "hydrochlorothiazide",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "00b266d9-ac4a-e931-e063-6294a90a6a0b",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/00b266d9-ac4a-e931-e063-6294a90a6a0b.xml"
+   },
+   "status": "sourced",
+   "proposed": {
+    "action": "keep",
+    "from": 2,
+    "to": 2
+   },
+   "quote": "Alcohol/barbiturates/narcotics (hypotension); antidiabetics (adjust); cholestyramine/colestipol (-85%/-43% absorption); corticosteroids/ACTH (K+ wasting); pressor amines (blunted); muscle relaxants; lithium (reduced clearance, HIGH toxicity risk - generally avoid); NSAIDs (blunt effect). No CYP. (Single-ingredient SPL unresolvable - combo SPL HCTZ subsection quoted verbatim.)",
+   "section": "HCTZ subsection (via combo SPL)",
+   "numbers_found": [
+    "cholestyramine -85%",
+    "colestipol -43%"
+   ],
+   "note": "B-raise FAILS vetting: basis (losartan PK study + efficacy sentence) does not affirm 3-level severity. Keep 2."
+  },
+  {
+   "cell": "acarbose | ddi_risk",
+   "drug": "acarbose",
+   "dimension": "ddi_risk",
+   "label": {
+    "setid": "1ba7a072-03b0-41f2-be7a-101145bdef3a",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1ba7a072-03b0-41f2-be7a-101145bdef3a.xml"
+   },
+   "status": "already_sourced_n62a",
+   "proposed": {
+    "action": "drop",
+    "from": 2,
+    "to": 1
+   },
+   "quote": "See N6.2a record (minimal systemic interactions; charcoal/enzymes only prohibited combo; digoxin bioavailability).",
+   "section": "N6.2a",
+   "numbers_found": [],
+   "note": "B-pool (sup 5, pd:4) + label. Consistent with acarbose hypo 2->1."
+  }
+ ],
+ "proposal_summary": {
+  "changes": [
+   "lansoprazole|ddi_risk 3->2",
+   "ranitidine|ddi_risk 3->2",
+   "famotidine|ddi_risk 2->1",
+   "atenolol|ddi_risk 2->1",
+   "bisoprolol|ddi_risk 2->1",
+   "pantoprazole|ddi_risk 2->1",
+   "irbesartan|ddi_risk 2->1",
+   "piroxicam|ddi_risk 1->2",
+   "metoprolol|ddi_risk 3->2",
+   "captopril|ddi_risk 3->2",
+   "acarbose|ddi_risk 2->1"
+  ],
+  "keeps": [
+   "lovastatin 3",
+   "omeprazole 3",
+   "esomeprazole 3",
+   "indomethacin 2",
+   "ketorolac 2",
+   "rosiglitazone 2",
+   "glyburide 2",
+   "gliclazide 2",
+   "simvastatin 2",
+   "diltiazem 3",
+   "felodipine 3",
+   "lisinopril 1",
+   "valsartan 1",
+   "olmesartan 1",
+   "chlorthalidone 1",
+   "hydrochlorothiazide 2"
+  ],
+  "observed_inconsistencies": [
+   "losartan ddi=2 vs other ARBs 1 (no proposal targets it - future pass)",
+   "lisinopril 1 vs captopril 2 (rule-bound; kept)",
+   "simvastatin 2 despite contraindicated list (no raise proposed; conservative keep)"
+  ],
+  "counts": {
+   "cells": 28,
+   "sourced": 24,
+   "partial": 1,
+   "no_us_label": 1,
+   "proposed_changes": 11,
+   "keeps": 17
+  }
+ }
+}
