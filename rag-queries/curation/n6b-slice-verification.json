@@ -1,0 +1,198 @@
+{
+ "generated": "2026-10-02",
+ "batch": "N6b narrow vertical slice",
+ "commit": "e67e8ef",
+ "kaggle_kernel": "rikirinjani/dqf-n6b-slice-verify-cpu (CPU, script kernel, internet on)",
+ "purpose": "Verify the Astra-recommended first cut (eligibility gate + typed evidence contract + three-state response) on Kaggle CPU, and run the Phase 0 evidence-readiness experiment.",
+ "verification": {
+  "head": "e67e8ef",
+  "suites": {
+   "rag-queries/test_indication_gate.py": {
+    "rc": 0,
+    "tail": "18/18 passed"
+   },
+   "rag-queries/test_scorer_hardening.py": {
+    "rc": 0,
+    "tail": "ALL CHECKS PASSED"
+   },
+   "rag-queries/test_anticoagulant_scorer.py": {
+    "rc": 0,
+    "tail": "ALL ANTICOAGULANT SCORER CHECKS PASSED"
+   },
+   "rag-queries/test_merge_lock.py": {
+    "rc": 0,
+    "tail": "8/8 passed"
+   }
+  },
+  "grid": {
+   "rc": 0,
+   "out": "queries run: 352, failures: 0"
+  },
+  "scoped_smoke": "mode: objective_scoped | status: ok\neligible_ranked: 5 | eligible_unranked: 0 | excluded: 90\n  pantoprazole     overall= 8.2 efficacy= 8.7 combo=0\n  rabeprazole      overall= 7.6 efficacy= 7.6 combo=0\n  esomeprazole     overall= 7.6 efficacy= 8.9 combo=0\n  lansoprazole     overall= 7.5 efficacy= 8.0 combo=0\n  omeprazole       overall= 6.9 efficacy= 7.8 combo=0\nsummary: Best option among ranked candidates for erosive_esophagitis_healing in the evaluated catalogue: Pantoprazole (overall 8.2/10).\nlegacy mode: legacy | deprecated: True | results: 95"
+ },
+ "evidence_readiness_matrix": {
+  "Alginate": {
+   "n_drugs": 1,
+   "endpoint_keys": {}
+  },
+  "Antacid": {
+   "n_drugs": 2,
+   "endpoint_keys": {}
+  },
+  "Anticoagulant": {
+   "n_drugs": 6,
+   "endpoint_keys": {
+    "dose_reduction_criteria": {
+     "present": 6,
+     "usable": 0
+    },
+    "ich_reduction": {
+     "present": 6,
+     "usable": 0
+    },
+    "stroke_se_reduction_vs_warfarin": {
+     "present": 6,
+     "usable": 0
+    }
+   }
+  },
+  "Antihypertensive": {
+   "n_drugs": 33,
+   "endpoint_keys": {
+    "nnt_bp_control": {
+     "present": 33,
+     "usable": 0
+    },
+    "success_rate": {
+     "present": 33,
+     "usable": 33
+    }
+   }
+  },
+  "Diabetes": {
+   "n_drugs": 28,
+   "endpoint_keys": {
+    "nnt_bp_control": {
+     "present": 28,
+     "usable": 0
+    },
+    "success_rate": {
+     "present": 28,
+     "usable": 28
+    }
+   }
+  },
+  "H2RA": {
+   "n_drugs": 3,
+   "endpoint_keys": {
+    "duodenal_ulcer_healing_4wk_pct": {
+     "present": 3,
+     "usable": 3
+    },
+    "ee_healing_8wk_pct": {
+     "present": 3,
+     "usable": 3
+    },
+    "gerd_symptom_nnt": {
+     "present": 3,
+     "usable": 3
+    }
+   }
+  },
+  "Mucosal Protectant": {
+   "n_drugs": 1,
+   "endpoint_keys": {
+    "du_healing_8wk_pct": {
+     "present": 1,
+     "usable": 1
+    },
+    "gerd_healing_8wk_pct": {
+     "present": 1,
+     "usable": 1
+    },
+    "gu_healing_8wk_pct": {
+     "present": 1,
+     "usable": 1
+    },
+    "maintenance_capability": {
+     "present": 1,
+     "usable": 0
+    }
+   }
+  },
+  "NSAID": {
+   "n_drugs": 10,
+   "endpoint_keys": {
+    "nnt_50_pain_relief": {
+     "present": 10,
+     "usable": 0
+    },
+    "success_rate": {
+     "present": 10,
+     "usable": 10
+    }
+   }
+  },
+  "PPI": {
+   "n_drugs": 5,
+   "endpoint_keys": {
+    "duodenal_ulcer_healing_4wk_pct": {
+     "present": 5,
+     "usable": 5
+    },
+    "ee_healing_4wk_pct": {
+     "present": 5,
+     "usable": 5
+    },
+    "ee_healing_8wk_pct": {
+     "present": 5,
+     "usable": 5
+    },
+    "gerd_symptom_nnt": {
+     "present": 5,
+     "usable": 5
+    },
+    "h_pylori_eradication_pct": {
+     "present": 5,
+     "usable": 5
+    },
+    "maintenance_12mo_pct": {
+     "present": 5,
+     "usable": 5
+    },
+    "severe_ee_healing_8wk_pct": {
+     "present": 5,
+     "usable": 5
+    }
+   }
+  },
+  "Statin": {
+   "n_drugs": 6,
+   "endpoint_keys": {
+    "ldl_reduction_1yr_pct": {
+     "present": 1,
+     "usable": 0
+    },
+    "ldl_reduction_mean_pct": {
+     "present": 5,
+     "usable": 5
+    },
+    "nnt_mace_5yr": {
+     "present": 6,
+     "usable": 0
+    },
+    "success_rate_ldl_goal": {
+     "present": 5,
+     "usable": 5
+    }
+   }
+  }
+ },
+ "readiness_notes": [
+  "NNT endpoints (nnt_bp_control, nnt_mace_5yr, nnt_50_pain_relief) are present for every drug in their class but are NESTED dicts {value, ci_95, dose}, not scalars - the typed evidence store must unwrap them (this is the Diabetes 'a1c under nnt_bp_control' collision the review flagged).",
+  "Antihypertensive/Diabetes/Anticoagulant have no scalar efficacy endpoint - consistent with the flat-5.0 finding; their data is nested/structured.",
+  "Antacid and Alginate have NO efficacy endpoint keys at all - the review's gap; they cannot be ranked on healing.",
+  "PPI is the best-evidenced class (7 usable endpoint keys, 5/5 drugs) - supports erosive_esophagitis_healing as the first shipped objective.",
+  "Mucosal Protectant has 8-week healing keys (du/gu/gerd) but not the 4-week duodenal endpoint - the horizon mismatch the review flagged."
+ ]
+}
