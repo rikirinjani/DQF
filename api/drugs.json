@@ -1019,7 +1019,12 @@
           "Primary hypercholesterolemia"
         ],
         "myopathy": "Extremely low risk (PMID 15820170)",
-        "onset_min": null
+        "onset_min": null,
+        "nnt_mace_5yr": {
+          "value": 50,
+          "ci_95": null,
+          "dose": "20-40mg"
+        }
       },
       "pregnancy_safety": null,
       "lactation_safety": null,
@@ -3114,9 +3119,9 @@
         "bp_reduction": 3,
         "renal_protection": 2,
         "metabolic_effect": 2,
-        "electrolyte_risk": 2,
+        "electrolyte_risk": 1,
         "ddi_risk": 2,
-        "heart_rate_effect": "bradycardia",
+        "heart_rate_effect": "none",
         "_evidence": {
           "pmids": [
             "11372598",
@@ -3200,7 +3205,7 @@
       "l3_systems": {
         "bp_reduction": 3,
         "renal_protection": 2,
-        "metabolic_effect": 2,
+        "metabolic_effect": 3,
         "electrolyte_risk": 1,
         "ddi_risk": 2,
         "heart_rate_effect": "bradycardia",
@@ -3308,7 +3313,7 @@
       "l3_systems": {
         "bp_reduction": 3,
         "renal_protection": 3,
-        "metabolic_effect": 2,
+        "metabolic_effect": 3,
         "electrolyte_risk": 3,
         "ddi_risk": 2,
         "heart_rate_effect": "none",
@@ -3402,7 +3407,7 @@
       "l3_systems": {
         "bp_reduction": 3,
         "renal_protection": 2,
-        "metabolic_effect": 2,
+        "metabolic_effect": 3,
         "electrolyte_risk": 3,
         "ddi_risk": 1,
         "heart_rate_effect": "none",
@@ -3848,7 +3853,7 @@
         "weight_effect": 3,
         "cv_outcome_benefit": 3,
         "renal_benefit": 2,
-        "gi_tolerability": 3,
+        "gi_tolerability": 2,
         "ddi_risk": 1,
         "hypoglycemia_risk": 3,
         "_evidence": {
@@ -4443,7 +4448,7 @@
         "bp_reduction": 3,
         "renal_protection": 3,
         "metabolic_effect": 3,
-        "electrolyte_risk": 1,
+        "electrolyte_risk": 2,
         "ddi_risk": 1,
         "heart_rate_effect": "none",
         "_evidence": {
@@ -4781,7 +4786,7 @@
       "l3_systems": {
         "bp_reduction": 3,
         "renal_protection": 3,
-        "metabolic_effect": 3,
+        "metabolic_effect": null,
         "electrolyte_risk": 2,
         "ddi_risk": 2,
         "heart_rate_effect": "none",

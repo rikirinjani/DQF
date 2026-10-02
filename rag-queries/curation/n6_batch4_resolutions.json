@@ -1,0 +1,356 @@
+{
+ "generated": "2026-10-02T07:52:50",
+ "batch": "N6.4",
+ "status": "APPLIED (user-approved)",
+ "source_evidence": "rag-queries/curation/label_sourcing_n6_batch4.json",
+ "applied": [
+  {
+   "drug": "metoprolol",
+   "dim": "metabolic_effect",
+   "old": 2,
+   "new": 3
+  },
+  {
+   "drug": "hydrochlorothiazide",
+   "dim": "metabolic_effect",
+   "old": 2,
+   "new": 3
+  },
+  {
+   "drug": "chlorthalidone",
+   "dim": "metabolic_effect",
+   "old": 2,
+   "new": 3
+  },
+  {
+   "drug": "telmisartan",
+   "dim": "metabolic_effect",
+   "old": 3,
+   "new": null
+  },
+  {
+   "drug": "amlodipine",
+   "dim": "electrolyte_risk",
+   "old": 2,
+   "new": 1
+  },
+  {
+   "drug": "valsartan",
+   "dim": "electrolyte_risk",
+   "old": 1,
+   "new": 2
+  },
+  {
+   "drug": "tirzepatide",
+   "dim": "gi_tolerability",
+   "old": 3,
+   "new": 2
+  },
+  {
+   "drug": "amlodipine",
+   "dim": "heart_rate_effect",
+   "old": "bradycardia",
+   "new": "none"
+  },
+  {
+   "drug": "lovastatin",
+   "dim": "nnt_mace_5yr",
+   "old": null,
+   "new": {
+    "value": 50,
+    "ci_95": null,
+    "dose": "20-40mg"
+   }
+  }
+ ],
+ "keeps_with_new_basis": [
+  {
+   "drug": "esomeprazole",
+   "dim": "acid_rebound",
+   "current": 2,
+   "rationale": "B-conflict + batch4 raise 2->3 rejected: label contains no acid-rebound statement (CgA/acidity text = antisecretory mechanism, not rebound); prior value wins."
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "bone_fracture_risk",
+   "current": 2,
+   "rationale": "batch4 drop (2->null) REJECTED: label 5.3/5.4 affirm fracture risk ('Long-term and multiple daily dose PPI therapy may be associated with an increased risk for osteoporosis-related fractures of the hip, wrist or spine')."
+  },
+  {
+   "drug": "aluminum-magnesium-hydroxide",
+   "dim": "neutralization_capacity",
+   "current": 2,
+   "rationale": "B-conflict: prior value wins (label confirms antacid mechanism - 'Aluminum Hydroxide - Antacid / Magnesium Hydroxide - Antacid' - but no quantifier; raise threshold not met)."
+  },
+  {
+   "drug": "calcium-carbonate",
+   "dim": "renal_toxicity_risk",
+   "current": 1,
+   "rationale": "B-conflict: prior value wins; OTC label has no renal text (only 'elemental calcium 400mg')."
+  },
+  {
+   "drug": "aspirin",
+   "dim": "cv_risk",
+   "current": 2,
+   "rationale": "B-conflict: prior value wins; OTC CVS label contains zero cardiovascular text (verified: 0 matches cardiovascular|cardiac|myocardial|stroke)."
+  },
+  {
+   "drug": "candesartan",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "rationale": "batch4 drop (2->null) REJECTED: label 5.5 Hyperkalemia affirm ('Drugs that inhibit the renin-angiotensin system can cause hyperkalemia' / 'Monitor serum potassium periodically')."
+  },
+  {
+   "drug": "sodium-alginate",
+   "dim": "raft_strength",
+   "current": 3,
+   "rationale": "A-demote rejected: raft formation is the class core mechanism (prior adjudication); label lists SODIUM ALGINATE as active ingredient in GAVISCON."
+  },
+  {
+   "drug": "sodium-alginate",
+   "dim": "reflux_suppression",
+   "current": 3,
+   "rationale": "A-demote rejected: label carries repeated heartburn-relief claims ('Fast-Acting Heartburn Relief Helps Keep Acid Down for Hours'); drop basis does not negate the dimension."
+  },
+  {
+   "drug": "sucralfate",
+   "dim": "barrier_protection",
+   "current": 3,
+   "rationale": "A-demote rejected: basis affirms mucoprotective action; label 'sucralfate forms an ulcer-adherent complex with proteinaceous exudate at the ulcer site'."
+  },
+  {
+   "drug": "diltiazem",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "rationale": "A-raise rejected (basis = epidural-fibrosis text, irrelevant); label has no therapeutic-use electrolyte signal (only hypercalcemia in OVERDOSAGE - calcium rescue)."
+  },
+  {
+   "drug": "metoprolol",
+   "dim": "electrolyte_risk",
+   "current": 1,
+   "rationale": "C-question: no label electrolyte signal (0 matches) - keep."
+  },
+  {
+   "drug": "telmisartan",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "rationale": "C-question: label 5.3 Hyperkalemia warning affirm ('Hyperkalemia may occur in patients on ARBs...' / 'Consider periodic determinations of serum electrolytes')."
+  },
+  {
+   "drug": "atenolol",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "rationale": "C-question: no label signal (matches are inactive-ingredient salts only) - keep per not_found rule."
+  },
+  {
+   "drug": "propranolol",
+   "dim": "electrolyte_risk",
+   "current": 3,
+   "rationale": "C-question: label affirms potassium effect ('in patients with hypertension, use of propranolol has been associated with elevated levels of serum potassium') - no negation; keep."
+  },
+  {
+   "drug": "terazosin",
+   "dim": "electrolyte_risk",
+   "current": 3,
+   "rationale": "C-question: no label signal (inactive-ingredient salts only) - keep per not_found rule; value itself looks kw-inflated vs class."
+  },
+  {
+   "drug": "hydralazine",
+   "dim": "electrolyte_risk",
+   "current": 2,
+   "rationale": "C-question: no label signal (only physiology text 'sodium reabsorption' re aldosterone) - keep per not_found rule."
+  },
+  {
+   "drug": "felodipine",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "rationale": "A-raise rejected: basis is diuresis/natriuresis (electrolyte/renal), not metabolic; label has no metabolic content - keep."
+  },
+  {
+   "drug": "nebivolol",
+   "dim": "metabolic_effect",
+   "current": 3,
+   "rationale": "A-raise rejected on old basis (generic description), but label now affirms: 'may mask symptoms of hypoglycemia and alter glucose levels' + laboratory abnormalities 'increase in BUN, uric acid, triglycerides and a decrease in HDL cholesterol'."
+  },
+  {
+   "drug": "amlodipine",
+   "dim": "metabolic_effect",
+   "current": 2,
+   "rationale": "C-question: label is internally mixed - 'Metabolic and Nutritional: hyperglycemia, thirst' (ADR list) vs 'No clinically relevant changes were noted in serum ... glucose ...' - balanced keep at 2."
+  },
+  {
+   "drug": "olmesartan",
+   "dim": "metabolic_effect",
+   "current": 3,
+   "rationale": "C-question: no label metabolic content - keep per not_found rule."
+  },
+  {
+   "drug": "verapamil",
+   "dim": "metabolic_effect",
+   "current": 3,
+   "rationale": "C-question: no label metabolic content - keep per not_found rule."
+  },
+  {
+   "drug": "carvedilol",
+   "dim": "metabolic_effect",
+   "current": 3,
+   "rationale": "C-question: label affirms - 'In patients with heart failure and diabetes, carvedilol therapy may lead to worsening hyperglycemia' + glucose monitoring recommendation."
+  },
+  {
+   "drug": "alogliptin",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "A-demote rejected: demote basis (dizziness/syncope case) is not GI; label GI content limited to rare pancreatitis (0.2%) - well tolerated."
+  },
+  {
+   "drug": "ertugliflozin",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "A-demote rejected: basis was metformin's GI effects - wrong drug; STEGLATRO label has no prominent GI ADR section."
+  },
+  {
+   "drug": "glyburide",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "A-demote rejected: basis was rosiglitazone weight/edema - wrong dimension/drug; label GI reactions mild ('nausea, epigastric fullness, and heartburn ... 1.8% of treated patients')."
+  },
+  {
+   "drug": "repaglinide",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "A-demote rejected: basis affirms safe/mild adverse events (contradicts drop); label common ADRs are not GI-dominant (hypoglycemia, URI, headache)."
+  },
+  {
+   "drug": "saxagliptin",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "A-demote rejected: single none-sentence basis, truncated; label GI content limited to rare pancreatitis - well tolerated."
+  },
+  {
+   "drug": "sitagliptin",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "A-demote rejected: basis (similar incidence rates) supports tolerability - contradicts drop."
+  },
+  {
+   "drug": "linagliptin",
+   "dim": "gi_tolerability",
+   "current": 3,
+   "rationale": "C-question: keep; label GI content limited to rare pancreatitis warning."
+  },
+  {
+   "drug": "meloxicam",
+   "dim": "renal_risk",
+   "current": 2,
+   "rationale": "A-raise rejected (basis said renal dysfunction has no relevant effect - backwards for a risk raise); label renal warnings affirm level 2: 'Renal Toxicity: Monitor renal function' / 'Avoid use in patients with advanced renal disease'."
+  },
+  {
+   "drug": "diclofenac",
+   "dim": "renal_risk",
+   "current": 2,
+   "rationale": "C-question: label renal text is PK/dosing (no harm signal at therapeutic dose) - keep."
+  },
+  {
+   "drug": "paracetamol",
+   "dim": "renal_risk",
+   "current": 2,
+   "rationale": "C-question: OTC acetaminophen label has zero renal/hepatic text (verified 0 matches) - keep per not_found rule."
+  },
+  {
+   "drug": "aspirin",
+   "dim": "renal_risk",
+   "current": 2,
+   "rationale": "C-question: OTC label has only 1 incidental 'kidney' mention - keep per not_found rule."
+  },
+  {
+   "drug": "pitavastatin",
+   "dim": "myopathy_risk",
+   "current": 3,
+   "rationale": "A-demote rejected (single none sentence insufficient); label affirms: 'Myopathy and Rhabdomyolysis: Risk factors include age 65 or greater ... higher pitavastatin tablets dosage'."
+  },
+  {
+   "drug": "rosuvastatin",
+   "dim": "myopathy_risk",
+   "current": 3,
+   "rationale": "A-demote rejected (genes/pathways basis irrelevant); label affirms myopathy/rhabdomyolysis warnings incl. 'Asian patients may be at higher risk for myopathy'."
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "acid_rebound",
+   "current": 2,
+   "rationale": "C-question: label has no acid-rebound statement - keep."
+  },
+  {
+   "drug": "rabeprazole",
+   "dim": "acid_rebound",
+   "current": 2,
+   "rationale": "C-question: label has no acid-rebound statement - keep."
+  },
+  {
+   "drug": "ibuprofen",
+   "dim": "cv_risk",
+   "current": 2,
+   "rationale": "C-question: label carries the full class warning ('NSAIDs cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal') - affirms level 2; no quantifier for 3 (warning is qualitative/class-wide) - keep."
+  },
+  {
+   "drug": "diclofenac",
+   "dim": "cv_risk",
+   "current": 2,
+   "rationale": "C-question: label carries the full class warning ('NSAIDs cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal') - affirms level 2; no quantifier for 3 (warning is qualitative/class-wide) - keep."
+  },
+  {
+   "drug": "naproxen",
+   "dim": "cv_risk",
+   "current": 2,
+   "rationale": "C-question: label carries the full class warning ('NSAIDs cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal') - affirms level 2; no quantifier for 3 (warning is qualitative/class-wide) - keep."
+  },
+  {
+   "drug": "piroxicam",
+   "dim": "cv_risk",
+   "current": 2,
+   "rationale": "C-question: label carries the full class warning ('NSAIDs cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal') - affirms level 2; no quantifier for 3 (warning is qualitative/class-wide) - keep."
+  },
+  {
+   "drug": "pantoprazole",
+   "dim": "cdi_risk",
+   "current": 3,
+   "rationale": "C-question: label 5.3 warning affirm ('Published observational studies suggest that PPI therapy like pantoprazole ... may be associated with an increased risk of Clostridium difficile-associated diarrhea, especially in hospitalized patients') - keep."
+  },
+  {
+   "drug": "lansoprazole",
+   "dim": "cdi_risk",
+   "current": 2,
+   "rationale": "C-question: same class warning text present; kept at 2 (class spread omeprazole/esomeprazole/rabeprazole=1, lansoprazole=2, pantoprazole=3 documented as inconsistency - full PPI cdi harmonization deferred)."
+  },
+  {
+   "drug": "chlorthalidone",
+   "dim": "bp_reduction",
+   "current": 3,
+   "rationale": "C-question: label indication affirm ('Diuretics such as chlorthalidone are indicated in the management of hypertension ...')."
+  },
+  {
+   "drug": "hydralazine",
+   "dim": "bp_reduction",
+   "current": 3,
+   "rationale": "C-question: label mechanism affirm ('apparently lowers blood pressure by exerting a peripheral vasodilating effect ... decreased arterial blood pressure')."
+  }
+ ],
+ "observed_inconsistencies": [
+  "PPI cdi_risk spread 1/1/1/2/3 (omeprazole/esomeprazole/rabeprazole/lansoprazole/pantoprazole) for identical class C. diff warning - defer to harmonization pass",
+  "electrolyte_risk: terazosin=3 and propranolol=3 have weak/no label support vs metoprolol=1 - kw-inflated values, documented, kept per not_found rule",
+  "heart_rate_effect strings outside batch4 scope look template-noisy: enalapril='bradycardia', ramipril='tachycardia' (ACEi) - flag for N6.5 typing pass"
+ ],
+ "pool_refresh_candidates": [
+  "calcium-carbonate renal_toxicity_risk: milk-alkali syndrome literature needed (OTC label silent)",
+  "aspirin cv_risk: needs Rx label or trial source (OTC label has zero CV text)"
+ ],
+ "verification": {
+  "precheck": "exact-old-value asserts on all 9, ABORT-on-mismatch (pass)",
+  "postread": "re-read json verify all 9 new values (pass)",
+  "diff": "api/drugs.json only, 14 insertions / 9 deletions = exactly the 9 changes",
+  "smoke_api_grid": "352 queries, 0 failures",
+  "test_scorer_hardening": "ALL CHECKS PASSED",
+  "test_anticoagulant_scorer": "ALL CHECKS PASSED",
+  "smoke_audit_fixes": "18 passed, 0 failed"
+ }
+}
