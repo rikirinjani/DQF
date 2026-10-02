@@ -2264,26 +2264,30 @@
     "item": "lovastatin|nnt_mace_5yr",
     "current": null,
     "api_fallback": "neutral 5.0 (fde0203/667fd49)",
-    "action": "source MACE endpoint from statin label; if none exists keep null + document"
+    "action": "source MACE endpoint from statin label; if none exists keep null + document",
+    "status": "RESOLVED N6.4: LIPID arithmetic on label rates -> {value:50, ci_95:null, dose:20-40mg} (1da2dd4)"
    },
    {
     "item": "metformin|hypoglycemia_risk",
     "current": 3,
-    "action": "source label quote (monotherapy hypoglycemia uncommon); expect drop to 1-2"
+    "action": "source label quote (monotherapy hypoglycemia uncommon); expect drop to 1-2",
+    "status": "RESOLVED N6.2a: DailyMed 5.3+6.1 -> 3->1 (278fccd)"
    },
    {
     "item": "amlodipine|heart_rate_effect",
     "current": "bradycardia",
-    "action": "re-pull pool post-template-fix (bradycardia query removed 667fd49); re-adjudicate"
+    "action": "re-pull pool post-template-fix (bradycardia query removed 667fd49); re-adjudicate",
+    "status": "RESOLVED N6.4: label adjudication bradycardia->none (1da2dd4); pool re-pull superseded by direct label sourcing"
    },
    {
     "item": "AH template wording",
     "current": "bradycardia removed (667fd49)",
-    "action": "split cough/angioedema (ACEi) vs edema (CCB) per-subclass; pairs with R1"
+    "action": "split cough/angioedema (ACEi) vs edema (CCB) per-subclass; pairs with R1",
+    "status": "RESOLVED N6.5: shared stem \"{drug} side effect\" applied (approved); per-subclass split deferred to R1"
    }
   ],
   "H_policy": {
-   "merge_lock_semantics": "DEFAULT_LOCKED_FIELDS empty + list-merge re-adds expert-deleted items (re-assessment REG-02/RES-03); decide AFTER A-E so lock list matches real curation",
+   "merge_lock_semantics": "DEFAULT_LOCKED_FIELDS empty + list-merge re-adds expert-deleted items (re-assessment REG-02/RES-03); decide AFTER A-E so lock list matches real curation | RESOLVED N6.5 (approved option B): 25 locked fields, deletion-respecting list merge, --unlock/--unlock-all CLI, test_merge_lock.py 8/8",
    "candidate_locked_fields": [
     "gi_risk",
     "cv_risk",

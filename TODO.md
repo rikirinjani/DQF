@@ -1,7 +1,7 @@
 # DQF Roadmap — Clinical Tool
 
 > *Pharmacist-built, evidence-grounded, patient-personalized drug ranking.*
-> **Last refreshed 2026-09-29** — external-audit round complete: 10-fix batch + null-safety sweep (`fde0203`), re-assessment + Batch-6 (`667fd49`). N6 next.
+> **Last refreshed 2026-10-02** — **N6 complete** (N6.1–N6.5): sourced adjudication backlog cleared, merge-lock policy + heart_rate typing + template split landed; all batches user-approved + verified (grid 352/0, suites green). Next: N6b design.
 
 ---
 
@@ -32,7 +32,7 @@
 | N5 | **HF RAG endpoint** — moved to AWS per user decision | ❌ cancelled | — |
 | N5b | **External audit batch** — 10 verified findings + null-safety sweep | ✅ **done 2026-09-29** (`fde0203`) — grid 352/0, suites pass | — |
 | N5c | **Re-assessment (`dqf-reeval`) + Batch-6** — dual-model verification, then apply findings | ✅ **done 2026-09-29** (`667fd49`) — Gemini 12/14 CORRECT; 11 changes: GI coalesce, pregnancy negation, concerns normalization, NNT neutral 5.0, bradycardia template fix (R-13 resolved) | — |
-| N6 | **Sourced adjudication backlog** — 25 N1-demoted proposals + 44 conflicts + 44 open questions + 22 unapplied prior-rescore proposals; **now also:** merge lock policy (`DEFAULT_LOCKED_FIELDS` + deletion-respecting merge), template wording review (cough/angioedema are ACEi effects in the generic AH query), lovastatin `nnt_mace_5yr` sourcing, metformin `hypoglycemia_risk` review, amlodipine bradycardia attribution (data-traced to template noise) | Needs label/PMID sourcing per cell (E1 pattern) | 1–2 wk |
+| N6 | **Sourced adjudication backlog** — 25 N1-demoted proposals + 44 conflicts + 44 open questions + 46 unapplied proposals; merge lock policy; template wording; lovastatin NNT; metformin hypo; amlodipine attribution | ✅ **done 2026-10-02** (N6.1–N6.5, evidence `9b8c85f` + batch applies through this commit) — ~28 changes + ~80 keeps adjudicated vs DailyMed labels, 0 unresolved; `DEFAULT_LOCKED_FIELDS` = 25 dims with deletion-respecting merge + `--unlock` CLI (`test_merge_lock.py` 8/8); heart_rate_effect kept as string, excluded from scoring; AH template → `{drug} side effect` | — |
 | N6b | **Indication-boundary design** — any-class queries compare pain NNT vs CV NNT vs GI healing; needs target-condition field + eligibility gate before scoring | Deep redesign surfaced by re-assessment (RES-01/RES-02); design first, implement in S-arc | design 2–3 d |
 | N7 | **E2 Phase 0+2** — add 3 antiplatelet drug records, wire template/scorer/`DIM_DIRECTION`, run Batch-7 triage | Design approved in N2; unblocks E2 completion | 1–2 wk |
 
@@ -134,11 +134,11 @@ Each new class = 5–8 records + L3 scorer dimensions + profile docs + validatio
 - **`l4_schema_map.json` Risk 1** — `nnt_bp_control` false-shares a key name between Antihypertensive `{value,ci_95,dose}` and Diabetes `{a1c_reduction,unit,dose}`; needs coordinated rename + consumer update (`server.py` has 6 hardcoded L4 refs, `_add_e3_e4_drugs.py` too).
 - **`docs`/`INDEX.md`** still say "2 drug classes, 9 drugs" — README-era text.
 - **50 null L3 cells** — documented gaps, not blockers (no-fabrication rule).
-- **46 unapplied prior-rescore proposals** (32 batch4_rescore + 14 ddi_rescore per mechanical diff 2026-09-29; 8 ddi superseded — see `rag-queries/curation/n6_worklist.json`) — values proposed but never merged; awaiting apply-or-reject → N6.
-- **lovastatin `nnt_mace_5yr` missing** — ✅ crash fixed 2026-09-29 (null-safe neutral 5.0 fallback, `fde0203`/`667fd49`); the DATA is still missing → N6 sourcing.
+- ✅ **46 unapplied prior-rescore proposals** — resolved in N6.1–N6.2 (15 applied, 8 superseded, rest closed with basis; `n6_worklist.json`).
+- ✅ **lovastatin `nnt_mace_5yr` missing** — resolved N6.4: `{value: 50, ci_95: null, dose: "20-40mg"}` (LIPID arithmetic on label rates, `1da2dd4`).
 - ✅ **`bp_reduction` absent from `DIM_DIRECTION`** — fixed 2026-09-29 (`fde0203`, R-10): bp_reduction/hmgcr_inhibition/ldl_reduction_pct = benefit.
-- **merge lock policy** — `DEFAULT_LOCKED_FIELDS` is empty and list-merging re-adds expert-deleted items (re-assessment REG-02/RES-03); policy decision + implementation → N6.
-- **metformin `hypoglycemia_risk` = 3** in drugs.json — clinically questionable for monotherapy; candidate for N6 sourced review.
+- ✅ **merge lock policy** — resolved N6.5 (approved option B): `DEFAULT_LOCKED_FIELDS` = 25 human-adjudicated dims, deletion-respecting list merge, `--unlock`/`--unlock-all` CLI, `test_merge_lock.py` 8/8.
+- ✅ **metformin `hypoglycemia_risk` = 3** — resolved N6.2a: 3→1 vs DailyMed monotherapy basis (`278fccd`).
 
 ---
 
@@ -154,4 +154,4 @@ P  = personalization     F = full rx           Q = pharmacoeconomics
 C  = clinical integration
 ```
 
-> **Next logical step:** N6 (sourced adjudication backlog — worklist + source plan first), then N6b design, then N7.
+> **Next logical step:** N6b (indication-boundary design), then N7 (E2 Phase 0+2 antiplatelets).

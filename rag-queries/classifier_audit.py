@@ -75,8 +75,12 @@ DIM_DIRECTION = {
     "monitoring_burden": "risk", "gi_bleeding_risk": "risk",
     "anticoagulation_efficacy": "benefit", "reversal_availability": "benefit",
     # direction-agnostic
-    "weight_effect": None, "metabolic_effect": None, "heart_rate_effect": None,
-    "lipophilicity": None, "anti_inflammatory": None,
+    "weight_effect": None, "metabolic_effect": None,
+    # heart_rate_effect: descriptive STRING field (bradycardia/tachycardia/
+    # none), not a 1-3 score. N6.5 policy (b, approved): kept as string and
+    # excluded from scoring -- no scorer consumes it (api/server.py has no
+    # heart_rate consumer); research-only consumers: build_l2b_digests.
+    "heart_rate_effect": None,    "lipophilicity": None, "anti_inflammatory": None,
     # H2RA helper dims: present/absent flags produced by mention-only helpers
     "tolerance": None, "cns_penetration": None,
     # Alginate continuous field (mg, not a 1-3 score) — direction-agnostic

@@ -6,11 +6,19 @@ Usage:
     python merge_l3.py                          # merge all available profiles
     python merge_l3.py --dry-run                # preview without writing
     python merge_l3.py --restore                # restore backup from merge
+    python merge_l3.py --unlock ddi_risk,renal_risk   # unlock specific fields for this run
+    python merge_l3.py --unlock-all             # pre-N6.5 behavior: no locks
 
 What it does:
     1. Reads drugs.json + all l3_output/{drug_id}_l3_profile.json
     2. For each drug with a profile, patches its l3_systems field
     3. Writes updated drugs.json (with .bak backup)
+
+Lock semantics (N6.5): fields in DEFAULT_LOCKED_FIELDS are human-adjudicated
+and are never overwritten by a pipeline re-run while a non-empty expert value
+exists -- scalars AND lists (locked lists are kept verbatim; the pipeline
+never appends to them, so expert deletions survive). Rescore flows that must
+update a locked field pass an explicit --unlock / --unlock-all.
 """
 
 import json, os, shutil, sys
@@ -43,10 +51,12 @@ def _safe(val) -> str:
     s = json.dumps(val, ensure_ascii=True) if not isinstance(val, str) else repr(val)
     return s
 
-def dry_run(profiles: dict[str, dict], drugs: list[dict]):
+def dry_run(profiles: dict[str, dict], drugs: list[dict], locked: set[str] | None = None):
     """Show what would be merged."""
+    locked = DEFAULT_LOCKED_FIELDS if locked is None else locked
     print(f"\n{'='*60}")
     print(f"  DRY RUN -- {len(profiles)} profiles to merge")
+    print(f"  Locked fields ({len(locked)}): {', '.join(sorted(locked))}")
     print(f"{'='*60}")
     for drug_id, profile in sorted(profiles.items()):
         drug = next((d for d in drugs if d["id"] == drug_id), None)
@@ -61,7 +71,14 @@ def dry_run(profiles: dict[str, dict], drugs: list[dict]):
             old_s = _safe(old_val) if old_val is not None else "--"
             new_s = _safe(v)
             arrow = "UPDATE" if k in existing else "  NEW "
-            print(f"    {arrow} {k}: {old_s} -> {new_s}")
+            lock_note = ""
+            if k in locked and k in has:
+                cur = has.get(k)
+                keep = (len(cur) > 0) if isinstance(cur, list) else (cur is not None)
+                if keep:
+                    lock_note = "  [LOCKED - expert value kept]"
+                    arrow = " KEEP "
+            print(f"    {arrow} {k}: {old_s} -> {new_s}{lock_note}")
         evidence = profile.get("_evidence", {})
         print(f"        PMIDs: {len(evidence.get('pmids', []))} | "
               f"Sources: {evidence.get('source_count', 0)}")
@@ -85,8 +102,21 @@ def backup_drugs_json():
 
 
 # Fields whose current values were set by human adjudication and must NOT be
-# silently overwritten by a pipeline re-run. Extend via --lock (not yet wired).
-DEFAULT_LOCKED_FIELDS: set[str] = set()
+# silently overwritten by a pipeline re-run. N6.5 Option B (approved): the
+# re-assessment candidate set (6 high-stakes risk dims) UNION every l3 dim
+# actually adjudicated in N6.1-N6.4, so the lock list matches what humans
+# really curated. nnt_mace_5yr is l4_clinical (merge only patches l3_systems)
+# and is intentionally absent. Unlock per run via --unlock/--unlock-all.
+DEFAULT_LOCKED_FIELDS: set[str] = {
+    # worklist candidate (re-assessment REG-02/RES-03)
+    "gi_risk", "cv_risk", "ddi_risk", "renal_risk", "bleeding_risk", "gi_bleeding_risk",
+    # N6.1-6.4 adjudicated dims (changes, keeps-with-basis, batch-3 vetting)
+    "acid_rebound", "barrier_protection", "bone_fracture_risk", "bp_reduction",
+    "cdi_risk", "cv_outcome_benefit", "electrolyte_risk", "gi_tolerability",
+    "heart_rate_effect", "hypoglycemia_risk", "metabolic_effect", "myopathy_risk",
+    "neutralization_capacity", "raft_strength", "reflux_suppression", "renal_benefit",
+    "renal_protection", "renal_toxicity_risk", "weight_effect",
+}
 
 
 def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True,
@@ -95,7 +125,10 @@ def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True,
 
     locked_fields: dims whose CURRENT drugs.json values are human-adjudicated;
     a pipeline re-run never overwrites them (a None/empty pipeline value still
-    leaves the expert value untouched, as before).
+    leaves the expert value untouched, as before). Locked LISTS are kept
+    verbatim -- the pipeline never appends to them, so expert deletions
+    survive. None (default) = DEFAULT_LOCKED_FIELDS; pass an explicit set to
+    override (use set() for full pipeline behavior).
     """
     locked = DEFAULT_LOCKED_FIELDS if locked_fields is None else set(locked_fields)
     updated = 0
@@ -111,12 +144,26 @@ def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True,
         # Merge into existing l3_systems (preserve fields the pipeline doesn't touch)
         existing = drug.get("l3_systems", {})
         for k, v in l3_data.items():
+            # Locked (human-adjudicated) dims: the expert value wins VERBATIM,
+            # for scalars and lists alike. This check runs before type handling
+            # so locked lists are kept as-is -- the pipeline never appends to
+            # them (deletion-respecting: items an expert removed stay removed).
+            # An absent expert value (None or an empty list) is no expert value
+            # at all, so the pipeline still fills it.
+            if k in locked and k in existing:
+                cur = existing[k]
+                if isinstance(cur, list):
+                    if len(cur) > 0:
+                        continue
+                elif cur is not None:
+                    continue
             if v is None or (isinstance(v, list) and len(v) == 0):
                 # Pipeline found no data -- keep expert value if it exists
                 if k not in existing:
                     existing[k] = v
             elif isinstance(v, list):
                 # Merge lists (e.g., off_targets): pipeline + expert, deduplicated
+                # (unlocked fields only -- locked lists returned above)
                 expert_list = existing.get(k, [])
                 if isinstance(expert_list, list):
                     # Combine, normalize case, deduplicate preserving order
@@ -132,10 +179,7 @@ def merge(profiles: dict[str, dict], drugs: list[dict], write: bool = True,
                     existing[k] = v
             else:
                 # Scalar field: pipeline's evidence-based value takes priority
-                # — EXCEPT for locked (human-adjudicated) dims, where a stale
-                # pipeline re-run must never silently overwrite expert values.
-                if k in locked and k in existing and existing[k] is not None:
-                    continue
+                # (locked dims with an expert value returned above)
                 existing[k] = v
 
         # Attach evidence trail to the drug entry (not in l3_systems schema)
@@ -181,11 +225,20 @@ def main():
                              "merge is repo-wide and will overwrite values that were "
                              "later adjudicated by hand (the profile files keep their "
                              "original auto-score, so a re-merge reverts them).")
+    parser.add_argument("--unlock", metavar="FIELD[,FIELD...]",
+                        help="Remove these fields from the default lock set for this run "
+                             "(explicit unlock for pipeline rescore flows).")
+    parser.add_argument("--unlock-all", action="store_true",
+                        help="Disable locking entirely (pre-N6.5 behavior).")
     args = parser.parse_args()
 
     if args.restore:
         restore_latest()
         return
+
+    locked = set() if args.unlock_all else set(DEFAULT_LOCKED_FIELDS)
+    if args.unlock:
+        locked -= {f.strip() for f in args.unlock.split(",") if f.strip()}
 
     if not DRUGS_JSON.exists():
         print(f"  ERROR: {DRUGS_JSON} not found", file=sys.stderr)
@@ -209,12 +262,13 @@ def main():
 
     # Exclude metadata-only profiles (_summary.json data)
     if args.dry_run:
-        dry_run(profiles, drugs)
+        dry_run(profiles, drugs, locked)
         return
 
     backup_drugs_json()
-    count = merge(profiles, drugs, write=True)
-    print(f"  Done. {count}/{len(profiles)} profiles merged.")
+    count = merge(profiles, drugs, write=True, locked_fields=locked)
+    print(f"  Done. {count}/{len(profiles)} profiles merged "
+          f"({len(locked)} fields locked).")
 
 
 if __name__ == "__main__":

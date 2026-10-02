@@ -3,6 +3,11 @@
 > Generated 2026-09-29. Every value change in N6 follows the E1 sourcing pattern
 > (`label_sourcing_e1.json`): verbatim quotes sliced from fetched sources, never
 > retyped; absence of evidence = keep current + document, never fabricate.
+>
+> **COMPLETE 2026-10-02** — batches N6.1–N6.5 all applied and pushed
+> (scorecard: 2a = 6 changes, 2b = 11, 3 = 0 changes/35 keeps, 4 = 9 changes +
+> 45 keeps, 5 = policy + 2 HR fixes; every batch evidence-committed first,
+> user-approved, verified 352-query grid + suites green).
 
 ---
 
@@ -74,26 +79,31 @@ section, numbers_found, status(sourced|not_found), note` — same schema as
 
 | Item | Current state | Action |
 |------|--------------|--------|
-| lovastatin `nnt_mace_5yr` | null; API falls back to neutral 5.0 (crash fixed `fde0203`) | Source from statin label (JUPITER-adjacent? label section 14). If no MACE endpoint exists for lovastatin → keep null + documented, API already handles it |
-| metformin `hypoglycemia_risk` = 3 | monotherapy hypo risk is low (label: "hypoglycemia uncommon with monotherapy") | Source label quote; expect drop to 1–2 |
-| amlodipine bradycardia attribution | traced to template noise (bradycardia query removed in `667fd49`); check amlodipine's current `heart_rate_effect` basis sentences for co-administration artifacts | Re-pull amlodipine pool post-template-fix; re-adjudicate the cell |
-| AH template wording | bradycardia removed; **cough/angioedema are ACEi effects, edema is CCB** — one generic query mixes class-incompatible effects | Split per-subclass queries or reduce to shared stem; full wording review with R1 (per-class curated queries) |
+| lovastatin `nnt_mace_5yr` | null; API falls back to neutral 5.0 (crash fixed `fde0203`) | ✅ **N6.4** — LIPID 3.5% vs 5.5% arithmetic on label rates → `{value: 50, ci_95: null, dose: "20-40mg"}` (`1da2dd4`) |
+| metformin `hypoglycemia_risk` = 3 | monotherapy hypo risk is low (label: "hypoglycemia uncommon with monotherapy") | ✅ **N6.2a** — DailyMed 5.3 combo-only hypo + 6.1 1–5pct band → 3→1 (`278fccd`) |
+| amlodipine bradycardia attribution | traced to template noise (bradycardia query removed `667fd49`) | ✅ **N6.4** — label adjudication: bradycardia→none (`1da2dd4`); enalapril/ramipril suspects likewise fixed in **N6.5** |
+| AH template wording | bradycardia removed; **cough/angioedema are ACEi effects, edema is CCB** — one generic query mixes class-incompatible effects | ✅ **N6.5** — shared stem `{drug} side effect` applied (approved option A); per-subclass split deferred to R1 |
 
 ---
 
 ## 5. Policy decisions (no sourcing needed)
 
-1. **Merge lock semantics (H):** decide `DEFAULT_LOCKED_FIELDS` membership
-   (candidate: {gi_risk, cv_risk, ddi_risk, renal_risk, bleeding_risk,
-   gi_bleeding_risk}) AND deletion-respecting list merge (locked list fields:
-   keep expert list, never `expert + incoming`). Constraint: our own rescore
-   pipeline (`merge_l3 --only` flows) must pass explicit unlocks. Decide
-   **after** category A–E adjudication (so the lock list matches what humans
-   actually curate).
-2. **heart_rate_effect typing (F):** 25 cells skipped as string-typed. Decide:
-   (a) map to 1–3 (bradycardia→? / tachycardia→? / neutral→?) with a documented
-   convention, or (b) keep string + exclude from scoring. Re-assessment flagged
-   the amlodipine case — (a) preferred only with sourced direction per drug.
+1. **Merge lock semantics (H):** ✅ **DECIDED N6.5 (approved option B)** —
+   `DEFAULT_LOCKED_FIELDS` = the 6-dim worklist candidate ∪ every l3 dim
+   actually adjudicated in N6.1–6.4 = **25 fields** (`nnt_mace_5yr` excluded,
+   it is l4_clinical). Deletion-respecting list merge implemented: locked
+   check hoisted before type branches — a locked list with a non-empty expert
+   value is kept verbatim, never `expert + incoming` (expert deletions now
+   survive re-merges). Rescore flows unlock explicitly: `--unlock field1,field2`
+   or `--unlock-all`. Tests: `rag-queries/test_merge_lock.py` (8/8).
+2. **heart_rate_effect typing (F):** ✅ **DECIDED N6.5 (approved option b)** —
+   keep descriptive string (bradycardia/tachycardia/none) + formally exclude
+   from scoring; documented in `classifier_audit.DIM_DIRECTION`. No scorer
+   consumes it (server.py has no heart_rate consumer; research-only:
+   build_l2b_digests). Option (a) numeric mapping rejected: needs a sourced
+   direction for all 33 cells — no sourcing round this arc. The two
+   class-inconsistent suspects (enalapril bradycardia, ramipril tachycardia)
+   were label-sourced and fixed to none in N6.5 (`n6_batch5_policy.json`).
 3. **Holds triage:** 192 holds stay held unless a category A–E pass surfaces
    their group — no dedicated sourcing round this arc.
 
@@ -107,9 +117,9 @@ section, numbers_found, status(sourced|not_found), note` — same schema as
 | N6.2 | High-impact risk cells first: hypoglycemia_risk, gi_risk/gi_bleeding_risk, bleeding, ddi drops (metformin special included) | 2–3 d |
 | N6.3 | Benefit cells: cv_outcome_benefit, renal_protection/benefit, weight_effect (25 demoted + conflicts in these dims) | 2–3 d |
 | N6.4 | Tolerability + remaining dims (gi_tolerability, raft_strength, reflux_suppression, barrier_protection, myopathy_risk, electrolyte_risk…) + lovastatin NNT + amlodipine re-pull | 2–3 d |
-| N6.5 | Policy: lock semantics implementation + heart_rate_effect typing + template wording split | 1–2 d |
+| N6.5 | Policy: lock semantics implementation + heart_rate_effect typing + template wording split | ✅ **done 2026-10-02** (evidence `9b8c85f`, apply pending this commit) |
 | — | Each batch: source JSON (`label_sourcing_n6_batch<k>.json`) → user review → `merge_l3` apply → grid+suite verification → commit | — |
 
-**Gate:** batches 6.2–6.4 each end with a summary of proposed changes for user
+**Gate:** batches 6.2–6.5 each end with a summary of proposed changes for user
 approval before anything touches `api/drugs.json` (N1 pattern: APPROVED marker
-in the adjudication file).
+in the adjudication file). ✅ All gates observed.
