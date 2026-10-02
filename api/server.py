@@ -8,6 +8,7 @@ Endpoints:
 """
 
 import json, os
+import sys
 import uvicorn
 from pathlib import Path
 from fastapi import FastAPI
@@ -15,6 +16,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, FileResponse
 from pydantic import BaseModel
 from typing import Optional, Literal
+
+# N6b narrow vertical slice: eligibility gate + evidence contract (api/eligibility.py).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import eligibility
 
 # ---------------------------------------------------------------------------
 # Data
@@ -45,6 +50,10 @@ class QueryRequest(BaseModel):
     pregnancy_status: Literal["not_pregnant", "first_trimester", "second_trimester", "third_trimester"]
     lactation: Literal["no", "yes"]
     hepatic_function: Literal["normal", "mild", "moderate", "severe"]
+    # N6b: optional treatment objective. When set, the request takes the
+    # objective-scoped path (eligibility gate + evidence contract + three-state
+    # response). When absent, the legacy path runs (flagged deprecated).
+    objective: Optional[str] = None
 
 # ---------------------------------------------------------------------------
 # FastAPI app
@@ -776,8 +785,131 @@ async def get_drugs():
     return drugs_data
 
 
+def _compute_mechanism_scoped(drug, objective):
+    """Condition-aware mechanism for the scoped path (no pain/cv inputs).
+
+    The legacy `_compute_mechanism` treats every non-NSAID class as a statin and
+    lets pain_type/cv_risk influence the score (re-assessment F09). The scoped
+    path scores mechanism from the objective's class only; unsupported classes
+    get a documented neutral rather than a statin-derived value.
+    """
+    cls = drug["class"]
+    if cls == "PPI":
+        score = 8  # highly targeted (single enzyme, irreversible)
+        if drug["id"] == "pantoprazole":
+            score += 1  # Cys822 deep binding -> longest duration
+        elif drug["id"] == "rabeprazole":
+            score += 1  # CYP2C19-independent -> consistent across genotypes
+        return round(max(0.0, min(10.0, score)), 1)
+    return 5.0  # unsupported class for this objective -> documented neutral
+
+
+def _query_scoped(req):
+    """Objective-scoped path: eligibility gate -> evidence contract -> ranking.
+
+    Three states (review F02): eligible_ranked / eligible_unranked / excluded.
+    No neutral-score imputation; no cross-endpoint fallback; combo suggestions
+    disabled in v1 (review F08).
+    """
+    objective = req.objective
+    if not eligibility.objective_exists(objective):
+        return {
+            "schema_version": "2.0",
+            "mode": "objective_scoped",
+            "status": "unsupported",
+            "objective": objective,
+            "eligible_ranked": [],
+            "eligible_unranked": [],
+            "excluded": [],
+            "filter_effects": {},
+            "summary": f"Objective '{objective}' is not supported in v1.",
+        }
+
+    # Optional class narrowing filter (reported separately from clinical exclusions)
+    candidate_drugs = drugs
+    filter_effects = {}
+    if req.drug_class != "any":
+        selected_classes = set(c.strip().title() for c in req.drug_class.split(",") if c.strip())
+        class_name_map = {
+            "Nsai": "NSAID", "Nsaid": "NSAID", "Statin": "Statin", "Ppi": "PPI",
+            "H2ra": "H2RA", "H2Ra": "H2RA", "Antacid": "Antacid", "Alginate": "Alginate",
+            "Mucosal": "Mucosal Protectant",
+        }
+        resolved = set(class_name_map.get(s, s) for s in selected_classes)
+        candidate_drugs = [d for d in drugs if d["class"] in resolved]
+        filter_effects = {"class_filter": sorted(resolved),
+                          "removed": len(drugs) - len(candidate_drugs)}
+
+    patient = {
+        "pregnancy_status": req.pregnancy_status,
+        "hepatic_function": req.hepatic_function,
+        "renal_function": req.renal_function,
+        "age": req.age,
+    }
+    res = eligibility.assess(candidate_drugs, objective, patient)
+
+    ranked = []
+    for item in res["eligible_ranked"]:
+        drug = item["drug"]
+        scores = {
+            "efficacy": item["efficacy"],
+            "safety": _compute_safety(drug, req.gi_risk, req.cv_risk, req.renal_function,
+                                      req.age, req.pregnancy_status, req.lactation,
+                                      req.hepatic_function),
+            "pk": _compute_pk(drug, req.age, req.renal_function),
+            "mechanism": _compute_mechanism_scoped(drug, objective),
+        }
+        w = WEIGHTS[req.prioritize]
+        overall = (w["efficacy"] * scores["efficacy"] + w["safety"] * scores["safety"]
+                   + w["pk"] * scores["pk"] + w["mechanism"] * scores["mechanism"])
+        ranked.append({
+            "id": drug["id"], "name": drug["name"], "class": drug["class"],
+            "scores": scores,
+            "_overall_raw": overall,
+            "overall": round(overall, 1),
+            "evidence": item["evidence"],
+            "strengths": _generate_strengths(drug, scores),
+            "concerns": _generate_concerns(drug, scores, req.gi_risk, req.cv_risk,
+                                           req.renal_function, req.pain_type,
+                                           req.pregnancy_status, req.lactation,
+                                           req.hepatic_function),
+            "combo_suggestions": [],  # disabled in scoped v1 (review F08)
+        })
+    ranked.sort(key=lambda r: r["_overall_raw"], reverse=True)
+    for r in ranked:
+        r.pop("_overall_raw", None)
+
+    status = res["status"]
+    if status == "ok":
+        best = ranked[0]
+        summary = (f"Best option among ranked candidates for {objective} in the evaluated "
+                   f"catalogue: {best['name']} (overall {best['overall']}/10).")
+    elif status == "no_rankable":
+        summary = (f"No rankable option for {objective}: eligible drugs lack compatible "
+                   f"evidence in the evaluated catalogue.")
+    else:
+        summary = (f"No eligible option found for {objective} in the evaluated "
+                   f"catalogue/filter.")
+
+    return {
+        "schema_version": "2.0",
+        "mode": "objective_scoped",
+        "status": status,
+        "objective": objective,
+        "eligible_ranked": ranked,
+        "eligible_unranked": res["eligible_unranked"],
+        "excluded": res["excluded"],
+        "filter_effects": filter_effects,
+        "summary": summary,
+    }
+
+
 @app.post("/api/query")
 async def query_drugs(req: QueryRequest):
+    # N6b: objective-scoped path (eligibility gate + evidence contract).
+    if req.objective:
+        return _query_scoped(req)
+
     # Filter by drug class
     candidate_drugs = drugs
     if req.drug_class != "any":
@@ -859,6 +991,11 @@ async def query_drugs(req: QueryRequest):
         summary = "No drugs match the specified criteria."
 
     return {
+        "schema_version": "1.0",
+        "mode": "legacy",
+        "deprecated": True,
+        "deprecation_note": "Legacy cross-indication ranking is not objective-scoped; "
+                            "pass `objective` for the scoped path (N6b).",
         "query": req.model_dump(),
         "results": results,
         "summary": summary,

@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "objective": "erosive_esophagitis_healing",
+  "map": {
+    "omeprazole": {
+      "objectives": [
+        "erosive_esophagitis_healing"
+      ]
+    },
+    "esomeprazole": {
+      "objectives": [
+        "erosive_esophagitis_healing"
+      ]
+    },
+    "pantoprazole": {
+      "objectives": [
+        "erosive_esophagitis_healing"
+      ]
+    },
+    "lansoprazole": {
+      "objectives": [
+        "erosive_esophagitis_healing"
+      ]
+    },
+    "rabeprazole": {
+      "objectives": [
+        "erosive_esophagitis_healing"
+      ]
+    }
+  },
+  "unsupported_in_v1": [
+    "acarbose",
+    "alogliptin",
+    "aluminum-magnesium-hydroxide",
+    "amlodipine",
+    "apixaban",
+    "aspirin",
+    "atenolol",
+    "atorvastatin",
+    "bisoprolol",
+    "calcium-carbonate",
+    "canagliflozin",
+    "candesartan",
+    "captopril",
+    "carvedilol",
+    "celecoxib",
+    "chlorthalidone",
+    "cimetidine",
+    "clonidine",
+    "dabigatran",
+    "dapagliflozin",
+    "diclofenac",
+    "diltiazem",
+    "doxazosin",
+    "dulaglutide",
+    "edoxaban",
+    "empagliflozin",
+    "enalapril",
+    "enoxaparin",
+    "ertugliflozin",
+    "exenatide",
+    "famotidine",
+    "felodipine",
+    "furosemide",
+    "gliclazide",
+    "glimepiride",
+    "glipizide",
+    "glyburide",
+    "hydralazine",
+    "hydrochlorothiazide",
+    "ibuprofen",
+    "indapamide",
+    "indomethacin",
+    "insulin-aspart",
+    "insulin-degludec",
+    "insulin-glargine",
+    "insulin-lispro",
+    "irbesartan",
+    "ketorolac",
+    "linagliptin",
+    "liraglutide",
+    "lisinopril",
+    "losartan",
+    "lovastatin",
+    "meloxicam",
+    "metformin",
+    "methyldopa",
+    "metoprolol",
+    "naproxen",
+    "nebivolol",
+    "nifedipine",
+    "olmesartan",
+    "paracetamol",
+    "perindopril",
+    "pioglitazone",
+    "piroxicam",
+    "pitavastatin",
+    "pramlintide",
+    "pravastatin",
+    "propranolol",
+    "ramipril",
+    "ranitidine",
+    "repaglinide",
+    "rivaroxaban",
+    "rosiglitazone",
+    "rosuvastatin",
+    "saxagliptin",
+    "semaglutide",
+    "simvastatin",
+    "sitagliptin",
+    "sodium-alginate",
+    "spironolactone",
+    "sucralfate",
+    "telmisartan",
+    "terazosin",
+    "tirzepatide",
+    "trandolapril",
+    "valsartan",
+    "verapamil",
+    "vildagliptin",
+    "warfarin"
+  ]
+}

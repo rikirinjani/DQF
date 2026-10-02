@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "objectives": {
+    "erosive_esophagitis_healing": {
+      "display": "Erosive esophagitis healing",
+      "eligible_classes": [
+        "PPI"
+      ],
+      "evidence": {
+        "outcome": "endoscopic healing (LA grade)",
+        "unit": "percent healed",
+        "comparator": "placebo / active",
+        "horizon": "8 weeks",
+        "population": "erosive esophagitis",
+        "dose_regimen": "standard once-daily",
+        "source": "label / RCT",
+        "transform": "percent_higher_better",
+        "anchor": {
+          "best": 95,
+          "worst": 50
+        }
+      },
+      "contraindication_rules": []
+    }
+  }
+}
