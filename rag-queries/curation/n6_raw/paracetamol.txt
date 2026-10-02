@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5c3f9409-c92e-78dd-e063-6294a90aa7d4"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20260924"/>
+   <setId root="5b8a92c9-47c0-4438-a49d-b3878f7afd73"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="029918743"/>
+            <name>OPMX LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="117218785"/>
+                  <name>Seaway Pharma</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5c906bb0-140f-145b-e063-6294a90a9e03"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260924"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69729-028" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Acetaminophen</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Acetaminophen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="160"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="23OV73Q5G9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACESULFAME POTASSIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XY6UN3QB6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HIGH FRUCTOSE CORN SYRUP</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7T1F30V5YH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 20</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BENZOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="96K6UQ3ZD4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCRALOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69729-028-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20210201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M013" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73375" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CHERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69729-047" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Temp X</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Acetaminophen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="160"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="23OV73Q5G9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACESULFAME POTASSIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XY6UN3QB6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HIGH FRUCTOSE CORN SYRUP</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7T1F30V5YH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 20</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BENZOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="96K6UQ3ZD4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCRALOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69729-047-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20210201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M013" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73375" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CHERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69729-068" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Mejoralito</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Acetaminophen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="160"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="23OV73Q5G9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACESULFAME POTASSIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XY6UN3QB6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HIGH FRUCTOSE CORN SYRUP</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7T1F30V5YH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 20</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BENZOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="96K6UQ3ZD4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCRALOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69729-068-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20210201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M013" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73375" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CHERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fd7b9bab-b44c-a258-e053-6294a90a3a56">
+               <id root="fd7b9bab-b44b-a258-e053-6294a90a3a56"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active Ingredient(in each 5mL)     Purpose</title>
+               <text>
+                  <paragraph>Acetaminophen 160 mg............. Pain reliever/fever reducer</paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb9591d02-7471-444c-8a47-b630f86ee8ad">
+               <id root="fd7b9bab-b43b-a258-e053-6294a90a3a56"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Pain Reliever &amp; Fever Reducer</paragraph>
+               </text>
+               <effectiveTime value="20220430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La65d6654-3287-4f62-9147-5af2794cdb8e">
+               <id root="fd7b9bab-b43c-a258-e053-6294a90a3a56"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph>temporarily: </paragraph>
+                  <list listType="unordered">
+                     <item>reduces fever</item>
+                     <item>relieves minor aches and pains due to:</item>
+                     <item>the common cold</item>
+                     <item>headache</item>
+                     <item>flu</item>
+                     <item>sore throat</item>
+                     <item>toothache</item>
+                  </list>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd7b9bab-b43d-a258-e053-6294a90a3a56"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Liver warning:</content> This product contains acetaminophen.
+       
+ 
+  <br/>Severe liver damage may occur if your child takes takes
+      
+
+ </paragraph>
+                  <list listType="unordered">
+                     <item>more than 5 doses in 24 hours. which is the maximum daily amount.</item>
+                     <item>with other drugs containing acetaminophen.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content> acetaminophen may cause severe skin reactions. Symptoms may include:
+      
+
+ </paragraph>
+                  <list listType="unordered">
+                     <item>skin reddening</item>
+                     <item>blister</item>
+                     <item>rash</item>
+                  </list>
+                  <paragraph>if a skin reaction occurs, stop use and seek medical help right away.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Sore throat warning:</content> if sore throat is severe, persists for more than 2 days, is accompanied or followed by fever, headache, rash, nausea, or vomiting, consult a doctor promptly.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220430"/>
+               <component>
+                  <section ID="L329e8871-6080-4edd-9b5e-398adf79c019">
+                     <id root="fd7b9bab-b43e-a258-e053-6294a90a3a56"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>with any other drug containing acetaminophen (prescnption or non-prescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</item>
+                           <item>if your child is allergic to acetaminophen or any of the inactive ingredients in this product.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20220430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L94453199-afdc-42ec-9180-f999a0c315b8">
+                     <id root="fd7b9bab-b43f-a258-e053-6294a90a3a56"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Ask a doctor before use if your child has</content> liver disease.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L50e419a1-0dbe-4528-a63e-ff5d2f989fdd">
+                     <id root="fd7b9bab-b440-a258-e053-6294a90a3a56"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Ask a doctor or pharmacist before use if your child is</content> taking the blood thinning drug warfarin.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L9eb806f7-6655-441d-bee7-daec3210ab4a">
+                     <id root="fd7b9bab-b441-a258-e053-6294a90a3a56"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">When using this product do not exceed recommened dose (see overdose warning)</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L4001bc7a-c784-44b1-9502-3d6a555add24">
+               <id root="fd7b9bab-b442-a258-e053-6294a90a3a56"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Stop use and ask a doctor if</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>new sympthoms occur</item>
+                     <item>redness or swelling is present</item>
+                     <item>pain gets worse or lasts more than 5 days</item>
+                     <item>fever gets worse or lasts more than 3 days</item>
+                  </list>
+                  <paragraph>These could be signs of a serious condition</paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf3927aa1-0c64-45f5-aa49-c63094f12bd8">
+               <id root="fd7b9bab-b443-a258-e053-6294a90a3a56"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6bc5df54-0883-4c47-98b3-644c9576d152">
+               <id root="fd7b9bab-b444-a258-e053-6294a90a3a56"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Overdose warning:</content> Taking more than the recommended dose (overdose) may cause liver damage. In case of overdose, get medical help or contact a Poison Control Center right away 1-800-222-1222. Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd7b9bab-b445-a258-e053-6294a90a3a56"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>this product does not contain directions or complete warnings for adult use</item>
+                     <item>do not give more than directed (see overdose warning)</item>
+                     <item>shake well before using</item>
+                     <item>mL= millilitar</item>
+                     <item>find right dose on chart below, if possible, use weight to dose; otherwise, use age</item>
+                     <item>only use enclosed measuring syringe</item>
+                     <item>repeat dose every 4 hours while symptoms last</item>
+                     <item>do not give more than 5 times in 24 hours</item>
+                  </list>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                     <col width="40%"/>
+                     <col width="30%"/>
+                     <col width="30%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Weight (Ib)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Age (yr)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Dose (mL)
+            
+      
+       <footnote ID="L0f6f75ef-6aaf-449a-9b35-74319d1eca0a">or as directed by doctor</footnote>
+                                 </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>under 24</paragraph>
+                           </td>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>under 2 years</paragraph>
+                           </td>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>ask a doctor</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>24-35</paragraph>
+                           </td>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>2-3 years</paragraph>
+                           </td>
+                           <td align="center" styleCode="Lrule Botrule Rrule">
+                              <paragraph>5 mL</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd7b9bab-b446-a258-e053-6294a90a3a56"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered">
+                     <item>store between 20°-25°C (68°-77°F)</item>
+                     <item>protect from freezing</item>
+                     <item>protect from light</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Questions or comments?</content>
+                     <br/>Call toll free 619-600-5632
+       
+ 
+  <br/>Monday through Fnday 9AM - 5PM EST
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd7b9bab-b447-a258-e053-6294a90a3a56"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Inactive ingredients</content>
+               </title>
+               <text>
+                  <paragraph>acesulfame potassium, avicel, citric acid, FD&amp;C red no. 40, flavor, glycerine, high fructose corn syrup, polysorbate, propylene glycol, prosweet N&amp;AK, purified water, sodium benzoate, sucralose, sorbitol, xanthan gum.</paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1ddae490-74d6-4e2b-aaf1-08170b7ded06">
+               <id root="fd7b9bab-b448-a258-e053-6294a90a3a56"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by: </content>
+                     <br/>OPMX, Chula Vista CA  91910
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4c0a45de-496a-43df-a2c9-28702c734f6c">
+               <id root="fd7b9bab-b449-a258-e053-6294a90a3a56"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9f09d6a6-62b3-4801-82c3-79a5306b9f8d"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L024d19ad-8867-4ed6-ad5d-86737d113efe"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L03f97e4f-ff30-4ee7-9086-30e41248735c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220502"/>
+               <component>
+                  <observationMedia ID="L9f09d6a6-62b3-4801-82c3-79a5306b9f8d">
+                     <text>containerlabel-028</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="containerlabel-028.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L024d19ad-8867-4ed6-ad5d-86737d113efe">
+                     <text>containerlabel-047</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="containerlabel-047.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L03f97e4f-ff30-4ee7-9086-30e41248735c">
+                     <text>containerlabel-068</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="containerlabel-068.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

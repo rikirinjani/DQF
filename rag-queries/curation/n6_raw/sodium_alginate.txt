@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4aba2043-4dde-0c18-e063-6294a90a5fcf"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>
+      <content styleCode="italics">Drug Facts</content>
+   </title>
+   <effectiveTime value="20260213"/>
+   <setId root="2d74e5bc-1f10-4fb6-9258-cd906e360013"/>
+   <versionNumber value="23"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079944263"/>
+            <name>Haleon US Holdings LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4abbed20-e19e-18e3-e063-6394a90a0b16"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260213"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0135-0094" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GAVISCON</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>aluminum hydroxide and magnesium carbonate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C269C4G2ZQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ALGINATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="95"/>
+                              <denominator unit="mL" value="15"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5QB0T2IUN0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALUMINUM HYDROXIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5QB0T2IUN0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALUMINUM HYDROXIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="358"/>
+                              <denominator unit="mL" value="15"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0E53J927NA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM CARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7UJQ5OPE7D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBONATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="355" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0135-0094-41" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="177" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0135-0094-42" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M001" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110114"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="green" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73404" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MINT" xsi:type="CE">
+                              <originalText>cool mint</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0135-0095" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GAVISCON</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>aluminum hydroxide and magnesium carbonate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C269C4G2ZQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ALGINATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="254"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5QB0T2IUN0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALUMINUM HYDROXIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5QB0T2IUN0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALUMINUM HYDROXIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="237.5"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0E53J927NA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM CARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7UJQ5OPE7D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBONATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="355" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0135-0095-41" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M001" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110114"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73404" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MINT" xsi:type="CE">
+                              <originalText>cool mint</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0135-0574" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GAVISCON</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>aluminum hydroxide and magnesium carbonate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C269C4G2ZQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ALGINATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="254"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5QB0T2IUN0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALUMINUM HYDROXIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5QB0T2IUN0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALUMINUM HYDROXIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="237.5"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0E53J927NA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM CARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7UJQ5OPE7D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBONATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="355" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0135-0574-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20140801"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M001" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73375" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CHERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Active_Ingredient_id_35f0503d-9b69-448b-b385-f5da56b53e84">
+               <id root="4aba2043-4ddf-0c18-e063-6294a90a5fcf"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Active ingredients (in each 15 mL tablespoonful) Regular Strength</content>
+               </title>
+               <text>
+                  <paragraph>Aluminum hydroxide 95 mg</paragraph>
+                  <paragraph>Magnesium carbonate 358 mg</paragraph>
+               </text>
+               <effectiveTime value="20240403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Active_Ingredient_id_97d26e51-e13e-47dc-9abe-1c25b3597add">
+               <id root="4aba2043-4de0-0c18-e063-6294a90a5fcf"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Active ingredients (in each 5 mL / teaspoonful) Extra Strength</content>
+               </title>
+               <text>
+                  <paragraph>Aluminum hydroxide 254 mg</paragraph>
+                  <paragraph>Magnesium carbonate 237.5 mg</paragraph>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Purpose_id_5bf59d6d-a3cd-464b-9378-e0da570d345c">
+               <id root="4aba2043-4de1-0c18-e063-6294a90a5fcf"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="italics">Purposes</content>
+               </title>
+               <text>
+                  <paragraph>Antacid</paragraph>
+                  <paragraph>Antacid</paragraph>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_830139ee-d85a-46c5-92ca-b979dc1aed77">
+               <id root="4aba2043-4de2-0c18-e063-6294a90a5fcf"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">Uses</content>
+               </title>
+               <text>
+                  <paragraph>relieves</paragraph>
+                  <list listType="unordered">
+                     <item>heartburn</item>
+                     <item>acid indigestion</item>
+                     <item>sour stomach</item>
+                     <item>upset stomach associated with these symptoms</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140730"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_d9ce21be-1218-43d7-b2fc-0a6fb4079683">
+               <id root="4aba2043-4de3-0c18-e063-6294a90a5fcf"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="italics">Warnings</content>
+               </title>
+               <effectiveTime value="20250527"/>
+               <component>
+                  <section ID="i4i_OTC_Ask_Doctor_Pharmacist_id_7a5a71a5-176c-4649-a011-7b3c85c015f4">
+                     <id root="4aba2043-4de4-0c18-e063-6294a90a5fcf"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>Ask a doctor or pharmacist before use if you</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>have kidney disease</item>
+                           <item>are on a sodium-restricted diet or a magnesium-restricted diet</item>
+                           <item>are taking a prescription drug. Antacids may interact with certain prescription drugs.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_When_Using_id_94b1b018-bf75-474c-ab43-9e8c7208e871">
+                     <id root="4aba2043-4de5-0c18-e063-6294a90a5fcf"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product (Regular Strength)</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>do not take more than 8 tablespoonfuls in 24 hours</item>
+                           <item>do not use the maximum dosage for more than 2 weeks except under the advice and supervision of a doctor</item>
+                           <item>laxative effect may occur</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240403"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_When_Using_id_c9bc30c3-4a80-40b3-b506-402414f8ac30">
+                     <id root="4aba2043-4de6-0c18-e063-6294a90a5fcf"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product (Extra Strength)</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>do not take more than 16 teaspoonfuls in 24 hours</item>
+                           <item>do not use the maximum dosage for more than 2 weeks, except under the advice and supervision of a doctor</item>
+                           <item>laxative effect may occur</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Keep_Away_Children_id_9335edec-f07f-4379-b4fc-0ceb89ad7e62">
+                     <id root="4aba2043-4de7-0c18-e063-6294a90a5fcf"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <text>
+                        <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20140730"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_239f1323-e067-4dca-96aa-4d3b817e9a41">
+               <id root="4aba2043-4de8-0c18-e063-6294a90a5fcf"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">Directions (Regular Strength)</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>shake well</item>
+                     <item>take 1-2 tablespoonfuls four times a day or as directed by a doctor</item>
+                     <item>take after meals and at bedtime</item>
+                     <item>dispense product only by spoon or other measuring device</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140730"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_370dfe88-92fd-4f29-a753-3e8441a22666">
+               <id root="4aba2043-4de9-0c18-e063-6294a90a5fcf"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">Directions (Extra Strength)</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>shake well</item>
+                     <item>take 2-4 teaspoonfuls four times a day or as directed by a doctor</item>
+                     <item>take after meals and at bedtime</item>
+                     <item>dispense product only by spoon or other measuring device</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140730"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_storage_id_3566676d-4c2e-4d82-ab60-7734ec365d71">
+               <id root="4aba2043-4dea-0c18-e063-6294a90a5fcf"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="italics">Other information (Regular Strength)</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">each tablespoon (15 mL) contains:</content>magnesium 115 mg, sodium 52 mg
+ 
+  </item>
+                     <item>store at up to 25°C (77°F). Avoid freezing.</item>
+                     <item>keep tightly closed</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_storage_id_05a28761-615b-42d7-bc26-406a2ed3bee3">
+               <id root="4aba2043-4deb-0c18-e063-6294a90a5fcf"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="italics">Other information (Extra Strength)</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">each teaspoon (5 mL) contains:</content>magnesium 75 mg, sodium 11 mg
+ 
+  </item>
+                     <item>store at up to 25°C (77°F). Avoid freezing.</item>
+                     <item>keep tightly closed</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_inactive_ingredients_id_1214ab75-b777-4804-85ac-01b6eabd7ddc">
+               <id root="4aba2043-4dec-0c18-e063-6294a90a5fcf"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Inactive ingredients (Regular Strength)</content>
+               </title>
+               <text>
+                  <paragraph>benzyl alcohol, D&amp;C yellow #10, edetate disodium, FD&amp;C blue #1, flavor, glycerin, saccharin sodium, sodium alginate, sorbitol solution, water, xanthan gum</paragraph>
+               </text>
+               <effectiveTime value="20140730"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_inactive_ingredients_id_5c28d026-dd5d-4415-baa3-23b5b3258b97">
+               <id root="4aba2043-4ded-0c18-e063-6294a90a5fcf"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Inactive ingredients (Extra Strength Cool Mint)</content>
+               </title>
+               <text>
+                  <paragraph>benzyl alcohol, edetate disodium, glycerin, natural and artificial flavors, purified water, simethicone emulsion, sodium alginate, sodium saccharin, sorbitol solution, xanthan gum</paragraph>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_eda77375-4325-4af7-908a-637473510b30">
+               <id root="4aba2043-4dee-0c18-e063-6294a90a5fcf"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Inactive ingredients (Extra Strength Cherry)</content>
+               </title>
+               <text>
+                  <paragraph>benzyl alcohol, edetate disodium, glycerin, natural and artificial flavors, purified water, simethicone emulsion, sodium alginate, sodium saccharin, sorbitol solution, xanthan gum</paragraph>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Questions_id_7fa6428f-976c-4a3e-8c1f-82f9f3dde407">
+               <id root="4aba2043-4def-0c18-e063-6294a90a5fcf"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">Questions or comments?</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1-800-452-0051</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c76914ac-8d8d-4617-8c5f-bb44f7cc580c">
+               <id root="4aba2043-4df0-0c18-e063-6294a90a5fcf"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Additional Information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Do not use if printed inner safety seal under cap is broken or missing.</content>
+                  </paragraph>
+                  <paragraph>Trademarks are owned by or licensed to the Haleon group of companies.</paragraph>
+                  <paragraph>©2025 Haleon group of companies or its licensor.</paragraph>
+                  <paragraph>Pat. Info www.productpats.com</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Haleon</paragraph>
+                  <paragraph>Warren, NJ 07059</paragraph>
+                  <paragraph>Made in Mexico</paragraph>
+               </text>
+               <effectiveTime value="20250527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_02f8cdce-deab-466b-81a1-be8cf720e905">
+               <id root="4aba2043-4df1-0c18-e063-6294a90a5fcf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0135-0094-41</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gaviscon</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">LIQUID ANTACID</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">REGULAR STRENGTH</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="italics">Fast-Acting
+   
+    <content styleCode="underline">Heartburn Relief</content>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="italics">Helps Keep Acid Down for Hours</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">COOL MINT</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">FLAVOR</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">12 FL OZ (355 mL)</content>
+                  </paragraph>
+                  <paragraph>FRONT: 00067473</paragraph>
+                  <paragraph>BACK: 00067474</paragraph>
+                  <renderMultiMedia ID="id-429190210" referencedObject="ID_7a9b9f5a-7edd-423c-9bb8-4a8a3f1bc65d"/>
+               </text>
+               <effectiveTime value="20240403"/>
+               <component>
+                  <observationMedia ID="ID_7a9b9f5a-7edd-423c-9bb8-4a8a3f1bc65d">
+                     <text>00067473 Gaviscon Regular Strength 12 fl oz</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="00067473 Gaviscon Regular Strength 12 fl oz label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_a2b319fe-063e-4059-9956-b331cbab1aa9">
+               <id root="4aba2043-4df2-0c18-e063-6294a90a5fcf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HALEON</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gaviscon</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">LIQUID ANTACID</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">EXTRA STRENGTH</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="italics">Fast-Acting
+   
+    <content styleCode="underline">Heartburn Relief</content>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="italics">Helps Keep Acid Down for Hours</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">COOL MINT</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">FLAVOR</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">12 FL OZ (355 mL)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>FRONT: 00213316</paragraph>
+                  <paragraph>BACK: 00213317</paragraph>
+                  <renderMultiMedia ID="id-746105644" referencedObject="ID_48048bd0-25ea-45b3-86c7-d734aa4389db"/>
+               </text>
+               <effectiveTime value="20250527"/>
+               <component>
+                  <observationMedia ID="ID_48048bd0-25ea-45b3-86c7-d734aa4389db">
+                     <text>Gaviscon Extra Strength Cool Mint 12 fl oz label.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Gaviscon Extra Strength Cool Mint 12 fl oz label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_878b9e45-64f3-4eab-99f2-29db5b50a305">
+               <id root="4aba2043-4df3-0c18-e063-6294a90a5fcf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HALEON</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gaviscon</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">LIQUID ANTACID</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">EXTRA STRENGTH</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="italics">Fast-Acting
+   
+    <content styleCode="underline">Heartburn Relief</content>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="italics">Helps Keep Acid Down for Hours</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">CHERRY</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">FLAVOR</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">12 FL OZ (355 mL)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>FRONT: 00213320</paragraph>
+                  <paragraph>BACK: 00213322</paragraph>
+                  <renderMultiMedia ID="id-2024774536" referencedObject="F0F45ED3-E841-43CF-ADDD-4C5CE62C1E43"/>
+               </text>
+               <effectiveTime value="20250527"/>
+               <component>
+                  <observationMedia ID="F0F45ED3-E841-43CF-ADDD-4C5CE62C1E43">
+                     <text>Gaviscon Extra Strength 12 fl oz label.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Gaviscon Extra Strength 12 fl oz label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
