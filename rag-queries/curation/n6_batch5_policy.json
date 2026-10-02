@@ -1,0 +1,145 @@
+{
+ "generated": "2026-10-02",
+ "batch": "N6.5",
+ "status": "PROPOSED - awaiting user approval (no drugs.json / template / code change applied yet)",
+ "source_evidence": {
+  "hr_fetch_script": "C:\\Users\\think\\AppData\\Local\\Temp\\opencode\\n6_5_hr_fetch.py",
+  "hr_hits": "C:\\Users\\think\\AppData\\Local\\Temp\\opencode\\n6_5_hr_hits.json",
+  "worklist_refs": [
+   "n6_worklist.md section 5 items 1-2",
+   "n6_worklist.json categories.H_policy.merge_lock_semantics",
+   "n6_worklist.json categories.G_specials[2] amlodipine (satisfied by N6.4 label adjudication)",
+   "n6_worklist.json categories.G_specials[3] AH template wording"
+  ]
+ },
+ "policy_decisions": {
+  "merge_lock_membership": {
+   "question": "DEFAULT_LOCKED_FIELDS membership + deletion-respecting list merge + --unlock CLI",
+   "option_A_worklist_candidate": [
+    "bleeding_risk",
+    "cv_risk",
+    "ddi_risk",
+    "gi_bleeding_risk",
+    "gi_risk",
+    "renal_risk"
+   ],
+   "option_B_post_AE_adjudicated": {
+    "fields": [
+     "acid_rebound",
+     "barrier_protection",
+     "bleeding_risk",
+     "bone_fracture_risk",
+     "bp_reduction",
+     "cdi_risk",
+     "cv_outcome_benefit",
+     "cv_risk",
+     "ddi_risk",
+     "electrolyte_risk",
+     "gi_bleeding_risk",
+     "gi_risk",
+     "gi_tolerability",
+     "heart_rate_effect",
+     "hypoglycemia_risk",
+     "metabolic_effect",
+     "myopathy_risk",
+     "neutralization_capacity",
+     "raft_strength",
+     "reflux_suppression",
+     "renal_benefit",
+     "renal_protection",
+     "renal_risk",
+     "renal_toxicity_risk",
+     "weight_effect"
+    ],
+    "derivation": "worklist instruction: decide AFTER A-E so the lock list matches what humans actually curate. Union of worklist candidate + every l3 dim adjudicated in N6.1-6.4 (applied changes, keeps-with-basis, batch-3 vetting).",
+    "excluded": [
+     "nnt_mace_5yr (l4_clinical; merge_l3 only patches l3_systems)"
+    ]
+   },
+   "recommendation": "lock_option_B_post_ae_adjudicated",
+   "semantics": {
+    "scalar": "locked + expert value present (not None) -> expert wins verbatim (existing rule)",
+    "list": "locked + expert list non-empty -> expert list kept verbatim; NEVER expert+incoming (deletion-respecting; current bug re-adds expert-deleted items)",
+    "empty": "expert None/[]/'' -> incoming still fills (no expert value to protect)",
+    "unlock": "--unlock field1,field2 or --unlock-all for explicit pipeline rescore flows"
+   },
+   "constraint_check": "no in-repo caller of merge_l3 besides itself; F9 smoke test passes locked_fields=set() explicitly -> unaffected by new default"
+  },
+  "heart_rate_typing": {
+   "question": "heart_rate_effect typing (33 string cells, worklist F)",
+   "option_A_map_1_3": "numeric mapping with sourced direction per drug - requires a dedicated sourcing round (not available this arc)",
+   "option_B_keep_string_exclude_scoring": "keep descriptive string; formally excluded from scoring",
+   "evidence_for_B": [
+    "server.py: 0 matches for heart_rate (API scoring never consumes it)",
+    "scorer.py: no heart_rate consumer; classifier_audit.DIM_DIRECTION = None (direction-agnostic)",
+    "consumers are research-only: build_l2b_digests heuristic (default 'none'), _sweep_crossdrug"
+   ],
+   "recommendation": "option_B_keep_string_exclude_scoring (document in classifier_audit DIM_DIRECTION)"
+  },
+  "template_wording": {
+   "question": "AH template '{drug} cough angioedema edema side effect' mixes class-incompatible effects (worklist G[3])",
+   "analysis": [
+    "cough/angioedema: zero keyword consumers in any scorer (retrieval noise only)",
+    "edema: only consumer is _score_weight_effect gain_kw - Diabetes-only field, unreachable from AH queries (guarded at extract_l3:711)",
+    "residual harm: retrieved sentences feed _check_heart_rate/keyword scorers with class-foreign AE context",
+    "per-subclass split needs subclass plumbing (33 drugs share flat class=Antihypertensive; extract_l3 looks up by exact class) -> pairs with R1 per worklist"
+   ],
+   "option_A_shared_stem": "{drug} side effect",
+   "option_B_per_subclass": "split ACEi (cough/angioedema) vs CCB (edema) - requires subclass field + extract_l3 lookup change; defer to R1",
+   "recommendation": "option_A_shared_stem now; option_B with R1"
+  }
+ },
+ "hr_suspects_proposed_changes": [
+  {
+   "drug": "enalapril",
+   "dim": "heart_rate_effect",
+   "old": "bradycardia",
+   "new": "none",
+   "label": "ENALAPRIL MALEATE TABLET [AMICI PHARMA, INC]",
+   "setid": "a88902bd-742f-4ea6-b625-cc9df1709efc",
+   "basis": [
+    "Pharmacodynamics: 'blood pressure reduction was accompanied by ... little or no change in heart rate.'",
+    "Pharmacodynamics: 'Heart rate was unchanged or slightly reduced'",
+    "AE list 'rhythm disturbances including atrial tachycardia and bradycardia' = arrhythmia events, not a chronotropic effect (same exclusion logic as ventricular tachycardia)"
+   ],
+   "root_cause": "label AE keyword leakage into _check_heart_rate (sentence-level 'bradycardia' hit)"
+  },
+  {
+   "drug": "ramipril",
+   "dim": "heart_rate_effect",
+   "old": "tachycardia",
+   "new": "none",
+   "label": "RAMIPRIL CAPSULE [REMEDYREPACK INC.]",
+   "setid": "394a49a8-81bb-43ba-8d6a-fa6fa5030587",
+   "basis": [
+    "14.1 Hypertension: 'no compensatory tachycardia' (direct negation)",
+    "'palpitations' is a non-specific ADR, not a rate effect (tachy_kw includes 'palpitations' - leak path)"
+   ],
+   "root_cause": "'palpitations' ADR + weak keyword signal"
+  }
+ ],
+ "class_context": "other ACEis already 'none' (lisinopril, captopril, trandolapril, perindopril); BBs=bradycardia, DHP-CCBs=tachycardia, non-DHP-CCBs=bradycardia all pharmacologically coherent",
+ "planned_changes": {
+  "code": [
+   "rag-queries/merge_l3.py: populate DEFAULT_LOCKED_FIELDS, hoist lock check before type branches (covers lists), --unlock / --unlock-all CLI, docstring",
+   "rag-queries/test_merge_lock.py: new repo test (default lock scalar/list/empty/explicit-set/unlock)",
+   "rag-queries/l3_query_templates.json: classes.Antihypertensive.class_mechanism_queries[4] -> '{drug} side effect'",
+   "rag-queries/classifier_audit.py: DIM_DIRECTION comment documenting heart_rate_effect string policy (option B)"
+  ],
+  "data": [
+   "api/drugs.json: enalapril + ramipril heart_rate_effect -> 'none'",
+   "rag-queries/l3_output/{enalapril,ramipril}_l3_profile.json: same (staging consistency)"
+  ],
+  "records": [
+   "worklist md/json N6.5 rows -> done",
+   "TODO.md N6 row refresh"
+  ]
+ },
+ "verification": [
+  "python rag-queries/test_merge_lock.py (new)",
+  "smoke_api_grid.py (352 queries)",
+  "test_scorer_hardening.py + test_anticoagulant_scorer.py",
+  "smoke_audit_fixes.py (18/18; F9 passes locked_fields=set() explicitly)",
+  "grid spot check: enalapril/ramipril HR cells return 'none'"
+ ]
+}
