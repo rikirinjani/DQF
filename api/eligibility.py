@@ -88,21 +88,18 @@ def is_unsupported(drug_id):
     return drug_id in (CONDITION_MAP.get("unsupported_in_v1") or [])
 
 
-def evaluate(drug, objective, patient):
-    """Stage 1. Return (state, reasons).
+def hard_gate(drug, patient):
+    """Hard contraindication gate, objective-independent (design §5.1).
 
-    state: "eligible" | "eligible_unranked" | "excluded"
-    reasons: list of {rule, ...} dicts (structured; all evaluated failures returned)
+    Shared by every request path (scoped and legacy) so a contraindication can
+    never disappear because of how the drug was queried.
+
+    Returns (state, reasons):
+      state: "pass" | "failed" | "unknown"
+      reasons: structured {rule, state} dicts — every failed and unknown rule
+               is reported (review F21), not just the first.
     """
     reasons = []
-
-    # (a) objective match
-    if objective not in mapped_objectives(drug["id"]):
-        reasons.append({"rule": "objective_mismatch", "objective": objective})
-        return "excluded", reasons
-
-    # (b) hard contraindications (global, objective-independent)
-    unknown = False
     for rule in HARD_RULES:
         try:
             res = rule["applies"](drug, patient)
@@ -110,16 +107,34 @@ def evaluate(drug, objective, patient):
             res = None
         if res is True:
             reasons.append({"rule": rule["id"], "state": "failed"})
-            return "excluded", reasons
-        if res is None:
+        elif res is None:
             reasons.append({"rule": rule["id"], "state": "unknown"})
-            unknown = True
-
-    # (c) safety completeness: an unevaluable hard rule withholds ranking
-    if unknown:
+    if any(r["state"] == "failed" for r in reasons):
+        return "failed", reasons
+    if reasons:
+        # unknown != false: an unevaluable hard rule withholds ranking
         reasons.append({"rule": "safety_unknown", "state": "unknown"})
-        return "eligible_unranked", reasons
+        return "unknown", reasons
+    return "pass", reasons
 
+
+def evaluate(drug, objective, patient):
+    """Stage 1. Return (state, reasons).
+
+    state: "eligible" | "eligible_unranked" | "excluded"
+    reasons: list of {rule, ...} dicts (structured; all evaluated failures returned)
+    """
+    # (a) objective match
+    if objective not in mapped_objectives(drug["id"]):
+        return "excluded", [{"rule": "objective_mismatch", "objective": objective}]
+
+    # (b) hard contraindications (global, objective-independent)
+    # (c) safety completeness: unknown withholds ranking
+    gate, reasons = hard_gate(drug, patient)
+    if gate == "failed":
+        return "excluded", reasons
+    if gate == "unknown":
+        return "eligible_unranked", reasons
     return "eligible", reasons
 
 

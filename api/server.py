@@ -530,8 +530,13 @@ def _compute_mechanism(drug, pain_type, cv_risk):
     return round(max(0.0, min(10.0, score)), 1)
 
 
-def _get_combo_suggestions(drug, regimens):
-    """For a given top-ranked drug, find relevant combo regimens."""
+def _get_combo_suggestions(drug, regimens, exclude_ids=frozenset()):
+    """For a given top-ranked drug, find relevant combo regimens.
+
+    `exclude_ids`: drugs the hard gate excluded for this patient. They are never
+    offered as an add-on (review F15: no excluded drug in any
+    recommendation-bearing field); a combo with no admissible add-on is dropped.
+    """
     suggestions = []
     condition = regimens.get("conditions", {}).get("gastritis_gerd", {})
     regimens_list = condition.get("regimens", [])
@@ -543,7 +548,10 @@ def _get_combo_suggestions(drug, regimens):
                 continue
             add_on_class = reg["add_on_class"]
             # Find a representative drug from that class
-            add_on_drugs = [d for d in drugs if d["class"] == add_on_class]
+            class_drugs = [d for d in drugs if d["class"] == add_on_class]
+            add_on_drugs = [d for d in class_drugs if d["id"] not in exclude_ids]
+            if class_drugs and not add_on_drugs:
+                continue  # every add-on candidate is contraindicated
             add_on_name = add_on_drugs[0]["name"] if add_on_drugs else add_on_class
             suggestions.append({
                 "regimen_id": reg["id"],
@@ -931,8 +939,33 @@ async def query_drugs(req: QueryRequest):
             resolved.add(class_name_map.get(s, s))
         candidate_drugs = [d for d in drugs if d["class"] in resolved]
 
-    results = []
+    # N6b Phase 1: legacy is not a safety bypass (design §8, review F06/F07).
+    # The same objective-independent hard gate as the scoped path runs first;
+    # failed drugs are excluded and never scored, unknown-safety drugs are
+    # withheld from ranking. Gated over the whole catalogue so excluded drugs
+    # also cannot leak in as combo add-ons.
+    patient = {
+        "pregnancy_status": req.pregnancy_status,
+        "hepatic_function": req.hepatic_function,
+        "renal_function": req.renal_function,
+        "age": req.age,
+    }
+    gate = {d["id"]: eligibility.hard_gate(d, patient) for d in drugs}
+    blocked_ids = frozenset(i for i, (state, _) in gate.items() if state != "pass")
+    excluded, unranked, gated_drugs = [], [], []
     for drug in candidate_drugs:
+        state, reasons = gate[drug["id"]]
+        row = {"id": drug["id"], "name": drug["name"], "class": drug["class"],
+               "reasons": reasons}
+        if state == "failed":
+            excluded.append(row)
+        elif state == "unknown":
+            unranked.append(row)
+        else:
+            gated_drugs.append(drug)
+
+    results = []
+    for drug in gated_drugs:
         scores = {
             "efficacy": _compute_efficacy(drug, req.pain_type, req.cv_risk),
             "safety": _compute_safety(drug, req.gi_risk, req.cv_risk, req.renal_function,
@@ -954,7 +987,7 @@ async def query_drugs(req: QueryRequest):
             drug, scores, req.gi_risk, req.cv_risk, req.renal_function, req.pain_type,
             req.pregnancy_status, req.lactation, req.hepatic_function
         )
-        combo_suggestions = _get_combo_suggestions(drug, regimens_data)
+        combo_suggestions = _get_combo_suggestions(drug, regimens_data, blocked_ids)
 
         results.append({
             "id": drug["id"],
@@ -987,17 +1020,23 @@ async def query_drugs(req: QueryRequest):
             f"efficacy {best['scores']['efficacy']}, "
             f"safety {best['scores']['safety']})"
         )
+    elif excluded or unranked:
+        summary = ("No eligible option found in the evaluated catalogue/filter: every "
+                   "candidate is contraindicated or has unknown safety for this profile.")
     else:
         summary = "No drugs match the specified criteria."
 
     return {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "mode": "legacy",
         "deprecated": True,
         "deprecation_note": "Legacy cross-indication ranking is not objective-scoped; "
                             "pass `objective` for the scoped path (N6b).",
         "query": req.model_dump(),
+        "hard_gates_applied": [r["id"] for r in eligibility.HARD_RULES],
         "results": results,
+        "excluded": excluded,
+        "eligible_unranked": unranked,
         "summary": summary,
     }
 

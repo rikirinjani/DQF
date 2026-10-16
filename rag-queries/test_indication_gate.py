@@ -8,7 +8,7 @@ Covers the Astra review's required assertions:
   - no neutral-score imputation (missing evidence -> eligible_unranked, null score)
   - no cross-endpoint fallback (one objective, one contract)
   - recommendation-path closure (combo suggestions disabled in scoped v1)
-  - legacy path flagged deprecated
+  - legacy path flagged deprecated + runs the shared hard gate (Phase 1)
 Run: python rag-queries/test_indication_gate.py
 """
 import asyncio
@@ -195,6 +195,124 @@ def test_legacy_flagged_deprecated():
     assert res["mode"] == "legacy"
     assert res["deprecated"] is True
     assert "results" in res and len(res["results"]) == 95
+
+
+# --- legacy hard gates (design Phase 1, review F06/F07/F15) -----------------
+PREG_X = {"atorvastatin", "rosuvastatin", "simvastatin", "pravastatin",
+          "pitavastatin", "warfarin"}
+HEP_CI = {"atorvastatin", "simvastatin", "pitavastatin"}
+
+
+def _ids(rows):
+    return {r["id"] for r in rows}
+
+
+def _rules(row):
+    return {r["rule"] for r in row["reasons"] if r.get("state") == "failed"}
+
+
+def test_legacy_no_patient_factors_unchanged():
+    res = asyncio.run(server.query_drugs(_req()))
+    assert res["excluded"] == [] and res["eligible_unranked"] == []
+    assert set(res["hard_gates_applied"]) == {"pregnancy_x", "hepatic_contraindicated"}
+
+
+def test_legacy_pregnancy_x_excluded():
+    res = asyncio.run(server.query_drugs(_req(pregnancy_status="third_trimester")))
+    assert _ids(res["excluded"]) == PREG_X
+    assert not (_ids(res["results"]) & PREG_X), "excluded drug was ranked"
+    assert len(res["results"]) + len(res["excluded"]) == 95
+    for row in res["excluded"]:
+        assert "pregnancy_x" in _rules(row)
+
+
+def test_legacy_hepatic_contraindicated_excluded():
+    res = asyncio.run(server.query_drugs(_req(hepatic_function="severe")))
+    assert _ids(res["excluded"]) == HEP_CI
+    assert "rosuvastatin" in _ids(res["results"])
+
+
+def test_legacy_all_failures_reported():
+    res = asyncio.run(server.query_drugs(
+        _req(pregnancy_status="first_trimester", hepatic_function="moderate")))
+    row = next(r for r in res["excluded"] if r["id"] == "atorvastatin")
+    assert _rules(row) == {"pregnancy_x", "hepatic_contraindicated"}
+
+
+def test_legacy_class_filter_all_excluded_scoped_summary():
+    # NOTE: lovastatin has pregnancy_safety=null, which _norm_preg reads as "C",
+    # so it is NOT pregnancy-gated today (open unknown!=false policy question);
+    # severe hepatic on top doesn't catch it either (hepatic_safety=null).
+    res = asyncio.run(server.query_drugs(
+        _req(drug_class="Statin", pregnancy_status="second_trimester")))
+    assert len(res["excluded"]) == 5
+    assert _ids(res["results"]) == {"lovastatin"}
+    rule = {"id": "test_block", "applies": lambda drug, p: drug["class"] == "Statin"}
+    eligibility.HARD_RULES.append(rule)
+    try:
+        res = asyncio.run(server.query_drugs(_req(drug_class="Statin")))
+    finally:
+        eligibility.HARD_RULES.remove(rule)
+    assert res["results"] == [] and len(res["excluded"]) == 6
+    assert "No eligible option found in the evaluated catalogue/filter" in res["summary"]
+    assert "Best choice" not in res["summary"]
+
+
+def test_legacy_no_excluded_leakage():
+    res = asyncio.run(server.query_drugs(
+        _req(pregnancy_status="third_trimester", hepatic_function="severe")))
+    blocked_names = {BY_ID[i]["name"] for i in PREG_X | HEP_CI}
+    text = res["summary"] + " ".join(
+        " ".join(r["strengths"] + r["concerns"]) for r in res["results"])
+    for name in blocked_names:
+        assert name not in text, f"{name} leaked into recommendation text"
+    for r in res["results"]:
+        for c in r["combo_suggestions"]:
+            assert c.get("add_on_drug") not in blocked_names
+
+
+def test_legacy_combo_skips_blocked_add_on():
+    """Block the first-listed drug of each combo add-on class; the combo must
+    fall back to an admissible drug, or be dropped when none is left."""
+    first = {}
+    for d in server.drugs:
+        first.setdefault(d["class"], d["id"])
+    blocked = {first[c] for c in ("Alginate", "H2RA", "Antacid", "Mucosal Protectant")}
+    rule = {"id": "test_block", "applies": lambda drug, p: drug["id"] in blocked}
+    eligibility.HARD_RULES.append(rule)
+    try:
+        res = asyncio.run(server.query_drugs(_req(drug_class="PPI")))
+    finally:
+        eligibility.HARD_RULES.remove(rule)
+    blocked_names = {BY_ID[i]["name"] for i in blocked}
+    combos = [c for r in res["results"] for c in r["combo_suggestions"]
+              if c["type"] == "combo"]
+    assert combos, "expected PPI combos with admissible add-ons"
+    for c in combos:
+        assert c["add_on_drug"] not in blocked_names
+    # single-drug classes (Alginate, Mucosal Protectant) have no admissible add-on
+    assert not {c["add_on_class"] for c in combos} & {"Alginate", "Mucosal Protectant"}
+
+
+def test_legacy_unknown_safety_withheld():
+    rule = {"id": "test_unknown", "applies":
+            lambda drug, p: None if drug["id"] == "omeprazole" else False}
+    eligibility.HARD_RULES.append(rule)
+    try:
+        res = asyncio.run(server.query_drugs(_req()))
+    finally:
+        eligibility.HARD_RULES.remove(rule)
+    assert "omeprazole" not in _ids(res["results"]), "unknown safety must not rank"
+    row = next(r for r in res["eligible_unranked"] if r["id"] == "omeprazole")
+    assert {r["rule"] for r in row["reasons"]} == {"test_unknown", "safety_unknown"}
+
+
+def test_scoped_and_legacy_share_gate():
+    """Same hard verdicts on both paths (design §5.1: one shared evaluator)."""
+    patient = _patient(pregnancy_status="third_trimester", hepatic_function="severe")
+    for d in server.drugs:
+        state, _ = eligibility.hard_gate(d, patient)
+        assert (state == "failed") == (d["id"] in PREG_X | HEP_CI), d["id"]
 
 
 if __name__ == "__main__":
