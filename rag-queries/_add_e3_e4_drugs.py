@@ -190,6 +190,7 @@ NEW_DRUGS = [
         },
         "l4_clinical": {
             "nnt_bp_control": {"a1c_reduction": 1.5, "unit": "%", "dose": "2000mg"},
+            "a1c_efficacy": {"value": 1.5, "unit": "percentage_points", "dose": "2000mg"},
             "indications": ["T2DM", "Prediabetes", "PCOS", "GDM"],
             "success_rate": 0.65,
             "onset_min": "days"
@@ -217,6 +218,7 @@ NEW_DRUGS = [
         },
         "l4_clinical": {
             "nnt_bp_control": {"a1c_reduction": 0.8, "unit": "%", "dose": "10-25mg"},
+            "a1c_efficacy": {"value": 0.8, "unit": "percentage_points", "dose": "10-25mg"},
             "indications": ["T2DM", "Heart failure (EMPEROR-Reduced)", "CKD (EMPA-KIDNEY)"],
             "success_rate": 0.60,
             "onset_min": "days"
@@ -244,6 +246,7 @@ NEW_DRUGS = [
         },
         "l4_clinical": {
             "nnt_bp_control": {"a1c_reduction": 0.7, "unit": "%", "dose": "5-10mg"},
+            "a1c_efficacy": {"value": 0.7, "unit": "percentage_points", "dose": "5-10mg"},
             "indications": ["T2DM", "Heart failure (DAPA-HF)", "CKD (DAPA-CKD)"],
             "success_rate": 0.58,
             "onset_min": "days"
@@ -271,6 +274,7 @@ NEW_DRUGS = [
         },
         "l4_clinical": {
             "nnt_bp_control": {"a1c_reduction": 1.5, "unit": "%", "dose": "0.5-2.0mg SC"},
+            "a1c_efficacy": {"value": 1.5, "unit": "percentage_points", "dose": "0.5-2.0mg SC"},
             "indications": ["T2DM", "Obesity (2.4mg SC)", "CV risk reduction"],
             "success_rate": 0.70,
             "onset_min": "days"
@@ -298,6 +302,7 @@ NEW_DRUGS = [
         },
         "l4_clinical": {
             "nnt_bp_control": {"a1c_reduction": 2.1, "unit": "%", "dose": "5-15mg SC"},
+            "a1c_efficacy": {"value": 2.1, "unit": "percentage_points", "dose": "5-15mg SC"},
             "indications": ["T2DM", "Obesity (SURMOUNT)"],
             "success_rate": 0.75,
             "onset_min": "days"
@@ -325,6 +330,7 @@ NEW_DRUGS = [
         },
         "l4_clinical": {
             "nnt_bp_control": {"a1c_reduction": 1.2, "unit": "%", "dose": "0.2-0.6 U/kg"},
+            "a1c_efficacy": {"value": 1.2, "unit": "percentage_points", "dose": "0.2-0.6 U/kg"},
             "indications": ["T1DM", "T2DM (advanced)"],
             "success_rate": 0.65,
             "onset_min": "hours"

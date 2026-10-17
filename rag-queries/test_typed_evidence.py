@@ -126,12 +126,21 @@ def test_objective_evidence_untouched():
         assert rec["value"] == value, (drug_id, rec["value"])
 
 
-def test_drugs_json_not_modified():
+def test_drugs_json_a1c_efficacy():
+    """P2-1: Diabetes A1c has its own l4_clinical.a1c_efficacy, equal to the typed
+    record; nnt_bp_control stays as a legacy alias until Phase 3 (D4)."""
     diabetes = [d for d in DRUGS if d["class"] == "Diabetes"]
     assert len(diabetes) == 28, len(diabetes)
     for d in diabetes:
-        assert "a1c_reduction" in d["l4_clinical"]["nnt_bp_control"], d["id"]
-        assert "a1c_reduction" not in d["l4_clinical"], d["id"]
+        l4 = d["l4_clinical"]
+        assert "a1c_reduction" in l4["nnt_bp_control"], d["id"]
+        assert "a1c_reduction" not in l4, d["id"]
+        typed = EVIDENCE["endpoints"][d["id"]]["a1c_reduction"]
+        assert l4["a1c_efficacy"] == {"value": typed["value"], "unit": "percentage_points",
+                                      "dose": typed["dose"]}, d["id"]
+        assert type(l4["a1c_efficacy"]["value"]) is type(typed["value"]), d["id"]
+    assert not any("a1c_efficacy" in d["l4_clinical"] for d in DRUGS
+                   if d["class"] != "Diabetes")
 
 
 def test_scoped_path_unaffected():

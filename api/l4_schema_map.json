@@ -23,7 +23,8 @@
     },
     "Diabetes": {
       "fields": {
-        "nnt_bp_control": {"type": "{a1c_reduction: float, unit: '%', dose: string}", "semantics": "A1c reduction efficacy — DIFFERENT shape from Antihypertensive (RISK 1 collision)", "proposed": "a1c_efficacy"},
+        "nnt_bp_control": {"type": "{a1c_reduction: float, unit: '%', dose: string}", "semantics": "A1c reduction efficacy — DIFFERENT shape from Antihypertensive (RISK 1 collision)", "proposed": "a1c_efficacy", "status": "legacy alias, kept until Phase 3 legacy retirement (N6b P2-1, user decision D4)"},
+        "a1c_efficacy": {"type": "{value: float, unit: 'percentage_points', dose: string}", "semantics": "A1c reduction (absolute percentage points), copied verbatim from nnt_bp_control.a1c_reduction; typed record api/evidence.json endpoints.<id>.a1c_reduction (legacy_unsourced)", "added": "2026-10-17 N6b P2-1"},
         "indications": {"type": "string[]"},
         "success_rate": {"type": "float 0-1", "semantics": "probability of achieving A1c goal"},
         "onset_min": {"type": "string days|hours|weeks"}
@@ -102,7 +103,7 @@
     }
   },
   "risks": [
-    {"id": 1, "severity": "HIGH", "title": "nnt_bp_control semantic collision (false-sharing)", "detail": "Antihypertensive {value,ci_95,dose} vs Diabetes {a1c_reduction,unit,dose} share the key; uniform-shape consumers crash on either class. Proposed fix: bp_efficacy / a1c_efficacy."},
+    {"id": 1, "severity": "HIGH", "title": "nnt_bp_control semantic collision (false-sharing)", "detail": "Antihypertensive {value,ci_95,dose} vs Diabetes {a1c_reduction,unit,dose} share the key; uniform-shape consumers crash on either class. Proposed fix: bp_efficacy / a1c_efficacy.", "resolution": "Diabetes: l4_clinical.a1c_efficacy added 2026-10-17 (N6b P2-1), nnt_bp_control kept as legacy alias until Phase 3. Antihypertensive bp_efficacy not done."},
     {"id": 2, "severity": "HIGH", "title": "onset_min type mismatch", "detail": "AH/NSAID int minutes vs Diabetes string; arithmetic consumers crash on Diabetes. Proposed fix: structured onset {value, unit}."},
     {"id": 3, "severity": "MEDIUM", "title": "success_rate semantic ambiguity", "detail": "Same field name, different endpoint per class; cross-class comparison invalid without class context."},
     {"id": 4, "severity": "LOW", "title": "pregnancy_safety location schism", "detail": "Top-level for AH/Diabetes/NSAID/Statin; inside l4_clinical for GI drugs; server.py reads top-level so l4_clinical copy is redundant."},
