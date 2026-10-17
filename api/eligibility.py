@@ -149,15 +149,59 @@ def evidence_for(drug_id, objective):
     return (EVIDENCE.get("evidence", {}).get(drug_id, {}) or {}).get(objective)
 
 
+CONTRACT_FIELDS = ("unit", "comparator", "horizon_weeks", "population")
+
+
+def _norm(s):
+    return s.strip().lower() if isinstance(s, str) else s
+
+
+def _field_matches(field, value, contract):
+    """Return True/False, or None if the contract does not define the field."""
+    if field == "unit":
+        want = contract.get("unit")
+        return None if want is None else _norm(value) == _norm(want)
+    if field in ("comparator", "population"):
+        allowed = contract.get(field + "s")
+        if not allowed:
+            return None
+        return _norm(value) in {_norm(a) for a in allowed}
+    if field == "horizon_weeks":
+        want = contract.get("horizon_weeks")
+        if want is None:
+            return None
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
+            return False
+        if isinstance(want, dict):
+            return want.get("min", value) <= value <= want.get("max", value)
+        return value == want
+    return None
+
+
 def contract_ok(ev, contract):
-    """Return (ok, reason). A drug is rankable only if its evidence satisfies the contract."""
+    """Return (ok, reason). A drug is rankable only if its evidence satisfies the contract.
+
+    Field-by-field against the normalised objective contract (conditions.json):
+    unit exact, comparator in comparators, horizon_weeks exact or {min,max},
+    population in populations. A field the contract does not define fails
+    closed (contract_incomplete:<field>), never a wildcard.
+    """
     if not ev:
         return False, "no_compatible_evidence"
-    for field in ("unit", "comparator", "horizon_weeks", "population"):
+    if ev.get("status") == "legacy_unsourced":
+        return False, "unsourced_evidence"
+    for field in CONTRACT_FIELDS:
         if ev.get(field) is None:
             return False, "incomplete_evidence"
     if ev.get("value") is None:
         return False, "no_compatible_evidence"
+    contract = contract or {}
+    for field in CONTRACT_FIELDS:
+        m = _field_matches(field, ev[field], contract)
+        if m is None:
+            return False, "contract_incomplete:" + field
+        if not m:
+            return False, "contract_mismatch:" + field
     return True, None
 
 

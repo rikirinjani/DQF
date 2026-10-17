@@ -1,0 +1,36 @@
+{
+  "id": "P2-2-CONTRACT-SHAPE",
+  "status": "APPROVED (user, 2026-10-17)",
+  "date": "2026-10-17",
+  "file": "api/conditions.json",
+  "objective": "erosive_esophagitis_healing",
+  "why": "contract_ok() must compare evidence fields to the objective contract (gap G3). The contract is free text today ('percent healed', 'placebo / active', '8 weeks'), so it cannot be compared to typed evidence ('percent', 'placebo', 8).",
+  "change": {
+    "evidence.unit": {"from": "percent healed", "to": "percent"},
+    "evidence.comparator": {"from": "placebo / active", "to": null, "note": "removed; replaced by comparators"},
+    "evidence.comparators": {"from": null, "to": ["placebo", "active"]},
+    "evidence.horizon": {"from": "8 weeks", "to": null, "note": "removed; replaced by horizon_weeks"},
+    "evidence.horizon_weeks": {"from": null, "to": 8},
+    "evidence.population": {"from": "erosive esophagitis", "to": null, "note": "removed; replaced by populations"},
+    "evidence.populations": {"from": null, "to": ["erosive esophagitis"]},
+    "evidence.labels": {"from": null, "to": {"unit": "percent healed", "comparator": "placebo / active", "horizon": "8 weeks"}, "note": "the old free-text wording kept for display"},
+    "version": {"from": "1.0.0", "to": "1.1.0"}
+  },
+  "unchanged": ["outcome", "dose_regimen", "source", "transform", "anchor", "display", "eligible_classes", "contraindication_rules"],
+  "matching_rules": {
+    "unit": "exact match after trim + lowercase",
+    "comparator": "evidence.comparator must be in contract.comparators (lowercased)",
+    "horizon_weeks": "contract int = exact match; contract {min,max} = inclusive range (for the D2 Diabetes ~24-26 wk contract later; PPI uses int 8)",
+    "population": "evidence.population must be in contract.populations (lowercased)",
+    "contract field missing": "fail closed: contract_incomplete:<field>, never treated as a wildcard"
+  },
+  "contract_ok_order": [
+    "no evidence -> no_compatible_evidence",
+    "status == legacy_unsourced -> unsourced_evidence",
+    "any of unit/comparator/horizon_weeks/population null -> incomplete_evidence",
+    "value null -> no_compatible_evidence",
+    "first mismatching field in order unit, comparator, horizon_weeks, population -> contract_mismatch:<field>"
+  ],
+  "expected_effect": "The 5 PPI records (percent / placebo / 8 / erosive esophagitis, no status field) all match, so the scoped snapshot is unchanged: ok, pantoprazole > rabeprazole > esomeprazole > lansoprazole > omeprazole, 0 unranked, 90 excluded. Nothing else reads conditions.json (grep: only api/eligibility.py).",
+  "out_of_scope": "The PPI source is still circular (G1) and has no status field, so it passes the unsourced check. That is P2-3's job, not P2-2's."
+}

@@ -117,6 +117,62 @@ def test_contract_rejects_incomplete_evidence():
     assert not ok and why == "incomplete_evidence"
 
 
+def _assess_omeprazole_with(**overrides):
+    """assess() omeprazole alone with its evidence record patched."""
+    orig = eligibility.EVIDENCE
+    ev = copy.deepcopy(orig)
+    ev["evidence"]["omeprazole"][OBJECTIVE].update(overrides)
+    eligibility.EVIDENCE = ev
+    try:
+        return eligibility.assess([BY_ID["omeprazole"]], OBJECTIVE, _patient())
+    finally:
+        eligibility.EVIDENCE = orig
+
+
+def test_contract_mismatch_per_field():
+    cases = {"unit": {"unit": "nnt"},
+             "comparator": {"comparator": "no treatment"},
+             "horizon_weeks": {"horizon_weeks": 4},
+             "population": {"population": "non-erosive reflux disease"}}
+    for field, override in cases.items():
+        res = _assess_omeprazole_with(**override)
+        assert res["eligible_ranked"] == [], field
+        rules = [r["rule"] for r in res["eligible_unranked"][0]["reasons"]]
+        assert rules == ["contract_mismatch:" + field], (field, rules)
+
+
+def test_contract_rejects_unsourced_evidence():
+    res = _assess_omeprazole_with(status="legacy_unsourced")
+    assert res["eligible_ranked"] == [] and res["status"] == "no_rankable"
+    assert res["eligible_unranked"][0]["reasons"][0]["rule"] == "unsourced_evidence"
+
+
+def test_contract_normalised_match():
+    contract = eligibility.objective_contract(OBJECTIVE)
+    ev = {"value": 88, "unit": " Percent ", "comparator": "ACTIVE", "horizon_weeks": 8,
+          "population": "Erosive Esophagitis"}
+    assert eligibility.contract_ok(ev, contract) == (True, None)
+    # horizon range form (for the D2 ~24-26 wk contract)
+    rng = dict(contract, horizon_weeks={"min": 6, "max": 8})
+    assert eligibility.contract_ok(dict(ev, horizon_weeks=6), rng) == (True, None)
+    assert eligibility.contract_ok(dict(ev, horizon_weeks=12), rng) == \
+        (False, "contract_mismatch:horizon_weeks")
+
+
+def test_contract_missing_field_fails_closed():
+    contract = dict(eligibility.objective_contract(OBJECTIVE))
+    del contract["populations"]
+    ev = eligibility.evidence_for("omeprazole", OBJECTIVE)
+    assert eligibility.contract_ok(ev, contract) == (False, "contract_incomplete:population")
+
+
+def test_ppi_evidence_meets_contract():
+    contract = eligibility.objective_contract(OBJECTIVE)
+    for pid in PPIS:
+        ok, why = eligibility.contract_ok(eligibility.evidence_for(pid, OBJECTIVE), contract)
+        assert ok, (pid, why)
+
+
 def test_transform_bounded_monotonic():
     contract = eligibility.objective_contract(OBJECTIVE)
     hi = eligibility.transform({"value": 90}, contract)

@@ -1,0 +1,109 @@
+{
+ "expected_head": "a1779e5",
+ "head": "a1779e5",
+ "patch_sha256": "848f0280675bdebdad66d32d31d013d1355eea26225885c21e2443274fb705de",
+ "rag-queries/test_indication_gate.py": {
+  "rc": 0,
+  "tail": "35/35 passed",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_scorer_hardening.py": {
+  "rc": 0,
+  "tail": "ALL CHECKS PASSED",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_anticoagulant_scorer.py": {
+  "rc": 0,
+  "tail": "ALL ANTICOAGULANT SCORER CHECKS PASSED",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_merge_lock.py": {
+  "rc": 0,
+  "tail": "8/8 passed",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_typed_evidence.py": {
+  "rc": 0,
+  "tail": "10/10 passed",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/smoke_api_grid.py": {
+  "rc": 0,
+  "tail": "queries run: 352, failures: 0",
+  "fails": [],
+  "stderr": ""
+ },
+ "snapshot": {
+  "scoped": {
+   "status": "ok",
+   "ranked": [
+    "pantoprazole",
+    "rabeprazole",
+    "esomeprazole",
+    "lansoprazole",
+    "omeprazole"
+   ],
+   "unranked": 0,
+   "excluded": 90
+  },
+  "pregnant": {
+   "results": 93,
+   "excluded": [
+    "lovastatin",
+    "warfarin"
+   ]
+  },
+  "hepatic_moderate": {
+   "results": 95,
+   "excluded": []
+  },
+  "hepatic_severe": {
+   "results": 85,
+   "excluded": [
+    "acarbose",
+    "atorvastatin",
+    "carvedilol",
+    "lovastatin",
+    "methyldopa",
+    "nebivolol",
+    "pitavastatin",
+    "pravastatin",
+    "rosuvastatin",
+    "simvastatin"
+   ]
+  },
+  "legacy_status": "objective_required",
+  "legacy_summary": "95 drugs scored, not recommended: scores are not comparable across indications. Pass `objective` for a recommendation.",
+  "legacy_top3": [
+   "celecoxib",
+   "diclofenac",
+   "pantoprazole"
+  ],
+  "null_safety_fields": {
+   "pregnancy_safety": [
+    "gliclazide",
+    "vildagliptin"
+   ],
+   "lactation_safety": [
+    "gliclazide",
+    "vildagliptin"
+   ],
+   "hepatic_safety": [
+    "atenolol",
+    "clonidine",
+    "gliclazide",
+    "hydralazine",
+    "terazosin",
+    "vildagliptin"
+   ]
+  }
+ },
+ "verdict": "PASS",
+ "kernel": "rikirinjani/dqf-gate-verify-cpu v9",
+ "note": "P2-2 pre-commit: a1779e5 + patch (conditions.json contract shape, contract_ok field-by-field, 5 new tests)"
+}
