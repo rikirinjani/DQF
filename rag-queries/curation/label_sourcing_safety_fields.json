@@ -1,0 +1,1466 @@
+{
+ "generated_by": "rag-queries/curation/classify_label_safety.py",
+ "kernel": "rikirinjani/dqf-label-safety-sourcing-cpu (v3 + v4 re-pick for glyburide, rosiglitazone, lovastatin)",
+ "status": "PROPOSED ONLY - no drugs.json changes until user approval",
+ "approval_gate": "Evidence file for user review (N6 pattern). Apply only after explicit APPROVED; statin pregnancy downgrade is a separate yes/no.",
+ "method": "Kaggle CPU kernel fetches DailyMed v2 SPL (Rx, single-entity, best section coverage among up to 8-10 candidates) -> section + whole-document sentence sweep -> ordered rules in this script; every value carries its deciding quote",
+ "review_flags": {
+  "statin_pregnancy_downgrade": {
+   "drugs": [
+    "atorvastatin",
+    "rosuvastatin",
+    "simvastatin",
+    "pravastatin",
+    "pitavastatin"
+   ],
+   "note": "Current labels no longer list pregnancy as a contraindication (8.1: 'Discontinue ... when pregnancy is recognized'; FDA 2021 statin class labeling change). Proposed value normalizes to D, so these 5 drugs would LEAVE the pregnancy_x hard gate (still -6 safety penalty)."
+  },
+  "lovastatin_label_lag": {
+   "drugs": [
+    "lovastatin"
+   ],
+   "note": "Every lovastatin label on DailyMed (10 checked, 2026) is old-format and still lists 'Pregnancy and lactation' under CONTRAINDICATIONS -> X, inconsistent with the other 5 statins. Proposed per label as found."
+  },
+  "stale_label": {
+   "drugs": [
+    "rosiglitazone",
+    "glyburide"
+   ],
+   "note": "Only label available: AVANDIA 2010-01-19 (rosiglitazone); glyburide single-entity label chosen is Teva 2015 old-format (newer generics share the same text)."
+  },
+  "pre_pllr_category_letter": {
+   "drugs": [
+    "glipizide",
+    "glyburide"
+   ],
+   "note": "Label states a letter category (C / B); proposed verbatim as the letter."
+  },
+  "not_in_dailymed": {
+   "drugs": [
+    "vildagliptin",
+    "gliclazide"
+   ],
+   "note": "Not US-approved; no DailyMed SPL. Fields stay null; needs EMA SmPC sourcing round."
+  },
+  "hepatic_label_silent": {
+   "drugs": [
+    "atenolol",
+    "terazosin",
+    "clonidine",
+    "hydralazine"
+   ],
+   "note": "No hepatic impairment guidance found in label text; hepatic_safety stays null."
+  },
+  "ace_inhibitor_hepatic_basis": {
+   "drugs": [
+    "enalapril",
+    "ramipril",
+    "perindopril",
+    "captopril"
+   ],
+   "note": "hepatic 'caution' rests on the class idiosyncratic hepatic-failure warning (discontinue if jaundice), not on impairment dosing (ramipril also cites raised exposure)."
+  },
+  "new_hepatic_hard_gate": {
+   "drugs": [
+    "lovastatin",
+    "carvedilol",
+    "nebivolol",
+    "methyldopa",
+    "acarbose",
+    "rosuvastatin",
+    "pravastatin"
+   ],
+   "note": "rosuvastatin/pravastatin: current labels list acute liver failure / decompensated cirrhosis (stored values were caution/safe). Label contraindication is specific (active liver disease / severe impairment / cirrhosis) but the current hepatic_contraindicated rule fires on ANY non-normal hepatic_function, including mild - see the open hepatic-rule policy item."
+  }
+ },
+ "gate_impact": {
+  "pregnancy_x": {
+   "enter": [
+    "lovastatin"
+   ],
+   "leave": [
+    "atorvastatin",
+    "rosuvastatin",
+    "simvastatin",
+    "pravastatin",
+    "pitavastatin"
+   ]
+  },
+  "hepatic_contraindicated": {
+   "enter": [
+    "lovastatin",
+    "carvedilol",
+    "nebivolol",
+    "methyldopa",
+    "acarbose",
+    "rosuvastatin",
+    "pravastatin"
+   ],
+   "leave": []
+  }
+ },
+ "sources": {
+  "lovastatin": {
+   "setid": "9438d8a0-ca5b-4676-aab9-d0241ccff6c9",
+   "title": "LOVASTATIN TABLET [REMEDYREPACK INC.]",
+   "effective": "20260723"
+  },
+  "enalapril": {
+   "setid": "d6af58f2-4129-45fe-a510-03b7403495ac",
+   "title": "ENALAPRIL MALEATE (ENALAPRIL MALEATE) TABLET [A-S MEDICATION SOLUTIONS]",
+   "effective": "20261009"
+  },
+  "ramipril": {
+   "setid": "394a49a8-81bb-43ba-8d6a-fa6fa5030587",
+   "title": "RAMIPRIL CAPSULE [REMEDYREPACK INC.]",
+   "effective": "20260928"
+  },
+  "perindopril": {
+   "setid": "87768fbf-7c63-47da-8925-0316f343d6ef",
+   "title": "PERINDOPRIL ERBUMINE TABLET [AUROBINDO PHARMA LIMITED]",
+   "effective": "20240313"
+  },
+  "captopril": {
+   "setid": "1395ba5b-2fc9-41ff-9c43-e0740d781dee",
+   "title": "CAPTOPRIL TABLET [AMICI PHARMA, INC.]",
+   "effective": "20260914"
+  },
+  "trandolapril": {
+   "setid": "57f8aac6-3bd3-4ae1-aab2-759c8bc23292",
+   "title": "TRANDOLAPRIL TABLET [BRYANT RANCH PREPACK]",
+   "effective": "20240530"
+  },
+  "valsartan": {
+   "setid": "f4a5df78-157b-4996-845c-235234250f11",
+   "title": "VALSARTAN TABLET [AMNEAL PHARMACEUTICALS LLC]",
+   "effective": "20260825"
+  },
+  "candesartan": {
+   "setid": "9da86c48-5911-4512-8c71-eca4a6418cf6",
+   "title": "These highlights do not include all the information needed to use CANDESARTAN CILEXETIL TABLETS safely and effectively. See full prescribing information for CAN",
+   "effective": "20260907"
+  },
+  "irbesartan": {
+   "setid": "ed789dc1-0b39-4efc-990d-7b6b43a8b3ba",
+   "title": "IRBESARTAN TABLET [BRYANT RANCH PREPACK]",
+   "effective": "20260925"
+  },
+  "olmesartan": {
+   "setid": "c49a7f23-2af0-4607-9f21-114970f8630d",
+   "title": "These highlights do not include all the information needed to use OLMESARTAN MEDOXOMIL tablets safely and effectively. See full prescribing information for OLME",
+   "effective": "20260930"
+  },
+  "telmisartan": {
+   "setid": "dd2b0604-f887-40d9-9109-dafcc9987e4e",
+   "title": "These highlights do not include all the information needed to use TELMISARTAN TABLETS safely and effectively. See full prescribing information for TELMISARTAN T",
+   "effective": "20260929"
+  },
+  "nifedipine": {
+   "setid": "8ebcb33c-f43b-4b36-9f94-9774b2a59e06",
+   "title": "PROCARDIA XL (NIFEDIPINE) TABLET, FILM COATED, EXTENDED RELEASE [PFIZER LABORATORIES DIV PFIZER INC]",
+   "effective": "20260921"
+  },
+  "felodipine": {
+   "setid": "55637724-8757-11de-8a39-0800200c9a66",
+   "title": "FELODIPINE TABLET, EXTENDED RELEASE FELODIPINE TABLET, FILM COATED, EXTENDED RELEASE [PAR HEALTH USA, LLC]",
+   "effective": "20240930"
+  },
+  "diltiazem": {
+   "setid": "e8c8dd18-9d95-4068-9762-bec1eb1bc25c",
+   "title": "MATZIM LA (DILTIAZEM HYDROCHLORIDE) TABLET, EXTENDED RELEASE [ACTAVIS PHARMA, INC.]",
+   "effective": "20250501"
+  },
+  "verapamil": {
+   "setid": "d4d29e80-2f6f-475d-b704-f9443aadf3db",
+   "title": "Verapamil Hydrochloride Tablets, USP Rx only",
+   "effective": "20260924"
+  },
+  "atenolol": {
+   "setid": "7836ee53-902b-4a3e-9523-6d4311cfba0e",
+   "title": "Atenolol Tablets, USP",
+   "effective": "20260924"
+  },
+  "bisoprolol": {
+   "setid": "c3ee566c-74c4-45f4-a947-526a7313e326",
+   "title": "BISOPROLOL (BISOPROLOL FUMARATE) TABLET, FILM COATED BISOPROLOL (BISOPROLOL FUMARATE) TABLET, FILM COATED [MICRO LABS LIMITED]",
+   "effective": "20260311"
+  },
+  "carvedilol": {
+   "setid": "ab8aa773-0ed1-4d59-a1bb-f46cf882644f",
+   "title": "CARVEDILOL TABLET, FILM COATED [REMEDYREPACK INC.]",
+   "effective": "20261006"
+  },
+  "propranolol": {
+   "setid": "5dbeb127-ed90-cc0b-e063-6394a90a03e1",
+   "title": "PROPRANOLOL HYDROCHLORIDE CAPSULE, EXTENDED RELEASE [APHENA PHARMA SOLUTIONS - TENNESSEE, LLC ]",
+   "effective": "20261013"
+  },
+  "nebivolol": {
+   "setid": "3e9e1048-b5ea-4d6a-9363-3ee0d059e088",
+   "title": "These highlights do not include all the information needed to use NEBIVOLOL TABLETS safely and effectively. See full prescribing information for NEBIVOLOL TABLE",
+   "effective": "20260609"
+  },
+  "furosemide": {
+   "setid": "12137a90-fb35-45d7-8984-0b04793d3e34",
+   "title": "FUROSEMIDE TABLET [PD-RX PHARMACEUTICALS, INC.]",
+   "effective": "20261014"
+  },
+  "spironolactone": {
+   "setid": "768563dc-a619-44dc-b97f-1a7e71fd56a0",
+   "title": "SPIRONOLACTONE TABLET [AUROBINDO PHARMA LIMITED]",
+   "effective": "20261007"
+  },
+  "indapamide": {
+   "setid": "5b55449f-4242-489d-8ba7-5baf4ba1a53a",
+   "title": "INDAPAMIDE TABLET, FILM COATED [BRYANT RANCH PREPACK]",
+   "effective": "20260226"
+  },
+  "doxazosin": {
+   "setid": "30a6bb83-f91b-4c4f-a849-4f2be3735a0e",
+   "title": "DOXAZOSIN TABLET [REMEDYREPACK INC.]",
+   "effective": "20261014"
+  },
+  "terazosin": {
+   "setid": "9d8fd052-b478-447e-a884-74fcd21275bb",
+   "title": "TERAZOSIN CAPSULES, USP",
+   "effective": "20260929"
+  },
+  "clonidine": {
+   "setid": "95b390cc-0578-4cb0-9c08-4853388b2ec9",
+   "title": "CLONIDINE HYDROCHLORIDE TABLET, EXTENDED RELEASE [AMERICAN HEALTH PACKAGING]",
+   "effective": "20261014"
+  },
+  "hydralazine": {
+   "setid": "47ad263b-ad3d-4f98-b0aa-d9e82ab6cb67",
+   "title": "HydrALAZINE HYDROCHLORIDE TABLETS, USP",
+   "effective": "20260917"
+  },
+  "methyldopa": {
+   "setid": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+   "title": "METHYLDOPA TABLET [RISING PHARMA HOLDINGS, INC.]",
+   "effective": "20250328"
+  },
+  "canagliflozin": {
+   "setid": "4e946ba3-02c4-4a10-9d5e-f2d87b534dc3",
+   "title": "INVOKANA (CANAGLIFLOZIN) TABLET, FILM COATED [A-S MEDICATION SOLUTIONS]",
+   "effective": "20260921"
+  },
+  "ertugliflozin": {
+   "setid": "e6f3e718-bb99-48f1-ab94-b9f0af05fed6",
+   "title": "These highlights do not include all the information needed to use STEGLATRO safely and effectively. See full prescribing information for STEGLATRO. STEGLATRO® (",
+   "effective": "20260603"
+  },
+  "liraglutide": {
+   "setid": "8fe557ae-4ff0-47a2-8ec3-37bb0fbdcc64",
+   "title": "LIRAGLUTIDE INJECTION, SOLUTION [CIPLA USA INC.]",
+   "effective": "20261009"
+  },
+  "dulaglutide": {
+   "setid": "af4e38a6-ad3f-480c-ae82-5ac6c7735b99",
+   "title": "TRULICITY (DULAGLUTIDE) INJECTION, SOLUTION [A-S MEDICATION SOLUTIONS]",
+   "effective": "20250703"
+  },
+  "exenatide": {
+   "setid": "e6cb5c8f-e97f-4a6a-95a4-939fd2393949",
+   "title": "EXENATIDE INJECTION [AMNEAL PHARMACEUTICALS LLC]",
+   "effective": "20260527"
+  },
+  "sitagliptin": {
+   "setid": "983e9e14-e9bd-3136-e573-98b4dc67860b",
+   "title": "These highlights do not include all the information needed to use SITAGLIPTIN TABLETS safely and effectively. See full prescribing information for SITAGLIPTIN T",
+   "effective": "20260916"
+  },
+  "saxagliptin": {
+   "setid": "6e8d8c4f-96eb-4b64-9c8c-4a5448a23a78",
+   "title": "SAXAGLIPTIN TABLET, FILM COATED [MYLAN PHARMACEUTICALS INC.]",
+   "effective": "20250228"
+  },
+  "linagliptin": {
+   "setid": "cbdbd4b2-c07b-00e1-e053-2995a90a5fc9",
+   "title": "These highlights do not include all the information needed to use LINAGLIPTIN TABLETS safely and effectively. See full prescribing information for LINAGLIPTIN T",
+   "effective": "20260114"
+  },
+  "alogliptin": {
+   "setid": "b25f155a-1259-47c2-aa3b-7c1356e4c7f6",
+   "title": "These highlights do not include all the information needed to use ALOGLIPTIN TABLETS safely and effectively. See full prescribing information for ALOGLIPTIN TAB",
+   "effective": "20250411"
+  },
+  "pioglitazone": {
+   "setid": "04577c39-a9c0-4c66-a775-4c79e2c3dea5",
+   "title": "PIOGLITAZONE HYDROCHLORIDE TABLET [REMEDYREPACK INC.]",
+   "effective": "20260915"
+  },
+  "rosiglitazone": {
+   "setid": "ef14122b-7fff-45fa-b13b-0ea9e48bd57d",
+   "title": "AVANDIA (ROSIGLITAZONE MALEATE) TABLET, FILM COATED [PHYSICIANS TOTAL CARE, INC.]",
+   "effective": "20100119"
+  },
+  "glipizide": {
+   "setid": "a38cfe61-4aa5-498c-bca5-03a8213303bb",
+   "title": "GLIPIZIDE TABLET [A-S MEDICATION SOLUTIONS]",
+   "effective": "20261014"
+  },
+  "glimepiride": {
+   "setid": "f4ffb19e-6d65-49fd-83ce-514d38d9d97c",
+   "title": "GLIMEPIRIDE TABLET [PD-RX PHARMACEUTICALS, INC.]",
+   "effective": "20261014"
+  },
+  "glyburide": {
+   "setid": "a56f100f-0f42-4188-81ab-04644b824040",
+   "title": "GLYBURIDE TABLET [TEVA PHARMACEUTICALS USA, INC.]",
+   "effective": "20150501"
+  },
+  "insulin-aspart": {
+   "setid": "30c64769-d2f7-4604-ac9e-2a6bc09506c9",
+   "title": "GARZULYS (INSULIN ASPART-FSAN) INJECTION, SOLUTION INSULIN DILUTING MEDIUM FOR GARZULYS (WATER INJECTION) INJECTION, SOLUTION [MEITHEAL PHARMACEUTICALS INC.]",
+   "effective": "20260731"
+  },
+  "insulin-lispro": {
+   "setid": "2be14cbb-197a-4da8-82c8-2443594e7f6f",
+   "title": "INSULIN LISPRO INJECTION, SOLUTION [A-S MEDICATION SOLUTIONS]",
+   "effective": "20260918"
+  },
+  "insulin-degludec": {
+   "setid": "c1be283d-4b1d-4996-b2a7-4488dbff3037",
+   "title": "INSULIN DEGLUDEC INJECTION, SOLUTION [NOVO NORDISK PHARMA, INC.]",
+   "effective": "20220701"
+  },
+  "acarbose": {
+   "setid": "067c0adc-7322-489d-9baa-1d061b37be36",
+   "title": "ACARBOSE TABLET [BRYANT RANCH PREPACK]",
+   "effective": "20260716"
+  },
+  "repaglinide": {
+   "setid": "6ae28683-28cc-408e-90f9-6a3dddfc668d",
+   "title": "These highlights do not include all the information needed to use REPAGLINIDE TABLETS safely and effectively. See full prescribing information for REPAGLINIDE T",
+   "effective": "20251104"
+  },
+  "pramlintide": {
+   "setid": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+   "title": "SYMLINPEN (PRAMLINTIDE ACETATE) INJECTION [ASTRAZENECA PHARMACEUTICALS LP]",
+   "effective": "20191218"
+  },
+  "atorvastatin": {
+   "setid": "5d5977a5-98f2-a90d-e063-6394a90a5892",
+   "title": "ATORVASTATIN CALCIUM TABLET, FILM COATED [NUCARE PHARMACEUTICALS, INC.]",
+   "effective": "20261008"
+  },
+  "rosuvastatin": {
+   "setid": "b7491a1a-570e-40ea-b65b-f956c9e284a6",
+   "title": "These highlights do not include all the information needed to use ROSUVASTATIN TABLETS safely and effectively. See full prescribing information for ROSUVASTATIN",
+   "effective": "20260924"
+  },
+  "simvastatin": {
+   "setid": "3f6fad0b-0278-433f-86db-761b673a5803",
+   "title": "SIMVASTATIN TABLET, FILM COATED [PREFERRED PHARMACEUTICALS, INC.]",
+   "effective": "20260831"
+  },
+  "pravastatin": {
+   "setid": "42ccbca7-fa52-4df9-8f1a-ea7da7312883",
+   "title": "PRAVASTATIN SODIUM TABLET [AUROBINDO PHARMA LIMITED]",
+   "effective": "20260910"
+  },
+  "pitavastatin": {
+   "setid": "2d5a1b78-4aa6-537b-e063-6394a90a522f",
+   "title": "PITAVASTATIN TABLETS. These highlights do not include all the information needed to use PITAVASTATIN TABLETS safely and effectively. See full prescribing inform",
+   "effective": "20260917"
+  },
+  "warfarin": {
+   "setid": "cdbbc317-35d3-42ba-94f0-c83891358529",
+   "title": "WARFARIN SODIUM TABLET [CARDINAL HEALTH 107, LLC]",
+   "effective": "20261006"
+  }
+ },
+ "gaps": [
+  {
+   "id": "vildagliptin",
+   "reason": "not_found_in_dailymed"
+  },
+  {
+   "id": "gliclazide",
+   "reason": "not_found_in_dailymed"
+  }
+ ],
+ "proposals": {
+  "lovastatin": {
+   "pregnancy_safety": {
+    "proposed": "contraindicated in pregnancy (label)",
+    "rule": "P1 pregnancy listed in contraindications",
+    "quote": "Pregnancy and lactation.",
+    "section": "contraindications"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - lactation listed in contraindications (label)",
+    "rule": "L0a contraindicated",
+    "quote": "Pregnancy and lactation.",
+    "section": "contraindications"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "Active liver disease or unexplained persistent elevations of serum transaminases (see WARNINGS).",
+    "section": "contraindications"
+   }
+  },
+  "enalapril": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY See full prescribing information for complete boxed warning.",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "Because of the potential for serious adverse reactions in nursing infants from enalapril, a decision should be made whether to discontinue nursing or to discontinue enalapril maleate, taking into account the importance of the drug to the mother.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Hepatic Failure Rarely, ACE inhibitors have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis, and (sometimes) death.",
+    "section": "hepatic"
+   }
+  },
+  "ramipril": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue ramipril as soon as possible [see Warnings and Precautions (5.6)].",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "However, because multiple doses may produce low milk concentrations that are not predictable from a single dose, do not use ramipril in nursing mothers.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "5.2 Hepatic Failure and Impaired Liver Function Rarely, ACE inhibitors, including ramipril, have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis and sometimes death.",
+    "section": "hepatic"
+   }
+  },
+  "perindopril": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue perindopril erbumine as soon as possible [see Warnings and Precautions (5.4) ].",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "It is not known whether perindopril is secreted in human milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "5.8 Hepatic Failure Rarely, ACE inhibitors have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis and sometimes death.",
+    "section": "hepatic"
+   }
+  },
+  "captopril": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue captopril tablets as soon as possible.",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "Because of the potential for serious adverse reactions in nursing infants from captopril, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of captopril tablets to the mother (see PRECAUTIONS: Pediatric Use).",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Hepatic Failure Rarely, ACE inhibitors have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis and (sometimes) death.",
+    "section": "hepatic"
+   }
+  },
+  "trandolapril": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue trandolapril as soon as possible.",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - see label (label)",
+    "rule": "L5 lactation text, no rule matched",
+    "quote": "Nursing Mothers Radiolabeled trandolapril or its metabolites are secreted in rat milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Dosage Adjustment in Renal Impairment or Hepatic Cirrhosis For patients with a creatinine clearance <30 mL/min.",
+    "section": "hepatic"
+   }
+  },
+  "valsartan": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue valsartan tablets as soon as possible.",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in breastfed infants from exposure to valsartan, advise a nursing woman that breastfeeding is not recommended during treatment with valsartan.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "8.7 Hepatic Impairment No dose adjustment is necessary for patients with mild-to-moderate liver disease.",
+    "section": "hepatic"
+   }
+  },
+  "candesartan": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY See Full Prescribing Information for complete boxed warning.",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in breastfed infants, advise a nursing woman that breastfeeding is not recommended during treatment with candesartan cilexetil [see Warnings and Precautions (5.2)].",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "In hypertensive patients with moderate hepatic impairment, consideration should be given to initiation of candesartan cilexetil at a lower dose [see Dosage and Administration (2.1)].",
+    "section": "hepatic_any"
+   }
+  },
+  "irbesartan": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY • When pregnancy is detected, discontinue irbesartan tablets as soon as possible [see Warnings and Precautions (5.1) and Use in Specific Populations (8.1)].",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation There are no available data on the presence of irbesartan in human milk, effects on milk production, or the breastfed infant.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "No dosage adjustment is necessary in patients with hepatic insufficiency.",
+    "section": "hepatic_any"
+   }
+  },
+  "olmesartan": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue olmesartan medoxomil tablets as soon as possible ( 5.1, 8.1).",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "Because of the potential for adverse effects on the nursing infant, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "No initial dosage adjustment is recommended for patients with moderate to marked hepatic dysfunction [see Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "telmisartan": {
+   "pregnancy_safety": {
+    "proposed": "avoid - fetal toxicity; discontinue when pregnancy is detected (label)",
+    "rule": "P2 fetal-toxicity boxed warning / discontinue-on-detection",
+    "quote": "WARNING: FETAL TOXICITY • When pregnancy is detected, discontinue telmisartan as soon as possible [see Warnings and Precautions (5.1)and Use in Specific Populations (8.1)].",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in the breastfed infant including hypotension, hyperkalemia and renal impairment, advise a nursing woman not to breastfeed during treatment with telmisartan.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "8.6 Hepatic Insufficiency Monitor carefully and uptitrate slowly in patients with biliary obstructive disorders or hepatic insufficiency [see Warnings and Precautions (5.4)].",
+    "section": "hepatic"
+   }
+  },
+  "nifedipine": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Lactation Nifedipine is transferred through breast milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Clearance of nifedipine would be expected to be prolonged in patients with impaired liver function.",
+    "section": "hepatic_any"
+   }
+  },
+  "felodipine": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "...g is secreted in human milk and because of the potential for serious adverse reactions from felodipine in the infant, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother....",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Patients with Impaired Liver Function Patients with impaired liver function may have elevated plasma concentrations of felodipine and may respond to lower doses of felodipine extended-release;",
+    "section": "hepatic_any"
+   }
+  },
+  "diltiazem": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of major birth defects and miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "Because of the potential for serious adverse reactions in nursing infants from diltiazem, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "5.3 Acute Hepatic Injury Significant elevations in liver enzymes such as alkaline phosphatase, LDH, AST (SGOT), ALT (SGPT) and signs of acute hepatic injury have been reported with diltiazem therapy.",
+    "section": "hepatic"
+   }
+  },
+  "verapamil": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Nursing mothers: Verapamil is excreted in human milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "In patients with hepatic insufficiency, metabolism is delayed and elimination half-life prolonged up to 14 to 16 hours (see PRECAUTIONS );",
+    "section": "hepatic_any"
+   }
+  },
+  "atenolol": {
+   "pregnancy_safety": {
+    "proposed": "avoid - may cause fetal harm; discontinue when pregnancy is recognized (label)",
+    "rule": "P3 fetal harm statement",
+    "quote": "Pregnancy and Fetal Injury Atenolol can cause fetal harm when administered to a pregnant woman.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Nursing Mothers Atenolol is excreted in human breast milk at a ratio of 1.5 to 6.8 when compared to the concentration in plasma.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": null,
+    "rule": "H0 no hepatic text extracted",
+    "quote": null,
+    "section": null
+   }
+  },
+  "bisoprolol": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "It is not known whether this drug is excreted in human milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Impaired Renal or Hepatic Function Use caution in adjusting the dose of bisoprolol fumarate in patients with renal or hepatic impairment (see CLINICAL PHARMACOLOGYand DOSAGE AND ADMINISTRATION).",
+    "section": "hepatic"
+   }
+  },
+  "carvedilol": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Available data regarding use of carvedilol in pregnant women are insufficient to determine whether there are drug-associated risks of adverse developmental outcomes.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There are no data on the presence of carvedilol in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "( 4) Severe hepatic impairment.",
+    "section": "contraindications"
+   }
+  },
+  "propranolol": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Nursing Mothers Propranolol is excreted in human milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "In the patients with cirrhosis, the half-life obtained after a single intravenous dose of 10 mg propranolol increased to 7.2 hours compared to 2.9 hours in control (see PRECAUTIONS ).",
+    "section": "hepatic"
+   }
+  },
+  "nebivolol": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Available data regarding use of nebivolol tablets in pregnant women are insufficient to determine whether there are drug-associated risks of adverse developmental outcomes.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for β-blockers to produce serious adverse reactions in nursing infants, especially bradycardia, nebivolol tablets are not recommended during nursing.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "...ck •Decompensated cardiac failure •Sick sinus syndrome (unless a permanent pacemaker is in place) •Patients with severe hepatic impairment (Child-Pugh >B) •Patients who are hypersensitive to any component of this product....",
+    "section": "contraindications"
+   }
+  },
+  "furosemide": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Nursing Mothers Because it appears in breast milk, caution should be exercised when furosemide is administered to a nursing mother.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Hypokalemia may develop with furosemide, especially with brisk diuresis, inadequate oral electrolyte intake, when cirrhosis is present, or during concomitant use of corticosteroids, ACTH, licorice in large amounts, or prolonged use of laxatives.",
+    "section": "hepatic_any"
+   }
+  },
+  "spironolactone": {
+   "pregnancy_safety": {
+    "proposed": "avoid - not recommended in pregnancy or in 2nd/3rd trimester (label)",
+    "rule": "P2b explicit not-recommended / avoid in pregnancy",
+    "quote": "Because of the potential risk to the male fetus due to anti-androgenic properties of spironolactone and animal data, avoid spironolactone in pregnant women or advise a pregnant woman of the potential risk to a male fetus.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "however, long term effects on a breastfed infant are unknown.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "In patients with cirrhosis, start with lowest initial dose and titrate slowly [see Dosage and Administration (2.4) and Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "indapamide": {
+   "pregnancy_safety": {
+    "proposed": "use if clearly needed (label)",
+    "rule": "P5 pregnancy section present, no restriction",
+    "quote": "Usage in Pregnancy The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard (see PRECAUTIONS ).",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "Nursing Mothers It is not known whether this drug is excreted in human milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Impaired Hepatic Function Indapamide, like the thiazides, should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte balance may precipitate hepatic coma.",
+    "section": "hepatic"
+   }
+  },
+  "doxazosin": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary The limited available data with doxazosin tablets in pregnant women are not sufficient to inform a drug-associated risk for major birth defects and miscarriage.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "There is no information on the effects of doxazosin tablets on the breastfeed infant or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "severe impairment: not recommended (label)",
+    "rule": "H2 not recommended",
+    "quote": "Use of doxazosin tablets in patients with severe hepatic impairment (Child-Pugh Class C) is not recommended.",
+    "section": "hepatic"
+   }
+  },
+  "terazosin": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women and the safety of terazosin in pregnancy has not been established.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "Nursing Mothers : It is not known whether terazosin is excreted in breast milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": null,
+    "rule": "H0 no hepatic text extracted",
+    "quote": null,
+    "section": null
+   }
+  },
+  "clonidine": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of major birth defects and miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - benefit/risk statement only (label)",
+    "rule": "L3 benefit/risk only",
+    "quote": "...The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for clonidine hydrochloride extended-release tablets and any potential adverse effects on the breastfed child from clonid...",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": null,
+    "rule": "H0 no hepatic text extracted",
+    "quote": null,
+    "section": null
+   }
+  },
+  "hydralazine": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are no adequate and well-controlled studies in pregnant women.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Nursing Mothers HydrALAZINE has been shown to be excreted in breast milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": null,
+    "rule": "H0 no hepatic text extracted",
+    "quote": null,
+    "section": null
+   }
+  },
+  "methyldopa": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "There are, however, no adequate and well-controlled studies in pregnant women in the first trimester of pregnancy.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - excreted in human milk (label)",
+    "rule": "L4b excreted in milk",
+    "quote": "Nursing Mothers Methyldopa appears in breast milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "CONTRAINDICATIONS Methyldopa is contraindicated in patients: – with active hepatic disease, such as acute hepatitis and active cirrhosis.",
+    "section": "contraindications"
+   }
+  },
+  "canagliflozin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - not recommended in pregnancy or in 2nd/3rd trimester (label)",
+    "rule": "P2b explicit not-recommended / avoid in pregnancy",
+    "quote": "8.1 Pregnancy Risk Summary Based on juvenile animal data showing adverse renal effects, INVOKANA is not recommended during the second and third trimesters of pregnancy.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, advise women that use of INVOKANA is not recommended while breastfeeding.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "severe impairment: not recommended (label)",
+    "rule": "H2 not recommended",
+    "quote": "The use of INVOKANA has not been studied in patients with severe hepatic impairment and is therefore not recommended [see Clinical Pharmacology (12.3)] .",
+    "section": "hepatic"
+   }
+  },
+  "ertugliflozin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - not recommended in pregnancy or in 2nd/3rd trimester (label)",
+    "rule": "P2b explicit not-recommended / avoid in pregnancy",
+    "quote": "8.1 Pregnancy Risk Summary Based on animal data showing adverse renal effects, STEGLATRO is not recommended during the second and third trimesters of pregnancy.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, advise women that the use of STEGLATRO is not recommended while breastfeeding.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "severe impairment: not recommended (label)",
+    "rule": "H2 not recommended",
+    "quote": "Ertugliflozin has not been studied in patients with severe hepatic impairment and is not recommended for use in this patient population [see Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "liraglutide": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "It is unknown whether liraglutide injection causes thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans, as the human relevance of liraglutide-induced rodent thyroid C-cell tumors has not been determined [see Warnings and Precautions (5.1) and Nonclinical Toxicology (13.1)].",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There are no data on the presence of liraglutide in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "No dose adjustment of liraglutide injection is recommended for patients with hepatic impairment [see Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "dulaglutide": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "It is unknown whether TRULICITY causes thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as human relevance of dulaglutide-induced rodent thyroid C-cell tumors has not been determined [see Warnings and Precautions (5.1), and Nonclinical Toxicology (13.1)] .",
+    "section": "boxed_warning"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There are no data on the presence of dulaglutide in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "8.7 Hepatic Impairment In a clinical pharmacology study in patients with varying degrees of hepatic impairment, no clinically relevant change in dulaglutide PK was observed [see Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "exenatide": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Limited data with exenatide in pregnant women are not sufficient to determine a drug-associated risk for major birth defects or miscarriage.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no information regarding the presence of exenatide, in human milk, the effects of exenatide on the breastfed infant, or the effects of exenatide on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "not studied in (severe) hepatic impairment (label)",
+    "rule": "H5a not studied / no clinical experience",
+    "quote": "8.7 Hepatic Impairment No pharmacokinetic study has been performed in patients with a diagnosis of acute or chronic hepatic impairment.",
+    "section": "hepatic"
+   }
+  },
+  "sitagliptin": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary The limited available data with sitagliptin tablets in pregnant women are not sufficient to inform a drug- associated risk for major birth defects and miscarriage.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no information regarding the presence of sitagliptin in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "not studied in (severe) hepatic impairment (label)",
+    "rule": "H5a not studied / no clinical experience",
+    "quote": "There is no clinical experience in patients with severe hepatic impairment (Child-Pugh score >9).",
+    "section": "hepatic_any"
+   }
+  },
+  "saxagliptin": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Limited data with saxagliptin tablets in pregnant women are not sufficient to determine a drug-associated risk for major birth defects or miscarriages.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no information regarding the presence of saxagliptin in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "These differences are not considered to be clinically meaningful.",
+    "section": "hepatic"
+   }
+  },
+  "linagliptin": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary The limited data with linagliptin use in pregnant women are not sufficient to inform of drug-associated risk for major birth defects and miscarriage.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no information regarding the presence of linagliptin in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "safe",
+    "rule": "H3 no dose adjustment",
+    "quote": "8.7 Hepatic Impairment No dose adjustment is recommended for patients with hepatic impairment [see Clinical Pharmacology (12.3)] .",
+    "section": "hepatic"
+   }
+  },
+  "alogliptin": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Limited data with alogliptin in pregnant women are not sufficient to determine a drug-associated risk for major birth defects or miscarriage.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no information regarding the presence of alogliptin in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "5.4 Hepatic Effects There have been postmarketing reports of fatal and nonfatal hepatic failure in patients taking alogliptin tablets, although some of the reports contain insufficient information necessary to establish the probable cause [see Adverse Reactions (6.2)].",
+    "section": "hepatic"
+   }
+  },
+  "pioglitazone": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Limited data with pioglitazone in pregnant women are not sufficient to determine a drug-associated risk for major birth defects or miscarriage.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no information regarding the presence of pioglitazone in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "5.3 Hepatic Effects There have been postmarketing reports of fatal and non-fatal hepatic failure in patients taking pioglitazone, although the reports contain insufficient information necessary to establish the probable cause.",
+    "section": "hepatic"
+   }
+  },
+  "rosiglitazone": {
+   "pregnancy_safety": {
+    "proposed": "avoid - not recommended in pregnancy or in 2nd/3rd trimester (label)",
+    "rule": "P2b explicit not-recommended / avoid in pregnancy",
+    "quote": "AVANDIA should not be used during pregnancy.",
+    "section": "pregnancy_any"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "It is not known whether AVANDIA is excreted in human milk.",
+    "section": "lactation_any"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Therapy with AVANDIA should not be initiated if the patient exhibits clinical evidence of active liver disease or increased serum transaminase levels (ALT >2.5X upper limit of normal at start of therapy).",
+    "section": "hepatic_any"
+   }
+  },
+  "glipizide": {
+   "pregnancy_safety": {
+    "proposed": "C",
+    "rule": "P4c explicit pregnancy category letter (pre-PLLR label)",
+    "quote": "Pregnancy Pregnancy Category C Glipizide was found to be mildly fetotoxic in rat reproductive studies at all dose levels (5 to 50 mg/kg).",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "Because the potential for hypoglycemia in nursing infants may exist, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Renal and Hepatic Disease The metabolism and excretion of glipizide may be slowed in patients with impaired renal and/or hepatic function.",
+    "section": "hepatic"
+   }
+  },
+  "glimepiride": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "It is not known whether Glimepiride is excreted in human milk and there are no data on the effects of Glimepiride on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Debilitated or malnourished patients, and those with adrenal, pituitary, or hepatic impairment are particularly susceptible to the hypoglycemic action of glucose-lowering medications.",
+    "section": "hepatic_any"
+   }
+  },
+  "glyburide": {
+   "pregnancy_safety": {
+    "proposed": "B",
+    "rule": "P4c explicit pregnancy category letter (pre-PLLR label)",
+    "quote": "Pregnancy Teratogenic Effects Pregnancy Category B Reproduction studies have been performed in rats and rabbits at doses up to 500 times the human dose and have revealed no evidence of impaired fertility or harm to the fetus due to glyburide.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - discontinue nursing or the drug (label)",
+    "rule": "L2 discontinue-nursing-or-drug decision",
+    "quote": "Because the potential for hypoglycemia in nursing infants may exist, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Renal or hepatic insufficiency may cause elevated drug levels of glyburide and the latter may also diminish gluconeogenic capacity, both of which increase the risk of serious hypoglycemic reactions.",
+    "section": "hepatic_any"
+   }
+  },
+  "insulin-aspart": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There are no data on the presence of insulin aspart products in human milk, the effects on the breastfed infant, or the effect on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "8.7 Hepatic Impairment Patients with hepatic impairment may be at increased risk of hypoglycemia and may require more frequent Garzulys dose adjustment and more frequent blood glucose monitoring [see Warnings and Precautions (5.3) and Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "insulin-lispro": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "There are no data on the effects of exogenous human insulin products, including insulin lispro, on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "8.7 Hepatic Impairment Patients with hepatic impairment may be at increased risk of hypoglycemia and may require more frequent Insulin Lispro dose adjustment and more frequent blood glucose monitoring [see Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "insulin-degludec": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There are no data on the presence of insulin degludec in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "However, as with all insulin products, glucose monitoring should be intensified and the Insulin Degludec dosage adjusted on an individual basis in patients with hepatic impairment.",
+    "section": "hepatic"
+   }
+  },
+  "acarbose": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The safety of acarbose tablets in pregnant women has not been established.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "It is not known whether this drug is excreted in human milk.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "Acarbose tablets are contraindicated in patients with diabetic ketoacidosis or cirrhosis.",
+    "section": "contraindications"
+   }
+  },
+  "repaglinide": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "8.1 Pregnancy Risk Summary Limited available data from case reports and case series with repaglinide use in pregnant women have not identified a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for hypoglycemia in breastfed infants, repaglinide is not recommended for use when breastfeeding.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "Patients with moderate to severe impairment of liver function had higher and more prolonged serum concentrations.",
+    "section": "hepatic"
+   }
+  },
+  "pramlintide": {
+   "pregnancy_safety": {
+    "proposed": "insufficient human data (label)",
+    "rule": "P4 limited/no human data",
+    "quote": "The estimated background risk of miscarriage for the indicated population is unknown.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "caution - unknown excretion/infant effect (label)",
+    "rule": "L4 unknown",
+    "quote": "8.2 Lactation Risk Summary There is no data on the presence of pramlintide in human milk, the effects on the breastfed infant, or the effects on milk production.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "not studied in (severe) hepatic impairment (label)",
+    "rule": "H5a not studied / no clinical experience",
+    "quote": "8.7 Hepatic Impairment SYMLIN use has not been studied in patients with hepatic impairment [see Clinical Pharmacology (12.3)].",
+    "section": "hepatic"
+   }
+  },
+  "atorvastatin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - may cause fetal harm; discontinue when pregnancy is recognized (label)",
+    "rule": "P3 fetal harm statement",
+    "quote": "8.1 Pregnancy Risk Summary Discontinue atorvastatin calcium when pregnancy is recognized.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, based on the mechanism of action, advise patients that breastfeeding is not recommended during treatment with atorvastatin calcium [see Use in Specific Populations (8.1), Clinical Pharmacology (12.1)].",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "4 CONTRAINDICATIONS • Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5.3)] • Hypersensitivity to atorvastatin or any excipients in atorvastatin calcium.",
+    "section": "contraindications"
+   }
+  },
+  "rosuvastatin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - may cause fetal harm; discontinue when pregnancy is recognized (label)",
+    "rule": "P3 fetal harm statement",
+    "quote": "8.1 Pregnancy Risk Summary Discontinue rosuvastatin when pregnancy is recognized.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, based on the mechanism of action, advise patients that breastfeeding is not recommended during treatment with rosuvastatin [see Use in Specific Populations (8.1) and Clinical Pharmacology (12.1)].",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "4 CONTRAINDICATIONS Rosuvastatin tablets are contraindicated in the following conditions: Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5.3)].",
+    "section": "contraindications"
+   }
+  },
+  "simvastatin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - may cause fetal harm; discontinue when pregnancy is recognized (label)",
+    "rule": "P3 fetal harm statement",
+    "quote": "8.1 Pregnancy Risk Summary Discontinue simvastatin when pregnancy is recognized.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, based on the mechanism of action, advise patients that breastfeeding is not recommended during treatment with simvastatin [see USE IN SPECIFIC POPULATIONS (8.1), CLINICAL PHARMACOLOGY (12.1)].",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "•Acute liver failure or decompensated cirrhosis [see WARNINGS AND PRECAUTIONS (5.3)] •Hypersensitivity to simvastatin or any excipients in simvastatin tablets USP.",
+    "section": "contraindications"
+   }
+  },
+  "pravastatin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - may cause fetal harm; discontinue when pregnancy is recognized (label)",
+    "rule": "P3 fetal harm statement",
+    "quote": "8.1 Pregnancy Risk Summary Discontinue pravastatin when pregnancy is recognized.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, based on the mechanism of action, advise patients that breastfeeding is not recommended during treatment with pravastatin [see Use in Specific Populations (8.1), Clinical Pharmacology (12.1)].",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "4 CONTRAINDICATIONS Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5.3) ].",
+    "section": "contraindications"
+   }
+  },
+  "pitavastatin": {
+   "pregnancy_safety": {
+    "proposed": "avoid - may cause fetal harm; discontinue when pregnancy is recognized (label)",
+    "rule": "P3 fetal harm statement",
+    "quote": "8.1 Pregnancy Risk Summary Discontinue pitavastatin tablets when pregnancy is recognized.",
+    "section": "pregnancy"
+   },
+   "lactation_safety": {
+    "proposed": "avoid - breastfeeding not recommended (label)",
+    "rule": "L1 not recommended",
+    "quote": "Because of the potential for serious adverse reactions in a breastfed infant, based upon the mechanism of action, advise patients that breastfeeding is not recommended during treatment with pitavastatin.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "contraindicated",
+    "rule": "H1 hepatic condition listed in contraindications",
+    "quote": "Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5.3)] .",
+    "section": "contraindications"
+   }
+  },
+  "warfarin": {
+   "pregnancy_safety": {
+    "proposed": "contraindicated in pregnancy (label)",
+    "rule": "P1 pregnancy listed in contraindications",
+    "quote": "...4 CONTRAINDICATIONS Warfarin sodium tablets, USP are contraindicated in: •Pregnancy Warfarin sodium tablets, USP are contraindicated in women who are pregnant except in pregnant women with mechanical heart valves, who are at high risk of thr...",
+    "section": "contraindications"
+   },
+   "lactation_safety": {
+    "proposed": "caution - not detected in human milk (limited data) (label)",
+    "rule": "L3b not detected in milk",
+    "quote": "8.2 Lactation Risk Summary Warfarin was not present in human milk from mothers treated with warfarin from a limited published study.",
+    "section": "lactation"
+   },
+   "hepatic_safety": {
+    "proposed": "caution",
+    "rule": "H4 dose reduction / monitoring / increased exposure",
+    "quote": "8.7 Hepatic Impairment Hepatic impairment can potentiate the response to warfarin through impaired synthesis of clotting factors and decreased metabolism of warfarin.",
+    "section": "hepatic"
+   }
+  }
+ }
+}
