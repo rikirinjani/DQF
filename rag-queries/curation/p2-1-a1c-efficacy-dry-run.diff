@@ -1,0 +1,282 @@
+--- a/api/drugs.json
++++ b/api/drugs.json
+@@ -3481,4 +3481,9 @@
+           "dose": "2000mg"
+         },
++        "a1c_efficacy": {
++          "value": 1.5,
++          "unit": "percentage_points",
++          "dose": "2000mg"
++        },
+         "indications": [
+           "T2DM",
+@@ -3575,4 +3580,9 @@
+           "dose": "10-25mg"
+         },
++        "a1c_efficacy": {
++          "value": 0.8,
++          "unit": "percentage_points",
++          "dose": "10-25mg"
++        },
+         "indications": [
+           "T2DM",
+@@ -3659,4 +3669,9 @@
+           "a1c_reduction": 0.7,
+           "unit": "%",
++          "dose": "5-10mg"
++        },
++        "a1c_efficacy": {
++          "value": 0.7,
++          "unit": "percentage_points",
+           "dose": "5-10mg"
+         },
+@@ -3751,4 +3766,9 @@
+           "dose": "0.5-2.0mg SC"
+         },
++        "a1c_efficacy": {
++          "value": 1.5,
++          "unit": "percentage_points",
++          "dose": "0.5-2.0mg SC"
++        },
+         "indications": [
+           "T2DM",
+@@ -3837,4 +3857,9 @@
+           "a1c_reduction": 2.1,
+           "unit": "%",
++          "dose": "5-15mg SC"
++        },
++        "a1c_efficacy": {
++          "value": 2.1,
++          "unit": "percentage_points",
+           "dose": "5-15mg SC"
+         },
+@@ -3921,4 +3946,9 @@
+           "a1c_reduction": 1.2,
+           "unit": "%",
++          "dose": "0.2-0.6 U/kg"
++        },
++        "a1c_efficacy": {
++          "value": 1.2,
++          "unit": "percentage_points",
+           "dose": "0.2-0.6 U/kg"
+         },
+@@ -6497,4 +6527,9 @@
+           "dose": "100-300mg"
+         },
++        "a1c_efficacy": {
++          "value": 0.8,
++          "unit": "percentage_points",
++          "dose": "100-300mg"
++        },
+         "indications": [
+           "T2DM",
+@@ -6589,4 +6624,9 @@
+           "dose": "5-15mg"
+         },
++        "a1c_efficacy": {
++          "value": 0.7,
++          "unit": "percentage_points",
++          "dose": "5-15mg"
++        },
+         "indications": [
+           "T2DM"
+@@ -6676,4 +6716,9 @@
+           "dose": "1.2-1.8mg SC"
+         },
++        "a1c_efficacy": {
++          "value": 1.2,
++          "unit": "percentage_points",
++          "dose": "1.2-1.8mg SC"
++        },
+         "indications": [
+           "T2DM",
+@@ -6759,4 +6804,9 @@
+           "dose": "0.75-4.5mg SC/week"
+         },
++        "a1c_efficacy": {
++          "value": 1.2,
++          "unit": "percentage_points",
++          "dose": "0.75-4.5mg SC/week"
++        },
+         "indications": [
+           "T2DM",
+@@ -6836,4 +6886,9 @@
+           "a1c_reduction": 0.9,
+           "unit": "%",
++          "dose": "5-10mcg BID / 2mg ER/week"
++        },
++        "a1c_efficacy": {
++          "value": 0.9,
++          "unit": "percentage_points",
+           "dose": "5-10mcg BID / 2mg ER/week"
+         },
+@@ -6916,4 +6971,9 @@
+           "a1c_reduction": 0.6,
+           "unit": "%",
++          "dose": "100mg"
++        },
++        "a1c_efficacy": {
++          "value": 0.6,
++          "unit": "percentage_points",
+           "dose": "100mg"
+         },
+@@ -7008,4 +7068,9 @@
+           "dose": "2.5-5mg"
+         },
++        "a1c_efficacy": {
++          "value": 0.6,
++          "unit": "percentage_points",
++          "dose": "2.5-5mg"
++        },
+         "indications": [
+           "T2DM"
+@@ -7092,4 +7157,9 @@
+           "a1c_reduction": 0.6,
+           "unit": "%",
++          "dose": "5mg"
++        },
++        "a1c_efficacy": {
++          "value": 0.6,
++          "unit": "percentage_points",
+           "dose": "5mg"
+         },
+@@ -7182,4 +7252,9 @@
+           "dose": "25mg"
+         },
++        "a1c_efficacy": {
++          "value": 0.6,
++          "unit": "percentage_points",
++          "dose": "25mg"
++        },
+         "indications": [
+           "T2DM"
+@@ -7265,4 +7340,9 @@
+           "dose": "50mg BID"
+         },
++        "a1c_efficacy": {
++          "value": 0.6,
++          "unit": "percentage_points",
++          "dose": "50mg BID"
++        },
+         "indications": [
+           "T2DM"
+@@ -7342,4 +7422,9 @@
+           "a1c_reduction": 0.9,
+           "unit": "%",
++          "dose": "15-45mg"
++        },
++        "a1c_efficacy": {
++          "value": 0.9,
++          "unit": "percentage_points",
+           "dose": "15-45mg"
+         },
+@@ -7437,4 +7522,9 @@
+           "dose": "4-8mg"
+         },
++        "a1c_efficacy": {
++          "value": 0.8,
++          "unit": "percentage_points",
++          "dose": "4-8mg"
++        },
+         "indications": [
+           "T2DM"
+@@ -7524,4 +7614,9 @@
+           "dose": "5-20mg"
+         },
++        "a1c_efficacy": {
++          "value": 1.2,
++          "unit": "percentage_points",
++          "dose": "5-20mg"
++        },
+         "indications": [
+           "T2DM"
+@@ -7603,4 +7698,9 @@
+           "a1c_reduction": 1.2,
+           "unit": "%",
++          "dose": "1-8mg"
++        },
++        "a1c_efficacy": {
++          "value": 1.2,
++          "unit": "percentage_points",
+           "dose": "1-8mg"
+         },
+@@ -7688,4 +7788,9 @@
+           "a1c_reduction": 1.3,
+           "unit": "%",
++          "dose": "2.5-20mg"
++        },
++        "a1c_efficacy": {
++          "value": 1.3,
++          "unit": "percentage_points",
+           "dose": "2.5-20mg"
+         },
+@@ -7778,4 +7883,9 @@
+           "a1c_reduction": 1.1,
+           "unit": "%",
++          "dose": "30-120mg MR"
++        },
++        "a1c_efficacy": {
++          "value": 1.1,
++          "unit": "percentage_points",
+           "dose": "30-120mg MR"
+         },
+@@ -7876,4 +7986,9 @@
+           "dose": "0.5-1.0 U/kg prandial"
+         },
++        "a1c_efficacy": {
++          "value": 1.3,
++          "unit": "percentage_points",
++          "dose": "0.5-1.0 U/kg prandial"
++        },
+         "indications": [
+           "T1DM",
+@@ -7971,4 +8086,9 @@
+           "a1c_reduction": 1.3,
+           "unit": "%",
++          "dose": "0.5-1.0 U/kg prandial"
++        },
++        "a1c_efficacy": {
++          "value": 1.3,
++          "unit": "percentage_points",
+           "dose": "0.5-1.0 U/kg prandial"
+         },
+@@ -8071,4 +8191,9 @@
+           "dose": "0.2-0.5 U/kg basal"
+         },
++        "a1c_efficacy": {
++          "value": 1.2,
++          "unit": "percentage_points",
++          "dose": "0.2-0.5 U/kg basal"
++        },
+         "indications": [
+           "T1DM",
+@@ -8163,4 +8288,9 @@
+           "dose": "50-100mg TID"
+         },
++        "a1c_efficacy": {
++          "value": 0.6,
++          "unit": "percentage_points",
++          "dose": "50-100mg TID"
++        },
+         "indications": [
+           "T2DM",
+@@ -8255,4 +8385,9 @@
+           "dose": "0.5-4mg before meals"
+         },
++        "a1c_efficacy": {
++          "value": 0.9,
++          "unit": "percentage_points",
++          "dose": "0.5-4mg before meals"
++        },
+         "indications": [
+           "T2DM",
+@@ -8336,4 +8471,9 @@
+           "a1c_reduction": 0.5,
+           "unit": "%",
++          "dose": "30-120mcg SC before meals"
++        },
++        "a1c_efficacy": {
++          "value": 0.5,
++          "unit": "percentage_points",
+           "dose": "30-120mcg SC before meals"
+         },

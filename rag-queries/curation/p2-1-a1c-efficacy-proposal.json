@@ -1,0 +1,151 @@
+{
+  "status": "PROPOSED",
+  "step": "P2-1",
+  "generated": "2026-10-17",
+  "key": "l4_clinical.a1c_efficacy",
+  "alias_kept": "l4_clinical.nnt_bp_control",
+  "source": "api/evidence.json endpoints.<id>.a1c_reduction (P2-0, d673c61)",
+  "count": 28,
+  "changes": {
+    "metformin": {
+      "value": 1.5,
+      "unit": "percentage_points",
+      "dose": "2000mg"
+    },
+    "empagliflozin": {
+      "value": 0.8,
+      "unit": "percentage_points",
+      "dose": "10-25mg"
+    },
+    "dapagliflozin": {
+      "value": 0.7,
+      "unit": "percentage_points",
+      "dose": "5-10mg"
+    },
+    "semaglutide": {
+      "value": 1.5,
+      "unit": "percentage_points",
+      "dose": "0.5-2.0mg SC"
+    },
+    "tirzepatide": {
+      "value": 2.1,
+      "unit": "percentage_points",
+      "dose": "5-15mg SC"
+    },
+    "insulin-glargine": {
+      "value": 1.2,
+      "unit": "percentage_points",
+      "dose": "0.2-0.6 U/kg"
+    },
+    "canagliflozin": {
+      "value": 0.8,
+      "unit": "percentage_points",
+      "dose": "100-300mg"
+    },
+    "ertugliflozin": {
+      "value": 0.7,
+      "unit": "percentage_points",
+      "dose": "5-15mg"
+    },
+    "liraglutide": {
+      "value": 1.2,
+      "unit": "percentage_points",
+      "dose": "1.2-1.8mg SC"
+    },
+    "dulaglutide": {
+      "value": 1.2,
+      "unit": "percentage_points",
+      "dose": "0.75-4.5mg SC/week"
+    },
+    "exenatide": {
+      "value": 0.9,
+      "unit": "percentage_points",
+      "dose": "5-10mcg BID / 2mg ER/week"
+    },
+    "sitagliptin": {
+      "value": 0.6,
+      "unit": "percentage_points",
+      "dose": "100mg"
+    },
+    "saxagliptin": {
+      "value": 0.6,
+      "unit": "percentage_points",
+      "dose": "2.5-5mg"
+    },
+    "linagliptin": {
+      "value": 0.6,
+      "unit": "percentage_points",
+      "dose": "5mg"
+    },
+    "alogliptin": {
+      "value": 0.6,
+      "unit": "percentage_points",
+      "dose": "25mg"
+    },
+    "vildagliptin": {
+      "value": 0.6,
+      "unit": "percentage_points",
+      "dose": "50mg BID"
+    },
+    "pioglitazone": {
+      "value": 0.9,
+      "unit": "percentage_points",
+      "dose": "15-45mg"
+    },
+    "rosiglitazone": {
+      "value": 0.8,
+      "unit": "percentage_points",
+      "dose": "4-8mg"
+    },
+    "glipizide": {
+      "value": 1.2,
+      "unit": "percentage_points",
+      "dose": "5-20mg"
+    },
+    "glimepiride": {
+      "value": 1.2,
+      "unit": "percentage_points",
+      "dose": "1-8mg"
+    },
+    "glyburide": {
+      "value": 1.3,
+      "unit": "percentage_points",
+      "dose": "2.5-20mg"
+    },
+    "gliclazide": {
+      "value": 1.1,
+      "unit": "percentage_points",
+      "dose": "30-120mg MR"
+    },
+    "insulin-aspart": {
+      "value": 1.3,
+      "unit": "percentage_points",
+      "dose": "0.5-1.0 U/kg prandial"
+    },
+    "insulin-lispro": {
+      "value": 1.3,
+      "unit": "percentage_points",
+      "dose": "0.5-1.0 U/kg prandial"
+    },
+    "insulin-degludec": {
+      "value": 1.2,
+      "unit": "percentage_points",
+      "dose": "0.2-0.5 U/kg basal"
+    },
+    "acarbose": {
+      "value": 0.6,
+      "unit": "percentage_points",
+      "dose": "50-100mg TID"
+    },
+    "repaglinide": {
+      "value": 0.9,
+      "unit": "percentage_points",
+      "dose": "0.5-4mg before meals"
+    },
+    "pramlintide": {
+      "value": 0.5,
+      "unit": "percentage_points",
+      "dose": "30-120mcg SC before meals"
+    }
+  }
+}
