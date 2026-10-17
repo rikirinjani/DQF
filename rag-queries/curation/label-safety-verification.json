@@ -1,0 +1,89 @@
+{
+ "expected_head": "a272dfe",
+ "head": "a272dfe",
+ "rag-queries/test_indication_gate.py": {
+  "rc": 0,
+  "tail": "28/28 passed",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_scorer_hardening.py": {
+  "rc": 0,
+  "tail": "ALL CHECKS PASSED",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_anticoagulant_scorer.py": {
+  "rc": 0,
+  "tail": "ALL ANTICOAGULANT SCORER CHECKS PASSED",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/test_merge_lock.py": {
+  "rc": 0,
+  "tail": "8/8 passed",
+  "fails": [],
+  "stderr": ""
+ },
+ "rag-queries/smoke_api_grid.py": {
+  "rc": 0,
+  "tail": "queries run: 352, failures: 0",
+  "fails": [],
+  "stderr": ""
+ },
+ "snapshot": {
+  "scoped": {
+   "status": "ok",
+   "ranked": [
+    "pantoprazole",
+    "rabeprazole",
+    "esomeprazole",
+    "lansoprazole",
+    "omeprazole"
+   ],
+   "unranked": 0,
+   "excluded": 90
+  },
+  "pregnant": {
+   "results": 93,
+   "excluded": [
+    "lovastatin",
+    "warfarin"
+   ]
+  },
+  "hepatic_severe": {
+   "results": 85,
+   "excluded": [
+    "acarbose",
+    "atorvastatin",
+    "carvedilol",
+    "lovastatin",
+    "methyldopa",
+    "nebivolol",
+    "pitavastatin",
+    "pravastatin",
+    "rosuvastatin",
+    "simvastatin"
+   ]
+  },
+  "null_safety_fields": {
+   "pregnancy_safety": [
+    "gliclazide",
+    "vildagliptin"
+   ],
+   "lactation_safety": [
+    "gliclazide",
+    "vildagliptin"
+   ],
+   "hepatic_safety": [
+    "atenolol",
+    "clonidine",
+    "gliclazide",
+    "hydralazine",
+    "terazosin",
+    "vildagliptin"
+   ]
+  }
+ },
+ "verdict": "PASS"
+}
