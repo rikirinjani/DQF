@@ -45,6 +45,7 @@ SUITES = [
     "rag-queries/test_scorer_hardening.py",
     "rag-queries/test_anticoagulant_scorer.py",
     "rag-queries/test_merge_lock.py",
+    "rag-queries/test_typed_evidence.py",
     "rag-queries/smoke_api_grid.py",
 ]
 env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUTF8="1")

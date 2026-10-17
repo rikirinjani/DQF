@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "evidence": {
+    "omeprazole": {
+      "erosive_esophagitis_healing": {
+        "value": 85,
+        "unit": "percent",
+        "comparator": "placebo",
+        "horizon_weeks": 8,
+        "population": "erosive esophagitis",
+        "dose": "standard once-daily",
+        "source": "api/drugs.json l4_clinical.ee_healing_8wk_pct",
+        "uncertainty": null
+      }
+    },
+    "esomeprazole": {
+      "erosive_esophagitis_healing": {
+        "value": 90,
+        "unit": "percent",
+        "comparator": "placebo",
+        "horizon_weeks": 8,
+        "population": "erosive esophagitis",
+        "dose": "standard once-daily",
+        "source": "api/drugs.json l4_clinical.ee_healing_8wk_pct",
+        "uncertainty": null
+      }
+    },
+    "pantoprazole": {
+      "erosive_esophagitis_healing": {
+        "value": 89,
+        "unit": "percent",
+        "comparator": "placebo",
+        "horizon_weeks": 8,
+        "population": "erosive esophagitis",
+        "dose": "standard once-daily",
+        "source": "api/drugs.json l4_clinical.ee_healing_8wk_pct",
+        "uncertainty": null
+      }
+    },
+    "lansoprazole": {
+      "erosive_esophagitis_healing": {
+        "value": 86,
+        "unit": "percent",
+        "comparator": "placebo",
+        "horizon_weeks": 8,
+        "population": "erosive esophagitis",
+        "dose": "standard once-daily",
+        "source": "api/drugs.json l4_clinical.ee_healing_8wk_pct",
+        "uncertainty": null
+      }
+    },
+    "rabeprazole": {
+      "erosive_esophagitis_healing": {
+        "value": 84,
+        "unit": "percent",
+        "comparator": "placebo",
+        "horizon_weeks": 8,
+        "population": "erosive esophagitis",
+        "dose": "standard once-daily",
+        "source": "api/drugs.json l4_clinical.ee_healing_8wk_pct",
+        "uncertainty": null
+      }
+    }
+  }
+}

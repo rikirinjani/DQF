@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "evidence": {
     "omeprazole": {
       "erosive_esophagitis_healing": {
@@ -59,6 +59,1538 @@
         "dose": "standard once-daily",
         "source": "api/drugs.json l4_clinical.ee_healing_8wk_pct",
         "uncertainty": null
+      }
+    }
+  },
+  "endpoints": {
+    "ibuprofen": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 2.5,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "400mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 3.0,
+          "raw": "2.0-3.0"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "diclofenac": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 2.7,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "50mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 3.5,
+          "raw": "2.0-3.5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "celecoxib": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 2.5,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "200mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 3.2,
+          "raw": "2.0-3.2"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "paracetamol": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 3.6,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1000mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.9,
+          "high": 4.5,
+          "raw": "2.9-4.5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "atorvastatin": {
+      "nnt_mace_5yr": {
+        "endpoint": "nnt_mace_5yr",
+        "value": 50,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "10-80mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 35.0,
+          "high": 70.0,
+          "raw": "35-70"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_mace_5yr",
+        "status": "legacy_unsourced"
+      }
+    },
+    "rosuvastatin": {
+      "nnt_mace_5yr": {
+        "endpoint": "nnt_mace_5yr",
+        "value": 40,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "10-40mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 28.0,
+          "high": 55.0,
+          "raw": "28-55"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_mace_5yr",
+        "status": "legacy_unsourced"
+      }
+    },
+    "simvastatin": {
+      "nnt_mace_5yr": {
+        "endpoint": "nnt_mace_5yr",
+        "value": 55,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "20-40mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 38.0,
+          "high": 80.0,
+          "raw": "38-80"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_mace_5yr",
+        "status": "legacy_unsourced"
+      }
+    },
+    "pravastatin": {
+      "nnt_mace_5yr": {
+        "endpoint": "nnt_mace_5yr",
+        "value": 55,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "40-80mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 42.0,
+          "high": 75.0,
+          "raw": "42-75"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_mace_5yr",
+        "status": "legacy_unsourced"
+      }
+    },
+    "pitavastatin": {
+      "nnt_mace_5yr": {
+        "endpoint": "nnt_mace_5yr",
+        "value": 50,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "2-4mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 35.0,
+          "high": 70.0,
+          "raw": "35-70"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_mace_5yr",
+        "status": "legacy_unsourced"
+      }
+    },
+    "lovastatin": {
+      "nnt_mace_5yr": {
+        "endpoint": "nnt_mace_5yr",
+        "value": 50,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "20-40mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_mace_5yr",
+        "status": "legacy_unsourced"
+      }
+    },
+    "naproxen": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 2.7,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "500mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.2,
+          "high": 3.5,
+          "raw": "2.2-3.5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "indomethacin": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 1.8,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "50mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 1.4,
+          "high": 2.5,
+          "raw": "1.4-2.5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "meloxicam": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 4.0,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "15mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 5.5,
+          "raw": "3.0-5.5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "piroxicam": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 3.5,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.5,
+          "high": 5.0,
+          "raw": "2.5-5.0"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "ketorolac": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 2.2,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "30mg IM",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 1.8,
+          "high": 2.8,
+          "raw": "1.8-2.8"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "aspirin": {
+      "nnt_50_pain_relief": {
+        "endpoint": "nnt_50_pain_relief",
+        "value": 2.4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "600mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 1.8,
+          "high": 3.2,
+          "raw": "1.8-3.2"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_50_pain_relief",
+        "status": "legacy_unsourced"
+      }
+    },
+    "lisinopril": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "10-40mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "losartan": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "50-100mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 6.0,
+          "raw": "3-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "amlodipine": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-10mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "metoprolol": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "50-200mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "hydrochlorothiazide": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "12.5-50mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "chlorthalidone": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "12.5-25mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 4.0,
+          "raw": "2-4"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "metformin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.5,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "2000mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "empagliflozin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.8,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "10-25mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "dapagliflozin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.7,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-10mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "semaglutide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.5,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.5-2.0mg SC",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "tirzepatide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 2.1,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-15mg SC",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "insulin-glargine": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.2,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.2-0.6 U/kg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "enalapril": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-40mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "ramipril": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "2.5-20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "perindopril": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "4-8mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "captopril": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "25-150mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 6.0,
+          "raw": "2-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "trandolapril": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1-8mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "valsartan": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "80-320mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 6.0,
+          "raw": "3-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "candesartan": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "8-32mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 6.0,
+          "raw": "3-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "irbesartan": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "150-300mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 6.0,
+          "raw": "3-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "olmesartan": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "20-40mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 5.0,
+          "raw": "3-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "telmisartan": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "40-80mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 6.0,
+          "raw": "3-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "nifedipine": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "30-90mg ER",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "felodipine": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-10mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "diltiazem": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "120-360mg ER",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 6.0,
+          "raw": "2-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "verapamil": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "120-480mg ER",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 6.0,
+          "raw": "2-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "atenolol": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "25-100mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "bisoprolol": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "carvedilol": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "12.5-50mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "propranolol": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "80-320mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 8.0,
+          "raw": "3-8"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "nebivolol": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 6.0,
+          "raw": "3-6"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "furosemide": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 5,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "20-80mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 9.0,
+          "raw": "3-9"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "spironolactone": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "25-100mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "indapamide": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 3,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1.25-5mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 2.0,
+          "high": 5.0,
+          "raw": "2-5"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "doxazosin": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1-16mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "terazosin": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1-20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "clonidine": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.1-0.6mg/day",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 7.0,
+          "raw": "3-7"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "hydralazine": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 5,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "25-100mg TID",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 8.0,
+          "raw": "3-8"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "methyldopa": {
+      "nnt_bp_control": {
+        "endpoint": "nnt_bp_control",
+        "value": 4,
+        "unit": "nnt",
+        "direction": "lower_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "250-3000mg/day",
+        "source": null,
+        "uncertainty": {
+          "kind": "ci_95",
+          "low": 3.0,
+          "high": 8.0,
+          "raw": "3-8"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control",
+        "status": "legacy_unsourced"
+      }
+    },
+    "canagliflozin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.8,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "100-300mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "ertugliflozin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.7,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-15mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "liraglutide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.2,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1.2-1.8mg SC",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "dulaglutide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.2,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.75-4.5mg SC/week",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "exenatide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.9,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-10mcg BID / 2mg ER/week",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "sitagliptin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.6,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "100mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "saxagliptin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.6,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "2.5-5mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "linagliptin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.6,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "alogliptin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.6,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "25mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "vildagliptin": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.6,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "50mg BID",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "pioglitazone": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.9,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "15-45mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "rosiglitazone": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.8,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "4-8mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "glipizide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.2,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "5-20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "glimepiride": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.2,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "1-8mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "glyburide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.3,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "2.5-20mg",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "gliclazide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.1,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "30-120mg MR",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "insulin-aspart": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.3,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.5-1.0 U/kg prandial",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "insulin-lispro": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.3,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.5-1.0 U/kg prandial",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "insulin-degludec": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 1.2,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.2-0.5 U/kg basal",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "acarbose": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.6,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "50-100mg TID",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "repaglinide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.9,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "0.5-4mg before meals",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
+      }
+    },
+    "pramlintide": {
+      "a1c_reduction": {
+        "endpoint": "a1c_reduction",
+        "value": 0.5,
+        "unit": "percentage_points",
+        "direction": "higher_better",
+        "comparator": null,
+        "horizon_weeks": null,
+        "population": null,
+        "dose": "30-120mcg SC before meals",
+        "source": null,
+        "uncertainty": {
+          "kind": "not_reported"
+        },
+        "derived_from": "api/drugs.json l4_clinical.nnt_bp_control.a1c_reduction",
+        "status": "legacy_unsourced"
       }
     }
   }
