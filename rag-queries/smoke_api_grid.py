@@ -11,6 +11,7 @@ Per query, beyond "does not raise", asserts the N6b Phase 1 invariants:
   - no drug is both ranked and excluded/unranked
   - every candidate has exactly one disposition (results/excluded/eligible_unranked)
   - every excluded row carries at least one failed hard rule
+  - status is "objective_required" and the summary never names a best choice
 Run: python rag-queries/smoke_api_grid.py
 """
 import asyncio
@@ -37,6 +38,8 @@ def _check(res, cls):
         d["class"] == cls for d in server.drugs)
     if len(ranked) + len(excluded) + len(unranked) != expected:
         return f"disposition count {len(ranked)}+{len(excluded)}+{len(unranked)} != {expected}"
+    if res.get("status") != "objective_required" or "Best choice" in res["summary"]:
+        return "legacy response recommends without an objective"
     for row in res["excluded"]:
         if not any(r.get("state") == "failed" for r in row["reasons"]):
             return f"{row['id']} excluded without a failed rule"

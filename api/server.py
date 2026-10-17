@@ -1011,15 +1011,13 @@ async def query_drugs(req: QueryRequest):
     for r in results:
         r.pop("_overall_raw", None)
 
-    # Generate summary
+    # Generate summary. Without an objective the scores mix indications (a statin
+    # can outscore an NSAID for arthritis pain, RES-01), so the legacy path never
+    # names a best choice; results keep their shape/scores for grid compatibility.
     if results:
-        best = results[0]
-        summary = (
-            f"Best choice for this profile: {best['name']} "
-            f"(scores {best['overall']}/10 overall — "
-            f"efficacy {best['scores']['efficacy']}, "
-            f"safety {best['scores']['safety']})"
-        )
+        summary = (f"{len(results)} drugs scored, not recommended: scores are not "
+                   "comparable across indications. Pass `objective` for a "
+                   "recommendation.")
     elif excluded or unranked:
         summary = ("No eligible option found in the evaluated catalogue/filter: every "
                    "candidate is contraindicated or has unknown safety for this profile.")
@@ -1029,6 +1027,7 @@ async def query_drugs(req: QueryRequest):
     return {
         "schema_version": "1.1",
         "mode": "legacy",
+        "status": "objective_required",
         "deprecated": True,
         "deprecation_note": "Legacy cross-indication ranking is not objective-scoped; "
                             "pass `objective` for the scoped path (N6b).",

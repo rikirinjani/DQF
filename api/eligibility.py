@@ -60,7 +60,11 @@ def _rule_pregnancy_x(drug, patient):
 
 
 def _rule_hepatic_contraindicated(drug, patient):
-    if patient.get("hepatic_function", "normal") == "normal":
+    # Severe only: the label contraindications behind hepatic_safety name severe
+    # states (acute liver failure, decompensated cirrhosis, active liver disease,
+    # severe impairment). Mild/moderate stay penalties in server._compute_safety
+    # until an active_liver_disease input exists (design F06, Phase 3).
+    if patient.get("hepatic_function", "normal") != "severe":
         return False
     return drug.get("hepatic_safety") == "contraindicated"
 

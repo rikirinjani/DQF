@@ -197,6 +197,18 @@ def test_legacy_flagged_deprecated():
     assert "results" in res and len(res["results"]) == 95
 
 
+def test_legacy_never_recommends():
+    """Legacy (no objective) scores but never names a best choice (RES-01)."""
+    for kw in ({}, dict(age=70, pain_type="inflammatory"), dict(drug_class="NSAID"),
+               dict(drug_class="Statin", hepatic_function="severe")):
+        res = asyncio.run(server.query_drugs(_req(**kw)))
+        assert res["status"] == "objective_required", kw
+        assert "Best choice" not in res["summary"], kw
+        for r in res["results"]:
+            assert {"id", "name", "overall", "scores"} <= set(r), kw
+            assert r["name"] not in res["summary"], (kw, r["name"])
+
+
 # --- legacy hard gates (design Phase 1, review F06/F07/F15) -----------------
 # Label-sourced (2026-10-17, label_sourcing_safety_fields.json): current statin
 # labels no longer contraindicate pregnancy (-> D, penalty only); lovastatin's
@@ -236,9 +248,24 @@ def test_legacy_hepatic_contraindicated_excluded():
     assert "omeprazole" in _ids(res["results"])
 
 
+def test_legacy_hepatic_mild_moderate_not_excluded():
+    """Hepatic gate is severe-only; mild/moderate stay safety penalties."""
+    base = {r["id"]: r for r in asyncio.run(server.query_drugs(_req()))["results"]}
+    for level in ("mild", "moderate"):
+        res = asyncio.run(server.query_drugs(_req(hepatic_function=level)))
+        assert res["excluded"] == [], f"{level}: {_ids(res['excluded'])}"
+        ranked = {r["id"]: r for r in res["results"]}
+        assert HEP_CI <= set(ranked), level
+        for i in HEP_CI:
+            assert ranked[i]["scores"]["safety"] < base[i]["scores"]["safety"], (level, i)
+        state, _ = eligibility.hard_gate(BY_ID["atorvastatin"],
+                                         _patient(hepatic_function=level))
+        assert state == "pass", level
+
+
 def test_legacy_all_failures_reported():
     res = asyncio.run(server.query_drugs(
-        _req(pregnancy_status="first_trimester", hepatic_function="moderate")))
+        _req(pregnancy_status="first_trimester", hepatic_function="severe")))
     row = next(r for r in res["excluded"] if r["id"] == "lovastatin")
     assert _rules(row) == {"pregnancy_x", "hepatic_contraindicated"}
 
@@ -248,7 +275,7 @@ def test_legacy_class_filter_all_excluded_scoped_summary():
         _req(drug_class="Statin", pregnancy_status="second_trimester")))
     assert _ids(res["excluded"]) == {"lovastatin"}
     assert len(res["results"]) == 5
-    res = asyncio.run(server.query_drugs(_req(drug_class="Statin", hepatic_function="mild")))
+    res = asyncio.run(server.query_drugs(_req(drug_class="Statin", hepatic_function="severe")))
     assert res["results"] == [] and len(res["excluded"]) == 6
     rule = {"id": "test_block", "applies": lambda drug, p: drug["class"] == "Statin"}
     eligibility.HARD_RULES.append(rule)

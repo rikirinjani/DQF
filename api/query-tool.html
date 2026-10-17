@@ -1079,7 +1079,7 @@ tr.rank-1 .rank-num{
 
       <!-- Summary -->
       <div class="summary-box" id="summaryBox">
-        <div class="summary-label">Recommendation</div>
+        <div class="summary-label" id="summaryLabel">Recommendation</div>
         <div class="summary-text" id="summaryText"></div>
       </div>
 
@@ -1246,6 +1246,8 @@ function renderResults(data){
   if(data.summary){
     summaryBox.classList.add('visible');
     summaryText.textContent = data.summary;
+    $('summaryLabel').textContent =
+      data.status === 'objective_required' ? 'Scores only — not a recommendation' : 'Recommendation';
   }else{
     summaryBox.classList.remove('visible');
   }

@@ -16,6 +16,9 @@ import sys
 
 REPO = "https://github.com/rikirinjani/DQF.git"
 EXPECTED_HEAD = "__HEAD__"
+# Optional: base64 of a `git diff` against EXPECTED_HEAD, applied after the clone so
+# uncommitted work can be verified before the user approves a commit/push.
+PATCH_B64 = "__PATCH__"
 REPO_DIR = "/tmp/dqf-repo"
 RESULTS = {"expected_head": EXPECTED_HEAD}
 
@@ -25,6 +28,14 @@ head = subprocess.run(["git", "-C", REPO_DIR, "rev-parse", "--short=7", "HEAD"],
 RESULTS["head"] = head
 print("HEAD:", head, "| expected:", EXPECTED_HEAD, flush=True)
 assert head == EXPECTED_HEAD[:7], f"HEAD mismatch: {head} != {EXPECTED_HEAD}"
+if PATCH_B64 and PATCH_B64 != "__PATCH__":
+    import base64
+    import hashlib
+    patch = base64.b64decode(PATCH_B64)
+    RESULTS["patch_sha256"] = hashlib.sha256(patch).hexdigest()
+    subprocess.run(["git", "-C", REPO_DIR, "apply", "--whitespace=nowarn", "-"],
+                   input=patch, check=True)
+    print("applied patch", RESULTS["patch_sha256"][:12], flush=True)
 
 subprocess.run([sys.executable, "-m", "pip", "install", "-q",
                 "fastapi", "uvicorn", "pydantic", "requests"], check=True)
@@ -60,9 +71,14 @@ r = asyncio.run(server.query_drugs(QueryRequest(**base, objective="erosive_esoph
 out["scoped"] = {"status": r["status"], "ranked": [x["id"] for x in r["eligible_ranked"]],
                  "unranked": len(r["eligible_unranked"]), "excluded": len(r["excluded"])}
 for name, kw in (("pregnant", {"pregnancy_status": "third_trimester"}),
+                 ("hepatic_moderate", {"hepatic_function": "moderate"}),
                  ("hepatic_severe", {"hepatic_function": "severe"})):
     r = asyncio.run(server.query_drugs(QueryRequest(**dict(base, **kw))))
     out[name] = {"results": len(r["results"]), "excluded": sorted(x["id"] for x in r["excluded"])}
+r = asyncio.run(server.query_drugs(QueryRequest(**dict(base, age=70, pain_type="inflammatory"))))
+out["legacy_status"] = r.get("status")
+out["legacy_summary"] = r["summary"]
+out["legacy_top3"] = [x["id"] for x in r["results"][:3]]
 nulls = {f: sorted(d["id"] for d in server.drugs if d.get(f) is None)
          for f in ("pregnancy_safety", "lactation_safety", "hepatic_safety")}
 out["null_safety_fields"] = nulls
